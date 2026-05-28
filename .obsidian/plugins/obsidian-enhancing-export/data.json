@@ -1,0 +1,66 @@
+{
+  "items": [
+    {
+      "name": "Markdown"
+    },
+    {
+      "name": "Markdown (Hugo)"
+    },
+    {
+      "name": "Html"
+    },
+    {
+      "name": "TextBundle"
+    },
+    {
+      "name": "Typst"
+    },
+    {
+      "name": "PDF"
+    },
+    {
+      "name": "Word (.docx)"
+    },
+    {
+      "name": "OpenOffice"
+    },
+    {
+      "name": "RTF"
+    },
+    {
+      "name": "Epub"
+    },
+    {
+      "name": "Latex"
+    },
+    {
+      "name": "Media Wiki"
+    },
+    {
+      "name": "reStructuredText"
+    },
+    {
+      "name": "Textile"
+    },
+    {
+      "name": "OPML"
+    },
+    {
+      "name": "Bibliography"
+    },
+    {
+      "name": "PowerPoint (.pptx)"
+    }
+  ],
+  "defaultExportDirectoryMode": "Auto",
+  "openExportedFile": true,
+  "env": {},
+  "showExportProgressBar": true,
+  "lastExportDirectory": {
+    "darwin": "/Users/xuji/Desktop"
+  },
+  "pandocPath": {
+    "darwin": "/Users/xuji/Documents/pandoc-3.9.0.2-arm64/bin/pandoc"
+  },
+  "lastExportType": "PDF"
+}
