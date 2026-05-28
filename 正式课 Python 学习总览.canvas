@@ -1,0 +1,412 @@
+{
+  "nodes": [
+    {
+      "id": "root",
+      "type": "text",
+      "text": "Python 正式课学习总览\n基础语法 -> 流程控制 -> 容器结构 -> 函数与递归",
+      "x": 0,
+      "y": 0,
+      "width": 460,
+      "height": 170,
+      "color": "1"
+    },
+    {
+      "id": "day01",
+      "type": "file",
+      "file": "Python正式课笔记/Day01 - print 与变量入门.md",
+      "x": -760,
+      "y": -520,
+      "width": 380,
+      "height": 170,
+      "color": "2"
+    },
+    {
+      "id": "day01-idea",
+      "type": "text",
+      "text": "Day01 - print 与变量入门\n- 用 `print()` 把结果输出到控制台\n- 理解注释、代码正文、缩进各自的作用\n- 知道变量是数据的名字，赋值就是把值绑定到名字上\n- 初步理解字符串格式化和 f-string",
+      "x": -350,
+      "y": -520,
+      "width": 360,
+      "height": 190,
+      "color": "2"
+    },
+    {
+      "id": "day02",
+      "type": "file",
+      "file": "Python正式课笔记/Day02 - 数据类型与运算基础.md",
+      "x": -760,
+      "y": -250,
+      "width": 380,
+      "height": 170,
+      "color": "3"
+    },
+    {
+      "id": "day02-idea",
+      "type": "text",
+      "text": "Day02 - 数据类型与运算基础\n- 变量可以重新绑定不同类型的值\n- 常见类型包括 int、float、str、bool、list、tuple、dict、set\n- `input()` 得到的是字符串，参与计算前经常要类型转换\n- 算术、赋值、比较、逻辑运算共同构成表达式",
+      "x": -350,
+      "y": -250,
+      "width": 360,
+      "height": 190,
+      "color": "3"
+    },
+    {
+      "id": "day03",
+      "type": "file",
+      "file": "Python正式课笔记/Day03 - 分支与循环控制.md",
+      "x": -760,
+      "y": 40,
+      "width": 380,
+      "height": 170,
+      "color": "4"
+    },
+    {
+      "id": "day03-idea",
+      "type": "text",
+      "text": "Day03 - 分支与循环控制\n- `if/elif/else` 让程序按条件选择分支\n- `while` 适合在条件满足时持续循环\n- `break` 直接结束循环，`continue` 跳过本轮剩余代码\n- 练习中开始出现猜数字、累加、奇偶判断等小算法",
+      "x": -350,
+      "y": 40,
+      "width": 360,
+      "height": 190,
+      "color": "4"
+    },
+    {
+      "id": "day04",
+      "type": "file",
+      "file": "Python正式课笔记/Day04 - for 循环与列表.md",
+      "x": -760,
+      "y": 330,
+      "width": 380,
+      "height": 170,
+      "color": "5"
+    },
+    {
+      "id": "day04-idea",
+      "type": "text",
+      "text": "Day04 - for 循环与列表\n- `for` 适合遍历字符串、列表、range 等可迭代对象\n- `range()` 可以生成常用的整数序列\n- 嵌套循环可以表达二维结构，例如乘法表\n- 列表支持索引、切片、增删改查",
+      "x": -350,
+      "y": 330,
+      "width": 360,
+      "height": 190,
+      "color": "5"
+    },
+    {
+      "id": "day05",
+      "type": "file",
+      "file": "Python正式课笔记/Day05 - 推导式、拷贝、元组与字符串.md",
+      "x": 700,
+      "y": -520,
+      "width": 380,
+      "height": 170,
+      "color": "6"
+    },
+    {
+      "id": "day05-idea",
+      "type": "text",
+      "text": "Day05 - 推导式、拷贝、元组与字符串\n- 列表推导式让“循环生成列表”更简洁\n- 浅拷贝只复制外层容器，深拷贝会递归复制内部对象\n- 元组不可变，适合保存不希望被修改的数据\n- 字符串也是不可变序列，支持索引、切片和大量方法",
+      "x": 290,
+      "y": -520,
+      "width": 360,
+      "height": 190,
+      "color": "6"
+    },
+    {
+      "id": "day06",
+      "type": "file",
+      "file": "Python正式课笔记/Day06 - 字典、嵌套结构与函数项目.md",
+      "x": 700,
+      "y": -210,
+      "width": 380,
+      "height": 170,
+      "color": "1"
+    },
+    {
+      "id": "day06-idea",
+      "type": "text",
+      "text": "Day06 - 字典、嵌套结构与函数项目\n- 字典用键值对保存数据，适合按名字查信息\n- `in` 可以判断成员，`is` 判断对象身份\n- 字典和列表可以互相嵌套，表达复杂数据结构\n- 函数把一段逻辑封装起来，项目开始从脚本走向模块化",
+      "x": 290,
+      "y": -210,
+      "width": 360,
+      "height": 190,
+      "color": "1"
+    },
+    {
+      "id": "day07",
+      "type": "file",
+      "file": "Python正式课笔记/Day07 - 函数参数、返回值与作用域.md",
+      "x": 700,
+      "y": 100,
+      "width": 380,
+      "height": 170,
+      "color": "2"
+    },
+    {
+      "id": "day07-idea",
+      "type": "text",
+      "text": "Day07 - 函数参数、返回值与作用域\n- 实参传给形参，函数才能处理不同数据\n- 位置参数、关键字参数、默认参数、可变参数各有使用场景\n- `return` 把计算结果交还给调用者\n- 局部变量、全局变量和可变对象传参会影响数据修改方式",
+      "x": 290,
+      "y": 100,
+      "width": 360,
+      "height": 190,
+      "color": "2"
+    },
+    {
+      "id": "day08",
+      "type": "file",
+      "file": "Python正式课笔记/Day08 - 集合、小数与递归.md",
+      "x": 700,
+      "y": 390,
+      "width": 380,
+      "height": 170,
+      "color": "3"
+    },
+    {
+      "id": "day08-idea",
+      "type": "text",
+      "text": "Day08 - 集合、小数与递归\n- 集合 `set` 天然去重，适合集合关系运算\n- 浮点数不是精确十进制，比较时要考虑误差\n- 数据类型转换让不同类型之间可以协作\n- 递归把大问题拆成结构相同的小问题",
+      "x": 290,
+      "y": 390,
+      "width": 360,
+      "height": 190,
+      "color": "3"
+    },
+    {
+      "id": "cluster-52453a2a",
+      "type": "text",
+      "text": "基础表达能力\nDay01-Day02\n输出、变量、类型、输入、运算",
+      "x": -260,
+      "y": -650,
+      "width": 330,
+      "height": 145,
+      "color": "6"
+    },
+    {
+      "id": "cluster-9a9bee7e",
+      "type": "text",
+      "text": "流程和批量处理\nDay03-Day04\n条件、while、for、列表",
+      "x": -260,
+      "y": 300,
+      "width": 330,
+      "height": 145,
+      "color": "6"
+    },
+    {
+      "id": "cluster-02fe34a4",
+      "type": "text",
+      "text": "容器和结构化数据\nDay05-Day06\n拷贝、字符串、字典、嵌套",
+      "x": 260,
+      "y": -650,
+      "width": 330,
+      "height": 145,
+      "color": "6"
+    },
+    {
+      "id": "cluster-af77e731",
+      "type": "text",
+      "text": "函数和递归思维\nDay07-Day08\n参数、返回值、作用域、递归",
+      "x": 260,
+      "y": 300,
+      "width": 330,
+      "height": 145,
+      "color": "6"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-root-day01",
+      "fromNode": "root",
+      "fromSide": "left",
+      "toNode": "day01",
+      "toSide": "right"
+    },
+    {
+      "id": "e-day01-day01-idea",
+      "fromNode": "day01",
+      "fromSide": "right",
+      "toNode": "day01-idea",
+      "toSide": "left"
+    },
+    {
+      "id": "e-root-day02",
+      "fromNode": "root",
+      "fromSide": "left",
+      "toNode": "day02",
+      "toSide": "right"
+    },
+    {
+      "id": "e-day02-day02-idea",
+      "fromNode": "day02",
+      "fromSide": "right",
+      "toNode": "day02-idea",
+      "toSide": "left"
+    },
+    {
+      "id": "e-root-day03",
+      "fromNode": "root",
+      "fromSide": "left",
+      "toNode": "day03",
+      "toSide": "right"
+    },
+    {
+      "id": "e-day03-day03-idea",
+      "fromNode": "day03",
+      "fromSide": "right",
+      "toNode": "day03-idea",
+      "toSide": "left"
+    },
+    {
+      "id": "e-root-day04",
+      "fromNode": "root",
+      "fromSide": "left",
+      "toNode": "day04",
+      "toSide": "right"
+    },
+    {
+      "id": "e-day04-day04-idea",
+      "fromNode": "day04",
+      "fromSide": "right",
+      "toNode": "day04-idea",
+      "toSide": "left"
+    },
+    {
+      "id": "e-root-day05",
+      "fromNode": "root",
+      "fromSide": "right",
+      "toNode": "day05",
+      "toSide": "left"
+    },
+    {
+      "id": "e-day05-day05-idea",
+      "fromNode": "day05",
+      "fromSide": "left",
+      "toNode": "day05-idea",
+      "toSide": "right"
+    },
+    {
+      "id": "e-root-day06",
+      "fromNode": "root",
+      "fromSide": "right",
+      "toNode": "day06",
+      "toSide": "left"
+    },
+    {
+      "id": "e-day06-day06-idea",
+      "fromNode": "day06",
+      "fromSide": "left",
+      "toNode": "day06-idea",
+      "toSide": "right"
+    },
+    {
+      "id": "e-root-day07",
+      "fromNode": "root",
+      "fromSide": "right",
+      "toNode": "day07",
+      "toSide": "left"
+    },
+    {
+      "id": "e-day07-day07-idea",
+      "fromNode": "day07",
+      "fromSide": "left",
+      "toNode": "day07-idea",
+      "toSide": "right"
+    },
+    {
+      "id": "e-root-day08",
+      "fromNode": "root",
+      "fromSide": "right",
+      "toNode": "day08",
+      "toSide": "left"
+    },
+    {
+      "id": "e-day08-day08-idea",
+      "fromNode": "day08",
+      "fromSide": "left",
+      "toNode": "day08-idea",
+      "toSide": "right"
+    },
+    {
+      "id": "e-root-cluster-52453a2a",
+      "fromNode": "root",
+      "fromSide": "top",
+      "toNode": "cluster-52453a2a",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e-cluster-52453a2a-day01",
+      "fromNode": "cluster-52453a2a",
+      "fromSide": "left",
+      "toNode": "day01",
+      "toSide": "right"
+    },
+    {
+      "id": "e-cluster-52453a2a-day02",
+      "fromNode": "cluster-52453a2a",
+      "fromSide": "left",
+      "toNode": "day02",
+      "toSide": "right"
+    },
+    {
+      "id": "e-root-cluster-9a9bee7e",
+      "fromNode": "root",
+      "fromSide": "bottom",
+      "toNode": "cluster-9a9bee7e",
+      "toSide": "top"
+    },
+    {
+      "id": "e-cluster-9a9bee7e-day03",
+      "fromNode": "cluster-9a9bee7e",
+      "fromSide": "left",
+      "toNode": "day03",
+      "toSide": "right"
+    },
+    {
+      "id": "e-cluster-9a9bee7e-day04",
+      "fromNode": "cluster-9a9bee7e",
+      "fromSide": "left",
+      "toNode": "day04",
+      "toSide": "right"
+    },
+    {
+      "id": "e-root-cluster-02fe34a4",
+      "fromNode": "root",
+      "fromSide": "top",
+      "toNode": "cluster-02fe34a4",
+      "toSide": "bottom"
+    },
+    {
+      "id": "e-cluster-02fe34a4-day05",
+      "fromNode": "cluster-02fe34a4",
+      "fromSide": "right",
+      "toNode": "day05",
+      "toSide": "left"
+    },
+    {
+      "id": "e-cluster-02fe34a4-day06",
+      "fromNode": "cluster-02fe34a4",
+      "fromSide": "right",
+      "toNode": "day06",
+      "toSide": "left"
+    },
+    {
+      "id": "e-root-cluster-af77e731",
+      "fromNode": "root",
+      "fromSide": "bottom",
+      "toNode": "cluster-af77e731",
+      "toSide": "top"
+    },
+    {
+      "id": "e-cluster-af77e731-day07",
+      "fromNode": "cluster-af77e731",
+      "fromSide": "right",
+      "toNode": "day07",
+      "toSide": "left"
+    },
+    {
+      "id": "e-cluster-af77e731-day08",
+      "fromNode": "cluster-af77e731",
+      "fromSide": "right",
+      "toNode": "day08",
+      "toSide": "left"
+    }
+  ]
+}
