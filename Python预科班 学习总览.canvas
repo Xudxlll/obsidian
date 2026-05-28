@@ -1,288 +1,39 @@
 {
-  "nodes": [
-    {
-      "id": "root",
-      "type": "text",
-      "text": "Python预科班 学习总览\n按阶段串起每天主题",
-      "x": 0,
-      "y": 0,
-      "width": 420,
-      "height": 120,
-      "color": "1"
-    },
-    {
-      "id": "stage-python",
-      "type": "text",
-      "text": "Python 基础\nDay01-Day05：输入输出、运算、流程控制与容器练习",
-      "x": -520,
-      "y": 220,
-      "width": 440,
-      "height": 130,
-      "color": "2"
-    },
-    {
-      "id": "stage-office",
-      "type": "text",
-      "text": "可视化与办公自动化\nDay06-Day09：Matplotlib、Excel、Word 与 OpenCV 入门",
-      "x": 0,
-      "y": 220,
-      "width": 440,
-      "height": 130,
-      "color": "3"
-    },
-    {
-      "id": "stage-cv",
-      "type": "text",
-      "text": "OpenCV 图像处理\nDay10-Day13：色彩、形态、滤波、轮廓与综合检测",
-      "x": 520,
-      "y": 220,
-      "width": 440,
-      "height": 130,
-      "color": "4"
-    },
-    {
-      "id": "day01-summary",
-      "type": "text",
-      "text": "Day01 总结\n• 今天的核心任务：学习 print() 输出函数，理解默认换行和 end 参数。；理解变量是数据的名字，掌握变量命名规范和赋值。；学习 % 占位符格式化和 f-string，把变量嵌入字符串输出。\n• 真实文件里的练习/主题：shift+引号(3下)--添加多行注释信息；变量的使用；数据的使用；空值对象None；数据类型与数据类型转换；练习1:古代的秤，一斤十六两。在终端中获取两，计算几斤零几两。  效果:  请输入总两数:100  结果为:6斤4两。\n• 新学代码怎么理解\n• print()：输出到控制台，用来观察程序运行结果。",
-      "x": -520,
-      "y": 430,
-      "width": 500,
-      "height": 230,
-      "color": "1"
-    },
-    {
-      "id": "day02-summary",
-      "type": "text",
-      "text": "Day02 总结\n• 今天的核心任务：学习增强赋值、比较运算和逻辑运算，理解表达式如何得到结果。；学习 if、elif、else 的选择结构，让代码按条件执行。；通过成绩等级、月份天数、身高最大值等题目练习条件判断。\n• 真实文件里的练习/主题：增强运算符  +=  -=  *=  /=  //=  %=  =；比较运算符:用于数据之间的比较，返回结果是布尔类型值；逻辑运算符:连接2个或以上的表达式，返回布尔类型值；行；选择语句：让程序根据条件选择性执行；比较运算符练习；逻辑运\n• 新学代码怎么理解\n• float()：把数据转换为小数。",
-      "x": -520,
-      "y": 730,
-      "width": 500,
-      "height": 230,
-      "color": "2"
-    },
-    {
-      "id": "day03-summary",
-      "type": "text",
-      "text": "Day03 总结\n• 今天的核心任务：学习真值表达式和条件表达式，让判断写法更灵活。；学习 while 和 for 两种循环方式，区分条件循环和遍历循环。；使用 break、while...else、随机数和计数器完成猜数字等练习。\n• 真实文件里的练习/主题：if 真值表达式；if 条件表达式；\"；for循环：遍历可迭代对象的数据元素；商场推出了商品优惠活动，活动内容如下:；在终端中输入一个年份，如果是闰年为变量day赋值29，否则赋值28。；练习:在终端中循环录入5个成绩,最后打印平均成绩\n• 新学代码怎么理解\n• while：条件循环，适合不知道具体循环次数的场景。",
-      "x": -520,
-      "y": 1030,
-      "width": 500,
-      "height": 230,
-      "color": "3"
-    },
-    {
-      "id": "day04-summary",
-      "type": "text",
-      "text": "Day04 总结\n• 今天的核心任务：学习 range() 的开始、结束和步长规则。；学习列表的创建、索引、切片、遍历、添加、插入、删除和排序。；通过登录验证、福彩号码、列表筛选、八大行星等题目练习循环和列表。\n• 真实文件里的练习/主题：range()函数：生成一系列整数的可迭代对象（整数生成器）；列表list：存储任意数据类型的有序容器；容器通用操作；需求:计算1~100(包含1和100)数字相加之和；登录验证；列表的练习；使用python程序生成一组福彩中奖号码，并\n• 新学代码怎么理解\n• range()：生成整数序列，常配合 for 控制循环次数。",
-      "x": -520,
-      "y": 1330,
-      "width": 500,
-      "height": 230,
-      "color": "4"
-    },
-    {
-      "id": "day05-summary",
-      "type": "text",
-      "text": "Day05 总结\n• 今天的核心任务：继续学习列表删除、弹出、遍历修改和随机排序。；学习字典的创建、按键取值、添加/修改、成员判断和删除。；通过抢红包、斗地主发牌、九九乘法表、共同元素等练习组合列表、字典和嵌套循环。\n• 真实文件里的练习/主题：列表的操作；字典dict；1 索引定位单一数据元素；抢红包小案例；使用python程序生成一副斗地主牌面；打印9×9乘法表，格式如下：。\n• 新学代码怎么理解\n• 列表 []：保存一组有顺序、可修改的数据。",
-      "x": -520,
-      "y": 1630,
-      "width": 500,
-      "height": 230,
-      "color": "5"
-    },
-    {
-      "id": "day06-summary",
-      "type": "text",
-      "text": "Day06 总结\n• 今天的核心任务：学习安装和导入 Matplotlib 可视化库。；使用 plt.plot() 绘制折线图，使用 plt.pie() 绘制饼图。；使用 plt.bar() 绘制柱状图，并给图表添加标题、坐标轴标签和数值标注。\n• 真实文件里的练习/主题：matplotlib  可视化库；饼状图；柱状图（条状图）。\n• 新学代码怎么理解\n• import matplotlib.pyplot as plt：用 plt 这个常用别名创建图形、坐标轴和图表。",
-      "x": 0,
-      "y": 430,
-      "width": 500,
-      "height": 230,
-      "color": "6"
-    },
-    {
-      "id": "day07-summary",
-      "type": "text",
-      "text": "Day07 总结\n• 今天的核心任务：学习柱状图、散点图、折线图、箱线图、热力图和直方图的适用场景。；使用 NumPy 生成随机数据，配合 Matplotlib 观察数据分布和关系。；学习 Figure/Axes 对象和 FuncAnimation()，让图表按帧更新。\n• 真实文件里的练习/主题：柱状图(条状图)；散点图 数据的相关性；双折线图；箱体图；热力图；直方图；利用图形对象创建图表；基础的动态柱状图。\n• 新学代码怎么理解\n• return：把函数处理结果返回给调用处，供后续代码继续使用。",
-      "x": 0,
-      "y": 730,
-      "width": 500,
-      "height": 230,
-      "color": "1"
-    },
-    {
-      "id": "day08-summary",
-      "type": "text",
-      "text": "Day08 总结\n• 今天的核心任务：优化 Matplotlib 动画，使用固定坐标轴、线性插值和对象更新减少跳动。；学习 openpyxl 读取、创建、写入和保存 Excel 工作簿。；用表格数据结构统计人口信息，并生成新的 Excel 结果表。\n• 真实文件里的练习/主题：丝滑的动态柱状图；更加丝滑的动态柱状图；openpyxl 拷贝操作；openpyxl 写入数据；人口统计分析；pandas。\n• 新学代码怎么理解\n• .set_ylim()：设置 y 轴显示范围。",
-      "x": 0,
-      "y": 1030,
-      "width": 500,
-      "height": 230,
-      "color": "2"
-    },
-    {
-      "id": "day09-summary",
-      "type": "text",
-      "text": "Day09 总结\n• 今天的核心任务：学习使用 python-docx 创建 Word 文档、标题、段落、换页和表格。；把 Excel 表格内容读取出来，再写入 Word 表格。；初步学习 OpenCV：读取图像、查看数组形状、显示图像窗口。\n• 真实文件里的练习/主题：docx；追加表格；读取Excel表中的内容，写入到word文档的表格中；opencv。\n• 新学代码怎么理解\n• import docx：导入 python-docx，用来创建和编辑 Word 文档。",
-      "x": 0,
-      "y": 1330,
-      "width": 500,
-      "height": 230,
-      "color": "3"
-    },
-    {
-      "id": "day10-summary",
-      "type": "text",
-      "text": "Day10 总结\n• 今天的核心任务：学习 OpenCV 图像读取、显示、保存，以及灰度和彩色读取方式。；学习 BGR、RGB、GRAY、HSV、YUV 等色彩空间转换。；学习二值化、直方图均衡化、通道拆分和 NumPy 数组切片。\n• 真实文件里的练习/主题：读取灰度图像并保存；色彩空间；二值化和反二值化；灰度图直方图均衡化；通道操作；数组切片；从图片中提取特定的颜色  ==> 分割；读取彩色图像。\n• 新学代码怎么理解\n• cv2.imread()：按路径读取图像，第二个参数常用来控制彩色或灰度读取。",
-      "x": 520,
-      "y": 430,
-      "width": 500,
-      "height": 230,
-      "color": "4"
-    },
-    {
-      "id": "day11-summary",
-      "type": "text",
-      "text": "Day11 总结\n• 今天的核心任务：学习图像翻转、平移、旋转、缩放等几何变换。；学习图像加法、减法和加权融合，理解像素级运算。；学习腐蚀、膨胀、开运算、闭运算、形态学梯度、顶帽和黑帽。\n• 真实文件里的练习/主题：形态操作；仿射变换: 平移 镜像 旋转；仿射变换: 平移 镜像 旋转；图像缩放；图像加法  去噪声  水印；图像减法  图像的差异；图像腐蚀；图像膨胀。\n• 新学代码怎么理解\n• cv2.flip()：按水平、垂直或双方向翻转图像。",
-      "x": 520,
-      "y": 730,
-      "width": 500,
-      "height": 230,
-      "color": "5"
-    },
-    {
-      "id": "day12-summary",
-      "type": "text",
-      "text": "Day12 总结\n• 今天的核心任务：学习均值滤波、中值滤波和高斯滤波，比较它们的去噪效果。；学习用卷积核做图像锐化，增强边缘和纹理。；学习 Canny、Sobel 等边缘检测思路。\n• 真实文件里的练习/主题：图像梯度:；中值滤波；高斯滤波；图像锐化；边缘检测；图像轮廓；拟合矩形。\n• 新学代码怎么理解\n• cv2.blur()：均值滤波，让图像变平滑。",
-      "x": 520,
-      "y": 1030,
-      "width": 500,
-      "height": 230,
-      "color": "6"
-    },
-    {
-      "id": "day13-summary",
-      "type": "text",
-      "text": "Day13 总结\n• 今天的核心任务：学习最小包围圆、拟合椭圆和多边形近似等形状分析方法。；通过 CPU 镀盘瑕疵检测练习灰度化、二值化、轮廓、掩膜、形态学和面积筛选。；通过硬币计数综合使用模糊、OTSU 二值化、轮廓查找和绘制。\n• 真实文件里的练习/主题：最小包围圆；最优拟合椭圆；逼近多边形；综合案例 CPU镀盘瑕疵检测；综合案例 标记图中硬币的轮廓并计算数量；利用opencv提供的Haar级联分类器完成人脸识别。\n• 新学代码怎么理解\n• cv2.minEnclosingCircle()：计算包住目标轮廓的最小圆。",
-      "x": 520,
-      "y": 1330,
-      "width": 500,
-      "height": 230,
-      "color": "1"
-    }
-  ],
-  "edges": [
-    {
-      "id": "e-root-stage-python",
-      "fromNode": "root",
-      "fromSide": "bottom",
-      "toNode": "stage-python",
-      "toSide": "top"
-    },
-    {
-      "id": "e-root-stage-office",
-      "fromNode": "root",
-      "fromSide": "bottom",
-      "toNode": "stage-office",
-      "toSide": "top"
-    },
-    {
-      "id": "e-root-stage-cv",
-      "fromNode": "root",
-      "fromSide": "bottom",
-      "toNode": "stage-cv",
-      "toSide": "top"
-    },
-    {
-      "id": "e-stage-python-day01-summary",
-      "fromNode": "stage-python",
-      "fromSide": "bottom",
-      "toNode": "day01-summary",
-      "toSide": "top"
-    },
-    {
-      "id": "e-day01-summary-day02-summary",
-      "fromNode": "day01-summary",
-      "fromSide": "bottom",
-      "toNode": "day02-summary",
-      "toSide": "top"
-    },
-    {
-      "id": "e-day02-summary-day03-summary",
-      "fromNode": "day02-summary",
-      "fromSide": "bottom",
-      "toNode": "day03-summary",
-      "toSide": "top"
-    },
-    {
-      "id": "e-day03-summary-day04-summary",
-      "fromNode": "day03-summary",
-      "fromSide": "bottom",
-      "toNode": "day04-summary",
-      "toSide": "top"
-    },
-    {
-      "id": "e-day04-summary-day05-summary",
-      "fromNode": "day04-summary",
-      "fromSide": "bottom",
-      "toNode": "day05-summary",
-      "toSide": "top"
-    },
-    {
-      "id": "e-stage-office-day06-summary",
-      "fromNode": "stage-office",
-      "fromSide": "bottom",
-      "toNode": "day06-summary",
-      "toSide": "top"
-    },
-    {
-      "id": "e-day06-summary-day07-summary",
-      "fromNode": "day06-summary",
-      "fromSide": "bottom",
-      "toNode": "day07-summary",
-      "toSide": "top"
-    },
-    {
-      "id": "e-day07-summary-day08-summary",
-      "fromNode": "day07-summary",
-      "fromSide": "bottom",
-      "toNode": "day08-summary",
-      "toSide": "top"
-    },
-    {
-      "id": "e-day08-summary-day09-summary",
-      "fromNode": "day08-summary",
-      "fromSide": "bottom",
-      "toNode": "day09-summary",
-      "toSide": "top"
-    },
-    {
-      "id": "e-stage-cv-day10-summary",
-      "fromNode": "stage-cv",
-      "fromSide": "bottom",
-      "toNode": "day10-summary",
-      "toSide": "top"
-    },
-    {
-      "id": "e-day10-summary-day11-summary",
-      "fromNode": "day10-summary",
-      "fromSide": "bottom",
-      "toNode": "day11-summary",
-      "toSide": "top"
-    },
-    {
-      "id": "e-day11-summary-day12-summary",
-      "fromNode": "day11-summary",
-      "fromSide": "bottom",
-      "toNode": "day12-summary",
-      "toSide": "top"
-    },
-    {
-      "id": "e-day12-summary-day13-summary",
-      "fromNode": "day12-summary",
-      "fromSide": "bottom",
-      "toNode": "day13-summary",
-      "toSide": "top"
-    }
-  ]
+	"nodes":[
+		{"id":"root","type":"text","text":"Python预科班 学习总览\n按阶段串起每天主题","x":0,"y":0,"width":420,"height":120,"color":"1"},
+		{"id":"stage-python","type":"text","text":"Python 基础\nDay01-Day05：输入输出、运算、流程控制与容器练习","x":-520,"y":220,"width":440,"height":130,"color":"2"},
+		{"id":"stage-office","type":"text","text":"可视化与办公自动化\nDay06-Day09：Matplotlib、Excel、Word 与 OpenCV 入门","x":0,"y":220,"width":440,"height":130,"color":"3"},
+		{"id":"stage-cv","type":"text","text":"OpenCV 图像处理\nDay10-Day13：色彩、形态、滤波、轮廓与综合检测","x":520,"y":220,"width":440,"height":130,"color":"4"},
+		{"id":"day01-summary","type":"text","text":"Day01 总结\n• 今天的核心任务：学习 print() 输出函数，理解默认换行和 end 参数。；理解变量是数据的名字，掌握变量命名规范和赋值。；学习 % 占位符格式化和 f-string，把变量嵌入字符串输出。\n• 真实文件里的练习/主题：shift+引号(3下)--添加多行注释信息；变量的使用；数据的使用；空值对象None；数据类型与数据类型转换；练习1:古代的秤，一斤十六两。在终端中获取两，计算几斤零几两。  效果:  请输入总两数:100  结果为:6斤4两。\n• 新学代码怎么理解\n• print()：输出到控制台，用来观察程序运行结果。","x":-520,"y":430,"width":500,"height":230,"color":"1"},
+		{"id":"day02-summary","type":"text","text":"Day02 总结\n• 今天的核心任务：学习增强赋值、比较运算和逻辑运算，理解表达式如何得到结果。；学习 if、elif、else 的选择结构，让代码按条件执行。；通过成绩等级、月份天数、身高最大值等题目练习条件判断。\n• 真实文件里的练习/主题：增强运算符  +=  -=  *=  /=  //=  %=  =；比较运算符:用于数据之间的比较，返回结果是布尔类型值；逻辑运算符:连接2个或以上的表达式，返回布尔类型值；行；选择语句：让程序根据条件选择性执行；比较运算符练习；逻辑运\n• 新学代码怎么理解\n• float()：把数据转换为小数。","x":-520,"y":730,"width":500,"height":230,"color":"2"},
+		{"id":"day03-summary","type":"text","text":"Day03 总结\n• 今天的核心任务：学习真值表达式和条件表达式，让判断写法更灵活。；学习 while 和 for 两种循环方式，区分条件循环和遍历循环。；使用 break、while...else、随机数和计数器完成猜数字等练习。\n• 真实文件里的练习/主题：if 真值表达式；if 条件表达式；\"；for循环：遍历可迭代对象的数据元素；商场推出了商品优惠活动，活动内容如下:；在终端中输入一个年份，如果是闰年为变量day赋值29，否则赋值28。；练习:在终端中循环录入5个成绩,最后打印平均成绩\n• 新学代码怎么理解\n• while：条件循环，适合不知道具体循环次数的场景。","x":-520,"y":1030,"width":500,"height":230,"color":"3"},
+		{"id":"day04-summary","type":"text","text":"Day04 总结\n• 今天的核心任务：学习 range() 的开始、结束和步长规则。；学习列表的创建、索引、切片、遍历、添加、插入、删除和排序。；通过登录验证、福彩号码、列表筛选、八大行星等题目练习循环和列表。\n• 真实文件里的练习/主题：range()函数：生成一系列整数的可迭代对象（整数生成器）；列表list：存储任意数据类型的有序容器；容器通用操作；需求:计算1~100(包含1和100)数字相加之和；登录验证；列表的练习；使用python程序生成一组福彩中奖号码，并\n• 新学代码怎么理解\n• range()：生成整数序列，常配合 for 控制循环次数。","x":-520,"y":1330,"width":500,"height":230,"color":"4"},
+		{"id":"day05-summary","type":"text","text":"Day05 总结\n• 今天的核心任务：继续学习列表删除、弹出、遍历修改和随机排序。；学习字典的创建、按键取值、添加/修改、成员判断和删除。；通过抢红包、斗地主发牌、九九乘法表、共同元素等练习组合列表、字典和嵌套循环。\n• 真实文件里的练习/主题：列表的操作；字典dict；1 索引定位单一数据元素；抢红包小案例；使用python程序生成一副斗地主牌面；打印9×9乘法表，格式如下：。\n• 新学代码怎么理解\n• 列表 []：保存一组有顺序、可修改的数据。","x":-520,"y":1630,"width":500,"height":230,"color":"5"},
+		{"id":"day06-summary","type":"text","text":"Day06 总结\n• 今天的核心任务：学习安装和导入 Matplotlib 可视化库。；使用 plt.plot() 绘制折线图，使用 plt.pie() 绘制饼图。；使用 plt.bar() 绘制柱状图，并给图表添加标题、坐标轴标签和数值标注。\n• 真实文件里的练习/主题：matplotlib  可视化库；饼状图；柱状图（条状图）。\n• 新学代码怎么理解\n• import matplotlib.pyplot as plt：用 plt 这个常用别名创建图形、坐标轴和图表。","x":0,"y":430,"width":500,"height":230,"color":"6"},
+		{"id":"day07-summary","type":"text","text":"Day07 总结\n• 今天的核心任务：学习柱状图、散点图、折线图、箱线图、热力图和直方图的适用场景。；使用 NumPy 生成随机数据，配合 Matplotlib 观察数据分布和关系。；学习 Figure/Axes 对象和 FuncAnimation()，让图表按帧更新。\n• 真实文件里的练习/主题：柱状图(条状图)；散点图 数据的相关性；双折线图；箱体图；热力图；直方图；利用图形对象创建图表；基础的动态柱状图。\n• 新学代码怎么理解\n• return：把函数处理结果返回给调用处，供后续代码继续使用。","x":0,"y":730,"width":500,"height":230,"color":"1"},
+		{"id":"day08-summary","type":"text","text":"Day08 总结\n• 今天的核心任务：优化 Matplotlib 动画，使用固定坐标轴、线性插值和对象更新减少跳动。；学习 openpyxl 读取、创建、写入和保存 Excel 工作簿。；用表格数据结构统计人口信息，并生成新的 Excel 结果表。\n• 真实文件里的练习/主题：丝滑的动态柱状图；更加丝滑的动态柱状图；openpyxl 拷贝操作；openpyxl 写入数据；人口统计分析；pandas。\n• 新学代码怎么理解\n• .set_ylim()：设置 y 轴显示范围。","x":0,"y":1030,"width":500,"height":230,"color":"2"},
+		{"id":"day09-summary","type":"text","text":"Day09 总结\n• 今天的核心任务：学习使用 python-docx 创建 Word 文档、标题、段落、换页和表格。；把 Excel 表格内容读取出来，再写入 Word 表格。；初步学习 OpenCV：读取图像、查看数组形状、显示图像窗口。\n• 真实文件里的练习/主题：docx；追加表格；读取Excel表中的内容，写入到word文档的表格中；opencv。\n• 新学代码怎么理解\n• import docx：导入 python-docx，用来创建和编辑 Word 文档。","x":0,"y":1330,"width":500,"height":230,"color":"3"},
+		{"id":"day10-summary","type":"text","text":"Day10 总结\n• 今天的核心任务：学习 OpenCV 图像读取、显示、保存，以及灰度和彩色读取方式。；学习 BGR、RGB、GRAY、HSV、YUV 等色彩空间转换。；学习二值化、直方图均衡化、通道拆分和 NumPy 数组切片。\n• 真实文件里的练习/主题：读取灰度图像并保存；色彩空间；二值化和反二值化；灰度图直方图均衡化；通道操作；数组切片；从图片中提取特定的颜色  ==> 分割；读取彩色图像。\n• 新学代码怎么理解\n• cv2.imread()：按路径读取图像，第二个参数常用来控制彩色或灰度读取。","x":520,"y":430,"width":500,"height":230,"color":"4"},
+		{"id":"day11-summary","type":"text","text":"Day11 总结\n• 今天的核心任务：学习图像翻转、平移、旋转、缩放等几何变换。；学习图像加法、减法和加权融合，理解像素级运算。；学习腐蚀、膨胀、开运算、闭运算、形态学梯度、顶帽和黑帽。\n• 真实文件里的练习/主题：形态操作；仿射变换: 平移 镜像 旋转；仿射变换: 平移 镜像 旋转；图像缩放；图像加法  去噪声  水印；图像减法  图像的差异；图像腐蚀；图像膨胀。\n• 新学代码怎么理解\n• cv2.flip()：按水平、垂直或双方向翻转图像。","x":520,"y":730,"width":500,"height":230,"color":"5"},
+		{"id":"day12-summary","type":"text","text":"Day12 总结\n• 今天的核心任务：学习均值滤波、中值滤波和高斯滤波，比较它们的去噪效果。；学习用卷积核做图像锐化，增强边缘和纹理。；学习 Canny、Sobel 等边缘检测思路。\n• 真实文件里的练习/主题：图像梯度:；中值滤波；高斯滤波；图像锐化；边缘检测；图像轮廓；拟合矩形。\n• 新学代码怎么理解\n• cv2.blur()：均值滤波，让图像变平滑。","x":520,"y":1030,"width":500,"height":230,"color":"6"},
+		{"id":"day13-summary","type":"text","text":"Day13 总结\n• 今天的核心任务：学习最小包围圆、拟合椭圆和多边形近似等形状分析方法。；通过 CPU 镀盘瑕疵检测练习灰度化、二值化、轮廓、掩膜、形态学和面积筛选。；通过硬币计数综合使用模糊、OTSU 二值化、轮廓查找和绘制。\n• 真实文件里的练习/主题：最小包围圆；最优拟合椭圆；逼近多边形；综合案例 CPU镀盘瑕疵检测；综合案例 标记图中硬币的轮廓并计算数量；利用opencv提供的Haar级联分类器完成人脸识别。\n• 新学代码怎么理解\n• cv2.minEnclosingCircle()：计算包住目标轮廓的最小圆。","x":520,"y":1330,"width":500,"height":230,"color":"1"}
+	],
+	"edges":[
+		{"id":"e-root-stage-python","fromNode":"root","fromSide":"bottom","toNode":"stage-python","toSide":"top"},
+		{"id":"e-root-stage-office","fromNode":"root","fromSide":"bottom","toNode":"stage-office","toSide":"top"},
+		{"id":"e-root-stage-cv","fromNode":"root","fromSide":"bottom","toNode":"stage-cv","toSide":"top"},
+		{"id":"e-stage-python-day01-summary","fromNode":"stage-python","fromSide":"bottom","toNode":"day01-summary","toSide":"top"},
+		{"id":"e-day01-summary-day02-summary","fromNode":"day01-summary","fromSide":"bottom","toNode":"day02-summary","toSide":"top"},
+		{"id":"e-day02-summary-day03-summary","fromNode":"day02-summary","fromSide":"bottom","toNode":"day03-summary","toSide":"top"},
+		{"id":"e-day03-summary-day04-summary","fromNode":"day03-summary","fromSide":"bottom","toNode":"day04-summary","toSide":"top"},
+		{"id":"e-day04-summary-day05-summary","fromNode":"day04-summary","fromSide":"bottom","toNode":"day05-summary","toSide":"top"},
+		{"id":"e-stage-office-day06-summary","fromNode":"stage-office","fromSide":"bottom","toNode":"day06-summary","toSide":"top"},
+		{"id":"e-day06-summary-day07-summary","fromNode":"day06-summary","fromSide":"bottom","toNode":"day07-summary","toSide":"top"},
+		{"id":"e-day07-summary-day08-summary","fromNode":"day07-summary","fromSide":"bottom","toNode":"day08-summary","toSide":"top"},
+		{"id":"e-day08-summary-day09-summary","fromNode":"day08-summary","fromSide":"bottom","toNode":"day09-summary","toSide":"top"},
+		{"id":"e-stage-cv-day10-summary","fromNode":"stage-cv","fromSide":"bottom","toNode":"day10-summary","toSide":"top"},
+		{"id":"e-day10-summary-day11-summary","fromNode":"day10-summary","fromSide":"bottom","toNode":"day11-summary","toSide":"top"},
+		{"id":"e-day11-summary-day12-summary","fromNode":"day11-summary","fromSide":"bottom","toNode":"day12-summary","toSide":"top"},
+		{"id":"e-day12-summary-day13-summary","fromNode":"day12-summary","fromSide":"bottom","toNode":"day13-summary","toSide":"top"}
+	]
 }
