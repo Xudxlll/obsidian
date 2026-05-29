@@ -1,0 +1,595 @@
+<svg aria-roledescription="stateDiagram" role="graphics-document document" viewBox="0 0 2180.265625 799" style="max-width: 2180.265625px;" class="statediagram"
+    xmlns="http://www.w3.org/2000/svg" width="100%" id="graphDiv">
+    <style>#graphDiv{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;fill:#333;}#graphDiv .error-icon{fill:#552222;}#graphDiv .error-text{fill:#552222;stroke:#552222;}#graphDiv .edge-thickness-normal{stroke-width:2px;}#graphDiv .edge-thickness-thick{stroke-width:3.5px;}#graphDiv .edge-pattern-solid{stroke-dasharray:0;}#graphDiv .edge-pattern-dashed{stroke-dasharray:3;}#graphDiv .edge-pattern-dotted{stroke-dasharray:2;}#graphDiv .marker{fill:#333333;stroke:#333333;}#graphDiv .marker.cross{stroke:#333333;}#graphDiv svg{font-family:"trebuchet ms",verdana,arial,sans-serif;font-size:16px;}#graphDiv defs #statediagram-barbEnd{fill:#333333;stroke:#333333;}#graphDiv g.stateGroup text{fill:#9370DB;stroke:none;font-size:10px;}#graphDiv g.stateGroup text{fill:#333;stroke:none;font-size:10px;}#graphDiv g.stateGroup .state-title{font-weight:bolder;fill:#131300;}#graphDiv g.stateGroup rect{fill:#ECECFF;stroke:#9370DB;}#graphDiv g.stateGroup line{stroke:#333333;stroke-width:1;}#graphDiv .transition{stroke:#333333;stroke-width:1;fill:none;}#graphDiv .stateGroup .composit{fill:white;border-bottom:1px;}#graphDiv .stateGroup .alt-composit{fill:#e0e0e0;border-bottom:1px;}#graphDiv .state-note{stroke:#aaaa33;fill:#fff5ad;}#graphDiv .state-note text{fill:black;stroke:none;font-size:10px;}#graphDiv .stateLabel .box{stroke:none;stroke-width:0;fill:#ECECFF;opacity:0.5;}#graphDiv .edgeLabel .label rect{fill:#ECECFF;opacity:0.5;}#graphDiv .edgeLabel .label text{fill:#333;}#graphDiv .label div .edgeLabel{color:#333;}#graphDiv .stateLabel text{fill:#131300;font-size:10px;font-weight:bold;}#graphDiv .node circle.state-start{fill:#333333;stroke:#333333;}#graphDiv .node .fork-join{fill:#333333;stroke:#333333;}#graphDiv .node circle.state-end{fill:#9370DB;stroke:white;stroke-width:1.5;}#graphDiv .end-state-inner{fill:white;stroke-width:1.5;}#graphDiv .node rect{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#graphDiv .node polygon{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#graphDiv #statediagram-barbEnd{fill:#333333;}#graphDiv .statediagram-cluster rect{fill:#ECECFF;stroke:#9370DB;stroke-width:1px;}#graphDiv .cluster-label,#graphDiv .nodeLabel{color:#131300;}#graphDiv .statediagram-cluster rect.outer{rx:5px;ry:5px;}#graphDiv .statediagram-state .divider{stroke:#9370DB;}#graphDiv .statediagram-state .title-state{rx:5px;ry:5px;}#graphDiv .statediagram-cluster.statediagram-cluster .inner{fill:white;}#graphDiv .statediagram-cluster.statediagram-cluster-alt .inner{fill:#f0f0f0;}#graphDiv .statediagram-cluster .inner{rx:0;ry:0;}#graphDiv .statediagram-state rect.basic{rx:5px;ry:5px;}#graphDiv .statediagram-state rect.divider{stroke-dasharray:10,10;fill:#f0f0f0;}#graphDiv .note-edge{stroke-dasharray:5;}#graphDiv .statediagram-note rect{fill:#fff5ad;stroke:#aaaa33;stroke-width:1px;rx:0;ry:0;}#graphDiv .statediagram-note rect{fill:#fff5ad;stroke:#aaaa33;stroke-width:1px;rx:0;ry:0;}#graphDiv .statediagram-note text{fill:black;}#graphDiv .statediagram-note .nodeLabel{color:black;}#graphDiv .statediagram .edgeLabel{color:red;}#graphDiv #dependencyStart,#graphDiv #dependencyEnd{fill:#333333;stroke:#333333;stroke-width:1;}#graphDiv .statediagramTitleText{text-anchor:middle;font-size:18px;fill:#333;}#graphDiv :root{--mermaid-font-family:"trebuchet ms",verdana,arial,sans-serif;}</style>
+    <g>
+        <defs>
+            <marker orient="auto" markerUnits="strokeWidth" markerHeight="14" markerWidth="20" refY="7" refX="19" id="graphDiv_statediagram-barbEnd">
+                <path d="M 19,7 L9,13 L14,7 L9,1 Z"></path>
+            </marker>
+        </defs>
+        <g class="root">
+            <g class="clusters"></g>
+            <g class="edgePaths">
+                <path marker-end="url(#graphDiv_statediagram-barbEnd)" style="fill:none" class="edge-thickness-normal transition" id="edge46" d="M22,399.5L35.146,399.5C48.292,399.5,74.583,399.5,100.875,399.5C127.167,399.5,153.458,399.5,166.604,399.5L179.75,399.5"></path>
+                <path marker-end="url(#graphDiv_statediagram-barbEnd)" style="fill:none" class="edge-thickness-normal transition" id="edge47" d="M258.75,399.5L270.882,399.5C283.013,399.5,307.276,399.5,331.539,399.5C355.802,399.5,380.065,399.5,392.197,399.5L404.328,399.5"></path>
+                <path marker-end="url(#graphDiv_statediagram-barbEnd)" style="fill:none" class="edge-thickness-normal transition" id="edge55" d="M639.781,399.5L654.479,399.5C669.177,399.5,698.573,399.5,727.969,399.5C757.365,399.5,786.76,399.5,801.458,399.5L816.156,399.5"></path>
+                <path marker-end="url(#graphDiv_statediagram-barbEnd)" style="fill:none" class="edge-thickness-normal transition" id="edge56" d="M975.156,399.5L988.354,399.5C1001.552,399.5,1027.948,399.5,1054.344,399.5C1080.74,399.5,1107.135,399.5,1120.333,399.5L1133.531,399.5"></path>
+                <path marker-end="url(#graphDiv_statediagram-barbEnd)" style="fill:none" class="edge-thickness-normal transition" id="edge62" d="M1382.797,384.928L1398.732,383.065C1414.667,381.202,1446.536,377.476,1478.406,378.328C1510.276,379.181,1542.146,384.612,1558.081,387.327L1574.016,390.042"></path>
+                <path marker-end="url(#graphDiv_statediagram-barbEnd)" style="fill:none" class="edge-thickness-normal transition" id="edge63" d="M1574.016,408.958L1558.081,411.673C1542.146,414.388,1510.276,419.819,1478.406,420.672C1446.536,421.524,1414.667,417.798,1398.732,415.935L1382.797,414.072"></path>
+                <path marker-end="url(#graphDiv_statediagram-barbEnd)" style="fill:none" class="edge-thickness-normal transition" id="edge64" d="M1685.016,399.5L1702.285,399.5C1719.555,399.5,1754.094,399.5,1788.633,399.5C1823.172,399.5,1857.711,399.5,1874.98,399.5L1892.25,399.5"></path>
+                <path marker-end="url(#graphDiv_statediagram-barbEnd)" style="fill:none" class="edge-thickness-normal transition" id="edge68" d="M2108.266,399.5L2112.432,399.5C2116.599,399.5,2124.932,399.5,2133.266,399.5C2141.599,399.5,2149.932,399.5,2154.099,399.5L2158.266,399.5"></path>
+            </g>
+            <g class="edgeLabels">
+                <g transform="translate(100.875, 399.5)" class="edgeLabel">
+                    <g transform="translate(-53.875, -21)" class="label">
+                        <rect height="42" width="107.75" ry="0" rx="0"></rect>
+                        <foreignObject height="42" width="107.75">
+                            <div style="display: inline-block; white-space: nowrap;"
+                                xmlns="http://www.w3.org/1999/xhtml">
+                                <span class="edgeLabel">定义 outer(x)
+
+                                    <br>(尚未产生闭包)</br>
+                                </span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g transform="translate(331.5390625, 399.5)" class="edgeLabel">
+                    <g transform="translate(-47.7890625, -10.5)" class="label">
+                        <rect height="21" width="95.578125" ry="0" rx="0"></rect>
+                        <foreignObject height="21" width="95.578125">
+                            <div style="display: inline-block; white-space: nowrap;"
+                                xmlns="http://www.w3.org/1999/xhtml">
+                                <span class="edgeLabel">执行 outer(5)</span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g transform="translate(727.96875, 399.5)" class="edgeLabel">
+                    <g transform="translate(-63.1875, -31.5)" class="label">
+                        <rect height="63" width="126.375" ry="0" rx="0"></rect>
+                        <foreignObject height="63" width="126.375">
+                            <div style="display: inline-block; white-space: nowrap;"
+                                xmlns="http://www.w3.org/1999/xhtml">
+                                <span class="edgeLabel">outer 返回后
+
+                                    <br>frame_outer 结束</br>
+                                    <br>cell(x) 仍被引用</br>
+                                </span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g transform="translate(1054.34375, 399.5)" class="edgeLabel">
+                    <g transform="translate(-54.1875, -10.5)" class="label">
+                        <rect height="21" width="108.375" ry="0" rx="0"></rect>
+                        <foreignObject height="21" width="108.375">
+                            <div style="display: inline-block; white-space: nowrap;"
+                                xmlns="http://www.w3.org/1999/xhtml">
+                                <span class="edgeLabel">执行 add_5(10)</span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g transform="translate(1478.40625, 373.75)" class="edgeLabel">
+                    <g transform="translate(-55.921875, -21)" class="label">
+                        <rect height="42" width="111.84375" ry="0" rx="0"></rect>
+                        <foreignObject height="42" width="111.84375">
+                            <div style="display: inline-block; white-space: nowrap;"
+                                xmlns="http://www.w3.org/1999/xhtml">
+                                <span class="edgeLabel">add_5 仍被引用
+        
+                                    <br>可再次调用</br>
+                                </span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g transform="translate(1478.40625, 425.25)" class="edgeLabel">
+                    <g transform="translate(-70.609375, -10.5)" class="label">
+                        <rect height="21" width="141.21875" ry="0" rx="0"></rect>
+                        <foreignObject height="21" width="141.21875">
+                            <div style="display: inline-block; white-space: nowrap;"
+                                xmlns="http://www.w3.org/1999/xhtml">
+                                <span class="edgeLabel">再次调用 add_5(...)</span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g transform="translate(1788.6328125, 399.5)" class="edgeLabel">
+                    <g transform="translate(-78.6171875, -21)" class="label">
+                        <rect height="42" width="157.234375" ry="0" rx="0"></rect>
+                        <foreignObject height="42" width="157.234375">
+                            <div style="display: inline-block; white-space: nowrap;"
+                                xmlns="http://www.w3.org/1999/xhtml">
+                                <span class="edgeLabel">当 add_5 无引用
+            
+                                    <br>(置 None/超出作用域)</br>
+                                </span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g class="edgeLabel">
+                    <g transform="translate(0, 0)" class="label">
+                        <rect height="0" width="0" ry="0" rx="0"></rect>
+                        <foreignObject height="0" width="0">
+                            <div style="display: inline-block; white-space: nowrap;"
+                                xmlns="http://www.w3.org/1999/xhtml">
+                                <span class="edgeLabel"></span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+            </g>
+            <g class="nodes">
+                <g transform="translate(15, 399.5)" data-id="root_start" data-node="true" id="state-root_start-46" class="node default">
+                    <circle height="14" width="14" r="7" class="state-start"></circle>
+                </g>
+                <g transform="translate(219.25, 399.5)" data-id="定义函数" data-node="true" id="state-定义函数-47" class="node  statediagram-state undefined">
+                    <rect height="36" width="79" y="-18" x="-39.5" style="" class="basic label-container"></rect>
+                    <g transform="translate(-32, -10.5)" style="" class="label">
+                        <rect></rect>
+                        <foreignObject height="21" width="64">
+                            <div style="display: inline-block; white-space: nowrap;"
+                                xmlns="http://www.w3.org/1999/xhtml">
+                                <span class="nodeLabel">定义函数</span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g transform="translate(396.828125, 0)" class="root">
+                    <g class="clusters">
+                        <g id="调用外层" class="statediagram-state statediagram-cluster">
+                            <rect height="783" width="235.453125" y="8" x="8" class="outer"></rect>
+                            <g transform="translate(93.7265625, 8)" class="cluster-label">
+                                <foreignObject height="21" width="64">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="nodeLabel">调用外层</span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                            <rect height="759" width="235.453125" y="28" x="8" class="inner"></rect>
+                        </g>
+                    </g>
+                    <g class="edgePaths">
+                        <path marker-end="url(#graphDiv_statediagram-barbEnd)" style="fill:none" class="edge-thickness-normal transition" id="edge48" d="M125.727,47L125.727,51.167C125.727,55.333,125.727,63.667,125.727,72C125.727,80.333,125.727,88.667,125.727,92.833L125.727,97"></path>
+                        <path marker-end="url(#graphDiv_statediagram-barbEnd)" style="fill:none" class="edge-thickness-normal transition" id="edge49" d="M125.727,133L125.727,138.75C125.727,144.5,125.727,156,125.727,167.5C125.727,179,125.727,190.5,125.727,196.25L125.727,202"></path>
+                        <path marker-end="url(#graphDiv_statediagram-barbEnd)" style="fill:none" class="edge-thickness-normal transition" id="edge50" d="M125.727,238L125.727,245.667C125.727,253.333,125.727,268.667,125.727,284C125.727,299.333,125.727,314.667,125.727,322.333L125.727,330"></path>
+                        <path marker-end="url(#graphDiv_statediagram-barbEnd)" style="fill:none" class="edge-thickness-normal transition" id="edge51" d="M125.727,366L125.727,373.5C125.727,381,125.727,396,125.727,411C125.727,426,125.727,441,125.727,448.5L125.727,456"></path>
+                        <path marker-end="url(#graphDiv_statediagram-barbEnd)" style="fill:none" class="edge-thickness-normal transition" id="edge52" d="M125.727,492L125.727,497.75C125.727,503.5,125.727,515,125.727,526.5C125.727,538,125.727,549.5,125.727,555.25L125.727,561"></path>
+                        <path marker-end="url(#graphDiv_statediagram-barbEnd)" style="fill:none" class="edge-thickness-normal transition" id="edge53" d="M125.727,597L125.727,602.75C125.727,608.5,125.727,620,125.727,631.5C125.727,643,125.727,654.5,125.727,660.25L125.727,666"></path>
+                        <path marker-end="url(#graphDiv_statediagram-barbEnd)" style="fill:none" class="edge-thickness-normal transition" id="edge54" d="M125.727,702L125.727,706.167C125.727,710.333,125.727,718.667,125.727,727C125.727,735.333,125.727,743.667,125.727,747.833L125.727,752"></path>
+                    </g>
+                    <g class="edgeLabels">
+                        <g class="edgeLabel">
+                            <g transform="translate(0, 0)" class="label">
+                                <rect height="0" width="0" ry="0" rx="0"></rect>
+                                <foreignObject height="0" width="0">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="edgeLabel"></span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                        <g transform="translate(125.7265625, 167.5)" class="edgeLabel">
+                            <g transform="translate(-17.21875, -9.5)" class="label">
+                                <rect height="19" width="34.4375" ry="0" rx="0"></rect>
+                                <foreignObject height="19" width="34.4375">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="edgeLabel">x = 5</span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                        <g transform="translate(125.7265625, 284)" class="edgeLabel">
+                            <g transform="translate(-54.421875, -21)" class="label">
+                                <rect height="42" width="108.84375" ry="0" rx="0"></rect>
+                                <foreignObject height="42" width="108.84375">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="edgeLabel">定义 inner(y)
+                        
+                                            <br>引用自由变量 x</br>
+                                        </span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                        <g transform="translate(125.7265625, 411)" class="edgeLabel">
+                            <g transform="translate(-61.390625, -20)" class="label">
+                                <rect height="40" width="122.78125" ry="0" rx="0"></rect>
+                                <foreignObject height="40" width="122.78125">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="edgeLabel">创建 cell(x)
+                            
+                                            <br>cell_contents = 5</br>
+                                        </span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                        <g transform="translate(125.7265625, 526.5)" class="edgeLabel">
+                            <g transform="translate(-97.7265625, -9.5)" class="label">
+                                <rect height="19" width="195.453125" ry="0" rx="0"></rect>
+                                <foreignObject height="19" width="195.453125">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="edgeLabel">inner.__closure__ -&gt; cell(x)</span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                        <g transform="translate(125.7265625, 631.5)" class="edgeLabel">
+                            <g transform="translate(-73.1953125, -9.5)" class="label">
+                                <rect height="19" width="146.390625" ry="0" rx="0"></rect>
+                                <foreignObject height="19" width="146.390625">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="edgeLabel">return inner (add_5)</span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                        <g class="edgeLabel">
+                            <g transform="translate(0, 0)" class="label">
+                                <rect height="0" width="0" ry="0" rx="0"></rect>
+                                <foreignObject height="0" width="0">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="edgeLabel"></span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                    </g>
+                    <g class="nodes">
+                        <g transform="translate(125.7265625, 40)" data-id="调用外层_start" data-node="true" id="state-调用外层_start-48" class="node default">
+                            <circle height="14" width="14" r="7" class="state-start"></circle>
+                        </g>
+                        <g transform="translate(125.7265625, 115)" data-id="创建外层帧" data-node="true" id="state-创建外层帧-49" class="node  statediagram-state undefined">
+                            <rect height="36" width="95" y="-18" x="-47.5" style="" class="basic label-container"></rect>
+                            <g transform="translate(-40, -10.5)" style="" class="label">
+                                <rect></rect>
+                                <foreignObject height="21" width="80">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="nodeLabel">创建外层帧</span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                        <g transform="translate(125.7265625, 220)" data-id="绑定x" data-node="true" id="state-绑定x-50" class="node  statediagram-state undefined">
+                            <rect height="36" width="55.015625" y="-18" x="-27.5078125" style="" class="basic label-container"></rect>
+                            <g transform="translate(-20.0078125, -10.5)" style="" class="label">
+                                <rect></rect>
+                                <foreignObject height="21" width="40.015625">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="nodeLabel">绑定x</span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                        <g transform="translate(125.7265625, 348)" data-id="定义内层函数" data-node="true" id="state-定义内层函数-51" class="node  statediagram-state undefined">
+                            <rect height="36" width="111" y="-18" x="-55.5" style="" class="basic label-container"></rect>
+                            <g transform="translate(-48, -10.5)" style="" class="label">
+                                <rect></rect>
+                                <foreignObject height="21" width="96">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="nodeLabel">定义内层函数</span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                        <g transform="translate(125.7265625, 474)" data-id="创建闭包单元" data-node="true" id="state-创建闭包单元-52" class="node  statediagram-state undefined">
+                            <rect height="36" width="111" y="-18" x="-55.5" style="" class="basic label-container"></rect>
+                            <g transform="translate(-48, -10.5)" style="" class="label">
+                                <rect></rect>
+                                <foreignObject height="21" width="96">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="nodeLabel">创建闭包单元</span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                        <g transform="translate(125.7265625, 579)" data-id="绑定到函数对象" data-node="true" id="state-绑定到函数对象-53" class="node  statediagram-state undefined">
+                            <rect height="36" width="127" y="-18" x="-63.5" style="" class="basic label-container"></rect>
+                            <g transform="translate(-56, -10.5)" style="" class="label">
+                                <rect></rect>
+                                <foreignObject height="21" width="112">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="nodeLabel">绑定到函数对象</span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                        <g transform="translate(125.7265625, 684)" data-id="返回闭包" data-node="true" id="state-返回闭包-54" class="node  statediagram-state undefined">
+                            <rect height="36" width="79" y="-18" x="-39.5" style="" class="basic label-container"></rect>
+                            <g transform="translate(-32, -10.5)" style="" class="label">
+                                <rect></rect>
+                                <foreignObject height="21" width="64">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="nodeLabel">返回闭包</span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                        <g transform="translate(125.7265625, 759)" data-id="调用外层_end" data-node="true" id="state-调用外层_end-54" class="node default">
+                            <circle height="14" width="14" r="7" class="state-start"></circle>
+                            <circle height="10" width="10" r="5" class="state-end"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g transform="translate(895.65625, 399.5)" data-id="外层结束但闭包存活" data-node="true" id="state-外层结束但闭包存活-56" class="node  statediagram-state undefined">
+                    <rect height="36" width="159" y="-18" x="-79.5" style="" class="basic label-container"></rect>
+                    <g transform="translate(-72, -10.5)" style="" class="label">
+                        <rect></rect>
+                        <foreignObject height="21" width="144">
+                            <div style="display: inline-block; white-space: nowrap;"
+                                xmlns="http://www.w3.org/1999/xhtml">
+                                <span class="nodeLabel">外层结束但闭包存活</span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g transform="translate(1126.03125, 116.5)" class="root">
+                    <g class="clusters">
+                        <g id="调用闭包" class="statediagram-state statediagram-cluster">
+                            <rect height="550" width="249.265625" y="8" x="8" class="outer"></rect>
+                            <g transform="translate(100.6328125, 8)" class="cluster-label">
+                                <foreignObject height="21" width="64">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="nodeLabel">调用闭包</span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                            <rect height="526" width="249.265625" y="28" x="8" class="inner"></rect>
+                        </g>
+                    </g>
+                    <g class="edgePaths">
+                        <path marker-end="url(#graphDiv_statediagram-barbEnd)" style="fill:none" class="edge-thickness-normal transition" id="edge57" d="M132.633,47L132.633,51.167C132.633,55.333,132.633,63.667,132.633,72C132.633,80.333,132.633,88.667,132.633,92.833L132.633,97"></path>
+                        <path marker-end="url(#graphDiv_statediagram-barbEnd)" style="fill:none" class="edge-thickness-normal transition" id="edge58" d="M132.633,133L132.633,138.75C132.633,144.5,132.633,156,132.633,167.5C132.633,179,132.633,190.5,132.633,196.25L132.633,202"></path>
+                        <path marker-end="url(#graphDiv_statediagram-barbEnd)" style="fill:none" class="edge-thickness-normal transition" id="edge59" d="M132.633,238L132.633,245.5C132.633,253,132.633,268,132.633,283C132.633,298,132.633,313,132.633,320.5L132.633,328"></path>
+                        <path marker-end="url(#graphDiv_statediagram-barbEnd)" style="fill:none" class="edge-thickness-normal transition" id="edge60" d="M132.633,364L132.633,369.75C132.633,375.5,132.633,387,132.633,398.5C132.633,410,132.633,421.5,132.633,427.25L132.633,433"></path>
+                        <path marker-end="url(#graphDiv_statediagram-barbEnd)" style="fill:none" class="edge-thickness-normal transition" id="edge61" d="M132.633,469L132.633,473.167C132.633,477.333,132.633,485.667,132.633,494C132.633,502.333,132.633,510.667,132.633,514.833L132.633,519"></path>
+                    </g>
+                    <g class="edgeLabels">
+                        <g class="edgeLabel">
+                            <g transform="translate(0, 0)" class="label">
+                                <rect height="0" width="0" ry="0" rx="0"></rect>
+                                <foreignObject height="0" width="0">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="edgeLabel"></span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                        <g transform="translate(132.6328125, 167.5)" class="edgeLabel">
+                            <g transform="translate(-21.3515625, -9.5)" class="label">
+                                <rect height="19" width="42.703125" ry="0" rx="0"></rect>
+                                <foreignObject height="19" width="42.703125">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="edgeLabel">y = 10</span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                        <g transform="translate(132.6328125, 283)" class="edgeLabel">
+                            <g transform="translate(-104.6328125, -20)" class="label">
+                                <rect height="40" width="209.265625" ry="0" rx="0"></rect>
+                                <foreignObject height="40" width="209.265625">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="edgeLabel">通过 __closure__ 读取 cell(x)
+                                
+                                            <br>LOAD_DEREF</br>
+                                        </span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                        <g transform="translate(132.6328125, 398.5)" class="edgeLabel">
+                            <g transform="translate(-59.28125, -9.5)" class="label">
+                                <rect height="19" width="118.5625" ry="0" rx="0"></rect>
+                                <foreignObject height="19" width="118.5625">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="edgeLabel">return x + y = 15</span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                        <g class="edgeLabel">
+                            <g transform="translate(0, 0)" class="label">
+                                <rect height="0" width="0" ry="0" rx="0"></rect>
+                                <foreignObject height="0" width="0">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="edgeLabel"></span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                    </g>
+                    <g class="nodes">
+                        <g transform="translate(132.6328125, 40)" data-id="调用闭包_start" data-node="true" id="state-调用闭包_start-57" class="node default">
+                            <circle height="14" width="14" r="7" class="state-start"></circle>
+                        </g>
+                        <g transform="translate(132.6328125, 115)" data-id="创建内层帧" data-node="true" id="state-创建内层帧-58" class="node  statediagram-state undefined">
+                            <rect height="36" width="95" y="-18" x="-47.5" style="" class="basic label-container"></rect>
+                            <g transform="translate(-40, -10.5)" style="" class="label">
+                                <rect></rect>
+                                <foreignObject height="21" width="80">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="nodeLabel">创建内层帧</span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                        <g transform="translate(132.6328125, 220)" data-id="绑定y" data-node="true" id="state-绑定y-59" class="node  statediagram-state undefined">
+                            <rect height="36" width="54.890625" y="-18" x="-27.4453125" style="" class="basic label-container"></rect>
+                            <g transform="translate(-19.9453125, -10.5)" style="" class="label">
+                                <rect></rect>
+                                <foreignObject height="21" width="39.890625">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="nodeLabel">绑定y</span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                        <g transform="translate(132.6328125, 346)" data-id="从闭包取x" data-node="true" id="state-从闭包取x-60" class="node  statediagram-state undefined">
+                            <rect height="36" width="87.015625" y="-18" x="-43.5078125" style="" class="basic label-container"></rect>
+                            <g transform="translate(-36.0078125, -10.5)" style="" class="label">
+                                <rect></rect>
+                                <foreignObject height="21" width="72.015625">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="nodeLabel">从闭包取x</span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                        <g transform="translate(132.6328125, 451)" data-id="计算返回" data-node="true" id="state-计算返回-61" class="node  statediagram-state undefined">
+                            <rect height="36" width="79" y="-18" x="-39.5" style="" class="basic label-container"></rect>
+                            <g transform="translate(-32, -10.5)" style="" class="label">
+                                <rect></rect>
+                                <foreignObject height="21" width="64">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="nodeLabel">计算返回</span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                        <g transform="translate(132.6328125, 526)" data-id="调用闭包_end" data-node="true" id="state-调用闭包_end-61" class="node default">
+                            <circle height="14" width="14" r="7" class="state-start"></circle>
+                            <circle height="10" width="10" r="5" class="state-end"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g transform="translate(1629.515625, 399.5)" data-id="等待后续调用" data-node="true" id="state-等待后续调用-64" class="node  statediagram-state undefined">
+                    <rect height="36" width="111" y="-18" x="-55.5" style="" class="basic label-container"></rect>
+                    <g transform="translate(-48, -10.5)" style="" class="label">
+                        <rect></rect>
+                        <foreignObject height="21" width="96">
+                            <div style="display: inline-block; white-space: nowrap;"
+                                xmlns="http://www.w3.org/1999/xhtml">
+                                <span class="nodeLabel">等待后续调用</span>
+                            </div>
+                        </foreignObject>
+                    </g>
+                </g>
+                <g transform="translate(1884.75, 220.5)" class="root">
+                    <g class="clusters">
+                        <g id="可回收" class="statediagram-state statediagram-cluster">
+                            <rect height="342" width="216.015625" y="8" x="8" class="outer"></rect>
+                            <g transform="translate(92.0078125, 8)" class="cluster-label">
+                                <foreignObject height="21" width="48">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="nodeLabel">可回收</span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                            <rect height="318" width="216.015625" y="28" x="8" class="inner"></rect>
+                        </g>
+                    </g>
+                    <g class="edgePaths">
+                        <path marker-end="url(#graphDiv_statediagram-barbEnd)" style="fill:none" class="edge-thickness-normal transition" id="edge65" d="M116.008,47L116.008,51.167C116.008,55.333,116.008,63.667,116.008,72C116.008,80.333,116.008,88.667,116.008,92.833L116.008,97"></path>
+                        <path marker-end="url(#graphDiv_statediagram-barbEnd)" style="fill:none" class="edge-thickness-normal transition" id="edge66" d="M116.008,133L116.008,140.667C116.008,148.333,116.008,163.667,116.008,179C116.008,194.333,116.008,209.667,116.008,217.333L116.008,225"></path>
+                        <path marker-end="url(#graphDiv_statediagram-barbEnd)" style="fill:none" class="edge-thickness-normal transition" id="edge67" d="M116.008,261L116.008,265.167C116.008,269.333,116.008,277.667,116.008,286C116.008,294.333,116.008,302.667,116.008,306.833L116.008,311"></path>
+                    </g>
+                    <g class="edgeLabels">
+                        <g class="edgeLabel">
+                            <g transform="translate(0, 0)" class="label">
+                                <rect height="0" width="0" ry="0" rx="0"></rect>
+                                <foreignObject height="0" width="0">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="edgeLabel"></span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                        <g transform="translate(116.0078125, 179)" class="edgeLabel">
+                            <g transform="translate(-88.0078125, -21)" class="label">
+                                <rect height="42" width="176.015625" ry="0" rx="0"></rect>
+                                <foreignObject height="42" width="176.015625">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="edgeLabel">GC 回收函数对象 inner
+                                    
+                                            <br>及其 __closure__/cell(x)</br>
+                                        </span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                        <g class="edgeLabel">
+                            <g transform="translate(0, 0)" class="label">
+                                <rect height="0" width="0" ry="0" rx="0"></rect>
+                                <foreignObject height="0" width="0">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="edgeLabel"></span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                    </g>
+                    <g class="nodes">
+                        <g transform="translate(116.0078125, 40)" data-id="可回收_start" data-node="true" id="state-可回收_start-65" class="node default">
+                            <circle height="14" width="14" r="7" class="state-start"></circle>
+                        </g>
+                        <g transform="translate(116.0078125, 115)" data-id="等待GC" data-node="true" id="state-等待GC-66" class="node  statediagram-state undefined">
+                            <rect height="36" width="67.390625" y="-18" x="-33.6953125" style="" class="basic label-container"></rect>
+                            <g transform="translate(-26.1953125, -10.5)" style="" class="label">
+                                <rect></rect>
+                                <foreignObject height="21" width="52.390625">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="nodeLabel">等待GC</span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                        <g transform="translate(116.0078125, 243)" data-id="回收" data-node="true" id="state-回收-67" class="node  statediagram-state undefined">
+                            <rect height="36" width="47" y="-18" x="-23.5" style="" class="basic label-container"></rect>
+                            <g transform="translate(-16, -10.5)" style="" class="label">
+                                <rect></rect>
+                                <foreignObject height="21" width="32">
+                                    <div style="display: inline-block; white-space: nowrap;"
+                                        xmlns="http://www.w3.org/1999/xhtml">
+                                        <span class="nodeLabel">回收</span>
+                                    </div>
+                                </foreignObject>
+                            </g>
+                        </g>
+                        <g transform="translate(116.0078125, 318)" data-id="可回收_end" data-node="true" id="state-可回收_end-67" class="node default">
+                            <circle height="14" width="14" r="7" class="state-start"></circle>
+                            <circle height="10" width="10" r="5" class="state-end"></circle>
+                        </g>
+                    </g>
+                </g>
+                <g transform="translate(2165.265625, 399.5)" data-id="root_end" data-node="true" id="state-root_end-68" class="node default">
+                    <circle height="14" width="14" r="7" class="state-start"></circle>
+                    <circle height="10" width="10" r="5" class="state-end"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

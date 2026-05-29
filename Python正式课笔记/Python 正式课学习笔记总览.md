@@ -26,4 +26,4 @@ Day08. [[Day08 - 集合、小数与递归]]
 
 ## 白板
 
-- [[正式课 Python 学习总览.canvas|正式课 Python 学习总览]]
+- [[正式课 Python 学习总览.canvas|正式课 Python 学习总览]]ython 学习总览]]

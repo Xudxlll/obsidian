@@ -1,0 +1,185 @@
+<svg width="1200" height="760" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <marker orient="auto-start-reverse" markerHeight="7" markerWidth="7" refY="5" refX="10" viewBox="0 0 10 10" id="mEnd">
+   <path id="svg_1" fill="#c9d4e6" d="m0,0l10,5l-10,5l0,-10z"/>
+  </marker>
+ </defs>
+ <!-- Background -->
+ <!-- Top title -->
+ <!-- Left panel: 装饰阶段 -->
+ <!-- Right panel: 调用阶段 -->
+ <!-- Code box (left) -->
+ <!-- Decoration sugar (left) - moved slightly up and reduced height -->
+ <!-- Closure capture box (left) - moved between tag and steps -->
+ <!-- Step pills (left) - moved down to avoid overlap -->
+ <!-- Right: call flow -->
+ <!-- Arrow down -->
+ <!-- wrapper execution box -->
+ <!-- Arrow down -->
+ <!-- original add box -->
+ <!-- Cross-panel explanation arrows (adjusted start points to match new layout) -->
+ <g>
+  <title>Layer 1</title>
+  <rect id="svg_2" fill="#0b1220" height="760" width="1200" y="-0.66667" class="bg"/>
+  <text id="svg_3" font="700 22px 'Microsoft YaHei', Arial" fill="#e6edf7" text-anchor="middle" y="44" x="600" class="title">带参数装饰器：闭包绑定与“装饰阶段 / 调用阶段”时序</text>
+  <text id="svg_4" font="500 14px 'Microsoft YaHei', Arial" fill="#b7c3d7" text-anchor="middle" y="70" x="600" class="sub">目标：看清楚 filename、func 在何时绑定；add 在何时被替换为 wrapper</text>
+  <rect id="svg_5" rx="14" stroke-width="2" stroke="#2b3b55" fill="#0f1b2d" height="610" width="540" y="100" x="40" class="panel"/>
+  <text id="svg_6" font="700 22px 'Microsoft YaHei', Arial" fill="#e6edf7" text-anchor="middle" y="136" x="310" class="title">① 装饰阶段（定义时/导入时）</text>
+  <text id="svg_7" font="500 14px 'Microsoft YaHei', Arial" fill="#b7c3d7" text-anchor="middle" y="160" x="310" class="sub">发生在解释器执行到 @logging("abc.txt") 这一行时</text>
+  <rect id="svg_8" rx="14" stroke-width="2" stroke="#2b3b55" fill="#0f1b2d" height="610" width="540" y="101.90476" x="626.19047" class="panel"/>
+  <text id="svg_9" font="700 22px 'Microsoft YaHei', Arial" fill="#e6edf7" text-anchor="middle" y="136" x="890" class="title">② 调用阶段（运行时）</text>
+  <text id="svg_10" font="500 14px 'Microsoft YaHei', Arial" fill="#b7c3d7" text-anchor="middle" y="160" x="890" class="sub">发生在你真正执行 add(4,5) 时</text>
+  <rect id="svg_11" rx="12" stroke-width="2" stroke="#2b3b55" fill="#0b1526" height="250" width="480" y="190" x="70" class="codebox"/>
+  <text style="cursor: move;" id="svg_12" font="500 15px Consolas, 'Courier New', monospace" fill="#d7e3f5" y="222" x="92" class="code">
+   <tspan id="svg_13" fill="#ff7b72" class="kw">def</tspan>
+   <tspan id="svg_14"/>
+   <tspan id="svg_15" fill="#79c0ff" class="fn">logging</tspan>
+   <tspan id="svg_16">(</tspan>
+   <tspan id="svg_17" fill="#a5d6ff" class="var">filename</tspan>
+   <tspan id="svg_18">):</tspan>
+  </text>
+  <text id="svg_19" font="500 15px Consolas, 'Courier New', monospace" fill="#d7e3f5" y="248" x="110" class="code">
+   <tspan id="svg_20" fill="#ff7b72" class="kw">def</tspan>
+   <tspan id="svg_21"/>
+   <tspan id="svg_22" fill="#79c0ff" class="fn">decorator</tspan>
+   <tspan id="svg_23">(</tspan>
+   <tspan id="svg_24" fill="#a5d6ff" class="var">func</tspan>
+   <tspan id="svg_25">):</tspan>
+  </text>
+  <text id="svg_26" font="500 15px Consolas, 'Courier New', monospace" fill="#d7e3f5" y="274" x="128" class="code">
+   <tspan id="svg_27" fill="#ff7b72" class="kw">def</tspan>
+   <tspan id="svg_28"/>
+   <tspan id="svg_29" fill="#79c0ff" class="fn">wrapper</tspan>
+   <tspan id="svg_30">(*args, **kwargs):</tspan>
+  </text>
+  <text id="svg_31" font="500 15px Consolas, 'Courier New', monospace" fill="#d7e3f5" y="300" x="146" class="code">
+   <tspan id="svg_32">with open(</tspan>
+   <tspan id="svg_33" fill="#a5d6ff" class="var">filename</tspan>
+   <tspan id="svg_34">,</tspan>
+   <tspan id="svg_35" fill="#a5d6a7" class="str">'a'</tspan>
+   <tspan id="svg_36">) as file:</tspan>
+  </text>
+  <text id="svg_37" font="500 15px Consolas, 'Courier New', monospace" fill="#d7e3f5" y="326" x="164" class="code">
+   <tspan id="svg_38">file.write(... args/kwargs ...)</tspan>
+  </text>
+  <text id="svg_39" font="500 15px Consolas, 'Courier New', monospace" fill="#d7e3f5" y="352" x="146" class="code">
+   <tspan id="svg_40" fill="#a5d6ff" class="var">result</tspan>
+   <tspan id="svg_41">=</tspan>
+   <tspan id="svg_42" fill="#a5d6ff" class="var">func</tspan>
+   <tspan id="svg_43">(*args, **kwargs)</tspan>
+  </text>
+  <text id="svg_44" font="500 15px Consolas, 'Courier New', monospace" fill="#d7e3f5" y="378" x="146" class="code">
+   <tspan id="svg_45" fill="#ff7b72" class="kw">return</tspan>
+   <tspan id="svg_46"/>
+   <tspan id="svg_47" fill="#a5d6ff" class="var">result</tspan>
+  </text>
+  <text id="svg_48" font="500 15px Consolas, 'Courier New', monospace" fill="#d7e3f5" y="408" x="110" class="code">
+   <tspan id="svg_49" fill="#ff7b72" class="kw">return</tspan>
+   <tspan id="svg_50"/>
+   <tspan id="svg_51" fill="#79c0ff" class="fn">wrapper</tspan>
+  </text>
+  <text id="svg_52" font="500 15px Consolas, 'Courier New', monospace" fill="#d7e3f5" y="434" x="92" class="code">
+   <tspan id="svg_53" fill="#ff7b72" class="kw">return</tspan>
+   <tspan id="svg_54"/>
+   <tspan id="svg_55" fill="#79c0ff" class="fn">decorator</tspan>
+  </text>
+  <rect id="svg_56" rx="10" stroke-width="2" stroke="#2b3b55" fill="#172a45" height="86" width="480" y="450" x="70" class="tag"/>
+  <text id="svg_57" font="500 15px Consolas, 'Courier New', monospace" fill="#d7e3f5" y="480" x="92" class="code">
+   <tspan id="svg_58" fill="#ff7b72" class="kw">@</tspan>
+   <tspan id="svg_59" fill="#79c0ff" class="fn">logging</tspan>
+   <tspan id="svg_60">(</tspan>
+   <tspan id="svg_61" fill="#a5d6a7" class="str">"abc.txt"</tspan>
+   <tspan id="svg_62">)</tspan>
+  </text>
+  <text id="svg_63" font="500 15px Consolas, 'Courier New', monospace" fill="#d7e3f5" y="506" x="92" class="code">
+   <tspan id="svg_64" fill="#ff7b72" class="kw">def</tspan>
+   <tspan id="svg_65"/>
+   <tspan id="svg_66" fill="#79c0ff" class="fn">add</tspan>
+   <tspan id="svg_67">(a, b):</tspan>
+   <tspan id="svg_68">...</tspan>
+  </text>
+  <text id="svg_69" font="500 14px 'Microsoft YaHei', Arial" fill="#b7c3d7" y="530" x="92" class="sub">等价：add = logging("abc.txt")(add)</text>
+  <rect id="svg_70" rx="10" stroke-width="2" stroke="#2b3b55" fill="#172a45" height="60" width="480" y="544" x="70" class="tag"/>
+  <text id="svg_71" font="600 12px 'Microsoft YaHei', Arial" fill="#b7c3d7" y="568" x="92" class="tagText">wrapper 闭包里保存：</text>
+  <text id="svg_72" font="500 15px Consolas, 'Courier New', monospace" fill="#d7e3f5" y="592" x="92" class="code">
+   <tspan id="svg_73" fill="#a5d6ff" class="var">filename</tspan>
+   <tspan id="svg_74">=</tspan>
+   <tspan id="svg_75" fill="#a5d6a7" class="str">"abc.txt"</tspan>
+   <tspan id="svg_76">；</tspan>
+   <tspan id="svg_77" fill="#a5d6ff" class="var">func</tspan>
+   <tspan id="svg_78">=</tspan>
+   <tspan id="svg_79" fill="#79c0ff" class="fn">原始 add</tspan>
+  </text>
+  <rect id="svg_80" rx="999" stroke-width="2" stroke="#2b3b55" fill="#10233d" height="44" width="480" y="610" x="70" class="pill"/>
+  <text id="svg_81" font="600 13px 'Microsoft YaHei', Arial" fill="#e6edf7" y="637.33333" x="86.66667" class="pillText">Step A：logging("abc.txt") → 返回 decorator，并在闭包中绑定 filename="abc.txt"</text>
+  <rect id="svg_82" rx="999" stroke-width="2" stroke="#2b3b55" fill="#10233d" height="46" width="480" y="660" x="70" class="pill"/>
+  <text id="svg_83" font="600 13px 'Microsoft YaHei', Arial" fill="#e6edf7" y="690" x="90" class="pillText">Step B：decorator(add) → 返回 wrapper，并在闭包中绑定 func=原始 add</text>
+  <rect id="svg_84" rx="10" stroke-width="2" stroke="#2b3b55" fill="#172a45" height="96" width="480" y="190" x="650" class="tag"/>
+  <text id="svg_85" font="500 15px Consolas, 'Courier New', monospace" fill="#d7e3f5" y="222" x="672" class="code">
+   <tspan id="svg_86">你调用：</tspan>
+   <tspan id="svg_87" fill="#79c0ff" class="fn">add</tspan>
+   <tspan id="svg_88">(4, 5)</tspan>
+  </text>
+  <text id="svg_89" font="500 14px 'Microsoft YaHei', Arial" fill="#b7c3d7" y="248" x="672" class="sub">注意：此时 add 已经被替换为 wrapper</text>
+  <text id="svg_90" font="500 15px Consolas, 'Courier New', monospace" fill="#d7e3f5" y="272" x="672" class="code">
+   <tspan id="svg_91">等价于：</tspan>
+   <tspan id="svg_92" fill="#79c0ff" class="fn">wrapper</tspan>
+   <tspan id="svg_93">(4, 5)</tspan>
+  </text>
+  <path id="svg_94" marker-end="url(#mEnd)" fill="none" stroke-width="2.5" stroke="#7ee787" d="m890,288c0,27 0,27 0,54" class="arrow2"/>
+  <rect id="svg_95" rx="12" stroke-width="2" stroke="#2b3b55" fill="#0b1526" height="210" width="480" y="342" x="650" class="codebox"/>
+  <text id="svg_96" font="500 15px Consolas, 'Courier New', monospace" fill="#d7e3f5" y="374" x="672" class="code">
+   <tspan id="svg_97" fill="#79c0ff" class="fn">wrapper</tspan>
+   <tspan id="svg_98">(*args, **kwargs) 内部：</tspan>
+  </text>
+  <text id="svg_99" font="500 15px Consolas, 'Courier New', monospace" fill="#d7e3f5" y="404" x="672" class="code">
+   <tspan id="svg_100" fill="#a5d6ff" class="var">args</tspan>
+   <tspan id="svg_101">= (4, 5)</tspan>
+   <tspan id="svg_102">；</tspan>
+   <tspan id="svg_103" fill="#a5d6ff" class="var">kwargs</tspan>
+   <tspan id="svg_104">= {}</tspan>
+  </text>
+  <text id="svg_105" font="500 15px Consolas, 'Courier New', monospace" fill="#d7e3f5" y="434" x="672" class="code">
+   <tspan id="svg_106">1) open(</tspan>
+   <tspan id="svg_107" fill="#a5d6ff" class="var">filename</tspan>
+   <tspan id="svg_108">) →</tspan>
+   <tspan id="svg_109" fill="#a5d6a7" class="str">"abc.txt"</tspan>
+   <tspan id="svg_110">追加写</tspan>
+  </text>
+  <text id="svg_111" font="500 15px Consolas, 'Courier New', monospace" fill="#d7e3f5" y="464" x="672" class="code">
+   <tspan id="svg_112">2) write 日志：记录 args/kwargs</tspan>
+  </text>
+  <text id="svg_113" font="500 15px Consolas, 'Courier New', monospace" fill="#d7e3f5" y="494" x="672" class="code">
+   <tspan id="svg_114">3)</tspan>
+   <tspan id="svg_115" fill="#a5d6ff" class="var">result</tspan>
+   <tspan id="svg_116">=</tspan>
+   <tspan id="svg_117" fill="#a5d6ff" class="var">func</tspan>
+   <tspan id="svg_118">(*args, **kwargs)</tspan>
+  </text>
+  <text id="svg_119" font="500 15px Consolas, 'Courier New', monospace" fill="#d7e3f5" y="524" x="672" class="code">
+   <tspan id="svg_120">4)</tspan>
+   <tspan id="svg_121" fill="#ff7b72" class="kw">return</tspan>
+   <tspan id="svg_122"/>
+   <tspan id="svg_123" fill="#a5d6ff" class="var">result</tspan>
+  </text>
+  <path id="svg_124" marker-end="url(#mEnd)" fill="none" stroke-width="2.5" stroke="#c9d4e6" d="m890,554c0,26 0,26 0,50" class="arrow"/>
+  <rect id="svg_125" rx="10" stroke-width="2" stroke="#2b3b55" fill="#172a45" height="80" width="480" y="604" x="650" class="tag"/>
+  <text id="svg_126" font="500 15px Consolas, 'Courier New', monospace" fill="#d7e3f5" y="636" x="672" class="code">
+   <tspan id="svg_127">这里的</tspan>
+   <tspan id="svg_128" fill="#a5d6ff" class="var">func</tspan>
+   <tspan id="svg_129">就是“原始 add”：</tspan>
+   <tspan id="svg_130" fill="#79c0ff" class="fn">add</tspan>
+   <tspan id="svg_131">(4,5) → 9</tspan>
+  </text>
+  <text id="svg_132" font="500 15px Consolas, 'Courier New', monospace" fill="#d7e3f5" y="664" x="672" class="code">
+   <tspan id="svg_133" fill="#f2cc60" class="ret">最终返回</tspan>
+   <tspan id="svg_134">：</tspan>
+   <tspan id="svg_135" fill="#a5d6ff" class="var">result</tspan>
+   <tspan id="svg_136">= 9（同时日志已写入文件）</tspan>
+  </text>
+  <path id="svg_137" marker-end="url(#mEnd)" fill="none" stroke-width="2.5" stroke="#d2a8ff" d="m550,683.33333c60,0 60,-462 100,-462" class="arrow3"/>
+  <text id="svg_138" font="600 13px 'Microsoft YaHei', Arial" fill="#ffd89b" text-anchor="middle" y="662.00001" x="438.0002" class="note">装饰后：add 名字 → 指向 wrapper</text>
+  <path id="svg_139" marker-end="url(#mEnd)" fill="none" stroke-width="2.5" stroke="#d2a8ff" d="m550,574c60,0 60,-154 100,-154" class="arrow3"/>
+  <text id="svg_140" font="600 13px 'Microsoft YaHei', Arial" fill="#ffd89b" text-anchor="middle" y="421.33335" x="430.66686" class="note">闭包：wrapper 可用 filename / func</text>
+ </g>
+</svg>
