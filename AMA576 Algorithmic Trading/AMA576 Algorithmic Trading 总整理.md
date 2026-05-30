@@ -19,16 +19,16 @@ AMA576 这一组笔记可以看成一条完整的量化交易链路：
 
 ## 2. 原始笔记索引
 
-| 原笔记 | 主题定位 | 建议阅读顺序 |
-|---|---|---|
-| [[Lecture 1-2 Baseline Execution Simulator]] | 执行模拟器、CDA、LOB、三类基线执行、IS | 1 |
-| [[Lecture 3 LOB, Liquidity, Microstructure Signals]] | 盘口流动性、microprice、order imbalance、impact proxy | 2 |
-| [[Legal_HFT_Strategies]] | 合法 HFT 策略 Part 1：统计套利、Gamma Scalping、做市 | 3 |
-| [[HFT_Strategies_Part_2]] | 合法 HFT 策略 Part 2：跨市场套利、订单流机器学习 | 4 |
-| [[Quantitative-Trading-in-Crypto-Markets]] | 加密市场结构、永续合约、资金费率、Kelly、尾部风险、回测陷阱 | 5 |
-| [[Trade+with+Price+Action+and+AI+Pattern+Recognition+2(1)]] | 价格行为、K 线结构、交易管理、CNN/Metric Learning 图形识别 | 6 |
-| [[2026+Industry+Practices+in+Fixed+Income+Pricing+&amp;amp;+Risk+Analytics+-+PolyU (1)]] | 固定收益定价、债券风险、杠杆贷款、FRTB | 7 |
-| [[1AI-Driven+Quantitative+Trading_+Deep+Learning,+Autonomous+Agents+&amp;amp;+Tokenized+Energy+Markets]] | 深度学习量化、AI Agent、能源冲击、RWA/tokenized energy | 8 |
+| 原笔记                                                                                                      | 主题定位                                          | 建议阅读顺序 |
+| -------------------------------------------------------------------------------------------------------- | --------------------------------------------- | ------ |
+| [[Lecture 1-2 Baseline Execution Simulator]]                                                             | 执行模拟器、CDA、LOB、三类基线执行、IS                       | 1      |
+| [[Lecture 3 LOB, Liquidity, Microstructure Signals]]                                                     | 盘口流动性、microprice、order imbalance、impact proxy | 2      |
+| [[Legal_HFT_Strategies]]                                                                                 | 合法 HFT 策略 Part 1：统计套利、Gamma Scalping、做市       | 3      |
+| [[HFT_Strategies_Part_2]]                                                                                | 合法 HFT 策略 Part 2：跨市场套利、订单流机器学习                | 4      |
+| [[Quantitative-Trading-in-Crypto-Markets]]                                                               | 加密市场结构、永续合约、资金费率、Kelly、尾部风险、回测陷阱              | 5      |
+| [[Trade+with+Price+Action+and+AI+Pattern+Recognition+2(1)]]                                              | 价格行为、K 线结构、交易管理、CNN/Metric Learning 图形识别      | 6      |
+| [[2026+Industry+Practices+in+Fixed+Income+Pricing+&amp;amp;+Risk+Analytics+-+PolyU (1)]]                 | 固定收益定价、债券风险、杠杆贷款、FRTB                         | 7      |
+| [[1AI-Driven+Quantitative+Trading_+Deep+Learning,+Autonomous+Agents+&amp;amp;+Tokenized+Energy+Markets]] | 深度学习量化、AI Agent、能源冲击、RWA/tokenized energy     | 8      |
 
 ## 3. 市场微观结构：从 CDA 到 LOB
 
@@ -63,9 +63,9 @@ AMA576 这一组笔记可以看成一条完整的量化交易链路：
 
 买入市价单通常吃 ask 端流动性，因此相对 mid 的即时成本约为：
 
-```text
-cost vs mid = ask - mid = spread / 2
-```
+$$
+\text{cost vs mid}=a_t-m_t=\frac{s_t}{2}
+$$
 
 如果下单量超过最优 ask 的数量，就会继续吃更高价位的 ask，形成 **walking the book**，平均成交价随交易量上升。
 
@@ -82,17 +82,18 @@ cost vs mid = ask - mid = spread / 2
 
 **Quoted spread 与 Effective spread**
 
-```text
-Effective Spread = 2 * |Trade Price - Midprice|
-```
+$$
+\text{Effective spread}=2\left|p_{\mathrm{trade}}-m_t\right|
+$$
 
 quoted spread 是“报价机会”，effective spread 是你实际成交付出的成本。
 
 **Microprice**
 
-```text
-microprice = (ask * bid_size + bid * ask_size) / (bid_size + ask_size)
-```
+$$
+p_t^{\mathrm{micro}}
+=\frac{a_t q_t^b+b_t q_t^a}{q_t^b+q_t^a}
+$$
 
 直觉：
 
@@ -101,9 +102,9 @@ microprice = (ask * bid_size + bid * ask_size) / (bid_size + ask_size)
 
 **Order Imbalance**
 
-```text
-OI = (bid_size - ask_size) / (bid_size + ask_size)
-```
+$$
+\mathrm{OI}_t=\frac{q_t^b-q_t^a}{q_t^b+q_t^a}
+$$
 
 - `OI > 0`：买盘深度更强。
 - `OI < 0`：卖盘深度更强。
@@ -111,9 +112,9 @@ OI = (bid_size - ask_size) / (bid_size + ask_size)
 
 **Impact Proxy**
 
-```text
-Δp ≈ λ * q / V
-```
+$$
+\Delta p \approx \lambda \frac{q}{V}
+$$
 
 交易量 `q` 相对市场成交量/深度 `V` 越大，临时冲击越大。这就是参与率上限和拆单执行的基础。
 
@@ -131,24 +132,27 @@ OI = (bid_size - ask_size) / (bid_size + ask_size)
 
 限价单的基线成交规则：
 
-```text
-L = P_t0 * (1 - δ)
-若 t0+1 到 t0+W 内 Low_t <= L，则认为在 L 成交
-```
+$$
+\begin{aligned}
+L &= P_{t_0}(1-\delta),\\
+\min_{t_0+1\le t\le t_0+W}\mathrm{Low}_t &\le L
+\end{aligned}
+$$
 
 拆单平均成交价：
 
-```text
-avg_exec_price = (1 / Q) * Σ q_i * P_ti * (1 + slippage)
-```
+$$
+\bar{p}_{\mathrm{exec}}
+=\frac{1}{Q}\sum_i q_i P_{t_i}(1+\mathrm{slippage})
+$$
 
 ### 4.2 Implementation Shortfall
 
 实现成本是执行评估的核心：
 
-```text
-IS = Q * (avg_exec_price - arrival_price)
-```
+$$
+\mathrm{IS}=Q(\bar{p}_{\mathrm{exec}}-p_{\mathrm{arrival}})
+$$
 
 对于买单：
 
@@ -157,9 +161,9 @@ IS = Q * (avg_exec_price - arrival_price)
 
 直觉分解：
 
-```text
-IS ≈ Spread + Impact + Drift
-```
+$$
+IS \approx \mathrm{spread} + Impact + Drift
+$$
 
 - **Spread**：为即时性支付的价差。
 - **Impact**：自己的交易推动价格。
@@ -223,13 +227,15 @@ IS ≈ Spread + Impact + Drift
 
 关键公式：
 
-```text
-P_B = β0 + β1 * P_A + u_t
-Spread = P_B - (β1 * P_A + β0)
-z = (Spread_t - μ_spread) / σ_spread
-dS_t = λ(μ - S_t)dt + σdW_t
-half-life = -ln(2) / λ
-```
+$$
+\begin{aligned}
+P_{B,t} &= \beta_0+\beta_1 P_{A,t}+u_t,\\
+\mathrm{spread}_t &= P_{B,t}-(\beta_1P_{A,t}+\beta_0),\\
+z_t &= \frac{\mathrm{spread}_t-\mu_{\mathrm{spread}}}{\sigma_{\mathrm{spread}}},\\
+dS_t &= \lambda(\mu-S_t)\,dt+\sigma\,dW_t,\\
+t_{1/2} &= -\frac{\ln 2}{\lambda}
+\end{aligned}
+$$
 
 交易规则示例：
 
@@ -253,9 +259,10 @@ half-life = -ln(2) / λ
 
 核心 P&L：
 
-```text
-Delta-hedged P&L ≈ 0.5 * Γ * (ΔS)^2 - Θ * Δt
-```
+$$
+\text{Delta-hedged P\&L}
+\approx \frac{1}{2}\Gamma(\Delta S)^2-\Theta\,\Delta t
+$$
 
 流程：
 
@@ -285,12 +292,14 @@ Delta-hedged P&L ≈ 0.5 * Γ * (ΔS)^2 - Θ * Δt
 
 Avellaneda-Stoikov 模型核心：
 
-```text
-r(s, q, t) = s - q * γ * σ² * (T - t)
-δ = γσ²(T - t) + (2/γ) * ln(1 + γ/κ)
-Ask = r + δ
-Bid = r - δ
-```
+$$
+\begin{aligned}
+r(s,q,t) &= s-q\gamma\sigma^2(T-t),\\
+\delta &= \gamma\sigma^2(T-t)+\frac{2}{\gamma}\ln\left(1+\frac{\gamma}{\kappa}\right),\\
+\mathrm{Ask} &= r+\delta,\\
+\mathrm{Bid} &= r-\delta
+\end{aligned}
+$$
 
 含义：
 
@@ -312,19 +321,23 @@ Bid = r - δ
 
 关键公式：
 
-```text
-δ(t) = P_A(t) - P_B(t + τ)
-π_net = Q * [δ - c_A - c_B - s_A/2 - s_B/2 - I]
-δ(t) = δ0 * exp(-λt)
-t* = (1/λ) * ln(δ0 / C_total)
-```
+$$
+\begin{aligned}
+\delta(t) &= P_A(t)-P_B(t+\tau),\\
+\pi_{\mathrm{net}} &= Q\left(\delta-c_A-c_B-\frac{s_A}{2}-\frac{s_B}{2}-I\right),\\
+\delta(t) &= \delta_0 e^{-\lambda t},\\
+t^* &= \frac{1}{\lambda}\ln\left(\frac{\delta_0}{C_{\mathrm{total}}}\right)
+\end{aligned}
+$$
 
 交易可行条件：
 
-```text
-δ(t) > total cost
-τ_total < t*
-```
+$$
+\begin{aligned}
+\delta(t) &> C_{\mathrm{total}},\\
+\tau_{\mathrm{total}} &< t^*
+\end{aligned}
+$$
 
 要点：
 
@@ -341,12 +354,14 @@ t* = (1/λ) * ln(δ0 / C_total)
 
 关键特征：
 
-```text
-OBI = (V_bid - V_ask) / (V_bid + V_ask)
-VPIN = |V_buy - V_sell| / V_total
-λ(t) = μ + Σ α * exp(-β(t - t_i))
-Momentum(k) = (P_t - P_{t-k}) / P_{t-k}
-```
+$$
+\begin{aligned}
+\mathrm{OBI}_t &= \frac{V_t^b-V_t^a}{V_t^b+V_t^a},\\
+\mathrm{VPIN}_t &= \frac{|V_{\mathrm{buy},t}-V_{\mathrm{sell},t}|}{V_{\mathrm{total},t}},\\
+\lambda(t) &= \mu+\sum_{t_i<t}\alpha e^{-\beta(t-t_i)},\\
+\mathrm{Momentum}_t(k) &= \frac{P_t-P_{t-k}}{P_{t-k}}
+\end{aligned}
+$$
 
 模型：
 
@@ -406,10 +421,12 @@ taker 获得即时成交，但支付 taker fee 和 spread。对于高换手策�
 
 Funding rate 可建模为 OU：
 
-```text
-dr(t) = κ(μ - r(t))dt + σdW(t)
-half-life = ln(2) / κ
-```
+$$
+\begin{aligned}
+dr(t) = \kappa(\mu - r(t))dt + \sigmadW(t) \\
+t_{1/2} = \ln(2) / \kappa
+\end{aligned}
+$$
 
 实际限制：
 
@@ -438,9 +455,9 @@ Crypto 不适合简单高斯 VaR：
 
 Kelly 连续近似：
 
-```text
-f* = μ / σ²
-```
+$$
+f^*= \mu / \sigma^2
+$$
 
 实务中常用 Half-Kelly，因为参数估计误差会放大过度下注风险。
 
@@ -506,9 +523,9 @@ Price Action 不只是背 K 线形态，而是读市场参与者在压力下的�
 
 任何交易都应满足数学期望：
 
-```text
-P(win) * Reward > P(loss) * Risk
-```
+$$
+P(\mathrm{win}) \cdot \mathrm{Reward} > P(\mathrm{loss}) \cdot \mathrm{Risk}
+$$
 
 重点：
 
@@ -578,13 +595,14 @@ CNN 的优势：
 
 零息债定价：
 
-```text
-Continuous compounding:
-B(t, T) = exp(-r(t,T) * (T - t))
-
-Simple compounding:
-B(t, T) = 1 / (1 + R(t,T) * (T - t))
-```
+$$
+\begin{aligned}
+\text{Continuous compounding:}\quad
+B(t,T) &= e^{-r(t,T)(T-t)},\\
+\text{Simple compounding:}\quad
+B(t,T) &= \frac{1}{1+R(t,T)(T-t)}
+\end{aligned}
+$$
 
 期限结构 `r(0, T_i)` 或 discount factor curve `B(0, T_i)` 可用于：
 
@@ -616,13 +634,16 @@ B(t, T) = 1 / (1 + R(t,T) * (T - t))
 
 价值变化可按 Taylor expansion 理解：
 
-```text
-ΔV ≈ theta * Δt
-   + IR delta * ΔIR
-   + CS delta * ΔCS
-   + 0.5 * gamma terms
-   + cross-gamma terms
-```
+$$
+\begin{aligned}
+\Delta V \approx\;&
+\Theta\,\Delta t
+\;+\;\Delta_{\mathrm{IR}}\Delta \mathrm{IR}
+\;+\;\Delta_{\mathrm{CS}}\Delta \mathrm{CS}\\
+&+\frac{1}{2}\Gamma\text{-terms}
+\;+\;\text{cross-gamma terms}
+\end{aligned}
+$$
 
 风险报告通常包括：
 
@@ -665,9 +686,9 @@ FRTB 是交易账簿监管资本框架，SA 包括：
 
 非证券化信用利差风险 CSR 的 delta sensitivity 可理解为：
 
-```text
+$$
 CS01 = [V(cs + 1bp) - V(cs)] / 0.0001
-```
+$$
 
 风险暴露要按 credit quality、sector、bucket 分组，并在监管公式下聚合资本。
 
@@ -698,9 +719,12 @@ Agent 架构一般包括：
 
 Quantamental 框架是把：
 
-```text
-价格 / 订单簿 / 新闻叙事 / 情绪 / 链上数据 / 波动状态
-```
+- 价格
+- 订单簿
+- 新闻叙事
+- 情绪
+- 链上数据
+- 波动状态
 
 整合成统一信号，并根据 regime 调整仓位。
 
@@ -742,26 +766,26 @@ AI 基础设施推动能源需求：
 
 | 模块 | 公式 | 含义 |
 |---|---|---|
-| Spread | `s_t = a_t - b_t` | 最优卖价与买价差 |
-| Midprice | `m_t = (a_t + b_t)/2` | 盘口中间价 |
-| Effective Spread | `2 * |trade price - mid|` | 实际成交成本 |
-| Microprice | `(ask*bid_size + bid*ask_size)/(bid_size+ask_size)` | 深度加权价格压力 |
-| Order Imbalance | `(q_bid - q_ask)/(q_bid + q_ask)` | 买卖盘深度偏斜 |
-| Impact Proxy | `Δp ≈ λ*q/V` | 交易参与率导致的价格冲击 |
-| IS | `Q*(avg_exec - arrival)` | 实现成本 |
-| OU | `dS = λ(μ-S)dt + σdW` | 均值回复过程 |
-| Half-life | `-ln(2)/λ` 或 `ln(2)/κ` | 均值回复速度 |
-| Z-score | `(Spread - μ)/σ` | 统计套利入场信号 |
-| Gamma P&L | `0.5*Γ*(ΔS)^2 - Θ*Δt` | Gamma scalping 收益分解 |
-| A-S Reservation Price | `r = s - qγσ²(T-t)` | 库存调整后的做市中心价 |
-| Cross-Venue Profit | `Q*[δ - costs - impact]` | 跨市场套利净利润 |
-| Signal Decay | `δ(t)=δ0*e^(-λt)` | 套利窗口衰减 |
-| OBI | `(V_bid - V_ask)/(V_bid + V_ask)` | 订单流 ML 特征 |
-| VPIN | `|V_buy - V_sell|/V_total` | informed trading proxy |
-| Kelly | `f* = μ/σ²` | 理论最优仓位比例 |
-| Bond DF | `B(t,T)=exp(-r(t,T)(T-t))` | 零息债折现因子 |
-| CS01 | `[V(cs+1bp)-V(cs)]/0.0001` | 信用利差敏感度 |
-| Trader's Equation | `P(win)*Reward > P(loss)*Risk` | 交易正期望条件 |
+| Spread | $s_t=a_t-b_t$ | 最优卖价与买价差 |
+| Midprice | $m_t=\frac{a_t+b_t}{2}$ | 盘口中间价 |
+| Effective Spread | $2\lvert p_{\mathrm{trade}}-m_t\rvert$ | 实际成交成本 |
+| Microprice | $p_t^{\mathrm{micro}}=\frac{a_tq_t^b+b_tq_t^a}{q_t^b+q_t^a}$ | 深度加权价格压力 |
+| Order Imbalance | $\mathrm{OI}_t=\frac{q_t^b-q_t^a}{q_t^b+q_t^a}$ | 买卖盘深度偏斜 |
+| Impact Proxy | $\Delta p\approx\lambda\frac{q}{V}$ | 交易参与率导致的价格冲击 |
+| IS | $\mathrm{IS}=Q(\bar p_{\mathrm{exec}}-p_{\mathrm{arrival}})$ | 实现成本 |
+| OU | $dS_t=\lambda(\mu-S_t)\,dt+\sigma\,dW_t$ | 均值回复过程 |
+| Half-life | $t_{1/2}=-\frac{\ln 2}{\lambda}$ 或 $t_{1/2}=\frac{\ln 2}{\kappa}$ | 均值回复速度 |
+| Z-score | $z_t=\frac{\mathrm{spread}_t-\mu_{\mathrm{spread}}}{\sigma_{\mathrm{spread}}}$ | 统计套利入场信号 |
+| Gamma P&L | $\frac{1}{2}\Gamma(\Delta S)^2-\Theta\,\Delta t$ | Gamma scalping 收益分解 |
+| A-S Reservation Price | $r(s,q,t)=s-q\gamma\sigma^2(T-t)$ | 库存调整后的做市中心价 |
+| Cross-Venue Profit | $\pi_{\mathrm{net}}=Q(\delta-C_{\mathrm{cost}}-I)$ | 跨市场套利净利润 |
+| Signal Decay | $\delta(t)=\delta_0e^{-\lambda t}$ | 套利窗口衰减 |
+| OBI | $\mathrm{OBI}_t=\frac{V_t^b-V_t^a}{V_t^b+V_t^a}$ | 订单流 ML 特征 |
+| VPIN | $\mathrm{VPIN}_t=\frac{\lvert V_{\mathrm{buy},t}-V_{\mathrm{sell},t}\rvert}{V_{\mathrm{total},t}}$ | informed trading proxy |
+| Kelly | $f^*=\frac{\mu}{\sigma^2}$ | 理论最优仓位比例 |
+| Bond DF | $B(t,T)=e^{-r(t,T)(T-t)}$ | 零息债折现因子 |
+| CS01 | $\mathrm{CS01}=\frac{V(cs+1\mathrm{bp})-V(cs)}{0.0001}$ | 信用利差敏感度 |
+| Trader's Equation | $P(\mathrm{win})\cdot\mathrm{Reward}>P(\mathrm{loss})\cdot\mathrm{Risk}$ | 交易正期望条件 |
 
 ## 11. 从研究到上线：统一检查清单
 
@@ -838,4 +862,3 @@ AI 基础设施推动能源需求：
 > - **策略核心**：合法 HFT 不是操纵市场，而是利用真实低维 inefficiency：均值回复、vol mispricing、spread capture、venue fragmentation、order flow predictability。
 > - **风险核心**：每个 edge 都对应一个失败模式。Stat arb 怕 regime break，Gamma scalping 怕 theta/gap，MM 怕 adverse selection，cross-venue 怕 latency/execution，ML 怕 overfitting。
 > - **现代扩展**：Crypto、AI Agent、tokenized energy/RWA 把交易从传统交易所扩展到 24/7、多链、多资产、多数据源环境，但执行成本、风险和合规没有消失，只是换了形态。
-
