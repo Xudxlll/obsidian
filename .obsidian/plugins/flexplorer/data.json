@@ -3616,8 +3616,9 @@
     "AMA564 DEEP LEARNING": {
       "isPinned": false,
       "isHidden": false,
-      "sortOrder": "custom",
+      "sortOrder": "byName",
       "customOrder": [
+        "AMA564 Deep Learning 总整理.md",
         "AMA564_Deep Learning_Lecture1.md",
         "AMA564_Deep Learning_Lecture10.md",
         "AMA564_Deep Learning_Lecture11(1).md",
@@ -3635,55 +3636,55 @@
     },
     "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture1.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture10.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture11(1).md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture12.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture2.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture3.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture4.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture5.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture6.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture7(1).md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture8.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture9.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture13.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA568 Quantitative Finance": {
       "isPinned": false,
@@ -3963,6 +3964,10 @@
     "AMA535A-Mathematical Models of Derivative Pricing/AMA535A-Mathematical Models of Derivative Pricing 总整理.md": {
       "isPinned": true,
       "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/AMA564 Deep Learning 总整理.md": {
+      "isPinned": true,
+      "isHidden": false
     }
   },
   "pinnedFiles": [
@@ -3971,7 +3976,8 @@
     "AMA571-FINANCIAL TECHNOLOGY/AMA571-FINANCIAL TECHNOLOGY 总整理.md",
     "AMA568 Quantitative Finance/AMA568 Quantitative Finance 总整理.md",
     "AF5381-FINANCIAL MARKETS/AF5381-FINANCIAL MARKETS 总整理.md",
-    "AMA535A-Mathematical Models of Derivative Pricing/AMA535A-Mathematical Models of Derivative Pricing 总整理.md"
+    "AMA535A-Mathematical Models of Derivative Pricing/AMA535A-Mathematical Models of Derivative Pricing 总整理.md",
+    "AMA564 DEEP LEARNING/AMA564 Deep Learning 总整理.md"
   ],
   "showHidden": false,
   "newItemPlacement": "top",
