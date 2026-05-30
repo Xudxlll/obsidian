@@ -4,19 +4,22 @@
   "title": "Answer AI model inquiry",
   "titleGenerationStatus": "success",
   "createdAt": 1780113234526,
-  "updatedAt": 1780113346521,
-  "lastResponseAt": 1780113346521,
-  "sessionId": "f45413d8-1c0d-4aa1-ae4a-910aa1e08409",
+  "updatedAt": 1780160080814,
+  "lastResponseAt": 1780160080814,
+  "sessionId": "88c11f42-f0b9-4003-8160-fe98cc91b681",
   "providerState": {
-    "providerSessionId": "f45413d8-1c0d-4aa1-ae4a-910aa1e08409"
+    "providerSessionId": "88c11f42-f0b9-4003-8160-fe98cc91b681",
+    "previousProviderSessionIds": [
+      "f45413d8-1c0d-4aa1-ae4a-910aa1e08409"
+    ]
   },
   "usage": {
     "model": "opus",
-    "inputTokens": 189,
+    "inputTokens": 23283,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 22784,
+    "cacheReadInputTokens": 0,
     "contextWindow": 1000000,
-    "contextTokens": 22973,
+    "contextTokens": 23283,
     "percentage": 2,
     "contextWindowIsAuthoritative": true
   }

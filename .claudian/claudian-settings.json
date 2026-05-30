@@ -20,7 +20,7 @@
     "focusInputKey": "i"
   },
   "requireCommandOrControlEnterToSend": false,
-  "locale": "en",
+  "locale": "zh-CN",
   "providerConfigs": {
     "claude": {
       "safeMode": "acceptEdits",
@@ -37,17 +37,17 @@
       "environmentHash": ""
     },
     "codex": {
-      "enabled": false,
+      "enabled": true,
       "safeMode": "workspace-write",
       "cliPath": "",
-      "cliPathsByHost": {},
+      "cliPathsByHost": {
+        "device:8f491e7d-991c-4d07-be3b-43e732df62d9": "/Applications/Codex.app/Contents/Resources/codex"
+      },
       "customModels": "",
       "reasoningSummary": "detailed",
       "environmentVariables": "",
       "environmentHash": "",
-      "installationMethod": "native-windows",
       "installationMethodsByHost": {},
-      "wslDistroOverride": "",
       "wslDistroOverridesByHost": {}
     },
     "opencode": {
