@@ -3,7 +3,7 @@
     "/": {
       "isPinned": false,
       "isHidden": false,
-      "sortOrder": "custom",
+      "sortOrder": "byName",
       "customOrder": [
         "Clippings",
         "Python预科班笔记",
@@ -3480,6 +3480,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "AMA535A-Mathematical Models of Derivative Pricing 总整理.md",
         "slide00：Subject Description.md",
         "slide01：introduction Financial Asset & Financial Market.md",
         "slide02：Market Rule & Assumption.md",
@@ -3510,107 +3511,107 @@
     },
     "AMA535A-Mathematical Models of Derivative Pricing/slide00：Subject Description.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/slide01：introduction Financial Asset & Financial Market.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/slide02：Market Rule & Assumption.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/slide03：interest Rate & Bond.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/slide04.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/slide05.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/slide06.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/slide07.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/slide08.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/slide09.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/slide10.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/slide11.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/slidesummery2.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/tutorial01ans.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/tutorial02ans.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/tutorial03ans.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/tutorial04ans.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/tutorial05ans.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/tutorial06ans.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/tutorial07ans.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/tutorial08ans.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/tutorial09ans.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/tutorial10ans.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/tutorial11ans.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/tutorial12ans.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA535A-Mathematical Models of Derivative Pricing/tutorial13ans.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA564 DEEP LEARNING": {
       "isPinned": false,
@@ -3687,7 +3688,7 @@
     "AMA568 Quantitative Finance": {
       "isPinned": false,
       "isHidden": false,
-      "sortOrder": "custom",
+      "sortOrder": "byName",
       "customOrder": [
         "AMA568 Quantitative Finance 总整理.md",
         "Reading Materials - Gamma Scalping Empirical Test.md",
@@ -3708,62 +3709,62 @@
     },
     "AMA568 Quantitative Finance/Reading Materials - Gamma Scalping Empirical Test.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA568 Quantitative Finance/lecture 12 - notes_market_making.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA568 Quantitative Finance/lecture 12 - review_2026.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA568 Quantitative Finance/lecture notes 1 - Preliminaries.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA568 Quantitative Finance/lecture notes 2 - beyond BS.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA568 Quantitative Finance/lecture notes 3 - Vix and Variance Swap.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA568 Quantitative Finance/lecture notes 4 - BTM.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA568 Quantitative Finance/lecture-10-heston.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA568 Quantitative Finance/lecture-10-sabr.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA568 Quantitative Finance/lecture-10-svi.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA568 Quantitative Finance/lecture-note-11-Volatility Trading.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA568 Quantitative Finance/lecture_7_DCD.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA568 Quantitative Finance/lecture_8_convertible_bond-lecture-notes.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA568 Quantitative Finance/lecture_9_autocallable.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA568 Quantitative Finance/AMA568 Quantitative Finance 总整理.md": {
-      "isPinned": false,
+      "isPinned": true,
       "isHidden": false
     },
     "AMA571-FINANCIAL TECHNOLOGY": {
@@ -3771,46 +3772,46 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "AMA571-FINANCIAL TECHNOLOGY 总整理.md",
         "ERC-3643_Workshop_Presentation_84eaa68a.md",
         "ERC3643.md",
         "ERC721.md",
         "Lecture 8 - Blockchain_Overview.md",
         "Prerequisite knowledg of portfolio management.md",
         "Solidity_2.md",
-        "erc1155.md",
-        "AMA571-FINANCIAL TECHNOLOGY 总整理.md"
+        "erc1155.md"
       ]
     },
     "AMA571-FINANCIAL TECHNOLOGY/ERC-3643_Workshop_Presentation_84eaa68a.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA571-FINANCIAL TECHNOLOGY/ERC3643.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA571-FINANCIAL TECHNOLOGY/ERC721.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA571-FINANCIAL TECHNOLOGY/Lecture 8 - Blockchain_Overview.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA571-FINANCIAL TECHNOLOGY/Prerequisite knowledg of portfolio management.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA571-FINANCIAL TECHNOLOGY/Solidity_2.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA571-FINANCIAL TECHNOLOGY/erc1155.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA571-FINANCIAL TECHNOLOGY/AMA571-FINANCIAL TECHNOLOGY 总整理.md": {
-      "isPinned": false,
+      "isPinned": true,
       "isHidden": false
     },
     "AMA575 Investment Science": {
@@ -3830,31 +3831,31 @@
     },
     "AMA575 Investment Science/4.Mathematical Finance - 2020 - Wang - Continuous‐time mean variance portfolio selection  A reinforcement learning framework.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA575 Investment Science/Capital Asset Pricing Model.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA575 Investment Science/Consumption-based CAPM.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA575 Investment Science/Continuous-time Stochastic Control.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA575 Investment Science/MV analysis.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA575 Investment Science/More Financial Applications.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA575 Investment Science/Stochastic Calculus.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AMA575 Investment Science/AMA575 Investment Science 总整理.md": {
       "isPinned": true,
@@ -3865,54 +3866,23 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "Lecture 1-2 Baseline Execution Simulator.md",
-        "Lecture 3 LOB, Liquidity, Microstructure Signals.md",
-        "AI Driven Quantitative Trading Deep Learning Autonomous+Agents+&amp;amp;+Tokenized+Energy+Markets.md",
-        "2026+Industry+Practices+in+Fixed+Income+Pricing+&amp;amp;+Risk+Analytics+-+PolyU (1).md",
-        "Legal_HFT_Strategies.md",
-        "HFT_Strategies_Part_2.md",
-        "Quantitative-Trading-in-Crypto-Markets.md",
-        "Trade+with+Price+Action+and+AI+Pattern+Recognition+2(1).md",
-        "AMA576 Algorithmic Trading 总整理.md"
+        "AMA576 Algorithmic Trading 总整理.md",
+        "01 - Lecture 1-2 - Baseline Execution Simulator.md",
+        "02 - Lecture 3 - LOB Liquidity and Microstructure Signals.md",
+        "03 - HFT Strategies Part 1 - Stat Arb Vol Arb and Market Making.md",
+        "04 - HFT Strategies Part 2 - Cross-Venue Arb and Order Flow Prediction.md",
+        "05 - Quantitative Trading in Crypto Markets.md",
+        "06 - Price Action and AI Pattern Recognition.md",
+        "07 - Fixed Income Pricing and Risk Analytics.md",
+        "08 - AI-Driven Quantitative Trading and Tokenized Energy Markets.md"
       ]
-    },
-    "AMA576 Algorithmic Trading/2026+Industry+Practices+in+Fixed+Income+Pricing+&amp;amp;+Risk+Analytics+-+PolyU (1).md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "AMA576 Algorithmic Trading/HFT_Strategies_Part_2.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "AMA576 Algorithmic Trading/Lecture 1-2 Baseline Execution Simulator.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "AMA576 Algorithmic Trading/Lecture 3 LOB, Liquidity, Microstructure Signals.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "AMA576 Algorithmic Trading/Legal_HFT_Strategies.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "AMA576 Algorithmic Trading/Quantitative-Trading-in-Crypto-Markets.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "AMA576 Algorithmic Trading/Trade+with+Price+Action+and+AI+Pattern+Recognition+2(1).md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "AMA576 Algorithmic Trading/AMA576 Algorithmic Trading 总整理.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "AF5381-FINANCIAL MARKETS": {
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "AF5381-FINANCIAL MARKETS 总整理.md",
         "Topic 1. Overview.md",
         "Topic 1.2_FS&FSA.md",
         "Topic 2. Financial System & Market.md",
@@ -3924,39 +3894,84 @@
     },
     "AF5381-FINANCIAL MARKETS/Topic 1. Overview.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AF5381-FINANCIAL MARKETS/Topic 1.2_FS&FSA.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AF5381-FINANCIAL MARKETS/Topic 2. Financial System & Market.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AF5381-FINANCIAL MARKETS/Topic 3&4. Time value & DCF & Capital Budgeting.md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AF5381-FINANCIAL MARKETS/Topic 5. Investment(1).md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AF5381-FINANCIAL MARKETS/Topic 6. Bond & Stock Market(1).md": {
       "isPinned": false,
-      "isHidden": false
+      "isHidden": true
     },
     "AF5381-FINANCIAL MARKETS/Topic 7. Derivative Contracts(5).md": {
       "isPinned": false,
+      "isHidden": true
+    },
+    "AMA576 Algorithmic Trading/01 - Lecture 1-2 - Baseline Execution Simulator.md": {
+      "isPinned": false,
+      "isHidden": true
+    },
+    "AMA576 Algorithmic Trading/02 - Lecture 3 - LOB Liquidity and Microstructure Signals.md": {
+      "isPinned": false,
+      "isHidden": true
+    },
+    "AMA576 Algorithmic Trading/03 - HFT Strategies Part 1 - Stat Arb Vol Arb and Market Making.md": {
+      "isPinned": false,
+      "isHidden": true
+    },
+    "AMA576 Algorithmic Trading/04 - HFT Strategies Part 2 - Cross-Venue Arb and Order Flow Prediction.md": {
+      "isPinned": false,
+      "isHidden": true
+    },
+    "AMA576 Algorithmic Trading/05 - Quantitative Trading in Crypto Markets.md": {
+      "isPinned": false,
+      "isHidden": true
+    },
+    "AMA576 Algorithmic Trading/06 - Price Action and AI Pattern Recognition.md": {
+      "isPinned": false,
+      "isHidden": true
+    },
+    "AMA576 Algorithmic Trading/07 - Fixed Income Pricing and Risk Analytics.md": {
+      "isPinned": false,
+      "isHidden": true
+    },
+    "AMA576 Algorithmic Trading/08 - AI-Driven Quantitative Trading and Tokenized Energy Markets.md": {
+      "isPinned": false,
+      "isHidden": true
+    },
+    "AMA576 Algorithmic Trading/AMA576 Algorithmic Trading 总整理.md": {
+      "isPinned": true,
       "isHidden": false
     },
-    "AMA576 Algorithmic Trading/AI Driven Quantitative Trading Deep Learning Autonomous+Agents+&amp;amp;+Tokenized+Energy+Markets.md": {
-      "isPinned": false,
+    "AF5381-FINANCIAL MARKETS/AF5381-FINANCIAL MARKETS 总整理.md": {
+      "isPinned": true,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/AMA535A-Mathematical Models of Derivative Pricing 总整理.md": {
+      "isPinned": true,
       "isHidden": false
     }
   },
   "pinnedFiles": [
-    "AMA575 Investment Science/AMA575 Investment Science 总整理.md"
+    "AMA575 Investment Science/AMA575 Investment Science 总整理.md",
+    "AMA576 Algorithmic Trading/AMA576 Algorithmic Trading 总整理.md",
+    "AMA571-FINANCIAL TECHNOLOGY/AMA571-FINANCIAL TECHNOLOGY 总整理.md",
+    "AMA568 Quantitative Finance/AMA568 Quantitative Finance 总整理.md",
+    "AF5381-FINANCIAL MARKETS/AF5381-FINANCIAL MARKETS 总整理.md",
+    "AMA535A-Mathematical Models of Derivative Pricing/AMA535A-Mathematical Models of Derivative Pricing 总整理.md"
   ],
   "showHidden": false,
   "newItemPlacement": "top",

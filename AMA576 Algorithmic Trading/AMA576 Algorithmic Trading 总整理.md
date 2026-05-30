@@ -21,14 +21,14 @@ AMA576 这一组笔记可以看成一条完整的量化交易链路：
 
 | 原笔记                                                                                                      | 主题定位                                          | 建议阅读顺序 |
 | -------------------------------------------------------------------------------------------------------- | --------------------------------------------- | ------ |
-| [[Lecture 1-2 Baseline Execution Simulator]]                                                             | 执行模拟器、CDA、LOB、三类基线执行、IS                       | 1      |
-| [[Lecture 3 LOB, Liquidity, Microstructure Signals]]                                                     | 盘口流动性、microprice、order imbalance、impact proxy | 2      |
-| [[Legal_HFT_Strategies]]                                                                                 | 合法 HFT 策略 Part 1：统计套利、Gamma Scalping、做市       | 3      |
-| [[HFT_Strategies_Part_2]]                                                                                | 合法 HFT 策略 Part 2：跨市场套利、订单流机器学习                | 4      |
-| [[Quantitative-Trading-in-Crypto-Markets]]                                                               | 加密市场结构、永续合约、资金费率、Kelly、尾部风险、回测陷阱              | 5      |
-| [[Trade+with+Price+Action+and+AI+Pattern+Recognition+2(1)]]                                              | 价格行为、K 线结构、交易管理、CNN/Metric Learning 图形识别      | 6      |
-| [[2026+Industry+Practices+in+Fixed+Income+Pricing+&amp;amp;+Risk+Analytics+-+PolyU (1)]]                 | 固定收益定价、债券风险、杠杆贷款、FRTB                         | 7      |
-| [[AI Driven Quantitative Trading Deep Learning Autonomous+Agents+&amp;amp;+Tokenized+Energy+Markets]] | 深度学习量化、AI Agent、能源冲击、RWA/tokenized energy     | 8      |
+| [[01 - Lecture 1-2 - Baseline Execution Simulator]]                                                      | 执行模拟器、CDA、LOB、三类基线执行、IS                       | 1      |
+| [[02 - Lecture 3 - LOB Liquidity and Microstructure Signals]]                                            | 盘口流动性、microprice、order imbalance、impact proxy | 2      |
+| [[03 - HFT Strategies Part 1 - Stat Arb Vol Arb and Market Making]]                                      | 合法 HFT 策略 Part 1：统计套利、Gamma Scalping、做市       | 3      |
+| [[04 - HFT Strategies Part 2 - Cross-Venue Arb and Order Flow Prediction]]                               | 合法 HFT 策略 Part 2：跨市场套利、订单流机器学习                | 4      |
+| [[05 - Quantitative Trading in Crypto Markets]]                                                          | 加密市场结构、永续合约、资金费率、Kelly、尾部风险、回测陷阱              | 5      |
+| [[06 - Price Action and AI Pattern Recognition]]                                                         | 价格行为、K 线结构、交易管理、CNN/Metric Learning 图形识别      | 6      |
+| [[07 - Fixed Income Pricing and Risk Analytics]]                                                         | 固定收益定价、债券风险、杠杆贷款、FRTB                         | 7      |
+| [[08 - AI-Driven Quantitative Trading and Tokenized Energy Markets]]                                      | 深度学习量化、AI Agent、能源冲击、RWA/tokenized energy     | 8      |
 
 ## 3. 市场微观结构：从 CDA 到 LOB
 
