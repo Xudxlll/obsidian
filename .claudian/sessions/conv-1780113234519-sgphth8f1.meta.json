@@ -1,0 +1,23 @@
+{
+  "id": "conv-1780113234519-sgphth8f1",
+  "providerId": "claude",
+  "title": "Answer AI model inquiry",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780113234526,
+  "updatedAt": 1780113346521,
+  "lastResponseAt": 1780113346521,
+  "sessionId": "f45413d8-1c0d-4aa1-ae4a-910aa1e08409",
+  "providerState": {
+    "providerSessionId": "f45413d8-1c0d-4aa1-ae4a-910aa1e08409"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 189,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 22784,
+    "contextWindow": 1000000,
+    "contextTokens": 22973,
+    "percentage": 2,
+    "contextWindowIsAuthoritative": true
+  }
+}
