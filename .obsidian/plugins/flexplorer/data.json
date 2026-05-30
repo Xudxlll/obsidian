@@ -1,0 +1,3965 @@
+{
+  "items": {
+    "/": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "Clippings",
+        "Python预科班笔记",
+        "变量与基本数据类型",
+        "附件",
+        "Python正式课笔记",
+        "AMA535A-Mathematical Models of Derivative Pricing",
+        "AMA564 DEEP LEARNING",
+        "AMA568 Quantitative Finance",
+        "AMA571-FINANCIAL TECHNOLOGY",
+        "AMA575 Investment Science",
+        "AMA576 Algorithmic Trading",
+        "AF5381-FINANCIAL MARKETS"
+      ]
+    },
+    "Clippings": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "Bilibili",
+        "Fed's inflation gauge heated up in April, cementing that interest rates will remain steady for now.md",
+        "【中英双语】黄仁勋嘉宾演讲 - CMU卡耐基梅隆大学2026毕业典礼 1.md"
+      ]
+    },
+    "Clippings/Bilibili": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "2026-05-28-中書君说204：这可能是我最有质感的视频，只为讲清楚22年总决赛有多不可思议.md",
+        "2026-05-28-视频内容一键保存到 Obsidian：打通本地知识库.md"
+      ]
+    },
+    "Clippings/Bilibili/2026-05-28-中書君说204：这可能是我最有质感的视频，只为讲清楚22年总决赛有多不可思议.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Clippings/Bilibili/2026-05-28-视频内容一键保存到 Obsidian：打通本地知识库.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Clippings/Fed's inflation gauge heated up in April, cementing that interest rates will remain steady for now.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Clippings/【中英双语】黄仁勋嘉宾演讲 - CMU卡耐基梅隆大学2026毕业典礼 1.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python预科班笔记": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "Day01 - print 与变量入门.md",
+        "Day02 - 运算符与条件判断.md",
+        "Day03 - 分支、循环与综合练习.md",
+        "Day04 - range、列表与循环练习.md",
+        "Day05 - 列表、字典与嵌套循环项目.md",
+        "Day06 - Matplotlib 折线、饼图与柱状图.md",
+        "Day07 - Matplotlib 多图表与动画入门.md",
+        "Day08 - 动画优化、openpyxl 与 pandas.md",
+        "Day10 - OpenCV 读写、色彩空间与图像增强.md",
+        "Day09 - python-docx、Excel 转 Word 与 OpenCV 入门.md",
+        "Day11 - OpenCV 几何变换与形态学.md",
+        "Day13 - OpenCV 形状拟合、瑕疵检测与人脸识别.md",
+        "Day12 - OpenCV 滤波、锐化、边缘与轮廓.md",
+        "Python预科班学习笔记总览.md",
+        "Python预科班 学习总览.canvas"
+      ]
+    },
+    "Python预科班笔记/Day01 - print 与变量入门.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python预科班笔记/Day02 - 运算符与条件判断.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python预科班笔记/Day03 - 分支、循环与综合练习.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python预科班笔记/Day04 - range、列表与循环练习.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python预科班笔记/Day05 - 列表、字典与嵌套循环项目.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python预科班笔记/Day06 - Matplotlib 折线、饼图与柱状图.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python预科班笔记/Day07 - Matplotlib 多图表与动画入门.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python预科班笔记/Day08 - 动画优化、openpyxl 与 pandas.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python预科班笔记/Day10 - OpenCV 读写、色彩空间与图像增强.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python预科班笔记/Day09 - python-docx、Excel 转 Word 与 OpenCV 入门.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python预科班笔记/Day11 - OpenCV 几何变换与形态学.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python预科班笔记/Day13 - OpenCV 形状拟合、瑕疵检测与人脸识别.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python预科班笔记/Day12 - OpenCV 滤波、锐化、边缘与轮廓.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python预科班笔记/Python预科班学习笔记总览.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python预科班笔记/Python预科班 学习总览.canvas": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "01-变量与基本数据类型.md",
+        "assets"
+      ]
+    },
+    "变量与基本数据类型/01-变量与基本数据类型.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "002.png",
+        "003.png",
+        "004.png",
+        "005.png",
+        "01.png",
+        "001.png",
+        "0120260302.png",
+        "02.jpg",
+        "02.png",
+        "0220260302.png",
+        "03.png",
+        "03-20260308.jpg",
+        "04.png",
+        "04.jpg",
+        "05.png",
+        "07.png",
+        "06.png",
+        "08.png",
+        "09.png",
+        "10.png",
+        "11.png",
+        "12.png",
+        "13.png",
+        "14.png",
+        "15.png",
+        "16.png",
+        "1682146276305.gif",
+        "17.png",
+        "18.png",
+        "20260414.png",
+        "20260428.png",
+        "2345asdf34q5235.png",
+        "5.png",
+        "6.png",
+        "6HIVyOfB.png",
+        "7.png",
+        "8.png",
+        "9.png",
+        "Class-Object-Illustration.png",
+        "Guido_van_Rossum2006.jpg",
+        "articles_ubz6a9645egtsjh6rd9x.webp",
+        "asdfa2345asdfa.jpg",
+        "closure.svg",
+        "closure20260304.png",
+        "clusure_with_param.svg",
+        "cmd.png",
+        "datatype.png",
+        "decorator_chain.svg",
+        "decorators.gif",
+        "deep_copy.png",
+        "env.png",
+        "for2.svg",
+        "generator.png",
+        "image-20231231171439261.png",
+        "image-20231231171912830.png",
+        "image-20231231171924259.png",
+        "image-20231231171938641.png",
+        "image-20231231171946051.png",
+        "image-20260108174746512.png",
+        "image-20260304110817368.png",
+        "image-20260304114440217.png",
+        "image_b6e3105f.png",
+        "io.png",
+        "list-slice.png",
+        "logo.png",
+        "memory_allocate.png",
+        "params.png",
+        "polymorphism_in_python.webp",
+        "pycharm.png",
+        "python-5-logo-png-transparent.png",
+        "python-class-realtime-example.png",
+        "python.png",
+        "recursive.png",
+        "scope.jpg",
+        "shallow_copy.png",
+        "tuple-slice.png",
+        "typewriter.jpg"
+      ]
+    },
+    "变量与基本数据类型/assets/002.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/003.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/004.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/005.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/001.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/0120260302.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/02.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/0220260302.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/03-20260308.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/04.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/04.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/05.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/07.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/06.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/08.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/09.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/10.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/11.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/12.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/13.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/14.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/15.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/16.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/1682146276305.gif": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/17.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/18.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/20260414.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/20260428.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/2345asdf34q5235.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/6.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/6HIVyOfB.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/7.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/8.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/9.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/Class-Object-Illustration.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/Guido_van_Rossum2006.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/articles_ubz6a9645egtsjh6rd9x.webp": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/asdfa2345asdfa.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/closure.svg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/closure20260304.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/clusure_with_param.svg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/cmd.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/datatype.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/decorator_chain.svg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/decorators.gif": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/deep_copy.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/env.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/for2.svg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/generator.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/image-20231231171439261.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/image-20231231171912830.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/image-20231231171924259.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/image-20231231171938641.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/image-20231231171946051.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/image-20260108174746512.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/image-20260304110817368.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/image-20260304114440217.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/image_b6e3105f.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/io.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/list-slice.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/logo.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/memory_allocate.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/params.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/polymorphism_in_python.webp": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/pycharm.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/python-5-logo-png-transparent.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/python-class-realtime-example.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/python.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/recursive.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/scope.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/shallow_copy.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/tuple-slice.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "变量与基本数据类型/assets/typewriter.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "正式课",
+        "Python预科班"
+      ]
+    },
+    "附件/正式课": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "Day01",
+        "Day02",
+        "Day05",
+        "Day06_old",
+        "Day07",
+        "Day08"
+      ]
+    },
+    "附件/正式课/Day01": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "内存图1.png"
+      ]
+    },
+    "附件/正式课/Day01/内存图1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/正式课/Day02": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "内存图1.png",
+        "内存图2.png"
+      ]
+    },
+    "附件/正式课/Day02/内存图1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/正式课/Day02/内存图2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/正式课/Day05": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "内存图1.png",
+        "内存图2.png",
+        "内存图3.png",
+        "内存图5.png",
+        "内存图4.png"
+      ]
+    },
+    "附件/正式课/Day05/内存图1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/正式课/Day05/内存图2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/正式课/Day05/内存图3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/正式课/Day05/内存图5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/正式课/Day05/内存图4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/正式课/Day06_old": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "内存图.png"
+      ]
+    },
+    "附件/正式课/Day06_old/内存图.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/正式课/Day07": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "内存图.png"
+      ]
+    },
+    "附件/正式课/Day07/内存图.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/正式课/Day08": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "内存图.png",
+        "列表内存图.png"
+      ]
+    },
+    "附件/正式课/Day08/内存图.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/正式课/Day08/列表内存图.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "day03",
+        "day02",
+        "day08",
+        "day04",
+        "day09",
+        "day12",
+        "day10",
+        "day13",
+        "img_data"
+      ]
+    },
+    "附件/Python预科班/day03": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "review"
+      ]
+    },
+    "附件/Python预科班/day03/review": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day02": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "review"
+      ]
+    },
+    "附件/Python预科班/day02/review": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "MeageData",
+        "dove.gif",
+        "全国人口统计表.xlsx",
+        "全国城市省会表.xlsx",
+        "合并后的个人信息.xlsx",
+        "新-全国人口统计表.xlsx",
+        "带人口统计的表.xlsx"
+      ]
+    },
+    "附件/Python预科班/day08/MeageData": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "个人信息表 (100).xls",
+        "个人信息表 (10).xls",
+        "个人信息表 (101).xls",
+        "个人信息表 (102).xls",
+        "个人信息表 (104).xls",
+        "个人信息表 (106).xls",
+        "个人信息表 (105).xls",
+        "个人信息表 (103).xls",
+        "个人信息表 (107).xls",
+        "个人信息表 (11).xls",
+        "个人信息表 (109).xls",
+        "个人信息表 (108).xls",
+        "个人信息表 (110).xls",
+        "个人信息表 (113).xls",
+        "个人信息表 (111).xls",
+        "个人信息表 (112).xls",
+        "个人信息表 (115).xls",
+        "个人信息表 (117).xls",
+        "个人信息表 (114).xls",
+        "个人信息表 (116).xls",
+        "个人信息表 (121).xls",
+        "个人信息表 (119).xls",
+        "个人信息表 (123).xls",
+        "个人信息表 (118).xls",
+        "个人信息表 (124).xls",
+        "个人信息表 (120).xls",
+        "个人信息表 (122).xls",
+        "个人信息表 (127).xls",
+        "个人信息表 (128).xls",
+        "个人信息表 (126).xls",
+        "个人信息表 (125).xls",
+        "个人信息表 (13).xls",
+        "个人信息表 (129).xls",
+        "个人信息表 (130).xls",
+        "个人信息表 (131).xls",
+        "个人信息表 (132).xls",
+        "个人信息表 (133).xls",
+        "个人信息表 (137).xls",
+        "个人信息表 (138).xls",
+        "个人信息表 (134).xls",
+        "个人信息表 (135).xls",
+        "个人信息表 (136).xls",
+        "个人信息表 (140).xls",
+        "个人信息表 (14).xls",
+        "个人信息表 (139).xls",
+        "个人信息表 (142).xls",
+        "个人信息表 (143).xls",
+        "个人信息表 (141).xls",
+        "个人信息表 (146).xls",
+        "个人信息表 (147).xls",
+        "个人信息表 (148).xls",
+        "个人信息表 (145).xls",
+        "个人信息表 (144).xls",
+        "个人信息表 (15).xls",
+        "个人信息表 (150).xls",
+        "个人信息表 (149).xls",
+        "个人信息表 (154).xls",
+        "个人信息表 (153).xls",
+        "个人信息表 (152).xls",
+        "个人信息表 (155).xls",
+        "个人信息表 (157).xls",
+        "个人信息表 (156).xls",
+        "个人信息表 (158).xls",
+        "个人信息表 (159).xls",
+        "个人信息表 (151).xls",
+        "个人信息表 (162).xls",
+        "个人信息表 (160).xls",
+        "个人信息表 (16).xls",
+        "个人信息表 (164).xls",
+        "个人信息表 (161).xls",
+        "个人信息表 (163).xls",
+        "个人信息表 (166).xls",
+        "个人信息表 (167).xls",
+        "个人信息表 (168).xls",
+        "个人信息表 (165).xls",
+        "个人信息表 (17).xls",
+        "个人信息表 (171).xls",
+        "个人信息表 (169).xls",
+        "个人信息表 (173).xls",
+        "个人信息表 (170).xls",
+        "个人信息表 (172).xls",
+        "个人信息表 (174).xls",
+        "个人信息表 (176).xls",
+        "个人信息表 (177).xls",
+        "个人信息表 (175).xls",
+        "个人信息表 (178).xls",
+        "个人信息表 (179).xls",
+        "个人信息表 (18).xls",
+        "个人信息表 (180).xls",
+        "个人信息表 (183).xls",
+        "个人信息表 (182).xls",
+        "个人信息表 (184).xls",
+        "个人信息表 (181).xls",
+        "个人信息表 (188).xls",
+        "个人信息表 (186).xls",
+        "个人信息表 (187).xls",
+        "个人信息表 (19).xls",
+        "个人信息表 (185).xls",
+        "个人信息表 (189).xls",
+        "个人信息表 (191).xls",
+        "个人信息表 (194).xls",
+        "个人信息表 (192).xls",
+        "个人信息表 (195).xls",
+        "个人信息表 (193).xls",
+        "个人信息表 (190).xls",
+        "个人信息表 (196).xls",
+        "个人信息表 (197).xls",
+        "个人信息表 (20).xls",
+        "个人信息表 (2).xls",
+        "个人信息表 (200).xls",
+        "个人信息表 (202).xls",
+        "个人信息表 (201).xls",
+        "个人信息表 (203).xls",
+        "个人信息表 (204).xls",
+        "个人信息表 (206).xls",
+        "个人信息表 (205).xls",
+        "个人信息表 (199).xls",
+        "个人信息表 (198).xls",
+        "个人信息表 (21).xls",
+        "个人信息表 (207).xls",
+        "个人信息表 (208).xls",
+        "个人信息表 (211).xls",
+        "个人信息表 (213).xls",
+        "个人信息表 (212).xls",
+        "个人信息表 (214).xls",
+        "个人信息表 (215).xls",
+        "个人信息表 (217).xls",
+        "个人信息表 (216).xls",
+        "个人信息表 (219).xls",
+        "个人信息表 (209).xls",
+        "个人信息表 (210).xls",
+        "个人信息表 (218).xls",
+        "个人信息表 (22).xls",
+        "个人信息表 (222).xls",
+        "个人信息表 (223).xls",
+        "个人信息表 (224).xls",
+        "个人信息表 (225).xls",
+        "个人信息表 (227).xls",
+        "个人信息表 (226).xls",
+        "个人信息表 (228).xls",
+        "个人信息表 (229).xls",
+        "个人信息表 (221).xls",
+        "个人信息表 (230).xls",
+        "个人信息表 (232).xls",
+        "个人信息表 (220).xls",
+        "个人信息表 (231).xls",
+        "个人信息表 (233).xls",
+        "个人信息表 (23).xls",
+        "个人信息表 (237).xls",
+        "个人信息表 (234).xls",
+        "个人信息表 (235).xls",
+        "个人信息表 (238).xls",
+        "个人信息表 (236).xls",
+        "个人信息表 (24).xls",
+        "个人信息表 (241).xls",
+        "个人信息表 (242).xls",
+        "个人信息表 (244).xls",
+        "个人信息表 (245).xls",
+        "个人信息表 (246).xls",
+        "个人信息表 (239).xls",
+        "个人信息表 (247).xls",
+        "个人信息表 (249).xls",
+        "个人信息表 (25).xls",
+        "个人信息表 (250).xls",
+        "个人信息表 (243).xls",
+        "个人信息表 (252).xls",
+        "个人信息表 (240).xls",
+        "个人信息表 (248).xls",
+        "个人信息表 (251).xls",
+        "个人信息表 (253).xls",
+        "个人信息表 (254).xls",
+        "个人信息表 (257).xls",
+        "个人信息表 (255).xls",
+        "个人信息表 (256).xls",
+        "个人信息表 (26).xls",
+        "个人信息表 (260).xls",
+        "个人信息表 (259).xls",
+        "个人信息表 (262).xls",
+        "个人信息表 (258).xls",
+        "个人信息表 (265).xls",
+        "个人信息表 (261).xls",
+        "个人信息表 (263).xls",
+        "个人信息表 (267).xls",
+        "个人信息表 (266).xls",
+        "个人信息表 (264).xls",
+        "个人信息表 (269).xls",
+        "个人信息表 (27).xls",
+        "个人信息表 (270).xls",
+        "个人信息表 (272).xls",
+        "个人信息表 (273).xls",
+        "个人信息表 (271).xls",
+        "个人信息表 (268).xls",
+        "个人信息表 (274).xls",
+        "个人信息表 (277).xls",
+        "个人信息表 (275).xls",
+        "个人信息表 (276).xls",
+        "个人信息表 (279).xls",
+        "个人信息表 (28).xls",
+        "个人信息表 (281).xls",
+        "个人信息表 (278).xls",
+        "个人信息表 (280).xls",
+        "个人信息表 (282).xls",
+        "个人信息表 (285).xls",
+        "个人信息表 (283).xls",
+        "个人信息表 (284).xls",
+        "个人信息表 (289).xls",
+        "个人信息表 (288).xls",
+        "个人信息表 (286).xls",
+        "个人信息表 (29).xls",
+        "个人信息表 (287).xls",
+        "个人信息表 (290).xls",
+        "个人信息表 (292).xls",
+        "个人信息表 (291).xls",
+        "个人信息表 (295).xls",
+        "个人信息表 (294).xls",
+        "个人信息表 (296).xls",
+        "个人信息表 (297).xls",
+        "个人信息表 (293).xls",
+        "个人信息表 (298).xls",
+        "个人信息表 (299).xls",
+        "个人信息表 (30).xls",
+        "个人信息表 (300).xls",
+        "个人信息表 (301).xls",
+        "个人信息表 (3).xls",
+        "个人信息表 (302).xls",
+        "个人信息表 (303).xls",
+        "个人信息表 (304).xls",
+        "个人信息表 (305).xls",
+        "个人信息表 (306).xls",
+        "个人信息表 (307).xls",
+        "个人信息表 (310).xls",
+        "个人信息表 (308).xls",
+        "个人信息表 (309).xls",
+        "个人信息表 (31).xls",
+        "个人信息表 (311).xls",
+        "个人信息表 (312).xls",
+        "个人信息表 (315).xls",
+        "个人信息表 (316).xls",
+        "个人信息表 (314).xls",
+        "个人信息表 (317).xls",
+        "个人信息表 (313).xls",
+        "个人信息表 (319).xls",
+        "个人信息表 (318).xls",
+        "个人信息表 (320).xls",
+        "个人信息表 (322).xls",
+        "个人信息表 (321).xls",
+        "个人信息表 (324).xls",
+        "个人信息表 (325).xls",
+        "个人信息表 (326).xls",
+        "个人信息表 (327).xls",
+        "个人信息表 (328).xls",
+        "个人信息表 (329).xls",
+        "个人信息表 (330).xls",
+        "个人信息表 (33).xls",
+        "个人信息表 (323).xls",
+        "个人信息表 (32).xls",
+        "个人信息表 (331).xls",
+        "个人信息表 (333).xls",
+        "个人信息表 (334).xls",
+        "个人信息表 (335).xls",
+        "个人信息表 (337).xls",
+        "个人信息表 (338).xls",
+        "个人信息表 (339).xls",
+        "个人信息表 (336).xls",
+        "个人信息表 (340).xls",
+        "个人信息表 (34).xls",
+        "个人信息表 (332).xls",
+        "个人信息表 (341).xls",
+        "个人信息表 (342).xls",
+        "个人信息表 (343).xls",
+        "个人信息表 (344).xls",
+        "个人信息表 (345).xls",
+        "个人信息表 (346).xls",
+        "个人信息表 (347).xls",
+        "个人信息表 (349).xls",
+        "个人信息表 (348).xls",
+        "个人信息表 (350).xls",
+        "个人信息表 (35).xls",
+        "个人信息表 (351).xls",
+        "个人信息表 (352).xls",
+        "个人信息表 (353).xls",
+        "个人信息表 (354).xls",
+        "个人信息表 (355).xls",
+        "个人信息表 (358).xls",
+        "个人信息表 (356).xls",
+        "个人信息表 (359).xls",
+        "个人信息表 (360).xls",
+        "个人信息表 (362).xls",
+        "个人信息表 (363).xls",
+        "个人信息表 (36).xls",
+        "个人信息表 (364).xls",
+        "个人信息表 (361).xls",
+        "个人信息表 (357).xls",
+        "个人信息表 (368).xls",
+        "个人信息表 (366).xls",
+        "个人信息表 (365).xls",
+        "个人信息表 (37).xls",
+        "个人信息表 (371).xls",
+        "个人信息表 (370).xls",
+        "个人信息表 (372).xls",
+        "个人信息表 (374).xls",
+        "个人信息表 (373).xls",
+        "个人信息表 (375).xls",
+        "个人信息表 (369).xls",
+        "个人信息表 (367).xls",
+        "个人信息表 (376).xls",
+        "个人信息表 (379).xls",
+        "个人信息表 (38).xls",
+        "个人信息表 (377).xls",
+        "个人信息表 (382).xls",
+        "个人信息表 (383).xls",
+        "个人信息表 (384).xls",
+        "个人信息表 (39).xls",
+        "个人信息表 (381).xls",
+        "个人信息表 (4).xls",
+        "个人信息表 (378).xls",
+        "个人信息表 (380).xls",
+        "个人信息表 (40).xls",
+        "个人信息表 (41).xls",
+        "个人信息表 (45).xls",
+        "个人信息表 (46).xls",
+        "个人信息表 (43).xls",
+        "个人信息表 (47).xls",
+        "个人信息表 (42).xls",
+        "个人信息表 (49).xls",
+        "个人信息表 (48).xls",
+        "个人信息表 (5).xls",
+        "个人信息表 (50).xls",
+        "个人信息表 (51).xls",
+        "个人信息表 (44).xls",
+        "个人信息表 (53).xls",
+        "个人信息表 (54).xls",
+        "个人信息表 (57).xls",
+        "个人信息表 (56).xls",
+        "个人信息表 (59).xls",
+        "个人信息表 (58).xls",
+        "个人信息表 (60).xls",
+        "个人信息表 (61).xls",
+        "个人信息表 (62).xls",
+        "个人信息表 (55).xls",
+        "个人信息表 (52).xls",
+        "个人信息表 (6).xls",
+        "个人信息表 (63).xls",
+        "个人信息表 (65).xls",
+        "个人信息表 (64).xls",
+        "个人信息表 (68).xls",
+        "个人信息表 (7).xls",
+        "个人信息表 (67).xls",
+        "个人信息表 (71).xls",
+        "个人信息表 (70).xls",
+        "个人信息表 (73).xls",
+        "个人信息表 (66).xls",
+        "个人信息表 (74).xls",
+        "个人信息表 (72).xls",
+        "个人信息表 (69).xls",
+        "个人信息表 (76).xls",
+        "个人信息表 (77).xls",
+        "个人信息表 (79).xls",
+        "个人信息表 (8).xls",
+        "个人信息表 (78).xls",
+        "个人信息表 (80).xls",
+        "个人信息表 (81).xls",
+        "个人信息表 (82).xls",
+        "个人信息表 (83).xls",
+        "个人信息表 (84).xls",
+        "个人信息表 (75).xls",
+        "个人信息表 (87).xls",
+        "个人信息表 (85).xls",
+        "个人信息表 (89).xls",
+        "个人信息表 (9).xls",
+        "个人信息表 (86).xls",
+        "个人信息表 (88).xls",
+        "个人信息表 (91).xls",
+        "个人信息表 (94).xls",
+        "个人信息表 (93).xls",
+        "个人信息表 (95).xls",
+        "个人信息表 (96).xls",
+        "个人信息表 (97).xls",
+        "个人信息表 (92).xls",
+        "个人信息表 (90).xls",
+        "个人信息表 (98).xls",
+        "个人信息表 (99).xls"
+      ]
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (100).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (10).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (101).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (102).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (104).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (106).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (105).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (103).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (107).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (11).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (109).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (108).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (110).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (113).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (111).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (112).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (115).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (117).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (114).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (116).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (121).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (119).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (123).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (118).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (124).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (120).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (122).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (127).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (128).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (126).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (125).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (13).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (129).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (130).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (131).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (132).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (133).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (137).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (138).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (134).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (135).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (136).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (140).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (14).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (139).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (142).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (143).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (141).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (146).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (147).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (148).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (145).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (144).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (15).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (150).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (149).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (154).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (153).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (152).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (155).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (157).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (156).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (158).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (159).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (151).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (162).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (160).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (16).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (164).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (161).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (163).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (166).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (167).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (168).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (165).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (17).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (171).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (169).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (173).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (170).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (172).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (174).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (176).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (177).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (175).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (178).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (179).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (18).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (180).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (183).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (182).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (184).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (181).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (188).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (186).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (187).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (19).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (185).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (189).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (191).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (194).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (192).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (195).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (193).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (190).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (196).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (197).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (20).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (2).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (200).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (202).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (201).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (203).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (204).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (206).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (205).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (199).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (198).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (21).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (207).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (208).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (211).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (213).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (212).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (214).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (215).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (217).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (216).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (219).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (209).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (210).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (218).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (22).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (222).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (223).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (224).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (225).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (227).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (226).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (228).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (229).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (221).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (230).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (232).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (220).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (231).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (233).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (23).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (237).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (234).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (235).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (238).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (236).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (24).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (241).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (242).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (244).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (245).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (246).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (239).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (247).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (249).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (25).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (250).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (243).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (252).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (240).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (248).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (251).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (253).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (254).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (257).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (255).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (256).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (26).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (260).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (259).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (262).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (258).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (265).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (261).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (263).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (267).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (266).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (264).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (269).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (27).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (270).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (272).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (273).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (271).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (268).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (274).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (277).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (275).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (276).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (279).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (28).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (281).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (278).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (280).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (282).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (285).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (283).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (284).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (289).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (288).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (286).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (29).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (287).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (290).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (292).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (291).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (295).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (294).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (296).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (297).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (293).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (298).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (299).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (30).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (300).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (301).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (3).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (302).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (303).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (304).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (305).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (306).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (307).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (310).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (308).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (309).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (31).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (311).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (312).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (315).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (316).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (314).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (317).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (313).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (319).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (318).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (320).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (322).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (321).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (324).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (325).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (326).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (327).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (328).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (329).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (330).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (33).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (323).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (32).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (331).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (333).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (334).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (335).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (337).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (338).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (339).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (336).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (340).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (34).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (332).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (341).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (342).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (343).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (344).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (345).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (346).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (347).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (349).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (348).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (350).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (35).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (351).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (352).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (353).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (354).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (355).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (358).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (356).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (359).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (360).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (362).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (363).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (36).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (364).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (361).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (357).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (368).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (366).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (365).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (37).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (371).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (370).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (372).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (374).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (373).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (375).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (369).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (367).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (376).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (379).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (38).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (377).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (382).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (383).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (384).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (39).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (381).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (4).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (378).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (380).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (40).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (41).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (45).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (46).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (43).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (47).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (42).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (49).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (48).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (5).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (50).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (51).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (44).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (53).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (54).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (57).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (56).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (59).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (58).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (60).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (61).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (62).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (55).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (52).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (6).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (63).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (65).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (64).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (68).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (7).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (67).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (71).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (70).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (73).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (66).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (74).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (72).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (69).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (76).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (77).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (79).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (8).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (78).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (80).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (81).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (82).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (83).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (84).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (75).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (87).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (85).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (89).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (9).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (86).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (88).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (91).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (94).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (93).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (95).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (96).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (97).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (92).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (90).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (98).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/MeageData/个人信息表 (99).xls": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/dove.gif": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/全国人口统计表.xlsx": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/全国城市省会表.xlsx": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/合并后的个人信息.xlsx": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/新-全国人口统计表.xlsx": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day08/带人口统计的表.xlsx": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day04": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "__pycache__"
+      ]
+    },
+    "附件/Python预科班/day04/__pycache__": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "exercise03.cpython-312.pyc"
+      ]
+    },
+    "附件/Python预科班/day04/__pycache__/exercise03.cpython-312.pyc": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "img_data",
+        "全国人口统计表.xlsx",
+        "带人口统计的表.xlsx",
+        "带表格全国人口.docx",
+        "带表格的见与不见.docx",
+        "第一篇word文档.docx",
+        "见与不见.docx"
+      ]
+    },
+    "附件/Python预科班/day09/img_data": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "1.png",
+        "10.png",
+        "2.png",
+        "3.png",
+        "4.png",
+        "5.png",
+        "44.jpg",
+        "6.png",
+        "7.png",
+        "8.png",
+        "99.png",
+        "9.png",
+        "CPU3.png",
+        "Linus.png",
+        "Linus_2.png",
+        "apple_2.png",
+        "apple_1.png",
+        "banana_1.png",
+        "banana_2.png",
+        "bub.png",
+        "bub2.png",
+        "cad.png",
+        "card10.png",
+        "cat.jpg",
+        "cloud.png",
+        "coin.png",
+        "dog1.png",
+        "dog2.png",
+        "grape_1.png",
+        "grape_2.png",
+        "hair.png",
+        "hammer.png",
+        "handwritting.jpg",
+        "lena_eyes.jpg",
+        "lena.jpg",
+        "lena_noise.png",
+        "lily.png",
+        "lily2.png",
+        "lily3.png",
+        "lily4.png",
+        "lily_square.png",
+        "machine.png",
+        "opencv.png",
+        "opencv2.png",
+        "paper.jpg",
+        "pers.png",
+        "rail_1.png",
+        "rail_11.png",
+        "rail_5.jpg",
+        "sunrise.jpg",
+        "tea.jpg",
+        "tea2.jpg",
+        "tea3.jpg",
+        "tea4.jpg",
+        "tea5.jpg",
+        "test1.jpg",
+        "ticket.jpg",
+        "timg.jfif",
+        "weiqi.jpg",
+        "xm1.jpg",
+        "xm2.jpg",
+        "zebra.png",
+        "zebra2.png"
+      ]
+    },
+    "附件/Python预科班/day09/img_data/1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/10.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/44.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/6.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/7.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/8.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/99.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/9.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/CPU3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/Linus.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/Linus_2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/apple_2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/apple_1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/banana_1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/banana_2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/bub.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/bub2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/cad.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/card10.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/cat.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/cloud.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/coin.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/dog1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/dog2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/grape_1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/grape_2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/hair.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/hammer.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/handwritting.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/lena_eyes.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/lena.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/lena_noise.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/lily.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/lily2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/lily3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/lily4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/lily_square.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/machine.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/opencv.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/opencv2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/paper.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/pers.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/rail_1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/rail_11.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/rail_5.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/sunrise.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/tea.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/tea2.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/tea3.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/tea4.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/tea5.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/test1.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/ticket.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/timg.jfif": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/weiqi.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/xm1.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/xm2.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/zebra.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/img_data/zebra2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/全国人口统计表.xlsx": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/带人口统计的表.xlsx": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/带表格全国人口.docx": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/带表格的见与不见.docx": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/第一篇word文档.docx": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day09/见与不见.docx": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day12": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "1.jpg",
+        "2.png"
+      ]
+    },
+    "附件/Python预科班/day12/1.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day12/2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day10": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "111.jpg",
+        "Linus_new.png",
+        "output.jpg"
+      ]
+    },
+    "附件/Python预科班/day10/111.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day10/Linus_new.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day10/output.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day13": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "1.png",
+        "haarcascade_frontalface_default.xml"
+      ]
+    },
+    "附件/Python预科班/day13/1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/day13/haarcascade_frontalface_default.xml": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "1.png",
+        "10.png",
+        "2.png",
+        "3.png",
+        "4.png",
+        "44.jpg",
+        "5.png",
+        "6.png",
+        "7.png",
+        "9.png",
+        "8.png",
+        "99.png",
+        "apple_1.png",
+        "Linus_2.png",
+        "Linus.png",
+        "banana_1.png",
+        "CPU3.png",
+        "banana_2.png",
+        "apple_2.png",
+        "bub.png",
+        "cad.png",
+        "card10.png",
+        "cat.jpg",
+        "coin.png",
+        "cloud.png",
+        "bub2.png",
+        "grape_2.png",
+        "dog2.png",
+        "hair.png",
+        "dog1.png",
+        "hammer.png",
+        "grape_1.png",
+        "lena.jpg",
+        "lena_eyes.jpg",
+        "lily.png",
+        "lily2.png",
+        "lily4.png",
+        "lena_noise.png",
+        "handwritting.jpg",
+        "lily3.png",
+        "opencv.png",
+        "lily_square.png",
+        "opencv2.png",
+        "paper.jpg",
+        "pers.png",
+        "machine.png",
+        "rail_1.png",
+        "rail_11.png",
+        "sunrise.jpg",
+        "tea.jpg",
+        "tea3.jpg",
+        "rail_5.jpg",
+        "test1.jpg",
+        "tea2.jpg",
+        "ticket.jpg",
+        "timg.jfif",
+        "xm1.jpg",
+        "tea5.jpg",
+        "weiqi.jpg",
+        "zebra2.png",
+        "xm2.jpg",
+        "zebra.png",
+        "tea4.jpg"
+      ]
+    },
+    "附件/Python预科班/img_data/1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/10.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/44.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/6.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/7.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/9.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/8.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/99.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/apple_1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/Linus_2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/Linus.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/banana_1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/CPU3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/banana_2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/apple_2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/bub.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/cad.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/card10.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/cat.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/coin.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/cloud.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/bub2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/grape_2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/dog2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/hair.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/dog1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/hammer.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/grape_1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/lena.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/lena_eyes.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/lily.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/lily2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/lily4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/lena_noise.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/handwritting.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/lily3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/opencv.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/lily_square.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/opencv2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/paper.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/pers.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/machine.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/rail_1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/rail_11.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/sunrise.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/tea.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/tea3.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/rail_5.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/test1.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/tea2.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/ticket.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/timg.jfif": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/xm1.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/tea5.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/weiqi.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/zebra2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/xm2.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/zebra.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "附件/Python预科班/img_data/tea4.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python正式课笔记": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "Day01 - print 与变量入门.md",
+        "Day02 - 数据类型与运算基础.md",
+        "Day03 - 分支与循环控制.md",
+        "Day04 - for 循环与列表.md",
+        "Day05 - 推导式、拷贝、元组与字符串.md",
+        "Day06 - 字典、嵌套结构与函数项目.md",
+        "Day07 - 函数参数、返回值与作用域.md",
+        "Day08 - 集合、小数与递归.md",
+        "Python 正式课学习笔记总览.md",
+        "正式课 Python 学习总览.canvas"
+      ]
+    },
+    "Python正式课笔记/Day01 - print 与变量入门.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python正式课笔记/Day02 - 数据类型与运算基础.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python正式课笔记/Day03 - 分支与循环控制.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python正式课笔记/Day04 - for 循环与列表.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python正式课笔记/Day05 - 推导式、拷贝、元组与字符串.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python正式课笔记/Day06 - 字典、嵌套结构与函数项目.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python正式课笔记/Day07 - 函数参数、返回值与作用域.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python正式课笔记/Day08 - 集合、小数与递归.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python正式课笔记/Python 正式课学习笔记总览.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python正式课笔记/正式课 Python 学习总览.canvas": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "slide00：Subject Description.md",
+        "slide01：introduction Financial Asset & Financial Market.md",
+        "slide02：Market Rule & Assumption.md",
+        "slide03：interest Rate & Bond.md",
+        "slide04.md",
+        "slide05.md",
+        "slide06.md",
+        "slide07.md",
+        "slide08.md",
+        "slide09.md",
+        "slide10.md",
+        "slide11.md",
+        "slidesummery2.md",
+        "tutorial01ans.md",
+        "tutorial02ans.md",
+        "tutorial03ans.md",
+        "tutorial04ans.md",
+        "tutorial05ans.md",
+        "tutorial06ans.md",
+        "tutorial07ans.md",
+        "tutorial08ans.md",
+        "tutorial09ans.md",
+        "tutorial10ans.md",
+        "tutorial11ans.md",
+        "tutorial12ans.md",
+        "tutorial13ans.md"
+      ]
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/slide00：Subject Description.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/slide01：introduction Financial Asset & Financial Market.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/slide02：Market Rule & Assumption.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/slide03：interest Rate & Bond.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/slide04.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/slide05.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/slide06.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/slide07.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/slide08.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/slide09.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/slide10.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/slide11.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/slidesummery2.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/tutorial01ans.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/tutorial02ans.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/tutorial03ans.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/tutorial04ans.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/tutorial05ans.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/tutorial06ans.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/tutorial07ans.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/tutorial08ans.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/tutorial09ans.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/tutorial10ans.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/tutorial11ans.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/tutorial12ans.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing/tutorial13ans.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "AMA564_Deep Learning_Lecture1.md",
+        "AMA564_Deep Learning_Lecture10.md",
+        "AMA564_Deep Learning_Lecture11(1).md",
+        "AMA564_Deep Learning_Lecture12.md",
+        "AMA564_Deep Learning_Lecture2.md",
+        "AMA564_Deep Learning_Lecture3.md",
+        "AMA564_Deep Learning_Lecture4.md",
+        "AMA564_Deep Learning_Lecture5.md",
+        "AMA564_Deep Learning_Lecture6.md",
+        "AMA564_Deep Learning_Lecture7(1).md",
+        "AMA564_Deep Learning_Lecture8.md",
+        "AMA564_Deep Learning_Lecture9.md",
+        "AMA564_Deep Learning_Lecture13.md"
+      ]
+    },
+    "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture1.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture10.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture11(1).md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture12.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture2.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture3.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture4.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture5.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture6.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture7(1).md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture8.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture9.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/AMA564_Deep Learning_Lecture13.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA568 Quantitative Finance": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "AMA568 Quantitative Finance 总整理.md",
+        "Reading Materials - Gamma Scalping Empirical Test.md",
+        "lecture 12 - notes_market_making.md",
+        "lecture 12 - review_2026.md",
+        "lecture notes 1 - Preliminaries.md",
+        "lecture notes 2 - beyond BS.md",
+        "lecture notes 3 - Vix and Variance Swap.md",
+        "lecture notes 4 - BTM.md",
+        "lecture-10-heston.md",
+        "lecture-10-sabr.md",
+        "lecture-10-svi.md",
+        "lecture-note-11-Volatility Trading.md",
+        "lecture_7_DCD.md",
+        "lecture_8_convertible_bond-lecture-notes.md",
+        "lecture_9_autocallable.md"
+      ]
+    },
+    "AMA568 Quantitative Finance/Reading Materials - Gamma Scalping Empirical Test.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA568 Quantitative Finance/lecture 12 - notes_market_making.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA568 Quantitative Finance/lecture 12 - review_2026.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA568 Quantitative Finance/lecture notes 1 - Preliminaries.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA568 Quantitative Finance/lecture notes 2 - beyond BS.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA568 Quantitative Finance/lecture notes 3 - Vix and Variance Swap.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA568 Quantitative Finance/lecture notes 4 - BTM.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA568 Quantitative Finance/lecture-10-heston.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA568 Quantitative Finance/lecture-10-sabr.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA568 Quantitative Finance/lecture-10-svi.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA568 Quantitative Finance/lecture-note-11-Volatility Trading.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA568 Quantitative Finance/lecture_7_DCD.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA568 Quantitative Finance/lecture_8_convertible_bond-lecture-notes.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA568 Quantitative Finance/lecture_9_autocallable.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA568 Quantitative Finance/AMA568 Quantitative Finance 总整理.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA571-FINANCIAL TECHNOLOGY": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "ERC-3643_Workshop_Presentation_84eaa68a.md",
+        "ERC3643.md",
+        "ERC721.md",
+        "Lecture 8 - Blockchain_Overview.md",
+        "Prerequisite knowledg of portfolio management.md",
+        "Solidity_2.md",
+        "erc1155.md",
+        "AMA571-FINANCIAL TECHNOLOGY 总整理.md"
+      ]
+    },
+    "AMA571-FINANCIAL TECHNOLOGY/ERC-3643_Workshop_Presentation_84eaa68a.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA571-FINANCIAL TECHNOLOGY/ERC3643.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA571-FINANCIAL TECHNOLOGY/ERC721.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA571-FINANCIAL TECHNOLOGY/Lecture 8 - Blockchain_Overview.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA571-FINANCIAL TECHNOLOGY/Prerequisite knowledg of portfolio management.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA571-FINANCIAL TECHNOLOGY/Solidity_2.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA571-FINANCIAL TECHNOLOGY/erc1155.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA571-FINANCIAL TECHNOLOGY/AMA571-FINANCIAL TECHNOLOGY 总整理.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA575 Investment Science": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "AMA575 Investment Science 总整理.md",
+        "MV analysis.md",
+        "Capital Asset Pricing Model.md",
+        "Consumption-based CAPM.md",
+        "Stochastic Calculus.md",
+        "Continuous-time Stochastic Control.md",
+        "More Financial Applications.md",
+        "4.Mathematical Finance - 2020 - Wang - Continuous‐time mean variance portfolio selection  A reinforcement learning framework.md"
+      ]
+    },
+    "AMA575 Investment Science/4.Mathematical Finance - 2020 - Wang - Continuous‐time mean variance portfolio selection  A reinforcement learning framework.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA575 Investment Science/Capital Asset Pricing Model.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA575 Investment Science/Consumption-based CAPM.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA575 Investment Science/Continuous-time Stochastic Control.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA575 Investment Science/MV analysis.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA575 Investment Science/More Financial Applications.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA575 Investment Science/Stochastic Calculus.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA575 Investment Science/AMA575 Investment Science 总整理.md": {
+      "isPinned": true,
+      "isHidden": false
+    },
+    "AMA576 Algorithmic Trading": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "Lecture 1-2 Baseline Execution Simulator.md",
+        "Lecture 3 LOB, Liquidity, Microstructure Signals.md",
+        "AI Driven Quantitative Trading Deep Learning Autonomous+Agents+&amp;amp;+Tokenized+Energy+Markets.md",
+        "2026+Industry+Practices+in+Fixed+Income+Pricing+&amp;amp;+Risk+Analytics+-+PolyU (1).md",
+        "Legal_HFT_Strategies.md",
+        "HFT_Strategies_Part_2.md",
+        "Quantitative-Trading-in-Crypto-Markets.md",
+        "Trade+with+Price+Action+and+AI+Pattern+Recognition+2(1).md",
+        "AMA576 Algorithmic Trading 总整理.md"
+      ]
+    },
+    "AMA576 Algorithmic Trading/2026+Industry+Practices+in+Fixed+Income+Pricing+&amp;amp;+Risk+Analytics+-+PolyU (1).md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA576 Algorithmic Trading/HFT_Strategies_Part_2.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA576 Algorithmic Trading/Lecture 1-2 Baseline Execution Simulator.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA576 Algorithmic Trading/Lecture 3 LOB, Liquidity, Microstructure Signals.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA576 Algorithmic Trading/Legal_HFT_Strategies.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA576 Algorithmic Trading/Quantitative-Trading-in-Crypto-Markets.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA576 Algorithmic Trading/Trade+with+Price+Action+and+AI+Pattern+Recognition+2(1).md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA576 Algorithmic Trading/AMA576 Algorithmic Trading 总整理.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AF5381-FINANCIAL MARKETS": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "Topic 1. Overview.md",
+        "Topic 1.2_FS&FSA.md",
+        "Topic 2. Financial System & Market.md",
+        "Topic 3&4. Time value & DCF & Capital Budgeting.md",
+        "Topic 5. Investment(1).md",
+        "Topic 6. Bond & Stock Market(1).md",
+        "Topic 7. Derivative Contracts(5).md"
+      ]
+    },
+    "AF5381-FINANCIAL MARKETS/Topic 1. Overview.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AF5381-FINANCIAL MARKETS/Topic 1.2_FS&FSA.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AF5381-FINANCIAL MARKETS/Topic 2. Financial System & Market.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AF5381-FINANCIAL MARKETS/Topic 3&4. Time value & DCF & Capital Budgeting.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AF5381-FINANCIAL MARKETS/Topic 5. Investment(1).md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AF5381-FINANCIAL MARKETS/Topic 6. Bond & Stock Market(1).md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AF5381-FINANCIAL MARKETS/Topic 7. Derivative Contracts(5).md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA576 Algorithmic Trading/AI Driven Quantitative Trading Deep Learning Autonomous+Agents+&amp;amp;+Tokenized+Energy+Markets.md": {
+      "isPinned": false,
+      "isHidden": false
+    }
+  },
+  "pinnedFiles": [
+    "AMA575 Investment Science/AMA575 Investment Science 总整理.md"
+  ],
+  "showHidden": false,
+  "newItemPlacement": "top",
+  "persistOrderOnCreateDelete": true,
+  "debugMode": false
+}

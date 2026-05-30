@@ -1,4 +1,4 @@
-# AMA575 Advanced Topics in Investment Science Lecture 1: Mean Variance Analysis
+ # AMA575 Advanced Topics in Investment Science Lecture 1: Mean Variance Analysis
 
 Lecturer: Selena QIAN
 

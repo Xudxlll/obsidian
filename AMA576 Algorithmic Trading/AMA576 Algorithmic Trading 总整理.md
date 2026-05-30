@@ -28,7 +28,7 @@ AMA576 这一组笔记可以看成一条完整的量化交易链路：
 | [[Quantitative-Trading-in-Crypto-Markets]]                                                               | 加密市场结构、永续合约、资金费率、Kelly、尾部风险、回测陷阱              | 5      |
 | [[Trade+with+Price+Action+and+AI+Pattern+Recognition+2(1)]]                                              | 价格行为、K 线结构、交易管理、CNN/Metric Learning 图形识别      | 6      |
 | [[2026+Industry+Practices+in+Fixed+Income+Pricing+&amp;amp;+Risk+Analytics+-+PolyU (1)]]                 | 固定收益定价、债券风险、杠杆贷款、FRTB                         | 7      |
-| [[1AI-Driven+Quantitative+Trading_+Deep+Learning,+Autonomous+Agents+&amp;amp;+Tokenized+Energy+Markets]] | 深度学习量化、AI Agent、能源冲击、RWA/tokenized energy     | 8      |
+| [[AI Driven Quantitative Trading Deep Learning Autonomous+Agents+&amp;amp;+Tokenized+Energy+Markets]] | 深度学习量化、AI Agent、能源冲击、RWA/tokenized energy     | 8      |
 
 ## 3. 市场微观结构：从 CDA 到 LOB
 
