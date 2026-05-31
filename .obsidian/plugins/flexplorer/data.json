@@ -24,26 +24,9 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "Bilibili",
-        "Fed's inflation gauge heated up in April, cementing that interest rates will remain steady for now.md",
+        "2026-05-31-Codex (APP) 保姆级全攻略，海量实战教程， 一期精通Codex.md",
         "【中英双语】黄仁勋嘉宾演讲 - CMU卡耐基梅隆大学2026毕业典礼 1.md"
       ]
-    },
-    "Clippings/Bilibili": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "2026-05-28-视频内容一键保存到 Obsidian：打通本地知识库.md"
-      ]
-    },
-    "Clippings/Bilibili/2026-05-28-视频内容一键保存到 Obsidian：打通本地知识库.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "Clippings/Fed's inflation gauge heated up in April, cementing that interest rates will remain steady for now.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "Clippings/【中英双语】黄仁勋嘉宾演讲 - CMU卡耐基梅隆大学2026毕业典礼 1.md": {
       "isPinned": false,
@@ -3962,6 +3945,10 @@
     },
     "AMA564 DEEP LEARNING/AMA564 Deep Learning 总整理.md": {
       "isPinned": true,
+      "isHidden": false
+    },
+    "Clippings/2026-05-31-Codex (APP) 保姆级全攻略，海量实战教程， 一期精通Codex.md": {
+      "isPinned": false,
       "isHidden": false
     }
   },

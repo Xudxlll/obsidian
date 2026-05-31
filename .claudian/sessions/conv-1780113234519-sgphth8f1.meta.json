@@ -4,8 +4,8 @@
   "title": "Answer AI model inquiry",
   "titleGenerationStatus": "success",
   "createdAt": 1780113234526,
-  "updatedAt": 1780160080814,
-  "lastResponseAt": 1780160080814,
+  "updatedAt": 1780161025026,
+  "lastResponseAt": 1780160682390,
   "sessionId": "88c11f42-f0b9-4003-8160-fe98cc91b681",
   "providerState": {
     "providerSessionId": "88c11f42-f0b9-4003-8160-fe98cc91b681",
@@ -15,12 +15,12 @@
   },
   "usage": {
     "model": "opus",
-    "inputTokens": 23283,
+    "inputTokens": 120715,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 0,
+    "cacheReadInputTokens": 23168,
     "contextWindow": 1000000,
-    "contextTokens": 23283,
-    "percentage": 2,
+    "contextTokens": 143883,
+    "percentage": 14,
     "contextWindowIsAuthoritative": true
   }
 }
