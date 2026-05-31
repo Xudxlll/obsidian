@@ -3,8 +3,9 @@
     "/": {
       "isPinned": false,
       "isHidden": false,
-      "sortOrder": "byName",
+      "sortOrder": "custom",
       "customOrder": [
+        "AI配置汇总",
         "Clippings",
         "Python预科班笔记",
         "变量与基本数据类型",
@@ -3948,6 +3949,23 @@
       "isHidden": false
     },
     "Clippings/2026-05-31-Codex (APP) 保姆级全攻略，海量实战教程， 一期精通Codex.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AI配置汇总/未命名.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AI配置汇总": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "未命名 1.md",
+        "未命名.md"
+      ]
+    },
+    "AI配置汇总/未命名 1.md": {
       "isPinned": false,
       "isHidden": false
     }
