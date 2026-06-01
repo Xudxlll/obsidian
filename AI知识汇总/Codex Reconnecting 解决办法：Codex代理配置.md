@@ -10,7 +10,7 @@ created: 2026-06-01
 tags:
   - bilibili
   - Codex
-  - AI配置
+  - AI知识
 ---
 
 <iframe src="https://player.bilibili.com/player.html?aid=116624501836439&bvid=BV1ABG66XEjs&cid=38560925203&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; picture-in-picture" allowfullscreen="true" style="height:100%;width:100%; aspect-ratio: 16 / 9;"> </iframe>

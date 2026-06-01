@@ -9,9 +9,9 @@ subtitle_lang: 中文
 created: 2026-06-01
 tags:
   - bilibili
-  - AI配置
   - Git
   - GitHub
+  - AI知识
 ---
 
 <iframe src="https://player.bilibili.com/player.html?aid=116595242307520&bvid=BV1ySLc6QEcB&cid=38425857864&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; picture-in-picture" allowfullscreen="true" style="height:100%;width:100%; aspect-ratio: 16 / 9;"> </iframe>

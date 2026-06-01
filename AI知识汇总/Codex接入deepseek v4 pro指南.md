@@ -3,13 +3,13 @@ title: Codex 接入 DeepSeek：CCX + CC Switch 配置原理与排错
 source_url: https://www.bilibili.com/video/BV1Xj5E65Euo/
 created: 2026-06-01
 tags:
-  - AI配置
   - Codex
   - DeepSeek
   - CCX
   - CC-Switch
   - bilibili
   - agent
+  - AI知识
 ---
 
 # Codex 接入 DeepSeek：CCX + CC Switch 配置原理与排错

@@ -9,9 +9,9 @@ subtitle_lang: 中文
 created: 2026-05-31
 tags:
   - bilibili
-  - AI配置
   - Codex
   - agent
+  - AI知识
 ---
 
 <iframe src="https://player.bilibili.com/player.html?aid=116481979320235&bvid=BV1Kk9kBAEJv&cid=37912839956&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; picture-in-picture" allowfullscreen="true" style="height:100%;width:100%; aspect-ratio: 16 / 9;"> </iframe>

@@ -13,8 +13,8 @@ tags:
   - rag
   - skill
   - bilibili
-  - AI配置
   - openclaw
+  - AI知识
 ---
 
 <iframe src="https://player.bilibili.com/player.html?aid=116007418988157&bvid=BV1ojfDBSEPv&cid=35800812006&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; picture-in-picture" allowfullscreen="true" style="height:100%;width:100%; aspect-ratio: 16 / 9;"> </iframe>

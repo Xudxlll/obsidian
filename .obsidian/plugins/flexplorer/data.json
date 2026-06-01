@@ -3968,14 +3968,14 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "Hermes Agent.md",
-        "材料文件夹",
         "Skill MCP RAG Agent OpenClaw 底层逻辑.md",
         "Git+Github核心概念.md",
         "vibe-trading指南.md",
+        "Hermes Agent.md",
         "Codex Reconnecting 解决办法：Codex代理配置.md",
         "Codex (APP) 全攻略.md",
-        "Codex接入deepseek v4 pro指南.md"
+        "Codex接入deepseek v4 pro指南.md",
+        "材料文件夹"
       ]
     },
     "AI知识汇总/vibe-trading指南.md": {

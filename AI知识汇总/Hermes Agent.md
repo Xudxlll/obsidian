@@ -2,11 +2,11 @@
 title: Hermes Agent
 source: Hermes-Agent PDF 转换整理
 tags:
-  - AI/Agent
-  - AI/Hermes-Agent
-  - AI/工具
-  - Obsidian/知识库
+  - agent
+  - AI知识
+  - hermes
 created: 2026-06-01
+url: https://www.bilibili.com/video/BV13YRjBTEPb?t=2.0&p=9
 ---
 
 # Hermes Agent
@@ -178,6 +178,7 @@ Hermes 支持接入微信、QQ、飞书等消息应用。
 
 ```bash
 hermes gateway setup
+hermes gateway stop
 ```
 
 ### 7.1 授权模式

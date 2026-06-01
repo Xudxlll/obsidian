@@ -4,8 +4,8 @@ url: https://github.com/HKUDS/Vibe-Trading/tree/main
 日期: 2026-05-31
 tags:
   - github
-  - AI配置
   - agent
+  - AI知识
 ---
 
 # Vibe-Trading 指南
