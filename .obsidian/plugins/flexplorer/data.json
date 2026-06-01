@@ -8,7 +8,7 @@
         "Mac快捷键以及功能汇总",
         "Clippings",
         "AI知识汇总",
-        "变量与基本数据类型",
+        "Python基础",
         "Python预科班笔记",
         "Python正式课笔记",
         "附件",
@@ -115,411 +115,6 @@
       "isHidden": false
     },
     "Python预科班笔记/Python预科班 学习总览.canvas": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "01-变量与基本数据类型.md",
-        "assets"
-      ]
-    },
-    "变量与基本数据类型/01-变量与基本数据类型.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "002.png",
-        "003.png",
-        "004.png",
-        "005.png",
-        "01.png",
-        "001.png",
-        "0120260302.png",
-        "02.jpg",
-        "02.png",
-        "0220260302.png",
-        "03.png",
-        "03-20260308.jpg",
-        "04.png",
-        "04.jpg",
-        "05.png",
-        "07.png",
-        "06.png",
-        "08.png",
-        "09.png",
-        "10.png",
-        "11.png",
-        "12.png",
-        "13.png",
-        "14.png",
-        "15.png",
-        "16.png",
-        "1682146276305.gif",
-        "17.png",
-        "18.png",
-        "20260414.png",
-        "20260428.png",
-        "2345asdf34q5235.png",
-        "5.png",
-        "6.png",
-        "6HIVyOfB.png",
-        "7.png",
-        "8.png",
-        "9.png",
-        "Class-Object-Illustration.png",
-        "Guido_van_Rossum2006.jpg",
-        "articles_ubz6a9645egtsjh6rd9x.webp",
-        "asdfa2345asdfa.jpg",
-        "closure.svg",
-        "closure20260304.png",
-        "clusure_with_param.svg",
-        "cmd.png",
-        "datatype.png",
-        "decorator_chain.svg",
-        "decorators.gif",
-        "deep_copy.png",
-        "env.png",
-        "for2.svg",
-        "generator.png",
-        "image-20231231171439261.png",
-        "image-20231231171912830.png",
-        "image-20231231171924259.png",
-        "image-20231231171938641.png",
-        "image-20231231171946051.png",
-        "image-20260108174746512.png",
-        "image-20260304110817368.png",
-        "image-20260304114440217.png",
-        "image_b6e3105f.png",
-        "io.png",
-        "list-slice.png",
-        "logo.png",
-        "memory_allocate.png",
-        "params.png",
-        "polymorphism_in_python.webp",
-        "pycharm.png",
-        "python-5-logo-png-transparent.png",
-        "python-class-realtime-example.png",
-        "python.png",
-        "recursive.png",
-        "scope.jpg",
-        "shallow_copy.png",
-        "tuple-slice.png",
-        "typewriter.jpg"
-      ]
-    },
-    "变量与基本数据类型/assets/002.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/003.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/004.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/005.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/01.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/001.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/0120260302.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/02.jpg": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/02.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/0220260302.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/03.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/03-20260308.jpg": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/04.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/04.jpg": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/05.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/07.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/06.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/08.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/09.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/10.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/11.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/12.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/13.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/14.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/15.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/16.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/1682146276305.gif": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/17.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/18.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/20260414.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/20260428.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/2345asdf34q5235.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/5.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/6.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/6HIVyOfB.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/7.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/8.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/9.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/Class-Object-Illustration.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/Guido_van_Rossum2006.jpg": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/articles_ubz6a9645egtsjh6rd9x.webp": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/asdfa2345asdfa.jpg": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/closure.svg": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/closure20260304.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/clusure_with_param.svg": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/cmd.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/datatype.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/decorator_chain.svg": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/decorators.gif": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/deep_copy.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/env.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/for2.svg": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/generator.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/image-20231231171439261.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/image-20231231171912830.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/image-20231231171924259.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/image-20231231171938641.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/image-20231231171946051.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/image-20260108174746512.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/image-20260304110817368.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/image-20260304114440217.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/image_b6e3105f.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/io.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/list-slice.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/logo.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/memory_allocate.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/params.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/polymorphism_in_python.webp": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/pycharm.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/python-5-logo-png-transparent.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/python-class-realtime-example.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/python.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/recursive.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/scope.jpg": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/shallow_copy.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/tuple-slice.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "变量与基本数据类型/assets/typewriter.jpg": {
       "isPinned": false,
       "isHidden": false
     },
@@ -4032,6 +3627,416 @@
       "isHidden": false
     },
     "AI知识汇总/Hermes Agent.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "01-变量与基本数据类型.md",
+        "02-Python容器类型.md",
+        "assets"
+      ]
+    },
+    "Python基础/01-变量与基本数据类型.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "002.png",
+        "003.png",
+        "004.png",
+        "005.png",
+        "01.png",
+        "001.png",
+        "0120260302.png",
+        "02.jpg",
+        "02.png",
+        "0220260302.png",
+        "03.png",
+        "03-20260308.jpg",
+        "04.png",
+        "04.jpg",
+        "05.png",
+        "07.png",
+        "06.png",
+        "08.png",
+        "09.png",
+        "10.png",
+        "11.png",
+        "12.png",
+        "13.png",
+        "14.png",
+        "15.png",
+        "16.png",
+        "1682146276305.gif",
+        "17.png",
+        "18.png",
+        "20260414.png",
+        "20260428.png",
+        "2345asdf34q5235.png",
+        "5.png",
+        "6.png",
+        "6HIVyOfB.png",
+        "7.png",
+        "8.png",
+        "9.png",
+        "Class-Object-Illustration.png",
+        "Guido_van_Rossum2006.jpg",
+        "articles_ubz6a9645egtsjh6rd9x.webp",
+        "asdfa2345asdfa.jpg",
+        "closure.svg",
+        "closure20260304.png",
+        "clusure_with_param.svg",
+        "cmd.png",
+        "datatype.png",
+        "decorator_chain.svg",
+        "decorators.gif",
+        "deep_copy.png",
+        "env.png",
+        "for2.svg",
+        "generator.png",
+        "image-20231231171439261.png",
+        "image-20231231171912830.png",
+        "image-20231231171924259.png",
+        "image-20231231171938641.png",
+        "image-20231231171946051.png",
+        "image-20260108174746512.png",
+        "image-20260304110817368.png",
+        "image-20260304114440217.png",
+        "image_b6e3105f.png",
+        "io.png",
+        "list-slice.png",
+        "logo.png",
+        "memory_allocate.png",
+        "params.png",
+        "polymorphism_in_python.webp",
+        "pycharm.png",
+        "python-5-logo-png-transparent.png",
+        "python-class-realtime-example.png",
+        "python.png",
+        "recursive.png",
+        "scope.jpg",
+        "shallow_copy.png",
+        "tuple-slice.png",
+        "typewriter.jpg"
+      ]
+    },
+    "Python基础/assets/001.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/002.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/003.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/004.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/005.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/0120260302.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/02.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/0220260302.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/03-20260308.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/04.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/04.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/05.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/06.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/07.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/08.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/09.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/11.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/10.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/12.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/13.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/14.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/15.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/16.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/1682146276305.gif": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/17.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/18.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/20260414.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/20260428.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/2345asdf34q5235.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/6.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/6HIVyOfB.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/7.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/8.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/9.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/Class-Object-Illustration.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/Guido_van_Rossum2006.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/articles_ubz6a9645egtsjh6rd9x.webp": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/asdfa2345asdfa.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/closure.svg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/closure20260304.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/clusure_with_param.svg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/cmd.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/decorator_chain.svg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/datatype.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/decorators.gif": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/deep_copy.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/env.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/for2.svg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/generator.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/image-20231231171439261.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/image-20231231171912830.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/image-20231231171924259.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/image-20231231171938641.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/image-20231231171946051.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/image-20260108174746512.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/image-20260304110817368.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/image-20260304114440217.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/image_b6e3105f.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/list-slice.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/io.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/logo.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/memory_allocate.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/params.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/polymorphism_in_python.webp": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/pycharm.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/python-5-logo-png-transparent.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/python-class-realtime-example.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/python.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/recursive.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/scope.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/shallow_copy.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/tuple-slice.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/typewriter.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/02-Python容器类型.md": {
       "isPinned": false,
       "isHidden": false
     }
