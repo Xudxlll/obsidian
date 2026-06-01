@@ -1,0 +1,26 @@
+{
+  "id": "conv-1780279436677-qpw46j2x0",
+  "providerId": "codex",
+  "title": "Organize and format notes",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780279436678,
+  "updatedAt": 1780279537499,
+  "lastResponseAt": 1780279537499,
+  "sessionId": "019e80ec-7970-7e31-ae16-fb3ffcece2b8",
+  "providerState": {
+    "threadId": "019e80ec-7970-7e31-ae16-fb3ffcece2b8",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/01/rollout-2026-06-01T10-04-01-019e80ec-7970-7e31-ae16-fb3ffcece2b8.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "currentNote": "Mac快捷键以及功能汇总/快捷键.md",
+  "usage": {
+    "inputTokens": 30141,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 26496,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 30141,
+    "percentage": 12,
+    "model": "gpt-5.5"
+  }
+}
