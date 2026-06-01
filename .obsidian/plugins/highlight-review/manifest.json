@@ -1,0 +1,9 @@
+{
+  "id": "highlight-review",
+  "name": "Highlight Review",
+  "version": "0.2.1",
+  "minAppVersion": "1.4.0",
+  "description": "Local SRS/FSRS-like review for highlights and comments with editable bilingual card fields.",
+  "author": "Claudian local",
+  "isDesktopOnly": false
+}

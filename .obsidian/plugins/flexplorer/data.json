@@ -3596,11 +3596,11 @@
     "AI知识汇总/材料文件夹": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "Hermes-Agent(2)(1)(2)(4)(2)(1)(1)(1)(1)(1)(2)(2)(1).pdf",
         "LLM（对话）发展史.canvas"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AI知识汇总/材料文件夹/LLM（对话）发展史.canvas": {
       "isPinned": false,
@@ -3613,10 +3613,10 @@
     "Mac快捷键以及功能汇总": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "快捷键.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Mac快捷键以及功能汇总/快捷键.md": {
       "isPinned": false,

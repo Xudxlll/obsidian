@@ -23,12 +23,34 @@
   "maxBackups": 2,
   "dialogState": {
     "iconMode": true,
-    "emojiMode": false,
+    "emojiMode": true,
     "rulePage": "file"
   },
   "appIcons": {},
   "tabIcons": {},
-  "fileIcons": {},
+  "fileIcons": {
+    "AF5381-FINANCIAL MARKETS": {
+      "icon": "📚"
+    },
+    "AMA535A-Mathematical Models of Derivative Pricing": {
+      "icon": "📚"
+    },
+    "AMA564 DEEP LEARNING": {
+      "icon": "📚"
+    },
+    "AMA568 Quantitative Finance": {
+      "icon": "📚"
+    },
+    "AMA571-FINANCIAL TECHNOLOGY": {
+      "icon": "📚"
+    },
+    "AMA575 Investment Science": {
+      "icon": "📚"
+    },
+    "AMA576 Algorithmic Trading": {
+      "icon": "📚"
+    }
+  },
   "bookmarkIcons": {},
   "tagIcons": {},
   "propertyIcons": {},
