@@ -3968,6 +3968,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Hermes Agent.md",
         "材料文件夹",
         "Skill MCP RAG Agent OpenClaw 底层逻辑.md",
         "Git+Github核心概念.md",
@@ -4001,6 +4002,7 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "Hermes-Agent(2)(1)(2)(4)(2)(1)(1)(1)(1)(1)(2)(2)(1).pdf",
         "LLM（对话）发展史.canvas"
       ],
       "sortOrder": "custom"
@@ -4022,6 +4024,14 @@
       "sortOrder": "custom"
     },
     "Mac快捷键以及功能汇总/快捷键.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AI知识汇总/材料文件夹/Hermes-Agent(2)(1)(2)(4)(2)(1)(1)(1)(1)(1)(2)(2)(1).pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AI知识汇总/Hermes Agent.md": {
       "isPinned": false,
       "isHidden": false
     }
