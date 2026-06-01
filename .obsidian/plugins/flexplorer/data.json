@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Mac快捷键以及功能汇总",
         "Clippings",
         "AI知识汇总",
         "变量与基本数据类型",
@@ -4009,6 +4010,18 @@
       "isHidden": false
     },
     "AI知识汇总/Skill MCP RAG Agent OpenClaw 底层逻辑.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Mac快捷键以及功能汇总": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "快捷键.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Mac快捷键以及功能汇总/快捷键.md": {
       "isPinned": false,
       "isHidden": false
     }
