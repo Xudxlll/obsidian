@@ -5,12 +5,12 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "AI配置汇总",
         "Clippings",
-        "Python预科班笔记",
+        "AI知识汇总",
         "变量与基本数据类型",
-        "附件",
+        "Python预科班笔记",
         "Python正式课笔记",
+        "附件",
         "AMA535A-Mathematical Models of Derivative Pricing",
         "AMA564 DEEP LEARNING",
         "AMA568 Quantitative Finance",
@@ -25,7 +25,9 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "2026-05-31-Codex (APP) 保姆级全攻略，海量实战教程， 一期精通Codex.md",
+        "2026-06-01-【闪客】一口气拆穿Skill_MCP_RAG_Agent_OpenClaw底层逻辑.md",
+        "2026-06-01-Git+Github核心概念大串讲，从零到一全攻略，详细实战教程.md",
+        "2026-06-01-deepseek接入codex，国内直连性价比之王！小白必学！.md",
         "【中英双语】黄仁勋嘉宾演讲 - CMU卡耐基梅隆大学2026毕业典礼 1.md"
       ]
     },
@@ -3948,24 +3950,65 @@
       "isPinned": true,
       "isHidden": false
     },
-    "Clippings/2026-05-31-Codex (APP) 保姆级全攻略，海量实战教程， 一期精通Codex.md": {
+    "Clippings/2026-06-01-deepseek接入codex，国内直连性价比之王！小白必学！.md": {
       "isPinned": false,
       "isHidden": false
     },
-    "AI配置汇总/未命名.md": {
+    "Clippings/2026-06-01-Git+Github核心概念大串讲，从零到一全攻略，详细实战教程.md": {
       "isPinned": false,
       "isHidden": false
     },
-    "AI配置汇总": {
+    "Clippings/2026-06-01-【闪客】一口气拆穿Skill_MCP_RAG_Agent_OpenClaw底层逻辑.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AI知识汇总": {
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "未命名 1.md",
-        "未命名.md"
+        "材料文件夹",
+        "一口气拆穿 Skill MCP RAG Agent OpenClaw 底层逻辑.md",
+        "Git+Github核心概念.md",
+        "vibe-trading指南.md",
+        "Codex Reconnecting 解决办法：Codex代理配置.md",
+        "Codex (APP) 全攻略.md",
+        "Codex接入deepseek v4 pro指南.md"
       ]
     },
-    "AI配置汇总/未命名 1.md": {
+    "AI知识汇总/vibe-trading指南.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AI知识汇总/Codex Reconnecting 解决办法：Codex代理配置.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AI知识汇总/Codex接入deepseek v4 pro指南.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AI知识汇总/Git+Github核心概念.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AI知识汇总/Codex (APP) 全攻略.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AI知识汇总/一口气拆穿 Skill MCP RAG Agent OpenClaw 底层逻辑.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AI知识汇总/材料文件夹": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "LLM（对话）发展史.canvas"
+      ],
+      "sortOrder": "custom"
+    },
+    "AI知识汇总/材料文件夹/LLM（对话）发展史.canvas": {
       "isPinned": false,
       "isHidden": false
     }

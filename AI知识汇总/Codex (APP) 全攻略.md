@@ -1,13 +1,17 @@
 ---
-title: "Codex (APP) 保姆级全攻略，海量实战教程， 一期精通Codex"
-url: "https://www.bilibili.com/video/BV1Kk9kBAEJv/?spm_id_from=333.337.search-card.all.click&vd_source=4a9569ca87d5ed662467243736932b34"
-bvid: "BV1Kk9kBAEJv"
+title: Codex (APP) 保姆级全攻略，海量实战教程， 一期精通Codex
+url: https://www.bilibili.com/video/BV1Kk9kBAEJv/?spm_id_from=333.337.search-card.all.click&vd_source=4a9569ca87d5ed662467243736932b34
+bvid: BV1Kk9kBAEJv
 cid: "37912839956"
-author: "技术爬爬虾"
-upload_date: "2026-04-28"
-subtitle_lang: "中文"
-created: "2026-05-31"
-tags: ["clippings", "bilibili"]
+author: 技术爬爬虾
+upload_date: 2026-04-28
+subtitle_lang: 中文
+created: 2026-05-31
+tags:
+  - bilibili
+  - AI配置
+  - Codex
+  - agent
 ---
 
 <iframe src="https://player.bilibili.com/player.html?aid=116481979320235&bvid=BV1Kk9kBAEJv&cid=37912839956&page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allow="fullscreen; picture-in-picture" allowfullscreen="true" style="height:100%;width:100%; aspect-ratio: 16 / 9;"> </iframe>

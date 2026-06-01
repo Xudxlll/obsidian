@@ -1,0 +1,713 @@
+{
+	"nodes": [
+		{
+			"id": "root",
+			"type": "text",
+			"text": "# LLM（对话）发展史\n从一次性对话工具，逐步发展为能执行复杂任务的智能体系统。",
+			"x": -920,
+			"y": 1460,
+			"width": 520,
+			"height": 170,
+			"color": "1"
+		},
+		{
+			"id": "s1",
+			"type": "text",
+			"text": "## 1. 大语言模型（LLM）",
+			"x": -240,
+			"y": 0,
+			"width": 430,
+			"height": 90,
+			"color": "2"
+		},
+		{
+			"id": "s1-1",
+			"type": "text",
+			"text": "### 1.1 基本功能",
+			"x": 340,
+			"y": 0,
+			"width": 360,
+			"height": 80,
+			"color": "2"
+		},
+		{
+			"id": "s1-1-detail",
+			"type": "text",
+			"text": "- 对话，本质上类似“词语接龙”。\n- 早期能力特点：\n  - 只能完成一次有质量的对话，即“一问一答”。\n  - 不能追问，缺少连续上下文理解能力。",
+			"x": 860,
+			"y": -25,
+			"width": 620,
+			"height": 190,
+			"color": "2"
+		},
+		{
+			"id": "s2",
+			"type": "text",
+			"text": "## 2. 对话能力的增强",
+			"x": -240,
+			"y": 370,
+			"width": 430,
+			"height": 90,
+			"color": "3"
+		},
+		{
+			"id": "s2-1",
+			"type": "text",
+			"text": "### 2.1 提示词 Prompt",
+			"x": 340,
+			"y": 255,
+			"width": 360,
+			"height": 90,
+			"color": "3"
+		},
+		{
+			"id": "s2-1-detail",
+			"type": "text",
+			"text": "- 实质：提问的问题。\n- 作用：告诉 LLM 当前要回答什么。",
+			"x": 860,
+			"y": 245,
+			"width": 560,
+			"height": 120,
+			"color": "3"
+		},
+		{
+			"id": "s2-2",
+			"type": "text",
+			"text": "### 2.2 上下文 Context",
+			"x": 340,
+			"y": 405,
+			"width": 360,
+			"height": 90,
+			"color": "3"
+		},
+		{
+			"id": "s2-2-detail",
+			"type": "text",
+			"text": "- 实质：背景信息。\n- 作用：给 LLM 补充回答所需的前置信息。",
+			"x": 860,
+			"y": 395,
+			"width": 560,
+			"height": 120,
+			"color": "3"
+		},
+		{
+			"id": "s2-3",
+			"type": "text",
+			"text": "### 2.3 记忆 Memory",
+			"x": 340,
+			"y": 565,
+			"width": 360,
+			"height": 90,
+			"color": "3"
+		},
+		{
+			"id": "s2-3-detail",
+			"type": "text",
+			"text": "- 实质：把历史信息交给 LLM 压缩后，作为“上下文”加载到新的输入中。\n- 实现效果：\n  - 多轮次对话\n  - 可以追问\n  - 对话不再只是一次性问答",
+			"x": 860,
+			"y": 530,
+			"width": 680,
+			"height": 200,
+			"color": "3"
+		},
+		{
+			"id": "s3",
+			"type": "text",
+			"text": "## 3. 智能体 Agent",
+			"x": -240,
+			"y": 880,
+			"width": 430,
+			"height": 90,
+			"color": "4"
+		},
+		{
+			"id": "s3-1",
+			"type": "text",
+			"text": "### 3.1 Agent 的实质",
+			"x": 340,
+			"y": 790,
+			"width": 360,
+			"height": 90,
+			"color": "4"
+		},
+		{
+			"id": "s3-1-detail",
+			"type": "text",
+			"text": "- 附带固定运行逻辑的程序。",
+			"x": 860,
+			"y": 785,
+			"width": 520,
+			"height": 90,
+			"color": "4"
+		},
+		{
+			"id": "s3-2",
+			"type": "text",
+			"text": "### 3.2 Agent 的目的",
+			"x": 340,
+			"y": 940,
+			"width": 360,
+			"height": 90,
+			"color": "4"
+		},
+		{
+			"id": "s3-2-detail",
+			"type": "text",
+			"text": "- 减少人与 LLM 沟通的次数。\n- 处理 LLM 无法直接操作的任务。",
+			"x": 860,
+			"y": 925,
+			"width": 560,
+			"height": 120,
+			"color": "4"
+		},
+		{
+			"id": "s4",
+			"type": "text",
+			"text": "## 4. Agent 获取模型参数以外信息的能力",
+			"x": -240,
+			"y": 1370,
+			"width": 480,
+			"height": 110,
+			"color": "5"
+		},
+		{
+			"id": "s4-1",
+			"type": "text",
+			"text": "### 4.1 联网搜索 Web Search",
+			"x": 340,
+			"y": 1195,
+			"width": 390,
+			"height": 90,
+			"color": "5"
+		},
+		{
+			"id": "s4-1-detail",
+			"type": "text",
+			"text": "- 实现：上网。\n- 作用：让 Agent/LLM 获取互联网上的实时或外部信息。",
+			"x": 860,
+			"y": 1180,
+			"width": 620,
+			"height": 130,
+			"color": "5"
+		},
+		{
+			"id": "s4-2",
+			"type": "text",
+			"text": "### 4.2 向量数据库搜索 Search",
+			"x": 340,
+			"y": 1365,
+			"width": 390,
+			"height": 90,
+			"color": "5"
+		},
+		{
+			"id": "s4-2-detail",
+			"type": "text",
+			"text": "- 实现：本地搜索。\n- 作用：从本地知识库、文档库中检索相关信息。",
+			"x": 860,
+			"y": 1350,
+			"width": 620,
+			"height": 130,
+			"color": "5"
+		},
+		{
+			"id": "s4-3",
+			"type": "text",
+			"text": "### 4.3 检索增强生成 RAG",
+			"x": 340,
+			"y": 1545,
+			"width": 390,
+			"height": 90,
+			"color": "5"
+		},
+		{
+			"id": "s4-3-detail",
+			"type": "text",
+			"text": "- 全称：Retrieval-Augmented Generation。\n- 实质：通过搜索本地向量数据库，把语义相近的内容检索出来，并加入到 Context 中。\n- 目的：增强生成内容的可靠性。",
+			"x": 860,
+			"y": 1515,
+			"width": 700,
+			"height": 180,
+			"color": "5"
+		},
+		{
+			"id": "s5",
+			"type": "text",
+			"text": "## 5. Agent 与 LLM 之间：规范",
+			"x": -240,
+			"y": 1930,
+			"width": 480,
+			"height": 100,
+			"color": "6"
+		},
+		{
+			"id": "s5-1",
+			"type": "text",
+			"text": "### 5.1 约定 Function Calling",
+			"x": 340,
+			"y": 1815,
+			"width": 410,
+			"height": 90,
+			"color": "6"
+		},
+		{
+			"id": "s5-1-detail",
+			"type": "text",
+			"text": "- 目的：规定 Agent 与 LLM 之间沟通的格式。\n- 作用：提升沟通质量，让 LLM 可以更稳定地调用外部功能。",
+			"x": 860,
+			"y": 1800,
+			"width": 660,
+			"height": 140,
+			"color": "6"
+		},
+		{
+			"id": "s5-2",
+			"type": "text",
+			"text": "### 5.2 模型上下文协议 MCP",
+			"x": 340,
+			"y": 2010,
+			"width": 410,
+			"height": 90,
+			"color": "6"
+		},
+		{
+			"id": "s5-2-detail",
+			"type": "text",
+			"text": "- 全称：Model Context Protocol。\n- 目的：把 Agent 中的功能从 Agent 里解耦出来。\n- 作用：形成一种 Agent 调用外部功能的协议。\n- 可以理解为：让不同工具、功能、数据源能以统一方式接入 Agent。",
+			"x": 860,
+			"y": 1980,
+			"width": 720,
+			"height": 220,
+			"color": "6"
+		},
+		{
+			"id": "s6",
+			"type": "text",
+			"text": "## 6. Agent 与用户之间：交互",
+			"x": -240,
+			"y": 2520,
+			"width": 480,
+			"height": 100,
+			"color": "1"
+		},
+		{
+			"id": "s6-1",
+			"type": "text",
+			"text": "### 6.1 用户直接参与非 LLM 部分的功能建设",
+			"x": 340,
+			"y": 2295,
+			"width": 460,
+			"height": 110,
+			"color": "1"
+		},
+		{
+			"id": "s6-1-detail",
+			"type": "text",
+			"text": "- 方式一：编程，例如 LangChain。\n- 方式二：低代码工作流 Workflow。",
+			"x": 860,
+			"y": 2290,
+			"width": 620,
+			"height": 120,
+			"color": "1"
+		},
+		{
+			"id": "s6-2",
+			"type": "text",
+			"text": "### 6.2 同类功能的整合 Skills",
+			"x": 340,
+			"y": 2495,
+			"width": 460,
+			"height": 90,
+			"color": "1"
+		},
+		{
+			"id": "s6-2-detail",
+			"type": "text",
+			"text": "- Skills 用于把相似或相关的能力组织起来。\n- 作用：让 Agent 能调用一组更结构化、更可复用的能力。",
+			"x": 860,
+			"y": 2480,
+			"width": 680,
+			"height": 140,
+			"color": "1"
+		},
+		{
+			"id": "s6-3",
+			"type": "text",
+			"text": "### 6.3 子 Agent SubAgent",
+			"x": 340,
+			"y": 2705,
+			"width": 460,
+			"height": 90,
+			"color": "1"
+		},
+		{
+			"id": "s6-3-detail",
+			"type": "text",
+			"text": "- 实现目的：\n  - 上下文隔离。\n  - 降低 LLM 处理单个对话时的 token 长度。\n- 作用：把复杂任务拆成多个子任务，由不同子 Agent 处理。",
+			"x": 860,
+			"y": 2670,
+			"width": 700,
+			"height": 200,
+			"color": "1"
+		},
+		{
+			"id": "s7",
+			"type": "text",
+			"text": "## 7. 图中最后的对比关系",
+			"x": -240,
+			"y": 3210,
+			"width": 480,
+			"height": 100,
+			"color": "2"
+		},
+		{
+			"id": "s7-trend",
+			"type": "text",
+			"text": "### 整体趋势",
+			"x": 340,
+			"y": 2960,
+			"width": 360,
+			"height": 80,
+			"color": "2"
+		},
+		{
+			"id": "s7-trend-detail",
+			"type": "text",
+			"text": "从传统程序到 Agent 能力，整体趋势是：\n\n- 从稳定、刚性\n- 走向变化、柔性",
+			"x": 860,
+			"y": 2935,
+			"width": 560,
+			"height": 160,
+			"color": "2"
+		},
+		{
+			"id": "s7-map",
+			"type": "text",
+			"text": "### 对应关系",
+			"x": 340,
+			"y": 3165,
+			"width": 360,
+			"height": 80,
+			"color": "2"
+		},
+		{
+			"id": "s7-map-detail",
+			"type": "text",
+			"text": "- LangChain：偏编程、框架化\n- Workflow：偏工作流、低代码\n- Skill：偏技能封装\n- Agent：偏智能体能力整合",
+			"x": 860,
+			"y": 3140,
+			"width": 620,
+			"height": 180,
+			"color": "2"
+		},
+		{
+			"id": "s7-core",
+			"type": "text",
+			"text": "### 核心主线",
+			"x": 340,
+			"y": 3405,
+			"width": 360,
+			"height": 80,
+			"color": "2"
+		},
+		{
+			"id": "s7-core-detail",
+			"type": "text",
+			"text": "LLM 最开始只是一次性对话工具，后来通过 Prompt、Context、Memory 支持多轮对话；再往后，通过 Agent 获得搜索、工具调用、RAG、MCP、Skills、SubAgent 等能力，逐渐从“聊天模型”发展成“能执行复杂任务的智能体系统”。",
+			"x": 860,
+			"y": 3370,
+			"width": 760,
+			"height": 190,
+			"color": "2"
+		}
+	],
+	"edges": [
+		{
+			"id": "e-root-s1",
+			"fromNode": "root",
+			"fromSide": "right",
+			"toNode": "s1",
+			"toSide": "left"
+		},
+		{
+			"id": "e-root-s2",
+			"fromNode": "root",
+			"fromSide": "right",
+			"toNode": "s2",
+			"toSide": "left"
+		},
+		{
+			"id": "e-root-s3",
+			"fromNode": "root",
+			"fromSide": "right",
+			"toNode": "s3",
+			"toSide": "left"
+		},
+		{
+			"id": "e-root-s4",
+			"fromNode": "root",
+			"fromSide": "right",
+			"toNode": "s4",
+			"toSide": "left"
+		},
+		{
+			"id": "e-root-s5",
+			"fromNode": "root",
+			"fromSide": "right",
+			"toNode": "s5",
+			"toSide": "left"
+		},
+		{
+			"id": "e-root-s6",
+			"fromNode": "root",
+			"fromSide": "right",
+			"toNode": "s6",
+			"toSide": "left"
+		},
+		{
+			"id": "e-root-s7",
+			"fromNode": "root",
+			"fromSide": "right",
+			"toNode": "s7",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s1-s1-1",
+			"fromNode": "s1",
+			"fromSide": "right",
+			"toNode": "s1-1",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s1-1-detail",
+			"fromNode": "s1-1",
+			"fromSide": "right",
+			"toNode": "s1-1-detail",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s2-s2-1",
+			"fromNode": "s2",
+			"fromSide": "right",
+			"toNode": "s2-1",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s2-s2-2",
+			"fromNode": "s2",
+			"fromSide": "right",
+			"toNode": "s2-2",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s2-s2-3",
+			"fromNode": "s2",
+			"fromSide": "right",
+			"toNode": "s2-3",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s2-1-detail",
+			"fromNode": "s2-1",
+			"fromSide": "right",
+			"toNode": "s2-1-detail",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s2-2-detail",
+			"fromNode": "s2-2",
+			"fromSide": "right",
+			"toNode": "s2-2-detail",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s2-3-detail",
+			"fromNode": "s2-3",
+			"fromSide": "right",
+			"toNode": "s2-3-detail",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s3-s3-1",
+			"fromNode": "s3",
+			"fromSide": "right",
+			"toNode": "s3-1",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s3-s3-2",
+			"fromNode": "s3",
+			"fromSide": "right",
+			"toNode": "s3-2",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s3-1-detail",
+			"fromNode": "s3-1",
+			"fromSide": "right",
+			"toNode": "s3-1-detail",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s3-2-detail",
+			"fromNode": "s3-2",
+			"fromSide": "right",
+			"toNode": "s3-2-detail",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s4-s4-1",
+			"fromNode": "s4",
+			"fromSide": "right",
+			"toNode": "s4-1",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s4-s4-2",
+			"fromNode": "s4",
+			"fromSide": "right",
+			"toNode": "s4-2",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s4-s4-3",
+			"fromNode": "s4",
+			"fromSide": "right",
+			"toNode": "s4-3",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s4-1-detail",
+			"fromNode": "s4-1",
+			"fromSide": "right",
+			"toNode": "s4-1-detail",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s4-2-detail",
+			"fromNode": "s4-2",
+			"fromSide": "right",
+			"toNode": "s4-2-detail",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s4-3-detail",
+			"fromNode": "s4-3",
+			"fromSide": "right",
+			"toNode": "s4-3-detail",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s5-s5-1",
+			"fromNode": "s5",
+			"fromSide": "right",
+			"toNode": "s5-1",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s5-s5-2",
+			"fromNode": "s5",
+			"fromSide": "right",
+			"toNode": "s5-2",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s5-1-detail",
+			"fromNode": "s5-1",
+			"fromSide": "right",
+			"toNode": "s5-1-detail",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s5-2-detail",
+			"fromNode": "s5-2",
+			"fromSide": "right",
+			"toNode": "s5-2-detail",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s6-s6-1",
+			"fromNode": "s6",
+			"fromSide": "right",
+			"toNode": "s6-1",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s6-s6-2",
+			"fromNode": "s6",
+			"fromSide": "right",
+			"toNode": "s6-2",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s6-s6-3",
+			"fromNode": "s6",
+			"fromSide": "right",
+			"toNode": "s6-3",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s6-1-detail",
+			"fromNode": "s6-1",
+			"fromSide": "right",
+			"toNode": "s6-1-detail",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s6-2-detail",
+			"fromNode": "s6-2",
+			"fromSide": "right",
+			"toNode": "s6-2-detail",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s6-3-detail",
+			"fromNode": "s6-3",
+			"fromSide": "right",
+			"toNode": "s6-3-detail",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s7-trend",
+			"fromNode": "s7",
+			"fromSide": "right",
+			"toNode": "s7-trend",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s7-map",
+			"fromNode": "s7",
+			"fromSide": "right",
+			"toNode": "s7-map",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s7-core",
+			"fromNode": "s7",
+			"fromSide": "right",
+			"toNode": "s7-core",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s7-trend-detail",
+			"fromNode": "s7-trend",
+			"fromSide": "right",
+			"toNode": "s7-trend-detail",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s7-map-detail",
+			"fromNode": "s7-map",
+			"fromSide": "right",
+			"toNode": "s7-map-detail",
+			"toSide": "left"
+		},
+		{
+			"id": "e-s7-core-detail",
+			"fromNode": "s7-core",
+			"fromSide": "right",
+			"toNode": "s7-core-detail",
+			"toSide": "left"
+		}
+	]
+}

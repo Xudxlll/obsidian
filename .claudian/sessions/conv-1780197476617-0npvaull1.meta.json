@@ -4,7 +4,7 @@
   "title": "Organize and summarize notes chronologically",
   "titleGenerationStatus": "success",
   "createdAt": 1780197476617,
-  "updatedAt": 1780197604277,
+  "updatedAt": 1780247587618,
   "lastResponseAt": 1780197604277,
   "sessionId": "019e7c09-d5a1-7b10-b47f-c1072244270a",
   "providerState": {
@@ -12,7 +12,6 @@
     "sessionFilePath": "/Users/xuji/.codex/sessions/2026/05/31/rollout-2026-05-31T11-17-59-019e7c09-d5a1-7b10-b47f-c1072244270a.jsonl",
     "transcriptRootPath": "/Users/xuji/.codex/sessions"
   },
-  "currentNote": "Clippings/2026-05-31-Codex (APP) 保姆级全攻略，海量实战教程， 一期精通Codex.md",
   "usage": {
     "inputTokens": 38251,
     "cacheCreationInputTokens": 0,

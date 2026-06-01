@@ -1,0 +1,25 @@
+{
+  "id": "conv-1780247703463-3nf0c5kry",
+  "providerId": "codex",
+  "title": "整理并总结AI配置笔记",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780247703466,
+  "updatedAt": 1780250439988,
+  "lastResponseAt": 1780247805720,
+  "sessionId": "019e7f08-4387-7c10-8721-993378ec1437",
+  "providerState": {
+    "threadId": "019e7f08-4387-7c10-8721-993378ec1437",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/01/rollout-2026-06-01T01-15-08-019e7f08-4387-7c10-8721-993378ec1437.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "usage": {
+    "inputTokens": 30666,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 29056,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 30666,
+    "percentage": 12,
+    "model": "gpt-5.5"
+  }
+}

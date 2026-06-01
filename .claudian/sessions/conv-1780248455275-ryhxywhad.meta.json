@@ -1,0 +1,26 @@
+{
+  "id": "conv-1780248455275-ryhxywhad",
+  "providerId": "codex",
+  "title": "Summarize notes and replace subtitles in Obsidian",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780248455275,
+  "updatedAt": 1780250434543,
+  "lastResponseAt": 1780249499594,
+  "sessionId": "019e7f13-b301-7a23-8635-88048e80cbb9",
+  "providerState": {
+    "threadId": "019e7f13-b301-7a23-8635-88048e80cbb9",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/01/rollout-2026-06-01T01-27-38-019e7f13-b301-7a23-8635-88048e80cbb9.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "currentNote": "Clippings/2026-06-01-Git+Github核心概念大串讲，从零到一全攻略，详细实战教程.md",
+  "usage": {
+    "inputTokens": 72136,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 71040,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 72136,
+    "percentage": 28,
+    "model": "gpt-5.5"
+  }
+}

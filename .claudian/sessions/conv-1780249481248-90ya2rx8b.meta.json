@@ -1,0 +1,16 @@
+{
+  "id": "conv-1780249481248-90ya2rx8b",
+  "providerId": "codex",
+  "title": "整理笔记并替换为总结内容",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780249481249,
+  "updatedAt": 1780250433858,
+  "lastResponseAt": 1780249969219,
+  "sessionId": "019e7f23-506b-7951-828b-c0809cb20d59",
+  "providerState": {
+    "threadId": "019e7f23-506b-7951-828b-c0809cb20d59",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/01/rollout-2026-06-01T01-44-41-019e7f23-506b-7951-828b-c0809cb20d59.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "currentNote": "Clippings/2026-06-01-【闪客】一口气拆穿Skill_MCP_RAG_Agent_OpenClaw底层逻辑.md"
+}
