@@ -3968,7 +3968,7 @@
       "sortOrder": "custom",
       "customOrder": [
         "材料文件夹",
-        "一口气拆穿 Skill MCP RAG Agent OpenClaw 底层逻辑.md",
+        "Skill MCP RAG Agent OpenClaw 底层逻辑.md",
         "Git+Github核心概念.md",
         "vibe-trading指南.md",
         "Codex Reconnecting 解决办法：Codex代理配置.md",
@@ -3996,10 +3996,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "AI知识汇总/一口气拆穿 Skill MCP RAG Agent OpenClaw 底层逻辑.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "AI知识汇总/材料文件夹": {
       "isPinned": false,
       "isHidden": false,
@@ -4009,6 +4005,10 @@
       "sortOrder": "custom"
     },
     "AI知识汇总/材料文件夹/LLM（对话）发展史.canvas": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AI知识汇总/Skill MCP RAG Agent OpenClaw 底层逻辑.md": {
       "isPinned": false,
       "isHidden": false
     }
