@@ -3633,8 +3633,21 @@
     "Python基础": {
       "isPinned": false,
       "isHidden": false,
-      "sortOrder": "custom",
+      "sortOrder": "byName",
       "customOrder": [
+        "python-cheatsheet.pdf",
+        "14-Python特性.md",
+        "13-浅拷贝与深拷贝.md",
+        "12-其他模块.md",
+        "11-内置模块.md",
+        "10-模块与包.md",
+        "09-异常.md",
+        "08-面向对象编程高级.md",
+        "07-面向对象编程基础.md",
+        "06-自定义函数高级.md",
+        "05-生成器与迭代器和自定义函数基础.md",
+        "04-运算符与流程控制.md",
+        "03-特殊类型与推导式.md",
         "01-变量与基本数据类型.md",
         "02-Python容器类型.md",
         "assets"
@@ -4037,6 +4050,58 @@
       "isHidden": false
     },
     "Python基础/02-Python容器类型.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/03-特殊类型与推导式.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/04-运算符与流程控制.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/05-生成器与迭代器和自定义函数基础.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/06-自定义函数高级.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/07-面向对象编程基础.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/08-面向对象编程高级.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/09-异常.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/10-模块与包.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/11-内置模块.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/12-其他模块.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/13-浅拷贝与深拷贝.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/14-Python特性.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/python-cheatsheet.pdf": {
       "isPinned": false,
       "isHidden": false
     }
