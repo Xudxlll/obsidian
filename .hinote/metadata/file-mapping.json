@@ -1,7 +1,8 @@
 {
   "version": "2.0",
   "mapping": {
-    "Python基础/02-Python容器类型.md": "python基础_02-python容器类型.md.json"
+    "Python基础/02-Python容器类型.md": "python基础_02-python容器类型.md.json",
+    "Mac快捷键以及功能汇总/快捷键.md": "mac快捷键以及功能汇总_快捷键.md.json"
   },
-  "lastUpdated": 1780363415998
+  "lastUpdated": 1780366095223
 }
