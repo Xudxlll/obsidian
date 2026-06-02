@@ -2,6 +2,7 @@
   "promptDelete": false,
   "useMarkdownLinks": true,
   "newLinkFormat": "relative",
-  "readableLineLength": false,
-  "alwaysUpdateLinks": true
+  "readableLineLength": true,
+  "alwaysUpdateLinks": true,
+  "showInlineTitle": true
 }

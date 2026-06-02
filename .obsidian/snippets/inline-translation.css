@@ -1,0 +1,94 @@
+/* 外刊精读：句末内联中文译文按钮
+   结构：英文句子 <details class="translation-details"><summary>中文译文</summary><span class="translation-body">译文</span></details>
+   目标：按钮小、浅灰、在句末；展开后只显示译文文字，不显示 HTML 代码。
+*/
+
+body details.translation-details {
+  display: inline !important;
+  margin: 0 0 0 0.28em !important;
+  padding: 0 !important;
+  border: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: inherit !important;
+  vertical-align: baseline !important;
+}
+
+body details.translation-details > summary {
+  display: inline !important;
+  cursor: pointer !important;
+  color: var(--text-faint, #9aa0a6) !important;
+  opacity: 0.62 !important;
+  font-size: 0.66em !important;
+  font-weight: 400 !important;
+  line-height: 1 !important;
+  list-style: none !important;
+  user-select: none !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+body details.translation-details > summary::-webkit-details-marker {
+  display: none !important;
+}
+
+body details.translation-details > summary::before {
+  content: "▸";
+  margin-right: 0.14em;
+  color: var(--text-faint, #9aa0a6) !important;
+}
+
+body details.translation-details[open] > summary::before {
+  content: "▾";
+}
+
+body details.translation-details > summary:hover {
+  color: var(--text-muted, #7a7a7a) !important;
+  opacity: 0.92 !important;
+}
+
+body details.translation-details > .translation-body {
+  display: none !important;
+}
+
+body details.translation-details[open] > .translation-body {
+  display: block !important;
+  margin: 0.35rem 0 0.85rem 0 !important;
+  padding: 0 !important;
+  color: var(--text-muted, #7a7a7a) !important;
+  font-size: 0.95rem !important;
+  font-weight: 400 !important;
+  line-height: 1.75 !important;
+  background: transparent !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+/* 修复 Obsidian 把 <details> 解析成独立块导致按钮另起一行的问题。
+   当一个段落后面紧跟译文 details 时，把该段落和 details 都改成 inline。 */
+.markdown-rendered p:has(+ details.translation-details),
+.markdown-preview-view p:has(+ details.translation-details) {
+  display: inline !important;
+  margin-block-end: 0 !important;
+}
+
+.markdown-rendered p + details.translation-details,
+.markdown-preview-view p + details.translation-details {
+  display: inline !important;
+  margin-left: 0.28em !important;
+}
+
+.markdown-rendered p + details.translation-details::after,
+.markdown-preview-view p + details.translation-details::after {
+  content: "";
+  display: block;
+  height: 0.75rem;
+}
+
+/* 如果 details 被保留在段落内部，也保持句末内联。 */
+.markdown-rendered p details.translation-details,
+.markdown-preview-view p details.translation-details {
+  display: inline !important;
+  margin-left: 0.28em !important;
+}

@@ -1,0 +1,25 @@
+{
+  "id": "conv-1780390443436-fg1y18hr1",
+  "providerId": "codex",
+  "title": "整理外刊文章并保存到 Obsidian",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780390443438,
+  "updatedAt": 1780392808663,
+  "lastResponseAt": 1780392416187,
+  "sessionId": "019e878a-4cca-7443-b91c-dab4d5f525e7",
+  "providerState": {
+    "threadId": "019e878a-4cca-7443-b91c-dab4d5f525e7",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/02/rollout-2026-06-02T16-54-08-019e878a-4cca-7443-b91c-dab4d5f525e7.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "usage": {
+    "inputTokens": 55627,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 52608,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 55627,
+    "percentage": 22,
+    "model": "gpt-5.5"
+  }
+}

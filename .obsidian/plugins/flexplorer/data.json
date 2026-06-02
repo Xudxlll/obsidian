@@ -5,6 +5,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Attachments",
+        "外刊精读",
         "Mac快捷键以及功能汇总",
         "Clippings",
         "AI知识汇总",
@@ -26,6 +28,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "NEWS.md",
         "2026-06-01-【闪客】一口气拆穿Skill_MCP_RAG_Agent_OpenClaw底层逻辑.md",
         "2026-06-01-Git+Github核心概念大串讲，从零到一全攻略，详细实战教程.md",
         "2026-06-01-deepseek接入codex，国内直连性价比之王！小白必学！.md",
@@ -3615,6 +3618,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "外刊精读流程.md",
         "快捷键.md"
       ]
     },
@@ -4102,6 +4106,58 @@
       "isHidden": false
     },
     "Python基础/python-cheatsheet.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Clippings/NEWS.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Mac快捷键以及功能汇总/外刊精读流程.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "外刊精读": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "THE FUTURE OF CURRY BRAND.md",
+        "THE FUTURE OF CURRY BRAND.md.before-native-details-inline",
+        "THE FUTURE OF CURRY BRAND.md.before-body-only-inline-translations",
+        "THE FUTURE OF CURRY BRAND.md.before-inline-details-style",
+        "THE FUTURE OF CURRY BRAND.md.before-details-translation"
+      ],
+      "sortOrder": "custom"
+    },
+    "外刊精读/THE FUTURE OF CURRY BRAND.md.before-details-translation": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "外刊精读/THE FUTURE OF CURRY BRAND.md.before-inline-details-style": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "外刊精读/THE FUTURE OF CURRY BRAND.md.before-body-only-inline-translations": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "外刊精读/THE FUTURE OF CURRY BRAND.md.before-native-details-inline": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Attachments": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "the-future-of-curry-brand-mindmap.svg"
+      ],
+      "sortOrder": "custom"
+    },
+    "外刊精读/THE FUTURE OF CURRY BRAND.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Attachments/the-future-of-curry-brand-mindmap.svg": {
       "isPinned": false,
       "isHidden": false
     }
