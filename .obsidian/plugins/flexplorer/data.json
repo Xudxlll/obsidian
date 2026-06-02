@@ -29,6 +29,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Bilibili",
         "NEWS.md",
         "2026-06-01-【闪客】一口气拆穿Skill_MCP_RAG_Agent_OpenClaw底层逻辑.md",
         "2026-06-01-Git+Github核心概念大串讲，从零到一全攻略，详细实战教程.md",
@@ -4168,6 +4169,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "你好.md",
         "editing-toolbar-中文精简工具栏.json"
       ]
     },
@@ -4176,6 +4178,22 @@
       "isHidden": false
     },
     "外刊精读/未命名.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AI配置汇总/你好.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Clippings/Bilibili": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "2026-06-03-三分球27连铁！火箭为什么会走上魔球之路？【修女电台】.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "Clippings/Bilibili/2026-06-03-三分球27连铁！火箭为什么会走上魔球之路？【修女电台】.md": {
       "isPinned": false,
       "isHidden": false
     }
