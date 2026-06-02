@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "AI配置汇总",
         "Attachments",
         "外刊精读",
         "Mac快捷键以及功能汇总",
@@ -4120,14 +4121,14 @@
     "外刊精读": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "THE FUTURE OF CURRY BRAND.md",
         "THE FUTURE OF CURRY BRAND.md.before-native-details-inline",
         "THE FUTURE OF CURRY BRAND.md.before-body-only-inline-translations",
         "THE FUTURE OF CURRY BRAND.md.before-inline-details-style",
         "THE FUTURE OF CURRY BRAND.md.before-details-translation"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "外刊精读/THE FUTURE OF CURRY BRAND.md.before-details-translation": {
       "isPinned": false,
@@ -4148,16 +4149,28 @@
     "Attachments": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "the-future-of-curry-brand-mindmap.svg"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "外刊精读/THE FUTURE OF CURRY BRAND.md": {
       "isPinned": false,
       "isHidden": false
     },
     "Attachments/the-future-of-curry-brand-mindmap.svg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AI配置汇总": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "editing-toolbar-中文精简工具栏.json"
+      ]
+    },
+    "AI配置汇总/editing-toolbar-中文精简工具栏.json": {
       "isPinned": false,
       "isHidden": false
     }

@@ -1,0 +1,98 @@
+/* Editing Toolbar: icon + persistent Chinese label.
+   This snippet matches the simplified 12-button toolbar in
+   AI配置汇总/editing-toolbar-中文精简工具栏.json. */
+
+#editingToolbarModalBar[data-toolbar-style="top"] {
+  flex-wrap: wrap !important;
+  align-items: center !important;
+  gap: 4px !important;
+  height: auto !important;
+  min-height: 34px !important;
+  padding: 4px 6px !important;
+}
+
+#editingToolbarModalBar[data-toolbar-style="top"]
+  :is(.editingToolbarCommandItem, button[class^="editingToolbarCommandsubItem"]) {
+  display: inline-flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  gap: 4px !important;
+  width: auto !important;
+  min-width: auto !important;
+  max-width: none !important;
+  height: 28px !important;
+  max-height: none !important;
+  padding: 4px 8px !important;
+  border-radius: var(--radius-s) !important;
+  white-space: nowrap !important;
+  flex-shrink: 0 !important;
+}
+
+#editingToolbarModalBar[data-toolbar-style="top"]
+  :is(.editingToolbarCommandItem, button[class^="editingToolbarCommandsubItem"]) svg {
+  flex: 0 0 auto !important;
+}
+
+#editingToolbarModalBar[data-toolbar-style="top"] > button.editingToolbarCommandItem::after,
+#editingToolbarModalBar[data-toolbar-style="top"] > button[class^="editingToolbarCommandsubItem"]::before {
+  display: inline-block !important;
+  order: 2 !important;
+  color: var(--text-muted) !important;
+  font-size: 12px !important;
+  font-weight: 500 !important;
+  line-height: 1 !important;
+  letter-spacing: 0 !important;
+}
+
+#editingToolbarModalBar[data-toolbar-style="top"] > button[class^="editingToolbarCommandsubItem"]::after {
+  order: 3 !important;
+  margin-top: 0 !important;
+}
+
+#editingToolbarModalBar[data-toolbar-style="top"] > button:nth-of-type(1)::after {
+  content: "撤销";
+}
+
+#editingToolbarModalBar[data-toolbar-style="top"] > button:nth-of-type(2)::after {
+  content: "重做";
+}
+
+#editingToolbarModalBar[data-toolbar-style="top"] > button:nth-of-type(3)::before {
+  content: "标题";
+}
+
+#editingToolbarModalBar[data-toolbar-style="top"] > button:nth-of-type(4)::after {
+  content: "加粗";
+}
+
+#editingToolbarModalBar[data-toolbar-style="top"] > button:nth-of-type(5)::after {
+  content: "斜体";
+}
+
+#editingToolbarModalBar[data-toolbar-style="top"] > button:nth-of-type(6)::after {
+  content: "高亮";
+}
+
+#editingToolbarModalBar[data-toolbar-style="top"] > button:nth-of-type(7)::after {
+  content: "删除线";
+}
+
+#editingToolbarModalBar[data-toolbar-style="top"] > button:nth-of-type(8)::after {
+  content: "项目";
+}
+
+#editingToolbarModalBar[data-toolbar-style="top"] > button:nth-of-type(9)::after {
+  content: "编号";
+}
+
+#editingToolbarModalBar[data-toolbar-style="top"] > button:nth-of-type(10)::after {
+  content: "引用";
+}
+
+#editingToolbarModalBar[data-toolbar-style="top"] > button:nth-of-type(11)::after {
+  content: "代码";
+}
+
+#editingToolbarModalBar[data-toolbar-style="top"] > button:nth-of-type(12)::after {
+  content: "插入链接";
+}

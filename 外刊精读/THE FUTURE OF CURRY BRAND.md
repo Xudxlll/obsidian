@@ -19,9 +19,9 @@ Topics:
   - Basketball
   - Sports business
 ---
-
+****
 **NEWS | Curry Brand × Li-Ning** <label class="translation-toggle"><input class="translation-checkbox" type="checkbox"><span class="translation-label">中文译文</span><span class="translation-content">新闻｜Curry Brand 与李宁的合作</span></label>====================
-
+> ``
 # THE FUTURE OF CURRY BRAND <label class="translation-toggle"><input class="translation-checkbox" type="checkbox"><span class="translation-label">中文译文</span><span class="translation-content">Curry Brand 的未来</span></label>
 
 *The next stage is set.* <label class="translation-toggle"><input class="translation-checkbox" type="checkbox"><span class="translation-label">中文译文</span><span class="translation-content">下一阶段已经拉开序幕。</span></label>
@@ -37,7 +37,7 @@ The future of Curry Brand is with Li-Ning. <label class="translation-toggle"><in
 I couldn’t be more proud to build a long-term vision with Li-Ning that will fuel Curry Brand for years to come and unlock the full potential of this company on a global scale. <label class="translation-toggle"><input class="translation-checkbox" type="checkbox"><span class="translation-label">中文译文</span><span class="translation-content">能够与李宁一起构建一个长期愿景，我感到无比自豪。这个愿景将在未来多年持续推动 Curry Brand 发展，并在全球范围内释放这家公司真正的潜力。</span></label>
 
 Powered by Li-Ning innovation, we’ll be proudly building Curry Brand into a future leading company that will leave its mark in Basketball, in Golf and across the lifestyle space. <label class="translation-toggle"><input class="translation-checkbox" type="checkbox"><span class="translation-label">中文译文</span><span class="translation-content">借助李宁的创新能力，我们将自豪地把 Curry Brand 打造成一家面向未来的领先公司，在篮球、高尔夫以及生活方式领域留下自己的印记。</span></label>
-
+# ``
 We’ll aim to create game-changing products, launch elevated platforms and bring storytelling that will inspire young boys and girls around the globe. My hope is for young athletes to find the same purpose, joy and drive through sports that I’ve long enjoyed throughout this journey. <label class="translation-toggle"><input class="translation-checkbox" type="checkbox"><span class="translation-label">中文译文</span><span class="translation-content">我们的目标是打造改变比赛体验的产品，推出更高层次的平台，并讲述能够激励全球年轻男孩和女孩的故事。我希望年轻运动员也能通过体育找到目标、快乐和动力，就像我在这段旅程中一直感受到的那样。</span></label>
 
 > #### “It’s amazing to see how Chairman Li Ning has grown his namesake company as an athlete founder.” <label class="translation-toggle"><input class="translation-checkbox" type="checkbox"><span class="translation-label">中文译文</span><span class="translation-content">看到李宁董事长以运动员创始人的身份，把以自己名字命名的公司发展到今天，真的令人惊叹。</span></label>
