@@ -20,7 +20,7 @@ Topics:
   - Sports business
 ---
 
-**NEWS | Curry Brand × Li-Ning** <label class="translation-toggle"><input class="translation-checkbox" type="checkbox"><span class="translation-label">中文译文</span><span class="translation-content">新闻｜Curry Brand 与李宁的合作</span></label>
+**NEWS | Curry Brand × Li-Ning** <label class="translation-toggle"><input class="translation-checkbox" type="checkbox"><span class="translation-label">中文译文</span><span class="translation-content">新闻｜Curry Brand 与李宁的合作</span></label>====================
 
 # THE FUTURE OF CURRY BRAND <label class="translation-toggle"><input class="translation-checkbox" type="checkbox"><span class="translation-label">中文译文</span><span class="translation-content">Curry Brand 的未来</span></label>
 
