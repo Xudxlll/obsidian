@@ -4123,6 +4123,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "未命名.md",
         "THE FUTURE OF CURRY BRAND.md",
         "THE FUTURE OF CURRY BRAND.md.before-native-details-inline",
         "THE FUTURE OF CURRY BRAND.md.before-body-only-inline-translations",
@@ -4171,6 +4172,10 @@
       ]
     },
     "AI配置汇总/editing-toolbar-中文精简工具栏.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "外刊精读/未命名.md": {
       "isPinned": false,
       "isHidden": false
     }
