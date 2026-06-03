@@ -1,6 +1,5 @@
 {
   "enabledCssSnippets": [
-    "inline-translation",
-    "editing-toolbar-cn-labels"
+    "inline-translation"
   ]
 }
