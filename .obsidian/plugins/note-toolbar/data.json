@@ -10,7 +10,12 @@
     "useDataEls": true,
     "useIds": true
   },
-  "folderMappings": [],
+  "folderMappings": [
+    {
+      "folder": "*",
+      "toolbar": "d6750efd-19af-4424-8479-5de31aac9708"
+    }
+  ],
   "icon": "circle-ellipsis",
   "keepPropsState": false,
   "lockCallouts": false,
@@ -137,21 +142,57 @@
           }
         },
         {
-          "uuid": "fcfbd12e-6a9f-43b8-80c5-c57d20f622e4",
+          "uuid": "be88f0b4-5a98-41f6-9f36-79d99920fd71",
+          "icon": "",
+          "label": "",
+          "tooltip": "",
           "hasCommand": false,
-          "icon": "eraser",
+          "inGallery": false,
+          "link": "",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "fdf44238-3836-4602-8786-af6c728d7cc7",
+          "hasCommand": false,
+          "icon": "heading-2",
           "inGallery": false,
           "label": "",
           "link": "",
           "linkAttr": {
             "commandCheck": true,
-            "commandId": "editor:clear-formatting",
+            "commandId": "editor:set-heading-2",
             "focus": "editor",
             "hasVars": false,
             "type": "command"
           },
           "plugin": "",
-          "tooltip": "清除格式",
+          "tooltip": "Heading 2",
           "visibility": {
             "desktop": {
               "components": [
@@ -175,7 +216,45 @@
           }
         },
         {
-          "uuid": "fb22f1dd-355b-41a0-95fe-58cd59f411c5",
+          "uuid": "d63a76bb-d4ec-4638-957b-23d6c94ebea3",
+          "hasCommand": false,
+          "icon": "heading-3",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:set-heading-3",
+            "focus": "editor",
+            "hasVars": false,
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "Heading 3",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "eedf9124-2306-4158-a9b1-b6583c34d1b8",
           "icon": "",
           "label": "",
           "tooltip": "",
@@ -186,7 +265,7 @@
             "commandCheck": false,
             "commandId": "",
             "hasVars": false,
-            "type": "command"
+            "type": "separator"
           },
           "visibility": {
             "desktop": {
@@ -211,7 +290,158 @@
           }
         },
         {
-          "uuid": "cc43e98e-fbbc-414d-b687-45f59f2d744e",
+          "uuid": "a297f809-e26b-41b3-b4fe-1c5df9f9786d",
+          "hasCommand": false,
+          "icon": "highlighter",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:toggle-highlight",
+            "focus": "editor",
+            "hasVars": false,
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "切换高亮文本（Highlight）",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "d194fa51-e7fd-44dc-8ee1-1b390d8c7644",
+          "hasCommand": false,
+          "icon": "bold",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:toggle-bold",
+            "focus": "editor",
+            "hasVars": false,
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "切换粗体",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "e48acd02-17aa-4f74-9a25-17e6b5bd5e7f",
+          "hasCommand": false,
+          "icon": "italic",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:toggle-italics",
+            "hasVars": false,
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "切换斜体（Italic）",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "add3ac6e-0ebd-49ea-9ae4-f9b3bfac58a6",
+          "hasCommand": false,
+          "icon": "strikethrough",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:toggle-strikethrough",
+            "focus": "editor",
+            "hasVars": false,
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "切换删除线（Strikethrough）",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "ee55809f-43f9-4d5d-a36c-360e70626c66",
           "icon": "",
           "label": "",
           "tooltip": "",
@@ -222,8 +452,347 @@
             "commandCheck": false,
             "commandId": "",
             "hasVars": false,
+            "type": "break"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "e074e059-94c9-49c8-b604-04b124b94997",
+          "hasCommand": false,
+          "icon": "list",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:toggle-bullet-list",
+            "focus": "editor",
+            "hasVars": false,
             "type": "command"
           },
+          "plugin": "",
+          "tooltip": "切换无序列表",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "f7552e7f-8b0a-457a-8a03-ac974baa09fd",
+          "hasCommand": false,
+          "icon": "list-ordered",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:toggle-numbered-list",
+            "focus": "editor",
+            "hasVars": false,
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "切换有序列表",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "ae7c0a18-db04-47ba-83c2-b6079137f9b2",
+          "hasCommand": false,
+          "icon": "quote",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:insert-callout",
+            "focus": "editor",
+            "hasVars": false,
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "插入标注（Callout）",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "c7f6d997-b972-448f-9fac-d75b5ead3bf5",
+          "hasCommand": false,
+          "icon": "code-2",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:toggle-source",
+            "hasVars": false,
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "切换源码模式",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "f1c9ed69-3d6c-483e-83c9-b3b540fd7e85",
+          "hasCommand": false,
+          "icon": "code-square",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:insert-codeblock",
+            "focus": "editor",
+            "hasVars": false,
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "插入代码块（Code Block）",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "d33af086-c711-4538-a4ed-ab7affcafdb5",
+          "hasCommand": false,
+          "icon": "text-quote",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:toggle-blockquote",
+            "focus": "editor",
+            "hasVars": false,
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "切换引用块（Blockquote）",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "b7af688f-6370-40a6-8d7f-36942c5d5991",
+          "hasCommand": false,
+          "icon": "code",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:toggle-code",
+            "focus": "editor",
+            "hasVars": false,
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "切换代码（Inline Code）",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "a9f7b7c4-459e-4fe0-ac4f-f841512a14ad",
+          "icon": "",
+          "label": "",
+          "tooltip": "",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "b2c8b383-4544-44fc-8524-16d884b5cefe",
+          "hasCommand": false,
+          "icon": "link",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:insert-link",
+            "focus": "editor",
+            "hasVars": false,
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "插入 markdown 链接",
           "visibility": {
             "desktop": {
               "components": [
@@ -248,7 +817,7 @@
         }
       ],
       "mobileStyles": [],
-      "name": "New toolbar",
+      "name": "适用md格式",
       "position": {
         "desktop": {
           "allViews": {
@@ -266,7 +835,7 @@
           }
         }
       },
-      "updated": "2026-06-02T13:45:01.949Z"
+      "updated": "2026-06-03T01:21:53.952Z"
     }
   ],
   "version": 20260428.1,
