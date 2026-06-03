@@ -1,6 +1,6 @@
 {
   "debugEnabled": false,
-  "defaultToolbar": null,
+  "defaultToolbar": "d6750efd-19af-4424-8479-5de31aac9708",
   "editorMenuAsToolbar": false,
   "editorMenuToolbar": "d6750efd-19af-4424-8479-5de31aac9708",
   "emptyViewToolbar": null,
@@ -10,12 +10,7 @@
     "useDataEls": true,
     "useIds": true
   },
-  "folderMappings": [
-    {
-      "folder": "*",
-      "toolbar": "d6750efd-19af-4424-8479-5de31aac9708"
-    }
-  ],
+  "folderMappings": [],
   "icon": "circle-ellipsis",
   "keepPropsState": false,
   "lockCallouts": false,
@@ -1057,7 +1052,7 @@
           }
         }
       },
-      "updated": "2026-06-03T06:06:45.050Z"
+      "updated": "2026-06-03T07:53:07.929Z"
     }
   ],
   "version": 20260428.1,

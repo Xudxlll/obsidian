@@ -1,5 +1,7 @@
 {
   "enabledCssSnippets": [
-    "inline-translation"
-  ]
+    "inline-translation",
+    "note-toolbar-hover-background"
+  ],
+  "cssTheme": ""
 }

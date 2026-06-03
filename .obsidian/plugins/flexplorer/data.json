@@ -3620,13 +3620,10 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Obsidian快捷键.md",
         "外刊精读流程.md",
-        "快捷键.md"
+        "Mac快捷键.md"
       ]
-    },
-    "Mac快捷键以及功能汇总/快捷键.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "AI知识汇总/材料文件夹/Hermes-Agent(2)(1)(2)(4)(2)(1)(1)(1)(1)(1)(2)(2)(1).pdf": {
       "isPinned": false,
@@ -4194,6 +4191,14 @@
       ]
     },
     "Clippings/Bilibili/2026-06-03-三分球27连铁！火箭为什么会走上魔球之路？【修女电台】.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Mac快捷键以及功能汇总/Mac快捷键.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Mac快捷键以及功能汇总/Obsidian快捷键.md": {
       "isPinned": false,
       "isHidden": false
     }

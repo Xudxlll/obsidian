@@ -1,0 +1,10 @@
+/* Note Toolbar: keep floating toolbars opaque while the pointer is over them.
+   The plugin clears the callout background on hover, which lets note text show
+   through selection toolbars. */
+
+.cg-note-toolbar-bar-container[data-tbar-position="float"]
+  .cg-note-toolbar-callout[data-callout="note-toolbar"]:hover,
+.cg-note-toolbar-bar-container[data-tbar-position="text"]
+  .cg-note-toolbar-callout[data-callout="note-toolbar"]:hover {
+  background-color: var(--cg-nt-tbar-bg-color) !important;
+}
