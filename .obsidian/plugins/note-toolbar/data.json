@@ -547,6 +547,42 @@
           }
         },
         {
+          "uuid": "e8f5587d-49d8-42c8-af12-e45fd22d8604",
+          "icon": "",
+          "label": "",
+          "tooltip": "",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
           "uuid": "ae7c0a18-db04-47ba-83c2-b6079137f9b2",
           "hasCommand": false,
           "icon": "quote",
@@ -585,20 +621,21 @@
           }
         },
         {
-          "uuid": "c7f6d997-b972-448f-9fac-d75b5ead3bf5",
+          "uuid": "b2c8b383-4544-44fc-8524-16d884b5cefe",
           "hasCommand": false,
-          "icon": "code-2",
+          "icon": "link",
           "inGallery": false,
-          "label": "源码",
+          "label": "链接",
           "link": "",
           "linkAttr": {
             "commandCheck": true,
-            "commandId": "editor:toggle-source",
+            "commandId": "editor:insert-link",
+            "focus": "editor",
             "hasVars": false,
             "type": "command"
           },
           "plugin": "",
-          "tooltip": "切换源码模式",
+          "tooltip": "插入 markdown 链接",
           "visibility": {
             "desktop": {
               "components": [
@@ -696,21 +733,20 @@
           }
         },
         {
-          "uuid": "b2c8b383-4544-44fc-8524-16d884b5cefe",
+          "uuid": "c7f6d997-b972-448f-9fac-d75b5ead3bf5",
           "hasCommand": false,
-          "icon": "link",
+          "icon": "code-2",
           "inGallery": false,
-          "label": "链接",
+          "label": "源码",
           "link": "",
           "linkAttr": {
             "commandCheck": true,
-            "commandId": "editor:insert-link",
-            "focus": "editor",
+            "commandId": "editor:toggle-source",
             "hasVars": false,
             "type": "command"
           },
           "plugin": "",
-          "tooltip": "插入 markdown 链接",
+          "tooltip": "切换源码模式",
           "visibility": {
             "desktop": {
               "components": [
@@ -753,7 +789,7 @@
           }
         }
       },
-      "updated": "2026-06-03T14:21:45.135Z"
+      "updated": "2026-06-04T01:06:45.925Z"
     },
     {
       "uuid": "f7bd722f-9443-40d7-a8dc-4d1706003725",

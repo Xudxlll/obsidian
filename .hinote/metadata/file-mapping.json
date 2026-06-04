@@ -2,19 +2,11 @@
   "version": "2.0",
   "mapping": {
     "Python基础/03-特殊类型与推导式.md": "python基础_03-特殊类型与推导式.md.json",
-    "AI知识汇总/Git+Github核心概念.md": "ai知识汇总_git+github核心概念.md.json",
-    "Attachments/the-future-of-curry-brand-mindmap.svg": "attachments_the-future-of-curry-brand-mindmap.svg.json",
-    "Clippings/2026-06-01-【闪客】一口气拆穿Skill_MCP_RAG_Agent_OpenClaw底层逻辑.md": "clippings_2026-06-01-【闪客】一口气拆穿skill_mcp_rag_agent_openclaw底层逻辑.md.json",
-    "Python基础/assets/002.png": "python基础_assets_002.png.json",
-    "外刊精读/未命名.md": "外刊精读_未命名.md.json",
-    "外刊精读/THE FUTURE OF CURRY BRAND.md": "外刊精读_the_future_of_curry_brand.md.json",
+    "Python基础/04-运算符与流程控制.md": "python基础_04-运算符与流程控制.md.json",
     "Python基础/02-Python容器类型.md": "python基础_02-python容器类型.md.json",
-    "Mac快捷键以及功能汇总/快捷键.md": "mac快捷键以及功能汇总_快捷键.md.json",
-    "Mac快捷键以及功能汇总/Mac快捷键.md": "mac快捷键以及功能汇总_mac快捷键.md.json",
-    "Mac快捷键以及功能汇总/未命名.md": "mac快捷键以及功能汇总_未命名.md.json",
-    "Mac快捷键以及功能汇总/Obsidian快捷键.md": "mac快捷键以及功能汇总_obsidian快捷键.md.json",
-    "Python基础/05-生成器与迭代器和自定义函数基础.md": "python基础_05-生成器与迭代器和自定义函数基础.md.json",
-    "Python基础/01-变量与基本数据类型.md": "python基础_01-变量与基本数据类型.md.json"
+    "Python基础/09-异常.md": "python基础_09-异常.md.json",
+    "Python基础/10-模块与包.md": "python基础_10-模块与包.md.json",
+    "Python基础/05-生成器与迭代器和自定义函数基础.md": "python基础_05-生成器与迭代器和自定义函数基础.md.json"
   },
-  "lastUpdated": 1780495898719
+  "lastUpdated": 1780541447634
 }
