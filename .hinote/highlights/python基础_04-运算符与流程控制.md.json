@@ -1,0 +1,24 @@
+{
+  "version": "2.0",
+  "lastModified": 1780556252425,
+  "highlights": {
+    "highlight-1853775298-6507": {
+      "text": "常用于简单条件赋值",
+      "position": 6507,
+      "created": 1780556042870,
+      "updated": 1780556252425,
+      "backgroundColor": "#ffeb3b",
+      "contextBefore": "● 二元运算符：对两个操作数进行操作的运算符。例如 `x + y`。 ● 三元表达式：`x if c else y` 常称为“三元表达式/三元运算形式”，",
+      "contextAfter": "。 # 二、流程控制 ## 2.1 什么是流程控制？ `Python` 程序由一条条语句构成。默认情况下，程序按语句出现的顺序自上而下执行（顺序结构）。",
+      "textFingerprint": "常用于简单条件赋值",
+      "comments": [
+        {
+          "id": "comment-1780556042870-tu69434uf",
+          "content": "只适合单个变量赋值！！！\n可以理解为一个身份，例如一个变量‘a’或者一个元组都是一个身份。",
+          "created": 1780556042870,
+          "updated": 1780556252425
+        }
+      ]
+    }
+  }
+}

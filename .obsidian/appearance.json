@@ -3,5 +3,7 @@
     "inline-translation",
     "note-toolbar-hover-background"
   ],
-  "cssTheme": ""
+  "cssTheme": "Things",
+  "baseFontSizeAction": true,
+  "baseFontSize": 16
 }
