@@ -622,44 +622,6 @@
           }
         },
         {
-          "uuid": "b7af688f-6370-40a6-8d7f-36942c5d5991",
-          "hasCommand": false,
-          "icon": "code",
-          "inGallery": false,
-          "label": "代码",
-          "link": "",
-          "linkAttr": {
-            "commandCheck": true,
-            "commandId": "editor:toggle-code",
-            "focus": "editor",
-            "hasVars": false,
-            "type": "command"
-          },
-          "plugin": "",
-          "tooltip": "切换代码（Inline Code）",
-          "visibility": {
-            "desktop": {
-              "components": [
-                "icon",
-                "label"
-              ]
-            },
-            "mobile": {
-              "components": [
-                "icon",
-                "label"
-              ]
-            },
-            "tablet": {
-              "components": [
-                "icon",
-                "label"
-              ]
-            },
-            "viewMode": "all"
-          }
-        },
-        {
           "uuid": "f1c9ed69-3d6c-483e-83c9-b3b540fd7e85",
           "hasCommand": false,
           "icon": "code-square",
@@ -675,44 +637,6 @@
           },
           "plugin": "",
           "tooltip": "插入代码块（Code Block）",
-          "visibility": {
-            "desktop": {
-              "components": [
-                "icon",
-                "label"
-              ]
-            },
-            "mobile": {
-              "components": [
-                "icon",
-                "label"
-              ]
-            },
-            "tablet": {
-              "components": [
-                "icon",
-                "label"
-              ]
-            },
-            "viewMode": "all"
-          }
-        },
-        {
-          "uuid": "d33af086-c711-4538-a4ed-ab7affcafdb5",
-          "hasCommand": false,
-          "icon": "text-quote",
-          "inGallery": false,
-          "label": "引用块",
-          "link": "",
-          "linkAttr": {
-            "commandCheck": true,
-            "commandId": "editor:toggle-blockquote",
-            "focus": "editor",
-            "hasVars": false,
-            "type": "command"
-          },
-          "plugin": "",
-          "tooltip": "切换引用块（Blockquote）",
           "visibility": {
             "desktop": {
               "components": [
@@ -829,7 +753,7 @@
           }
         }
       },
-      "updated": "2026-06-03T06:45:36.899Z"
+      "updated": "2026-06-03T14:21:45.135Z"
     },
     {
       "uuid": "f7bd722f-9443-40d7-a8dc-4d1706003725",
@@ -995,6 +919,82 @@
           }
         },
         {
+          "uuid": "a7e180a8-1868-4e4c-b855-6cacb538f29b",
+          "hasCommand": false,
+          "icon": "code",
+          "inGallery": false,
+          "label": "代码",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:toggle-code",
+            "focus": "editor",
+            "hasVars": false,
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "切换代码（Inline Code）",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "d985fb2c-a947-49b9-a9a3-ba5d7df031c4",
+          "hasCommand": false,
+          "icon": "text-quote",
+          "inGallery": false,
+          "label": "引用",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:toggle-blockquote",
+            "focus": "editor",
+            "hasVars": false,
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "切换引用块（Blockquote）",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
           "uuid": "ee652b7f-4a3a-4157-b6bb-85745c8e9f0b",
           "hasCommand": false,
           "icon": "link",
@@ -1052,7 +1052,7 @@
           }
         }
       },
-      "updated": "2026-06-03T07:53:07.929Z"
+      "updated": "2026-06-03T14:37:34.468Z"
     }
   ],
   "version": 20260428.1,
