@@ -43,6 +43,268 @@
   "toolbarProp": "notetoolbar",
   "toolbars": [
     {
+      "uuid": "ca4dfc0a-db84-4dbb-b3e5-119f51c0babb",
+      "commandPosition": "float",
+      "customClasses": "",
+      "defaultItem": null,
+      "defaultStyles": [
+        "border",
+        "even",
+        "sticky"
+      ],
+      "hasCommand": false,
+      "items": [
+        {
+          "uuid": "a5cf06da-8294-4dbf-9056-0e82a7390101",
+          "hasCommand": false,
+          "icon": "heading-1",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:set-heading-1",
+            "focus": "editor",
+            "hasVars": false,
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "Heading 1",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "c8c10051-5c36-4307-8a35-5d573fee1f41",
+          "hasCommand": false,
+          "icon": "heading-2",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:set-heading-2",
+            "focus": "editor",
+            "hasVars": false,
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "Heading 2",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "e003b71f-64b2-4685-9826-b489687e9401",
+          "hasCommand": false,
+          "icon": "heading-3",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:set-heading-3",
+            "focus": "editor",
+            "hasVars": false,
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "Heading 3",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "cbbd8270-6de0-4518-996d-21729668a04e",
+          "hasCommand": false,
+          "icon": "heading-4",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:set-heading-4",
+            "focus": "editor",
+            "hasVars": false,
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "Heading 4",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "a3974b23-95fe-499d-bc15-a9582426e362",
+          "hasCommand": false,
+          "icon": "heading-5",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:set-heading-5",
+            "focus": "editor",
+            "hasVars": false,
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "Heading 5",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "c6da44da-c9ce-465f-a154-52c1113b080a",
+          "hasCommand": false,
+          "icon": "heading-6",
+          "inGallery": false,
+          "label": "",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:set-heading-6",
+            "focus": "editor",
+            "hasVars": false,
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "Heading 6",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        }
+      ],
+      "mobileStyles": [],
+      "name": "标题级数",
+      "position": {
+        "desktop": {
+          "allViews": {
+            "position": "hidden"
+          }
+        },
+        "mobile": {
+          "allViews": {
+            "position": "hidden"
+          }
+        },
+        "tablet": {
+          "allViews": {
+            "position": "hidden"
+          }
+        }
+      },
+      "updated": "2026-06-04T08:49:00.596Z"
+    },
+    {
       "uuid": "d6750efd-19af-4424-8479-5de31aac9708",
       "commandPosition": "float",
       "customClasses": "",
@@ -174,19 +436,19 @@
         {
           "uuid": "fdf44238-3836-4602-8786-af6c728d7cc7",
           "hasCommand": false,
-          "icon": "heading-2",
+          "icon": "lucide-heading",
           "inGallery": false,
-          "label": "",
-          "link": "",
+          "label": "标题",
+          "link": "ca4dfc0a-db84-4dbb-b3e5-119f51c0babb",
           "linkAttr": {
             "commandCheck": true,
-            "commandId": "editor:set-heading-2",
+            "commandId": "",
             "focus": "editor",
             "hasVars": false,
-            "type": "command"
+            "type": "menu"
           },
           "plugin": "",
-          "tooltip": "Heading 2",
+          "tooltip": "Heading",
           "visibility": {
             "desktop": {
               "components": [
@@ -207,44 +469,9 @@
               ]
             },
             "viewMode": "all"
-          }
-        },
-        {
-          "uuid": "d63a76bb-d4ec-4638-957b-23d6c94ebea3",
-          "hasCommand": false,
-          "icon": "heading-3",
-          "inGallery": false,
-          "label": "",
-          "link": "",
-          "linkAttr": {
-            "commandCheck": true,
-            "commandId": "editor:set-heading-3",
-            "focus": "editor",
-            "hasVars": false,
-            "type": "command"
           },
-          "plugin": "",
-          "tooltip": "Heading 3",
-          "visibility": {
-            "desktop": {
-              "components": [
-                "icon",
-                "label"
-              ]
-            },
-            "mobile": {
-              "components": [
-                "icon",
-                "label"
-              ]
-            },
-            "tablet": {
-              "components": [
-                "icon",
-                "label"
-              ]
-            },
-            "viewMode": "all"
+          "scriptConfig": {
+            "pluginFunction": ""
           }
         },
         {
@@ -514,7 +741,7 @@
           "icon": "list-ordered",
           "inGallery": false,
           "label": "编号",
-          "link": "",
+          "link": "有序列表",
           "linkAttr": {
             "commandCheck": true,
             "commandId": "editor:toggle-numbered-list",
@@ -598,6 +825,44 @@
           },
           "plugin": "",
           "tooltip": "插入标注（Callout）",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "eb3b4a1d-b30f-4acd-b861-6cddd03b5e61",
+          "hasCommand": false,
+          "icon": "percent",
+          "inGallery": false,
+          "label": "注释",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:toggle-comments",
+            "focus": "editor",
+            "hasVars": false,
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "切换注释（Comment）",
           "visibility": {
             "desktop": {
               "components": [
@@ -789,7 +1054,7 @@
           }
         }
       },
-      "updated": "2026-06-04T01:06:45.925Z"
+      "updated": "2026-06-04T09:01:29.233Z"
     },
     {
       "uuid": "f7bd722f-9443-40d7-a8dc-4d1706003725",
