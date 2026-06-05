@@ -1,0 +1,26 @@
+{
+  "id": "conv-1780646956675-hemb9w6c1",
+  "providerId": "codex",
+  "title": "Explain Python interpreter and PyCharm",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780646956675,
+  "updatedAt": 1780647827615,
+  "lastResponseAt": 1780647827615,
+  "sessionId": "019e96d4-62ab-7570-a02c-ea1bc7dfa7f9",
+  "providerState": {
+    "threadId": "019e96d4-62ab-7570-a02c-ea1bc7dfa7f9",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/05/rollout-2026-06-05T16-09-21-019e96d4-62ab-7570-a02c-ea1bc7dfa7f9.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "currentNote": "Python基础/01-变量与基本数据类型.md",
+  "usage": {
+    "inputTokens": 20192,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 16256,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 20192,
+    "percentage": 8,
+    "model": "gpt-5.5"
+  }
+}

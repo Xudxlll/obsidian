@@ -1,0 +1,26 @@
+{
+  "id": "conv-1780647944165-jx33wkk9e",
+  "providerId": "codex",
+  "title": "Explain print vs return in Python functions",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780647944165,
+  "updatedAt": 1780652209702,
+  "lastResponseAt": 1780652209702,
+  "sessionId": "019e96e3-6060-7502-8baa-03a14703f388",
+  "providerState": {
+    "threadId": "019e96e3-6060-7502-8baa-03a14703f388",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/05/rollout-2026-06-05T16-25-44-019e96e3-6060-7502-8baa-03a14703f388.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "currentNote": "Python基础/05-生成器与迭代器和自定义函数基础.md",
+  "usage": {
+    "inputTokens": 24677,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 23936,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 24677,
+    "percentage": 10,
+    "model": "gpt-5.5"
+  }
+}

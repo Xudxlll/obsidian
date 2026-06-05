@@ -3665,6 +3665,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "05-生成器与迭代器和自定义函数基础",
         "002.png",
         "003.png",
         "004.png",
@@ -4199,6 +4200,18 @@
       "isHidden": false
     },
     "Mac快捷键以及功能汇总/Obsidian快捷键.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/05-生成器与迭代器和自定义函数基础": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "file-20260605155914095.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Python基础/assets/05-生成器与迭代器和自定义函数基础/file-20260605155914095.png": {
       "isPinned": false,
       "isHidden": false
     }
