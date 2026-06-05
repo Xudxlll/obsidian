@@ -1,0 +1,26 @@
+{
+  "id": "conv-1780673800839-94fx46fkc",
+  "providerId": "codex",
+  "title": "Summarize Python string module constants",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780673800840,
+  "updatedAt": 1780673929883,
+  "lastResponseAt": 1780673929883,
+  "sessionId": "019e986d-ff27-7170-a52c-30344f5b1574",
+  "providerState": {
+    "threadId": "019e986d-ff27-7170-a52c-30344f5b1574",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/05/rollout-2026-06-05T23-36-46-019e986d-ff27-7170-a52c-30344f5b1574.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "currentNote": "Python基础/03-特殊类型与推导式.md",
+  "usage": {
+    "inputTokens": 23175,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 22912,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 23175,
+    "percentage": 9,
+    "model": "gpt-5.5"
+  }
+}

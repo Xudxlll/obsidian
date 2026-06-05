@@ -810,6 +810,79 @@
           }
         },
         {
+          "uuid": "c7f6d997-b972-448f-9fac-d75b5ead3bf5",
+          "hasCommand": false,
+          "icon": "code-2",
+          "inGallery": false,
+          "label": "源码",
+          "link": "",
+          "linkAttr": {
+            "commandCheck": true,
+            "commandId": "editor:toggle-source",
+            "hasVars": false,
+            "type": "command"
+          },
+          "plugin": "",
+          "tooltip": "切换源码模式",
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
+          "uuid": "a9f7b7c4-459e-4fe0-ac4f-f841512a14ad",
+          "icon": "",
+          "label": "",
+          "tooltip": "",
+          "hasCommand": false,
+          "inGallery": false,
+          "link": "",
+          "linkAttr": {
+            "commandCheck": false,
+            "commandId": "",
+            "hasVars": false,
+            "type": "separator"
+          },
+          "visibility": {
+            "desktop": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "mobile": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "tablet": {
+              "components": [
+                "icon",
+                "label"
+              ]
+            },
+            "viewMode": "all"
+          }
+        },
+        {
           "uuid": "ae7c0a18-db04-47ba-83c2-b6079137f9b2",
           "hasCommand": false,
           "icon": "quote",
@@ -939,79 +1012,6 @@
           },
           "plugin": "",
           "tooltip": "插入代码块（Code Block）",
-          "visibility": {
-            "desktop": {
-              "components": [
-                "icon",
-                "label"
-              ]
-            },
-            "mobile": {
-              "components": [
-                "icon",
-                "label"
-              ]
-            },
-            "tablet": {
-              "components": [
-                "icon",
-                "label"
-              ]
-            },
-            "viewMode": "all"
-          }
-        },
-        {
-          "uuid": "a9f7b7c4-459e-4fe0-ac4f-f841512a14ad",
-          "icon": "",
-          "label": "",
-          "tooltip": "",
-          "hasCommand": false,
-          "inGallery": false,
-          "link": "",
-          "linkAttr": {
-            "commandCheck": false,
-            "commandId": "",
-            "hasVars": false,
-            "type": "separator"
-          },
-          "visibility": {
-            "desktop": {
-              "components": [
-                "icon",
-                "label"
-              ]
-            },
-            "mobile": {
-              "components": [
-                "icon",
-                "label"
-              ]
-            },
-            "tablet": {
-              "components": [
-                "icon",
-                "label"
-              ]
-            },
-            "viewMode": "all"
-          }
-        },
-        {
-          "uuid": "c7f6d997-b972-448f-9fac-d75b5ead3bf5",
-          "hasCommand": false,
-          "icon": "code-2",
-          "inGallery": false,
-          "label": "源码",
-          "link": "",
-          "linkAttr": {
-            "commandCheck": true,
-            "commandId": "editor:toggle-source",
-            "hasVars": false,
-            "type": "command"
-          },
-          "plugin": "",
-          "tooltip": "切换源码模式",
           "visibility": {
             "desktop": {
               "components": [

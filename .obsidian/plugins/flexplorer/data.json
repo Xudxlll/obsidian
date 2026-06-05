@@ -4206,10 +4206,10 @@
     "Python基础/assets/05-生成器与迭代器和自定义函数基础": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "file-20260605155914095.png"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Python基础/assets/05-生成器与迭代器和自定义函数基础/file-20260605155914095.png": {
       "isPinned": false,
