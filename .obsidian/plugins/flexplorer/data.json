@@ -27,6 +27,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2000～2024 年上市公司年报中管理层讨论与分析部分文本提取结果（txt 文件）.md",
+        "2000～2024 年上市公司年报中董事会（局）报告部分文本提取结果（txt 文件）.md",
         "NEWS.md",
         "2026-06-01-【闪客】一口气拆穿Skill_MCP_RAG_Agent_OpenClaw底层逻辑.md",
         "2026-06-01-Git+Github核心概念大串讲，从零到一全攻略，详细实战教程.md",
@@ -4163,6 +4165,14 @@
       "isHidden": false
     },
     "Mac快捷键以及功能汇总/本机Python安装路径.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Clippings/2000～2024 年上市公司年报中董事会（局）报告部分文本提取结果（txt 文件）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Clippings/2000～2024 年上市公司年报中管理层讨论与分析部分文本提取结果（txt 文件）.md": {
       "isPinned": false,
       "isHidden": false
     }
