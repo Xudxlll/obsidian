@@ -32,6 +32,9 @@
     "AF5381-FINANCIAL MARKETS": {
       "icon": "📚"
     },
+    "AI知识汇总": {
+      "icon": "🤖"
+    },
     "AMA535A-Mathematical Models of Derivative Pricing": {
       "icon": "📚"
     },
@@ -49,6 +52,18 @@
     },
     "AMA576 Algorithmic Trading": {
       "icon": "📚"
+    },
+    "Clippings": {
+      "icon": "📋"
+    },
+    "Mac快捷键以及功能汇总": {
+      "icon": "lucide-keyboard"
+    },
+    "Python基础": {
+      "icon": "💻"
+    },
+    "外刊精读": {
+      "icon": "📘"
     }
   },
   "bookmarkIcons": {},
