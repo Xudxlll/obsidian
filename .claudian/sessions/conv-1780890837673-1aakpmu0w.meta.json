@@ -4,8 +4,8 @@
   "title": "解释1.3.1",
   "titleGenerationStatus": "success",
   "createdAt": 1780890837676,
-  "updatedAt": 1780923447787,
-  "lastResponseAt": 1780923447787,
+  "updatedAt": 1780973662641,
+  "lastResponseAt": 1780973662641,
   "sessionId": "019ea55d-b6b5-7050-9cd5-39e0b02828fd",
   "providerState": {
     "threadId": "019ea55d-b6b5-7050-9cd5-39e0b02828fd",
@@ -14,13 +14,13 @@
   },
   "currentNote": "Python基础/06-自定义函数高级.md",
   "usage": {
-    "inputTokens": 49038,
+    "inputTokens": 65458,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 47488,
+    "cacheReadInputTokens": 64384,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 49038,
-    "percentage": 19,
+    "contextTokens": 65458,
+    "percentage": 25,
     "model": "gpt-5.5"
   }
 }

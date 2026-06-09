@@ -4156,7 +4156,7 @@
     "Python基础": {
       "isPinned": false,
       "isHidden": false,
-      "sortOrder": "custom",
+      "sortOrder": "byName",
       "customOrder": [
         "01-变量与基本数据类型.md",
         "02-Python容器类型.md",
