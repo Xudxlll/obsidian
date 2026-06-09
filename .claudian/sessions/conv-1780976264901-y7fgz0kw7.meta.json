@@ -4,8 +4,8 @@
   "title": "Explain Section 1.1 in detail",
   "titleGenerationStatus": "success",
   "createdAt": 1780976264903,
-  "updatedAt": 1780990587425,
-  "lastResponseAt": 1780990587425,
+  "updatedAt": 1780992825410,
+  "lastResponseAt": 1780992825410,
   "sessionId": "019eaa75-3ab2-7812-989a-bc65b700c9fb",
   "providerState": {
     "threadId": "019eaa75-3ab2-7812-989a-bc65b700c9fb",
@@ -14,13 +14,13 @@
   },
   "currentNote": "Python基础/05-生成器与迭代器和自定义函数基础.md",
   "usage": {
-    "inputTokens": 47633,
+    "inputTokens": 50521,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 3456,
+    "cacheReadInputTokens": 49024,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 47633,
-    "percentage": 18,
+    "contextTokens": 50521,
+    "percentage": 20,
     "model": "gpt-5.5"
   }
 }
