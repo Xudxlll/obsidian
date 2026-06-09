@@ -1,0 +1,26 @@
+{
+  "id": "conv-1780996345338-6tp0aveo7",
+  "providerId": "codex",
+  "title": "Explain example from section 2.3.2",
+  "titleGenerationStatus": "success",
+  "createdAt": 1780996345338,
+  "updatedAt": 1780998882906,
+  "lastResponseAt": 1780998882906,
+  "sessionId": "019eaba7-a201-75a0-a22b-ea8ec7b6abf6",
+  "providerState": {
+    "threadId": "019eaba7-a201-75a0-a22b-ea8ec7b6abf6",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/09/rollout-2026-06-09T17-12-30-019eaba7-a201-75a0-a22b-ea8ec7b6abf6.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "currentNote": "Python基础/06-自定义函数高级.md",
+  "usage": {
+    "inputTokens": 23545,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 22400,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 23545,
+    "percentage": 9,
+    "model": "gpt-5.5"
+  }
+}
