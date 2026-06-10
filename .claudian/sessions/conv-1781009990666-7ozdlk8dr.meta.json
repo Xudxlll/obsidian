@@ -1,0 +1,26 @@
+{
+  "id": "conv-1781009990666-7ozdlk8dr",
+  "providerId": "codex",
+  "title": "Control tab count with n variable",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781009990667,
+  "updatedAt": 1781010404205,
+  "lastResponseAt": 1781010116528,
+  "sessionId": "019eac77-d064-7211-a0b9-2551f76dff66",
+  "providerState": {
+    "threadId": "019eac77-d064-7211-a0b9-2551f76dff66",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/09/rollout-2026-06-09T20-59-53-019eac77-d064-7211-a0b9-2551f76dff66.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "currentNote": "Python基础/01-变量与基本数据类型.md",
+  "usage": {
+    "inputTokens": 19089,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 17280,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 19089,
+    "percentage": 7,
+    "model": "gpt-5.5"
+  }
+}

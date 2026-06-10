@@ -4,8 +4,8 @@
   "title": "Explain Python interpreter and PyCharm",
   "titleGenerationStatus": "success",
   "createdAt": 1780646956675,
-  "updatedAt": 1780647827615,
-  "lastResponseAt": 1780647827615,
+  "updatedAt": 1781058894553,
+  "lastResponseAt": 1781011873842,
   "sessionId": "019e96d4-62ab-7570-a02c-ea1bc7dfa7f9",
   "providerState": {
     "threadId": "019e96d4-62ab-7570-a02c-ea1bc7dfa7f9",
@@ -14,12 +14,12 @@
   },
   "currentNote": "Python基础/01-变量与基本数据类型.md",
   "usage": {
-    "inputTokens": 20192,
+    "inputTokens": 21257,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 16256,
+    "cacheReadInputTokens": 4992,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 20192,
+    "contextTokens": 21257,
     "percentage": 8,
     "model": "gpt-5.5"
   }

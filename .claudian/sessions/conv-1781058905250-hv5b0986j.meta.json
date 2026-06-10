@@ -1,0 +1,26 @@
+{
+  "id": "conv-1781058905250-hv5b0986j",
+  "providerId": "codex",
+  "title": "Explain file field in section 2.1",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781058905251,
+  "updatedAt": 1781059748907,
+  "lastResponseAt": 1781059748907,
+  "sessionId": "019eaf62-388b-7832-9c55-767d57b1bd0e",
+  "providerState": {
+    "threadId": "019eaf62-388b-7832-9c55-767d57b1bd0e",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/10/rollout-2026-06-10T10-35-10-019eaf62-388b-7832-9c55-767d57b1bd0e.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "currentNote": "Python基础/11-内置模块.md",
+  "usage": {
+    "inputTokens": 25584,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 4992,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 25584,
+    "percentage": 10,
+    "model": "gpt-5.5"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "conv-1781010453938-qxdvhgsvy",
+  "providerId": "codex",
+  "title": "Walk through recursive Python problem",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781010453939,
+  "updatedAt": 1781015488483,
+  "lastResponseAt": 1781015488483,
+  "sessionId": "019eac7e-e71e-7c63-879e-7520a920d609",
+  "providerState": {
+    "threadId": "019eac7e-e71e-7c63-879e-7520a920d609",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/09/rollout-2026-06-09T21-07-38-019eac7e-e71e-7c63-879e-7520a920d609.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "currentNote": "Python基础/06-自定义函数高级.md",
+  "usage": {
+    "inputTokens": 22325,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 3456,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 22325,
+    "percentage": 9,
+    "model": "gpt-5.5"
+  }
+}

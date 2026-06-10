@@ -1,0 +1,26 @@
+{
+  "id": "conv-1781056275562-yvv18hbgf",
+  "providerId": "codex",
+  "title": "Explain Python __init__ return None rule",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781056275562,
+  "updatedAt": 1781062182540,
+  "lastResponseAt": 1781062182540,
+  "sessionId": "019eaf3a-04c3-7c41-af9d-f2f976c60eae",
+  "providerState": {
+    "threadId": "019eaf3a-04c3-7c41-af9d-f2f976c60eae",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/10/rollout-2026-06-10T09-51-15-019eaf3a-04c3-7c41-af9d-f2f976c60eae.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "currentNote": "Python基础/07-面向对象编程基础.md",
+  "usage": {
+    "inputTokens": 27598,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 4992,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 27598,
+    "percentage": 11,
+    "model": "gpt-5.5"
+  }
+}
