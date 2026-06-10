@@ -4,8 +4,8 @@
   "title": "Explain Python __init__ return None rule",
   "titleGenerationStatus": "success",
   "createdAt": 1781056275562,
-  "updatedAt": 1781076218373,
-  "lastResponseAt": 1781076218373,
+  "updatedAt": 1781085525613,
+  "lastResponseAt": 1781085525613,
   "sessionId": "019eaf3a-04c3-7c41-af9d-f2f976c60eae",
   "providerState": {
     "threadId": "019eaf3a-04c3-7c41-af9d-f2f976c60eae",
@@ -14,13 +14,13 @@
   },
   "currentNote": "Python基础/07-面向对象编程基础.md",
   "usage": {
-    "inputTokens": 44804,
+    "inputTokens": 53377,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 43904,
+    "cacheReadInputTokens": 4992,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 44804,
-    "percentage": 17,
+    "contextTokens": 53377,
+    "percentage": 21,
     "model": "gpt-5.5"
   }
 }

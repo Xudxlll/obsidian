@@ -3642,6 +3642,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "07-面向对象编程基础",
         "05-生成器与迭代器和自定义函数基础",
         "002.png",
         "003.png",
@@ -4175,6 +4176,18 @@
         "10-模块与包.md",
         "python-cheatsheet.pdf"
       ]
+    },
+    "Python基础/assets/07-面向对象编程基础": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "file-20260610170505533.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "Python基础/assets/07-面向对象编程基础/file-20260610170505533.png": {
+      "isPinned": false,
+      "isHidden": false
     }
   },
   "pinnedFiles": [
