@@ -1,0 +1,26 @@
+{
+  "id": "conv-1781088419226-tj4anuecq",
+  "providerId": "codex",
+  "title": "讲解第二章文件操作",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781088419226,
+  "updatedAt": 1781094878494,
+  "lastResponseAt": 1781094878494,
+  "sessionId": "019eb124-915b-7b92-be29-e0b31055fe2b",
+  "providerState": {
+    "threadId": "019eb124-915b-7b92-be29-e0b31055fe2b",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/10/rollout-2026-06-10T18-47-04-019eb124-915b-7b92-be29-e0b31055fe2b.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "currentNote": "Python基础/11-内置模块.md",
+  "usage": {
+    "inputTokens": 35931,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 34688,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 35931,
+    "percentage": 14,
+    "model": "gpt-5.5"
+  }
+}

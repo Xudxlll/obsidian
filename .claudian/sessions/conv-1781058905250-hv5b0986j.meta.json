@@ -4,8 +4,8 @@
   "title": "Explain file field in section 2.1",
   "titleGenerationStatus": "success",
   "createdAt": 1781058905251,
-  "updatedAt": 1781059748907,
-  "lastResponseAt": 1781059748907,
+  "updatedAt": 1781091253744,
+  "lastResponseAt": 1781091253744,
   "sessionId": "019eaf62-388b-7832-9c55-767d57b1bd0e",
   "providerState": {
     "threadId": "019eaf62-388b-7832-9c55-767d57b1bd0e",
@@ -14,12 +14,12 @@
   },
   "currentNote": "Python基础/11-内置模块.md",
   "usage": {
-    "inputTokens": 25584,
+    "inputTokens": 26518,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 4992,
+    "cacheReadInputTokens": 25984,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 25584,
+    "contextTokens": 26518,
     "percentage": 10,
     "model": "gpt-5.5"
   }

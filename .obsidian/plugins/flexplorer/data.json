@@ -4180,10 +4180,10 @@
     "Python基础/assets/07-面向对象编程基础": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "file-20260610170505533.png"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Python基础/assets/07-面向对象编程基础/file-20260610170505533.png": {
       "isPinned": false,
