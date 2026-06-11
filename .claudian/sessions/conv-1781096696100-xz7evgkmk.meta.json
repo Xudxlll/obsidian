@@ -1,0 +1,25 @@
+{
+  "id": "conv-1781096696100-xz7evgkmk",
+  "providerId": "codex",
+  "title": "Summarize note with subtitles to Obsidian",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781096696103,
+  "updatedAt": 1781141148758,
+  "lastResponseAt": 1781096750948,
+  "sessionId": "019eb1a2-c974-7bc3-a5e5-09e62e5516c2",
+  "providerState": {
+    "threadId": "019eb1a2-c974-7bc3-a5e5-09e62e5516c2",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/10/rollout-2026-06-10T21-04-56-019eb1a2-c974-7bc3-a5e5-09e62e5516c2.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "usage": {
+    "inputTokens": 25491,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 23424,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 25491,
+    "percentage": 10,
+    "model": "gpt-5.5"
+  }
+}

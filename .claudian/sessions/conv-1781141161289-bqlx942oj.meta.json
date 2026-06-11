@@ -1,0 +1,26 @@
+{
+  "id": "conv-1781141161289-bqlx942oj",
+  "providerId": "codex",
+  "title": "Explain section 3.3.1",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781141161289,
+  "updatedAt": 1781142185094,
+  "lastResponseAt": 1781142185094,
+  "sessionId": "019eb449-45b4-7a60-b26a-a825ab4524e2",
+  "providerState": {
+    "threadId": "019eb449-45b4-7a60-b26a-a825ab4524e2",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/11/rollout-2026-06-11T09-26-01-019eb449-45b4-7a60-b26a-a825ab4524e2.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "currentNote": "Python基础/07-面向对象编程基础.md",
+  "usage": {
+    "inputTokens": 25939,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 20352,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 25939,
+    "percentage": 10,
+    "model": "gpt-5.5"
+  }
+}
