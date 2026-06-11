@@ -4,8 +4,8 @@
   "title": "Explain section 3.3.1",
   "titleGenerationStatus": "success",
   "createdAt": 1781141161289,
-  "updatedAt": 1781142185094,
-  "lastResponseAt": 1781142185094,
+  "updatedAt": 1781151767912,
+  "lastResponseAt": 1781151767912,
   "sessionId": "019eb449-45b4-7a60-b26a-a825ab4524e2",
   "providerState": {
     "threadId": "019eb449-45b4-7a60-b26a-a825ab4524e2",
@@ -14,13 +14,13 @@
   },
   "currentNote": "Python基础/07-面向对象编程基础.md",
   "usage": {
-    "inputTokens": 25939,
+    "inputTokens": 36322,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 20352,
+    "cacheReadInputTokens": 35200,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 25939,
-    "percentage": 10,
+    "contextTokens": 36322,
+    "percentage": 14,
     "model": "gpt-5.5"
   }
 }
