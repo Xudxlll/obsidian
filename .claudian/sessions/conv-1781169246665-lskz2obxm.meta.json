@@ -1,0 +1,26 @@
+{
+  "id": "conv-1781169246665-lskz2obxm",
+  "providerId": "codex",
+  "title": "Explain Chapter 3 content",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781169246665,
+  "updatedAt": 1781172655720,
+  "lastResponseAt": 1781172655720,
+  "sessionId": "019eb5f5-e5ba-78a2-80c2-de16faa8aea3",
+  "providerState": {
+    "threadId": "019eb5f5-e5ba-78a2-80c2-de16faa8aea3",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/11/rollout-2026-06-11T17-14-11-019eb5f5-e5ba-78a2-80c2-de16faa8aea3.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "currentNote": "Python基础/08-面向对象编程高级.md",
+  "usage": {
+    "inputTokens": 24869,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 17792,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 24869,
+    "percentage": 10,
+    "model": "gpt-5.5"
+  }
+}

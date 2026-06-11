@@ -4,23 +4,22 @@
   "title": "Explain section 3.3.1",
   "titleGenerationStatus": "success",
   "createdAt": 1781141161289,
-  "updatedAt": 1781151767912,
-  "lastResponseAt": 1781151767912,
+  "updatedAt": 1781169211064,
+  "lastResponseAt": 1781167987981,
   "sessionId": "019eb449-45b4-7a60-b26a-a825ab4524e2",
   "providerState": {
     "threadId": "019eb449-45b4-7a60-b26a-a825ab4524e2",
     "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/11/rollout-2026-06-11T09-26-01-019eb449-45b4-7a60-b26a-a825ab4524e2.jsonl",
     "transcriptRootPath": "/Users/xuji/.codex/sessions"
   },
-  "currentNote": "Python基础/07-面向对象编程基础.md",
   "usage": {
-    "inputTokens": 36322,
+    "inputTokens": 51735,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 35200,
+    "cacheReadInputTokens": 51072,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 36322,
-    "percentage": 14,
+    "contextTokens": 51735,
+    "percentage": 20,
     "model": "gpt-5.5"
   }
 }

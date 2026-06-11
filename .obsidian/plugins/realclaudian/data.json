@@ -2,8 +2,9 @@
   "tabManagerState": {
     "openTabs": [
       {
+        "draftModel": "gpt-5.5",
         "tabId": "tab-1780416431290-tzlu8ng",
-        "conversationId": "conv-1781058905250-hv5b0986j"
+        "conversationId": null
       },
       {
         "tabId": "tab-1780647913839-5g8mmtm",
@@ -11,7 +12,7 @@
       },
       {
         "tabId": "tab-1780673723612-8h1zl26",
-        "conversationId": "conv-1781141161289-bqlx942oj"
+        "conversationId": "conv-1781169246665-lskz2obxm"
       }
     ],
     "activeTabId": "tab-1780673723612-8h1zl26"
