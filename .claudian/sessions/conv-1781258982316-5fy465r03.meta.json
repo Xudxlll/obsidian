@@ -1,0 +1,26 @@
+{
+  "id": "conv-1781258982316-5fy465r03",
+  "providerId": "codex",
+  "title": "Verify Python mimetypes is built-in",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781258982316,
+  "updatedAt": 1781259169278,
+  "lastResponseAt": 1781259169278,
+  "sessionId": "019ebb4f-1be3-7d51-874a-2f54774e18a3",
+  "providerState": {
+    "threadId": "019ebb4f-1be3-7d51-874a-2f54774e18a3",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/12/rollout-2026-06-12T18-09-44-019ebb4f-1be3-7d51-874a-2f54774e18a3.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "currentNote": "Python基础/12-其他模块.md",
+  "usage": {
+    "inputTokens": 24355,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 20864,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 24355,
+    "percentage": 9,
+    "model": "gpt-5.5"
+  }
+}
