@@ -1,0 +1,26 @@
+{
+  "id": "conv-1781187827354-o4evjlvek",
+  "providerId": "codex",
+  "title": "Explain encapsulation with example",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781187827357,
+  "updatedAt": 1781190067528,
+  "lastResponseAt": 1781190067528,
+  "sessionId": "019eb711-5c8d-7fc3-aaca-f76126b27fb0",
+  "providerState": {
+    "threadId": "019eb711-5c8d-7fc3-aaca-f76126b27fb0",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/11/rollout-2026-06-11T22-23-48-019eb711-5c8d-7fc3-aaca-f76126b27fb0.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "currentNote": "Python基础/07-面向对象编程基础.md",
+  "usage": {
+    "inputTokens": 27910,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 17792,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 27910,
+    "percentage": 11,
+    "model": "gpt-5.5"
+  }
+}
