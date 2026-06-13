@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Coze智能体-课堂.md",
         "Python基础",
         "Mac快捷键以及功能汇总",
         "外刊精读",
@@ -4196,6 +4197,10 @@
       "isHidden": false
     },
     "AI知识汇总/系统代理和 TUN 的区别.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Coze智能体-课堂.md": {
       "isPinned": false,
       "isHidden": false
     }
