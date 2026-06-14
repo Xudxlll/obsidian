@@ -1,0 +1,26 @@
+{
+  "id": "conv-1781347119219-8fz4n5wd3",
+  "providerId": "codex",
+  "title": "Summarize subtitles into Obsidian note",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781347119222,
+  "updatedAt": 1781347881942,
+  "lastResponseAt": 1781347881942,
+  "sessionId": "019ec08f-f6d4-7931-9024-292aea758d9e",
+  "providerState": {
+    "threadId": "019ec08f-f6d4-7931-9024-292aea758d9e",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/13/rollout-2026-06-13T18-38-40-019ec08f-f6d4-7931-9024-292aea758d9e.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "currentNote": "Clippings/2026-06-13-SpaceX上市，背后在玩什么资本游戏_.md",
+  "usage": {
+    "inputTokens": 40446,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 33664,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 40446,
+    "percentage": 16,
+    "model": "gpt-5.5"
+  }
+}
