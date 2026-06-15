@@ -22,7 +22,7 @@
 
 * 数据库应用领域
 
-  数据库的应用领域几乎涉及到了需要数据管理的方方面面，融机构、游戏网站、购物网站、论坛网站 ... ...都需要数据库进行数据存储管理。 
+  数据库的应用领域几乎涉及到了需要数据管理的方方面面，金融机构、游戏网站、购物网站、论坛网站 ... ...都需要数据库进行数据存储管理。 
 
 ![](./img/view.jpg)
 
@@ -88,25 +88,24 @@
     * 启动/停止/重启服务：sudo  service  mysql    start/stop/restart
 
   * 连接数据库
-     ```sql
-    mysql    -h  主机地址   -u  用户名    -p  
-    ```
 
-    > 注意： 
-    >
-    > 1. 回车后输入数据库密码 （我们设置的是123456）
-    >
-    > 2. 如果链接自己主机数据库可省略 -h 选项
+```sql
+mysql    -h  主机地址   -u  用户名    -p
+
+mysql -u root -p
+```
+
+> 注意： 
+> 
+> 1. 回车后输入数据库密码 （我们设置的是123456）
+> 2. 如果链接自己主机数据库可省略 -h 选项
 
   * 关闭连接
 
-     ```sql
-     ctrl-D
-     exit
-     ```
-
-
-
+```sql
+ctrl-D
+exit
+```
 
 * MySQL数据库结构
 
@@ -152,12 +151,15 @@ e.g. 创建stu数据库，编码为utf8
 create database stu character set utf8;
 create database stu charset=utf8;
 ```
+
 > 注意：库名的命名
+> 
 >1.  数字、字母、下划线,但不能使用纯数字
 >2. 库名区分字母大小写
 >3. 不要使用特殊字符和mysql关键字
 
 3. 切换库
+
 >use 库名;
 
 ```sql
@@ -166,6 +168,7 @@ use stu;
 ```
 
 4. 查看当前所在库
+
 >select database();
 
 5. 删除库
@@ -177,6 +180,51 @@ e.g. 删除test数据库
 drop database test;
 ```
 
+**老师上课笔记**
+
+```sql
+-- 输出MySQL服务器版本号
+
+SELECT VERSION();
+
+-- 输出当前的日期和时间
+
+SELECT NOW();
+
+-- 输出当前打开的数据库
+
+SELECT DATABASE();
+
+-- 输出当前所有的数据库列表
+
+SHOW DATABASES;
+```
+
+```sql
+-- 创建数据库a1,编码方式为默认编码方式
+
+CREATE DATABASE a1;
+
+-- 创建数据库a2,编码方式为utf8
+
+CREATE DATABASE a2 DEFAULT CHARSET='UTF8';
+
+-- 证明a2的编码方式为utf8呢?又怎么知道a1的编码方式?
+
+SHOW CREATE DATABASE a1;
+
+SHOW CREATE DATABASE a2;
+```
+
+```sql
+-- 打开数据库a1
+
+USE a1;
+
+-- 如何证明数据库a1已经被打开呢？
+
+SELECT DATABASE();
+```
 
 
 ### 3.5 数据表管理
@@ -203,7 +251,8 @@ drop database test;
 ----------------------------------
 
 * 字符串类型：
-  * 普通字符串： CHAR，VARCHAR
+  * 普通字符串： CHAR(n)  n代表字符的长度，最大为255，称为定长字符串
+	          VARCHAR(n)  n最大为65535，称为变长字符串
   * 存储文本： text
   * 存储二进制数据： BLOB
   * 存储选项型数据：ENUM，SET
@@ -217,7 +266,65 @@ drop database test;
 > 3. enum用来存储给出的多个值中的一个值,即单选，enum('A','B','C')
 > 4. set用来存储给出的多个值中一个或多个值，即多选，set('A','B','C')
 
+**老师上课笔记**
 
+```sql
+-- 整型
+
+TINYINT [UNSIGNED] 占1字节,无符号的存储范是 0~255(2^8-1) 有符号的存储范围是 -128~127(2^7-1)
+
+SMALLINT [UNSIGNED] 占2节,无符号的存储范是 0~65535(2^16-1) 有符号的存储范围是 -32768~32767(2^15-1)
+
+MEDIUMINT [UNSIGNED] 占3字节,无符号的存储范是 0~16777215(2^24-1) 有符号的存储范围是 -8388608~8388607(2^23-1)
+
+INT/INTEGER [UNSIGNED] 占4字节,无符号的存储范是 0~4294967295(2^32-1) 有符号的存储范围是 ~2147483648~2147483647(2^31-1)
+
+BIGINT [UNSIGNED] 占8字节,无符号的存储范是(2^64-1) 有符号的存储范围是(-2^63,2^63-1)
+
+-- 布尔型
+
+BOOL 占1字节,等价于TINYINT(1),0认为是假，其他的都认为是真！
+
+-- 浮点型
+
+FLOAT(M,D) [UNSIGNED] 占4字节,单精度浮点,最高保留到小数点后7位
+
+DOUBLE(M,D) [UNSIGNED] 占8字节,双精度浮点,最高保留到小数点后15位
+
+M表示数字的总长度，D表示小数点后的数据长度，如 FLOAT(7,2)表示整数位最多5位，小数点最多2位，理论上说，最高的存储值为 99999.99
+
+-- 定点型
+
+DECIMAL(M,D) [UNSIGNED] M最大取值为65，D最大取值为30，如果省略 M默认值为10.如果省略D，默认值为0.
+
+所有与货币相关的字段都要存储是定点型！
+
+-- 字符型
+
+CHAR(n) n代表的字符的长度，最大为255(2^8-1)，称为定长字符串
+
+VARCHAR(n) n代表的字符的长度，最大为65535(2^16-1)，称为变长字符串
+
+如你定义了一个字段，为CHAR(5)，而存储的内容是'AB',它实际存储的是'AB   '
+
+如你定义了一个字段，为VARCHAR(5)，而存储的内容是'AB',它实际存储的是'AB'
+
+TINYTEXT,最多可存储255(2^8-1)个字节
+
+TEXT,最多可存储65535(2^16-1)个字节
+
+MEDIUMTEXT,最多可存储16777215(2^24-1)个字节
+
+LONGTEXT,最多可存储4294967295(2^32-1)个字节
+
+ENUM(a,b,c,d,...),枚举值
+
+-- 日期时间型
+
+DATE 存储范围1000-01-01 ~9999-12-31
+
+DATETIME 存储范围1000-01-01 00:00:00 ~9999-12-31 23：59：59
+```
 
 #### 3.5.2 表的基本操作
 
@@ -256,7 +363,35 @@ create table interest (id int primary key auto_increment,name varchar(32) not nu
 
 	> drop table 表名;
 
+**老师上课笔记**
 
+```sql
+-- 创建数据表students
+
+CREATE TABLE students(
+
+username VARCHAR(10),
+
+age TINYINT UNSIGNED,
+
+sex BOOLEAN,
+
+salary DECIMAL(8,2) UNSIGNED,
+
+birthday DATE,
+
+memory MEDIUMTEXT
+
+);
+
+-- 如何证明students数据表创建成功？或者我想查看当前数据库有有哪些数据表呢？
+
+SHOW TABLES;
+
+-- 我想查看students的有哪些字段呢？又有什么类型呢？
+
+DESC students;
+```
 
 ### 3.6 表数据基本操作
 
