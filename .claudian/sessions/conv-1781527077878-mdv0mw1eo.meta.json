@@ -1,0 +1,26 @@
+{
+  "id": "conv-1781527077878-mdv0mw1eo",
+  "providerId": "codex",
+  "title": "Analyze note formatting and layout",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781527077878,
+  "updatedAt": 1781527944031,
+  "lastResponseAt": 1781527944031,
+  "sessionId": "019ecb49-e454-7af0-8bdb-b5837639d2eb",
+  "providerState": {
+    "threadId": "019ecb49-e454-7af0-8bdb-b5837639d2eb",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/15/rollout-2026-06-15T20-37-57-019ecb49-e454-7af0-8bdb-b5837639d2eb.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "currentNote": "Python基础/04-运算符与流程控制.md",
+  "usage": {
+    "inputTokens": 63872,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 62336,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 63872,
+    "percentage": 25,
+    "model": "gpt-5.5"
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "conv-1781528220896-pfjyicyw7",
+  "providerId": "codex",
+  "title": "Convert markdown heading levels",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781528220896,
+  "updatedAt": 1781529306988,
+  "lastResponseAt": 1781529306988,
+  "sessionId": "019ecb5b-5533-7171-858e-242a89a42f21",
+  "providerState": {
+    "threadId": "019ecb5b-5533-7171-858e-242a89a42f21",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/15/rollout-2026-06-15T20-57-01-019ecb5b-5533-7171-858e-242a89a42f21.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "currentNote": "SQL数据库/IO_NET.md",
+  "usage": {
+    "inputTokens": 29488,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 28544,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 29488,
+    "percentage": 11,
+    "model": "gpt-5.5"
+  }
+}

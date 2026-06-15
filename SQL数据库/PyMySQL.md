@@ -114,7 +114,6 @@ Connection.cursor([Cursor/SSCursor/DictCursor/SSDictCursor])
 
 你可以使用以下示例代码来在PyMySQL中查找记录：
 
-```python
 import pymysql
 
 # 创建连接
@@ -179,7 +178,7 @@ Cursor.execute(query,args=None)
 
 ```
 
-如果`args`参数为列表或元素，可通过`%s`作为查询语句中的占位符；如果为字典的话，可通过`%name`作为占位符
+如果`args`参数为列表或元组，可通过`%s`作为查询语句中的占位符；如果为字典的话，可通过`%name`作为占位符
 
 ● `rowcount`属性
 
@@ -191,7 +190,7 @@ Cursor.rowcount
 
 ```
 
-> 如`DQL`中的`SELECT`、`DML`中的`UPDATE`、`INSERT`、`DELETE`等
+> 如`SQL`中的`SELECT`、`DML`中的`UPDATE`、`INSERT`、`DELETE`等
 
 ● `lastrowid`属性
 
