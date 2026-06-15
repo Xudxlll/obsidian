@@ -180,7 +180,7 @@ e.g. 删除test数据库
 drop database test;
 ```
 
-**老师上课笔记**
+#### 3.4.1老师上课笔记
 
 ```sql
 -- 输出MySQL服务器版本号
@@ -266,7 +266,44 @@ SELECT DATABASE();
 > 3. enum用来存储给出的多个值中的一个值,即单选，enum('A','B','C')
 > 4. set用来存储给出的多个值中一个或多个值，即多选，set('A','B','C')
 
-**老师上课笔记**
+#### 3.5.2 表的基本操作
+
+* 创建表
+
+>create table 表名(字段名 数据类型 约束,字段名 数据类型 约束,...字段名 数据类型 约束);
+
+* 字段约束
+  * 如果你想设置数字为无符号则加上 unsigned
+  * 如果你不想字段为 NULL 可以设置字段的属性为 NOT NULL， 在操作数据库时如果输入该字段的数据为NULL ，就会报错。
+  * DEFAULT 表示设置一个字段的默认值
+  * AUTO_INCREMENT定义列为自增的属性，一般用于主键，数值会自动加1。
+  * PRIMARY KEY 关键字用于定义列为主键。主键的值不能重复,且不能为空。
+
+```sql
+e.g.  创建班级表
+create table class_1 (id int primary key auto_increment,name varchar(32) not null,age tinyint unsigned not null,sex enum('w','m'),score float default 0.0);
+
+e.g. 创建兴趣班表
+create table interest (id int primary key auto_increment,name varchar(32) not null,hobby set('sing','dance','draw'),level char not null,price decimal(6,2),remark text);
+```
+
+* 查看数据表
+
+	> show tables；
+
+* 查看表结构
+
+	> desc 表名;
+
+* 查看数据表创建信息
+
+	>  show create table 表名；
+
+* 删除表
+
+	> drop table 表名;
+
+#### 3.5.3老师上课笔记
 
 ```sql
 -- 整型
@@ -326,45 +363,6 @@ DATE 存储范围1000-01-01 ~9999-12-31
 DATETIME 存储范围1000-01-01 00:00:00 ~9999-12-31 23：59：59
 ```
 
-#### 3.5.2 表的基本操作
-
-* 创建表
-
->create table 表名(字段名 数据类型 约束,字段名 数据类型 约束,...字段名 数据类型 约束);
-
-* 字段约束
-  * 如果你想设置数字为无符号则加上 unsigned
-  * 如果你不想字段为 NULL 可以设置字段的属性为 NOT NULL， 在操作数据库时如果输入该字段的数据为NULL ，就会报错。
-  * DEFAULT 表示设置一个字段的默认值
-  * AUTO_INCREMENT定义列为自增的属性，一般用于主键，数值会自动加1。
-  * PRIMARY KEY 关键字用于定义列为主键。主键的值不能重复,且不能为空。
-
-```sql
-e.g.  创建班级表
-create table class_1 (id int primary key auto_increment,name varchar(32) not null,age tinyint unsigned not null,sex enum('w','m'),score float default 0.0);
-
-e.g. 创建兴趣班表
-create table interest (id int primary key auto_increment,name varchar(32) not null,hobby set('sing','dance','draw'),level char not null,price decimal(6,2),remark text);
-```
-
-* 查看数据表
-
-	> show tables；
-
-* 查看表结构
-
-	> desc 表名;
-
-* 查看数据表创建信息
-
-	>  show create table 表名；
-
-* 删除表
-
-	> drop table 表名;
-
-**老师上课笔记**
-
 ```sql
 -- 创建数据表students
 
@@ -423,7 +421,123 @@ select * from class_1;
 select name,age from class_1;
 ```
 
+#### 3.6.2 老师上课笔记
 
+约束按作用分为：
+
+- **主键约束**:一张数据表只能有一个主键约束,它用于保证记录的唯一性，一般情况下主键约束会与`AUTO_INCREMENT`组合使用。`AUTO_INCREMENT`称为自动编号，所以主键字段往往是整型 -- 通过在定义数据表时添加 `PRIMARY KEY`来定义主键
+
+- **唯一约束**:用于保证记录的唯一性，一张数据表可以有多个唯一约束， 通过在定义数据表时添加 `UNIQUE` 来定义唯一约束，唯一约束的字段允许为空！
+
+- **非空约束**：用于保证在插入记录时必须明确为该字段进行赋值操作（除非该字段有默认值）。主键约束自动添加非空约束。
+
+- **默认约束**:在插入记录时，如果没有明确为该字段进行赋值操作，则自动将默认值赋给该字段。
+
+```sql
+-- 省略字段列表
+
+INSERT students VALUES('张三',21,1,21972.36,'2026-01-05','我是一名优秀的程序员');
+
+-- 指定字段列表
+
+INSERT INTO students(age,username,sex,memory,birthday,salary)
+
+VALUES(22,'李四',0,'我是PYTHON开发工程师','2026-01-05',21478.99);
+
+-- 如何证明记录已经存在？或者说如何查找数据表中的所有记录呢？
+
+SELECT * FROM students;
+```
+
+```sql
+CREATE TABLE test1(
+
+id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+
+username VARCHAR(20) UNIQUE
+
+);
+
+-- 想证明一下自动递增的字段可以真的自动递增
+
+INSERT test1(username) VALUES('Tom');
+
+INSERT test1(username) VALUES('Rose');
+
+-- 想证明一下username字段的唯一性
+
+INSERT test1(username) VALUES('Rose');
+
+-- 有的同学想，可不可以为自动递增字段赋值呢？ -- 可以，但不能赋重复值
+
+INSERT test1(id,username) VALUES(6,'Python');
+
+-- 我刚刚写入了一个6，接下来我再写一条没有id的字段，那么它的id多少呢？ -- 是已有的最大ID+1
+
+INSERT test1(username) VALUES('Node.js');
+
+-- 我现在想通过所有字段进行赋值，但是又想让自动递增字段进行自动递增,怎么办？
+
+INSERT test1(id,username) VALUES(NULL,'Java');
+
+INSERT test1(id,username) VALUES(DEFAULT,'C#');
+
+-- 唯一约束的字段允许为空！ -- 疑问 -- 不是说UNIQUE可以保证唯一性吗？因为在创建唯一约束，MySQL将自动创建基于该字段的索引，而NULL值在索引文件里只有一份！
+
+INSERT test1(id,username) VALUES(NULL,NULL);
+
+INSERT test1(id,username) VALUES(DEFAULT,NULL);
+```
+
+```sql
+-- 研究一下唯一约束与非空约束
+
+CREATE TABLE test2(
+
+id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY ,
+
+mobile VARCHAR(20) NOT NULL UNIQUE ,
+
+age TINYINT UNSIGNED NOT NULL,
+
+email VARCHAR(50) UNIQUE NOT NULL
+
+);
+
+-- 正确
+
+INSERT test2(mobile,age,email) VALUES('13800138000',21,'user1@gmail.com');
+
+-- 错误
+
+INSERT test2(mobile,age) VALUES('13800138001',22);
+
+-- 错误 -- 因为email字段不允许存在重复值
+
+INSERT test2(mobile,age,email) VALUES('13800138001',21,'user1@gmail.com');
+```
+
+```sql
+-- 验证默认约束
+
+CREATE TABLE test3(
+
+id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+
+username VARCHAR(20) NOT NULL UNIQUE,
+
+age TINYINT NOT NULL DEFAULT 10
+
+);
+
+-- 正确
+
+INSERT test3(id,username,age) VALUES(null,'Tom',20);
+
+-- 正确
+
+INSERT test3(id,username) VALUES(null,'Rose');
+```
 
 #### 3.6.3 where子句
 
@@ -491,7 +605,31 @@ e.g.
 delete from class_1 where name='Abby';
 ```
 
+```sql
+-- 为了演示删除数据表的操作
 
+CREATE TABLE test(
+
+id SMALLINT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+
+username VARCHAR(20) NOT NULL UNIQUE
+
+);
+
+INSERT test(username) VALUES('A');
+
+INSERT test(username) VALUES('B');
+
+INSERT test(username) VALUES('C');
+
+INSERT test(username) VALUES('D');
+
+SELECT * FROM test;
+
+-- 删除数据表
+
+DROP TABLE test;
+```
 
 #### 3.6.6 表字段的操作(alter)
 
@@ -517,6 +655,39 @@ e.g.
 alter table interest add tel char(11) after name;
 ```
 
+```sql
+-- 1.增加主键字段
+
+ALTER TABLE students ADD id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT FIRST;
+
+-- 2.我想在birthday和memory之间添加education字段，类型为ENUM
+
+ALTER TABLE students ADD education ENUM('小学','中学','高中') AFTER birthday;
+
+-- 3.在最后添加address字段，类型为VARCHAR(50)且非空
+
+ALTER TABLE students ADD address VARCHAR(50) NOT NULL;
+
+-- 4.为sex字段添加default默认约束 -- 1
+
+ALTER TABLE students CHANGE sex sex BOOLEAN DEFAULT 1;
+
+-- 如何证明默认值添加成功了呢？
+
+INSERT students(username,age,salary,birthday,education,memory,address) VALUES('测试1',22,568963.33,'2021-1-5','高中','测试案例','北洋');
+
+-- 5.为memory字段添加not null约束
+
+ALTER TABLE students CHANGE memory memory MEDIUMTEXT NOT NULL;
+
+-- 6.为username添加unique约束和not null约束 - 暂时无法成功，因为在数据表中已经存在重复的username
+
+ALTER TABLE students CHANGE username username VARCHAR(10) UNIQUE NOT NULL;
+
+-- 7.先行修改记录，然后再执行6
+
+UPDATE students SET username='张四' WHERE id=1;
+```
 
 
 #### 3.5.7 时间类型数据
