@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "SQL数据库",
         "金融知识",
         "Coze智能体-课堂",
         "Python基础",
@@ -5504,12 +5505,180 @@
     "金融知识": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "SpaceX上市背后的资本游戏：估值、融资与控制权.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融知识/SpaceX上市背后的资本游戏：估值、融资与控制权.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "IO_NET.md",
+        "PyMySQL.md",
+        "img",
+        "info"
+      ]
+    },
+    "SQL数据库/IO_NET.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/PyMySQL.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "buffer.jpg",
+        "data.jpeg",
+        "databases.jpg",
+        "er.PNG",
+        "inner.PNG",
+        "left.PNG",
+        "mysql.jpg",
+        "re.png",
+        "re1.png",
+        "right.PNG",
+        "view.jpg",
+        "字符串.PNG",
+        "库结构.png",
+        "数据库系统.png",
+        "整型.png",
+        "时间.PNG",
+        "比较.png",
+        "算数.png",
+        "表结构.png",
+        "运算符.png",
+        "逻辑.png",
+        "隔离.png"
+      ]
+    },
+    "SQL数据库/img/buffer.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/data.jpeg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/databases.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/er.PNG": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/inner.PNG": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/left.PNG": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/mysql.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/re.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/re1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/right.PNG": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/view.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/字符串.PNG": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/库结构.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/数据库系统.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/整型.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/时间.PNG": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/比较.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/算数.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/表结构.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/运算符.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/逻辑.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/隔离.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/info": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "data.sql",
+        "dict.txt",
+        "insert_data.py",
+        "log.txt",
+        "studentsystem.py"
+      ]
+    },
+    "SQL数据库/info/data.sql": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/info/dict.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/info/insert_data.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/info/log.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/info/studentsystem.py": {
       "isPinned": false,
       "isHidden": false
     }
