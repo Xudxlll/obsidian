@@ -693,6 +693,15 @@ e.g.
 select * from class_1 where sex='m' and age>9;
 ```
 
+```sql
+SELECT 2 IN (1,2,3,4) ; -- 可以用 SELECT 1 = 2 OR 2 = 2 OR 3=2 OR 4 = 2表示
+
+SELECT NULL IS NULL; -- 1
+
+SELECT '' IS NULL; -- 0
+
+SELECT 0 IS NULL; -- 0
+```
 
 
 ![](img/运算符.png)
