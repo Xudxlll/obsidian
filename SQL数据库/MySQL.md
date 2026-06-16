@@ -94,7 +94,7 @@ mysql    -h  主机地址   -u  用户名    -p
 
 mysql -u root -p
 ```
-
+ 
 > 注意： 
 > 
 > 1. 回车后输入数据库密码 （我们设置的是12345678）
@@ -106,6 +106,18 @@ mysql -u root -p
 ctrl-D
 exit;
 ```
+
+```sql
+-h / --host        主机地址
+-P / --port        端口号，MySQL默认是3306
+-u / --user        用户名
+-p / --password    密码
+-D / --database    指定要进入的数据库
+-e / --execute     登录后直接执行SQL语句
+
+mysql -h 127.0.0.1 -P 3306 -u root -p -D school -e "SHOW TABLES;"
+```
+
 
 * MySQL数据库结构
 
@@ -180,7 +192,112 @@ e.g. 删除test数据库
 drop database test;
 ```
 
-### 3.4.1老师上课笔记
+### 3.4.1 show和select
+
+* **基本理解**
+
+`SHOW` 和 `SELECT` 都可以用来“查看内容”，但是查看的对象不同：
+
+> SHOW：主要查看数据库系统信息、结构信息、状态信息
+>
+> SELECT：主要查询数据表中的数据，也可以查询表达式和函数结果
+
+* **SHOW的常见用法**
+
+```sql
+-- 查看已有数据库
+
+SHOW DATABASES;
+
+-- 查看当前数据库中的数据表
+
+SHOW TABLES;
+
+-- 查看表结构
+
+SHOW COLUMNS FROM 表名;
+DESC 表名;
+
+-- 查看建库语句或建表语句
+
+SHOW CREATE DATABASE 库名;
+SHOW CREATE TABLE 表名;
+
+-- 查看系统变量
+
+SHOW VARIABLES;
+SHOW VARIABLES LIKE 'character%';
+
+-- 查看当前连接进程
+
+SHOW PROCESSLIST;
+
+-- 查看用户权限
+
+SHOW GRANTS;
+```
+
+> 注意：`SHOW` 更像是在问 MySQL：“你现在有哪些库、哪些表、结构是什么、状态是什么？”
+
+* **SELECT的常见用法**
+
+```sql
+-- 查询表中所有记录
+
+SELECT * FROM 表名;
+
+-- 查询指定字段
+
+SELECT 字段1,字段2 FROM 表名;
+
+-- 按条件查询
+
+SELECT * FROM 表名 WHERE 条件;
+
+-- 排序查询
+
+SELECT * FROM 表名 ORDER BY 字段 DESC;
+
+-- 限制查询数量
+
+SELECT * FROM 表名 LIMIT 10;
+
+-- 聚合统计
+
+SELECT COUNT(*) FROM 表名;
+
+-- 查询函数或表达式结果
+
+SELECT DATABASE();
+SELECT VERSION();
+SELECT NOW();
+SELECT 1 + 2;
+```
+
+> 注意：`SELECT` 更像是在问 MySQL：“某张表里有哪些数据？某个函数或表达式的结果是多少？”
+
+* **二者区别**
+
+| 对比 | SHOW | SELECT |
+| --- | --- | --- |
+| 查询对象 | 数据库、表、字段、状态、权限等信息 | 表中的记录、字段、函数、表达式 |
+| 主要作用 | 查看数据库系统和结构信息 | 查询具体数据和计算结果 |
+| 常见位置 | 数据库管理、表管理阶段 | 表数据查询阶段 |
+| 灵活程度 | 语法相对固定 | 可以配合where、order by、group by、limit等使用 |
+
+```sql
+-- 查看当前数据库有哪些表，这是查看结构信息
+
+SHOW TABLES;
+
+-- 查看students表中的所有数据，这是查询表记录
+
+SELECT * FROM students;
+```
+
+> 简单记忆：`SHOW` 看“数据库长什么样”，`SELECT` 查“表里有什么数据”。
+
+### 3.4.2老师上课笔记
 
 ```sql
 -- 输出MySQL服务器版本号
@@ -290,7 +407,7 @@ DECIMAL(M,D) [UNSIGNED] M最大取值为65，D最大取值为30，如果省略 M
   * 存储二进制数据： BLOB
   * 存储选项型数据：ENUM，SET
 
-![](./img/字符串.png)
+![](./img/字符串.PNG)
 
 > 注意：
 >
@@ -701,7 +818,7 @@ UPDATE students SET username='张四' WHERE id=1;
 * 时间： TIME
 * 年份 ：YEAR
 
-![](img/时间.png)
+![](img/时间.PNG)
 
 * 时间格式
 
@@ -1485,7 +1602,6 @@ db.close() 关闭连接
   * 存储文件本身
     * 优点：安全可靠，数据库在文件就在
     * 缺点：占用数据库空间大，文件存取效率低
-
 
 
 

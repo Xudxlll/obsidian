@@ -6,9 +6,9 @@
       "sortOrder": "custom",
       "customOrder": [
         "SQL数据库",
-        "金融知识",
-        "Coze智能体-课堂",
         "Python基础",
+        "Coze智能体-课堂",
+        "金融知识",
         "Mac快捷键以及功能汇总",
         "外刊精读",
         "Clippings",
@@ -5519,7 +5519,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "IO_NET.md",
+        "MySQL.md",
         "IO_NET.md.bak-20260615-format",
         "PyMySQL.md",
         "img",
@@ -5683,7 +5683,7 @@
       "isPinned": false,
       "isHidden": false
     },
-    "SQL数据库/IO_NET.md": {
+    "SQL数据库/MySQL.md": {
       "isPinned": false,
       "isHidden": false
     }
