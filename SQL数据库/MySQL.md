@@ -901,6 +901,7 @@ create table marathon (id int primary key auto_increment,athlete varchar(32),bir
 	e.g. 
 	select * from class_1 where name regexp '^B.+';
 	```
+
 * as 用法
 
   在sql语句中as用于给字段或者表重命名
@@ -973,7 +974,7 @@ select * from class_1 where sex='m' UNION ALL select * from class_1 where age > 
 	* 子查询出现的位置：
 		1. from 之后 ，此时子查询的内容作为一个新的表内容，再进行外层select查询
 		```sql
-		select name from (select * from class_1 where sex='m') as s where s.score > 90;
+	select name from (select * from class_1 where sex='m') as s where s.score > 90;
 		```
 		>注意：  需要将子查询结果集重命名一下，方便where子句中的引用操作
 	
@@ -1062,7 +1063,7 @@ select country,avg(attack) from sanguo
 group by country;
 ```
 
-e.g. :  对多个字段创建索引，此时多个字段都相同时为一组
+e.g. :  对多个字段创建索引，此时==多个字段都相同时为一组==
 ```mysql
 select age,sex,count(*) from class1 group by age,sex;
 ```
