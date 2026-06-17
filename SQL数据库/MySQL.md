@@ -1604,7 +1604,7 @@ select * from dept,person where dept.id = person.dept_id;
 
 ```sql
 SELECT 字段列表
-    FROM 表1  INNER JOIN  表2
+FROM 表1  INNER JOIN  表2
 ON 表1.字段 = 表2.字段;
 ```
 
@@ -1628,7 +1628,7 @@ select * from person inner join  dept;
 
 ```sql
 SELECT 字段列表
-    FROM 表1  LEFT JOIN  表2
+FROM 表1  LEFT JOIN  表2
 ON 表1.字段 = 表2.字段;
 ```
 
@@ -1645,7 +1645,7 @@ select dname,count(name) from dept left join person on dept.id=person.dept_id gr
 
 ```sql
 SELECT 字段列表
-    FROM 表1  RIGHT JOIN  表2
+FROM 表1  RIGHT JOIN  表2
 ON 表1.字段 = 表2.字段;
 ```
 
