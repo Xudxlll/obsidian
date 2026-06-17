@@ -362,7 +362,7 @@ SELECT DATABASE();
 
 > 注意：
 >
-> 1. 对于准确性要求比较高的东西，比如money，用decimal类型减少存储误差。声明语法是DECIMAL(M,D)。M是数字的最大数字位数，D是小数点右侧数字的位数。比如 DECIMAL(6,2)最多存6位数字，小数点后占2位,取值范围-9999.99到9999.99。
+> 1. 对于准确性要求比较高的东西，比如`money`，用`decimal`类型减少存储误差。声明语法是`DECIMAL(M,D)`。`M`是数字的最大数字位数，`D`是小数点右侧数字的位数。比如 `DECIMAL(6,2)`最多存6位数字，小数点后占2位,取值范围-9999.99到9999.99。
 > 2. 比特值类型指0，1值表达2种情况，如真，假
 
 
@@ -453,11 +453,11 @@ DATETIME 存储范围1000-01-01 00:00:00 ~9999-12-31 23：59：59
 >create table 表名(字段名 数据类型 约束,字段名 数据类型 约束,...字段名 数据类型 约束);
 
 * 字段约束
-  * 如果你想设置数字为无符号则加上 unsigned
-  * 如果你不想字段为 NULL 可以设置字段的属性为 NOT NULL， 在操作数据库时如果输入该字段的数据为NULL ，就会报错。
-  * DEFAULT 表示设置一个字段的默认值
-  * AUTO_INCREMENT定义列为自增的属性，一般用于主键，数值会自动加1。
-  * PRIMARY KEY 关键字用于定义列为主键。主键的值不能重复,且不能为空。
+  * 如果你想设置数字为无符号则加上 `unsigned`
+  * 如果你不想字段为 `NULL` 可以设置字段的属性为 `NOT NULL`， 在操作数据库时如果输入该字段的数据为`NULL` ，就会报错。
+  * `DEFAULT` 表示设置一个字段的默认值
+  * `AUTO_INCREMENT`定义列为自增的属性，一般用于主键，数值会自动加1。
+  * `PRIMARY KEY` 关键字用于定义列为主键。主键的值不能重复,且不能为空。
 
 ```sql
 e.g.  创建班级表
@@ -1137,6 +1137,136 @@ eg2: 更新蜀国所有英雄攻击力 * 2
 
 
 
+### 3.8.6 SELECT 的基本结构
+
+- **基本语法结构**
+
+```mysql
+SELECT expression[, ...]
+[
+    FROM table_references
+    [WHERE condition]
+    [GROUP BY col_name[, col_name]]
+    [HAVING condition]
+    [ORDER BY col_name [ASC|DESC] [, col_name]]
+    [LIMIT [offset,] row_count]
+]
+```
+
+> 注意：上面语法结构中的 `[]` 表示可选内容，`|` 表示二选一，`...` 表示可以重复多个，真正写 SQL 时不需要把这些说明符号写进去。
+
+- **各部分含义**
+
+| 子句 | 作用 |
+| --- | --- |
+| SELECT | 指定要查询的字段、函数或表达式 |
+| FROM | 指定从哪张表中查询数据 |
+| WHERE | 对原始表记录进行条件筛选 |
+| GROUP BY | 按照指定字段进行分组 |
+| HAVING | 对分组聚合后的结果进行筛选 |
+| ORDER BY | 对查询结果进行排序 |
+| LIMIT | 限制返回的数据条数 |
+
+- **expression 表达式**
+
+`expression` 表示查询表达式，可以是字段、函数、计算表达式、字符串或数字。
+
+```mysql
+-- 查询函数结果
+
+SELECT VERSION();
+
+SELECT NOW();
+
+-- 查询计算表达式
+
+SELECT 3 + 2;
+```
+
+- **表达式别名**
+
+表达式可以使用 `AS` 起别名，`AS` 也可以省略。
+
+```mysql
+-- 使用AS设置别名
+
+SELECT VERSION() AS 版本;
+
+-- 省略AS设置别名
+
+SELECT NOW() 当前日期时间;
+
+-- 多个表达式之间使用英文逗号分隔
+
+SELECT 3 + 2, 5 - 1 AS 差, 5 * 2 乘积, VERSION() AS 版本号;
+```
+
+- **ORDER BY 排序**
+
+`ORDER BY` 用于对查询结果排序，`ASC` 表示升序，`DESC` 表示降序，默认是 `ASC`。
+
+```mysql
+-- 按工资升序排序
+
+SELECT * FROM students ORDER BY salary;
+
+SELECT * FROM students ORDER BY salary ASC;
+
+-- 按工资降序排序
+
+SELECT * FROM students ORDER BY salary DESC;
+
+-- 多字段排序：先按工资降序，如果工资相同，再按年龄升序
+
+SELECT * FROM students ORDER BY salary DESC, age ASC;
+```
+
+- **LIMIT 限制条数**
+
+`LIMIT` 用于限制查询结果返回的数据数量。
+
+```mysql
+-- 查询前5条记录
+
+SELECT * FROM students LIMIT 5;
+
+-- 跳过前3条，再查询5条记录
+
+SELECT * FROM students LIMIT 3, 5;
+
+-- 与上面写法等价
+
+SELECT * FROM students LIMIT 5 OFFSET 3;
+```
+
+> 注意：`LIMIT offset, row_count` 中，`offset` 表示跳过多少条，`row_count` 表示取多少条。
+
+- **不建议长期使用 `SELECT *`**
+
+```mysql
+SELECT * FROM students;
+```
+
+`SELECT *` 表示查询表中的所有字段，在学习阶段比较方便，但实际开发中不建议长期使用。
+
+> 原因：
+>
+> 1. 看不出当前业务到底需要哪些字段。
+> 2. 可能查询出不需要的数据，降低效率。
+> 3. 可能暴露密码、最后登录时间、登录IP等敏感字段。
+> 4. 表结构变化后，查询结果也会跟着变化，不利于维护。
+
+应该明确写出需要查询的字段：
+
+```mysql
+SELECT id, username, age, sex, salary, birthday, education, address
+FROM students;
+```
+
+这样别人看到 SQL 后，就能直接知道当前业务需要哪些字段，不需要关心表中是否还有其他字段。
+
+
+
 ## 3.9 索引操作
 
 ### 3.9.1 概述
@@ -1234,9 +1364,9 @@ show profiles  查看语句执行信息
 ### 3.10.1 外键约束
 
 * 约束 : 约束是一种限制，它通过对表的行或列的数据做出限制，来确保表的数据的完整性、唯一性
-* foreign key 功能 : 建立表与表之间的某种约束的关系，由于这种关系的存在，能够让表与表之间的数据，更加的完整，关连性更强，为了具体说明创建如下部门表和人员表。
-* 示例
+* `foreign key` 功能 : 建立表与表之间的某种约束的关系，由于这种关系的存在，能够让表与表之间的数据，更加的完整，关连性更强，为了具体说明创建如下部门表和人员表。
 
+* 示例
 ```sql
 # 创建部门表
 CREATE TABLE dept (id int PRIMARY KEY auto_increment,dname VARCHAR(50) not null);
@@ -1259,7 +1389,7 @@ CREATE TABLE person (
 
 * 主表和从表：若同一个数据库中，B表的外键与A表的主键相对应，则A表为主表，B表为从表。
 
-- foreign key 外键的定义语法：
+- `foreign key` 外键的定义语法：
 
   ```sql
   [CONSTRAINT symbol] FOREIGN KEY（外键字段） 
@@ -1612,8 +1742,6 @@ db.close() 关闭连接
   * 存储文件本身
     * 优点：安全可靠，数据库在文件就在
     * 缺点：占用数据库空间大，文件存取效率低
-
-
 
 
 
