@@ -5536,6 +5536,13 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "join_full_outer_exclusive.png",
+        "join_right_exclusive.png",
+        "join_right_inclusive.png",
+        "join_inner.png",
+        "join_full_outer_inclusive.png",
+        "join_left_exclusive.png",
+        "join_left_inclusive.png",
         "buffer.jpg",
         "data.jpeg",
         "databases.jpg",
@@ -5689,6 +5696,34 @@
       "isHidden": false
     },
     "Python基础/15-第三方模块.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/join_left_inclusive.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/join_left_exclusive.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/join_full_outer_inclusive.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/join_inner.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/join_right_inclusive.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/join_right_exclusive.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SQL数据库/img/join_full_outer_exclusive.png": {
       "isPinned": false,
       "isHidden": false
     }

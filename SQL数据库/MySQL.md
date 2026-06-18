@@ -1367,12 +1367,12 @@ show profiles  查看语句执行信息
 * `foreign key` 功能 : 建立表与表之间的某种约束的关系，由于这种关系的存在，能够让表与表之间的数据，更加的完整，关连性更强，为了具体说明创建如下部门表和人员表。
 
 * 示例
-```sql
+```mysql
 # 创建部门表
 CREATE TABLE dept (id int PRIMARY KEY auto_increment,dname VARCHAR(50) not null);
 ```
 
-```sql
+```mysql
 # 创建人员表
 CREATE TABLE person (
   id int PRIMARY KEY AUTO_INCREMENT,
@@ -1391,8 +1391,8 @@ CREATE TABLE person (
 
 - `foreign key` 外键的定义语法：
 
-  ```sql
-  [CONSTRAINT symbol] FOREIGN KEY（外键字段） 
+  ```mysql
+  [CONSTRAINT symbol] FOREIGN KEY (外键字段) 
   
   REFERENCES tbl_name (主表主键)
   
@@ -1402,10 +1402,128 @@ CREATE TABLE person (
   ```
 
   该语法可以在 CREATE TABLE 和 ALTER TABLE 时使用
-  
+
+	* **语法说明**
+
+	```text
+	[CONSTRAINT symbol]：
+	给外键约束起名字，可以写，也可以不写。
+
+	FOREIGN KEY (外键字段)：
+	指定当前表中哪个字段是外键。
+
+	REFERENCES tbl_name (主表主键)：
+	指定当前表的外键字段引用哪张主表的哪个字段。
+
+	ON DELETE：
+	主表记录被删除时，从表记录应该如何处理。
+
+	ON UPDATE：
+	主表主键被修改时，从表外键应该如何处理。
+	```
+
+	例如：
+
+	```mysql
+	CONSTRAINT dept_fk
+	FOREIGN KEY (dept_id)
+	REFERENCES dept(id)
+	```
+
+	可以理解为：
+
+	```text
+	person表中的dept_id字段，引用dept表中的id字段。
+
+	dept_fk是这个外键约束的名字。
+	```
+
+	> 注意：`CONSTRAINT` 后面的外键名称主要用于查看、管理和删除外键约束。
 
 	```sql
-	# 创建表时直接简历外键
+	alter table person drop foreign key dept_fk;
+	```
+
+	如果创建外键时没有自己起名字，MySQL会自动生成一个名字，后续删除外键时需要先通过 `show create table 表名;` 查询。
+
+	* **为什么字段要写在括号里**
+
+	外键字段和被引用字段都要写成括号形式：
+
+	```mysql
+	FOREIGN KEY (dept_id) REFERENCES dept(id)
+	```
+
+	不能写成：
+
+	```mysql
+	FOREIGN KEY person.dept_id REFERENCES dept.id
+	```
+
+	原因是：
+
+	> 1. `FOREIGN KEY (...)` 的括号中写的是当前表的外键字段列表。
+	> 2. `REFERENCES 表名(...)` 的括号中写的是主表中被引用的字段列表。
+	> 3. 外键可以由多个字段共同组成，所以SQL语法统一要求用括号表示字段列表。
+
+	例如联合外键：
+
+	```mysql
+	FOREIGN KEY (student_id, course_id)
+	REFERENCES score(student_id, course_id)
+	```
+
+	* **ON DELETE 和 ON UPDATE 的动作**
+
+	| 动作 | 含义 |
+	| --- | --- |
+	| RESTRICT | 如果从表中有相关记录，则不允许删除或更新主表记录 |
+	| CASCADE | 主表删除或更新时，从表跟着删除或更新 |
+	| SET NULL | 主表删除或更新时，从表外键字段设置为NULL |
+	| NO ACTION | 不主动处理，在MySQL中通常与RESTRICT效果接近 |
+
+	```mysql
+	CONSTRAINT dept_fk
+	FOREIGN KEY (dept_id)
+	REFERENCES dept(id)
+	ON DELETE CASCADE
+	ON UPDATE CASCADE
+	```
+
+	表示：
+
+	```text
+	如果dept表中的某个部门被删除，对应person记录也跟着删除。
+
+	如果dept表中的id被修改，person表中的dept_id也跟着修改。
+	```
+
+	> 注意：`SET NULL` 要求从表的外键字段允许为 `NULL`，否则无法设置为空。
+
+	* **物理外键和逻辑外键**
+
+	数据库中通过 `FOREIGN KEY` 明确创建出来的外键，可以理解为物理外键，由数据库负责强制检查数据关系。
+
+	现在很多开发实践中，也会使用逻辑外键：
+
+	```text
+	数据库中不真正创建FOREIGN KEY约束，
+	但是在业务代码中约定两个字段存在关联关系。
+	```
+
+	例如：
+
+	```text
+	person.dept_id 对应 dept.id
+	```
+
+	这种关系由程序代码维护，数据库不会自动检查。
+
+	> 简单理解：物理外键是“数据库说它们有关联”，逻辑外键是“代码约定它们有关联”。
+  
+
+	```mysql
+	# 创建表时直接建立外键
 	CREATE TABLE person (
 	  id int PRIMARY KEY AUTO_INCREMENT,
 	  name varchar(32) NOT NULL,
@@ -1466,14 +1584,20 @@ CREATE TABLE person (
 
 
  ``` sql
-create table student(id int primary key auto_increment,name varchar(50) not null);
+create table student(
+	id int primary key auto_increment,
+	name varchar(50) not null
+);
 
-create table record(id int primary key auto_increment,
-comment text not null,
-st_id int unique,
-constraint st_fk foreign key(st_id) references student(id) 
-on delete cascade 
-on update cascade
+create table record(
+	id int primary key auto_increment,
+	comment text not null,
+	st_id int unique,
+	constraint st_fk 
+	foreign key(st_id) 
+	references student(id) 
+	on delete cascade 
+	on update cascade
 );
  ```
 
@@ -1498,7 +1622,9 @@ create table car(
   name varchar(30),
   price decimal(10,2),
   pid varchar(32),
-  constraint car_fk foreign key(pid) references person(id)
+  constraint car_fk 
+  foreign key(pid) 
+  references person(id)
 );
 ```
 
@@ -1538,8 +1664,8 @@ CREATE TABLE athlete_item (
 
 * **定义**		
 
-```mysql
-E-R模型(Entry-Relationship)即 实体-关系 数据模型,用于数据库设计
+```text
+E-R模型(Entity-Relationship)即 实体-关系 数据模型,用于数据库设计
 用简单的图(E-R图)反映了现实世界中存在的事物或数据以及他们之间的关系
 ```
 
@@ -1583,77 +1709,200 @@ E-R模型(Entry-Relationship)即 实体-关系 数据模型,用于数据库设�
 
 如果多个表存在一定关联关系，可以多表在一起进行查询操作，其实表的关联整理与外键约束之间并没有必然联系，但是基于外键约束设计的具有关联性的表往往会更多使用关联查询查找数据。
 
+> 说明：下面图中 A 表可以理解为左表，B 表可以理解为右表，蓝色区域表示最终查询结果保留的数据范围。
+
 * 简单多表查询
 
 多个表数据可以联合查询，语法格式如下：
 
-```sql
+```mysql
 select  字段1,字段2... from 表1,表2... [where 条件]
 ```
 
-```sql
+```mysql
 e.g.
 select * from dept,person where dept.id = person.dept_id;
 ```
+
+如果不加 `where` 关联条件，会产生笛卡尔积。
 
 * 内连接
 
 内连接查询只会查找到符合条件的记录，其实结果和表关联查询是一样的,官方更推荐使用内连接查询。
 
-![](./img/inner.PNG)
+![](./img/join_inner.png)
 
-```sql
+```mysql
 SELECT 字段列表
 FROM 表1  INNER JOIN  表2
 ON 表1.字段 = 表2.字段;
 ```
 
-```sql
+```mysql
 select * from person inner join  dept  on  person.dept_id =dept.id;
 ```
+
+> 查询结果：只保留两张表中能够匹配上的数据。
 
 * 笛卡尔积
 
 笛卡尔积就是将A表的每一条记录与B表的每一条记录强行拼在一起。所以，如果A表有n条记录，B表有m条记录，笛卡尔积产生的结果就会产生n*m条记录。
 
-```sql
+```mysql
 select * from person inner join  dept;
 ```
+
+> 注意：`FROM 表1,表2` 不是分别展示两张表，而是把两张表组合成一张临时结果表。
 
 
 
 - 左连接  : 左表全部显示，显示右表中与左表匹配的项
 
-![](./img/left.PNG)
+![](./img/join_left_inclusive.png)
 
-```sql
+```mysql
 SELECT 字段列表
 FROM 表1  LEFT JOIN  表2
 ON 表1.字段 = 表2.字段;
 ```
 
-```sql
+```mysql
 select * from person left join  dept  on  person.dept_id =dept.id;
 
 # 查询每个部门员工人数
-select dname,count(name) from dept left join person on dept.id=person.dept_id group by dname;
+select dname,count(name) 
+from dept 
+left join person 
+on dept.id=person.dept_id 
+group by dname;
 ```
+
+> 查询结果：左表数据全部保留，右表能匹配上的显示出来，匹配不上的右表字段为 `NULL`。
 
 - 右连接 ：右表全部显示，显示左表中与右表匹配的项
 
-![](./img/right.PNG)
+![](./img/join_right_inclusive.png)
 
-```sql
+```mysql
 SELECT 字段列表
 FROM 表1  RIGHT JOIN  表2
 ON 表1.字段 = 表2.字段;
 ```
 
-```sql
+```mysql
 select * from person right join  dept  on  person.dept_id =dept.id;
 ```
 
 
+
+> 查询结果：右表数据全部保留，左表能匹配上的显示出来，匹配不上的左表字段为 `NULL`。
+
+- 左表独有数据
+
+左表独有数据指的是：只查询左表中存在，但是右表中没有匹配项的数据。
+
+![](./img/join_left_exclusive.png)
+
+```mysql
+SELECT 字段列表
+FROM 表1 LEFT JOIN 表2
+ON 表1.字段 = 表2.字段
+WHERE 表2.字段 IS NULL;
+```
+
+```mysql
+select *
+from person left join dept
+on person.dept_id = dept.id
+where dept.id is null;
+```
+
+> 查询结果：只保留左表中没有匹配到右表的数据，重叠部分不要。
+
+- 右表独有数据
+
+右表独有数据指的是：只查询右表中存在，但是左表中没有匹配项的数据。
+
+![](./img/join_right_exclusive.png)
+
+```mysql
+SELECT 字段列表
+FROM 表1 RIGHT JOIN 表2
+ON 表1.字段 = 表2.字段
+WHERE 表1.字段 IS NULL;
+```
+
+```mysql
+select *
+from person right join dept
+on person.dept_id = dept.id
+where person.dept_id is null;
+```
+
+> 查询结果：只保留右表中没有匹配到左表的数据，重叠部分不要。
+
+- 全外连接
+
+全外连接表示：左表和右表的数据都要保留，能匹配的合并显示，不能匹配的也显示。
+
+![](./img/join_full_outer_inclusive.png)
+
+标准SQL写法：
+
+```mysql
+SELECT 字段列表
+FROM 表1 FULL OUTER JOIN 表2
+ON 表1.字段 = 表2.字段;
+```
+
+> 注意：MySQL中不直接支持 `FULL OUTER JOIN`，通常使用 `LEFT JOIN` 和 `RIGHT JOIN` 配合 `UNION` 模拟。
+
+```mysql
+SELECT 字段列表
+FROM 表1 LEFT JOIN 表2
+ON 表1.字段 = 表2.字段
+
+UNION
+
+SELECT 字段列表
+FROM 表1 RIGHT JOIN 表2
+ON 表1.字段 = 表2.字段;
+```
+
+> 查询结果：左表全部数据 + 右表全部数据。
+
+- 全外独有数据
+
+全外独有数据表示：只保留左表独有和右表独有的数据，不保留两表能够匹配上的数据。
+
+![](./img/join_full_outer_exclusive.png)
+
+标准SQL写法：
+
+```mysql
+SELECT 字段列表
+FROM 表1 FULL OUTER JOIN 表2
+ON 表1.字段 = 表2.字段
+WHERE 表1.字段 IS NULL OR 表2.字段 IS NULL;
+```
+
+MySQL模拟写法：
+
+```mysql
+SELECT 字段列表
+FROM 表1 LEFT JOIN 表2
+ON 表1.字段 = 表2.字段
+WHERE 表2.字段 IS NULL
+
+UNION
+
+SELECT 字段列表
+FROM 表1 RIGHT JOIN 表2
+ON 表1.字段 = 表2.字段
+WHERE 表1.字段 IS NULL;
+```
+
+> 查询结果：只保留两边各自没有匹配上的数据，重叠部分不要。
 
 > 注意：我们尽量使用数据量大的表作为基准表，即左表
 
@@ -1742,12 +1991,6 @@ db.close() 关闭连接
   * 存储文件本身
     * 优点：安全可靠，数据库在文件就在
     * 缺点：占用数据库空间大，文件存取效率低
-
-
-
-
-
-
 
 
 
