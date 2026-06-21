@@ -1,0 +1,26 @@
+{
+  "id": "conv-1781789469358-q9gq6hcqw",
+  "providerId": "codex",
+  "title": "Organize subtitles into Obsidian data analysis ...",
+  "titleGenerationStatus": "success",
+  "createdAt": 1781789469361,
+  "updatedAt": 1781789600318,
+  "lastResponseAt": 1781789600318,
+  "sessionId": "019edaed-be9a-74d2-aac6-13379d9ffd10",
+  "providerState": {
+    "threadId": "019edaed-be9a-74d2-aac6-13379d9ffd10",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/18/rollout-2026-06-18T21-31-14-019edaed-be9a-74d2-aac6-13379d9ffd10.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "currentNote": "Clippings/2026-06-18-3-6 Numpy数组的合并与分割.md",
+  "usage": {
+    "inputTokens": 53397,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 50560,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 53397,
+    "percentage": 21,
+    "model": "gpt-5.5"
+  }
+}

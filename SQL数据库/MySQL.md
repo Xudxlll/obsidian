@@ -89,7 +89,7 @@
 
   * 连接数据库
 
-```sql
+```mysql
 mysql    -h  主机地址   -u  用户名    -p
 
 mysql -u root -p
@@ -102,12 +102,12 @@ mysql -u root -p
 
   * 关闭连接
 
-```sql
+```mysql
 ctrl-D
 exit;
 ```
 
-```sql
+```mysql
 -h / --host        主机地址
 -P / --port        端口号，MySQL默认是3306
 -u / --user        用户名
@@ -158,7 +158,7 @@ mysql -h 127.0.0.1 -P 3306 -u root -p -D school -e "SHOW TABLES;"
 
 >create database 库名 [character set utf8];
 
-```sql
+```mysql
 e.g. 创建stu数据库，编码为utf8
 create database stu character set utf8;
 create database stu charset=utf8;
@@ -174,7 +174,7 @@ create database stu charset=utf8;
 
 >use 库名;
 
-```sql
+```mysql
 e.g. 使用stu数据库
 use stu;
 ```
@@ -187,7 +187,7 @@ use stu;
 
 >drop database 库名;
 
-```sql
+```mysql
 e.g. 删除test数据库
 drop database test;
 ```
@@ -204,7 +204,7 @@ drop database test;
 
 * **SHOW的常见用法**
 
-```sql
+```mysql
 -- 查看已有数据库
 
 SHOW DATABASES;
@@ -241,7 +241,7 @@ SHOW GRANTS;
 
 * **SELECT的常见用法**
 
-```sql
+```mysql
 -- 查询表中所有记录
 
 SELECT * FROM 表名;
@@ -285,7 +285,7 @@ SELECT 1 + 2;
 | 常见位置 | 数据库管理、表管理阶段 | 表数据查询阶段 |
 | 灵活程度 | 语法相对固定 | 可以配合where、order by、group by、limit等使用 |
 
-```sql
+```mysql
 -- 查看当前数据库有哪些表，这是查看结构信息
 
 SHOW TABLES;
@@ -299,7 +299,7 @@ SELECT * FROM students;
 
 ### 3.4.2老师上课笔记
 
-```sql
+```mysql
 -- 输出MySQL服务器版本号
 
 SELECT VERSION();
@@ -317,7 +317,7 @@ SELECT DATABASE();
 SHOW DATABASES;
 ```
 
-```sql
+```mysql
 -- 创建数据库a1,编码方式为默认编码方式
 
 CREATE DATABASE a1;
@@ -333,7 +333,7 @@ SHOW CREATE DATABASE a1;
 SHOW CREATE DATABASE a2;
 ```
 
-```sql
+```mysql
 -- 打开数据库a1
 
 USE a1;
@@ -366,7 +366,7 @@ SELECT DATABASE();
 > 2. 比特值类型指0，1值表达2种情况，如真，假
 
 
-```sql
+```mysql
 -- 整型
 
 TINYINT [UNSIGNED] 占1字节,无符号的存储范是 0~255(2^8-1) 有符号的存储范围是 -128~127(2^7-1)
@@ -417,7 +417,7 @@ DECIMAL(M,D) [UNSIGNED] M最大取值为65，D最大取值为30，如果省略 M
 > 4. set用来存储给出的多个值中一个或多个值，即多选，set('A','B','C')
 
 
-```sql
+```mysql
 -- 字符型
 
 CHAR(n) n代表的字符的长度，最大为255(2^8-1)，称为定长字符串
@@ -459,7 +459,7 @@ DATETIME 存储范围1000-01-01 00:00:00 ~9999-12-31 23：59：59
   * `AUTO_INCREMENT`定义列为自增的属性，一般用于主键，数值会自动加1。
   * `PRIMARY KEY` 关键字用于定义列为主键。主键的值不能重复,且不能为空。
 
-```sql
+```mysql
 e.g.  创建班级表
 create table class_1 (id int primary key auto_increment,name varchar(32) not null,age tinyint unsigned not null,sex enum('w','m'),score float default 0.0);
 
@@ -485,7 +485,7 @@ create table interest (id int primary key auto_increment,name varchar(32) not nu
 
 ### 3.5.3老师上课笔记
 
-```sql
+```mysql
 -- 创建数据表students
 
 CREATE TABLE students(
@@ -517,12 +517,12 @@ DESC students;
 
 ### 3.6.1 插入(insert)
 
-```SQL
+```mysql
 insert into 表名 values(值1),(值2),...;
 insert into 表名(字段1,...) values(值1),...;
 ```
 
-```sql
+```mysql
 e.g. 
 insert into class_1 values (2,'Baron',10,'m',91),(3,'Jame',9,'m',90);
 
@@ -530,7 +530,7 @@ insert into class_1 (name,age,sex,score) values ('Lucy',17,'w',81);
 
 ```
 
-```sql
+```mysql
 -- 省略字段列表
 
 INSERT students VALUES('张三',21,1,21972.36,'2026-01-05','我是一名优秀的程序员');
@@ -547,12 +547,12 @@ SELECT * FROM students;
 ```
 ### 3.6.2 查询(select)
 
-```SQL
+```mysql
 select * from 表名 [where 条件];
 select 字段1,字段2 from 表名 [where 条件];
 ```
 
-```sql
+```mysql
 e.g. 
 select * from class_1;
 select name,age from class_1;
@@ -570,7 +570,7 @@ select name,age from class_1;
 
 - **默认约束**:在插入记录时，如果没有明确为该字段进行赋值操作，则自动将默认值赋给该字段。
 
-```sql
+```mysql
 CREATE TABLE test1(
 
 id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
@@ -610,7 +610,7 @@ INSERT test1(id,username) VALUES(NULL,NULL);
 INSERT test1(id,username) VALUES(DEFAULT,NULL);
 ```
 
-```sql
+```mysql
 -- 研究一下唯一约束与非空约束
 
 CREATE TABLE test2(
@@ -638,7 +638,7 @@ INSERT test2(mobile,age) VALUES('13800138001',22);
 INSERT test2(mobile,age,email) VALUES('13800138001',21,'user1@gmail.com');
 ```
 
-```sql
+```mysql
 -- 验证默认约束
 
 CREATE TABLE test3(
@@ -668,7 +668,7 @@ where子句在sql语句中扮演了重要角色，主要通过一定的运算条
 
 ![](img/算数.png)
 
-```sql
+```mysql
 e.g.
 select * from class_1 where age % 2 = 0;
 ```
@@ -677,7 +677,7 @@ select * from class_1 where age % 2 = 0;
 
 ![](img/比较.png)
 
-```sql
+```mysql
 e.g.
 select * from class_1 where age > 8;
 select * from class_1 where between 8 and 10;
@@ -688,12 +688,12 @@ select * from class_1 where age in (8,9);
 
 ![](img/逻辑.png)
 
-```sql
+```mysql
 e.g.
 select * from class_1 where sex='m' and age>9;
 ```
 
-```sql
+```mysql
 SELECT 2 IN (1,2,3,4) ; -- 可以用 SELECT 1 = 2 OR 2 = 2 OR 3=2 OR 4 = 2表示
 
 SELECT NULL IS NULL; -- 1
@@ -710,13 +710,13 @@ SELECT 0 IS NULL; -- 0
 
 ### 3.6.4 更新表记录(update)
 
-```SQL
+```mysql
 update 表名 set 字段1=值1,字段2=值2,... where 条件;
 
 注意:update语句后如果不加where条件,所有记录全部更新
 ```
 
-```sql
+```mysql
 e.g.
 update class_1 set age=11 where name='Abby';
 ```
@@ -725,17 +725,17 @@ update class_1 set age=11 where name='Abby';
 
 ### 3.6.5 删除表记录（delete）
 
-```SQL
+```mysql
 delete from 表名 where 条件;
 
 注意:delete语句后如果不加where条件,所有记录全部清空
 ```
-```sql
+```mysql
 e.g.
 delete from class_1 where name='Abby';
 ```
 
-```sql
+```mysql
 -- 为了演示删除数据表的操作
 
 CREATE TABLE test(
@@ -763,7 +763,7 @@ DROP TABLE test;
 
 ### 3.6.6 表字段的操作(alter)
 
-```SQL
+```mysql
 语法 ：alter table 表名 执行动作;
 
 * 添加字段(add)
@@ -780,12 +780,12 @@ DROP TABLE test;
     alter table 表名 rename 新表名;
 ```
 
-```sql
+```mysql
 e.g. 
 alter table interest add tel char(11) after name;
 ```
 
-```sql
+```mysql
 -- 1.增加主键字段
 
 ALTER TABLE students ADD id INT UNSIGNED PRIMARY KEY AUTO_INCREMENT FIRST;
@@ -845,7 +845,7 @@ UPDATE students SET username='张四' WHERE id=1;
 
 
 
-```sql
+```mysql
 e.g.
 create table marathon (id int primary key auto_increment,athlete varchar(32),birthday date,registration_time datetime,performance time);
 ```
@@ -861,7 +861,7 @@ create table marathon (id int primary key auto_increment,athlete varchar(32),bir
 
   时间类型数据可以进行比较和排序等操作，在写时间字符串时尽量按照标准格式书写。
 
-```sql
+```mysql
   select * from marathon where birthday>='2000-01-01';
   select * from marathon where birthday>="2000-07-01" and performance<="2:30:00";
 ```
@@ -874,15 +874,15 @@ create table marathon (id int primary key auto_increment,athlete varchar(32),bir
 
   1. 模糊查询
 
-     LIKE用于在where子句中进行模糊查询，SQL LIKE 子句中使用百分号` %`来表示任意0个或多个字符，下划线`_`表示任意一个字符。
+     `LIKE`用于在`where`子句中进行模糊查询，SQL `LIKE` 子句中使用百分号`%`来表示任意0个或多个字符，下划线`_`表示任意一个字符。
 
-	```sql
+	```mysql
 	SELECT field1, field2,...fieldN 
 	FROM table_name
 	WHERE field1 LIKE condition1
 	```
 
-	```sql
+	```mysql
 	e.g. 
 	mysql> select * from class_1 where name like 'A%';
 	```
@@ -891,13 +891,13 @@ create table marathon (id int primary key auto_increment,athlete varchar(32),bir
 	
 	   mysql中对正则表达式的支持有限，只支持部分正则元字符:
 
-	```sql
+	```mysql
 	SELECT field1, field2,...fieldN 
 	FROM table_name
 	WHERE field1 REGEXP condition1
 	```
 
-	```sql
+	```mysql
 	e.g. 
 	select * from class_1 where name regexp '^B.+';
 	```
@@ -906,7 +906,7 @@ create table marathon (id int primary key auto_increment,athlete varchar(32),bir
 
   在sql语句中as用于给字段或者表重命名
 
-   ```sql
+   ```mysql
    select name as 姓名,age as 年龄 from class_1;
    select * from class_1 as c where c.age > 17;
    ```
@@ -917,19 +917,19 @@ create table marathon (id int primary key auto_increment,athlete varchar(32),bir
 
   使用 ORDER BY 子句将查询数据排序后再返回数据：
 
-	```sql
+	```mysql
 	SELECT field1, field2,...fieldN from table_name1 where field1
 	ORDER BY field1 [ASC [DESC]]
 	```
 	默认情况ASC表示升序，DESC表示降序
 
-	```sql
+	```mysql
 	select * from class_1 where sex='m' order by age desc;
 	```
 
 	复合排序：对多个字段排序，即当第一排序项相同时按照第二排序项排序
 
-	```sql
+	```mysql
 	select * from class_1 order by score desc,age;
 	```
 
@@ -941,7 +941,7 @@ create table marathon (id int primary key auto_increment,athlete varchar(32),bir
 
 	带有 LIMIT 子句的 SELECT 语句的基本语法如下：
 
-	```sql
+	```mysql
 	SELECT column1, column2, columnN 
 	FROM table_name
 	WHERE field
@@ -954,7 +954,7 @@ create table marathon (id int primary key auto_increment,athlete varchar(32),bir
 
 	UNION 操作符语法格式：
 
-	```sql
+	```mysql
 	SELECT expression1, expression2, ... expression_n
 	FROM tables
 	[WHERE conditions]
@@ -966,14 +966,14 @@ create table marathon (id int primary key auto_increment,athlete varchar(32),bir
 
 	默认UNION后卫 DISTINCT表示删除结果集中重复的数据。如果使用ALL则返回所有结果集，	包含重复数据。
 
-```sql
+```mysql
 select * from class_1 where sex='m' UNION ALL select * from class_1 where age > 9;
 ```
 * 子查询
 	* 定义 ： 当一个select语句中包含另一个select 查询语句，则称之为有子查询的语句
 	* 子查询出现的位置：
 		1. from 之后 ，此时子查询的内容作为一个新的表内容，再进行外层select查询
-		```sql
+		```mysql
 	select name from (select * from class_1 where sex='m') as s where s.score > 90;
 		```
 		>注意：  需要将子查询结果集重命名一下，方便where子句中的引用操作
@@ -981,7 +981,7 @@ select * from class_1 where sex='m' UNION ALL select * from class_1 where age > 
 		
 		2. where字句中，此时select查询到的内容作为外层查询的条件值
 	
-		```sql
+		```mysql
 		 	select *  from class_1 where age = (select age from class_1 where name='Tom');
 		```
 		> 注意：
@@ -993,7 +993,7 @@ select * from class_1 where sex='m' UNION ALL select * from class_1 where age > 
 
 通过之前的学习看到，一个完整的select语句内容是很丰富的。下面看一下select的执行过程：
 
-```sql
+```mysql
 
 (5)SELECT DISTINCT <select_list>                     
 
@@ -1019,14 +1019,14 @@ select * from class_1 where sex='m' UNION ALL select * from class_1 where age > 
 
 ### 3.8.1 聚合函数
 
-| 方法          | 功能                 |
-| ------------- | -------------------- |
-| avg(字段名)   | 该字段的平均值       |
-| max(字段名)   | 该字段的最大值       |
-| min(字段名)   | 该字段的最小值       |
-| sum(字段名)   | 该字段所有记录的和   |
+| 方法         | 功能         |
+| ---------- | ---------- |
+| avg(字段名)   | 该字段的平均值    |
+| max(字段名)   | 该字段的最大值    |
+| min(字段名)   | 该字段的最小值    |
+| sum(字段名)   | 该字段所有记录的和  |
 | count(字段名) | 统计该字段记录的个数 |
-|               |                      |
+|            |            |
 
 eg1 : 找出表中的最大攻击力的值？
 
@@ -1320,7 +1320,7 @@ unique 索引名(字段名)
 create [unique] index 索引名 on 表名(字段名);
 ```
 
-```sql
+```mysql
 e.g.
 create unique index name_index on cls(name);
 ```
@@ -1352,7 +1352,7 @@ alter table 表名 drop primary key;  # 删除主键
 
 * 扩展： 借助性能查看选项去查看索引性能
 
-```sql
+```mysql
 set  profiling = 1； 打开功能 （项目上线一般不打开）
 
 show profiles  查看语句执行信息
@@ -1609,7 +1609,7 @@ create table record(
 >
 > 举例： 一个人可以拥有多辆汽车，每辆车登记的车主只有一人。
 
-```sql
+```mysql
 create table person(
   id varchar(32) primary key,
   name varchar(30),
