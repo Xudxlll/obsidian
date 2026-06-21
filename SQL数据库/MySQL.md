@@ -870,126 +870,161 @@ create table marathon (id int primary key auto_increment,athlete varchar(32),bir
 
 ## 3.7 高级查询语句
 
-* 模糊查询和正则查询
+### 3.7.1 模糊查询和正则查询
 
-  1. 模糊查询
+**1. 模糊查询**
 
-     `LIKE`用于在`where`子句中进行模糊查询，SQL `LIKE` 子句中使用百分号`%`来表示任意0个或多个字符，下划线`_`表示任意一个字符。
+`LIKE`用于在`WHERE`子句中进行模糊查询，SQL `LIKE` 子句中使用百分号`%`来表示任意0个或多个字符，下划线`_`表示任意一个字符。
 
-	```mysql
-	SELECT field1, field2,...fieldN 
-	FROM table_name
-	WHERE field1 LIKE condition1
-	```
+```mysql
+SELECT field1, field2,...fieldN 
+FROM table_name
+WHERE field1 LIKE condition1
+```
 
-	```mysql
-	e.g. 
-	mysql> select * from class_1 where name like 'A%';
-	```
+```mysql
+e.g. 
+mysql> select * from class_1 where name like 'A%';
+```
 
-	2. 正则查询
-	
-	   mysql中对正则表达式的支持有限，只支持部分正则元字符:
+**2. 正则查询**
 
-	```mysql
-	SELECT field1, field2,...fieldN 
-	FROM table_name
-	WHERE field1 REGEXP condition1
-	```
+MySQL中对正则表达式的支持有限，只支持部分正则元字符:
 
-	```mysql
-	e.g. 
-	select * from class_1 where name regexp '^B.+';
-	```
+```mysql
+SELECT field1, field2,...fieldN 
+FROM table_name
+WHERE field1 REGEXP condition1
+```
 
-* as 用法
+```mysql
+e.g. 
+select * from class_1 where name regexp '^B.+';
+```
 
-  在sql语句中as用于给字段或者表重命名
+### 3.7.2 AS 用法
 
-   ```mysql
-   select name as 姓名,age as 年龄 from class_1;
-   select * from class_1 as c where c.age > 17;
-   ```
+在SQL语句中AS用于给字段或者表重命名
 
-* 排序
+```mysql
+select name as 姓名,age as 年龄 from class_1;
+select * from class_1 as c where c.age > 17;
+```
 
-  ORDER BY 子句来设定你想按哪个字段哪种方式来进行排序，再返回搜索结果。
+### 3.7.3 排序
 
-  使用 ORDER BY 子句将查询数据排序后再返回数据：
+ORDER BY 子句来设定你想按哪个字段哪种方式来进行排序，再返回搜索结果。
 
-	```mysql
-	SELECT field1, field2,...fieldN from table_name1 where field1
-	ORDER BY field1 [ASC [DESC]]
-	```
-	默认情况ASC表示升序，DESC表示降序
+使用 ORDER BY 子句将查询数据排序后再返回数据：
 
-	```mysql
-	select * from class_1 where sex='m' order by age desc;
-	```
+```mysql
+SELECT field1, field2,...fieldN from table_name1 where field1
+ORDER BY field1 [ASC [DESC]]
+```
 
-	复合排序：对多个字段排序，即当第一排序项相同时按照第二排序项排序
+默认情况ASC表示升序，DESC表示降序
 
-	```mysql
-	select * from class_1 order by score desc,age;
-	```
+```mysql
+select * from class_1 where sex='m' order by age desc;
+```
 
+复合排序：对多个字段排序，即当第一排序项相同时按照第二排序项排序
 
+```mysql
+select * from class_1 order by score desc,age;
+```
 
-* 限制
+### 3.7.4 限制
 
-	LIMIT 子句用于限制由 SELECT 语句返回的数据数量 或者 UPDATE,DELETE语句的操作数量
+LIMIT 子句用于限制由 SELECT 语句返回的数据数量 或者 UPDATE,DELETE语句的操作数量
 
-	带有 LIMIT 子句的 SELECT 语句的基本语法如下：
+带有 LIMIT 子句的 SELECT 语句的基本语法如下：
 
-	```mysql
-	SELECT column1, column2, columnN 
-	FROM table_name
-	WHERE field
-	LIMIT [num]
-	```
+```mysql
+SELECT column1, column2, columnN 
+FROM table_name
+WHERE field
+LIMIT [num]
+```
 
-*  联合查询
+### 3.7.5 联合查询
 
-	UNION 操作符用于连接两个以上的 SELECT 语句的结果组合到一个结果集合中。多个 SELECT 	语句会删除重复的数据。
+`UNION` 操作符用于连接两个以上的 `SELECT` 语句的结果组合到一个结果集合中。多个 `SELECT` 语句会删除重复的数据。
 
-	UNION 操作符语法格式：
+`UNION` 操作符语法格式：
 
-	```mysql
-	SELECT expression1, expression2, ... expression_n
-	FROM tables
-	[WHERE conditions]
-	UNION [ALL | DISTINCT]
-	SELECT expression1, expression2, ... expression_n
-	FROM tables
-	[WHERE conditions];
-	```
+```mysql
+SELECT expression1, expression2, ... expression_n
+FROM tables
+[WHERE conditions]
+UNION [ALL | DISTINCT]
+SELECT expression1, expression2, ... expression_n
+FROM tables
+[WHERE conditions];
+```
 
-	默认UNION后卫 DISTINCT表示删除结果集中重复的数据。如果使用ALL则返回所有结果集，	包含重复数据。
+默认情况下，`UNION` 相当于 `UNION DISTINCT`，会删除结果集中的重复数据。如果使用`ALL`则返回所有结果集，包含重复数据。
 
 ```mysql
 select * from class_1 where sex='m' UNION ALL select * from class_1 where age > 9;
 ```
-* 子查询
-	* 定义 ： 当一个select语句中包含另一个select 查询语句，则称之为有子查询的语句
-	* 子查询出现的位置：
-		1. from 之后 ，此时子查询的内容作为一个新的表内容，再进行外层select查询
-		```mysql
-	select name from (select * from class_1 where sex='m') as s where s.score > 90;
-		```
-		>注意：  需要将子查询结果集重命名一下，方便where子句中的引用操作
-	
-		
-		2. where字句中，此时select查询到的内容作为外层查询的条件值
-	
-		```mysql
-		 	select *  from class_1 where age = (select age from class_1 where name='Tom');
-		```
-		> 注意：
-		>
-		> 1. 子句结果作为一个值使用时，返回的结果需要一个明确值，不能是多行或者多列。
-		> 2. 如果子句结果作为一个集合使用，即where子句中是in操作，则结果可以是一个字段的多个记录。
-	
-*  查询过程
+
+### 3.7.6 子查询
+
+定义：当一个SELECT语句中包含另一个SELECT查询语句，则称之为有子查询的语句。
+
+子查询出现的位置：
+
+**1. FROM 之后**
+
+此时子查询的内容作为一个新的表内容，再进行外层SELECT查询。
+
+```mysql
+select name from (select * from class_1 where sex='m') as s where s.score > 90;
+```
+
+> 注意：需要将子查询结果集重命名一下，方便WHERE子句中的引用操作。
+
+**2. WHERE 子句中**
+
+此时SELECT查询到的内容作为外层查询的条件值。
+
+```mysql
+select * from class_1 where age = (select age from class_1 where name='Tom');
+```
+
+> 注意：
+>
+> 1. 子查询结果作为一个值使用时，返回的结果需要是一个明确值，不能是多行或者多列。
+> 2. 如果子查询结果作为一个集合使用，即WHERE子句中是IN操作，则结果可以是一个字段的多条记录。
+
+**3. 相关子查询**
+
+相关子查询是指子查询中引用了外层查询的字段。子查询不能完全独立运行，需要根据外层查询当前记录的值完成查询。
+
+```mysql
+SELECT name, sex, score
+FROM class_1 AS c1
+WHERE score > (
+    SELECT AVG(score)
+    FROM class_1 AS c2
+    WHERE c2.sex = c1.sex
+);
+```
+
+上面的语句用于查询成绩高于同性别学生平均成绩的学生。
+
+可以从逻辑上理解为：
+
+1. 外层查询从`class_1`中取出一名学生，并将外层表命名为`c1`。
+2. 子查询通过`c1.sex`获取当前学生的性别。
+3. 子查询计算该性别学生的平均成绩。
+4. 外层查询判断当前学生的成绩是否高于该平均成绩，符合条件则保留。
+5. 继续检查外层查询中的下一名学生。
+
+> 注意：`c1`表示外层查询中的`class_1`，`c2`表示子查询中的`class_1`。给同一张表设置不同别名，可以明确字段来自哪一层查询。
+
+### 3.7.7 查询过程
 
 通过之前的学习看到，一个完整的select语句内容是很丰富的。下面看一下select的执行过程：
 
@@ -1991,7 +2026,6 @@ db.close() 关闭连接
   * 存储文件本身
     * 优点：安全可靠，数据库在文件就在
     * 缺点：占用数据库空间大，文件存取效率低
-
 
 
 
