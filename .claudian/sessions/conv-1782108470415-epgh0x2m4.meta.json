@@ -1,0 +1,23 @@
+{
+  "id": "conv-1782108470415-epgh0x2m4",
+  "providerId": "claude",
+  "title": "Explain matplotlib spine properties",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782108470415,
+  "updatedAt": 1782123491003,
+  "lastResponseAt": 1782123491003,
+  "sessionId": "5a7d35fe-2a33-4c6d-848e-3a66ca092f75",
+  "providerState": {
+    "providerSessionId": "5a7d35fe-2a33-4c6d-848e-3a66ca092f75"
+  },
+  "usage": {
+    "model": "opus",
+    "inputTokens": 398,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 90624,
+    "contextWindow": 1000000,
+    "contextTokens": 91022,
+    "percentage": 9,
+    "contextWindowIsAuthoritative": true
+  }
+}

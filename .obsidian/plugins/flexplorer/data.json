@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "数据分析笔记",
         "数据分析",
         "SQL数据库",
         "Python基础",
@@ -5793,6 +5794,636 @@
       "isHidden": false
     },
     "数据分析/NumPy 顶层函数与数组方法的区别.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "img",
+        "04-数据预处理.md",
+        "03-pandas.md",
+        "02-Matplotlib.md",
+        "01-Numpy.md"
+      ],
+      "sortOrder": "byName"
+    },
+    "数据分析笔记/01-Numpy.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/02-Matplotlib.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/03-pandas.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/04-数据预处理.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "集成学习6.png",
+        "集成学习5.png",
+        "集成学习4.png",
+        "集成学习3.png",
+        "集成学习2.png",
+        "集成学习1.png",
+        "置信概率.png",
+        "矩阵乘法.png",
+        "有监督学习.png",
+        "径向基核函数.png",
+        "无监督学习.png",
+        "凝聚层次动画.gif",
+        "半监督学习.png",
+        "validation_curve.png",
+        "vstack.png",
+        "train_test_dataset.png",
+        "train_test.png",
+        "svm_linear.png",
+        "svm_7.png",
+        "svm_6.png",
+        "svm_5.png",
+        "svm_4.png",
+        "svm_2.png",
+        "svm_3.png",
+        "sigmod.png",
+        "svm_1.png",
+        "set_axis.png",
+        "scatter.png",
+        "series.png",
+        "scatter-1.png",
+        "rbf_kerl_func.png",
+        "poly_3.png",
+        "poly_2.png",
+        "poly_1.png",
+        "poli_kerl_func.png",
+        "pie.png",
+        "overfit2.png",
+        "overfit.png",
+        "numpy01.png",
+        "myplot01.png",
+        "merge_how_outer_3.png",
+        "merge_how_outer_2.png",
+        "merge_how_outer_1.png",
+        "merge_how_left.png",
+        "merge_how_inner_4.png",
+        "merge_how_inner_3.png",
+        "merge_how_inner_2.png",
+        "merge_how_inner_1.png",
+        "merge_how_inner.png",
+        "matplotlib_markers.png",
+        "matplotlib_colors.png",
+        "manhaton_dist.png",
+        "linear_loss.png",
+        "log_e.jpg",
+        "linear_9.png",
+        "linear_6.png",
+        "linear_5.png",
+        "linear_4.png",
+        "linear_3.png",
+        "linear_10.png",
+        "lieaner_2.png",
+        "lieaner_1.png",
+        "legend.png",
+        "learn_curve.png",
+        "kmeans算法动画.gif",
+        "k-means.png",
+        "k-means.jpg",
+        "hstack.png",
+        "MultiIndex.png",
+        "group.png",
+        "grid_search.png",
+        "decision_tree.jpg",
+        "gradent_decent2.png",
+        "gradent_decent.png",
+        "exercise_bar.png",
+        "entropy.png",
+        "decision_tree_structure.png",
+        "decision_tree9.png",
+        "decision_tree8.png",
+        "decision_tree7.png",
+        "decision_tree6.png",
+        "decision_tree5.png",
+        "decision_tree4.png",
+        "decision_tree3.png",
+        "decision_tree2.png",
+        "decision_tree1.png",
+        "decision_tree11.png",
+        "decision_tree10.png",
+        "cross_validation.png",
+        "basketball.png",
+        "confusion_matrix.png",
+        "concat_keys.png",
+        "concat_join_axes.png",
+        "concat_basic.png",
+        "concat_ignore_index.png",
+        "concat_axis1_inner.png",
+        "concat_axis.png",
+        "cluster_measure.jpg",
+        "boston_housing_features.png",
+        "bias_varience.png",
+        "axis02.png",
+        "axis01.png",
+        "annotate.png",
+        "agglom.png",
+        "SVM2.png",
+        "SVM1.png",
+        "ROC_curve.png",
+        "PR_curve.png",
+        "MAD.png",
+        "IOtools.png",
+        "GBDT案例.png",
+        "GBDT原理3.png",
+        "GBDT原理2.png",
+        "GBDT原理1.png",
+        "DBSCAN_3.png",
+        "DBSCAN_2.png",
+        "DBSCAN.png",
+        "CART回归树原理.png",
+        "9个子图.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "数据分析笔记/img/9个子图.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/CART回归树原理.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/DBSCAN.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/DBSCAN_2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/DBSCAN_3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/GBDT原理1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/GBDT原理2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/GBDT原理3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/GBDT案例.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/IOtools.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/MAD.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/PR_curve.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/ROC_curve.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/SVM1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/SVM2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/agglom.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/annotate.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/axis01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/axis02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/bias_varience.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/boston_housing_features.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/cluster_measure.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/concat_axis.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/concat_axis1_inner.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/concat_ignore_index.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/concat_basic.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/concat_join_axes.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/concat_keys.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/confusion_matrix.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/basketball.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/cross_validation.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/decision_tree10.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/decision_tree11.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/decision_tree1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/decision_tree2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/decision_tree3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/decision_tree4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/decision_tree5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/decision_tree6.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/decision_tree7.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/decision_tree8.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/decision_tree9.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/decision_tree_structure.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/entropy.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/exercise_bar.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/gradent_decent.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/gradent_decent2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/decision_tree.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/grid_search.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/group.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/MultiIndex.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/hstack.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/k-means.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/k-means.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/kmeans算法动画.gif": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/learn_curve.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/legend.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/lieaner_1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/lieaner_2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/linear_10.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/linear_3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/linear_4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/linear_5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/linear_6.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/linear_9.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/log_e.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/linear_loss.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/manhaton_dist.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/matplotlib_colors.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/matplotlib_markers.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/merge_how_inner.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/merge_how_inner_1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/merge_how_inner_2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/merge_how_inner_3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/merge_how_inner_4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/merge_how_left.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/merge_how_outer_1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/merge_how_outer_2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/merge_how_outer_3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/myplot01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/numpy01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/overfit.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/overfit2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/pie.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/poli_kerl_func.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/poly_1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/poly_2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/poly_3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/rbf_kerl_func.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/scatter-1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/series.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/scatter.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/set_axis.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/svm_1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/sigmod.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/svm_3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/svm_2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/svm_4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/svm_5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/svm_6.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/svm_7.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/svm_linear.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/train_test.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/train_test_dataset.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/vstack.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/validation_curve.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/半监督学习.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/凝聚层次动画.gif": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/无监督学习.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/径向基核函数.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/有监督学习.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/矩阵乘法.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/置信概率.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/集成学习1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/集成学习2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/集成学习3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/集成学习4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/集成学习5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/集成学习6.png": {
       "isPinned": false,
       "isHidden": false
     }
