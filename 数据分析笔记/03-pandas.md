@@ -1,6 +1,4 @@
-# Pandas
-
-## 1. pandas概述
+# 一、pandas概述
 
 Python Data Analysis Library
 
@@ -12,17 +10,17 @@ pandas 是基于 Numpy 的一种工具，该工具是为了解决数据分析任
 python -m pip install pandas -i https://pypi.tuna.tsinghua.edu.cn/simple/
 ```
 
-## 2. pandas 核心数据结构
+# 二、pandas 核心数据结构
 
 数据结构是计算机存储、组织数据的方式。通常情况下，精心选择的数据结构可以带来更高的运行或者存储效率。数据结构往往同高效的检索算法和索引技术相关。
 
-### 2.1 数据结构之一 --- Series
+## 2.1 数据结构之一 --- Series
 
 Series 可以理解为一个一维的数组，只是 index 名称可以自己改动。类似于定长的有序字典，有 index 和 value。
 
 ![](./img/series.png)
 
-- **series的创建**
+### 2.1.1 series的创建
 
 ```python
 import pandas as pd
@@ -48,7 +46,7 @@ s5 = pd.Series(5, index=[0, 1, 2, 3])
 print(s5,type(s5))
 ```
 
-- **访问Series中的数据**
+### 2.1.2 访问Series中的数据
 
 ```python
 # 访问Series中的数据
@@ -62,7 +60,7 @@ print(s3[[True,True,False,True]])
 
 > **注意**  index 参数默认从 0 开始的整数，也是 Series 的绝对位置，即使 index 被赋值之后，绝对位置不会被覆盖。
 
-- **Series常用属性**
+### 2.1.3 Series常用属性
 
 ```python
 s3.values   所有的值，返回一个ndarray
@@ -73,7 +71,7 @@ s3.ndim     维数，一维
 s3.shape    形状
 ```
 
-### 2.2 数据结构之二 --- DataFrame
+## 2.2 数据结构之二 --- DataFrame
 
 DataFrame 是一个类似于表格的数据类型，可以理解为一个二维数组，索引有两个维度，可更改。DataFrame 具有以下特点：
 
@@ -82,7 +80,7 @@ DataFrame 是一个类似于表格的数据类型，可以理解为一个二维�
 3. 标记轴（行级索引和列级索引）
 4. 针对行与列进行轴向统计（水平 ，垂直 ）
 
-- **DataFrame的创建**
+### 2.2.1 DataFrame的创建
 
 ```python
 import pandas as pd
@@ -113,7 +111,7 @@ df5 = pd.DataFrame(data4)
 print(df5)
 ```
 
-- **DataFrame常用属性**
+### 2.2.2 DataFrame常用属性
 
 | 编号 | 描述      | 属性或方法                     |
 | ---- | --------- | ------------------------------ |
@@ -136,10 +134,10 @@ print(df5.head(2))
 print(df5.tail(2))
 ```
 
-- #### 核心数据结构操作
+### 2.2.3 核心数据结构操作
 
 
-1. **列访问**
+#### 1. **列访问**
 
    DataFrame 的单列数据为一个 Series 。根据 DataFrame 的定义可以知晓 DataFrame 是一个带有标签的二维数组，每个标签相当每一列的列名。
 
@@ -158,7 +156,7 @@ print(df[['one','three']])
 print(df[df.columns[:2]])
 ```
 
-2. **列添加**
+#### 2. **列添加**
 
    DataFrame 添加一列的方法非常简单，只需要新建一个列索引。并对该索引下的数据进行赋值操作即可(如果列标签已经存在则为修改一列)。
 
@@ -172,7 +170,7 @@ df['seven'] = pd.Series([21,31,41],index=['b','c','d'])
 print(df)
 ```
 
-3. **列删除**
+#### 3. **列删除**
 
    删除某列数据需要用到 pandas 提供的方法 pop，pop 方法的用法如下：
 
@@ -187,7 +185,7 @@ print(df1)
 print(df2)
 ```
 
-4. **行访问**
+#### 4. **行访问**
 
    **loc** 是针对 DataFrame 索引名称的切片方法。loc 方法使用方法如下：
 
@@ -210,7 +208,7 @@ print(df.iloc[[0,2]])
 print(df.iloc[0:2])
 ```
 
-5. **行添加**
+#### 5. **行添加**
 
 ```python
 # 行添加
@@ -225,7 +223,7 @@ df.index = index=['a','b','c','d','e','f','g','h','j','k']
 print(df)
 ```
 
-6. **删除行**
+#### 6. **删除行**
 
    使用索引标签从 DataFrame 中删除或删除行。 如果标签重复，则会删除多行。
 
@@ -235,7 +233,7 @@ df = df.drop(['j','k'])
 print(df)
 ```
 
-7. **DataFrame元素的访问及修改**
+#### 7. **DataFrame元素的访问及修改**
 
 ```python
 # DataFrame元素的访问
@@ -250,13 +248,13 @@ df.loc['g','five'] = 99
 print(df)
 ```
 
-## 3. 数据加载
+# 三、数据加载
 
 ![](./img/IOtools.png)
 
-### 3.1 处理普通文本
+## 3.1 处理普通文本
 
-- **csv读取文本：read_csv()** 
+### 3.1.1 csv读取文本：read_csv() 
 
   csv文件 逗号分隔符文件   数据与数据之间使用逗号分隔
 
@@ -271,7 +269,7 @@ print(df)
 | skiprows           | 跳过行。可选择跳过前n行或给出跳过的行索引列表    |
 | encoding           | 编码。                                           |
 
-- **csv写入文本：DataFrame.to_csv()**
+### 3.1.2 csv写入文本：DataFrame.to_csv()
 
 | 方法参数           | 参数解释                                        |
 | ------------------ | ----------------------------------------------- |
@@ -283,7 +281,7 @@ print(df)
 | index              | 是否需要写入行索引。默认为True。                |
 | encoding           | 编码。                                          |
 
-- **excel读取文本：read_excel()**
+### 3.1.3 excel读取文本：read_excel()
 
 | 方法参数           | 参数解释                                                     |
 | ------------------ | ------------------------------------------------------------ |
@@ -296,7 +294,7 @@ print(df)
 | skiprows           | 省略指定行数的数据,从第一行开始。                            |
 | skipfooter         | 省略指定行数的数据，从尾部数的行开始。                       |
 
-- **excel写入文本：dataFrame.to_excel()**
+### 3.1.4 excel写入文本：dataFrame.to_excel()
 
 | 方法参数   | 参数解释                                  |
 | ---------- | ----------------------------------------- |
@@ -307,14 +305,14 @@ print(df)
 | header     | 是否需要写入表头。默认为True。            |
 | index      | 是否需要写入行索引。默认为True。          |
 
-- **读取 JSON数据  read_json()**
+### 3.1.5 读取 JSON数据  read_json()
 
 | 方法参数           | 参数解释 |
 | ------------------ | -------- |
 | filepath_or_buffer | 文件路径 |
 | encoding           | 编码     |
 
-- **写入 JSON数据 to_json()**
+### 3.1.6 写入 JSON数据 to_json()
 
 | 方法参数               | 参数解释                                               |
 | ------------------ | -------------------------------------------------- |
@@ -331,9 +329,9 @@ df.to_json(orient='records')
 
 其他文件读取方法参见：<https://www.pypandas.cn/docs/user_guide/io.html>
 
-## 4. 数值型描述统计
+# 四、数值型描述统计
 
-- **算数平均值**
+## 4.1 算数平均值
 
 $S = [s_1, s_2, ..., s_n] $
 
@@ -358,7 +356,7 @@ mean = np.mean(ratings['John Carson'])
 means = ratings.mean(axis=1)
 ```
 
-- **加权平均值**
+## 4.2 加权平均值
 
 求平均值时，考虑不同样本的重要性，可以为不同的样本赋予不同的权重。
 
@@ -385,7 +383,7 @@ weights = np.array([2,2,2,1,1,1,1])
 np.average(samples,weights=weights)
 ```
 
-- **最值**
+## 4.3 最值
 
 **np.max() / np.min() / np.ptp()：** 返回一个数组中最大值/最小值/极差（最大值减最小值）
 
@@ -427,7 +425,7 @@ print(b)
 print(np.maximum(a,b),np.minimum(a,b),sep='\n')
 ```
 
-- **中位数**
+## 4.4 中位数
 
 将多个样本按照大小排序，取中间位置的元素。
 
@@ -446,7 +444,7 @@ DataFrame.median()
 DataFrame.median(axis=1)
 ```
 
-- **频数与众数**
+## 4.5 频数与众数
 
 频数指一组数据中各离散值出现的次数，而众数则是指一组数据中出现次数最多的值。
 
@@ -457,13 +455,13 @@ cars.value_counts()
 cars.mode()
 ```
 
-- **宏观数值统计**
+## 4.6 宏观数值统计
 
 ```python
 DataFrame.describe()
 ```
 
-- **排序**
+## 4.7 排序
 
 pandas有两种排序方式，它们分别是按标签与按实际值排序。
 
@@ -476,7 +474,7 @@ d = {'Name':pd.Series(['Tom','James','Ricky','Vin','Steve','Minsu','Jack','Lee',
 unsorted_df = pd.DataFrame(d)
 ```
 
-1. **按标签排序**
+### 1. 按标签排序
 
 使用`sort_index()`方法，通过传递`axis`参数和排序顺序，可以对`DataFrame`进行排序。默认情况下，按照升序对标签进行排序。
 
@@ -494,7 +492,7 @@ sorted_df=unsorted_df.sort_index(axis=1)
 print(sorted_df)
 ```
 
-2. **按某列值排序**
+### 2. 按某列值排序
 
 像索引排序一样，`sort_values()`是按值排序的方法。它接受一个参数`by`参数，它将使用要与其排序值的`DataFrame`的列名称。
 
@@ -506,7 +504,7 @@ sorted_df = unsorted_df.sort_values(by=['Age', 'Rating'], ascending=[True, False
 print (sorted_df)
 ```
 
-## 5. merge & join
+# 五、merge & join
 
 为了方便维护，一般公司的数据都是分表存储的，比如用一个表存储所有用户的基本信息，一个表存储用户的消费情况。所以，在日常的数据处理中，经常需要将两张表拼接起来使用。拼接时自然就需要将用户的信息一一对应的进行拼接，所以进行拼接的两张表需要有一个共同的识别用户的键(key)。这样的操作在pandas则是用`merge`来实现，整个`merge`的过程就是将信息一一对应匹配的过程。
 
@@ -530,9 +528,9 @@ pd.merge(left, right, how='inner', on=None, left_on=None, right_on=None,
 | sort        | 接收boolean。表示是否根据连接键对合并后的数据进行排序。默认为False。 |
 | suffixes    | 接收tuple。表示用于追加到left和right参数接收数据重叠列名的尾缀默认为('*x', '*y')。 |
 
-**how参数取值说明**
+## 5.1 how参数取值说明
 
-**1）inner**
+### **1）inner**
 
 `merge`的`inner`类型称为**内连接**，它在拼接的过程中会取**两张表的键(key)的交集**进行拼接。
 
@@ -558,7 +556,7 @@ pd.merge(left, right, how='inner', on=None, left_on=None, right_on=None,
 
 ![](./img/merge_how_inner_4.png)
 
-**2）left 和 right **
+### **2）left 和 right **
 
 `left`和`right`的merge方式类似，分别被称为**左连接**和**右连接**。
 
@@ -568,7 +566,7 @@ pd.merge(left, right, how='inner', on=None, left_on=None, right_on=None,
 
 ![](./img/merge_how_left.png)
 
-**3）outer**
+### **3）outer**
 
 `outer`是外连接，在拼接的过程中它会取两张表的键(key)的并集进行拼接。
 
@@ -632,7 +630,7 @@ pd.merge(left,right,left_on='cid'，right='id')
 # 我们一般用不到，使用默认值即可
 ```
 
-## 6. apply 函数
+# 六、apply 函数
 
 pandas提供了apply函数方便的处理Series与DataFrame；apply函数支持逐一处理数据集中的每个元素都会执行一次目标函数，把返回值存入结果集中。
 
@@ -653,7 +651,7 @@ def func(x):
 ratings.apply(func,axis=0)
 ```
 
-## 7. 案例 - 使用 pandas 做数据处理与清洗
+# 七、案例 - 使用 pandas 做数据处理与清洗
 
 > **数据集**：`taobao_user_behavior.csv`（约 52,200 条用户行为记录）
 

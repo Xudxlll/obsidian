@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782139213295-v3wpq0b89",
+  "providerId": "claude",
+  "title": "Fix Python property setter bypass in __init__",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782139213296,
+  "updatedAt": 1782141789540,
+  "lastResponseAt": 1782139244708,
+  "sessionId": "944022fd-e692-4248-ae85-67db4ab0f1cd",
+  "providerState": {
+    "providerSessionId": "944022fd-e692-4248-ae85-67db4ab0f1cd"
+  },
+  "currentNote": "Python基础/07-面向对象编程基础.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 252,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 34944,
+    "contextWindow": 1000000,
+    "contextTokens": 35196,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}

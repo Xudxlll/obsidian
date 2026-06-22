@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782141818686-gip3ocdsm",
+  "providerId": "claude",
+  "title": "Clarify interface method polymorphism",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782141818686,
+  "updatedAt": 1782141957559,
+  "lastResponseAt": 1782141957559,
+  "sessionId": "d83e1b67-867e-4a61-85ad-55255d9b4448",
+  "providerState": {
+    "providerSessionId": "d83e1b67-867e-4a61-85ad-55255d9b4448"
+  },
+  "currentNote": "Python基础/08-面向对象编程高级.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1127,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 26496,
+    "contextWindow": 1000000,
+    "contextTokens": 27623,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}

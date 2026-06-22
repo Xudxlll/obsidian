@@ -5741,6 +5741,7 @@
       "sortOrder": "custom",
       "customOrder": [
         "assets",
+        "作业1.md",
         "NumPy 顶层函数与数组方法的区别.md",
         "NumPy 数组的合并与分割.md",
         "NumPy 数组形状变换.md",
@@ -5769,6 +5770,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "作业1",
         "NumPy 数组的合并与分割"
       ]
     },
@@ -5800,14 +5802,14 @@
     "数据分析笔记": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "byName",
       "customOrder": [
         "img",
         "04-数据预处理.md",
         "03-pandas.md",
         "02-Matplotlib.md",
         "01-Numpy.md"
-      ],
-      "sortOrder": "byName"
+      ]
     },
     "数据分析笔记/01-Numpy.md": {
       "isPinned": false,
@@ -5828,6 +5830,7 @@
     "数据分析笔记/img": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "集成学习6.png",
         "集成学习5.png",
@@ -5948,8 +5951,7 @@
         "DBSCAN.png",
         "CART回归树原理.png",
         "9个子图.png"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "数据分析笔记/img/9个子图.png": {
       "isPinned": false,
@@ -6424,6 +6426,22 @@
       "isHidden": false
     },
     "数据分析笔记/img/集成学习6.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析/作业1.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析/assets/作业1": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "file-20260622210501418.png"
+      ]
+    },
+    "数据分析/assets/作业1/file-20260622210501418.png": {
       "isPinned": false,
       "isHidden": false
     }
