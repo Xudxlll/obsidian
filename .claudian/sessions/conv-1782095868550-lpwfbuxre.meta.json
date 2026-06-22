@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782095868550-lpwfbuxre",
+  "providerId": "claude",
+  "title": "Explain tolist function usage",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782095868553,
+  "updatedAt": 1782098144900,
+  "lastResponseAt": 1782098144899,
+  "sessionId": "851ec849-f5fd-4f42-b345-a026a58cbde4",
+  "providerState": {
+    "providerSessionId": "851ec849-f5fd-4f42-b345-a026a58cbde4"
+  },
+  "currentNote": "数据分析/NumPy 数组形状变换.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 845,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 49920,
+    "contextWindow": 1000000,
+    "contextTokens": 50765,
+    "percentage": 5,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -5740,8 +5740,9 @@
       "sortOrder": "custom",
       "customOrder": [
         "assets",
+        "NumPy 顶层函数与数组方法的区别.md",
         "NumPy 数组的合并与分割.md",
-        "NumPy 数组形状变换：reshape、shape、resize、flatten 与 ravel.md",
+        "NumPy 数组形状变换.md",
         "NumPy 数组维度与整数位宽.md",
         "NumPy ndarray、数组创建与视图.md"
       ]
@@ -5751,10 +5752,6 @@
       "isHidden": false
     },
     "数据分析/NumPy 数组维度与整数位宽.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "数据分析/NumPy 数组形状变换：reshape、shape、resize、flatten 与 ravel.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -5788,6 +5785,14 @@
       "isHidden": false
     },
     "数据分析/assets/NumPy 数组的合并与分割/file-20260618214002852.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析/NumPy 数组形状变换.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析/NumPy 顶层函数与数组方法的区别.md": {
       "isPinned": false,
       "isHidden": false
     }
