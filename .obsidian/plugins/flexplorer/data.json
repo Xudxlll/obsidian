@@ -3651,6 +3651,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "15-浅拷贝与深拷贝",
         "07-面向对象编程基础",
         "05-生成器与迭代器和自定义函数基础",
         "002.png",
@@ -6442,6 +6443,18 @@
       ]
     },
     "数据分析/assets/作业1/file-20260622210501418.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python基础/assets/15-浅拷贝与深拷贝": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "file-20260623004800323.png"
+      ]
+    },
+    "Python基础/assets/15-浅拷贝与深拷贝/file-20260623004800323.png": {
       "isPinned": false,
       "isHidden": false
     }
