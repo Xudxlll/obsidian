@@ -235,15 +235,49 @@ df.index = ['a','b','c','d','e','f','g','h','j','k']
 print(df)
 ```
 
-#### 6. **删除行**
+#### 6. **行删除**
 
    使用索引标签从 DataFrame 中删除或删除行。 如果标签重复，则会删除多行。
 
 ```python
 # 删除行
-df = df.drop(['j','k'])
+df = df.drop(['j','k']) # axis 没写，默认 0 → 删行 ✅
+
 print(df)
 ```
+
+#### 6-1. **插入与拼接**
+
+##### 插入列：`insert()` ✅ 内置方法
+
+```python
+# df.insert(位置, 列名, 数据)
+df.insert(1, 'new_col', [10, 20, 30, 40])
+# 在第1列之后插入 'new_col'
+```
+
+##### 插入行：无内置方法 ❌
+
+只能切两半再拼接：
+
+```python
+# 在第2行之后插入一行
+top = df.iloc[:2]            # 前两行
+bottom = df.iloc[2:]         # 位置2及之后
+new_row = pd.DataFrame({'A': [99], 'B': [88]}, index=['new'])
+df = pd.concat([top, new_row, bottom])
+```
+
+##### 行列拼接对照
+
+| 操作 | 列 | 行 |
+|------|------|------|
+| **末尾追加** | `df['new'] = 值` | `pd.concat([df, new_row])` |
+| **中间插入** | `df.insert(pos, 名, 值)` | 切片 + `concat` |
+| **删除** | `df.drop('列', axis=1)` | `df.drop('行')` |
+| **追加自身** | — | `pd.concat([df, df])` |
+
+> DataFrame 底层按列存储，列操作更原生；行操作跨越所有列，通常靠 `concat` 拼凑。
 
 #### 7. **DataFrame元素的访问及修改**
 
