@@ -767,16 +767,27 @@ pandas提供了apply函数方便的处理Series与DataFrame；apply函数支持�
 ary = np.array(['80公斤','83公斤','78公斤','74公斤','84公斤'])
 s = pd.Series(ary)
 def func(x):
-    return x[:2]
+    return x[:-2]
 s.apply(func)
 
 # DataFrame.apply()
 ratings = pd.read_json('ratings.json')
-ratings
 def func(x):
     x[x.isna()] = x.mean()
     return x
 ratings.apply(func,axis=0)
+```
+
+```
+s.apply(func) 可视化
+s                              func(x)                  结果
+┌──────────┐              def func(x):
+│ 0  80公斤 │──────→       return x[:-2]     ──────→    80
+│ 1  83公斤 │──────→       return x[:-2]     ──────→    83
+│ 2  78公斤 │──────→       return x[:-2]     ──────→    78
+│ 3  74公斤 │──────→       return x[:-2]     ──────→    74
+│ 4  84公斤 │──────→       return x[:-2]     ──────→    84
+└──────────┘              ↑ 每个元素依次传入          新 Series
 ```
 
 # 七、案例 - 使用 pandas 做数据处理与清洗

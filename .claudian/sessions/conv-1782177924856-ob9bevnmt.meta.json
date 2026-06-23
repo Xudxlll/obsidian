@@ -4,8 +4,8 @@
   "title": "澄清用ndarray创建Series的含义",
   "titleGenerationStatus": "success",
   "createdAt": 1782177924859,
-  "updatedAt": 1782205555153,
-  "lastResponseAt": 1782205555153,
+  "updatedAt": 1782209138384,
+  "lastResponseAt": 1782209138384,
   "sessionId": "bbf18499-9a9b-43b7-9b24-5838bd75780c",
   "providerState": {
     "providerSessionId": "bbf18499-9a9b-43b7-9b24-5838bd75780c"
@@ -13,12 +13,12 @@
   "currentNote": "数据分析笔记/03-pandas.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 620,
+    "inputTokens": 162,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 78336,
+    "cacheReadInputTokens": 89472,
     "contextWindow": 1000000,
-    "contextTokens": 78956,
-    "percentage": 8,
+    "contextTokens": 89634,
+    "percentage": 9,
     "contextWindowIsAuthoritative": true
   }
 }
