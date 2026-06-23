@@ -104,9 +104,9 @@ print(result.shape)
 | `axis=1` | 左右合并 | 列数增加 | 增加特征 |
 
 
-![539](assets/NumPy%20数组的合并与分割/file-20260618213937152.png)
+![539](assets/NumPy%20数组的合并与分割/数组的轴2.png)
 
-![](assets/NumPy%20数组的合并与分割/file-20260618214002852.png)
+![](assets/NumPy%20数组的合并与分割/数组的轴1.png)
 
 ## 3.1 `axis=0`：增加行
 

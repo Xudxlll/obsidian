@@ -5780,17 +5780,9 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "file-20260618214002852.png",
-        "file-20260618213937152.png"
+        "数组的轴1.png",
+        "数组的轴2.png"
       ]
-    },
-    "数据分析/assets/NumPy 数组的合并与分割/file-20260618213937152.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "数据分析/assets/NumPy 数组的合并与分割/file-20260618214002852.png": {
-      "isPinned": false,
-      "isHidden": false
     },
     "数据分析/NumPy 数组形状变换.md": {
       "isPinned": false,
@@ -5833,6 +5825,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "数组的轴2.png",
+        "数组的轴1.png",
         "集成学习6.png",
         "集成学习5.png",
         "集成学习4.png",
@@ -6455,6 +6449,22 @@
       ]
     },
     "Python基础/assets/15-浅拷贝与深拷贝/file-20260623004800323.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析/assets/NumPy 数组的合并与分割/数组的轴1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析/assets/NumPy 数组的合并与分割/数组的轴2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/数组的轴1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/img/数组的轴2.png": {
       "isPinned": false,
       "isHidden": false
     }

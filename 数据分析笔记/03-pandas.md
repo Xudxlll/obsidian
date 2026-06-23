@@ -155,8 +155,10 @@ print(df)
 
 # 列访问
 print(df['one'])   # 访问one这一列
-print(df[['one','three']])
-print(df[df.columns[:2]])
+print(df.one)      # 访问one这一列
+print(df[['one','two']])
+print(df[df.columns[:2]])    # df.columns[:2] = ['one','two']
+print(df.iloc[:, 1])    # 取所有行的第2列
 ```
 
 #### 2. **列添加**
@@ -182,8 +184,8 @@ print(df)
 df.pop('one')   # 删除一列
 # f.pop(['two','five']) # 删除多列  报错，无法删除
 print(df)
-df1 = df.drop(['four'],axis=1)
-df2 = df.drop(['three','five'],axis=1)
+df1 = df.drop(['four'],axis=1)  # 返回新数组
+df2 = df.drop(['three','five'],axis=1)  # 可删除多列
 print(df1)
 print(df2)
 ```
@@ -198,7 +200,7 @@ print(df2)
 # 行访问
 print(df.loc['a'])        # 访问一行
 print(df.loc[['a','b']])  # 访问多行
-print(df.loc['a':'c'])
+print(df.loc['a':'c'])    # 可以取到c行
 ```
 
 ​	**iloc** 和 **loc** 区别是 iloc 接收的必须是行索引和列索引的位置。
@@ -206,23 +208,30 @@ print(df.loc['a':'c'])
 ​	iloc方法的使用方法如下：
 
 ```python
-print(df.iloc[0])
-print(df.iloc[[0,2]])
-print(df.iloc[0:2])
+print(df.iloc[0])     # 访问第1行
+print(df.iloc[[0,2]]) # 访问第1,3行
+print(df.iloc[0:2])   # 访问第1,2行，取不到第3行
 ```
-
+ 
 #### 5. **行添加**
 
 ```python
 # 行添加
 print(df)
-newline = pd.Series([1,2,3,4,5,6,7],index=['one','two','three','four','five','six','seven'],name='e')
-df = df._append(newline)
+# 方式1：通过 Series 添加一行（需先转成 DataFrame）
+newline = pd.Series([1,2,3,4,5,6,7], index=['one','two','three','four','five','six','seven'], name='e') # 列名设为e
+# 三种写法等价，推荐前两种
+df = pd.concat([df, newline.to_frame().T])     # 写法1：转DataFrame再转置
+df = pd.concat([df, pd.DataFrame([newline])]) # 写法2：直接包在列表里构造
+# df = pd.concat([df, pd.DataFrame(newline).T]) # 写法3：构造函数再转置
 print(df)
-df = df._append(df)
+
+# 方式2：追加自身（拼接两份）
+df = pd.concat([df, df], ignore_index=True) # 默认为False，True会重新编号
 print(df)
+
 # 索引有重复的情况，希望重建索引
-df.index = index=['a','b','c','d','e','f','g','h','j','k']
+df.index = ['a','b','c','d','e','f','g','h','j','k']
 print(df)
 ```
 
