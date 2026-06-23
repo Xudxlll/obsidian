@@ -51,10 +51,13 @@ print(s5,type(s5))
 ```python
 # 访问Series中的数据
 print(s3['s02'])     # 使用标签检索数据
-print(s3[1])         # 使用索引检索元素
+print(s3[1])         # 使用索引检索元素，新版本会出现keyerror，要用iloc
 print(s3[1:3])
+print(s3.iloc[1:3])           # 推荐
 print(s3['s01':'s03'])
+print(s3.loc['s01':'s03'])    # 推荐
 print(s3[['s01','s03']])
+print(s3.loc[['s01','s03']])  # 推荐
 print(s3[[True,True,False,True]])
 ```
 

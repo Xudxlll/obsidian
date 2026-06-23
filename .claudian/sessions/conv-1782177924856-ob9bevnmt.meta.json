@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782177924856-ob9bevnmt",
+  "providerId": "claude",
+  "title": "澄清用ndarray创建Series的含义",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782177924859,
+  "updatedAt": 1782178749272,
+  "lastResponseAt": 1782178749272,
+  "sessionId": "bbf18499-9a9b-43b7-9b24-5838bd75780c",
+  "providerState": {
+    "providerSessionId": "bbf18499-9a9b-43b7-9b24-5838bd75780c"
+  },
+  "currentNote": "数据分析笔记/03-pandas.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 800,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 33280,
+    "contextWindow": 1000000,
+    "contextTokens": 34080,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
