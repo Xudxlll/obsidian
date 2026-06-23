@@ -304,28 +304,28 @@ print(df)
 
   csv文件 逗号分隔符文件   数据与数据之间使用逗号分隔
 
-| 方法参数           | 参数解释                                         |
-| ------------------ | ------------------------------------------------ |
-| filepath_or_buffer | 文件路径                                         |
-| sep                | 列之间的分隔符。read_csv()默认为‘,’              |
-| header             | 默认将行首设为列名。header=None时应手动给出列名  |
-| names              | header=None时上设置此字段使用列表初始化列名      |
-| index_col          | 将某一列作为行级索引。                           |
-| usecols            | 选择读取文件中的某些列。设置为相应列的索引列表。 |
-| skiprows           | 跳过行。可选择跳过前n行或给出跳过的行索引列表    |
-| encoding           | 编码。                                           |
+| 方法参数               | 参数解释                          |
+| ------------------ | ----------------------------- |
+| filepath_or_buffer | 文件路径                          |
+| sep                | 列之间的分隔符。read_csv()默认为‘,’      |
+| header             | 默认将行首设为列名。header=None时应手动给出列名 |
+| names              | header=None时上设置此字段使用列表初始化列名   |
+| index_col          | 将某一列作为行级索引。                   |
+| usecols            | 选择读取文件中的某些列。设置为相应列的索引列表。      |
+| skiprows           | 跳过行。可选择跳过前n行或给出跳过的行索引列表       |
+| encoding           | 编码。                           |
 
 ### 3.1.2 csv写入文本：DataFrame.to_csv()
 
-| 方法参数           | 参数解释                                        |
-| ------------------ | ----------------------------------------------- |
-| filepath_or_buffer | 文件路径                                        |
-| sep                | 列之间的分隔符。read_csv()默认为‘,’             |
+| 方法参数               | 参数解释                         |
+| ------------------ | ---------------------------- |
+| filepath_or_buffer | 文件路径                         |
+| sep                | 列之间的分隔符。read_csv()默认为‘,’     |
 | na_rep             | 写入文件时dataFrame中缺失值的内容。默认空字符串 |
-| columns            | 定义需要写入文件的列                            |
-| header             | 是否需要写入表头。默认为True。                  |
-| index              | 是否需要写入行索引。默认为True。                |
-| encoding           | 编码。                                          |
+| columns            | 定义需要写入文件的列                   |
+| header             | 是否需要写入表头。默认为True。            |
+| index              | 是否需要写入行索引。默认为True。           |
+| encoding           | 编码。                          |
 
 ### 3.1.3 excel读取文本：read_excel()
 
@@ -368,9 +368,39 @@ print(df)
 案例：
 
 ```python
-data = {'Name':['Tom', 'Jack', 'Steve', 'Ricky'],'Age':[28,34,29,42]}
-df = pd.DataFrame(data, index=['s1','s2','s3','s4'])
-df.to_json(orient='records')
+import pandas as pd
+
+data = {'Name':['Tom', 'Jack', 'Steve', 'Ricky'], 'Age':[28, 34, 29, 42]}
+df = pd.DataFrame(data, index=['s1', 's2', 's3', 's4'])
+print(df)
+print()
+
+# ===== 四种 orient 输出格式 =====
+
+# 1. records —— 数组套对象，一行一个 {}，不保留索引（★ 最常用）
+print(df.to_json(orient='records'))
+# [{"Name":"Tom","Age":28},{"Name":"Jack","Age":34},{"Name":"Steve","Age":29},{"Name":"Ricky","Age":42}]
+
+# 2. index —— 索引当外层 key
+print(df.to_json(orient='index'))
+# {"s1":{"Name":"Tom","Age":28},"s2":{"Name":"Jack","Age":34},...}
+
+# 3. columns —— 列名当外层 key
+print(df.to_json(orient='columns'))
+# {"Name":{"s1":"Tom","s2":"Jack","s3":"Steve","s4":"Ricky"},"Age":{"s1":28,"s2":34,...}}
+
+# 4. values —— 纯值矩阵，行列标签全丢
+print(df.to_json(orient='values'))
+# [["Tom",28],["Jack",34],["Steve",29],["Ricky",42]]
+
+# ===== 文件名：写不写区别 =====
+
+# 写文件名 → 存到文件，返回 None
+df.to_json('output.json', orient='records')  # 文件生成在本地
+
+# 不写文件名 → 返回字符串，不生成文件
+json_str = df.to_json(orient='records')       # json_str 是字符串，发给 API 用
+print(type(json_str))                          # <class 'str'>
 ```
 
 其他文件读取方法参见：<https://www.pypandas.cn/docs/user_guide/io.html>
@@ -379,7 +409,7 @@ df.to_json(orient='records')
 
 ## 4.1 算数平均值
 
-$S = [s_1, s_2, ..., s_n] $
+$S = [s_1, s_2, ..., s_n]$
 
 $mean = \frac{(s_1 + s_2 + ... + s_n) }{n}$
 
@@ -441,14 +471,29 @@ print(a)
 print(np.max(a), np.min(a), np.ptp(a))
 ```
 
-**np.argmax() / np.argmin()：** 返回一个数组中最大/最小元素的下标
+**np.argmax() / np.argmin()：** 返回一个==**数组**==中最大/最小元素的下标（**位置索引**）
 
 ```python
-#在np中，使用argmax获取到最大值的下标（位置索引）
-print(np.argmax(a), np.argmin(a))
-#在pandas中，使用idxmax获取到最大值的下标（标签索引）
-print(series.idxmax(), series.idxmin())
-print(dataframe.idxmax(), dataframe.idxmin())
+a = np.array([88, 95, 72, 90])
+print(np.argmax(a), np.argmin(a))   # 1 2（第2个最大，第3个最小）
+```
+
+**pd.idxmax() / pd.idxmin()：** 返回最大/最小元素的**标签索引**
+
+```python
+import pandas as pd
+
+# Series 示例
+s = pd.Series([88, 95, 72, 90], index=['语文', '数学', '英语', '物理'])
+print(s.idxmax(), s.idxmin())       # 数学 英语（标签名，不是位置）
+
+# DataFrame 示例 —— axis=0：每列最大值在哪一行
+df = pd.DataFrame({'A': [10, 50, 30], 'B': [40, 20, 60]}, index=['x', 'y', 'z'])
+
+# 对比
+print(np.argmax(s.values))          # 1（位置：第2个元素，返回数字）
+print(s.idxmax())                    # '数学'（标签：返回索引名）
+
 ```
 
 ```python
@@ -503,9 +548,44 @@ cars.mode()
 
 ## 4.6 宏观数值统计
 
+`DataFrame.describe()` 一键生成数值列的**描述性统计摘要**，快速了解数据分布：
+
 ```python
-DataFrame.describe()
+import pandas as pd
+import numpy as np
+
+# 用之前章节的员工数据
+df = pd.DataFrame({
+    '年龄': [28, 32, np.nan, 26, 35, 30, np.nan, 40, 29, 33],
+    '工资': [15000, 18000, 12000, np.nan, 20000, 13500, 11000, 15500, np.nan, 14000],
+    '在职年限': [3, 5, 1, 8, 10, 4, 2, 7, 6, 5],
+})
+print(df.describe())
+#        年龄      工资    在职年限
+# count   8.0     8.0     10.0
+# mean   31.625  15000.0    5.1
+# std     4.3    3041.4     2.9
+# min    26.0   11000.0     1.0
+# 25%    29.0   12750.0     2.5
+# 50%    31.5   14500.0     5.0
+# 75%    33.5   16250.0     7.3
+# max    40.0   20000.0    10.0
 ```
+
+各统计量含义：
+
+| 指标 | 含义 | 说明 |
+|------|------|------|
+| `count` | 非空值数量 | NaN 不计入 |
+| `mean` | 平均值 | 总和 / 个数 |
+| `std` | 标准差 | 数据离散程度，越大越分散 |
+| `min` | 最小值 | — |
+| `25%` | 第一四分位数 | 25% 的数据小于该值 |
+| `50%` | 中位数 | 正中间的值，比平均数更抗极端值 |
+| `75%` | 第三四分位数 | 75% 的数据小于该值 |
+| `max` | 最大值 | — |
+
+> 看一眼 `describe()` 就能判断：数据有没有缺失（count < 总行数）、有没有极端值（max 远大于 75%）、分布均不均匀（std 大小）。
 
 ## 4.7 排序
 
@@ -526,7 +606,7 @@ unsorted_df = pd.DataFrame(d)
 
 ```python
 # 按照行标进行排序
-sorted_df=unsorted_df.sort_index()
+sorted_df=unsorted_df.sort_index() # 默认升序
 print(sorted_df)
 
 # 控制排序顺序
@@ -543,8 +623,10 @@ print(sorted_df)
 像索引排序一样，`sort_values()`是按值排序的方法。它接受一个参数`by`参数，它将使用要与其排序值的`DataFrame`的列名称。
 
 ```python
+# 按Age升序，相同Age看原始顺序（稳定排序）
 sorted_df = unsorted_df.sort_values(by='Age')
 print (sorted_df)
+
 # 先按Age进行升序排序，然后按Rating降序排序
 sorted_df = unsorted_df.sort_values(by=['Age', 'Rating'], ascending=[True, False])
 print (sorted_df)
@@ -561,22 +643,22 @@ pd.merge(left, right, how='inner', on=None, left_on=None, right_on=None,
 
 **常用参数说明**
 
-| 参数名称    | 说明                                                         |
-| ----------- | ------------------------------------------------------------ |
-| left        | 接收DataFrame或Series。表示要添加的新数据。无默认。          |
-| right       | 接收DataFrame或Series。表示要添加的新数据。无默认。。        |
-| how         | 接收inner，outer，left，right。表示数据的连接方式。默认为inner。 |
-| on          | 接收string或sequence。表示外键字段名。默认为None。           |
-| left_on     | 接收string或sequence。关联操作时左表中的关联字段名。         |
-| right_on    | 接收string或sequence。关联操作时右表中的关联字段名。         |
-| left_index  | 接收boolean。表示是否将left参数接收数据的index作为连接主键。默认为False。 |
-| right_index | 接收boolean。表示是否将right参数接收数据的index作为连接主键。默认为False。 |
-| sort        | 接收boolean。表示是否根据连接键对合并后的数据进行排序。默认为False。 |
+| 参数名称        | 说明                                                     |
+| ----------- | ------------------------------------------------------ |
+| left        | 接收DataFrame或Series。表示要添加的新数据。无默认。                      |
+| right       | 接收DataFrame或Series。表示要添加的新数据。无默认。。                     |
+| how         | 接收inner，outer，left，right。表示数据的连接方式。默认为inner。           |
+| on          | 接收string或sequence。表示外键字段名。默认为None。                     |
+| left_on     | 接收string或sequence。关联操作时左表中的关联字段名。                      |
+| right_on    | 接收string或sequence。关联操作时右表中的关联字段名。                      |
+| left_index  | 接收boolean。表示是否将left参数接收数据的index作为连接主键。默认为False。        |
+| right_index | 接收boolean。表示是否将right参数接收数据的index作为连接主键。默认为False。       |
+| sort        | 接收boolean。表示是否根据连接键对合并后的数据进行排序。默认为False。               |
 | suffixes    | 接收tuple。表示用于追加到left和right参数接收数据重叠列名的尾缀默认为('*x', '*y')。 |
 
 ## 5.1 how参数取值说明
 
-### **1）inner**
+### 1）inner
 
 `merge`的`inner`类型称为**内连接**，它在拼接的过程中会取**两张表的键(key)的交集**进行拼接。
 
@@ -602,7 +684,7 @@ pd.merge(left, right, how='inner', on=None, left_on=None, right_on=None,
 
 ![](./img/merge_how_inner_4.png)
 
-### **2）left 和 right **
+### 2）left 和 right 
 
 `left`和`right`的merge方式类似，分别被称为**左连接**和**右连接**。
 
@@ -612,7 +694,7 @@ pd.merge(left, right, how='inner', on=None, left_on=None, right_on=None,
 
 ![](./img/merge_how_left.png)
 
-### **3）outer**
+### 3）outer
 
 `outer`是外连接，在拼接的过程中它会取两张表的键(key)的并集进行拼接。
 
