@@ -769,6 +769,9 @@ s = pd.Series(ary)
 def func(x):
     return x[:-2]
 s.apply(func)
+# lambda 写法：一行搞定，不用 def
+s.apply(lambda x: x[:-2])
+
 
 # DataFrame.apply()
 ratings = pd.read_json('ratings.json')
@@ -776,6 +779,10 @@ def func(x):
     x[x.isna()] = x.mean()
     return x
 ratings.apply(func,axis=0)
+# 原始 def 写法（两步）
+ratings.apply(lambda x: x.fillna(x.mean()), axis=0)
+#                       ↑ 一行表达式，赋值+返回一步到位
+
 ```
 
 ```
@@ -796,13 +803,13 @@ s                              func(x)                  结果
 
 数据集字段说明：
 
-| 字段名        | 类型   | 说明                                                         |
-| ------------- | ------ | ------------------------------------------------------------ |
-| user_id       | 字符串 | 用户唯一标识（如 U025795）                                   |
-| item_id       | 字符串 | 商品唯一标识（如 I6773950）                                  |
-| item_category | 字符串 | 商品类别（家居 / 图书 / 食品 / 美妆 / 玩具 / 女装 等 12 类） |
+| 字段名           | 类型  | 说明                                              |
+| ------------- | --- | ----------------------------------------------- |
+| user_id       | 字符串 | 用户唯一标识（如 U025795）                               |
+| item_id       | 字符串 | 商品唯一标识（如 I6773950）                              |
+| item_category | 字符串 | 商品类别（家居 / 图书 / 食品 / 美妆 / 玩具 / 女装 等 12 类）        |
 | behavior_type | 字符串 | 行为类型：`pv`（浏览）/ `fav`（收藏）/ `cart`（加购）/ `buy`（购买） |
-| timestamp     | 字符串 | 行为发生时间（格式：YYYY-MM-DD HH:MM:SS）                    |
+| timestamp     | 字符串 | 行为发生时间（格式：YYYY-MM-DD HH:MM:SS）                  |
 
 - **数据获取与探索分析**
 

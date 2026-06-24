@@ -5741,6 +5741,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "作业2.md",
         "assets",
         "作业1.md",
         "NumPy 顶层函数与数组方法的区别.md",
@@ -6465,6 +6466,10 @@
       "isHidden": false
     },
     "数据分析笔记/img/数组的轴2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析/作业2.md": {
       "isPinned": false,
       "isHidden": false
     }
