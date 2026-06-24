@@ -1,10 +1,11 @@
 {
   "enabledCssSnippets": [
     "inline-translation",
-    "note-toolbar-hover-background"
+    "note-toolbar-hover-background",
+    "fix-note-toolbar-width"
   ],
   "cssTheme": "Typora-Vue",
   "baseFontSizeAction": true,
-  "baseFontSize": 17,
+  "baseFontSize": 19,
   "theme": "system"
 }

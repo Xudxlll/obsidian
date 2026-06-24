@@ -1,0 +1,17 @@
+/*
+  固定 Note Toolbar 宽度，避免被 Editor Width Slider 一起拉宽/缩窄。
+  原因：Editor Width Slider 会修改 --file-line-width；Note Toolbar 默认也引用这个变量。
+  想改工具栏宽度，只改下面这一行即可，例如 760px / 900px / 1100px。
+*/
+body {
+  --fixed-note-toolbar-width: 900px;
+  --cg-nt-launchpad-max-width: var(--fixed-note-toolbar-width) !important;
+}
+
+/* Note Toolbar 的顶部/底部工具栏：不再跟随 --file-line-width */
+.cm-embed-block[data-tbar-position="bottom"] .callout[data-callout="note-toolbar"],
+.cm-embed-block[data-tbar-position="top"] .callout[data-callout="note-toolbar"],
+.cg-note-toolbar-container[data-tbar-position="bottom"],
+.cg-note-toolbar-container[data-tbar-position="top"] {
+  max-width: var(--fixed-note-toolbar-width) !important;
+}

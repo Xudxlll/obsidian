@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782281772822-ri2urlp8l",
+  "providerId": "claude",
+  "title": "Fix math formula line breaks in lines 50-90",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782281772823,
+  "updatedAt": 1782292909060,
+  "lastResponseAt": 1782292909060,
+  "sessionId": "381506b4-c8d3-4ade-a299-5ce07a02df6f",
+  "providerState": {
+    "providerSessionId": "381506b4-c8d3-4ade-a299-5ce07a02df6f"
+  },
+  "currentNote": "数据分析笔记/04-数据预处理.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 263,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 53632,
+    "contextWindow": 1000000,
+    "contextTokens": 53895,
+    "percentage": 5,
+    "contextWindowIsAuthoritative": true
+  }
+}
