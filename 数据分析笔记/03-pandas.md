@@ -288,9 +288,9 @@ print(df.loc['g']['seven'])   # 先取行后取列
 print(df.loc['g','seven'])
 
 # DataFrame元素的修改
-df['seven']['g'] = 12
-print(df)
-df.loc['g','five'] = 99
+df['seven']['g'] = 12       # ❌ 链式索引，可能不生效 + 警告
+print(df)  
+df.loc['g','five'] = 99     # ✅ 正确
 print(df)
 ```
 
@@ -511,8 +511,10 @@ print(f'{fracture.idxmax()}对Fracture这部电影打了最高分为:{fracture.m
 **np.maximum() / np.minimum()：** 将两个同维数组中对应元素中最大/最小元素构成一个新的数组
 
 ```python
+import numpy as np
+# 产生9个介于[10, 100)区间的随机数
+a = np.random.randint(10, 100, 9)
 b = np.random.randint(10,100,9)
-print(b)
 print(np.maximum(a,b),np.minimum(a,b),sep='\n')
 ```
 
@@ -841,12 +843,26 @@ s                              func(x)                  结果
   # describe() 方法主要用于生成数值列的描述性统计，快速了解数据的分布和集中趋势。
   df.describe()
   ```
+```
+数值列（int/float）              非数值列（object/string）
+┌─────────┬──────────┐          ┌─────────┬──────────┐
+│ count   │ 非空总数   │         │ count   │ 非空总数    │
+│ mean    │ 均值      │         │ unique  │ 有多少种值   │
+│ std     │ 标准差    │         │ top     │ 出现最多的值  │
+│ min     │ 最小值    │         │ freq    │ top 出现了几次│
+│ 25%     │ 四分位数  │         └─────────┴──────────----┘
+│ 50%     │ 中位数    │
+│ 75%     │ 四分位数  │
+│ max     │ 最大值   ｜
+└─────────┴──────────┘
+```
+
 
 - **数据处理与清洗**
 
   1. 检查缺失值
 
-     `pandas` 中的 `isnull()` 方法用于**检测数据中的缺失值**。
+     `pandas` 中的 `isnull() / isna()` 方法用于**检测数据中的缺失值**。
 
      - **识别缺失值**：将每个元素与缺失值（`None` 或 `NaN`）进行比较
      - **返回布尔值**：是缺失值返回 `True`，不是缺失值返回 `False`
@@ -877,7 +893,7 @@ s                              func(x)                  结果
      - **返回新 DataFrame**：默认不修改原数据，可通过参数控制
      - **空字符串** `''` 或空格 `' '` 不被视为缺失值，`dropna()` 不会删除
      - `df.dropna(inplace=True)` ， 直接修改原DataFrame，不返回新对象
-     - `df.dropna(axis=0)` ， 0 或 'index' ：删除行；1 或 'columns' ：删除列
+     - `df.dropna(axis=0)` ， 0 或 `index` ：删除行；1 或 `columns` ：删除列
 
      ```python
      # 删除前，记录原始行数
@@ -895,7 +911,7 @@ s                              func(x)                  结果
 
   3. 填充含缺失值的列
 
-      `pandas` 中的 `fillna()` 方法用于**填充缺失值（NaN）**的方法。
+      `pandas` 中的 `fillna()` 方法用于填充缺失值（NaN）的方法。
 
      核心作用
 
@@ -909,6 +925,10 @@ s                              func(x)                  结果
      df.fillna(value)
      # 字典填充（不同列填不同值）
      df.fillna({"字段1":"值1","字段2":"值2",...})
+     df.fillna({"姓名": "未知",    # 字符串列填字符串 ✅
+	            "年龄": 0,         # 数值列填数字 ✅
+	            "工资": 0.0,       # 浮点列填浮点数 ✅
+	            "在职": False})    # 布尔列填布尔值 ✅
      # 统计量填充
      df["字段"] = df["字段"].fillna(df["字段"].mean())
      ```
@@ -930,7 +950,7 @@ s                              func(x)                  结果
      语法
 
      ```Python
-     df.duplicated(subset=None,    # 指定检查哪些列，默认所有列，指定列用列表
+     df.duplicated(subset=None,    # 指定检查哪些列，默认所有列，指定列 用列表
                    keep='first')   # 保留哪个版本：'first'、'last'、False(所有重复行都标记为True)
      ```
 
