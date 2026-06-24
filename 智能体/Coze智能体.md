@@ -40,7 +40,7 @@ DeepSeek：https://www.deepseek.com/
 
 大模型的参数，本质上就是模型从海量数据中学到的"知识"或"经验"，它们以数字的形式存储在模型中，决定了模型如何理解和生成信息。
 
-![](images/953a564cff929d3f2d9d19c931e2fe1cee74d5b70a86832e9ab1b4057536c4b0.jpg)
+![](coze_images/953a564cff929d3f2d9d19c931e2fe1cee74d5b70a86832e9ab1b4057536c4b0.jpg)
 
 <details>
 <summary>flowchart</summary>
@@ -110,7 +110,7 @@ PE工程（Prompt Engineering），即提示词工程，是指通过设计、优
 
 学习文档：https://www.promptingguide.ai/zh/applications/coding
 
-![](images/d79bd6d4ac86e58eea56215f31219ecaf74c68e1948a615bcc883012b54d7017.jpg)
+![](coze_images/d79bd6d4ac86e58eea56215f31219ecaf74c68e1948a615bcc883012b54d7017.jpg)
 
 <details>
 <summary>flowchart</summary>
@@ -146,15 +146,15 @@ Hello, everyone! I'm so happy to see you all!
 
 My name is Xiaoming, and I'm six years old.
 
-![](images/9feb052ffa58da4146c1b411ee1e0afcc3a12bffae9df14253e7d295c8d3014a.jpg)
+![](coze_images/9feb052ffa58da4146c1b411ee1e0afcc3a12bffae9df14253e7d295c8d3014a.jpg)
 
-![](images/004328cdbed7c925b5ae82a6bd94ff3b6a656ed70a51ad142c6f73c71204eb04.jpg)
+![](coze_images/004328cdbed7c925b5ae82a6bd94ff3b6a656ed70a51ad142c6f73c71204eb04.jpg)
 
-![](images/adabb360f018cb7ae645c5268c450759bdd3815564823d7e2b592694ca462094.jpg)
+![](coze_images/adabb360f018cb7ae645c5268c450759bdd3815564823d7e2b592694ca462094.jpg)
 
-![](images/650ee3c72cd5c023967759aa966689ac49811b7132e36607a7eb22b30629598d.jpg)
+![](coze_images/650ee3c72cd5c023967759aa966689ac49811b7132e36607a7eb22b30629598d.jpg)
 
-![](images/cc33d7e7e797dfc8ea1aeb4197ef463760e5a33332adc52e70a9c5eeb11d80ea.jpg)
+![](coze_images/cc33d7e7e797dfc8ea1aeb4197ef463760e5a33332adc52e70a9c5eeb11d80ea.jpg)
 
 ### 让Deepseek绘画
 
@@ -170,7 +170,7 @@ Deepseek本身是没有提供绘画功能的，这里我们可以通过提示词
 
 夕阳西下，断肠人在天涯
 
-![](images/24cfb269b68ca707f08a8fa96f3fc5203b15566b4417a62a7586714c47df30c4.jpg)
+![](coze_images/24cfb269b68ca707f08a8fa96f3fc5203b15566b4417a62a7586714c47df30c4.jpg)
 
 <details>
 <summary>natural_image</summary>
@@ -375,7 +375,7 @@ Coze网址：http://www.coze.cn
 
 什么是扣子
 
-![](images/3fad6248efa68e25d29abc06ff6a8b3201cffe0c5da56d245794041b35822e92.jpg)
+![](coze_images/3fad6248efa68e25d29abc06ff6a8b3201cffe0c5da56d245794041b35822e92.jpg)
 
 <details>
 <summary>natural_image</summary>
@@ -418,7 +418,7 @@ Blue 3D-rendered cube with a white cartoon character on top (no text or symbols)
 
 #### 快速开始
 
-![](images/028ed1b41f8293dac7c424b36dd1aa5090ddf934a23a25bb7c1f3e85d8e92ca1.jpg)
+![](coze_images/028ed1b41f8293dac7c424b36dd1aa5090ddf934a23a25bb7c1f3e85d8e92ca1.jpg)
 
 <details>
 <summary>natural_image</summary>
@@ -432,7 +432,7 @@ Blue 3D-rendered cube with a white cartoon character on top (no text or symbols)
 
 和夸夸机器人对话时，它可以给你正向的鼓励，抚慰你的情绪。
 
-![](images/996c5a5d9bca4d54006b43cf0ca9ca897df7cfc329e9e5234e0929b9164f7b31.jpg)
+![](coze_images/996c5a5d9bca4d54006b43cf0ca9ca897df7cfc329e9e5234e0929b9164f7b31.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -504,7 +504,7 @@ Blue 3D-rendered cube with a white cartoon character on top (no text or symbols)
 
 你可以单击自动优化提示词，让大语言模型优化为结构化内容。更多详细信息，参考编写提示词。
 
-![](images/30e8b5d42fd2135ef60bcf58b136d9f8c493b26e85a11b53d032a0271e76cc69.jpg)
+![](coze_images/30e8b5d42fd2135ef60bcf58b136d9f8c493b26e85a11b53d032a0271e76cc69.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -531,7 +531,7 @@ Blue 3D-rendered cube with a white cartoon character on top (no text or symbols)
 1. 在编排页面的技能区域，单击插件功能对应的 + 图标。
 2. 在添加插件页面，搜索头条搜索，然后单击添加。
 
-![](images/27dfe5ef747e2c449591cb3091f6276f68f38191006e5f4a41fc564e20daba46.jpg)
+![](coze_images/27dfe5ef747e2c449591cb3091f6276f68f38191006e5f4a41fc564e20daba46.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -564,7 +564,7 @@ count cursor search_id input_query 参数 查看示例
 
 3. 修改人设与回复逻辑，指示智能体使用头条搜索插件来回答自己不确定的问题。即在人设与回复逻辑区域的合适位置，输入 { ，引用头条搜索插件。否则，智能体可能不会按照预期调用该工具。
 
-![](images/1f91c6f99a40802b5466e419dc21f997a4d9aea90fa4bc85c066e41b70785a13.jpg)
+![](coze_images/1f91c6f99a40802b5466e419dc21f997a4d9aea90fa4bc85c066e41b70785a13.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -619,7 +619,7 @@ Root.
 
 另外，你还可以为智能体添加开场白、用户问题建议、背景图片等功能，增强对话体验。例如为智能体添加一张背景图片，使对话过程更沉浸。
 
-![](images/3df1c65d18fee54fdabcf88c26b77b218ba79ded77a02d8314c28e4d55643aed.jpg)
+![](coze_images/3df1c65d18fee54fdabcf88c26b77b218ba79ded77a02d8314c28e4d55643aed.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -663,7 +663,7 @@ Coze
 
 配置好智能体后，就可以在预览与调试区域中测试智能体是否符合预期。
 
-![](images/42169a7548005b0f876f2f8c89221a64629ddcf42043e98c49c0bdb3103adb7b.jpg)
+![](coze_images/42169a7548005b0f876f2f8c89221a64629ddcf42043e98c49c0bdb3103adb7b.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -696,7 +696,7 @@ Coze
 2. 在发布页面输入发布记录，并选择发布渠道。
 3. 单击发布。
 
-![](images/020888229c3eebcd2df4530e60d6b14a1949c2ebf43e908ad75995af69d53e9d.jpg)
+![](coze_images/020888229c3eebcd2df4530e60d6b14a1949c2ebf43e908ad75995af69d53e9d.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -752,7 +752,7 @@ Coze
 
 Bot中只有一个Agent，适用于逻辑较为简单的Bot。
 
-![](images/e3a6656b973c22b8e3d2a93e8a637c5372ac120233bbfa1683f62ebbec0a6381.jpg)
+![](coze_images/e3a6656b973c22b8e3d2a93e8a637c5372ac120233bbfa1683f62ebbec0a6381.jpg)
 
 #### 多Agents模式
 
@@ -794,17 +794,17 @@ Bot中只有一个Agent，适用于逻辑较为简单的Bot。
 
 #### 编排
 
-![](images/44aba734ae74e7b4769c5421ac64ec5f0893503c69c9793eacbca6bc7b16bf8e.jpg)
+![](coze_images/44aba734ae74e7b4769c5421ac64ec5f0893503c69c9793eacbca6bc7b16bf8e.jpg)
 
 ### 多Agents模式·
 
-![](images/af2c0b40d8f27f8e66289986ceff82aa91c35c58201dedd1852efe883dd807f5.jpg)
+![](coze_images/af2c0b40d8f27f8e66289986ceff82aa91c35c58201dedd1852efe883dd807f5.jpg)
 
-![](images/58a16585917869eb291bda6a013165dbeb246f65333736494ea20e6514b48f88.jpg)
+![](coze_images/58a16585917869eb291bda6a013165dbeb246f65333736494ea20e6514b48f88.jpg)
 
 ### 人设与回复逻辑
 
-![](images/d51e488657b14f7e42de897b95344d4a445a7471da3083a3931499d39a82dccb.jpg)
+![](coze_images/d51e488657b14f7e42de897b95344d4a445a7471da3083a3931499d39a82dccb.jpg)
 
 > #角色
 
@@ -824,7 +824,7 @@ Bot中只有一个Agent，适用于逻辑较为简单的Bot。
 适用场景：描述 Agent 的功能。例如， 将用户输入翻译为目标语言 。
 其他配置项保持默认值即可。
 
-![](images/10ea9c0fe83a7e9080a3581a94ccc0898921a86bc65a486ea4a8de9f703de756.jpg)
+![](coze_images/10ea9c0fe83a7e9080a3581a94ccc0898921a86bc65a486ea4a8de9f703de756.jpg)
 
 <details>
 <summary>flowchart</summary>
@@ -856,11 +856,11 @@ Agent 提示词：输入 Agent 需要执行的任务。
 
 其他配置项保持默认值即可。
 
-![](images/de92c95470b85a3a531c539ba1aff56917350b43342c90f7223edee34ea73b7a.jpg)
+![](coze_images/de92c95470b85a3a531c539ba1aff56917350b43342c90f7223edee34ea73b7a.jpg)
 
 #### 翻译为中文
 
-![](images/b2754eb35ec3abc2e9569748f9875e6a9306650cac5e619ec40b77d9cd7b8bda.jpg)
+![](coze_images/b2754eb35ec3abc2e9569748f9875e6a9306650cac5e619ec40b77d9cd7b8bda.jpg)
 
 ### 适用场景\*①
 
@@ -879,7 +879,7 @@ Agent 提示词：输入 Agent 需要执行的任务。
 
 5. 复制两个 翻译为中文 Agent ，并更改 Agent 名称，包括 Agent 提示和适用场景。然后将这两个 Agent 连接到父节点。
 
-![](images/24402057d1b70018328637beb4b4165f21bf84777a949856eca858accb282bcb.jpg)
+![](coze_images/24402057d1b70018328637beb4b4165f21bf84777a949856eca858accb282bcb.jpg)
 
 <details>
 <summary>flowchart</summary>
@@ -914,7 +914,7 @@ graph TD
 
 6. 在智能体的预览与调试区域，发起翻译任务以检查 Agent 能否正确处理该任务。
 
-![](images/ae65e0b094f011e3ced0c7ab5f7c59b881c7dabfb7bec9a21bef76bfc2020401.jpg)
+![](coze_images/ae65e0b094f011e3ced0c7ab5f7c59b881c7dabfb7bec9a21bef76bfc2020401.jpg)
 
 <details>
 <summary>flowchart</summary>
@@ -974,7 +974,7 @@ graph TD
 在所选空间中，选择目标智能体或创建一个智能体。
 在智能体的编排页面，选择智能体模式为单 Agent （对话流）模式。
 
-![](images/09071ff82091c355b73d24534875fced1df8713843ffbc5b01ea7c3d968b3c54.jpg)
+![](coze_images/09071ff82091c355b73d24534875fced1df8713843ffbc5b01ea7c3d968b3c54.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -1004,9 +1004,9 @@ A +
 
 ### 创建对话流
 
-![](images/5225b822e528eacf51e83bc0fab04fe52074da7c1f6253f10716cd3bed669e3c.jpg)
+![](coze_images/5225b822e528eacf51e83bc0fab04fe52074da7c1f6253f10716cd3bed669e3c.jpg)
 
-![](images/190dc9229d44f52a2f2c0f7097da8f0c539d16b6a8c30e387127aee44df8baf3.jpg)
+![](coze_images/190dc9229d44f52a2f2c0f7097da8f0c539d16b6a8c30e387127aee44df8baf3.jpg)
 
 ### 对话流名称\*
 
@@ -1044,7 +1044,7 @@ CONVERSATION\_NAME 变量表示对话流绑定的会话名称。
 
 如果对话流中存在大模型节点，且节点上的输入模块已开启智能体对话历史参数，则可以调整对话历史策略。目前支持设置携带上下文轮数，默认为 3，取值范围为1\~100。
 
-![](images/e8f0c50c12f27d493efb995d78fc52a0b1fc2a8e05a272bbaf3973d7625cffdb.jpg)
+![](coze_images/e8f0c50c12f27d493efb995d78fc52a0b1fc2a8e05a272bbaf3973d7625cffdb.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -1102,7 +1102,7 @@ O豆包·1.5·Pro·32k <
 
 生成随机性①
 
-![](images/a2cf54e9064e667a88fa44164a425705aaf1841278d09831f5b99f3e3cb21d1c.jpg)
+![](coze_images/a2cf54e9064e667a88fa44164a425705aaf1841278d09831f5b99f3e3cb21d1c.jpg)
 
 0.8
 
@@ -1110,7 +1110,7 @@ O豆包·1.5·Pro·32k <
 
 携带上下文轮数①
 
-![](images/43581eaabd7d1a27f2b655d1a57e456e23633b8d6272a7ce24d125aae29dc91f.jpg)
+![](coze_images/43581eaabd7d1a27f2b655d1a57e456e23633b8d6272a7ce24d125aae29dc91f.jpg)
 
 <details>
 <summary>natural_image</summary>
@@ -1122,7 +1122,7 @@ Two white circles with horizontal lines, one blue and one white, on a plain back
 
 最大回复长度①
 
-![](images/6cafef808600f5d3f3a289c6e7a7184fd91e3c055acf992e623b7f100461a460.jpg)
+![](coze_images/6cafef808600f5d3f3a289c6e7a7184fd91e3c055acf992e623b7f100461a460.jpg)
 
 4096
 
@@ -1210,13 +1210,13 @@ Two white circles with horizontal lines, one blue and one white, on a plain back
 3. 在所选空间中，单击目标智能体或创建一个新智能体。
 4. 在人设与回复逻辑面板中编写提示词。
 
-![](images/f4a33ddd573dea5ca10501aa817c1be93e7baa46318f71efe80dd6caeb7c71ad.jpg)
+![](coze_images/f4a33ddd573dea5ca10501aa817c1be93e7baa46318f71efe80dd6caeb7c71ad.jpg)
 
-![](images/713155f73766ebc351489f1bdb0e9577b9d72695592cb552385a48eddaf99056.jpg)
+![](coze_images/713155f73766ebc351489f1bdb0e9577b9d72695592cb552385a48eddaf99056.jpg)
 
 ### 智能客服
 
-![](images/dba82cda03c6bd1ebd8dc5b8e3c845be62a6449040908cbd68dd5b5c35d3b14c.jpg)
+![](coze_images/dba82cda03c6bd1ebd8dc5b8e3c845be62a6449040908cbd68dd5b5c35d3b14c.jpg)
 
 多人协作
 
@@ -1248,7 +1248,7 @@ Two white circles with horizontal lines, one blue and one white, on a plain back
 
 智能机器人提示词
 
-![](images/b148be00a01f397d09bbaeddf674dda7623007cf1dae5a8d0835e07c818a4182.jpg)
+![](coze_images/b148be00a01f397d09bbaeddf674dda7623007cf1dae5a8d0835e07c818a4182.jpg)
 
 #### 6.4.2 使用提示词模版
 
@@ -1260,13 +1260,13 @@ Two white circles with horizontal lines, one blue and one white, on a plain back
 
 ### 人设与回复逻辑
 
-![](images/5cd6d3ddb6c5e9e552d6e52da1cdd9390a3b556018cfbe9ee3a9a2f27ead130c.jpg)
+![](coze_images/5cd6d3ddb6c5e9e552d6e52da1cdd9390a3b556018cfbe9ee3a9a2f27ead130c.jpg)
 
-![](images/c5466a2b408e67012b904e0f0a7d44c2dfa9ee8f0dc86215c61a05accad002e5.jpg)
+![](coze_images/c5466a2b408e67012b904e0f0a7d44c2dfa9ee8f0dc86215c61a05accad002e5.jpg)
 
-![](images/0a3be79cdf339c11e54bc6d71c1bd2ec7fc1f461a800f6a35a6111785355f2d6.jpg)
+![](coze_images/0a3be79cdf339c11e54bc6d71c1bd2ec7fc1f461a800f6a35a6111785355f2d6.jpg)
 
-![](images/d4ca807e802efb2579da4cc7220153fc7c28278bc4e455b6ae7686cc586409cd.jpg)
+![](coze_images/d4ca807e802efb2579da4cc7220153fc7c28278bc4e455b6ae7686cc586409cd.jpg)
 
 > #角色
 
@@ -1293,7 +1293,7 @@ Two white circles with horizontal lines, one blue and one white, on a plain back
 
 推荐团队
 
-![](images/97ca93094ef782299cea80546201c53c0a8e5c48d1d53d37b365144503c5797e.jpg)
+![](coze_images/97ca93094ef782299cea80546201c53c0a8e5c48d1d53d37b365144503c5797e.jpg)
 
 ### 通用结构
 
@@ -1347,15 +1347,15 @@ Two white circles with horizontal lines, one blue and one white, on a plain back
 
 1. 在人设与回复逻辑面板的右上角，单击优化。
 
-![](images/f71723fa9187b661d8f7ec57d7c07893d737c94f51d5f1c2f1dc4f22b45135ba.jpg)
+![](coze_images/f71723fa9187b661d8f7ec57d7c07893d737c94f51d5f1c2f1dc4f22b45135ba.jpg)
 
-![](images/e15ea7cdb45620821b7f4abaf4d654dec4016ca4e63dc06f78292c6366dfc3a7.jpg)
+![](coze_images/e15ea7cdb45620821b7f4abaf4d654dec4016ca4e63dc06f78292c6366dfc3a7.jpg)
 
 ### 智能客服
 
 多人协作
 
-![](images/7f31aec6c19fa9a55e9b9e536fa832675ac196cc6896d253aba81f224d8eecc0.jpg)
+![](coze_images/7f31aec6c19fa9a55e9b9e536fa832675ac196cc6896d253aba81f224d8eecc0.jpg)
 
 已发布
 
@@ -1363,7 +1363,7 @@ Two white circles with horizontal lines, one blue and one white, on a plain back
 
 #### 编排
 
-![](images/36d8480b737700b8d46b08abdd684683a25d6a464239f4965d1f2c61c0e6b585.jpg)
+![](coze_images/36d8480b737700b8d46b08abdd684683a25d6a464239f4965d1f2c61c0e6b585.jpg)
 
 单Agent
 
@@ -1377,7 +1377,7 @@ Two white circles with horizontal lines, one blue and one white, on a plain back
 
 如果你的智能体已完成调试，你可以单击根据调试结果优化，然后输入哪里不符合预期以及你的预期效果，大语言模型会自动帮你完成优化。
 
-![](images/a812b16e22e3cd3a95d5e65631b6889eccbe70a1424fc52b8e285cc6878e27ac.jpg)
+![](coze_images/a812b16e22e3cd3a95d5e65631b6889eccbe70a1424fc52b8e285cc6878e27ac.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -1417,17 +1417,17 @@ Two white circles with horizontal lines, one blue and one white, on a plain back
 
 退出
 
-![](images/bf7e01dff2cfce9904b1936887d8c97f16623469949994751e048b46d9876d9b.jpg)
+![](coze_images/bf7e01dff2cfce9904b1936887d8c97f16623469949994751e048b46d9876d9b.jpg)
 
-![](images/1f4319be146fc749dc6442395fb2011755b391536dac8cd80e7791ff86f1aa37.jpg)
+![](coze_images/1f4319be146fc749dc6442395fb2011755b391536dac8cd80e7791ff86f1aa37.jpg)
 
-![](images/a8a99025154bf009ea30254f64b89215b4cf6b80f672f7b2629f2d0224db1a15.jpg)
+![](coze_images/a8a99025154bf009ea30254f64b89215b4cf6b80f672f7b2629f2d0224db1a15.jpg)
 
-![](images/33b1a2b9337cb30ff88bc86167d22110acdc75e73203a42844fb9292c436bfc1.jpg)
+![](coze_images/33b1a2b9337cb30ff88bc86167d22110acdc75e73203a42844fb9292c436bfc1.jpg)
 
-![](images/617c8fdd6a5c7dd5b08bcb4e4440e86a008cd03d749eb6e0bf054d4cc935b77d.jpg)
+![](coze_images/617c8fdd6a5c7dd5b08bcb4e4440e86a008cd03d749eb6e0bf054d4cc935b77d.jpg)
 
-![](images/9f8a7aa95316e6373c67d2bc46efc8bc08f3a9ffdec3619fd3e23a5183eed7ef.jpg)
+![](coze_images/9f8a7aa95316e6373c67d2bc46efc8bc08f3a9ffdec3619fd3e23a5183eed7ef.jpg)
 
 ## 7. 为智能体添加技能(扩展智能体能力边界)
 
@@ -1548,13 +1548,13 @@ Two white circles with horizontal lines, one blue and one white, on a plain back
 
 根据默认值，返回 3 条信息。
 
-![](images/4e20a612cd1598cba0d9c36fc0fde2852ea8c6b24e8dcebe123d4687e1039d62.jpg)
+![](coze_images/4e20a612cd1598cba0d9c36fc0fde2852ea8c6b24e8dcebe123d4687e1039d62.jpg)
 
 插件7
 
 参数配置
 
-![](images/06118502da9a4170ca0a0774074c6721fb76bd7997042de79435ad2b12f582af.jpg)
+![](coze_images/06118502da9a4170ca0a0774074c6721fb76bd7997042de79435ad2b12f582af.jpg)
 
 插件8
 
@@ -1562,7 +1562,7 @@ Two white circles with horizontal lines, one blue and one white, on a plain back
 
 虽然设置了默认值，但大模型仍自行判断了返回的信息数量，仅返回 2 条信息。
 
-![](images/8f0543a708f80d69cd773915d6e1dd0ab53b39ecf55359a0d63092705867fe21.jpg)
+![](coze_images/8f0543a708f80d69cd773915d6e1dd0ab53b39ecf55359a0d63092705867fe21.jpg)
 
 插件9
 
@@ -1570,7 +1570,7 @@ Two white circles with horizontal lines, one blue and one white, on a plain back
 
 1. 在指定插件右侧，单击编辑参数图标。
 
-![](images/32561dd82f43be246e77c4490648c3e6f2d0597522ccc710fd3df467fe5b4362.jpg)
+![](coze_images/32561dd82f43be246e77c4490648c3e6f2d0597522ccc710fd3df467fe5b4362.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -1590,7 +1590,7 @@ Two white circles with horizontal lines, one blue and one white, on a plain back
 如果设置了参数默认值且打开开启开关，那么调用插件时，大模型会以该默认值为基础，但仍会根据自身的逻辑判断是否使用其他值。
 如果设置了参数默认值且关闭开启开关，那么调用插件时，大模型只会使用这个默认值。
 
-![](images/f96c327929d455765746cde407ea2553448e85791d98320f41e92d9dd9ea7f82.jpg)
+![](coze_images/f96c327929d455765746cde407ea2553448e85791d98320f41e92d9dd9ea7f82.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -1618,7 +1618,7 @@ String
 
 在指定插件的右侧，单击移除图标，即可删除添加到智能体中的插件。
 
-![](images/af0f9a9511cd2b0ab415a846aac10ff5f2c9bd2517685ac26d62408a93d67bac.jpg)
+![](coze_images/af0f9a9511cd2b0ab415a846aac10ff5f2c9bd2517685ac26d62408a93d67bac.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -1682,7 +1682,7 @@ Coze demo 草稿自动保存于17:44:35
 4. 在智能体编排页面的工作流区域，单击右侧的加号图标。
 5. 在添加工作流对话框，选择目标工作流。
 
-![](images/879df559a137a56ad8858c10479063be18c0406b713788928a01a116bec9f8b5.jpg)
+![](coze_images/879df559a137a56ad8858c10479063be18c0406b713788928a01a116bec9f8b5.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -1707,7 +1707,7 @@ article_url
 
 6. 在智能体的人设与回复逻辑区域，引用工作流的名称来调用工作流。
 
-![](images/db2d4080be5a7cb91506ace98af139e6f0df96eac45fc51d6ab67b323f96c0fa.jpg)
+![](coze_images/db2d4080be5a7cb91506ace98af139e6f0df96eac45fc51d6ab67b323f96c0fa.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -1728,7 +1728,7 @@ image dd
 
 在指定工作流右侧，单击移除图标，即可移除添加到智能体中的工作流。
 
-![](images/d66bb5fb8cda70a009b7fd49cddb7fb084f3e21c6c688ed2543b3132827b1bc4.jpg)
+![](coze_images/d66bb5fb8cda70a009b7fd49cddb7fb084f3e21c6c688ed2543b3132827b1bc4.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -1782,7 +1782,7 @@ error
 3. 在项目开发页面，创建一个智能体或选择一个已创建的智能体。
 4. 在编排页面的知识区域，选择扣子知识库或火山知识库，然后单击对应的 + 图标，添加要使用的知识库。
 
-![](images/e3100662138852bdc442340a825881626e670109a1e2c858406ca51a48795da0.jpg)
+![](coze_images/e3100662138852bdc442340a825881626e670109a1e2c858406ca51a48795da0.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -1854,7 +1854,7 @@ error
 
 ### 编辑变量
 
-![](images/a286c2934aa6cd8ac28463ef524028f72b3f24bfee3ff4c22b6701f55c8b33eb.jpg)
+![](coze_images/a286c2934aa6cd8ac28463ef524028f72b3f24bfee3ff4c22b6701f55c8b33eb.jpg)
 
 ### 用户变量
 
@@ -1886,7 +1886,7 @@ Bot所在话题ID
 
 Bot所在飞书会..
 
-![](images/f5a06ff3958c073008f02d6053f9517d064faf6f0a033b5c0f8319b65c175d14.jpg)
+![](coze_images/f5a06ff3958c073008f02d6053f9517d064faf6f0a033b5c0f8319b65c175d14.jpg)
 
 取消
 
@@ -1900,7 +1900,7 @@ Bot所在飞书会..
 
 例如在提示词中添加 称呼你的用户为{{name}}。当你在与智能体对话时，告诉智能体你的名字，系统会将你的名字记录到变量 {{name}} 中，后续智能体将根据你的名字称呼你。
 
-![](images/8a3c06b87f6dade786c3d3adc5206a92e4d9c4cd0ef25811bd52318e8625c231.jpg)
+![](coze_images/8a3c06b87f6dade786c3d3adc5206a92e4d9c4cd0ef25811bd52318e8625c231.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -1950,7 +1950,7 @@ AI 助手
 
 ### 工作流的流程如下：
 
-![](images/c36dad87f0b77d882cda227c0d2044e0f3fb936fb013c83b0485f98f64d57a85.jpg)
+![](coze_images/c36dad87f0b77d882cda227c0d2044e0f3fb936fb013c83b0485f98f64d57a85.jpg)
 
 <details>
 <summary>flowchart</summary>
@@ -1974,7 +1974,7 @@ graph LR
 7. 本示例变量名称设置为 name 。
 8. 编辑变量。
 
-![](images/6b190fe7f50f05f1e380769f0ae10cf74779043053b15b49126a7f9d112caa9e.jpg)
+![](coze_images/6b190fe7f50f05f1e380769f0ae10cf74779043053b15b49126a7f9d112caa9e.jpg)
 
 变量5
 
@@ -1992,13 +1992,13 @@ graph LR
 
 ## 1. 配置人设与回复逻辑。
 
-![](images/53612566ba1176a1173c3b2ab178f124138adcfc9ce78bcca46b354b8a43c3b7.jpg)
+![](coze_images/53612566ba1176a1173c3b2ab178f124138adcfc9ce78bcca46b354b8a43c3b7.jpg)
 
-![](images/da1130c6f3598666f2e44ac01b9ee5cae521f5ac26365501218186f660b78fc9.jpg)
+![](coze_images/da1130c6f3598666f2e44ac01b9ee5cae521f5ac26365501218186f660b78fc9.jpg)
 
 ### 翻译大师
 
-![](images/fded1101a2bd0f62dfe24e92e213f098a6823e8824288f1f64a50001ec46742d.jpg)
+![](coze_images/fded1101a2bd0f62dfe24e92e213f098a6823e8824288f1f64a50001ec46742d.jpg)
 
 demo
 
@@ -2006,15 +2006,15 @@ demo
 
 #### 编排
 
-![](images/0f2e2a4d592d4946c6e7db15e6c3217812e19defb4159904c914a1358bc3ceae.jpg)
+![](coze_images/0f2e2a4d592d4946c6e7db15e6c3217812e19defb4159904c914a1358bc3ceae.jpg)
 
 单Agent (LLM模式)
 
-![](images/4e4320e67a9a94aa1819a77ebb0168632c71799f2337b19255b4e1f9e2e6770b.jpg)
+![](coze_images/4e4320e67a9a94aa1819a77ebb0168632c71799f2337b19255b4e1f9e2e6770b.jpg)
 
 ### 人设与回复逻辑
 
-![](images/68b8fd856ff3b3d3f7e4a0cc3a491e22c40539f8fa64bd47ac56d8f1a03c89aa.jpg)
+![](coze_images/68b8fd856ff3b3d3f7e4a0cc3a491e22c40539f8fa64bd47ac56d8f1a03c89aa.jpg)
 
 优化
 
@@ -2022,7 +2022,7 @@ demo
 
 ## 2. 测试智能体效果。
 
-![](images/ec09236b2e2b39558d13d769e8fe20d810f4f7d1c7e54ff9daf617d43268775f.jpg)
+![](coze_images/ec09236b2e2b39558d13d769e8fe20d810f4f7d1c7e54ff9daf617d43268775f.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -2105,7 +2105,7 @@ Chrome
 
 用户可通过自然语言与智能体进行交互来插入或查询数据库中的数据。智能体会根据用户的输入自动创建一条新的记录并将其存储在数据库中。同样，用户也可以使用自然语言查询数据库中的数据，例如询问某一天的总开支、某一个类别的开支等，智能体会根据用户的查询条件从数据库中检索相应的数据并返回给用户。
 
-![](images/ff064795d012d0789f59d66b86ad08fae0b30112b2363c9eae8a313c8ed99f7b.jpg)
+![](coze_images/ff064795d012d0789f59d66b86ad08fae0b30112b2363c9eae8a313c8ed99f7b.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -2196,7 +2196,7 @@ RootUser_2102672088
 
 可单击调试区域右上方查看数据表中的数据。
 
-![](images/30593ff0f4dcf6e8a37b6c1022bf473b73941c408400a663dc5aad9ff99386f4.jpg)
+![](coze_images/30593ff0f4dcf6e8a37b6c1022bf473b73941c408400a663dc5aad9ff99386f4.jpg)
 
 ### 数据库3
 
@@ -2225,7 +2225,7 @@ RootUser_2102672088
 开启“支持在Prompt中调用”：智能体的用户可以通过 Prompt 或工作流的长期记忆节点召回长期记忆。
 关闭“支持在Prompt中调用”：智能体的用户只能在工作流中通过长期记忆节点召回长期记忆，无法在和智能体对话时通过提问的方式召回长期记忆。
 
-![](images/953e02baf589284c67cd79934086d307c3b6fb7a0ff64772b98837572758befc.jpg)
+![](coze_images/953e02baf589284c67cd79934086d307c3b6fb7a0ff64772b98837572758befc.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -2248,7 +2248,7 @@ RootUser_2102672088
 
 例如，通过对话方式告诉智能体今天的天气，智能体会自动将其记录在长期记忆中。
 
-![](images/1aa279d75130b9d70e80a939f035870674934e38efbe8ea8a469d7eab4bda854.jpg)
+![](coze_images/1aa279d75130b9d70e80a939f035870674934e38efbe8ea8a469d7eab4bda854.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -2269,63 +2269,63 @@ RootUser_2102672088
 
 如果智能体开发者开启了“支持在Prompt中调用”，那么用户可以在和智能体的对话中主动查询长期记忆，例如用户向智能体发送自己的早餐菜谱，如果用户询问“今天早上我吃了什么”，智能体会从长期记忆中召回今日早餐相关的内容，总结后回复用户。
 
-![](images/48dc0fa4500fc89a8f1cbe2105160a2e18f049fa8e670af8d7357c0226e95ee3.jpg)
+![](coze_images/48dc0fa4500fc89a8f1cbe2105160a2e18f049fa8e670af8d7357c0226e95ee3.jpg)
 
 ### 个人助手小A
 
-![](images/12c4be889ccf935487e9d147735b6f799d03e1fbfa641d16ffdeb31216bd45a6.jpg)
+![](coze_images/12c4be889ccf935487e9d147735b6f799d03e1fbfa641d16ffdeb31216bd45a6.jpg)
 
 ### 我早上喝了豆浆
 
-![](images/a02e7ddca9557b605c77d57584a24ca3d5a64e139c0d874eb6dcaee8b8e378fa.jpg)
+![](coze_images/a02e7ddca9557b605c77d57584a24ca3d5a64e139c0d874eb6dcaee8b8e378fa.jpg)
 
-![](images/c40c6ff0407bbe5efed052493281afe04dacb3108eb69f24390b105e2c5f4893.jpg)
+![](coze_images/c40c6ff0407bbe5efed052493281afe04dacb3108eb69f24390b105e2c5f4893.jpg)
 
-![](images/c130ab778622e0e24e5788151a813b7106450788fc6015cb6fdaba54fb25a03f.jpg)
+![](coze_images/c130ab778622e0e24e5788151a813b7106450788fc6015cb6fdaba54fb25a03f.jpg)
 
 对于人设类的智能体，为了出于对用户关心，增强用户体验，在某些场景下，智能体也会主动提及长期记忆 中存储的关键信息。例如用户表示自己摔了一跤，智能体可能会主动关心用户的康复情况。
 
-![](images/980a6cd2ad6bfa3c84e2adf24d13e6ebb6b973f1e281f286e19ffa6beb54480a.jpg)
+![](coze_images/980a6cd2ad6bfa3c84e2adf24d13e6ebb6b973f1e281f286e19ffa6beb54480a.jpg)
 
 ##
 
 ### 今天天气不错诶
 
-![](images/68ae0b8e15dd1a1d581b12299b092351886ebad710fa72231ddc7b9e4d943e77.jpg)
+![](coze_images/68ae0b8e15dd1a1d581b12299b092351886ebad710fa72231ddc7b9e4d943e77.jpg)
 
 ##
 
 ##
 
-![](images/72804a865e66396abf2fae66db4d527de082731cece7f40765616a2fda5161c7.jpg)
+![](coze_images/72804a865e66396abf2fae66db4d527de082731cece7f40765616a2fda5161c7.jpg)
 
 是呀，天气好的话心情也会跟着变好呢。不过你腿还疼着，也不能出去好好享受这好天气，有点可惜。等你腿好了，就可以在好天气里出去走走啦。
 
-![](images/596a58450bc9d3be24f6b88b0eb6fbd6443a1f8d078271b90b19d97dfb521df1.jpg)
+![](coze_images/596a58450bc9d3be24f6b88b0eb6fbd6443a1f8d078271b90b19d97dfb521df1.jpg)
 
-![](images/875f3b6f260260aa552840746aab22f437d0cae0b6a624ff39b97a62a7a883a6.jpg)
+![](coze_images/875f3b6f260260aa552840746aab22f437d0cae0b6a624ff39b97a62a7a883a6.jpg)
 
-![](images/1322b43d02b81b49c7b14d940626a18e63b37e683fb9a7ce3972db1a32925356.jpg)
+![](coze_images/1322b43d02b81b49c7b14d940626a18e63b37e683fb9a7ce3972db1a32925356.jpg)
 
-![](images/16086a4fcaec32eb52d70022cdc0cce99864aefd376ffa7d6d58a897db6990e7.jpg)
+![](coze_images/16086a4fcaec32eb52d70022cdc0cce99864aefd376ffa7d6d58a897db6990e7.jpg)
 
-![](images/ab2b467d3b0fd59ac2d822d720694744534f1150597d54573882a83fb48959e9.jpg)
+![](coze_images/ab2b467d3b0fd59ac2d822d720694744534f1150597d54573882a83fb48959e9.jpg)
 
 如果未开启长期记忆，或关闭了“支持在Prompt中调用”，用户清空对话记录后，智能体不会在对话中考虑上下文。例如：
 
-![](images/1138cb1e909a988898749f20b1136b1b320c61e4aaa9062cac86083fa78eac43.jpg)
+![](coze_images/1138cb1e909a988898749f20b1136b1b320c61e4aaa9062cac86083fa78eac43.jpg)
 
 ### 个人助手小A
 
-![](images/1ee4f0a885702bf9ebc75b347cfc8d36518040f3607302c58d931bf1d9de1f58.jpg)
+![](coze_images/1ee4f0a885702bf9ebc75b347cfc8d36518040f3607302c58d931bf1d9de1f58.jpg)
 
 ### 我早上喝了豆浆
 
-![](images/9534f95369b0f29e6b8261a3f4e53c564bd203d1fe298745d62e20e90d504325.jpg)
+![](coze_images/9534f95369b0f29e6b8261a3f4e53c564bd203d1fe298745d62e20e90d504325.jpg)
 
-![](images/605442c26b92c562715ea1bd7de86eec48bc61ff6be236579221eb4d7e85abb9.jpg)
+![](coze_images/605442c26b92c562715ea1bd7de86eec48bc61ff6be236579221eb4d7e85abb9.jpg)
 
-![](images/a729be8fdd189fca798aadc2dcbad6a48ac15446107808bacc593c15442b770e.jpg)
+![](coze_images/a729be8fdd189fca798aadc2dcbad6a48ac15446107808bacc593c15442b770e.jpg)
 
 ## 10. 提升智能体对话体验
 
@@ -2343,7 +2343,7 @@ RootUser_2102672088
 
 常见的开场白效果如下：
 
-![](images/b4c8ffb34664a2ef093e825a7ee69af6b6bc9bae7c4073be2d50b71eab84cafd.jpg)
+![](coze_images/b4c8ffb34664a2ef093e825a7ee69af6b6bc9bae7c4073be2d50b71eab84cafd.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -2373,7 +2373,7 @@ AI 辅助口语素材整理
 
 通过 Markdown 编辑器，你可以调整开场白文案样式，例如设置层级、加粗、斜体、删除线等样式效果。也可以添加链接、图片、代码块和 {{user\_name}} 变量。其中，{{user\_name}} 会自动引用扣子用户的昵称。
 
-![](images/13868ef6e0b96bc56d3c7ccaa07e544b14f139a9b067bcbc2c23442dacedf526.jpg)
+![](coze_images/13868ef6e0b96bc56d3c7ccaa07e544b14f139a9b067bcbc2c23442dacedf526.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -2402,7 +2402,7 @@ A= B I S ≡ ≡ 66 √ { }
 
 首次使用智能体的用户往往需要一些对话示例体验智能体的能力和效果，你可以为智能体设置开场白预置问题，提供一些推荐问题。这些推荐问题会展示在开场白文案之下，用户单击问题即可发起一次对话，帮助用户快速体验 Bot。如果设置了多个开场白问题，则默认随机显示 3 条预置问题。你也可以开启全部展示，开启后，开场白会默认按顺序显示所有预置问题。
 
-![](images/13130a343165b682c4eda6fab6e9baef2f6416f59f346fbef46bd435669f58ae.jpg)
+![](coze_images/13130a343165b682c4eda6fab6e9baef2f6416f59f346fbef46bd435669f58ae.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -2434,7 +2434,7 @@ A= B I S ≡ ≡ 66 √ { }
 
 开场白配置示例：
 
-![](images/da1c759175fa7427106a3bdd9c78334e29885bb33c64ed99a9230c0ccf1feeef.jpg)
+![](coze_images/da1c759175fa7427106a3bdd9c78334e29885bb33c64ed99a9230c0ccf1feeef.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -2455,7 +2455,7 @@ Hi, 雅思保7冲8, 认准雅思口语专家!
 输入开场白引导问题
 </details>
 
-![](images/b214cf400189cb78cbe68ae7543f372bb29d18362a97de50c9eac754237bd649.jpg)
+![](coze_images/b214cf400189cb78cbe68ae7543f372bb29d18362a97de50c9eac754237bd649.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -2476,7 +2476,7 @@ AI 辅助口语素材整理
 
 展示效果：
 
-![](images/173ac6d694e89c15c60864823fd63c9757f5ee9b379f08cf835ee2dc0142a330.jpg)
+![](coze_images/173ac6d694e89c15c60864823fd63c9757f5ee9b379f08cf835ee2dc0142a330.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -2508,13 +2508,13 @@ AI 辅助口语素材整理
 
 快捷指令效果：
 
-![](images/9c7b953ef36a03ccf99a642020a63bd1914a64b55f1c26d55989c5f4ac5efb7d.jpg)
+![](coze_images/9c7b953ef36a03ccf99a642020a63bd1914a64b55f1c26d55989c5f4ac5efb7d.jpg)
 
 ### 网络艺术家
 
 ### 将水杯翻译为日语。
 
-![](images/2c75717fc98b6d45a12626ab69664d6e470c944870893a63bcd9075a090706cb.jpg)
+![](coze_images/2c75717fc98b6d45a12626ab69664d6e470c944870893a63bcd9075a090706cb.jpg)
 
 ### 翻译大师
 
@@ -2528,7 +2528,7 @@ AI 辅助口语素材整理
 
 ### 快捷翻译
 
-![](images/09f3a46049d07936f0f701701030775da81fadb046ef79972059b72f6efc4620.jpg)
+![](coze_images/09f3a46049d07936f0f701701030775da81fadb046ef79972059b72f6efc4620.jpg)
 
 中文\*①
 
@@ -2538,13 +2538,13 @@ AI 辅助口语素材整理
 
 日语
 
-![](images/0e338c5d0a7d2f9535cd766436226ce07211ef30b69daa0590c8aee2e3358436.jpg)
+![](coze_images/0e338c5d0a7d2f9535cd766436226ce07211ef30b69daa0590c8aee2e3358436.jpg)
 
-![](images/fa7cc7c138ea3b92744d679f5cb30896bc06f7e3259a430297c90a9a1fc8d13a.jpg)
+![](coze_images/fa7cc7c138ea3b92744d679f5cb30896bc06f7e3259a430297c90a9a1fc8d13a.jpg)
 
 配置示例：
 
-![](images/2314dc07086a9314956fc3e71e4c44679755b74fcc32b5872e27c24e3f5b7c23.jpg)
+![](coze_images/2314dc07086a9314956fc3e71e4c44679755b74fcc32b5872e27c24e3f5b7c23.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -2592,7 +2592,7 @@ AI 辅助口语素材整理
 
 如下图所示（左侧是快捷指令配置截图，右侧是调试截图），当点击AI新闻指令时，会自动发送配置好的指令内容。
 
-![](images/233254e837cf71075d83f601298eea852544d4b7c2e31465db772e17d5ebc484.jpg)
+![](coze_images/233254e837cf71075d83f601298eea852544d4b7c2e31465db772e17d5ebc484.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -2638,13 +2638,13 @@ AI 辅助口语素材整理
 
 目变量
 
-![](images/2e74489662aefdf1726787bf94ba3eda215dfcd080241dce7578135a58d158d1.jpg)
+![](coze_images/2e74489662aefdf1726787bf94ba3eda215dfcd080241dce7578135a58d158d1.jpg)
 
 ### 翻译大师
 
 你好，我是一个智能语言助手，能够将你输入的中文翻译成英文。很高兴为你服务！
 
-![](images/47811c093fe4b930eb0bf6a068865d69d0a6b2133fe1a0e7686dde026a5a316b.jpg)
+![](coze_images/47811c093fe4b930eb0bf6a068865d69d0a6b2133fe1a0e7686dde026a5a316b.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -2656,7 +2656,7 @@ AI 辅助口语素材整理
 日语
 </details>
 
-![](images/d65f56a566566fad230e1ba04397720e92054d67b680ab28b6a2cac1069d2eae.jpg)
+![](coze_images/d65f56a566566fad230e1ba04397720e92054d67b680ab28b6a2cac1069d2eae.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -2687,13 +2687,13 @@ AI 辅助口语素材整理
 
 /shortcuts
 
-![](images/80dc22626791ff5c3656c0f3b42de3ea4a156770500a667634d9bb41d688d38e.jpg)
+![](coze_images/80dc22626791ff5c3656c0f3b42de3ea4a156770500a667634d9bb41d688d38e.jpg)
 
 1条回复
 
-![](images/7c4da2b285e78c7088891db9d82783050b0c62973821f5b80a09bd044fcd8c6d.jpg)
+![](coze_images/7c4da2b285e78c7088891db9d82783050b0c62973821f5b80a09bd044fcd8c6d.jpg)
 
-![](images/fc55b28cc262d7496be1e450848557fc1fc4bb435e72806c82642534969302ed.jpg)
+![](coze_images/fc55b28cc262d7496be1e450848557fc1fc4bb435e72806c82642534969302ed.jpg)
 
 Usage:
 
@@ -2723,15 +2723,15 @@ Usage:
 
 ### 语音通话
 
-![](images/00994e3b7edf9a89ea922033f7e83224d1bb82ce6c4183b620035caa2302bc84.jpg)
+![](coze_images/00994e3b7edf9a89ea922033f7e83224d1bb82ce6c4183b620035caa2302bc84.jpg)
 
-![](images/5d7e695558e918b519bff6114309568dad2af5034df8111e491c7e18de913d4c.jpg)
+![](coze_images/5d7e695558e918b519bff6114309568dad2af5034df8111e491c7e18de913d4c.jpg)
 
 ### 儿童陪伴-测试
 
 字幕(开)
 
-![](images/588136501f07e7a27548728ce8ae9e8c68c845e8688452d432f47a652a32873f.jpg)
+![](coze_images/588136501f07e7a27548728ce8ae9e8c68c845e8688452d432f47a652a32873f.jpg)
 
 <details>
 <summary>natural_image</summary>
@@ -2741,21 +2741,21 @@ Cute cartoon-style mobile phone with smiling face, displayed on a table with toy
 
 儿童陪伴-测试
 
-![](images/14cd5834ec140a7980639d527a963ec9624ef3f728bfe1c6b025c086fe21a2c3.jpg)
+![](coze_images/14cd5834ec140a7980639d527a963ec9624ef3f728bfe1c6b025c086fe21a2c3.jpg)
 挂断
 
-![](images/dd3a895aa708abac2ecdc00f115b095ddd3c97b2a8fa098ed84ac9a741ce8843.jpg)
+![](coze_images/dd3a895aa708abac2ecdc00f115b095ddd3c97b2a8fa098ed84ac9a741ce8843.jpg)
 接听
 
 视频通话
 
-![](images/24f2904d93cbd9cb90cdfc465fa08a468956df7b369c0b15339d6e1fabca1a5e.jpg)
+![](coze_images/24f2904d93cbd9cb90cdfc465fa08a468956df7b369c0b15339d6e1fabca1a5e.jpg)
 
-![](images/0fffac5d9cb46f32f3ac1ff6d9c25adc1552ea799f3dfd097690232aed6dc11d.jpg)
+![](coze_images/0fffac5d9cb46f32f3ac1ff6d9c25adc1552ea799f3dfd097690232aed6dc11d.jpg)
 
 ### 儿童陪伴-测试
 
-![](images/2d96350d56fcdfa73da6d12e6223032a34f1d62803c3b7bd5724b37ff51c04f1.jpg)
+![](coze_images/2d96350d56fcdfa73da6d12e6223032a34f1d62803c3b7bd5724b37ff51c04f1.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -2763,23 +2763,23 @@ Cute cartoon-style mobile phone with smiling face, displayed on a table with toy
 字幕 (开)
 </details>
 
-![](images/f8efac1037bcea77721aa1162ddccb822fbbc892a674c425a8f2b5bd03ba211a.jpg)
+![](coze_images/f8efac1037bcea77721aa1162ddccb822fbbc892a674c425a8f2b5bd03ba211a.jpg)
 
-![](images/a6f51af015c8b83df20233b2e42e0aa274b5c3755c420c23ac1b1830b8cf1ec8.jpg)
+![](coze_images/a6f51af015c8b83df20233b2e42e0aa274b5c3755c420c23ac1b1830b8cf1ec8.jpg)
 挂断
 
-![](images/4f1b05e8e7bfa370d0165b5215e8ccb031a76564d983e197b716f2b41e1bed66.jpg)
+![](coze_images/4f1b05e8e7bfa370d0165b5215e8ccb031a76564d983e197b716f2b41e1bed66.jpg)
 视频
 
 共享屏幕
 
-![](images/89daeb61ba157f47e96d8ec415f2726ecef0c18c11aab43f17ba11415c3239b3.jpg)
+![](coze_images/89daeb61ba157f47e96d8ec415f2726ecef0c18c11aab43f17ba11415c3239b3.jpg)
 
-![](images/fed29674936fc3a8580955d9c715fccb9c97f43c57bd372466de170af882dfb7.jpg)
+![](coze_images/fed29674936fc3a8580955d9c715fccb9c97f43c57bd372466de170af882dfb7.jpg)
 
 ### 儿童陪伴-测试
 
-![](images/bc6024c5e8ec05d8039d7d8e508469f3d1fbdc0e539d911180810bfb6d5d2676.jpg)
+![](coze_images/bc6024c5e8ec05d8039d7d8e508469f3d1fbdc0e539d911180810bfb6d5d2676.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -2793,12 +2793,12 @@ Cute cartoon-style mobile phone with smiling face, displayed on a table with toy
 根据您需要的可操作后与媒体工具，你可以通过各种功能来识别的方式，快速提高电子大幅增长的效率。同时，还可以通过各种功能来识别各个社交平台和通讯软件。用户最重视的使用，包括高质、低质低质、个人消费等，如手机、电话、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、手机、 phone, 请勿在本机中使用此功能。
 </details>
 
-![](images/69724b3a87e72e9d6de0de3787a108e092f71ca7bfef62d99c60e80ffaa16553.jpg)
+![](coze_images/69724b3a87e72e9d6de0de3787a108e092f71ca7bfef62d99c60e80ffaa16553.jpg)
 
-![](images/bcdb99ca40026d6bcee3ead8121aeb3ac34c9847195dc1c5547136e69bec2682.jpg)
+![](coze_images/bcdb99ca40026d6bcee3ead8121aeb3ac34c9847195dc1c5547136e69bec2682.jpg)
 挂断
 
-![](images/f9d9754053593b7ee25bf1c4ff481f3c42407e940ea3e941302352ee1beda049.jpg)
+![](coze_images/f9d9754053593b7ee25bf1c4ff481f3c42407e940ea3e941302352ee1beda049.jpg)
 屏幕共享
 
 ### 说明
@@ -2820,7 +2820,7 @@ Cute cartoon-style mobile phone with smiling face, displayed on a table with toy
 
 试听多情感音色时，扣子将按照按文字转语音的字符数收费，费用详细说明请参见音视频费用。
 
-![](images/a93acb03afcc4f194c1522058e87690921c18c7e6e12dc7dccc991adea6a4b13.jpg)
+![](coze_images/a93acb03afcc4f194c1522058e87690921c18c7e6e12dc7dccc991adea6a4b13.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -2900,17 +2900,17 @@ Cute cartoon-style mobile phone with smiling face, displayed on a table with toy
 
 语音通话①
 
-![](images/bf94b81fdd27de2914ecaba47aafc5d0593f7ae38d6a8ba73c3c0bfc3334b277.jpg)
+![](coze_images/bf94b81fdd27de2914ecaba47aafc5d0593f7ae38d6a8ba73c3c0bfc3334b277.jpg)
 
 视频通话①
 
-![](images/46ab18b91a52d9c2b80e99a4eda43b82a91309aa51481431b9561a5c98b7097e.jpg)
+![](coze_images/46ab18b91a52d9c2b80e99a4eda43b82a91309aa51481431b9561a5c98b7097e.jpg)
 
 1
 
 1
 
-![](images/3333bdeab648cf452fbe4582dd486923e7b961da19eed5c05ea44ddbec0216bf.jpg)
+![](coze_images/3333bdeab648cf452fbe4582dd486923e7b961da19eed5c05ea44ddbec0216bf.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -2936,7 +2936,7 @@ team_admin @team_admin | 发布于 2025-06-26 10:17
 
 设置入口
 
-![](images/b181d1c2503f3b674f3178191d88d4ee856bfd22461118ecaa3eb667437fde63.jpg)
+![](coze_images/b181d1c2503f3b674f3178191d88d4ee856bfd22461118ecaa3eb667437fde63.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -2966,7 +2966,7 @@ team_admin @team_admin | 发布于 2025-06-26 10:17
 
 设置后的效果
 
-![](images/d6f15365d280b5b58b13ea8a9b5a788a5b38865372d1332e265e450845dbd37d.jpg)
+![](coze_images/d6f15365d280b5b58b13ea8a9b5a788a5b38865372d1332e265e450845dbd37d.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -2981,75 +2981,75 @@ team_admin @team_admin | 发布于 2025-06-26 10:17
 
 ### 预览与调试
 
-![](images/8a204a7aa4c17106e453ea606713d40df7e5616035828449163abda79a4a6dec.jpg)
+![](coze_images/8a204a7aa4c17106e453ea606713d40df7e5616035828449163abda79a4a6dec.jpg)
 
-![](images/a48f8fdc4778ff8af23cb1df7ba07aea6a1bb846640d965b595c69c0c6a73e6f.jpg)
+![](coze_images/a48f8fdc4778ff8af23cb1df7ba07aea6a1bb846640d965b595c69c0c6a73e6f.jpg)
 
-![](images/5be802a0254bb176e25d7cd29efe36f95f3cc6bf983c3b03b835034bb7d50c03.jpg)
+![](coze_images/5be802a0254bb176e25d7cd29efe36f95f3cc6bf983c3b03b835034bb7d50c03.jpg)
 
-![](images/78d170aea1ceaafc1bb4321b5fbccda5b4abbdce9a7b3bb9448cb75fef97d7eb.jpg)
+![](coze_images/78d170aea1ceaafc1bb4321b5fbccda5b4abbdce9a7b3bb9448cb75fef97d7eb.jpg)
 
-![](images/972955a22522f6c1c27740978d5fc39d7829d09418d3d5fc2653fd0a01b682dc.jpg)
+![](coze_images/972955a22522f6c1c27740978d5fc39d7829d09418d3d5fc2653fd0a01b682dc.jpg)
 
 语音通话
 
-![](images/0d1a9ead62431fabe37e99ac276e0afc5302fad13bd9212563d2cee3043982ae.jpg)
+![](coze_images/0d1a9ead62431fabe37e99ac276e0afc5302fad13bd9212563d2cee3043982ae.jpg)
 
 视频通话
 
-![](images/947834f9657c65d72cb1da61c190ec5794c9a80a9e8815816ae452552cd4404c.jpg)
+![](coze_images/947834f9657c65d72cb1da61c190ec5794c9a80a9e8815816ae452552cd4404c.jpg)
 
 屏幕共享
 
-![](images/05ac36113025eca4f39b066980dea12a7368cc94dd8a0abcd6fcd5af32be19cb.jpg)
+![](coze_images/05ac36113025eca4f39b066980dea12a7368cc94dd8a0abcd6fcd5af32be19cb.jpg)
 
 ### 儿童陪伴-测试
 
 嗨，小朋友好！我是你的好朋友小虎，我们来聊聊天吧！
 
-![](images/9a6caf36a957f6b20f42f49001542d2c6f6553e2a39581740c0b261c82fd9931.jpg)
+![](coze_images/9a6caf36a957f6b20f42f49001542d2c6f6553e2a39581740c0b261c82fd9931.jpg)
 
-![](images/bff67476dedd64105674b53056d83654639d7e0c82aa33e4e8b9180168cad181.jpg)
+![](coze_images/bff67476dedd64105674b53056d83654639d7e0c82aa33e4e8b9180168cad181.jpg)
 
-![](images/b881afbcee0c425af19c82920a43a47331631bff45d0ed52cd5721a99e275bc6.jpg)
+![](coze_images/b881afbcee0c425af19c82920a43a47331631bff45d0ed52cd5721a99e275bc6.jpg)
 
 #### 10.3.3 在扣子商店体验音视频通话
 
 开启了语音通话或视频通话的智能体，发布扣子商店后，如果默认输入方式是打字输入或语音输入，你可以在智能体右上角单击通话按钮，选择语音通话、视频通话或屏幕共享。如果默认输入方式为语音通话或视频通话，打开智能体并接听后，即可通过语音或视频方式与智能体交互。
 
-![](images/72135892c2be8aa85b4b902a3394fb9b3bc10c535ad0f109634c436f762082ec.jpg)
+![](coze_images/72135892c2be8aa85b4b902a3394fb9b3bc10c535ad0f109634c436f762082ec.jpg)
 
-![](images/e92539c64cb8deb60f5382d63d1c267498c7fb9d8fff530776d7d0c2de8ac3ea.jpg)
+![](coze_images/e92539c64cb8deb60f5382d63d1c267498c7fb9d8fff530776d7d0c2de8ac3ea.jpg)
 
 ### 儿童陪伴-测试
 
-![](images/4047222b8e969345766d38a828c2adc128cff69c54aa711f514976c8b20f0272.jpg)
+![](coze_images/4047222b8e969345766d38a828c2adc128cff69c54aa711f514976c8b20f0272.jpg)
 
 语音通话
 视频通话
 □屏幕共享
 
-![](images/457a78e63d6e2eb7df93d7e81ca884eca1c08c7f240281840563310d3c938ab0.jpg)
+![](coze_images/457a78e63d6e2eb7df93d7e81ca884eca1c08c7f240281840563310d3c938ab0.jpg)
 
 ### 儿童陪伴-测试
 
 嗨，小朋友好！我是你的好朋友小虎，我们来聊聊天吧！
 
-![](images/806d41a9d4db08bb2d4bb63a3d7382519e584e3dfca07f99e97daa14506ca29c.jpg)
+![](coze_images/806d41a9d4db08bb2d4bb63a3d7382519e584e3dfca07f99e97daa14506ca29c.jpg)
 
-![](images/2cd1f3f4ee8a57f0f5b64668d900d7343b8b58ba60bf7a0cb64470014e9a4afb.jpg)
+![](coze_images/2cd1f3f4ee8a57f0f5b64668d900d7343b8b58ba60bf7a0cb64470014e9a4afb.jpg)
 
-![](images/0d3effa61f4e071980a9e81835d2e64925a6f35545b0bde1e908041edb443c73.jpg)
+![](coze_images/0d3effa61f4e071980a9e81835d2e64925a6f35545b0bde1e908041edb443c73.jpg)
 
-![](images/6dc21723b588eaffb5d38f30b80a1ebd3ac2167f0bad8423d74ee2edc09730da.jpg)
+![](coze_images/6dc21723b588eaffb5d38f30b80a1ebd3ac2167f0bad8423d74ee2edc09730da.jpg)
 
-![](images/29c60470f6b3c9502f215e2ee29b9c47746dc7ed92fc545e9ca4f06d60d8cd82.jpg)
+![](coze_images/29c60470f6b3c9502f215e2ee29b9c47746dc7ed92fc545e9ca4f06d60d8cd82.jpg)
 
 ### 儿童陪伴-测试
 
 字幕(开)
 
-![](images/fab485e89882a3ccdf24c883583143d25d18c91011ac3a161a01e88b83633a93.jpg)
+![](coze_images/fab485e89882a3ccdf24c883583143d25d18c91011ac3a161a01e88b83633a93.jpg)
 
 <details>
 <summary>natural_image</summary>
@@ -3059,19 +3059,19 @@ Cute cartoon-style mobile phone with smiling face, displayed on a table with toy
 
 儿童陪伴-测试
 
-![](images/6b87227563c877e88a2a4950c827cef0cba5f60f1a661a81620b90f2d577e041.jpg)
+![](coze_images/6b87227563c877e88a2a4950c827cef0cba5f60f1a661a81620b90f2d577e041.jpg)
 挂断
 
-![](images/eadb71ba2220ba26326f606bdcd6aa9e36416783d77c7b3f5c21305b41a90c43.jpg)
+![](coze_images/eadb71ba2220ba26326f606bdcd6aa9e36416783d77c7b3f5c21305b41a90c43.jpg)
 接听
 
-![](images/4c984e44946131e092a98911bab21dd509c7c43bf0c93604b19b09468294eda2.jpg)
+![](coze_images/4c984e44946131e092a98911bab21dd509c7c43bf0c93604b19b09468294eda2.jpg)
 
-![](images/a93fba09913516a8bcb3d1337f6747c9a1db0b5c454c6309f2201ec2a43dee60.jpg)
+![](coze_images/a93fba09913516a8bcb3d1337f6747c9a1db0b5c454c6309f2201ec2a43dee60.jpg)
 
 ### 儿童陪伴-测试
 
-![](images/425775e7e28feeb687b885978af2c117d4fa2fa545c6f4bf29ed02e6dabb8d6f.jpg)
+![](coze_images/425775e7e28feeb687b885978af2c117d4fa2fa545c6f4bf29ed02e6dabb8d6f.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -3079,12 +3079,12 @@ Cute cartoon-style mobile phone with smiling face, displayed on a table with toy
 字幕 (开)
 </details>
 
-![](images/1ae3f98c32f56480221f24cbf17bd09f13d4a380fd9b4fd182a8a6dfa9c10596.jpg)
+![](coze_images/1ae3f98c32f56480221f24cbf17bd09f13d4a380fd9b4fd182a8a6dfa9c10596.jpg)
 
-![](images/f0f08c7439b762382b03f2db35fee74c178ebf121898598b433881cf9abb4a5e.jpg)
+![](coze_images/f0f08c7439b762382b03f2db35fee74c178ebf121898598b433881cf9abb4a5e.jpg)
 挂断
 
-![](images/8a9fa9904f51be1279dd11e0755acb2c01d113b4083942f2b263d2a5c085376a.jpg)
+![](coze_images/8a9fa9904f51be1279dd11e0755acb2c01d113b4083942f2b263d2a5c085376a.jpg)
 视频
 
 # 第三节：Coze进阶使用
@@ -3114,7 +3114,7 @@ Cute cartoon-style mobile phone with smiling face, displayed on a table with toy
 
 通过引用节点输出，你可以将节点连接在一起，形成一个无缝的操作链。例如，你可以在代码节点的输入中引用大模型节点的输出，这样代码节点就可以使用大模型节点的输出。在工作流画布中，你可以看到这两个节点是连接在一起的。
 
-![](images/5839a5fff0fa5b591fdd57236dce2915cd1057758803bf84e87b16e949bd803d.jpg)
+![](coze_images/5839a5fff0fa5b591fdd57236dce2915cd1057758803bf84e87b16e949bd803d.jpg)
 
 <details>
 <summary>flowchart</summary>
@@ -3198,7 +3198,7 @@ graph TD
 
 1. 在底部面板中选择要使用的节点。
 
-![](images/d55552abec217e942d98fd3272b7bb2b730466fe4eff4f4768d630920450c1b0.jpg)
+![](coze_images/d55552abec217e942d98fd3272b7bb2b730466fe4eff4f4768d630920450c1b0.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -3233,7 +3233,7 @@ SQL自定义	新增数据
 
 如果输入参数包含图片、视频等文件类型，试运行时可以上传文件或输入文件 URL。
 
-![](images/271a6178c5d367fc4c7995956290e0d26b2665781dfef13cac43d2fbdce9110f.jpg)
+![](coze_images/271a6178c5d367fc4c7995956290e0d26b2665781dfef13cac43d2fbdce9110f.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -3271,7 +3271,7 @@ inputimage Image
 2. 在智能体编排页面的工作流区域，单击右侧的加号图标。
 3. 在添加工作流对话框，在我创建的页面选择自建的工作流。
 
-![](images/7085d7806a567bc6734594c7ed415fb18ff68340012837888f349462a68def91.jpg)
+![](coze_images/7085d7806a567bc6734594c7ed415fb18ff68340012837888f349462a68def91.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -3319,7 +3319,7 @@ random_number ①</td></tr></table>
 
 1. 在指定工作流右侧单击设置。
 
-![](images/511683bcddf9871bae79dfbf6ffd09c4cb80221cd5e227c02e97f820a3098df7.jpg)
+![](coze_images/511683bcddf9871bae79dfbf6ffd09c4cb80221cd5e227c02e97f820a3098df7.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -3334,7 +3334,7 @@ draw_a_picture_1
 
 回复内容是工作流在异步运行时，智能体回复用户的默认文案。
 
-![](images/10a557e30f1076e301c50dbc859d8b10d6b0a4360eaf8f0e54dbc5522aafc675.jpg)
+![](coze_images/10a557e30f1076e301c50dbc859d8b10d6b0a4360eaf8f0e54dbc5522aafc675.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -3350,7 +3350,7 @@ draw_a_picture_1
 
 异步运行效果：
 
-![](images/0a2af5c651687ebabbb75689d78b5aa79e31c1083226ae78b4857df7e5320df8.jpg)
+![](coze_images/0a2af5c651687ebabbb75689d78b5aa79e31c1083226ae78b4857df7e5320df8.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -3377,7 +3377,7 @@ draw_a_picture_1
 
 注意：如果工作流已添加至智能体，在删除时会同步删除智能体中的工作流。
 
-![](images/f943610cc5905be320bf1bc763836613f204731a4ecd5016eb5716eaff8f5005.jpg)
+![](coze_images/f943610cc5905be320bf1bc763836613f204731a4ecd5016eb5716eaff8f5005.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -3419,7 +3419,7 @@ input_length
 
 如下图所示，点击导入图标后，在展开的面板中输入 JSON 数据，然后单击同步JSON到节点就可以自动导入输入参数。
 
-![](images/49e90a5abc8fd064a9d32c512b8f1b66a5ddf4bfdd96c41fc3934961965cd229.jpg)
+![](coze_images/49e90a5abc8fd064a9d32c512b8f1b66a5ddf4bfdd96c41fc3934961965cd229.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -3450,7 +3450,7 @@ input_length
 }
 </details>
 
-![](images/1008ee59b1126b2276a0ac4efa4b302c77da9e01b7831a69f054fafaca4299ed.jpg)
+![](coze_images/1008ee59b1126b2276a0ac4efa4b302c77da9e01b7831a69f054fafaca4299ed.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -3551,7 +3551,7 @@ JSON：标准 JSON 格式。你可以直接导入一段 JSON 样例，系统会�
 
 <table><tr><td>异常处理设置</td><td>说明</td></tr><tr><td>超时时间</td><td>超时时间指节点运行的最大耗时,如果超过此时长,则判断为节点运行超时。默认情况下,节点的超时时间默认为180s,即3分钟。你也可以将其改为0.1s~600s,灵活控制超时时间。</td></tr><tr><td>重试次数</td><td>节点运行超时或异常时,默认不重试,你也可以设置为重试1次。开启重试后,可手动选择备选模型并设置生成随机性等模型参数,扣子会优先使用备选模型来重试任务。如果未设置备选模型,则依旧使用原模型。</td></tr><tr><td>异常处理方式</td><td>节点运行超时或异常时,默认中断工作流。你也可以手动修改此节点的异常处理方式:中断流程:工作流执行中断,不再运行后续节点。返回设定内容:发生异常后,工作流运行不会中断。开发者可自定义设置需要返回的输出字段内容,必须是输出中已定义的字段,且格式为合法的JSON格式。另外,节点还会返回输出参数isSuccess、errorBody,传递节点异常的详细信息。执行异常流程:发生异常后,工作流运行不会中断,转而执行异常流程分析,开发者需要为新增的异常分支配置处理流程。异常信息会通过节点的输出参数isSuccess、errorBody返回。</td></tr></table>
 
-![](images/b66177fab23c4127ee182486cca8d703aab5ad91d3debaf42fbcdd8dc6e0009c.jpg)
+![](coze_images/b66177fab23c4127ee182486cca8d703aab5ad91d3debaf42fbcdd8dc6e0009c.jpg)
 
 <details>
 <summary>flowchart</summary>
@@ -3582,7 +3582,7 @@ graph TD
 
 在工作流画布下方单击添加节点，在弹出的节点面板中单击插件节点，并选择希望调用的插件。
 
-![](images/ebf379ee5839b179a794486c67714ba7ed27faa7178b093fdf6a787a2863875b.jpg)
+![](coze_images/ebf379ee5839b179a794486c67714ba7ed27faa7178b093fdf6a787a2863875b.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -3620,7 +3620,7 @@ SQL自定义
 
 你也可以在节点面板中找到已收藏的插件，选择插件工具，快速添加一个插件节点。
 
-![](images/9d73b7bc516f420087a3babacfc0b267aff6b0339e8c7f2d12c0d21ffbf9d1fd.jpg)
+![](coze_images/9d73b7bc516f420087a3babacfc0b267aff6b0339e8c7f2d12c0d21ffbf9d1fd.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -3665,7 +3665,7 @@ search_base list_tables
 
 <table><tr><td>异常处理设置</td><td>说明</td></tr><tr><td>超时时间</td><td>超时时间指节点运行的最大耗时,如果超过此时长,则判断为节点运行超时。默认情况下,节点的超时时间默认为600s,即10分钟。你也可以将其改为0.1s~600s,灵活控制超时时间。</td></tr><tr><td>重试次数</td><td>节点运行超时或异常时,默认不重试,你也可以设置为重试1次。</td></tr><tr><td>异常处理方式</td><td>节点运行超时或异常时,默认中断工作流。你也可以手动修改此节点的异常处理方式:中断流程:工作流执行中断,不再运行后续节点。返回设定内容:发生异常后,工作流运行不会中断。开发者可自定义设置需要返回的输出字段内容,必须是输出中已定义的字段,且格式为合法的JSON格式。另外,节点还会返回输出参数isSuccess、errorBody,传递节点异常的详细信息。执行异常流程:发生异常后,工作流运行不会中断,转而执行异常流程分析,开发者需要为新增的异常分支配置处理流程。异常信息会通过节点的输出参数isSuccess、errorBody返回。</td></tr></table>
 
-![](images/a153f063c7c5b7d994c810c4a4784acd080a74655b3c2e911c1563021575dec1.jpg)
+![](coze_images/a153f063c7c5b7d994c810c4a4784acd080a74655b3c2e911c1563021575dec1.jpg)
 
 <details>
 <summary>flowchart</summary>
@@ -3722,7 +3722,7 @@ graph TD
 
 每个分支条件支持添加多个判断条件（且/或），同时支持添加多个条件分支，可通过拖拽分支条件配置面板来设定分支条件的优先级。
 
-![](images/9367f5580c4176ace670c1fc212b5d6a4c56db60d2d4b54c4b7e30dd0df8511c.jpg)
+![](coze_images/9367f5580c4176ace670c1fc212b5d6a4c56db60d2d4b54c4b7e30dd0df8511c.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -3771,7 +3771,7 @@ graph TD
 
 对话流中的意图识别节点极速模式配置示例如下：
 
-![](images/4def96a76f62dc5b014a22cfeab18076fe589fd13c7530cd63bea64ab48eda39.jpg)
+![](coze_images/4def96a76f62dc5b014a22cfeab18076fe589fd13c7530cd63bea64ab48eda39.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -3800,7 +3800,7 @@ reason String
 
 对话流中的意图识别节点完整模式配置示例如下：
 
-![](images/5bed40f7e49537ab13317f8329417f76ef530979dbbf00afefd68def111ccaa1.jpg)
+![](coze_images/5bed40f7e49537ab13317f8329417f76ef530979dbbf00afefd68def111ccaa1.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -3841,7 +3841,7 @@ reason String
 知识库节点：售前和售后问题分别流转到售前知识库和售后知识库处理，并直接输入给结束节点。你也可以按需在知识库节点之后增加一个大模型节点，用于处理未命中知识库的问题。
 文本处理节点：意图识别的兜底策略，对于未命中任何分类的意图，统一输出一段文案，指导用户提交工单或联系人工客服。
 
-![](images/b41a55644daf611ef44f732034861b695e888c1c49ab5e622bb491a4cd8a8872.jpg)
+![](coze_images/b41a55644daf611ef44f732034861b695e888c1c49ab5e622bb491a4cd8a8872.jpg)
 
 <details>
 <summary>flowchart</summary>
@@ -3874,7 +3874,7 @@ graph TD
 
 循环是一种常见的控制机制，用于重复执行一系列任务，直到满足某个条件为止。扣子工作流提供循环节点，当需要重复执行一些操作，或循环处理一组数据时，可以使用循环节点实现。
 
-![](images/b192a0d0934abc4973d0f96cab6160e8dca540180af381f22da851bfc1ec492c.jpg)
+![](coze_images/b192a0d0934abc4973d0f96cab6160e8dca540180af381f22da851bfc1ec492c.jpg)
 
 <details>
 <summary>flowchart</summary>
@@ -4022,7 +4022,7 @@ index：数组索引，index+1 为当前循环的轮次。
 
 目前聚合策略仅支持设置为“返回每个分组中第一个非空的值”，你可以拖动变量、调整变量位置。例如组内按顺序设置三个变量 output1、output2 和 output3，将其聚合为一个变量 Group1，如果 output1 不为空，则用 output1 的值为 Group1 赋值；如果 output1 为空，则取 output2 的值，依次类推。
 
-![](images/a930455ec2e921c2728a5f9c7fe6dc48b0cd6fbf17c0b037a1c4f3896d21d146.jpg)
+![](coze_images/a930455ec2e921c2728a5f9c7fe6dc48b0cd6fbf17c0b037a1c4f3896d21d146.jpg)
 
 <details>
 <summary>text_image</summary>
@@ -4039,7 +4039,7 @@ Group1 String ①
 + 新增分组
 </details>
 
-![](images/f12231861a85f87089de14ae43eac2983054fb5f06f94bec1260e391e4476b7f.jpg)
+![](coze_images/f12231861a85f87089de14ae43eac2983054fb5f06f94bec1260e391e4476b7f.jpg)
 
 ### Variable Merge
 
@@ -4049,23 +4049,23 @@ Return the first non-empty value in each group
 
 Group1 String
 
-![](images/a0ccaa3ddccbfebe5e4a1104501ce08c950b74886f8641e0f83eae5836eb00e6.jpg)
+![](coze_images/a0ccaa3ddccbfebe5e4a1104501ce08c950b74886f8641e0f83eae5836eb00e6.jpg)
 
 LLM\_1 -output
 
-![](images/4bbc9bc1b79f04cc5691da4051d1a7d93f3adf5e8e8b9de1f9b92b3857d4f296.jpg)
+![](coze_images/4bbc9bc1b79f04cc5691da4051d1a7d93f3adf5e8e8b9de1f9b92b3857d4f296.jpg)
 
-![](images/d9bc58ec8d7c7ff5842419853e7069ee6075598dc91209e694c3debb2f7d268e.jpg)
+![](coze_images/d9bc58ec8d7c7ff5842419853e7069ee6075598dc91209e694c3debb2f7d268e.jpg)
 
 LLM\_2-output
 
-![](images/2f21df439b5a4ed08a620f8595826e468277a8cc0d49815386d50babf1aa29a6.jpg)
+![](coze_images/2f21df439b5a4ed08a620f8595826e468277a8cc0d49815386d50babf1aa29a6.jpg)
 
-![](images/dcf308f95f8c00fd15ed85723c97a401ccfb98b2a60b9179b3b74061f9015421.jpg)
+![](coze_images/dcf308f95f8c00fd15ed85723c97a401ccfb98b2a60b9179b3b74061f9015421.jpg)
 
 LLM - output
 
-![](images/847da6d41de002fff154547bd154be119666b6919b8eb5d2f0d632a99af8e44c.jpg)
+![](coze_images/847da6d41de002fff154547bd154be119666b6919b8eb5d2f0d632a99af8e44c.jpg)
 
 \+ Add a new group
 
@@ -4084,7 +4084,7 @@ Group1 String
 
 默认只有一个分组 Group1，对应一个输出变量 Group1。Group1 分组中所有变量类型和输出的变量类型相同。如果需要输出多个变量，可以添加多个分组。例如每个分支都有两个输出变量 String 和 Integer，可以设置两个分组，分别用于聚合 String 和 Integer。
 
-![](images/a7fd429db1a1a357b93bf262962c66bfd5f6b352f3aa055e4532491c9325f8a6.jpg)
+![](coze_images/a7fd429db1a1a357b93bf262962c66bfd5f6b352f3aa055e4532491c9325f8a6.jpg)
 
 <details>
 <summary>flowchart</summary>
@@ -4115,7 +4115,7 @@ graph TD
 ```
 </details>
 
-![](images/c1f0ca46ba6a9504808be0868097a1bc65021ceb77f8b9caa9dcfa7c8116bfda.jpg)
+![](coze_images/c1f0ca46ba6a9504808be0868097a1bc65021ceb77f8b9caa9dcfa7c8116bfda.jpg)
 
 <details>
 <summary>flowchart</summary>
@@ -4149,7 +4149,7 @@ graph TD
 在家教类 AI 应用中，通过 IF 选择器判断用户输入的问题属于哪个学科分类，并将对应的问题流转给对应的分支处理，例如数学问题流转给数学分支的大模型回答问题。三个分支均汇总到变量聚合节点，汇总为两个参数，即学科类型（type）、答案（answer），并传递到结束节点回答用户问题。
 
 整体流程如下：
-![](images/f56f4769953f11d42f41a92f9116acd19b70b81528616cb4eefef1f2c76cc20c.jpg)
+![](coze_images/f56f4769953f11d42f41a92f9116acd19b70b81528616cb4eefef1f2c76cc20c.jpg)
 
 <details>
 <summary>flowchart</summary>
