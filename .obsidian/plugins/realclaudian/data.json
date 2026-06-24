@@ -10,8 +10,9 @@
         "conversationId": "conv-1782108470415-epgh0x2m4"
       },
       {
+        "draftModel": "gpt-5.5",
         "tabId": "tab-1780673723612-8h1zl26",
-        "conversationId": "conv-1782123049123-fpwir8g6i"
+        "conversationId": null
       }
     ],
     "activeTabId": "tab-1780416431290-tzlu8ng"

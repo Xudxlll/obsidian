@@ -14,4 +14,16 @@ body {
 .cg-note-toolbar-container[data-tbar-position="bottom"],
 .cg-note-toolbar-container[data-tbar-position="top"] {
   max-width: var(--fixed-note-toolbar-width) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* 如果工具栏外层容器参与布局，也强制让它居中 */
+.cm-embed-block[data-tbar-position="bottom"],
+.cm-embed-block[data-tbar-position="top"],
+.cg-note-toolbar-bar-container[data-tbar-position="bottom"],
+.cg-note-toolbar-bar-container[data-tbar-position="top"] {
+  max-width: var(--fixed-note-toolbar-width) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
 }
