@@ -1019,16 +1019,28 @@ s                              func(x)                  结果
      核心作用
 
      - **类型转换**：将时间字符串、时间戳、时间列表、Series 等转换为 pandas 的 datetime 类型
-     - **统一时间格式**：支持多种时间格式的自动识别
 
-     ```python
-     # 把时间戳（整数）转换成 datetime 格式
-     df['datetime'] = pd.to_datetime(df['timestamp'])
+| 输入（杂七杂八）                                     | `pd.to_datetime()` | 输出（统一格式）                                                    |
+| -------------------------------------------- | :----------------: | ----------------------------------------------------------- |
+| `'2024-03-15'`                               |         →          | `Timestamp('2024-03-15')`                                   |
+| `'2024/03/15 14:30:00'`                      |         →          | `Timestamp('2024-03-15 14:30:00')`                          |
+| `'15-03-2024'`                               |         →          | `Timestamp('2024-03-15')`                                   |
+| `'March 15, 2024'`                           |         →          | `Timestamp('2024-03-15')`                                   |
+| `1710460800`（秒时间戳）                           |         →          | `Timestamp('2024-03-15')`                                   |
+| `1710460800000`（毫秒时间戳）                       |         →          | `Timestamp('2024-03-15')`                                   |
+| `['2024-01-01', '2024-06-15', '2024-12-31']` |         →          | `DatetimeIndex(['2024-01-01', '2024-06-15', '2024-12-31'])` |
+| `df['timestamp']`（object 列）                  |         →          | `datetime64[ns]` 列                                          |
      
-     # 看一下转换效果
-     print("转换后的时间列（前5行）：")
-     print(df['datetime'].head())
-     ```
+ - **统一时间格式**：支持多种时间格式的自动识别
+ 
+```python
+ # 把时间戳（整数）转换成 datetime 格式
+ df['datetime'] = pd.to_datetime(df['timestamp'])
+ 
+ # 看一下转换效果
+ print("转换后的时间列（前5行）：")
+ print(df['datetime'].head())
+```
 
   7. 从时间中提取日期、小时、星期
 
@@ -1051,19 +1063,48 @@ s                              func(x)                  结果
      Series.dt.quarter	The quarter of the date
      ```
 
-     ```python
-     # 提取日期（年-月-日）
-     df['date'] = df['datetime'].dt.date
-     
-     # 提取小时（0~23）
-     df['hour'] = df['datetime'].dt.hour
-     
-     # 提取星期几（0=周一, 6=周日）
-     df['weekday'] = df['datetime'].dt.dayofweek
-     
-     print("新增列后的列名：")
-     print(df.columns.tolist())
-     
-     # 查看前3行确认
-     df.head(3)
-     ```
+
+
+
+示例 —— 以 `2024-03-15 14:30:45`（周五）为例：
+```python
+s = pd.Series(pd.to_datetime('2024-03-15 14:30:45'))
+```
+```
+ 2024  -03  -15   14:   30:    45
+└─┬─┘  └┬┘  └┬┘   └┬┘   └┬┘    └┬┘
+ year month day   hour minute second
+ 2024   3   15     14    30     45
+```
+
+| 操作                | 结果     | 说明                          |
+| ----------------- | ------ | --------------------------- |
+| `s.dt.year`       | `2024` | 年                           |
+| `s.dt.month`      | `3`    | 月（1=1月）                     |
+| `s.dt.day`        | `15`   | 日                           |
+| `s.dt.hour`       | `14`   | 时（0–23）                     |
+| `s.dt.minute`     | `30`   | 分                           |
+| `s.dt.second`     | `45`   | 秒                           |
+| `s.dt.week`       | `11`   | 当年第 11 周                    |
+| `s.dt.weekofyear` | `11`   | 同上，旧名                       |
+| `s.dt.dayofweek`  | `4`    | 星期一=0，星期五=4                 |
+| `s.dt.weekday`    | `4`    | 同上                          |
+| `s.dt.dayofyear`  | `75`   | 当年第 75 天（1月31天+2月29天+3月15天） |
+| `s.dt.quarter`    | `1`    | 第 1 季度（3月在 Q1）              |
+
+ ```python
+ # 提取日期（年-月-日）
+ df['date'] = df['datetime'].dt.date
+ 
+ # 提取小时（0~23）
+ df['hour'] = df['datetime'].dt.hour
+ 
+ # 提取星期几（0=周一, 6=周日）
+ df['weekday'] = df['datetime'].dt.dayofweek
+ 
+ print("新增列后的列名：")
+ print(df.columns.tolist())
+ 
+ # 查看前3行确认
+ df.head(3)
+ ```
