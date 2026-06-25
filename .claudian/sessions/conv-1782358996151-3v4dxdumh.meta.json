@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782358996151-3v4dxdumh",
+  "providerId": "claude",
+  "title": "Reformat line 71 formula with line breaks",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782358996151,
+  "updatedAt": 1782360331616,
+  "lastResponseAt": 1782360331616,
+  "sessionId": "60a48ca6-3ae6-42c1-9484-e011a13f1d6b",
+  "providerState": {
+    "providerSessionId": "60a48ca6-3ae6-42c1-9484-e011a13f1d6b"
+  },
+  "currentNote": "数据分析笔记/06-线性回归.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 149,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 49280,
+    "contextWindow": 1000000,
+    "contextTokens": 49429,
+    "percentage": 5,
+    "contextWindowIsAuthoritative": true
+  }
+}

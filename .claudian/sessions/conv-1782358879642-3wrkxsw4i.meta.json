@@ -1,0 +1,26 @@
+{
+  "id": "conv-1782358879642-3wrkxsw4i",
+  "providerId": "codex",
+  "title": "Fix formula line break at line 71",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782358879642,
+  "updatedAt": 1782358988525,
+  "lastResponseAt": 1782358988525,
+  "sessionId": "019efcde-2e09-7442-84a9-d7ac2092e661",
+  "providerState": {
+    "threadId": "019efcde-2e09-7442-84a9-d7ac2092e661",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/25/rollout-2026-06-25T11-41-19-019efcde-2e09-7442-84a9-d7ac2092e661.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "currentNote": "数据分析笔记/06-线性回归.md",
+  "usage": {
+    "inputTokens": 17883,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 4992,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 17883,
+    "percentage": 7,
+    "model": "gpt-5.5"
+  }
+}

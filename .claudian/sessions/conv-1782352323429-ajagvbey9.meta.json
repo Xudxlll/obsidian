@@ -4,8 +4,8 @@
   "title": "Explain Chapter 3.4",
   "titleGenerationStatus": "success",
   "createdAt": 1782352323431,
-  "updatedAt": 1782355497856,
-  "lastResponseAt": 1782355497856,
+  "updatedAt": 1782358866071,
+  "lastResponseAt": 1782358760352,
   "sessionId": "019efc7a-23b6-7111-a230-24faaea9faa6",
   "providerState": {
     "threadId": "019efc7a-23b6-7111-a230-24faaea9faa6",
@@ -14,13 +14,13 @@
   },
   "currentNote": "数据分析笔记/05-机器学习概述.md",
   "usage": {
-    "inputTokens": 26199,
+    "inputTokens": 27695,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 21376,
+    "cacheReadInputTokens": 25984,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 26199,
-    "percentage": 10,
+    "contextTokens": 27695,
+    "percentage": 11,
     "model": "gpt-5.5"
   }
 }

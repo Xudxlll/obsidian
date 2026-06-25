@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "数学",
         "数据分析笔记",
         "数据分析",
         "SQL数据库",
@@ -7258,6 +7259,18 @@
       "isHidden": false
     },
     "数据分析笔记/06-线性回归.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数学": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "线性代数.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "数学/线性代数.md": {
       "isPinned": false,
       "isHidden": false
     }
