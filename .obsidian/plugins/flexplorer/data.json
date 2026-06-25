@@ -4503,6 +4503,8 @@
       "isHidden": false,
       "sortOrder": "byName",
       "customOrder": [
+        "05-机器学习概述.md",
+        "06-线性回归.md",
         "img",
         "04-数据预处理.md",
         "03-pandas.md",
@@ -5186,6 +5188,7 @@
         "baidu_images",
         "coze_images",
         "百度千帆智能体.md",
+        "投资顾问Agent搭建方案.md",
         "Coze智能体.md"
       ]
     },
@@ -5196,6 +5199,7 @@
     "智能体/coze_images": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "ff064795d012d0789f59d66b86ad08fae0b30112b2363c9eae8a313c8ed99f7b.jpg",
         "fed29674936fc3a8580955d9c715fccb9c97f43c57bd372466de170af882dfb7.jpg",
@@ -5452,8 +5456,7 @@
         "020888229c3eebcd2df4530e60d6b14a1949c2ebf43e908ad75995af69d53e9d.jpg",
         "004328cdbed7c925b5ae82a6bd94ff3b6a656ed70a51ad142c6f73c71204eb04.jpg",
         "00994e3b7edf9a89ea922033f7e83224d1bb82ce6c4183b620035caa2302bc84.jpg"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "智能体/coze_images/00994e3b7edf9a89ea922033f7e83224d1bb82ce6c4183b620035caa2302bc84.jpg": {
       "isPinned": false,
@@ -6478,6 +6481,7 @@
     "智能体/baidu_images": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "fef3776e3fa123d9cc2274a7cf3f5953420614c72abc5563660802dc27b19e5e.jpg",
         "fe5608f230f3c69e89893c9548a9a0b0f987dc3af2576e2580e0757db23017a3.jpg",
@@ -6631,8 +6635,7 @@
         "032d73bced127cce4ab4538d2892aca88059e3995a1e5c113ef938c9d1faa39f.jpg",
         "032b48f0950ad260abbbf7a2b7d52f344c07b0a458946dbd926638b3d9907c45.jpg",
         "00d66cc0d5c5746b52a7b0a8a60f011b607456fb557f7e4531df7b9a80806a98.jpg"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "智能体/baidu_images/00d66cc0d5c5746b52a7b0a8a60f011b607456fb557f7e4531df7b9a80806a98.jpg": {
       "isPinned": false,
@@ -7243,6 +7246,18 @@
       "isHidden": false
     },
     "智能体/Coze智能体.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "智能体/投资顾问Agent搭建方案.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/05-机器学习概述.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/06-线性回归.md": {
       "isPinned": false,
       "isHidden": false
     }
