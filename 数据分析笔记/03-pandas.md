@@ -813,7 +813,7 @@ s                              func(x)                  结果
 | behavior_type | 字符串 | 行为类型：`pv`（浏览）/ `fav`（收藏）/ `cart`（加购）/ `buy`（购买） |
 | timestamp     | 字符串 | 行为发生时间（格式：YYYY-MM-DD HH:MM:SS）                  |
 
-- **数据获取与探索分析**
+## 7.1 数据获取与探索分析
 
   ```python
   # 导入需要用到的库
@@ -858,169 +858,169 @@ s                              func(x)                  结果
 ```
 
 
-- **数据处理与清洗**
+## 7.2 数据处理与清洗
 
-  1. 检查缺失值
+### 1. 检查缺失值：`isnull() / isna()`
 
-     `pandas` 中的 `isnull() / isna()` 方法用于**检测数据中的缺失值**。
+`pandas` 中的 `isnull() / isna()` 方法用于**检测数据中的缺失值**。
 
-     - **识别缺失值**：将每个元素与缺失值（`None` 或 `NaN`）进行比较
-     - **返回布尔值**：是缺失值返回 `True`，不是缺失值返回 `False`
+- **识别缺失值**：将每个元素与缺失值（`None` 或 `NaN`）进行比较
+- **返回布尔值**：是缺失值返回 `True`，不是缺失值返回 `False`
 
-     常用搭配方法：
+ 常用搭配方法：
 
-     `isnull().sum()` —— 统计每列缺失值数量
+ `isnull().sum()` —— 统计每列缺失值数量
 
-     `isnull().sum().sum()` —— 统计总缺失值个数
+ `isnull().sum().sum()` —— 统计总缺失值个数
 
-     `isnull().any()` —— 检查每列是否有缺失值
+ `isnull().any()` —— 检查每列是否有缺失值
 
-     ```python
-     # 统计每列的缺失值数量
-     missing_count = df.isnull().sum()
-     
-     print("各列缺失值数量：")
-     print(missing_count)
-     ```
+ ```python
+ # 统计每列的缺失值数量
+ missing_count = df.isnull().sum()
+ 
+ print("各列缺失值数量：")
+ print(missing_count)
+ ```
 
-  2. 删除含缺失值的行
+### 2. 删除含缺失值的行：`dropna()`
 
-     `pandas` 中的 `dropna()` 方法用于**删除包含缺失值（NaN）的行或列**。
+`pandas` 中的 `dropna()` 方法用于**删除包含缺失值（NaN）的行或列**。
 
-     核心作用
+核心作用
 
-     - **删除缺失值**：根据规则移除包含 `None`、`NaN`、`NaT` 的行或列（`NaT` 是 `pandas` 中专门用于表示**时间类型数据的缺失值**。）
-     - **返回新 DataFrame**：默认不修改原数据，可通过参数控制
-     - **空字符串** `''` 或空格 `' '` 不被视为缺失值，`dropna()` 不会删除
-     - `df.dropna(inplace=True)` ， 直接修改原DataFrame，不返回新对象
-     - `df.dropna(axis=0)` ， 0 或 `index` ：删除行；1 或 `columns` ：删除列
+- **删除缺失值**：根据规则移除包含 `None`、`NaN`、`NaT` 的行或列（`NaT` 是 `pandas` 中专门用于表示**时间类型数据的缺失值**。）
+- **返回新 DataFrame**：默认不修改原数据，可通过参数控制
+- **空字符串** `''` 或空格 `' '` 不被视为缺失值，`dropna()` 不会删除
+- `df.dropna(inplace=True)` ， 直接修改原DataFrame，不返回新对象
+- `df.dropna(axis=0)` ， 0 或 `index` ：删除行；1 或 `columns` ：删除列
 
-     ```python
-     # 删除前，记录原始行数
-     rows_before = len(df)
-     
-     # 删除含有缺失值的行
-     df = df.dropna()
-     
-     # 删除后，看看少了多少行
-     rows_after = len(df)
-     print("删除前行数：", rows_before)
-     print("删除后行数：", rows_after)
-     print("共删除：", rows_before - rows_after, "行")
-     ```
+```python
+# 删除前，记录原始行数
+rows_before = len(df)
 
-  3. 填充含缺失值的列
+# 删除含有缺失值的行
+df = df.dropna()
 
-      `pandas` 中的 `fillna()` 方法用于填充缺失值（NaN）的方法。
+# 删除后，看看少了多少行
+rows_after = len(df)
+print("删除前行数：", rows_before)
+print("删除后行数：", rows_after)
+print("共删除：", rows_before - rows_after, "行")
+```
 
-     核心作用
+### 3. 填充含缺失值的列：`fillna()`
 
-     - **填充缺失值**：用指定值或计算方法替换 `None`、`NaN`、`NaT`
-     - **返回新 DataFrame**：默认不修改原数据，可通过参数控制
-     - **空字符串** `''` 或空格 `' '` **不被视为缺失值**，`fillna()` 不会填充它们
-     - `df.fillna(value, inplace=True)`：**直接修改原DataFrame，不返回新对象**
+`pandas` 中的 `fillna()` 方法用于填充缺失值（NaN）的方法。
 
-     ```python
-     # 所有缺失值填充为同一个值
-     df.fillna(value)
-     # 字典填充（不同列填不同值）
-     df.fillna({"字段1":"值1","字段2":"值2",...})
-     df.fillna({"姓名": "未知",    # 字符串列填字符串 ✅
-	            "年龄": 0,         # 数值列填数字 ✅
-	            "工资": 0.0,       # 浮点列填浮点数 ✅
-	            "在职": False})    # 布尔列填布尔值 ✅
-     # 统计量填充
-     df["字段"] = df["字段"].fillna(df["字段"].mean())
-     ```
+核心作用
 
-     ```python
-     df['behavior_type'] = df['behavior_type'].fillna(df['behavior_type'].mode()[0])
-     df.info()
-     ```
+- **填充缺失值**：用指定值或计算方法替换 `None`、`NaN`、`NaT`
+- **返回新 DataFrame**：默认不修改原数据，可通过参数控制
+- **空字符串** `''` 或空格 `' '` **不被视为缺失值**，`fillna()` 不会填充它们
+- `df.fillna(value, inplace=True)`：**直接修改原DataFrame，不返回新对象**
 
-  4. 检查并删除重复行
+```python
+# 所有缺失值填充为同一个值
+df.fillna(value)
+# 字典填充（不同列填不同值）
+df.fillna({"字段1":"值1","字段2":"值2",...})
+df.fillna({"姓名": "未知",    # 字符串列填字符串 ✅
+		   "年龄": 0,         # 数值列填数字 ✅
+		   "工资": 0.0,       # 浮点列填浮点数 ✅
+		   "在职": False})    # 布尔列填布尔值 ✅
+# 统计量填充
+df["字段"] = df["字段"].fillna(df["字段"].mean())
+```
 
-     `pandas` 中的 `duplicated()` 方法用于**检测重复的行**。
+```python
+df['behavior_type'] = df['behavior_type'].fillna(df['behavior_type'].mode()[0])
+df.info()
+```
 
-     核心作用
+### 4. 检查并删除重复行：`duplicated()` / `drop_duplicates()`
 
-     - **识别重复行**：返回布尔值的 Series，标记每一行是否为重复行
-     - **首次出现规则**：默认第一次出现的行标记为 `False`（保留），后续相同的行标记为 `True`（重复）
+ `pandas` 中的 `duplicated()` 方法用于**检测重复的行**。
 
-     语法
+ 核心作用
 
-     ```Python
-     df.duplicated(subset=None,    # 指定检查哪些列，默认所有列，指定列 用列表
-                   keep='first')   # 保留哪个版本：'first'、'last'、False(所有重复行都标记为True)
-     ```
+ - **识别重复行**：返回布尔值的 Series，标记每一行是否为重复行
+ - **首次出现规则**：默认第一次出现的行标记为 `False`（保留），后续相同的行标记为 `True`（重复）
 
-     `pandas` 中的 `drop_duplicates()` 方法用于**删除重复的行**。
+ 语法
 
-     核心作用
+ ```Python
+ df.duplicated(subset=None,    # 指定检查哪些列，默认所有列，指定列 用列表
+			   keep='first')   # 保留哪个版本：'first'、'last'、False(所有重复行都标记为True)
+ ```
 
-     - **删除重复行**：根据指定列判断重复，默认保留第一次出现的行
-     - **返回新 DataFrame**：默认不修改原数据，可通过参数控制
+ `pandas` 中的 `drop_duplicates()` 方法用于**删除重复的行**。
 
-     语法
+ 核心作用
 
-     ```python
-     df.drop_duplicates(subset=None,      # 指定检查哪些列，默认所有列
-                        keep='first',     # 保留哪个：'first'、'last'、False
-                        inplace=False,    # True：修改原数据；False：返回新数据
-                        ignore_index=False)  # True：重新生成索引
-     ```
+ - **删除重复行**：根据指定列判断重复，默认保留第一次出现的行
+ - **返回新 DataFrame**：默认不修改原数据，可通过参数控制
 
-     ```python
-     # 统计重复行数量
-     dup_count = df.duplicated().sum()
-     print("重复行数量：", dup_count)
-     
-     # 删除重复行
-     df = df.drop_duplicates()
-     print("去重后行数：", len(df))
-     ```
+ 语法
 
-  5. 检查 behavior_type 列是否有非法值
+ ```python
+ df.drop_duplicates(subset=None,      # 指定检查哪些列，默认所有列
+					keep='first',     # 保留哪个：'first'、'last'、False
+					inplace=False,    # True：修改原数据；False：返回新数据
+					ignore_index=False)  # True：重新生成索引
+ ```
 
-     `pandas` 中的 `unique()` 方法用于**获取列中的唯一值数组**。
+ ```python
+ # 统计重复行数量
+ dup_count = df.duplicated().sum()
+ print("重复行数量：", dup_count)
+ 
+ # 删除重复行
+ df = df.drop_duplicates()
+ print("去重后行数：", len(df))
+ ```
 
-     核心作用
+### 5. 检查 behavior_type 列是否有非法值：`unique()` / `isin()`
 
-     - **返回唯一值**：去除重复值，返回所有不重复的元素
-     - **保持出现顺序**：按数据首次出现的顺序返回结果
-     - **适用于 Series**：通常对 DataFrame 的某一列使用
+ `pandas` 中的 `unique()` 方法用于**获取列中的唯一值数组**。
 
-     `pandas` 中的 `isin()` 方法用于**检查数据是否包含在指定值集合中**。
+ 核心作用
 
-     核心作用
+ - **返回唯一值**：去除重复值，返回所有不重复的元素
+ - **保持出现顺序**：按数据首次出现的顺序返回结果
+ - **适用于 Series**：通常对 DataFrame 的某一列使用
 
-     - **成员资格判断**：判断 Series 或 DataFrame 中的每个元素是否属于给定的值列表/集合
-     - **返回布尔值**：存在返回 `True`，不存在返回 `False`
-     - **支持多种数据类型**：列表、集合、字典、Series 等
+ `pandas` 中的 `isin()` 方法用于**检查数据是否包含在指定值集合中**。
 
-     ```python
-     # 定义合法的行为类型
-     valid_behaviors = ['pv', 'buy', 'cart', 'fav']
-     
-     # 查看当前有哪些行为类型
-     print("当前行为类型：")
-     print(df['behavior_type'].unique())
-     
-     # 只保留合法行为的行
-     df = df[df['behavior_type'].isin(valid_behaviors)]
-     
-     print("过滤后行数：", len(df))
-     ```
+ 核心作用
 
-  6. 转换时间戳为可读时间
+ - **成员资格判断**：判断 Series 或 DataFrame 中的每个元素是否属于给定的值列表/集合
+ - **返回布尔值**：存在返回 `True`，不存在返回 `False`
+ - **支持多种数据类型**：列表、集合、字典、Series 等
 
-     `pandas` 中的 `to_datetime()` 函数用于**将参数转换为 datetime 类型**。
+ ```python
+ # 定义合法的行为类型
+ valid_behaviors = ['pv', 'buy', 'cart', 'fav']
+ 
+ # 查看当前有哪些行为类型
+ print("当前行为类型：")
+ print(df['behavior_type'].unique())
+ 
+ # 只保留合法行为的行
+ df = df[df['behavior_type'].isin(valid_behaviors)]
+ 
+ print("过滤后行数：", len(df))
+ ```
 
-     核心作用
+### 6. 转换时间戳为可读时间：`to_datetime()`
 
-     - **类型转换**：将时间字符串、时间戳、时间列表、Series 等转换为 pandas 的 datetime 类型
+ `pandas` 中的 `to_datetime()` 函数用于**将参数转换为 datetime 类型**。
 
-| 输入（杂七杂八）                                     | `pd.to_datetime()` | 输出（统一格式）                                                    |
+ 核心作用
+
+ - **类型转换**：将时间字符串、时间戳、时间列表、Series 等转换为 pandas 的 datetime 类型
+
+| 输入                                           | `pd.to_datetime()` | 输出（统一格式）                                                    |
 | -------------------------------------------- | :----------------: | ----------------------------------------------------------- |
 | `'2024-03-15'`                               |         →          | `Timestamp('2024-03-15')`                                   |
 | `'2024/03/15 14:30:00'`                      |         →          | `Timestamp('2024-03-15 14:30:00')`                          |
@@ -1030,38 +1030,38 @@ s                              func(x)                  结果
 | `1710460800000`（毫秒时间戳）                       |         →          | `Timestamp('2024-03-15')`                                   |
 | `['2024-01-01', '2024-06-15', '2024-12-31']` |         →          | `DatetimeIndex(['2024-01-01', '2024-06-15', '2024-12-31'])` |
 | `df['timestamp']`（object 列）                  |         →          | `datetime64[ns]` 列                                          |
-     
- - **统一时间格式**：支持多种时间格式的自动识别
  
+- **统一时间格式**：支持多种时间格式的自动识别
+
 ```python
- # 把时间戳（整数）转换成 datetime 格式
- df['datetime'] = pd.to_datetime(df['timestamp'])
- 
- # 看一下转换效果
- print("转换后的时间列（前5行）：")
- print(df['datetime'].head())
+# 把时间戳（整数）转换成 datetime 格式
+df['datetime'] = pd.to_datetime(df['timestamp'])
+
+# 看一下转换效果
+print("转换后的时间列（前5行）：")
+print(df['datetime'].head())
 ```
 
-  7. 从时间中提取日期、小时、星期
+### 7. 从时间中提取日期、小时、星期
 
-     获取时间的某个日历字段的数值
+ 获取时间的某个日历字段的数值
 
-     Series.dt 提供了很多日期相关操作，如下：
+ Series.dt 提供了很多日期相关操作，如下：
 
-     ```text
-     Series.dt.year	The year of the datetime.
-     Series.dt.month	The month as January=1, December=12.
-     Series.dt.day	The days of the datetime.
-     Series.dt.hour	The hours of the datetime.
-     Series.dt.minute	The minutes of the datetime.
-     Series.dt.second	The seconds of the datetime.
-     Series.dt.week	The week ordinal of the year.
-     Series.dt.weekofyear	The week ordinal of the year.
-     Series.dt.dayofweek	The day of the week with Monday=0, Sunday=6.
-     Series.dt.weekday	The day of the week with Monday=0, Sunday=6.
-     Series.dt.dayofyear	The ordinal day of the year.
-     Series.dt.quarter	The quarter of the date
-     ```
+ ```text
+ Series.dt.year	The year of the datetime.
+ Series.dt.month	The month as January=1, December=12.
+ Series.dt.day	The days of the datetime.
+ Series.dt.hour	The hours of the datetime.
+ Series.dt.minute	The minutes of the datetime.
+ Series.dt.second	The seconds of the datetime.
+ Series.dt.week	The week ordinal of the year.
+ Series.dt.weekofyear	The week ordinal of the year.
+ Series.dt.dayofweek	The day of the week with Monday=0, Sunday=6.
+ Series.dt.weekday	The day of the week with Monday=0, Sunday=6.
+ Series.dt.dayofyear	The ordinal day of the year.
+ Series.dt.quarter	The quarter of the date
+ ```
 
 
 
@@ -1071,10 +1071,10 @@ s                              func(x)                  结果
 s = pd.Series(pd.to_datetime('2024-03-15 14:30:45'))
 ```
 ```
- 2024  -03  -15   14:   30:    45
+2024  -03  -15   14:   30:    45
 └─┬─┘  └┬┘  └┬┘   └┬┘   └┬┘    └┬┘
- year month day   hour minute second
- 2024   3   15     14    30     45
+year month day   hour minute second
+2024   3   15     14    30     45
 ```
 
 | 操作                | 结果     | 说明                          |
@@ -1092,19 +1092,19 @@ s = pd.Series(pd.to_datetime('2024-03-15 14:30:45'))
 | `s.dt.dayofyear`  | `75`   | 当年第 75 天（1月31天+2月29天+3月15天） |
 | `s.dt.quarter`    | `1`    | 第 1 季度（3月在 Q1）              |
 
- ```python
- # 提取日期（年-月-日）
- df['date'] = df['datetime'].dt.date
- 
- # 提取小时（0~23）
- df['hour'] = df['datetime'].dt.hour
- 
- # 提取星期几（0=周一, 6=周日）
- df['weekday'] = df['datetime'].dt.dayofweek
- 
- print("新增列后的列名：")
- print(df.columns.tolist())
- 
- # 查看前3行确认
- df.head(3)
- ```
+```python
+# 提取日期（年-月-日）
+df['date'] = df['datetime'].dt.date
+
+# 提取小时（0~23）
+df['hour'] = df['datetime'].dt.hour
+
+# 提取星期几（0=周一, 6=周日）
+df['weekday'] = df['datetime'].dt.dayofweek
+
+print("新增列后的列名：")
+print(df.columns.tolist())
+
+# 查看前3行确认
+df.head(3)
+```

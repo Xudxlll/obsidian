@@ -2,10 +2,12 @@
   "enabledCssSnippets": [
     "inline-translation",
     "note-toolbar-hover-background",
-    "fix-note-toolbar-width"
+    "fix-note-toolbar-width",
+    "table-body-font-size",
+    "center-images-and-tables"
   ],
   "cssTheme": "Typora-Vue",
   "baseFontSizeAction": true,
-  "baseFontSize": 16,
+  "baseFontSize": 19,
   "theme": "system"
 }

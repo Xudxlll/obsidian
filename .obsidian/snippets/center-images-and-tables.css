@@ -1,0 +1,32 @@
+/*
+  默认居中显示图片和整张表格。
+  注意：这里只让图片/表格这个元素居中，不强制改变表格单元格文字的对齐方式。
+*/
+
+/* 阅读模式：图片居中 */
+.markdown-rendered img,
+.markdown-rendered .image-embed,
+.markdown-rendered .internal-embed.image-embed {
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* 阅读模式：整张表格居中 */
+.markdown-rendered table {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+/* Live Preview 中已渲染出来的图片/表格，也尽量居中 */
+.markdown-source-view.mod-cm6 .image-embed,
+.markdown-source-view.mod-cm6 img {
+  display: block;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.markdown-source-view.mod-cm6 table {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}

@@ -1,0 +1,26 @@
+{
+  "id": "conv-1782352323429-ajagvbey9",
+  "providerId": "codex",
+  "title": "Explain Chapter 3.4",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782352323431,
+  "updatedAt": 1782355497856,
+  "lastResponseAt": 1782355497856,
+  "sessionId": "019efc7a-23b6-7111-a230-24faaea9faa6",
+  "providerState": {
+    "threadId": "019efc7a-23b6-7111-a230-24faaea9faa6",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/25/rollout-2026-06-25T09-52-03-019efc7a-23b6-7111-a230-24faaea9faa6.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "currentNote": "数据分析笔记/05-机器学习概述.md",
+  "usage": {
+    "inputTokens": 26199,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 21376,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 26199,
+    "percentage": 10,
+    "model": "gpt-5.5"
+  }
+}
