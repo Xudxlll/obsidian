@@ -4,8 +4,8 @@
   "title": "Explain character usage in table line 447",
   "titleGenerationStatus": "success",
   "createdAt": 1782379939985,
-  "updatedAt": 1782380011527,
-  "lastResponseAt": 1782380011527,
+  "updatedAt": 1782395239637,
+  "lastResponseAt": 1782394520624,
   "sessionId": "9f258249-4f89-44d1-b697-1219a4f1d62b",
   "providerState": {
     "providerSessionId": "9f258249-4f89-44d1-b697-1219a4f1d62b"
@@ -13,11 +13,11 @@
   "currentNote": "Python基础/12-标准库模块.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 587,
+    "inputTokens": 117,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 24576,
+    "cacheReadInputTokens": 25216,
     "contextWindow": 1000000,
-    "contextTokens": 25163,
+    "contextTokens": 25333,
     "percentage": 3,
     "contextWindowIsAuthoritative": true
   }

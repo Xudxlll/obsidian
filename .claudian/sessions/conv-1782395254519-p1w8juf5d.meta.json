@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782395254519-p1w8juf5d",
+  "providerId": "claude",
+  "title": "Check list errors at line 1196",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782395254520,
+  "updatedAt": 1782396561338,
+  "lastResponseAt": 1782396561338,
+  "sessionId": "7b74d2c9-07ca-448f-8209-6521075d8390",
+  "providerState": {
+    "providerSessionId": "7b74d2c9-07ca-448f-8209-6521075d8390"
+  },
+  "currentNote": "Python基础/06-自定义函数高级.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 482,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 27008,
+    "contextWindow": 1000000,
+    "contextTokens": 27490,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
