@@ -4504,6 +4504,7 @@
       "isHidden": false,
       "sortOrder": "byName",
       "customOrder": [
+        "07-逻辑回归.md",
         "05-机器学习概述.md",
         "06-线性回归.md",
         "img",
@@ -7271,6 +7272,10 @@
       "sortOrder": "custom"
     },
     "数学/线性代数.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析笔记/07-逻辑回归.md": {
       "isPinned": false,
       "isHidden": false
     }
