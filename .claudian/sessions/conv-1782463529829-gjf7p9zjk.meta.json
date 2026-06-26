@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782463529829-gjf7p9zjk",
+  "providerId": "claude",
+  "title": "Explain c and cmap in matplotlib scatter",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782463529829,
+  "updatedAt": 1782467619550,
+  "lastResponseAt": 1782467619550,
+  "sessionId": "55419861-19d4-4a66-9e24-e0417e698b8f",
+  "providerState": {
+    "providerSessionId": "55419861-19d4-4a66-9e24-e0417e698b8f"
+  },
+  "currentNote": "数据分析笔记/07-逻辑回归.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 726,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 36352,
+    "contextWindow": 1000000,
+    "contextTokens": 37078,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
