@@ -5,7 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "作业&练习.md",
+        "python爬虫",
         "数学",
         "数据分析笔记",
         "数据分析",
@@ -4449,8 +4449,9 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "作业2.md",
         "assets",
+        "作业2.md",
+        "作业&练习.md",
         "作业1.md",
         "NumPy 顶层函数与数组方法的区别.md",
         "NumPy 数组的合并与分割.md",
@@ -7281,11 +7282,23 @@
       "isPinned": false,
       "isHidden": false
     },
-    "作业&练习.md": {
+    "Clippings/未命名.md": {
       "isPinned": false,
       "isHidden": false
     },
-    "Clippings/未命名.md": {
+    "数据分析/作业&练习.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "python爬虫": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "陈楷锐老师-爬虫先导课笔记.md"
+      ]
+    },
+    "python爬虫/陈楷锐老师-爬虫先导课笔记.md": {
       "isPinned": false,
       "isHidden": false
     }

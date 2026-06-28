@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782574371204-tmy2f10wc",
+  "providerId": "claude",
+  "title": "Summarize lecture subtitles to markdown",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782574371207,
+  "updatedAt": 1782574434741,
+  "lastResponseAt": 1782574434741,
+  "sessionId": "1830a0e7-4efd-40cc-8a80-ba7569590d36",
+  "providerState": {
+    "providerSessionId": "1830a0e7-4efd-40cc-8a80-ba7569590d36"
+  },
+  "currentNote": "Clippings/未命名.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 71,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 55296,
+    "contextWindow": 1000000,
+    "contextTokens": 55367,
+    "percentage": 6,
+    "contextWindowIsAuthoritative": true
+  }
+}
