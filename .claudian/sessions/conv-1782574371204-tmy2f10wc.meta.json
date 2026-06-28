@@ -4,8 +4,8 @@
   "title": "Summarize lecture subtitles to markdown",
   "titleGenerationStatus": "success",
   "createdAt": 1782574371207,
-  "updatedAt": 1782574434741,
-  "lastResponseAt": 1782574434741,
+  "updatedAt": 1782653098349,
+  "lastResponseAt": 1782653098349,
   "sessionId": "1830a0e7-4efd-40cc-8a80-ba7569590d36",
   "providerState": {
     "providerSessionId": "1830a0e7-4efd-40cc-8a80-ba7569590d36"
@@ -13,12 +13,12 @@
   "currentNote": "Clippings/未命名.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 71,
+    "inputTokens": 3638,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 55296,
+    "cacheReadInputTokens": 72576,
     "contextWindow": 1000000,
-    "contextTokens": 55367,
-    "percentage": 6,
+    "contextTokens": 76214,
+    "percentage": 8,
     "contextWindowIsAuthoritative": true
   }
 }

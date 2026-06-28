@@ -34,6 +34,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "未命名 2.md",
+        "未命名 1.md",
         "未命名.md",
         "2026-06-18-3-6 Numpy数组的合并与分割.md",
         "2026-06-13-SpaceX上市，背后在玩什么资本游戏_.md",
@@ -7299,6 +7301,14 @@
       ]
     },
     "python爬虫/陈楷锐老师-爬虫先导课笔记.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Clippings/未命名 1.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Clippings/未命名 2.md": {
       "isPinned": false,
       "isHidden": false
     }
