@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782700916446-pbnxatclc",
+  "providerId": "claude",
+  "title": "Add StandardScaler fit_transform example",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782700916449,
+  "updatedAt": 1782700968603,
+  "lastResponseAt": 1782700968603,
+  "sessionId": "bfcc0be6-f427-4b1f-8ca4-ccb5717f36c5",
+  "providerState": {
+    "providerSessionId": "bfcc0be6-f427-4b1f-8ca4-ccb5717f36c5"
+  },
+  "currentNote": "数据分析笔记/04-数据预处理.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 796,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 27008,
+    "contextWindow": 1000000,
+    "contextTokens": 27804,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
