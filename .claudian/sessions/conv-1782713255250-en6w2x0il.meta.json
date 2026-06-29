@@ -1,0 +1,26 @@
+{
+  "id": "conv-1782713255250-en6w2x0il",
+  "providerId": "codex",
+  "title": "Reformat notes for clarity",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782713255250,
+  "updatedAt": 1782713479827,
+  "lastResponseAt": 1782713479827,
+  "sessionId": "019f11fd-99d4-77c2-90cd-dfeb3ce2eeef",
+  "providerState": {
+    "threadId": "019f11fd-99d4-77c2-90cd-dfeb3ce2eeef",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/06/29/rollout-2026-06-29T14-07-40-019f11fd-99d4-77c2-90cd-dfeb3ce2eeef.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions"
+  },
+  "currentNote": "腾讯小龙虾（WorkBuddy）.md",
+  "usage": {
+    "inputTokens": 57664,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 53632,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 57664,
+    "percentage": 22,
+    "model": "gpt-5.5"
+  }
+}
