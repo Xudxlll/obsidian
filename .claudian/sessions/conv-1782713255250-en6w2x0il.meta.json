@@ -4,8 +4,8 @@
   "title": "Reformat notes for clarity",
   "titleGenerationStatus": "success",
   "createdAt": 1782713255250,
-  "updatedAt": 1782713479827,
-  "lastResponseAt": 1782713479827,
+  "updatedAt": 1782717594085,
+  "lastResponseAt": 1782717594085,
   "sessionId": "019f11fd-99d4-77c2-90cd-dfeb3ce2eeef",
   "providerState": {
     "threadId": "019f11fd-99d4-77c2-90cd-dfeb3ce2eeef",
@@ -14,13 +14,13 @@
   },
   "currentNote": "腾讯小龙虾（WorkBuddy）.md",
   "usage": {
-    "inputTokens": 57664,
+    "inputTokens": 77388,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 53632,
+    "cacheReadInputTokens": 75648,
     "contextWindow": 258400,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 57664,
-    "percentage": 22,
+    "contextTokens": 77388,
+    "percentage": 30,
     "model": "gpt-5.5"
   }
 }
