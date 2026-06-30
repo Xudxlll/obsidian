@@ -344,7 +344,7 @@ print(df)
 
 | 方法参数       | 参数解释                        |
 | ---------- | --------------------------- |
-| filename   | 新的文件对象或已存在文件路径              |
+| filename   | 写入的Excel文件路径（字符串），如 `'output.xlsx'`、`'./data/result.xlsx'`；或已存在的文件路径（会覆盖）；也可传入 `pd.ExcelWriter` 对象，用于将多个DataFrame写入同一文件的不同Sheet |
 | sheet_name | 内容写入到的sheet名称。默认值为“sheet1”。 |
 | na_rep     | 缺失数据的表示方式，默认 “”。            |
 | columns    | 要编写的列                       |

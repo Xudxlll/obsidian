@@ -4,8 +4,8 @@
   "title": "Identify filename at line 343",
   "titleGenerationStatus": "success",
   "createdAt": 1782804975221,
-  "updatedAt": 1782804988317,
-  "lastResponseAt": 1782804988317,
+  "updatedAt": 1782811017919,
+  "lastResponseAt": 1782810812896,
   "sessionId": "1f587991-bc78-4a17-848c-a3f8c960c2d2",
   "providerState": {
     "providerSessionId": "1f587991-bc78-4a17-848c-a3f8c960c2d2"
@@ -13,12 +13,12 @@
   "currentNote": "数据分析笔记/03-pandas.md",
   "usage": {
     "model": "opus",
-    "inputTokens": 477,
+    "inputTokens": 694,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 22912,
+    "cacheReadInputTokens": 24320,
     "contextWindow": 1000000,
-    "contextTokens": 23389,
-    "percentage": 2,
+    "contextTokens": 25014,
+    "percentage": 3,
     "contextWindowIsAuthoritative": true
   }
 }

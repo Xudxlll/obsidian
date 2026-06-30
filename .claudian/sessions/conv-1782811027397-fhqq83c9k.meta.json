@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782811027397-fhqq83c9k",
+  "providerId": "claude",
+  "title": "解释按位或和按位与运算",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782811027397,
+  "updatedAt": 1782811197407,
+  "lastResponseAt": 1782811197407,
+  "sessionId": "ed77c07c-7ed0-40f6-9ee8-eaf7c8e26ef6",
+  "providerState": {
+    "providerSessionId": "ed77c07c-7ed0-40f6-9ee8-eaf7c8e26ef6"
+  },
+  "currentNote": "Python基础/04-运算符与流程控制.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 1780,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 31232,
+    "contextWindow": 1000000,
+    "contextTokens": 33012,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}

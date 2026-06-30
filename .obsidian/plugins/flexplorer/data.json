@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "项目汇报PPT讲解稿.md",
         "腾讯小龙虾（WorkBuddy）.md",
         "python爬虫",
         "数学",
@@ -7309,6 +7310,10 @@
       "isHidden": false
     },
     "腾讯小龙虾（WorkBuddy）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "项目汇报PPT讲解稿.md": {
       "isPinned": false,
       "isHidden": false
     }
