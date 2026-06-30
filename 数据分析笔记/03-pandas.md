@@ -270,12 +270,13 @@ df = pd.concat([top, new_row, bottom])
 
 ##### 行列拼接对照
 
-| 操作 | 列 | 行 |
-|------|------|------|
-| **末尾追加** | `df['new'] = 值` | `pd.concat([df, new_row])` |
-| **中间插入** | `df.insert(pos, 名, 值)` | 切片 + `concat` |
-| **删除** | `df.drop('列', axis=1)` | `df.drop('行')` |
-| **追加自身** | — | `pd.concat([df, df])` |
+| 操作       | 列                      | 行                          |
+| -------- | ---------------------- | -------------------------- |
+| **末尾追加** | `df['new'] = 值`        | `pd.concat([df, new_row])` |
+| **中间插入** | `df.insert(pos, 名, 值)` | 切片 + `concat`              |
+| **删除**   | `df.drop('列', axis=1)` | `df.drop('行')`             |
+| **追加自身** | —                      | `pd.concat([df, df])`      |
+|          |                        |                            |
 
 > DataFrame 底层按列存储，列操作更原生；行操作跨越所有列，通常靠 `concat` 拼凑。
 
@@ -1071,10 +1072,10 @@ print(df['datetime'].head())
 s = pd.Series(pd.to_datetime('2024-03-15 14:30:45'))
 ```
 ```
-2024  -03  -15   14:   30:    45
+2024  -03   -15   14:   30:    45
 └─┬─┘  └┬┘  └┬┘   └┬┘   └┬┘    └┬┘
-year month day   hour minute second
-2024   3   15     14    30     45
+year month  day   hour minute second
+2024   3    15     14    30     45
 ```
 
 | 操作                | 结果     | 说明                          |
@@ -1107,4 +1108,115 @@ print(df.columns.tolist())
 
 # 查看前3行确认
 df.head(3)
+```
+
+## 7.3 字符串访问器 `.str` 与时间访问器 `.dt`
+
+### `.str` 访问器
+
+`.str` 是 pandas 提供的**字符串访问器（accessor）**，让你能把 Python 的字符串方法**逐元素**应用到整个 Series 的每一个值上。
+
+**为什么不能直接 `series.split()`？**
+
+因为 Series 是一个列（包含很多个值），不是一个单独的字符串。必须通过 `.str` 告诉 pandas："对这个 Series 里的**每一个元素**执行字符串操作"。
+
+```python
+# Series 里的值
+s = pd.Series(['2707 days 00:00:00', '2597 days 00:00:00', '90 days 05:36:00'])
+
+# ❌ s.split()  →  Series 没有 split 方法，报错！
+# AttributeError: 'Series' object has no attribute 'split'
+
+# ✅ s.str.split()  →  对每个元素执行 split
+s.str.split()
+# 0    [2707, days, 00:00:00]
+# 1    [2597, days, 00:00:00]
+# 2      [90, days, 05:36:00]
+
+s.str[0]     # 取每个列表的第0个元素
+# 0    2707
+# 1    2597
+# 2      90
+```
+
+**常用 `.str` 方法对照表**
+
+| Python 字符串方法 | Pandas Series 写法 | 作用 |
+|-------------------|-------------------|------|
+| `"abc".split()` | `series.str.split()` | 按分隔符切分 |
+| `"abc".upper()` | `series.str.upper()` | 转大写 |
+| `"abc".lower()` | `series.str.lower()` | 转小写 |
+| `"abc"[0]` | `series.str[0]` | 取第 N 个字符 |
+| `"abc".replace("a","b")` | `series.str.replace("a","b")` | 替换 |
+| `"abc".startswith("a")` | `series.str.startswith("a")` | 判断开头 |
+| `"abc".contains("b")` | `series.str.contains("b")` | 判断包含 |
+| `"  abc ".strip()` | `series.str.strip()` | 去除两端空格 |
+| `len("abc")` | `series.str.len()` | 字符串长度 |
+
+### `.dt` 访问器
+
+`.dt` 是 pandas 提供的**时间访问器**，用于从 datetime64 / timedelta64 类型的 Series 中提取时间分量。
+
+**两个 datetime64 列可以直接相减吗？**
+
+可以。两个 `datetime64` 列相减得到的是 **Timedelta** 类型，但它**不是纯数字**，只是显示上看起来像天数：
+
+```python
+# 两个 datetime64 相减
+L = pd.to_datetime('2014-03-31') - pd.to_datetime('2006-11-02')
+# Timedelta('2707 days 00:00:00')
+
+type(L)   # pandas._libs.tslibs.timedeltas.Timedelta ← 不是 int！
+```
+
+**直接除以 30 会怎样？**
+
+```python
+# ❌ Timedelta / 30 → 结果还是 Timedelta，不是数字！
+pd.Timedelta('2707 days') / 30
+# Timedelta('90 days 05:36:00')   ← 看起来像天数，但本质还是时间差
+
+# ✅ 先取出天数，再除以 30 → 得到 float
+pd.Timedelta('2707 days').days / 30
+# 90.2333...   ← 这才是可以用于建模的数字
+```
+
+**`.dt` 常用属性（datetime64）**
+
+| 操作 | 结果 | 说明 |
+|------|------|------|
+| `s.dt.year` | `2024` | 年 |
+| `s.dt.month` | `3` | 月 |
+| `s.dt.day` | `15` | 日 |
+| `s.dt.hour` | `14` | 时（0-23） |
+| `s.dt.minute` | `30` | 分 |
+| `s.dt.dayofweek` | `4` | 星期几（周一=0, 周日=6） |
+| `s.dt.date` | `2024-03-15` | 只取日期部分 |
+
+**`.dt` 常用属性（timedelta64）**
+
+| 操作 | 说明 |
+|------|------|
+| `s.dt.days` | 提取天数（整数） |
+| `s.dt.seconds` | 提取不足一天的秒数 |
+| `s.dt.total_seconds()` | 提取总秒数 |
+
+### 实战：提取 Timedelta 中天数的两种写法
+
+```python
+# 计算客户关系长度：结束时间 - 入会时间
+L = df['LOAD_TIME'] - df['FFP_DATE']
+# L 类型：Timedelta，显示如 '2707 days 00:00:00'
+
+# ✅ 推荐写法：直接用 .dt.days
+L = L.dt.days / 30
+
+# ❌ 土办法（早期教程常见）：先转字符串再切分
+L = L.astype('str').str.split().str[0].astype('int') / 30
+#    ~~~~~~~~~~~   ~~~~~~~~~   ~~~~~~   ~~~~~~~~~~
+#    ①转字符串     ②按空格切   ③取首    ④转回整数
+#    '2707 days  → ['2707',  → '2707' → 2707 ÷ 30 = 90.23
+#     00:00:00'    'days',...]
+
+# 两种写法结果完全一样，但 .dt.days 一行搞定，更快更清晰
 ```
