@@ -6,7 +6,7 @@ tags:
   - NumPy
   - ndarray
   - 数据分析
-source_note: "[[Clippings/2026-06-18-3-6 Numpy数组的合并与分割]]"
+source_note: "[[../Clippings/2026-06-18-3-6 Numpy数组的合并与分割]]"
 source_url: https://www.bilibili.com/video/BV1T2X8YBEMK/
 ---
 
@@ -881,4 +881,4 @@ print("y.shape =", y.shape)  # (4,)
 
 # 来源说明
 
-本文根据视频字幕重新整理，并对字幕中的函数名称、参数写法和示例代码进行了规范化。原始字幕见：[[Clippings/2026-06-18-3-6 Numpy数组的合并与分割]]。
+本文根据视频字幕重新整理，并对字幕中的函数名称、参数写法和示例代码进行了规范化。原始字幕见：[[../Clippings/2026-06-18-3-6 Numpy数组的合并与分割]]。
