@@ -4,7 +4,8 @@
     "note-toolbar-hover-background",
     "fix-note-toolbar-width",
     "table-body-font-size",
-    "center-images-and-tables"
+    "center-images-and-tables",
+    "hide-note-toolbar-in-reading"
   ],
   "cssTheme": "Typora-Vue",
   "baseFontSizeAction": true,

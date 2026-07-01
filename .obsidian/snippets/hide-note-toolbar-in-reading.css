@@ -1,0 +1,10 @@
+/* Hide Note Toolbar in Markdown reading mode only. */
+.workspace-leaf-content[data-type="markdown"][data-mode="preview"]
+  :is(
+    .cg-note-toolbar-container,
+    .cg-note-toolbar-bar-container,
+    .cg-note-toolbar-callout,
+    .callout[data-callout="note-toolbar"]
+  ) {
+  display: none !important;
+}
