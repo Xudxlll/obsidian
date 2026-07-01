@@ -1,6 +1,6 @@
-# 1. Python 科学计算库 - Numpy
+# Python 科学计算库 - Numpy
 
-## 1.1 Numpy 概述
+# 一、Numpy 概述
 
 - **什么是 Numpy**
 
@@ -42,9 +42,9 @@
   print(ary1 + 3)
   ```
 
-## 1.2 Numpy 基础
+# 二、Numpy 基础
 
-### 1.2.1 ndarray 数组
+## 2.1 ndarray 数组
 
 用 np.ndarray 类的对象表示 n 维数组
 
@@ -54,7 +54,7 @@ ary = np.array([1,2,3,4,5,6])
 print(type(ary))
 ```
 
-#### 1.2.1.1 内存中的 ndarray 对象
+### 2.1.1 内存中的 ndarray 对象
 
 - **元数据（metadata）**
 
@@ -122,12 +122,12 @@ print(type(ary))
   c = a + b  # 不复制数据，通过strides实现广播
   ```
 
-#### 1.2.1.2 ndarray 数组对象的特点
+### 2.1.2 ndarray 数组对象的特点
 
 1. Numpy 数组是同质数组，即所有元素的数据类型必须相同。
 2. Numpy 数组的下标从 0 开始，最后一个元素的下标为数组长度减 1 。
 
-#### 1.2.1.3 ndarray 数组对象的创建
+### 2.1.3 ndarray 数组对象的创建
 
 - np.array(任何可被解释为 Numpy 数组的逻辑结构)
 
@@ -207,7 +207,7 @@ t10 = np.ones(5) / 5
 print(t10)
 ```
 
-#### 1.2.1.4 Numpy 的内部基本数据类型
+### 2.1.4 Numpy 的内部基本数据类型
 
 | 类型名       | 类型表示符                              | 字符码            |
 | ------------ | --------------------------------------- | ----------------- |
@@ -218,7 +218,7 @@ print(t10)
 | 复数型       | complex64 / complex128                  | c8 / c16          |
 | 字串型       | str_，每个字符用32位Unicode编码表示     | U                 |
 
-#### 1.2.1.5 ndarray 对象属性的基本操作
+### 2.1.5 ndarray 对象属性的基本操作
 
 - **数组的维度：**np.ndarray.shape
 
@@ -327,7 +327,7 @@ for i in range(a.shape[0]):
             print(a[i, j, k])
 ```
 
-#### 1.2.1.6 轴（axis）
+### 2.1.6 轴（axis）
 
 在 numpy 中可以理解为方向，使用0,1,2...数字表示，对于一个一维数组，只有一个0轴，对于2维数组(shape(2,2))，有0轴和1轴，对于三维数组(shape(2,2,3))，有0,1,2轴
 
@@ -348,7 +348,7 @@ for i in range(a.shape[0]):
 
 **轴 = 数组的第几个维度，axis=k 的聚合操作会把第 k 个维度"压缩掉"（对应 shape 中该位消失），而运算本质上就是沿着这个方向把元素合并成一个。**
 
-#### 1.2.1.7 ndarray 数组切片操作
+### 2.1.7 ndarray 数组切片操作
 
 对于刚加载出来的数据，我如果想选择其中的某一列或行或页我们应该怎么做？
 
@@ -397,7 +397,7 @@ print(a[:, 1, :])
 print(a[0, :, 1])
 ```
 
-#### 1.2.1.8 ndarray 数组的掩码操作
+### 2.1.8 ndarray 数组的掩码操作
 
 数据很大情况下是凌乱的，并且含有空白的或者无法处理的字符，掩码式数组可以很好的忽略残缺的或者是无效的数据点。掩码分为：布尔掩码 和 索引掩码。布尔掩码是掩出位置为True的值 ，从大数据集中抽取出一小部分。索引掩码是按对应下标的元素输出出来。
 
@@ -416,7 +416,115 @@ inds = [1,3,2,0]
 print(products[inds])
 ```
 
-#### 1.2.1.9  多维数组的组合拆分
+> **花式索引（Fancy Indexing，即索引掩码）**：用整数数组当下标，按位置取元素；与布尔掩码（用 True/False 数组当下标，按条件筛选）是两种不同的高级索引方式。
+
+**1. numpy array 的花式索引**
+
+`idx` 可以是 Python list 也可以是 numpy array，效果一样：
+
+```python
+import numpy as np
+
+a = np.array(['A', 'B', 'C', 'D', 'E'])
+
+# idx 用 Python list
+print(a[[0, 2, 4]])            # → ['A', 'C', 'E']
+
+# idx 用 numpy array
+print(a[np.array([0, 2, 4])])  # → ['A', 'C', 'E']，效果相同
+
+# 按重要性排序的典型场景
+fi = np.array([0.05, 0.60, 0.10, 0.20, 0.03])
+sorted_idx = fi.argsort()[::-1]  # → [1, 3, 2, 0, 4]
+print(a[sorted_idx])             # → ['B', 'D', 'C', 'A', 'E']
+```
+
+花式索引也支持多维数组，按行/页取：
+
+```python
+a = np.arange(12).reshape(4, 3)
+# [[ 0  1  2]
+#  [ 3  4  5]
+#  [ 6  7  8]
+#  [ 9 10 11]]
+
+print(a[[1, 3]])     # 取第1行和第3行
+# [[ 3  4  5]
+#  [ 9 10 11]]
+
+print(a[[0, 2, 3]])  # 取第0、2、3行，顺序可任意
+# [[ 0  1  2]
+#  [ 6  7  8]
+#  [ 9 10 11]]
+```
+
+**2. pandas Series 的花式索引**
+
+```python
+import pandas as pd
+
+s = pd.Series(['Apple', 'Mi', 'Huawei', 'Oppo', 'Vivo'], index=[10, 20, 30, 40, 50])
+
+# idx 用 list
+print(s[[10, 30, 50]])              # 按 label 取，不是按位置！
+# → 10      Apple
+#    30    Huawei
+#    50      Vivo
+
+# idx 用 array
+print(s[np.array([10, 30, 50])])    # 同样按 label 取，效果相同
+
+# 想按位置取，用 .iloc[]
+print(s.iloc[[1, 3, 0]])            # 这才是按位置
+# → 20       Mi
+#    40     Oppo
+#    10    Apple
+```
+
+> **注意！** Series 的花式索引默认按 **label（索引名）** 匹配，不是按位置。这和 numpy array 不同。
+
+**3. pandas Index 的花式索引**
+
+```python
+import pandas as pd
+import numpy as np
+
+idx = pd.Index(['CRIM', 'ZN', 'INDUS', 'CHAS', 'NOX', 'RM'])
+
+# idx 用 list
+print(idx[[0, 5, 2]])
+# → Index(['CRIM', 'RM', 'INDUS'])
+
+# idx 用 array
+print(idx[np.array([5, 0, 3])])
+# → Index(['RM', 'CRIM', 'CHAS'])
+
+# 决策树特征重要性的典型场景
+fi = np.array([0.05, 0.01, 0.03, 0.00, 0.06, 0.60])
+sorted_pos = fi.argsort()[::-1]  # → [5, 4, 0, 2, 1, 3]
+print(idx[sorted_pos])
+# → Index(['RM', 'NOX', 'CRIM', 'INDUS', 'ZN', 'CHAS'])
+```
+
+**4. Python 原生 list 不支持花式索引**
+
+```python
+a_list = ['A', 'B', 'C', 'D', 'E']
+
+# ❌ 花式索引报错
+a_list[[0, 2, 4]]
+# TypeError: list indices must be integers or slices, not list
+
+a_list[np.array([0, 2, 4])]
+# TypeError: only integer scalar arrays can be converted to a scalar index
+
+# ✅ 绕过方法
+list(np.array(a_list)[[0, 2, 4]])    # 先转 numpy
+[a_list[i] for i in [0, 2, 4]]       # 列表推导式
+```
+
+
+### 2.1.9  多维数组的组合拆分
 
 假设：现在有两个表，一个表三列存放三个同学的语数外三科成绩，另外一张表三列存放这三个同学的史地生成绩，现在将这三个同学的成绩合并在一起，那这个就是水平方向的一个合并
 
@@ -483,7 +591,7 @@ i = np.dstack((a, b))
 k, l = np.dsplit(i, 2)
 ```
 
-#### 1.2.1.10 自定义复合类型(结构化数组)
+### 2.1.10 自定义复合类型(结构化数组)
 
 结构化数组允许你在一个 NumPy 数组中存储**不同类型**的数据。
 
@@ -510,7 +618,7 @@ print(c[0]['name'], ":", c[0]['scores'], ":", c.itemsize)
 print("=====================================")
 ```
 
-#### 1.2.1.11 ndarray 数组对象的其他属性
+### 2.1.11 ndarray 数组对象的其他属性
 
 - shape - 维度
 - dtype - 元素类型
@@ -541,7 +649,7 @@ b = a.tolist()  # list(arr) 只转最外层，内部仍是ndarray  arr.tolist() 
 print(b)
 ```
 
-### 1.2.2 广播机制
+## 2.2 广播机制
 
 广播的核心原则是：当两个数组的维度形状不匹配时，NumPy 会自动扩展较小数组的维度，使其与较大数组的形状兼容。这种扩展仅发生在虚拟层面，不会实际复制数据，这使得 NumPy 操作既内存高效又计算快速。
 
@@ -636,7 +744,7 @@ print(b)
     # 第2维：3 vs 5 → 无法广播
     ```
 
-### 1.2.3 numpy 常用统计方法
+## 2.3 numpy 常用统计方法
 
 - **获取最大值最小值位置**    np.argmax(ary,axis=0)    np.argmin(ary,axis=1)
 

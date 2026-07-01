@@ -1,0 +1,11 @@
+/* Body text line height. Lists and code blocks keep their own snippet settings. */
+
+body {
+  --custom-body-line-height: 1.6;
+  --line-height-normal: var(--custom-body-line-height);
+}
+
+.markdown-rendered :is(p, blockquote, table),
+.markdown-source-view.mod-cm6 .cm-line:not(.HyperMD-codeblock):not(.HyperMD-list-line) {
+  line-height: var(--custom-body-line-height);
+}

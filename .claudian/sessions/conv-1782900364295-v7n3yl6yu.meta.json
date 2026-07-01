@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782900364295-v7n3yl6yu",
+  "providerId": "claude",
+  "title": "Promote heading levels in markdown",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782900364298,
+  "updatedAt": 1782900618396,
+  "lastResponseAt": 1782900618396,
+  "sessionId": "9c867c6b-d0fe-496b-95fc-331327847c52",
+  "providerState": {
+    "providerSessionId": "9c867c6b-d0fe-496b-95fc-331327847c52"
+  },
+  "currentNote": "数据分析与机器学习/01-Numpy.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 62,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 49280,
+    "contextWindow": 1000000,
+    "contextTokens": 49342,
+    "percentage": 5,
+    "contextWindowIsAuthoritative": true
+  }
+}

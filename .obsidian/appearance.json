@@ -8,7 +8,8 @@
     "hide-note-toolbar-in-reading",
     "typora-python-code-colors",
     "typora-list-bullets",
-    "dock-status-bar-right-sidebar"
+    "dock-status-bar-right-sidebar",
+    "body-line-height-1-6"
   ],
   "cssTheme": "Typora-Vue",
   "baseFontSizeAction": true,
