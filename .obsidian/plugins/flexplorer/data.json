@@ -6633,6 +6633,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "decision_tree_example.png",
         "数组的轴2.png",
         "数组的轴1.png",
         "集成学习6.png",
@@ -7245,6 +7246,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "决策树信息增益划分贷款案例.md",
         "assets",
         "机器学习算法全景笔记.md",
         "作业2.md",
@@ -7364,6 +7366,14 @@
       "isHidden": false
     },
     "typora-screenshot-matched-code-preview.svg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析与机器学习/img/decision_tree_example.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数分与机器额外笔记/决策树信息增益划分贷款案例.md": {
       "isPinned": false,
       "isHidden": false
     }

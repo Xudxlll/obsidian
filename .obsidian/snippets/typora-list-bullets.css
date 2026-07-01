@@ -5,7 +5,7 @@ body {
   --typora-list-bullet-level-2-size: 0.4em;
   --typora-list-bullet-level-3-size: 0.42em;
   --typora-list-bullet-hollow-border: 1.3px;
-  --typora-list-line-height: 1.8;
+  --typora-list-line-height: 2;
   --typora-list-number-color: var(--text-normal);
 }
 
@@ -32,7 +32,8 @@ body {
   font-size: 0.88em;
 }
 
-.markdown-rendered ul.has-list-bullet li {
+.markdown-rendered ul.has-list-bullet li,
+.markdown-rendered ol li {
   line-height: var(--typora-list-line-height);
 }
 

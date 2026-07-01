@@ -1,0 +1,46 @@
+/* Dock Obsidian's status bar to the bottom of the right sidebar. */
+
+body {
+  --docked-status-bar-width: 320px;
+  --docked-status-bar-height: 28px;
+}
+
+body:not(.is-mobile):has(.workspace.is-right-sidedock-open) .status-bar {
+  position: fixed !important;
+  right: 0 !important;
+  bottom: 0 !important;
+  left: auto !important;
+  width: var(--docked-status-bar-width) !important;
+  min-height: var(--docked-status-bar-height) !important;
+  max-height: var(--docked-status-bar-height) !important;
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+  gap: 8px !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  padding: 0 8px !important;
+  border-radius: 0 !important;
+  border-top: 1px solid var(--background-modifier-border) !important;
+  border-left: 1px solid var(--background-modifier-border) !important;
+  background: var(--background-secondary) !important;
+  box-shadow: none !important;
+  z-index: var(--layer-status-bar) !important;
+}
+
+body:not(.is-mobile):has(.workspace.is-right-sidedock-open)
+  .status-bar::-webkit-scrollbar {
+  display: none;
+}
+
+body:not(.is-mobile):has(.workspace.is-right-sidedock-open)
+  .status-bar-item {
+  flex: 0 0 auto;
+  white-space: nowrap;
+}
+
+body:not(.is-mobile):has(.workspace.is-right-sidedock-open)
+  .workspace-split.mod-right-split
+  .workspace-tab-container {
+  padding-bottom: var(--docked-status-bar-height);
+}
