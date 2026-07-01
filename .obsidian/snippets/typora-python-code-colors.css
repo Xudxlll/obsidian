@@ -33,7 +33,7 @@
   code.language-python,
   code.language-py
 ) :is(.token.comment, .token.prolog, .token.doctype, .token.cdata) {
-  color: #a66f35 !important;
+  color: #c17f38 !important;
 }
 
 .markdown-rendered :is(
@@ -139,7 +139,7 @@
    these rules apply to all fenced code blocks while editing. */
 .markdown-source-view.mod-cm6 .cm-hmd-codeblock.cm-comment,
 .markdown-source-view.mod-cm6 .HyperMD-codeblock .cm-comment {
-  color: #a66f35 !important;
+  color: #c17f38 !important;
 }
 
 .markdown-source-view.mod-cm6 .cm-hmd-codeblock.cm-keyword,

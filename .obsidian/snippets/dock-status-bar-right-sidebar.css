@@ -1,8 +1,12 @@
 /* Dock Obsidian's status bar to the bottom of the right sidebar. */
 
 body {
-  --docked-status-bar-width: 320px;
+  --docked-status-bar-width: 488px;
   --docked-status-bar-height: 28px;
+}
+
+body:not(.is-mobile):not(:has(.workspace.is-right-sidedock-open)) .status-bar {
+  display: none !important;
 }
 
 body:not(.is-mobile):has(.workspace.is-right-sidedock-open) .status-bar {
@@ -14,14 +18,16 @@ body:not(.is-mobile):has(.workspace.is-right-sidedock-open) .status-bar {
   min-height: var(--docked-status-bar-height) !important;
   max-height: var(--docked-status-bar-height) !important;
   display: flex !important;
-  justify-content: flex-end !important;
+  justify-content: flex-start !important;
   align-items: center !important;
   gap: 8px !important;
   overflow-x: auto !important;
   overflow-y: hidden !important;
+  scrollbar-width: thin !important;
+  scrollbar-gutter: stable !important;
   padding: 0 8px !important;
   border-radius: 0 !important;
-  border-top: 1px solid var(--background-modifier-border) !important;
+  border-top: 0 !important;
   border-left: 1px solid var(--background-modifier-border) !important;
   background: var(--background-secondary) !important;
   box-shadow: none !important;
@@ -30,17 +36,17 @@ body:not(.is-mobile):has(.workspace.is-right-sidedock-open) .status-bar {
 
 body:not(.is-mobile):has(.workspace.is-right-sidedock-open)
   .status-bar::-webkit-scrollbar {
-  display: none;
+  height: 4px;
+}
+
+body:not(.is-mobile):has(.workspace.is-right-sidedock-open)
+  .status-bar::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb-bg);
+  border-radius: 999px;
 }
 
 body:not(.is-mobile):has(.workspace.is-right-sidedock-open)
   .status-bar-item {
   flex: 0 0 auto;
   white-space: nowrap;
-}
-
-body:not(.is-mobile):has(.workspace.is-right-sidedock-open)
-  .workspace-split.mod-right-split
-  .workspace-tab-container {
-  padding-bottom: var(--docked-status-bar-height);
 }

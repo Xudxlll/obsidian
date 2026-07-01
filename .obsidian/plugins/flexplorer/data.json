@@ -5,10 +5,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "typora-screenshot-matched-code-preview.svg",
-        "typora-codemirror-code-preview.svg",
-        "typora-code-color-preview.svg",
-        "code-color-theme-preview.svg",
         "项目汇报PPT讲解稿.md",
         "腾讯小龙虾（WorkBuddy）.md",
         "python爬虫",
@@ -7333,14 +7329,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "code-color-theme-preview.svg": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "typora-code-color-preview.svg": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "数据分析与机器学习/08-决策树.md": {
       "isPinned": false,
       "isHidden": false
@@ -7358,14 +7346,6 @@
       "isHidden": false
     },
     "数据分析与机器学习/12-集成学习.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "typora-codemirror-code-preview.svg": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "typora-screenshot-matched-code-preview.svg": {
       "isPinned": false,
       "isHidden": false
     },

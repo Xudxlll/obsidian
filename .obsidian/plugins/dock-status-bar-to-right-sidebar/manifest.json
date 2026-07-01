@@ -1,0 +1,9 @@
+{
+  "id": "dock-status-bar-to-right-sidebar",
+  "name": "Dock Status Bar to Right Sidebar",
+  "version": "1.0.0",
+  "minAppVersion": "1.5.0",
+  "description": "Keeps the status bar width synchronized with the right sidebar width.",
+  "author": "Codex",
+  "isDesktopOnly": false
+}
