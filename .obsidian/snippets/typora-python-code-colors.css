@@ -1,7 +1,8 @@
-/* Typora-like syntax colors for Python code blocks only.
-   Matches both ```python and ```py fences in reading mode. */
-.markdown-rendered pre:has(> code:is(.language-python, .language-py)),
-.markdown-rendered :is(
+/* Typora-like syntax colors for Python code blocks in light mode only.
+   Matches both ```python and ```py fences in reading mode.
+   Dark mode falls back to the active Obsidian theme's code block colors. */
+body.theme-light .markdown-rendered pre:has(> code:is(.language-python, .language-py)),
+body.theme-light .markdown-rendered :is(
   pre[class*="language-python"],
   pre[class*="language-py"],
   div[class*="language-python"] pre,
@@ -12,7 +13,7 @@
   box-shadow: none !important;
 }
 
-.markdown-rendered :is(
+body.theme-light .markdown-rendered :is(
   pre:has(> code:is(.language-python, .language-py)) code,
   pre[class*="language-python"] code,
   pre[class*="language-py"] code,
@@ -24,7 +25,7 @@
   color: #111111 !important;
 }
 
-.markdown-rendered :is(
+body.theme-light .markdown-rendered :is(
   pre:has(> code:is(.language-python, .language-py)),
   pre[class*="language-python"],
   pre[class*="language-py"],
@@ -36,7 +37,7 @@
   color: #c17f38 !important;
 }
 
-.markdown-rendered :is(
+body.theme-light .markdown-rendered :is(
   pre:has(> code:is(.language-python, .language-py)),
   pre[class*="language-python"],
   pre[class*="language-py"],
@@ -50,7 +51,7 @@
 
 /* Some renderers classify print( as a keyword; make call-like keywords match
    the editing-mode builtin color without changing import/def/for/return. */
-.markdown-rendered :is(
+body.theme-light .markdown-rendered :is(
   pre:has(> code:is(.language-python, .language-py)),
   pre[class*="language-python"],
   pre[class*="language-py"],
@@ -62,7 +63,7 @@
   color: #2717a8 !important;
 }
 
-.markdown-rendered :is(
+body.theme-light .markdown-rendered :is(
   pre:has(> code:is(.language-python, .language-py)),
   pre[class*="language-python"],
   pre[class*="language-py"],
@@ -74,7 +75,7 @@
   color: #1437d9 !important;
 }
 
-.markdown-rendered :is(
+body.theme-light .markdown-rendered :is(
   pre:has(> code:is(.language-python, .language-py)),
   pre[class*="language-python"],
   pre[class*="language-py"],
@@ -86,7 +87,7 @@
   color: #2717a8 !important;
 }
 
-.markdown-rendered :is(
+body.theme-light .markdown-rendered :is(
   pre:has(> code:is(.language-python, .language-py)),
   pre[class*="language-python"],
   pre[class*="language-py"],
@@ -98,7 +99,7 @@
   color: #aa2634 !important;
 }
 
-.markdown-rendered :is(
+body.theme-light .markdown-rendered :is(
   pre:has(> code:is(.language-python, .language-py)),
   pre[class*="language-python"],
   pre[class*="language-py"],
@@ -110,7 +111,7 @@
   color: #4d8c7f !important;
 }
 
-.markdown-rendered :is(
+body.theme-light .markdown-rendered :is(
   pre:has(> code:is(.language-python, .language-py)),
   pre[class*="language-python"],
   pre[class*="language-py"],
@@ -122,7 +123,7 @@
   color: #a64c5a !important;
 }
 
-.markdown-rendered :is(
+body.theme-light .markdown-rendered :is(
   pre:has(> code:is(.language-python, .language-py)),
   pre[class*="language-python"],
   pre[class*="language-py"],
@@ -134,27 +135,27 @@
   color: #111111 !important;
 }
 
-/* Editing / Live Preview source colors.
+/* Editing / Live Preview source colors in light mode.
    Obsidian CodeMirror does not reliably expose the fence language here, so
    these rules apply to all fenced code blocks while editing. */
-.markdown-source-view.mod-cm6 .cm-hmd-codeblock.cm-comment,
-.markdown-source-view.mod-cm6 .HyperMD-codeblock .cm-comment {
+body.theme-light .markdown-source-view.mod-cm6 .cm-hmd-codeblock.cm-comment,
+body.theme-light .markdown-source-view.mod-cm6 .HyperMD-codeblock .cm-comment {
   color: #c17f38 !important;
 }
 
-.markdown-source-view.mod-cm6 .cm-hmd-codeblock.cm-keyword,
-.markdown-source-view.mod-cm6 .HyperMD-codeblock .cm-keyword {
+body.theme-light .markdown-source-view.mod-cm6 .cm-hmd-codeblock.cm-keyword,
+body.theme-light .markdown-source-view.mod-cm6 .HyperMD-codeblock .cm-keyword {
   color: #8b168f !important;
 }
 
-.markdown-source-view.mod-cm6 :is(
+body.theme-light .markdown-source-view.mod-cm6 :is(
   .cm-hmd-codeblock.cm-variable,
   .cm-hmd-codeblock.cm-variable-2,
   .cm-hmd-codeblock.cm-variable-3,
   .cm-hmd-codeblock.cm-property,
   .cm-hmd-codeblock.cm-attribute
 ),
-.markdown-source-view.mod-cm6 .HyperMD-codeblock :is(
+body.theme-light .markdown-source-view.mod-cm6 .HyperMD-codeblock :is(
   .cm-variable,
   .cm-variable-2,
   .cm-variable-3,
@@ -164,32 +165,32 @@
   color: #111111 !important;
 }
 
-.markdown-source-view.mod-cm6 .cm-hmd-codeblock.cm-def,
-.markdown-source-view.mod-cm6 .HyperMD-codeblock .cm-def {
+body.theme-light .markdown-source-view.mod-cm6 .cm-hmd-codeblock.cm-def,
+body.theme-light .markdown-source-view.mod-cm6 .HyperMD-codeblock .cm-def {
   color: #1437d9 !important;
 }
 
-.markdown-source-view.mod-cm6 .cm-hmd-codeblock.cm-builtin,
-.markdown-source-view.mod-cm6 .HyperMD-codeblock .cm-builtin {
+body.theme-light .markdown-source-view.mod-cm6 .cm-hmd-codeblock.cm-builtin,
+body.theme-light .markdown-source-view.mod-cm6 .HyperMD-codeblock .cm-builtin {
   color: #2717a8 !important;
 }
 
-.markdown-source-view.mod-cm6 :is(.cm-hmd-codeblock.cm-string, .cm-hmd-codeblock.cm-string-2),
-.markdown-source-view.mod-cm6 .HyperMD-codeblock :is(.cm-string, .cm-string-2) {
+body.theme-light .markdown-source-view.mod-cm6 :is(.cm-hmd-codeblock.cm-string, .cm-hmd-codeblock.cm-string-2),
+body.theme-light .markdown-source-view.mod-cm6 .HyperMD-codeblock :is(.cm-string, .cm-string-2) {
   color: #aa2634 !important;
 }
 
-.markdown-source-view.mod-cm6 :is(.cm-hmd-codeblock.cm-number, .cm-hmd-codeblock.cm-atom),
-.markdown-source-view.mod-cm6 .HyperMD-codeblock :is(.cm-number, .cm-atom) {
+body.theme-light .markdown-source-view.mod-cm6 :is(.cm-hmd-codeblock.cm-number, .cm-hmd-codeblock.cm-atom),
+body.theme-light .markdown-source-view.mod-cm6 .HyperMD-codeblock :is(.cm-number, .cm-atom) {
   color: #4d8c7f !important;
 }
 
-.markdown-source-view.mod-cm6 .cm-hmd-codeblock.cm-operator,
-.markdown-source-view.mod-cm6 .HyperMD-codeblock .cm-operator {
+body.theme-light .markdown-source-view.mod-cm6 .cm-hmd-codeblock.cm-operator,
+body.theme-light .markdown-source-view.mod-cm6 .HyperMD-codeblock .cm-operator {
   color: #a64c5a !important;
 }
 
-.markdown-source-view.mod-cm6 :is(
+body.theme-light .markdown-source-view.mod-cm6 :is(
   div.HyperMD-codeblock-bg,
   div.HyperMD-codeblock-begin-bg,
   div.HyperMD-codeblock-end-bg

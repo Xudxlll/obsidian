@@ -5,7 +5,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "未命名.md",
         "项目汇报PPT讲解稿.md",
         "腾讯小龙虾（WorkBuddy）.md",
         "python爬虫",
@@ -7355,10 +7354,6 @@
       "isHidden": false
     },
     "数分与机器额外笔记/决策树信息增益划分贷款案例.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "未命名.md": {
       "isPinned": false,
       "isHidden": false
     }
