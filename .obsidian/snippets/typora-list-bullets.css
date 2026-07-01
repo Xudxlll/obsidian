@@ -1,0 +1,102 @@
+/* Typora-like unordered list bullets: solid first level, hollow second level. */
+
+body {
+  --typora-list-bullet-level-1-size: 0.46em;
+  --typora-list-bullet-level-2-size: 0.4em;
+  --typora-list-bullet-level-3-size: 0.42em;
+  --typora-list-bullet-hollow-border: 1.3px;
+  --typora-list-line-height: 1.8;
+  --typora-list-number-color: var(--text-normal);
+}
+
+/* Reading mode */
+.markdown-rendered ul {
+  list-style-type: disc;
+}
+
+.markdown-rendered ul ul {
+  list-style-type: circle;
+}
+
+.markdown-rendered ul ul ul {
+  list-style-type: square;
+}
+
+.markdown-rendered ul > li::marker {
+  color: var(--text-normal);
+  font-size: 1.12em;
+}
+
+.markdown-rendered ul ul > li::marker {
+  color: var(--text-normal);
+  font-size: 0.88em;
+}
+
+.markdown-rendered ul.has-list-bullet li {
+  line-height: var(--typora-list-line-height);
+}
+
+.markdown-rendered ul.has-list-bullet > li > .list-bullet::after {
+  background-color: var(--text-normal) !important;
+  border: 0 !important;
+  border-radius: 50% !important;
+  width: var(--typora-list-bullet-level-1-size) !important;
+  height: var(--typora-list-bullet-level-1-size) !important;
+}
+
+.markdown-rendered ul.has-list-bullet > li > ul.has-list-bullet > li > .list-bullet::after {
+  background-color: transparent !important;
+  border: var(--typora-list-bullet-hollow-border) solid var(--text-normal) !important;
+  border-radius: 50% !important;
+  box-sizing: border-box !important;
+  width: var(--typora-list-bullet-level-2-size) !important;
+  height: var(--typora-list-bullet-level-2-size) !important;
+}
+
+.markdown-rendered ul.has-list-bullet > li > ul.has-list-bullet > li > ul.has-list-bullet > li > .list-bullet::after {
+  background-color: var(--text-normal) !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  width: var(--typora-list-bullet-level-3-size) !important;
+  height: var(--typora-list-bullet-level-3-size) !important;
+}
+
+.markdown-rendered ol > li::marker {
+  color: var(--typora-list-number-color);
+}
+
+/* Live Preview / source mode */
+.markdown-source-view.mod-cm6 .HyperMD-list-line .list-bullet::after {
+  background-color: var(--text-normal) !important;
+  border-color: var(--text-normal) !important;
+}
+
+.markdown-source-view.mod-cm6 .HyperMD-list-line {
+  line-height: var(--typora-list-line-height) !important;
+}
+
+.markdown-source-view.mod-cm6 .HyperMD-list-line .list-number {
+  color: var(--typora-list-number-color) !important;
+}
+
+.markdown-source-view.mod-cm6 .HyperMD-list-line-1 .list-bullet::after {
+  width: var(--typora-list-bullet-level-1-size) !important;
+  height: var(--typora-list-bullet-level-1-size) !important;
+  border: 0 !important;
+  border-radius: 50% !important;
+}
+
+.markdown-source-view.mod-cm6 .HyperMD-list-line-2 .list-bullet::after {
+  width: var(--typora-list-bullet-level-2-size) !important;
+  height: var(--typora-list-bullet-level-2-size) !important;
+  background-color: transparent !important;
+  border: var(--typora-list-bullet-hollow-border) solid var(--text-normal) !important;
+  border-radius: 50% !important;
+}
+
+.markdown-source-view.mod-cm6 .HyperMD-list-line-3 .list-bullet::after {
+  width: var(--typora-list-bullet-level-3-size) !important;
+  height: var(--typora-list-bullet-level-3-size) !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+}

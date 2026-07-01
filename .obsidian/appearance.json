@@ -6,10 +6,13 @@
     "table-body-font-size",
     "center-images-and-tables",
     "hide-note-toolbar-in-reading",
-    "typora-python-code-colors"
+    "typora-python-code-colors",
+    "typora-list-bullets"
   ],
   "cssTheme": "Typora-Vue",
   "baseFontSizeAction": true,
   "baseFontSize": 17,
-  "theme": "system"
+  "theme": "system",
+  "textFontFamily": "PingFang SC",
+  "translucency": true
 }

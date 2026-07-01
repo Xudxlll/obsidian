@@ -1,51 +1,199 @@
-/* Typora-like syntax colors for Python code blocks only. */
-.markdown-rendered pre:has(> code.language-python),
-.markdown-rendered pre[class*="language-python"] {
+/* Typora-like syntax colors for Python code blocks only.
+   Matches both ```python and ```py fences in reading mode. */
+.markdown-rendered pre:has(> code:is(.language-python, .language-py)),
+.markdown-rendered :is(
+  pre[class*="language-python"],
+  pre[class*="language-py"],
+  div[class*="language-python"] pre,
+  div[class*="language-py"] pre
+) {
   background: #ffffff !important;
   border: 0 !important;
   box-shadow: none !important;
 }
 
-.markdown-rendered pre:has(> code.language-python) code,
-.markdown-rendered pre[class*="language-python"] code,
-.markdown-rendered code.language-python {
+.markdown-rendered :is(
+  pre:has(> code:is(.language-python, .language-py)) code,
+  pre[class*="language-python"] code,
+  pre[class*="language-py"] code,
+  div[class*="language-python"] pre code,
+  div[class*="language-py"] pre code,
+  code.language-python,
+  code.language-py
+) {
   color: #111111 !important;
 }
 
-.markdown-rendered code.language-python .token.comment,
-.markdown-rendered code.language-python .token.prolog,
-.markdown-rendered code.language-python .token.doctype,
-.markdown-rendered code.language-python .token.cdata {
+.markdown-rendered :is(
+  pre:has(> code:is(.language-python, .language-py)),
+  pre[class*="language-python"],
+  pre[class*="language-py"],
+  div[class*="language-python"] pre,
+  div[class*="language-py"] pre,
+  code.language-python,
+  code.language-py
+) :is(.token.comment, .token.prolog, .token.doctype, .token.cdata) {
   color: #a66f35 !important;
 }
 
-.markdown-rendered code.language-python .token.keyword {
+.markdown-rendered :is(
+  pre:has(> code:is(.language-python, .language-py)),
+  pre[class*="language-python"],
+  pre[class*="language-py"],
+  div[class*="language-python"] pre,
+  div[class*="language-py"] pre,
+  code.language-python,
+  code.language-py
+) .token.keyword {
   color: #8b168f !important;
 }
 
-.markdown-rendered code.language-python .token.function {
-  color: #1437d9 !important;
-}
-
-.markdown-rendered code.language-python .token.builtin {
+/* Some renderers classify print( as a keyword; make call-like keywords match
+   the editing-mode builtin color without changing import/def/for/return. */
+.markdown-rendered :is(
+  pre:has(> code:is(.language-python, .language-py)),
+  pre[class*="language-python"],
+  pre[class*="language-py"],
+  div[class*="language-python"] pre,
+  div[class*="language-py"] pre,
+  code.language-python,
+  code.language-py
+) .token.keyword:has(+ .token.punctuation) {
   color: #2717a8 !important;
 }
 
-.markdown-rendered code.language-python .token.string,
-.markdown-rendered code.language-python .token.char {
+.markdown-rendered :is(
+  pre:has(> code:is(.language-python, .language-py)),
+  pre[class*="language-python"],
+  pre[class*="language-py"],
+  div[class*="language-python"] pre,
+  div[class*="language-py"] pre,
+  code.language-python,
+  code.language-py
+) .token.function {
+  color: #1437d9 !important;
+}
+
+.markdown-rendered :is(
+  pre:has(> code:is(.language-python, .language-py)),
+  pre[class*="language-python"],
+  pre[class*="language-py"],
+  div[class*="language-python"] pre,
+  div[class*="language-py"] pre,
+  code.language-python,
+  code.language-py
+) .token.builtin {
+  color: #2717a8 !important;
+}
+
+.markdown-rendered :is(
+  pre:has(> code:is(.language-python, .language-py)),
+  pre[class*="language-python"],
+  pre[class*="language-py"],
+  div[class*="language-python"] pre,
+  div[class*="language-py"] pre,
+  code.language-python,
+  code.language-py
+) :is(.token.string, .token.char) {
   color: #aa2634 !important;
 }
 
-.markdown-rendered code.language-python .token.number,
-.markdown-rendered code.language-python .token.boolean,
-.markdown-rendered code.language-python .token.constant {
+.markdown-rendered :is(
+  pre:has(> code:is(.language-python, .language-py)),
+  pre[class*="language-python"],
+  pre[class*="language-py"],
+  div[class*="language-python"] pre,
+  div[class*="language-py"] pre,
+  code.language-python,
+  code.language-py
+) :is(.token.number, .token.boolean, .token.constant) {
   color: #4d8c7f !important;
 }
 
-.markdown-rendered code.language-python .token.operator {
+.markdown-rendered :is(
+  pre:has(> code:is(.language-python, .language-py)),
+  pre[class*="language-python"],
+  pre[class*="language-py"],
+  div[class*="language-python"] pre,
+  div[class*="language-py"] pre,
+  code.language-python,
+  code.language-py
+) .token.operator {
   color: #a64c5a !important;
 }
 
-.markdown-rendered code.language-python .token.punctuation {
+.markdown-rendered :is(
+  pre:has(> code:is(.language-python, .language-py)),
+  pre[class*="language-python"],
+  pre[class*="language-py"],
+  div[class*="language-python"] pre,
+  div[class*="language-py"] pre,
+  code.language-python,
+  code.language-py
+) .token.punctuation {
   color: #111111 !important;
+}
+
+/* Editing / Live Preview source colors.
+   Obsidian CodeMirror does not reliably expose the fence language here, so
+   these rules apply to all fenced code blocks while editing. */
+.markdown-source-view.mod-cm6 .cm-hmd-codeblock.cm-comment,
+.markdown-source-view.mod-cm6 .HyperMD-codeblock .cm-comment {
+  color: #a66f35 !important;
+}
+
+.markdown-source-view.mod-cm6 .cm-hmd-codeblock.cm-keyword,
+.markdown-source-view.mod-cm6 .HyperMD-codeblock .cm-keyword {
+  color: #8b168f !important;
+}
+
+.markdown-source-view.mod-cm6 :is(
+  .cm-hmd-codeblock.cm-variable,
+  .cm-hmd-codeblock.cm-variable-2,
+  .cm-hmd-codeblock.cm-variable-3,
+  .cm-hmd-codeblock.cm-property,
+  .cm-hmd-codeblock.cm-attribute
+),
+.markdown-source-view.mod-cm6 .HyperMD-codeblock :is(
+  .cm-variable,
+  .cm-variable-2,
+  .cm-variable-3,
+  .cm-property,
+  .cm-attribute
+) {
+  color: #111111 !important;
+}
+
+.markdown-source-view.mod-cm6 .cm-hmd-codeblock.cm-def,
+.markdown-source-view.mod-cm6 .HyperMD-codeblock .cm-def {
+  color: #1437d9 !important;
+}
+
+.markdown-source-view.mod-cm6 .cm-hmd-codeblock.cm-builtin,
+.markdown-source-view.mod-cm6 .HyperMD-codeblock .cm-builtin {
+  color: #2717a8 !important;
+}
+
+.markdown-source-view.mod-cm6 :is(.cm-hmd-codeblock.cm-string, .cm-hmd-codeblock.cm-string-2),
+.markdown-source-view.mod-cm6 .HyperMD-codeblock :is(.cm-string, .cm-string-2) {
+  color: #aa2634 !important;
+}
+
+.markdown-source-view.mod-cm6 :is(.cm-hmd-codeblock.cm-number, .cm-hmd-codeblock.cm-atom),
+.markdown-source-view.mod-cm6 .HyperMD-codeblock :is(.cm-number, .cm-atom) {
+  color: #4d8c7f !important;
+}
+
+.markdown-source-view.mod-cm6 .cm-hmd-codeblock.cm-operator,
+.markdown-source-view.mod-cm6 .HyperMD-codeblock .cm-operator {
+  color: #a64c5a !important;
+}
+
+.markdown-source-view.mod-cm6 :is(
+  div.HyperMD-codeblock-bg,
+  div.HyperMD-codeblock-begin-bg,
+  div.HyperMD-codeblock-end-bg
+) {
+  background-color: #ffffff !important;
+  border-color: transparent !important;
 }

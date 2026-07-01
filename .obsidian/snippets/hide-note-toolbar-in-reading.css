@@ -8,3 +8,22 @@
   ) {
   display: none !important;
 }
+
+/* Hide Note Toolbar floating/text-selection toolbars. These can be rendered
+   outside the markdown preview container, so scope them through the active
+   reading-mode leaf instead. */
+body:has(.workspace-leaf.mod-active .workspace-leaf-content[data-type="markdown"][data-mode="preview"])
+  :is(
+    .cg-note-toolbar-container,
+    .cg-note-toolbar-bar-container
+  ):is([data-tbar-position="float"], [data-tbar-position="text"]),
+body:has(.workspace-leaf.mod-active .workspace-leaf-content[data-type="markdown"][data-mode="preview"])
+  :is(
+    .cg-note-toolbar-container,
+    .cg-note-toolbar-bar-container
+  ):is([data-tbar-position="float"], [data-tbar-position="text"])
+  .cg-note-toolbar-callout {
+  display: none !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
