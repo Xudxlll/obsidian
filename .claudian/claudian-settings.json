@@ -1,7 +1,7 @@
 {
   "userName": "",
   "permissionMode": "yolo",
-  "model": "opus",
+  "model": "opus[1m]",
   "thinkingBudget": "medium",
   "effortLevel": "high",
   "serviceTier": "default",
@@ -29,10 +29,10 @@
       "loadUserSettings": true,
       "enableChrome": false,
       "enableBangBash": false,
-      "enableOpus1M": false,
-      "enableSonnet1M": false,
+      "enableOpus1M": true,
+      "enableSonnet1M": true,
       "customModels": "",
-      "lastModel": "opus",
+      "lastModel": "opus[1m]",
       "environmentVariables": "",
       "environmentHash": ""
     },
@@ -67,7 +67,7 @@
   },
   "settingsProvider": "claude",
   "savedProviderModel": {
-    "claude": "opus",
+    "claude": "opus[1m]",
     "codex": "gpt-5.5"
   },
   "savedProviderEffort": {
@@ -86,7 +86,7 @@
     "codex": "yolo"
   },
   "lastCustomModel": "",
-  "maxTabs": 3,
+  "maxTabs": 5,
   "tabBarPosition": "input",
   "enableAutoScroll": true,
   "deferMathRenderingDuringStreaming": true,

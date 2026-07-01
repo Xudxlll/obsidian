@@ -5,6 +5,6 @@
   "readableLineLength": true,
   "alwaysUpdateLinks": true,
   "showInlineTitle": true,
-  "showLineNumber": true,
+  "showLineNumber": false,
   "showIndentGuide": false
 }
