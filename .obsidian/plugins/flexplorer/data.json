@@ -5,6 +5,10 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "typora-screenshot-matched-code-preview.svg",
+        "typora-codemirror-code-preview.svg",
+        "typora-code-color-preview.svg",
+        "code-color-theme-preview.svg",
         "项目汇报PPT讲解稿.md",
         "腾讯小龙虾（WorkBuddy）.md",
         "python爬虫",
@@ -6581,6 +6585,11 @@
       "isHidden": false,
       "sortOrder": "byName",
       "customOrder": [
+        "12-集成学习.md",
+        "11-聚类.md",
+        "10-朴素贝叶斯.md",
+        "09-支持向量机.md",
+        "08-决策树.md",
         "07-逻辑回归.md",
         "05-机器学习概述.md",
         "06-线性回归.md",
@@ -7319,6 +7328,42 @@
       "isHidden": false
     },
     "数分与机器额外笔记/作业1答案.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "code-color-theme-preview.svg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "typora-code-color-preview.svg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析与机器学习/08-决策树.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析与机器学习/09-支持向量机.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析与机器学习/10-朴素贝叶斯.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析与机器学习/11-聚类.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析与机器学习/12-集成学习.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "typora-codemirror-code-preview.svg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "typora-screenshot-matched-code-preview.svg": {
       "isPinned": false,
       "isHidden": false
     }

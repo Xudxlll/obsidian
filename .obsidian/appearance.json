@@ -5,7 +5,8 @@
     "fix-note-toolbar-width",
     "table-body-font-size",
     "center-images-and-tables",
-    "hide-note-toolbar-in-reading"
+    "hide-note-toolbar-in-reading",
+    "typora-python-code-colors"
   ],
   "cssTheme": "Typora-Vue",
   "baseFontSizeAction": true,

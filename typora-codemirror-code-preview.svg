@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <style>
+    .page { fill: #f5f7f8; }
+    .title { font: 700 30px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #34495e; }
+    .subtitle { font: 400 15px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #5d6d7e; }
+    .label { font: 700 18px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #34495e; }
+    .note { font: 400 13px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; fill: #6b7280; }
+    .code { font: 18px "Fira Code", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; white-space: pre; }
+    .small-code { font: 15px "Fira Code", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace; }
+    .shadow { filter: drop-shadow(0 18px 30px rgb(52 73 94 / 0.16)); }
+  </style>
+
+  <rect class="page" width="1280" height="720"/>
+
+  <text class="title" x="72" y="66">Typora-like Python Syntax Preview</text>
+  <text class="subtitle" x="72" y="94">CodeMirror default syntax colors on a Typora / Vue-style light code block.</text>
+
+  <g class="shadow" transform="translate(72 138)">
+    <rect width="720" height="438" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+    <text class="label" x="30" y="40">Python Code Block</text>
+    <text class="note" x="30" y="64">Background #f8f8f8, border #f4f4f4, comment #a50.</text>
+
+    <rect x="30" y="92" width="660" height="304" rx="4" fill="#f8f8f8" stroke="#f4f4f4"/>
+    <text class="code" x="54" y="134">
+      <tspan fill="#aa5500"># 计算订单最终价格</tspan>
+      <tspan x="54" dy="30"><tspan fill="#770088">def</tspan><tspan fill="#34495e"> </tspan><tspan fill="#0000ff">calculate_total</tspan><tspan fill="#34495e">(price, tax_rate):</tspan></tspan>
+      <tspan x="54" dy="30"><tspan fill="#34495e">    total = price * (</tspan><tspan fill="#116644">1</tspan><tspan fill="#34495e"> + tax_rate)</tspan></tspan>
+      <tspan x="54" dy="30"><tspan fill="#770088">    if</tspan><tspan fill="#34495e"> total &gt; </tspan><tspan fill="#116644">100</tspan><tspan fill="#34495e">:</tspan></tspan>
+      <tspan x="54" dy="30"><tspan fill="#770088">        return</tspan><tspan fill="#34495e"> </tspan><tspan fill="#aa1111">"expensive"</tspan></tspan>
+      <tspan x="54" dy="30"><tspan fill="#770088">    return</tspan><tspan fill="#34495e"> total</tspan></tspan>
+      <tspan x="54" dy="30"></tspan>
+      <tspan x="54" dy="30"><tspan fill="#3300aa">print</tspan><tspan fill="#34495e">(</tspan><tspan fill="#0000ff">calculate_total</tspan><tspan fill="#34495e">(</tspan><tspan fill="#116644">88</tspan><tspan fill="#34495e">, </tspan><tspan fill="#116644">0.13</tspan><tspan fill="#34495e">))</tspan></tspan>
+    </text>
+  </g>
+
+  <g class="shadow" transform="translate(838 138)">
+    <rect width="370" height="438" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+    <text class="label" x="28" y="40">Token Colors</text>
+    <text class="note" x="28" y="64">Closer to Typora's CodeMirror feel.</text>
+
+    <g transform="translate(28 102)">
+      <rect width="22" height="22" rx="4" fill="#aa5500"/>
+      <text class="small-code" x="38" y="17" fill="#34495e">comment  #a50</text>
+    </g>
+    <g transform="translate(28 146)">
+      <rect width="22" height="22" rx="4" fill="#770088"/>
+      <text class="small-code" x="38" y="17" fill="#34495e">keyword  #708</text>
+    </g>
+    <g transform="translate(28 190)">
+      <rect width="22" height="22" rx="4" fill="#0000ff"/>
+      <text class="small-code" x="38" y="17" fill="#34495e">function #00f</text>
+    </g>
+    <g transform="translate(28 234)">
+      <rect width="22" height="22" rx="4" fill="#aa1111"/>
+      <text class="small-code" x="38" y="17" fill="#34495e">string   #a11</text>
+    </g>
+    <g transform="translate(28 278)">
+      <rect width="22" height="22" rx="4" fill="#116644"/>
+      <text class="small-code" x="38" y="17" fill="#34495e">number   #164</text>
+    </g>
+    <g transform="translate(28 322)">
+      <rect width="22" height="22" rx="4" fill="#3300aa"/>
+      <text class="small-code" x="38" y="17" fill="#34495e">builtin  #30a</text>
+    </g>
+    <g transform="translate(28 366)">
+      <rect width="22" height="22" rx="4" fill="#34495e"/>
+      <text class="small-code" x="38" y="17" fill="#34495e">plain    #34495e</text>
+    </g>
+  </g>
+
+  <text class="note" x="72" y="638">This preview intentionally uses the orange-brown comment color you remembered, instead of the green-comment style common in many modern editors.</text>
+</svg>

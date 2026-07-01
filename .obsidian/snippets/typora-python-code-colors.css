@@ -1,0 +1,51 @@
+/* Typora-like syntax colors for Python code blocks only. */
+.markdown-rendered pre:has(> code.language-python),
+.markdown-rendered pre[class*="language-python"] {
+  background: #ffffff !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.markdown-rendered pre:has(> code.language-python) code,
+.markdown-rendered pre[class*="language-python"] code,
+.markdown-rendered code.language-python {
+  color: #111111 !important;
+}
+
+.markdown-rendered code.language-python .token.comment,
+.markdown-rendered code.language-python .token.prolog,
+.markdown-rendered code.language-python .token.doctype,
+.markdown-rendered code.language-python .token.cdata {
+  color: #a66f35 !important;
+}
+
+.markdown-rendered code.language-python .token.keyword {
+  color: #8b168f !important;
+}
+
+.markdown-rendered code.language-python .token.function {
+  color: #1437d9 !important;
+}
+
+.markdown-rendered code.language-python .token.builtin {
+  color: #2717a8 !important;
+}
+
+.markdown-rendered code.language-python .token.string,
+.markdown-rendered code.language-python .token.char {
+  color: #aa2634 !important;
+}
+
+.markdown-rendered code.language-python .token.number,
+.markdown-rendered code.language-python .token.boolean,
+.markdown-rendered code.language-python .token.constant {
+  color: #4d8c7f !important;
+}
+
+.markdown-rendered code.language-python .token.operator {
+  color: #a64c5a !important;
+}
+
+.markdown-rendered code.language-python .token.punctuation {
+  color: #111111 !important;
+}
