@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "assets",
         "项目汇报PPT讲解稿.md",
         "腾讯小龙虾（WorkBuddy）.md",
         "python爬虫",
@@ -7364,6 +7365,18 @@
       "isHidden": false
     },
     "数学/支持向量机（SVM）——原理篇.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "assets": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "K均值聚类算法—NBA球星聚类.pptx"
+      ],
+      "sortOrder": "custom"
+    },
+    "assets/K均值聚类算法—NBA球星聚类.pptx": {
       "isPinned": false,
       "isHidden": false
     }

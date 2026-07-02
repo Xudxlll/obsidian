@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782979990477-wjed231qn",
+  "providerId": "claude",
+  "title": "Verify potential mistake",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782979990477,
+  "updatedAt": 1782983769111,
+  "lastResponseAt": 1782982019042,
+  "sessionId": "32844432-01fd-47e8-bc62-f7861960f1b0",
+  "providerState": {
+    "providerSessionId": "32844432-01fd-47e8-bc62-f7861960f1b0"
+  },
+  "currentNote": "数据分析与机器学习/10-朴素贝叶斯.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 160,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 41344,
+    "contextWindow": 1000000,
+    "contextTokens": 41504,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}

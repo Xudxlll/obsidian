@@ -1,7 +1,20 @@
 {
   "version": "2.0",
   "mapping": {
-    "Clippings/支持向量机（SVM）——原理篇.md": "clippings_支持向量机（svm）——原理篇.md.json"
+    "Clippings/支持向量机（SVM）——原理篇.md": "clippings_支持向量机（svm）——原理篇.md.json",
+    "数学/支持向量机（SVM）——原理篇.md": "数学_支持向量机（svm）——原理篇.md.json",
+    "数据分析与机器学习/08-决策树.md": "数据分析与机器学习_08-决策树.md.json",
+    "数据分析与机器学习/09-支持向量机.md": "数据分析与机器学习_09-支持向量机.md.json",
+    "数据分析与机器学习/10-朴素贝叶斯.md": "数据分析与机器学习_10-朴素贝叶斯.md.json",
+    "数据分析与机器学习/07-逻辑回归.md": "数据分析与机器学习_07-逻辑回归.md.json",
+    "数据分析与机器学习/11-聚类.md": "数据分析与机器学习_11-聚类.md.json",
+    "数分与机器额外笔记/机器学习算法全景笔记.md": "数分与机器额外笔记_机器学习算法全景笔记.md.json",
+    "未命名": "未命名.json",
+    "asset": "asset.json",
+    "assets": "assets.json",
+    "K均值聚类算法—NBA球星聚类.pptx": "k均值聚类算法—nba球星聚类.pptx.json",
+    "assets/K均值聚类算法—NBA球星聚类.pptx": "assets_k均值聚类算法—nba球星聚类.pptx.json",
+    "项目汇报PPT讲解稿.md": "项目汇报ppt讲解稿.md.json"
   },
-  "lastUpdated": 1782964977850
+  "lastUpdated": 1782986652023
 }
