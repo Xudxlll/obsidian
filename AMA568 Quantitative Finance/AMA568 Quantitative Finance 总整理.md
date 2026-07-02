@@ -1,4 +1,4 @@
-# AMA568 Quantitative Finance 总整理
+
 
 > [!info] 来源文件
 > 本整理覆盖 `/Users/xuji/Documents/obsidian/AMA568 Quantitative Finance` 下的 14 份笔记：  
@@ -38,20 +38,20 @@ flowchart TD
 
 | 文件                                                     | 主题                      | 最重要的知识点                                                                      |
 | ------------------------------------------------------ | ----------------------- | ---------------------------------------------------------------------------- |
-| [[lecture notes 1 - Preliminaries\|lecture notes 1 - Preliminaries.md]]                                     | 预备知识、二叉树、BSM            | CRR 模型、风险中性概率、Itô 引理、自融资组合、BSM PDE、Monte Carlo                               |
-| [[lecture notes 2 - beyond BS\|lecture notes 2 - beyond BS.md]]                                             | Black-Scholes 之后        | implied volatility、smile/skew、local vol、Dupire、stochastic vol、jump diffusion |
-| [[lecture notes 3 - Vix and Variance Swap\|lecture notes 3 - Vix and Variance Swap.md]]                     | 方差互换与 VIX               | realized variance、variance swap fair strike、log contract、VIX 离散公式            |
-| [[lecture notes 4 - BTM\|lecture notes 4 - BTM.md]]                                                         | 二叉树方法                   | European/American BTM、barrier、Asian、FSGM、BTM 与显式有限差分                         |
-| [[lecture_7_DCD\|lecture_7_DCD.md]]                                                                         | Dual Currency Deposit   | DCD payoff 拆解、BS 定价、Heston/Fourier/COS 扩展                                    |
-| [[lecture_8_convertible_bond-lecture-notes\|lecture_8_convertible_bond-lecture-notes.md]]                  | 可转债                     | 转股权、赎回/回售、最优边界、稀释、随机利率、信用风险                                                  |
-| [[lecture_9_autocallable\|lecture_9_autocallable.md]]                                                      | Autocallable / Snowball | 敲出、敲入、观察日、票息、四类情景 payoff                                                     |
-| [[lecture-10-heston\|lecture-10-heston.md]]                                                                 | Heston                  | 随机方差、特征函数、Fourier inversion、COS method、校准                                    |
-| [[lecture-10-svi\|lecture-10-svi.md]]                                                                       | SVI                     | total implied variance、raw SVI、JW 参数、切片校准、无套利约束                              |
-| [[lecture-10-sabr\|lecture-10-sabr.md]]                                                                     | SABR                    | forward volatility、Hagan 近似公式、参数含义、校准                                        |
-| [[lecture-note-11-Volatility Trading\|lecture-note-11-Volatility Trading.md]]                              | 波动率交易                   | Greeks、delta hedging PnL、GARCH/EWMA、Whalley-Wilmott、gamma scalping           |
-| [[Reading Materials - Gamma Scalping Empirical Test\|Reading Materials - Gamma Scalping Empirical Test.md]] | Gamma scalping 实证       | 买入跨式、动态调仓、Vega 对冲、Gamma benefit 与 Theta decay                                |
-| [[lecture 12 - notes_market_making\|lecture 12 - notes_market_making.md]]                                  | 期权做市                    | vol quote、spread decomposition、Greeks inventory、日内 PnL、风险控制                  |
-| [[lecture 12 - review_2026\|lecture 12 - review_2026.md]]                                                  | 复习材料                    | 全课程公式与考试主线汇总                                                                 |
+| lecture notes 1 - Preliminaries.md                                     | 预备知识、二叉树、BSM            | CRR 模型、风险中性概率、Itô 引理、自融资组合、BSM PDE、Monte Carlo                               |
+| lecture notes 2 - beyond BS.md                                             | Black-Scholes 之后        | implied volatility、smile/skew、local vol、Dupire、stochastic vol、jump diffusion |
+| lecture notes 3 - Vix and Variance Swap.md                     | 方差互换与 VIX               | realized variance、variance swap fair strike、log contract、VIX 离散公式            |
+| lecture notes 4 - BTM.md                                                         | 二叉树方法                   | European/American BTM、barrier、Asian、FSGM、BTM 与显式有限差分                         |
+| lecture_7_DCD.md                                                                         | Dual Currency Deposit   | DCD payoff 拆解、BS 定价、Heston/Fourier/COS 扩展                                    |
+| lecture_8_convertible_bond-lecture-notes.md                  | 可转债                     | 转股权、赎回/回售、最优边界、稀释、随机利率、信用风险                                                  |
+| lecture_9_autocallable.md                                                      | Autocallable / Snowball | 敲出、敲入、观察日、票息、四类情景 payoff                                                     |
+| lecture-10-heston.md                                                                 | Heston                  | 随机方差、特征函数、Fourier inversion、COS method、校准                                    |
+| lecture-10-svi.md                                                                       | SVI                     | total implied variance、raw SVI、JW 参数、切片校准、无套利约束                              |
+| lecture-10-sabr.md                                                                     | SABR                    | forward volatility、Hagan 近似公式、参数含义、校准                                        |
+| lecture-note-11-Volatility Trading.md                              | 波动率交易                   | Greeks、delta hedging PnL、GARCH/EWMA、Whalley-Wilmott、gamma scalping           |
+| Reading Materials - Gamma Scalping Empirical Test.md | Gamma scalping 实证       | 买入跨式、动态调仓、Vega 对冲、Gamma benefit 与 Theta decay                                |
+| lecture 12 - notes_market_making.md                                  | 期权做市                    | vol quote、spread decomposition、Greeks inventory、日内 PnL、风险控制                  |
+| lecture 12 - review_2026.md                                                  | 复习材料                    | 全课程公式与考试主线汇总                                                                 |
 
 ---
 

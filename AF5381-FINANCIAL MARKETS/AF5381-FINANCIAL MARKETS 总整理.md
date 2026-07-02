@@ -1,4 +1,4 @@
-# AF5381-FINANCIAL MARKETS 总整理
+
 
 > [!info] 来源文件
 > 本整理覆盖 `/Users/xuji/Documents/obsidian/AF5381-FINANCIAL MARKETS` 下的 7 份笔记：  
@@ -38,13 +38,13 @@ flowchart TD
 
 | 文件 | 主题 | 最重要的知识点 |
 |---|---|---|
-| [[Topic 1. Overview\|Topic 1. Overview.md]] | Finance overview 与 corporate finance | 跨期消费、投资与储蓄、公司财务三大决策、公司目标、代理理论、公司治理 |
-| [[Topic 1.2_FS&FSA\|Topic 1.2_FS&FSA.md]] | Financial statements & ratio analysis | Balance sheet、income statement、cash flow from assets、五类财务比率、DuPont、IGR/SGR |
-| [[Topic 2. Financial System & Market\|Topic 2. Financial System & Market.md]] | 金融系统、市场与中介 | 银行、投行、基金、ETF、资产类别、市场微观结构、交易成本、金融危机、监管 |
-| [[Topic 3&4. Time value & DCF & Capital Budgeting\|Topic 3&4. Time value & DCF & Capital Budgeting.md]] | 时间价值、DCF 与资本预算 | APR/EAR、年金、增长现金流、NPV、Payback、IRR、PI、OCF、EAC、break-even、real options |
-| [[Topic 5. Investment(1)\|Topic 5. Investment(1).md]] | 投资组合与资产定价 | HPR、time-weighted/dollar-weighted return、风险溢价、Sharpe ratio、efficient frontier、CAL/CML、CAPM、EMH |
-| [[Topic 6. Bond & Stock Market(1)\|Topic 6. Bond & Stock Market(1).md]] | 债券与股票估值 | 债券价格、YTM、HPY、callable bond、term structure、DDM、Gordon growth、WACC、NPVGO |
-| [[Topic 7. Derivative Contracts(5)\|Topic 7. Derivative Contracts(5).md]] | 衍生品 | Forward/futures、margin、cost-of-carry、basis、hedging、options payoff、bounds、put-call parity、convertible bond |
+| Topic 1. Overview.md | Finance overview 与 corporate finance | 跨期消费、投资与储蓄、公司财务三大决策、公司目标、代理理论、公司治理 |
+| Topic 1.2_FS&FSA.md | Financial statements & ratio analysis | Balance sheet、income statement、cash flow from assets、五类财务比率、DuPont、IGR/SGR |
+| Topic 2. Financial System & Market.md | 金融系统、市场与中介 | 银行、投行、基金、ETF、资产类别、市场微观结构、交易成本、金融危机、监管 |
+| Topic 3&4. Time value & DCF & Capital Budgeting.md | 时间价值、DCF 与资本预算 | APR/EAR、年金、增长现金流、NPV、Payback、IRR、PI、OCF、EAC、break-even、real options |
+| Topic 5. Investment(1).md | 投资组合与资产定价 | HPR、time-weighted/dollar-weighted return、风险溢价、Sharpe ratio、efficient frontier、CAL/CML、CAPM、EMH |
+| Topic 6. Bond & Stock Market(1).md | 债券与股票估值 | 债券价格、YTM、HPY、callable bond、term structure、DDM、Gordon growth、WACC、NPVGO |
+| Topic 7. Derivative Contracts(5).md | 衍生品 | Forward/futures、margin、cost-of-carry、basis、hedging、options payoff、bounds、put-call parity、convertible bond |
 
 ---
 

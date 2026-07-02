@@ -1,4 +1,4 @@
-# AMA535A-Mathematical Models of Derivative Pricing 总整理
+
 
 > [!info] 来源文件
 > 本整理覆盖 `/Users/xuji/Documents/obsidian/AMA535A-Mathematical Models of Derivative Pricing` 下的 26 份笔记，包括 12 份 slide、13 份 tutorial answer 和 1 份 slides summary。  
@@ -44,32 +44,32 @@ flowchart TD
 
 | 文件 | 主题 | 重点 |
 |---|---|---|
-| [[slide00：Subject Description\|slide00：Subject Description.md]] | 课程说明 | 学习目标、assessment、syllabus、参考书 |
-| [[slide01：introduction Financial Asset & Financial Market\|slide01：introduction Financial Asset & Financial Market.md]] | 金融资产与衍生品简介 | debt、equity、derivative、hedging/speculation/arbitrage |
-| [[slide02：Market Rule & Assumption\|slide02：Market Rule & Assumption.md]] | 市场规则与假设 | short sale、portfolio value、arbitrage、frictionless market |
-| [[slide03：interest Rate & Bond\|slide03：interest Rate & Bond.md]] | 利率与债券 | simple/compound/continuous compounding、zero rate、bootstrap、forward rate、short rate |
-| [[slide04\|slide04.md]] | Forward contract & futures contract | forward price、dividend adjustment、forward value、futures daily settlement |
-| [[slide05\|slide05.md]] | Options introduction | call/put、European/American、payoff、moneyness、time value |
-| [[slide06\|slide06.md]] | No-arbitrage option properties | option bounds、strike spread、put-call parity、Merton theorem、American bounds |
-| [[slide07\|slide07.md]] | Binomial tree model | replicating portfolio、risk-neutral probability、European/American backward induction、volatility matching |
-| [[slide08\|slide08.md]] | Brownian motion & stochastic calculus | Brownian motion、Markov、martingale、stopping time、Itô integral、Itô lemma、GBM |
-| [[slide09\|slide09.md]] | Black-Scholes model | self-financing、delta hedging、BS PDE、BS formula、Greeks、risk-neutral valuation、perpetual American put |
-| [[slide10\|slide10.md]] | Other options | Asian options、path-dependent PDE、geometric Asian、barrier options、reflection principle |
-| [[slide11\|slide11.md]] | Interest rate model | Vasicek、CIR、Ho-Lee、Hull-White、BDT、bond option |
-| [[slidesummery2\|slidesummery2.md]] | 课程公式摘要 | 关键公式、BS PDE、Itô、risk-neutral、barrier PDE |
-| [[tutorial01ans\|tutorial01ans.md]] | Tutorial 1 | 资产分类、portfolio value、arbitrage 判断 |
-| [[tutorial02ans\|tutorial02ans.md]] | Tutorial 2 | zero rates、forward rates、bond yield、bootstrap |
-| [[tutorial03ans\|tutorial03ans.md]] | Tutorial 3 | bond valuation、gold forward、dividend stock forward、bond arbitrage |
-| [[tutorial04ans\|tutorial04ans.md]] | Tutorial 4 | option moneyness、FX forward payoff、bond portfolio optimization、arbitrage proof |
-| [[tutorial05ans\|tutorial05ans.md]] | Tutorial 5 | put monotonicity、American option strike spread、put-call parity implied rate |
-| [[tutorial06ans\|tutorial06ans.md]] | Tutorial 6 | two-step binomial tree、American call/European put、early exercise probability |
-| [[tutorial07ans\|tutorial07ans.md]] | Tutorial 7 | four-step binomial tree、Brownian variance、normal moments |
-| [[tutorial08ans\|tutorial08ans.md]] | Tutorial 8 | exponential martingale、optional stopping、Itô integral mean/variance |
-| [[tutorial09ans\|tutorial09ans.md]] | Tutorial 9 | Itô isometry、stochastic integral variance、correlated Brownian motions、CIR expectation |
-| [[tutorial10ans\|tutorial10ans.md]] | Tutorial 10 | Itô lemma practice、quadratic variation、martingale ODE、Gaussian stochastic integral |
-| [[tutorial11ans\|tutorial11ans.md]] | Tutorial 11 | martingale via Itô、quotient process、comparison-style argument、bivariate Itô |
-| [[tutorial12ans\|tutorial12ans.md]] | Tutorial 12 | Black-Scholes pricing、binomial approximation、BS PDE verification、Greek hedging |
-| [[tutorial13ans\|tutorial13ans.md]] | Tutorial 13 | perpetual American put、reflection principle、shifted Brownian motion |
+| slide00：Subject Description.md | 课程说明 | 学习目标、assessment、syllabus、参考书 |
+| slide01：introduction Financial Asset & Financial Market.md | 金融资产与衍生品简介 | debt、equity、derivative、hedging/speculation/arbitrage |
+| slide02：Market Rule & Assumption.md | 市场规则与假设 | short sale、portfolio value、arbitrage、frictionless market |
+| slide03：interest Rate & Bond.md | 利率与债券 | simple/compound/continuous compounding、zero rate、bootstrap、forward rate、short rate |
+| slide04.md | Forward contract & futures contract | forward price、dividend adjustment、forward value、futures daily settlement |
+| slide05.md | Options introduction | call/put、European/American、payoff、moneyness、time value |
+| slide06.md | No-arbitrage option properties | option bounds、strike spread、put-call parity、Merton theorem、American bounds |
+| slide07.md | Binomial tree model | replicating portfolio、risk-neutral probability、European/American backward induction、volatility matching |
+| slide08.md | Brownian motion & stochastic calculus | Brownian motion、Markov、martingale、stopping time、Itô integral、Itô lemma、GBM |
+| slide09.md | Black-Scholes model | self-financing、delta hedging、BS PDE、BS formula、Greeks、risk-neutral valuation、perpetual American put |
+| slide10.md | Other options | Asian options、path-dependent PDE、geometric Asian、barrier options、reflection principle |
+| slide11.md | Interest rate model | Vasicek、CIR、Ho-Lee、Hull-White、BDT、bond option |
+| slidesummery2.md | 课程公式摘要 | 关键公式、BS PDE、Itô、risk-neutral、barrier PDE |
+| tutorial01ans.md | Tutorial 1 | 资产分类、portfolio value、arbitrage 判断 |
+| tutorial02ans.md | Tutorial 2 | zero rates、forward rates、bond yield、bootstrap |
+| tutorial03ans.md | Tutorial 3 | bond valuation、gold forward、dividend stock forward、bond arbitrage |
+| tutorial04ans.md | Tutorial 4 | option moneyness、FX forward payoff、bond portfolio optimization、arbitrage proof |
+| tutorial05ans.md | Tutorial 5 | put monotonicity、American option strike spread、put-call parity implied rate |
+| tutorial06ans.md | Tutorial 6 | two-step binomial tree、American call/European put、early exercise probability |
+| tutorial07ans.md | Tutorial 7 | four-step binomial tree、Brownian variance、normal moments |
+| tutorial08ans.md | Tutorial 8 | exponential martingale、optional stopping、Itô integral mean/variance |
+| tutorial09ans.md | Tutorial 9 | Itô isometry、stochastic integral variance、correlated Brownian motions、CIR expectation |
+| tutorial10ans.md | Tutorial 10 | Itô lemma practice、quadratic variation、martingale ODE、Gaussian stochastic integral |
+| tutorial11ans.md | Tutorial 11 | martingale via Itô、quotient process、comparison-style argument、bivariate Itô |
+| tutorial12ans.md | Tutorial 12 | Black-Scholes pricing、binomial approximation、BS PDE verification、Greek hedging |
+| tutorial13ans.md | Tutorial 13 | perpetual American put、reflection principle、shifted Brownian motion |
 
 ---
 

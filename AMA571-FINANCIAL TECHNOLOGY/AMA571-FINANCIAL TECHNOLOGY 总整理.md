@@ -1,4 +1,4 @@
-# AMA571 Financial Technology 总整理
+
 
 > [!info] 这份总整理覆盖的原始笔记
 > - `Lecture 8 - Blockchain_Overview.md`：区块链、Ethereum、DeFi、NFT、治理、安全、监管与未来趋势。

@@ -1,4 +1,4 @@
-# AMA575 Investment Science 总整理
+
 
 > [!info] 整理说明
 > 这份总整理基于 `AMA575 Investment Science` 文件夹内 7 篇 Markdown 笔记重构。原笔记包含课程讲义、公式推导和一篇论文阅读笔记；这里按知识主线整理，保留核心公式、定理含义、金融直觉和复习重点。
@@ -21,15 +21,15 @@ AMA575 的主线可以概括为：
 
 ## 2. 原始笔记索引
 
-| 原笔记 | 主题定位 | 建议阅读顺序 |
-|---|---|---|
-| [[MV analysis]] | 单期均值-方差分析、有效前沿、Sharpe ratio、MV 局限 | 1 |
-| [[Capital Asset Pricing Model]] | CAPM、市场组合、beta、EMH | 2 |
-| [[Consumption-based CAPM]] | C-CAPM、随机折现因子、消费风险溢价 | 3 |
-| [[Stochastic Calculus]] | 条件期望、鞅、Brownian motion、Ito 积分与 SDE | 4 |
-| [[Continuous-time Stochastic Control]] | DPP、HJB、Verification、Merton problem | 5 |
-| [[More Financial Applications]] | 最优清算、最优收购、永久价格冲击 | 6 |
-| [[4.Mathematical Finance - 2020 - Wang - Continuous‐time mean variance portfolio selection  A reinforcement learning framework]] | 连续时间 MV 的强化学习框架论文 | 7 |
+| 原笔记                                                                                                                              | 主题定位                                | 建议阅读顺序 |
+| -------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------- | ------ |
+| MV analysis                                                                                                                  | 单期均值-方差分析、有效前沿、Sharpe ratio、MV 局限   | 1      |
+| Capital Asset Pricing Model                                                                                                  | CAPM、市场组合、beta、EMH                  | 2      |
+| Consumption-based CAPM                                                                                                       | C-CAPM、随机折现因子、消费风险溢价                | 3      |
+| Stochastic Calculus                                                                                                          | 条件期望、鞅、Brownian motion、Ito 积分与 SDE  | 4      |
+| Continuous-time Stochastic Control                                                                                           | DPP、HJB、Verification、Merton problem | 5      |
+| More Financial Applications                                                                                                  | 最优清算、最优收购、永久价格冲击                    | 6      |
+| 4.Mathematical Finance - 2020 - Wang - Continuous‐time mean variance portfolio selection  A reinforcement learning framework | 连续时间 MV 的强化学习框架论文                   | 7      |
 
 ## 3. Mean-Variance Analysis
 
@@ -1425,7 +1425,7 @@ $$
 
 ## 9. 连续时间 MV 的强化学习框架
 
-对应论文：[[4.Mathematical Finance - 2020 - Wang - Continuous‐time mean variance portfolio selection  A reinforcement learning framework]]
+对应论文：4.Mathematical Finance - 2020 - Wang - Continuous‐time mean variance portfolio selection  A reinforcement learning framework
 
 ### 9.1 论文要解决什么问题
 

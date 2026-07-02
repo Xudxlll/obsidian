@@ -1,4 +1,4 @@
-# AMA564 Deep Learning 总整理
+
 
 > [!info] 整理说明
 > 这份笔记基于文件夹内 13 篇 lecture Markdown 重新整理。原笔记主要来自课件/OCR，部分公式符号存在识别噪声；这里按课程主线重构知识框架，保留核心公式、模型直觉、训练流程、经典架构和复习重点。
@@ -24,19 +24,19 @@ AMA564 这门课可以看成一条从“函数逼近”走到“大模型训练�
 
 | 原笔记 | 主题定位 | 建议阅读顺序 |
 | --- | --- | --- |
-| [[AMA564_Deep Learning_Lecture1]] | 课程介绍、PyTorch、AI/ML/DL 历史、应用版图 | 1 |
-| [[AMA564_Deep Learning_Lecture2]] | MLP、函数逼近、回归、经验风险、鲁棒损失、分位数回归 | 2 |
-| [[AMA564_Deep Learning_Lecture3]] | 反向传播、GD/SGD、收敛直觉、Momentum、AdaGrad/RMSProp/Adam、mini-batch | 3 |
-| [[AMA564_Deep Learning_Lecture4]] | CNN 入门、图像任务、卷积、padding、stride、pooling、感受野 | 4 |
-| [[AMA564_Deep Learning_Lecture5]] | CNN 架构：LeNet、AlexNet、VGG、GoogLeNet/Inception、ResNet、BatchNorm、Dropout、数据增强 | 5 |
-| [[AMA564_Deep Learning_Lecture6]] | 分类问题、logistic/SVM、surrogate loss、softmax、cross entropy、MNIST/LeNet-5 PyTorch 示例 | 6 |
-| [[AMA564_Deep Learning_Lecture7(1)]] | 生成模型、Autoencoder、VAE、KL divergence、reparameterization trick、CVAE | 7 |
-| [[AMA564_Deep Learning_Lecture8]] | GAN、minimax game、交替训练、mode collapse、Normalizing Flow 和其他生成模型 | 8 |
-| [[AMA564_Deep Learning_Lecture9]] | RNN、many-to-one/one-to-many/many-to-many、Elman/Jordan、LSTM、word embedding | 9 |
-| [[AMA564_Deep Learning_Lecture10]] | Word2Vec、CBOW/Skip-gram、attention、self-attention、Q/K/V、Transformer | 10 |
-| [[AMA564_Deep Learning_Lecture11(1)]] | Pretraining、BERT、GPT、PEFT/LoRA、prompting、instruction tuning、RLHF | 11 |
-| [[AMA564_Deep Learning_Lecture12]] | RLHF 细化、reward model、算法与实验、DPO、Mistral/LLaMA3、RewardBench | 12 |
-| [[AMA564_Deep Learning_Lecture13]] | Scaling laws、课程总复习、从 DNN 到 LLM alignment 的整合 | 13 |
+| AMA564_Deep Learning_Lecture1 | 课程介绍、PyTorch、AI/ML/DL 历史、应用版图 | 1 |
+| AMA564_Deep Learning_Lecture2 | MLP、函数逼近、回归、经验风险、鲁棒损失、分位数回归 | 2 |
+| AMA564_Deep Learning_Lecture3 | 反向传播、GD/SGD、收敛直觉、Momentum、AdaGrad/RMSProp/Adam、mini-batch | 3 |
+| AMA564_Deep Learning_Lecture4 | CNN 入门、图像任务、卷积、padding、stride、pooling、感受野 | 4 |
+| AMA564_Deep Learning_Lecture5 | CNN 架构：LeNet、AlexNet、VGG、GoogLeNet/Inception、ResNet、BatchNorm、Dropout、数据增强 | 5 |
+| AMA564_Deep Learning_Lecture6 | 分类问题、logistic/SVM、surrogate loss、softmax、cross entropy、MNIST/LeNet-5 PyTorch 示例 | 6 |
+| AMA564_Deep Learning_Lecture7(1) | 生成模型、Autoencoder、VAE、KL divergence、reparameterization trick、CVAE | 7 |
+| AMA564_Deep Learning_Lecture8 | GAN、minimax game、交替训练、mode collapse、Normalizing Flow 和其他生成模型 | 8 |
+| AMA564_Deep Learning_Lecture9 | RNN、many-to-one/one-to-many/many-to-many、Elman/Jordan、LSTM、word embedding | 9 |
+| AMA564_Deep Learning_Lecture10 | Word2Vec、CBOW/Skip-gram、attention、self-attention、Q/K/V、Transformer | 10 |
+| AMA564_Deep Learning_Lecture11(1) | Pretraining、BERT、GPT、PEFT/LoRA、prompting、instruction tuning、RLHF | 11 |
+| AMA564_Deep Learning_Lecture12 | RLHF 细化、reward model、算法与实验、DPO、Mistral/LLaMA3、RewardBench | 12 |
+| AMA564_Deep Learning_Lecture13 | Scaling laws、课程总复习、从 DNN 到 LLM alignment 的整合 | 13 |
 
 ## 3. 知识地图
 
@@ -671,18 +671,18 @@ MLP/activation/universality -> loss/ERM -> optimization/backprop -> CNN/classifi
 
 ## 9. 需要重点回看的原笔记位置
 
-- **MLP 和鲁棒回归**：[[AMA564_Deep Learning_Lecture2]]
-- **GD/SGD/Adam 与 mini-batch**：[[AMA564_Deep Learning_Lecture3]]
-- **卷积、padding、pooling 尺寸计算**：[[AMA564_Deep Learning_Lecture4]]
-- **CNN 架构和训练技巧**：[[AMA564_Deep Learning_Lecture5]]
-- **Softmax、cross entropy、LeNet-5 代码**：[[AMA564_Deep Learning_Lecture6]]
-- **VAE loss、KL、reparameterization**：[[AMA564_Deep Learning_Lecture7(1)]]
-- **GAN minimax 和 mode collapse**：[[AMA564_Deep Learning_Lecture8]]
-- **RNN/LSTM 公式**：[[AMA564_Deep Learning_Lecture9]]
-- **Attention/Transformer 公式**：[[AMA564_Deep Learning_Lecture10]]
-- **Pretraining、BERT、LoRA、prompting**：[[AMA564_Deep Learning_Lecture11(1)]]
-- **RLHF 和 DPO**：[[AMA564_Deep Learning_Lecture12]]
-- **Scaling laws 和全课程回顾**：[[AMA564_Deep Learning_Lecture13]]
+- **MLP 和鲁棒回归**：AMA564_Deep Learning_Lecture2
+- **GD/SGD/Adam 与 mini-batch**：AMA564_Deep Learning_Lecture3
+- **卷积、padding、pooling 尺寸计算**：AMA564_Deep Learning_Lecture4
+- **CNN 架构和训练技巧**：AMA564_Deep Learning_Lecture5
+- **Softmax、cross entropy、LeNet-5 代码**：AMA564_Deep Learning_Lecture6
+- **VAE loss、KL、reparameterization**：AMA564_Deep Learning_Lecture7(1)
+- **GAN minimax 和 mode collapse**：AMA564_Deep Learning_Lecture8
+- **RNN/LSTM 公式**：AMA564_Deep Learning_Lecture9
+- **Attention/Transformer 公式**：AMA564_Deep Learning_Lecture10
+- **Pretraining、BERT、LoRA、prompting**：AMA564_Deep Learning_Lecture11(1)
+- **RLHF 和 DPO**：AMA564_Deep Learning_Lecture12
+- **Scaling laws 和全课程回顾**：AMA564_Deep Learning_Lecture13
 
 ## 10. 总结
 
