@@ -5,12 +5,11 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "数学",
         "assets",
         "腾讯小龙虾（WorkBuddy）.md",
-        "python爬虫",
-        "数据分析与机器学习",
+        "数学",
         "数分与机器额外笔记",
+        "数据分析与机器学习",
         "SQL数据库",
         "Python基础",
         "百度千帆智能体",
@@ -19,6 +18,7 @@
         "外刊精读",
         "Clippings",
         "AI知识汇总",
+        "python爬虫",
         "Python预科班笔记",
         "Python正式课笔记",
         "附件",
@@ -35,25 +35,7 @@
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
-      "customOrder": [
-        "支持向量机（SVM）——原理篇.md",
-        "未命名 1.md",
-        "未命名.md",
-        "2026-06-18-3-6 Numpy数组的合并与分割.md",
-        "2026-06-13-SpaceX上市，背后在玩什么资本游戏_.md",
-        "2026-06-10-系统代理和 TUN，到底差在哪？.md",
-        "2000～2024 年上市公司年报中管理层讨论与分析部分文本提取结果（txt 文件）.md",
-        "2000～2024 年上市公司年报中董事会（局）报告部分文本提取结果（txt 文件）.md",
-        "NEWS.md",
-        "2026-06-01-【闪客】一口气拆穿Skill_MCP_RAG_Agent_OpenClaw底层逻辑.md",
-        "2026-06-01-Git+Github核心概念大串讲，从零到一全攻略，详细实战教程.md",
-        "2026-06-01-deepseek接入codex，国内直连性价比之王！小白必学！.md",
-        "【中英双语】黄仁勋嘉宾演讲 - CMU卡耐基梅隆大学2026毕业典礼 1.md"
-      ]
-    },
-    "Clippings/【中英双语】黄仁勋嘉宾演讲 - CMU卡耐基梅隆大学2026毕业典礼 1.md": {
-      "isPinned": false,
-      "isHidden": false
+      "customOrder": []
     },
     "Python预科班笔记": {
       "isPinned": false,
@@ -3155,18 +3137,6 @@
       "isPinned": true,
       "isHidden": false
     },
-    "Clippings/2026-06-01-deepseek接入codex，国内直连性价比之王！小白必学！.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "Clippings/2026-06-01-Git+Github核心概念大串讲，从零到一全攻略，详细实战教程.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "Clippings/2026-06-01-【闪客】一口气拆穿Skill_MCP_RAG_Agent_OpenClaw底层逻辑.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "AI知识汇总": {
       "isPinned": false,
       "isHidden": false,
@@ -3678,10 +3648,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "Clippings/NEWS.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "Mac快捷键以及功能汇总/外刊精读流程.md": {
       "isPinned": false,
       "isHidden": false
@@ -3737,14 +3703,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "Clippings/2000～2024 年上市公司年报中董事会（局）报告部分文本提取结果（txt 文件）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "Clippings/2000～2024 年上市公司年报中管理层讨论与分析部分文本提取结果（txt 文件）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "Python基础": {
       "isPinned": false,
       "isHidden": false,
@@ -3782,15 +3740,7 @@
       "isPinned": false,
       "isHidden": false
     },
-    "Clippings/2026-06-10-系统代理和 TUN，到底差在哪？.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "AI知识汇总/系统代理和 TUN 的区别.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "Clippings/2026-06-13-SpaceX上市，背后在玩什么资本游戏_.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -4033,10 +3983,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "Clippings/2026-06-18-3-6 Numpy数组的合并与分割.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "Python基础/assets/15-浅拷贝与深拷贝": {
       "isPinned": false,
       "isHidden": false,
@@ -4053,10 +3999,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "Clippings/未命名.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "python爬虫": {
       "isPinned": false,
       "isHidden": false,
@@ -4066,10 +4008,6 @@
       ]
     },
     "python爬虫/陈楷锐老师-爬虫先导课笔记.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "Clippings/未命名 1.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -4855,10 +4793,6 @@
       "isHidden": false
     },
     "数分与机器额外笔记/决策树信息增益划分贷款案例.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "Clippings/支持向量机（SVM）——原理篇.md": {
       "isPinned": false,
       "isHidden": false
     },

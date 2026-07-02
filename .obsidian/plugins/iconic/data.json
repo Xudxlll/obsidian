@@ -62,8 +62,14 @@
     "Python基础": {
       "icon": "💻"
     },
+    "SQL数据库": {
+      "icon": "lucide-database"
+    },
     "外刊精读": {
       "icon": "📘"
+    },
+    "数据分析与机器学习": {
+      "icon": "lucide-calculator"
     },
     "百度千帆智能体": {
       "icon": "🤖"
