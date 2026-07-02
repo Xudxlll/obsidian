@@ -14,16 +14,14 @@
         "conversationId": "conv-1782874809540-tll5xnlvu"
       },
       {
-        "draftModel": "opus[1m]",
         "tabId": "tab-1782959011225-muaj9sm",
-        "conversationId": null
+        "conversationId": "conv-1782963306062-itbveyhaa"
       },
       {
-        "draftModel": "opus[1m]",
         "tabId": "tab-1782959011479-op25ljn",
-        "conversationId": null
+        "conversationId": "conv-1782965124688-l2f0di9gx"
       }
     ],
-    "activeTabId": "tab-1782959011225-muaj9sm"
+    "activeTabId": "tab-1782959011479-op25ljn"
   }
 }

@@ -1,0 +1,24 @@
+{
+  "id": "conv-1782965124688-l2f0di9gx",
+  "providerId": "claude",
+  "title": "Organize math notes with explanations",
+  "titleGenerationStatus": "success",
+  "createdAt": 1782965124688,
+  "updatedAt": 1782965225815,
+  "lastResponseAt": 1782965225815,
+  "sessionId": "236877d5-8669-4e3d-8ef1-c362b6b93f2e",
+  "providerState": {
+    "providerSessionId": "236877d5-8669-4e3d-8ef1-c362b6b93f2e"
+  },
+  "currentNote": "Clippings/支持向量机（SVM）——原理篇.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 117,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 38144,
+    "contextWindow": 1000000,
+    "contextTokens": 38261,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}

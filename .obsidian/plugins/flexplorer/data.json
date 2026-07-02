@@ -36,6 +36,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "支持向量机（SVM）——原理篇.md",
         "未命名 1.md",
         "未命名.md",
         "2026-06-18-3-6 Numpy数组的合并与分割.md",
@@ -6541,6 +6542,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "支持向量机（SVM）——原理篇.md",
         "线性代数.md"
       ]
     },
@@ -7354,6 +7356,14 @@
       "isHidden": false
     },
     "数分与机器额外笔记/决策树信息增益划分贷款案例.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Clippings/支持向量机（SVM）——原理篇.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数学/支持向量机（SVM）——原理篇.md": {
       "isPinned": false,
       "isHidden": false
     }
