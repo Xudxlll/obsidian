@@ -1079,6 +1079,13 @@ d = {"name": "Alice", "age": 18}
 print(d["name"])   # Alice
 
 # print(d["gender"])  # KeyError
+```
+```python
+results = {}
+results[3] = [-15.2]   # ← 写入（= 赋值）：key 不存在就帮你新建，不报错
+
+print(results[3])      # ← 读取：key 存在 → 正常输出 [-15.2]
+print(results[5])      # ← 读取：key 不存在 → KeyError! 💥
 
 ```
 

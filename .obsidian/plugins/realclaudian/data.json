@@ -12,8 +12,18 @@
       {
         "tabId": "tab-1780673723612-8h1zl26",
         "conversationId": "conv-1782874809540-tll5xnlvu"
+      },
+      {
+        "draftModel": "opus[1m]",
+        "tabId": "tab-1782959011225-muaj9sm",
+        "conversationId": null
+      },
+      {
+        "draftModel": "opus[1m]",
+        "tabId": "tab-1782959011479-op25ljn",
+        "conversationId": null
       }
     ],
-    "activeTabId": "tab-1780673723612-8h1zl26"
+    "activeTabId": "tab-1782959011225-muaj9sm"
   }
 }
