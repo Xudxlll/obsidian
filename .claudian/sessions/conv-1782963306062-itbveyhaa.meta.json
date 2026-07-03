@@ -4,8 +4,8 @@
   "title": "Understand the meaning of a sentence",
   "titleGenerationStatus": "success",
   "createdAt": 1782963306062,
-  "updatedAt": 1782973746989,
-  "lastResponseAt": 1782973746989,
+  "updatedAt": 1783040845054,
+  "lastResponseAt": 1783040845054,
   "sessionId": "236de66b-6373-4b84-ad84-8cf991cb77f3",
   "providerState": {
     "providerSessionId": "236de66b-6373-4b84-ad84-8cf991cb77f3"
@@ -13,12 +13,12 @@
   "currentNote": "数据分析与机器学习/09-支持向量机.md",
   "usage": {
     "model": "opus[1m]",
-    "inputTokens": 788,
+    "inputTokens": 89,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 33792,
+    "cacheReadInputTokens": 35968,
     "contextWindow": 1000000,
-    "contextTokens": 34580,
-    "percentage": 3,
+    "contextTokens": 36057,
+    "percentage": 4,
     "contextWindowIsAuthoritative": true
   }
 }

@@ -35,7 +35,9 @@
       "isPinned": false,
       "isHidden": false,
       "sortOrder": "custom",
-      "customOrder": []
+      "customOrder": [
+        "DBSCAN 分群演算法介紹與實際應用範例.md"
+      ]
     },
     "Python预科班笔记": {
       "isPinned": false,
@@ -4682,6 +4684,7 @@
       "sortOrder": "custom",
       "customOrder": [
         "assets",
+        "DBSCAN 聚类算法介绍与实际应用示例.md",
         "决策树信息增益划分贷款案例.md",
         "机器学习算法全景笔记.md",
         "作业2.md",
@@ -4719,6 +4722,14 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "dbscan-range-query.png",
+        "dbscan-pseudocode.png",
+        "dbscan-outliers.png",
+        "dbscan-reachable-points.png",
+        "dbscan-core-points.png",
+        "dbscan-demo-result.png",
+        "dbscan-cluster-comparison.png",
+        "dbscan-clusters-demo.png",
         "作业1",
         "NumPy 数组的合并与分割"
       ]
@@ -4840,6 +4851,46 @@
       "isHidden": false
     },
     "百度千帆智能体/项目汇报PPT逐页内容规划.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Clippings/DBSCAN 分群演算法介紹與實際應用範例.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数分与机器额外笔记/DBSCAN 聚类算法介绍与实际应用示例.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数分与机器额外笔记/assets/dbscan-clusters-demo.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数分与机器额外笔记/assets/dbscan-cluster-comparison.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数分与机器额外笔记/assets/dbscan-demo-result.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数分与机器额外笔记/assets/dbscan-core-points.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数分与机器额外笔记/assets/dbscan-reachable-points.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数分与机器额外笔记/assets/dbscan-outliers.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数分与机器额外笔记/assets/dbscan-pseudocode.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数分与机器额外笔记/assets/dbscan-range-query.png": {
       "isPinned": false,
       "isHidden": false
     }
