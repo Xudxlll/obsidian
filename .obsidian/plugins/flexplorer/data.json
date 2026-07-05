@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "广财先导课",
         "assets",
         "腾讯小龙虾（WorkBuddy）.md",
         "数学",
@@ -18,7 +19,6 @@
         "外刊精读",
         "Clippings",
         "AI知识汇总",
-        "python爬虫",
         "Python预科班笔记",
         "Python正式课笔记",
         "附件",
@@ -4001,18 +4001,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "python爬虫": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "陈楷锐老师-爬虫先导课笔记.md"
-      ]
-    },
-    "python爬虫/陈楷锐老师-爬虫先导课笔记.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "腾讯小龙虾（WorkBuddy）.md": {
       "isPinned": false,
       "isHidden": false
@@ -4891,6 +4879,23 @@
       "isHidden": false
     },
     "数分与机器额外笔记/assets/dbscan-range-query.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "广财先导课": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "爬虫先导课笔记.md",
+        "经济大数据分析的思维与机器学习基本原理.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "广财先导课/经济大数据分析的思维与机器学习基本原理.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "广财先导课/爬虫先导课笔记.md": {
       "isPinned": false,
       "isHidden": false
     }

@@ -1,0 +1,24 @@
+{
+  "id": "conv-1783255771145-nr923arw0",
+  "providerId": "claude",
+  "title": "要求详细解释",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783255771145,
+  "updatedAt": 1783257008056,
+  "lastResponseAt": 1783256410002,
+  "sessionId": "1df313e2-0aaf-4526-ba8d-ffd55899e3f1",
+  "providerState": {
+    "providerSessionId": "1df313e2-0aaf-4526-ba8d-ffd55899e3f1"
+  },
+  "currentNote": "数据分析与机器学习/05-机器学习概述.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 3865,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 31744,
+    "contextWindow": 1000000,
+    "contextTokens": 35609,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}

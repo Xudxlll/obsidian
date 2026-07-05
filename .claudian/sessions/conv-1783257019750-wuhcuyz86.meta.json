@@ -1,0 +1,24 @@
+{
+  "id": "conv-1783257019750-wuhcuyz86",
+  "providerId": "claude",
+  "title": "Explain types of classification problems",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783257019750,
+  "updatedAt": 1783257468871,
+  "lastResponseAt": 1783257039367,
+  "sessionId": "5876f9be-7381-49f7-901a-d3c9a0f27512",
+  "providerState": {
+    "providerSessionId": "5876f9be-7381-49f7-901a-d3c9a0f27512"
+  },
+  "currentNote": "数据分析与机器学习/11-聚类.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 195,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 23424,
+    "contextWindow": 1000000,
+    "contextTokens": 23619,
+    "percentage": 2,
+    "contextWindowIsAuthoritative": true
+  }
+}
