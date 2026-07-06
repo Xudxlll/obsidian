@@ -3069,6 +3069,13 @@
       "isHidden": false,
       "sortOrder": "byName",
       "customOrder": [
+        "Lecture 07 - Generative Models、VAE 与 Conditional VAE.md",
+        "Lecture 06 - Classification、Softmax 与 Cross Entropy.md",
+        "Lecture 05 - CNN Architectures、Initialization 与 Batch Normalization.md",
+        "Lecture 04 - Computer Vision、Convolution 与 CNN 基础.md",
+        "Lecture 03 - Backpropagation 与 Optimization Algorithms.md",
+        "Lecture 02 - Deep Neural Regression、Loss Function 与 Quantile Regression.md",
+        "Lecture 01 - 课程介绍、深度学习概览与 MLP 基础.md",
         "AMA564 Deep Learning 总整理.md"
       ]
     },
@@ -6630,6 +6637,34 @@
       "isHidden": false
     },
     "深度学习/07_AID_Deeplearning_paddlepaddle_image_classify.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture 01 - 课程介绍、深度学习概览与 MLP 基础.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture 02 - Deep Neural Regression、Loss Function 与 Quantile Regression.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture 03 - Backpropagation 与 Optimization Algorithms.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture 04 - Computer Vision、Convolution 与 CNN 基础.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture 05 - CNN Architectures、Initialization 与 Batch Normalization.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture 06 - Classification、Softmax 与 Cross Entropy.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture 07 - Generative Models、VAE 与 Conditional VAE.md": {
       "isPinned": false,
       "isHidden": false
     }

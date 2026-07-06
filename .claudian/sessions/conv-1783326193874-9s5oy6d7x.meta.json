@@ -1,0 +1,22 @@
+{
+  "id": "conv-1783326193874-9s5oy6d7x",
+  "providerId": "claude",
+  "title": "举例解释1.2节内容",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783326193874,
+  "updatedAt": 1783326423466,
+  "lastResponseAt": 1783326423466,
+  "sessionId": "2a43905a-294c-4646-8c12-62adccecd444",
+  "providerState": {
+    "providerSessionId": "2a43905a-294c-4646-8c12-62adccecd444"
+  },
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 15598,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 23168,
+    "contextWindow": 1000000,
+    "contextTokens": 38766,
+    "percentage": 4
+  }
+}
