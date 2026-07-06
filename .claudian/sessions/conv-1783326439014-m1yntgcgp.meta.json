@@ -4,8 +4,8 @@
   "title": "Explain section 1.2 with example",
   "titleGenerationStatus": "success",
   "createdAt": 1783326439014,
-  "updatedAt": 1783326755407,
-  "lastResponseAt": 1783326755407,
+  "updatedAt": 1783334702109,
+  "lastResponseAt": 1783334702109,
   "sessionId": "d098a12b-3e67-469b-8097-75bf2750eeda",
   "providerState": {
     "providerSessionId": "d098a12b-3e67-469b-8097-75bf2750eeda"
@@ -13,12 +13,12 @@
   "currentNote": "数据分析与机器学习/06-线性回归.md",
   "usage": {
     "model": "opus[1m]",
-    "inputTokens": 1218,
+    "inputTokens": 1939,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 40064,
+    "cacheReadInputTokens": 56832,
     "contextWindow": 1000000,
-    "contextTokens": 41282,
-    "percentage": 4,
+    "contextTokens": 58771,
+    "percentage": 6,
     "contextWindowIsAuthoritative": true
   }
 }

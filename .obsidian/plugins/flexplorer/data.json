@@ -3069,6 +3069,19 @@
       "isHidden": false,
       "sortOrder": "byName",
       "customOrder": [
+        "Lecture13.pdf",
+        "Lecture12.pdf",
+        "Lecture11.pdf",
+        "Lecture10.pdf",
+        "Lecture9.pdf",
+        "Lecture8.pdf",
+        "Lecture7.pdf",
+        "Lecture6.pdf",
+        "Lecture5.pdf",
+        "Lecture4.pdf",
+        "Lecture3.pdf",
+        "Lecture2.pdf",
+        "Lecture1.pdf",
         "Lecture 07 - Generative Models、VAE 与 Conditional VAE.md",
         "Lecture 06 - Classification、Softmax 与 Cross Entropy.md",
         "Lecture 05 - CNN Architectures、Initialization 与 Batch Normalization.md",
@@ -6665,6 +6678,58 @@
       "isHidden": false
     },
     "AMA564 DEEP LEARNING/Lecture 07 - Generative Models、VAE 与 Conditional VAE.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture1.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture2.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture3.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture4.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture5.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture6.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture7.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture8.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture9.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture10.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture11.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture12.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture13.pdf": {
       "isPinned": false,
       "isHidden": false
     }
