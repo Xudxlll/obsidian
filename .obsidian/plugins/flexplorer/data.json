@@ -3069,6 +3069,12 @@
       "isHidden": false,
       "sortOrder": "byName",
       "customOrder": [
+        "Lecture 13 - Scaling Laws 与 AMA564 Deep Learning 总复习.md",
+        "Lecture 12 - RLHF、GRPOVI 与 Direct Preference Optimization.md",
+        "Lecture 11 - Pretraining、BERT、PEFT、Prompting 与 RLHF.md",
+        "Lecture 10 - Word2Vec、Attention 与 Transformer.md",
+        "Lecture 09 - Recurrent Neural Networks、LSTM 与 Word Embedding.md",
+        "Lecture 08 - GAN、Flow-based Models 与 Score-based Models.md",
         "Lecture13.pdf",
         "Lecture12.pdf",
         "Lecture11.pdf",
@@ -6730,6 +6736,30 @@
       "isHidden": false
     },
     "AMA564 DEEP LEARNING/Lecture13.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture 08 - GAN、Flow-based Models 与 Score-based Models.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture 09 - Recurrent Neural Networks、LSTM 与 Word Embedding.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture 10 - Word2Vec、Attention 与 Transformer.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture 11 - Pretraining、BERT、PEFT、Prompting 与 RLHF.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture 12 - RLHF、GRPOVI 与 Direct Preference Optimization.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA564 DEEP LEARNING/Lecture 13 - Scaling Laws 与 AMA564 Deep Learning 总复习.md": {
       "isPinned": false,
       "isHidden": false
     }
