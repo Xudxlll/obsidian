@@ -5,14 +5,14 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "广财先导课",
-        "assets",
-        "腾讯小龙虾（WorkBuddy）.md",
-        "数学",
-        "数分与机器额外笔记",
-        "数据分析与机器学习",
-        "SQL数据库",
         "Python基础",
+        "SQL数据库",
+        "数据分析与机器学习",
+        "数分与机器额外笔记",
+        "深度学习",
+        "广财先导课",
+        "数学",
+        "WorkBuddy",
         "百度千帆智能体",
         "金融知识",
         "Mac快捷键以及功能汇总",
@@ -22,6 +22,7 @@
         "Python预科班笔记",
         "Python正式课笔记",
         "附件",
+        "assets",
         "AMA535A-Mathematical Models of Derivative Pricing",
         "AMA564 DEEP LEARNING",
         "AMA568 Quantitative Finance",
@@ -4001,10 +4002,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "腾讯小龙虾（WorkBuddy）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "数据分析与机器学习": {
       "isPinned": false,
       "isHidden": false,
@@ -4896,6 +4893,1743 @@
       "isHidden": false
     },
     "广财先导课/爬虫先导课笔记.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "07_AID_Deeplearning_paddlepaddle_image_classify.pdf",
+        "06_AID_Deeplearning_paddlepaddle_base.pdf",
+        "05_AID_Deeplearning_Tensorflow_img_classify.pdf",
+        "04_AID_Deeplearning_Tensorflow_base.pdf",
+        "03_AID_DeepLearning_opencv2.pdf",
+        "02_AID_DeepLearning_opencv1.pdf",
+        "img",
+        "深度学习课堂笔记.md",
+        "Pytorch讲义.md",
+        "深度学习实验手册.md",
+        "01_AID_Deeplearning_base-2026.pdf"
+      ],
+      "sortOrder": "byName"
+    },
+    "WorkBuddy": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "腾讯小龙虾（WorkBuddy）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "WorkBuddy/腾讯小龙虾（WorkBuddy）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/Pytorch讲义.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "高斯滤波.png",
+        "鞍点.png",
+        "霍夫变换2.png",
+        "霍夫变换1.png",
+        "闭运算.png",
+        "遥感图像分割.png",
+        "透视变换.png",
+        "轮廓系数.jpg",
+        "语义分割动画.gif",
+        "语义分割优秀模型一览表.png",
+        "语义分割-原图1.jpg",
+        "语义分割-原图-分割1.jpg",
+        "语义分割-分割1.jpg",
+        "词的共现矩阵.png",
+        "词向量.png",
+        "计算机网络面试题集.html",
+        "视频关键帧-视频截取.png",
+        "街道场景分割.png",
+        "街道场景分割.jpg",
+        "草地动物.png",
+        "色彩通道操作.png",
+        "胶囊检测气泡过程.png",
+        "胶囊大小头判断过程.png",
+        "绘制外接椭圆.png",
+        "绘制圆形包围框.png",
+        "神经元兴奋传递.png",
+        "矩形包围框.png",
+        "眼底视网膜分割.png",
+        "直方图均衡化.png",
+        "生物神经元.png",
+        "生物神经元 - 副本.png",
+        "特征金字塔.png",
+        "滑动窗口.png",
+        "滑动窗口.jpg",
+        "深度神经网络2.png",
+        "深度神经网络.png",
+        "月球.png",
+        "支持向量.png",
+        "提取轮廓.png",
+        "感受野示意图.png",
+        "感受野.png",
+        "形态学梯度.png",
+        "开运算.png",
+        "带角度的文本检测.png",
+        "多通道卷积.png",
+        "多边形逼近.png",
+        "增量训练效果.png",
+        "均值滤波.png",
+        "均值向量与均值移动.png",
+        "图像黑帽运算.png",
+        "图像闭运算.png",
+        "图像金字塔.png",
+        "图像金子塔1.png",
+        "图像裁剪.png",
+        "图像膨胀.png",
+        "图像腐蚀.png",
+        "图像礼帽运算.png",
+        "图像校正案例结果.png",
+        "图像开运算.png",
+        "图像加法2.png",
+        "关键帧提取脚本.png",
+        "图像加法.png",
+        "图像减法.png",
+        "图像仿射变换.png",
+        "各种目标检测性能对比.png",
+        "卷积运算-动图.gif",
+        "各种比例交并比.png",
+        "卷积神经网络.png",
+        "前馈神经网络.png",
+        "医学影像分割.png",
+        "决策树子表.png",
+        "决策子树1.png",
+        "共现矩阵SVD分解.png",
+        "传统NLP流程.png",
+        "二维线性不可分.png",
+        "二维升维至三维.png",
+        "二值化.png",
+        "一维线性不可分.png",
+        "一维映射到二维.png",
+        "yolo3结构图.jfif",
+        "word2vec表达式.png",
+        "version_desc.png",
+        "unet表2.png",
+        "unet公式2.png",
+        "unet公式1.png",
+        "unet-softmax.png",
+        "triplet_network_2.png",
+        "triplet_network_1.png",
+        "triplet_loss_5.png",
+        "triplet_loss_4.png",
+        "triplet_loss_3.png",
+        "triplet_loss_2.png",
+        "triplet_loss_1.png",
+        "tensors_flowing.gif",
+        "synset关系.png",
+        "svm示意图.png",
+        "rugby.jpg",
+        "starGAN.png",
+        "standard_cnn_dropout.png",
+        "standard_cnn.png",
+        "sigmoid激活值分布_0.01.png",
+        "sigmoid激活值分布.png",
+        "siamese_loss_2.png",
+        "siamese_loss_1.png",
+        "siamese_5.png",
+        "siamese_4.png",
+        "siamese_3.png",
+        "siamese_2.png",
+        "siamese_1.png",
+        "siamese_0.png",
+        "selective search示意图.png",
+        "segment和link过程.png",
+        "segment和link合并.png",
+        "segmentation_level.png",
+        "rugby_segmentation_3.jpg",
+        "rugby_segmentation_2.jpg",
+        "rugby_segmentation_1.jpg",
+        "pix2pix.png",
+        "paper.jpg",
+        "optimizer_compare_speed.gif",
+        "optimizer_compare_3.gif",
+        "optimizer_compare.gif",
+        "nms.png",
+        "model_save_and_load.png",
+        "mnist.png",
+        "lr.png",
+        "img_conv.png",
+        "forward.png",
+        "faster-rcnn.png",
+        "faster rcnn网络结构详细图.png",
+        "cloud.png",
+        "cifar-10.png",
+        "car9.png",
+        "car8.png",
+        "backward.png",
+        "avatar样本示例.png",
+        "avatar_60.png",
+        "avatar_5.png",
+        "avatar_40.png",
+        "avatar_20.png",
+        "avatar_10.png",
+        "avatar_1.png",
+        "anchors示意图.png",
+        "YOLOv3_tiny模型.png",
+        "YOLOv3-01.png",
+        "YOLOv2-03.png",
+        "YOLOv2-02.png",
+        "YOLOv1-03.png",
+        "YOLOv1-01.png",
+        "YOLO3模型_级联.png",
+        "YOLO3_5.png",
+        "YOLO3_4.png",
+        "YOLO3_3.png",
+        "YOLO2_6.png",
+        "YOLO2_3.png",
+        "YOLO2_2.png",
+        "YOLO1损失函数解析.png",
+        "YOLO1损失函数.png",
+        "YOLO1损失函数.jpg",
+        "YOLO1_3.png",
+        "YOLO1_2.png",
+        "Xavier初始值激活分布.png",
+        "VGGNet.png",
+        "UNet表1.png",
+        "UNet图4.png",
+        "UNet图3.png",
+        "UNet图2.png",
+        "UNet图1.png",
+        "TextCNN.png",
+        "Stanford Background Dataset.jfif",
+        "SegLink网络结构.png",
+        "SegLink_表3.png",
+        "SegLink_表2.png",
+        "SegLink_表1.png",
+        "SegLink_算法1.png",
+        "SegLink_图8.png",
+        "SegLink_图7.png",
+        "SegLink_图6.png",
+        "SegLink_图5.png",
+        "SegLink_图4.png",
+        "SegLink_图3.png",
+        "SegLink_图1.png",
+        "SegLink_公式9.png",
+        "SegLink_公式8.png",
+        "SegLink_公式7.png",
+        "SegLink_公式2-6.png",
+        "SegLink_公式10.png",
+        "SegLink_公式1.png",
+        "SGD路径.png",
+        "Relu高斯分布0.01.png",
+        "ReluXavier初始值.png",
+        "ReluHe初始值.png",
+        "RPN_network.png",
+        "RNN文字识别两种框架.jpg",
+        "RNN_LSTM.png",
+        "RNN.png",
+        "RCNN_CTC.jpg",
+        "RCNN.png",
+        "OCR一般步骤.png",
+        "OCR_RNN_LSTM网络详情.png",
+        "OCR_RNN_LSTM乐谱识别性能.png",
+        "OCR_RNN_LSTM测试性能.png",
+        "OCR_Detection_recorgnize.png",
+        "MaskRCNN掩码示意图.png",
+        "Momentum路径.png",
+        "MaskRCNN_表7.png",
+        "MaskRCNN_表6.png",
+        "MaskRCNN_表5.png",
+        "MaskRCNN_表4.png",
+        "MaskRCNN_表3.png",
+        "MaskRCNN_表2.png",
+        "MaskRCNN_表1.png",
+        "MaskRCNN_图8.png",
+        "MaskRCNN_图7.png",
+        "MaskRCNN_图6.png",
+        "MaskRCNN_图5.png",
+        "MaskRCNN_图4.png",
+        "MaskRCNN_图3.png",
+        "MaskRCNN_图2.png",
+        "MaskRCNN_图1.png",
+        "Mask RCNN网络结构图2.png",
+        "Mask RCNN网络结构图.png",
+        "MTCNN_表2.png",
+        "MTCNN_表1.png",
+        "MTCNN_图4.png",
+        "MTCNN_图1.png",
+        "MTCNN_图3.png",
+        "MTCNN_图2.png",
+        "MTCNN_公式4.png",
+        "MTCNN_公式3.png",
+        "MTCNN_公式2.png",
+        "MTCNN_公式1.png",
+        "IOU.png",
+        "HSV.png",
+        "GoogleLeNet.jpg",
+        "GAWGAN.png",
+        "GAN的可视化理解.png",
+        "GAN的代价函数变形.png",
+        "GAN的代价函数.png",
+        "GAN生成器函数推导2.png",
+        "GAN生成器函数推导1.png",
+        "GAN生成人脸.png",
+        "GAN理想判别器生成器.png",
+        "GAN理想判别器推导2.png",
+        "GAN理想判别器推导1.png",
+        "GAN物品生成.png",
+        "GAN照片修复.png",
+        "GAN极大值极小值.png",
+        "GAN数量增长趋势.png",
+        "GAN图像转换.png",
+        "GAN.jpeg",
+        "FaceNet表6.png",
+        "FaceNet表5.png",
+        "FaceNet表4.png",
+        "FaceNet表3.png",
+        "FaceNet表2.png",
+        "FaceNet表1.png",
+        "FaceNet公式7.png",
+        "FaceNet公式6.png",
+        "FaceNet公式5.png",
+        "FaceNet_图7.png",
+        "FaceNet_图6.png",
+        "FaceNet_图5.png",
+        "FaceNet_图4.png",
+        "FaceNet_图3.png",
+        "FaceNet_图2.png",
+        "FaceNet_图1.png",
+        "FCN表5.png",
+        "FCN表4.png",
+        "FCN表3.png",
+        "FCN表2.png",
+        "FCN表1.png",
+        "FCN结构_2.jpg",
+        "FCN结构_1.jpg",
+        "FCN图6.png",
+        "FCN图5.png",
+        "FCN图4.png",
+        "FCN图3.png",
+        "FCN图2.png",
+        "FCN图1.png",
+        "FCN公式3.png",
+        "FCN公式2.png",
+        "FCN公式1.png",
+        "DeepFace_表4.png",
+        "DeepFace_表3.png",
+        "DeepFace_表1.png",
+        "DeepFace_表2.png",
+        "DeepFace_图4.png",
+        "DeepFace_图3.png",
+        "DeepFace_图1.png",
+        "DeepFace2.png",
+        "DarkNet53.png",
+        "DCGAN_生成器网络结构.png",
+        "DCGAN_判别器网络结构.png",
+        "DBSCAN示意图.png",
+        "CycleGAN.png",
+        "CTPN_表2.png",
+        "CTPN_表1.png",
+        "CTPN_图6.png",
+        "CTPN_图5.png",
+        "CTPN_图4.png",
+        "CTPN_图3.png",
+        "CTPN_图2.png",
+        "CTPN_图1.png",
+        "CTPN_图0.png",
+        "CTPN_公式5.png",
+        "CTPN_公式4.png",
+        "CTPN_公式3png.png",
+        "CTPN_公式1.png",
+        "CPU瑕疵检测.png",
+        "CPU3.png",
+        "CBOW.png",
+        "AlexNet结构.png",
+        "Adam路径.png",
+        "AdaGrad路径.png",
+        "AdaAdamMomSGD对比.png",
+        "8.1.7.png",
+        "8.1.3.png",
+        "8.1.1.png",
+        "13_提取颜色.png",
+        "12_边沿提取.png",
+        "11_图像锐化.png",
+        "10_图像模糊处理.png",
+        "09_彩色直方图均衡化.png",
+        "08_灰度直方图均衡化.png",
+        "06_图像位置变换.png",
+        "07_图像缩放.png",
+        "05_图像相减.png",
+        "04_图像相加.png",
+        "03_图像翻转.png",
+        "02_彩色转灰度.png",
+        "01_图像打开与显示.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "深度学习/img/01_图像打开与显示.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/02_彩色转灰度.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/03_图像翻转.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/04_图像相加.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/05_图像相减.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/07_图像缩放.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/06_图像位置变换.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/08_灰度直方图均衡化.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/09_彩色直方图均衡化.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/10_图像模糊处理.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/11_图像锐化.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/12_边沿提取.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/13_提取颜色.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/8.1.1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/8.1.3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/8.1.7.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/AdaAdamMomSGD对比.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/AdaGrad路径.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/Adam路径.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/AlexNet结构.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/CBOW.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/CPU3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/CPU瑕疵检测.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/CTPN_公式1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/CTPN_公式3png.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/CTPN_公式4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/CTPN_公式5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/CTPN_图0.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/CTPN_图1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/CTPN_图2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/CTPN_图3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/CTPN_图4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/CTPN_图5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/CTPN_图6.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/CTPN_表1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/CTPN_表2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/CycleGAN.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/DBSCAN示意图.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/DCGAN_判别器网络结构.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/DCGAN_生成器网络结构.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/DarkNet53.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/DeepFace2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/DeepFace_图1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/DeepFace_图3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/DeepFace_图4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/DeepFace_表2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/DeepFace_表1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/DeepFace_表3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/DeepFace_表4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FCN公式1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FCN公式2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FCN公式3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FCN图1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FCN图2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FCN图3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FCN图4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FCN图5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FCN图6.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FCN结构_1.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FCN结构_2.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FCN表1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FCN表2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FCN表3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FCN表4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FCN表5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FaceNet_图1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FaceNet_图2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FaceNet_图3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FaceNet_图4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FaceNet_图5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FaceNet_图6.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FaceNet_图7.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FaceNet公式5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FaceNet公式6.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FaceNet公式7.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FaceNet表1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FaceNet表2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FaceNet表3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FaceNet表4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FaceNet表5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/FaceNet表6.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/GAN.jpeg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/GAN图像转换.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/GAN数量增长趋势.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/GAN极大值极小值.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/GAN照片修复.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/GAN物品生成.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/GAN理想判别器推导1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/GAN理想判别器推导2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/GAN理想判别器生成器.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/GAN生成人脸.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/GAN生成器函数推导1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/GAN生成器函数推导2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/GAN的代价函数.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/GAN的代价函数变形.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/GAN的可视化理解.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/GAWGAN.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/GoogleLeNet.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/HSV.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/IOU.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MTCNN_公式1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MTCNN_公式2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MTCNN_公式3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MTCNN_公式4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MTCNN_图2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MTCNN_图3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MTCNN_图1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MTCNN_图4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MTCNN_表1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MTCNN_表2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/Mask RCNN网络结构图.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/Mask RCNN网络结构图2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MaskRCNN_图1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MaskRCNN_图2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MaskRCNN_图3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MaskRCNN_图4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MaskRCNN_图5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MaskRCNN_图6.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MaskRCNN_图7.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MaskRCNN_图8.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MaskRCNN_表1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MaskRCNN_表2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MaskRCNN_表3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MaskRCNN_表4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MaskRCNN_表5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MaskRCNN_表6.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MaskRCNN_表7.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/Momentum路径.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/MaskRCNN掩码示意图.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/OCR_Detection_recorgnize.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/OCR_RNN_LSTM测试性能.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/OCR_RNN_LSTM乐谱识别性能.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/OCR_RNN_LSTM网络详情.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/OCR一般步骤.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/RCNN.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/RCNN_CTC.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/RNN.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/RNN_LSTM.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/RNN文字识别两种框架.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/RPN_network.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/ReluHe初始值.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/ReluXavier初始值.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/Relu高斯分布0.01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/SGD路径.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/SegLink_公式1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/SegLink_公式10.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/SegLink_公式2-6.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/SegLink_公式7.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/SegLink_公式8.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/SegLink_公式9.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/SegLink_图1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/SegLink_图3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/SegLink_图4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/SegLink_图5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/SegLink_图6.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/SegLink_图7.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/SegLink_图8.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/SegLink_算法1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/SegLink_表1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/SegLink_表2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/SegLink_表3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/SegLink网络结构.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/Stanford Background Dataset.jfif": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/TextCNN.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/UNet图1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/UNet图2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/UNet图3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/UNet图4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/UNet表1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/VGGNet.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/Xavier初始值激活分布.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/YOLO1_2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/YOLO1_3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/YOLO1损失函数.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/YOLO1损失函数.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/YOLO1损失函数解析.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/YOLO2_2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/YOLO2_3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/YOLO2_6.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/YOLO3_3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/YOLO3_4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/YOLO3_5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/YOLO3模型_级联.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/YOLOv1-01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/YOLOv1-03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/YOLOv2-02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/YOLOv2-03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/YOLOv3-01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/YOLOv3_tiny模型.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/anchors示意图.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/avatar_1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/avatar_10.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/avatar_20.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/avatar_40.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/avatar_5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/avatar_60.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/avatar样本示例.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/backward.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/car8.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/car9.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/cifar-10.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/cloud.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/faster rcnn网络结构详细图.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/faster-rcnn.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/forward.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/img_conv.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/lr.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/mnist.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/model_save_and_load.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/nms.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/optimizer_compare.gif": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/optimizer_compare_3.gif": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/optimizer_compare_speed.gif": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/paper.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/pix2pix.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/rugby_segmentation_1.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/rugby_segmentation_2.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/rugby_segmentation_3.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/segmentation_level.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/segment和link合并.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/segment和link过程.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/selective search示意图.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/siamese_0.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/siamese_1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/siamese_2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/siamese_3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/siamese_4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/siamese_5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/siamese_loss_1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/siamese_loss_2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/sigmoid激活值分布.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/sigmoid激活值分布_0.01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/standard_cnn.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/standard_cnn_dropout.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/starGAN.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/rugby.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/svm示意图.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/synset关系.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/tensors_flowing.gif": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/triplet_loss_1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/triplet_loss_2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/triplet_loss_3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/triplet_loss_4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/triplet_loss_5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/triplet_network_1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/triplet_network_2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/unet-softmax.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/unet公式1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/unet公式2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/unet表2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/version_desc.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/word2vec表达式.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/yolo3结构图.jfif": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/一维映射到二维.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/一维线性不可分.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/二值化.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/二维升维至三维.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/二维线性不可分.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/传统NLP流程.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/共现矩阵SVD分解.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/决策子树1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/决策树子表.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/医学影像分割.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/前馈神经网络.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/卷积神经网络.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/各种比例交并比.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/卷积运算-动图.gif": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/各种目标检测性能对比.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/图像仿射变换.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/图像减法.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/图像加法.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/关键帧提取脚本.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/图像加法2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/图像开运算.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/图像校正案例结果.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/图像礼帽运算.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/图像腐蚀.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/图像膨胀.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/图像裁剪.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/图像金子塔1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/图像金字塔.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/图像闭运算.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/图像黑帽运算.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/均值向量与均值移动.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/均值滤波.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/增量训练效果.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/多边形逼近.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/多通道卷积.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/带角度的文本检测.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/开运算.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/形态学梯度.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/感受野.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/感受野示意图.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/提取轮廓.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/支持向量.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/月球.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/深度神经网络.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/深度神经网络2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/滑动窗口.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/滑动窗口.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/特征金字塔.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/生物神经元 - 副本.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/生物神经元.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/直方图均衡化.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/眼底视网膜分割.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/矩形包围框.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/神经元兴奋传递.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/绘制圆形包围框.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/绘制外接椭圆.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/胶囊大小头判断过程.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/胶囊检测气泡过程.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/色彩通道操作.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/草地动物.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/街道场景分割.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/街道场景分割.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/视频关键帧-视频截取.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/计算机网络面试题集.html": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/词向量.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/词的共现矩阵.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/语义分割-分割1.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/语义分割-原图-分割1.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/语义分割-原图1.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/语义分割优秀模型一览表.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/语义分割动画.gif": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/轮廓系数.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/透视变换.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/遥感图像分割.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/闭运算.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/霍夫变换1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/霍夫变换2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/鞍点.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/高斯滤波.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/深度学习实验手册.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/深度学习课堂笔记.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/01_AID_Deeplearning_base-2026.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/02_AID_DeepLearning_opencv1.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/03_AID_DeepLearning_opencv2.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/04_AID_Deeplearning_Tensorflow_base.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/05_AID_Deeplearning_Tensorflow_img_classify.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/06_AID_Deeplearning_paddlepaddle_base.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/07_AID_Deeplearning_paddlepaddle_image_classify.pdf": {
       "isPinned": false,
       "isHidden": false
     }

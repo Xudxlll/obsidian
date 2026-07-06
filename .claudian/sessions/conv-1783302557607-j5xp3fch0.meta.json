@@ -1,0 +1,24 @@
+{
+  "id": "conv-1783302557607-j5xp3fch0",
+  "providerId": "claude",
+  "title": "Convert Markdown heading levels",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783302557608,
+  "updatedAt": 1783302882726,
+  "lastResponseAt": 1783302882726,
+  "sessionId": "a96b9525-f59e-4bf0-8c62-059530c4d9ce",
+  "providerState": {
+    "providerSessionId": "a96b9525-f59e-4bf0-8c62-059530c4d9ce"
+  },
+  "currentNote": "深度学习/深度学习实验手册.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 1202,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 44800,
+    "contextWindow": 1000000,
+    "contextTokens": 46002,
+    "percentage": 5,
+    "contextWindowIsAuthoritative": true
+  }
+}
