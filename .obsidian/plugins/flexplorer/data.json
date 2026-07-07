@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "B站吕斌老师课程《机器学习因果推断》",
         "Python基础",
         "SQL数据库",
         "数据分析与机器学习",
@@ -37,6 +38,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Bilibili",
         "DBSCAN 分群演算法介紹與實際應用範例.md"
       ]
     },
@@ -4908,11 +4910,11 @@
     "广财先导课": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "爬虫先导课笔记.md",
         "经济大数据分析的思维与机器学习基本原理.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "广财先导课/经济大数据分析的思维与机器学习基本原理.md": {
       "isPinned": false,
@@ -4925,6 +4927,7 @@
     "深度学习": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "byName",
       "customOrder": [
         "07_AID_Deeplearning_paddlepaddle_image_classify.pdf",
         "06_AID_Deeplearning_paddlepaddle_base.pdf",
@@ -4937,16 +4940,15 @@
         "Pytorch讲义.md",
         "深度学习实验手册.md",
         "01_AID_Deeplearning_base-2026.pdf"
-      ],
-      "sortOrder": "byName"
+      ]
     },
     "WorkBuddy": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "腾讯小龙虾（WorkBuddy）.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "WorkBuddy/腾讯小龙虾（WorkBuddy）.md": {
       "isPinned": false,
@@ -4959,6 +4961,7 @@
     "深度学习/img": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "高斯滤波.png",
         "鞍点.png",
@@ -5292,8 +5295,7 @@
         "03_图像翻转.png",
         "02_彩色转灰度.png",
         "01_图像打开与显示.png"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "深度学习/img/01_图像打开与显示.png": {
       "isPinned": false,
@@ -6760,6 +6762,115 @@
       "isHidden": false
     },
     "AMA564 DEEP LEARNING/Lecture 13 - Scaling Laws 与 AMA564 Deep Learning 总复习.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Clippings/Bilibili": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "2026-07-07-机器学习因果推断之机器学习——5.2特征工程（过滤法、嵌入法、包装法）.md",
+        "2026-07-07-机器学习因果推断之机器学习——5.1特征工程（探索性数据分析、数据预处理）.md",
+        "2026-07-07-机器学习因果推断之机器学习——4.3多项式回归算法原理和实战代码及线性模型与非线性模型对比.md",
+        "2026-07-07-机器学习因果推断之机器学习——4.1回归类算法概述和实战代码（从机器学习角度理解回归）.md",
+        "2026-07-07-机器学习因果推断之机器学习——3.2随机森林实战案例（填补缺失数据、调参的艺术）.md",
+        "2026-07-07-机器学习因果推断之机器学习——3.1随机森林原理与经济学应用.md",
+        "2026-07-07-机器学习因果推断之机器学习——2.2决策树代码实战.md",
+        "2026-07-07-机器学习因果推断之机器学习——2.1决策树原理与经济学应用.md",
+        "2026-07-07-机器学习因果推断之机器学习——1.1机器学习概论.md"
+      ]
+    },
+    "Clippings/Bilibili/2026-07-07-机器学习因果推断之机器学习——1.1机器学习概论.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Clippings/Bilibili/2026-07-07-机器学习因果推断之机器学习——2.1决策树原理与经济学应用.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Clippings/Bilibili/2026-07-07-机器学习因果推断之机器学习——2.2决策树代码实战.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Clippings/Bilibili/2026-07-07-机器学习因果推断之机器学习——3.1随机森林原理与经济学应用.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Clippings/Bilibili/2026-07-07-机器学习因果推断之机器学习——3.2随机森林实战案例（填补缺失数据、调参的艺术）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Clippings/Bilibili/2026-07-07-机器学习因果推断之机器学习——4.1回归类算法概述和实战代码（从机器学习角度理解回归）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Clippings/Bilibili/2026-07-07-机器学习因果推断之机器学习——4.3多项式回归算法原理和实战代码及线性模型与非线性模型对比.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Clippings/Bilibili/2026-07-07-机器学习因果推断之机器学习——5.1特征工程（探索性数据分析、数据预处理）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Clippings/Bilibili/2026-07-07-机器学习因果推断之机器学习——5.2特征工程（过滤法、嵌入法、包装法）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "B站吕斌老师课程《机器学习因果推断》": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "byName",
+      "customOrder": [
+        "05-随机森林实战案例：填补缺失数据、调参的艺术.md",
+        "08-特征工程：探索性数据分析与数据预处理.md",
+        "07-多项式回归与线性、非线性模型对比.md",
+        "01-机器学习概论.md",
+        "06-回归类算法概述和实战代码.md",
+        "00-课程索引.md",
+        "02-决策树原理与经济学应用.md",
+        "03-决策树代码实战.md",
+        "09-特征工程：过滤法、嵌入法、包装法.md",
+        "04-随机森林原理与经济学应用.md"
+      ]
+    },
+    "B站吕斌老师课程《机器学习因果推断》/04-随机森林原理与经济学应用.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "B站吕斌老师课程《机器学习因果推断》/09-特征工程：过滤法、嵌入法、包装法.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "B站吕斌老师课程《机器学习因果推断》/03-决策树代码实战.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "B站吕斌老师课程《机器学习因果推断》/02-决策树原理与经济学应用.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "B站吕斌老师课程《机器学习因果推断》/00-课程索引.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "B站吕斌老师课程《机器学习因果推断》/06-回归类算法概述和实战代码.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "B站吕斌老师课程《机器学习因果推断》/01-机器学习概论.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "B站吕斌老师课程《机器学习因果推断》/07-多项式回归与线性、非线性模型对比.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "B站吕斌老师课程《机器学习因果推断》/08-特征工程：探索性数据分析与数据预处理.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "B站吕斌老师课程《机器学习因果推断》/05-随机森林实战案例：填补缺失数据、调参的艺术.md": {
       "isPinned": false,
       "isHidden": false
     }

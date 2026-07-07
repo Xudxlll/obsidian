@@ -1,5 +1,3 @@
-# Lecture 13 - Scaling Laws 与 AMA564 Deep Learning 总复习
-
 > [!info] 资料来源
 > - 课件：`Lecture13.pdf`
 > - 本笔记只依据 PDF 整理。
@@ -7,7 +5,7 @@
 
 # 一、本讲的整体地图
 
-## 1.1 PDF 页码索引
+## 1. PDF 页码索引
 
 | PDF 页码 | 内容 | 学习重点 |
 |---|---|---|
@@ -28,7 +26,7 @@
 
 # 二、AI Scaling Laws
 
-## 2.1 为什么 Scaling Laws 重要
+## 1. 为什么 Scaling Laws 重要
 
 对应 PDF：p.1-p.4
 
@@ -36,7 +34,7 @@ Scaling Laws 试图回答一个昂贵的问题：如果我们投入更多模型�
 
 课件把这称为从 “Guess & Pray” 走向 predictable science。也就是说，大模型训练不再完全靠猜，而是可以通过小规模实验预测大规模训练结果。
 
-## 2.2 规模和损失之间的近似直线
+## 2. 规模和损失之间的近似直线
 
 对应 PDF：p.5
 
@@ -58,7 +56,7 @@ $$
 
 因此会出现近似直线。
 
-## 2.3 预训练规模的三个杠杆
+## 3. 预训练规模的三个杠杆
 
 对应 PDF：p.6-p.9
 
@@ -72,7 +70,7 @@ $$
 
 这就是 optimal allocation problem。
 
-## 2.4 Scaling Laws 的边界
+## 4. Scaling Laws 的边界
 
 对应 PDF：p.10-p.12
 
@@ -91,7 +89,7 @@ Scaling laws 可以预测未来趋势，但课件也提醒：not everything is a
 
 # 三、深度学习与 DNN 总复习
 
-## 3.1 什么是 Deep Learning
+## 1. 什么是 Deep Learning
 
 对应 PDF：p.13-p.16
 
@@ -99,7 +97,7 @@ Scaling laws 可以预测未来趋势，但课件也提醒：not everything is a
 
 核心思想是：模型通过多层可学习函数，从数据中学习特征表示，而不是完全依赖人工特征工程。
 
-## 3.2 MLP 的数学形式
+## 2. MLP 的数学形式
 
 对应 PDF：p.17-p.19
 
@@ -130,7 +128,7 @@ $$
 
 激活函数的作用是引入非线性。没有 activation，多层线性变换仍等价于单层线性变换。
 
-## 3.3 Universality 与深度
+## 3. Universality 与深度
 
 对应 PDF：p.20-p.22
 
@@ -144,7 +142,7 @@ $$
 
 # 四、Deep Regression 与 Robust Loss
 
-## 4.1 Deep Nonparametric Regression
+## 1. Deep Nonparametric Regression
 
 对应 PDF：p.23-p.27
 
@@ -166,7 +164,7 @@ $$
 
 优化过程是初始化、计算梯度、按步长更新、迭代停止。
 
-## 4.2 异常值与 robust loss
+## 2. 异常值与 robust loss
 
 对应 PDF：p.28-p.35
 
@@ -212,7 +210,7 @@ robust loss 的直觉是降低大残差样本对训练目标的支配。
 
 # 五、Optimization 总复习
 
-## 5.1 Gradient Descent
+## 1. Gradient Descent
 
 对应 PDF：p.36-p.39
 
@@ -232,7 +230,7 @@ $$
 
 对 $L$-smooth 函数，步长 $1/L$ 有理论意义。
 
-## 5.2 Stochastic Gradient Descent
+## 2. Stochastic Gradient Descent
 
 对应 PDF：p.40-p.43
 
@@ -269,7 +267,7 @@ $$
 \sum_t\alpha_t^2<\infty
 $$
 
-## 5.3 Momentum、Nesterov、AdaGrad、Adam
+## 3. Momentum、Nesterov、AdaGrad、Adam
 
 对应 PDF：p.44-p.51
 
@@ -293,7 +291,7 @@ $$
 \alpha=0.001,\quad \beta_1=0.9,\quad \beta_2=0.999,\quad \epsilon=10^{-8}
 $$
 
-## 5.4 Noise Reduction 与 Dynamic Sample Size SGD
+## 4. Noise Reduction 与 Dynamic Sample Size SGD
 
 对应 PDF：p.52-p.54
 
@@ -303,7 +301,7 @@ Dynamic Sample Size SGD 的直觉是：训练早期可以用较小 batch 快速�
 
 # 六、Backpropagation 总复习
 
-## 6.1 Chain rule
+## 1. Chain rule
 
 对应 PDF：p.55-p.59
 
@@ -348,7 +346,7 @@ $$
 
 # 七、CNN 总复习
 
-## 7.1 Convolution Layer
+## 1. Convolution Layer
 
 对应 PDF：p.60-p.71
 
@@ -368,7 +366,7 @@ $$
 
 其中 $N$ 是输入尺寸，$F$ 是 kernel size，$S$ 是 stride，$P$ 是 padding。
 
-## 7.2 Pooling 与 Receptive Field
+## 2. Pooling 与 Receptive Field
 
 对应 PDF：p.72-p.77
 
@@ -393,7 +391,7 @@ $$
 
 # 八、Classification Loss 总复习
 
-## 8.1 0-1 loss 与 surrogate loss
+## 1. 0-1 loss 与 surrogate loss
 
 对应 PDF：p.78-p.85
 
@@ -425,7 +423,7 @@ $$
 \phi_{\mathrm{hinge}}(yf)=\max\{1-yf,0\}
 $$
 
-## 8.2 Softmax 与 Cross Entropy
+## 2. Softmax 与 Cross Entropy
 
 对应 PDF：p.86-p.95
 
@@ -455,7 +453,7 @@ $$
 
 # 九、CNN Architectures 与训练技巧
 
-## 9.1 经典 CNN 架构
+## 1. 经典 CNN 架构
 
 对应 PDF：p.96-p.105
 
@@ -477,7 +475,7 @@ DenseNet：使用密集连接复用特征。
 
 GoogLeNet：使用 Inception 模块处理多尺度特征。
 
-## 9.2 Initialization、Normalization、Regularization
+## 2. Initialization、Normalization、Regularization
 
 对应 PDF：p.106-p.114
 
@@ -510,7 +508,7 @@ Dropout 随机把输入元素置零，data augmentation 通过旋转等变换增
 
 # 十、Generative Models 总复习
 
-## 10.1 VAE
+## 1. VAE
 
 对应 PDF：p.115-p.123
 
@@ -537,7 +535,7 @@ $$
 z=\mu_x+\sigma_x\odot\epsilon,\quad \epsilon\sim\mathcal{N}(0,I)
 $$
 
-## 10.2 GAN
+## 2. GAN
 
 对应 PDF：p.124-p.131
 
@@ -554,7 +552,7 @@ $$
 
 训练困难包括 non-convergence 和 mode collapse。
 
-## 10.3 Normalizing Flow 与 Score-based Model
+## 3. Normalizing Flow 与 Score-based Model
 
 对应 PDF：p.132-p.138
 
@@ -570,7 +568,7 @@ $$
 
 # 十一、RNN、LSTM 与 Word Embedding
 
-## 11.1 RNN 与 BPTT
+## 1. RNN 与 BPTT
 
 对应 PDF：p.139-p.150
 
@@ -582,7 +580,7 @@ $$
 
 时间反向传播（BPTT）把 RNN 沿时间展开。由于递归导数，可能出现 vanishing/exploding gradient。
 
-## 11.2 LSTM
+## 2. LSTM
 
 对应 PDF：p.151-p.153
 
@@ -600,7 +598,7 @@ $$
 
 gate 机制决定遗忘、写入和输出。
 
-## 11.3 Word Embedding
+## 3. Word Embedding
 
 对应 PDF：p.154-p.161
 
@@ -613,7 +611,7 @@ Word embedding 把词变成向量。Word2Vec 包括：
 
 # 十二、Attention 与 Transformer
 
-## 12.1 Self-Attention
+## 1. Self-Attention
 
 对应 PDF：p.162-p.172
 
@@ -636,7 +634,7 @@ $$
 
 它让序列中每个位置直接关注其他位置。
 
-## 12.2 Transformer
+## 2. Transformer
 
 对应 PDF：p.173-p.176
 
@@ -646,7 +644,7 @@ Decoder 生成词时使用 masked self-attention，不能看到未来 token。
 
 # 十三、LLM Pretraining、BERT、PEFT 与 Prompting
 
-## 13.1 Pretraining 与 BERT
+## 1. Pretraining 与 BERT
 
 对应 PDF：p.177-p.192
 
@@ -670,7 +668,7 @@ $$
 
 并使用 two-sentence task 学习句间关系。
 
-## 13.2 PEFT 与 LoRA
+## 2. PEFT 与 LoRA
 
 对应 PDF：p.193-p.200
 
@@ -686,7 +684,7 @@ $$
 B\in\mathbb{R}^{d\times r},\quad A\in\mathbb{R}^{r\times k}
 $$
 
-## 13.3 Few-shot、Prompting 与 CoT
+## 3. Few-shot、Prompting 与 CoT
 
 对应 PDF：p.201-p.209
 
@@ -702,7 +700,7 @@ Let's think step by step.
 
 # 十四、Instruction Fine-tuning、RLHF 与 DPO
 
-## 14.1 Instruction Fine-tuning
+## 1. Instruction Fine-tuning
 
 对应 PDF：p.210-p.216
 
@@ -714,7 +712,7 @@ $$
 
 让模型更像多任务助手。
 
-## 14.2 RLHF
+## 2. RLHF
 
 对应 PDF：p.217-p.225
 
@@ -733,7 +731,7 @@ $$
 3. 训练 reward model；
 4. 用 RL 优化 policy。
 
-## 14.3 DPO
+## 3. DPO
 
 对应 PDF：p.226-p.229
 
@@ -763,7 +761,7 @@ $$
 
 # 十五、总复习框架
 
-## 15.1 整门课的主线
+## 1. 整门课的主线
 
 本课程可以用一条线串起来：
 
@@ -810,7 +808,7 @@ $$
 - DPO
 - scaling laws
 
-## 15.2 考前最应该抓的公式
+## 2. 考前最应该抓的公式
 
 MLP：
 
@@ -889,6 +887,93 @@ $$
 -\mathbb{E}\left[\log\sigma(\text{preferred log-ratio} - \text{rejected log-ratio})\right]
 $$
 
-## 15.3 本讲一句话
+## 3. 本讲一句话
 
 Lecture 13 把深度学习从基础函数逼近、优化、视觉、生成、序列建模、Transformer，一直串到 LLM 的预训练、对齐和 scaling laws：模型越来越大，但核心仍然是结构、损失、优化、数据和计算之间的配合。
+
+# 十六、补充学习注释与复习路线
+
+## 1. 本讲怎么读
+
+这一讲对应 PDF：p.1-p.229。它有两层任务：前半讲介绍 scaling laws，后半讲把整门课从 MLP 到 RLHF 串成复习地图。读的时候不要逐页平均用力，而要把它当成考试前的总索引。
+
+推荐读法：
+
+1. p.1-p.12：先读 scaling laws，理解模型规模、数据量、计算量和 loss 的关系。
+2. p.13-p.114：复习基础深度学习、回归、优化、CNN 和分类。
+3. p.115-p.176：复习生成模型、RNN、word embedding、attention 和 Transformer。
+4. p.177-p.229：复习 LLM pretraining、PEFT、prompting、RLHF 和 DPO。
+
+Scaling laws 的公式可以抽象成：
+
+$$
+L(N)\approx aN^{-\alpha}+b
+$$
+
+它的学习意义是：在一定范围内，扩大参数量、数据量或计算量会以可预测方式降低 loss。log-log 图上近似直线，说明：
+
+$$
+\log(L-b)\approx \log a-\alpha\log N
+$$
+
+但要注意 p.10-p.12 的边界：数据质量、架构变化、训练技巧和 emergent behavior 都可能让曲线偏离简单直线。
+
+整门课可以整理成五条主线：
+
+1. **函数表示线**：MLP $\rightarrow$ CNN $\rightarrow$ RNN $\rightarrow$ Transformer。
+2. **训练优化线**：loss $\rightarrow$ gradient $\rightarrow$ backpropagation $\rightarrow$ SGD/Adam。
+3. **任务目标线**：regression $\rightarrow$ classification $\rightarrow$ generation $\rightarrow$ preference optimization。
+4. **概率建模线**：likelihood、cross entropy、VAE、flow、score、reward model。
+5. **大模型线**：pretraining $\rightarrow$ PEFT/LoRA $\rightarrow$ prompting $\rightarrow$ instruction tuning $\rightarrow$ RLHF/DPO。
+
+复习 p.13-p.229 时，建议每个主题都用同一个模板回答：
+
+- 这个模型/方法要解决什么问题？
+- 输入和输出是什么？
+- 核心公式是什么？
+- 它相比前一种方法改进了哪里？
+- 它的主要限制是什么？
+
+例如 Transformer 的答案可以是：它解决序列中长距离依赖和并行训练问题，输入是 token embedding 加位置编码，核心公式是 scaled dot-product attention，改进了 RNN 的串行瓶颈，但需要位置编码并且计算复杂度随序列长度平方增长。
+
+考试复习时，最值得优先掌握的公式包括：
+
+$$
+\theta_{t+1}=\theta_t-\eta\nabla L(\theta_t)
+$$
+
+$$
+O=\left\lfloor \frac{I-F+2P}{S}\right\rfloor+1
+$$
+
+$$
+p_k=\frac{e^{z_k}}{\sum_j e^{z_j}}
+$$
+
+$$
+\ell=-\sum_k y_k\log p_k
+$$
+
+$$
+\mathrm{Attention}(Q,K,V)=\mathrm{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
+$$
+
+这些公式覆盖了优化、CNN 尺寸、分类概率、交叉熵和 Transformer，是整门课最容易被反复调用的骨架。
+
+## 2. 做题和复习时的检查清单
+
+- 能不能用自己的话解释本讲的核心问题，而不是只背模型名称。
+- 看到公式时，能不能说清每个符号代表什么、输入输出是什么、优化目标是什么。
+- 能不能把本讲内容和前后讲联系起来：它继承了什么问题，又为下一讲解决什么问题。
+- 能不能分清概念、公式、训练流程和应用场景四个层次。
+- 遇到 PDF 中的图或代码时，先判断它是在说明结构、说明训练，还是说明实验结果。
+
+## 3. 结构层级示例
+
+下面这个小节专门用于统一结构编号：在 Obsidian 阅读时，一级结构用中文编号，二级结构用阿拉伯编号，三级结构用层级编号。后续如果继续扩写某个二级标题，可以使用类似 `1.1.1` 的形式继续细分。
+
+### 1.1.1 如何继续扩展本讲
+
+- 如果扩展概念解释，可以放在对应二级标题下面，先写直观含义，再写公式或例子。
+- 如果扩展公式推导，先说明目标，再逐步解释每一步变形。
+- 如果扩展复习题，可以把题目、解题思路、常见错误分开放，避免把结论堆在一起。

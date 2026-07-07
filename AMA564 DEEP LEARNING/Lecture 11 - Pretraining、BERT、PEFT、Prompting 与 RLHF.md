@@ -1,5 +1,3 @@
-# Lecture 11 - Pretraining、BERT、PEFT、Prompting 与 RLHF
-
 > [!info] 资料来源
 > - 课件：`Lecture11.pdf`
 > - 本笔记只依据 PDF 整理。
@@ -7,7 +5,7 @@
 
 # 一、本讲的整体地图
 
-## 1.1 PDF 页码索引
+## 1. PDF 页码索引
 
 | PDF 页码 | 内容 | 学习重点 |
 |---|---|---|
@@ -22,7 +20,7 @@
 
 # 二、LLM Training 的整体视角
 
-## 2.1 Pretraining revolution 的三个关键
+## 1. Pretraining revolution 的三个关键
 
 对应 PDF：p.3-p.6
 
@@ -36,7 +34,7 @@
 
 预训练的核心价值是：让模型先从海量文本中学习语言结构、事实知识、推理模式和世界模式，再通过 fine-tuning 或 prompting 适配具体任务。
 
-## 2.2 为什么无标签数据重要
+## 2. 为什么无标签数据重要
 
 对应 PDF：p.6
 
@@ -46,7 +44,7 @@
 
 # 三、Tokenization 与 BPE
 
-## 3.1 为什么需要 tokenization
+## 1. 为什么需要 tokenization
 
 对应 PDF：p.7
 
@@ -62,7 +60,7 @@ $$
 - token 序列不能太长；
 - rare words 也要能表示。
 
-## 3.2 Byte Pair Encoding
+## 2. Byte Pair Encoding
 
 对应 PDF：p.8-p.10
 
@@ -76,7 +74,7 @@ BPE（Byte Pair Encoding）是一种子词分词算法。它反复合并文本�
 
 # 四、Pretraining Paradigm
 
-## 4.1 过去的 pretraining 问题
+## 1. 过去的 pretraining 问题
 
 对应 PDF：p.11
 
@@ -87,7 +85,7 @@ BPE（Byte Pair Encoding）是一种子词分词算法。它反复合并文本�
 
 这意味着模型不仅要学任务，还要从小数据中学语言本身，难度很大。
 
-## 4.2 Modern Pretraining
+## 2. Modern Pretraining
 
 对应 PDF：p.12-p.15
 
@@ -111,7 +109,7 @@ $$
 
 # 五、BERT
 
-## 5.1 BERT 的定位
+## 1. BERT 的定位
 
 对应 PDF：p.16-p.19
 
@@ -127,7 +125,7 @@ $$
 
 因此 BERT 使用 masked language modeling。
 
-## 5.2 Masked Language Modeling
+## 2. Masked Language Modeling
 
 对应 PDF：p.20-p.21
 
@@ -147,7 +145,7 @@ $$
 
 这种任务允许模型利用左右上下文预测被遮住的 token。
 
-## 5.3 Two Sentences Task
+## 3. Two Sentences Task
 
 对应 PDF：p.22-p.23
 
@@ -155,7 +153,7 @@ $$
 
 这个任务帮助模型学习 sentence-level relationship，适用于问答、自然语言推断等任务。
 
-## 5.4 BERT 架构和结果
+## 4. BERT 架构和结果
 
 对应 PDF：p.24-p.25
 
@@ -165,7 +163,7 @@ BERT 的核心是多层 Transformer encoder。输入包括 token embedding、seg
 
 # 六、Parameter-Efficient Fine-Tuning
 
-## 6.1 为什么需要 PEFT
+## 1. 为什么需要 PEFT
 
 对应 PDF：p.26-p.29
 
@@ -173,7 +171,7 @@ BERT 的核心是多层 Transformer encoder。输入包括 token embedding、seg
 
 参数高效微调（Parameter-Efficient Fine-Tuning, PEFT）希望只更新少量参数，让大部分预训练参数保持冻结。
 
-## 6.2 Pruning 与 Lottery Ticket
+## 2. Pruning 与 Lottery Ticket
 
 对应 PDF：p.27-p.28
 
@@ -181,7 +179,7 @@ Pruning 关注哪些参数结构真正有用。课件引用 Lottery Ticket Hypot
 
 这提醒我们：不是所有参数都同等重要。
 
-## 6.3 LoRA
+## 3. LoRA
 
 对应 PDF：p.31-p.32
 
@@ -214,7 +212,7 @@ $$
 
 # 七、Scale、Few-shot Learning 与 Prompting
 
-## 7.1 Scale 的祝福
+## 1. Scale 的祝福
 
 对应 PDF：p.33-p.38
 
@@ -222,7 +220,7 @@ $$
 
 GPT-3 展示了 emergent few-shot learning：模型可以从 prompt 中的几个例子学习任务格式，而不需要梯度更新。
 
-## 7.2 In-context Learning
+## 2. In-context Learning
 
 对应 PDF：p.39-p.43
 
@@ -239,7 +237,7 @@ New input -> ?
 
 模型根据上下文模式生成答案。
 
-## 7.3 Prompt Engineering 与 CoT
+## 3. Prompt Engineering 与 CoT
 
 对应 PDF：p.44-p.49
 
@@ -255,7 +253,7 @@ Let's think step by step.
 
 这样的提示，让模型在没有示例的情况下产生推理过程。
 
-## 7.4 Prompting 的优缺点
+## 4. Prompting 的优缺点
 
 对应 PDF：p.50
 
@@ -271,7 +269,7 @@ Let's think step by step.
 
 # 八、Instruction Fine-tuning
 
-## 8.1 为什么 LLM 不能直接作为助手
+## 1. 为什么 LLM 不能直接作为助手
 
 对应 PDF：p.51-p.53
 
@@ -279,7 +277,7 @@ Let's think step by step.
 
 要让模型变成助手，需要 instruction fine-tuning。
 
-## 8.2 Instruction fine-tuning 的目标
+## 2. Instruction fine-tuning 的目标
 
 对应 PDF：p.54-p.63
 
@@ -295,7 +293,7 @@ $$
 
 # 九、RLHF 与 InstructGPT
 
-## 9.1 Instruction fine-tuning 的局限
+## 1. Instruction fine-tuning 的局限
 
 对应 PDF：p.64-p.66
 
@@ -303,7 +301,7 @@ Instruction fine-tuning 能让模型学会遵循指令，但不一定保证输�
 
 因此需要优化人类偏好（Human Preferences）。
 
-## 9.2 RLHF Pipeline
+## 2. RLHF Pipeline
 
 对应 PDF：p.67-p.70
 
@@ -315,7 +313,7 @@ RLHF（Reinforcement Learning with Human Feedback）的基本流程：
 4. 训练 reward model；
 5. 用强化学习优化 policy model。
 
-## 9.3 Policy Gradient 的直觉
+## 3. Policy Gradient 的直觉
 
 对应 PDF：p.71-p.75
 
@@ -339,7 +337,7 @@ $$
 
 Policy gradient 的核心是：如果某个输出获得高 reward，就提高生成它的概率；低 reward 则降低概率。
 
-## 9.4 Reward Model 与 RLHF
+## 4. Reward Model 与 RLHF
 
 对应 PDF：p.76-p.78
 
@@ -347,7 +345,7 @@ Policy gradient 的核心是：如果某个输出获得高 reward，就提高生
 
 如果 reward model 学错，人类偏好优化就会偏离目标。
 
-## 9.5 InstructGPT 与 ChatGPT
+## 5. InstructGPT 与 ChatGPT
 
 对应 PDF：p.79-p.83
 
@@ -357,7 +355,7 @@ ChatGPT 可以理解为面向对话智能体的 instruction fine-tuning + RLHF�
 
 # 十、本讲复习抓手
 
-## 10.1 关键概念
+## 1. 关键概念
 
 - 预训练（Pretraining）：在大规模无标签数据上学习通用表示。
 - Tokenization：把文本切成 token。
@@ -370,7 +368,7 @@ ChatGPT 可以理解为面向对话智能体的 instruction fine-tuning + RLHF�
 - Instruction Fine-tuning：用指令数据训练模型遵循任务。
 - RLHF：用人类偏好训练 reward model，再优化模型输出。
 
-## 10.2 关键公式
+## 2. 关键公式
 
 BERT masked LM：
 
@@ -398,6 +396,63 @@ $$
 [r(x,y)]
 $$
 
-## 10.3 本讲一句话
+## 3. 本讲一句话
 
 现代 LLM 先通过大规模预训练获得通用能力，再通过 BERT-style masking、PEFT/LoRA、prompting、instruction fine-tuning 和 RLHF 等方法，把语言模型逐步变成能理解任务、遵循指令并贴近人类偏好的助手。
+
+# 十一、补充学习注释与复习路线
+
+## 1. 本讲怎么读
+
+这一讲对应 PDF：p.1-p.83。它解释现代大语言模型从“语言模型”变成“可用助手”的训练链条：预训练（Pretraining）、微调（Fine-tuning）、提示（Prompting）、指令微调（Instruction Fine-tuning）和 RLHF。
+
+推荐读法：
+
+1. p.1-p.15：理解 pretraining revolution，为什么无标签文本和规模化计算改变 NLP。
+2. p.16-p.25：读 BERT，理解 masked language modeling 和 encoder-only 架构。
+3. p.26-p.32：读 PEFT 和 LoRA，理解大模型微调为什么不能总是全参数更新。
+4. p.33-p.83：从 few-shot prompting 过渡到 instruction fine-tuning 和 RLHF。
+
+Tokenization 对应 p.7-p.10。BPE（Byte Pair Encoding）用子词（Subword）平衡词表大小和表达能力。它既避免字符级序列太长，也避免词级词表无法覆盖 rare words。
+
+BERT 对应 p.16-p.25。它的 masked language modeling 可以写成：
+
+$$
+\max_\theta \sum_{i\in M}\log p_\theta(x_i|x_{\setminus M})
+$$
+
+其中 $M$ 是被 mask 的位置。BERT 是 encoder-only Transformer，适合理解型任务，例如分类、匹配、抽取。
+
+LoRA 对应 p.26-p.32，是参数高效微调（Parameter-Efficient Fine-Tuning, PEFT）的代表。它不直接更新大矩阵 $W$ 的全部参数，而是学习一个低秩增量：
+
+$$
+W' = W + BA
+$$
+
+其中 $B$ 和 $A$ 的秩较低，所以训练参数显著减少。直观上，LoRA 假设任务适配所需的改变量位于一个低维子空间。
+
+p.33-p.50 的 prompting 要与 fine-tuning 区分开。Prompting 不改变模型参数，只通过输入上下文诱导模型完成任务；fine-tuning 会更新参数，让模型长期适配某类任务。
+
+p.51-p.83 的 instruction fine-tuning 与 RLHF 是“对齐”（Alignment）链条。Instruction fine-tuning 让模型学会听指令；RLHF 再利用人类偏好训练 reward model，并通过强化学习优化回答风格和有用性。复习时要把三步 pipeline 说清楚：
+
+1. 收集人类示范或偏好数据；
+2. 训练 reward model；
+3. 用 policy optimization 让模型输出更符合偏好。
+
+## 2. 做题和复习时的检查清单
+
+- 能不能用自己的话解释本讲的核心问题，而不是只背模型名称。
+- 看到公式时，能不能说清每个符号代表什么、输入输出是什么、优化目标是什么。
+- 能不能把本讲内容和前后讲联系起来：它继承了什么问题，又为下一讲解决什么问题。
+- 能不能分清概念、公式、训练流程和应用场景四个层次。
+- 遇到 PDF 中的图或代码时，先判断它是在说明结构、说明训练，还是说明实验结果。
+
+## 3. 结构层级示例
+
+下面这个小节专门用于统一结构编号：在 Obsidian 阅读时，一级结构用中文编号，二级结构用阿拉伯编号，三级结构用层级编号。后续如果继续扩写某个二级标题，可以使用类似 `1.1.1` 的形式继续细分。
+
+### 1.1.1 如何继续扩展本讲
+
+- 如果扩展概念解释，可以放在对应二级标题下面，先写直观含义，再写公式或例子。
+- 如果扩展公式推导，先说明目标，再逐步解释每一步变形。
+- 如果扩展复习题，可以把题目、解题思路、常见错误分开放，避免把结论堆在一起。

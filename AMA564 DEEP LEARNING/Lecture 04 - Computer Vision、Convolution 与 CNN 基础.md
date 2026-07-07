@@ -1,5 +1,3 @@
-# Lecture 04 - Computer Vision、Convolution 与 CNN 基础
-
 > [!info] 资料来源
 > - 课件：`AMA564_Deep Learning_Lecture4.pdf`
 > - 本笔记只依据 PDF 整理。
@@ -7,7 +5,7 @@
 
 # 一、本讲的整体地图
 
-## 1.1 PDF 页码索引
+## 1. PDF 页码索引
 
 | PDF 页码 | 内容 | 学习重点 |
 |---|---|---|
@@ -23,7 +21,7 @@
 
 # 二、从前几讲过渡到 Computer Vision
 
-## 2.1 为什么先复习 MLP
+## 1. 为什么先复习 MLP
 
 对应 PDF：p.2-p.8
 
@@ -66,7 +64,7 @@ $$
 
 因此进入计算机视觉（Computer Vision）后，变化的不是“训练框架”，而是输入数据的形态和模型结构。
 
-## 2.2 Backpropagation 仍然是训练基础
+## 2. Backpropagation 仍然是训练基础
 
 对应 PDF：p.9-p.10
 
@@ -82,7 +80,7 @@ $$
 
 # 三、Computer Vision 任务类型
 
-## 3.1 图像分类、检测与分割
+## 1. 图像分类、检测与分割
 
 对应 PDF：p.11-p.15
 
@@ -108,7 +106,7 @@ $$
 | Object Detection | 类别 + 框 | 中 |
 | Object Segmentation | 每个像素的类别或实例 | 高 |
 
-## 3.2 更复杂的视觉任务
+## 2. 更复杂的视觉任务
 
 对应 PDF：p.16-p.19
 
@@ -121,7 +119,7 @@ $$
 
 这些任务说明计算机视觉不只是分类。视觉模型可以和语言模型、生成模型结合。例如 image captioning 要把图像信息转成自然语言；VQA 要同时理解图像和问题；image generation 则要从噪声、文本或其他条件生成图像。
 
-## 3.3 ImageNet 为什么重要
+## 3. ImageNet 为什么重要
 
 对应 PDF：p.20
 
@@ -131,7 +129,7 @@ $$
 
 # 四、直接用 Fully Connected DNN 做图像分类的问题
 
-## 4.1 彩色图像是三维张量
+## 1. 彩色图像是三维张量
 
 对应 PDF：p.21-p.25
 
@@ -161,7 +159,7 @@ $$
 
 于是输入变成一个长度为 3072 的向量。
 
-## 4.2 拉直图像会丢失空间结构
+## 2. 拉直图像会丢失空间结构
 
 对应 PDF：p.24-p.29
 
@@ -187,7 +185,7 @@ $$
 
 # 五、Convolution 的基本思想
 
-## 5.1 卷积的优势：保留空间信息
+## 1. 卷积的优势：保留空间信息
 
 对应 PDF：p.30-p.32
 
@@ -195,7 +193,7 @@ $$
 
 图像中的局部模式通常具有平移性。例如同一个边缘出现在左上角或右下角，仍然是同一种模式。卷积核（Kernel 或 Filter）可以在图像上滑动，检测不同位置是否出现某种局部模式。
 
-## 5.2 Filter 的形状
+## 2. Filter 的形状
 
 对应 PDF：p.33-p.35
 
@@ -222,7 +220,7 @@ $$
 
 这就是课件中说的 $5\times 5\times 3=75$ dimensional dot product + bias。
 
-## 5.3 Activation map
+## 3. Activation map
 
 对应 PDF：p.36-p.39
 
@@ -250,7 +248,7 @@ $$
 
 # 六、卷积输出尺寸、Stride 与 Padding
 
-## 6.1 输出尺寸公式
+## 1. 输出尺寸公式
 
 对应 PDF：p.40-p.51
 
@@ -290,7 +288,7 @@ $$
 
 输出尺寸不是整数，说明 filter 滑动时无法完整覆盖输入，课件说 “doesn't fit”。
 
-## 6.2 Padding 的作用
+## 2. Padding 的作用
 
 对应 PDF：p.52-p.54
 
@@ -316,7 +314,7 @@ $$
 | $5\times 5$ | 2 |
 | $7\times 7$ | 3 |
 
-## 6.3 带 padding 的通用公式
+## 3. 带 padding 的通用公式
 
 对应 PDF：p.52-p.55
 
@@ -330,7 +328,7 @@ $$
 
 # 七、Feature Extraction 与 CNN
 
-## 7.1 卷积核可以提取特征
+## 1. 卷积核可以提取特征
 
 对应 PDF：p.56-p.60
 
@@ -338,7 +336,7 @@ $$
 
 在 CNN 中，filter 不是人手工指定，而是通过训练学出来。浅层 filter 可能学边缘和颜色变化，深层 filter 可能学形状、部件甚至语义概念。
 
-## 7.2 CNN 的基本结构
+## 2. CNN 的基本结构
 
 对应 PDF：p.61-p.63
 
@@ -360,7 +358,7 @@ $$
 
 每一层都把低层特征组合成更高层特征。
 
-## 7.3 1 x 1 Convolution
+## 3. 1 x 1 Convolution
 
 对应 PDF：p.64-p.65
 
@@ -380,7 +378,7 @@ $$
 
 它不混合空间邻域，但会混合通道。常用于改变通道数、降低计算量或增强非线性表达。
 
-## 7.4 PyTorch 中的卷积层
+## 4. PyTorch 中的卷积层
 
 对应 PDF：p.66
 
@@ -406,7 +404,7 @@ conv = nn.Conv2d(
 - `stride` 控制滑动步长；
 - `padding` 控制边界补零。
 
-## 7.5 Activation 的作用
+## 5. Activation 的作用
 
 对应 PDF：p.67-p.70
 
@@ -420,7 +418,7 @@ $$
 
 # 八、Pooling
 
-## 8.1 Pooling 是下采样
+## 1. Pooling 是下采样
 
 对应 PDF：p.71-p.72
 
@@ -431,7 +429,7 @@ $$
 
 平移不变性的意思是：如果图像中的某个模式稍微移动一点，模型仍然能识别它。
 
-## 8.2 Max pooling 与 average pooling
+## 2. Max pooling 与 average pooling
 
 对应 PDF：p.73-p.74
 
@@ -441,7 +439,7 @@ Max pooling 在局部窗口中取最大值。例如 $2\times 2$ window、stride 
 
 Average pooling 则取平均值，保留局部整体强度，但可能弱化最显著的激活。
 
-## 8.3 Pooling 输出尺寸
+## 3. Pooling 输出尺寸
 
 对应 PDF：p.75-p.76
 
@@ -470,7 +468,7 @@ pool = nn.MaxPool2d(kernel_size=2, stride=2)
 
 # 九、Receptive Field
 
-## 9.1 单层卷积的感受野
+## 1. 单层卷积的感受野
 
 对应 PDF：p.77-p.78
 
@@ -478,7 +476,7 @@ pool = nn.MaxPool2d(kernel_size=2, stride=2)
 
 若卷积核大小为 $K\times K$，那么单层卷积输出的每个元素依赖输入中的一个 $K\times K$ 区域。
 
-## 9.2 多层卷积会扩大感受野
+## 2. 多层卷积会扩大感受野
 
 对应 PDF：p.79-p.82
 
@@ -494,7 +492,7 @@ pool = nn.MaxPool2d(kernel_size=2, stride=2)
 
 # 十、本讲复习抓手
 
-## 10.1 必须掌握的概念
+## 1. 必须掌握的概念
 
 - 计算机视觉（Computer Vision）：让模型处理和理解图像、视频等视觉数据。
 - 图像分类（Image Classification）：预测整张图的类别。
@@ -507,7 +505,7 @@ pool = nn.MaxPool2d(kernel_size=2, stride=2)
 - 池化（Pooling）：下采样并增强局部鲁棒性。
 - 感受野（Receptive Field）：输出元素在输入图像中依赖的区域。
 
-## 10.2 尺寸公式速查
+## 2. 尺寸公式速查
 
 无 padding：
 
@@ -532,6 +530,67 @@ D\times
 \left(\frac{N-K}{P}+1\right)
 $$
 
-## 10.3 本讲一句话
+## 3. 本讲一句话
 
 CNN 的核心不是“多了一个卷积操作”这么简单，而是用局部连接、权重共享、padding、activation、pooling 和 receptive field，把图像的空间结构变成可以训练的层级特征。
+
+# 十一、补充学习注释与复习路线
+
+## 1. 本讲怎么读
+
+这一讲对应 PDF：p.1-p.82。它从一般神经网络过渡到计算机视觉（Computer Vision），核心问题是：为什么图像不能简单拉平成一个长向量交给全连接网络？
+
+推荐读法：
+
+1. p.21-p.29：先看 fully connected DNN 的问题，理解图像空间结构为什么重要。
+2. p.30-p.55：再看卷积（Convolution）、stride、padding 和输出尺寸公式。
+3. p.56-p.82：最后看 feature extraction、pooling 和 receptive field，理解 CNN 如何逐层形成更大范围的视觉理解。
+
+图像不是普通向量，而是带空间位置的张量（Tensor）。一张彩色图像通常有：
+
+$$
+H\times W\times C
+$$
+
+其中 $H$ 是高度，$W$ 是宽度，$C$ 是通道数（Channel）。如果把图像直接 flatten，模型会失去“相邻像素彼此相关”这个强先验。
+
+卷积层（Convolution Layer）的重要性在于两个假设：
+
+- **局部连接（Local Connectivity）**：一个小 filter 只看局部区域，适合捕捉边缘、纹理、角点等局部模式。
+- **参数共享（Parameter Sharing）**：同一个 filter 在整张图上滑动，所以同一种特征可以在不同位置被识别。
+
+对应 p.40-p.55 的输出尺寸公式，要把每个变量看成一个几何操作：
+
+$$
+O=\left\lfloor \frac{I-F+2P}{S}\right\rfloor+1
+$$
+
+- $I$：输入尺寸（Input Size）；
+- $F$：filter/kernel 尺寸；
+- $P$：padding；
+- $S$：stride；
+- $O$：输出尺寸。
+
+直观上，padding 让边界像素也有机会被 filter 充分看到；stride 越大，filter 跳得越远，输出图越小。
+
+p.71-p.76 的 pooling 要理解成一种下采样（Downsampling）。Max pooling 保留局部最强响应，常用于突出是否出现某个特征；average pooling 更像对局部区域做平滑总结。
+
+最后把 p.77-p.82 的感受野（Receptive Field）和前面卷积联系起来：浅层神经元只看到小局部，深层神经元通过多层叠加能看到更大区域。因此 CNN 的层级结构可以从边缘到纹理，再到部件和整体对象。
+
+## 2. 做题和复习时的检查清单
+
+- 能不能用自己的话解释本讲的核心问题，而不是只背模型名称。
+- 看到公式时，能不能说清每个符号代表什么、输入输出是什么、优化目标是什么。
+- 能不能把本讲内容和前后讲联系起来：它继承了什么问题，又为下一讲解决什么问题。
+- 能不能分清概念、公式、训练流程和应用场景四个层次。
+- 遇到 PDF 中的图或代码时，先判断它是在说明结构、说明训练，还是说明实验结果。
+
+## 3. 结构层级示例
+
+下面这个小节专门用于统一结构编号：在 Obsidian 阅读时，一级结构用中文编号，二级结构用阿拉伯编号，三级结构用层级编号。后续如果继续扩写某个二级标题，可以使用类似 `1.1.1` 的形式继续细分。
+
+### 1.1.1 如何继续扩展本讲
+
+- 如果扩展概念解释，可以放在对应二级标题下面，先写直观含义，再写公式或例子。
+- 如果扩展公式推导，先说明目标，再逐步解释每一步变形。
+- 如果扩展复习题，可以把题目、解题思路、常见错误分开放，避免把结论堆在一起。

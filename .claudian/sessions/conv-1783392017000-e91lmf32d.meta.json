@@ -1,0 +1,24 @@
+{
+  "id": "conv-1783392017000-e91lmf32d",
+  "providerId": "claude",
+  "title": "解释逻辑门基础概念",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783392017000,
+  "updatedAt": 1783392972487,
+  "lastResponseAt": 1783392972487,
+  "sessionId": "110678d4-3ae4-46be-815f-4fb10797b360",
+  "providerState": {
+    "providerSessionId": "110678d4-3ae4-46be-815f-4fb10797b360"
+  },
+  "currentNote": "深度学习/01_AID_Deeplearning_base-2026.pdf",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 322,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 47616,
+    "contextWindow": 1000000,
+    "contextTokens": 47938,
+    "percentage": 5,
+    "contextWindowIsAuthoritative": true
+  }
+}

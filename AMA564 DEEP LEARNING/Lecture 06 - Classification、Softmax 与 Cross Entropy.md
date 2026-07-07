@@ -1,5 +1,3 @@
-# Lecture 06 - Classification、Softmax 与 Cross Entropy
-
 > [!info] 资料来源
 > - 课件：`AMA564_Deep Learning_Lecture6.pdf`
 > - 本笔记只依据 PDF 整理。
@@ -7,7 +5,7 @@
 
 # 一、本讲的整体地图
 
-## 1.1 PDF 页码索引
+## 1. PDF 页码索引
 
 | PDF 页码 | 内容 | 学习重点 |
 |---|---|---|
@@ -22,7 +20,7 @@
 
 # 二、分类问题的基本形式
 
-## 2.1 分类与回归的区别
+## 1. 分类与回归的区别
 
 对应 PDF：p.2-p.5
 
@@ -70,7 +68,7 @@ $$
 \mathbb{P}(h(X)\ne Y)
 $$
 
-## 2.2 常见分类方法
+## 2. 常见分类方法
 
 对应 PDF：p.5
 
@@ -84,7 +82,7 @@ $$
 
 # 三、Logistic Regression
 
-## 3.1 最小二乘也能估计条件概率
+## 1. 最小二乘也能估计条件概率
 
 对应 PDF：p.7
 
@@ -108,7 +106,7 @@ $$
 
 所以分类中估计条件均值其实就是估计 $Y=1$ 的条件概率。
 
-## 3.2 Logistic model
+## 2. Logistic model
 
 对应 PDF：p.8-p.10
 
@@ -135,7 +133,7 @@ $$
 
 则预测 $Y=1$；否则预测 $Y=0$。
 
-## 3.3 Logistic Regression 的局限
+## 3. Logistic Regression 的局限
 
 对应 PDF：p.10-p.11
 
@@ -151,7 +149,7 @@ $$
 
 # 四、Support Vector Machine
 
-## 4.1 最大间隔思想
+## 1. 最大间隔思想
 
 对应 PDF：p.12-p.16
 
@@ -161,7 +159,7 @@ $$
 
 SVM 的最优超平面只依赖一部分样本，这些样本叫支持向量（Support Vectors）。它们是离边界最近、真正决定边界位置的点。
 
-## 4.2 Kernel Trick
+## 2. Kernel Trick
 
 对应 PDF：p.17-p.18
 
@@ -185,7 +183,7 @@ $$
 
 # 五、神经网络做二分类
 
-## 5.1 0-1 loss 的困难
+## 1. 0-1 loss 的困难
 
 对应 PDF：p.19-p.22
 
@@ -211,7 +209,7 @@ $$
 
 神经网络训练需要梯度，而 0-1 loss 几乎无法直接用于梯度下降。
 
-## 5.2 用连续输出函数替代直接分类器
+## 2. 用连续输出函数替代直接分类器
 
 对应 PDF：p.23-p.25
 
@@ -239,7 +237,7 @@ $$
 
 这样做的好处是：$f$ 是连续可微的神经网络输出，可以用 gradient descent 训练。
 
-## 5.3 Surrogate loss
+## 3. Surrogate loss
 
 对应 PDF：p.26-p.28
 
@@ -291,7 +289,7 @@ $$
 
 # 六、多分类的数据预处理
 
-## 6.1 为什么不能直接用类别数字大小
+## 1. 为什么不能直接用类别数字大小
 
 对应 PDF：p.29-p.30
 
@@ -305,7 +303,7 @@ $$
 
 因此多分类常用 one-hot encoding。
 
-## 6.2 One-hot label
+## 2. One-hot label
 
 对应 PDF：p.31-p.32
 
@@ -340,7 +338,7 @@ one-hot 的核心是：只有真实类别对应的位置为 1，其余为 0。
 
 # 七、Softmax 输出概率
 
-## 7.1 神经网络输出维度
+## 1. 神经网络输出维度
 
 对应 PDF：p.33-p.34
 
@@ -352,7 +350,7 @@ $$
 
 但这些原始输出不一定在 $[0,1]$，也不一定加起来为 1。因此不能直接当概率。
 
-## 7.2 Softmax function
+## 2. Softmax function
 
 对应 PDF：p.35-p.36
 
@@ -385,7 +383,7 @@ $$
 
 # 八、Cross Entropy 来自最大似然
 
-## 8.1 Likelihood
+## 1. Likelihood
 
 对应 PDF：p.37-p.39
 
@@ -421,7 +419,7 @@ $$
 -Y_{i1}\log\hat{b}_1-Y_{i2}\log\hat{b}_2
 $$
 
-## 8.2 Cross Entropy loss
+## 2. Cross Entropy loss
 
 对应 PDF：p.40-p.41
 
@@ -456,7 +454,7 @@ $$
 
 Cross Entropy 的直觉：真实类别位置 $Y_j=1$，loss 就惩罚模型给真实类别的概率不够高。
 
-## 8.3 多分类扩展
+## 3. 多分类扩展
 
 对应 PDF：p.42-p.44
 
@@ -472,7 +470,7 @@ $$
 
 # 九、MNIST 例子
 
-## 9.1 数据集与任务
+## 1. 数据集与任务
 
 对应 PDF：p.45-p.47
 
@@ -485,7 +483,7 @@ MNIST 是 $28\times 28$ 黑白手写数字图像数据集，标签为 0 到 9。
 
 这是典型的 10-class image classification。
 
-## 9.2 数据预处理与查看
+## 2. 数据预处理与查看
 
 对应 PDF：p.48-p.52
 
@@ -503,7 +501,7 @@ $$
 B\times 1\times 28\times 28
 $$
 
-## 9.3 用 LeNet-5 做 MNIST 分类
+## 3. 用 LeNet-5 做 MNIST 分类
 
 对应 PDF：p.53-p.56
 
@@ -527,7 +525,7 @@ loss_fn = torch.nn.CrossEntropyLoss()
 
 # 十、本讲复习抓手
 
-## 10.1 必须掌握的概念
+## 1. 必须掌握的概念
 
 - 二分类（Binary Classification）：只有两个类别。
 - 多分类（Multi-class Classification）：类别数大于 2。
@@ -538,7 +536,7 @@ loss_fn = torch.nn.CrossEntropyLoss()
 - Cross Entropy：分类中常用损失，来自 negative log likelihood。
 - MNIST：手写数字分类基准数据集。
 
-## 10.2 关键公式
+## 2. 关键公式
 
 Logistic Regression：
 
@@ -573,6 +571,73 @@ $$
 \phi\left(Y_i f(X_i;\theta)\right)
 $$
 
-## 10.3 本讲一句话
+## 3. 本讲一句话
 
 分类不能直接靠 0-1 loss 做梯度训练，所以神经网络先输出连续 logits，再用 Softmax 转成概率，并用 Cross Entropy 作为可优化的分类损失。
+
+# 十一、补充学习注释与复习路线
+
+## 1. 本讲怎么读
+
+这一讲对应 PDF：p.1-p.56。它把前面的回归问题转到分类问题（Classification），核心变化是：模型输出不再只是一个连续数值，而是要表示类别概率或类别决策。
+
+建议按下面顺序读：
+
+1. p.1-p.18：先理解二分类、Logistic Regression 和 SVM。
+2. p.19-p.28：再看为什么神经网络分类不能直接优化 0-1 loss，而要用 surrogate loss。
+3. p.29-p.44：重点读 one-hot、Softmax、likelihood 和 cross entropy 的关系。
+4. p.45-p.56：用 MNIST 例子把数据预处理、模型输出和 loss 连起来。
+
+分类里最重要的区分是“分数（Logit）”和“概率（Probability）”。神经网络最后一层通常先输出 logits：
+
+$$
+z=(z_1,\ldots,z_K)
+$$
+
+Softmax 把它们转成概率：
+
+$$
+p_k=\frac{e^{z_k}}{\sum_{j=1}^K e^{z_j}}
+$$
+
+这里每个 $p_k$ 都是正数，并且总和为 1，所以可以解释成模型认为样本属于第 $k$ 类的概率。
+
+p.37-p.44 的 cross entropy 要和最大似然（Maximum Likelihood）一起理解。若真实标签是 one-hot 向量 $y$，预测概率是 $p$，多分类交叉熵为：
+
+$$
+\ell(y,p)=-\sum_{k=1}^K y_k\log p_k
+$$
+
+因为 one-hot 里只有真实类别位置为 1，所以它等价于：
+
+$$
+\ell=-\log p_{\text{true class}}
+$$
+
+也就是说，模型给真实类别的概率越小，惩罚越大。这个形式比 0-1 loss 更适合梯度优化，因为它不仅告诉模型“错了”，还告诉模型“错得有多不自信”。
+
+本讲容易混淆三个概念：
+
+- **Logistic Regression**：二分类概率模型，通常输出 $P(Y=1|X)$。
+- **Softmax Regression**：多分类概率模型，是 Logistic Regression 的多类扩展。
+- **Neural Network Classifier**：用深层网络产生 logits，再接 Softmax 和 Cross Entropy。
+
+MNIST 例子对应 p.45-p.56。复习时要能把流程说完整：图像输入经过标准化（Normalization），CNN 提取特征，最后输出 10 个 logits，对应数字 0 到 9，再用 cross entropy 与真实 one-hot/类别标签比较。
+
+## 2. 做题和复习时的检查清单
+
+- 能不能用自己的话解释本讲的核心问题，而不是只背模型名称。
+- 看到公式时，能不能说清每个符号代表什么、输入输出是什么、优化目标是什么。
+- 能不能把本讲内容和前后讲联系起来：它继承了什么问题，又为下一讲解决什么问题。
+- 能不能分清概念、公式、训练流程和应用场景四个层次。
+- 遇到 PDF 中的图或代码时，先判断它是在说明结构、说明训练，还是说明实验结果。
+
+## 3. 结构层级示例
+
+下面这个小节专门用于统一结构编号：在 Obsidian 阅读时，一级结构用中文编号，二级结构用阿拉伯编号，三级结构用层级编号。后续如果继续扩写某个二级标题，可以使用类似 `1.1.1` 的形式继续细分。
+
+### 1.1.1 如何继续扩展本讲
+
+- 如果扩展概念解释，可以放在对应二级标题下面，先写直观含义，再写公式或例子。
+- 如果扩展公式推导，先说明目标，再逐步解释每一步变形。
+- 如果扩展复习题，可以把题目、解题思路、常见错误分开放，避免把结论堆在一起。

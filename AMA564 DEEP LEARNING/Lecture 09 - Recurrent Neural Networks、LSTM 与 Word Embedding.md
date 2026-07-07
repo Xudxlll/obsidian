@@ -1,5 +1,3 @@
-# Lecture 09 - Recurrent Neural Networks、LSTM 与 Word Embedding
-
 > [!info] 资料来源
 > - 课件：`Lecture9.pdf`
 > - 本笔记只依据 PDF 整理。
@@ -7,7 +5,7 @@
 
 # 一、本讲的整体地图
 
-## 1.1 PDF 页码索引
+## 1. PDF 页码索引
 
 | PDF 页码 | 内容 | 学习重点 |
 |---|---|---|
@@ -22,7 +20,7 @@
 
 # 二、为什么需要处理序列数据
 
-## 2.1 Translation 中的上下文
+## 1. Translation 中的上下文
 
 对应 PDF：p.3-p.8
 
@@ -42,7 +40,7 @@ He is a lucky dog
 
 这说明自然语言不是一组独立 token 的集合，而是有顺序和上下文依赖的序列。
 
-## 2.2 其他序列任务
+## 2. 其他序列任务
 
 对应 PDF：p.9-p.11
 
@@ -62,7 +60,7 @@ $$
 
 # 三、RNN 的基本结构
 
-## 3.1 RNN 处理 time-dependent / sequence-dependent data
+## 1. RNN 处理 time-dependent / sequence-dependent data
 
 对应 PDF：p.12-p.13
 
@@ -88,7 +86,7 @@ $$
 
 $h_t$ 是当前时刻的记忆，它由当前输入 $x_t$ 和前一时刻隐藏状态 $h_{t-1}$ 共同决定。
 
-## 3.2 意图识别例子
+## 2. 意图识别例子
 
 对应 PDF：p.14-p.19
 
@@ -106,7 +104,7 @@ $$
 
 这就是 RNN 中 hidden state 的作用。
 
-## 3.3 RNN 的输入输出类型
+## 3. RNN 的输入输出类型
 
 对应 PDF：p.20-p.23
 
@@ -122,7 +120,7 @@ RNN 可以有不同输入输出结构：
 
 # 四、Elman、Jordan 与 Unfolded RNN
 
-## 4.1 Elman Network
+## 1. Elman Network
 
 对应 PDF：p.24-p.25
 
@@ -134,7 +132,7 @@ $$
 
 前一时刻的隐藏状态参与当前隐藏状态计算。
 
-## 4.2 Jordan Network
+## 2. Jordan Network
 
 对应 PDF：p.26-p.27
 
@@ -146,7 +144,7 @@ $$
 
 它把上一时刻输出反馈给当前时刻。
 
-## 4.3 Unfolded over time
+## 3. Unfolded over time
 
 对应 PDF：p.28-p.29
 
@@ -166,7 +164,7 @@ $$
 
 # 五、Backpropagation Through Time
 
-## 5.1 BPTT 的基本思想
+## 1. BPTT 的基本思想
 
 对应 PDF：p.30-p.34
 
@@ -190,7 +188,7 @@ $$
 
 而 $\frac{\partial L}{\partial h_t}$ 又会依赖后续时间步，因为 $h_t$ 会影响 $h_{t+1},h_{t+2},\ldots$。
 
-## 5.2 Vanishing / Exploding Gradient
+## 2. Vanishing / Exploding Gradient
 
 对应 PDF：p.35-p.37
 
@@ -206,7 +204,7 @@ $$
 
 # 六、LSTM 与 GRU
 
-## 6.1 LSTM 的直觉
+## 1. LSTM 的直觉
 
 对应 PDF：p.38-p.41
 
@@ -226,7 +224,7 @@ $$
 
 memory cell 像一条相对稳定的信息通道，帮助长距离信息传播。
 
-## 6.2 LSTM 的 gate 机制
+## 2. LSTM 的 gate 机制
 
 对应 PDF：p.42-p.43
 
@@ -265,7 +263,7 @@ $$
 
 $\odot$ 表示逐元素乘法（Element-wise Multiplication）。
 
-## 6.3 GRU
+## 3. GRU
 
 对应 PDF：p.44
 
@@ -275,7 +273,7 @@ LSTM 和 GRU 都是为了解决普通 RNN 难以学习长距离依赖的问题�
 
 # 七、Word Embedding
 
-## 7.1 为什么需要词向量
+## 1. 为什么需要词向量
 
 对应 PDF：p.45-p.46
 
@@ -287,7 +285,7 @@ $$
 \text{word}\rightarrow \mathbb{R}^d
 $$
 
-## 7.2 One-hot embedding 的问题
+## 2. One-hot embedding 的问题
 
 对应 PDF：p.47-p.49
 
@@ -301,7 +299,7 @@ One-hot encoding 用一个很长的向量表示单词。如果词表大小是 $V
 
 例如 `king` 和 `queen` 在 one-hot 中没有天然接近关系。
 
-## 7.3 Custom embedding 与语义空间
+## 3. Custom embedding 与语义空间
 
 对应 PDF：p.50-p.55
 
@@ -320,7 +318,7 @@ $$
 
 课件还展示了 male-female、verb tense、country-capital 等关系。
 
-## 7.4 常见算法
+## 4. 常见算法
 
 对应 PDF：p.56-p.57
 
@@ -328,7 +326,7 @@ $$
 
 # 八、RNN 姓氏分类例子
 
-## 8.1 任务设置
+## 1. 任务设置
 
 对应 PDF：p.58-p.60
 
@@ -340,7 +338,7 @@ $$
 \text{character sequence}\rightarrow \text{country category}
 $$
 
-## 8.2 One-hot character embedding
+## 2. One-hot character embedding
 
 对应 PDF：p.61-p.63
 
@@ -354,7 +352,7 @@ $$
 
 其中 $T$ 是姓氏长度。
 
-## 8.3 Build RNN 与 forward pass
+## 3. Build RNN 与 forward pass
 
 对应 PDF：p.64-p.65
 
@@ -370,7 +368,7 @@ $$
 \hat{y}=\mathrm{Softmax}(W_yh_T+c)
 $$
 
-## 8.4 Training process 与 result
+## 4. Training process 与 result
 
 对应 PDF：p.66-p.71
 
@@ -380,7 +378,7 @@ $$
 
 # 九、本讲复习抓手
 
-## 9.1 必须掌握的概念
+## 1. 必须掌握的概念
 
 - 序列数据（Sequential Data）：具有顺序依赖的数据。
 - RNN：用 hidden state 传递历史信息的神经网络。
@@ -392,7 +390,7 @@ $$
 - GRU：结构更简洁的 gated RNN。
 - Word Embedding：词或字符的向量表示。
 
-## 9.2 关键公式
+## 2. 关键公式
 
 RNN hidden state：
 
@@ -418,6 +416,70 @@ $$
 \hat{y}=\mathrm{Softmax}(W_yh_T+c)
 $$
 
-## 9.3 本讲一句话
+## 3. 本讲一句话
 
 RNN 用 hidden state 处理序列，但普通 RNN 容易遇到长距离梯度问题；LSTM/GRU 通过门控机制改善信息保留，而 word embedding 则把离散词或字符变成神经网络可处理的向量。
+
+# 十、补充学习注释与复习路线
+
+## 1. 本讲怎么读
+
+这一讲对应 PDF：p.1-p.71。它进入序列建模（Sequence Modeling），重点是：当输入不是固定长度向量，而是随时间或位置展开的序列时，模型怎样保留上下文信息？
+
+推荐读法：
+
+1. p.3-p.23：先用 translation、speech、sentiment 等例子理解序列任务类型。
+2. p.24-p.37：读 RNN、unfolded RNN 和 BPTT，理解循环结构如何训练。
+3. p.38-p.44：重点理解 LSTM/GRU 为什么能缓解长距离依赖问题。
+4. p.45-p.71：把 word embedding 和 surname classification 例子连起来。
+
+RNN 的核心状态更新可以写成：
+
+$$
+h_t=\phi(W_{xh}x_t+W_{hh}h_{t-1}+b_h)
+$$
+
+输出可以写成：
+
+$$
+y_t=W_{hy}h_t+b_y
+$$
+
+$h_t$ 是隐藏状态（Hidden State），它把当前输入 $x_t$ 和之前历史 $h_{t-1}$ 合并。这个设计让模型能处理长度可变的序列。
+
+p.30-p.37 的 BPTT（Backpropagation Through Time）要注意“展开”这个视角。RNN 在时间上展开后像一个很深的网络，但每个时间步共享同一组参数。梯度会沿时间反复乘上同类矩阵，因此容易出现：
+
+- **梯度消失（Vanishing Gradient）**：远处信息传不回来；
+- **梯度爆炸（Exploding Gradient）**：梯度过大，训练不稳定。
+
+LSTM 对应 p.38-p.44。它引入记忆单元（Memory Cell）和门控机制（Gates），让模型学习“保留什么、忘记什么、输出什么”。典型门包括：
+
+- 遗忘门（Forget Gate）：决定旧记忆保留多少；
+- 输入门（Input Gate）：决定新信息写入多少；
+- 输出门（Output Gate）：决定当前隐藏状态暴露多少。
+
+word embedding 对应 p.45-p.57。one-hot 表示虽然简单，但维度高、无法表达词之间的相似性。embedding 把词映射到低维连续向量：
+
+$$
+\text{word}\rightarrow v\in\mathbb{R}^d
+$$
+
+这样模型可以在向量空间中学习语义接近性。p.58-p.71 的姓氏分类例子就是把字符或词转成向量序列，再交给 RNN 汇总成类别判断。
+
+## 2. 做题和复习时的检查清单
+
+- 能不能用自己的话解释本讲的核心问题，而不是只背模型名称。
+- 看到公式时，能不能说清每个符号代表什么、输入输出是什么、优化目标是什么。
+- 能不能把本讲内容和前后讲联系起来：它继承了什么问题，又为下一讲解决什么问题。
+- 能不能分清概念、公式、训练流程和应用场景四个层次。
+- 遇到 PDF 中的图或代码时，先判断它是在说明结构、说明训练，还是说明实验结果。
+
+## 3. 结构层级示例
+
+下面这个小节专门用于统一结构编号：在 Obsidian 阅读时，一级结构用中文编号，二级结构用阿拉伯编号，三级结构用层级编号。后续如果继续扩写某个二级标题，可以使用类似 `1.1.1` 的形式继续细分。
+
+### 1.1.1 如何继续扩展本讲
+
+- 如果扩展概念解释，可以放在对应二级标题下面，先写直观含义，再写公式或例子。
+- 如果扩展公式推导，先说明目标，再逐步解释每一步变形。
+- 如果扩展复习题，可以把题目、解题思路、常见错误分开放，避免把结论堆在一起。

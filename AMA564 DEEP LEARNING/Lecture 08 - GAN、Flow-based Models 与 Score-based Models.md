@@ -1,5 +1,3 @@
-# Lecture 08 - GAN、Flow-based Models 与 Score-based Models
-
 > [!info] 资料来源
 > - 课件：`Lecture8.pdf`
 > - 本笔记只依据 PDF 整理。
@@ -7,7 +5,7 @@
 
 # 一、本讲的整体地图
 
-## 1.1 PDF 页码索引
+## 1. PDF 页码索引
 
 | PDF 页码 | 内容 | 学习重点 |
 |---|---|---|
@@ -21,7 +19,7 @@
 
 # 二、GAN 的基本直觉
 
-## 2.1 GAN 想解决什么问题
+## 1. GAN 想解决什么问题
 
 对应 PDF：p.2-p.4
 
@@ -49,7 +47,7 @@ $$
 
 映射成看起来像真实数据的样本。
 
-## 2.2 对抗的含义
+## 2. 对抗的含义
 
 对应 PDF：p.5-p.6
 
@@ -64,7 +62,7 @@ GAN 的核心是对抗（Adversarial）。课件引用原始论文的思想：�
 
 # 三、GAN 的架构
 
-## 3.1 Discriminator
+## 1. Discriminator
 
 对应 PDF：p.7-p.9
 
@@ -90,7 +88,7 @@ $$
 
 也就是说，判别器本质上是一个二分类器（Binary Classifier）。它把输入图像映射成“真实概率”。
 
-## 3.2 Generator
+## 2. Generator
 
 对应 PDF：p.10-p.11
 
@@ -122,7 +120,7 @@ $$
 
 # 四、GAN 的目标函数
 
-## 4.1 Value function
+## 1. Value function
 
 对应 PDF：p.12-p.15
 
@@ -157,7 +155,7 @@ $$
 
 也就是让判别器误以为生成样本是真实样本。
 
-## 4.2 Discriminator 的训练目标
+## 2. Discriminator 的训练目标
 
 对应 PDF：p.13-p.16
 
@@ -174,7 +172,7 @@ $$
 
 这和 cross entropy 的思想一致：真实样本标签为 1，生成样本标签为 0。
 
-## 4.3 Generator 的训练目标
+## 3. Generator 的训练目标
 
 对应 PDF：p.14-p.17
 
@@ -194,7 +192,7 @@ $$
 
 直观上就是：生成器越能骗过判别器，loss 越低。
 
-## 4.4 GAN 的交替训练
+## 4. GAN 的交替训练
 
 对应 PDF：p.18-p.20
 
@@ -208,7 +206,7 @@ GAN 不是一次性同时求出 $G$ 和 $D$。通常交替训练：
 
 # 五、GAN 的理论平衡与训练困难
 
-## 5.1 理想平衡
+## 1. 理想平衡
 
 对应 PDF：p.19
 
@@ -230,7 +228,7 @@ $$
 
 这不是说判别器“失败了”，而是生成器已经达到理想效果，真假样本不可区分。
 
-## 5.2 Non-convergence
+## 2. Non-convergence
 
 对应 PDF：p.21
 
@@ -238,7 +236,7 @@ GAN 的第一个训练困难是模型不收敛（Non-convergence）。由于 $G$
 
 普通监督学习通常最小化一个固定 loss；GAN 中判别器在变，生成器面对的目标也在变。
 
-## 5.3 Mode collapse
+## 3. Mode collapse
 
 对应 PDF：p.22
 
@@ -248,13 +246,13 @@ GAN 的第一个训练困难是模型不收敛（Non-convergence）。由于 $G$
 
 # 六、GAN 的发展
 
-## 6.1 2014 年原始 GAN
+## 1. 2014 年原始 GAN
 
 对应 PDF：p.23-p.25
 
 课件提到 2014 年 GAN 的数据集包括 MNIST、Toronto Face Database 和 CIFAR-10。早期 GAN 已经展示了生成样本的潜力，后续出现了大量变体和应用。
 
-## 6.2 Conditional GAN
+## 2. Conditional GAN
 
 对应 PDF：p.26-p.27
 
@@ -280,13 +278,13 @@ $$
 
 这样就能控制生成结果。例如指定类别标签，让模型生成某一类图像。
 
-## 6.3 Age Conditional GAN
+## 3. Age Conditional GAN
 
 对应 PDF：p.28
 
 Age Conditional GAN 是条件生成的一个应用：给定年龄条件，让模型生成不同年龄阶段的人脸。它说明条件变量不一定只是类别，也可以是年龄、属性、文本描述等。
 
-## 6.4 CycleGAN
+## 4. CycleGAN
 
 对应 PDF：p.29-p.32
 
@@ -308,7 +306,7 @@ $$
 
 # 七、Flow-based Models
 
-## 7.1 Flow-based model 的基本思想
+## 1. Flow-based model 的基本思想
 
 对应 PDF：p.33-p.35
 
@@ -334,7 +332,7 @@ $$
 
 这样就可以显式计算 $x$ 的概率密度。
 
-## 7.2 为什么要求可逆
+## 2. 为什么要求可逆
 
 对应 PDF：p.35-p.36
 
@@ -356,7 +354,7 @@ $$
 2. Jacobian determinant 容易计算；
 3. 有足够表达能力。
 
-## 7.3 Normalizing Flow
+## 3. Normalizing Flow
 
 对应 PDF：p.37-p.40
 
@@ -386,7 +384,7 @@ $$
 
 # 八、Score-based Models
 
-## 8.1 从密度函数到 score function
+## 1. 从密度函数到 score function
 
 对应 PDF：p.41-p.43
 
@@ -406,7 +404,7 @@ $$
 
 score function 指向“让概率密度上升最快”的方向。学习 score function 后，可以通过迭代采样过程生成数据。
 
-## 8.2 Fisher divergence 与 Langevin dynamics
+## 2. Fisher divergence 与 Langevin dynamics
 
 对应 PDF：p.44-p.46
 
@@ -428,7 +426,7 @@ $$
 
 直觉是：沿着 score 指向的高密度区域移动，同时加入随机噪声保持采样多样性。
 
-## 8.3 为什么要加噪声训练
+## 3. 为什么要加噪声训练
 
 对应 PDF：p.47-p.48
 
@@ -438,7 +436,7 @@ $$
 
 这与后来的扩散模型（Diffusion Models）关系很紧密。
 
-## 8.4 NCSN 与生成样本
+## 4. NCSN 与生成样本
 
 对应 PDF：p.49-p.53
 
@@ -448,7 +446,7 @@ $$
 
 # 九、本讲复习抓手
 
-## 9.1 生成模型对比
+## 1. 生成模型对比
 
 | 模型 | 是否显式建模密度 | 训练目标 | 主要优势 | 主要困难 |
 |---|---|---|---|---|
@@ -457,7 +455,7 @@ $$
 | Flow-based | 是 | negative log-likelihood | 精确 likelihood，可逆生成 | 可逆结构限制表达 |
 | Score-based | 不直接建模密度，建模 score | Fisher divergence / denoising score matching | 高质量生成，可与 diffusion 连接 | 采样迭代成本高 |
 
-## 9.2 关键公式
+## 2. 关键公式
 
 GAN value function：
 
@@ -498,6 +496,81 @@ $$
 x_{t+1}=x_t+\frac{\epsilon}{2}s_\theta(x_t)+\sqrt{\epsilon}\eta_t
 $$
 
-## 9.3 本讲一句话
+## 3. 本讲一句话
 
 GAN 用两个网络对抗学习生成分布，flow-based model 用可逆变换显式计算密度，score-based model 学习数据分布的梯度方向并通过迭代采样生成数据。
+
+# 十、补充学习注释与复习路线
+
+## 1. 本讲怎么读
+
+这一讲对应 PDF：p.1-p.53。它继续生成模型主题，但从 VAE 转到 GAN、Flow-based Models 和 Score-based Models。复习时要抓住三类生成模型的差别：是否显式建模密度、是否容易采样、训练是否稳定。
+
+推荐按三段读：
+
+1. p.1-p.22：GAN 的 generator、discriminator、value function 和训练困难。
+2. p.23-p.32：Conditional GAN、Age Conditional GAN、CycleGAN 说明如何控制生成或做 domain translation。
+3. p.33-p.53：Flow-based 和 Score-based Models 展示另一类基于概率密度或 score 的生成思路。
+
+GAN 的核心是两个网络的博弈：
+
+- 生成器（Generator）$G(z)$：把随机噪声 $z$ 变成假样本；
+- 判别器（Discriminator）$D(x)$：判断输入是真样本还是假样本。
+
+经典 value function 是：
+
+$$
+\min_G\max_D V(D,G)
+=\mathbb{E}_{x\sim p_{data}}[\log D(x)]
++\mathbb{E}_{z\sim p_z}[\log(1-D(G(z)))]
+$$
+
+直观上，$D$ 想把真样本判成 1、假样本判成 0；$G$ 想让 $D(G(z))$ 接近 1。GAN 强在采样质量，难在训练稳定性。p.19-p.22 的 mode collapse 要特别记：生成器可能只生成少数几类样本来欺骗判别器，导致多样性不足。
+
+Flow-based Models 对应 p.33-p.40，重点是可逆变换（Invertible Transformation）。若：
+
+$$
+x=f(z)
+$$
+
+且 $f$ 可逆，则可以用 change-of-variables 公式计算密度：
+
+$$
+p_X(x)=p_Z(f^{-1}(x))\left|\det \frac{\partial f^{-1}}{\partial x}\right|
+$$
+
+这类模型的优点是显式 likelihood，缺点是结构受可逆性限制。
+
+Score-based Models 对应 p.41-p.53。它不直接学 $p(x)$，而是学 score function：
+
+$$
+s_\theta(x)\approx \nabla_x\log p(x)
+$$
+
+score 可以理解成“往数据高密度区域移动的方向”。采样时用 Langevin dynamics 逐步把噪声推向数据分布。它和后来的 diffusion model 思想关系很近：通过噪声水平和逐步去噪来生成样本。
+
+三类模型可以这样对比：
+
+| 模型 | 密度是否显式 | 采样 | 主要困难 |
+|---|---|---|---|
+| GAN | 通常不显式 | 快 | 不稳定、mode collapse |
+| Flow | 显式 | 快且可逆 | 架构受限制 |
+| Score-based | 学 score 而非直接密度 | 多步采样 | 采样成本和训练设计 |
+
+## 2. 做题和复习时的检查清单
+
+- 能不能用自己的话解释本讲的核心问题，而不是只背模型名称。
+- 看到公式时，能不能说清每个符号代表什么、输入输出是什么、优化目标是什么。
+- 能不能把本讲内容和前后讲联系起来：它继承了什么问题，又为下一讲解决什么问题。
+- 能不能分清概念、公式、训练流程和应用场景四个层次。
+- 遇到 PDF 中的图或代码时，先判断它是在说明结构、说明训练，还是说明实验结果。
+
+## 3. 结构层级示例
+
+下面这个小节专门用于统一结构编号：在 Obsidian 阅读时，一级结构用中文编号，二级结构用阿拉伯编号，三级结构用层级编号。后续如果继续扩写某个二级标题，可以使用类似 `1.1.1` 的形式继续细分。
+
+### 1.1.1 如何继续扩展本讲
+
+- 如果扩展概念解释，可以放在对应二级标题下面，先写直观含义，再写公式或例子。
+- 如果扩展公式推导，先说明目标，再逐步解释每一步变形。
+- 如果扩展复习题，可以把题目、解题思路、常见错误分开放，避免把结论堆在一起。

@@ -1,0 +1,24 @@
+{
+  "id": "conv-1783388863120-5lr62t32t",
+  "providerId": "claude",
+  "title": "Clarify meaning of unspecified query",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783388863120,
+  "updatedAt": 1783389188661,
+  "lastResponseAt": 1783388877583,
+  "sessionId": "90d892c0-f576-4f49-b80a-2588019e0c87",
+  "providerState": {
+    "providerSessionId": "90d892c0-f576-4f49-b80a-2588019e0c87"
+  },
+  "currentNote": "Python基础/07-面向对象编程基础.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 505,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 23296,
+    "contextWindow": 1000000,
+    "contextTokens": 23801,
+    "percentage": 2,
+    "contextWindowIsAuthoritative": true
+  }
+}

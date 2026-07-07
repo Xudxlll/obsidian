@@ -1,5 +1,3 @@
-# Lecture 12 - RLHF、GRPOVI 与 Direct Preference Optimization
-
 > [!info] 资料来源
 > - 课件：`Lecture12.pdf`
 > - 本笔记只依据 PDF 整理。
@@ -7,7 +5,7 @@
 
 # 一、本讲的整体地图
 
-## 1.1 PDF 页码索引
+## 1. PDF 页码索引
 
 | PDF 页码 | 内容 | 学习重点 |
 |---|---|---|
@@ -21,7 +19,7 @@
 
 # 二、RLHF 回顾
 
-## 2.1 InstructGPT 与人类偏好
+## 1. InstructGPT 与人类偏好
 
 对应 PDF：p.2-p.11
 
@@ -41,7 +39,7 @@ $$
 \text{RL fine-tuning}
 $$
 
-## 2.2 Policy gradient 的基本直觉
+## 2. Policy gradient 的基本直觉
 
 对应 PDF：p.4-p.5
 
@@ -69,7 +67,7 @@ Policy gradient 的直觉：高奖励样本增强，低奖励样本削弱。
 
 # 三、RLHF 中 PPO 与 GRPO
 
-## 3.1 PPO 与 GRPO
+## 1. PPO 与 GRPO
 
 对应 PDF：p.12-p.15
 
@@ -83,7 +81,7 @@ GRPO（Group Relative Policy Optimization）在一些大模型推理训练中表
 
 > 如何加速 GRPO？
 
-## 3.2 Reward variance 的作用
+## 2. Reward variance 的作用
 
 对应 PDF：p.16-p.18
 
@@ -108,7 +106,7 @@ $$
 
 # 四、Reward Adjustment Model
 
-## 4.1 调整 reward 的要求
+## 1. 调整 reward 的要求
 
 对应 PDF：p.19-p.21
 
@@ -148,7 +146,7 @@ $$
 z_1\ge z_2\ge\cdots\ge z_n
 $$
 
-## 4.2 优化模型
+## 2. 优化模型
 
 对应 PDF：p.22-p.23
 
@@ -189,7 +187,7 @@ $$
 
 目标函数 $\sum p_i z_i^2$ 与二阶矩相关，在期望固定时，增加二阶矩等价于增加方差。
 
-## 4.3 方差增加保证
+## 3. 方差增加保证
 
 对应 PDF：p.23
 
@@ -199,7 +197,7 @@ $$
 
 # 五、求解算法
 
-## 5.1 极点结构
+## 1. 极点结构
 
 对应 PDF：p.24-p.27
 
@@ -235,7 +233,7 @@ $$
 
 这个结构是后续算法设计的基础。
 
-## 5.2 Enumeration search
+## 2. Enumeration search
 
 对应 PDF：p.28-p.31
 
@@ -252,7 +250,7 @@ $$
 
 它可以找到全局最优解，但当 response 数量变多时成本较高。
 
-## 5.3 One-pass search
+## 3. One-pass search
 
 对应 PDF：p.32-p.37
 
@@ -275,7 +273,7 @@ $$
 
 # 六、GRPOVI
 
-## 6.1 将 variance increase 集成进 GRPO
+## 1. 将 variance increase 集成进 GRPO
 
 对应 PDF：p.38-p.40
 
@@ -294,7 +292,7 @@ GRPOVI 表示 GRPO with Reward Variance Increase。它把 reward adjustment mode
 - probabilities 来自 initial policy model 或 reference policy model；
 - reward variance increase 的保证可以自然得到。
 
-## 6.2 实验
+## 2. 实验
 
 对应 PDF：p.41-p.44
 
@@ -309,7 +307,7 @@ GRPOVI 表示 GRPO with Reward Variance Increase。它把 reward adjustment mode
 
 # 七、Direct Preference Optimization
 
-## 7.1 DPO 的动机
+## 1. DPO 的动机
 
 对应 PDF：p.45-p.52
 
@@ -335,7 +333,7 @@ $$
 \text{direct policy optimization}
 $$
 
-## 7.2 DPO Loss
+## 2. DPO Loss
 
 对应 PDF：p.53-p.54
 
@@ -371,7 +369,7 @@ $$
 
 直觉是：相比 reference policy，当前 policy 应该提高 preferred response 的相对概率，降低 rejected response 的相对概率。
 
-## 7.3 DPO 的表现与流行
+## 3. DPO 的表现与流行
 
 对应 PDF：p.55-p.57
 
@@ -382,7 +380,7 @@ $$
 - 训练形式更接近监督学习；
 - 实现相对简单。
 
-## 7.4 DPO vs PPO
+## 4. DPO vs PPO
 
 对应 PDF：p.58-p.63
 
@@ -399,7 +397,7 @@ Reward hacking 指模型学会利用 reward model 的漏洞，而不是真正提
 
 # 八、本讲复习抓手
 
-## 8.1 必须掌握的概念
+## 1. 必须掌握的概念
 
 - RLHF：用人类偏好训练 reward model，并用 RL 优化 policy。
 - PPO：常见 RLHF policy optimization 方法。
@@ -410,7 +408,7 @@ Reward hacking 指模型学会利用 reward model 的漏洞，而不是真正提
 - DPO：直接用偏好对优化 policy，绕开显式 reward model 和 RL loop。
 - Reward Hacking：模型利用 reward 设计漏洞获得高分。
 
-## 8.2 关键公式
+## 2. 关键公式
 
 RLHF objective：
 
@@ -459,6 +457,66 @@ $$
 \right]
 $$
 
-## 8.3 本讲一句话
+## 3. 本讲一句话
 
 Lecture 12 重点不是重新解释 RLHF，而是进一步研究如何让 RLHF 训练更快、更稳定：GRPOVI 通过增加 reward variance 加速 GRPO，DPO 则用偏好数据直接优化 policy，减少显式 reward model 和 RL loop 的复杂性。
+
+# 九、补充学习注释与复习路线
+
+## 1. 本讲怎么读
+
+这一讲对应 PDF：p.1-p.63。它比上一讲更深入 RLHF，并进一步介绍 GRPOVI 和 Direct Preference Optimization（DPO）。这讲的重点不是背新缩写，而是理解：**人类偏好如何被转成可优化目标。**
+
+推荐读法：
+
+1. p.1-p.11：复习 InstructGPT、human preferences、policy gradient 和 RLHF pipeline。
+2. p.12-p.44：理解通过 reward variance adjustment 加速 RLHF，以及 GRPOVI 如何整合这一思路。
+3. p.45-p.63：重点读 DPO，理解它如何绕开显式 reward model 和复杂 RL 训练。
+
+RLHF 的基本链条是：
+
+$$
+\text{human preference}\rightarrow r_\phi(x,y)\rightarrow \text{policy optimization}
+$$
+
+其中 $r_\phi$ 是奖励模型（Reward Model），$\pi_\theta$ 是要优化的语言模型策略（Policy）。policy gradient 的基本直觉是：增加高 reward 输出的概率，降低低 reward 输出的概率。
+
+p.12-p.27 讨论 reward variance。直观上，如果所有候选回答 reward 很接近，优化信号就弱；如果 reward 差异更清楚，模型更容易知道哪个方向好。但 reward adjustment 又不能随意破坏偏好顺序，因此需要保持 relative preferences、boundedness 和 expectation 等性质。
+
+p.28-p.44 的搜索算法可以看成把理论约束落到可计算过程。Enumeration search 从候选空间里找满足条件的调整，代价可能较高；one-pass search 则试图用一次扫描降低复杂度。GRPOVI 把这个 reward adjustment 思想放进 GRPO 中，提高偏好优化效率。
+
+DPO 对应 p.45-p.63，是本讲最适合反复推导的部分。它从偏好数据出发：给定同一个 prompt，$y_w$ 是 preferred response，$y_l$ 是 dispreferred response。DPO 的目标可以写成让模型相对于 reference model 更偏向 $y_w$：
+
+$$
+\log \frac{\pi_\theta(y_w|x)}{\pi_{ref}(y_w|x)}
+-
+\log \frac{\pi_\theta(y_l|x)}{\pi_{ref}(y_l|x)}
+$$
+
+这个差值越大，说明当前模型相对 reference 更倾向好回答。DPO 的优势是实现简单、训练稳定，不需要显式训练 reward model 后再跑 PPO；但它仍依赖偏好数据质量，也不能自动解决所有 reward hacking 或分布外问题。
+
+复习时可以这样区分：
+
+| 方法 | 是否显式 reward model | 是否需要 RL 优化 | 直观特点 |
+|---|---|---|---|
+| PPO-style RLHF | 需要 | 需要 | pipeline 复杂，但表达灵活 |
+| DPO | 不显式需要 | 不需要传统 RL | 直接用偏好对训练，形式更简单 |
+| GRPOVI | 使用 reward adjustment 思想 | 与 GRPO 结合 | 关注提升优化信号效率 |
+
+## 2. 做题和复习时的检查清单
+
+- 能不能用自己的话解释本讲的核心问题，而不是只背模型名称。
+- 看到公式时，能不能说清每个符号代表什么、输入输出是什么、优化目标是什么。
+- 能不能把本讲内容和前后讲联系起来：它继承了什么问题，又为下一讲解决什么问题。
+- 能不能分清概念、公式、训练流程和应用场景四个层次。
+- 遇到 PDF 中的图或代码时，先判断它是在说明结构、说明训练，还是说明实验结果。
+
+## 3. 结构层级示例
+
+下面这个小节专门用于统一结构编号：在 Obsidian 阅读时，一级结构用中文编号，二级结构用阿拉伯编号，三级结构用层级编号。后续如果继续扩写某个二级标题，可以使用类似 `1.1.1` 的形式继续细分。
+
+### 1.1.1 如何继续扩展本讲
+
+- 如果扩展概念解释，可以放在对应二级标题下面，先写直观含义，再写公式或例子。
+- 如果扩展公式推导，先说明目标，再逐步解释每一步变形。
+- 如果扩展复习题，可以把题目、解题思路、常见错误分开放，避免把结论堆在一起。

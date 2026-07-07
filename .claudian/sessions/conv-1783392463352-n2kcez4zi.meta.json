@@ -1,0 +1,24 @@
+{
+  "id": "conv-1783392463352-n2kcez4zi",
+  "providerId": "claude",
+  "title": "Organize learning notes",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783392463353,
+  "updatedAt": 1783392515115,
+  "lastResponseAt": 1783392515115,
+  "sessionId": "b8b42e5f-915c-470b-9c37-4233d397aa9c",
+  "providerState": {
+    "providerSessionId": "b8b42e5f-915c-470b-9c37-4233d397aa9c"
+  },
+  "currentNote": "深度学习/深度学习课堂笔记.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 124,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 27520,
+    "contextWindow": 1000000,
+    "contextTokens": 27644,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -4,8 +4,8 @@
   "title": "Explain information entropy formula",
   "titleGenerationStatus": "success",
   "createdAt": 1782874809544,
-  "updatedAt": 1782961916551,
-  "lastResponseAt": 1782961916551,
+  "updatedAt": 1783391707453,
+  "lastResponseAt": 1783391707453,
   "sessionId": "e121628e-ee64-4ee7-a225-170dcfb6c4d5",
   "providerState": {
     "providerSessionId": "e121628e-ee64-4ee7-a225-170dcfb6c4d5"
@@ -13,11 +13,11 @@
   "currentNote": "数据分析与机器学习/08-决策树.md",
   "usage": {
     "model": "opus[1m]",
-    "inputTokens": 670,
+    "inputTokens": 141,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 136320,
+    "cacheReadInputTokens": 143744,
     "contextWindow": 1000000,
-    "contextTokens": 136990,
+    "contextTokens": 143885,
     "percentage": 14,
     "contextWindowIsAuthoritative": true
   }

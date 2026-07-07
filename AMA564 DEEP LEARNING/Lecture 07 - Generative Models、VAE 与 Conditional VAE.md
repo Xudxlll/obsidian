@@ -1,5 +1,3 @@
-# Lecture 07 - Generative Models、VAE 与 Conditional VAE
-
 > [!info] 资料来源
 > - 课件：`AMA564_Deep Learning_Lecture7.pdf`
 > - 本笔记只依据 PDF 整理。
@@ -7,7 +5,7 @@
 
 # 一、本讲的整体地图
 
-## 1.1 PDF 页码索引
+## 1. PDF 页码索引
 
 | PDF 页码 | 内容 | 学习重点 |
 |---|---|---|
@@ -20,7 +18,7 @@
 
 # 二、Generative Models
 
-## 2.1 什么是生成模型
+## 1. 什么是生成模型
 
 对应 PDF：p.2-p.3
 
@@ -46,7 +44,7 @@ $$
 - 文本生成（Text Generation）
 - 语音合成（Speech Synthesis）
 
-## 2.2 生成模型与判别模型
+## 2. 生成模型与判别模型
 
 对应 PDF：p.4
 
@@ -81,7 +79,7 @@ $$
 | Discriminative Model | 决策边界或条件概率 | 这张图属于哪一类 |
 | Generative Model | 数据分布 | 如何生成一张像训练集的新图 |
 
-## 2.3 常见生成模型路线
+## 3. 常见生成模型路线
 
 对应 PDF：p.5-p.8
 
@@ -95,7 +93,7 @@ $$
 
 # 三、Autoencoder
 
-## 3.1 Autoencoder 是自动学习的压缩与解压
+## 1. Autoencoder 是自动学习的压缩与解压
 
 对应 PDF：p.9-p.11
 
@@ -132,7 +130,7 @@ $$
 2. lossy；
 3. learned automatically from examples。
 
-## 3.2 普通 Autoencoder 的潜在问题
+## 2. 普通 Autoencoder 的潜在问题
 
 对应 PDF：p.12-p.16
 
@@ -142,7 +140,7 @@ $$
 
 普通 AE 不一定可以。因为 latent space 可能非常不规则（Irregular Latent Space）。某些区域 decoder 能生成合理样本，另一些区域可能完全没有意义。
 
-## 3.3 Regular latent space 需要什么性质
+## 3. Regular latent space 需要什么性质
 
 对应 PDF：p.17
 
@@ -160,7 +158,7 @@ $$
 
 # 四、Variational Autoencoder
 
-## 4.1 VAE 的核心动机
+## 1. VAE 的核心动机
 
 对应 PDF：p.18
 
@@ -168,7 +166,7 @@ $$
 
 课件定义：VAE 是一种 regularised autoencoder，用来避免 overfitting，并保证 latent space 具有支持 generative process 的性质。
 
-## 4.2 VAE 编码的是分布，不是单点
+## 2. VAE 编码的是分布，不是单点
 
 对应 PDF：p.19
 
@@ -202,7 +200,7 @@ $$
 \mu_\phi(x),\quad \log\sigma_\phi^2(x)
 $$
 
-## 4.3 VAE loss 的两部分
+## 3. VAE loss 的两部分
 
 对应 PDF：p.20-p.25
 
@@ -242,7 +240,7 @@ $$
 
 # 五、KL Divergence
 
-## 5.1 KL divergence 的含义
+## 1. KL divergence 的含义
 
 对应 PDF：p.21-p.22
 
@@ -273,7 +271,7 @@ $$
 D_{\mathrm{KL}}(p\|q)\ne D_{\mathrm{KL}}(q\|p)
 $$
 
-## 5.2 KL 在 VAE 中的作用
+## 2. KL 在 VAE 中的作用
 
 对应 PDF：p.23-p.25
 
@@ -289,7 +287,7 @@ $$
 
 # 六、VAE 的神经网络实现
 
-## 6.1 Encoder 输出 mean 和 covariance
+## 1. Encoder 输出 mean 和 covariance
 
 对应 PDF：p.26-p.29
 
@@ -323,7 +321,7 @@ z
 \hat{x}
 $$
 
-## 6.2 为什么采样会阻断 backpropagation
+## 2. 为什么采样会阻断 backpropagation
 
 对应 PDF：p.30
 
@@ -337,7 +335,7 @@ $$
 
 问题不是不能采样，而是要让采样过程写成一个可微函数加外部噪声。
 
-## 6.3 Reparameterization trick
+## 3. Reparameterization trick
 
 对应 PDF：p.31
 
@@ -366,7 +364,7 @@ $$
 
 因此 backpropagation 可以继续训练 encoder。
 
-## 6.4 VAE 小结
+## 4. VAE 小结
 
 对应 PDF：p.32-p.33
 
@@ -380,7 +378,7 @@ $$
 
 # 七、MNIST 上的 AE 与 VAE 示例
 
-## 7.1 普通 Autoencoder 示例
+## 1. 普通 Autoencoder 示例
 
 对应 PDF：p.34-p.41
 
@@ -402,7 +400,7 @@ $$
 
 观察重点不是代码细节，而是 latent space 的质量。如果普通 AE 的 latent space 不规则，那么在二维平面上随机取点解码时，某些区域可能生成不清楚或无意义的数字。
 
-## 7.2 VAE 示例
+## 2. VAE 示例
 
 对应 PDF：p.42-p.48
 
@@ -422,7 +420,7 @@ VAE 的 latent space 通常更连续。二维 latent space 中从一个点移动
 
 # 八、Conditional VAE
 
-## 8.1 为什么需要 CVAE
+## 1. 为什么需要 CVAE
 
 对应 PDF：p.49-p.50
 
@@ -430,7 +428,7 @@ VAE 的 latent space 通常更连续。二维 latent space 中从一个点移动
 
 因此需要条件变分自动编码器（Conditional Variational Autoencoder, CVAE）。
 
-## 8.2 CVAE 的结构
+## 2. CVAE 的结构
 
 对应 PDF：p.51-p.53
 
@@ -460,7 +458,7 @@ $$
 
 也就是说，decoder 不只看 latent variable $z$，还看条件 $y$。
 
-## 8.3 按类别生成
+## 3. 按类别生成
 
 对应 PDF：p.54-p.56
 
@@ -482,7 +480,7 @@ $$
 
 # 九、本讲复习抓手
 
-## 9.1 必须掌握的概念
+## 1. 必须掌握的概念
 
 - 生成模型（Generative Model）：学习数据分布并生成新样本。
 - 判别模型（Discriminative Model）：学习类别边界或条件概率。
@@ -495,7 +493,7 @@ $$
 - 重参数化技巧（Reparameterization Trick）：让随机采样可反向传播。
 - 条件 VAE（Conditional VAE, CVAE）：加入 label 等条件，实现可控生成。
 
-## 9.2 关键公式
+## 2. 关键公式
 
 Autoencoder：
 
@@ -540,6 +538,85 @@ $$
 q_\phi(z\mid x,y),\qquad p_\theta(x\mid z,y)
 $$
 
-## 9.3 本讲一句话
+## 3. 本讲一句话
 
 普通 Autoencoder 能压缩和重构，但 latent space 不一定适合随机采样；VAE 通过输出分布、KL regularization 和 reparameterization trick，把 autoencoder 改造成可以生成新样本的概率模型。
+
+# 十、补充学习注释与复习路线
+
+## 1. 本讲怎么读
+
+这一讲对应 PDF：p.1-p.56。它从判别式任务转向生成模型（Generative Models），核心问题变成：模型不只预测标签，还要学习数据分布并生成新样本。
+
+推荐读法：
+
+1. p.1-p.8：先区分生成模型和判别模型（Discriminative Model）。
+2. p.9-p.18：理解 Autoencoder 为什么能压缩和重构，但普通 latent space 不一定适合采样。
+3. p.19-p.33：重点读 VAE、KL divergence 和 reparameterization trick。
+4. p.34-p.56：用 MNIST 和 Conditional VAE 看生成效果如何被控制。
+
+Autoencoder（AE）的结构是：
+
+$$
+x \xrightarrow{encoder} z \xrightarrow{decoder} \hat{x}
+$$
+
+训练目标通常是让重构误差变小：
+
+$$
+\ell(x,\hat{x})=\|x-\hat{x}\|^2
+$$
+
+但普通 AE 的 $z$ 是确定性编码，latent space 可能出现空洞或不连续区域。这样从 latent space 随机采样时，decoder 未必能生成合理样本。
+
+VAE 的关键改变是：encoder 输出的不是一个点，而是一个分布。常见写法是：
+
+$$
+q_\phi(z|x)=\mathcal{N}(\mu_\phi(x),\sigma_\phi^2(x))
+$$
+
+VAE loss 可以理解成两部分：
+
+$$
+\mathcal{L}=\text{Reconstruction Loss}+\text{KL Regularization}
+$$
+
+重构项要求生成样本像原输入；KL 项要求 $q_\phi(z|x)$ 不要离先验分布 $p(z)$ 太远。常见先验是标准正态分布：
+
+$$
+p(z)=\mathcal{N}(0,I)
+$$
+
+对应 p.26-p.33 的重参数化技巧（Reparameterization Trick）要重点理解：直接从 $\mathcal{N}(\mu,\sigma^2)$ 采样会让梯度难以通过随机节点传回 encoder，所以改写成：
+
+$$
+z=\mu+\sigma\odot\epsilon,\quad \epsilon\sim\mathcal{N}(0,I)
+$$
+
+这样随机性来自 $\epsilon$，而 $\mu$ 和 $\sigma$ 仍是可微的网络输出。
+
+Conditional VAE 对应 p.49-p.56。它把条件 $y$ 加入 encoder 和 decoder：
+
+$$
+q_\phi(z|x,y),\quad p_\theta(x|z,y)
+$$
+
+直观上，普通 VAE 是“随便生成一张像训练集的图片”，CVAE 是“在指定类别条件下生成图片”。
+
+## 2. 做题和复习时的检查清单
+
+- 能不能用自己的话解释本讲的核心问题，而不是只背模型名称。
+- 看到公式时，能不能说清每个符号代表什么、输入输出是什么、优化目标是什么。
+- 能不能把本讲内容和前后讲联系起来：它继承了什么问题，又为下一讲解决什么问题。
+- 能不能分清概念、公式、训练流程和应用场景四个层次。
+- 遇到 PDF 中的图或代码时，先判断它是在说明结构、说明训练，还是说明实验结果。
+
+## 3. 结构层级示例
+
+下面这个小节专门用于统一结构编号：在 Obsidian 阅读时，一级结构用中文编号，二级结构用阿拉伯编号，三级结构用层级编号。后续如果继续扩写某个二级标题，可以使用类似 `1.1.1` 的形式继续细分。
+
+### 1.1.1 如何继续扩展本讲
+
+- 如果扩展概念解释，可以放在对应二级标题下面，先写直观含义，再写公式或例子。
+- 如果扩展公式推导，先说明目标，再逐步解释每一步变形。
+- 如果扩展复习题，可以把题目、解题思路、常见错误分开放，避免把结论堆在一起。
