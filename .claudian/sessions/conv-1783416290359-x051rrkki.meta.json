@@ -1,0 +1,24 @@
+{
+  "id": "conv-1783416290359-x051rrkki",
+  "providerId": "claude",
+  "title": "Explain BGD global optimum for convex functions",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783416290359,
+  "updatedAt": 1783416348622,
+  "lastResponseAt": 1783416348622,
+  "sessionId": "d38bccb9-50c2-4376-a415-a8d12d648356",
+  "providerState": {
+    "providerSessionId": "d38bccb9-50c2-4376-a415-a8d12d648356"
+  },
+  "currentNote": "深度学习/01_AID_Deeplearning_base-2026.pdf",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 92,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 24448,
+    "contextWindow": 1000000,
+    "contextTokens": 24540,
+    "percentage": 2,
+    "contextWindowIsAuthoritative": true
+  }
+}

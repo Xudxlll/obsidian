@@ -1,12 +1,12 @@
 ---
-title: "DBSCAN 分群演算法介紹與實際應用範例"
-source: "https://myapollo.com.tw/blog/dbscan/"
+title: DBSCAN 分群演算法介紹與實際應用範例
+source: https://myapollo.com.tw/blog/dbscan/
 author:
 published: 2024-09-02T23:39:49CET
 created: 2026-07-03
-description: "以前在開發 Chrome 擴充 NimoTab 時，有 1 個功能需要將相似/相同的網頁標題分群在一起，例如下圖：當時用的是土炮的方法（但其實類似 DBSCAN），不過後來跟從事機器學習的同事討教有沒有更好的做法時，才知道有 1 個稱為 DBSCAN 的演算法可以使用。本文將介紹 DBSCAN 這個實用的分群演算法，並以實際範例展示如何做到將相似的資料分群在一起，藉此讓大家對 DBSCAN 有更深入的理解。"
+description: 以前在開發 Chrome 擴充 NimoTab 時，有 1 個功能需要將相似/相同的網頁標題分群在一起，例如下圖：當時用的是土炮的方法（但其實類似 DBSCAN），不過後來跟從事機器學習的同事討教有沒有更好的做法時，才知道有 1 個稱為 DBSCAN 的演算法可以使用。本文將介紹 DBSCAN 這個實用的分群演算法，並以實際範例展示如何做到將相似的資料分群在一起，藉此讓大家對 DBSCAN 有更深入的理解。
 tags:
-  - "clippings"
+  - clippings
 ---
 > [!info] Info
 > 覺得我們的內容實用嗎？ MyApollo 電子報讀者募集中！歡迎 [訂閱電子報](https://myapollo.ck.page/709413e150)!

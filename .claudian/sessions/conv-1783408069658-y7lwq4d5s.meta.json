@@ -1,0 +1,24 @@
+{
+  "id": "conv-1783408069658-y7lwq4d5s",
+  "providerId": "claude",
+  "title": "整理字幕内容为AI知识笔记",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783408069661,
+  "updatedAt": 1783416276012,
+  "lastResponseAt": 1783408511766,
+  "sessionId": "245961cd-75f3-4ad4-87ef-ce4c4de2d83f",
+  "providerState": {
+    "providerSessionId": "245961cd-75f3-4ad4-87ef-ce4c4de2d83f"
+  },
+  "currentNote": "Clippings/Bilibili/2026-07-07-激活函数迭代史：SwiGLU 到底强在哪？居然连作者自己都说不清？.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 1064,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 36864,
+    "contextWindow": 1000000,
+    "contextTokens": 37928,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
