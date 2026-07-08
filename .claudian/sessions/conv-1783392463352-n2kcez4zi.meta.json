@@ -4,8 +4,8 @@
   "title": "Organize learning notes",
   "titleGenerationStatus": "success",
   "createdAt": 1783392463353,
-  "updatedAt": 1783473489485,
-  "lastResponseAt": 1783473489485,
+  "updatedAt": 1783483397901,
+  "lastResponseAt": 1783483397901,
   "sessionId": "b8b42e5f-915c-470b-9c37-4233d397aa9c",
   "providerState": {
     "providerSessionId": "b8b42e5f-915c-470b-9c37-4233d397aa9c"
@@ -13,11 +13,11 @@
   "currentNote": "深度学习/深度学习课堂笔记.md",
   "usage": {
     "model": "opus[1m]",
-    "inputTokens": 771,
+    "inputTokens": 1475,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 48768,
+    "cacheReadInputTokens": 52864,
     "contextWindow": 1000000,
-    "contextTokens": 49539,
+    "contextTokens": 54339,
     "percentage": 5,
     "contextWindowIsAuthoritative": true
   }
