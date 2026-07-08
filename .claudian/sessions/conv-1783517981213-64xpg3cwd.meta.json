@@ -1,0 +1,24 @@
+{
+  "id": "conv-1783517981213-64xpg3cwd",
+  "providerId": "claude",
+  "title": "整理吕斌《机器学习因果推断》课程字幕",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783517981213,
+  "updatedAt": 1783518277516,
+  "lastResponseAt": 1783518277516,
+  "sessionId": "5b964fac-adab-4bf3-b960-4922c0e4bb98",
+  "providerState": {
+    "providerSessionId": "5b964fac-adab-4bf3-b960-4922c0e4bb98"
+  },
+  "currentNote": "未命名.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 203,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 74112,
+    "contextWindow": 1000000,
+    "contextTokens": 74315,
+    "percentage": 7,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "未命名.md",
         "B站吕斌老师课程《机器学习因果推断》",
         "Python基础",
         "SQL数据库",
@@ -4698,6 +4699,7 @@
       "sortOrder": "custom",
       "customOrder": [
         "assets",
+        "2.1-2.2决策树原理和实战代码.pdf",
         "DBSCAN 聚类算法介绍与实际应用示例.md",
         "决策树信息增益划分贷款案例.md",
         "机器学习算法全景笔记.md",
@@ -6825,6 +6827,7 @@
       "isHidden": false,
       "sortOrder": "byName",
       "customOrder": [
+        "决策树原理与代码实战（分类树+回归树）.md",
         "05-随机森林实战案例：填补缺失数据、调参的艺术.md",
         "08-特征工程：探索性数据分析与数据预处理.md",
         "07-多项式回归与线性、非线性模型对比.md",
@@ -6912,6 +6915,18 @@
       "isHidden": false
     },
     "深度学习/assets/深度学习课堂笔记/file-20260708164021976.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数分与机器额外笔记/2.1-2.2决策树原理和实战代码.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "未命名.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "B站吕斌老师课程《机器学习因果推断》/决策树原理与代码实战（分类树+回归树）.md": {
       "isPinned": false,
       "isHidden": false
     }
