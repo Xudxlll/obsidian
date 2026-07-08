@@ -4930,6 +4930,7 @@
       "isHidden": false,
       "sortOrder": "byName",
       "customOrder": [
+        "assets",
         "07_AID_Deeplearning_paddlepaddle_image_classify.pdf",
         "06_AID_Deeplearning_paddlepaddle_base.pdf",
         "05_AID_Deeplearning_Tensorflow_img_classify.pdf",
@@ -6881,6 +6882,36 @@
       "isHidden": false
     },
     "AI知识汇总/激活函数迭代史：从Sigmoid到SwiGLU.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/assets": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "深度学习课堂笔记"
+      ],
+      "sortOrder": "custom"
+    },
+    "深度学习/assets/深度学习课堂笔记": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "file-20260708164021976.png",
+        "file-20260708164012778.png",
+        "file-20260708163928215.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "深度学习/assets/深度学习课堂笔记/file-20260708163928215.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/assets/深度学习课堂笔记/file-20260708164012778.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/assets/深度学习课堂笔记/file-20260708164021976.png": {
       "isPinned": false,
       "isHidden": false
     }
