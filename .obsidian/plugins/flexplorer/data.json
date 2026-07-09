@@ -6899,6 +6899,11 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "file-20260709142608777.png",
+        "file-20260709142552159.png",
+        "file-20260709142452995.png",
+        "file-20260709142310927.png",
+        "file-20260709141741199.png",
         "file-20260709105125522.png",
         "file-20260709104744231.png",
         "file-20260708164021976.png",
@@ -6932,6 +6937,26 @@
       "isHidden": false
     },
     "深度学习/assets/深度学习课堂笔记/file-20260709105125522.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/assets/深度学习课堂笔记/file-20260709141741199.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/assets/深度学习课堂笔记/file-20260709142310927.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/assets/深度学习课堂笔记/file-20260709142452995.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/assets/深度学习课堂笔记/file-20260709142552159.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/assets/深度学习课堂笔记/file-20260709142608777.png": {
       "isPinned": false,
       "isHidden": false
     }
