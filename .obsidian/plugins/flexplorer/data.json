@@ -5,7 +5,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "未命名.md",
         "B站吕斌老师课程《机器学习因果推断》",
         "Python基础",
         "SQL数据库",
@@ -6919,10 +6918,6 @@
       "isHidden": false
     },
     "数分与机器额外笔记/2.1-2.2决策树原理和实战代码.pdf": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "未命名.md": {
       "isPinned": false,
       "isHidden": false
     },
