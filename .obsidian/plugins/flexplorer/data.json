@@ -6826,8 +6826,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "残差网络 ResNet 的核心思想.md",
         "assets",
+        "残差网络 ResNet 的核心思想.md",
         "反向传播过程.pdf",
         "2.1-2.2决策树原理和实战代码.pdf",
         "DBSCAN 聚类算法介绍与实际应用示例.md",
