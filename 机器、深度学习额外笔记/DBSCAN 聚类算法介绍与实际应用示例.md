@@ -32,7 +32,7 @@ tags:
 
 例如下图可以明显感觉到数据能够分成 2 簇，而剩下的 1 个黑色点无法被归类，这就是**噪声（Noise）**。
 
-![[数分与机器额外笔记/assets/dbscan-clusters-demo.png]]
+![[assets/dbscan-clusters-demo.png]]
 
 **噪声**在机器学习中指的是那些不符合任何已知簇特征或模式的数据。这些数据可能是因为异常值、错误而产生，通常无法被机器学习模型很好地解释，甚至可能干扰模型的训练和预测过程，因此通常需要特别处理或排除。
 
@@ -46,11 +46,11 @@ tags:
 
 以下是 sklearn 针对多种聚类算法所做的比较图：
 
-![[数分与机器额外笔记/assets/dbscan-cluster-comparison.png]]
+![[assets/dbscan-cluster-comparison.png]]
 
 其中 DBSCAN 的聚类结果对形状不规则数据的聚类效果相当好：
 
-![[数分与机器额外笔记/assets/dbscan-demo-result.png]]
+![[assets/dbscan-demo-result.png]]
 
 ### DBSCAN 的主要特点
 
@@ -81,7 +81,7 @@ DBSCAN 有三个重要核心概念：
 
 如果有一个点 **p**，其周围半径 **ε** 内满足最少邻居数 **minPoints**（包含 p 点自身），那么点 p 就是 **Core Point**：
 
-![[数分与机器额外笔记/assets/dbscan-core-points.png]]
+![[assets/dbscan-core-points.png]]
 
 ### Reachable Points（可达点）
 
@@ -89,13 +89,13 @@ DBSCAN 从 Core Point p 的邻近点开始，检查每一个邻近点是否满�
 
 例如下图中 P、Q、R、S 都符合 Core Point 条件，而 T 点无法满足 Core Point 条件（T 的周围半径内只有 Q 点），但 T 仍落在 Q 点的周围半径范围内，所以 T 属于 Reachable Point。P、Q、R、S、T 属于**同一个簇**：
 
-![[数分与机器额外笔记/assets/dbscan-reachable-points.png]]
+![[assets/dbscan-reachable-points.png]]
 
 ### Outliers（离群点/噪声）
 
 如果一个点无法满足 Core Point 与 Reachable Point 的条件，就属于 **Outlier**（或称噪声），例如下图的 U 点：
 
-![[数分与机器额外笔记/assets/dbscan-outliers.png]]
+![[assets/dbscan-outliers.png]]
 
 正是因为 DBSCAN 会以簇内的每个点为中心，不断寻找周围是否仍有符合 Core Point 条件的点，并借此**扩展簇的范围**，所以它具有对形状不规则数据进行聚类的能力。
 
@@ -105,7 +105,7 @@ DBSCAN 从 Core Point p 的邻近点开始，检查每一个邻近点是否满�
 
 ## 四、DBSCAN 算法伪代码
 
-![[数分与机器额外笔记/assets/dbscan-pseudocode.png]]
+![[assets/dbscan-pseudocode.png]]
 
 关键点：
 
@@ -115,7 +115,7 @@ DBSCAN 从 Core Point p 的邻近点开始，检查每一个邻近点是否满�
 
 `RangeQuery()` 伪代码如下，它的作用是找出参数 **Q** 点周围半径 **eps** 内有多少笔邻近数据：
 
-![[数分与机器额外笔记/assets/dbscan-range-query.png]]
+![[assets/dbscan-range-query.png]]
 
 ---
 

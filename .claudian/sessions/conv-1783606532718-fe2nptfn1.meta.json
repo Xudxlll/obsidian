@@ -1,0 +1,24 @@
+{
+  "id": "conv-1783606532718-fe2nptfn1",
+  "providerId": "claude",
+  "title": "整理笔记字幕内容",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783606532718,
+  "updatedAt": 1783610505161,
+  "lastResponseAt": 1783610505161,
+  "sessionId": "664ad85b-7135-4a3c-83b9-763739ca1c4c",
+  "providerState": {
+    "providerSessionId": "664ad85b-7135-4a3c-83b9-763739ca1c4c"
+  },
+  "currentNote": "Clippings/2026-07-09-三分钟动画讲解算法——残差思想 _ 是怎么实现的，解决了哪些深层网络的问题.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 654,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 34816,
+    "contextWindow": 1000000,
+    "contextTokens": 35470,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}

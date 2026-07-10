@@ -9,7 +9,7 @@
         "Python基础",
         "SQL数据库",
         "数据分析与机器学习",
-        "数分与机器额外笔记",
+        "机器、深度学习额外笔记",
         "深度学习",
         "广财先导课",
         "数学",
@@ -38,6 +38,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-07-09-三分钟动画讲解算法——残差思想 _ 是怎么实现的，解决了哪些深层网络的问题.md",
         "Bilibili",
         "DBSCAN 分群演算法介紹與實際應用範例.md"
       ]
@@ -4692,108 +4693,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "数分与机器额外笔记": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "assets",
-        "2.1-2.2决策树原理和实战代码.pdf",
-        "DBSCAN 聚类算法介绍与实际应用示例.md",
-        "决策树信息增益划分贷款案例.md",
-        "机器学习算法全景笔记.md",
-        "作业2.md",
-        "作业1答案.md",
-        "作业1.md",
-        "NumPy 顶层函数与数组方法的区别.md",
-        "NumPy 数组的合并与分割.md",
-        "NumPy 数组形状变换.md",
-        "NumPy 数组维度与整数位宽.md",
-        "NumPy ndarray、数组创建与视图.md"
-      ]
-    },
-    "数分与机器额外笔记/NumPy ndarray、数组创建与视图.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "数分与机器额外笔记/NumPy 数组的合并与分割.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "数分与机器额外笔记/NumPy 数组形状变换.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "数分与机器额外笔记/NumPy 数组维度与整数位宽.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "数分与机器额外笔记/NumPy 顶层函数与数组方法的区别.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "数分与机器额外笔记/assets": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "dbscan-range-query.png",
-        "dbscan-pseudocode.png",
-        "dbscan-outliers.png",
-        "dbscan-reachable-points.png",
-        "dbscan-core-points.png",
-        "dbscan-demo-result.png",
-        "dbscan-cluster-comparison.png",
-        "dbscan-clusters-demo.png",
-        "作业1",
-        "NumPy 数组的合并与分割"
-      ]
-    },
-    "数分与机器额外笔记/作业1.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "数分与机器额外笔记/机器学习算法全景笔记.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "数分与机器额外笔记/作业2.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "数分与机器额外笔记/assets/NumPy 数组的合并与分割": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "数组的轴1.png",
-        "数组的轴2.png"
-      ]
-    },
-    "数分与机器额外笔记/assets/作业1": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "file-20260622210501418.png"
-      ]
-    },
-    "数分与机器额外笔记/assets/NumPy 数组的合并与分割/数组的轴1.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "数分与机器额外笔记/assets/NumPy 数组的合并与分割/数组的轴2.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "数分与机器额外笔记/assets/作业1/file-20260622210501418.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "数分与机器额外笔记/作业1答案.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "数据分析与机器学习/08-决策树.md": {
       "isPinned": false,
       "isHidden": false
@@ -4818,10 +4717,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "数分与机器额外笔记/决策树信息增益划分贷款案例.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "数学/支持向量机（SVM）——原理篇.md": {
       "isPinned": false,
       "isHidden": false
@@ -4831,6 +4726,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "lecture5_44_64_assets",
+        "lecture5_44_64_annotated.html",
         "K均值聚类算法—NBA球星聚类.pptx"
       ]
     },
@@ -4870,42 +4767,6 @@
       "isHidden": false
     },
     "Clippings/DBSCAN 分群演算法介紹與實際應用範例.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "数分与机器额外笔记/DBSCAN 聚类算法介绍与实际应用示例.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "数分与机器额外笔记/assets/dbscan-clusters-demo.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "数分与机器额外笔记/assets/dbscan-cluster-comparison.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "数分与机器额外笔记/assets/dbscan-demo-result.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "数分与机器额外笔记/assets/dbscan-core-points.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "数分与机器额外笔记/assets/dbscan-reachable-points.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "数分与机器额外笔记/assets/dbscan-outliers.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "数分与机器额外笔记/assets/dbscan-pseudocode.png": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "数分与机器额外笔记/assets/dbscan-range-query.png": {
       "isPinned": false,
       "isHidden": false
     },
@@ -6924,10 +6785,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "数分与机器额外笔记/2.1-2.2决策树原理和实战代码.pdf": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "B站吕斌老师课程《机器学习因果推断》/决策树原理与代码实战（分类树+回归树）.md": {
       "isPinned": false,
       "isHidden": false
@@ -6957,6 +6814,282 @@
       "isHidden": false
     },
     "深度学习/assets/深度学习课堂笔记/file-20260709142608777.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Clippings/2026-07-09-三分钟动画讲解算法——残差思想 _ 是怎么实现的，解决了哪些深层网络的问题.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "残差网络 ResNet 的核心思想.md",
+        "assets",
+        "反向传播过程.pdf",
+        "2.1-2.2决策树原理和实战代码.pdf",
+        "DBSCAN 聚类算法介绍与实际应用示例.md",
+        "决策树信息增益划分贷款案例.md",
+        "机器学习算法全景笔记.md",
+        "作业2.md",
+        "作业1答案.md",
+        "作业1.md",
+        "NumPy 顶层函数与数组方法的区别.md",
+        "NumPy 数组的合并与分割.md",
+        "NumPy 数组形状变换.md",
+        "NumPy 数组维度与整数位宽.md",
+        "NumPy ndarray、数组创建与视图.md"
+      ]
+    },
+    "机器、深度学习额外笔记/DBSCAN 聚类算法介绍与实际应用示例.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/NumPy ndarray、数组创建与视图.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/NumPy 数组形状变换.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/NumPy 数组的合并与分割.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/NumPy 数组维度与整数位宽.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/NumPy 顶层函数与数组方法的区别.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/assets": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "dbscan-range-query.png",
+        "dbscan-pseudocode.png",
+        "dbscan-outliers.png",
+        "dbscan-reachable-points.png",
+        "dbscan-core-points.png",
+        "dbscan-demo-result.png",
+        "dbscan-cluster-comparison.png",
+        "dbscan-clusters-demo.png",
+        "作业1",
+        "NumPy 数组的合并与分割"
+      ]
+    },
+    "机器、深度学习额外笔记/作业1.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/作业1答案.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/作业2.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/决策树信息增益划分贷款案例.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/机器学习算法全景笔记.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/assets/NumPy 数组的合并与分割": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "数组的轴1.png",
+        "数组的轴2.png"
+      ]
+    },
+    "机器、深度学习额外笔记/assets/dbscan-cluster-comparison.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/assets/dbscan-clusters-demo.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/assets/dbscan-core-points.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/assets/dbscan-demo-result.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/assets/dbscan-outliers.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/assets/dbscan-pseudocode.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/assets/dbscan-range-query.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/assets/dbscan-reachable-points.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/assets/作业1": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "file-20260622210501418.png"
+      ]
+    },
+    "机器、深度学习额外笔记/assets/NumPy 数组的合并与分割/数组的轴1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/assets/NumPy 数组的合并与分割/数组的轴2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/assets/作业1/file-20260622210501418.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/2.1-2.2决策树原理和实战代码.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/反向传播过程.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/残差网络 ResNet 的核心思想.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "assets/lecture5_44_64_annotated.html": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "assets/lecture5_44_64_assets": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "page-64.png",
+        "page-63.png",
+        "page-62.png",
+        "page-61.png",
+        "page-60.png",
+        "page-59.png",
+        "page-58.png",
+        "page-57.png",
+        "page-56.png",
+        "page-55.png",
+        "page-54.png",
+        "page-53.png",
+        "page-52.png",
+        "page-51.png",
+        "page-50.png",
+        "page-49.png",
+        "page-48.png",
+        "page-46.png",
+        "page-47.png",
+        "page-45.png",
+        "page-44.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "assets/lecture5_44_64_assets/page-44.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "assets/lecture5_44_64_assets/page-45.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "assets/lecture5_44_64_assets/page-47.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "assets/lecture5_44_64_assets/page-46.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "assets/lecture5_44_64_assets/page-48.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "assets/lecture5_44_64_assets/page-49.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "assets/lecture5_44_64_assets/page-50.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "assets/lecture5_44_64_assets/page-51.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "assets/lecture5_44_64_assets/page-52.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "assets/lecture5_44_64_assets/page-53.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "assets/lecture5_44_64_assets/page-54.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "assets/lecture5_44_64_assets/page-55.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "assets/lecture5_44_64_assets/page-56.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "assets/lecture5_44_64_assets/page-57.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "assets/lecture5_44_64_assets/page-58.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "assets/lecture5_44_64_assets/page-59.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "assets/lecture5_44_64_assets/page-60.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "assets/lecture5_44_64_assets/page-61.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "assets/lecture5_44_64_assets/page-62.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "assets/lecture5_44_64_assets/page-63.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "assets/lecture5_44_64_assets/page-64.png": {
       "isPinned": false,
       "isHidden": false
     }

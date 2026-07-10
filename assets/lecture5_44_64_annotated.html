@@ -1,0 +1,976 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Lecture 5 第44-64页批注式讲解</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23a7193d'/%3E%3Ctext x='16' y='21' text-anchor='middle' font-family='Arial' font-size='14' font-weight='700' fill='white'%3EBN%3C/text%3E%3C/svg%3E">
+  <style>
+    :root {
+      --paper: #f7f3ec;
+      --ink: #24201b;
+      --muted: #766f66;
+      --line: #ded5c9;
+      --brand: #a7193d;
+      --brand-dark: #72122f;
+      --note: #fff9e8;
+      --note-line: #e8c66b;
+      --blue: #245e82;
+      --green: #3d6b4b;
+      --code: #f0ebe2;
+      --shadow: 0 18px 48px rgba(64, 42, 22, 0.16);
+      --radius: 8px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      background:
+        linear-gradient(90deg, rgba(167, 25, 61, 0.05) 0, rgba(167, 25, 61, 0) 34%),
+        var(--paper);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+      line-height: 1.72;
+    }
+
+    a {
+      color: inherit;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      border-bottom: 1px solid rgba(114, 18, 47, 0.2);
+      background: rgba(247, 243, 236, 0.92);
+      backdrop-filter: blur(16px);
+    }
+
+    .topbar-inner {
+      display: grid;
+      grid-template-columns: minmax(220px, 1fr) auto;
+      gap: 18px;
+      align-items: center;
+      max-width: 1480px;
+      margin: 0 auto;
+      padding: 14px 24px;
+    }
+
+    .title-block h1 {
+      margin: 0;
+      font-size: 20px;
+      line-height: 1.25;
+      letter-spacing: 0;
+    }
+
+    .title-block p {
+      margin: 4px 0 0;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    .nav-strip {
+      display: flex;
+      gap: 6px;
+      max-width: 720px;
+      overflow-x: auto;
+      padding-bottom: 2px;
+    }
+
+    .nav-strip a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-width: 34px;
+      height: 30px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fffaf2;
+      color: var(--muted);
+      font-size: 12px;
+      text-decoration: none;
+      white-space: nowrap;
+    }
+
+    .nav-strip a:hover,
+    .nav-strip a.active {
+      border-color: var(--brand);
+      background: var(--brand);
+      color: #fff;
+    }
+
+    main {
+      max-width: 1480px;
+      margin: 0 auto;
+      padding: 28px 24px 56px;
+    }
+
+    .intro {
+      display: grid;
+      grid-template-columns: 1.2fr 0.8fr;
+      gap: 22px;
+      margin-bottom: 28px;
+      padding: 22px 24px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255, 250, 242, 0.72);
+      box-shadow: 0 10px 28px rgba(74, 48, 22, 0.08);
+    }
+
+    .intro h2 {
+      margin: 0 0 8px;
+      font-size: 22px;
+      line-height: 1.3;
+    }
+
+    .intro p {
+      margin: 0;
+      color: var(--muted);
+    }
+
+    .legend {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      gap: 8px;
+      align-content: start;
+    }
+
+    .legend span {
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: #fffdf8;
+      padding: 8px 10px;
+      color: var(--muted);
+      font-size: 12px;
+      text-align: center;
+    }
+
+    .page-section {
+      display: grid;
+      grid-template-columns: minmax(420px, 0.98fr) minmax(420px, 1.02fr);
+      gap: 26px;
+      align-items: start;
+      margin: 0 0 34px;
+      scroll-margin-top: 128px;
+    }
+
+    .slide-panel {
+      position: sticky;
+      top: 88px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fffaf2;
+      box-shadow: var(--shadow);
+      overflow: hidden;
+    }
+
+    .slide-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 12px;
+      padding: 11px 14px;
+      border-bottom: 1px solid var(--line);
+      background: #fffdf8;
+    }
+
+    .slide-head strong {
+      font-size: 14px;
+    }
+
+    .slide-head span {
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .slide-frame {
+      padding: 12px;
+    }
+
+    .slide-frame img {
+      display: block;
+      width: 100%;
+      height: auto;
+      border: 1px solid rgba(114, 18, 47, 0.16);
+      border-radius: 5px;
+      background: white;
+    }
+
+    .notes-panel {
+      border-left: 3px solid var(--brand);
+      padding: 2px 0 2px 22px;
+    }
+
+    .notes-panel h2 {
+      margin: 0 0 8px;
+      color: var(--brand-dark);
+      font-size: 24px;
+      line-height: 1.32;
+    }
+
+    .notes-panel .summary {
+      margin: 0 0 16px;
+      color: var(--muted);
+      font-size: 15px;
+    }
+
+    .annotation {
+      margin: 0 0 14px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: rgba(255, 253, 248, 0.9);
+      overflow: hidden;
+    }
+
+    .annotation h3 {
+      margin: 0;
+      padding: 10px 13px;
+      border-bottom: 1px solid var(--line);
+      background: #fff7e7;
+      color: var(--brand-dark);
+      font-size: 15px;
+      line-height: 1.4;
+    }
+
+    .annotation .body {
+      padding: 12px 14px;
+    }
+
+    .annotation p {
+      margin: 0 0 10px;
+    }
+
+    .annotation p:last-child,
+    .annotation ul:last-child,
+    .annotation ol:last-child {
+      margin-bottom: 0;
+    }
+
+    ul,
+    ol {
+      margin: 0 0 10px;
+      padding-left: 1.25em;
+    }
+
+    li {
+      margin: 4px 0;
+    }
+
+    code,
+    .formula {
+      font-family: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+    }
+
+    .formula {
+      margin: 10px 0;
+      padding: 10px 12px;
+      border: 1px solid #dfd4c7;
+      border-radius: 6px;
+      background: var(--code);
+      color: #35291e;
+      font-size: 14px;
+      line-height: 1.55;
+      white-space: pre-wrap;
+      overflow-x: auto;
+    }
+
+    .callout {
+      margin: 12px 0 0;
+      padding: 11px 12px;
+      border-left: 4px solid var(--note-line);
+      border-radius: 4px;
+      background: var(--note);
+      color: #4f3f20;
+    }
+
+    .tag-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-top: 14px;
+    }
+
+    .tag {
+      border: 1px solid rgba(36, 94, 130, 0.26);
+      border-radius: 999px;
+      background: rgba(36, 94, 130, 0.08);
+      color: var(--blue);
+      padding: 5px 9px;
+      font-size: 12px;
+    }
+
+    .footer-note {
+      margin-top: 34px;
+      padding: 16px 18px;
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      background: #fffdf8;
+      color: var(--muted);
+      font-size: 13px;
+    }
+
+    @media (max-width: 1080px) {
+      .topbar-inner,
+      .intro,
+      .page-section {
+        grid-template-columns: 1fr;
+      }
+
+      .nav-strip {
+        max-width: 100%;
+      }
+
+      .slide-panel {
+        position: relative;
+        top: auto;
+      }
+
+      .notes-panel {
+        border-left-width: 0;
+        border-top: 3px solid var(--brand);
+        padding: 18px 0 0;
+      }
+
+      .legend {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    @media print {
+      body {
+        background: white;
+      }
+
+      .topbar {
+        position: static;
+      }
+
+      .page-section {
+        break-inside: avoid;
+      }
+
+      .slide-panel {
+        position: static;
+        box-shadow: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-inner">
+      <div class="title-block">
+        <h1>AMA564 Deep Learning - Lecture 5 第44-64页批注式讲解</h1>
+        <p>左侧保留 PDF 原页，右侧按页补充中文解释、公式拆解和学习提示。</p>
+      </div>
+      <nav class="nav-strip" aria-label="页码导航">
+        <a href="#p44">44</a><a href="#p45">45</a><a href="#p46">46</a><a href="#p47">47</a><a href="#p48">48</a><a href="#p49">49</a><a href="#p50">50</a><a href="#p51">51</a><a href="#p52">52</a><a href="#p53">53</a><a href="#p54">54</a><a href="#p55">55</a><a href="#p56">56</a><a href="#p57">57</a><a href="#p58">58</a><a href="#p59">59</a><a href="#p60">60</a><a href="#p61">61</a><a href="#p62">62</a><a href="#p63">63</a><a href="#p64">64</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="intro" aria-labelledby="intro-title">
+      <div>
+        <h2 id="intro-title">阅读路线</h2>
+        <p>这 21 页先收尾 ResNet 的 bottleneck block，然后解释为什么深层网络需要合适的初始化和 Batch Normalization，最后引出 DenseNet 与 GoogleNet/Inception。建议按页顺序读：先理解“信号和梯度为什么会坏掉”，再看 Xavier、He 初始化和 BN 如何把训练过程稳定下来。</p>
+      </div>
+      <div class="legend">
+        <span>红色：本页核心概念</span>
+        <span>浅黄：容易混淆点</span>
+        <span>蓝色标签：复习关键词</span>
+      </div>
+    </section>
+
+    <section class="page-section" id="p44">
+      <aside class="slide-panel">
+        <div class="slide-head"><strong>Page 44</strong><span>Deep ResNet bottleneck</span></div>
+        <div class="slide-frame"><img src="lecture5_44_64_assets/page-44.png" alt="Lecture 5 page 44"></div>
+      </aside>
+      <article class="notes-panel">
+        <h2>第44页：ResNet 的 Bottleneck block</h2>
+        <p class="summary">这一页解释 50 层以上的深层 ResNet 为什么常用 bottleneck 结构。</p>
+        <div class="annotation">
+          <h3>1. 图中的三层卷积在做什么</h3>
+          <div class="body">
+            <p>输入和输出都是 <code>28×28×256</code>，中间主分支是：</p>
+            <div class="formula">1×1 conv, 64  ->  3×3 conv, 64  ->  1×1 conv, 256</div>
+            <p>第一个 <code>1×1</code> 负责把通道数从 256 压到 64；中间的 <code>3×3</code> 在较低通道数上提取空间特征；最后一个 <code>1×1</code> 再升回 256，方便和 shortcut 相加。</p>
+          </div>
+        </div>
+        <div class="annotation">
+          <h3>2. 为什么叫 bottleneck</h3>
+          <div class="body">
+            <p>因为它像瓶颈一样先把宽通道压窄，再做主要计算，最后再扩回去。这样可以显著减少 <code>3×3</code> 卷积的计算量。</p>
+            <div class="callout">记忆法：<strong>1×1 降维，3×3 干活，1×1 升维</strong>。</div>
+          </div>
+        </div>
+        <div class="tag-row"><span class="tag">ResNet</span><span class="tag">bottleneck</span><span class="tag">shortcut</span></div>
+      </article>
+    </section>
+
+    <section class="page-section" id="p45">
+      <aside class="slide-panel">
+        <div class="slide-head"><strong>Page 45</strong><span>Train ResNet in practice</span></div>
+        <div class="slide-frame"><img src="lecture5_44_64_assets/page-45.png" alt="Lecture 5 page 45"></div>
+      </aside>
+      <article class="notes-panel">
+        <h2>第45页：实际训练 ResNet 的关键技巧</h2>
+        <p class="summary">ResNet 能训练得很深，不只是因为残差连接，还要配合初始化、BN、优化器和学习率策略。</p>
+        <div class="annotation">
+          <h3>1. He initialization</h3>
+          <div class="body">
+            <p>ResNet 常用 ReLU，因此初始化要匹配 ReLU 的激活特性。He 初始化会考虑 ReLU 大约只保留一半激活的事实，让每层信号方差不要快速衰减。</p>
+          </div>
+        </div>
+        <div class="annotation">
+          <h3>2. Batch Normalization 与 Momentum</h3>
+          <div class="body">
+            <p>BN 放在卷积层后面，让中间激活分布更稳定。SGD + Momentum <code>0.9</code> 则让优化方向更平滑，减少每个 mini-batch 带来的抖动。</p>
+            <p>课件也特别提到原始 ResNet 论文没有使用 dropout，这一点和许多早期网络不同。</p>
+          </div>
+        </div>
+        <div class="tag-row"><span class="tag">He 初始化</span><span class="tag">BN</span><span class="tag">SGD + Momentum</span></div>
+      </article>
+    </section>
+
+    <section class="page-section" id="p46">
+      <aside class="slide-panel">
+        <div class="slide-head"><strong>Page 46</strong><span>权重过小</span></div>
+        <div class="slide-frame"><img src="lecture5_44_64_assets/page-46.png" alt="Lecture 5 page 46"></div>
+      </aside>
+      <article class="notes-panel">
+        <h2>第46页：随机初始化太小会怎样</h2>
+        <p class="summary">这里用 10 层 tanh 网络说明：权重尺度太小，后面几层输出会接近 0。</p>
+        <div class="annotation">
+          <h3>1. 为什么输出会变成 0 附近</h3>
+          <div class="body">
+            <p>每一层都近似做 <code>y = Wx</code>。如果权重来自 <code>N(0, 0.01)</code>，数值很小，信号每过一层都会被压缩一点。10 层连续压缩后，后面层的输出自然越来越接近 0。</p>
+          </div>
+        </div>
+        <div class="annotation">
+          <h3>2. 图中柱状分布的含义</h3>
+          <div class="body">
+            <p>每个小图表示一层输出的分布。越到后面，分布越集中在 0 附近，说明网络虽然有很多层，但后层几乎收不到有区分度的输入。</p>
+            <div class="callout">这不是“随机不随机”的问题，而是<strong>随机尺度</strong>是否合理的问题。</div>
+          </div>
+        </div>
+        <div class="tag-row"><span class="tag">初始化过小</span><span class="tag">信号衰减</span></div>
+      </article>
+    </section>
+
+    <section class="page-section" id="p47">
+      <aside class="slide-panel">
+        <div class="slide-head"><strong>Page 47</strong><span>权重过大</span></div>
+        <div class="slide-frame"><img src="lecture5_44_64_assets/page-47.png" alt="Lecture 5 page 47"></div>
+      </aside>
+      <article class="notes-panel">
+        <h2>第47页：随机初始化太大也不行</h2>
+        <p class="summary">权重来自 <code>N(0,1)</code> 时，tanh 输出容易接近 -1 或 1，进入饱和区。</p>
+        <div class="annotation">
+          <h3>1. tanh 的饱和区</h3>
+          <div class="body">
+            <p><code>tanh</code> 的输出范围是 <code>[-1, 1]</code>。输入绝对值很大时，输出会非常接近 -1 或 1。这时函数曲线很平，导数接近 0。</p>
+          </div>
+        </div>
+        <div class="annotation">
+          <h3>2. 对反向传播的影响</h3>
+          <div class="body">
+            <p>反向传播要乘上激活函数导数。如果很多层都落在 tanh 饱和区，梯度会被连续乘以很小的数，于是前面层几乎学不到东西。</p>
+            <div class="formula">权重太小 -> 前向信号接近 0
+权重太大 -> tanh 饱和，梯度接近 0</div>
+          </div>
+        </div>
+        <div class="tag-row"><span class="tag">初始化过大</span><span class="tag">tanh 饱和</span><span class="tag">梯度消失</span></div>
+      </article>
+    </section>
+
+    <section class="page-section" id="p48">
+      <aside class="slide-panel">
+        <div class="slide-head"><strong>Page 48</strong><span>Xavier initialization</span></div>
+        <div class="slide-frame"><img src="lecture5_44_64_assets/page-48.png" alt="Lecture 5 page 48"></div>
+      </aside>
+      <article class="notes-panel">
+        <h2>第48页：Xavier 初始化的动机</h2>
+        <p class="summary">Xavier 的目标是让每一层的输入和输出方差尽量保持一致。</p>
+        <div class="annotation">
+          <h3>1. 为什么要保持方差</h3>
+          <div class="body">
+            <p>如果输出方差越来越小，信号会消失；如果输出方差越来越大，激活会爆掉或进入饱和区。保持方差稳定，就是让信息在深层网络中能比较健康地传递。</p>
+          </div>
+        </div>
+        <div class="annotation">
+          <h3>2. 课件中的初始化形式</h3>
+          <div class="body">
+            <div class="formula">w ~ N(0, 1) / sqrt(n_in)</div>
+            <p><code>n_in</code> 是输入神经元数量。输入维度越大，每个权重就应该越小，因为很多项加起来之后总方差会变大。</p>
+          </div>
+        </div>
+        <div class="tag-row"><span class="tag">Xavier</span><span class="tag">方差稳定</span><span class="tag">n_in</span></div>
+      </article>
+    </section>
+
+    <section class="page-section" id="p49">
+      <aside class="slide-panel">
+        <div class="slide-head"><strong>Page 49</strong><span>Xavier 推导</span></div>
+        <div class="slide-frame"><img src="lecture5_44_64_assets/page-49.png" alt="Lecture 5 page 49"></div>
+      </aside>
+      <article class="notes-panel">
+        <h2>第49页：Xavier 初始化的方差推导</h2>
+        <p class="summary">这一页把“为什么要除以 sqrt(n)”写成数学推导。</p>
+        <div class="annotation">
+          <h3>1. 从单个神经元开始</h3>
+          <div class="body">
+            <div class="formula">y = w1x1 + w2x2 + ... + wnxn</div>
+            <p>假设 <code>xi</code> 独立同分布且均值为 0，<code>wi</code> 也独立同分布且均值为 0。因为每一项独立，总方差可以相加。</p>
+          </div>
+        </div>
+        <div class="annotation">
+          <h3>2. 关键结论</h3>
+          <div class="body">
+            <div class="formula">Var(y) = n Var(wi) Var(xi)</div>
+            <p>如果希望 <code>Var(y) = Var(x)</code>，就需要：</p>
+            <div class="formula">n Var(wi) = 1
+Var(wi) = 1 / n</div>
+            <p>所以权重标准差就是 <code>1 / sqrt(n)</code>。</p>
+          </div>
+        </div>
+        <div class="tag-row"><span class="tag">Var(y)</span><span class="tag">1/sqrt(n)</span></div>
+      </article>
+    </section>
+
+    <section class="page-section" id="p50">
+      <aside class="slide-panel">
+        <div class="slide-head"><strong>Page 50</strong><span>ReLU 下 Xavier 不够好</span></div>
+        <div class="slide-frame"><img src="lecture5_44_64_assets/page-50.png" alt="Lecture 5 page 50"></div>
+      </aside>
+      <article class="notes-panel">
+        <h2>第50页：ReLU 激活下 Xavier 的问题</h2>
+        <p class="summary">同样的 Xavier 初始化，换成 ReLU 后，最后几层表现不够理想。</p>
+        <div class="annotation">
+          <h3>1. ReLU 和 tanh 不一样</h3>
+          <div class="body">
+            <p><code>tanh</code> 大致把正负信号都保留下来，只是压缩到 <code>[-1,1]</code>；而 <code>ReLU</code> 会把负数全部变成 0。</p>
+            <div class="formula">ReLU(x) = max(0, x)</div>
+          </div>
+        </div>
+        <div class="annotation">
+          <h3>2. 为什么 Xavier 不够</h3>
+          <div class="body">
+            <p>如果输入大致正负对称，ReLU 后大约一半神经元被置零。有效信号少了一半，原来的 Xavier 方差设定就偏保守，深层输出可能继续变弱。</p>
+          </div>
+        </div>
+        <div class="tag-row"><span class="tag">ReLU</span><span class="tag">半数激活</span></div>
+      </article>
+    </section>
+
+    <section class="page-section" id="p51">
+      <aside class="slide-panel">
+        <div class="slide-head"><strong>Page 51</strong><span>He initialization</span></div>
+        <div class="slide-frame"><img src="lecture5_44_64_assets/page-51.png" alt="Lecture 5 page 51"></div>
+      </aside>
+      <article class="notes-panel">
+        <h2>第51页：适合 ReLU 的 He 初始化</h2>
+        <p class="summary">He 初始化的关键假设是：每层大约只有一半神经元被 ReLU 激活。</p>
+        <div class="annotation">
+          <h3>1. 课件公式怎么理解</h3>
+          <div class="body">
+            <div class="formula">w ~ N(0, 1) / sqrt(n_in / 2)</div>
+            <p>这等价于标准差 <code>sqrt(2 / n_in)</code>。和 Xavier 的 <code>sqrt(1 / n_in)</code> 相比，它把方差放大了约 2 倍，用来补偿 ReLU 丢掉的一半信号。</p>
+          </div>
+        </div>
+        <div class="annotation">
+          <h3>2. 怎么记</h3>
+          <div class="body">
+            <p>如果网络主要用 <code>tanh</code> 或 <code>sigmoid</code>，优先想到 Xavier；如果主要用 <code>ReLU</code>，优先想到 He initialization。</p>
+          </div>
+        </div>
+        <div class="tag-row"><span class="tag">He initialization</span><span class="tag">sqrt(2/n_in)</span></div>
+      </article>
+    </section>
+
+    <section class="page-section" id="p52">
+      <aside class="slide-panel">
+        <div class="slide-head"><strong>Page 52</strong><span>Batch Normalization</span></div>
+        <div class="slide-frame"><img src="lecture5_44_64_assets/page-52.png" alt="Lecture 5 page 52"></div>
+      </aside>
+      <article class="notes-panel">
+        <h2>第52页：Batch Normalization 章节开始</h2>
+        <p class="summary">这一页是 BN 的标题页，后面几页会从梯度消失讲到 BN 公式。</p>
+        <div class="annotation">
+          <h3>1. 这一节想解决什么</h3>
+          <div class="body">
+            <p>前面讲初始化，是为了让网络一开始信号不要坏掉。BN 则是在训练过程中持续把中间激活分布拉回比较稳定的范围。</p>
+          </div>
+        </div>
+        <div class="annotation">
+          <h3>2. 小提醒</h3>
+          <div class="body">
+            <p>课件标题页写成了 “Bach Normalization”，这里应该是拼写笔误，实际概念是 <strong>Batch Normalization</strong>。</p>
+          </div>
+        </div>
+        <div class="tag-row"><span class="tag">Batch Normalization</span><span class="tag">稳定激活分布</span></div>
+      </article>
+    </section>
+
+    <section class="page-section" id="p53">
+      <aside class="slide-panel">
+        <div class="slide-head"><strong>Page 53</strong><span>Vanishing gradients</span></div>
+        <div class="slide-frame"><img src="lecture5_44_64_assets/page-53.png" alt="Lecture 5 page 53"></div>
+      </aside>
+      <article class="notes-panel">
+        <h2>第53页：梯度消失的激活函数视角</h2>
+        <p class="summary">红线是激活函数，蓝线是导数。导数小的区域会让反向传播变弱。</p>
+        <div class="annotation">
+          <h3>1. 中间区域和两端区域</h3>
+          <div class="body">
+            <p>以 sigmoid 或 tanh 这类 S 型函数为例，输入在中间附近时曲线最陡，导数较大；输入远离中间时曲线变平，导数接近 0。</p>
+          </div>
+        </div>
+        <div class="annotation">
+          <h3>2. 为什么和 BN 有关系</h3>
+          <div class="body">
+            <p>BN 会把输入拉回均值附近，使激活更可能落在导数较大的区域。这样反向传播时梯度不容易一层层变小。</p>
+          </div>
+        </div>
+        <div class="tag-row"><span class="tag">activation</span><span class="tag">derivative</span><span class="tag">饱和区</span></div>
+      </article>
+    </section>
+
+    <section class="page-section" id="p54">
+      <aside class="slide-panel">
+        <div class="slide-head"><strong>Page 54</strong><span>Backpropagation signal</span></div>
+        <div class="slide-frame"><img src="lecture5_44_64_assets/page-54.png" alt="Lecture 5 page 54"></div>
+      </aside>
+      <article class="notes-panel">
+        <h2>第54页：梯度在深层网络中逐渐变弱</h2>
+        <p class="summary">图中反向传播信号从输出层往前传，逐层减弱。</p>
+        <div class="annotation">
+          <h3>1. 深层网络为什么难训练</h3>
+          <div class="body">
+            <p>反向传播本质上会经过很多层的链式法则。如果每一层都乘上一个小于 1 的导数或权重因子，乘很多次之后，梯度就会变得非常小。</p>
+          </div>
+        </div>
+        <div class="annotation">
+          <h3>2. ResNet 和 BN 的共同目标</h3>
+          <div class="body">
+            <p>ResNet 用 shortcut 给梯度开更短的路径；BN 让每层输入分布更稳定，减少落入饱和区的概率。它们都在帮助深层网络更容易训练。</p>
+          </div>
+        </div>
+        <div class="tag-row"><span class="tag">链式法则</span><span class="tag">深层网络</span><span class="tag">ResNet</span></div>
+      </article>
+    </section>
+
+    <section class="page-section" id="p55">
+      <aside class="slide-panel">
+        <div class="slide-head"><strong>Page 55</strong><span>Normalization effect</span></div>
+        <div class="slide-frame"><img src="lecture5_44_64_assets/page-55.png" alt="Lecture 5 page 55"></div>
+      </aside>
+      <article class="notes-panel">
+        <h2>第55页：Normalization 如何帮助梯度</h2>
+        <p class="summary">这一页把输入分布、sigmoid 曲线和梯度联系起来。</p>
+        <div class="annotation">
+          <h3>1. 左侧图的意思</h3>
+          <div class="body">
+            <p>如果某层输入值分布很偏，很多点会落到 sigmoid 的两端饱和区。标准化之后，输入会被拉回中心附近。</p>
+          </div>
+        </div>
+        <div class="annotation">
+          <h3>2. 右侧曲线的意思</h3>
+          <div class="body">
+            <p>蓝色通常表示激活函数，红色虚线表示梯度/导数。中心区域导数较大，训练信号更强；两端区域导数小，学习困难。</p>
+            <div class="callout">BN 的直觉不是“让数值好看”，而是让网络更常工作在<strong>容易学习的数值区间</strong>。</div>
+          </div>
+        </div>
+        <div class="tag-row"><span class="tag">normalization</span><span class="tag">梯度区间</span></div>
+      </article>
+    </section>
+
+    <section class="page-section" id="p56">
+      <aside class="slide-panel">
+        <div class="slide-head"><strong>Page 56</strong><span>BN easy view</span></div>
+        <div class="slide-frame"><img src="lecture5_44_64_assets/page-56.png" alt="Lecture 5 page 56"></div>
+      </aside>
+      <article class="notes-panel">
+        <h2>第56页：用线性层理解 BN</h2>
+        <p class="summary">课件从 <code>y = Wx</code> 出发，说明输入分布会影响输出和训练稳定性。</p>
+        <div class="annotation">
+          <h3>1. 两个困难场景</h3>
+          <div class="body">
+            <ul>
+              <li><code>E[x] != 0</code>：输入均值偏离 0，后续层会持续接收偏移后的信号。</li>
+              <li><code>Var[x]</code> 很大：输入尺度太大，容易造成激活饱和或数值不稳定。</li>
+            </ul>
+          </div>
+        </div>
+        <div class="annotation">
+          <h3>2. 为什么线性层也关心输入分布</h3>
+          <div class="body">
+            <p>因为 <code>W</code> 只是把输入加权组合。如果输入本身偏移很大或尺度很乱，输出分布也会跟着不稳定，下一层继续放大这种问题。</p>
+          </div>
+        </div>
+        <div class="tag-row"><span class="tag">E[x]</span><span class="tag">Var[x]</span><span class="tag">y=Wx</span></div>
+      </article>
+    </section>
+
+    <section class="page-section" id="p57">
+      <aside class="slide-panel">
+        <div class="slide-head"><strong>Page 57</strong><span>BN target</span></div>
+        <div class="slide-frame"><img src="lecture5_44_64_assets/page-57.png" alt="Lecture 5 page 57"></div>
+      </aside>
+      <article class="notes-panel">
+        <h2>第57页：BN 想要什么</h2>
+        <p class="summary">BN 的目标是把某层激活的每个维度标准化到均值 0、方差 1。</p>
+        <div class="annotation">
+          <h3>1. 目标分布</h3>
+          <div class="body">
+            <div class="formula">E[x] = 0
+Var[x] = 1</div>
+            <p>这不是说所有样本都变一样，而是让每个维度的整体分布更稳定。</p>
+          </div>
+        </div>
+        <div class="annotation">
+          <h3>2. 标准化公式</h3>
+          <div class="body">
+            <div class="formula">x_hat^(k) = (x^(k) - E[x^(k)]) / sqrt(Var[x^(k)])</div>
+            <p>这里的 <code>k</code> 表示某一个维度或通道。BN 会对每个维度分别计算均值和方差，而不是把所有维度混在一起。</p>
+          </div>
+        </div>
+        <div class="tag-row"><span class="tag">0 均值</span><span class="tag">单位方差</span><span class="tag">逐维度标准化</span></div>
+      </article>
+    </section>
+
+    <section class="page-section" id="p58">
+      <aside class="slide-panel">
+        <div class="slide-head"><strong>Page 58</strong><span>BN training formula</span></div>
+        <div class="slide-frame"><img src="lecture5_44_64_assets/page-58.png" alt="Lecture 5 page 58"></div>
+      </aside>
+      <article class="notes-panel">
+        <h2>第58页：训练阶段 BN 的计算</h2>
+        <p class="summary">这一页给出 mini-batch 中每个维度的均值、方差和标准化公式。</p>
+        <div class="annotation">
+          <h3>1. 输入 batch 的形状</h3>
+          <div class="body">
+            <p>输入是 <code>x^1, ..., x^N ∈ R^d</code>。意思是一个 batch 有 <code>N</code> 个样本，每个样本有 <code>d</code> 个维度。</p>
+          </div>
+        </div>
+        <div class="annotation">
+          <h3>2. 对第 j 个维度做标准化</h3>
+          <div class="body">
+            <div class="formula">mu_j = (1/N) sum_i x_j^i
+sigma_j^2 = (1/N) sum_i (x_j^i - mu_j)^2
+x_hat_j^i = (x_j^i - mu_j) / sqrt(sigma_j^2 + epsilon)</div>
+            <p><code>epsilon</code> 是防止除以 0 的小常数。注意这里的均值和方差来自当前 mini-batch。</p>
+          </div>
+        </div>
+        <div class="tag-row"><span class="tag">mini-batch</span><span class="tag">mu</span><span class="tag">sigma</span><span class="tag">epsilon</span></div>
+      </article>
+    </section>
+
+    <section class="page-section" id="p59">
+      <aside class="slide-panel">
+        <div class="slide-head"><strong>Page 59</strong><span>Learnable gamma beta</span></div>
+        <div class="slide-frame"><img src="lecture5_44_64_assets/page-59.png" alt="Lecture 5 page 59"></div>
+      </aside>
+      <article class="notes-panel">
+        <h2>第59页：BN 的可学习参数</h2>
+        <p class="summary">标准化之后再加 <code>gamma</code> 和 <code>beta</code>，避免 BN 限制模型表达能力。</p>
+        <div class="annotation">
+          <h3>1. 为什么需要 gamma 和 beta</h3>
+          <div class="body">
+            <p>如果 BN 永远强制输出均值 0、方差 1，模型可能失去某些有用的尺度和平移信息。因此 BN 让网络自己学习是否要放大、缩小或平移。</p>
+          </div>
+        </div>
+        <div class="annotation">
+          <h3>2. 最终输出</h3>
+          <div class="body">
+            <div class="formula">y_j^i = gamma_j x_hat_j^i + beta_j</div>
+            <p><code>gamma_j</code> 是缩放参数，<code>beta_j</code> 是平移参数。它们都是训练出来的。</p>
+            <div class="callout">可以把 BN 理解成：先规范化，再把是否保留某些尺度交还给模型学习。</div>
+          </div>
+        </div>
+        <div class="tag-row"><span class="tag">gamma</span><span class="tag">beta</span><span class="tag">affine transform</span></div>
+      </article>
+    </section>
+
+    <section class="page-section" id="p60">
+      <aside class="slide-panel">
+        <div class="slide-head"><strong>Page 60</strong><span>BN during testing</span></div>
+        <div class="slide-frame"><img src="lecture5_44_64_assets/page-60.png" alt="Lecture 5 page 60"></div>
+      </aside>
+      <article class="notes-panel">
+        <h2>第60页：测试阶段的 BN</h2>
+        <p class="summary">训练时用当前 batch 统计量；测试时用训练过程中累计的 running mean 和 running variance。</p>
+        <div class="annotation">
+          <h3>1. 为什么测试不能直接用当前 batch</h3>
+          <div class="body">
+            <p>测试时 batch size 可能很小，甚至只有一个样本。如果直接用当前 batch 计算均值方差，结果会非常不稳定。因此要使用训练阶段累计的整体统计量。</p>
+          </div>
+        </div>
+        <div class="annotation">
+          <h3>2. 为什么说测试时 BN 是线性算子</h3>
+          <div class="body">
+            <p>测试阶段 <code>mu</code>、<code>sigma</code>、<code>gamma</code>、<code>beta</code> 都固定了，所以：</p>
+            <div class="formula">y = gamma * (x - mu) / sqrt(sigma^2 + epsilon) + beta</div>
+            <p>这对 <code>x</code> 来说就是固定的缩放和平移。</p>
+          </div>
+        </div>
+        <div class="tag-row"><span class="tag">running mean</span><span class="tag">running variance</span><span class="tag">testing mode</span></div>
+      </article>
+    </section>
+
+    <section class="page-section" id="p61">
+      <aside class="slide-panel">
+        <div class="slide-head"><strong>Page 61</strong><span>BN in DNN</span></div>
+        <div class="slide-frame"><img src="lecture5_44_64_assets/page-61.png" alt="Lecture 5 page 61"></div>
+      </aside>
+      <article class="notes-panel">
+        <h2>第61页：BN 可以插入不同网络层</h2>
+        <p class="summary">这一页展示 BN 可以和卷积层、全连接层、激活函数组合。</p>
+        <div class="annotation">
+          <h3>1. 课件图中的组合方式</h3>
+          <div class="body">
+            <p>图中展示的是类似 <code>Conv -> BN -> Sigmoid</code> 和 <code>FC -> BN -> Sigmoid</code> 的结构。实际现代 CNN 中更常见的是 <code>Conv -> BN -> ReLU</code>。</p>
+          </div>
+        </div>
+        <div class="annotation">
+          <h3>2. 学习重点</h3>
+          <div class="body">
+            <p>不要把 BN 理解成只属于 CNN 的技巧。它的本质是对中间激活做标准化，所以可以用于卷积层、全连接层等多种结构。</p>
+          </div>
+        </div>
+        <div class="tag-row"><span class="tag">Conv-BN-Activation</span><span class="tag">FC-BN-Activation</span></div>
+      </article>
+    </section>
+
+    <section class="page-section" id="p62">
+      <aside class="slide-panel">
+        <div class="slide-head"><strong>Page 62</strong><span>Other famous CNNs</span></div>
+        <div class="slide-frame"><img src="lecture5_44_64_assets/page-62.png" alt="Lecture 5 page 62"></div>
+      </aside>
+      <article class="notes-panel">
+        <h2>第62页：其他著名 CNN 架构</h2>
+        <p class="summary">这是过渡页，从 ResNet、初始化和 BN 转向其他经典 CNN 网络。</p>
+        <div class="annotation">
+          <h3>1. 为什么放在这里</h3>
+          <div class="body">
+            <p>前面讲的是让深层网络可训练的基础技术。接下来 DenseNet 和 GoogleNet 都是围绕“如何更有效地组织卷积层和特征流”展开的经典架构。</p>
+          </div>
+        </div>
+        <div class="annotation">
+          <h3>2. 复习连接</h3>
+          <div class="body">
+            <p>可以把这页看成章节切换：从“训练稳定性”转到“网络结构设计”。</p>
+          </div>
+        </div>
+        <div class="tag-row"><span class="tag">CNN architecture</span><span class="tag">结构设计</span></div>
+      </article>
+    </section>
+
+    <section class="page-section" id="p63">
+      <aside class="slide-panel">
+        <div class="slide-head"><strong>Page 63</strong><span>DenseNet</span></div>
+        <div class="slide-frame"><img src="lecture5_44_64_assets/page-63.png" alt="Lecture 5 page 63"></div>
+      </aside>
+      <article class="notes-panel">
+        <h2>第63页：DenseNet</h2>
+        <p class="summary">DenseNet 的核心是 dense connection：后面层接收前面所有层的特征。</p>
+        <div class="annotation">
+          <h3>1. Dense connection 怎么理解</h3>
+          <div class="body">
+            <p>普通网络更像一条链：</p>
+            <div class="formula">x0 -> x1 -> x2 -> x3</div>
+            <p>DenseNet 更像每一层都能看到之前所有层：</p>
+            <div class="formula">x0 -> x1
+[x0, x1] -> x2
+[x0, x1, x2] -> x3</div>
+          </div>
+        </div>
+        <div class="annotation">
+          <h3>2. 和 ResNet 的区别</h3>
+          <div class="body">
+            <p>ResNet 主要通过加法 shortcut 传递信息；DenseNet 通过通道维度上的拼接复用前面特征。两者都能改善梯度传播，但连接方式不同。</p>
+          </div>
+        </div>
+        <div class="tag-row"><span class="tag">DenseNet</span><span class="tag">feature reuse</span><span class="tag">concatenation</span></div>
+      </article>
+    </section>
+
+    <section class="page-section" id="p64">
+      <aside class="slide-panel">
+        <div class="slide-head"><strong>Page 64</strong><span>GoogleNet / Inception</span></div>
+        <div class="slide-frame"><img src="lecture5_44_64_assets/page-64.png" alt="Lecture 5 page 64"></div>
+      </aside>
+      <article class="notes-panel">
+        <h2>第64页：GoogleNet 与 Inception 模块</h2>
+        <p class="summary">GoogleNet 的关键组件是 Inception module：多分支并行提取不同尺度特征，再做通道拼接。</p>
+        <div class="annotation">
+          <h3>1. Inception 模块的核心思想</h3>
+          <div class="body">
+            <p>同一层里并行做多种操作：</p>
+            <div class="formula">1×1 conv
+3×3 conv
+5×5 conv
+3×3 max pooling</div>
+            <p>这样网络不需要提前只选一种感受野，而是同时提取小尺度、中尺度和较大尺度特征。</p>
+          </div>
+        </div>
+        <div class="annotation">
+          <h3>2. Filter concatenation 是什么</h3>
+          <div class="body">
+            <p>每个分支都输出一组 feature maps，最后沿通道维度拼接。空间尺寸必须对齐，比如都保持 <code>28×28</code>，才能做 depth concat。</p>
+          </div>
+        </div>
+        <div class="annotation">
+          <h3>3. 和你刚才问的池化分支对应</h3>
+          <div class="body">
+            <p>池化层本身不改变通道数，只改变或保留空间尺寸。图里的池化分支通常是：</p>
+            <div class="formula">MaxPool 3×3, padding=1, stride=1
+-> 空间尺寸保持不变，通道数不变
+-> 再接 1×1 conv 调整通道数</div>
+            <p>所以如果最后看到 <code>28×28×32</code>，那个 <code>32</code> 来自后面的 <code>1×1 conv</code>，不是 max pooling 自己产生的。</p>
+          </div>
+        </div>
+        <div class="tag-row"><span class="tag">GoogleNet</span><span class="tag">Inception</span><span class="tag">DepthConcat</span><span class="tag">1×1 conv</span></div>
+      </article>
+    </section>
+
+    <div class="footer-note">
+      本页面基于本地 PDF 第 44-64 页制作，旁注解释只使用课件页面内容和对应概念推导；页图来自本地渲染，便于和原课件逐页对照。
+    </div>
+  </main>
+
+  <script>
+    const links = Array.from(document.querySelectorAll(".nav-strip a"));
+    const sections = links
+      .map((link) => document.querySelector(link.getAttribute("href")))
+      .filter(Boolean);
+
+    const observer = new IntersectionObserver((entries) => {
+      const visible = entries
+        .filter((entry) => entry.isIntersecting)
+        .sort((a, b) => b.intersectionRatio - a.intersectionRatio)[0];
+      if (!visible) return;
+      links.forEach((link) => link.classList.toggle("active", link.getAttribute("href") === "#" + visible.target.id));
+    }, { rootMargin: "-30% 0px -55% 0px", threshold: [0.1, 0.2, 0.4, 0.6] });
+
+    sections.forEach((section) => observer.observe(section));
+
+    window.addEventListener("keydown", (event) => {
+      if (!["ArrowLeft", "ArrowRight"].includes(event.key)) return;
+      const activeIndex = Math.max(0, links.findIndex((link) => link.classList.contains("active")));
+      const nextIndex = event.key === "ArrowRight"
+        ? Math.min(links.length - 1, activeIndex + 1)
+        : Math.max(0, activeIndex - 1);
+      links[nextIndex].click();
+    });
+  </script>
+</body>
+</html>
