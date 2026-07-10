@@ -1,0 +1,24 @@
+{
+  "id": "conv-1783675230305-50y8ochss",
+  "providerId": "claude",
+  "title": "Organize Python and operator into section 1.5",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783675230305,
+  "updatedAt": 1783675292132,
+  "lastResponseAt": 1783675292132,
+  "sessionId": "3992252b-33e8-40ac-a398-505f60b951f7",
+  "providerState": {
+    "providerSessionId": "3992252b-33e8-40ac-a398-505f60b951f7"
+  },
+  "currentNote": "Python基础/04-运算符与流程控制.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 3454,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 34176,
+    "contextWindow": 1000000,
+    "contextTokens": 37630,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
