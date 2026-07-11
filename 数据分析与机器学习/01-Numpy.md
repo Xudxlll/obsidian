@@ -129,7 +129,7 @@ print(type(ary))
 
 ### 2.1.3 ndarray 数组对象的创建
 
-- np.array(任何可被解释为 Numpy 数组的逻辑结构)
+- **np.array(任何可被解释为 Numpy 数组的逻辑结构)**
 
 ```python
 # np.array(任何可被解释为Numpy数组的逻辑结构)
@@ -144,7 +144,7 @@ print(t1,type(t1))
 # 取单个元素：0 维数组可以用 [()] 取出值
 ```
 
-- np.arange(起始值(0),终止值,步长(1))
+- **np.arange(起始值(0),终止值,步长(1))**
 
 ```python
 # np.arange(起始值(0)，终止值，步长(1))
@@ -154,7 +154,7 @@ t3 = np.arange(0,10,2)
 print(t3)
 ```
 
-- np.zeros(shape,dtype='类型')
+- **np.zeros(shape,dtype='类型')**
 
 ```python
 # np.zeros(shape，dtype="类型")
@@ -162,7 +162,7 @@ t4 = np.zeros(10,dtype='int32')
 print(t4)
 ```
 
-- np.ones(shape,dtype='类型')
+- **np.ones(shape,dtype='类型')**
 
 ```python
 # np.ones(shape，dtype="类型")
@@ -174,7 +174,7 @@ t6 = np.ones((2,4),dtype='int32')
 print(t6)
 ```
 
-- np.zeros_like(ary)   np.ones_like(ary)
+- **np.zeros_like(ary)   np.ones_like(ary)**
 
 ```python
 # np.zeros_like(ary)  np.ones_like(ary)
@@ -182,7 +182,7 @@ t7 = np.ones_like(t1)
 print(t7)
 ```
 
-- np.linspace(起始值,终止值,个数)
+- **np.linspace(起始值,终止值,个数)**
 
 ```python
 # np.linspace(起始值,终止值,个数)
@@ -190,7 +190,7 @@ t8 = np.linspace(-10,10,200)
 print(t8)
 ```
 
-- np.random.normal(期望值,标准差,个数)
+- **np.random.normal(期望值,标准差,个数)**
 
   生成正态分布（高斯分布）随机数
 
@@ -220,7 +220,7 @@ print(t10)
 
 ### 2.1.5 ndarray 对象属性的基本操作
 
-- **数组的维度：**np.ndarray.shape
+- **数组的维度：np.ndarray.shape
 
 ```python
 import numpy as np
@@ -275,7 +275,7 @@ a.resize(2, 2, 2)
 print("a:",a)
 ```
 
-- **元素的类型：**np.ndarray.dtype
+- **元素的类型：np.ndarray.dtype
 
 ```python
 import numpy as np
@@ -289,7 +289,7 @@ c = ary.astype(str)
 print(type(c), c, c.dtype)
 ```
 
-- **数组元素的个数：**np.ndarray.size
+- **数组元素的个数：np.ndarray.size
 
 ```python
 import numpy as np

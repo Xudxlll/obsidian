@@ -74,7 +74,7 @@ plt.show()
 
 - #### 设置线型、线宽
 
-  plt.plot(x,y,linestyle=,linewidth=,color=,alpha=)
+  plt.plot(x, y, linestyle=, linewidth=, color=, alpha=)
 
   x : x 轴上的数值
 

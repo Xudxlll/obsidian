@@ -1,0 +1,24 @@
+{
+  "id": "conv-1783756054424-bbbrhb59m",
+  "providerId": "claude",
+  "title": "Explain note taking guidelines",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783756054424,
+  "updatedAt": 1783761299820,
+  "lastResponseAt": 1783760261729,
+  "sessionId": "f4f99d6e-404e-4a19-ad68-4b32ce33c0c2",
+  "providerState": {
+    "providerSessionId": "f4f99d6e-404e-4a19-ad68-4b32ce33c0c2"
+  },
+  "currentNote": "数据分析与机器学习/04-数据预处理.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 18521,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 35328,
+    "contextWindow": 1000000,
+    "contextTokens": 53849,
+    "percentage": 5,
+    "contextWindowIsAuthoritative": true
+  }
+}

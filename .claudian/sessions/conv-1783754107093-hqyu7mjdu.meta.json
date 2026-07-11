@@ -1,0 +1,24 @@
+{
+  "id": "conv-1783754107093-hqyu7mjdu",
+  "providerId": "claude",
+  "title": "解释笔记内容",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783754107093,
+  "updatedAt": 1783756050479,
+  "lastResponseAt": 1783754712120,
+  "sessionId": "f3f37e46-0d52-42da-a737-5a0115cb9e5e",
+  "providerState": {
+    "providerSessionId": "f3f37e46-0d52-42da-a737-5a0115cb9e5e"
+  },
+  "currentNote": "数据分析与机器学习/01-Numpy.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 144,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 28288,
+    "contextWindow": 1000000,
+    "contextTokens": 28432,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -4,8 +4,8 @@
   "title": "Fix chapter 4 heading numbering",
   "titleGenerationStatus": "success",
   "createdAt": 1783580634500,
-  "updatedAt": 1783616648963,
-  "lastResponseAt": 1783616648963,
+  "updatedAt": 1783753452568,
+  "lastResponseAt": 1783753452568,
   "sessionId": "86a8f645-2ea0-4bf1-ab0d-6b616b8e067a",
   "providerState": {
     "providerSessionId": "86a8f645-2ea0-4bf1-ab0d-6b616b8e067a"
@@ -13,11 +13,11 @@
   "currentNote": "深度学习/深度学习课堂笔记.md",
   "usage": {
     "model": "opus[1m]",
-    "inputTokens": 715,
+    "inputTokens": 453,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 110080,
+    "cacheReadInputTokens": 111488,
     "contextWindow": 1000000,
-    "contextTokens": 110795,
+    "contextTokens": 111941,
     "percentage": 11,
     "contextWindowIsAuthoritative": true
   }

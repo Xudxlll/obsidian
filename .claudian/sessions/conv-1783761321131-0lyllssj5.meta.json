@@ -1,0 +1,24 @@
+{
+  "id": "conv-1783761321131-0lyllssj5",
+  "providerId": "claude",
+  "title": "Explain L1 regularization sparsity",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783761321131,
+  "updatedAt": 1783762568901,
+  "lastResponseAt": 1783762568901,
+  "sessionId": "18b13b11-582d-4277-95e0-fb7682ad33f5",
+  "providerState": {
+    "providerSessionId": "18b13b11-582d-4277-95e0-fb7682ad33f5"
+  },
+  "currentNote": "数据分析与机器学习/06-线性回归.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 447,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 61824,
+    "contextWindow": 1000000,
+    "contextTokens": 62271,
+    "percentage": 6,
+    "contextWindowIsAuthoritative": true
+  }
+}
