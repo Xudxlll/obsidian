@@ -6752,14 +6752,15 @@
     "深度学习/assets": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "深度学习课堂笔记"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "深度学习/assets/深度学习课堂笔记": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "file-20260709142608777.png",
         "file-20260709142552159.png",
@@ -6771,8 +6772,7 @@
         "file-20260708164021976.png",
         "file-20260708164012778.png",
         "file-20260708163928215.png"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "深度学习/assets/深度学习课堂笔记/file-20260708163928215.png": {
       "isPinned": false,
@@ -6985,6 +6985,7 @@
     "assets/lecture5_44_64_assets": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "page-64.png",
         "page-63.png",
@@ -7007,8 +7008,7 @@
         "page-47.png",
         "page-45.png",
         "page-44.png"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "assets/lecture5_44_64_assets/page-44.png": {
       "isPinned": false,
