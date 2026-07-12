@@ -1,0 +1,24 @@
+{
+  "id": "conv-1783786923166-klasi17my",
+  "providerId": "claude",
+  "title": "Generate 10 MCQ quiz from note",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783786923169,
+  "updatedAt": 1783856351679,
+  "lastResponseAt": 1783787033842,
+  "sessionId": "323113cf-0e87-4934-af07-01ae7128eb09",
+  "providerState": {
+    "providerSessionId": "323113cf-0e87-4934-af07-01ae7128eb09"
+  },
+  "currentNote": "Python基础/01-变量与基本数据类型.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 147,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 42112,
+    "contextWindow": 1000000,
+    "contextTokens": 42259,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}
