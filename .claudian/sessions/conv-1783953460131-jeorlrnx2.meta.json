@@ -1,0 +1,24 @@
+{
+  "id": "conv-1783953460131-jeorlrnx2",
+  "providerId": "claude",
+  "title": "Explain Python list() call error",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783953460131,
+  "updatedAt": 1783953469200,
+  "lastResponseAt": 1783953469200,
+  "sessionId": "7a434716-0481-4bd1-8ae7-f4a3c9396656",
+  "providerState": {
+    "providerSessionId": "7a434716-0481-4bd1-8ae7-f4a3c9396656"
+  },
+  "currentNote": "Python基础/02-Python容器类型.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 24463,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 24463,
+    "percentage": 2,
+    "contextWindowIsAuthoritative": true
+  }
+}

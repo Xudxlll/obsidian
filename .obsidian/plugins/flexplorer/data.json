@@ -5,10 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "Python第1-2章选择题-答案与解析.md",
-        "Python第1-2章选择题.md",
-        "01-变量与基本数据类型-选择题（答案与解析）.md",
-        "01-变量与基本数据类型-选择题.md",
+        "未命名.md",
         "B站吕斌老师课程《机器学习因果推断》",
         "Python基础",
         "SQL数据库",
@@ -7099,14 +7096,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "01-变量与基本数据类型-选择题.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "01-变量与基本数据类型-选择题（答案与解析）.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "机器、深度学习额外笔记/3.1-3.2随机森林原理和实战代码.pdf": {
       "isPinned": false,
       "isHidden": false
@@ -7115,11 +7104,7 @@
       "isPinned": false,
       "isHidden": false
     },
-    "Python第1-2章选择题.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "Python第1-2章选择题-答案与解析.md": {
+    "未命名.md": {
       "isPinned": false,
       "isHidden": false
     }
