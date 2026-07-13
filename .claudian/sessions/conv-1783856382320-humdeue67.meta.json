@@ -4,6 +4,21 @@
   "title": "Organize lecture subtitles into study notes",
   "titleGenerationStatus": "success",
   "createdAt": 1783856382321,
-  "updatedAt": 1783856388640,
-  "sessionId": null
+  "updatedAt": 1783857816100,
+  "lastResponseAt": 1783856586938,
+  "sessionId": "7b1fa510-3b51-4003-ab88-5f49818e8ffe",
+  "providerState": {
+    "providerSessionId": "7b1fa510-3b51-4003-ab88-5f49818e8ffe"
+  },
+  "currentNote": "未命名.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 153,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 83328,
+    "contextWindow": 1000000,
+    "contextTokens": 83481,
+    "percentage": 8,
+    "contextWindowIsAuthoritative": true
+  }
 }

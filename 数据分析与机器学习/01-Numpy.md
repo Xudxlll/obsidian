@@ -823,7 +823,7 @@ print(np.ptp(a,axis=0))
 print(np.ptp(a,axis=1))
 ```
 
-- **标准差 **   ary.std(axis=None)
+- **标准差   ary.std(axis=None)
 
 标准差是一组数据平均值分散程度的一种度量。一个较大的标准差，代表大部分数值和其平均值之间差异较大；一个较小的标准差，代表这些数值较接近平均值反映出数据的波动稳定情况，越大表示波动越大，越不稳定。
 
@@ -835,4 +835,261 @@ print(a.std(axis=0))
 # 将行方向的元素求标准差
 print(a.std(axis=1))
 ```
+
+## 2.4 numpy 其他常用函数
+
+### 2.4.1 条件与筛选
+
+- **np.where(条件, x, y)** — 条件三元选择
+
+  满足条件取 `x`，否则取 `y`。
+
+  ```python
+  import numpy as np
+
+  a = np.array([3, 7, 2, 9, 4])
+  # 大于5的保留，否则置0
+  result = np.where(a > 5, a, 0)
+  print(result)  # [0 7 0 9 0]
+  ```
+
+- **np.where(条件)** — 位置查找
+
+  只传一个条件参数时，返回满足条件的元素下标。
+
+  ```python
+  a = np.array([3, 7, 2, 9, 4])
+  idx = np.where(a > 5)
+  print(idx)        # (array([1, 3]),)
+  print(a[idx])     # [7 9]
+  ```
+
+  多维数组返回的是各维度的下标元组：
+
+  ```python
+  arr = np.array([[1, 6], [3, 8]])
+  idx = np.where(arr > 4)
+  print(idx)        # (array([0, 1]), array([1, 1]))  → (0,1)和(1,1)两个位置
+  print(arr[idx])   # [6 8]
+  ```
+
+- **np.clip(arr, min, max)** — 截断
+
+  把小于 `min` 的值拉到 `min`，大于 `max` 的值拉到 `max`。
+
+  ```python
+  a = np.array([1, 5, 10, 15, 20])
+  print(np.clip(a, 3, 12))  # [ 3  5 10 12 12]
+  ```
+
+- **np.isnan(arr)** / **np.isinf(arr)** — NaN / 无穷值检测
+
+  ```python
+  a = np.array([1, np.nan, 3, np.inf, 5])
+  print(np.isnan(a))   # [False  True False False False]
+  print(np.isinf(a))   # [False False False  True False]
+  # 结合 where 过滤异常值
+  valid = np.where(~np.isnan(a) & ~np.isinf(a))
+  print(a[valid])      # [1. 3. 5.]
+  ```
+
+### 2.4.2 排序与去重
+
+- **np.sort(arr, axis=-1)** — 排序（返回副本，不改变原数组）
+
+  ```python
+  a = np.array([3, 1, 2])
+  print(np.sort(a))          # [1 2 3]
+  print(a)                   # [3 1 2]  原数组不变
+
+  # 二维：沿指定轴排序
+  arr = np.array([[3, 1, 2], [6, 4, 5]])
+  print(np.sort(arr, axis=0))  # 每列内排序
+  ```
+
+- **np.argsort(arr, axis=-1)** — 返回排序后的下标
+
+  笔记花式索引部分已用过，这里正式讲：它返回的是「排好序后每个元素在原数组中的位置」。
+
+  ```python
+  a = np.array([0.3, 0.9, 0.1, 0.6])
+  print(np.argsort(a))         # [2 0 3 1]  → 最小的是下标2，其次是0...
+  print(a[np.argsort(a)])      # [0.1 0.3 0.6 0.9]  等价于 np.sort(a)
+
+  # 降序：取负或 [::-1]
+  print(np.argsort(a)[::-1])   # [1 3 0 2]
+  ```
+
+- **np.unique(arr, return_counts=False)** — 去重
+
+  ```python
+  a = np.array([2, 1, 2, 3, 1, 3, 3])
+  print(np.unique(a))          # [1 2 3]  默认排序
+
+  # 同时返回每个值出现的次数
+  vals, counts = np.unique(a, return_counts=True)
+  print(vals)                  # [1 2 3]
+  print(counts)                # [2 2 3]
+  ```
+
+### 2.4.3 逻辑聚合
+
+| 函数 | 含义 | 类比 |
+|------|------|------|
+| `np.all(cond)` | 全部为 True？ | Python 的 `all()` |
+| `np.any(cond)` | 至少一个为 True？ | Python 的 `any()` |
+
+支持 `axis` 参数，沿轴判断：
+
+```python
+a = np.array([[True, False], [True, True]])
+
+print(np.all(a))           # False  必须全部 True
+print(np.any(a))           # True   至少一个 True
+
+print(np.all(a, axis=0))   # [ True False]  每列：第0列全True，第1列不全True
+print(np.any(a, axis=1))   # [ True  True]  每行：都有至少一个True
+```
+
+实战中常用于结合条件判断：
+
+```python
+scores = np.array([85, 92, 78, 60, 95])
+print(np.all(scores >= 60))   # True  → 全班都及格
+print(np.any(scores < 60))    # False → 没有不及格的
+```
+
+### 2.4.4 累加与差分
+
+- **np.cumsum(arr, axis=None)** — 累加和（前缀和）
+
+  ```python
+  a = np.array([1, 2, 3, 4])
+  print(np.cumsum(a))  # [ 1  3  6 10]
+  ```
+
+- **np.cumprod(arr, axis=None)** — 累乘积
+
+  ```python
+  print(np.cumprod(a))  # [ 1  2  6 24]
+  ```
+
+- **np.diff(arr, n=1, axis=-1)** — 相邻元素差
+
+  ```python
+  a = np.array([1, 3, 6, 10])
+  print(np.diff(a))     # [2 3 4]  一阶差分
+  print(np.diff(a, n=2))# [1 1]    二阶差分（差分的差分）
+  ```
+
+### 2.4.5 矩阵运算
+
+- **np.dot(a, b)** 或 **`a @ b`** — 点积 / 矩阵乘法
+
+  ```python
+  a = np.array([1, 2, 3])
+  b = np.array([4, 5, 6])
+  print(np.dot(a, b))   # 32   向量点积: 1×4 + 2×5 + 3×6
+
+  A = np.array([[1, 2], [3, 4]])
+  B = np.array([[5, 6], [7, 8]])
+  print(A @ B)          # [[19 22]
+                        #  [43 50]]   矩阵乘法
+  ```
+
+- **np.eye(n)** — 单位矩阵
+
+  ```python
+  print(np.eye(3))
+  # [[1. 0. 0.]
+  #  [0. 1. 0.]
+  #  [0. 0. 1.]]
+  ```
+
+### 2.4.6 取整
+
+| 函数 | 方向 | 例子 |
+|------|------|------|
+| `np.round(3.6)` | 四舍五入 | $4.0$ |
+| `np.floor(3.6)` | 向下取整 $\lfloor x \rfloor$ | $3.0$ |
+| `np.ceil(3.2)` | 向上取整 $\lceil x \rceil$ | $4.0$ |
+
+```python
+a = np.array([1.2, 2.7, 3.5, -1.2, -1.7])
+print(np.round(a))   # [ 1.  3.  4. -1. -2.]
+print(np.floor(a))   # [ 1.  2.  3. -2. -2.]
+print(np.ceil(a))    # [ 2.  3.  4. -1. -1.]
+```
+
+### 2.4.7 维度操作
+
+- **np.expand_dims(arr, axis)** — 在指定位置插入一个大小为 1 的新维度
+
+  ```python
+  a = np.array([1, 2, 3])            # shape (3,)
+  print(np.expand_dims(a, axis=0))   # shape (1, 3) → [[1 2 3]]
+  print(np.expand_dims(a, axis=1))   # shape (3, 1) → [[1]
+                                      #                  [2]
+                                      #                  [3]]
+  ```
+
+- **np.squeeze(arr, axis=None)** — 去掉所有（或指定）大小为 1 的维度
+
+  ```python
+  a = np.array([[[1, 2]]])           # shape (1, 1, 2)
+  print(np.squeeze(a))               # shape (2,) → [1 2]
+  print(np.squeeze(a, axis=0))       # shape (1, 2)
+  ```
+
+### 2.4.8 集合运算
+
+| 函数 | 操作 |
+|------|------|
+| `np.intersect1d(a, b)` | 交集 $A \cap B$ |
+| `np.union1d(a, b)` | 并集 $A \cup B$ |
+| `np.setdiff1d(a, b)` | 差集 $A \setminus B$ |
+
+```python
+a = np.array([1, 2, 3, 4, 5])
+b = np.array([3, 4, 5, 6, 7])
+
+print(np.intersect1d(a, b))   # [3 4 5]
+print(np.union1d(a, b))       # [1 2 3 4 5 6 7]
+print(np.setdiff1d(a, b))     # [1 2]    a有b无
+print(np.setdiff1d(b, a))     # [6 7]    b有a无
+```
+
+### 2.4.9 创建数组（补充）
+
+- **np.full(shape, val)** — 填充指定值
+- **np.full_like(arr, val)** — 仿形状填充
+
+```python
+print(np.full((2, 3), 7))              # 2×3全填7
+a = np.array([[1, 2], [3, 4]])
+print(np.full_like(a, 0.5))            # 和a同shape，全填0.5
+```
+
+### 2.4.10 数组的存储与读取（IO）
+
+- **np.save(path, arr)** / **np.load(path)** — 单数组存/读 `.npy`
+
+  ```python
+  a = np.arange(10)
+  np.save('my_array.npy', a)
+  b = np.load('my_array.npy')   # b == a
+  ```
+
+- **np.savez(path, key1=arr1, key2=arr2)** — 多数组打包存 `.npz`
+
+  ```python
+  x = np.array([1, 2, 3])
+  y = np.array([4, 5, 6])
+  np.savez('data.npz', features=x, labels=y)
+  data = np.load('data.npz')
+  print(data['features'])   # [1 2 3]
+  print(data['labels'])     # [4 5 6]
+  ```
+
+> `.npy` / `.npz` 是 NumPy 原生的二进制格式，比 CSV 读写快得多，且保留 dtype 信息。
 

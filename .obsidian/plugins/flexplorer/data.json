@@ -5,6 +5,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Python第1-2章选择题-答案与解析.md",
+        "Python第1-2章选择题.md",
         "01-变量与基本数据类型-选择题（答案与解析）.md",
         "01-变量与基本数据类型-选择题.md",
         "B站吕斌老师课程《机器学习因果推断》",
@@ -6690,6 +6692,7 @@
       "isHidden": false,
       "sortOrder": "byName",
       "customOrder": [
+        "随机森林代码实战：交叉验证对比、Bootstrap推导与回归树.md",
         "决策树原理与代码实战（分类树+回归树）.md",
         "05-随机森林实战案例：填补缺失数据、调参的艺术.md",
         "08-特征工程：探索性数据分析与数据预处理.md",
@@ -6830,10 +6833,10 @@
       "sortOrder": "custom",
       "customOrder": [
         "assets",
-        "3.1-3.2随机森林原理和实战代码.pdf",
-        "残差网络 ResNet 的核心思想.md",
-        "反向传播过程.pdf",
         "2.1-2.2决策树原理和实战代码.pdf",
+        "3.1-3.2随机森林原理和实战代码.pdf",
+        "反向传播过程.pdf",
+        "残差网络 ResNet 的核心思想.md",
         "DBSCAN 聚类算法介绍与实际应用示例.md",
         "决策树信息增益划分贷款案例.md",
         "机器学习算法全景笔记.md",
@@ -7110,6 +7113,18 @@
       "isHidden": false
     },
     "机器、深度学习额外笔记/3.1-3.2随机森林原理和实战代码.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "B站吕斌老师课程《机器学习因果推断》/随机森林代码实战：交叉验证对比、Bootstrap推导与回归树.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python第1-2章选择题.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "Python第1-2章选择题-答案与解析.md": {
       "isPinned": false,
       "isHidden": false
     }

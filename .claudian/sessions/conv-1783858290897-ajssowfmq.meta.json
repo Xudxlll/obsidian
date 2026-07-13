@@ -1,0 +1,24 @@
+{
+  "id": "conv-1783858290897-ajssowfmq",
+  "providerId": "claude",
+  "title": "Check np.where usage in notes",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783858290897,
+  "updatedAt": 1783860885374,
+  "lastResponseAt": 1783859492803,
+  "sessionId": "586a2b4c-8b0e-4a4e-a4b9-75f8a736cdba",
+  "providerState": {
+    "providerSessionId": "586a2b4c-8b0e-4a4e-a4b9-75f8a736cdba"
+  },
+  "currentNote": "数据分析与机器学习/01-Numpy.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 179,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 41216,
+    "contextWindow": 1000000,
+    "contextTokens": 41395,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}

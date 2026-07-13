@@ -1,0 +1,24 @@
+{
+  "id": "conv-1783860893667-xlzjnmcua",
+  "providerId": "claude",
+  "title": "Explain what a function is",
+  "titleGenerationStatus": "success",
+  "createdAt": 1783860893667,
+  "updatedAt": 1783867603692,
+  "lastResponseAt": 1783863646143,
+  "sessionId": "486b6a9a-340e-4c93-8b15-757a3af7d940",
+  "providerState": {
+    "providerSessionId": "486b6a9a-340e-4c93-8b15-757a3af7d940"
+  },
+  "currentNote": "机器、深度学习额外笔记/机器学习算法全景笔记.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 620,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 27392,
+    "contextWindow": 1000000,
+    "contextTokens": 28012,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
