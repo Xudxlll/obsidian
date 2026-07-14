@@ -4,8 +4,8 @@
   "title": "Explain numpy float32 type",
   "titleGenerationStatus": "success",
   "createdAt": 1783909393347,
-  "updatedAt": 1783937215657,
-  "lastResponseAt": 1783937215657,
+  "updatedAt": 1784001332181,
+  "lastResponseAt": 1784001332181,
   "sessionId": "e7d8eae6-b82d-47ce-b3a3-8b1d12ed1c8a",
   "providerState": {
     "providerSessionId": "e7d8eae6-b82d-47ce-b3a3-8b1d12ed1c8a"
@@ -13,12 +13,12 @@
   "currentNote": "深度学习/深度学习实验手册.md",
   "usage": {
     "model": "opus[1m]",
-    "inputTokens": 555,
+    "inputTokens": 995,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 42880,
+    "cacheReadInputTokens": 65152,
     "contextWindow": 1000000,
-    "contextTokens": 43435,
-    "percentage": 4,
+    "contextTokens": 66147,
+    "percentage": 7,
     "contextWindowIsAuthoritative": true
   }
 }

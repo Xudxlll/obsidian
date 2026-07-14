@@ -3,7 +3,6 @@
     "inline-translation",
     "note-toolbar-hover-background",
     "fix-note-toolbar-width",
-    "table-body-font-size",
     "center-images-and-tables",
     "hide-note-toolbar-in-reading",
     "typora-python-code-colors",
@@ -13,7 +12,7 @@
   ],
   "cssTheme": "Typora-Vue",
   "baseFontSizeAction": true,
-  "baseFontSize": 20,
+  "baseFontSize": 18,
   "theme": "system",
   "textFontFamily": "PingFang SC",
   "translucency": false
