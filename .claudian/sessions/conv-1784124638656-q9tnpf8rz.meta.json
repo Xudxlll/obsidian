@@ -1,0 +1,24 @@
+{
+  "id": "conv-1784124638656-q9tnpf8rz",
+  "providerId": "claude",
+  "title": "Fix table display issue on line 286",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784124638656,
+  "updatedAt": 1784125189839,
+  "lastResponseAt": 1784125189839,
+  "sessionId": "c713c078-06e5-42ee-b398-ad0379649eed",
+  "providerState": {
+    "providerSessionId": "c713c078-06e5-42ee-b398-ad0379649eed"
+  },
+  "currentNote": "广财先导课/第4讲 - 文本大数据基础方法与应用.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 397,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 35968,
+    "contextWindow": 1000000,
+    "contextTokens": 36365,
+    "percentage": 4,
+    "contextWindowIsAuthoritative": true
+  }
+}

@@ -1168,7 +1168,12 @@ for k, v in d.items():
 
 ### 4.4.3 `keys()`
 
-`keys()` 方法返回字典键的视图对象（`dict_keys`），它是一个动态视图：其内容会随原字典键的增删而变化，可用于遍历。
+`keys()` 方法返回字典键的视图对象（`dict_keys`），它具有以下特点：
+
+- ✅ **可迭代**：可直接用于 `for` 循环
+- ✅ **支持 `in` 判断**：可用来检查某个键是否存在于字典
+- ✅ **支持集合运算**：`&`（交集）、`|`（并集）、`-`（差集）、`^`（对称差）
+- ✅ **动态视图**：会随着原字典键的增删而变化
 
 **语法结构**
 
@@ -1202,6 +1207,41 @@ print("删除键后 keys_view:", list(keys_view))  # ['age', 'city']
 print("keys_view 类型:", type(keys_view))  # <class 'dict_keys'>
 
 ```
+
+**补充：`dict_keys` 的 for 循环、in 判断与集合运算**
+
+```python
+
+d = {"name": "Alice", "age": 18, "city": "Shanghai"}
+keys_view = d.keys()
+
+# 1️⃣ 可迭代 —— 直接用于 for 循环
+print("遍历所有键：")
+for k in keys_view:
+    print(f"  {k}")
+
+# 2️⃣ 支持 in 判断 —— 检查键是否存在
+print("'name' in keys_view:", "name" in keys_view)   # True
+print("'score' in keys_view:", "score" in keys_view)  # False
+
+# 3️⃣ 支持集合运算
+allowed = {"name", "age", "score"}   # 允许的字段集合
+
+# 交集 &：字典中哪些键在 allowed 里
+print("交集（合法键）:", keys_view & allowed)          # {'name', 'age'}
+
+# 并集 |：字典键 + allowed 的全集
+print("并集：", keys_view | allowed)                  # {'name', 'age', 'city', 'score'}
+
+# 差集 -：字典中不在 allowed 里的键（可以用来找多余字段）
+print("差集（字典独有）:", keys_view - allowed)        # {'city'}
+
+# 对称差 ^：只在其中一方存在的键
+print("对称差：", keys_view ^ allowed)                # {'city', 'score'}
+
+```
+
+> **注意**：`dict_keys` 不是真正的 `set`，它没有 `.add()`、`.remove()` 等方法——只能用它参与集合运算符（`& | - ^`），右侧可以是任意可迭代对象（如 `set`、`list`）。
 
 ### 4.4.4 `values()`
 

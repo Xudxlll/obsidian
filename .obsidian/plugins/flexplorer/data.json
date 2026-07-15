@@ -4775,6 +4775,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "第4讲 - 文本大数据基础方法与应用.md",
         "爬虫先导课笔记.md",
         "经济大数据分析的思维与机器学习基本原理.md"
       ]
@@ -7100,6 +7101,10 @@
       "isHidden": false
     },
     "B站吕斌老师课程《机器学习因果推断》/随机森林代码实战：交叉验证对比、Bootstrap推导与回归树.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "广财先导课/第4讲 - 文本大数据基础方法与应用.md": {
       "isPinned": false,
       "isHidden": false
     }
