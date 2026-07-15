@@ -5,8 +5,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "列表选择题-答案解析.md",
-        "列表选择题-题目.md",
         "B站吕斌老师课程《机器学习因果推断》",
         "Python基础",
         "SQL数据库",
@@ -7102,14 +7100,6 @@
       "isHidden": false
     },
     "B站吕斌老师课程《机器学习因果推断》/随机森林代码实战：交叉验证对比、Bootstrap推导与回归树.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "列表选择题-题目.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "列表选择题-答案解析.md": {
       "isPinned": false,
       "isHidden": false
     }
