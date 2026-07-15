@@ -1,0 +1,24 @@
+{
+  "id": "conv-1784110554814-5mjuf9ts2",
+  "providerId": "claude",
+  "title": "Clarify whether method returns a list",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784110554815,
+  "updatedAt": 1784110590988,
+  "lastResponseAt": 1784110590988,
+  "sessionId": "ee7b3cf6-910b-4583-a781-764846ac2b82",
+  "providerState": {
+    "providerSessionId": "ee7b3cf6-910b-4583-a781-764846ac2b82"
+  },
+  "currentNote": "Python基础/12-标准库模块.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 977,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 25344,
+    "contextWindow": 1000000,
+    "contextTokens": 26321,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
