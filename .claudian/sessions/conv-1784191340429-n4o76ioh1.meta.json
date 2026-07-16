@@ -4,8 +4,8 @@
   "title": "解释用户请求",
   "titleGenerationStatus": "success",
   "createdAt": 1784191340429,
-  "updatedAt": 1784191359509,
-  "lastResponseAt": 1784191359509,
+  "updatedAt": 1784215391473,
+  "lastResponseAt": 1784215391473,
   "sessionId": "9103adcf-1c19-438b-bbeb-40597339b703",
   "providerState": {
     "providerSessionId": "9103adcf-1c19-438b-bbeb-40597339b703"
@@ -13,12 +13,12 @@
   "currentNote": "Python基础/12-标准库模块.md",
   "usage": {
     "model": "opus[1m]",
-    "inputTokens": 113,
+    "inputTokens": 221,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 25088,
+    "cacheReadInputTokens": 43648,
     "contextWindow": 1000000,
-    "contextTokens": 25201,
-    "percentage": 3,
+    "contextTokens": 43869,
+    "percentage": 4,
     "contextWindowIsAuthoritative": true
   }
 }
