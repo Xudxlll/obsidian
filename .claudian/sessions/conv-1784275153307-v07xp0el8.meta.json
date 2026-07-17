@@ -1,0 +1,24 @@
+{
+  "id": "conv-1784275153307-v07xp0el8",
+  "providerId": "claude",
+  "title": "Explain understanding approach",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784275153307,
+  "updatedAt": 1784275169114,
+  "lastResponseAt": 1784275169114,
+  "sessionId": "43e72c52-39ff-4483-ada8-ad6cd700894b",
+  "providerState": {
+    "providerSessionId": "43e72c52-39ff-4483-ada8-ad6cd700894b"
+  },
+  "currentNote": "深度学习/Pytorch讲义.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 24588,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 1000000,
+    "contextTokens": 24588,
+    "percentage": 2,
+    "contextWindowIsAuthoritative": true
+  }
+}
