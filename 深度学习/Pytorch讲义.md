@@ -55,6 +55,7 @@ pip3 install torch==1.8.0+cu111 torchvision==0.9.0+cu111 torchaudio==0.8.0 --ind
   ```python
   import torch
   print(torch.__version__)  # 查看pytorch版本
+  print('mps是否可用',torch.backends.mps.is_available())
   ```
 
   
