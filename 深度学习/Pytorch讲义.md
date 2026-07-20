@@ -1707,8 +1707,12 @@ $$
 \left[ \begin{matrix}
 1 \\
 1
-\end{matrix} \right]=[6,12] \\
+\end{matrix} \right]=[6,12]
+$$
 
+同样，对 $y$ 求导：
+
+$$
 \left[ \begin{matrix}
    {\frac{\partial z_1}{\partial y_1}} & {\frac{\partial z_1}{\partial y_2}}  \\
    {\frac{\partial z_2}{\partial y_1}} & {\frac{\partial z_2}{\partial y_2}}  \\
