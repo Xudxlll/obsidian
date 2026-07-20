@@ -10,7 +10,7 @@ PyTorch是一个建立在Torch库之上的Python包，是由Facebook开源的神
 
 **2）发展历史**
 
-- Pytorch从 2017 年年初发布以来，PyTorch 可谓是异军突起，短时间内取得了一系列成果，成为其中的明星框架。最近Pytorch进行了一些较大的版本更新，0.4版本把Varable与Tensor进行了合并，增加了Windows的支持，实现了张量（Tensor）和变量（Variable）的合并。
+- Pytorch从 2017 年年初发布以来，PyTorch 可谓是异军突起，短时间内取得了一系列成果，成为其中的明星框架。最近Pytorch进行了一些较大的版本更新，**0.4版本把Variable与Tensor进行了合并**，增加了Windows的支持，实现了张量（Tensor）和变量（Variable）的合并。
 - PyTorch 1.0，分布式训练方式大幅更改，PyTorch在分布式计算方面开始对不同的后端有了完善的支持，包括MPI和NCCL等。1.0版本增加了JIT（全称Justintimecompilation，即时编译，它弥补了研究与生产的部署的差距）、更快的分布式、C++扩展等。
 - PyTorch 1.1，PyTorch开始支持TensorBoard对于张量的可视化，并且加强了JIT的功能。
 - PyTorch 1.2增强了TorchScript的功能，同时增加了Transformer模块，也增加了对视频、文本和音频的训练数据载入的支持。
@@ -19,7 +19,7 @@ PyTorch是一个建立在Torch库之上的Python包，是由Facebook开源的神
 
 **3）优势**
 
-- 简洁。PyTorch的设计追求最少的封装，尽量避免重复造轮子。不像 TensorFlow 中充斥着session、graph、operation、name_scope、variable、tensor、layer等全新的概念，PyTorch 的设计遵循tensor→variable(autograd)→nn.Module 三个由低到高的抽象层次，分别代表高维数组（张量）、自动求导（变量）和神经网络（层/模块），而且这三个抽象之间联系紧密，可以同时进行修改和操作。
+- 简洁。PyTorch的设计追求最少的封装，尽量避免重复造轮子。不像 TensorFlow 中充斥着session、graph、operation、name_scope、variable、tensor、layer等全新的概念，PyTorch 的设计遵循tensor→variable(autograd)→nn.Module 三个由低到高的抽象层次，==分别代表高维数组（张量）、自动求导（变量）和神经网络（层/模块）==，而且这三个抽象之间联系紧密，可以同时进行修改和操作。
 - 速度。PyTorch 的灵活性不以速度为代价，在许多评测中，PyTorch 的速度表现胜过 TensorFlow等框架。
 - 灵活易用。PyTorch 是所有的框架中面向对象设计的最优雅的一个。PyTorch的面向对象的接口设计来源于Torch，而Torch的接口设计以灵活易用而著称。
 - 活跃的社区。PyTorch 提供了完整的文档，循序渐进的指南，作者亲自维护的论坛，供用户交流和求教问题。Facebook 人工智能研究院对 PyTorch 提供了强力支持。
@@ -247,7 +247,7 @@ False
 
 **2）张量类型转换**
 
-如果要进行张量类型转换，可以使用张量张量对象的type()方法来实现，对于数值类型，可以通过更简洁的tensor_obj.int()或tensor_obj.double()方法来实现，例如：
+如果要进行张量类型转换，可以使用张量张量对象的type()方法来实现，对于数值类型，可以通过更简洁的`tensor_obj.int()`或`tensor_obj.double()`方法来实现，例如：
 
 ```python
 import torch
@@ -275,7 +275,22 @@ tensor([1, 2, 3, 4], dtype=torch.int32)
 tensor([1., 2., 3., 4.], dtype=torch.float64)
 ```
 
+三种写法的完整对应关系如下：
 
+| 数据类型     | `.type()`                   | 简洁写法          | `.to()`               |
+| -------- | --------------------------- | ------------- | --------------------- |
+| 浮点 32    | `.type(torch.FloatTensor)`  | `.float()`    | `.to(torch.float32)`  |
+| 浮点 64    | `.type(torch.DoubleTensor)` | `.double()`   | `.to(torch.float64)`  |
+| 浮点 16    | `.type(torch.HalfTensor)`   | `.half()`     | `.to(torch.float16)`  |
+| bfloat16 | ❌ 不支持                       | `.bfloat16()` | `.to(torch.bfloat16)` |
+| 整型 32    | `.type(torch.IntTensor)`    | `.int()`      | `.to(torch.int32)`    |
+| 整型 64    | `.type(torch.LongTensor)`   | `.long()`     | `.to(torch.int64)`    |
+| 整型 16    | `.type(torch.ShortTensor)`  | `.short()`    | `.to(torch.int16)`    |
+| 整型 8     | `.type(torch.CharTensor)`   | `.char()`     | `.to(torch.int8)`     |
+| 无符号整型 8  | `.type(torch.ByteTensor)`   | `.byte()`     | `.to(torch.uint8)`    |
+| 布尔       | `.type(torch.BoolTensor)`   | `.bool()`     | `.to(torch.bool)`     |
+
+> 三种写法本质上是同一个底层操作，`.int()` 这类简洁写法是 `.type()` 的快捷封装，`.to()` 则是更现代的推荐写法。唯一例外是 `bfloat16`——PyTorch 没有 `torch.BFloat16Tensor` 这个张量类，所以 `.type()` 不支持，只能用 `.bfloat16()` 或 `.to(torch.bfloat16)` 。
 
 ## 3. 张量自变化运算
 
@@ -319,7 +334,7 @@ print(arr)
 print("-------------------------")
 
 # 方式一
-t1 = torch.from_numpy(arr)
+t1 = torch.from_numpy(arr) # 共用同一份数据
 print(type(t1))
 print(t1)
 print("-------------------------")
@@ -336,7 +351,7 @@ print(type(t3))
 print(t3)
 ```
 
-张量与Numpy对象转换是基于零复制技术实现的。在转换过程中，PyTorch张量与Numpy对象共享同一个内存区域，PyTorch张量会存储一个指向Numpy数组的指针，而不是直接复制数据。
+张量与Numpy对象转换是基于==零复制技术==实现的。在转换过程中，PyTorch张量与Numpy对象**共享同一个内存区域**，PyTorch张量会存储一个指向Numpy数组的**指针**，而不是直接复制数据。
 
 **2）张量转Numpy对象**
 
@@ -427,7 +442,51 @@ tensor([1, 2, 3, 4], dtype=torch.int32)
 tensor([3, 4, 5, 6], dtype=torch.int32)
 ```
 
+> **补充：pytorch中 `t.add(1)` 与 `t.add_(1)` 的区别**
+>
+> 带不带下划线，决定了是否修改原张量：
+>
+```python
+t = torch.tensor([1, 2, 3])
 
+t2 = t.add(1)     # 不修改 t，返回新张量
+print(t)           # tensor([1, 2, 3]) —— 没变
+
+t3 = t.add_(1)     # 原地修改 t，返回的就是 t 自身
+print(t)           # tensor([2, 3, 4]) —— 被改了
+
+```
+
+| | `t.add(1)` | `t.add_(1)` |
+|---|---|---|
+| 原张量 | 不变 | 被修改 |
+| 返回值 | 新张量 | 原张量自身 |
+| 内存 | 多一份拷贝 | 原地复用 |
+| 等价写法 | `t + 1` | `t += 1` |
+
+> PyTorch 里所有带 `_` 后缀的方法都是这个意思——`t.mul_(2)`、`t.zero_()`、`t.fill_(5)` 等等，看到下划线就知道它要原地动手。
+
+
+> **补充：numpy中 `+=` 与 `= ... +` 的区别**
+>
+> 这个问题和 PyTorch 带下划线 `_` 的自变化运算是同一个道理。以 NumPy 为例：
+>
+> - **`array += x`** 调用 `__iadd__`（in-place），直接在原数组内存上修改，不创建新对象。多个变量指向同一数组时，所有引用者都会受影响。
+> - **`array = array + x`** 先通过 `__add__` 创建新数组，再让变量名指向新对象，原数组不变。
+```python
+a = np.array([1, 2, 3])
+b = a               # b 和 a 指向同一个数组
+
+a += 1
+print(b)            # [2 3 4] —— b 也跟着变了！
+
+a = np.array([1, 2, 3])
+b = a
+a = a + 1
+print(b)            # [1 2 3] —— b 没变，a 指向了新数组
+```
+>
+> PyTorch 张量的 `t.add_(1)` vs `t = t + 1` 逻辑完全一样——带下划线就是在告诉你「我要原地改，注意副作用」。
 
 ## 5. 张量的形状操作
 
@@ -456,6 +515,8 @@ t3 = torch.reshape(t1, (-1, 3)) # 变成3列，行数通过计算确定
 print(t3.shape)
 print(t3)
 print("")
+
+t4 = t1.reshape() # 这样也可以
 ```
 
 执行结果：
@@ -479,6 +540,10 @@ tensor([[1, 2, 3],
 使用torch.cat()函数可以将两个张量按照指定的维度连接起来。例如：
 
 ```python
+np.concatenate([a, b], axis=0)
+pd.concat([df1, df2], axis=0)
+torch.cat([t1, t2], dim=0)
+
 import torch
 
 t1 = torch.tensor([[1, 2], [3, 4]])
@@ -562,10 +627,15 @@ tensor([[[ 1,  1],
 torch.chunk()函数可以将张量在指定的维度上进行均匀分割，torch.split()函数在指定维度上进行不均匀分割。例如：
 
 ```python
+np.split(ary,2,axis=0)
+pd.split(ary,2,axis=0)
+torch.chunk(tensor,2,dim=0)
+
 # 张量分割
 import torch
 
 # 均匀分割: chunk函数
+# 余数会从前往后每份多一个，所以 10 个元素分 3 份就是 [4, 4, 2]
 print("均匀分割示例:")
 a = torch.tensor([[1, 2],
                   [2, 4],
@@ -645,7 +715,7 @@ tensor([[ 3],
 
 # 三、Variable与自动微分
 
-Variable（变量）是一种特殊张量，它是由Autograd模块对张量进一步封装实现，Variable对象能够自动求导，从而支持神经网络的实现反向传播计算。Autograd（自动微分）模块基于正向计算的结果对当前参数进行微分计算，自动计算模型参数的梯度，从而实现网络权重的更新。
+Variable（变量）是一种特殊张量，它是由`Autograd模块`对张量进一步封装实现，Variable对象能够自动求导，从而支持神经网络的实现反向传播计算。Autograd（自动微分）模块基于正向计算的结果对当前参数进行微分计算，自动计算模型参数的梯度，从而实现网络权重的更新。
 
 ## 1. Tensor与Variable的转换
 
@@ -685,7 +755,7 @@ tensor([1., 2., 3., 4.], requires_grad=True)
 
 ## 2. 打开和关闭梯度计算
 
-可以使用enable_grad()、no_grad()函数打开和关闭梯度计算。例如：
+可以使用`enable_grad()`、`no_grad()`函数打开和关闭梯度计算。例如：
 
 ```python
 # 打开或关闭变量梯度计算
