@@ -1004,7 +1004,7 @@ for epoch in range(num_epochs):
     optimizer.step() # 更新参数
     optimizer.zero_grad() # 清空梯度, 防止梯度累积
 
-    epoch_list.append(epoch)
+     epoch_list.append(epoch)
     loss_list.append(torch.detach(loss).numpy())
 
     if epoch % 100 == 0:

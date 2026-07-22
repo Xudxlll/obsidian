@@ -4,8 +4,8 @@
   "title": "Clarify number of concise forms",
   "titleGenerationStatus": "success",
   "createdAt": 1784512353873,
-  "updatedAt": 1784729064068,
-  "lastResponseAt": 1784729064068,
+  "updatedAt": 1784734079790,
+  "lastResponseAt": 1784734079790,
   "sessionId": "90ed3e8a-3985-4968-8b18-aa5e961ddf8e",
   "providerState": {
     "providerSessionId": "90ed3e8a-3985-4968-8b18-aa5e961ddf8e"
@@ -13,11 +13,11 @@
   "currentNote": "深度学习/Pytorch讲义.md",
   "usage": {
     "model": "opus[1m]",
-    "inputTokens": 674,
+    "inputTokens": 649,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 70656,
+    "cacheReadInputTokens": 71296,
     "contextWindow": 1000000,
-    "contextTokens": 71330,
+    "contextTokens": 71945,
     "percentage": 7,
     "contextWindowIsAuthoritative": true
   }
