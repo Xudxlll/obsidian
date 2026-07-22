@@ -247,7 +247,7 @@ False
 
 **2）张量类型转换**
 
-如果要进行张量类型转换，可以使用张量张量对象的type()方法来实现，对于数值类型，可以通过更简洁的`tensor_obj.int()`或`tensor_obj.double()`方法来实现，例如：
+如果要进行张量类型转换，可以使用张量对象的type()方法来实现，对于数值类型，可以通过更简洁的`tensor_obj.int()`或`tensor_obj.double()`方法来实现，例如：
 
 ```python
 import torch
@@ -848,7 +848,7 @@ m: True
 
 ![forward](img/forward.png)
 
-Pytorch调用backward()时，将自动计算各节点的梯度，如下图所示，这是一个反向传播过程。在反向传播过程中，autograd沿着图，从当前根节点z反向溯源，利用导数链式法则，计算所有叶子节点的梯度，其梯度值将累加到grad属性中。对非叶子节点的计算操作记录在grad_fn属性（grad_fn为一个函数地址，根据该函数能求得该参数在该计算节点的梯度）中，叶子节点的grad_fn值为None。
+Pytorch调用backward()时，将自动计算各节点的梯度，如下图所示，这是一个反向传播过程。在反向传播过程中，autograd沿着图，从当前根节点z反向溯源，利用导数链式法则，计算所有叶子节点的梯度，其==梯度值将累加到grad属性==中。对非叶子节点的计算操作记录在grad_fn属性（grad_fn为一个函数地址，根据该函数能求得该参数在该计算节点的梯度）中，叶子节点的grad_fn值为None。
 
 ![forward](img/backward.png)
 
@@ -975,7 +975,7 @@ class LinearRegression(nn.Module):
         out = self.linear(x)
         return out
 
-
+ 
 # 创建LinearRegression（）的实例
 model = LinearRegression()  # 实例化对象
 print(model)
@@ -1665,16 +1665,21 @@ $$
 
 设置backward参数为[1,1]，则可将求导公式表示为标量计算：
 $$
-z_1=3x_1^3-y^2 \\
-z_2=3x_2^3-y^2
+z_1=3x_1^2-y_1^2
+$$
+
+$$
+z_2=3x_2^2-y_2^2
 $$
 表示为雅克比公式如下：
 $$
 \frac{\partial z}{\partial x} =\left[ \begin{matrix}
    {\frac{\partial z_1}{\partial x_1}} & {\frac{\partial z_1}{\partial x_2}}  \\
    {\frac{\partial z_2}{\partial x_1}} & {\frac{\partial z_2}{\partial x_2}}  \\
-\end{matrix} \right] \\
+\end{matrix} \right]
+$$
 
+$$
 \frac{\partial z}{\partial y} =\left[ \begin{matrix}
    {\frac{\partial z_1}{\partial y_1}} & {\frac{\partial z_1}{\partial y_2}}  \\
    {\frac{\partial z_2}{\partial y_1}} & {\frac{\partial z_2}{\partial y_2}}  \\
@@ -1683,62 +1688,56 @@ $$
 当backward参数为[1,1]，计算公式为：
 $$
 \left[ \begin{matrix}
+1 & 1
+\end{matrix} \right] \times
+\left[ \begin{matrix}
    {\frac{\partial z_1}{\partial x_1}} & {\frac{\partial z_1}{\partial x_2}}  \\
    {\frac{\partial z_2}{\partial x_1}} & {\frac{\partial z_2}{\partial x_2}}  \\
-\end{matrix} \right] \times 
-\left[ \begin{matrix}
-1 \\
-1
 \end{matrix} \right] = 
+\left[ \begin{matrix}
+1 & 1
+\end{matrix} \right] \times
 \left[ \begin{matrix}
 6x_1 & 0\\
 0 & 6x_2
 \end{matrix} \right]
-\times
+=
 \left[ \begin{matrix}
-1 \\
-1
-\end{matrix} \right] = 
+1 & 1
+\end{matrix} \right] \times
 \left[ \begin{matrix}
 6 & 0\\
 0 & 12
 \end{matrix} \right]
-\times
-\left[ \begin{matrix}
-1 \\
-1
-\end{matrix} \right]=[6,12]
+=[6,12]
 $$
 
 同样，对 $y$ 求导：
 
 $$
 \left[ \begin{matrix}
+1 & 1
+\end{matrix} \right] \times
+\left[ \begin{matrix}
    {\frac{\partial z_1}{\partial y_1}} & {\frac{\partial z_1}{\partial y_2}}  \\
    {\frac{\partial z_2}{\partial y_1}} & {\frac{\partial z_2}{\partial y_2}}  \\
-\end{matrix} \right] \times 
-\left[ \begin{matrix}
-1 \\
-1
 \end{matrix} \right] = 
+\left[ \begin{matrix}
+1 & 1
+\end{matrix} \right] \times
 \left[ \begin{matrix}
 -2y_1 & 0\\
 0 & -2y_2
 \end{matrix} \right]
-\times
+=
 \left[ \begin{matrix}
-1 \\
-1
-\end{matrix} \right] = 
+1 & 1
+\end{matrix} \right] \times
 \left[ \begin{matrix}
 -4 & 0\\
 0 & -6
 \end{matrix} \right]
-\times
-\left[ \begin{matrix}
-1 \\
-1
-\end{matrix} \right]=[-4,-6]
+=[-4,-6]
 $$
 
 
