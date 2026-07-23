@@ -1333,6 +1333,12 @@ torch.utils.data.Dataset为抽象类。自定义数据集需要继承这个类�
 一个是`__len__`，另一个是`__getitem__`，前者提供数据的大小(size)，后者通过给定索引获取数据和标签。
 `__getitem__`一次只能获取一个数据，所以通过torch.utils.data.DataLoader来定义一个新的迭代器，实现batch读取。
 
+|     | PyTorch               | PaddlePaddle      |
+| --- | --------------------- | ----------------- |
+| 载体  | 类继承 `Dataset`         | 函数嵌套（闭包）          |
+| 初始化 | `__init__` 加载数据       | 外层函数接收参数          |
+| 取数据 | `__getitem__[i]` 索引取值 | `yield` 逐条产出（生成器） |
+| 分批  | `DataLoader` 负责       | `paddle.batch` 包装 |
 
 
 2. **TensorDataset 可以用来对 tensor 进行打包，就好像 python 中的 zip 功能。继承自Dataset。**
