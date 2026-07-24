@@ -1004,7 +1004,7 @@ for epoch in range(num_epochs):
     optimizer.step() # 更新参数
     optimizer.zero_grad() # 清空梯度, 防止梯度累积
 
-     epoch_list.append(epoch)
+    epoch_list.append(epoch)
     loss_list.append(torch.detach(loss).numpy())
 
     if epoch % 100 == 0:
@@ -1474,9 +1474,9 @@ torch.utils.data.Dataset为抽象类。自定义数据集需要继承这个类�
 
 1. 手写体识别
 
-   MNIST训练集6万张图片，测试集1万张图片，训练集6万张图片大约来自250位作者，训练集和测试集中的作者不相交。手写数字识别，样本为28*28的二值图，数字尺度统一，数字质心在图片正中。分为10个数字类别，每类的图片数量相同。
+   MNIST训练集6万张图片，测试集1万张图片，训练集6万张图片大约来自250位作者，训练集和测试集中的作者不相交。手写数字识别，样本为28 * 28的二值图，数字尺度统一，数字质心在图片正中。分为10个数字类别，每类的图片数量相同。
 
-![](.\img\mnist.png)
+![[mnist.png]]
 
 ```python
 import torchvision  # 图像视频处理工具
@@ -1489,15 +1489,11 @@ transform：指定导入数据集时需要进行何种变换操作
 download：是否从互联网上下载数据集，并把数据集放在root目录下
 ```
 
-
-
 2. CIFAR-10 数据集
 
    CIFAR-10 是由 Hinton 的学生 Alex Krizhevsky 和 Ilya Sutskever 整理的一个用于识别普适物体的小型数据集。一共包含 10 个类别的 RGB 彩色图 片：飞机（ airlane ）、汽车（ automobile ）、鸟类（ bird ）、猫（ cat ）、鹿（ deer ）、狗（ dog ）、蛙类（ frog ）、马（ horse ）、船（ ship ）和卡车（ truck ）。图片的尺寸为 32×32 ，一共是60000张图片。其中有 50000 张训练图片和 10000 张测试图片。 CIFAR-10 的图片样例如图所示:
 
-   ![](.\img\cifar-10.png)
-
-
+   ![[cifar-10.png]]
 
 与 MNIST 数据集中目比， CIFAR-10 具有以下不同点：
 • CIFAR-10 是 3 通道的彩色 RGB 图像，而 MNIST 是灰度图像。
@@ -1508,16 +1504,7 @@ download：是否从互联网上下载数据集，并把数据集放在root目�
 dset.CIFAR10(root, train=True,transform=None,download=False)
 ```
 
-
-
-
-
-
-
 3. 其他的数据集：https://blog.csdn.net/godblesstao/article/details/110280317
-
-
-
 
 
 # 六、综合案例
@@ -1525,9 +1512,9 @@ dset.CIFAR10(root, train=True,transform=None,download=False)
 ## 1）案例一：编写CNN
 
 【任务描述】利用PyTorch编写LeNet，实现在Cifar-10数据集下图像分类任务
-
+ 
 【数据集】cifar-10-python.tar.gz（和代码放在同一目录下）
-
+ 
 【代码】
 
 ```python
