@@ -4086,6 +4086,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "PR曲线.png",
         "decision_tree_example.png",
         "数组的轴2.png",
         "数组的轴1.png",
@@ -8260,6 +8261,10 @@
       "isHidden": false
     },
     "深度学习/img/111.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "数据分析与机器学习/img/PR曲线.png": {
       "isPinned": false,
       "isHidden": false
     }
