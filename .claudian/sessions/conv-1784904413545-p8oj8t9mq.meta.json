@@ -1,0 +1,24 @@
+{
+  "id": "conv-1784904413545-p8oj8t9mq",
+  "providerId": "claude",
+  "title": "Fix broken image paths in notes",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784904413545,
+  "updatedAt": 1784904702046,
+  "lastResponseAt": 1784904702046,
+  "sessionId": "891ab3ae-44ea-4d00-a8b6-37541fb22016",
+  "providerState": {
+    "providerSessionId": "891ab3ae-44ea-4d00-a8b6-37541fb22016"
+  },
+  "currentNote": "深度学习/08_目标检测_笔记.md",
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 731,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 33408,
+    "contextWindow": 1000000,
+    "contextTokens": 34139,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}

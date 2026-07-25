@@ -1,0 +1,23 @@
+{
+  "id": "conv-1784904011244-5cevjbu48",
+  "providerId": "claude",
+  "title": "Fix broken image paths in notes",
+  "titleGenerationStatus": "success",
+  "createdAt": 1784904011247,
+  "updatedAt": 1784904405725,
+  "lastResponseAt": 1784904067545,
+  "sessionId": "b702f701-ddba-44c9-a74f-be59b3499778",
+  "providerState": {
+    "providerSessionId": "b702f701-ddba-44c9-a74f-be59b3499778"
+  },
+  "usage": {
+    "model": "opus[1m]",
+    "inputTokens": 1316,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30976,
+    "contextWindow": 1000000,
+    "contextTokens": 32292,
+    "percentage": 3,
+    "contextWindowIsAuthoritative": true
+  }
+}
