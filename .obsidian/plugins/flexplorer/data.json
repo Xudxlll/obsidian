@@ -4834,6 +4834,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "YOLOv2-04.png",
         "RPN.png",
         "111.png",
         "YOLOv8中的卷积.png",
@@ -8270,6 +8271,10 @@
       "isHidden": false
     },
     "深度学习/img/RPN.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/img/YOLOv2-04.png": {
       "isPinned": false,
       "isHidden": false
     }
