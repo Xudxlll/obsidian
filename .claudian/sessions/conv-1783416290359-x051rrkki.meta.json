@@ -4,9 +4,10 @@
   "title": "Explain BGD global optimum for convex functions",
   "titleGenerationStatus": "success",
   "createdAt": 1783416290359,
-  "updatedAt": 1783416348622,
+  "updatedAt": 1785143275399,
   "lastResponseAt": 1783416348622,
   "sessionId": "d38bccb9-50c2-4376-a415-a8d12d648356",
+  "selectedModel": "opus",
   "providerState": {
     "providerSessionId": "d38bccb9-50c2-4376-a415-a8d12d648356"
   },

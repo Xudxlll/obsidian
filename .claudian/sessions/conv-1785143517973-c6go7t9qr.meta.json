@@ -1,0 +1,28 @@
+{
+  "id": "conv-1785143517973-c6go7t9qr",
+  "providerId": "codex",
+  "title": "Explain image content in detail",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785143517976,
+  "updatedAt": 1785146703156,
+  "lastResponseAt": 1785146703156,
+  "sessionId": "019fa2d8-637d-7183-8dd0-f461349216f6",
+  "selectedModel": "gpt-5.6-sol",
+  "providerState": {
+    "threadId": "019fa2d8-637d-7183-8dd0-f461349216f6",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/07/27/rollout-2026-07-27T17-11-58-019fa2d8-637d-7183-8dd0-f461349216f6.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "深度学习/08_目标检测_笔记.md",
+  "usage": {
+    "inputTokens": 43002,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 40704,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 43002,
+    "percentage": 17,
+    "model": "gpt-5.6-sol"
+  }
+}

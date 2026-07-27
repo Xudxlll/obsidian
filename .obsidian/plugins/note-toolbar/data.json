@@ -20,8 +20,7 @@
     "startup-help-welcome": true,
     "default-d6750efd-19af-4424-8479-5de31aac9708": true
   },
-  "ribbonAction": "toolbar",
-  "ribbonToolbar": null,
+  "ribbon": [],
   "rules": [],
   "scriptingEnabled": true,
   "showEditInFabMenu": false,
@@ -1356,7 +1355,7 @@
       "updated": "2026-06-03T14:37:34.468Z"
     }
   ],
-  "version": 20260428.1,
+  "version": 20260703.1,
   "webviewerToolbar": null,
   "whatsnew_version": "0"
 }
