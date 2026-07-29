@@ -14,15 +14,15 @@
         "conversationId": "conv-1783416290359-x051rrkki"
       },
       {
-        "draftModel": "gpt-5.6-sol",
         "tabId": "tab-1782959011479-op25ljn",
         "conversationId": "conv-1785143517973-c6go7t9qr"
       },
       {
+        "draftModel": "opus",
         "tabId": "tab-1783326428996-dq6vnrt",
-        "conversationId": "conv-1784904413545-p8oj8t9mq"
+        "conversationId": "conv-1785321733911-rq90pbxuk"
       }
     ],
-    "activeTabId": "tab-1782959011479-op25ljn"
+    "activeTabId": "tab-1783326428996-dq6vnrt"
   }
 }
