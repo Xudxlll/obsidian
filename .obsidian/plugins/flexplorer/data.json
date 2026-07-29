@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "docs",
         "AI项目简历怎么写.md",
         "B站吕斌老师课程《机器学习因果推断》",
         "Python基础",
@@ -4795,6 +4796,7 @@
       "isHidden": false,
       "sortOrder": "byName",
       "customOrder": [
+        "SPP、FPN与PAN详细学习笔记.md",
         "97_机器学习面试题集.md",
         "10_图像分割.md",
         "09_光学字符识别（OCR）_笔记.md",
@@ -8275,6 +8277,51 @@
       "isHidden": false
     },
     "深度学习/img/YOLOv2-04.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "docs": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "superpowers"
+      ],
+      "sortOrder": "custom"
+    },
+    "docs/superpowers": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "plans",
+        "specs"
+      ],
+      "sortOrder": "custom"
+    },
+    "docs/superpowers/specs": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "2026-07-29-spp-fpn-pan-study-note-design.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "docs/superpowers/specs/2026-07-29-spp-fpn-pan-study-note-design.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "docs/superpowers/plans": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "2026-07-29-spp-fpn-pan-study-note.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "docs/superpowers/plans/2026-07-29-spp-fpn-pan-study-note.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "深度学习/SPP、FPN与PAN详细学习笔记.md": {
       "isPinned": false,
       "isHidden": false
     }
