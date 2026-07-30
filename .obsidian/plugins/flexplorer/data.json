@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "未命名.md",
         "docs",
         "AI项目简历怎么写.md",
         "B站吕斌老师课程《机器学习因果推断》",
@@ -8322,6 +8323,10 @@
       "isHidden": false
     },
     "深度学习/SPP、FPN与PAN详细学习笔记.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "未命名.md": {
       "isPinned": false,
       "isHidden": false
     }
