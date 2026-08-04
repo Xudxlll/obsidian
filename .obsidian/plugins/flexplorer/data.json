@@ -8284,27 +8284,27 @@
     "docs": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "superpowers"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "docs/superpowers": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "plans",
         "specs"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "docs/superpowers/specs": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "2026-07-29-spp-fpn-pan-study-note-design.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "docs/superpowers/specs/2026-07-29-spp-fpn-pan-study-note-design.md": {
       "isPinned": false,
@@ -8313,10 +8313,10 @@
     "docs/superpowers/plans": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "2026-07-29-spp-fpn-pan-study-note.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "docs/superpowers/plans/2026-07-29-spp-fpn-pan-study-note.md": {
       "isPinned": false,
