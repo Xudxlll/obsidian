@@ -1,0 +1,28 @@
+{
+  "id": "conv-1785825828745-4zrnvcfpe",
+  "providerId": "codex",
+  "title": "生成字典部分十道选择题",
+  "titleGenerationStatus": "success",
+  "createdAt": 1785825828751,
+  "updatedAt": 1785828432847,
+  "lastResponseAt": 1785828432847,
+  "sessionId": "019fcb83-b389-70f1-abb9-aca29ddd9d43",
+  "selectedModel": "gpt-5.6-sol",
+  "providerState": {
+    "threadId": "019fcb83-b389-70f1-abb9-aca29ddd9d43",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/08/04/rollout-2026-08-04T14-43-53-019fcb83-b389-70f1-abb9-aca29ddd9d43.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "Python基础/02-Python容器类型.md",
+  "usage": {
+    "inputTokens": 31751,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30464,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 31751,
+    "percentage": 12,
+    "model": "gpt-5.6-sol"
+  }
+}
