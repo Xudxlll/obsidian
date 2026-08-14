@@ -1,0 +1,25 @@
+{
+  "id": "conv-1786699406404-h4v0bgpbg",
+  "providerId": "claude",
+  "title": "Reformat LaTeX formulas with line breaks",
+  "titleGenerationStatus": "success",
+  "createdAt": 1786699406416,
+  "updatedAt": 1786699868110,
+  "lastResponseAt": 1786699868110,
+  "sessionId": "0c01f52b-6505-4571-b78f-9165a65270c6",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "0c01f52b-6505-4571-b78f-9165a65270c6"
+  },
+  "currentNote": "深度学习/08_目标检测_笔记.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 107,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 41344,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 41451,
+    "percentage": 4
+  }
+}
