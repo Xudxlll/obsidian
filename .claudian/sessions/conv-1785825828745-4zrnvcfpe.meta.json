@@ -4,7 +4,7 @@
   "title": "生成字典部分十道选择题",
   "titleGenerationStatus": "success",
   "createdAt": 1785825828751,
-  "updatedAt": 1785828432847,
+  "updatedAt": 1788337017523,
   "lastResponseAt": 1785828432847,
   "sessionId": "019fcb83-b389-70f1-abb9-aca29ddd9d43",
   "selectedModel": "gpt-5.6-sol",
@@ -14,7 +14,6 @@
     "transcriptRootPath": "/Users/xuji/.codex/sessions",
     "workspaceDependencyToolVersion": 1
   },
-  "currentNote": "Python基础/02-Python容器类型.md",
   "usage": {
     "inputTokens": 31751,
     "cacheCreationInputTokens": 0,

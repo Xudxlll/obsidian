@@ -49,7 +49,7 @@
         {
           "model": "gpt-5.6-sol",
           "displayName": "GPT-5.6-Sol",
-          "description": "Latest frontier agentic coding model.",
+          "description": "Reliable agentic workhorse for everyday tasks.",
           "supportedReasoningEfforts": [
             {
               "value": "low",
@@ -172,7 +172,7 @@
         {
           "model": "gpt-5.5",
           "displayName": "GPT-5.5",
-          "description": "Frontier model for complex coding, research, and real-world work.",
+          "description": "Proven previous-generation model for coding and general work.",
           "supportedReasoningEfforts": [
             {
               "value": "low",
@@ -280,7 +280,7 @@
       "reasoningSummary": "auto",
       "environmentVariables": "",
       "environmentHash": "",
-      "catalogTimestamp": 1786699378837,
+      "catalogTimestamp": 1788333392401,
       "catalogFingerprint": "1:116c9d48c7a7a480361e768c3851a47e7b2ab31f487a02bfa5f31eaaa64555f3",
       "installationMethodsByHost": {},
       "wslDistroOverridesByHost": {}
