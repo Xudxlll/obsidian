@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "AMA515A Forecasting and Applied Time Series Analysis",
         "未命名 1.md",
         "未命名.md",
         "docs",
@@ -8332,6 +8333,18 @@
       "isHidden": false
     },
     "未命名 1.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "00 - 课程导论.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/00 - 课程导论.md": {
       "isPinned": false,
       "isHidden": false
     }
