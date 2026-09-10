@@ -1,0 +1,28 @@
+{
+  "id": "conv-1789039256862-3auqw7ewy",
+  "providerId": "codex",
+  "title": "解释一个概念",
+  "titleGenerationStatus": "success",
+  "createdAt": 1789039256873,
+  "updatedAt": 1789041738876,
+  "lastResponseAt": 1789041738876,
+  "sessionId": "01a08b0c-a5c4-7e82-8de2-da3d622c965a",
+  "selectedModel": "gpt-5.6-sol",
+  "providerState": {
+    "threadId": "01a08b0c-a5c4-7e82-8de2-da3d622c965a",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/09/10/rollout-2026-09-10T19-20-57-01a08b0c-a5c4-7e82-8de2-da3d622c965a.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "AMA572 Fixed-Income and Credit Risk/Lecture 01 - 信用风险导论与违约概率.md",
+  "usage": {
+    "inputTokens": 34546,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 33536,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 34546,
+    "percentage": 13,
+    "model": "gpt-5.6-sol"
+  }
+}
