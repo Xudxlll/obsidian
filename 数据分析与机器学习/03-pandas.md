@@ -1,5 +1,8 @@
 # 一、pandas概述
 
+> [!note] 延伸笔记
+> [[机器、深度学习额外笔记/Python list、NumPy ndarray 与 pandas Series、DataFrame 的关系与转换|Python list、NumPy ndarray 与 pandas Series、DataFrame 的关系与转换]]
+
 Python Data Analysis Library
 
 pandas 是基于 Numpy 的一种工具，该工具是为了解决数据分析任务而创建的。Pandas 纳入了大量库和一些标准的数据模型，提供了高效地操作大型结构化数据集所需的工具。

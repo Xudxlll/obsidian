@@ -7068,6 +7068,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Python list、NumPy ndarray 与 pandas Series、DataFrame 的关系与转换.md",
         "assets",
         "2.1-2.2决策树原理和实战代码.pdf",
         "3.1-3.2随机森林原理和实战代码.pdf",
@@ -8358,6 +8359,10 @@
       ]
     },
     "AMA572 Fixed-Income and Credit Risk/Lecture 01 - 信用风险导论与违约概率.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "机器、深度学习额外笔记/Python list、NumPy ndarray 与 pandas Series、DataFrame 的关系与转换.md": {
       "isPinned": false,
       "isHidden": false
     }
