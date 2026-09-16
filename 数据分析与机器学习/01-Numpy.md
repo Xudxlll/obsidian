@@ -200,6 +200,8 @@ t9 = np.random.normal(0,1,100) # 标准正态分布，均值为0标准差为1
 print(t9)
 ```
 
+> 更多随机数方法见 [[数据分析与机器学习/01-Numpy#2.5 numpy.random 常用随机方法|2.5 numpy.random 常用随机方法]]。
+
 思考：创建一个 5 个 0.2 的数组
 
 ```python
@@ -932,6 +934,97 @@ print(a.std(axis=1))
   print(counts)                # [2 2 3]
   ```
 
+- **np.bincount(x, weights=None, minlength=0)** — 非负整数的频数统计 / 按编号加权求和
+
+  它属于 NumPy 的**计数函数**，不是 `np.random` 中的随机数生成方法，但常用于统计随机模拟结果。
+
+  **1. 基本用法：结果的下标是数值，结果的元素是出现次数**
+
+  ```python
+  import numpy as np
+
+  a = np.array([1, 2, 2, 4, 4, 4])
+  counts = np.bincount(a)
+  print(counts)     # [0 1 2 0 3]
+  print(counts[2])  # 2：数字2出现了2次
+  print(counts[4])  # 3：数字4出现了3次
+  ```
+
+  | 结果下标（被统计的数值） | 0 | 1 | 2 | 3 | 4 |
+  | --- | --- | --- | --- | --- | --- |
+  | 出现次数 | 0 | 1 | 2 | 0 | 3 |
+
+  **即使原数据没有 0 和 3，也会保留对应位置并填 0。** 对非空输入，默认输出长度为 `x.max() + 1`，因为下标从 0 开始。
+
+  **2. `minlength`：规定输出至少有多少个位置**
+
+  ```python
+  import numpy as np
+
+  a = np.array([1, 2, 2, 4, 4, 4])
+  print(np.bincount(a, minlength=7))  # [0 1 2 0 3 0 0]，下标0～6
+  print(np.bincount(a, minlength=3))  # [0 1 2 0 3]，不会截断已有计数
+  ```
+
+  `minlength=7` 表示**至少 7 个位置**，不是“统计到数字 7”。若要保留数值 `0～7` 的位置，要写 `minlength=8`。
+
+  对非空输入，输出长度为 `max(x.max() + 1, minlength)`；`minlength` 是非负整数，不是上限。
+
+  **3. 骰子示例：统计两枚骰子的点数和**
+
+  ```python
+  import numpy as np
+
+  rng = np.random.default_rng(42)
+  die1 = rng.integers(1, 7, size=10000)
+  die2 = rng.integers(1, 7, size=10000)
+  totals = die1 + die2
+
+  counts = np.bincount(totals, minlength=13)  # 保留下标0～12
+  print(counts[2:13])           # 点数和2～12各自出现的次数
+  print(counts[7])              # 点数和为7的次数
+  print(counts[7] / totals.size) # 点数和为7的模拟频率，理论概率为1/6
+  print(counts.sum())           # 10000：所有次数之和等于模拟次数
+  ```
+
+  最小点数和是 2，所以 `counts[0]` 和 `counts[1]` 都为 0。即使某次模拟没有出现 12，`minlength=13` 也能保留 `counts[12]`，避免索引越界。
+
+  **4. `weights`：不再每次加 1，而是把对应权重加起来**
+
+  ```python
+  import numpy as np
+
+  groups = np.array([0, 1, 1, 2, 2])  # 每条记录的组编号
+  amounts = np.array([10, 20, 30, 40, 50])  # 每条记录的金额
+
+  print(np.bincount(groups))                   # [1 2 2]：每组记录数
+  print(np.bincount(groups, weights=amounts))   # [10. 50. 90.]：每组金额之和
+  # 第0组：10；第1组：20+30；第2组：40+50
+  ```
+
+  `weights` 必须与 `x` 形状相同。加权结果是**分组求和，不是分组平均值，也不会自动归一化为概率**。
+
+  **5. 与 `np.unique(..., return_counts=True)` 的区别**
+
+  ```python
+  import numpy as np
+
+  a = np.array([1, 2, 2, 4, 4, 4])
+  print(np.bincount(a))  # [0 1 2 0 3]：数值由下标表示，缺失位置补0
+
+  values, counts = np.unique(a, return_counts=True)
+  print(values)  # [1 2 4]：只列出实际出现的值
+  print(counts)  # [1 2 3]：与values一一对应
+  ```
+
+  - `bincount()`：适合从 0 开始、范围不大的非负整数编号，能直接用 `counts[k]` 查询数值 `k` 的计数（前提是该下标在输出范围内）。
+  - `unique(..., return_counts=True)`：也适用于负数、浮点数、字符串等可比较的数据；只返回实际出现的值，不为中间缺失的整数补位置。
+  - `bincount()` 的输入必须是**一维非负整数序列**；负数、浮点数组（即使值是 `1.0`）、二维数组都不能直接传入。若确实要统计二维数组的全部元素，可先用 `a.ravel()` 展平；它没有 `axis` 参数。
+  - 不要为消除报错直接把任意小数强转整数，否则会改变数据含义。连续数值按区间统计通常使用 `np.histogram()`。
+  - 输出长度受最大编号影响：若编号很大且稀疏，如 `[1, 100000000]`，会产生大量空位置，此时更适合用 `unique(..., return_counts=True)`。
+
+  参考：[NumPy bincount 官方文档](https://numpy.org/doc/stable/reference/generated/numpy.bincount.html)。
+
 ### 2.4.3 逻辑聚合
 
 | 函数 | 含义 | 类比 |
@@ -1093,3 +1186,280 @@ print(np.full_like(a, 0.5))            # 和a同shape，全填0.5
 
 > `.npy` / `.npz` 是 NumPy 原生的二进制格式，比 CSV 读写快得多，且保留 dtype 信息。
 
+
+
+## 2.5 numpy.random 常用随机方法
+
+`np.random` 是 NumPy 提供的随机数模块，适合一次生成一组数或一个多维数组；与 Python 标准库的 `random` 不是同一个模块。
+
+这里先沿用前面 `np.random.normal()` 的写法介绍常用方法，再给出新接口对照。以下打印的随机值不固定，注释主要说明取值范围、形状和含义。
+
+### 2.5.1 均匀分布随机数
+
+- **np.random.random(size=None)** — 生成 `[0, 1)` 的均匀随机浮点数
+
+  `size` 控制输出形状：不传时返回一个数，传整数时返回一维数组，传元组时返回对应形状的数组。
+
+  ```python
+  import numpy as np
+
+  print(np.random.random())        # 一个浮点数，0 <= x < 1
+  print(np.random.random(5))       # 一维数组，5个数
+  print(np.random.random((2, 3)))  # 二维数组，2行3列
+  print(np.random.random(1).shape) # (1,)：含一个数的数组，不是标量
+  ```
+
+  `np.random.random_sample()`、`np.random.sample()`、`np.random.ranf()` 是同类传统接口别名。**这里的 `sample()` 不是 Python 标准库中的无放回抽样方法。**
+
+- **np.random.rand(d0, d1, ..., dn)** — 按指定维度生成 `[0, 1)` 均匀随机数组
+
+  与 `random()` 的分布相同，区别在于**形状参数的写法**。
+
+  ```python
+  import numpy as np
+
+  print(np.random.rand())         # 一个随机浮点数
+  print(np.random.rand(5))        # 5个数
+  print(np.random.rand(2, 3))     # 2行3列：维度分开传
+  print(np.random.random((2, 3))) # 同样的形状与分布，不保证生成相同的值
+  ```
+
+  > `rand(2, 3)` 不写成 `rand((2, 3))`，也不使用 `size=`。
+
+- **np.random.uniform(low=0.0, high=1.0, size=None)** — 指定区间的均匀分布
+
+  通常按 `[low, high)` 理解。连续均匀分布中，区间内**等长小段的概率相同**。
+
+  ```python
+  import numpy as np
+
+  print(np.random.uniform(1, 10))              # 1到10之间的一个浮点数
+  print(np.random.uniform(1, 10, size=5))      # 5个浮点数
+  print(np.random.uniform(-1, 1, size=(2, 3))) # 2行3列
+  ```
+
+  > 浮点舍入可能使 `high` 出现；实际使用时要求 `high >= low`，两者相等则返回该值。
+
+### 2.5.2 随机整数
+
+- **np.random.randint(low, high=None, size=None, dtype=int)** — 指定范围的随机整数
+
+  **左闭右开**：包含 `low`，不包含 `high`。只传一个边界时，从 `0` 开始。
+
+  ```python
+  import numpy as np
+
+  print(np.random.randint(6))                  # 一个整数：0～5
+  print(np.random.randint(1, 7))               # 一个整数：1～6，模拟骰子
+  print(np.random.randint(1, 7, size=10))      # 掷10次骰子
+  print(np.random.randint(1, 7, size=(2, 3)))  # 2行3列的骰子点数
+  ```
+
+  > 注意：标准库 `random.randint(1, 6)` 包含 6；NumPy `np.random.randint(1, 6)` 不包含 6。NumPy 没有这里对应的 `step` 参数；从偶数中抽样可用 `np.random.choice(np.arange(0, 10, 2))`。
+
+### 2.5.3 正态分布随机数
+
+- **np.random.normal(loc=0.0, scale=1.0, size=None)** — 指定均值与标准差的正态分布
+
+  前面创建数组时已使用过。`loc` 是均值（期望值），`scale` 是**标准差，不是方差**，且不能为负。
+
+  ```python
+  import numpy as np
+
+  print(np.random.normal(0, 1, 5))             # 标准正态分布，5个数
+  print(np.random.normal(10, 2, size=(2, 3)))  # 均值10、标准差2，2行3列
+  ```
+
+  上例第二组的总体方差为 `2**2 = 4`。抽出的少量数据，其样本均值不一定恰好为 10；正态分布也不把数据限制在“均值±标准差”的范围内。
+
+- **np.random.randn(d0, d1, ..., dn)** — 标准正态分布
+
+  总体均值为 `0`，标准差为 `1`；可以生成负数，不是 `[0, 1)` 均匀分布。
+
+  ```python
+  import numpy as np
+
+  print(np.random.randn())       # 一个标准正态随机数
+  print(np.random.randn(2, 3))   # 2行3列，维度分开传
+  print(10 + 2 * np.random.randn(5))  # 转换为均值10、标准差2的正态分布
+  ```
+
+- **np.random.standard_normal(size=None)** — 另一种标准正态接口
+
+  ```python
+  import numpy as np
+
+  print(np.random.standard_normal(size=(2, 3))) # 形状用元组传入
+  ```
+
+  **记忆：`rand` 是均匀分布，`randn` 中的 `n` 对应 normal（正态）；`randn(2, 3)` 与 `standard_normal((2, 3))` 的分布和形状一致。**
+
+### 2.5.4 随机抽样
+
+- **np.random.choice(a, size=None, replace=True, p=None)** — 从候选项中抽样
+
+  - `a`：一维候选序列；若传正整数 `n`，表示从 `0～n-1` 中抽取。
+  - `size`：抽样结果的形状；不传时抽一个元素。
+  - `replace=True`：有放回，可以重复抽中同一位置。
+  - `replace=False`：无放回，同一位置只能抽一次。
+  - `p`：各候选项的概率；默认等概率，指定时需非负、长度匹配、总和为 1（容许浮点误差）。
+
+  ```python
+  import numpy as np
+
+  items = np.array(['Apple', 'Mi', 'Huawei', 'Oppo'])
+  print(np.random.choice(items))                         # 抽一个
+  print(np.random.choice(items, size=6))                 # 有放回，可重复
+  print(np.random.choice(items, size=3, replace=False))  # 无放回
+  print(np.random.choice(items, size=5, p=[0.1, 0.2, 0.6, 0.1]))
+  print(np.random.choice(10, size=3, replace=False))     # 从0～9抽3个
+  print(np.random.choice(list('abc')))                  # 从字符串抽字符，先转列表
+  ```
+
+  > 无放回抽样的数量不能超过候选位置数；指定 `p` 时还不能超过概率为正的候选位置数。**无放回不是去重**：`['A', 'A', 'B']` 中两个不同位置的 `'A'` 仍可能同时被抽中。传统 `np.random.choice()` 的候选数组须为一维。
+
+### 2.5.5 打乱顺序
+
+- **np.random.shuffle(x)** — 原地打乱，返回 `None`
+
+  ```python
+  import numpy as np
+
+  a = np.array([1, 2, 3, 4, 5])
+  result = np.random.shuffle(a)
+  print(a)       # 原数组的顺序被打乱，也可能碰巧与原顺序相同
+  print(result)  # None
+
+  arr = np.arange(12).reshape(4, 3)
+  np.random.shuffle(arr)
+  print(arr)     # 二维数组：打乱整行顺序，各行内部顺序不变
+  ```
+
+  > 不要写 `a = np.random.shuffle(a)`，否则 `a` 会变成 `None`。传统接口只沿第 0 轴打乱，不能传 `axis=`。
+
+- **np.random.permutation(x)** — 返回随机排列，不修改原数组
+
+  `x` 是数组时返回打乱后的副本；是正整数 `n` 时返回 `0～n-1` 的随机排列。
+
+  ```python
+  import numpy as np
+
+  a = np.array([1, 2, 3, 4, 5])
+  b = np.random.permutation(a)
+  print(a)  # [1 2 3 4 5]，原数组不变
+  print(b)  # 新数组，顺序随机
+  print(np.random.permutation(5))  # 0、1、2、3、4的随机排列
+  ```
+
+  对二维数组，传统 `permutation()` 同样按整行排列，不是把所有元素混在一起。
+
+### 2.5.6 随机种子与复现
+
+- **np.random.seed(seed)** — 重置传统全局随机生成器的起点
+
+  ```python
+  import numpy as np
+
+  np.random.seed(42)
+  a = np.random.randint(0, 100, size=5)
+  b = np.random.randint(0, 100, size=5) # 继续生成后续数字，不是重新开始
+
+  np.random.seed(42)                  # 重置到相同起点
+  c = np.random.randint(0, 100, size=5)
+  print(a)
+  print(b)
+  print(np.array_equal(a, c))         # True
+  ```
+
+  **种子固定的是序列起点，不是让每次抽样都相同。** 在相同环境、种子和调用顺序下可复现；不要在循环里每轮都重新设置同一个种子。
+
+  > Python 标准库 `random.seed()` 与 `np.random.seed()` 管理不同的状态，不能互相替代。
+
+### 2.5.7 其他常见概率分布
+
+- **np.random.binomial(n, p, size=None)** — 二项分布：`n` 次独立试验的成功次数
+
+  `n` 取非负整数，`p` 是每次试验的成功概率，介于 `0` 和 `1`。
+
+  ```python
+  import numpy as np
+
+  # 每组抛10次公平硬币，记录正面次数；模拟5组
+  counts = np.random.binomial(n=10, p=0.5, size=5)
+  print(counts)  # 每个数是0～10之间的整数
+
+  # n=1：一次成功/失败试验，结果为1或0（伯努利分布）
+  print(np.random.binomial(n=1, p=0.3, size=10))
+  ```
+
+  > `n=10` 是**每组的试验次数**；`size=5` 是**生成5组结果**，两者不要混淆。
+
+- **np.random.poisson(lam=1.0, size=None)** — 泊松分布：单位区间内的事件次数
+
+  `lam` 是该区间内的平均事件数，必须非负。
+
+  ```python
+  import numpy as np
+
+  # 假设每分钟平均有3次到达，模拟10个一分钟区间的到达次数
+  counts = np.random.poisson(lam=3, size=10)
+  print(counts)  # 非负整数，每个区间不一定恰好是3次
+  ```
+
+- **np.random.exponential(scale=1.0, size=None)** — 指数分布：常用于模拟等待时间
+
+  `scale` 是尺度参数；对正尺度的指数分布，它等于平均等待时间，是速率 `λ` 的倒数：`scale = 1 / λ`。
+
+  ```python
+  import numpy as np
+
+  # 假设事件以恒定速率每分钟2次发生，平均等待时间为0.5分钟
+  waits = np.random.exponential(scale=1 / 2, size=5)
+  print(waits)  # 5个非负等待时间，单位为分钟
+  ```
+
+  > 二项分布和泊松分布生成**次数（整数）**；指数分布生成**等待时间（浮点数）**。选分布取决于问题假设，而不只是想生成整数还是小数。
+
+### 2.5.8 新写法：np.random.default_rng()
+
+- **np.random.default_rng(seed=None)** — 创建独立的随机生成器
+
+  上面介绍的是常见传统接口；[NumPy 官方文档](https://numpy.org/doc/stable/reference/random/generator.html) 推荐新代码使用生成器对象。`rng` 只是变量名，不是额外的库。
+
+  ```python
+  import numpy as np
+
+  rng = np.random.default_rng(42)
+  print(rng.random((2, 3)))                 # [0, 1)均匀随机数
+  print(rng.integers(1, 7, size=5))         # 1～6的随机整数
+  print(rng.integers(1, 6, size=5, endpoint=True)) # 包含上界6
+  print(rng.normal(0, 1, size=5))           # 标准正态分布
+  print(rng.choice(['A', 'B', 'C'], size=2, replace=False))
+  ```
+
+| 目的 | 传统接口 | 新接口（先创建 `rng`） |
+| --- | --- | --- |
+| `[0, 1)` 均匀分布 | `np.random.random((2, 3))` 或 `np.random.rand(2, 3)` | `rng.random((2, 3))` |
+| 指定区间均匀分布 | `np.random.uniform(1, 10, size=5)` | `rng.uniform(1, 10, size=5)` |
+| 随机整数 | `np.random.randint(1, 7, size=5)` | `rng.integers(1, 7, size=5)` |
+| 标准正态分布 | `np.random.randn(2, 3)` 或 `np.random.standard_normal((2, 3))` | `rng.standard_normal((2, 3))` |
+| 指定正态分布 | `np.random.normal(10, 2, size=5)` | `rng.normal(10, 2, size=5)` |
+| 随机抽样 | `np.random.choice(a, size=3)` | `rng.choice(a, size=3)` |
+| 原地打乱 | `np.random.shuffle(a)` | `rng.shuffle(a)` |
+| 随机排列副本 | `np.random.permutation(a)` | `rng.permutation(a)` |
+| 二项分布 | `np.random.binomial(10, 0.5, size=5)` | `rng.binomial(10, 0.5, size=5)` |
+| 泊松分布 | `np.random.poisson(3, size=5)` | `rng.poisson(3, size=5)` |
+| 指数分布 | `np.random.exponential(0.5, size=5)` | `rng.exponential(0.5, size=5)` |
+| 设置起点 | `np.random.seed(42)` | `rng = np.random.default_rng(42)` |
+
+**新旧接口的注意事项：**
+
+- `rng` 没有 `rand()`、`randn()`、`randint()`，不能仅把 `np.random` 换成 `rng`。
+- `rng.shuffle()`、`rng.permutation()` 支持 `axis`；例如 `axis=1` 可以打乱二维数组的整列顺序。
+- `rng.choice()` 支持多维候选数组并可指定 `axis`；传统 `np.random.choice()` 不支持此用法。
+- `np.random.seed()` 不会重置已有的 `rng`；复位通常用相同种子重新创建生成器。
+- 相同种子不保证新旧接口输出相同；`Generator` 也不承诺跨 NumPy 版本的随机序列始终一致，长期复现应记录版本。
+
+与 Python 标准库的完整比较见 [[Python基础/03-特殊类型与推导式#3.11 常用功能并排对照|random 常用功能对照]]。
+
+> **参考文档：** [传统随机接口](https://numpy.org/doc/stable/reference/random/legacy.html)、[choice](https://numpy.org/doc/stable/reference/random/generated/numpy.random.choice.html)、[binomial](https://numpy.org/doc/stable/reference/random/generated/numpy.random.binomial.html)、[poisson](https://numpy.org/doc/stable/reference/random/generated/numpy.random.poisson.html)、[exponential](https://numpy.org/doc/stable/reference/random/generated/numpy.random.exponential.html)。

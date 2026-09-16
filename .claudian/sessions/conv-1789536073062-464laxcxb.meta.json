@@ -1,0 +1,28 @@
+{
+  "id": "conv-1789536073062-464laxcxb",
+  "providerId": "codex",
+  "title": "Compare Python and NumPy random modules",
+  "titleGenerationStatus": "success",
+  "createdAt": 1789536073068,
+  "updatedAt": 1789539710264,
+  "lastResponseAt": 1789538867791,
+  "sessionId": "01a0a8a9-75cc-73f1-b5e2-7b8e1212d8f1",
+  "selectedModel": "gpt-5.6-sol",
+  "providerState": {
+    "threadId": "01a0a8a9-75cc-73f1-b5e2-7b8e1212d8f1",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/09/16/rollout-2026-09-16T13-21-13-01a0a8a9-75cc-73f1-b5e2-7b8e1212d8f1.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "Python基础/03-特殊类型与推导式.md",
+  "usage": {
+    "inputTokens": 99201,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 96896,
+    "contextWindow": 200000,
+    "contextWindowIsAuthoritative": false,
+    "contextTokens": 99201,
+    "percentage": 50,
+    "model": "gpt-5.6-sol"
+  }
+}
