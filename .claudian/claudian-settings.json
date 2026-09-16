@@ -47,9 +47,50 @@
       "customModels": "",
       "discoveredModels": [
         {
+          "model": "gpt-6-astra",
+          "displayName": "GPT-6-Astra",
+          "description": "Our most capable model for complex, demanding work.",
+          "supportedReasoningEfforts": [
+            {
+              "value": "low",
+              "description": "Fast responses with lighter reasoning"
+            },
+            {
+              "value": "medium",
+              "description": "Balances speed and reasoning depth for everyday tasks"
+            },
+            {
+              "value": "high",
+              "description": "Greater reasoning depth for complex problems"
+            },
+            {
+              "value": "xhigh",
+              "description": "Extra high reasoning depth for complex problems"
+            },
+            {
+              "value": "max",
+              "description": "Maximum reasoning depth for the hardest problems"
+            }
+          ],
+          "defaultReasoningEffort": "low",
+          "serviceTiers": [
+            {
+              "id": "priority",
+              "name": "Fast",
+              "description": "2x speed, increased usage"
+            }
+          ],
+          "defaultServiceTier": null,
+          "inputModalities": [
+            "text",
+            "image"
+          ],
+          "isDefault": true
+        },
+        {
           "model": "gpt-5.6-sol",
           "displayName": "GPT-5.6-Sol",
-          "description": "Latest frontier agentic coding model.",
+          "description": "Reliable agentic workhorse for everyday tasks.",
           "supportedReasoningEfforts": [
             {
               "value": "low",
@@ -78,11 +119,6 @@
               "id": "priority",
               "name": "Fast",
               "description": "1.5x speed, increased usage"
-            },
-            {
-              "id": "ultrafast",
-              "name": "Ultrafast",
-              "description": "The fastest available responses for latency-sensitive work."
             }
           ],
           "defaultServiceTier": null,
@@ -90,7 +126,7 @@
             "text",
             "image"
           ],
-          "isDefault": true
+          "isDefault": false
         },
         {
           "model": "gpt-5.6-terra",
@@ -177,7 +213,7 @@
         {
           "model": "gpt-5.5",
           "displayName": "GPT-5.5",
-          "description": "Frontier model for complex coding, research, and real-world work.",
+          "description": "Proven previous-generation model for coding and general work.",
           "supportedReasoningEfforts": [
             {
               "value": "low",
@@ -210,37 +246,6 @@
             "image"
           ],
           "isDefault": false
-        },
-        {
-          "model": "gpt-5.2",
-          "displayName": "GPT-5.2",
-          "description": "Optimized for professional work and long-running agents.",
-          "supportedReasoningEfforts": [
-            {
-              "value": "low",
-              "description": "Balances speed with some reasoning; useful for straightforward queries and short explanations"
-            },
-            {
-              "value": "medium",
-              "description": "Provides a solid balance of reasoning depth and latency for general-purpose tasks"
-            },
-            {
-              "value": "high",
-              "description": "Maximizes reasoning depth for complex or ambiguous problems"
-            },
-            {
-              "value": "xhigh",
-              "description": "Extra high reasoning for complex problems"
-            }
-          ],
-          "defaultReasoningEffort": "medium",
-          "serviceTiers": [],
-          "defaultServiceTier": null,
-          "inputModalities": [
-            "text",
-            "image"
-          ],
-          "isDefault": false
         }
       ],
       "modelAliases": {},
@@ -248,7 +253,7 @@
       "reasoningSummary": "auto",
       "environmentVariables": "",
       "environmentHash": "",
-      "catalogTimestamp": 1788374144845,
+      "catalogTimestamp": 1789535907211,
       "catalogFingerprint": "1:116c9d48c7a7a480361e768c3851a47e7b2ab31f487a02bfa5f31eaaa64555f3",
       "installationMethodsByHost": {},
       "wslDistroOverridesByHost": {}

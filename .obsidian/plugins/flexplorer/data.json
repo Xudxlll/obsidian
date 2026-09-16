@@ -8340,10 +8340,10 @@
     "AMA515A Forecasting and Applied Time Series Analysis": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "00 - 课程导论.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA515A Forecasting and Applied Time Series Analysis/00 - 课程导论.md": {
       "isPinned": false,
@@ -8352,10 +8352,10 @@
     "AMA572 Fixed-Income and Credit Risk": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "Lecture 01 - 信用风险导论与违约概率.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA572 Fixed-Income and Credit Risk/Lecture 01 - 信用风险导论与违约概率.md": {
       "isPinned": false,
