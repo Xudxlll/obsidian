@@ -16,13 +16,13 @@
       {
         "draftModel": "gpt-5.6-sol",
         "tabId": "tab-1782959011479-op25ljn",
-        "conversationId": "conv-1789539788225-ltu1ym4w7"
+        "conversationId": null
       },
       {
         "tabId": "tab-1783326428996-dq6vnrt",
         "conversationId": "conv-1786699406404-h4v0bgpbg"
       }
     ],
-    "activeTabId": "tab-1782959011479-op25ljn"
+    "activeTabId": "tab-1783326428996-dq6vnrt"
   }
 }
