@@ -384,11 +384,11 @@
   "settingsProvider": "claude",
   "savedProviderModel": {
     "claude": "opus",
-    "codex": "gpt-5.6-sol"
+    "codex": "gpt-6.1-sol"
   },
   "savedProviderEffort": {
     "claude": "high",
-    "codex": "medium"
+    "codex": "high"
   },
   "savedProviderServiceTier": {
     "codex": "priority"

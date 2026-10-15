@@ -8357,6 +8357,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Lecture 2",
         "Lecture 1",
         "Lecture 01 - 信用风险导论与违约概率.md"
       ]
@@ -8528,6 +8529,181 @@
       "isHidden": false
     },
     "AMA572 Fixed-Income and Credit Risk/Lecture 1/附件/练习解答-PDF第3页-含手写批注.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "附件",
+        "05 - 手写推导：Ito 引理与布朗运动三阶矩.md",
+        "04 - 手写讲解：税盾与违约概率.md",
+        "03 - 补充推导（Ito 引理及手写批注版）.md",
+        "01 - Lecture 2（英文原文与折叠译文）.md",
+        "02 - 补充推导（Ito 等距版，英文原文与折叠译文）.md",
+        "00 - Lecture 2 资料索引.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/00 - Lecture 2 资料索引.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/02 - 补充推导（Ito 等距版，英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/01 - Lecture 2（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/03 - 补充推导（Ito 引理及手写批注版）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/04 - 手写讲解：税盾与违约概率.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/05 - 手写推导：Ito 引理与布朗运动三阶矩.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "10_补充推导第1页_Ito引理与二阶矩_截图09-17_1910.PNG",
+        "09_补充推导第1页_布朗运动一阶矩_截图09-17_1857.PNG",
+        "08_第4页配套_税盾与指示函数期望_截图09-10_2035.PNG",
+        "07_第2页_MM定理与债股价值相加_截图09-10_2015.PNG",
+        "06_第1至2页_次级债收益情况三_截图09-10_2009.PNG",
+        "05_第1至2页_次级债收益情况二_截图09-10_2005.PNG",
+        "05_Lecture2_手写推导_Ito引理与布朗运动三阶矩.pdf",
+        "05-手写原稿-PDF第2页.png",
+        "05-手写原稿-PDF第1页.png",
+        "04_第1至2页_次级债收益情况一_截图09-10_2003.PNG",
+        "04_Lecture2_手写讲解_税盾与违约概率.pdf",
+        "04-手写原稿-PDF第4页.png",
+        "04-手写原稿-PDF第3页.png",
+        "04-手写原稿-PDF第2页.png",
+        "04-手写原稿-PDF第1页.png",
+        "03_第1至2页_优先债收益分情况解释_截图09-10_2000.PNG",
+        "03_Lecture2_补充推导_税盾与破产成本_Ito引理及手写批注版.pdf",
+        "03-手写批注版-PDF第5页.png",
+        "03-手写批注版-PDF第3页.png",
+        "03-手写批注版-PDF第4页.png",
+        "03-手写批注版-PDF第2页.png",
+        "03-手写批注版-PDF第1页.png",
+        "02_第1至2页_股权收益分情况解释_截图09-10_1938.PNG",
+        "02_Lecture2_补充推导_税盾与破产成本_Ito等距版.pdf",
+        "01_第1页_股权收益与优先次级债表_截图09-10_1933.PNG",
+        "01_Lecture2_原课件_或有索取权与Merton模型.pdf"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/01_Lecture2_原课件_或有索取权与Merton模型.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/01_第1页_股权收益与优先次级债表_截图09-10_1933.PNG": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/02_Lecture2_补充推导_税盾与破产成本_Ito等距版.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/02_第1至2页_股权收益分情况解释_截图09-10_1938.PNG": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/03-手写批注版-PDF第1页.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/03-手写批注版-PDF第2页.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/03-手写批注版-PDF第4页.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/03-手写批注版-PDF第3页.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/03-手写批注版-PDF第5页.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/03_Lecture2_补充推导_税盾与破产成本_Ito引理及手写批注版.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/03_第1至2页_优先债收益分情况解释_截图09-10_2000.PNG": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/04-手写原稿-PDF第1页.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/04-手写原稿-PDF第2页.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/04-手写原稿-PDF第3页.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/04-手写原稿-PDF第4页.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/04_Lecture2_手写讲解_税盾与违约概率.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/04_第1至2页_次级债收益情况一_截图09-10_2003.PNG": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/05-手写原稿-PDF第1页.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/05-手写原稿-PDF第2页.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/05_Lecture2_手写推导_Ito引理与布朗运动三阶矩.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/05_第1至2页_次级债收益情况二_截图09-10_2005.PNG": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/06_第1至2页_次级债收益情况三_截图09-10_2009.PNG": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/07_第2页_MM定理与债股价值相加_截图09-10_2015.PNG": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/08_第4页配套_税盾与指示函数期望_截图09-10_2035.PNG": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/09_补充推导第1页_布朗运动一阶矩_截图09-17_1857.PNG": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/10_补充推导第1页_Ito引理与二阶矩_截图09-17_1910.PNG": {
       "isPinned": false,
       "isHidden": false
     }

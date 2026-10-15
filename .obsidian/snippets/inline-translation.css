@@ -92,3 +92,57 @@ body details.translation-details[open] > .translation-body {
   display: inline !important;
   margin-left: 0.28em !important;
 }
+
+/* AMA572 inline translation layout */
+/* Paragraph and toggle share one Markdown line. Chinese is a block only when open. */
+.ama-inline-translations details.translation-details {
+  display: inline !important;
+  margin: 0 0 0 0.28em !important;
+  vertical-align: baseline !important;
+}
+
+.ama-inline-translations details.translation-details > summary {
+  display: inline !important;
+  white-space: nowrap !important;
+  font-size: 0.68rem !important;
+  line-height: inherit !important;
+  vertical-align: baseline !important;
+}
+
+.ama-inline-translations :is(p, h1, h2, h3, h4, h5, h6):has(+ details.translation-details) {
+  display: inline !important;
+  margin-block-end: 0 !important;
+}
+
+.ama-inline-translations details.translation-details::after {
+  content: none !important;
+}
+
+.ama-inline-translations .el-p > p:empty {
+  display: none !important;
+}
+
+/* Keep the English and its toggle together, then leave one line between units. */
+.ama-inline-translations .el-p:has(details.translation-details),
+.ama-inline-translations .markdown-preview-section > div:has(> p + details.translation-details),
+.ama-inline-translations .markdown-preview-section > div:has(> p details.translation-details) {
+  padding-block-end: 1em !important;
+}
+
+.ama-inline-translations li:has(> details.translation-details) {
+  margin-block-end: 1em !important;
+}
+
+.ama-inline-translations details.translation-details > .translation-body {
+  display: none !important;
+}
+
+.ama-inline-translations details.translation-details[open] > .translation-body {
+  display: block !important;
+  margin: 0.35rem 0 0 !important;
+  color: var(--text-muted) !important;
+  font-size: 0.95rem !important;
+  font-weight: 400 !important;
+  line-height: 1.75 !important;
+  text-align: start !important;
+}

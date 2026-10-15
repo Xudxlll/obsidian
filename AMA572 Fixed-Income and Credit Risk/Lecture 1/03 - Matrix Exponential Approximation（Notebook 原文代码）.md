@@ -3,6 +3,8 @@ course: AMA572 Fixed-Income and Credit Risk
 source: 03_Lecture1_配套计算_生成矩阵的矩阵指数.ipynb
 cells: 17
 created: 2026-10-15
+cssclasses:
+  - ama-inline-translations
 ---
 
 > [!info] 原始 Notebook
@@ -13,15 +15,11 @@ created: 2026-10-15
 <!-- Notebook cell 1: markdown -->
 
 
-# Matrix Exponential Approximation
-
-<details class="translation-details"><summary>中文译文</summary><span class="translation-body">矩阵指数近似。</span></details>
+# Matrix Exponential Approximation <details class="translation-details"><summary>中文译文</summary><span class="translation-body">矩阵指数近似。</span></details>
 
 
 
-This notebook computes the matrix exponential $e^A$ in two ways:
-
-<details class="translation-details"><summary>中文译文</summary><span class="translation-body">本 Notebook 用两种方法计算矩阵指数 eᴬ：</span></details>
+This notebook computes the matrix exponential $e^A$ in two ways: <details class="translation-details"><summary>中文译文</summary><span class="translation-body">本 Notebook 用两种方法计算矩阵指数 eᴬ：</span></details>
 
 
 
@@ -34,9 +32,7 @@ This notebook computes the matrix exponential $e^A$ in two ways:
 <!-- Notebook cell 2: markdown -->
 
 
-## Setup
-
-<details class="translation-details"><summary>中文译文</summary><span class="translation-body">准备工作。</span></details>
+## Setup <details class="translation-details"><summary>中文译文</summary><span class="translation-body">准备工作。</span></details>
 
 
 
@@ -59,15 +55,11 @@ A = [[-0.21622, 0.21622, 0, 0],
 <!-- Notebook cell 4: markdown -->
 
 
-## Method 1: Direct calculation
-
-<details class="translation-details"><summary>中文译文</summary><span class="translation-body">方法 1：直接计算。</span></details>
+## Method 1: Direct calculation <details class="translation-details"><summary>中文译文</summary><span class="translation-body">方法 1：直接计算。</span></details>
 
 
 
-Use the SciPy library to calculate $e^A$ directly.
-
-<details class="translation-details"><summary>中文译文</summary><span class="translation-body">使用 SciPy 库直接计算矩阵指数 eᴬ。</span></details>
+Use the SciPy library to calculate $e^A$ directly. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">使用 SciPy 库直接计算矩阵指数 eᴬ。</span></details>
 
 
 
@@ -92,15 +84,11 @@ print(exp_A)
 <!-- Notebook cell 6: markdown -->
 
 
-## Method 2: Taylor-series approximation
-
-<details class="translation-details"><summary>中文译文</summary><span class="translation-body">方法 2：泰勒级数近似。</span></details>
+## Method 2: Taylor-series approximation <details class="translation-details"><summary>中文译文</summary><span class="translation-body">方法 2：泰勒级数近似。</span></details>
 
 
 
-Use the formula
-
-<details class="translation-details"><summary>中文译文</summary><span class="translation-body">使用以下公式：</span></details>
+Use the formula <details class="translation-details"><summary>中文译文</summary><span class="translation-body">使用以下公式：</span></details>
 
 
 
@@ -111,15 +99,11 @@ $$e^A = \lim_{k \to \infty} \sum_{i=0}^{k} \frac{A^i}{i!}.$$
 <!-- Notebook cell 7: markdown -->
 
 
-### Case 1: $k=3$
-
-<details class="translation-details"><summary>中文译文</summary><span class="translation-body">情形 1：k = 3。</span></details>
+### Case 1: $k=3$ <details class="translation-details"><summary>中文译文</summary><span class="translation-body">情形 1：k = 3。</span></details>
 
 
 
-Calculate $\sum_{i=0}^{3} \frac{A^i}{i!}$ to approximate $e^A$.
-
-<details class="translation-details"><summary>中文译文</summary><span class="translation-body">计算从 i = 0 到 3 的 Aⁱ/i! 之和，近似矩阵指数 eᴬ。</span></details>
+Calculate $\sum_{i=0}^{3} \frac{A^i}{i!}$ to approximate $e^A$. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">计算从 i = 0 到 3 的 Aⁱ/i! 之和，近似矩阵指数 eᴬ。</span></details>
 
 
 
@@ -183,15 +167,11 @@ print(exp_A_3)
 <!-- Notebook cell 10: markdown -->
 
 
-### Case 2: $k=5$
-
-<details class="translation-details"><summary>中文译文</summary><span class="translation-body">情形 2：k = 5。</span></details>
+### Case 2: $k=5$ <details class="translation-details"><summary>中文译文</summary><span class="translation-body">情形 2：k = 5。</span></details>
 
 
 
-Calculate $\sum_{i=0}^{5} \frac{A^i}{i!}$ to approximate $e^A$.
-
-<details class="translation-details"><summary>中文译文</summary><span class="translation-body">计算从 i = 0 到 5 的 Aⁱ/i! 之和，近似矩阵指数 eᴬ。</span></details>
+Calculate $\sum_{i=0}^{5} \frac{A^i}{i!}$ to approximate $e^A$. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">计算从 i = 0 到 5 的 Aⁱ/i! 之和，近似矩阵指数 eᴬ。</span></details>
 
 
 
@@ -267,15 +247,11 @@ print(exp_A_5)
 <!-- Notebook cell 13: markdown -->
 
 
-### Case 3: $k=10$
-
-<details class="translation-details"><summary>中文译文</summary><span class="translation-body">情形 3：k = 10。</span></details>
+### Case 3: $k=10$ <details class="translation-details"><summary>中文译文</summary><span class="translation-body">情形 3：k = 10。</span></details>
 
 
 
-Calculate $\sum_{i=0}^{10} \frac{A^i}{i!}$ to approximate $e^A$.
-
-<details class="translation-details"><summary>中文译文</summary><span class="translation-body">计算从 i = 0 到 10 的 Aⁱ/i! 之和，近似矩阵指数 eᴬ。</span></details>
+Calculate $\sum_{i=0}^{10} \frac{A^i}{i!}$ to approximate $e^A$. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">计算从 i = 0 到 10 的 Aⁱ/i! 之和，近似矩阵指数 eᴬ。</span></details>
 
 
 
@@ -381,9 +357,7 @@ print(exp_A_10)
 <!-- Notebook cell 16: markdown -->
 
 
-## Comparison
-
-<details class="translation-details"><summary>中文译文</summary><span class="translation-body">结果比较。</span></details>
+## Comparison <details class="translation-details"><summary>中文译文</summary><span class="translation-body">结果比较。</span></details>
 
 
 
