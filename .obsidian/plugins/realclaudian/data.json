@@ -19,8 +19,9 @@
         "conversationId": null
       },
       {
+        "draftModel": "gpt-6.1-sol",
         "tabId": "tab-1783326428996-dq6vnrt",
-        "conversationId": "conv-1791888436215-t1xnl492z"
+        "conversationId": "conv-1792057696470-y9f4k3igc"
       }
     ],
     "activeTabId": "tab-1783326428996-dq6vnrt"

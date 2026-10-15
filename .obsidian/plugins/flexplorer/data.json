@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "未命名 2.md",
         "AMA573",
         "AMA572 Fixed-Income and Credit Risk",
         "AMA515A Forecasting and Applied Time Series Analysis",
@@ -8356,6 +8357,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Lecture 1",
         "Lecture 01 - 信用风险导论与违约概率.md"
       ]
     },
@@ -8462,6 +8464,70 @@
       "isHidden": false
     },
     "AMA573/附件/期中模拟考试/微信图片_2026-10-13_180134_749.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "未命名 2.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 1": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "附件",
+        "03 - Matrix Exponential Approximation（Notebook 原文代码）.md",
+        "02 - 课内练习解答（英文原文与折叠译文）.md",
+        "01 - Lecture 1（英文原文与折叠译文）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 1/01 - Lecture 1（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 1/02 - 课内练习解答（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 1/03 - Matrix Exponential Approximation（Notebook 原文代码）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 1/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "练习解答-PDF第3页-含手写批注.png",
+        "03_Lecture1_配套计算_生成矩阵的矩阵指数.ipynb",
+        "02_第13页_违约损失折现与公司债价格_截图09-10_1905.PNG",
+        "02_Lecture1_课内练习解答_迁移矩阵与隐含违约强度.pdf",
+        "01_第13页_预期违约损失表与现金流_截图09-10_1900.PNG",
+        "01_Lecture1_原课件_信用风险与违约概率.pdf"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 1/附件/01_Lecture1_原课件_信用风险与违约概率.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 1/附件/01_第13页_预期违约损失表与现金流_截图09-10_1900.PNG": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 1/附件/02_Lecture1_课内练习解答_迁移矩阵与隐含违约强度.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 1/附件/02_第13页_违约损失折现与公司债价格_截图09-10_1905.PNG": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 1/附件/03_Lecture1_配套计算_生成矩阵的矩阵指数.ipynb": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 1/附件/练习解答-PDF第3页-含手写批注.png": {
       "isPinned": false,
       "isHidden": false
     }

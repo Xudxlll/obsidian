@@ -1,0 +1,28 @@
+{
+  "id": "conv-1792057696470-y9f4k3igc",
+  "providerId": "codex",
+  "title": "Explain derivation of final integral",
+  "titleGenerationStatus": "success",
+  "createdAt": 1792057696473,
+  "updatedAt": 1792057742220,
+  "lastResponseAt": 1792057742220,
+  "sessionId": "01a13ef6-6156-7d23-9fc7-67d107fab14b",
+  "selectedModel": "gpt-6.1-sol",
+  "providerState": {
+    "threadId": "01a13ef6-6156-7d23-9fc7-67d107fab14b",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/10/15/rollout-2026-10-15T17-48-16-01a13ef6-6156-7d23-9fc7-67d107fab14b.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "AMA572 Fixed-Income and Credit Risk/Lecture 1/01 - Lecture 1（英文原文与折叠译文）.md",
+  "usage": {
+    "inputTokens": 25489,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 23936,
+    "contextWindow": 475000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 25489,
+    "percentage": 5,
+    "model": "gpt-6.1-sol"
+  }
+}
