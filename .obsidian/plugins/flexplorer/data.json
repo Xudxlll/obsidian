@@ -8531,6 +8531,7 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "06 - 伊藤随机微积分知识框架.md",
         "附件",
         "05 - 手写推导：Ito 引理与布朗运动三阶矩.md",
         "04 - 手写讲解：税盾与违约概率.md",
@@ -8699,6 +8700,10 @@
       "isHidden": false
     },
     "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/10_补充推导第1页_Ito引理与二阶矩_截图09-17_1910.PNG": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/06 - 伊藤随机微积分知识框架.md": {
       "isPinned": false,
       "isHidden": false
     }
