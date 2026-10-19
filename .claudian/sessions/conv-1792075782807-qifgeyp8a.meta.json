@@ -1,0 +1,28 @@
+{
+  "id": "conv-1792075782807-qifgeyp8a",
+  "providerId": "codex",
+  "title": "Explain a phrase's meaning",
+  "titleGenerationStatus": "success",
+  "createdAt": 1792075782813,
+  "updatedAt": 1792413251651,
+  "lastResponseAt": 1792413251651,
+  "sessionId": "01a1400a-5b17-72b3-a5ef-b3f365a03f8e",
+  "selectedModel": "gpt-6.1-sol",
+  "providerState": {
+    "threadId": "01a1400a-5b17-72b3-a5ef-b3f365a03f8e",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/10/15/rollout-2026-10-15T22-49-42-01a1400a-5b17-72b3-a5ef-b3f365a03f8e.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "AMA572 Fixed-Income and Credit Risk/Lecture 1/01 - Lecture 1（英文原文与折叠译文）.md",
+  "usage": {
+    "inputTokens": 152616,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 151936,
+    "contextWindow": 475000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 152616,
+    "percentage": 32,
+    "model": "gpt-6.1-sol"
+  }
+}

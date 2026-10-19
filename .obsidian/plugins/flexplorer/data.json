@@ -8358,13 +8358,8 @@
       "sortOrder": "custom",
       "customOrder": [
         "Lecture 2",
-        "Lecture 1",
-        "Lecture 01 - 信用风险导论与违约概率.md"
+        "Lecture 1"
       ]
-    },
-    "AMA572 Fixed-Income and Credit Risk/Lecture 01 - 信用风险导论与违约概率.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "机器、深度学习额外笔记/Python list、NumPy ndarray 与 pandas Series、DataFrame 的关系与转换.md": {
       "isPinned": false,

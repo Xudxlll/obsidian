@@ -511,13 +511,13 @@ To illustrate the method, consider a corporate bond with maturity 5 years, and a
 Then we have the following table, assuming the default can only happen at times 0.5, 1.5, 2.5, 3.5, 4.5 years, and the one-year default probabilities are the same. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">假设违约仅发生在第 0.5、1.5、2.5、3.5、4.5 年，且每年违约概率相同，可得下表。</span></details>
 
 | Time (Years) | Default Intensity (per year) | Recovery Value (\$) | Risk-Free Value (\$) | Loss Given Default (\$) | Discount Factor | PV of Expected Loss (\$) |
-|---:|---:|---:|---:|---:|---:|---:|
-| 0.5 | $P$ | 40 | 106.73 | 66.73 | 0.9753 | $65.08P$ |
-| 1.5 | $P$ | 40 | 105.97 | 65.97 | 0.9277 | $61.20P$ |
-| 2.5 | $P$ | 40 | 105.17 | 65.17 | 0.8825 | $57.52P$ |
-| 3.5 | $P$ | 40 | 104.34 | 64.34 | 0.8395 | $54.01P$ |
-| 4.5 | $P$ | 40 | 103.46 | 63.36 | 0.7985 | $50.67P$ |
-| | | | | | Total: | $288.48P$ |
+| -----------: | ---------------------------: | ------------------: | -------------------: | ----------------------: | --------------: | -----------------------: |
+|          0.5 |                          $P$ |                  40 |               106.73 |                   66.73 |          0.9753 |                 $65.08P$ |
+|          1.5 |                          $P$ |                  40 |               105.97 |                   65.97 |          0.9277 |                 $61.20P$ |
+|          2.5 |                          $P$ |                  40 |               105.17 |                   65.17 |          0.8825 |                 $57.52P$ |
+|          3.5 |                          $P$ |                  40 |               104.34 |                   64.34 |          0.8395 |                 $54.01P$ |
+|          4.5 |                          $P$ |                  40 |               103.46 |                   63.46 |          0.7985 |                 $50.67P$ |
+|              |                              |                     |                      |                         |          Total: |                $288.48P$ |
 
 <details class="translation-details"><summary>中文译文</summary><span class="translation-body">表头依次为：时间（年）、年度违约强度、回收价值、无风险价值、违约损失、贴现因子、预期损失现值；金额单位均为美元。Total 表示合计。</span></details>
 

@@ -16,14 +16,9 @@
       {
         "draftModel": "gpt-5.6-sol",
         "tabId": "tab-1782959011479-op25ljn",
-        "conversationId": null
-      },
-      {
-        "draftModel": "gpt-6.1-sol",
-        "tabId": "tab-1783326428996-dq6vnrt",
-        "conversationId": "conv-1792057696470-y9f4k3igc"
+        "conversationId": "conv-1792075782807-qifgeyp8a"
       }
     ],
-    "activeTabId": "tab-1783326428996-dq6vnrt"
+    "activeTabId": "tab-1782959011479-op25ljn"
   }
 }
