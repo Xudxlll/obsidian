@@ -391,7 +391,7 @@
     "codex": "high"
   },
   "savedProviderServiceTier": {
-    "codex": "priority"
+    "codex": "default"
   },
   "savedProviderThinkingBudget": {},
   "savedProviderPermissionMode": {

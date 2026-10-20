@@ -156,6 +156,13 @@ $$
 \end{aligned}
 $$
 
+> [!example]- 课堂手写｜换元与积分系数
+> PDF 第3页 · 屏幕显示9月24日19:22。
+>
+> 换元 y＝2σ²x 后，老师补写 x＝y／(2σ²)、dx＝dy／(2σ²)，对应上方积分系数的变化。
+>
+> ![[AMA572 Fixed-Income and Credit Risk/Lecture 3/附件/课堂手写/01_第3页_密度反演换元与Jacobian_截图09-24_1922.jpg|720]]
+
 In summary, with $a=b/\sigma^2$ in the above equation and multiplying by the constant $\exp\{-\frac b{\sigma^2}(-\mu)\}$, we have <details class="translation-details"><summary>中文译文</summary><span class="translation-body">综上，在上式中取 a＝b／σ²，并乘上常数 exp{−(b／σ²)(−μ)}，得到：</span></details>
 
 $$
@@ -230,6 +237,13 @@ $$
 \end{aligned}
 $$
 
+> [!example]- 课堂手写｜漂移参数与负向阈值
+> PDF 第4页 · 屏幕显示9月24日19:51。
+>
+> 对应上方对数过程：μ＝r−δ−σ²／2，b＝log(VB／V0)＜0。屏幕批注把漂移和阈值分别标出。
+>
+> ![[AMA572 Fixed-Income and Credit Risk/Lecture 3/附件/课堂手写/05_第4页_漂移参数与负向阈值对应_截图09-24_1951.jpg|720]]
+
 ## PDF p.5
 
 Thus, <details class="translation-details"><summary>中文译文</summary><span class="translation-body">因此，</span></details>
@@ -244,6 +258,13 @@ $$
 
 where the constant $\xi=\frac{r-\delta}{\sigma^2}-\frac12$. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">其中常数 ξ＝(r−δ)／σ²−1／2。</span></details>
 
+> [!example]- 课堂手写｜波动率因子与ξ的代入
+> PDF 第5页 · 屏幕显示9月24日19:54。
+>
+> 红笔标出σ²因子的提取，以及ξ＝(r−δ)／σ²−1／2的代入，便于核对根号内外的系数。
+>
+> ![[AMA572 Fixed-Income and Credit Risk/Lecture 3/附件/课堂手写/07_第5页_波动率因子与xi参数化简_截图09-24_1954.jpg|720]]
+
 Thus, we have the Laplace transform for the bond price, except the recovery part, is given by <details class="translation-details"><summary>中文译文</summary><span class="translation-body">因而，除违约回收部分以外，债券价格的拉普拉斯变换为：</span></details>
 
 $$
@@ -257,6 +278,13 @@ $$
 \end{aligned}
 $$
 
+> [!example]- 课堂手写｜τ与T如何决定积分分段
+> PDF 第5页 · 屏幕显示9月24日20:05。
+>
+> 用τ∧T＝min{τ,T}划分T≤τ与T＞τ两段，解释上方三项积分的上下限。
+>
+> ![[AMA572 Fixed-Income and Credit Risk/Lecture 3/附件/课堂手写/09_第5页_违约与到期时间分段积分_截图09-24_2005.jpg|720]]
+
 which the first equality follows by changing the order the integration. Now, we only need to compute the Laplace transform of the recovery part: <details class="translation-details"><summary>中文译文</summary><span class="translation-body">第一个等号由交换积分次序得到。接下来只需计算违约回收部分的拉普拉斯变换：</span></details>
 
 $$
@@ -267,6 +295,13 @@ $$
 &=cE\left\{\int_\tau^\infty e^{-(s+r)T}dT\right\}=\frac c{s+r}E[e^{-(s+r)\tau}].
 \end{aligned}
 $$
+
+> [!example]- 课堂手写｜本金票息与回收两部分合并
+> PDF 第5–6页 · 屏幕显示9月24日20:12。
+>
+> 老师将本金与票息部分、违约回收部分标为两项后相加；对应下一页债券价格变换的总式。
+>
+> ![[AMA572 Fixed-Income and Credit Risk/Lecture 3/附件/课堂手写/12_第5至6页_本金票息与回收变换汇总_截图09-24_2012.jpg|720]]
 
 ## PDF p.6
 
@@ -309,6 +344,307 @@ is given by <details class="translation-details"><summary>中文译文</summary>
 $$
 e^{\beta T}\left\{e^{\sqrt{\alpha\beta}}\Phi\left(-\sqrt{\frac\alpha{2T}}-\sqrt{2\beta T}\right)+e^{-\sqrt{\alpha\beta}}\Phi\left(-\sqrt{\frac\alpha{2T}}+\sqrt{2\beta T}\right)\right\}.
 $$
+
+
+### 作业解答（补充）：反演拉普拉斯变换求债券价格
+
+> [!note] 补充解答
+> 以下为作业的中文分步解答，不属于原课件正文。核心方法是：**整理成反演表的形式，再使用平移性质。** 假设 $r>0$、$\sigma>0$、$V>V_B>0$、$T>0$；其中 $V$ 是当前资产价值，对应本节时刻 $0$ 的 $V_0$。
+
+#### 1. 写出待反演的表达式
+
+根据讲义，债券价格的拉普拉斯变换为：
+
+$$
+\widehat B(s)
+=
+\frac{\rho+s}{s(r+s)}
+-
+\left[
+\frac{\rho}{r}\frac1s
++
+\left(1-\frac{\rho}{r}-c\right)\frac1{s+r}
+\right]F(s),
+$$
+
+其中：
+
+$$
+F(s)=
+\exp\left\{
+\ln\left(\frac{V_B}{V}\right)
+\left[
+\sqrt{\xi^2+\frac{2(s+r)}{\sigma^2}}+\xi
+\right]
+\right\},
+\qquad
+\xi=\frac{r-\delta}{\sigma^2}-\frac12.
+$$
+
+这里 $F(s)=E[e^{-(s+r)\tau}]$。目标是求：
+
+$$
+B(V;V_B,T)=\mathcal L^{-1}[\widehat B(s)](T).
+$$
+
+利用反演的线性性质，只需分别处理：
+
+$$
+\frac{\rho+s}{s(r+s)},
+\qquad
+\frac{F(s)}s,
+\qquad
+\frac{F(s)}{s+r}.
+$$
+
+#### 2. 将指数项整理成查表形式
+
+定义：
+
+$$
+a=\ln\left(\frac{V}{V_B}\right)>0,
+\qquad
+\alpha=\frac{2a^2}{\sigma^2},
+\qquad
+\kappa=r+\frac{\sigma^2\xi^2}{2}.
+$$
+
+由于 $\ln(V_B/V)=-a$，所以：
+
+$$
+F(s)
+=
+e^{-a\xi}
+\exp\left[
+-a\sqrt{\xi^2+\frac{2(s+r)}{\sigma^2}}
+\right].
+$$
+
+又因为：
+
+$$
+a\sqrt{\xi^2+\frac{2(s+r)}{\sigma^2}}
+=
+\sqrt{\alpha(s+\kappa)},
+$$
+
+得到：
+
+$$
+\boxed{
+F(s)=e^{-a\xi}e^{-\sqrt{\alpha(s+\kappa)}}.
+}
+$$
+
+这已经接近题目提供的反演表，只是里面的 $s$ 换成了 $s+\kappa$。
+
+#### 3. 记下反演表与平移性质
+
+将题目给出的反演结果记为 $H_\beta(T)$：
+
+$$
+\mathcal L^{-1}
+\left[
+\frac{e^{-\sqrt{\alpha s}}}{s-\beta}
+\right](T)
+=
+H_\beta(T),
+$$
+
+其中：
+
+$$
+\begin{aligned}
+H_\beta(T)
+=e^{\beta T}\Bigg[
+&e^{\sqrt{\alpha\beta}}
+\Phi\left(
+-\sqrt{\frac{\alpha}{2T}}-\sqrt{2\beta T}
+\right)
+\\
++{}&
+e^{-\sqrt{\alpha\beta}}
+\Phi\left(
+-\sqrt{\frac{\alpha}{2T}}+\sqrt{2\beta T}
+\right)
+\Bigg].
+\end{aligned}
+$$
+
+$\Phi$ 表示标准正态分布的累积分布函数。$H_\beta$ 只是这段显式公式的简称，$\alpha$ 使用第 2 步定义的值。
+
+接下来使用平移性质。如果：
+
+$$
+\mathcal L^{-1}[G(s)](T)=g(T),
+$$
+
+那么：
+
+$$
+\boxed{
+\mathcal L^{-1}[G(s+\kappa)](T)
+=
+e^{-\kappa T}g(T).
+}
+$$
+
+也就是：**变换式中的 $s$ 替换成 $s+\kappa$，反演结果乘以 $e^{-\kappa T}$。**
+
+#### 4. 分别求三个部分的反演
+
+**（1）第一部分：直接使用题目给出的结果**
+
+$$
+\boxed{
+\mathcal L^{-1}
+\left[
+\frac{\rho+s}{s(r+s)}
+\right](T)
+=
+\frac{\rho}{r}
++
+\left(1-\frac{\rho}{r}\right)e^{-rT}.
+}
+$$
+
+**（2）第二部分：反演 $F(s)/s$**
+
+将分母写成：
+
+$$
+s=(s+\kappa)-\kappa.
+$$
+
+于是：
+
+$$
+\frac{F(s)}s
+=
+e^{-a\xi}
+\frac{e^{-\sqrt{\alpha(s+\kappa)}}}
+{(s+\kappa)-\kappa}.
+$$
+
+对照反演表，这里取 $\beta=\kappa$。结合平移性质：
+
+$$
+\boxed{
+\mathcal L^{-1}
+\left[\frac{F(s)}s\right](T)
+=
+e^{-a\xi-\kappa T}H_\kappa(T).
+}
+$$
+
+**（3）第三部分：反演 $F(s)/(s+r)$**
+
+将分母写成：
+
+$$
+s+r=(s+\kappa)-(\kappa-r).
+$$
+
+于是：
+
+$$
+\frac{F(s)}{s+r}
+=
+e^{-a\xi}
+\frac{e^{-\sqrt{\alpha(s+\kappa)}}}
+{(s+\kappa)-(\kappa-r)}.
+$$
+
+对照反演表，这一次取 $\beta=\kappa-r$。所以：
+
+$$
+\boxed{
+\mathcal L^{-1}
+\left[\frac{F(s)}{s+r}\right](T)
+=
+e^{-a\xi-\kappa T}H_{\kappa-r}(T).
+}
+$$
+
+两次查表的区别，仅在于 $\beta$ 分别取 $\kappa$ 和 $\kappa-r$。
+
+#### 5. 合并得到最终答案
+
+将三部分反演结果代回，得到：
+
+$$
+\boxed{
+\begin{aligned}
+B(V;V_B,T)
+={}&
+\frac{\rho}{r}
++
+\left(1-\frac{\rho}{r}\right)e^{-rT}
+\\
+&-
+e^{-a\xi-\kappa T}
+\left[
+\frac{\rho}{r}H_\kappa(T)
++
+\left(1-\frac{\rho}{r}-c\right)
+H_{\kappa-r}(T)
+\right].
+\end{aligned}
+}
+$$
+
+其中所有参数定义为：
+
+$$
+a=\ln\left(\frac{V}{V_B}\right),
+\qquad
+\xi=\frac{r-\delta}{\sigma^2}-\frac12,
+$$
+
+$$
+\alpha=\frac{2a^2}{\sigma^2},
+\qquad
+\kappa=r+\frac{\sigma^2\xi^2}{2},
+$$
+
+而 $H_\beta(T)$ 由第 3 步的正态分布函数表达式给出。**这就是完整的债券价格公式，没有留下未计算的逆变换。**
+
+**边界情况。** 由于：
+
+$$
+\kappa-r=\frac{\sigma^2\xi^2}{2}\geq0,
+$$
+
+如果 $\xi=0$，第二次查表时会出现 $\beta=0$。此时取反演表在 $\beta\downarrow0$ 时的极限：
+
+$$
+H_0(T)
+=
+2\Phi\left(-\sqrt{\frac{\alpha}{2T}}\right).
+$$
+
+**结果的直观解释。** 最终答案的前两项：
+
+$$
+\frac{\rho}{r}
++
+\left(1-\frac{\rho}{r}\right)e^{-rT}
+=
+e^{-rT}+\int_0^T\rho e^{-ru}\,du,
+$$
+
+正是无违约债券的价格。因此，答案的整体结构是：
+
+$$
+\boxed{
+\text{债券价格}
+=
+\text{无违约债券价格}
+-
+\text{考虑违约及回收后的损失调整}.
+}
+$$
+
 
 ## PDF p.8
 
@@ -492,6 +828,13 @@ $$
 B_{\mathrm{rf}}(T)=e^{-rT}+\int_0^T\rho e^{-rt}\,dt=\frac\rho r+\frac{r-\rho}r e^{-rT}.
 $$
 
+> [!example]- 课堂手写｜无风险连续票息债券的反演
+> PDF 第10页／补充第3页 · 屏幕显示9月24日20:37。
+>
+> 老师将首项拆为易于反演的部分，并核对无风险连续票息债券的价格。
+>
+> ![[AMA572 Fixed-Income and Credit Risk/Lecture 3/附件/课堂手写/01_PDF第10页_无风险债券价格反演_截图09-24_2037.jpg|720]]
+
 Next, define <details class="translation-details"><summary>中文译文</summary><span class="translation-body">接下来定义：</span></details>
 
 $$
@@ -516,6 +859,13 @@ $$
 \beta_a=\lambda-a.
 $$
 
+> [!example]- 课堂手写｜u、λ与βa的变量平移
+> PDF 第10页／补充第3页 · 屏幕显示9月24日20:42。
+>
+> 这里使用课件记号u＝s＋λ、βa＝λ−a；把s＋a改写为u−βa后再套反演表。
+>
+> ![[AMA572 Fixed-Income and Credit Risk/Lecture 3/附件/课堂手写/02_PDF第10页_Ga函数与Laplace变量平移_截图09-24_2042.jpg|720]]
+
 ## PDF p.11
 
 Therefore, <details class="translation-details"><summary>中文译文</summary><span class="translation-body">因此，</span></details>
@@ -535,6 +885,13 @@ we obtain the shifted inverse <details class="translation-details"><summary>中�
 $$
 G_a(T)=e^{-aT}\left[e^{\sqrt{\alpha(\lambda-a)}}\Phi\left(-\sqrt{\frac\alpha{2T}}-\sqrt{2(\lambda-a)T}\right)+e^{-\sqrt{\alpha(\lambda-a)}}\Phi\left(-\sqrt{\frac\alpha{2T}}+\sqrt{2(\lambda-a)T}\right)\right].
 $$
+
+> [!example]- 课堂手写｜反演表与Ga(T)的参数对应
+> PDF 第11页／补充第4页 · 屏幕显示9月24日20:45。
+>
+> 框出的反演表与移位后的Ga(T)一一对应；注意β＝βa＝λ−a，以及反演结果中的指数因子。
+>
+> ![[AMA572 Fixed-Income and Credit Risk/Lecture 3/附件/课堂手写/04_PDF第11页_反演表代入与Ga表达式_截图09-24_2045.jpg|720]]
 
 In particular, <details class="translation-details"><summary>中文译文</summary><span class="translation-body">特别地，</span></details>
 

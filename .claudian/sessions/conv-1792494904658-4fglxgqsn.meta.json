@@ -1,0 +1,28 @@
+{
+  "id": "conv-1792494904658-4fglxgqsn",
+  "providerId": "codex",
+  "title": "解释一句话的含义",
+  "titleGenerationStatus": "success",
+  "createdAt": 1792494904663,
+  "updatedAt": 1792495195551,
+  "lastResponseAt": 1792495195551,
+  "sessionId": "01a15905-a65a-77c0-9dde-46342c5239cd",
+  "selectedModel": "gpt-6.1-sol",
+  "providerState": {
+    "threadId": "01a15905-a65a-77c0-9dde-46342c5239cd",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/10/20/rollout-2026-10-20T19-15-09-01a15905-a65a-77c0-9dde-46342c5239cd.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "AMA572 Fixed-Income and Credit Risk/Lecture 4/01 - Lecture 4（英文原文与折叠译文）.md",
+  "usage": {
+    "inputTokens": 44800,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 44288,
+    "contextWindow": 258400,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 44800,
+    "percentage": 17,
+    "model": "gpt-6.1-sol"
+  }
+}

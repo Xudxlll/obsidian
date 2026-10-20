@@ -8471,7 +8471,7 @@
     "AMA572 Fixed-Income and Credit Risk/Lecture 1": {
       "isPinned": false,
       "isHidden": false,
-      "sortOrder": "custom",
+      "sortOrder": "byName",
       "customOrder": [
         "附件",
         "04 - 课堂重点与考试提醒.md",
@@ -8532,7 +8532,7 @@
     "AMA572 Fixed-Income and Credit Risk/Lecture 2": {
       "isPinned": false,
       "isHidden": false,
-      "sortOrder": "custom",
+      "sortOrder": "byName",
       "customOrder": [
         "07 - 课堂重点与考试提醒.md",
         "附件",
@@ -8716,7 +8716,7 @@
     "AMA572 Fixed-Income and Credit Risk/Midterm": {
       "isPinned": false,
       "isHidden": false,
-      "sortOrder": "custom",
+      "sortOrder": "byName",
       "customOrder": [
         "05 - 课堂重点与考试提醒.md",
         "附件",
@@ -8782,7 +8782,7 @@
     "AMA572 Fixed-Income and Credit Risk/Lecture 5": {
       "isPinned": false,
       "isHidden": false,
-      "sortOrder": "custom",
+      "sortOrder": "byName",
       "customOrder": [
         "02 - 课堂重点与考试提醒.md",
         "附件",
@@ -8813,11 +8813,11 @@
     "AMA572 Fixed-Income and Credit Risk/Lecture 4": {
       "isPinned": false,
       "isHidden": false,
-      "sortOrder": "custom",
+      "sortOrder": "byName",
       "customOrder": [
+        "附件",
         "03 - 课堂重点与考试提醒.md",
         "01 - Lecture 4（英文原文与折叠译文）.md",
-        "附件",
         "02 - 总债务价值补充推导（课堂原图）.md",
         "00 - Lecture 4 资料索引.md"
       ]
@@ -8986,10 +8986,10 @@
     "AMA572 Fixed-Income and Credit Risk/Lecture 3": {
       "isPinned": false,
       "isHidden": false,
-      "sortOrder": "custom",
+      "sortOrder": "byName",
       "customOrder": [
-        "02 - 课堂重点与考试提醒.md",
         "附件",
+        "02 - 课堂重点与考试提醒.md",
         "01 - Lecture 3（英文原文与折叠译文）.md",
         "00 - Lecture 3 资料索引.md"
       ]
@@ -9007,6 +9007,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "课堂手写",
         "01_Lecture3_原课件_首次穿越与Black-Cox模型_含应用补充.pdf"
       ]
     },
@@ -9096,6 +9097,53 @@
       "isHidden": false
     },
     "AMA572 Fixed-Income and Credit Risk/附件/授课字幕/midterm_字幕.srt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 3/附件/课堂手写": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "12_第5至6页_本金票息与回收变换汇总_截图09-24_2012.jpg",
+        "09_第5页_违约与到期时间分段积分_截图09-24_2005.jpg",
+        "07_第5页_波动率因子与xi参数化简_截图09-24_1954.jpg",
+        "05_第4页_漂移参数与负向阈值对应_截图09-24_1951.jpg",
+        "04_PDF第11页_反演表代入与Ga表达式_截图09-24_2045.jpg",
+        "02_PDF第10页_Ga函数与Laplace变量平移_截图09-24_2042.jpg",
+        "01_第3页_密度反演换元与Jacobian_截图09-24_1922.jpg",
+        "01_PDF第10页_无风险债券价格反演_截图09-24_2037.jpg"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 3/附件/课堂手写/01_PDF第10页_无风险债券价格反演_截图09-24_2037.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 3/附件/课堂手写/01_第3页_密度反演换元与Jacobian_截图09-24_1922.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 3/附件/课堂手写/02_PDF第10页_Ga函数与Laplace变量平移_截图09-24_2042.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 3/附件/课堂手写/04_PDF第11页_反演表代入与Ga表达式_截图09-24_2045.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 3/附件/课堂手写/05_第4页_漂移参数与负向阈值对应_截图09-24_1951.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 3/附件/课堂手写/07_第5页_波动率因子与xi参数化简_截图09-24_1954.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 3/附件/课堂手写/09_第5页_违约与到期时间分段积分_截图09-24_2005.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 3/附件/课堂手写/12_第5至6页_本金票息与回收变换汇总_截图09-24_2012.jpg": {
       "isPinned": false,
       "isHidden": false
     }
