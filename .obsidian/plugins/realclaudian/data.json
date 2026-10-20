@@ -14,8 +14,9 @@
         "conversationId": "conv-1783416290359-x051rrkki"
       },
       {
+        "draftModel": "gpt-6.1-sol",
         "tabId": "tab-1782959011479-op25ljn",
-        "conversationId": "conv-1792075782807-qifgeyp8a"
+        "conversationId": "conv-1792468999337-t6htm3chb"
       }
     ],
     "activeTabId": "tab-1782959011479-op25ljn"

@@ -4,8 +4,8 @@
   "title": "Explain a phrase's meaning",
   "titleGenerationStatus": "success",
   "createdAt": 1792075782813,
-  "updatedAt": 1792425641576,
-  "lastResponseAt": 1792425641576,
+  "updatedAt": 1792468974420,
+  "lastResponseAt": 1792467770120,
   "sessionId": "01a1400a-5b17-72b3-a5ef-b3f365a03f8e",
   "selectedModel": "gpt-6.1-sol",
   "providerState": {
@@ -16,13 +16,13 @@
   },
   "currentNote": "AMA572 Fixed-Income and Credit Risk/Lecture 1/01 - Lecture 1（英文原文与折叠译文）.md",
   "usage": {
-    "inputTokens": 274722,
+    "inputTokens": 302618,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 272640,
+    "cacheReadInputTokens": 300288,
     "contextWindow": 475000,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 274722,
-    "percentage": 58,
+    "contextTokens": 302618,
+    "percentage": 64,
     "model": "gpt-6.1-sol"
   }
 }

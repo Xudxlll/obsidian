@@ -1,0 +1,28 @@
+{
+  "id": "conv-1792468999337-t6htm3chb",
+  "providerId": "codex",
+  "title": "绘制两种情况的图像并插入第275行",
+  "titleGenerationStatus": "success",
+  "createdAt": 1792468999348,
+  "updatedAt": 1792469700682,
+  "lastResponseAt": 1792469700682,
+  "sessionId": "01a1577a-5da9-7ba0-9bd4-1cb6205e8c3c",
+  "selectedModel": "gpt-6.1-sol",
+  "providerState": {
+    "threadId": "01a1577a-5da9-7ba0-9bd4-1cb6205e8c3c",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/10/20/rollout-2026-10-20T12-03-24-01a1577a-5da9-7ba0-9bd4-1cb6205e8c3c.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "AMA572 Fixed-Income and Credit Risk/Lecture 2/01 - Lecture 2（英文原文与折叠译文）.md",
+  "usage": {
+    "inputTokens": 82160,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 80896,
+    "contextWindow": 475000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 82160,
+    "percentage": 17,
+    "model": "gpt-6.1-sol"
+  }
+}
