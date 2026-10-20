@@ -5,7 +5,6 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "未命名 2.md",
         "AMA573",
         "AMA572 Fixed-Income and Credit Risk",
         "AMA515A Forecasting and Applied Time Series Analysis",
@@ -8355,8 +8354,12 @@
     "AMA572 Fixed-Income and Credit Risk": {
       "isPinned": false,
       "isHidden": false,
-      "sortOrder": "custom",
+      "sortOrder": "byName",
       "customOrder": [
+        "Lecture 3",
+        "Lecture 4",
+        "Lecture 5",
+        "Midterm",
         "Lecture 2",
         "Lecture 1"
       ]
@@ -8463,20 +8466,16 @@
       "isPinned": false,
       "isHidden": false
     },
-    "未命名 2.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "AMA572 Fixed-Income and Credit Risk/Lecture 1": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "附件",
         "03 - Matrix Exponential Approximation（Notebook 原文代码）.md",
         "02 - 课内练习解答（英文原文与折叠译文）.md",
         "01 - Lecture 1（英文原文与折叠译文）.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA572 Fixed-Income and Credit Risk/Lecture 1/01 - Lecture 1（英文原文与折叠译文）.md": {
       "isPinned": false,
@@ -8493,6 +8492,7 @@
     "AMA572 Fixed-Income and Credit Risk/Lecture 1/附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "练习解答-PDF第3页-含手写批注.png",
         "03_Lecture1_配套计算_生成矩阵的矩阵指数.ipynb",
@@ -8500,8 +8500,7 @@
         "02_Lecture1_课内练习解答_迁移矩阵与隐含违约强度.pdf",
         "01_第13页_预期违约损失表与现金流_截图09-10_1900.PNG",
         "01_Lecture1_原课件_信用风险与违约概率.pdf"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA572 Fixed-Income and Credit Risk/Lecture 1/附件/01_Lecture1_原课件_信用风险与违约概率.pdf": {
       "isPinned": false,
@@ -8530,6 +8529,7 @@
     "AMA572 Fixed-Income and Credit Risk/Lecture 2": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "06 - 伊藤随机微积分知识框架.md",
         "附件",
@@ -8539,8 +8539,7 @@
         "01 - Lecture 2（英文原文与折叠译文）.md",
         "02 - 补充推导（Ito 等距版，英文原文与折叠译文）.md",
         "00 - Lecture 2 资料索引.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA572 Fixed-Income and Credit Risk/Lecture 2/00 - Lecture 2 资料索引.md": {
       "isPinned": false,
@@ -8569,6 +8568,7 @@
     "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "10_补充推导第1页_Ito引理与二阶矩_截图09-17_1910.PNG",
         "09_补充推导第1页_布朗运动一阶矩_截图09-17_1857.PNG",
@@ -8596,8 +8596,7 @@
         "02_Lecture2_补充推导_税盾与破产成本_Ito等距版.pdf",
         "01_第1页_股权收益与优先次级债表_截图09-10_1933.PNG",
         "01_Lecture2_原课件_或有索取权与Merton模型.pdf"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/01_Lecture2_原课件_或有索取权与Merton模型.pdf": {
       "isPinned": false,
@@ -8704,6 +8703,303 @@
       "isHidden": false
     },
     "AMA572 Fixed-Income and Credit Risk/Lecture 2/06 - 伊藤随机微积分知识框架.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Midterm": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "附件",
+        "04 - 期中练习卷与详细解答（英文原文与折叠译文）.md",
+        "03 - 修订版期中测试与详解（英文原文与折叠译文）.md",
+        "02 - 期中考试详细解答（英文原文与折叠译文）.md",
+        "01 - 期中考试题目（英文原文与折叠译文）.md",
+        "00 - Midterm 资料索引.md"
+      ]
+    },
+    "AMA572 Fixed-Income and Credit Risk/Midterm/00 - Midterm 资料索引.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Midterm/01 - 期中考试题目（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Midterm/02 - 期中考试详细解答（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Midterm/03 - 修订版期中测试与详解（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Midterm/04 - 期中练习卷与详细解答（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Midterm/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "AMA572_practice_questions_solutions.pdf",
+        "Exercise_TA.pdf",
+        "AMA572_midterm_solutions.pdf",
+        "AMA572_midterm_questions.pdf",
+        "AMA572_Revised_Midterm_Detailed_Solutions.pdf"
+      ]
+    },
+    "AMA572 Fixed-Income and Credit Risk/Midterm/附件/AMA572_Revised_Midterm_Detailed_Solutions.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Midterm/附件/AMA572_midterm_questions.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Midterm/附件/AMA572_midterm_solutions.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Midterm/附件/Exercise_TA.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Midterm/附件/AMA572_practice_questions_solutions.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 5": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "附件",
+        "01 - Lecture 5（英文原文与折叠译文）.md",
+        "00 - Lecture 5 资料索引.md"
+      ]
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 5/00 - Lecture 5 资料索引.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 5/01 - Lecture 5（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 5/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "01_Lecture5_原课件_强度模型与信用衍生品.pdf"
+      ]
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 5/附件/01_Lecture5_原课件_强度模型与信用衍生品.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "01 - Lecture 4（英文原文与折叠译文）.md",
+        "附件",
+        "02 - 总债务价值补充推导（课堂原图）.md",
+        "00 - Lecture 4 资料索引.md"
+      ]
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/00 - Lecture 4 资料索引.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/02 - 总债务价值补充推导（课堂原图）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "课堂截图",
+        "补充推导_总债务价值",
+        "原始合订版",
+        "参考论文",
+        "01_Lecture4_原课件_Leland-Toft内生违约模型.pdf"
+      ]
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/01 - Lecture 4（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/01_Lecture4_原课件_Leland-Toft内生违约模型.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/参考论文": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "Chen-Kou_2009_内生违约与跳跃风险_信用利差资本结构及隐含波动率.pdf"
+      ]
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/原始合订版": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "Lecture4与5_原始合订课件_16页.pdf"
+      ]
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/补充推导_总债务价值": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "07_回收项与期望合并_截图10-08_1949.png",
+        "06_违约回收项积分_截图10-08_1948.png",
+        "05_期望与时间积分变换_截图10-08_1945.png",
+        "04_积分拆分步骤_截图10-08_1941.png",
+        "03_总债务价值分项整理_截图10-08_1939.png",
+        "02_总债务价值起始定价式_截图10-08_1938.png",
+        "01_总债务价值Laplace变换_原纸拍照.jpg"
+      ]
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/课堂截图": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "12_第8页_最优债务水平凹性证明_截图10-08_2053.png",
+        "11_第7页_最优违约边界光滑粘贴条件_截图10-08_2022.png",
+        "10_第5页_首次穿越Laplace变换补充推导提示_截图10-08_1930.png",
+        "09_第4页_价值命题求导续写_截图10-08_2018.png",
+        "08_第4页_公司债务股权价值命题_截图10-08_2016.png",
+        "07_第3页_税盾积分期望_截图10-08_1910.png",
+        "06_第3页_贴现期望与公司价值_截图10-08_1908.png",
+        "05_第3页_到期前违约与回收_截图10-08_1905.png",
+        "04_第3页_未违约支付项_截图10-08_1904.png",
+        "03_第3页_债券价值与存续情形_截图10-08_1903.png",
+        "02_第2页_首次触及违约边界与回收_截图10-08_1915.png",
+        "01_第1页_公司资产GBM与对数过程_截图10-08_1926.png"
+      ]
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/参考论文/Chen-Kou_2009_内生违约与跳跃风险_信用利差资本结构及隐含波动率.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/原始合订版/Lecture4与5_原始合订课件_16页.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/补充推导_总债务价值/01_总债务价值Laplace变换_原纸拍照.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/补充推导_总债务价值/02_总债务价值起始定价式_截图10-08_1938.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/补充推导_总债务价值/03_总债务价值分项整理_截图10-08_1939.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/补充推导_总债务价值/04_积分拆分步骤_截图10-08_1941.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/补充推导_总债务价值/05_期望与时间积分变换_截图10-08_1945.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/补充推导_总债务价值/06_违约回收项积分_截图10-08_1948.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/补充推导_总债务价值/07_回收项与期望合并_截图10-08_1949.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/课堂截图/01_第1页_公司资产GBM与对数过程_截图10-08_1926.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/课堂截图/02_第2页_首次触及违约边界与回收_截图10-08_1915.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/课堂截图/03_第3页_债券价值与存续情形_截图10-08_1903.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/课堂截图/04_第3页_未违约支付项_截图10-08_1904.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/课堂截图/05_第3页_到期前违约与回收_截图10-08_1905.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/课堂截图/06_第3页_贴现期望与公司价值_截图10-08_1908.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/课堂截图/07_第3页_税盾积分期望_截图10-08_1910.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/课堂截图/08_第4页_公司债务股权价值命题_截图10-08_2016.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/课堂截图/09_第4页_价值命题求导续写_截图10-08_2018.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/课堂截图/10_第5页_首次穿越Laplace变换补充推导提示_截图10-08_1930.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/课堂截图/11_第7页_最优违约边界光滑粘贴条件_截图10-08_2022.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/附件/课堂截图/12_第8页_最优债务水平凹性证明_截图10-08_2053.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 3": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "附件",
+        "01 - Lecture 3（英文原文与折叠译文）.md",
+        "00 - Lecture 3 资料索引.md"
+      ]
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 3/00 - Lecture 3 资料索引.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 3/01 - Lecture 3（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 3/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "01_Lecture3_原课件_首次穿越与Black-Cox模型_含应用补充.pdf"
+      ]
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 3/附件/01_Lecture3_原课件_首次穿越与Black-Cox模型_含应用补充.pdf": {
       "isPinned": false,
       "isHidden": false
     }
