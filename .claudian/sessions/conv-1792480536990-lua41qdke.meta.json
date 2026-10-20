@@ -1,0 +1,28 @@
+{
+  "id": "conv-1792480536990-lua41qdke",
+  "providerId": "codex",
+  "title": "Explain Laplace transform and first passage time",
+  "titleGenerationStatus": "success",
+  "createdAt": 1792480536991,
+  "updatedAt": 1792489024336,
+  "lastResponseAt": 1792489024336,
+  "sessionId": "01a1582a-6aa1-7c33-b2ad-b5b995014fce",
+  "selectedModel": "gpt-6.1-sol",
+  "providerState": {
+    "threadId": "01a1582a-6aa1-7c33-b2ad-b5b995014fce",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/10/20/rollout-2026-10-20T15-15-42-01a1582a-6aa1-7c33-b2ad-b5b995014fce.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "AMA572 Fixed-Income and Credit Risk/Lecture 3/01 - Lecture 3（英文原文与折叠译文）.md",
+  "usage": {
+    "inputTokens": 55666,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 54784,
+    "contextWindow": 475000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 55666,
+    "percentage": 12,
+    "model": "gpt-6.1-sol"
+  }
+}

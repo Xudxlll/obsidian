@@ -1,0 +1,3280 @@
+1
+00:00:12,810 --> 00:00:13,820
+Li Xun: Okay.
+
+2
+00:00:14,310 --> 00:00:15,290
+Li Xun: So…
+
+3
+00:00:15,500 --> 00:00:27,880
+Li Xun: We delete a little bit apart, okay? So, we keep up the following. Last time, we already introduced until to here, it's okay? So, this we need.
+
+4
+00:00:27,980 --> 00:00:30,260
+Li Xun: But we delete.
+
+5
+00:00:30,280 --> 00:00:48,190
+Li Xun: proof part, because it's, so far, you may not know what is the optional, sampling theory. This does actually cause to another teacher's cost, okay? So, you have to know this knowledge with fully actually used to the cancer is for this part.
+
+6
+00:00:48,830 --> 00:00:49,700
+Li Xun: Cancel.
+
+7
+00:00:49,810 --> 00:00:51,550
+Li Xun: Okay? Fully cancel.
+
+8
+00:00:52,510 --> 00:00:53,700
+Li Xun: Fully canceled.
+
+9
+00:00:54,650 --> 00:01:09,370
+Li Xun: Okay, I may not have mentioned again, okay? So, because just now we cancel for this, so also, maybe we cancel a little bit of the information, okay? Not all, okay? Just until for…
+
+10
+00:01:09,750 --> 00:01:11,620
+Li Xun: This one. Okay.
+
+11
+00:01:11,870 --> 00:01:13,250
+Li Xun: Until for this one.
+
+12
+00:01:13,430 --> 00:01:31,609
+Li Xun: Okay. So, now we suppose we just corresponding to what? We should… we have for this result, okay, we have for this result. So, now first, we discuss is the equation 1, okay, equation 1. So, we suppose
+
+13
+00:01:31,720 --> 00:01:34,620
+Li Xun: We know for this result.
+
+14
+00:01:34,980 --> 00:01:43,180
+Li Xun: We know for this data, this expectation, okay? Top B is what? Top B is a random variable.
+
+15
+00:01:43,330 --> 00:01:48,459
+Li Xun: Toby, for this random variable, how to define is using for this fundamental
+
+16
+00:01:48,790 --> 00:02:00,140
+Li Xun: idea, defined. Last time we introduced, this means the first time is meter the minimum, okay, minimum time. Meter is the… for this, for this is the…
+
+17
+00:02:00,590 --> 00:02:09,800
+Li Xun: When a process actually is the heat, is B value. This B is a positive, okay? So.
+
+18
+00:02:10,090 --> 00:02:26,610
+Li Xun: this, when I process the following for this procedure, okay, following for this expansion. Then, first, the heat is what? B, this value, is the minimum time. So, corresponding to this minima time, we take expan… we take the…
+
+19
+00:02:26,720 --> 00:02:39,390
+Li Xun: expectation of E, negative S, and the top B. Maybe for this one, you suppose you know you have got this result, okay? Get this result. That's all.
+
+20
+00:02:39,500 --> 00:02:51,470
+Li Xun: So you don't care, how to get for this result. How to get for this result actually is using what? The following proof, okay? Now we just used the
+
+21
+00:02:51,710 --> 00:02:57,360
+Li Xun: skip this proof. So, Professor Ko, for here, this right is,
+
+22
+00:02:57,860 --> 00:03:05,350
+Li Xun: I think it is wrong. Maybe, Professor Ko, just write down is what? Just write down is that for any…
+
+23
+00:03:05,660 --> 00:03:12,729
+Li Xun: For any S greater than 0, just to help for this result, that's all.
+
+24
+00:03:13,240 --> 00:03:19,370
+Li Xun: Okay? Actually, Professor Koh, in this theory, did not use the Laplace transformation.
+
+25
+00:03:19,760 --> 00:03:31,239
+Li Xun: where to use the Laplace transformation? Not in for this theory. I, strictly needed his knowledge. Actually, Professor Coe used the Laplace transformation.
+
+26
+00:03:31,410 --> 00:03:33,320
+Li Xun: for landmark.
+
+27
+00:03:33,920 --> 00:03:35,980
+Li Xun: For this lemma, using the…
+
+28
+00:03:36,270 --> 00:03:48,619
+Li Xun: Laplace transformation and the Laplace inverse transformation. Okay, using for this idea, Professor Ko introduced how to get, how to get for this, the top B.
+
+29
+00:03:48,750 --> 00:03:52,420
+Li Xun: This random variable, what is the density?
+
+30
+00:03:52,840 --> 00:04:09,389
+Li Xun: Okay, so you… Professor Ku, how to get for this result 1 and 2, actually using this proof? This proof did not mention yesterday the Laplace transformation. This proof should be using the fundamental idea, is the optional sampling theory.
+
+31
+00:04:09,760 --> 00:04:18,130
+Li Xun: Altically, yeah. So… I think Professor Ko, this origin notes Maybe… is not…
+
+32
+00:04:18,240 --> 00:04:21,310
+Li Xun: He did not write it by himself.
+
+33
+00:04:21,320 --> 00:04:34,520
+Li Xun: Maybe he asked one of the tutors at the National University of Singapore. Then he passed us to deliver for this. So, don't care. Next year, I will use the GPT rewrite for these notes, okay? So, also.
+
+34
+00:04:34,520 --> 00:04:49,569
+Li Xun: I also tried this, but this semester, I will not just offer to you. After class, you can try to do, you know what? You can upload our notes, okay? Our lecture notes. Then you talk to the GPT, you say, I…
+
+35
+00:04:49,960 --> 00:04:51,190
+Li Xun: For me, I personally…
+
+36
+00:04:51,660 --> 00:04:58,099
+Li Xun: I want to let knowledge. Could you please give me is the one that, notes.
+
+37
+00:05:00,430 --> 00:05:01,440
+Li Xun: knowledge.
+
+38
+00:05:01,630 --> 00:05:02,920
+Li Xun: By myself.
+
+39
+00:05:03,090 --> 00:05:09,729
+Li Xun: then GPT will give you a very, very good notes. Also, you talk to him. Maybe you actually is the beginner.
+
+40
+00:05:09,860 --> 00:05:29,350
+Li Xun: or he's not beginner. I'm really clear. Once you are a beginner, maybe he will give you where it's a very low level, step by step, okay? Also, you can ask him, he'll give you the, maybe the median and the high level. I really clear. Also, you can ask, Hin… ask, AI,
+
+41
+00:05:29,350 --> 00:05:40,829
+Li Xun: give you is what is some of the example. Maybe you can ask AI corresponding to this note, how to calculate? You can ask him, give you a numerical example.
+
+42
+00:05:40,900 --> 00:05:50,880
+Li Xun: Also, you can… I already tried, but I did not give you, because I want to keep up with the notes. Okay, actually, maybe, for example, you can talk to…
+
+43
+00:05:51,080 --> 00:06:03,819
+Li Xun: GPT, give you for this one, okay? Then ask GPT, just give you the, result is for… similar, just now, I show you the picture, it's okay? This is by myself, the show picture. Actually, you ask GPT…
+
+44
+00:06:04,070 --> 00:06:13,740
+Li Xun: give you is what a civil sample, okay? So, just now, I write on several sample, different color. Then the meter is what? Meter is a P, it's okay? What is…
+
+45
+00:06:15,130 --> 00:06:16,720
+Li Xun: actually using Picture.
+
+46
+00:06:17,120 --> 00:06:20,640
+Li Xun: Xu Yu, what is the topic? I really clear.
+
+47
+00:06:20,840 --> 00:06:36,240
+Li Xun: Maybe use a picture. You can do. Okay, you don't worry. Okay, don't worry. I think this is very good. Maybe your classmate can share. Okay, also ask GPT to give you a numerical example. Then you can actually more clearly understand the notes. I really clear.
+
+48
+00:06:36,340 --> 00:06:41,489
+Li Xun: Okay. Also, you can ask HGPT if you use the Chinese and English, up to you.
+
+49
+00:06:41,700 --> 00:07:01,520
+Li Xun: Maybe you say you want to learn the Spanish and the French. Also, ask GPT to give you French and the Spanish the notes. Okay, very easy. So, you should talk to GPT, you want to get the beginner, medium, and higher level, then you want to get the notes, okay? Also, you can ask GPT to give you the excise.
+
+50
+00:07:01,560 --> 00:07:07,730
+Li Xun: Okay, if you want to ask me what is XIT, you also ask HGPT. A little clear.
+
+51
+00:07:07,900 --> 00:07:08,710
+Li Xun: Okay.
+
+52
+00:07:09,060 --> 00:07:24,069
+Li Xun: So this is a very good, okay, very good, methodology. So GPT maybe will give you the new… Okay, now we're supposed to know is what? Just a result for the theory. Then we corresponding to this theory how to derive
+
+53
+00:07:24,470 --> 00:07:36,950
+Li Xun: the following for this result, okay? How to get for this? So, before this, we should really learn what is the Laplace transformation and the Laplace inverse transformation.
+
+54
+00:07:37,070 --> 00:07:41,119
+Li Xun: Okay, so now let's look at yesterday, or what?
+
+55
+00:07:41,420 --> 00:07:44,070
+Li Xun: We together consider for this.
+
+56
+00:07:47,710 --> 00:07:53,549
+Li Xun: Okay, together, consider for this is a Laplace… what is a Laplace transformation, okay?
+
+57
+00:08:09,170 --> 00:08:09,860
+Li Xun: Yep.
+
+58
+00:08:10,060 --> 00:08:11,850
+Li Xun: You just learned a little bitter.
+
+59
+00:08:12,080 --> 00:08:21,590
+Li Xun: not is too much, don't worry, okay? So, this is the Laplace transformation, okay? So, now you will see, this Laplace transformation.
+
+60
+00:08:21,590 --> 00:08:32,129
+Li Xun: The structure. Okay, this we compare later our lecture notes. Why we… why Professor Ko introduced the Laplace transformation. Okay, oh, you want to turn down… it's okay.
+
+61
+00:08:40,669 --> 00:08:44,850
+Li Xun: It's okay. Okay. So, now you actuate…
+
+62
+00:08:45,150 --> 00:08:49,350
+Li Xun: read for this information. Now, let's use the…
+
+63
+00:08:49,890 --> 00:08:55,220
+Li Xun: Let me just consider it plus plus. Okay, please.
+
+64
+00:08:55,970 --> 00:09:00,170
+Li Xun: Take care. Consider for this one, this structure. Okay?
+
+65
+00:09:00,170 --> 00:09:10,510
+Li Xun: This is very important, though. Why Professor Ko used, actually, yesterday, used a Laplace transformation for his model, okay? So you will see, for this structure is E,
+
+66
+00:09:10,510 --> 00:09:21,020
+Li Xun: is a negative ST, okay, T is a variable, okay, for this structure. S is what? So now you will see, for this one, it's corresponding to integral. Which one is valuable? Integral.
+
+67
+00:09:22,730 --> 00:09:34,160
+Li Xun: T is a variable, okay? S is a parameter. Fourley corresponding to T, take a full integral, but you leave it, what, the parameter S. But for this one, S is a variable.
+
+68
+00:09:34,430 --> 00:09:50,409
+Li Xun: Okay, outside, for capital F, this S is valuable. So, for this inside integral, so S is just a parameter, T is the integral value. It's okay? So, this is what? Laplace transformation. Also, just now, we mentioned is what?
+
+69
+00:09:50,410 --> 00:09:55,790
+Li Xun: Laplace is inverse transformation, okay? Inverse transformation, that means what?
+
+70
+00:09:55,790 --> 00:10:03,220
+Li Xun: Corresponding to FS, take inverse, you will, what, return to FT, or not? Are you really clear? Okay, so…
+
+71
+00:10:03,230 --> 00:10:11,309
+Li Xun: Maybe just the, maybe lots of… lots, look at the inverse, okay?
+
+72
+00:10:11,540 --> 00:10:17,870
+Li Xun: What is the inverse plus in… Let me see yesterday, maybe we take years for this one.
+
+73
+00:10:19,030 --> 00:10:23,990
+Li Xun: Okay, this is a Laplace transformation, negative ST.
+
+74
+00:10:27,600 --> 00:10:28,580
+Li Xun: Okay.
+
+75
+00:10:29,080 --> 00:10:41,890
+Li Xun: So, you don't care others, you just take care of what is for this formula is negative ST. Very important. Why I mention this? Because later, Professor Ko will use for this
+
+76
+00:10:42,380 --> 00:10:50,080
+Li Xun: structure, formula, it's okay? So now let's look at what is the inverse function. Okay, maybe it's inverse.
+
+77
+00:10:50,800 --> 00:10:52,569
+Li Xun: Inverse, no?
+
+78
+00:10:52,770 --> 00:10:56,460
+Li Xun: This is a Laplace transformation, okay?
+
+79
+00:10:56,720 --> 00:10:58,740
+Li Xun: Laplace transformation.
+
+80
+00:11:00,190 --> 00:11:02,360
+Li Xun: So, what is inverse?
+
+81
+00:11:02,890 --> 00:11:06,000
+Li Xun: Oh, interesting, no inverse.
+
+82
+00:11:07,280 --> 00:11:11,240
+Li Xun: This is a Laplace transformation… oh, inverse! Okay.
+
+83
+00:11:11,390 --> 00:11:26,430
+Li Xun: Just now is what? We flow… we trans… just now is we transfer what? FT, we transfer to the capital FS. Is it right? Okay, this is… we say, is a Laplace transformation. Now, let's look at what is the inverse.
+
+84
+00:11:27,470 --> 00:11:33,080
+Li Xun: Okay, inverse structure. Anyway, this is a very, very
+
+85
+00:11:33,400 --> 00:11:48,440
+Li Xun: Not easily for you at this very moment to calculate. It does not matter. We just corresponding to table is what? Help you. It's okay, so you don't care how to calculate, you just know fundamental definition. Anyway, fundamental definition is what? Corresponding to the capital
+
+86
+00:11:48,840 --> 00:11:53,950
+Li Xun: This is FS, corresponding to FS, okay? FS.
+
+87
+00:11:54,140 --> 00:12:09,170
+Li Xun: You take EST. Now, S is what? Integral variable, okay? T is what? It's a parameter. Finally, you take for this integral, you can reverse is what? Inversely.
+
+88
+00:12:09,270 --> 00:12:24,099
+Li Xun: Return is F as to what? FT. Okay, so you know. UK what? Similar to is a magicus, okay? You run your matricus transformation, then also you can run your what? Inverse magic transformation.
+
+89
+00:12:24,580 --> 00:12:36,300
+Li Xun: To original. It's okay? So, this is very important, okay? So, Professor Ko, using this one, I think Professor Ko's idea is very good. He… originally, last time I talked to you.
+
+90
+00:12:36,560 --> 00:12:49,670
+Li Xun: For my paper, I use another way. By myself, directory, consider use for the density. I, by myself, by integral, I can solve for his problem. Now, Professor Ko is actually… did not solve. He actually…
+
+91
+00:12:49,910 --> 00:12:56,939
+Li Xun: Using the beautifully, beautifully used is what Laplace transformation, using this nice structure.
+
+92
+00:12:57,050 --> 00:13:14,339
+Li Xun: elegant to the structure, then use corresponding to the Laplace transformation, the table, just to solve the problem. Did not use what using is my is very hard, tedious work. I really clear. So I just introduced his fundamental idea, may not ask our old classmate.
+
+93
+00:13:14,370 --> 00:13:29,849
+Li Xun: you will use the Laplace transformation to solve. You learn a little bit of knowledge, that's all. Also, once we need the Laplace transformation information, just what corresponding the notes? Beyond the notes, you don't care. Any Laplace transformation, the formula, you don't care. I really clear out.
+
+94
+00:13:29,850 --> 00:13:37,699
+Li Xun: Okay, because of Laplace transformation, maybe you have the one book, okay, at my… at my office, so you don't care, you just learn a little bit.
+
+95
+00:13:37,710 --> 00:13:46,300
+Li Xun: Just to learn fundamental idea. So, first you know, you can… FT, you can transfer to what? Capital FS. Capital FS, you can transfer back to the FT.
+
+96
+00:13:46,320 --> 00:13:49,790
+Li Xun: It's okay. So… You know this one?
+
+97
+00:13:50,150 --> 00:13:54,160
+Li Xun: So, now let's look at that. So, now let's look at for this one again.
+
+98
+00:13:54,580 --> 00:13:56,240
+Li Xun: You see, what is this?
+
+99
+00:13:56,500 --> 00:14:01,100
+Li Xun: is a negative S… T is available.
+
+100
+00:14:01,360 --> 00:14:09,979
+Li Xun: Okay? I read it clear? Also, I can change this, okay? This is what? S. So once I change this one, T is what?
+
+101
+00:14:10,110 --> 00:14:28,610
+Li Xun: I change this T to X, okay? So this FX, DX, the same, okay? Once I change S, keep up S, I change little t to capital T, and F capital T, D capital T, it's okay. I really clear, it does not matter, but
+
+102
+00:14:28,710 --> 00:14:34,110
+Li Xun: We should very take care is what? Very take care is for this… Eat.
+
+103
+00:14:34,440 --> 00:14:48,650
+Li Xun: Negative ST for this structure. Very, very important, because Professor, just using for this fundamental definition, actually is build a bridge, both parts. Okay, then solve the question. Okay.
+
+104
+00:14:49,330 --> 00:14:53,130
+Li Xun: Okay, so now let's go to see our knowledge.
+
+105
+00:14:57,170 --> 00:15:01,000
+Li Xun: Okay. So… Just enough.
+
+106
+00:15:01,380 --> 00:15:03,490
+Li Xun: We introduce…
+
+107
+00:15:03,720 --> 00:15:20,189
+Li Xun: is that, Professor Ko is the result. Just now, we say, we just consider what keep up this both result. First, we talk about corresponding to this result, okay? This result. We suppose this result
+
+108
+00:15:20,590 --> 00:15:26,300
+Li Xun: is during the exam, I suppose this result I give it. Then.
+
+109
+00:15:26,640 --> 00:15:33,490
+Li Xun: We want to, corresponding to Laplace transformation, okay? Want to get what? We want to get.
+
+110
+00:15:33,890 --> 00:15:34,840
+Li Xun: This one.
+
+111
+00:15:35,430 --> 00:15:37,749
+Li Xun: The density, okay?
+
+112
+00:15:38,180 --> 00:15:42,299
+Li Xun: the density of years to that.
+
+113
+00:15:42,620 --> 00:15:45,640
+Li Xun: Toby, can you give me a little clear?
+
+114
+00:15:46,330 --> 00:16:01,540
+Li Xun: Okay, so now let's look at what is for this one, okay? Let me just remove all this information. We just keep up for this fundamental formula, okay? So, we now let's look at for this one, yes.
+
+115
+00:16:02,010 --> 00:16:09,350
+Li Xun: Okay, is E. S… is, T… B. It's okay, TB.
+
+116
+00:16:10,580 --> 00:16:16,659
+Li Xun: So, can we rely down here for this structure? Here's the int globe, okay?
+
+117
+00:16:16,800 --> 00:16:24,239
+Li Xun: E. S… Maybe you write down top. Is F top is the top.
+
+118
+00:16:24,860 --> 00:16:25,880
+Li Xun: It's okay.
+
+119
+00:16:26,520 --> 00:16:27,390
+Li Xun: So…
+
+120
+00:16:27,760 --> 00:16:37,869
+Li Xun: This, this means is tall, okay? This means talk. Also, you can write down your structure is E, S, X, FX,
+
+121
+00:16:37,930 --> 00:16:48,770
+Li Xun: DX. It's okay? Just now, I already talked to you. Once just now is little t, we can change it to X. Little t, we can change it to what? Capital T, it does not matter.
+
+122
+00:16:48,870 --> 00:16:56,469
+Li Xun: Why I want to say this? Because Professor… later, Professor Ko used capital T to replace, that is, little t.
+
+123
+00:16:56,670 --> 00:17:02,940
+Li Xun: Okay, so now I use the water, little t, use the top, use the X, the same, or not the same?
+
+124
+00:17:03,570 --> 00:17:05,359
+Li Xun: I did not change it. S.
+
+125
+00:17:05,660 --> 00:17:06,510
+Li Xun: Okay!
+
+126
+00:17:06,770 --> 00:17:13,220
+Li Xun: See, the S. So also, you see the structure is what? So now you see… For this one.
+
+127
+00:17:13,780 --> 00:17:32,490
+Li Xun: Professor Koji is very smart. He actually corresponding to this one. Suppose this already gave you. Then we discuss for this one. Okay, you discuss for this one. This actually transferred to what? Transfer to this structure. Once you transfer to this structure, you find out, actually, this one is especially corresponding to what?
+
+128
+00:17:32,590 --> 00:17:37,490
+Li Xun: corresponding to either Laplace transformation. It's okay. Okay, what is the
+
+129
+00:17:37,740 --> 00:17:42,190
+Li Xun: FX. FX actually is what? The density of top.
+
+130
+00:17:42,610 --> 00:17:50,300
+Li Xun: Okay? So, actually, what? We're using this structure, using this structure, Okay, this origin rate…
+
+131
+00:17:50,440 --> 00:17:54,979
+Li Xun: FX, using for this structure, we can transfer to what?
+
+132
+00:17:55,130 --> 00:17:56,400
+Li Xun: Capital FS.
+
+133
+00:17:57,070 --> 00:17:58,080
+Li Xun: It alright?
+
+134
+00:17:58,730 --> 00:18:02,930
+Li Xun: Now, you know what? Actually, you know it's a FX, no?
+
+135
+00:18:03,080 --> 00:18:12,599
+Li Xun: may not know, but Professor Ko wants to use it for this fundamental knowledge. Okay, so this one you know or you don't know. You know! Why? Because…
+
+136
+00:18:12,870 --> 00:18:15,510
+Li Xun: Now you regard us for this part.
+
+137
+00:18:15,870 --> 00:18:21,649
+Li Xun: is, FS, okay? So, S is a variable. Yes or no?
+
+138
+00:18:22,620 --> 00:18:26,569
+Li Xun: Okay, yes or no? Now let's look at Professor Coat is water.
+
+139
+00:18:26,720 --> 00:18:29,829
+Li Xun: Professor, actually, a bridger.
+
+140
+00:18:30,000 --> 00:18:34,999
+Li Xun: Okay, originally, we consider… Expectate the problem.
+
+141
+00:18:35,960 --> 00:18:47,299
+Li Xun: For the computational problem, for me, I already introduced… I have one paper introduced, how to solve for this problem. But my way, actually very tedious, very hard, okay?
+
+142
+00:18:47,900 --> 00:18:59,270
+Li Xun: maybe should have the very strong, mathematical is the knowledge you can solve. Now, Professor Co. Actually, the… why Professor Co using for this? I think out.
+
+143
+00:18:59,500 --> 00:19:09,119
+Li Xun: his original notes and his idea, because Professor Ko talked about, for this course, not actually at the math department.
+
+144
+00:19:09,360 --> 00:19:20,829
+Li Xun: He actually originally discussed at the National University Singapore. He talked about it for this topic at the business school, okay? So, he will use this mask, but he cannot what?
+
+145
+00:19:20,980 --> 00:19:34,140
+Li Xun: cannot use very strong, very hard mathematical knowledge to deliver this course. So, he actually built a beautiful bridge, okay? Built a bridge, then to show you how to solve for this one.
+
+146
+00:19:34,220 --> 00:19:46,980
+Li Xun: Okay, this bridge is what corresponding to Laplace transformation. Now you can see, originally we talked about the expectation for this one. Using expectation for this one for this given information is capital FS. Now.
+
+147
+00:19:47,000 --> 00:19:54,770
+Li Xun: Also, we can write on this one. This is, what, FX. So now, FS, capital FS, you know, don't know, you know. So, can you get a…
+
+148
+00:19:55,000 --> 00:19:58,030
+Li Xun: Little F… X? Yes or no?
+
+149
+00:19:58,880 --> 00:20:02,040
+Li Xun: Yes, once you know what, Laplace
+
+150
+00:20:02,620 --> 00:20:09,040
+Li Xun: Laplace inverse transformation. So, now, capital FS, you know, don't know. Function, you know.
+
+151
+00:20:09,610 --> 00:20:17,700
+Li Xun: Okay? So we should go back to using… you know the information to dig out for FX.
+
+152
+00:20:18,330 --> 00:20:21,100
+Li Xun: Okay, this is a Professor Cole's fundamental idea.
+
+153
+00:20:21,950 --> 00:20:24,289
+Li Xun: Do you understand his fundamental idea?
+
+154
+00:20:24,670 --> 00:20:33,299
+Li Xun: He actually did not solve, did not solve. He just borrowed what? Just borrowing is the Laplace transformation and the Laplace…
+
+155
+00:20:33,480 --> 00:20:51,669
+Li Xun: Inverse transformation, then corresponding to, you know the knowledge to solve. So, capital FX, actually, how to get? Capital FX, actually profess not corresponding to Laplace transformation. Capital FX, I'm repeating for this one again, corresponding to optional sampling.
+
+156
+00:20:51,810 --> 00:20:56,600
+Li Xun: Siri, get this FX result. Now.
+
+157
+00:20:57,000 --> 00:21:03,069
+Li Xun: He actually corresponding to get this result. He solved for this, for me, once I know.
+
+158
+00:21:03,420 --> 00:21:07,929
+Li Xun: is what? FTOR. I can solve, get for this one by myself.
+
+159
+00:21:08,100 --> 00:21:16,220
+Li Xun: Corresponding to integral, I can solve, okay? But Professor Ko corresponding to your… did not corresponding to your talk.
+
+160
+00:21:16,330 --> 00:21:17,510
+Li Xun: How to solve.
+
+161
+00:21:17,650 --> 00:21:27,970
+Li Xun: I already know how to get for this FTOR. Actually, I get FTOR is corresponding to what? Corresponding to is for this fundamental knowledge, get the FTOR.
+
+162
+00:21:28,360 --> 00:21:35,150
+Li Xun: Then I solve it, okay? Maybe I can, at this very moment, I can show you previous, my work, okay?
+
+163
+00:21:35,700 --> 00:21:40,820
+Li Xun: Otherwise, maybe classmate may not use the clear, okay, I show you.
+
+164
+00:22:17,030 --> 00:22:18,800
+Li Xun: Okay, this is my paper.
+
+165
+00:22:19,000 --> 00:22:30,769
+Li Xun: My paper actually originally showed how to get the FTOR. First, I get the FTOR, then I get the data result, capital FS. Okay, professor code is what? Reversely.
+
+166
+00:22:30,770 --> 00:22:37,199
+Li Xun: Using another method. First to get the FS, then you go back to get the FTOR, little FTOR.
+
+167
+00:22:37,200 --> 00:22:54,469
+Li Xun: Do you understand now? Okay, this actually is the same, okay? This is, my previous work. At the other moment, I work at the… work at the National University of Singapore, okay? Professor Ko also work at the National University of Singapore, so why do I have his notes? It's okay. Okay, now let's go to see.
+
+168
+00:22:54,470 --> 00:23:07,479
+Li Xun: The previous, we have to do, okay, our work, also consider similar case, okay, similar case. Then, we consider for this similar case, we will meet the similar problem. The problem is the first thing.
+
+169
+00:23:07,480 --> 00:23:18,519
+Li Xun: heating messenger. So, corresponding to this one, did you see? This also is we consider our process meet for this. Then, this is tedious. We can transfer, translate, okay?
+
+170
+00:23:18,520 --> 00:23:22,589
+Li Xun: We can take for this one that transformation, transformation.
+
+171
+00:23:22,660 --> 00:23:34,229
+Li Xun: Again, again, again. Finally, we get a very simple data structure. Okay, a very simple structure. For this simple structure, also we can reduce to what? More simple data.
+
+172
+00:23:35,610 --> 00:23:49,820
+Li Xun: idea. So, now you will see. This one is what? W is the Wayneh process. This is a capital T, a little t. This little t is corresponding to what? Corresponding to this part. So, now, for my work, I also have
+
+173
+00:23:49,870 --> 00:23:56,100
+Li Xun: running part, also the drift part, the same. This actual idea, the same. It is that a moment, for me.
+
+174
+00:23:56,100 --> 00:24:11,490
+Li Xun: So, for this one, I'm using another methodology. Actually, later you will see the professed code gets the result, the fully, same, might this work, okay? Once you are familiar with is what? Knowledge, you understand, okay? You understand.
+
+175
+00:24:11,560 --> 00:24:15,620
+Li Xun: The, actually, also, you will see later, is a professor code that
+
+176
+00:24:15,700 --> 00:24:18,970
+Li Xun: Result also involving that similar structure.
+
+177
+00:24:19,050 --> 00:24:24,269
+Li Xun: Okay? Very spatial semi structure. Actual idea is the same, okay? Now.
+
+178
+00:24:24,340 --> 00:24:39,359
+Li Xun: Let's go to see yesterday. Professor Costa notes. Method use is what? Very, very hard is the fundamental mathematics. Using what? We already know the knowledge. What is it? We already know the knowledge? Laplace transformation table.
+
+179
+00:24:39,590 --> 00:24:50,010
+Li Xun: for the transformation and the inverse transformation table. You can buy the what? You can buy our online, you can check Laplace transformation. Suppose
+
+180
+00:24:50,130 --> 00:25:05,140
+Li Xun: You notice the table, so you can, using this idea, very easily solve. I really clear out. So this table, the knowledge, already we have, okay, history knowledge, so we may not either repeat for this work again, okay? So, now let's look at…
+
+181
+00:25:05,360 --> 00:25:11,460
+Li Xun: Okay, previous I say, for me, it's the first what? For me, it's the first…
+
+182
+00:25:11,680 --> 00:25:21,769
+Li Xun: first get is f2. Then, I take the integral, finally get for this result, okay? Non-presso is different.
+
+183
+00:25:22,240 --> 00:25:23,220
+Li Xun: Reversely.
+
+184
+00:25:23,380 --> 00:25:26,349
+Li Xun: He'll… he actually want to get for this one.
+
+185
+00:25:26,580 --> 00:25:28,410
+Li Xun: Just a unit for this one.
+
+186
+00:25:28,600 --> 00:25:35,330
+Li Xun: fundamental knowledge, then get is what? Then is what? Get is FS. Okay?
+
+187
+00:25:35,640 --> 00:25:46,909
+Li Xun: Now, Professor Ko, say, we get the FS also corresponding to this structure, we find out this one is corresponding to E, S is what? T. F, T.
+
+188
+00:25:46,910 --> 00:26:01,550
+Li Xun: DT, okay? So, compare for this, compare for Laplace transformation. He found out, okay, now is what? We know this, so once we know this, so we can take what? Laplace inverse transformation, then we can get what?
+
+189
+00:26:01,600 --> 00:26:05,040
+Li Xun: then we get FT… Okay, so…
+
+190
+00:26:05,220 --> 00:26:13,480
+Li Xun: Professor Ko, they say that it's the lemma, actually say, how to get the TikTok.
+
+191
+00:26:13,950 --> 00:26:14,690
+Li Xun: Density.
+
+192
+00:26:15,150 --> 00:26:18,439
+Li Xun: T total density. That is just now we talk about.
+
+193
+00:26:18,570 --> 00:26:28,649
+Li Xun: is for this one. Okay? So, now let's look at the professor code. How to state-by-step use the standard sum of the knowledge. Okay, so…
+
+194
+00:26:29,370 --> 00:26:48,929
+Li Xun: Why professor using for this one? Again, because now we corresponding to this information. We suppose Laplace transformation already offered the table, already offer is what? Very standard model gives you the, table information. For example.
+
+195
+00:26:49,380 --> 00:27:02,010
+Li Xun: For example, you know first order and second order. You know integral, we take integral, for example, once we corresponding to either log X, take first order. Log X, take first order. It's okay?
+
+196
+00:27:02,010 --> 00:27:20,340
+Li Xun: Log X, take first, we get a 1 over X, okay? So this is a very fundamental knowledge, okay? EX, we take a first order, we get EX, okay? So then, next time, we will give you lots of the idea, maybe always square E, double X. We also give you a new formula.
+
+197
+00:27:20,500 --> 00:27:34,599
+Li Xun: We just… you formulate what, EX. Then EX, next time, you can corresponding to either what? EX. Also, using the chain rule, you can get either what? You can get E2X, first thought, get 2.
+
+198
+00:27:34,710 --> 00:27:42,560
+Li Xun: E2X. Is it right? You're using for… So, Professor Ko also say.
+
+199
+00:27:42,760 --> 00:27:51,909
+Li Xun: Originally, corresponding to lots of the standard model, we have what? It's the Laplace transformation and a Laplace inverse transformation.
+
+200
+00:27:51,950 --> 00:28:07,020
+Li Xun: Then, over this case is what? Over current this result, may not most standard. Suppose this one is a standard model, okay? This one is a standard model. Now, Professor Ko, you say, now is what? For this one is not a standard.
+
+201
+00:28:07,270 --> 00:28:16,289
+Li Xun: Okay, so this is what? Complex model. How to reduce to the standard model. How to construct one that build, maybe build in one bridge.
+
+202
+00:28:16,290 --> 00:28:28,290
+Li Xun: Then you do what? Transform our case to the standard model. Then we get the result. Then we found the standard model, step by step, is back to the original, we want to solve the total density.
+
+203
+00:28:28,500 --> 00:28:33,220
+Li Xun: It's okay? So this is, his fundamental idea in
+
+204
+00:28:33,820 --> 00:28:45,859
+Li Xun: Lehman. Okay, now let's look at. So, for this one, it's corresponding to what? Standard model. Laplace transformation standard. Similar to, we often talk about the beginning.
+
+205
+00:28:46,290 --> 00:29:02,160
+Li Xun: You join the university, the first is the advanced class. I think lots of the teachers just deliver you the what? First order, an integral. Always your teacher talk to you, corresponding to the first order. 1 over X is what? Negative 1 over X squared. It's okay?
+
+206
+00:29:02,230 --> 00:29:19,619
+Li Xun: log is what, first thought, just to give you is 1 over A. Is it right? So this is, we suppose, the very fundamental to the standard model. Now we corresponding to standard model, how to get more general result, okay? This is fundamental, the idea, using the Laplace transformation. Okay.
+
+207
+00:29:20,150 --> 00:29:21,150
+Li Xun: Soap?
+
+208
+00:29:21,350 --> 00:29:26,559
+Li Xun: Now is what we have. Just now, we asked our classmate to consider what?
+
+209
+00:29:26,800 --> 00:29:37,260
+Li Xun: This is, I just now say, for the Laplace transformation, now let's repeat the review. Beginning, I ask you to consider that information.
+
+210
+00:29:38,440 --> 00:29:40,790
+Li Xun: I mention you again, again.
+
+211
+00:29:41,340 --> 00:29:42,340
+Li Xun: Okay.
+
+212
+00:29:51,230 --> 00:29:59,030
+Li Xun: Okay, just now mentioning for this. Negative ST. Okay, we very take care for this one. Okay, so…
+
+213
+00:29:59,870 --> 00:30:02,290
+Li Xun: Now let's go to see user award.
+
+214
+00:30:02,480 --> 00:30:13,920
+Li Xun: For this one. For here, we also have the same structure. Professor Ko, just corresponding to this structure E, negative SX, he find out.
+
+215
+00:30:14,030 --> 00:30:16,710
+Li Xun: Actually, maybe we take what?
+
+216
+00:30:16,880 --> 00:30:23,190
+Li Xun: The Laplace transform… take the bridge of Laplace transformation. We can easily walk.
+
+217
+00:30:23,310 --> 00:30:25,139
+Li Xun: Okay, so this is…
+
+218
+00:30:25,380 --> 00:30:39,559
+Li Xun: Prophetical fundamental idea, okay? So, Prophetical is considered for this one is what? Is… now this one is because it's time t, so a little bit different. The fundamental Laplace transformation from negative to the infinity.
+
+219
+00:30:39,560 --> 00:30:48,139
+Li Xun: It does not matter, okay, so you don't care, because our tea part just is below the tea part, it is yellow, it's care. So E is SX,
+
+220
+00:30:48,690 --> 00:30:59,239
+Li Xun: Okay, so this one we consider is FX. Now, this one FX is what? DX. So, this one is, we have…
+
+221
+00:31:00,670 --> 00:31:03,110
+Li Xun: Maybe we're yielding as a…
+
+222
+00:31:03,290 --> 00:31:06,389
+Li Xun: Using for this knowledge is what? E.
+
+223
+00:31:06,540 --> 00:31:09,210
+Li Xun: is A square root S.
+
+224
+00:31:09,540 --> 00:31:15,519
+Li Xun: Corresponding ATOR. Okay, so, what is for this information? No.
+
+225
+00:31:16,240 --> 00:31:18,169
+Li Xun: For this one, is what?
+
+226
+00:31:18,530 --> 00:31:21,220
+Li Xun: This one is FX, okay?
+
+227
+00:31:21,330 --> 00:31:22,230
+Li Xun: So.
+
+228
+00:31:22,590 --> 00:31:34,080
+Li Xun: From this one, you find out. Just now, we mentioned that this one is what? This one is Laplace transformation structure, so we can regard as this one is what?
+
+229
+00:31:34,660 --> 00:31:45,999
+Li Xun: FS, capital FS. So, then we corresponding to the capital F, we can use what? Return back, it's okay? For this is the cost of the idea. So, now let's…
+
+230
+00:31:46,260 --> 00:31:50,839
+Li Xun: Now let's go ahead. Just now, our fundamental question.
+
+231
+00:31:51,020 --> 00:32:00,940
+Li Xun: it is not easy. Not just the square root S. We should change what? S to this one. Okay, why? Because…
+
+232
+00:32:01,300 --> 00:32:07,209
+Li Xun: We just now is talk about our result is for what? Our result is for this one.
+
+233
+00:32:07,330 --> 00:32:08,190
+Li Xun: Okay.
+
+234
+00:32:08,350 --> 00:32:18,259
+Li Xun: Our result is not the S. Our result is what? Mu square plus double sigma square S. Okay, so why? We have two.
+
+235
+00:32:18,660 --> 00:32:20,799
+Li Xun: Consider for this one.
+
+236
+00:32:21,150 --> 00:32:40,270
+Li Xun: A little clear. So, once we consider for this, we fully change it. Originally S part to what? S part using for this one. Okay, so now let me just delete for this one. So, just now we talked about is what is S, because we want to solve the problem. It's not just the corresponding to S.
+
+237
+00:32:40,280 --> 00:32:45,019
+Li Xun: more complex. Actually, is what? For this inside part.
+
+238
+00:32:45,430 --> 00:32:51,700
+Li Xun: We involve for this one, okay? Inside part. Okay. For this one, we first don't care.
+
+239
+00:32:52,400 --> 00:33:00,730
+Li Xun: Don't care. Okay, late, we make up, okay? So, now you know what? We corresponding to this one, we change this one, S.
+
+240
+00:33:00,900 --> 00:33:15,990
+Li Xun: to what for this one. Once you change S to this, so, originally for this S information, you should what? Change it to the new structure for this S to this one. So, now this S is what? Corresponding to use for this one.
+
+241
+00:33:16,620 --> 00:33:17,520
+Li Xun: Okay.
+
+242
+00:33:17,960 --> 00:33:29,199
+Li Xun: Now, here, you change S to what? To this… so, S part changes to this. So, for this is the… FS is what? Changed to this structure. This is no problem?
+
+243
+00:33:29,600 --> 00:33:33,100
+Li Xun: Okay, at this very moment, Sick what?
+
+244
+00:33:34,050 --> 00:33:35,490
+Li Xun: Yeah, very simple.
+
+245
+00:33:37,280 --> 00:33:44,550
+Li Xun: Have any confusion? No more. Okay, so once you have no confusion, so now let's look at next stage.
+
+246
+00:33:44,790 --> 00:33:54,969
+Li Xun: Okay. You keep up at the page 2, I go to the page 3. It's okay? Otherwise, we cannot, because I keep no double screen. Okay. So, now let's go on.
+
+247
+00:33:55,390 --> 00:34:03,490
+Li Xun: just now we changed it to… just now, we changed it to this, then we space specify. Okay, now is what? This is,
+
+248
+00:34:03,610 --> 00:34:23,319
+Li Xun: Mu is what? Mu squared. This is X. At this very moment is what? X is what? Integral variable. Okay, integral variable. So for this second part, okay, right-hand part, or we always keep up. For this right-hand part, we keep up. So we just use what? Do a little bit of new transformation.
+
+249
+00:34:23,330 --> 00:34:34,029
+Li Xun: within integral is for the left-hand part, okay, for this left-hand part. So, for this left-hand part, we keep up is for what? Keep up for this one, okay? Then we move is what?
+
+250
+00:34:34,110 --> 00:34:38,159
+Li Xun: is negative mu square with X tech product.
+
+251
+00:34:38,320 --> 00:34:48,080
+Li Xun: we add for this the new part to here, okay? So we get for this result. This is just, you know what? For here, remove mu square, then we add it to here.
+
+252
+00:34:48,199 --> 00:34:49,389
+Li Xun: A little clue.
+
+253
+00:34:49,620 --> 00:34:52,188
+Li Xun: No, any confusion? Okay, very good.
+
+254
+00:34:53,139 --> 00:35:03,930
+Li Xun: Okay, once careful done, no any confusion, so now we move to what? This stage? I skipped, it's the page 2. Okay, so now let's look at… we have to do the new change.
+
+255
+00:35:03,930 --> 00:35:13,360
+Li Xun: Now, this is a new transformation, okay? So, Y equal to this, actually equivalent to is X equal to what? Y over
+
+256
+00:35:13,570 --> 00:35:31,730
+Li Xun: Sigma 2, the problem? Okay, so now is what? Once you take the Y equal to this, so if you… this means what? Originally X, now I want to use Y express. So that means is what? You should attack for this transformation. Then this using X part, using
+
+257
+00:35:32,070 --> 00:35:43,459
+Li Xun: Y and over 2 sigma square root expressed. So, now you put, for this X to here, put this X to here, so you will get for this new structure. Are you clear?
+
+258
+00:35:43,600 --> 00:36:01,809
+Li Xun: Okay? Okay, so now this is DX. Because this is DX, you do this transformation, actually, you want to write down dy. Okay, so, no, you also, you should write down, is what? DX equal to 1 over 2 sigma dy, okay?
+
+259
+00:36:02,190 --> 00:36:11,129
+Li Xun: Once you change it, is, X to Y, also, you should change what? Makeup for this part, okay? Where is the makeup for here?
+
+260
+00:36:11,350 --> 00:36:12,210
+Li Xun: Okay?
+
+261
+00:36:12,510 --> 00:36:18,430
+Li Xun: So, now, you see, for this one, actually, makeup for here.
+
+262
+00:36:19,670 --> 00:36:25,879
+Li Xun: Also, I needed for this one either, give the shutscreen.
+
+263
+00:36:26,710 --> 00:36:31,099
+Li Xun: Okay, later you, don't worry. Okay, so, now this blue part.
+
+264
+00:36:31,480 --> 00:36:50,520
+Li Xun: Okay, so now we solve is what? From this one to this next step is a stage we consider for here is, this is the X part. So this X also using for this one, replace. So we get is what? This new result, okay? For this one is X…
+
+265
+00:36:50,770 --> 00:37:04,769
+Li Xun: this X, so we corresponding to this one, okay? So, now we fully change it to what? For our X integral information, change it to Y. Also, the both part, the left hand and the right hand.
+
+266
+00:37:05,190 --> 00:37:07,200
+Li Xun: actually equal. Okay, equal.
+
+267
+00:37:07,440 --> 00:37:27,389
+Li Xun: So once we have for this, now let's reduce something. Okay, reduce something. For example, now we reduce to this one actually combined. This is the 2 pi, okay? 2 pi, Y, is, 3, okay? This is 8, okay? So for here, keep up. Also, for here, we cancel.
+
+268
+00:37:27,510 --> 00:37:30,790
+Li Xun: Here, we can say is what we can say is that
+
+269
+00:37:30,910 --> 00:37:35,510
+Li Xun: cancer is the… for here is the sigma squared.
+
+270
+00:37:35,880 --> 00:37:37,100
+Li Xun: For this one.
+
+271
+00:37:37,510 --> 00:37:45,789
+Li Xun: Okay, then we just, change sigma squared to what? Yes, finally, liv is what? 1 sigma. It's okay.
+
+272
+00:37:46,120 --> 00:37:50,649
+Li Xun: The both sigma squared with cancer, just leave you one sigma, okay? I leave one sigma.
+
+273
+00:37:50,760 --> 00:38:08,620
+Li Xun: Okay, the cancer. Also, for here, we have what? This is 2, okay, this is 2. Okay, this is 2. So, this 2 is we cancel… cancer… okay. Also, for here, 2, we cancel to here. Okay, so we just leave is what?
+
+274
+00:38:08,860 --> 00:38:11,860
+Li Xun: Just leave it for this one, too.
+
+275
+00:38:12,180 --> 00:38:22,879
+Li Xun: It's okay? So, step by step, we from this stage to change to this new one. Okay, so now we get for this new one is what? The new one is,
+
+276
+00:38:23,370 --> 00:38:29,390
+Li Xun: Same. So this, the left hand and the right-hand part is the same. Okay, now I remove.
+
+277
+00:38:30,410 --> 00:38:48,449
+Li Xun: Okay? So, now you find out this is the same. So, next stage is for what? Next stage, you should what? You should consider our… previously, we talked about is the model, okay? Not always we using for this. So, we change is what?
+
+278
+00:38:48,550 --> 00:38:56,179
+Li Xun: to the B over sigma squared. Okay, so now, next stage, we change A is over B sigma squared.
+
+279
+00:38:56,640 --> 00:39:03,160
+Li Xun: Okay, once we change A over B sigma squared, now you… what you get for this one is A,
+
+280
+00:39:03,200 --> 00:39:21,249
+Li Xun: Okay, remove this A, remove this A, so this A, you get what is the B over sigma squared, okay? Once you take a B over sigma square, for here is what? Sigma, for here is sigma cancel. So Y you get is for 1 sigma.
+
+281
+00:39:22,010 --> 00:39:23,000
+Li Xun: It's okay.
+
+282
+00:39:23,320 --> 00:39:27,709
+Li Xun: No problem? Okay, step by step. Also, now let's look at…
+
+283
+00:39:28,210 --> 00:39:37,629
+Li Xun: For here, you change A to the B over sigma squared. So, you… for here is the A square. You can, using B squared.
+
+284
+00:39:37,880 --> 00:39:43,970
+Li Xun: And that is corresponding to the sigma squared. Why? Here is sigma square
+
+285
+00:39:44,830 --> 00:39:50,609
+Li Xun: On this reflection, this is sigma squared, this is what the sigma is, square 4, the cancel one.
+
+286
+00:39:50,640 --> 00:40:05,189
+Li Xun: or cancer birth, okay, leave the sigma square. For here, actually, do not change anything, you just keep up, okay? Why are you using for this one? A is equal to the B over sigma square? Because, corresponding to our original rate.
+
+287
+00:40:05,560 --> 00:40:12,119
+Li Xun: F capital FS, the fundamental. Okay, so you should set for this one. Want to keep up the burst? Okay.
+
+288
+00:40:13,060 --> 00:40:21,649
+Li Xun: Okay, so… Once we get for this one, actually, now let's,
+
+289
+00:40:22,240 --> 00:40:40,769
+Li Xun: Now let's go ahead. Also, we change it to is the A is B over sigma squared. Why? Because now let's look at compare. Just now we talk about all these notes. So, first is you don't care. Later, I make up. First, you just care is for this part, okay?
+
+290
+00:40:40,770 --> 00:40:50,940
+Li Xun: This part. Now, we're solving for this one, we say is A is what? Equal to B is sigma squared. Okay, so, now you will see.
+
+291
+00:40:51,120 --> 00:40:55,789
+Li Xun: is what? Y, for here, I set 8,
+
+292
+00:40:55,980 --> 00:41:05,520
+Li Xun: equal to B over sigma squared, because for here exists A. But this A is what? Corresponding to originally modeled, this A is equal to what?
+
+293
+00:41:05,780 --> 00:41:22,799
+Li Xun: this corresponding to original model, this A part, positioning is what? Equal to B over sigma squared. So, why at this very moment we take A equal to B over sigma squared? Are we clear out? Okay. So, now what do we solve? Now we solve is that
+
+294
+00:41:23,300 --> 00:41:25,289
+Li Xun: The part of a red line.
+
+295
+00:41:25,400 --> 00:41:31,450
+Li Xun: Just without for this blue information. Next, we make up blue. Okay, so…
+
+296
+00:41:31,790 --> 00:41:43,150
+Li Xun: Now let's go to C for this one, okay? So, until for this stager, until for this stage, we just now solve our this model to what? Until for this stager.
+
+297
+00:41:43,730 --> 00:41:53,229
+Li Xun: Okay? Until for this stage, this is a red part. Okay, this red part actually fully corresponding to this red part.
+
+298
+00:41:53,530 --> 00:41:59,700
+Li Xun: But… Our exact result Not only just on the…
+
+299
+00:42:00,030 --> 00:42:05,899
+Li Xun: just only dependent on the red part. Also, we should consider what?
+
+300
+00:42:06,700 --> 00:42:08,310
+Li Xun: Involving the blue part.
+
+301
+00:42:08,630 --> 00:42:18,030
+Li Xun: Okay, now, you should add a blue part. Okay, how to add a blue part? Once you add a blue part, that means what? You should.
+
+302
+00:42:18,180 --> 00:42:20,200
+Li Xun: Added for this blue part.
+
+303
+00:42:21,390 --> 00:42:22,350
+Li Xun: It's okay.
+
+304
+00:42:22,850 --> 00:42:26,260
+Li Xun: So… Now you should add this blue part.
+
+305
+00:42:28,730 --> 00:42:43,020
+Li Xun: Just now, I talked to you why we have for this blue part, okay? This blue part is corresponding to just now, beginning, we did not consider for this one, okay? Finally, we should exactly
+
+306
+00:42:43,510 --> 00:42:49,630
+Li Xun: Actually, I'll move back to the beginning the style, so now we should… Ed.
+
+307
+00:42:49,840 --> 00:42:50,819
+Li Xun: Bro potato.
+
+308
+00:42:51,260 --> 00:42:55,830
+Li Xun: Okay, so once I add this blue part, equal to is for this star.
+
+309
+00:42:56,010 --> 00:43:05,290
+Li Xun: New information, okay, new information. So, now once we have for this, so we rearrange. Then in the next stager, we corresponding to this one.
+
+310
+00:43:05,660 --> 00:43:06,490
+Li Xun: Okay?
+
+311
+00:43:06,610 --> 00:43:20,020
+Li Xun: Corresponding to this one. So, rearrange, you will get this. So, finally, just now is what? Just now, we know corresponding to this one is… what? FS. Okay?
+
+312
+00:43:20,150 --> 00:43:39,779
+Li Xun: this F. So, corresponding to this FS, we take Laplace inverse transformation. K is mapped to what for this one. So now, using for this fundamental knowledge, we can get is that T tau. Tau, this random variable, is originally
+
+313
+00:43:39,990 --> 00:43:41,540
+Li Xun: Density. Okay.
+
+314
+00:43:42,930 --> 00:43:51,320
+Li Xun: So, for here, Professor Ko is corresponding to what? Corresponding to is Mandy. See this one, okay?
+
+315
+00:43:51,630 --> 00:44:11,110
+Li Xun: He may not know density, but he corresponding to another methodology to solve, get water, capital FS. Then, Professor Ko wants to corresponding to this circle part. Okay, circle part. Also, you know, capital FS corresponding to circle part. Professor Ko, understand.
+
+316
+00:44:11,220 --> 00:44:17,270
+Li Xun: How to, using capital S, FS, and the so-called part, transfer is what?
+
+317
+00:44:17,620 --> 00:44:21,099
+Li Xun: Laplace inverse transform get its density.
+
+318
+00:44:21,410 --> 00:44:27,459
+Li Xun: FT. I really clear out… okay, so now we fully solve for the dilemma, okay?
+
+319
+00:44:28,020 --> 00:44:29,270
+Li Xun: Do I understand that?
+
+320
+00:44:30,940 --> 00:44:33,829
+Li Xun: Okay, just to learn a little bit, it's okay?
+
+321
+00:44:34,220 --> 00:44:47,209
+Li Xun: You don't worry, next stage, I will further introduce why Professor Koh wants to use for this one, solve this model. Also, why Professor Koh, at this beginning, talked about
+
+322
+00:44:47,210 --> 00:45:00,099
+Li Xun: over this course, the name, he means is the Laplace transformation. Okay, later, the part, let's the further introduce. Also, I will introduce for this, maybe you can take the…
+
+323
+00:45:00,520 --> 00:45:03,159
+Li Xun: A little bit, maybe yesterday,
+
+324
+00:45:03,310 --> 00:45:14,010
+Li Xun: Time to detect is what? Break. Later, I will show you how to get the answer, our homework used is the Laplace transformation. I really clear. Okay.
+
+325
+00:45:15,280 --> 00:45:16,989
+Li Xun: Take a 10 minutes break.
+
+326
+00:45:17,130 --> 00:45:18,740
+Li Xun: Okay, take 10 minutes break.
+
+327
+00:59:48,540 --> 00:59:50,490
+Li Xun: And no, now let's go on.
+
+328
+00:59:59,200 --> 01:00:00,020
+Li Xun: Okay.
+
+329
+01:00:00,380 --> 01:00:04,429
+Li Xun: Next to… We'll look at how to get used to that.
+
+330
+01:00:06,220 --> 01:00:10,420
+Li Xun: Second, subsection.
+
+331
+01:00:11,510 --> 01:00:12,320
+Li Xun: Okay.
+
+332
+01:00:12,730 --> 01:00:16,840
+Li Xun: So… This is similar to previous knowledge.
+
+333
+01:00:17,640 --> 01:00:20,789
+Li Xun: Look normal. Okay, previously we just did what?
+
+334
+01:00:20,990 --> 01:00:26,230
+Li Xun: Without is the delta, okay? Now you just look at as this delta…
+
+335
+01:00:26,530 --> 01:00:34,149
+Li Xun: is what's similar to previous, so we can easily get for this the new result, okay? This idea, the same.
+
+336
+01:00:35,970 --> 01:00:41,340
+Li Xun: We just introduced it for this, debt is the total payment.
+
+337
+01:00:41,520 --> 01:00:45,239
+Li Xun: For the company is maybe dividend for this information, okay?
+
+338
+01:00:45,400 --> 01:00:51,519
+Li Xun: Okay, for here, We have the what? The same is the minimum for this one.
+
+339
+01:00:51,780 --> 01:00:53,810
+Li Xun: Just the beginning is what?
+
+340
+01:00:54,200 --> 01:01:05,260
+Li Xun: Beginning this talk about is corresponding to… we say this one is a meter, okay? For this one, met equal to the T. Now, this is the same idea, okay?
+
+341
+01:01:05,730 --> 01:01:11,460
+Li Xun: Same idea. So… Reduce, reduced to the same.
+
+342
+01:01:12,150 --> 01:01:13,620
+Li Xun: Okay, so…
+
+343
+01:01:16,760 --> 01:01:19,250
+Li Xun: So this, reduce… this is what?
+
+344
+01:01:19,270 --> 01:01:29,390
+Li Xun: We talk about the company, just the value, okay? Less, at the other moment the value, less than… we set the bound, it's okay, once below for this one.
+
+345
+01:01:29,390 --> 01:01:39,549
+Li Xun: Maybe we set this as the VB, okay, meaning below this, maybe we set this one is the bankruptcy and others, okay? Anyway, so we set for this one, so now we consider what is the…
+
+346
+01:01:39,560 --> 01:01:44,769
+Li Xun: What is this talk? Using previous to the section, knowledge to solve for this one.
+
+347
+01:01:44,950 --> 01:01:49,160
+Li Xun: So, now let's consider the bounded, okay, GATS is…
+
+348
+01:01:49,340 --> 01:01:53,579
+Li Xun: For this, fundamentally, we set it for the…
+
+349
+01:01:53,710 --> 01:01:55,649
+Li Xun: Bound hood is good for this one.
+
+350
+01:01:56,920 --> 01:02:06,409
+Li Xun: assume previous, using is our lecture 1. We know, actually, we can write down for this is the,
+
+351
+01:02:06,600 --> 01:02:08,929
+Li Xun: Surreepat. Did you remember for this one?
+
+352
+01:02:09,440 --> 01:02:22,709
+Li Xun: previous to the notes we introduced for this. Now, corresponding to is what? Today, we just want to know. This is what? This is very abstract we talked about, corresponding to this information.
+
+353
+01:02:22,830 --> 01:02:33,660
+Li Xun: Maybe this is the first value equal to 1. Also, you can see it's the coupon rate, and also this one is the previous we defined, this will load, this is the result, okay?
+
+354
+01:02:33,810 --> 01:02:45,599
+Li Xun: So anyway, we have for… this is a very fundamental, just a formula. Then also with B expressed for this one. So now we ask, how to exactly show us what is B?
+
+355
+01:02:46,300 --> 01:02:47,829
+Li Xun: Okay, what is B?
+
+356
+01:02:48,370 --> 01:03:03,329
+Li Xun: Do you understand that? Now this B will write down expectation of sensing. So, can you use a very simple formula to express? So, this idea today, actually, is a professor code, is what, using for… just now talk about the Laplace transformation.
+
+357
+01:03:03,470 --> 01:03:12,709
+Li Xun: to get the FT density idea the same, now using Laplace transformation to get this one. I read it clear out. So this is very important, okay?
+
+358
+01:03:14,190 --> 01:03:15,110
+Li Xun: Not…
+
+359
+01:03:15,270 --> 01:03:33,930
+Li Xun: Let's consider the bound price Professor Ko using for this fundamental idea. The same, okay? Now let's repeat. Just now, we talked about the TTOL, okay? T-taught is a structure. Also, corresponding to previous knowledge, our first lecture class, we already talked about is for what?
+
+360
+01:03:33,970 --> 01:03:36,550
+Li Xun: We talk about B greater than yellow.
+
+361
+01:03:37,120 --> 01:03:37,970
+Li Xun: Okay.
+
+362
+01:03:38,560 --> 01:03:41,359
+Li Xun: B greater than zero. Now, we make up.
+
+363
+01:03:41,540 --> 01:03:43,450
+Li Xun: B is less than zero.
+
+364
+01:03:44,550 --> 01:03:51,079
+Li Xun: Also, we have what? Similar result, but it is a little bit different. So, what's the difference?
+
+365
+01:03:51,240 --> 01:03:57,179
+Li Xun: Just now we talked about B is greater than zero. Now B is less than zero. What's the difference?
+
+366
+01:03:57,640 --> 01:03:59,379
+Li Xun: Now let's compare difference.
+
+367
+01:04:00,270 --> 01:04:01,040
+Li Xun: Okay.
+
+368
+01:04:01,170 --> 01:04:02,490
+Li Xun: Compare difference.
+
+369
+01:04:02,700 --> 01:04:03,610
+Li Xun: Soap?
+
+370
+01:04:03,800 --> 01:04:06,460
+Li Xun: Just now, we set up his what?
+
+371
+01:04:06,670 --> 01:04:12,909
+Li Xun: Setup is B is greater than 0, okay? So, now you look at for this result.
+
+372
+01:04:14,760 --> 01:04:16,249
+Li Xun: Did you see the result?
+
+373
+01:04:16,600 --> 01:04:20,810
+Li Xun: Under Compare, now we say B is less than zero. What's the result?
+
+374
+01:04:21,870 --> 01:04:28,090
+Li Xun: Okay. Anyway, whatever B is greater than 0 and less than 0, we always give the what.
+
+375
+01:04:30,260 --> 01:04:31,330
+Li Xun: Oh, what?
+
+376
+01:04:31,620 --> 01:04:34,500
+Li Xun: expansion result. Okay. Okay.
+
+377
+01:04:35,180 --> 01:04:54,019
+Li Xun: So, now we consider for this the new case, okay? For this new case, we should be using for this new formula, a little bit different than previous, okay? So, you will see previous, we have the negative and the positive. It is a little bit different, okay? Now, it's the next stage where we want to use. B is less than 0.
+
+378
+01:04:54,090 --> 01:05:04,979
+Li Xun: So, why we introduced new formula? Okay, new formula. So, how to get this new formula? You're just directly using this one, that's all. You can write down this in… on your…
+
+379
+01:05:05,460 --> 01:05:18,150
+Li Xun: cheat sheet, okay? You can write on a cheat sheet. Your help sheet, you can write on this. So, now let's look at… just now, we mentioned it for what? We mentioned we want to solve for this one, okay? Step by step.
+
+380
+01:05:18,410 --> 01:05:30,759
+Li Xun: Okay, so the beginning, the value, of course, is greater than this. Once the beginning value less than this? Already the bankruptcy. We say maybe this VB is the bankruptcy, the crash is the line. It's okay? So…
+
+381
+01:05:30,990 --> 01:05:38,050
+Li Xun: Now, let's look at when is the first time our value is less than VB. Okay, beginning is what?
+
+382
+01:05:38,170 --> 01:05:41,429
+Li Xun: V0 is greater than VB. Is it right?
+
+383
+01:05:41,930 --> 01:05:43,590
+Li Xun: Okay? Beginning.
+
+384
+01:05:43,700 --> 01:05:44,810
+Li Xun: Soap?
+
+385
+01:05:45,240 --> 01:05:51,960
+Li Xun: Now, first time, downgrade 2 is below VB, okay? So, what is a VT?
+
+386
+01:05:52,100 --> 01:05:53,409
+Li Xun: We can write down.
+
+387
+01:05:53,670 --> 01:05:54,630
+Li Xun: this structure.
+
+388
+01:05:55,200 --> 01:05:58,699
+Li Xun: Using just now, we talked about for this model.
+
+389
+01:05:59,250 --> 01:06:04,450
+Li Xun: Okay? VT, okay. Once we have VT, So…
+
+390
+01:06:05,190 --> 01:06:11,530
+Li Xun: Now we lie down, okay, we lie down. We can move this yellow to here, okay, with yellow to here.
+
+391
+01:06:11,930 --> 01:06:17,919
+Li Xun: Okay, so we first get is what? We remove this one, so this one is with yellow.
+
+392
+01:06:18,740 --> 01:06:24,469
+Li Xun: Okay, V's yellow. Now, we know VB is less than V's yellow, okay?
+
+393
+01:06:25,100 --> 01:06:29,860
+Li Xun: Less than equal to V0. So, VB is what? V0 or less than what?
+
+394
+01:06:30,040 --> 01:06:36,380
+Li Xun: Okay? Less than one. Now we what? We take lock. So, this one is less than 0.
+
+395
+01:06:37,480 --> 01:06:41,880
+Li Xun: Get it right? So, also, we said that this one is equal to B… oh, sorry.
+
+396
+01:06:42,060 --> 01:06:44,430
+Li Xun: equal to the… equal to the B…
+
+397
+01:06:44,950 --> 01:06:48,079
+Li Xun: So, why we want to consider
+
+398
+01:06:48,280 --> 01:06:51,360
+Li Xun: B is less than zero. It's okay.
+
+399
+01:06:56,650 --> 01:06:57,540
+Li Xun: Okay.
+
+400
+01:06:58,250 --> 01:07:08,519
+Li Xun: Once we have for this? So, now we step by step, we take the log, okay? Because the log is what? Monitor increasing function, so we are not changing the what?
+
+401
+01:07:08,790 --> 01:07:10,960
+Li Xun: inequality side. It's okay?
+
+402
+01:07:11,290 --> 01:07:27,819
+Li Xun: Okay, the direction keep up. So, we now let's go on. We now let's go on. So, now we fully transfer our problem to this one, okay? Once we transfer this two problems to this one, we know this one is equal to what? Equal to the B. So, this one is sigma. What is this?
+
+403
+01:07:27,850 --> 01:07:31,440
+Li Xun: We can fully regard that this one is equal to the mu.
+
+404
+01:07:31,750 --> 01:07:40,660
+Li Xun: Okay? Equal to mu. So, now let's go to see, is it? We just now mention the result, okay? Mention the result.
+
+405
+01:07:40,930 --> 01:07:46,690
+Li Xun: Okay, or this result is what? We want to see the mu t plus sigma
+
+406
+01:07:47,230 --> 01:07:50,310
+Li Xun: WT equal to the B. It's okay?
+
+407
+01:07:51,120 --> 01:08:02,450
+Li Xun: So, now we fully transfer, or just now we mentioned the problem for now is what? VT less than VB will transfer to what? The standard structure, okay, standard structure.
+
+408
+01:08:03,010 --> 01:08:05,860
+Li Xun: Once we transfer to the standard structure.
+
+409
+01:08:05,890 --> 01:08:20,439
+Li Xun: So, can we do… yes, of course. Now, let's look at how to use what, how to use for this formula, okay? So now you know this, so how to using for this one, okay? So once we using for this, now we know what is B, okay?
+
+410
+01:08:20,439 --> 01:08:32,430
+Li Xun: what is the sigma? So, put the B and the sigma mu, okay? So, now is what? Corresponding to our current, this case, we're using for this. So, now, what do we know?
+
+411
+01:08:32,720 --> 01:08:35,270
+Li Xun: The mute, we know, this is the mute.
+
+412
+01:08:35,550 --> 01:08:40,899
+Li Xun: Okay, so what is B? This one is B. So, we put is what?
+
+413
+01:08:41,390 --> 01:08:45,578
+Li Xun: B under mu, so we get is a new result.
+
+414
+01:08:45,689 --> 01:08:57,060
+Li Xun: Okay, so this one, new result equal to, using just now, we mentioned the formula, okay, using this formula. Put a mu and a B, so this part.
+
+415
+01:08:57,240 --> 01:08:59,359
+Li Xun: equal to P, okay?
+
+416
+01:08:59,550 --> 01:09:06,170
+Li Xun: And… This part, Equal to the milk.
+
+417
+01:09:06,319 --> 01:09:10,890
+Li Xun: No private? Okay. This also is what? It's mu.
+
+418
+01:09:11,350 --> 01:09:19,270
+Li Xun: So, once we came for this, so we can directly apply. Just now, we mentioned that result.
+
+419
+01:09:19,500 --> 01:09:35,908
+Li Xun: Okay? So, once we have for this… so now let's go ahead. So, we can step by step. Actually, it's reconsidered for this one. So, now let's look at… for here, we involving the sigma square, okay? So now is what?
+
+420
+01:09:36,250 --> 01:09:46,868
+Li Xun: Now we can move this sigma to what? To inside, okay? What's inside? So we change this one to what? Sigma 4.
+
+421
+01:09:47,899 --> 01:09:48,960
+Li Xun: Yes or no?
+
+422
+01:09:49,550 --> 01:09:58,890
+Li Xun: Okay, because this is a square root. So once we change this one to the sigma 4, we rearrange, just now we mentioned that for this one.
+
+423
+01:09:59,370 --> 01:10:13,830
+Li Xun: and is for this one, okay? So for here, it's just the involved sigma square, okay? Moving for this, part, okay? So, now we lay a range. Okay, we lay a range.
+
+424
+01:10:14,520 --> 01:10:18,689
+Li Xun: So once we rearrange, we further actually used the set.
+
+425
+01:10:18,820 --> 01:10:27,450
+Li Xun: is C equal to this one? So we reduce to just now, all this result to this new structure, okay, new structure.
+
+426
+01:10:28,820 --> 01:10:46,269
+Li Xun: Okay, once done, okay. So, now we get what? We get it for this one. Okay, I get it for this one. Then we go ahead, okay, we go ahead. So, we now consider the Laplace for this transformation. The result, okay, the result. So.
+
+427
+01:10:46,690 --> 01:10:56,140
+Li Xun: Now, let's look at his… Okay, we look at for this information, okay, we look at… suppose we consider
+
+428
+01:10:56,590 --> 01:11:01,669
+Li Xun: inside this part, okay? Then we consider for this one is what?
+
+429
+01:11:01,790 --> 01:11:07,139
+Li Xun: Laplace transformation. Okay, these are what inside the Foley, this Foley.
+
+430
+01:11:07,250 --> 01:11:12,410
+Li Xun: Okay, we fully… now, at this very moment, this red part is not
+
+431
+01:11:12,650 --> 01:11:18,909
+Li Xun: Density function. The fully raised part we look at is what? Function.
+
+432
+01:11:19,110 --> 01:11:30,900
+Li Xun: Okay? Once you say this is the density, no, it does not matter. So, you can change this one to what? GT, okay? So, then this one is what? This one is the Laplace transformation, okay?
+
+433
+01:11:30,900 --> 01:11:40,990
+Li Xun: corresponding to is the what? It's the capital T. So you get what? Corresponding to this moment, you want to get the new structure. It's not easy for
+
+434
+01:11:40,990 --> 01:11:56,630
+Li Xun: You may not write down either FS. FS, you can write down GS, the same, just using a new notation, that's all. The idea is what? We just keep this idea for here, okay? This is the professor code saying, once we consider for this structure, okay?
+
+435
+01:11:56,790 --> 01:11:58,030
+Li Xun: Structure, okay.
+
+436
+01:11:58,540 --> 01:12:04,820
+Li Xun: So… Now we find out where long is what? Laplace transformation. Okay.
+
+437
+01:12:04,820 --> 01:12:20,249
+Li Xun: This we can use in the Laplace transformation, we can get the final result, we write down JES. Okay, maybe write down FS, Jess. Up to you. Okay, up to you. Okay. So anyway, once we consider for this, now let's look at how to exactly solve
+
+438
+01:12:20,260 --> 01:12:22,799
+Li Xun: Because we already talked to you.
+
+439
+01:12:22,830 --> 01:12:32,700
+Li Xun: What is the expectation? Expectation actually is what? It's a linear operator. For this integral, also linear operate, okay? So, expectation…
+
+440
+01:12:34,190 --> 01:12:35,040
+Li Xun: for…
+
+441
+01:12:38,550 --> 01:12:40,009
+Li Xun: Who is the expectation?
+
+442
+01:12:41,060 --> 01:12:48,069
+Li Xun: Okay? Expectation for one of a random variable is this valuometer. Which one is a random variable? Which one?
+
+443
+01:12:48,210 --> 01:12:49,030
+Li Xun: Which one?
+
+444
+01:12:51,030 --> 01:12:52,729
+Li Xun: Which one is a random variable?
+
+445
+01:12:53,640 --> 01:12:55,100
+Li Xun: Lou is the random variable?
+
+446
+01:12:57,090 --> 01:12:58,469
+Li Xun: To find the random variable.
+
+447
+01:12:59,570 --> 01:13:00,830
+Li Xun: Integral, you know.
+
+448
+01:13:01,490 --> 01:13:03,719
+Li Xun: Which one is integral variable?
+
+449
+01:13:04,350 --> 01:13:05,330
+Li Xun: Capital T.
+
+450
+01:13:05,990 --> 01:13:06,820
+Li Xun: Okay.
+
+451
+01:13:08,070 --> 01:13:09,230
+Li Xun: Capital T.
+
+452
+01:13:10,040 --> 01:13:18,170
+Li Xun: Capital T is what? Integral variable. So now I ask you, Which one is,
+
+453
+01:13:19,630 --> 01:13:26,390
+Li Xun: capital T is integral variable, so this corresponding to expectation also is what?
+
+454
+01:13:27,610 --> 01:13:31,420
+Li Xun: point to one of the random variable. Who is the random variable?
+
+455
+01:13:32,280 --> 01:13:33,199
+Li Xun: Would you want?
+
+456
+01:13:34,170 --> 01:13:37,970
+Li Xun: Lu… S…
+
+457
+01:13:44,650 --> 01:13:46,090
+Li Xun: Oh, yeah, the random variable.
+
+458
+01:13:46,430 --> 01:13:51,050
+Li Xun: Yes or no? Yes. Why? Just enough, we consider.
+
+459
+01:13:51,640 --> 01:13:53,720
+Li Xun: But we consider this model.
+
+460
+01:13:54,290 --> 01:14:05,079
+Li Xun: This is random? Yes, of course. Okay? Toll is a random variable. So, this expectation actually is what? Actually is corresponding to the top.
+
+461
+01:14:06,400 --> 01:14:08,420
+Li Xun: Are you okay? Okay.
+
+462
+01:14:08,570 --> 01:14:10,930
+Li Xun: So, although we write unexpectedly.
+
+463
+01:14:17,740 --> 01:14:20,240
+Li Xun: Not the can… exactly soap, okay.
+
+464
+01:14:20,270 --> 01:14:39,059
+Li Xun: Now we know, okay, tall, corresponding to talk. So now we can exchange it, okay? So this is both different, okay, not the same. So this is what? Expectation for the top, okay? This is what, capital T. So your first calculation taught this information, then your calculator is what?
+
+465
+01:14:39,060 --> 01:14:53,359
+Li Xun: Capital T, the same, okay? So, now is what? Exchange. For this one, exchange. For what is exchanges? For exchange for this one, is… what? We exchange… so, this one, and exchange is for what?
+
+466
+01:14:53,510 --> 01:15:02,679
+Li Xun: is the expectation and integral. We take change, okay? Once we take exchanges, that means for what? For this new part.
+
+467
+01:15:02,820 --> 01:15:09,360
+Li Xun: Why we can't… why we can't exchange it? Because expectation is a linear trait. Indigo is a linear…
+
+468
+01:15:09,470 --> 01:15:13,459
+Li Xun: Once it's linear-linear, we can exchange it. Once it's non-linear, can we exchange it?
+
+469
+01:15:14,470 --> 01:15:15,300
+Li Xun: Yes?
+
+470
+01:15:15,440 --> 01:15:16,370
+Li Xun: Oh, no?
+
+471
+01:15:17,320 --> 01:15:18,389
+Li Xun: No, why no?
+
+472
+01:15:19,990 --> 01:15:24,469
+Li Xun: Why no? Okay, so now let's look at the nonlinear plate, okay?
+
+473
+01:15:24,690 --> 01:15:37,610
+Li Xun: For example, nonlinear. Log X, okay? And for this one, X squared is what? Nonlinear. Log, also nonlinear. So, this not equivalent to what? Not equivalent to log.
+
+474
+01:15:38,060 --> 01:15:41,350
+Li Xun: X takes square. Yes or no? Why?
+
+475
+01:15:42,470 --> 01:15:59,399
+Li Xun: This one is different, because log is a nonlinear operator. X squared also is nonlinear. Okay, so we… so we first use what? First, we can say X squared, then we take log. Second, we say, first we take log X, then we take square. This both value is different. Are you really clear?
+
+476
+01:15:59,460 --> 01:16:12,029
+Li Xun: Okay, so this is a nonlinear operator. Now, expectation is linear, and integral is linear, so we can exchange it. Okay, once we can exchange it, so now let's look at for this one.
+
+477
+01:16:12,900 --> 01:16:16,019
+Li Xun: So, what's the exchange? So, we first do it what?
+
+478
+01:16:16,170 --> 01:16:23,639
+Li Xun: We first do is integral, then we do is what? Then we do is expectation. I really clear?
+
+479
+01:16:23,920 --> 01:16:31,709
+Li Xun: No problem. Okay. So, now we… Go on? Okay, we've got… Okay, now we know.
+
+480
+01:16:32,670 --> 01:16:35,769
+Li Xun: In the first stage, we calculate what?
+
+481
+01:16:36,140 --> 01:16:46,619
+Li Xun: expectation. First, we consider top information. Second, we consider integral t. Now, once we exchange it, we first consider integral capital T,
+
+482
+01:16:46,670 --> 01:16:59,890
+Li Xun: Then we consider what? Expectation. Talk. I really clear out? Okay, so, once we consider for this… So, this inside part, okay, this inside part, now we consider for this one.
+
+483
+01:17:01,310 --> 01:17:07,260
+Li Xun: We consider inside, expectation inside, we consider integral. So, corresponding to integral.
+
+484
+01:17:07,390 --> 01:17:17,620
+Li Xun: Which one is available? Capital T is available. So, tall is what? Just a parameter. You don't change. You don't regard as to at this very moment is available, okay?
+
+485
+01:17:18,500 --> 01:17:25,299
+Li Xun: None is what? You just regard as… toy is your parameter. None is what? Variable.
+
+486
+01:17:25,660 --> 01:17:29,890
+Li Xun: Why? Because at this moment, you first consider integral.
+
+487
+01:17:30,230 --> 01:17:33,960
+Li Xun: with respect to capital T. It's okay?
+
+488
+01:17:34,610 --> 01:17:37,940
+Li Xun: For the top, you just… it's temporarily
+
+489
+01:17:38,100 --> 01:17:43,269
+Li Xun: regard as is the fixed parameter. It's okay? Okay. So…
+
+490
+01:17:43,520 --> 01:17:47,459
+Li Xun: Once store is a fixed parameter, now let's look at it, okay?
+
+491
+01:17:48,580 --> 01:17:49,720
+Li Xun: So…
+
+492
+01:17:50,100 --> 01:18:02,340
+Li Xun: This is a fixed value, so now we say indicator function. Indicator function is what? This indicator function is corresponding to tau is greater than capital T.
+
+493
+01:18:02,900 --> 01:18:08,900
+Li Xun: Capital T is not a fixed value. At this very moment, capital T is what? Valuable.
+
+494
+01:18:09,640 --> 01:18:22,519
+Li Xun: A little clear! Okay, variable. So, is a variable, so we consider, is toy is what? Toll is, toy is greater than capital T, so this means is what?
+
+495
+01:18:22,830 --> 01:18:32,369
+Li Xun: Our capital T is what? Greater than zero. So, from 0 to T. So we take out is what? Indicator function. So, the first 10,
+
+496
+01:18:32,740 --> 01:18:34,059
+Li Xun: Write down this one.
+
+497
+01:18:34,870 --> 01:18:37,130
+Li Xun: Okay, this is our first attempt.
+
+498
+01:18:37,780 --> 01:18:50,409
+Li Xun: Okay, now let's look at our second turn. Okay, second turn. Second turn is we consider this one a tall and a capital T. Which one is minimal? Okay?
+
+499
+01:18:51,800 --> 01:18:54,790
+Li Xun: toe and the T. Which one is the minimum? Okay.
+
+500
+01:18:54,970 --> 01:18:59,519
+Li Xun: So, we… which one minimum? So, we separated into two parts.
+
+501
+01:18:59,680 --> 01:19:00,570
+Li Xun: Once…
+
+502
+01:19:00,690 --> 01:19:10,079
+Li Xun: toe is larger, okay? TOE is larger than capital T, okay? Toe is larger than capital T, so capital T is small.
+
+503
+01:19:10,340 --> 01:19:19,770
+Li Xun: Okay, once capital T is small, so, top… And, T, once… Todd is a larger…
+
+504
+01:19:19,960 --> 01:19:23,910
+Li Xun: Larger than capital T. So this is equal to what?
+
+505
+01:19:24,360 --> 01:19:25,939
+Li Xun: equal to the capital T.
+
+506
+01:19:26,460 --> 01:19:42,650
+Li Xun: Okay? Equal to capital T. So, for here, for here, tau is what? Larger. So, because this is a full integral, now we separate for this one, capital T from yellow to tau. Okay, so we now get the blue part.
+
+507
+01:19:43,660 --> 01:19:48,329
+Li Xun: Okay, blue part. This blue corresponding to is what?
+
+508
+01:19:48,430 --> 01:19:50,900
+Li Xun: is greater than capital T, okay?
+
+509
+01:20:08,160 --> 01:20:09,660
+Li Xun: Okay, next step.
+
+510
+01:20:10,100 --> 01:20:13,520
+Li Xun: Next, we consider… TO and a capital T.
+
+511
+01:20:13,730 --> 01:20:18,920
+Li Xun: Once is what? Tau is less than capital T.
+
+512
+01:20:19,090 --> 01:20:20,740
+Li Xun: Tot less than capital T.
+
+513
+01:20:20,900 --> 01:20:23,679
+Li Xun: So, which one is small talk?
+
+514
+01:20:24,080 --> 01:20:31,439
+Li Xun: Okay, so red part. So also, we consider for this one, again, Second line, radar.
+
+515
+01:20:31,650 --> 01:20:37,149
+Li Xun: So, corresponding to this red part, actually, we mean is what power?
+
+516
+01:20:37,450 --> 01:20:44,230
+Li Xun: is less than, okay? But capital T is valuable, so we write down for this new structure.
+
+517
+01:20:45,180 --> 01:20:46,400
+Li Xun: Ironically up!
+
+518
+01:20:47,880 --> 01:20:50,540
+Li Xun: Now let's reconsider again, okay?
+
+519
+01:20:51,190 --> 01:21:05,760
+Li Xun: I show you is what? Three different lines. The first one is purple. Second one is blue. The blue means what? Tall is greater than capital T. Thor is greater than capital T. Okay, tall is under the integral
+
+520
+01:21:06,050 --> 01:21:15,430
+Li Xun: up index, it's okay? How? Okay, so now this tall is the right part. TOW is less than capital T, so we write down toll is what? Sub-index.
+
+521
+01:21:15,950 --> 01:21:16,920
+Li Xun: It's okay.
+
+522
+01:21:17,280 --> 01:21:17,950
+Li Xun: Okay.
+
+523
+01:21:18,390 --> 01:21:19,370
+Li Xun: So…
+
+524
+01:21:25,260 --> 01:21:30,120
+Li Xun: Okay, once we have for this, now, next stage is what?
+
+525
+01:21:30,380 --> 01:21:40,550
+Li Xun: Next stage, we just use calculate for this one. Okay, from is, next stage is from this stage to go ahead. Okay, from this stager. So…
+
+526
+01:21:40,560 --> 01:21:51,350
+Li Xun: We already separate is what? Integral part, so. Now, within for this one, we take is what? Solve for this one, integral can you solve? Yes, very easy, you can get 4.
+
+527
+01:21:51,450 --> 01:21:52,969
+Li Xun: You can get for this one.
+
+528
+01:21:53,190 --> 01:22:07,720
+Li Xun: Okay? Get it for this. So, also, you can combine, okay? We have the… we have separate for this one, and this one, okay? Separate this part. So, also separate for this. So, this is what you get the new blue part.
+
+529
+01:22:08,190 --> 01:22:16,130
+Li Xun: Okay, new blue part. So, now also let's look at our… another part is the red part. Okay, this is the red part.
+
+530
+01:22:17,960 --> 01:22:21,670
+Li Xun: Okay, read the part. Also, for here, it's makeup.
+
+531
+01:22:21,870 --> 01:22:24,450
+Li Xun: for this radar part. Okay, so we get…
+
+532
+01:22:24,590 --> 01:22:34,419
+Li Xun: Finally, remaining… final remaining is for what? Is, for this one. Final remaining is for this one, the purple part. Okay, this is the purple part.
+
+533
+01:22:34,810 --> 01:22:50,370
+Li Xun: Also, we further, from the last stager to, yes, the next stager, we separated, yes, the three structure, blue, red, and the purple. Okay, once done. Okay, once we have for this, we now, let's go on.
+
+534
+01:22:50,560 --> 01:22:57,379
+Li Xun: Okay. So, first, for this one, take integral. Very easy. Okay, very easy. For this one, take integral.
+
+535
+01:22:58,210 --> 01:23:10,430
+Li Xun: Also, your edict, it's okay, and for the last… for this part. Then you rearrange, okay? Once you get for all this information, now you will find out, we just used what? We already finished.
+
+536
+01:23:10,450 --> 01:23:18,509
+Li Xun: Until for this stage, we already finished. Which one? Variable? We already finished. Integral variable, capital T, down.
+
+537
+01:23:19,260 --> 01:23:26,779
+Li Xun: You will see any capital T? No. You just now, you will see, and for this stage, you will see capital T, okay?
+
+538
+01:23:26,980 --> 01:23:28,380
+Li Xun: For this stage.
+
+539
+01:23:28,600 --> 01:23:39,970
+Li Xun: capital T disappear. Why? We take the integral 4 with respect to capital T. Finally, it gets out. So, now we just either leave, what, one variable top.
+
+540
+01:23:40,380 --> 01:23:57,819
+Li Xun: Okay? So, we have expectation, okay? Once we have expectation, so now let's look at… for this one, it's what? For this one is deterministic. This one, deterministic. This one, deterministic. So, we combine deterministic information is before.
+
+541
+01:23:58,140 --> 01:24:14,400
+Li Xun: expectation, okay? So, we just easily water. We cannot move outside before expectation. Which one? We cannot move before expectation. Just the talk, okay? So, for this one, we keep up.
+
+542
+01:24:15,290 --> 01:24:20,780
+Li Xun: And this one, keep up, because this involves what? Tau, so we keep up here.
+
+543
+01:24:21,240 --> 01:24:22,490
+Li Xun: I really clear up.
+
+544
+01:24:22,740 --> 01:24:25,209
+Li Xun: was… This is a what?
+
+545
+01:24:25,500 --> 01:24:33,350
+Li Xun: no… any relation. We're not dependent on… on top. Just the parameter, just the deterministic, just the… is the…
+
+546
+01:24:33,630 --> 01:24:43,809
+Li Xun: Know any relationship to the is what? It's the talk, so we can move this information before expectation. For the expectation inside just is what?
+
+547
+01:24:44,570 --> 01:24:46,580
+Li Xun: put it at top. O.
+
+548
+01:24:47,080 --> 01:24:52,030
+Li Xun: Knowledge. Okay, so now while we get for the last part? Okay.
+
+549
+01:25:02,300 --> 01:25:12,769
+Li Xun: Okay, so now we corresponding to what? Corresponding to is what? Just… just use, remember, for this one.
+
+550
+01:25:13,210 --> 01:25:15,360
+Li Xun: We get for this result.
+
+551
+01:25:15,490 --> 01:25:17,220
+Li Xun: Okay, this result.
+
+552
+01:25:17,600 --> 01:25:19,729
+Li Xun: Once we care for this, now.
+
+553
+01:25:19,840 --> 01:25:30,329
+Li Xun: look at the next part, okay, next part. Why we should… also, we should go to see the next part? Because just now, over this week, have the what?
+
+554
+01:25:30,500 --> 01:25:33,349
+Li Xun: We just solved this part and this part.
+
+555
+01:25:33,530 --> 01:25:49,180
+Li Xun: Also, next stage, we want to solve this part. I read it clear out what is B? Cover what? Three part, okay? So, now let's look at. So now we solve is what? It's two parts, the first and the last. So now we… let's look at…
+
+556
+01:25:49,900 --> 01:25:56,170
+Li Xun: For this. Okay. Before solving, now let's repeat for this one. Okay, repeat for this one, again.
+
+557
+01:25:58,170 --> 01:26:02,289
+Li Xun: Okay, so we just look at, is it for radar part?
+
+558
+01:26:03,370 --> 01:26:06,150
+Li Xun: radar part, okay? Under this radar part.
+
+559
+01:26:07,960 --> 01:26:14,010
+Li Xun: Okay, for this birth rate part, once we take summation, so equal to what?
+
+560
+01:26:14,670 --> 01:26:18,800
+Li Xun: equal to P. Now let's look at… Justin now.
+
+561
+01:26:19,010 --> 01:26:33,999
+Li Xun: The first, the last, and involved for this one, okay? Then we take a summation, we get the B. I really clear… okay, so why Professor Co considered for this? Because Professor Ko actually separate
+
+562
+01:26:34,130 --> 01:26:50,840
+Li Xun: is for what? Two part. The one part, for the first red part, okay? The first one, and the second one. First one, second one, take summation equal to B, okay? So this means, finally, Professor Koh, consider is what? B, capital T information.
+
+563
+01:26:51,450 --> 01:26:53,820
+Li Xun: Okay, now, before…
+
+564
+01:26:54,010 --> 01:27:08,790
+Li Xun: Finally, we consider Laplace transformation. We first consider, you know, what? Very fundamental. First, we transfer this term using Laplace transformation transfer to one of the results, okay? So, now let's go on.
+
+565
+01:27:09,220 --> 01:27:11,909
+Li Xun: Using Idea Descent, okay, using idea ZENT.
+
+566
+01:27:12,130 --> 01:27:27,740
+Li Xun: Now, using this idea, we using idea is what? We also consider for this model. So, for this, consider for this model, we actually rearranged the 10. So, we reduce to this one. Okay, we reduce to this one. Now.
+
+567
+01:27:27,890 --> 01:27:44,709
+Li Xun: We're solving for this one. From this stage, Professor using a similar idea, just what change is what? Expectation, and for integral. So, get for this one. First, consider is integral. Second, consider expectation. Idea is the same.
+
+568
+01:27:44,910 --> 01:27:54,069
+Li Xun: Once take this way, so corresponding to this one, indicate the result, professor code transfer to the what? To the…
+
+569
+01:27:54,690 --> 01:28:04,609
+Li Xun: indicate information transferred to the integral sub-index, okay? So, now you're corresponding to this one, can you calculate? Yes, of course, very easy.
+
+570
+01:28:04,960 --> 01:28:13,460
+Li Xun: Okay, so, just now, we talked about is the birth is what? This is 1, this is 2. Okay, now…
+
+571
+01:28:13,770 --> 01:28:25,000
+Li Xun: Take this summation. Go on, let's look at what happened. Okay, so, just now, what? Just now, both part is take summation. Equal to what? Equal to B.
+
+572
+01:28:25,620 --> 01:28:44,370
+Li Xun: Okay? Equal to B. So now we know this is result? Yes, of course. We have what? We also corresponding to is what? Corresponding to, this is 1, result 1, this is result 2. Okay? So you… first result, so we get what? Result 1?
+
+573
+01:28:44,510 --> 01:28:50,599
+Li Xun: and the result is summation, okay? So, now I help you use the…
+
+574
+01:28:54,000 --> 01:28:55,090
+Li Xun: Wait a minute.
+
+575
+01:29:12,340 --> 01:29:20,639
+Li Xun: Okay, now you understand its fundamental idea? Okay, so… well, now let's go on. Anyway, first, we separate the water.
+
+576
+01:29:21,470 --> 01:29:39,629
+Li Xun: Item 1, item 2. Now, we take either what? We let the item 1 and item 2 combine, okay? Get the final result, okay? The final result. So, now you know the professor code idea is what? Professor code say is what? This one you can regard as is what?
+
+577
+01:29:39,630 --> 01:29:56,119
+Li Xun: is FT, the beginning. Today, I talked about you is what? It's Laplace transformation, FT. It's okay? Okay, sorry, for here, it is maybe a little bit is different. I write down your table yellow. Okay, so for here, it's F capital T.
+
+578
+01:29:56,360 --> 01:30:02,090
+Li Xun: Okay? F capital T. Then you see the Laplace transformation is what? E.
+
+579
+01:30:02,490 --> 01:30:12,569
+Li Xun: negative S capital T, okay, corresponding to this one. So, you know what is for this? This is capital FS. So, can U is what?
+
+580
+01:30:13,120 --> 01:30:16,719
+Li Xun: Can you, using the Laplace inverse, get the P?
+
+581
+01:30:17,340 --> 01:30:25,440
+Li Xun: Okay, this means that Professor Code is what? Corresponding to actually is added in the first time for B.
+
+582
+01:30:25,550 --> 01:30:29,970
+Li Xun: the result, then is what? Corresponding to the Laplace?
+
+583
+01:30:30,610 --> 01:30:35,750
+Li Xun: inverse transformation back to yes B. It's okay? Yeah. So…
+
+584
+01:30:35,910 --> 01:30:39,389
+Li Xun: Now, you know what? Professor Co-Get is for this result.
+
+585
+01:30:39,560 --> 01:30:51,500
+Li Xun: Okay, this is the result. Now, if you want to solve for this, so you what? Reduce to what? Easy way. Reduce to what? Easy model to go ahead. So, next stage.
+
+586
+01:30:51,860 --> 01:30:59,069
+Li Xun: Is the professor co-considered for this one? Is what? The further range? Okay. How to further arrange to this one? Because
+
+587
+01:30:59,210 --> 01:31:04,929
+Li Xun: Until this stage, you cannot stop. Why? Because what is for this?
+
+588
+01:31:05,440 --> 01:31:11,809
+Li Xun: Now is what our old classmates understand. What is for this? Just now, we already mentioned you.
+
+589
+01:31:13,360 --> 01:31:14,170
+Li Xun: Okay.
+
+590
+01:31:14,660 --> 01:31:16,059
+Li Xun: Just now use this one?
+
+591
+01:31:16,430 --> 01:31:26,269
+Li Xun: Now you what? You just change it. Using for this formula, you change it a little bit, okay? You think for this formula. You just change it just now S to what?
+
+592
+01:31:26,590 --> 01:31:29,129
+Li Xun: Just an S to SR, okay?
+
+593
+01:31:29,550 --> 01:31:36,719
+Li Xun: input this information. Just now, we mentioned the formula. So, can you get for this blue part?
+
+594
+01:31:37,000 --> 01:31:56,279
+Li Xun: Yes, okay. So then you further… further… actually is what? Further is corresponding to get is for this result, okay? Further, get this result. So, now is what? Now, actually, we further is what? We further, we get is for this one is…
+
+595
+01:31:56,830 --> 01:31:57,880
+Li Xun: FS.
+
+596
+01:31:59,040 --> 01:32:03,299
+Li Xun: Okay? So… We now want to know what?
+
+597
+01:32:03,530 --> 01:32:06,949
+Li Xun: We now want to know what is
+
+598
+01:32:10,020 --> 01:32:11,360
+Li Xun: F capital T.
+
+599
+01:32:12,290 --> 01:32:13,140
+Li Xun: DT.
+
+600
+01:32:13,710 --> 01:32:16,539
+Li Xun: Okay, you'll note, this is FS.
+
+601
+01:32:16,640 --> 01:32:17,600
+Li Xun: Go back.
+
+602
+01:32:17,730 --> 01:32:19,209
+Li Xun: It's okay, go back.
+
+603
+01:32:22,840 --> 01:32:23,730
+Li Xun: Okay.
+
+604
+01:32:25,950 --> 01:32:31,629
+Li Xun: Next is we talk about how to go back. Then Professor Ko did not solve it.
+
+605
+01:32:32,240 --> 01:32:39,449
+Li Xun: Okay, ask our classmate. After class, consider Laplace inverse, how to solve.
+
+606
+01:32:42,250 --> 01:32:46,789
+Li Xun: Okay, let's take a 5-minute break, then I help you solve.
+
+607
+01:32:47,110 --> 01:32:56,599
+Li Xun: Okay, Professor Ko, just leave the question to me, then I use the leave question to the AI. Okay, now let's look at AI help us solve. Okay, so you don't worry.
+
+608
+01:32:57,690 --> 01:33:05,700
+Li Xun: Okay, just now, I already introduced you the Laplace transformation, the fundamental idea. Are you clear? Okay, take a 5-minute break.
+
+609
+01:33:06,020 --> 01:33:07,040
+Li Xun: Then you'll come back.
+
+610
+01:33:14,660 --> 01:33:16,410
+Li Xun: Okay, so…
+
+611
+01:33:16,600 --> 01:33:27,180
+Li Xun: For this one, similar to just now, we already talked about the same, okay? The same. From the notes. This, I just used what? I asked, GPT, help us.
+
+612
+01:33:27,230 --> 01:33:36,520
+Li Xun: The solve is a professor code is just now talk about the question. So after class, you can use the GPT to solve, but you should understand, that's all, okay?
+
+613
+01:33:36,550 --> 01:33:49,999
+Li Xun: I cannot say this result is a standard. This is just a suggestion. I use it for the, notes, for the comments for this one, okay? So, this already note corresponding to our lecture note. This part also from is the
+
+614
+01:33:50,000 --> 01:33:56,889
+Li Xun: Professor Ko, actually called, AI just a direct pickup for this all the same, okay?
+
+615
+01:33:57,730 --> 01:34:12,680
+Li Xun: Now, for this, also the same. Okay, also the same. I would like to know that we already have, okay? So we just want to know, professor code, that means what? How to finally get a B. Now, we know, corresponding to this B,
+
+616
+01:34:12,710 --> 01:34:27,380
+Li Xun: We have, using Laplace transformation, we can get the result. What's the final result? We get GS, okay? None is FSGS, so we go back, okay? So, now corresponding to, you know what? Not just now, we already know this result.
+
+617
+01:34:27,380 --> 01:34:36,529
+Li Xun: It's okay? So, we get it for this final result. Also, this final result, based on this, so finally, we get the formula is equal to what?
+
+618
+01:34:36,670 --> 01:34:40,159
+Li Xun: equal to is this one. BS, okay?
+
+619
+01:34:40,330 --> 01:34:43,460
+Li Xun: Yes. Okay. So now you'll know that
+
+620
+01:34:43,690 --> 01:34:49,099
+Li Xun: This is what? B heter S. Okay, B heter S. So, can you get B?
+
+621
+01:34:49,760 --> 01:34:53,920
+Li Xun: Okay, now, BHS is what? Just now, we solve.
+
+622
+01:34:54,130 --> 01:34:58,319
+Li Xun: Okay, you can see, yes, what? You can see just now we already saw.
+
+623
+01:34:59,250 --> 01:35:01,640
+Li Xun: Okay, Justin now, you were a seat.
+
+624
+01:35:01,830 --> 01:35:03,669
+Li Xun: We already solved for this one.
+
+625
+01:35:04,310 --> 01:35:08,730
+Li Xun: Okay, so what is for this one? Now, let's… now let's go on.
+
+626
+01:35:09,430 --> 01:35:10,260
+Li Xun: Okay.
+
+627
+01:35:12,820 --> 01:35:13,570
+Li Xun: Okay.
+
+628
+01:35:14,260 --> 01:35:16,899
+Li Xun: So… This is what?
+
+629
+01:35:17,700 --> 01:35:20,629
+Li Xun: This is a P… Heather S.
+
+630
+01:35:21,330 --> 01:35:26,919
+Li Xun: Okay, BHS, we already get also Corresponding to this one.
+
+631
+01:35:27,060 --> 01:35:29,299
+Li Xun: is what? Be hat.
+
+632
+01:35:29,440 --> 01:35:34,739
+Li Xun: S equal to this. Finally, is get for what? Get for this…
+
+633
+01:35:35,180 --> 01:35:40,259
+Li Xun: result. Okay, get it for this result. Now let's corresponding to this
+
+634
+01:35:40,560 --> 01:35:43,610
+Li Xun: corresponding to B header S.
+
+635
+01:35:43,870 --> 01:35:49,149
+Li Xun: is what? Go back to get the previous. We want to get the B.
+
+636
+01:35:49,330 --> 01:35:50,220
+Li Xun: Okay.
+
+637
+01:35:50,420 --> 01:35:55,969
+Li Xun: We now get… so using the what? Laplace transformation. Go back. Laplace is a…
+
+638
+01:35:56,080 --> 01:36:07,350
+Li Xun: inverse transformation, okay? So, this one, as we said, is Laplace inverse, okay? So, corresponding to Laplace inverse, we can get directly at this.
+
+639
+01:36:07,490 --> 01:36:09,020
+Li Xun: None is,
+
+640
+01:36:12,020 --> 01:36:12,830
+Li Xun: Okay.
+
+641
+01:36:13,040 --> 01:36:20,240
+Li Xun: maybe I should make up a little bit to use the… This note, okay, maybe…
+
+642
+01:36:20,840 --> 01:36:25,680
+Li Xun: Let's go back to… Pickup is for this one.
+
+643
+01:37:15,830 --> 01:37:21,919
+Li Xun: Okay, I'm so sorry, I don't know where is the Laplace inverse transformation.
+
+644
+01:37:30,490 --> 01:37:33,459
+Li Xun: Wait a minute, let me see the plus inverse…
+
+645
+01:37:48,670 --> 01:37:51,960
+Li Xun: Okay, I do not take the Laplace inverse.
+
+646
+01:37:52,940 --> 01:37:55,020
+Li Xun: transformation table.
+
+647
+01:38:07,430 --> 01:38:11,279
+Li Xun: Oh, We have Laplace image. Yeah, yeah, yeah, yeah, yeah.
+
+648
+01:38:11,760 --> 01:38:12,700
+Li Xun: Okay.
+
+649
+01:38:14,210 --> 01:38:16,809
+Li Xun: Okay, now let's go to see this one.
+
+650
+01:38:18,040 --> 01:38:20,590
+Li Xun: Okay.
+
+651
+01:38:20,700 --> 01:38:23,070
+Li Xun: So… For here.
+
+652
+01:38:23,310 --> 01:38:33,449
+Li Xun: P is a variable, okay? P is a variable. So, you do the transformation, okay, equal to what? Equal to 1.
+
+653
+01:38:33,740 --> 01:38:38,940
+Li Xun: So, once this P is the… this variable, so you…
+
+654
+01:38:39,140 --> 01:38:57,770
+Li Xun: transferred to this one, you get is what? Is E negative AX, okay? This first is the Laplace transformation and the inverse transformation back. It's okay. So this one takes the what? This one you take is the Laplace transformation is E.
+
+655
+01:38:58,150 --> 01:38:59,410
+Li Xun: negative.
+
+656
+01:38:59,540 --> 01:39:00,370
+Li Xun: P.
+
+657
+01:39:00,480 --> 01:39:07,959
+Li Xun: Okay? SP, maybe PX. Okay, so you will get for this one. Okay, FP.
+
+658
+01:39:08,160 --> 01:39:15,350
+Li Xun: maybe you get for this one is what? You take the E, Negative. XP.
+
+659
+01:39:15,640 --> 01:39:19,710
+Li Xun: E negative XP, take an integral.
+
+660
+01:39:19,920 --> 01:39:25,009
+Li Xun: Then it's a DP, so you get for this one. X is that, okay?
+
+661
+01:39:25,200 --> 01:39:38,999
+Li Xun: Get it for this one. So, this is one by one, you have the transformation. So, after class, you can consider inverse Laplace transformation structure, okay? So, now, let's go to C is over this one.
+
+662
+01:39:40,550 --> 01:39:41,300
+Li Xun: Okay.
+
+663
+01:39:42,070 --> 01:39:51,799
+Li Xun: So, this means that we can take what? Transformation. Back to this result. So, you can take transformation is the first is for what?
+
+664
+01:39:51,880 --> 01:40:10,490
+Li Xun: For example, is LU, and for this one, S and R plus S. For here, S is a variable. Similar to just now we talked about the P, okay? So, you separate two parts is what? Separate two parts is the LU and the
+
+665
+01:40:10,840 --> 01:40:12,660
+Li Xun: SRS.
+
+666
+01:40:13,020 --> 01:40:17,900
+Li Xun: And the plus, second, is what? One of RS. It's no problem.
+
+667
+01:40:18,480 --> 01:40:25,819
+Li Xun: Okay, one bias. So, now for this one, also, you can further write is,
+
+668
+01:40:26,120 --> 01:40:29,110
+Li Xun: This is R… Wait a minute…
+
+669
+01:40:47,620 --> 01:40:48,290
+Li Xun: Okay.
+
+670
+01:40:48,670 --> 01:40:53,099
+Li Xun: Let me see, maybe we're just using for this one enough. Okay, so…
+
+671
+01:40:59,160 --> 01:41:00,020
+Li Xun: Okay.
+
+672
+01:41:00,900 --> 01:41:11,030
+Li Xun: Okay, using for this structure, okay? This moment is SSR, okay? SSR. So, you can get for this result.
+
+673
+01:41:11,500 --> 01:41:22,040
+Li Xun: It's okay, you can get for this result. SSR. Also, another one is we have the what? LAU. Okay, LAU. So, now is, we write down for this one. This is A.
+
+674
+01:41:22,590 --> 01:41:23,860
+Li Xun: Okay…
+
+675
+01:41:34,140 --> 01:41:43,740
+Li Xun: Okay, so for this one, you can write down your what? LAU, okay? So, this one is… S. R.
+
+676
+01:41:44,050 --> 01:41:44,890
+Li Xun: S…
+
+677
+01:41:45,640 --> 01:41:53,740
+Li Xun: So, for this one, it's RS. So, this one is inside part, okay? Then it's what? You fully take
+
+678
+01:41:54,600 --> 01:41:56,120
+Li Xun: Is for this one.
+
+679
+01:41:56,450 --> 01:41:57,300
+Li Xun: Okay?
+
+680
+01:41:57,620 --> 01:41:59,210
+Li Xun: Corresponding to this one.
+
+681
+01:41:59,720 --> 01:42:05,640
+Li Xun: Corresponding to this one. Take 40 for this one. So, this one equal to what?
+
+682
+01:42:05,850 --> 01:42:12,620
+Li Xun: equal to the… transformation. Then, this transformation, you will get the loop.
+
+683
+01:42:12,720 --> 01:42:15,840
+Li Xun: And, just now, we talked about his what?
+
+684
+01:42:16,120 --> 01:42:25,690
+Li Xun: Talk about the years before, talk about is for… Talk about his, for this one.
+
+685
+01:42:25,920 --> 01:42:33,060
+Li Xun: A1, that's together, okay? A at this moment is R. 1 over R, okay?
+
+686
+01:42:34,600 --> 01:42:39,440
+Li Xun: You together helped me is a… For this one.
+
+687
+01:42:40,110 --> 01:42:44,789
+Li Xun: is, one, Oh, sorry. 1 over R.
+
+688
+01:42:45,700 --> 01:42:52,050
+Li Xun: 1 over R, and… 1 minus ERS.
+
+689
+01:42:52,390 --> 01:42:53,860
+Li Xun: Okay, first attempt.
+
+690
+01:42:54,210 --> 01:42:55,759
+Li Xun: The second attempt.
+
+691
+01:42:55,990 --> 01:43:02,639
+Li Xun: So now let's look at, for this, the second… for this second, how to get, okay, so let's look at…
+
+692
+01:43:02,950 --> 01:43:07,069
+Li Xun: Second is… second is equal to this one. Yes or no?
+
+693
+01:43:07,450 --> 01:43:13,540
+Li Xun: Okay, second equal to this one. So… Second, Oh, sorry.
+
+694
+01:43:14,240 --> 01:43:15,370
+Li Xun: negative.
+
+695
+01:43:15,680 --> 01:43:22,050
+Li Xun: is, secondary is, E, S, it's no problem.
+
+696
+01:43:28,600 --> 01:43:29,699
+Li Xun: Oh, sorry.
+
+697
+01:43:32,590 --> 01:43:33,390
+Li Xun: Nope.
+
+698
+01:43:35,400 --> 01:43:45,720
+Li Xun: Just now, for this one, the transformation, for this one is what? For this one is a P, corresponding to here is what? X.
+
+699
+01:43:47,070 --> 01:43:56,240
+Li Xun: So, over this model is for this one. Over this model is for the… this part is S transferred to the capital T.
+
+700
+01:43:56,840 --> 01:44:00,889
+Li Xun: Okay, so for here, we should write down capital T.
+
+701
+01:44:01,180 --> 01:44:02,040
+Li Xun: Captote.
+
+702
+01:44:02,820 --> 01:44:04,439
+Li Xun: Okay, right on capital T.
+
+703
+01:44:04,570 --> 01:44:08,000
+Li Xun: Okay, once we write down capital T, Next.
+
+704
+01:44:08,320 --> 01:44:14,950
+Li Xun: let's rearrange, okay, rearrange, okay? Rearrange we get is what we can get.
+
+705
+01:44:15,210 --> 01:44:16,830
+Li Xun: is,
+
+706
+01:44:20,970 --> 01:44:22,820
+Li Xun: LAU over R.
+
+707
+01:44:22,960 --> 01:44:24,660
+Li Xun: E-R-T.
+
+708
+01:44:24,880 --> 01:44:25,720
+Li Xun: Okay.
+
+709
+01:44:26,470 --> 01:44:33,830
+Li Xun: minus ERT, okay, plus lu… RT, okay.
+
+710
+01:44:33,940 --> 01:44:37,389
+Li Xun: Also, we find out, this is the first part.
+
+711
+01:44:37,870 --> 01:44:40,700
+Li Xun: is equal to what? Equal to this one.
+
+712
+01:44:41,200 --> 01:44:42,080
+Li Xun: Okay?
+
+713
+01:44:42,720 --> 01:44:45,210
+Li Xun: And, for this second part.
+
+714
+01:44:45,630 --> 01:44:46,680
+Li Xun: Yes or no?
+
+715
+01:44:46,790 --> 01:44:52,390
+Li Xun: Okay, so this just is the one that, example, once you try.
+
+716
+01:44:52,650 --> 01:45:11,169
+Li Xun: I will leave for this to you, okay? Once you try Laplace transformation, you can very easily, okay, corresponding to what? Corresponding to this one, take a Laplace inverse transformation to get this, okay? So this is solve is what? One of part. Just the solve is for this one.
+
+717
+01:45:11,870 --> 01:45:24,649
+Li Xun: Okay, why? You should take a Laplace corresponding to this one, take a Laplace, use transformation corresponding to this one, and then use the Foley corresponding to the Foley for this one.
+
+718
+01:45:25,010 --> 01:45:26,009
+Li Xun: Take a what?
+
+719
+01:45:26,340 --> 01:45:35,880
+Li Xun: Laplace transformation, inverse transformation. Now, just to solve what? The first part. Second, corresponding to is for this one.
+
+720
+01:45:36,040 --> 01:45:37,159
+Li Xun: Go on salt.
+
+721
+01:45:37,440 --> 01:45:44,170
+Li Xun: Okay, go on. So, now we finish first part, the second that we go on, okay? Second, it is not easy.
+
+722
+01:45:44,810 --> 01:45:45,710
+Li Xun: We…
+
+723
+01:45:45,870 --> 01:45:58,839
+Li Xun: actually want to solve for this one is a very spatial structure, okay? The spatial structure now is what? We corresponding to this one, okay, corresponding to this one. We have two parts, okay, two parts, now we separate two parts.
+
+724
+01:45:59,290 --> 01:46:03,939
+Li Xun: Okay. What is corresponding to this one combined? Okay.
+
+725
+01:46:04,070 --> 01:46:11,690
+Li Xun: Now this one is, this one is one of S, okay? Combine this. This is a parameter, okay? Second.
+
+726
+01:46:12,380 --> 01:46:16,999
+Li Xun: Second, these are all parameters, but we combine this one and this one.
+
+727
+01:46:17,460 --> 01:46:20,030
+Li Xun: Okay? Why? This involves the S.
+
+728
+01:46:20,150 --> 01:46:28,419
+Li Xun: S is a variable. Corresponding to this, once we combine, so this A at this moment is R. It's okay?
+
+729
+01:46:28,650 --> 01:46:29,809
+Li Xun: 8, okay.
+
+730
+01:46:30,420 --> 01:46:36,150
+Li Xun: So, anyway… We, anyway, we want, what, corresponding to read the part.
+
+731
+01:46:36,560 --> 01:46:38,420
+Li Xun: We want to take inverse.
+
+732
+01:46:38,820 --> 01:46:50,320
+Li Xun: Okay, so we corresponding to the radar part, consider this inverse. Also, we came more general. Okay, this A, now let's look at the A equal to R, so we have what?
+
+733
+01:46:50,500 --> 01:46:53,320
+Li Xun: is a radar part, okay? So…
+
+734
+01:46:53,480 --> 01:46:56,750
+Li Xun: Now, let's go on. Also, we consider for this one.
+
+735
+01:46:57,010 --> 01:47:05,379
+Li Xun: For this one, okay, with S. So A is equal to yellow, we consider blue part. I will clear out
+
+736
+01:47:05,650 --> 01:47:15,519
+Li Xun: So, now we're using more general. A is yellow, we consider blue. A is R, we consider just now, we talk about is the red part.
+
+737
+01:47:16,400 --> 01:47:33,259
+Li Xun: Okay, we separated two cases. So, once we can solve for this one, actually, we saw what? We solved this first term that we finally finished, okay? So, now let's look at it. For this one, for me, just now, I show you my paper. I, for this one, is using what?
+
+738
+01:47:33,650 --> 01:47:45,119
+Li Xun: Take the integrals off. Now, Professor Ko, actually, based on either what Laplace transformation fundamental knowledge corresponding to this one, maybe point to either what? It's inverse. That's all, okay.
+
+739
+01:47:45,590 --> 01:47:51,329
+Li Xun: So if we will want to solve for this, for the Laplace transformation, may not.
+
+740
+01:47:51,480 --> 01:47:56,360
+Li Xun: pay for this structure. May not, okay? May not. So…
+
+741
+01:47:57,090 --> 01:48:13,269
+Li Xun: Professor Koh wants to solve for this, maybe exists, what, alpha U for this standard, but may not consider it, what, more tedious. So, Professor Koh should reduce current complex model to what?
+
+742
+01:48:13,640 --> 01:48:21,520
+Li Xun: is standard, fundamental model. So, if we want to consider for this fundamental model, Professor Koh said that this one is U.
+
+743
+01:48:22,000 --> 01:48:32,319
+Li Xun: Okay? This one, yo, so this means what? This means is that we get is… S equal to…
+
+744
+01:48:32,430 --> 01:48:34,739
+Li Xun: U minus lambda.
+
+745
+01:48:35,420 --> 01:48:43,459
+Li Xun: Okay? U minus lambda. So, U minus lambda. So, SA, you can write down, is for what?
+
+746
+01:48:43,570 --> 01:48:48,060
+Li Xun: you can write down U minus lambda plus A. Okay.
+
+747
+01:48:48,220 --> 01:48:53,650
+Li Xun: So then you write down, is U, minus lambda minus 8.
+
+748
+01:48:53,930 --> 01:48:59,380
+Li Xun: I really clear… Okay, so first up, Professor K1-2 Yoding.
+
+749
+01:48:59,490 --> 01:49:15,170
+Li Xun: actually is the more standard, more fundamental formula. So, he have to do a little bit of transformation. Okay, transformation. Okay, now this transformation, Professor Koh, right down this path, is…
+
+750
+01:49:15,630 --> 01:49:16,610
+Li Xun: Beta A.
+
+751
+01:49:17,190 --> 01:49:19,950
+Li Xun: Okay, so, now, let's go up.
+
+752
+01:49:24,880 --> 01:49:28,820
+Li Xun: I'm not sure if you were used or not. First, I…
+
+753
+01:49:29,640 --> 01:49:41,209
+Li Xun: Take picture, okay, okay. Once we take picture, so now let's go on, okay? Go on. So, for this model, we go on, talk about this model. So, this one is further reduced to what?
+
+754
+01:49:41,350 --> 01:49:43,670
+Li Xun: Reduced to the structure.
+
+755
+01:49:43,860 --> 01:49:44,640
+Li Xun: Okay.
+
+756
+01:49:45,100 --> 01:49:59,570
+Li Xun: So, just now, now let's look at… is, Professor Ko say he actually reduced to the U equal to this, okay? So, and this inside part, Professor Co is reduced to this
+
+757
+01:50:00,400 --> 01:50:14,930
+Li Xun: Simple structure, okay. Corresponding to this simple structure, Professor Ko can get is the very standard formula. At this moment, he used the U again. Actually, at this moment.
+
+758
+01:50:16,050 --> 01:50:23,300
+Li Xun: key points U to S, so this, you can regard as this is U, this is U. Do you understand that?
+
+759
+01:50:23,930 --> 01:50:26,250
+Li Xun: Okay, he used the S again, okay.
+
+760
+01:50:26,400 --> 01:50:27,500
+Li Xun: Okay.
+
+761
+01:50:28,250 --> 01:50:32,569
+Li Xun: Okay. So, this beta is what? This beta is a…
+
+762
+01:50:32,680 --> 01:50:41,749
+Li Xun: equal to the beta A, the same. Okay, beta A. Okay, so none is what? None is the…
+
+763
+01:50:42,880 --> 01:50:44,659
+Li Xun: 9 years, we…
+
+764
+01:50:44,950 --> 01:50:59,820
+Li Xun: We corresponding to what? We just corresponding to the more standard model, okay? We said this maybe is a standard model. This is the standard model, okay? Transfer what? From S to T. T will write down here.
+
+765
+01:51:00,070 --> 01:51:06,269
+Li Xun: Okay, let's write down T. So, corresponding to standard Laplace inverse formula.
+
+766
+01:51:06,860 --> 01:51:11,190
+Li Xun: for this red part, okay, for this part, standard.
+
+767
+01:51:11,660 --> 01:51:13,480
+Li Xun: Already, history.
+
+768
+01:51:13,620 --> 01:51:16,870
+Li Xun: Sum of guy already helped you solve is equal to this.
+
+769
+01:51:16,990 --> 01:51:19,740
+Li Xun: Okay? This is supposed, once…
+
+770
+01:51:19,880 --> 01:51:34,560
+Li Xun: Corresponding to the exam, you can write on this, okay? Then you can directly apply. So, you may not say, how to, from this stage to this one. This stage will regard as is given the formula, okay?
+
+771
+01:51:35,170 --> 01:51:51,749
+Li Xun: This given the formula, okay? So, now once we have for this the standard formula corresponding to Laplace, maybe we take a corresponding to Laplace transformation into the textbook, and the mathematical, the formula book you will get for this, okay? So, this one.
+
+772
+01:51:52,010 --> 01:51:55,660
+Li Xun: is, ferlanda.
+
+773
+01:51:56,390 --> 01:52:01,050
+Li Xun: standard mathematical handbook you can get. Blue part.
+
+774
+01:52:01,260 --> 01:52:03,259
+Li Xun: Oh, sorry, there's a purple part.
+
+775
+01:52:03,370 --> 01:52:11,990
+Li Xun: Okay, once we have for this, can we go back to beginning? We want to solve the problem? Yes, of course.
+
+776
+01:52:12,130 --> 01:52:18,500
+Li Xun: Now, let's go back to see for this one. We now do a little bit of the transformation, okay, transformation.
+
+777
+01:52:18,980 --> 01:52:28,979
+Li Xun: So, now, first one, for this beta is what? Beta A. So, also, we know beta A is what? Beta A equal to is lambda.
+
+778
+01:52:29,060 --> 01:52:43,539
+Li Xun: A. Okay, so for here, now we know, we first write down, is the beta equal to the beta A? Beta A equal to lambda minus A. So, now, first, let's look at, for this all the beta information.
+
+779
+01:52:43,870 --> 01:52:50,620
+Li Xun: All this beta information, we change all this beta information, beta information, to what?
+
+780
+01:52:50,780 --> 01:52:55,140
+Li Xun: Two years. Lend. A. Lend. A. It's okay?
+
+781
+01:52:55,380 --> 01:52:59,360
+Li Xun: So this is clear, okay, so this is a… for the…
+
+782
+01:52:59,690 --> 01:53:08,470
+Li Xun: Lambda, okay. Once we have for this lambda, we keep up… keep up others, others, okay, keep up others.
+
+783
+01:53:14,150 --> 01:53:20,180
+Li Xun: Okay, now let's look at… this is, G A T.
+
+784
+01:53:31,580 --> 01:53:34,930
+Li Xun: Okay, anyway, we have the main part. Okay, main part.
+
+785
+01:53:35,100 --> 01:53:48,859
+Li Xun: Now, we also have used the beta yellow and the beta R to result, okay? Beta yellow and beta R. Beta yellow… beta yellow means what?
+
+786
+01:53:49,590 --> 01:53:52,650
+Li Xun: Beta's yellow is the equal to lambda.
+
+787
+01:53:52,830 --> 01:53:56,989
+Li Xun: Okay? Beta up means equal to the…
+
+788
+01:53:57,230 --> 01:54:03,690
+Li Xun: lambda minus R, so we can further reduce, okay? Next stage, we can further reduce, okay?
+
+789
+01:54:09,730 --> 01:54:10,560
+Li Xun: Okay.
+
+790
+01:54:11,580 --> 01:54:15,089
+Li Xun: This one is what? This one is corresponding to the…
+
+791
+01:54:15,230 --> 01:54:29,810
+Li Xun: general case, maybe we set is what? Just now we set A, okay, A is yellow, or A is R2 case, okay? So this is what? This is A equal to yellow, and A equal to that.
+
+792
+01:54:30,030 --> 01:54:37,779
+Li Xun: Just, this is what, just now we already talked about, we have two cases. Once, this A equal to R is for
+
+793
+01:54:37,890 --> 01:54:43,310
+Li Xun: this case. Once A equal to yellow, we talk about this case.
+
+794
+01:54:43,590 --> 01:54:45,269
+Li Xun: Okay, so we have the two…
+
+795
+01:54:45,560 --> 01:55:02,959
+Li Xun: 2 tenths, okay, 2 tenths. So, these two tenths correspond to beta yellow and beta R. So, beta yellow equal to lambda, that means what? A equal to yellow. Beta equal to the R. Beta r is lambda minus R. A is equal to R, okay.
+
+796
+01:55:04,490 --> 01:55:06,170
+Li Xun: So, now let's go ahead.
+
+797
+01:55:07,020 --> 01:55:14,399
+Li Xun: So, we know is what we corresponding to is just 9 is what we can get is BT.
+
+798
+01:55:14,850 --> 01:55:24,269
+Li Xun: Okay, B capital T is reverse to the two part. One is just now we mentioned the reverse. This second, also we using what?
+
+799
+01:55:24,500 --> 01:55:30,990
+Li Xun: using just now Laplace information inverse, you can go on to read. We can reverse
+
+800
+01:55:30,990 --> 01:55:45,820
+Li Xun: to use what is for this structure, okay? So this first structure is dependent on the G is yellow and the GR. What is GZ yellow? See, GZ yellow is the mean is for this one. We reverse is what? This is GZ yellow.
+
+801
+01:55:46,050 --> 01:55:51,040
+Li Xun: Then we reverse to flown this way. We reverse to years of what?
+
+802
+01:55:51,230 --> 01:55:52,890
+Li Xun: 2 data. G is yellow.
+
+803
+01:55:53,160 --> 01:56:00,219
+Li Xun: T, okay? Another one is GI. GI is originally for this part. Take inverse.
+
+804
+01:56:00,940 --> 01:56:03,679
+Li Xun: We reverse to the GRT.
+
+805
+01:56:03,860 --> 01:56:20,550
+Li Xun: Okay? Other is what? It's coefficient. So, corresponding to this first part, so now we know other is coefficient. One is GZLO, one is J. After class, you double check. Okay, I will offer you for these notes. So, based on all this information.
+
+806
+01:56:20,680 --> 01:56:25,840
+Li Xun: Finally, we have… this is a scene. This is just now, we already…
+
+807
+01:56:26,320 --> 01:56:31,319
+Li Xun: Yes, this is, GPT, maybe it repeated write, okay, so…
+
+808
+01:56:31,500 --> 01:56:39,619
+Li Xun: GPT is Jupiter right. Okay, finally, we can, corresponding to just now, we talked about the information. We can get the
+
+809
+01:56:40,900 --> 01:56:54,639
+Li Xun: speak to the result. You can double check, okay, double check. For others, it's not required. This is the GPT that produced the other part. You just take care if we solve it what? Until for this stage, using what?
+
+810
+01:56:54,750 --> 01:56:58,389
+Li Xun: Using for this, maybe is for the last pager.
+
+811
+01:56:59,010 --> 01:57:07,749
+Li Xun: Okay, I'll help you use the delete last page, okay? Maybe… maybe you don't care for this one. This one is what? You see, we say.
+
+812
+01:57:07,960 --> 01:57:08,880
+Li Xun: BT…
+
+813
+01:57:09,060 --> 01:57:27,219
+Li Xun: we can use B capital D, we can express this one. So, just is what? You think for this one, repress for this, and repress for this. Okay? So, now this one is the answer, the red part answer is what? Answer is, just now, we ask you, Professor Ku.
+
+814
+01:57:27,270 --> 01:57:29,669
+Li Xun: We'll ask you to solve that problem.
+
+815
+01:57:30,910 --> 01:57:31,700
+Li Xun: Top.
+
+816
+01:57:32,360 --> 01:57:40,620
+Li Xun: Regardless, this question is, HK, HWK for this one is the X size as our tutorial part.
+
+817
+01:57:41,020 --> 01:57:44,280
+Li Xun: Okay, today… We stop here.
+
+818
+01:57:44,660 --> 01:57:56,709
+Li Xun: Okay, so, lecture and tutorial part, we stop here. So now I want to ask you is, do you have, any other questions? I just, corresponding to the, recording.
+
+819
+01:57:56,900 --> 01:57:57,920
+Li Xun: Sapkia?
+
+820
+01:57:58,040 --> 01:58:00,640
+Li Xun: Okay, the nine is the…
+

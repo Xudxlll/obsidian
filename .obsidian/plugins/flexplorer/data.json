@@ -8356,6 +8356,8 @@
       "isHidden": false,
       "sortOrder": "byName",
       "customOrder": [
+        "附件",
+        "00 - 课堂重点与考试提醒总览.md",
         "Lecture 3",
         "Lecture 4",
         "Lecture 5",
@@ -8472,6 +8474,7 @@
       "sortOrder": "custom",
       "customOrder": [
         "附件",
+        "04 - 课堂重点与考试提醒.md",
         "03 - Matrix Exponential Approximation（Notebook 原文代码）.md",
         "02 - 课内练习解答（英文原文与折叠译文）.md",
         "01 - Lecture 1（英文原文与折叠译文）.md"
@@ -8531,6 +8534,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "07 - 课堂重点与考试提醒.md",
         "附件",
         "06 - 伊藤随机微积分知识框架.md",
         "05 - 手写推导：Ito 引理与布朗运动三阶矩.md",
@@ -8714,6 +8718,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "05 - 课堂重点与考试提醒.md",
         "附件",
         "04 - 期中练习卷与详细解答（英文原文与折叠译文）.md",
         "03 - 修订版期中测试与详解（英文原文与折叠译文）.md",
@@ -8779,6 +8784,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "02 - 课堂重点与考试提醒.md",
         "附件",
         "01 - Lecture 5（英文原文与折叠译文）.md",
         "00 - Lecture 5 资料索引.md"
@@ -8809,6 +8815,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "03 - 课堂重点与考试提醒.md",
         "01 - Lecture 4（英文原文与折叠译文）.md",
         "附件",
         "02 - 总债务价值补充推导（课堂原图）.md",
@@ -8981,6 +8988,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "02 - 课堂重点与考试提醒.md",
         "附件",
         "01 - Lecture 3（英文原文与折叠译文）.md",
         "00 - Lecture 3 资料索引.md"
@@ -9015,6 +9023,79 @@
       "isHidden": false
     },
     "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/Merton信用利差_两种期限结构.svg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/00 - 课堂重点与考试提醒总览.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 1/04 - 课堂重点与考试提醒.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/07 - 课堂重点与考试提醒.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 3/02 - 课堂重点与考试提醒.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 4/03 - 课堂重点与考试提醒.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 5/02 - 课堂重点与考试提醒.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Midterm/05 - 课堂重点与考试提醒.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "授课字幕"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA572 Fixed-Income and Credit Risk/附件/授课字幕": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "midterm_字幕.srt",
+        "lec4 & 5_字幕.srt",
+        "lec3_字幕.srt",
+        "lec2_字幕(下).srt",
+        "lec2_字幕(上).srt",
+        "lec1_字幕.srt"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA572 Fixed-Income and Credit Risk/附件/授课字幕/lec1_字幕.srt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/附件/授课字幕/lec2_字幕(上).srt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/附件/授课字幕/lec2_字幕(下).srt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/附件/授课字幕/lec3_字幕.srt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/附件/授课字幕/lec4 & 5_字幕.srt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/附件/授课字幕/midterm_字幕.srt": {
       "isPinned": false,
       "isHidden": false
     }

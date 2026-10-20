@@ -1,0 +1,1984 @@
+1
+00:00:01,320 --> 00:00:03,629
+Li Xun: Okay, now, let's begin.
+
+2
+00:00:11,510 --> 00:00:25,530
+Li Xun: This semester we discussed is, CREDIT RISK Today, we actually just give the introduction corresponding to Professor… he is, Steve Kerr in the… at the Boston University, he is, okay?
+
+3
+00:00:26,950 --> 00:00:36,119
+Li Xun: This is… this is the notes from the 40 from the Professor Steve Kerr, okay? Steve Kerr originally worked at the
+
+4
+00:00:36,420 --> 00:00:42,189
+Li Xun: Columbia University, and then moved to this university,
+
+5
+00:00:42,320 --> 00:00:47,149
+Li Xun: National University of Singapore. Now he moved to the Boston University.
+
+6
+00:00:47,270 --> 00:01:00,000
+Li Xun: These notes, he designed these notes. Also, he designed these notes, actually, it's based on his research work, okay, research work. This is not, this research work.
+
+7
+00:01:00,510 --> 00:01:12,830
+Li Xun: does not belong to me. I'm also not very, very familiar with this one, but I just know a little bit. But for this one, for me, actually, we both are the same, okay?
+
+8
+00:01:13,600 --> 00:01:32,139
+Li Xun: Now, let's look at for this, problem. So, so first, now let's look at for this simple example. Okay, now we consider the example actually is the bond. This page is the first value, is $1. Maturity data is T. Also, continues the coupon rate.
+
+9
+00:01:32,220 --> 00:01:35,500
+Li Xun: LU, and default time at the…
+
+10
+00:01:35,890 --> 00:01:40,270
+Li Xun: talk, okay? Then we consider recovery value is the C.
+
+11
+00:01:40,390 --> 00:01:51,350
+Li Xun: And also corresponding to this one, we want to know what is cash flow, okay? So, now you look at corresponding to either what? This is first value what? So this is what? $1.
+
+12
+00:01:51,520 --> 00:01:58,099
+Li Xun: Okay? $1. So after is what? After is the default. After default is what?
+
+13
+00:01:58,190 --> 00:02:13,009
+Li Xun: So, the default after is the maturity data, so all amount, just is using what? Is the negative R capital T, okay? This is easily after use for this one. This is because use what? You never used the
+
+14
+00:02:13,190 --> 00:02:18,479
+Li Xun: 9 years for this one, okay? This is T, okay?
+
+15
+00:02:18,660 --> 00:02:23,439
+Li Xun: there's a talk at this moment, so you take a value is what, E.
+
+16
+00:02:24,540 --> 00:02:25,420
+Li Xun: RT.
+
+17
+00:02:25,560 --> 00:02:34,109
+Li Xun: Okay, this is a good cash flow. So, 9 years what? Less than, okay? Less than. Non-tour years on this period.
+
+18
+00:02:34,310 --> 00:02:48,149
+Li Xun: is less than for this one. So this amount corresponding to just now we talked about the recovery value is the C, okay, using C, and with the discount factor. Discount factor is the what? Is the E…
+
+19
+00:02:48,320 --> 00:02:52,849
+Li Xun: top, okay? So, this one is the what? From the top.
+
+20
+00:02:52,960 --> 00:03:12,109
+Li Xun: is, reduced to what? Beginning. This is a capital T, okay, capital T also reduced to the beginning. So, discount factor. This discount factor means what? You're at the beginning to discuss. And, also, corresponding to… this one is what? This means the payment,
+
+21
+00:03:12,910 --> 00:03:22,729
+Li Xun: LU is what? It's a coupon payment, okay? Maybe it's the coupon rate. On or before is the executive. Maybe executive…
+
+22
+00:03:23,050 --> 00:03:28,890
+Li Xun: is the top. TOY is the what? Is the below capital T, and beyond capital T. So…
+
+23
+00:03:29,030 --> 00:03:39,379
+Li Xun: This mean is the notation maybe we were using. I just take this one, introduce a little bit to the notation. So, this mean is the minima, okay? Minima, T, and the top.
+
+24
+00:03:39,740 --> 00:03:44,929
+Li Xun: I clear out? Okay. Once… Once thought is a before.
+
+25
+00:03:45,130 --> 00:03:55,590
+Li Xun: before capital T, so we pick up this equal to the top. Once top is greater than capital T, so this amount we pick up is the capital T.
+
+26
+00:03:55,860 --> 00:04:04,740
+Li Xun: Okay? So, on or before is the executive we consider your pay is the coupon rate.
+
+27
+00:04:05,190 --> 00:04:09,770
+Li Xun: Once this is finished, you'll pay nothing. Okay, so this is the cash flow.
+
+28
+00:04:09,770 --> 00:04:25,630
+Li Xun: So then you corresponding to this cash flow, you can introduce a little bit of what is cash flow, the information, okay? Oh, this one. Why we take discount factor to this one and this one? Because now we say our discount factor corresponding to is reduced to what? Beginning? It's yellow.
+
+29
+00:04:25,720 --> 00:04:32,589
+Li Xun: Okay, so now you consider this cash… cash flow value is what? At the beginning? Okay, at the beginning.
+
+30
+00:04:33,660 --> 00:04:34,680
+Li Xun: So…
+
+31
+00:04:34,980 --> 00:04:49,230
+Li Xun: Also, this is the… Professor Ko wants to introduce why Professor Koh is the… considered four is the least risk, because he means to say the four important reasons, but I…
+
+32
+00:04:49,440 --> 00:04:54,429
+Li Xun: I don't think. You know, 2008, 208, how old are you?
+
+33
+00:04:54,780 --> 00:04:55,980
+Li Xun: 2008.
+
+34
+00:04:57,770 --> 00:04:58,789
+Li Xun: How old are you?
+
+35
+00:05:00,090 --> 00:05:07,879
+Li Xun: 5… 6, 5, 6, okay. You know, at that moment, Lehman Brothers is the crash.
+
+36
+00:05:08,440 --> 00:05:11,639
+Li Xun: What is a Lehman Brothers? You may not know what is a Lehman Brothers Bank.
+
+37
+00:05:11,990 --> 00:05:16,969
+Li Xun: Okay, that is a very, very huge bank. Okay. Actually, investing is beyond that.
+
+38
+00:05:17,190 --> 00:05:26,840
+Li Xun: 100… beyond the 100, yes, it's okay. Established this one, maybe it's the 19th century, okay? So that is a big bank.
+
+39
+00:05:27,510 --> 00:05:28,350
+Li Xun: Crash.
+
+40
+00:05:28,780 --> 00:05:37,569
+Li Xun: Why the crash? The bank, the… the banker explained what they used for this one, CREDIT RISK CDO, CDS.
+
+41
+00:05:38,360 --> 00:05:44,450
+Li Xun: So now the market doesn't know without the CD or CDS. This is also why I want to change it.
+
+42
+00:05:44,990 --> 00:05:52,620
+Li Xun: Your… this is the lecture notes and information. Also, why, just now, your classmate asked me, what is your syllabus?
+
+43
+00:05:53,830 --> 00:05:56,240
+Li Xun: I'm thinking, what is celibus?
+
+44
+00:05:56,780 --> 00:06:00,710
+Li Xun: Because I know Pick, bank, remember, browser.
+
+45
+00:06:01,040 --> 00:06:01,980
+Li Xun: Crash.
+
+46
+00:06:02,100 --> 00:06:03,459
+Li Xun: So why?
+
+47
+00:06:03,730 --> 00:06:11,210
+Li Xun: It is this moment, we also discuss CREDITOR RISK I don't understand.
+
+48
+00:06:12,350 --> 00:06:13,689
+Li Xun: But we have that.
+
+49
+00:06:14,130 --> 00:06:21,220
+Li Xun: will offer this course, so I just follow Professor Kosen notes. He actually is an expert
+
+50
+00:06:21,460 --> 00:06:25,289
+Li Xun: on this research topic. I just want to say, this research topic
+
+51
+00:06:25,460 --> 00:06:28,809
+Li Xun: Nothing is corresponding to real market. I really clear.
+
+52
+00:06:28,920 --> 00:06:29,690
+Li Xun: Okay.
+
+53
+00:06:31,490 --> 00:06:34,080
+Li Xun: So, now let's go out, look at…
+
+54
+00:06:34,210 --> 00:06:47,750
+Li Xun: Professor code is considered… the first one. Creditor RISK is relevant, relevant for the default bonds, okay? Lots of the default bonds. This is actually very popular 20 years ago.
+
+55
+00:06:48,410 --> 00:06:49,690
+Li Xun: 20 years ago.
+
+56
+00:06:49,990 --> 00:06:52,119
+Li Xun: Okay. From time to time.
+
+57
+00:06:52,460 --> 00:06:57,859
+Li Xun: Now I want to know, this is a machine learning, reinforcement learning, okay?
+
+58
+00:06:58,250 --> 00:06:59,490
+Li Xun: AI time.
+
+59
+00:06:59,800 --> 00:07:01,050
+Li Xun: For this one.
+
+60
+00:07:01,380 --> 00:07:09,480
+Li Xun: 9 years, go to the end, or maybe the… have the new development… development, I don't know. Okay, I don't know.
+
+61
+00:07:09,820 --> 00:07:11,280
+Li Xun: But this knowledge…
+
+62
+00:07:11,380 --> 00:07:24,910
+Li Xun: I can guarantee this knowledge is 20 years ago, okay? 20 years ago knowledge. So this is so different, calculus. Calculus, actually, we already handle it, what, several hundred, but always is important.
+
+63
+00:07:25,060 --> 00:07:26,840
+Li Xun: But there's lots after that.
+
+64
+00:07:28,680 --> 00:07:44,139
+Li Xun: knowledge may not always can handle several years can handle several hundred years. Okay, so different. So, calculus is, of course, important, but I don't know. The CREDIT RISK Y also is important.
+
+65
+00:07:44,750 --> 00:07:45,660
+Li Xun: Okay.
+
+66
+00:07:45,840 --> 00:07:47,549
+Li Xun: What supported this?
+
+67
+00:07:48,010 --> 00:07:52,149
+Li Xun: fundamental topic, I don't know. I just want to…
+
+68
+00:07:52,300 --> 00:07:58,329
+Li Xun: Say, maybe some of the research guy at this very moment also considers this similar topic.
+
+69
+00:07:58,630 --> 00:08:13,289
+Li Xun: Okay? So for the real market, what's the meaning? I don't know. Maybe, for example, lots of the question. For example, Black Shaw model. Okay? Mean variance model. Okay, this old model, this old research guy already won his award Nobel Prize.
+
+70
+00:08:13,330 --> 00:08:22,100
+Li Xun: Okay, Nobel Prize. But you see this Nobel Prize, okay, can help you and lead you from time to time to also you can make money?
+
+71
+00:08:23,210 --> 00:08:26,059
+Li Xun: Nobody can guarantee. Okay? Nobody can guarantee.
+
+72
+00:08:27,560 --> 00:08:45,359
+Li Xun: Now, corresponding to this, professor code, give the, one is what? Corresponding to the corporate balance, and separately, the bonds, and all other for this year, the, rate considered for this, CREDIT RISK one-off, okay, one-off. So after class.
+
+73
+00:08:45,360 --> 00:08:59,670
+Li Xun: by self-reader a little bit, okay? So, the mass is the… very simple, okay, very simple for his… he defined this, maybe, is the VT is the solve for this equation, okay? Solve this equation.
+
+74
+00:08:59,770 --> 00:09:05,450
+Li Xun: But this equation is the… also is the equivalent to what?
+
+75
+00:09:05,780 --> 00:09:12,959
+Li Xun: for this equation, equivalent to yesterday. Next, for this equation. So this is a U-Day, okay, this is a U-Day.
+
+76
+00:09:13,070 --> 00:09:22,150
+Li Xun: Today, I received the one that the student, using the last year classmate, the notes, also asked me how to get this one. Oh, this is so easy. Okay.
+
+77
+00:09:22,220 --> 00:09:34,150
+Li Xun: Once, just now I say, CREDIT RISK may not be very important, but calculus, always important, but I don't understand why this classmate forget to do calculus, okay?
+
+78
+00:09:35,280 --> 00:09:36,649
+Li Xun: Now let's look at
+
+79
+00:09:38,680 --> 00:09:45,999
+Li Xun: Let me answer this classmate. Okay, so, now let's look at for this one. In this one, which one is valuable?
+
+80
+00:09:46,730 --> 00:09:48,390
+Li Xun: Indico, which one is available?
+
+81
+00:09:50,000 --> 00:09:51,259
+Li Xun: Which one, variable?
+
+82
+00:09:51,840 --> 00:09:56,140
+Li Xun: S… Okay, SC is available. So…
+
+83
+00:09:56,530 --> 00:10:03,389
+Li Xun: S is a variable, okay? So, corresponding to this one, S before S, this one is what? Coefficient.
+
+84
+00:10:03,720 --> 00:10:09,350
+Li Xun: Okay? So… This afternoon, your classmate asked, so now I talk to you.
+
+85
+00:10:09,570 --> 00:10:12,439
+Li Xun: Okay, so for this one, here's a LUO.
+
+86
+00:10:12,660 --> 00:10:17,470
+Li Xun: And, Maybe, yes, we can write down for this one.
+
+87
+00:10:17,570 --> 00:10:22,510
+Li Xun: equal to the LU. LU is a what? Constant, so we move outside E.
+
+88
+00:10:22,610 --> 00:10:28,799
+Li Xun: negative VT, okay? Now, this one is S, is DS, okay?
+
+89
+00:10:28,930 --> 00:10:31,860
+Li Xun: SDS. So, SE is available.
+
+90
+00:10:32,160 --> 00:10:36,359
+Li Xun: All other is what parameter? Okay, so, now let's go on.
+
+91
+00:10:36,560 --> 00:10:38,490
+Li Xun: We look at LU,
+
+92
+00:10:38,780 --> 00:10:46,850
+Li Xun: and we write down 1 over VT, because VT, not a variable, is a fixed value, okay? It's the…
+
+93
+00:10:47,430 --> 00:10:49,039
+Li Xun: maturity data T.
+
+94
+00:10:49,260 --> 00:10:57,110
+Li Xun: V of et to the material data, T amount, okay? So, now is we get… is… EVT.
+
+95
+00:10:57,210 --> 00:11:01,509
+Li Xun: Yes, so for here, we can write down, yes.
+
+96
+00:11:01,670 --> 00:11:02,770
+Li Xun: VT.
+
+97
+00:11:03,720 --> 00:11:06,670
+Li Xun: S… Yes or no?
+
+98
+00:11:07,700 --> 00:11:10,699
+Li Xun: Okay, so we have what? We have for this one?
+
+99
+00:11:11,240 --> 00:11:12,100
+Li Xun: Okay.
+
+100
+00:11:12,490 --> 00:11:13,860
+Li Xun: We over VT.
+
+101
+00:11:14,050 --> 00:11:22,500
+Li Xun: And for here, add VT. Okay, add a VT. So, now let's go on. We have is for what? LU?
+
+102
+00:11:22,710 --> 00:11:34,369
+Li Xun: 1 minus VT, and corresponding to this one, zero to T, so we write down is D actually is E negative VT.
+
+103
+00:11:34,720 --> 00:11:39,610
+Li Xun: and S, okay? Because this is a negative, so we write down negative.
+
+104
+00:11:40,420 --> 00:11:49,730
+Li Xun: Okay, write down negative. Then we go on, we can write down, is VT is low, and E DT.
+
+105
+00:11:49,950 --> 00:11:53,730
+Li Xun: S… Then it is TO for ZL.
+
+106
+00:11:53,980 --> 00:11:58,080
+Li Xun: Okay, so now, finally, equal to this one.
+
+107
+00:11:59,100 --> 00:12:03,469
+Li Xun: Okay. During the exam.
+
+108
+00:12:03,980 --> 00:12:05,880
+Li Xun: Yo, don't worry. Okay.
+
+109
+00:12:07,110 --> 00:12:18,470
+Li Xun: Don't consider that our question is so hard. Just it is very easy. You don't consider it is the very hard part, okay? Your classmate, why is the…
+
+110
+00:12:19,100 --> 00:12:32,929
+Li Xun: cannot solve for this one. H mean is for this 40 is the variable. Actually, no. Just the S is the variable, okay? VT is a fixed amount, okay? Fixed amount. They will take this way, very easily to get the result. I really clear.
+
+111
+00:12:33,370 --> 00:12:41,839
+Li Xun: Okay, so during the exam, maybe for that one, is the stochastic differential equation. You should understand which one is valuable.
+
+112
+00:12:42,150 --> 00:12:43,010
+Li Xun: Okay.
+
+113
+00:12:43,980 --> 00:12:46,270
+Li Xun: Maybe you should know which one is available.
+
+114
+00:12:46,550 --> 00:12:57,790
+Li Xun: Otherwise, you may not can handle, okay? So, we will offer you the formula and others. Now, finally, you understand why we get for this, okay? 0 corresponding to 1.
+
+115
+00:12:57,950 --> 00:13:12,760
+Li Xun: T, capital T, is corresponding to this 10. So, then we quickly solve it, okay? I just offer some a little bit the math, but for the financial meaning of the class, you reconsider Professor Coast's explanation, okay?
+
+116
+00:13:13,050 --> 00:13:21,719
+Li Xun: Second, Professor Ko said, the CREDIT RISK actually is relevant to capital structure of a form, but the Lehman Brothers is crashed.
+
+117
+00:13:22,320 --> 00:13:23,479
+Li Xun: So I don't know.
+
+118
+00:13:23,960 --> 00:13:27,840
+Li Xun: How to explain. Okay.
+
+119
+00:13:28,430 --> 00:13:29,390
+Li Xun: So…
+
+120
+00:13:29,700 --> 00:13:48,090
+Li Xun: Now, let's look at it. This means is that, Professor Ko, using the very fundamental is what? Very fundamental… next week, we will introduce very fundamental, economic theory, okay? This economic theory introduced for this. Maybe this two guys also won the Nobel Prize.
+
+121
+00:13:48,410 --> 00:13:50,359
+Li Xun: Maybe. Okay, maybe.
+
+122
+00:13:51,500 --> 00:13:56,300
+Li Xun: The reason 3, CREDIT RISK is corresponding to the…
+
+123
+00:13:56,700 --> 00:14:05,770
+Li Xun: Equity is the price, and Professor Ko gave the standard, example, okay, the 4. Another, this is 3.
+
+124
+00:14:05,780 --> 00:14:20,090
+Li Xun: GM model, okay, GM model you can go to see, is also Professor Ko, as I mentioned a little bit, is the 2008 is the financial crisis, okay? Another one is the CDS and the CDO.
+
+125
+00:14:20,400 --> 00:14:24,579
+Li Xun: 20 years ago, CDS and the CDO are very, very popular.
+
+126
+00:14:25,010 --> 00:14:25,780
+Li Xun: Okay.
+
+127
+00:14:26,600 --> 00:14:34,720
+Li Xun: But I'm… I'm… I did not do any research on the CDS and the CDO.
+
+128
+00:14:35,180 --> 00:14:39,489
+Li Xun: Okay, but I'm not sure at this moment it's very popular or not.
+
+129
+00:14:39,840 --> 00:14:49,189
+Li Xun: Okay, but the option, I think, is okay. You know, Hong Kong, always using that option. Maybe we talk up East Orland. Okay, using this option.
+
+130
+00:14:49,980 --> 00:14:53,389
+Li Xun: But I originally ate the Thai way.
+
+131
+00:14:53,740 --> 00:14:54,800
+Li Xun: That way.
+
+132
+00:14:54,950 --> 00:15:11,700
+Li Xun: Wonder is the very simple company. I put maybe about the 100,000 Hong Kong dollar to put the option. But I want to tell you, my final result is the full return, is the nothing I get back.
+
+133
+00:15:12,280 --> 00:15:27,130
+Li Xun: Okay? So, in the future, you want to try, you can try to do once, but you don't try two more. I'm really clear. Maybe you can flounder the 100,000 Hong Kong dollar to get to the 1 million. Maybe your quickly is going to nothing.
+
+134
+00:15:27,270 --> 00:15:28,420
+Li Xun: I really clear.
+
+135
+00:15:30,520 --> 00:15:48,309
+Li Xun: I remember is the… the simple company, the small company, this little company, always call me, is added a guaranteed amount. Every day, call me. Finally, my… for me, it's $100,000, quickly down.
+
+136
+00:15:48,740 --> 00:15:55,500
+Li Xun: Justin, maybe… I think several months, maybe… Surio Formas.
+
+137
+00:15:56,910 --> 00:16:01,039
+Li Xun: For… fully, maybe… Contributed to this company.
+
+138
+00:16:01,230 --> 00:16:16,210
+Li Xun: Nothing I can get back. A little clear. Maybe some of the guy, actually the very lucky, actually, quickly from the $100,000 to 1 million, okay? But I think not every guy can get this very lucky opportunity. It's okay.
+
+139
+00:16:17,510 --> 00:16:34,609
+Li Xun: Okay, so this is the Professor Coast, the reader. Now, let's look at his, very basic terminology. This terminology not is for this one. This toner knowledge is just for the beginning, for this Lecture one, a little bit of information. So, now, we have lots of the…
+
+140
+00:16:34,750 --> 00:16:39,520
+Li Xun: actual criteria. Maybe U.S. is the moodiest and the standard pool, okay?
+
+141
+00:16:39,840 --> 00:16:43,089
+Li Xun: For the Moodist Assistant, maybe…
+
+142
+00:16:43,510 --> 00:17:03,419
+Li Xun: Using the AAA and the BAA, BA BA, and similar to another standard pool, using the AAA and AAA and the BBBBB, and for this to start, almost the same. Some of the, maybe, guys can, using this, subset categories is the AA and the AA+, and A and A-, okay, almost the same.
+
+143
+00:17:03,610 --> 00:17:05,760
+Li Xun: So, just… now let's look at…
+
+144
+00:17:05,980 --> 00:17:08,660
+Li Xun: Once we give you for this one YESA,
+
+145
+00:17:09,060 --> 00:17:15,929
+Li Xun: table ratio, this table ratio is just from the Moody's, okay? I checked, Professor Ko is the copy from the other.
+
+146
+00:17:16,130 --> 00:17:18,200
+Li Xun: Table. Okay. So…
+
+147
+00:17:18,260 --> 00:17:37,420
+Li Xun: let we were using for this table information, how to calculate. So, for example, for me, the CAA, now let's look at the CAA, how to use this table. Okay, this table is for this amount, maybe the average is during two, year 2, during year two. This is year one.
+
+148
+00:17:37,690 --> 00:17:56,489
+Li Xun: First two years, first 3 years, first four-year, first 5-year, first 7-year, first 10-year, first 15 year, first 20 year. So, first, this just means that during year 2, so you should be using what? First two years minus first year, okay? This actually totally consider 2 years.
+
+149
+00:17:56,550 --> 00:18:02,340
+Li Xun: Okay, so using this amount minus this amount, then we get is what?
+
+150
+00:18:02,600 --> 00:18:03,990
+Li Xun: During year two.
+
+151
+00:18:04,210 --> 00:18:08,579
+Li Xun: Okay, I think this is the information every classmate can read for this da-da.
+
+152
+00:18:08,700 --> 00:18:15,590
+Li Xun: English, the sentences always kind of stand, okay? No many, many, big difference. So, so different for this one.
+
+153
+00:18:16,180 --> 00:18:32,750
+Li Xun: Okay. So, after class, please, by yourself, repeat, a little bit, corresponding to just now, for example, mean is how to get for this rate. So, after class, you can consider for this one, related for this information, very simple, it's okay.
+
+154
+00:18:33,150 --> 00:18:38,750
+Li Xun: Okay, later, we consider how to calculate the default is the…
+
+155
+00:18:39,080 --> 00:18:46,960
+Li Xun: intensity for this hazard rate. This is important, okay? This is because we have the one question later we will discuss for this one, okay?
+
+156
+00:18:48,560 --> 00:18:52,359
+Li Xun: Can we take a 5-minute break? Then we go ahead, okay?
+
+157
+00:18:58,240 --> 00:19:09,710
+Li Xun: Okay, now let's go on. Okay. We… next, we talk… talk about a little bit… today, just the introduction, okay, introduction, so you don't worry. The fourth in…
+
+158
+00:19:09,730 --> 00:19:25,150
+Li Xun: Intensity, how to calculate that. This is a fundamental definition. It's a lambda for this hazard rate, we often use for this definition. Then we corresponding to this definition, how to get for this data, fundamental data,
+
+159
+00:19:25,180 --> 00:19:31,379
+Li Xun: formula, I think, may not easily to… just now, some of the classmates, mainstream may not use the…
+
+160
+00:19:31,500 --> 00:19:44,349
+Li Xun: originally study is from the math. So, you just see for this notation, once you are a math student, after class, you can ask me again. For the non-master classmate may not understand what does he mean.
+
+161
+00:19:44,570 --> 00:19:59,709
+Li Xun: Okay, so we skip. We're just using for the following result, that's all. It's okay? Following result. For this one is we mainly, actually, is we ask our classmate, is the dog considers 3, we have the one question.
+
+162
+00:20:00,000 --> 00:20:04,059
+Li Xun: just now you see our final event. For this one, you…
+
+163
+00:20:04,330 --> 00:20:11,469
+Li Xun: we have to know the, exactly where we ask your question, how to solve for this one. You are a math student, please.
+
+164
+00:20:11,740 --> 00:20:15,470
+Li Xun: review for this one. You are not a math student. It is not a math. It's okay.
+
+165
+00:20:16,650 --> 00:20:28,720
+Li Xun: Okay, now we have for the similar table. So, now let's go on. We look at how to solve our real data problem using the Markovian instead. Okay, Markovian chain.
+
+166
+00:20:29,750 --> 00:20:33,970
+Li Xun: Okay, so just now, you see our final exam question.
+
+167
+00:20:34,250 --> 00:20:38,619
+Li Xun: The fourth, similar to this question, how to solve. Okay, now I show you.
+
+168
+00:20:39,080 --> 00:20:54,690
+Li Xun: So now, let's together read, okay? You first readers for this question. During the exam, we just offer you for this one, okay? Now you check our last year, final exam question, okay? We just offer you this one. Also, I remember
+
+169
+00:20:54,870 --> 00:21:12,080
+Li Xun: my TA, just change it a little bit. Maybe this one is 2, maybe he changes this 3, or maybe this changes 1, okay? Change it just several notation, several sentences information, then produce new one. Fully ask our classmate, mimic for this, now let's look at it.
+
+170
+00:21:12,770 --> 00:21:13,820
+Li Xun: Okay?
+
+171
+00:21:14,080 --> 00:21:17,240
+Li Xun: So, now… We have the what?
+
+172
+00:21:17,700 --> 00:21:26,940
+Li Xun: 12 months, okay? So we have the… how many is the, company? We have 10 companies. 10 companies, okay, 10 company.
+
+173
+00:21:27,060 --> 00:21:37,890
+Li Xun: Now, let's look at… this is the first information, now let's look at the second information. We say, in one month, in one month, 1B rate
+
+174
+00:21:38,010 --> 00:21:38,910
+Li Xun: company.
+
+175
+00:21:39,090 --> 00:21:40,700
+Li Xun: Then you move to the seat.
+
+176
+00:21:40,980 --> 00:21:44,010
+Li Xun: CREDITC, okay? 1B.
+
+177
+00:21:44,250 --> 00:22:02,019
+Li Xun: Rate, company, move to greater A. Now let's look at one month, okay, B, okay, this B, original rate is the rate, is the B. B is one month move to the what? A. One month, move to the C. So, now you look at for this sentence. It's okay? So now we together.
+
+178
+00:22:02,190 --> 00:22:16,479
+Li Xun: together look at, for this, the sentence is B. One month, okay, one month. B rate, move to A rate. One month, B rate, move to C rate. It's okay? So you should, using for this table how to solve this question, okay?
+
+179
+00:22:18,110 --> 00:22:34,139
+Li Xun: Now let's look at the sentences C, okay? Sentence is C. Later, we were using for these sentences. You just don't remember, it's 10 companies, okay? So now let's look at 2 months, okay? 2 months, we say, is 2A. 2A actually is what?
+
+180
+00:22:34,250 --> 00:22:35,729
+Li Xun: Rate to the data.
+
+181
+00:22:36,540 --> 00:22:37,340
+Li Xun: Okay.
+
+182
+00:22:37,450 --> 00:22:41,979
+Li Xun: 2 months, to 8 rate, 28 rate, downgraded to B.
+
+183
+00:22:42,240 --> 00:22:45,940
+Li Xun: two companies downgraded to B. So we actually write down it what?
+
+184
+00:22:46,230 --> 00:23:04,110
+Li Xun: under the second month, okay? Okay? So, now let's together look at is the D, okay, D. Now we say, is the 6 months, in 6 months, in 6 months, okay? 1C, 1C, 1C is what move…
+
+185
+00:23:04,170 --> 00:23:14,149
+Li Xun: Upgrade to the B, okay? Also, in 6 months, 6 months, 1C is downgraded to D, downgraded to D, okay, downgraded to D.
+
+186
+00:23:14,280 --> 00:23:16,950
+Li Xun: to default, okay, I downgrade to the default.
+
+187
+00:23:17,770 --> 00:23:23,460
+Li Xun: at the 6 months. Also, another 1C,
+
+188
+00:23:28,070 --> 00:23:29,139
+Li Xun: Oh, no, no, no.
+
+189
+00:23:30,270 --> 00:23:31,030
+Li Xun: Yep.
+
+190
+00:23:31,140 --> 00:23:31,840
+Li Xun: Deep!
+
+191
+00:23:32,390 --> 00:23:35,389
+Li Xun: The sentence is D, just corresponding to this one.
+
+192
+00:23:36,600 --> 00:23:49,530
+Li Xun: at the 6 months, move to the B, and another 1C, downgrade to the D default. Okay, now let's look at the E. E these sentences mean is the 1C,
+
+193
+00:23:49,970 --> 00:23:51,069
+Li Xun: Ed to the…
+
+194
+00:23:51,400 --> 00:23:57,619
+Li Xun: 8 months, the 8 months, actually, 8 months later, this is the C, downgraded to a D.
+
+195
+00:23:58,000 --> 00:24:04,759
+Li Xun: Okay, so now you're corresponding to these sentences. From the B to E, you can write on this table.
+
+196
+00:24:04,950 --> 00:24:13,260
+Li Xun: For this one, 10, we will use, you don't worry. Next, we calculate, we will use. Okay, now your old guy actually is the…
+
+197
+00:24:13,780 --> 00:24:29,230
+Li Xun: Suppose you already have the notes on your, iPad. Maybe you print. You keep up this pager, okay? You old guy, keep up with this pager. I go ahead, okay? Then, then we can refer, okay? I go ahead.
+
+198
+00:24:30,050 --> 00:24:31,020
+Li Xun: Okay.
+
+199
+00:24:31,330 --> 00:24:33,879
+Li Xun: So, now let's look at how to…
+
+200
+00:24:34,140 --> 00:24:37,849
+Li Xun: Explain for this one, okay? So, first one.
+
+201
+00:24:38,080 --> 00:24:55,600
+Li Xun: Why you get is the, 80% and the, 20 percentage corresponding to this one. Okay, now let's look at. This is, okay, this one we say greater is A, B, C, D, okay? This one, A, B, C, D. Okay, I write down this one.
+
+202
+00:25:07,190 --> 00:25:09,200
+Li Xun: It's okay? A, B, C, D.
+
+203
+00:25:09,800 --> 00:25:15,739
+Li Xun: So, why this one is the 80, this one is 20. Now let's go… now let's go back to see this one.
+
+204
+00:25:22,540 --> 00:25:23,450
+Li Xun: Okay.
+
+205
+00:25:24,680 --> 00:25:27,070
+Li Xun: We told, okay, what? How many companies?
+
+206
+00:25:27,940 --> 00:25:29,119
+Li Xun: We have data.
+
+207
+00:25:29,520 --> 00:25:32,370
+Li Xun: We have the… we have used the…
+
+208
+00:25:32,840 --> 00:25:35,310
+Li Xun: We have the tent. Okay, we have the 10.
+
+209
+00:25:35,530 --> 00:25:40,060
+Li Xun: Okay, so, this A label, He's a mood to what?
+
+210
+00:25:40,420 --> 00:25:41,790
+Li Xun: years that I took.
+
+211
+00:25:42,680 --> 00:25:50,749
+Li Xun: 2b, it's okay. So, now is what? B is occupied? 2 over 10. So, 2 over 10.
+
+212
+00:25:50,970 --> 00:25:52,990
+Li Xun: From A, move to B.
+
+213
+00:25:53,190 --> 00:25:54,639
+Li Xun: So, this 2 over 10.
+
+214
+00:25:55,500 --> 00:26:01,349
+Li Xun: All other remaining, okay? All other remaining. All other remaining. Changing nothing.
+
+215
+00:26:01,500 --> 00:26:12,059
+Li Xun: Okay, keep up in the 8. So, how many remaining in what? 1 minus 02 is 0.8. It's okay. Okay, now let's look at it.
+
+216
+00:26:12,280 --> 00:26:22,479
+Li Xun: Another one, okay, another one. Another one is for what? We say, now let's look at B is up A, okay? Downgrade C, okay?
+
+217
+00:26:22,970 --> 00:26:24,480
+Li Xun: This is a beat.
+
+218
+00:26:24,710 --> 00:26:25,600
+Li Xun: What?
+
+219
+00:26:25,770 --> 00:26:37,329
+Li Xun: is up to A. 1 is downgraded C. So, this is occupied what? 1 over 10, 1 over 10, okay? So, now you were C. From the B, up to what?
+
+220
+00:26:38,100 --> 00:26:44,540
+Li Xun: For round B up to A is 10%. B is downgraded to C is 1 over 10.
+
+221
+00:26:44,640 --> 00:26:47,040
+Li Xun: Okay, 0. Remaining is what?
+
+222
+00:26:47,400 --> 00:26:53,110
+Li Xun: 0.8. 1 minus… 0.1, 0.1. Okay, now let's look at for this one.
+
+223
+00:26:53,510 --> 00:27:01,029
+Li Xun: years, Part of C. C, 4 is the one is what? Upgrade 2.
+
+224
+00:27:01,280 --> 00:27:08,220
+Li Xun: B… Okay, I see. Another 2. Okay, don't care in how many months now. Just eat the water, two.
+
+225
+00:27:08,320 --> 00:27:23,469
+Li Xun: downgraded to the default D. Okay, so now let's look at for this one. So, this C level. We have the 1 is upgraded to B, 2 downgraded to C. So, 1 over 10, 2 over 10, so that's all. So, remaining is what? 1 minus…
+
+226
+00:27:23,470 --> 00:27:40,789
+Li Xun: 0.1, 0.2, so this is the remaining part. No any C upgraded to the A. It's okay? So this is clear for this one. So final, no is what? Now let's look why this one is… why this one is what? Because for the D, no any upgraded, no any downgrade.
+
+227
+00:27:41,100 --> 00:27:48,909
+Li Xun: Just what? Fully 100 percentages keep up in the abstract in the D, so this is equal to the 1.
+
+228
+00:27:49,730 --> 00:27:51,599
+Li Xun: Okay. So once…
+
+229
+00:27:51,800 --> 00:28:00,030
+Li Xun: This year, we have the similar question. Ask you, what is the empirical the probability, the transition that matches? Can you do? Very easy.
+
+230
+00:28:00,590 --> 00:28:07,549
+Li Xun: Okay? So this is the mark you'd water. Three marks, fully, none I already gave you. It's okay? Very easy.
+
+231
+00:28:08,060 --> 00:28:17,329
+Li Xun: Now let's look at, okay? So after class, just now, we already talked about how to get for this one. This is just now we talk about for this information, okay?
+
+232
+00:28:17,630 --> 00:28:27,579
+Li Xun: Okay, but this is a what? Not exactly. Why? Just now we say, you know, we have the… also, we have the what.
+
+233
+00:28:27,720 --> 00:28:38,150
+Li Xun: Not is a… not is a fixed time to change. Maybe this is 1 month, 2 months, okay? This 6 months, this 8 months. How to, maybe more exactly.
+
+234
+00:28:38,470 --> 00:28:47,329
+Li Xun: then you explain your fundamental, this transition, the probability idea, corresponding to the, months, okay? So…
+
+235
+00:28:47,470 --> 00:28:49,870
+Li Xun: Now we reconstructured for this model.
+
+236
+00:28:49,980 --> 00:29:09,649
+Li Xun: This is a more generated user-based estimate, okay? More generated estimate, using just the transition proposition corresponding to Markov chain. Okay, so I think not every classmate is actually familiar with the Markov chain, so you just follow. You can solve the problem, that's all. It's okay, so don't care.
+
+237
+00:29:10,930 --> 00:29:17,900
+Li Xun: This is a Markov chain, it's the fundamental how-to calculator. Later I will show you, so you don't worry, okay, don't worry.
+
+238
+00:29:18,880 --> 00:29:19,880
+Li Xun: No.
+
+239
+00:29:20,230 --> 00:29:21,540
+Li Xun: We consider
+
+240
+00:29:21,620 --> 00:29:33,900
+Li Xun: how to more exactly is considered over this problem. So, now we want to, using for this fundamental, generate based estimate, using for this style. Now, once
+
+241
+00:29:33,900 --> 00:29:41,870
+Li Xun: to… we want to use them for this style, so we have to construct. Okay, for our model, for our model is what? For our model is for this one.
+
+242
+00:29:42,380 --> 00:30:00,270
+Li Xun: For our model, we have what? ABCD, okay? So, for this is what? Lambda A, A, okay? This is lambda is what? A to B, okay? This is lambda A to C. This is lambda is A to D, it's okay?
+
+243
+00:30:00,560 --> 00:30:02,369
+Li Xun: We have, what, ABCD?
+
+244
+00:30:02,400 --> 00:30:15,740
+Li Xun: For 4Ks, okay? The idea, the 4Ks. So, now we want to know, you… how to define your lambda AB, okay? How to get the lambda AB, how to get the lambda BA, okay?
+
+245
+00:30:15,740 --> 00:30:26,149
+Li Xun: Once you can solve this one, so you can watch this? Generate-based metric estimate, then you can go ahead. So, actually, what?
+
+246
+00:30:26,690 --> 00:30:32,179
+Li Xun: This means what? How to? Using you just now, you already talked about the table.
+
+247
+00:30:32,350 --> 00:30:38,970
+Li Xun: to… get this estimate of the generator metrics. It's right? Now, this means what?
+
+248
+00:30:39,320 --> 00:30:42,430
+Li Xun: You just know how to, from the…
+
+249
+00:30:42,940 --> 00:31:02,060
+Li Xun: this problem. First, summarize for this table, then use this table, how to get your lambda metric, okay? First, we introduce how to get for this the empirical metric. Second, now we're corresponding to our… this table, how to construct our land. So.
+
+250
+00:31:02,220 --> 00:31:15,499
+Li Xun: Now, let's stay-by-stable. For this is for the math part. Okay, for this math part, after class, you just by yourself read a little bit, you don't care. Maybe this is how hard and how easy. Just a use. It's okay, just a use.
+
+251
+00:31:15,800 --> 00:31:19,869
+Li Xun: Now, let's look at, if you want to get the first one.
+
+252
+00:31:20,000 --> 00:31:24,300
+Li Xun: From A to B, how to get for this one? Data. A to B.
+
+253
+00:31:26,050 --> 00:31:35,629
+Li Xun: How to get from this A to P? So what is our A to B definition? So now you will see. Lambda IJ, MIJ over NI, okay?
+
+254
+00:31:35,740 --> 00:31:43,550
+Li Xun: So, this means for what? Now… You locate for this one.
+
+255
+00:31:46,020 --> 00:31:57,230
+Li Xun: Okay? So, what is lambda AB corresponding to this table? So, now we know. This one, maybe we can write down M is what?
+
+256
+00:31:57,740 --> 00:32:02,169
+Li Xun: AB. Then, over… and A. Is it right?
+
+257
+00:32:02,550 --> 00:32:05,070
+Li Xun: So… This is what?
+
+258
+00:32:06,650 --> 00:32:12,410
+Li Xun: We have the formula, okay? We have the formula. So this formula, what is…
+
+259
+00:32:12,540 --> 00:32:19,340
+Li Xun: M-A-B, what is NA? Once you know how to define for this, so of course, you can get what?
+
+260
+00:32:19,730 --> 00:32:28,519
+Li Xun: you can get this value. So this value, how to get? How to use your table? Okay, this is our question. So, now let's look at.
+
+261
+00:32:33,530 --> 00:32:34,500
+Li Xun: Soap?
+
+262
+00:32:35,120 --> 00:32:37,860
+Li Xun: What is for this one?
+
+263
+00:32:39,610 --> 00:32:41,220
+Li Xun: Okay, what is for this one?
+
+264
+00:32:42,260 --> 00:32:43,130
+Li Xun: Wait.
+
+265
+00:32:50,990 --> 00:32:51,840
+Li Xun: Okay.
+
+266
+00:32:51,940 --> 00:33:07,169
+Li Xun: 8. Okay, 8. Now let's look at… we say, for here, for the 8 is a whole year, okay? We have the 8 is for this one. Two companies stay in the 8 is 2 months, and
+
+267
+00:33:07,610 --> 00:33:13,410
+Li Xun: One company state 8 is 11 months, okay? So, this is 8.
+
+268
+00:33:13,710 --> 00:33:14,930
+Li Xun: 12 months.
+
+269
+00:33:15,490 --> 00:33:18,649
+Li Xun: 12 months. This is what two companies
+
+270
+00:33:19,470 --> 00:33:29,250
+Li Xun: Two companies. Actually, state is two months. Two months. This is what? 1 company is 11 months, okay? So.
+
+271
+00:33:29,620 --> 00:33:30,900
+Li Xun: Why?
+
+272
+00:33:31,100 --> 00:33:33,079
+Li Xun: You get for this 8.
+
+273
+00:33:33,200 --> 00:33:35,229
+Li Xun: 2… I know what?
+
+274
+00:33:35,460 --> 00:33:41,880
+Li Xun: This will… our classmates want to know. Okay, now let's locate our table. So just now, I ask you, keep up a table. You keep up?
+
+275
+00:33:41,970 --> 00:33:58,129
+Li Xun: you all keep up for this table, okay? You all keep up for this table. Then I introduce, okay? So just now, we talk about is for what? We talk about is the… how many companies stayed 12 months, because now you will find just is what?
+
+276
+00:33:58,170 --> 00:34:04,160
+Li Xun: leave 2. We total have what? 10 companies minus 2, so we're remaining at
+
+277
+00:34:04,440 --> 00:34:11,079
+Li Xun: It's okay. No problem? Okay. So, this 8, I solved for what? I solved.
+
+278
+00:34:11,210 --> 00:34:11,960
+Li Xun: fault.
+
+279
+00:34:12,330 --> 00:34:13,199
+Li Xun: This one.
+
+280
+00:34:14,550 --> 00:34:15,949
+Li Xun: I solved for this one.
+
+281
+00:34:17,429 --> 00:34:18,250
+Li Xun: Okay.
+
+282
+00:34:21,030 --> 00:34:21,940
+Li Xun: Next!
+
+283
+00:34:22,780 --> 00:34:32,570
+Li Xun: Next, let's look at why you have the two companies. State two. Okay, why? Okay, why? Because now we find out.
+
+284
+00:34:32,780 --> 00:34:40,889
+Li Xun: We just announced minus 2, now we using for this what? For this 2 is what? Actually, 2 months.
+
+285
+00:34:41,420 --> 00:34:45,478
+Li Xun: Then we left. So this one is, what, two companies.
+
+286
+00:34:45,650 --> 00:34:47,580
+Li Xun: Okay, this two companies.
+
+287
+00:34:47,730 --> 00:34:53,170
+Li Xun: These two companies stayed in two months, okay? This… Two months.
+
+288
+00:34:55,030 --> 00:34:58,319
+Li Xun: Okay? Two months. Why two months? Because
+
+289
+00:34:58,990 --> 00:35:16,139
+Li Xun: they… at the two months later, they leave, okay? Downgraded to another one. So, why we have another A, we say stayed 11 months, okay, another A is for this one. For on the B, beginning one month in the B. Then.
+
+290
+00:35:16,500 --> 00:35:26,360
+Li Xun: is what? Move to the A. Move to A. So, this one is what? Right apart. State A is what? 11 months. It's okay? So…
+
+291
+00:35:26,610 --> 00:35:28,079
+Li Xun: Now is what?
+
+292
+00:35:30,180 --> 00:35:31,389
+Li Xun: We get to that.
+
+293
+00:35:33,110 --> 00:35:34,240
+Li Xun: One mouse.
+
+294
+00:35:35,750 --> 00:35:41,899
+Li Xun: Okay, I'm using a different color. XU. 8, 2… Why? It's okay.
+
+295
+00:35:42,120 --> 00:35:43,130
+Li Xun: Localia!
+
+296
+00:35:43,450 --> 00:35:53,679
+Li Xun: Okay, clearly, okay. So next, your guide do. Once you can do, final, actually, is our one question one, 10 mark, you already get.
+
+297
+00:35:55,660 --> 00:36:04,179
+Li Xun: So, now we solve is what? This one we solve is for… we just solve is, for this one. M8…
+
+298
+00:36:05,570 --> 00:36:08,970
+Li Xun: M8… That… Priests!
+
+299
+00:36:09,170 --> 00:36:13,179
+Li Xun: Together, we consider what? Now we just… the formula is what?
+
+300
+00:36:13,290 --> 00:36:23,400
+Li Xun: We formulated the finish for this part, okay? Not enough. So, also, we should solve MAB, okay? MAB, how to get? Now let's look at it.
+
+301
+00:36:24,270 --> 00:36:30,379
+Li Xun: MAB, that means it's from the A move to the B, okay? A move to B is what?
+
+302
+00:36:30,540 --> 00:36:31,950
+Li Xun: A move to B.
+
+303
+00:36:32,450 --> 00:36:38,179
+Li Xun: just is what… just now, we know A moved to B is…
+
+304
+00:36:38,870 --> 00:36:42,010
+Li Xun: For this two, okay? For this two.
+
+305
+00:36:42,590 --> 00:36:49,489
+Li Xun: So, now we know. M… a… From A to B.
+
+306
+00:36:50,520 --> 00:36:51,660
+Li Xun: Equal to what?
+
+307
+00:36:52,050 --> 00:36:52,990
+Li Xun: Igoto.
+
+308
+00:36:54,020 --> 00:36:58,690
+Li Xun: Okay, equal to 2. Now… we have.
+
+309
+00:36:58,980 --> 00:37:07,910
+Li Xun: This one is what? It's 2, okay? So now we're using for this burst value, using this 2, And…
+
+310
+00:37:08,460 --> 00:37:13,500
+Li Xun: over… this MA. So, we get it for this value.
+
+311
+00:37:14,350 --> 00:37:15,390
+Li Xun: It's clear.
+
+312
+00:37:15,970 --> 00:37:17,160
+Li Xun: Okay.
+
+313
+00:37:17,500 --> 00:37:24,870
+Li Xun: Now, your guy, try. What is… what is the… from the B to A, okay?
+
+314
+00:37:25,110 --> 00:37:32,729
+Li Xun: Try 5 minutes, then we together discuss. Okay? Try to walk. Once you cannot do, it does not matter, I will explain.
+
+315
+00:37:32,890 --> 00:37:40,949
+Li Xun: Once further you cannot do, after class, you repeat, okay? State by step, we try to work. Okay. Now, please.
+
+316
+00:37:41,170 --> 00:37:44,459
+Li Xun: Consider 5, 5 minutes.
+
+317
+00:37:44,800 --> 00:37:51,539
+Li Xun: Okay, now let's go on. Let's look at the second case, okay? Suppose second case. So…
+
+318
+00:37:53,180 --> 00:38:04,700
+Li Xun: Now, what is for this one? The second case, lambda is BA, okay? So, corresponding to our
+
+319
+00:38:04,840 --> 00:38:11,049
+Li Xun: Formula, we know this is the MB. This is MBA. It's okay?
+
+320
+00:38:11,230 --> 00:38:29,190
+Li Xun: Follow the definition. So, now I suggest, during the exam, maybe your director write down this. You are very clear, you can directly write down. Once you are not very clear, I suggest, maybe, you can make up your da-da a little bit, maybe M, A, B,
+
+321
+00:38:29,560 --> 00:38:45,240
+Li Xun: And, MA, then you go ahead, okay? Then, using this fundamental formula, can mention you. Okay, this is a… also, I think this right on this very quickly, but you have the one formula that references it, okay? So this is easy.
+
+322
+00:38:46,540 --> 00:38:49,700
+Li Xun: Not directly write down the numerical, okay?
+
+323
+00:38:53,510 --> 00:38:56,910
+Li Xun: So what is, MPA?
+
+324
+00:38:57,740 --> 00:39:03,299
+Li Xun: What is the… MP, now let's go to CSOA.
+
+325
+00:39:03,510 --> 00:39:06,750
+Li Xun: Table, okay. B8, B8, okay.
+
+326
+00:39:06,950 --> 00:39:11,319
+Li Xun: For under BA, we will find out BA is what?
+
+327
+00:39:11,530 --> 00:39:13,309
+Li Xun: BA is just a 1.
+
+328
+00:39:14,290 --> 00:39:18,920
+Li Xun: Okay, just a one. So, here we write down this one is,
+
+329
+00:39:20,450 --> 00:39:28,389
+Li Xun: So, what is for this one? Okay, so for this one, so now let's look at… For this,
+
+330
+00:39:28,500 --> 00:39:34,240
+Li Xun: Okay, from here, we know, level 8, we have 10 companies.
+
+331
+00:39:34,410 --> 00:39:51,599
+Li Xun: Okay, originally, 10 companies. Level B, 10 company. Level C, 10 company. Okay? So, 9 is what? Beginning is 1 month. Actually, is what? For this one, 2 is leave B. So, of course, always exists the water.
+
+332
+00:39:51,860 --> 00:40:04,600
+Li Xun: B-level 8 company is what? Fully one year handle, okay? So maybe 1 is what? 10 minus 2, we have 8. So then we times 12 over 12. It's okay, so now let's look at.
+
+333
+00:40:05,040 --> 00:40:08,730
+Li Xun: I think it maybe existed for… Sorry.
+
+334
+00:40:09,790 --> 00:40:10,740
+Li Xun: Okay.
+
+335
+00:40:10,900 --> 00:40:14,389
+Li Xun: This is a… For this, the first one, okay?
+
+336
+00:40:15,160 --> 00:40:18,200
+Li Xun: First one. Second, we care what a 2.
+
+337
+00:40:19,100 --> 00:40:22,680
+Li Xun: Maybe it's just use the key part, but it's the…
+
+338
+00:40:22,830 --> 00:40:27,969
+Li Xun: One month, okay? Which one is to keep up one month? Actual meaning for this one.
+
+339
+00:40:29,440 --> 00:40:30,450
+Li Xun: For this one.
+
+340
+00:40:30,660 --> 00:40:31,440
+Li Xun: Too.
+
+341
+00:40:31,660 --> 00:40:32,559
+Li Xun: move to…
+
+342
+00:40:32,690 --> 00:40:40,799
+Li Xun: A move to C. Just the state that B is what? One month, okay? So, one month. So, for the second, we also use clear.
+
+343
+00:40:41,110 --> 00:40:41,880
+Li Xun: Okay.
+
+344
+00:40:42,050 --> 00:40:46,710
+Li Xun: So, the second… This is clear, okay?
+
+345
+00:40:48,260 --> 00:40:53,359
+Li Xun: Okay, now let's go on. We look at is, what is for this one? Well.
+
+346
+00:40:53,640 --> 00:40:55,490
+Li Xun: Okay, why we have the 2?
+
+347
+00:40:55,610 --> 00:40:59,130
+Li Xun: actually stated is that 10 months. Okay, now let's go to C.
+
+348
+00:40:59,770 --> 00:41:02,010
+Li Xun: We have what? We have 4 here.
+
+349
+00:41:03,400 --> 00:41:04,330
+Li Xun: Okay.
+
+350
+00:41:04,540 --> 00:41:07,560
+Li Xun: We have the what? From the A, we have 2B.
+
+351
+00:41:08,420 --> 00:41:09,370
+Li Xun: to be…
+
+352
+00:41:10,040 --> 00:41:19,920
+Li Xun: Okay, join the 8 at the second month, so stayed for this one. Remaining is the 10 months. So, for this one is what?
+
+353
+00:41:20,060 --> 00:41:23,320
+Li Xun: This is 2 times for this result.
+
+354
+00:41:23,740 --> 00:41:25,950
+Li Xun: Okay? So, the last one.
+
+355
+00:41:26,320 --> 00:41:40,200
+Li Xun: Last one is from the C, move to the B, okay? For longer C, move to B, just the one, okay? This one. Also, at what? Month 6? So, remaining is 6 months, 12 minus 6, so it's 6.
+
+356
+00:41:40,390 --> 00:41:44,690
+Li Xun: For this one. Okay, so now let's go to see the result.
+
+357
+00:41:44,990 --> 00:41:51,140
+Li Xun: Okay? This one is 2, 10 months. This one is 1, 6 months, so it's clear.
+
+358
+00:41:51,370 --> 00:41:53,269
+Li Xun: So now, our classmate.
+
+359
+00:41:53,850 --> 00:42:07,010
+Li Xun: understand how to get for this result. Then we step by step. So, after class, please by itself, repeat is the B, C, and the C, B, and the CD. We have one is the homework.
+
+360
+00:42:07,230 --> 00:42:17,210
+Li Xun: One of the homework questions is the same for this, mention of our classmate, the man of our classmate, familiar with this one, because, of course.
+
+361
+00:42:17,550 --> 00:42:19,059
+Li Xun: Now, I guarantee.
+
+362
+00:42:19,230 --> 00:42:28,539
+Li Xun: Our final exam question, we have similar this one, just to change a little bit, okay? So, this means in the final exam, we have some of the questions you already
+
+363
+00:42:28,780 --> 00:42:37,320
+Li Xun: know which question, so you're just familiar with this system. Now, just a little bit tedious work, okay? Also have some of the work. I… I don't…
+
+364
+00:42:38,130 --> 00:42:44,389
+Li Xun: Plus, I introduce this one. The final, we take for this one. Okay, maybe. So you can ask the…
+
+365
+00:42:44,800 --> 00:42:56,260
+Li Xun: GPT help you further review, okay? Further review. But not is so hard, okay? Maybe very, very hard, don't care, it's okay. Just leave it all the research work.
+
+366
+00:42:57,050 --> 00:43:07,430
+Li Xun: Okay, so now we have for this. Once we have for… just now we have for what? It's a lambda. This means you, so what is for this mean?
+
+367
+00:43:07,550 --> 00:43:11,910
+Li Xun: So, this means is for the lambda AB,
+
+368
+00:43:12,400 --> 00:43:23,160
+Li Xun: Okay? Lambda AB, from A to B. So, also, we know, just now we talked about for this one, it's yellow, yellow. So, this is what? This is…
+
+369
+00:43:23,290 --> 00:43:33,189
+Li Xun: This is what? This is lambda AA, okay? So why lambda AA is negative for this? Because just now, we have the one formula.
+
+370
+00:43:34,970 --> 00:43:39,300
+Li Xun: Okay? Also, our formula is… Right down here.
+
+371
+00:43:40,180 --> 00:43:41,570
+Li Xun: Oh, other part.
+
+372
+00:43:41,880 --> 00:43:44,400
+Li Xun: All other part takes the summation.
+
+373
+00:43:44,620 --> 00:43:49,360
+Li Xun: equal to is, lambda 11. Okay, diagonal, all the diagonal.
+
+374
+00:43:49,550 --> 00:43:54,759
+Li Xun: Also, we have for this similar star, then we take the negative, okay? Then we take negative.
+
+375
+00:43:55,170 --> 00:43:57,540
+Li Xun: And all this is the blue determination.
+
+376
+00:43:58,570 --> 00:43:59,710
+Li Xun: Equal to yellow.
+
+377
+00:44:00,060 --> 00:44:07,790
+Li Xun: Okay, equals yellow. So… Now you can determine either for the first line, second line, third line.
+
+378
+00:44:08,040 --> 00:44:09,050
+Li Xun: And the last one.
+
+379
+00:44:09,090 --> 00:44:17,140
+Li Xun: Okay, once we have for this, now we get what? Very fundamental to generate the metrics, okay? Generate the metric.
+
+380
+00:44:17,140 --> 00:44:29,980
+Li Xun: Okay, once we have the generated metric, because just now we mentioned using for this knowledge, we just say, we just apply, you have to constructor for this one, okay? Constructure this one. Then.
+
+381
+00:44:30,030 --> 00:44:33,630
+Li Xun: Once we get for this lambda, we're first using
+
+382
+00:44:33,840 --> 00:44:52,699
+Li Xun: using… further use is the Markov chain. We have a Markov chain LUR for the… just noun is what? One step, then it's a two-step, n step, how to calculate, we're using for this fundamental, the formula to solve for this one, okay? So, next stage, we consider is what?
+
+383
+00:44:52,920 --> 00:45:05,219
+Li Xun: The first one. The one, actually, transition is for what? Yes. Explanation is lambda, okay? This one. Now, this one is PN is what?
+
+384
+00:45:05,340 --> 00:45:06,850
+Li Xun: He has a PM.
+
+385
+00:45:07,730 --> 00:45:17,050
+Li Xun: Actually, E is the lambda M, so equal to the, what, M for this one. So Y we have for this formula.
+
+386
+00:45:17,190 --> 00:45:20,460
+Li Xun: But this formula you can easily calculate, no, may not.
+
+387
+00:45:20,690 --> 00:45:29,840
+Li Xun: Okay, so how to calculate for this metric, explanation matricus? Actually, we have for this fundamental formula.
+
+388
+00:45:30,190 --> 00:45:36,870
+Li Xun: Okay, maybe I forget today I take for this formula or not, let me see.
+
+389
+00:45:40,390 --> 00:45:44,090
+Li Xun: Oh, sorry, I did not take for this formula to here today.
+
+390
+00:45:44,580 --> 00:45:47,410
+Li Xun: Maybe.
+
+391
+00:45:53,250 --> 00:45:55,030
+Li Xun: Maybe…
+
+392
+00:45:55,940 --> 00:46:06,669
+Li Xun: How to calculate? Okay, I mean, how to calculate for this? Just this one, using is what? Just now we say, using for, using for this formula.
+
+393
+00:46:08,100 --> 00:46:08,810
+Li Xun: Yep.
+
+394
+00:46:17,660 --> 00:46:20,239
+Li Xun: Okay, if we use for the…
+
+395
+00:46:23,660 --> 00:46:28,560
+Li Xun: Using for is the… Using for this formula, that's all.
+
+396
+00:46:30,700 --> 00:46:33,730
+Li Xun: Maybe I… Let me show you.
+
+397
+00:47:00,150 --> 00:47:08,160
+Li Xun: Yeah, we have… this, I can download it and upload it to your… regardless of our lecture notes, okay?
+
+398
+00:47:08,390 --> 00:47:10,309
+Li Xun: Did you… can you see for this one?
+
+399
+00:48:26,780 --> 00:48:28,009
+Li Xun: Wait a minute.
+
+400
+00:49:14,830 --> 00:49:15,720
+Li Xun: Okay.
+
+401
+00:49:16,300 --> 00:49:18,950
+Li Xun: Now let's look at it. Just now.
+
+402
+00:49:19,070 --> 00:49:30,750
+Li Xun: we mentioned, okay, we have to… just now we talked about for this EA, okay? You just write down very simple, is the Python is the code, okay, very simple.
+
+403
+00:49:30,910 --> 00:49:39,520
+Li Xun: This, I think you just write down for these several sentences, okay? Suppose the A matricus. Now, this A matricus you already have, okay?
+
+404
+00:49:39,550 --> 00:49:51,319
+Li Xun: Then your metrics. How to get this result? We can't get exact, very exactory, just using for the fundamental sentences. But for the exam, we may not have enough time.
+
+405
+00:49:51,320 --> 00:49:59,699
+Li Xun: to calculate, okay? We also, we may not keep using a computer to solve for this one. So, by hand, how to walk? Now let's look at by hand.
+
+406
+00:49:59,930 --> 00:50:15,380
+Li Xun: Okay. So, first we consider K is equal to 3. I found 1 to 3. I found 1 to 3, the first one, this match curse is taken to the power yellow. Power is yellow, corresponding to this match curse.
+
+407
+00:50:15,590 --> 00:50:20,900
+Li Xun: Corresponding to this metric is just equal to what? Diagonal. Okay? Diagonal.
+
+408
+00:50:21,010 --> 00:50:32,520
+Li Xun: Okay, so then is the same is for this matricus A, the matricus A. So, we go and consider just the power 1, this equivalent originary, okay, the same.
+
+409
+00:50:32,630 --> 00:50:37,280
+Li Xun: The second… Then we consider it for what? Is the…
+
+410
+00:50:37,510 --> 00:50:48,470
+Li Xun: Matrix, power 2. Actually, matrix A, tech product A. Okay, so you're just what? A, tech product A. This is the exam, maybe you were using.
+
+411
+00:50:49,020 --> 00:50:59,090
+Li Xun: Okay. Midterm, you will ask me, maybe how many stages? Maybe 3. Step 3. Okay. Step 3, yesterday, power 3, yesterday. A,
+
+412
+00:50:59,700 --> 00:51:13,229
+Li Xun: Product with A, product with A, power 3. Then, over is 3 factorial, you get for this. Then you get is what? K equal to 3, you can get for this result.
+
+413
+00:51:15,490 --> 00:51:23,619
+Li Xun: Okay, get it for this result. So, this result is actually we get for this amount, okay? Another for…
+
+414
+00:51:23,980 --> 00:51:41,000
+Li Xun: This is, another is for this one. Our excise. K equal to 5, after class, you try to work. You just, actually, it's very easy. Use the copy my this, the, Python sentences, input your Python system, then you can get what?
+
+415
+00:51:41,070 --> 00:51:57,200
+Li Xun: then you can get the K equal to 5. Very easy, okay? Also, you would like to the hand check also, K, but maybe it's the tutor. I remember tutor last time, gave our classmate the question is, maybe the A power 3 by hand.
+
+416
+00:51:57,480 --> 00:52:02,730
+Li Xun: 8 times A times 8. It's okay. We're not asking you more.
+
+417
+00:52:03,010 --> 00:52:04,170
+Li Xun: Okay, okay.
+
+418
+00:52:04,530 --> 00:52:14,239
+Li Xun: So, now just to check is the K equal to 5 by the computer. So, the tutel actually give us is, maybe is, A to…
+
+419
+00:52:14,310 --> 00:52:23,130
+Li Xun: 5. After this one is the same. Then 82 is 5. Then you take the summation. Okay, I take summation. You get the 85. So this is what?
+
+420
+00:52:23,130 --> 00:52:35,170
+Li Xun: to 5 the stature. Also, K equal to the 10, okay, k equal to 10, then you take the project, okay, all the result here. Maybe I think 5 or 10, almost the result the same.
+
+421
+00:52:35,700 --> 00:52:38,269
+Li Xun: Okay, you can check almost without the same.
+
+422
+00:52:38,840 --> 00:52:42,730
+Li Xun: Maybe… Maybe.
+
+423
+00:52:44,520 --> 00:53:04,369
+Li Xun: Maybe it's almost the same, 6.009, 6.10. You can double check, okay? So, what is that we suppose what is over the exact value? Exact value, actually no exact value, this approximate value, okay? Approximate value. Finally, for this one.
+
+424
+00:53:04,560 --> 00:53:17,390
+Li Xun: This, although we write down exactly the value… actually, this exact value, that means what K we pick up at the very huge number, okay, a very huge number. So, you will see for this one, this…
+
+425
+00:53:17,590 --> 00:53:22,280
+Li Xun: Exactly, actually, we up to the k equal to the 10, almost the same.
+
+426
+00:53:22,610 --> 00:53:25,839
+Li Xun: Okay? So, na-I directory.
+
+427
+00:53:25,980 --> 00:53:33,140
+Li Xun: put this link on our… the web. After class, you can check. It's okay? So, give you several minutes, then we put it on this one.
+
+428
+00:55:03,530 --> 00:55:05,250
+Li Xun: Hello?
+
+429
+00:55:05,470 --> 00:55:08,390
+Li Xun: classmate, Zhong LU,
+
+430
+00:55:08,950 --> 00:55:15,769
+Li Xun: Don't count to this LUO. Okay, because this LU, I just, I use the video. You don't count to the, our LUO.
+
+431
+00:55:21,780 --> 00:55:25,060
+Li Xun: Okay, so after class, you can see…
+
+432
+00:55:25,460 --> 00:55:31,300
+Li Xun: Just now, I show you the result, okay? So, after class, by self-mimic for this one, okay?
+
+433
+00:55:33,170 --> 00:55:37,659
+Li Xun: Now, let's come back to… it's just now we discussed.
+
+434
+00:55:38,770 --> 00:55:58,630
+Li Xun: Okay, just now, we show… once we get it for what? Oh, what this is the numerical unit value, generate value, then how to form the generate value go to the first stage, okay, first stage. Just now, we show you by the product, okay, the summation product we get for this. Now.
+
+435
+00:55:58,640 --> 00:56:11,460
+Li Xun: We take exercise one, regardless of the other tutorial. Later, I give you a solution, okay? Now you try. You will find out this one question just changed a little bit the previous, okay? Try to work.
+
+436
+00:56:12,710 --> 00:56:17,230
+Li Xun: How much you can do if it does not matter.
+
+437
+00:56:18,490 --> 00:56:33,270
+Li Xun: Later, I will give you the result, okay, result. But today I will not, today, although I have the solution, okay, today I will not upload for this solution. Next week. Why? Because we have the second question.
+
+438
+00:56:33,440 --> 00:56:34,410
+Li Xun: On this one.
+
+439
+00:56:34,560 --> 00:56:40,539
+Li Xun: Okay, second question. So, you just used, consider the first question. Okay, first question.
+
+440
+00:56:44,210 --> 00:56:51,599
+Li Xun: Okay, try to do this X size one. Okay, maybe this XID one is similar to YSLY.
+
+441
+00:56:51,850 --> 00:56:52,630
+Li Xun: Okay.
+
+442
+00:56:54,460 --> 00:57:00,099
+Li Xun: Chin… The… CS data, oh, what?
+
+443
+00:57:00,210 --> 00:57:02,849
+Li Xun: Tutor will help revise, okay?
+
+444
+00:57:02,960 --> 00:57:20,219
+Li Xun: Maybe similar to previous, maybe Tudor helped me change a little bit of the data. Once you change one or two data during the exam, you also follow this new question too, not always using the original result right on all your test paper. I really clear, because we give you a help sheet.
+
+445
+00:57:20,220 --> 00:57:24,129
+Li Xun: But you cannot copy the half sheet on our exam paper.
+
+446
+00:57:25,900 --> 00:57:26,690
+Li Xun: Enjoy.
+
+447
+00:57:33,710 --> 00:57:35,179
+Li Xun: Okay, try to walk.
+
+448
+01:11:19,140 --> 01:11:20,030
+Li Xun: Okay.
+
+449
+01:11:20,310 --> 01:11:32,790
+Li Xun: Just to give you a little bit of a hint, okay? Also, I… I would leave for this one is the homework one, okay? Homework one, we give two questions. This exercise one, another exercise two.
+
+450
+01:11:32,790 --> 01:11:48,939
+Li Xun: Then we leave this one to question as a homework one. So, at this very moment, you cannot finish, or it does not matter. So, we… during the homework, then you go and finish. So, not just I give you a little bit of hint, corresponding to this one, okay?
+
+451
+01:11:48,990 --> 01:11:56,259
+Li Xun: So, USC corresponding to is the empirical, non-URSC. We have the one month is what?
+
+452
+01:11:56,450 --> 01:12:05,049
+Li Xun: is, maybe we have… we total heaviest what? We total heaviest, 20. It's okay, 20.
+
+453
+01:12:10,110 --> 01:12:13,169
+Li Xun: We have the three months. One is what?
+
+454
+01:12:13,450 --> 01:12:24,080
+Li Xun: A move to the B. From the A to B, just 1. No A to C, no A to D. So now your C is 1 over 20. From A to is what?
+
+455
+01:12:24,230 --> 01:12:25,980
+Li Xun: A to the dot B.
+
+456
+01:12:26,160 --> 01:12:40,430
+Li Xun: other remaining part, just leave to what? Leave to the A, okay? So now let's look at for B. B is what? We actually downgrade to the C once. Downgrade to C is once. Also, to B, move to the A.
+
+457
+01:12:40,710 --> 01:12:58,339
+Li Xun: 2 over A, okay? Remaining is 17. Remaining 17, just to keep up with the B. So also, now let's look at, you know, for what corresponding to this one, we have the 2C is moved to what? B? 2C moved to the B. And we have the
+
+458
+01:13:00,370 --> 01:13:01,470
+Li Xun: One seat.
+
+459
+01:13:02,160 --> 01:13:02,990
+Li Xun: Okay.
+
+460
+01:13:03,790 --> 01:13:06,240
+Li Xun: one seat.
+
+461
+01:13:06,610 --> 01:13:23,250
+Li Xun: moved to the default. 10 years later, also, another 2C moved to the default. So total, we have 1, 2, 2 is 3. So 3C moved to the default, okay? So now we find the remaining is what? 15C will not change, so 15 over this.
+
+462
+01:13:23,330 --> 01:13:30,789
+Li Xun: So, for the empirical, I think it is easy, okay? Oh, default path, no change, okay? So, just use one.
+
+463
+01:13:30,840 --> 01:13:39,560
+Li Xun: Okay, this is the first one. Then is what you should solve is for what? You should solve is the… now I give you a little bit of hint. Okay, you can…
+
+464
+01:13:39,610 --> 01:13:55,290
+Li Xun: Read for this, okay? I cannot give you the full… all the information. After class, by itself, you can go on right. Maybe if we have the MA, it's okay, we have the MA and the MB for this information. So after class, by itself, go on.
+
+465
+01:13:55,350 --> 01:14:02,700
+Li Xun: mimic all other states. Then is what you solve, is for what is the lambda A
+
+466
+01:14:02,810 --> 01:14:15,380
+Li Xun: and the more generator. More generator is for this one-year formal generator. Maybe during just now, we talk about the method, okay? After class, you have enough time.
+
+467
+01:14:15,490 --> 01:14:20,129
+Li Xun: to consider how to using for this one, calculate, maybe, K…
+
+468
+01:14:20,300 --> 01:14:26,160
+Li Xun: for under 5, K for 3, K for 5, K410, okay?
+
+469
+01:14:26,740 --> 01:14:33,689
+Li Xun: Intermittent, once we have the similar question, you don't ask me again. We just keep up, K-3.
+
+470
+01:14:33,890 --> 01:14:34,850
+Li Xun: It's okay.
+
+471
+01:14:35,110 --> 01:14:48,540
+Li Xun: So, you never ask me for a minute, we calculate how many stages, just calculate k equal to 3, okay? Now I give… leave you the excise 1. Also, today I leave for this.
+
+472
+01:14:48,650 --> 01:14:55,000
+Li Xun: waiver on our blackboard, you will get for this result, then you double-check how to do.
+
+473
+01:14:55,120 --> 01:14:56,060
+Li Xun: It's okay.
+
+474
+01:14:56,240 --> 01:14:57,439
+Li Xun: Just a mimika.
+
+475
+01:14:57,890 --> 01:15:05,699
+Li Xun: Then next week, next week, we finish… next week, we finish another walk, another exercise, too.
+
+476
+01:15:05,970 --> 01:15:10,169
+Li Xun: Another exercise, too. Then we combine this birth question
+
+477
+01:15:10,420 --> 01:15:18,890
+Li Xun: Birth question. Another is X size 2. Combine this birth question, then we post our homework one. It's okay.
+
+478
+01:15:19,060 --> 01:15:34,200
+Li Xun: Yeah, so next week, we also mention you this, for this one. But, next week, we will not just, consider it lecture one. Also, I remember is, maybe is, we should, consider it for the,
+
+479
+01:15:35,000 --> 01:15:37,239
+Li Xun: Maybe Lecture 2, yeah.
+
+480
+01:15:40,000 --> 01:15:42,539
+Li Xun: Yeah, it's a lecture two-part, okay?
+
+481
+01:15:42,850 --> 01:15:49,360
+Li Xun: Maybe we… before the lecture 2 part, we will mention, just now, Oh.
+
+482
+01:15:50,300 --> 01:15:51,459
+Li Xun: Sorry, sorry, sorry.
+
+483
+01:15:52,280 --> 01:15:53,250
+Li Xun: for here.
+
+484
+01:15:54,570 --> 01:16:07,369
+Li Xun: Yeah, maybe next week, except Lecture 1, we also mention you the Lecture 2, sum of excise. So, Lecture 2, we will mention you is the… remind you that what is the…
+
+485
+01:16:07,610 --> 01:16:09,480
+Li Xun: eTilemma, okay?
+
+486
+01:16:09,640 --> 01:16:17,270
+Li Xun: For on the next week, we will go inside for the eto lemma something, okay, using for the similar question, okay?
+
+487
+01:16:17,370 --> 01:16:26,780
+Li Xun: for this one is that we're using ETLEMA and the fundamental etilemma for this one, how to solve, step by step, so you don't worry, okay? Just follow my stager.
+
+488
+01:16:26,780 --> 01:16:41,010
+Li Xun: Finally, I think it's okay. So you finally, you ask me to guarantee. You should get the A, I cannot guarantee, but I can guarantee, at least in general, just follow my schedule, you get B, I think.
+
+489
+01:16:41,330 --> 01:16:46,959
+Li Xun: Maybe the… Maybe I think the 95% can get the B, I think.
+
+490
+01:16:47,180 --> 01:17:00,239
+Li Xun: Maybe at least a 90. I'm not sure. Professor, what is the new criteria? Maybe, Professor, you say, you give the… so many classmates is a very high grade, maybe downgrade to 80% is,
+
+491
+01:17:00,310 --> 01:17:07,869
+Li Xun: is B, so I also think that doesn't make sense, because I know university policy, okay, 30% is A.
+
+492
+01:17:08,100 --> 01:17:10,400
+Li Xun: Maybe about yesterday.
+
+493
+01:17:10,540 --> 01:17:19,989
+Li Xun: about the… about the 40, maybe the B, and also is the remaining is, 30 is, 20, and the 10, maybe is what?
+
+494
+01:17:20,360 --> 01:17:22,899
+Li Xun: D, and a C, and a D, an F.
+
+495
+01:17:23,430 --> 01:17:27,959
+Li Xun: Okay, so I double-check. Maybe I give our one.
+
+496
+01:17:45,700 --> 01:17:47,369
+Li Xun: I think, maybe.
+
