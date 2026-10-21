@@ -1,0 +1,25 @@
+{
+  "id": "conv-1792584107817-0ojo7ajsw",
+  "providerId": "claude",
+  "title": "Explain why shareholders choose strategic defau...",
+  "titleGenerationStatus": "success",
+  "createdAt": 1792584107821,
+  "updatedAt": 1792595031666,
+  "lastResponseAt": 1792595031666,
+  "sessionId": "b54a2fd8-443d-4366-bf87-cdf4960236e7",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "b54a2fd8-443d-4366-bf87-cdf4960236e7"
+  },
+  "currentNote": "AMA572 Fixed-Income and Credit Risk/01 - 课程主线与模型关系（Lecture 1–5）.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 525,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 133248,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 133773,
+    "percentage": 13
+  }
+}

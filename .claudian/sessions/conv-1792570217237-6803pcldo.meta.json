@@ -1,0 +1,28 @@
+{
+  "id": "conv-1792570217237-6803pcldo",
+  "providerId": "codex",
+  "title": "解释第五部分最终的推导结果",
+  "titleGenerationStatus": "success",
+  "createdAt": 1792570217241,
+  "updatedAt": 1792584062330,
+  "lastResponseAt": 1792577404786,
+  "sessionId": "01a15d82-d9e0-7a12-95e8-8f8f750a536f",
+  "selectedModel": "gpt-6.1-sol",
+  "providerState": {
+    "threadId": "01a15d82-d9e0-7a12-95e8-8f8f750a536f",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/10/21/rollout-2026-10-21T16-10-19-01a15d82-d9e0-7a12-95e8-8f8f750a536f.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "AMA572 Fixed-Income and Credit Risk/01 - 课程主线与模型关系（Lecture 1–5）.md",
+  "usage": {
+    "inputTokens": 92754,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 83712,
+    "contextWindow": 475000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 92754,
+    "percentage": 20,
+    "model": "gpt-6.1-sol"
+  }
+}

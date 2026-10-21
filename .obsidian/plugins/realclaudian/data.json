@@ -6,11 +6,11 @@
         "conversationId": "conv-1783392463352-n2kcez4zi"
       },
       {
+        "draftModel": "opus",
         "tabId": "tab-1780647913839-5g8mmtm",
-        "conversationId": "conv-1784718968657-2y1hnx9na"
+        "conversationId": "conv-1792584107817-0ojo7ajsw"
       },
       {
-        "draftModel": "gpt-6.1-sol",
         "tabId": "tab-1780673723612-8h1zl26",
         "conversationId": "conv-1792494904658-4fglxgqsn"
       },
@@ -23,6 +23,6 @@
         "conversationId": "conv-1792480536990-lua41qdke"
       }
     ],
-    "activeTabId": "tab-1780673723612-8h1zl26"
+    "activeTabId": "tab-1780647913839-5g8mmtm"
   }
 }

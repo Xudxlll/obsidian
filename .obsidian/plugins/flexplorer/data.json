@@ -8356,6 +8356,8 @@
       "isHidden": false,
       "sortOrder": "byName",
       "customOrder": [
+        "Assignment 2",
+        "Assignment 1",
         "01 - 课程主线与模型关系（Lecture 1–5）.md",
         "附件",
         "00 - 课堂重点与考试提醒总览.md",
@@ -8719,6 +8721,9 @@
       "isHidden": false,
       "sortOrder": "byName",
       "customOrder": [
+        "08 - 模拟卷三·练习卷（逐题答案与中文详解）.md",
+        "07 - 模拟卷二·修订版（逐题答案与中文详解）.md",
+        "06 - 模拟卷一（逐题答案与中文详解）.md",
         "05 - 课堂重点与考试提醒.md",
         "附件",
         "04 - 期中练习卷与详细解答（英文原文与折叠译文）.md",
@@ -9149,6 +9154,153 @@
       "isHidden": false
     },
     "AMA572 Fixed-Income and Credit Risk/01 - 课程主线与模型关系（Lecture 1–5）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Midterm/06 - 模拟卷一（逐题答案与中文详解）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Midterm/07 - 模拟卷二·修订版（逐题答案与中文详解）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Midterm/08 - 模拟卷三·练习卷（逐题答案与中文详解）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 1": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "附件",
+        "02 - Assignment 1 计算口径与勘误（中英对照）.md",
+        "01 - Assignment 1（英文原题、答案与中文解答）.md",
+        "00 - Assignment 1 资料索引.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 1/00 - Assignment 1 资料索引.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 1/01 - Assignment 1（英文原题、答案与中文解答）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 1/02 - Assignment 1 计算口径与勘误（中英对照）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 1/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "Assignment01_sol_老师给的.pdf",
+        "Assignment1_完整解答_含推导与计算.pdf",
+        "Assignment1_完整解答_含推导与计算.md",
+        "Assignment1_作业题目_共3题_截止2026-09-25.pdf",
+        "Assignment1_口径与讲义勘误说明.md",
+        "Assignment1_Conventions_and_Errata_EN.pdf",
+        "Assignment1_Conventions_and_Errata_EN.md",
+        "Assignment1_Complete_Solutions_EN.pdf",
+        "Assignment1_Complete_Solutions_EN.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 1/附件/Assignment1_Complete_Solutions_EN.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 1/附件/Assignment1_Complete_Solutions_EN.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 1/附件/Assignment1_Conventions_and_Errata_EN.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 1/附件/Assignment1_Conventions_and_Errata_EN.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 1/附件/Assignment1_口径与讲义勘误说明.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 1/附件/Assignment1_作业题目_共3题_截止2026-09-25.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 1/附件/Assignment1_完整解答_含推导与计算.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 1/附件/Assignment1_完整解答_含推导与计算.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 1/附件/Assignment01_sol_老师给的.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 2": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "附件",
+        "01 - Assignment 2（英文原题、答案与中文解答）.md",
+        "00 - Assignment 2 资料索引.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 2/00 - Assignment 2 资料索引.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 2/01 - Assignment 2（英文原题、答案与中文解答）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 2/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "Assignment2_完整解答_CN.pdf",
+        "Assignment2_完整解答_CN.md",
+        "Assignment2_作业题目_共2题_截止2026-10-16.pdf",
+        "Assignment2_Complete_Solutions_EN.pdf",
+        "Assignment2_Complete_Solutions_EN.md",
+        "Assignment02_2026.pdf",
+        "Assignment02-sol_老师给的.pdf"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 2/附件/Assignment02-sol_老师给的.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 2/附件/Assignment02_2026.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 2/附件/Assignment2_Complete_Solutions_EN.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 2/附件/Assignment2_Complete_Solutions_EN.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 2/附件/Assignment2_作业题目_共2题_截止2026-10-16.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 2/附件/Assignment2_完整解答_CN.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 2/附件/Assignment2_完整解答_CN.pdf": {
       "isPinned": false,
       "isHidden": false
     }
