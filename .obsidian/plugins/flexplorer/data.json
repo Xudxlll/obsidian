@@ -8356,6 +8356,7 @@
       "isHidden": false,
       "sortOrder": "byName",
       "customOrder": [
+        "01 - 课程主线与模型关系（Lecture 1–5）.md",
         "附件",
         "00 - 课堂重点与考试提醒总览.md",
         "Lecture 3",
@@ -9144,6 +9145,10 @@
       "isHidden": false
     },
     "AMA572 Fixed-Income and Credit Risk/Lecture 3/附件/课堂手写/12_第5至6页_本金票息与回收变换汇总_截图09-24_2012.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/01 - 课程主线与模型关系（Lecture 1–5）.md": {
       "isPinned": false,
       "isHidden": false
     }

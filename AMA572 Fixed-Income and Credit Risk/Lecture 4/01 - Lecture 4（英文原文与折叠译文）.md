@@ -436,3 +436,131 @@ However, the Leland-Toft model cannot explain why many high-tech companies have 
 **HWK** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">课后练习。</span></details>
 
 1. Prove (11). <details class="translation-details"><summary>中文译文</summary><span class="translation-body">1. 证明式（11）。</span></details>
+
+##### 解答：证明式（11）
+
+**目标。** 对定理 1 中给定的 $\epsilon$，证明：
+
+$$
+0<\epsilon<\frac1\alpha\frac{\rho+m}{r+m}.
+$$
+
+沿用模型通常的参数范围：$r>0$、$m>0$、$\sigma>0$、$\rho\geq0$、$0\leq\kappa<1$、$0<\alpha\leq1$，并使用式（3）的等价条件 $\kappa\rho<r$。这里要求 $\alpha>0$，是因为式（11）含有 $1/\alpha$；$\alpha=0$ 时不把该上界视为有限实数。
+
+**第一步：用简记整理 $\epsilon$。** 令：
+
+$$
+a=\sqrt{\xi^2+\frac{2r}{\sigma^2}}+\xi,
+\qquad
+b=\sqrt{\xi^2+\frac{2(r+m)}{\sigma^2}}+\xi,
+$$
+
+$$
+d=\frac{\rho+m}{r+m},
+\qquad
+k=\frac{\kappa\rho}{r}.
+$$
+
+其中 $k$ 只是本题的简记，不是原来的税率 $\kappa$。定理中的表达式变为：
+
+$$
+\epsilon=\frac{db-ka}{1+(1-\alpha)a+\alpha b}.
+$$
+
+因为 $r>0$，所以 $\sqrt{\xi^2+2r/\sigma^2}>|\xi|$，从而 $a>0$。又因为 $m>0$，第二个根号内的数更大，因此：
+
+$$
+b>a>0.
+$$
+
+此外，$d>0$、$k\geq0$，且分母：
+
+$$
+L:=1+(1-\alpha)a+\alpha b>0.
+$$
+
+**第二步：证明 $d>k$。** 通分可得：
+
+$$
+\begin{aligned}
+d-k
+&=\frac{\rho+m}{r+m}-\frac{\kappa\rho}{r}\\
+&=\frac{r(\rho+m)-\kappa\rho(r+m)}{r(r+m)}\\
+&=\frac{(1-\kappa)\rho r+m(r-\kappa\rho)}{r(r+m)}.
+\end{aligned}
+$$
+
+分母为正；分子第一项非负，第二项由 $m>0$ 和式（3）的 $r-\kappa\rho>0$ 得到严格为正。因此：
+
+$$
+d-k>0.
+$$
+
+**第三步：证明下界 $\epsilon>0$。** 将分子改写为：
+
+$$
+db-ka=d(b-a)+(d-k)a>0.
+$$
+
+两项均为正，且分母 $L>0$，所以：
+
+$$
+\epsilon=\frac{db-ka}{L}>0.
+$$
+
+**第四步：证明上界。** 因为 $ka\geq0$，所以 $db-ka\leq db$；又因为：
+
+$$
+L=\alpha b+\left[1+(1-\alpha)a\right]>\alpha b>0,
+$$
+
+因此：
+
+$$
+\epsilon
+=\frac{db-ka}{L}
+\leq\frac{db}{L}
+<\frac{db}{\alpha b}
+=\frac d\alpha
+=\frac1\alpha\frac{\rho+m}{r+m}.
+$$
+
+这里最后的严格不等号来自 $L>\alpha b$，所以即使 $k=0$，上界仍然是严格的。
+
+结合第三步，得到：
+
+$$
+\boxed{0<\epsilon<\frac1\alpha\frac{\rho+m}{r+m}}.
+$$
+
+式（11）证毕。关键是先用式（3）证明 $d>k$，再分别比较 $\epsilon$ 的分子与分母。
+
+> [!warning]- 补充核对：式（11）不能直接推出式（2）
+> 上面的证明解决的是题目要求的式（11）。但原文在定理 1(b) 后写的“因此最优违约边界满足（2）”，不能仅由式（11）得到。
+>
+> 代入 $V_B^*=\epsilon P$，式（2）实际要求：
+>
+> $$
+> \frac{m+r}{m}\alpha\epsilon\leq1
+> \quad\Longleftrightarrow\quad
+> \epsilon\leq\frac{m}{\alpha(m+r)}.
+> $$
+>
+> 而式（11）仅给出 $\epsilon<(\rho+m)/[\alpha(r+m)]$。当 $\rho>0$ 时，这个上界更大、约束更弱，不能据此推出式（2）。
+>
+> 例如，取 $r=0.05$、$\delta=0.03$、$\sigma=0.2$、$m=0.01$、$\rho=0.05$、$\kappa=0.25$、$\alpha=0.8$。这些参数满足上述基础参数条件及式（3），但 $\xi=0$，且：
+>
+> $$
+> \epsilon
+> =\frac{\sqrt3-\frac14\sqrt{5/2}}
+> {1+\frac15\sqrt{5/2}+\frac45\sqrt3}
+> \approx0.494756.
+> $$
+>
+> 此时式（11）的上界是 $1.25$，确实满足式（11）；但式（2）要求 $\epsilon\leq0.208333\ldots$，不成立。对应的：
+>
+> $$
+> c=\frac{m+r}{m}\alpha\epsilon\approx2.374830>1.
+> $$
+>
+> 因而，若未额外施加式（2）或其他参数限制，它并不由这些基础条件自动成立。这里保留课件原文，仅把这一推论上的问题单独注明；这不影响上面对式（11）本身的证明。

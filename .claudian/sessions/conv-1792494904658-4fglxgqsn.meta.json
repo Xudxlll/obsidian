@@ -4,8 +4,8 @@
   "title": "解释一句话的含义",
   "titleGenerationStatus": "success",
   "createdAt": 1792494904663,
-  "updatedAt": 1792495195551,
-  "lastResponseAt": 1792495195551,
+  "updatedAt": 1792552895135,
+  "lastResponseAt": 1792552895135,
   "sessionId": "01a15905-a65a-77c0-9dde-46342c5239cd",
   "selectedModel": "gpt-6.1-sol",
   "providerState": {
@@ -16,13 +16,13 @@
   },
   "currentNote": "AMA572 Fixed-Income and Credit Risk/Lecture 4/01 - Lecture 4（英文原文与折叠译文）.md",
   "usage": {
-    "inputTokens": 44800,
+    "inputTokens": 160199,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 44288,
-    "contextWindow": 258400,
+    "cacheReadInputTokens": 158976,
+    "contextWindow": 475000,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 44800,
-    "percentage": 17,
+    "contextTokens": 160199,
+    "percentage": 34,
     "model": "gpt-6.1-sol"
   }
 }

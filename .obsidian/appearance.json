@@ -13,7 +13,7 @@
   "cssTheme": "Typora-Vue",
   "baseFontSizeAction": true,
   "baseFontSize": 14,
-  "theme": "moonstone",
+  "theme": "system",
   "textFontFamily": "PingFang SC",
   "translucency": false
 }
