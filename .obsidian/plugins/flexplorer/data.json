@@ -8356,6 +8356,7 @@
       "isHidden": false,
       "sortOrder": "byName",
       "customOrder": [
+        "02 - 期中考试综合复习（讲义与作业主线）.md",
         "Assignment 2",
         "Assignment 1",
         "01 - 课程主线与模型关系（Lecture 1–5）.md",
@@ -9301,6 +9302,10 @@
       "isHidden": false
     },
     "AMA572 Fixed-Income and Credit Risk/Assignment 2/附件/Assignment2_完整解答_CN.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/02 - 期中考试综合复习（讲义与作业主线）.md": {
       "isPinned": false,
       "isHidden": false
     }

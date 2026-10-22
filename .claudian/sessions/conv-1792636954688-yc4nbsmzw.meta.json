@@ -1,0 +1,28 @@
+{
+  "id": "conv-1792636954688-yc4nbsmzw",
+  "providerId": "codex",
+  "title": "演示该计算过程",
+  "titleGenerationStatus": "success",
+  "createdAt": 1792636954690,
+  "updatedAt": 1792640303858,
+  "lastResponseAt": 1792640303858,
+  "sessionId": "01a1617d-28a3-7053-967e-2b98254d9e4c",
+  "selectedModel": "gpt-6.1-sol",
+  "providerState": {
+    "threadId": "01a1617d-28a3-7053-967e-2b98254d9e4c",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/10/22/rollout-2026-10-22T10-42-36-01a1617d-28a3-7053-967e-2b98254d9e4c.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "AMA572 Fixed-Income and Credit Risk/Assignment 1/01 - Assignment 1（英文原题、答案与中文解答）.md",
+  "usage": {
+    "inputTokens": 67930,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 66048,
+    "contextWindow": 475000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 67930,
+    "percentage": 14,
+    "model": "gpt-6.1-sol"
+  }
+}
