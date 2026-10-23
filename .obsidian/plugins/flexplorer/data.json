@@ -5,6 +5,9 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "还未投递.md",
+        "实习投递.md",
+        "秋招投递.md",
         "AMA573",
         "AMA572 Fixed-Income and Credit Risk",
         "AMA515A Forecasting and Applied Time Series Analysis",
@@ -10170,6 +10173,18 @@
       "isHidden": false
     },
     "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/ch4-updated-p18.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "秋招投递.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "实习投递.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "还未投递.md": {
       "isPinned": false,
       "isHidden": false
     }
