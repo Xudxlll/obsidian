@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "东北证券—宏观及策略研究员（实习生）",
         "还未投递.md",
         "实习投递.md",
         "秋招投递.md",
@@ -9072,14 +9073,15 @@
     "AMA572 Fixed-Income and Credit Risk/附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "授课字幕"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA572 Fixed-Income and Credit Risk/附件/授课字幕": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "midterm_字幕.srt",
         "lec4 & 5_字幕.srt",
@@ -9087,8 +9089,7 @@
         "lec2_字幕(下).srt",
         "lec2_字幕(上).srt",
         "lec1_字幕.srt"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA572 Fixed-Income and Credit Risk/附件/授课字幕/lec1_字幕.srt": {
       "isPinned": false,
@@ -9117,6 +9118,7 @@
     "AMA572 Fixed-Income and Credit Risk/Lecture 3/附件/课堂手写": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "12_第5至6页_本金票息与回收变换汇总_截图09-24_2012.jpg",
         "09_第5页_违约与到期时间分段积分_截图09-24_2005.jpg",
@@ -9126,8 +9128,7 @@
         "02_PDF第10页_Ga函数与Laplace变量平移_截图09-24_2042.jpg",
         "01_第3页_密度反演换元与Jacobian_截图09-24_1922.jpg",
         "01_PDF第10页_无风险债券价格反演_截图09-24_2037.jpg"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA572 Fixed-Income and Credit Risk/Lecture 3/附件/课堂手写/01_PDF第10页_无风险债券价格反演_截图09-24_2037.jpg": {
       "isPinned": false,
@@ -9180,13 +9181,13 @@
     "AMA572 Fixed-Income and Credit Risk/Assignment 1": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "附件",
         "02 - Assignment 1 计算口径与勘误（中英对照）.md",
         "01 - Assignment 1（英文原题、答案与中文解答）.md",
         "00 - Assignment 1 资料索引.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA572 Fixed-Income and Credit Risk/Assignment 1/00 - Assignment 1 资料索引.md": {
       "isPinned": false,
@@ -9203,6 +9204,7 @@
     "AMA572 Fixed-Income and Credit Risk/Assignment 1/附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "Assignment01_sol_老师给的.pdf",
         "Assignment1_完整解答_含推导与计算.pdf",
@@ -9213,8 +9215,7 @@
         "Assignment1_Conventions_and_Errata_EN.md",
         "Assignment1_Complete_Solutions_EN.pdf",
         "Assignment1_Complete_Solutions_EN.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA572 Fixed-Income and Credit Risk/Assignment 1/附件/Assignment1_Complete_Solutions_EN.md": {
       "isPinned": false,
@@ -9255,12 +9256,12 @@
     "AMA572 Fixed-Income and Credit Risk/Assignment 2": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "附件",
         "01 - Assignment 2（英文原题、答案与中文解答）.md",
         "00 - Assignment 2 资料索引.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA572 Fixed-Income and Credit Risk/Assignment 2/00 - Assignment 2 资料索引.md": {
       "isPinned": false,
@@ -9273,6 +9274,7 @@
     "AMA572 Fixed-Income and Credit Risk/Assignment 2/附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "Assignment2_完整解答_CN.pdf",
         "Assignment2_完整解答_CN.md",
@@ -9281,8 +9283,7 @@
         "Assignment2_Complete_Solutions_EN.md",
         "Assignment02_2026.pdf",
         "Assignment02-sol_老师给的.pdf"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA572 Fixed-Income and Credit Risk/Assignment 2/附件/Assignment02-sol_老师给的.pdf": {
       "isPinned": false,
@@ -9319,14 +9320,14 @@
     "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "附件",
         "03 - Chapter 1 手写笔记（p6 to p9）.md",
         "02 - Chapter 1 手写笔记（p1 to p5）.md",
         "01 - Chapter 1（英文原文与折叠译文）.md",
         "00 - Chapter 1 资料索引.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/00 - Chapter 1 资料索引.md": {
       "isPinned": false,
@@ -9347,6 +9348,7 @@
     "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "notes-b-p12.png",
         "notes-b-p11.png",
@@ -9384,8 +9386,7 @@
         "Chapter 1.pdf",
         "Chapter 1 notes p6 to p9.pdf",
         "Chapter 1 notes p1 to p5.pdf"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/Chapter 1 notes p1 to p5.pdf": {
       "isPinned": false,
@@ -9534,14 +9535,14 @@
     "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "附件",
         "03 - Proof of (2.5.2) 手写证明.md",
         "02 - Chapter 2 手写笔记.md",
         "01 - Chapter 2（英文原文与折叠译文）.md",
         "00 - Chapter 2 资料索引.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/00 - Chapter 2 资料索引.md": {
       "isPinned": false,
@@ -9562,6 +9563,7 @@
     "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "ch2-proof-p01.png",
         "ch2-notes-p09.png",
@@ -9590,8 +9592,7 @@
         "Proof of (2.5.2).pdf",
         "Chapter 2.pdf",
         "Chapter 2 Notes.pdf"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/Chapter 2 Notes.pdf": {
       "isPinned": false,
@@ -9704,14 +9705,14 @@
     "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "附件",
         "03 - Chapter 3 Additional Notes（手写补充）.md",
         "02 - Chapter 3 Updated Notes（批注版）.md",
         "01 - Chapter 3（英文原文与折叠译文）.md",
         "00 - Chapter 3 资料索引.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/00 - Chapter 3 资料索引.md": {
       "isPinned": false,
@@ -9732,6 +9733,7 @@
     "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "ch3-updated-p16.png",
         "ch3-updated-p15.png",
@@ -9791,8 +9793,7 @@
         "Chapter 3 Notes.pdf",
         "Chapter 3 Updated Notes.pdf",
         "Chapter 3 Additional Notes.pdf"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/Chapter 3 Additional Notes.pdf": {
       "isPinned": false,
@@ -10029,14 +10030,14 @@
     "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "附件",
         "03 - Chapter 4 Additional Example.md",
         "02 - PACF Example of Chapter 4.md",
         "01 - Chapter 4（英文原文与折叠译文）.md",
         "00 - Chapter 4 资料索引.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/00 - Chapter 4 资料索引.md": {
       "isPinned": false,
@@ -10057,6 +10058,7 @@
     "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "ch4-updated-p18.png",
         "ch4-updated-p17.png",
@@ -10081,8 +10083,7 @@
         "PACF Example of Chapter 4.pdf",
         "Chapter 4 Updated Notes.pdf",
         "Chapter 4 Additonal Example.pdf"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/Chapter 4 Additonal Example.pdf": {
       "isPinned": false,
@@ -10185,6 +10186,163 @@
       "isHidden": false
     },
     "还未投递.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）": {
+      "isPinned": false,
+      "isHidden": false,
+      "sortOrder": "custom",
+      "customOrder": [
+        "2025-06-03｜Day 01｜入职、认人和第一次接触旧底稿.md",
+        "2025-06-04｜Day 02｜找PMI历史数据，清理重复列和导出格式.md",
+        "2025-06-05｜Day 03｜补指标字典，发现社融单位和M1口径的问题.md",
+        "2025-06-09｜Day 05｜第一次跟物价数据点评，数字和文字都被改.md",
+        "2025-06-10｜Day 06｜把点评步骤写成清单，先确认究竟预测什么.md",
+        "2025-06-06｜Day 04｜分清统计月份和可用日期，交第一周进度.md",
+        "2025-06-11｜Day 07｜补交易日历和发布时间，学习写政策事实条目.md",
+        "2025-06-12｜Day 08｜准备社融底稿，辨认累计值、单月值与同比多增.md",
+        "2025-06-13｜Day 09｜金融数据发布后的初次更新，临时补事件跟踪.md",
+        "2025-06-16｜Day 10｜经济数据发布日，先完成社融复核再改点评图.md",
+        "2025-06-17｜Day 11｜先做历史均值基线，回归表跑通后才发现标签错位.md",
+        "2025-06-18｜Day 12｜第一次试随机森林，训练拟合好看却不能当成绩.md",
+        "2025-06-19｜Day 13｜核对美联储声明，确定滚动检验的边界.md",
+        "2025-06-20｜Day 14｜更新LPR，完成第一轮逐月预测表.md",
+        "2025-06-23｜Day 15｜专门查前视偏差，删掉一张过于好看的旧图.md",
+        "2025-06-24｜Day 16｜整理预测误差，发现平均成绩会遮住失效月份.md",
+        "2025-06-25｜Day 17｜拆增长和通胀状态，不按结果倒着挑阶段.md",
+        "2025-06-26｜Day 18｜换窗口、删特征，整理不稳定的结果.md",
+        "2025-06-30｜Day 20｜月末PMI更新，冻结六月信息快照.md",
+        "2025-06-27｜Day 19｜把模型草稿讲给带教，旁听一次内部写作交流.md",
+        "2025-07-01｜Day 21｜复核月末数据，查看保留段并留下七月预测.md",
+        "2025-07-02｜Day 22｜整理特征解释，避免把重要性写成因果关系.md",
+        "2025-07-03｜Day 23｜拼专题初稿，才发现图表和文字不是同一个版本.md",
+        "2025-07-04｜Day 24｜第一次完整短汇报，答不上来就记下再核.md",
+        "2025-07-07｜Day 25｜把每日更新写成交接说明，处理导出文件的小故障.md",
+        "2025-07-08｜Day 26｜让同事照着说明找文件，提前准备次日物价核对.md",
+        "2025-07-09｜Day 27｜第二次跟物价点评，熟练了一点但仍要改措辞.md",
+        "2025-07-10｜Day 28｜核对专题引用，给结论加上真正需要的限制.md",
+        "2025-07-11｜Day 29｜整理交接包，带同学走一次更新流程.md",
+        "2025-07-14｜Day 30｜完成第三十个工作日，登记新发布信息并交接.md"
+      ]
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-06-03｜Day 01｜入职、认人和第一次接触旧底稿.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-06-04｜Day 02｜找PMI历史数据，清理重复列和导出格式.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-06-05｜Day 03｜补指标字典，发现社融单位和M1口径的问题.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-06-09｜Day 05｜第一次跟物价数据点评，数字和文字都被改.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-06-10｜Day 06｜把点评步骤写成清单，先确认究竟预测什么.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-06-06｜Day 04｜分清统计月份和可用日期，交第一周进度.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-06-11｜Day 07｜补交易日历和发布时间，学习写政策事实条目.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-06-12｜Day 08｜准备社融底稿，辨认累计值、单月值与同比多增.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-06-13｜Day 09｜金融数据发布后的初次更新，临时补事件跟踪.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-06-16｜Day 10｜经济数据发布日，先完成社融复核再改点评图.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-06-17｜Day 11｜先做历史均值基线，回归表跑通后才发现标签错位.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-06-18｜Day 12｜第一次试随机森林，训练拟合好看却不能当成绩.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-06-19｜Day 13｜核对美联储声明，确定滚动检验的边界.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-06-20｜Day 14｜更新LPR，完成第一轮逐月预测表.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-06-23｜Day 15｜专门查前视偏差，删掉一张过于好看的旧图.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-06-24｜Day 16｜整理预测误差，发现平均成绩会遮住失效月份.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-06-25｜Day 17｜拆增长和通胀状态，不按结果倒着挑阶段.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-06-26｜Day 18｜换窗口、删特征，整理不稳定的结果.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-06-30｜Day 20｜月末PMI更新，冻结六月信息快照.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-06-27｜Day 19｜把模型草稿讲给带教，旁听一次内部写作交流.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-07-01｜Day 21｜复核月末数据，查看保留段并留下七月预测.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-07-02｜Day 22｜整理特征解释，避免把重要性写成因果关系.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-07-03｜Day 23｜拼专题初稿，才发现图表和文字不是同一个版本.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-07-04｜Day 24｜第一次完整短汇报，答不上来就记下再核.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-07-07｜Day 25｜把每日更新写成交接说明，处理导出文件的小故障.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-07-08｜Day 26｜让同事照着说明找文件，提前准备次日物价核对.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-07-09｜Day 27｜第二次跟物价点评，熟练了一点但仍要改措辞.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-07-10｜Day 28｜核对专题引用，给结论加上真正需要的限制.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-07-11｜Day 29｜整理交接包，带同学走一次更新流程.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/2025-07-14｜Day 30｜完成第三十个工作日，登记新发布信息并交接.md": {
       "isPinned": false,
       "isHidden": false
     }
