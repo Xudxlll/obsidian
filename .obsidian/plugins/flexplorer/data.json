@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "曲面观策项目学习与面试",
         "东北证券—宏观及策略研究员（实习生）",
         "还未投递.md",
         "实习投递.md",
@@ -10194,6 +10195,12 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "05｜任务主线、交付物与未完成项.md",
+        "04｜日常工作流、术语与常见返工.md",
+        "03｜宏观数据库与模型设定说明.md",
+        "02｜公开来源与事实边界.md",
+        "01｜人物、岗位与时间设定.md",
+        "00｜实习总览与30日导航.md",
         "2025-06-03｜Day 01｜入职、认人和第一次接触旧底稿.md",
         "2025-06-04｜Day 02｜找PMI历史数据，清理重复列和导出格式.md",
         "2025-06-05｜Day 03｜补指标字典，发现社融单位和M1口径的问题.md",
@@ -10343,6 +10350,1403 @@
       "isHidden": false
     },
     "东北证券—宏观及策略研究员（实习生）/2025-07-14｜Day 30｜完成第三十个工作日，登记新发布信息并交接.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/00｜实习总览与30日导航.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/01｜人物、岗位与时间设定.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/02｜公开来源与事实边界.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/03｜宏观数据库与模型设定说明.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/04｜日常工作流、术语与常见返工.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "东北证券—宏观及策略研究员（实习生）/05｜任务主线、交付物与未完成项.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "00-项目知识地图.canvas",
+        "00-开始学习.md",
+        "00-20课学习路线.md",
+        "00-术语速查.md",
+        "01-项目与数据",
+        "04-面试与验证",
+        "05-证据与附件",
+        "03-源码逐文件",
+        "02-循序学习"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/02-循序学习": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "23 - 界面、真实案例与35品种验收.md",
+        "22 - 可追溯、防未来与运行身份.md",
+        "21 - 动态知识图谱的机制与推理边界.md",
+        "20 - Agent如何把一次请求变成可复核风险判断.md",
+        "12-无套利与诊断：为什么通过检查不等于数学保证.md",
+        "11-拟合与降级：从SSVI到可解释的失败.md",
+        "10-从IV到总方差：期限为什么不能忽略.md",
+        "核心08-离线Pipeline与单时点Agent的完整关系.md",
+        "核心07-CVaR回测到底证明了什么.md",
+        "核心06-预警状态通知与评价怎样避免混淆.md",
+        "核心05-规则预警与机器学习对照到底各做什么.md",
+        "核心04-标签如何定义未来以及怎样防止泄漏.md",
+        "核心03-12项风险证据逐项算给你看.md",
+        "核心02-同一时间怎样从微笑走到曲面.md",
+        "核心01-从一条期权报价到可分析的干净样本.md",
+        "01-读懂项目所需的Python与表结构.md",
+        "00-期权与IV从零开始.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/03-源码逐文件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "智能体与图谱",
+        "提交材料",
+        "报告与证据",
+        "测试",
+        "脚本与交付",
+        "曲面拟合",
+        "核心链路"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/核心链路": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "pyproject.toml.md",
+        "backtest_report.sql.md",
+        "acceptance_report.sql.md",
+        "interactive.py.md",
+        "visualization.py.md",
+        "cli.py.md",
+        "pipeline.py.md",
+        "official_events.py.md",
+        "backtest.py.md",
+        "alerts.py.md",
+        "model.py.md",
+        "labels.py.md",
+        "features.py.md",
+        "surfaces.py.md",
+        "quality.py.md",
+        "io.py.md",
+        "config.py.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/05-证据与附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "真实案例图",
+        "本轮执行-02_knowledge_graph_demo.ipynb",
+        "外部原始参考.md",
+        "源码档案索引.md",
+        "逐字源码",
+        "原始交付文档"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/05-证据与附件/原始交付文档": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "曲面观策-精益画布.pptx",
+        "曲面观策-OptionRiskAgent技术文档-final.docx",
+        "曲面观策-OptionRiskAgent技术文档-final.pdf"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/05-证据与附件/原始交付文档/曲面观策-OptionRiskAgent技术文档-final.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/原始交付文档/曲面观策-OptionRiskAgent技术文档-final.docx": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/原始交付文档/曲面观策-精益画布.pptx": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/曲面拟合": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "test_total_variance_fit.py-契约、数值与异常路径的验证地图.md",
+        "surface_fit_diagnostics.py-输入规范化、期限选择与可审计产物.md",
+        "total_variance_fit.py-总方差公式、优化与本地检查.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/04-面试与验证": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "04-动手实验与标准答案.md",
+        "03-面试追问与回答.md",
+        "曲面拟合专项追问.md",
+        "01-简历口径与证据边界.md",
+        "02-历史指标逐项核算.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/核心链路/config.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/核心链路/io.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/核心链路/quality.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/核心链路/surfaces.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/核心链路/features.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/核心链路/labels.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/核心链路/model.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/核心链路/alerts.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/核心链路/backtest.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/核心链路/official_events.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/核心链路/pipeline.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/核心链路/cli.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/核心链路/visualization.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/核心链路/interactive.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/核心链路/acceptance_report.sql.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/核心链路/backtest_report.sql.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/核心链路/pyproject.toml.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "06-模块依赖与产物血缘.md",
+        "05-最终提交85文件总目录.md",
+        "数据分区目录",
+        "04-官方说明与辅助文件.md",
+        "03-从一行报价到一个时点的真实例子.md",
+        "02-原始数据定位与24列字典.md",
+        "01-版本地图与提交完整性.md",
+        "00-项目到底解决什么问题.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/01-项目与数据/00-项目到底解决什么问题.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/01-版本地图与提交完整性.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/02-原始数据定位与24列字典.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/03-从一行报价到一个时点的真实例子.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/04-官方说明与辅助文件.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "zn-原始分区逐文件目录.md",
+        "y-原始分区逐文件目录.md",
+        "v-原始分区逐文件目录.md",
+        "sp-原始分区逐文件目录.md",
+        "sn-原始分区逐文件目录.md",
+        "si-原始分区逐文件目录.md",
+        "sc-原始分区逐文件目录.md",
+        "ru-原始分区逐文件目录.md",
+        "rb-原始分区逐文件目录.md",
+        "ps-原始分区逐文件目录.md",
+        "pp-原始分区逐文件目录.md",
+        "pg-原始分区逐文件目录.md",
+        "pb-原始分区逐文件目录.md",
+        "p-原始分区逐文件目录.md",
+        "ni-原始分区逐文件目录.md",
+        "m-原始分区逐文件目录.md",
+        "lh-原始分区逐文件目录.md",
+        "lc-原始分区逐文件目录.md",
+        "l-原始分区逐文件目录.md",
+        "jd-原始分区逐文件目录.md",
+        "i-原始分区逐文件目录.md",
+        "fu-原始分区逐文件目录.md",
+        "eg-原始分区逐文件目录.md",
+        "eb-原始分区逐文件目录.md",
+        "cu-原始分区逐文件目录.md",
+        "cs-原始分区逐文件目录.md",
+        "c-原始分区逐文件目录.md",
+        "bu-原始分区逐文件目录.md",
+        "br-原始分区逐文件目录.md",
+        "b-原始分区逐文件目录.md",
+        "au-原始分区逐文件目录.md",
+        "ao-原始分区逐文件目录.md",
+        "al-原始分区逐文件目录.md",
+        "ag-原始分区逐文件目录.md",
+        "00-35品种分区索引.md",
+        "a-原始分区逐文件目录.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/a-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/00-35品种分区索引.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/ag-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/al-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/ao-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/au-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/b-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/br-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/bu-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/c-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/cs-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/cu-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/eb-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/eg-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/fu-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/i-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/jd-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/l-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/lc-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/lh-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/m-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/ni-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/p-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/pb-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/pg-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/pp-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/ps-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/rb-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/ru-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/sc-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/si-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/sn-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/sp-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/v-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/y-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/zn-原始分区逐文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/02-循序学习/00-期权与IV从零开始.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/02-循序学习/01-读懂项目所需的Python与表结构.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/04-面试与验证/02-历史指标逐项核算.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/04-面试与验证/01-简历口径与证据边界.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "精益画布",
+        "技术文档",
+        "可运行的项目成果",
+        "原创性声明"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/原创性声明": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "readme.txt.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "readme.txt.md",
+        "option_risk_warning"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/技术文档": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "readme.txt.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/精益画布": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "readme.txt.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/原创性声明/readme.txt.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "隐藏文件-gitignore.md",
+        "tests",
+        "src",
+        "scripts",
+        "queries",
+        "pyproject.toml.md",
+        "docs",
+        "README.md.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/readme.txt.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/技术文档/readme.txt.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/精益画布/readme.txt.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/README.md.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/docs": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "问题2-知识图谱设计与运行说明.md.md",
+        "问题1-离线报告图表设计.md.md",
+        "问题1-Agent图表设计.md.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/pyproject.toml.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/queries": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "backtest_report.sql.md",
+        "acceptance_report.sql.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/scripts": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "validate_outputs.py.md",
+        "validate_knowledge_graph.py.md",
+        "render_acceptance_html.py.md",
+        "query_knowledge_graph.py.md",
+        "package_submission.ps1.md",
+        "extract_demo_data.ps1.md",
+        "build_notebook.py.md",
+        "build_knowledge_graph_report.py.md",
+        "build_knowledge_graph_notebook.py.md",
+        "build_explanation_review.py.md",
+        "build_acceptance_report.py.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "option_risk"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "test_validation.py.md",
+        "test_total_variance_fit.py.md",
+        "test_knowledge_schema.py.md",
+        "test_knowledge_graph.py.md",
+        "test_graph_reasoner.py.md",
+        "test_graph_queries.py.md",
+        "test_graph_explanation.py.md",
+        "test_graph_dashboard.py.md",
+        "test_graph_artifacts.py.md",
+        "test_graph_acceptance.py.md",
+        "test_agent_contracts.py.md",
+        "graph_fixtures.py.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/docs/问题1-Agent图表设计.md.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/docs/问题1-离线报告图表设计.md.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/docs/问题2-知识图谱设计与运行说明.md.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/queries/acceptance_report.sql.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/queries/backtest_report.sql.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/scripts/build_acceptance_report.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/scripts/build_explanation_review.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/scripts/build_knowledge_graph_notebook.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/scripts/build_knowledge_graph_report.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/scripts/build_notebook.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/scripts/extract_demo_data.ps1.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/scripts/package_submission.ps1.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/scripts/query_knowledge_graph.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/scripts/render_acceptance_html.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/scripts/validate_knowledge_graph.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/scripts/validate_outputs.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "visualization.py.md",
+        "validation.py.md",
+        "total_variance_fit.py.md",
+        "surfaces.py.md",
+        "surface_fit_diagnostics.py.md",
+        "quality.py.md",
+        "provenance.py.md",
+        "pipeline.py.md",
+        "official_events.py.md",
+        "model.py.md",
+        "labels.py.md",
+        "knowledge_schema.py.md",
+        "knowledge_graph.py.md",
+        "io.py.md",
+        "interactive.py.md",
+        "graph_visualization.py.md",
+        "graph_reasoner.py.md",
+        "graph_queries.py.md",
+        "graph_explanation.py.md",
+        "features.py.md",
+        "errors.py.md",
+        "decision.py.md",
+        "dashboard.py.md",
+        "contracts.py.md",
+        "config.py.md",
+        "cli.py.md",
+        "catalog.py.md",
+        "backtest.py.md",
+        "alerts.py.md",
+        "agent.py.md",
+        "__main__.py.md",
+        "__init__.py.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/graph_fixtures.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/test_agent_contracts.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/test_graph_acceptance.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/test_graph_artifacts.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/test_graph_dashboard.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/test_graph_explanation.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/test_graph_queries.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/test_graph_reasoner.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/test_knowledge_graph.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/test_knowledge_schema.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/test_total_variance_fit.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/test_validation.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/__init__.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/__main__.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/agent.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/alerts.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/backtest.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/catalog.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/cli.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/config.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/contracts.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/dashboard.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/decision.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/errors.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/features.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/graph_explanation.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/graph_queries.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/graph_reasoner.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/graph_visualization.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/interactive.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/io.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/knowledge_graph.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/knowledge_schema.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/labels.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/model.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/official_events.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/pipeline.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/provenance.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/quality.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/surface_fit_diagnostics.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/surfaces.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/total_variance_fit.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/validation.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/visualization.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/源码档案索引.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/02-循序学习/核心01-从一条期权报价到可分析的干净样本.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/02-循序学习/核心02-同一时间怎样从微笑走到曲面.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/02-循序学习/核心03-12项风险证据逐项算给你看.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/02-循序学习/核心04-标签如何定义未来以及怎样防止泄漏.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/02-循序学习/核心05-规则预警与机器学习对照到底各做什么.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/02-循序学习/核心06-预警状态通知与评价怎样避免混淆.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/02-循序学习/核心07-CVaR回测到底证明了什么.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/02-循序学习/核心08-离线Pipeline与单时点Agent的完整关系.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/02-循序学习/10-从IV到总方差：期限为什么不能忽略.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/02-循序学习/11-拟合与降级：从SSVI到可解释的失败.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/02-循序学习/12-无套利与诊断：为什么通过检查不等于数学保证.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/曲面拟合/total_variance_fit.py-总方差公式、优化与本地检查.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/曲面拟合/surface_fit_diagnostics.py-输入规范化、期限选择与可审计产物.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/曲面拟合/test_total_variance_fit.py-契约、数值与异常路径的验证地图.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/04-面试与验证/曲面拟合专项追问.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/脚本与交付": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "gitignore-版本控制忽略规则.md",
+        "README.md.md",
+        "package_submission.ps1.md",
+        "extract_demo_data.ps1.md",
+        "validate_outputs.py.md",
+        "validate_knowledge_graph.py.md",
+        "render_acceptance_html.py.md",
+        "query_knowledge_graph.py.md",
+        "build_notebook.py.md",
+        "build_knowledge_graph_report.py.md",
+        "build_knowledge_graph_notebook.py.md",
+        "build_explanation_review.py.md",
+        "build_acceptance_report.py.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/脚本与交付/build_acceptance_report.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/脚本与交付/build_explanation_review.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/脚本与交付/build_knowledge_graph_notebook.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/脚本与交付/build_knowledge_graph_report.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/脚本与交付/build_notebook.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/脚本与交付/query_knowledge_graph.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/脚本与交付/render_acceptance_html.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/脚本与交付/validate_knowledge_graph.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/脚本与交付/validate_outputs.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/脚本与交付/extract_demo_data.ps1.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/脚本与交付/package_submission.ps1.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/测试": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "test_validation.py.md",
+        "test_knowledge_schema.py.md",
+        "test_knowledge_graph.py.md",
+        "test_graph_queries.py.md",
+        "test_graph_reasoner.py.md",
+        "test_graph_explanation.py.md",
+        "test_graph_artifacts.py.md",
+        "test_graph_dashboard.py.md",
+        "test_graph_acceptance.py.md",
+        "test_agent_contracts.py.md",
+        "graph_fixtures.py.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/测试/graph_fixtures.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/测试/test_agent_contracts.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/测试/test_graph_acceptance.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/测试/test_graph_dashboard.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/测试/test_graph_artifacts.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/测试/test_graph_explanation.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/测试/test_graph_reasoner.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/测试/test_graph_queries.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/测试/test_knowledge_graph.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/测试/test_knowledge_schema.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/测试/test_validation.py.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/报告与证据": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "问题2-知识图谱验收报告.html.md",
+        "问题1-Agent离线验收报告.html.md",
+        "问题1-Agent离线验收报告.artifact.json.md",
+        "人工解释评分模板.csv.md",
+        "knowledge_graph_acceptance_full.json.md",
+        "demo__validation_report.json.md",
+        "demo__run_summary.json.md",
+        "demo__knowledge_graph_snapshot.json.md",
+        "agent_acceptance_full.json.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/报告与证据/agent_acceptance_full.json.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/报告与证据/demo__knowledge_graph_snapshot.json.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/报告与证据/demo__run_summary.json.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/报告与证据/demo__validation_report.json.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/报告与证据/knowledge_graph_acceptance_full.json.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/报告与证据/人工解释评分模板.csv.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/报告与证据/问题1-Agent离线验收报告.artifact.json.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/报告与证据/问题1-Agent离线验收报告.html.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/报告与证据/问题2-知识图谱验收报告.html.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/脚本与交付/README.md.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/提交材料": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "系统文件-根目录DS_Store.md",
+        "精益画布__曲面观策-精益画布.pptx.md",
+        "精益画布__readme.txt.md",
+        "技术文档__曲面观策-OptionRiskAgent技术文档-final.pdf.md",
+        "技术文档__曲面观策-OptionRiskAgent技术文档-final.docx.md",
+        "技术文档__readme.txt.md",
+        "可运行的项目成果__readme.txt.md",
+        "可运行的项目成果__option_risk_warning_submission.zip.md",
+        "可运行的项目成果__.DS_Store.md",
+        "原创性声明__第五届中国研究生金融科技创新大赛参赛团队原创性声明.docx.md",
+        "原创性声明__readme.txt.md",
+        "~$届中国研究生金融科技创新大赛参赛团队原创性声明.docx.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/提交材料/~$届中国研究生金融科技创新大赛参赛团队原创性声明.docx.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/提交材料/原创性声明__readme.txt.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/提交材料/原创性声明__第五届中国研究生金融科技创新大赛参赛团队原创性声明.docx.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/提交材料/可运行的项目成果__.DS_Store.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/提交材料/可运行的项目成果__option_risk_warning_submission.zip.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/提交材料/可运行的项目成果__readme.txt.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/提交材料/技术文档__readme.txt.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/提交材料/技术文档__曲面观策-OptionRiskAgent技术文档-final.docx.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/提交材料/技术文档__曲面观策-OptionRiskAgent技术文档-final.pdf.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/提交材料/精益画布__readme.txt.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/提交材料/精益画布__曲面观策-精益画布.pptx.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/智能体与图谱": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "文档 - 问题2-知识图谱设计与运行说明.md",
+        "文档 - 问题1-离线报告图表设计.md",
+        "文档 - 问题1-Agent图表设计.md",
+        "validation.py - 验收验证了哪一层能力.md",
+        "provenance.py - 运行身份与样本外证据.md",
+        "knowledge_schema.py - 图谱词典和十二条规则.md",
+        "knowledge_graph.py - 事件中心图的构造和防伪.md",
+        "graph_visualization.py - 把四层路径画成可审计主图.md",
+        "graph_reasoner.py - 规则路径枚举和排序.md",
+        "graph_queries.py - 固定查询与精确节点检索.md",
+        "graph_explanation.py - 五段式解释与逐句追溯.md",
+        "errors.py - 把失败说清楚.md",
+        "decision.py - 动态压力与状态机.md",
+        "dashboard.py - Streamlit界面如何连到模型.md",
+        "contracts.py - 模块之间的数据协议.md",
+        "catalog.py - 品种和有效时间目录.md",
+        "agent.py - 唯一业务入口与可信缓存.md",
+        "__main__.py - python -m 的入口.md",
+        "__init__.py - 包公开了什么.md",
+        "02_knowledge_graph_demo.ipynb - 真实白银事件的演示链.md",
+        "00 - 智能体与图谱阅读导航.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/00 - 智能体与图谱阅读导航.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/02_knowledge_graph_demo.ipynb - 真实白银事件的演示链.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/__init__.py - 包公开了什么.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/__main__.py - python -m 的入口.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/agent.py - 唯一业务入口与可信缓存.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/catalog.py - 品种和有效时间目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/contracts.py - 模块之间的数据协议.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/dashboard.py - Streamlit界面如何连到模型.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/decision.py - 动态压力与状态机.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/errors.py - 把失败说清楚.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/graph_explanation.py - 五段式解释与逐句追溯.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/graph_queries.py - 固定查询与精确节点检索.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/graph_reasoner.py - 规则路径枚举和排序.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/graph_visualization.py - 把四层路径画成可审计主图.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/knowledge_graph.py - 事件中心图的构造和防伪.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/knowledge_schema.py - 图谱词典和十二条规则.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/provenance.py - 运行身份与样本外证据.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/validation.py - 验收验证了哪一层能力.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/文档 - 问题1-Agent图表设计.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/文档 - 问题1-离线报告图表设计.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/文档 - 问题2-知识图谱设计与运行说明.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/02-循序学习/20 - Agent如何把一次请求变成可复核风险判断.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/02-循序学习/21 - 动态知识图谱的机制与推理边界.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/02-循序学习/22 - 可追溯、防未来与运行身份.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/02-循序学习/23 - 界面、真实案例与35品种验收.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/04-面试与验证/03-面试追问与回答.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/00-术语速查.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/04-面试与验证/04-动手实验与标准答案.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/外部原始参考.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/本轮执行-02_knowledge_graph_demo.ipynb": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/真实案例图": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "AG真实案例-12项证据压力.png",
+        "AG真实案例-五曲面.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/05-证据与附件/真实案例图/AG真实案例-五曲面.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/真实案例图/AG真实案例-12项证据压力.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/隐藏文件-gitignore.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/脚本与交付/gitignore-版本控制忽略规则.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/03-源码逐文件/提交材料/系统文件-根目录DS_Store.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/05-最终提交85文件总目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/00-20课学习路线.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/00-开始学习.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/06-模块依赖与产物血缘.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/00-项目知识地图.canvas": {
       "isPinned": false,
       "isHidden": false
     }

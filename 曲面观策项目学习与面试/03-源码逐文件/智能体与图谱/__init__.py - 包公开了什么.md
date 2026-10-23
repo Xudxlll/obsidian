@@ -1,0 +1,37 @@
+---
+类型: 源码教学
+源文件: "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/__init__.py"
+阅读方式: 实际完整源码与函数核对
+---
+
+> [!info] 在项目里的职责
+> 导入 option_risk 时公开配置、唯一业务智能体和离线管线，并声明版本0.2.0。它是包的门面，不负责数据分析。
+
+源码入口：[src/option_risk/__init__.py 第1行](</Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/__init__.py:1>)。本篇依据最终提交目录，源码保持只读；完整逐字源码由知识库档案区保存，本篇聚焦如何理解和讲解。
+
+## 输入、输出和上下游
+
+包导入 → OptionRiskAgent / AgentConfig / PipelineConfig / run_pipeline。
+
+直接导入模块：`.agent`, `.config`, `.pipeline`。
+
+
+## 最小阅读方法
+
+顺着入口语句看调用方与被调用方；本文件只提供公开边界，不另设业务算法。
+
+## 实际使用例子
+
+在项目环境里写 `from option_risk import OptionRiskAgent, AgentConfig`，会先执行本文件的导入，再得到agent.py和config.py中的真实类；不会因为import就读取全部行情或训练模型。`run_pipeline`是另一条离线入口，公开在同一包不代表Agent.analyze必然调用它。
+
+## 逐个类与函数查阅
+
+每个锚点都指向当前源文件的实际定义。嵌套函数属于所在外层算法；`self`表示实例状态，不是额外业务输入。
+
+## 面试先讲清楚这一问
+
+**问：为什么在 __init__ 集中导出？**
+
+答：调用者不必知道内部模块布局；公开接口越小越容易维持兼容。
+
+继续学习：[[20 - Agent如何把一次请求变成可复核风险判断]] → [[21 - 动态知识图谱的机制与推理边界]] → [[22 - 可追溯、防未来与运行身份]] → [[23 - 界面、真实案例与35品种验收]]。
