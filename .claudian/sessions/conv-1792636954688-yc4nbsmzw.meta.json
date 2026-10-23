@@ -4,8 +4,8 @@
   "title": "演示该计算过程",
   "titleGenerationStatus": "success",
   "createdAt": 1792636954690,
-  "updatedAt": 1792640303858,
-  "lastResponseAt": 1792640303858,
+  "updatedAt": 1792660771779,
+  "lastResponseAt": 1792660771779,
   "sessionId": "01a1617d-28a3-7053-967e-2b98254d9e4c",
   "selectedModel": "gpt-6.1-sol",
   "providerState": {
@@ -16,13 +16,13 @@
   },
   "currentNote": "AMA572 Fixed-Income and Credit Risk/Assignment 1/01 - Assignment 1（英文原题、答案与中文解答）.md",
   "usage": {
-    "inputTokens": 67930,
+    "inputTokens": 85962,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 66048,
+    "cacheReadInputTokens": 84736,
     "contextWindow": 475000,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 67930,
-    "percentage": 14,
+    "contextTokens": 85962,
+    "percentage": 18,
     "model": "gpt-6.1-sol"
   }
 }

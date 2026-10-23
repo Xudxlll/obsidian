@@ -8344,6 +8344,10 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Chapter 4",
+        "Chapter 3",
+        "Chapter 2",
+        "Chapter 1",
         "00 - 课程导论.md"
       ]
     },
@@ -9306,6 +9310,866 @@
       "isHidden": false
     },
     "AMA572 Fixed-Income and Credit Risk/02 - 期中考试综合复习（讲义与作业主线）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "附件",
+        "03 - Chapter 1 手写笔记（p6 to p9）.md",
+        "02 - Chapter 1 手写笔记（p1 to p5）.md",
+        "01 - Chapter 1（英文原文与折叠译文）.md",
+        "00 - Chapter 1 资料索引.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/00 - Chapter 1 资料索引.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/01 - Chapter 1（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/02 - Chapter 1 手写笔记（p1 to p5）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/03 - Chapter 1 手写笔记（p6 to p9）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "notes-b-p12.png",
+        "notes-b-p11.png",
+        "notes-b-p10.png",
+        "notes-b-p09.png",
+        "notes-b-p08.png",
+        "notes-b-p07.png",
+        "notes-b-p06.png",
+        "notes-b-p05.png",
+        "notes-b-p04.png",
+        "notes-b-p03.png",
+        "notes-b-p02.png",
+        "notes-b-p01.png",
+        "notes-a-p10.png",
+        "notes-a-p09.png",
+        "notes-a-p08.png",
+        "notes-a-p07.png",
+        "notes-a-p06.png",
+        "notes-a-p05.png",
+        "lecture-p10.png",
+        "notes-a-p03.png",
+        "notes-a-p04.png",
+        "notes-a-p02.png",
+        "notes-a-p01.png",
+        "lecture-p09.png",
+        "lecture-p08.png",
+        "lecture-p06.png",
+        "lecture-p07.png",
+        "lecture-p05.png",
+        "lecture-p04.png",
+        "lecture-p03.png",
+        "lecture-p02.png",
+        "lecture-p01.png",
+        "lecture-p01-timeline.png",
+        "Chapter 1.pdf",
+        "Chapter 1 notes p6 to p9.pdf",
+        "Chapter 1 notes p1 to p5.pdf"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/Chapter 1 notes p1 to p5.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/Chapter 1 notes p6 to p9.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/Chapter 1.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/lecture-p01-timeline.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/lecture-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/lecture-p02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/lecture-p03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/lecture-p04.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/lecture-p05.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/lecture-p07.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/lecture-p06.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/lecture-p08.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/lecture-p09.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/notes-a-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/notes-a-p02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/notes-a-p04.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/notes-a-p03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/lecture-p10.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/notes-a-p05.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/notes-a-p06.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/notes-a-p07.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/notes-a-p08.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/notes-a-p09.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/notes-a-p10.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/notes-b-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/notes-b-p02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/notes-b-p03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/notes-b-p04.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/notes-b-p05.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/notes-b-p06.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/notes-b-p07.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/notes-b-p08.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/notes-b-p09.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/notes-b-p10.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/notes-b-p11.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/附件/notes-b-p12.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "附件",
+        "03 - Proof of (2.5.2) 手写证明.md",
+        "02 - Chapter 2 手写笔记.md",
+        "01 - Chapter 2（英文原文与折叠译文）.md",
+        "00 - Chapter 2 资料索引.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/00 - Chapter 2 资料索引.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/01 - Chapter 2（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/02 - Chapter 2 手写笔记.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/03 - Proof of (2.5.2) 手写证明.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "ch2-proof-p01.png",
+        "ch2-notes-p09.png",
+        "ch2-notes-p10.png",
+        "ch2-notes-p08.png",
+        "ch2-notes-p07.png",
+        "ch2-notes-p06.png",
+        "ch2-notes-p05.png",
+        "ch2-notes-p04.png",
+        "ch2-notes-p03.png",
+        "ch2-notes-p02.png",
+        "ch2-notes-p01.png",
+        "ch2-lecture-p11.png",
+        "ch2-lecture-p10.png",
+        "ch2-lecture-p09.png",
+        "ch2-lecture-p08.png",
+        "ch2-lecture-p07.png",
+        "ch2-lecture-p06.png",
+        "ch2-lecture-p06-acf.png",
+        "ch2-lecture-p05.png",
+        "ch2-lecture-p04.png",
+        "ch2-lecture-p04-chart.png",
+        "ch2-lecture-p03.png",
+        "ch2-lecture-p02.png",
+        "ch2-lecture-p01.png",
+        "Proof of (2.5.2).pdf",
+        "Chapter 2.pdf",
+        "Chapter 2 Notes.pdf"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/Chapter 2 Notes.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/Chapter 2.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/Proof of (2.5.2).pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/ch2-lecture-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/ch2-lecture-p02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/ch2-lecture-p03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/ch2-lecture-p04-chart.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/ch2-lecture-p04.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/ch2-lecture-p05.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/ch2-lecture-p06-acf.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/ch2-lecture-p06.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/ch2-lecture-p07.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/ch2-lecture-p08.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/ch2-lecture-p09.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/ch2-lecture-p10.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/ch2-lecture-p11.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/ch2-notes-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/ch2-notes-p02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/ch2-notes-p03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/ch2-notes-p04.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/ch2-notes-p05.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/ch2-notes-p06.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/ch2-notes-p07.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/ch2-notes-p08.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/ch2-notes-p10.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/ch2-notes-p09.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/附件/ch2-proof-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "附件",
+        "03 - Chapter 3 Additional Notes（手写补充）.md",
+        "02 - Chapter 3 Updated Notes（批注版）.md",
+        "01 - Chapter 3（英文原文与折叠译文）.md",
+        "00 - Chapter 3 资料索引.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/00 - Chapter 3 资料索引.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/01 - Chapter 3（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/02 - Chapter 3 Updated Notes（批注版）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/03 - Chapter 3 Additional Notes（手写补充）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "ch3-updated-p16.png",
+        "ch3-updated-p15.png",
+        "ch3-updated-p14.png",
+        "ch3-updated-p13.png",
+        "ch3-updated-p12.png",
+        "ch3-updated-p11.png",
+        "ch3-updated-p10.png",
+        "ch3-updated-p09.png",
+        "ch3-updated-p08.png",
+        "ch3-updated-p07.png",
+        "ch3-updated-p06.png",
+        "ch3-updated-p05.png",
+        "ch3-updated-p04.png",
+        "ch3-updated-p03.png",
+        "ch3-updated-p02.png",
+        "ch3-updated-p01.png",
+        "ch3-lecture-p15.png",
+        "ch3-lecture-p14.png",
+        "ch3-lecture-p13.png",
+        "ch3-lecture-p12.png",
+        "ch3-lecture-p11.png",
+        "ch3-lecture-p10.png",
+        "ch3-lecture-p08.png",
+        "ch3-lecture-p09.png",
+        "ch3-lecture-p07.png",
+        "ch3-lecture-p06.png",
+        "ch3-lecture-p05.png",
+        "ch3-lecture-p05-chart.png",
+        "ch3-lecture-p04.png",
+        "ch3-lecture-p04-diagram.png",
+        "ch3-lecture-p03.png",
+        "ch3-lecture-p01.png",
+        "ch3-lecture-p02.png",
+        "ch3-additional-p22.png",
+        "ch3-additional-p21.png",
+        "ch3-additional-p20.png",
+        "ch3-additional-p19.png",
+        "ch3-additional-p18.png",
+        "ch3-additional-p17.png",
+        "ch3-additional-p16.png",
+        "ch3-additional-p15.png",
+        "ch3-additional-p14.png",
+        "ch3-additional-p13.png",
+        "ch3-additional-p12.png",
+        "ch3-additional-p11.png",
+        "ch3-additional-p10.png",
+        "ch3-additional-p09.png",
+        "ch3-additional-p08.png",
+        "ch3-additional-p07.png",
+        "ch3-additional-p06.png",
+        "ch3-additional-p03.png",
+        "ch3-additional-p05.png",
+        "ch3-additional-p02.png",
+        "ch3-additional-p04.png",
+        "ch3-additional-p01.png",
+        "Chapter 3 Notes.pdf",
+        "Chapter 3 Updated Notes.pdf",
+        "Chapter 3 Additional Notes.pdf"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/Chapter 3 Additional Notes.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/Chapter 3 Updated Notes.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/Chapter 3 Notes.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-additional-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-additional-p04.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-additional-p02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-additional-p05.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-additional-p03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-additional-p06.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-additional-p07.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-additional-p08.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-additional-p09.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-additional-p10.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-additional-p11.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-additional-p12.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-additional-p13.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-additional-p14.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-additional-p15.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-additional-p16.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-additional-p17.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-additional-p18.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-additional-p19.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-additional-p20.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-additional-p21.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-additional-p22.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-lecture-p02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-lecture-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-lecture-p03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-lecture-p04-diagram.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-lecture-p04.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-lecture-p05-chart.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-lecture-p05.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-lecture-p06.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-lecture-p07.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-lecture-p09.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-lecture-p08.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-lecture-p10.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-lecture-p11.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-lecture-p12.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-lecture-p13.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-lecture-p14.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-lecture-p15.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-updated-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-updated-p02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-updated-p03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-updated-p04.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-updated-p05.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-updated-p06.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-updated-p07.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-updated-p08.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-updated-p09.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-updated-p10.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-updated-p11.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-updated-p12.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-updated-p13.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-updated-p14.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-updated-p15.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/附件/ch3-updated-p16.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "附件",
+        "03 - Chapter 4 Additional Example.md",
+        "02 - PACF Example of Chapter 4.md",
+        "01 - Chapter 4（英文原文与折叠译文）.md",
+        "00 - Chapter 4 资料索引.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/00 - Chapter 4 资料索引.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/01 - Chapter 4（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/02 - PACF Example of Chapter 4.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/03 - Chapter 4 Additional Example.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "ch4-updated-p18.png",
+        "ch4-updated-p17.png",
+        "ch4-updated-p16.png",
+        "ch4-updated-p15.png",
+        "ch4-updated-p14.png",
+        "ch4-updated-p13.png",
+        "ch4-updated-p12.png",
+        "ch4-updated-p11.png",
+        "ch4-updated-p10.png",
+        "ch4-updated-p09.png",
+        "ch4-updated-p08.png",
+        "ch4-updated-p07.png",
+        "ch4-updated-p06.png",
+        "ch4-updated-p05.png",
+        "ch4-updated-p04.png",
+        "ch4-updated-p03.png",
+        "ch4-updated-p02.png",
+        "ch4-updated-p01.png",
+        "ch4-pacf-p01.png",
+        "ch4-example-p01.png",
+        "PACF Example of Chapter 4.pdf",
+        "Chapter 4 Updated Notes.pdf",
+        "Chapter 4 Additonal Example.pdf"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/Chapter 4 Additonal Example.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/Chapter 4 Updated Notes.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/PACF Example of Chapter 4.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/ch4-example-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/ch4-pacf-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/ch4-updated-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/ch4-updated-p02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/ch4-updated-p03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/ch4-updated-p04.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/ch4-updated-p05.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/ch4-updated-p06.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/ch4-updated-p07.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/ch4-updated-p08.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/ch4-updated-p09.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/ch4-updated-p10.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/ch4-updated-p11.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/ch4-updated-p12.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/ch4-updated-p13.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/ch4-updated-p14.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/ch4-updated-p15.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/ch4-updated-p16.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/ch4-updated-p17.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/ch4-updated-p18.png": {
       "isPinned": false,
       "isHidden": false
     }
