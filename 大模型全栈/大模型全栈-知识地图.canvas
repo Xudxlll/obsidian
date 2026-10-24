@@ -1,0 +1,463 @@
+{
+  "nodes": [
+    {
+      "id": "overview",
+      "type": "text",
+      "x": 0,
+      "y": 0,
+      "width": 760,
+      "height": 140,
+      "text": "# 大模型全栈\n模型原理 → 交互与工作流 → 检索与协作 → 微调与部署\n按知识依赖组织；课堂代码与资料可在学习导航中追溯。"
+    },
+    {
+      "id": "stage0",
+      "type": "text",
+      "x": -1000,
+      "y": 240,
+      "width": 1100,
+      "height": 110,
+      "text": "## 基础原理\n文本怎样表示、模型怎样理解与生成"
+    },
+    {
+      "id": "stage0_0",
+      "type": "text",
+      "x": -1000,
+      "y": 390,
+      "width": 245,
+      "height": 260,
+      "text": "- NLP 任务与整阶段学习地图\n- 中文分词、正则与文本预处理\n- 文本表示：词袋、TF-IDF 与 N-Gram\n- Word2Vec 与上下文词向量"
+    },
+    {
+      "id": "stage0_1",
+      "type": "text",
+      "x": -740,
+      "y": 390,
+      "width": 245,
+      "height": 260,
+      "text": "- RNN、LSTM、GRU 与 Seq2Seq\n- Transformer：Embedding、注意力与归一化\n- BERT、MLM 与 Transformer 家族\n- 句向量、池化与 Embedding 接口"
+    },
+    {
+      "id": "stage0_2",
+      "type": "text",
+      "x": -480,
+      "y": 390,
+      "width": 245,
+      "height": 260,
+      "text": "- BERT 文本分类与监督微调\n- GPT 自回归生成与采样策略\n- 因果注意力与 Mask 可视化\n- 手写 GPT：模块、训练与生成"
+    },
+    {
+      "id": "stage0_3",
+      "type": "text",
+      "x": -220,
+      "y": 390,
+      "width": 245,
+      "height": 260,
+      "text": "- 推测解码：草稿、验证与接受率"
+    },
+    {
+      "id": "stage1",
+      "type": "text",
+      "x": 200,
+      "y": 240,
+      "width": 1100,
+      "height": 110,
+      "text": "## 模型交互\n消息、模板、示例与输出契约"
+    },
+    {
+      "id": "stage1_0",
+      "type": "text",
+      "x": 200,
+      "y": 390,
+      "width": 245,
+      "height": 260,
+      "text": "- API 调用、Token 与生成参数\n- PromptTemplate 与消息角色\n- Few-shot 与动态示例选择\n- 多轮对话、历史消息与模型封装"
+    },
+    {
+      "id": "stage1_1",
+      "type": "text",
+      "x": 460,
+      "y": 390,
+      "width": 245,
+      "height": 260,
+      "text": "- 复杂提示：CoT、Self-Consistency 与 ToT\n- 结构化输出与解析器\n- 订单客服：信息抽取与业务查询"
+    },
+    {
+      "id": "stage2",
+      "type": "text",
+      "x": 1400,
+      "y": 240,
+      "width": 1100,
+      "height": 110,
+      "text": "## 工作流\n统一接口与显式数据流"
+    },
+    {
+      "id": "stage2_0",
+      "type": "text",
+      "x": 1400,
+      "y": 390,
+      "width": 245,
+      "height": 260,
+      "text": "- Runnable 协议：同步、异步与流式\n- LCEL：串行、并行与数据流"
+    },
+    {
+      "id": "stage3",
+      "type": "text",
+      "x": -1000,
+      "y": 740,
+      "width": 1100,
+      "height": 110,
+      "text": "## 检索增强\n从文档到证据，再到可评估回答"
+    },
+    {
+      "id": "stage3_0",
+      "type": "text",
+      "x": -1000,
+      "y": 890,
+      "width": 245,
+      "height": 260,
+      "text": "- Document 与多格式文档加载\n- 文本清洗：规则、去重与可追溯性\n- 文本切片：固定、递归、结构与语义\n- 最小 RAG：检索、上下文与生成"
+    },
+    {
+      "id": "stage3_1",
+      "type": "text",
+      "x": -740,
+      "y": 890,
+      "width": 245,
+      "height": 260,
+      "text": "- FAISS：Flat、HNSW、IVF 与 PQ\n- 查询改写与多查询召回\n- BM25、向量检索与融合排序\n- Cross-Encoder 与粗排精排"
+    },
+    {
+      "id": "stage3_2",
+      "type": "text",
+      "x": -480,
+      "y": 890,
+      "width": 245,
+      "height": 260,
+      "text": "- 论文 RAG：从朴素检索到 Advanced RAG\n- RAG 评估：检索指标与生成指标\n- 测试集构建与 RAGAS 评估流水线\n- RAG 超参数搜索与评估偏差"
+    },
+    {
+      "id": "stage3_3",
+      "type": "text",
+      "x": -220,
+      "y": 890,
+      "width": 245,
+      "height": 260,
+      "text": "- 论文系统：检索与生成的联合评测"
+    },
+    {
+      "id": "stage4",
+      "type": "text",
+      "x": 200,
+      "y": 740,
+      "width": 1100,
+      "height": 110,
+      "text": "## 知识图谱\n实体关系、对齐、查询与多跳"
+    },
+    {
+      "id": "stage4_0",
+      "type": "text",
+      "x": 200,
+      "y": 890,
+      "width": 245,
+      "height": 260,
+      "text": "- 知识图谱：实体、关系与图结构\n- NER、标签对齐与三元组抽取\n- 实体融合：名称、属性与相似度\n- Neo4j、Cypher 与批量入库"
+    },
+    {
+      "id": "stage4_1",
+      "type": "text",
+      "x": 460,
+      "y": 890,
+      "width": 245,
+      "height": 260,
+      "text": "- Text2Cypher 与图谱问答\n- GraphRAG：向量召回与关系扩展"
+    },
+    {
+      "id": "stage5",
+      "type": "text",
+      "x": 1400,
+      "y": 740,
+      "width": 1100,
+      "height": 110,
+      "text": "## Agent 与协作\n行动闭环、状态、记忆与协作"
+    },
+    {
+      "id": "stage5_0",
+      "type": "text",
+      "x": 1400,
+      "y": 890,
+      "width": 245,
+      "height": 260,
+      "text": "- 工具调用：Schema、执行与结果回传\n- Agent、ReAct 与 Self-Ask\n- Plan-and-Execute：规划与任务分解\n- 金融研报：LangGraph 规划与工具执行"
+    },
+    {
+      "id": "stage5_1",
+      "type": "text",
+      "x": 1660,
+      "y": 890,
+      "width": 245,
+      "height": 260,
+      "text": "- 对话记忆：缓冲、摘要与向量检索\n- Multi-Agent 与 CrewAI 基础\n- CrewAI 金融分析项目与系统评估\n- LCEL 合同审查任务流"
+    },
+    {
+      "id": "stage5_2",
+      "type": "text",
+      "x": 1920,
+      "y": 890,
+      "width": 245,
+      "height": 260,
+      "text": "- LangGraph：状态、条件分支与循环\n- 人工介入、Checkpoint 与时间旅行\n- GraphRAG 合同审查综合案例\n- AutoML 多 Agent：模块与数据流程"
+    },
+    {
+      "id": "stage5_3",
+      "type": "text",
+      "x": 2180,
+      "y": 890,
+      "width": 245,
+      "height": 260,
+      "text": "- 工具权限、审计与代码执行边界\n- MCP：天气与文件工具服务器\n- Context Engineering 与 Skill"
+    },
+    {
+      "id": "stage6",
+      "type": "text",
+      "x": -1000,
+      "y": 1240,
+      "width": 1100,
+      "height": 110,
+      "text": "## 微调与量化\n数据目标、参数更新与模型压缩"
+    },
+    {
+      "id": "stage6_0",
+      "type": "text",
+      "x": -1000,
+      "y": 1390,
+      "width": 245,
+      "height": 260,
+      "text": "- 指令数据：扩充、过滤与质量控制\n- 领域续训与全参数微调\n- LoRA：低秩适配与 SFT\n- QLoRA、4-bit 基座与回答掩码"
+    },
+    {
+      "id": "stage6_1",
+      "type": "text",
+      "x": -740,
+      "y": 1390,
+      "width": 245,
+      "height": 260,
+      "text": "- 训练监控、LoRA 对照与困惑度\n- GPTQ 与 AWQ：校准、量化与导出"
+    },
+    {
+      "id": "stage7",
+      "type": "text",
+      "x": 200,
+      "y": 1240,
+      "width": 1100,
+      "height": 110,
+      "text": "## 服务部署\n推理后端与业务接口"
+    },
+    {
+      "id": "stage7_0",
+      "type": "text",
+      "x": 200,
+      "y": 1390,
+      "width": 245,
+      "height": 260,
+      "text": "- 部署分层：Ollama、vLLM 与业务接口\n- FastAPI 前后端聊天服务\n- 法律项目：RAG、微调、评估与部署如何衔接"
+    }
+  ],
+  "edges": [
+    {
+      "id": "estage0",
+      "fromNode": "overview",
+      "fromSide": "bottom",
+      "toNode": "stage0",
+      "toSide": "top"
+    },
+    {
+      "id": "estage0_0",
+      "fromNode": "stage0",
+      "fromSide": "bottom",
+      "toNode": "stage0_0",
+      "toSide": "top"
+    },
+    {
+      "id": "estage0_1",
+      "fromNode": "stage0",
+      "fromSide": "bottom",
+      "toNode": "stage0_1",
+      "toSide": "top"
+    },
+    {
+      "id": "estage0_2",
+      "fromNode": "stage0",
+      "fromSide": "bottom",
+      "toNode": "stage0_2",
+      "toSide": "top"
+    },
+    {
+      "id": "estage0_3",
+      "fromNode": "stage0",
+      "fromSide": "bottom",
+      "toNode": "stage0_3",
+      "toSide": "top"
+    },
+    {
+      "id": "estage1",
+      "fromNode": "overview",
+      "fromSide": "bottom",
+      "toNode": "stage1",
+      "toSide": "top"
+    },
+    {
+      "id": "estage1_0",
+      "fromNode": "stage1",
+      "fromSide": "bottom",
+      "toNode": "stage1_0",
+      "toSide": "top"
+    },
+    {
+      "id": "estage1_1",
+      "fromNode": "stage1",
+      "fromSide": "bottom",
+      "toNode": "stage1_1",
+      "toSide": "top"
+    },
+    {
+      "id": "estage2",
+      "fromNode": "overview",
+      "fromSide": "bottom",
+      "toNode": "stage2",
+      "toSide": "top"
+    },
+    {
+      "id": "estage2_0",
+      "fromNode": "stage2",
+      "fromSide": "bottom",
+      "toNode": "stage2_0",
+      "toSide": "top"
+    },
+    {
+      "id": "estage3",
+      "fromNode": "overview",
+      "fromSide": "bottom",
+      "toNode": "stage3",
+      "toSide": "top"
+    },
+    {
+      "id": "estage3_0",
+      "fromNode": "stage3",
+      "fromSide": "bottom",
+      "toNode": "stage3_0",
+      "toSide": "top"
+    },
+    {
+      "id": "estage3_1",
+      "fromNode": "stage3",
+      "fromSide": "bottom",
+      "toNode": "stage3_1",
+      "toSide": "top"
+    },
+    {
+      "id": "estage3_2",
+      "fromNode": "stage3",
+      "fromSide": "bottom",
+      "toNode": "stage3_2",
+      "toSide": "top"
+    },
+    {
+      "id": "estage3_3",
+      "fromNode": "stage3",
+      "fromSide": "bottom",
+      "toNode": "stage3_3",
+      "toSide": "top"
+    },
+    {
+      "id": "estage4",
+      "fromNode": "overview",
+      "fromSide": "bottom",
+      "toNode": "stage4",
+      "toSide": "top"
+    },
+    {
+      "id": "estage4_0",
+      "fromNode": "stage4",
+      "fromSide": "bottom",
+      "toNode": "stage4_0",
+      "toSide": "top"
+    },
+    {
+      "id": "estage4_1",
+      "fromNode": "stage4",
+      "fromSide": "bottom",
+      "toNode": "stage4_1",
+      "toSide": "top"
+    },
+    {
+      "id": "estage5",
+      "fromNode": "overview",
+      "fromSide": "bottom",
+      "toNode": "stage5",
+      "toSide": "top"
+    },
+    {
+      "id": "estage5_0",
+      "fromNode": "stage5",
+      "fromSide": "bottom",
+      "toNode": "stage5_0",
+      "toSide": "top"
+    },
+    {
+      "id": "estage5_1",
+      "fromNode": "stage5",
+      "fromSide": "bottom",
+      "toNode": "stage5_1",
+      "toSide": "top"
+    },
+    {
+      "id": "estage5_2",
+      "fromNode": "stage5",
+      "fromSide": "bottom",
+      "toNode": "stage5_2",
+      "toSide": "top"
+    },
+    {
+      "id": "estage5_3",
+      "fromNode": "stage5",
+      "fromSide": "bottom",
+      "toNode": "stage5_3",
+      "toSide": "top"
+    },
+    {
+      "id": "estage6",
+      "fromNode": "overview",
+      "fromSide": "bottom",
+      "toNode": "stage6",
+      "toSide": "top"
+    },
+    {
+      "id": "estage6_0",
+      "fromNode": "stage6",
+      "fromSide": "bottom",
+      "toNode": "stage6_0",
+      "toSide": "top"
+    },
+    {
+      "id": "estage6_1",
+      "fromNode": "stage6",
+      "fromSide": "bottom",
+      "toNode": "stage6_1",
+      "toSide": "top"
+    },
+    {
+      "id": "estage7",
+      "fromNode": "overview",
+      "fromSide": "bottom",
+      "toNode": "stage7",
+      "toSide": "top"
+    },
+    {
+      "id": "estage7_0",
+      "fromNode": "stage7",
+      "fromSide": "bottom",
+      "toNode": "stage7_0",
+      "toSide": "top"
+    }
+  ]
+}

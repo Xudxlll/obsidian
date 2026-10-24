@@ -1,0 +1,758 @@
+{
+  "status": "ok",
+  "message-type": "work",
+  "message-version": "1.0.0",
+  "message": {
+    "indexed": {
+      "date-parts": [
+        [
+          2026,
+          10,
+          20
+        ]
+      ],
+      "date-time": "2026-10-20T12:19:12Z",
+      "timestamp": 1792498752024,
+      "version": "4.5.0"
+    },
+    "reference-count": 41,
+    "publisher": "Elsevier BV",
+    "license": [
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/tdm/userlicense/1.0/"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "tdm",
+        "delay-in-days": 0,
+        "URL": "https://www.elsevier.com/legal/tdmrep-license"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-017"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-037"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-012"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-029"
+      },
+      {
+        "start": {
+          "date-parts": [
+            [
+              2025,
+              1,
+              1
+            ]
+          ],
+          "date-time": "2025-01-01T00:00:00Z",
+          "timestamp": 1735689600000
+        },
+        "content-version": "stm-asf",
+        "delay-in-days": 0,
+        "URL": "https://doi.org/10.15223/policy-004"
+      }
+    ],
+    "content-domain": {
+      "domain": [
+        "elsevier.com",
+        "sciencedirect.com"
+      ],
+      "crossmark-restriction": true
+    },
+    "short-container-title": [
+      "Finance Research Letters"
+    ],
+    "published-print": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "DOI": "10.1016/j.frl.2024.106382",
+    "type": "journal-article",
+    "created": {
+      "date-parts": [
+        [
+          2024,
+          10,
+          31
+        ]
+      ],
+      "date-time": "2024-10-31T15:32:40Z",
+      "timestamp": 1730388760000
+    },
+    "page": "106382",
+    "update-policy": "https://doi.org/10.1016/elsevier_cm_policy",
+    "source": "Crossref",
+    "is-referenced-by-count": 17,
+    "special_numbering": "C",
+    "title": [
+      "CEO financial background and corporate financialization"
+    ],
+    "prefix": "10.1016",
+    "volume": "71",
+    "author": [
+      {
+        "given": "Dan",
+        "family": "Kang",
+        "sequence": "first",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiahao",
+        "family": "Xu",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Qiye",
+        "family": "Tong",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      },
+      {
+        "given": "Jiayan",
+        "family": "Li",
+        "sequence": "additional",
+        "affiliation": [],
+        "role": [
+          {
+            "vocabulary": "crossref",
+            "role": "author"
+          }
+        ]
+      }
+    ],
+    "member": "78",
+    "reference": [
+      {
+        "key": "10.1016/j.frl.2024.106382_bib0002",
+        "doi-asserted-by": "crossref",
+        "first-page": "1777",
+        "DOI": "10.1111/j.1540-6261.2004.00679.x",
+        "article-title": "The cash flow sensitivity of cash",
+        "volume": "59",
+        "author": "Almeida",
+        "year": "2004",
+        "journal-title": "J. Finance."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib0003",
+        "doi-asserted-by": "crossref",
+        "first-page": "1173",
+        "DOI": "10.1037/0022-3514.51.6.1173",
+        "article-title": "The moderator-mediator variable distinction in social psychological research: conceptual, strategic, and statistical considerations",
+        "volume": "51",
+        "author": "Baron",
+        "year": "1986",
+        "journal-title": "J. Pers. Soc. Psychol."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib0004",
+        "doi-asserted-by": "crossref",
+        "first-page": "334",
+        "DOI": "10.1093/ije/dyab179",
+        "article-title": "Reflection on modern methods: visualizing the effects of collinearity in distributed lag models",
+        "volume": "51",
+        "author": "Basagaña",
+        "year": "2022",
+        "journal-title": "Int. J. Epidemiol."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib60",
+        "series-title": "Human capital: a theoretical and empirical analysis, with special reference to education",
+        "author": "Becker",
+        "year": "2009"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.frl.2024.106382_bib56",
+        "doi-asserted-by": "crossref",
+        "first-page": "43",
+        "DOI": "10.1016/j.jfineco.2014.04.009",
+        "article-title": "Military ceos",
+        "volume": "117",
+        "author": "Benmelech",
+        "year": "2015",
+        "journal-title": "J. Finance. Econ."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib54",
+        "series-title": "Politicians, firms and the political business cycle: evidence from France. Unpublished working paper",
+        "first-page": "1",
+        "author": "Bertrand",
+        "year": "2007"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.frl.2024.106382_bib62",
+        "doi-asserted-by": "crossref",
+        "first-page": "263",
+        "DOI": "10.1016/j.jcae.2017.09.006",
+        "article-title": "Non-financial disclosure and market-based firm performance: the initiation of financial inclusion",
+        "volume": "13",
+        "author": "Bose",
+        "year": "2017",
+        "journal-title": "J. Contemp. Account. Econ."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib0005",
+        "first-page": "749",
+        "article-title": "Upper echelons research revisited: antecedents, elements, and consequences of top management team composition",
+        "volume": "30",
+        "author": "Carpenter",
+        "year": "2004",
+        "journal-title": "J. Manag."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib0006",
+        "first-page": "1",
+        "article-title": "Power needs knowledge: CEO knowledge background and goodwill impairment",
+        "author": "Chen",
+        "year": "2024",
+        "journal-title": "Account. Forum."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.frl.2024.106382_bib57",
+        "doi-asserted-by": "crossref",
+        "first-page": "125",
+        "DOI": "10.1016/j.jfineco.2014.06.002",
+        "article-title": "Financial expert CEOs: CEO׳s work experience and firm׳s financial policies",
+        "volume": "114",
+        "author": "Custódio",
+        "year": "2014",
+        "journal-title": "J. Financ. Econ."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib0009",
+        "doi-asserted-by": "crossref",
+        "first-page": "123",
+        "DOI": "10.1111/j.1540-6288.2012.00349.x",
+        "article-title": "Earnings smoothing, cash flow volatility, and CEO cash bonus",
+        "volume": "48",
+        "author": "Das",
+        "year": "2013",
+        "journal-title": "Financ. Rev."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib0010",
+        "first-page": "1",
+        "article-title": "Navigating energy policy uncertainty: effects on fossil fuel and renewable energy consumption in G7 economies",
+        "author": "Dai",
+        "year": "2024",
+        "journal-title": "Int. J. Green Energy"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.frl.2024.106382_bib52",
+        "doi-asserted-by": "crossref",
+        "first-page": "203",
+        "DOI": "10.1146/annurev-soc-073014-112402",
+        "article-title": "Financialization of the economy",
+        "volume": "41",
+        "author": "Davis",
+        "year": "2015",
+        "journal-title": "Ann. Rev. Sociol."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib0012",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.techsoc.2023.102351",
+        "article-title": "Effect of big data on enterprise financialization: evidence from China's SMEs",
+        "volume": "75",
+        "author": "Gao",
+        "year": "2023",
+        "journal-title": "Technol. Soc."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib58",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1108/JAAR-07-2020-0137",
+        "article-title": "Does CFO accounting expertise matter to corporate social responsibility disclosure in 10-Ks?",
+        "author": "Guo",
+        "year": "2021",
+        "journal-title": "J. Appl. Account. Res."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib0014",
+        "doi-asserted-by": "crossref",
+        "first-page": "1909",
+        "DOI": "10.1093/rfs/hhq009",
+        "article-title": "New evidence on measuring financial constraints: moving beyond the KZ index",
+        "volume": "23",
+        "author": "Hadlock",
+        "year": "2010",
+        "journal-title": "Rev. Financ. Stud."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib0015",
+        "doi-asserted-by": "crossref",
+        "first-page": "334",
+        "DOI": "10.5465/amr.2007.24345254",
+        "article-title": "Upper echelons theory: an update",
+        "volume": "32",
+        "author": "Hambrick",
+        "year": "2007",
+        "journal-title": "Acad. Manag. Rev."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib0016",
+        "doi-asserted-by": "crossref",
+        "first-page": "193",
+        "DOI": "10.2307/258434",
+        "article-title": "Upper echelons: the organization as a reflection of its top managers",
+        "volume": "9",
+        "author": "Hambrick",
+        "year": "1984",
+        "journal-title": "Acad. Manag. Rev."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib59",
+        "doi-asserted-by": "crossref",
+        "first-page": "252",
+        "DOI": "10.1016/j.najef.2015.06.001",
+        "article-title": "The impact of corporate governance on state-owned and non-state-owned firms efficiency in China",
+        "volume": "33",
+        "author": "He",
+        "year": "2015",
+        "journal-title": "N. Am. J. Econ. Financ."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib0017",
+        "doi-asserted-by": "crossref",
+        "first-page": "568",
+        "DOI": "10.1108/17506141211280263",
+        "article-title": "CEO succession and organizational transitions: case of state-owned enterprises",
+        "volume": "6",
+        "author": "Helmich",
+        "year": "2012",
+        "journal-title": "Chin. Manag. Stud."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib0018",
+        "doi-asserted-by": "crossref",
+        "first-page": "3771",
+        "DOI": "10.1002/mde.3627",
+        "article-title": "The dark side of executives’ professional background: evidence from Chinese firm's stock price crash risk",
+        "volume": "43",
+        "author": "Jiang",
+        "year": "2022",
+        "journal-title": "Manag. Decis. Econ."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib0020",
+        "doi-asserted-by": "crossref",
+        "first-page": "79",
+        "DOI": "10.1016/j.jbef.2016.10.004",
+        "article-title": "The spillover effects of management overconfidence on analyst forecasts",
+        "volume": "12",
+        "author": "Kramer",
+        "year": "2016",
+        "journal-title": "J. Behav. Exp. Finance."
+      },
+      {
+        "issue": "2",
+        "key": "10.1016/j.frl.2024.106382_bib50",
+        "doi-asserted-by": "crossref",
+        "first-page": "173",
+        "DOI": "10.1093/SER/mwi008",
+        "article-title": "The financialization of the American economy",
+        "volume": "3",
+        "author": "Krippner",
+        "year": "2005",
+        "journal-title": "Socio-econ. Rev."
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.frl.2024.106382_bib61",
+        "doi-asserted-by": "crossref",
+        "first-page": "13",
+        "DOI": "10.1080/030851400360541",
+        "article-title": "Maximizing shareholder value: a new ideology for corporate governance",
+        "volume": "29",
+        "author": "Lazonick",
+        "year": "2000",
+        "journal-title": "Econ. Soc."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib65",
+        "doi-asserted-by": "crossref",
+        "first-page": "105172",
+        "DOI": "10.1016/j.frl.2024.105172",
+        "article-title": "Green innovation’s impact on corporate financing: new insights from BRICS economies",
+        "author": "Li",
+        "year": "2024",
+        "journal-title": "Finan. Res. Lett."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib0023",
+        "doi-asserted-by": "crossref",
+        "first-page": "31",
+        "DOI": "10.1016/j.cjar.2019.12.001",
+        "article-title": "State-owned enterprises in China: a review of 40 years of research and practice",
+        "volume": "13",
+        "author": "Lin",
+        "year": "2020",
+        "journal-title": "Chin. J. Account. Res."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib0026",
+        "series-title": "Applications of Decision Science in Management: Proceedings of International Conference on Decision Science and Management (ICDSM 2022)",
+        "first-page": "431",
+        "article-title": "Research on CEO's financial background, corporate performance and financialization of entity enterprises",
+        "author": "Lun",
+        "year": "2022"
+      },
+      {
+        "issue": "1",
+        "key": "10.1016/j.frl.2024.106382_bib55",
+        "doi-asserted-by": "crossref",
+        "first-page": "20",
+        "DOI": "10.1016/j.jfineco.2007.07.002",
+        "article-title": "Who makes acquisitions? CEO overconfidence and the market’s reaction",
+        "volume": "89",
+        "author": "Malmendier",
+        "year": "2008",
+        "journal-title": "J. Financ. Econ."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib0029",
+        "doi-asserted-by": "crossref",
+        "first-page": "119",
+        "DOI": "10.1111/corg.12305",
+        "article-title": "CEO's financial background and internal control weaknesses",
+        "volume": "28",
+        "author": "Oradi",
+        "year": "2020",
+        "journal-title": "Corp. Gov.: Int. Rev."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib0031",
+        "article-title": "Does government funding promote or inhibit the financialization of manufacturing enterprises? Evidence from listed Chinese enterprises",
+        "volume": "58",
+        "author": "Qi",
+        "year": "2021",
+        "journal-title": "Am. J. Econ. Finance."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib0032",
+        "first-page": "7",
+        "article-title": "Managing overconfidence",
+        "volume": "33",
+        "author": "Russo",
+        "year": "1992",
+        "journal-title": "Sloan Manag. Rev."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib0034",
+        "doi-asserted-by": "crossref",
+        "DOI": "10.1016/j.jcorpfin.2022.102186",
+        "article-title": "CEO power and the likelihood of paying dividends: effect of profitability and cash flow volatility",
+        "volume": "73",
+        "author": "Sheikh",
+        "year": "2022",
+        "journal-title": "J. Corp. Finance."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib0036",
+        "doi-asserted-by": "crossref",
+        "first-page": "1245",
+        "DOI": "10.1007/s10614-021-10135-4",
+        "article-title": "The impact of financial enterprises’ excessive financialization risk assessment for risk control based on data mining and machine",
+        "volume": "60",
+        "author": "Song",
+        "year": "2022",
+        "journal-title": "Comput. Econ."
+      },
+      {
+        "issue": "40",
+        "key": "10.1016/j.frl.2024.106382_bib51",
+        "first-page": "1",
+        "article-title": "Financialization and the global economy",
+        "volume": "242",
+        "author": "Stockhammer",
+        "year": "2010",
+        "journal-title": "Pol. Econ. Res. Inst. Work. Paper"
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib64",
+        "doi-asserted-by": "crossref",
+        "first-page": "103084",
+        "DOI": "10.1016/j.irfa.2024.103084",
+        "article-title": "Fintech development and corporate credit risk: evidence from an emerging market",
+        "volume": "92",
+        "author": "Tan",
+        "year": "2024",
+        "journal-title": "Int. Rev. Financ. Anal."
+      },
+      {
+        "issue": "7",
+        "key": "10.1016/j.frl.2024.106382_bib53",
+        "doi-asserted-by": "crossref",
+        "first-page": "616",
+        "DOI": "10.1108/03068290510601144",
+        "article-title": "Globalization and financial instability: challenges for exchange rate and monetary policy",
+        "volume": "32",
+        "author": "Wagner",
+        "year": "2005",
+        "journal-title": "Int. J. Soc. Econ."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib63",
+        "doi-asserted-by": "crossref",
+        "first-page": "102982",
+        "DOI": "10.1016/j.irfa.2023.102982",
+        "article-title": "Towards sustainable development: how does ESG performance promotes corporate green transformation",
+        "volume": "91",
+        "author": "Wang",
+        "year": "2024",
+        "journal-title": "Int. Rev. Financ. Anal."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib0042",
+        "article-title": "Inefficient investment and digital transformation: what is the role of financing constraints?",
+        "volume": "51",
+        "author": "Xu",
+        "year": "2023",
+        "journal-title": "Fin. Res. Lett."
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib0043",
+        "doi-asserted-by": "crossref",
+        "first-page": "776",
+        "DOI": "10.1111/abac.12213",
+        "article-title": "Financialization and corporate performance in China: promotion or inhibition?",
+        "volume": "59",
+        "author": "Xu",
+        "year": "2023",
+        "journal-title": "Abacus"
+      },
+      {
+        "issue": "3",
+        "key": "10.1016/j.frl.2024.106382_bib0045",
+        "doi-asserted-by": "crossref",
+        "first-page": "520",
+        "DOI": "10.1016/j.bir.2024.02.007",
+        "article-title": "How does environmental, social, and governance (ESG) performance determine investment mix? New empirical evidence from BRICS",
+        "volume": "24",
+        "author": "Yu",
+        "year": "2024",
+        "journal-title": "Borsa Istanbul Review"
+      },
+      {
+        "key": "10.1016/j.frl.2024.106382_bib0049",
+        "doi-asserted-by": "crossref",
+        "first-page": "55",
+        "DOI": "10.1016/j.pacfin.2017.02.003",
+        "article-title": "Independent directors, non-controlling directors, and executive pay-for-performance sensitivity: evidence from Chinese non-state owned enterprises",
+        "volume": "43",
+        "author": "Zhou",
+        "year": "2017",
+        "journal-title": "Pac.-Basin Financ. J."
+      }
+    ],
+    "container-title": [
+      "Finance Research Letters"
+    ],
+    "original-title": [],
+    "language": "en",
+    "link": [
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1544612324014119?httpAccept=text/xml",
+        "content-type": "text/xml",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      },
+      {
+        "URL": "https://api.elsevier.com/content/article/PII:S1544612324014119?httpAccept=text/plain",
+        "content-type": "text/plain",
+        "content-version": "vor",
+        "intended-application": "text-mining"
+      }
+    ],
+    "deposited": {
+      "date-parts": [
+        [
+          2026,
+          9,
+          16
+        ]
+      ],
+      "date-time": "2026-09-16T20:25:26Z",
+      "timestamp": 1789590326000
+    },
+    "score": 1,
+    "resource": {
+      "primary": {
+        "URL": "https://linkinghub.elsevier.com/retrieve/pii/S1544612324014119"
+      }
+    },
+    "subtitle": [],
+    "short-title": [],
+    "issued": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "references-count": 41,
+    "alternative-id": [
+      "S1544612324014119"
+    ],
+    "URL": "https://doi.org/10.1016/j.frl.2024.106382",
+    "relation": {},
+    "ISSN": [
+      "1544-6123"
+    ],
+    "issn-type": [
+      {
+        "value": "1544-6123",
+        "type": "print"
+      }
+    ],
+    "subject": [],
+    "published": {
+      "date-parts": [
+        [
+          2025,
+          1
+        ]
+      ]
+    },
+    "assertion": [
+      {
+        "value": "Elsevier",
+        "name": "publisher",
+        "label": "This article is maintained by"
+      },
+      {
+        "value": "CEO financial background and corporate financialization",
+        "name": "articletitle",
+        "label": "Article Title"
+      },
+      {
+        "value": "Finance Research Letters",
+        "name": "journaltitle",
+        "label": "Journal Title"
+      },
+      {
+        "value": "https://doi.org/10.1016/j.frl.2024.106382",
+        "name": "articlelink",
+        "label": "CrossRef DOI link to publisher maintained version"
+      },
+      {
+        "value": "article",
+        "name": "content_type",
+        "label": "Content Type"
+      },
+      {
+        "value": "© 2024 Elsevier Inc. All rights are reserved, including those for text and data mining, AI training, and similar technologies.",
+        "name": "copyright",
+        "label": "Copyright"
+      }
+    ],
+    "article-number": "106382"
+  }
+}

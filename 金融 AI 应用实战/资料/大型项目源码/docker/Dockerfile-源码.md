@@ -1,0 +1,158 @@
+---
+type: 原始源码副本
+---
+
+来源：`docker/Dockerfile.backend`。未修改原内容。
+
+```dockerfile
+# Backend Dockerfile for FastAPI service
+# ───────────────────────────────────────────────────────────────
+# Stage 1: builder — 编译 Python 依赖
+# ───────────────────────────────────────────────────────────────
+FROM docker.m.daocloud.io/library/python:3.12-slim-bookworm AS builder
+
+ARG TARGETARCH
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1 \
+    TZ=Asia/Shanghai
+
+WORKDIR /app
+
+# builder 阶段安装编译工具链（不带入 runtime）
+RUN echo 'Acquire::Retries "3";' > /etc/apt/apt.conf.d/80-retries && \
+    echo 'Acquire::http::Timeout "30";' >> /etc/apt/apt.conf.d/80-retries && \
+    echo 'Acquire::https::Timeout "30";' >> /etc/apt/apt.conf.d/80-retries && \
+    sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list.d/debian.sources && \
+    (apt-get update || apt-get update || apt-get update) && \
+    apt-get install -y --no-install-recommends \
+        build-essential \
+        python3-dev \
+        gcc \
+        g++ \
+        make \
+        cmake \
+        libssl-dev \
+        libffi-dev \
+        ca-certificates \
+        curl \
+        wget \
+        git && \
+    rm -rf /var/lib/apt/lists/*
+
+# 把依赖装到独立 venv，方便整目录复制到 runtime
+RUN python -m venv --copies /opt/venv
+ENV PATH="/opt/venv/bin:$PATH"
+
+# 安装Python依赖到 venv
+# 1. 使用阿里云镜像加速下载
+# 2. 优先使用预编译的二进制wheel包（--prefer-binary），加速 ARM 构建
+# 3. 带 shell 重试逻辑，防止偶发网络中断导致整个构建失败
+# 4. uv/uvx 用于 Python MCP 服务器
+# 5. pdfkit 用于 PDF 导出（需要 runtime 阶段的 wkhtmltopdf 二进制）
+RUN pip install --upgrade pip --retries 5 --timeout 120 \
+        -i https://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com && \
+    for i in 1 2 3; do \
+        pip install --prefer-binary --retries 5 --timeout 120 --no-cache-dir . \
+            -i https://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com && break || \
+        echo "pip install attempt $i failed, retrying..." && sleep 10; \
+    done && \
+    pip install --prefer-binary --retries 5 --timeout 120 pdfkit uv \
+        -i https://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
+
+# ───────────────────────────────────────────────────────────────
+# Stage 2: runtime — 最终镜像
+# ───────────────────────────────────────────────────────────────
+FROM docker.m.daocloud.io/library/python:3.12-slim-bookworm AS runtime
+
+ARG TARGETARCH
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1 \
+    PIP_NO_CACHE_DIR=1 \
+    TZ=Asia/Shanghai \
+    PATH="/opt/venv/bin:$PATH"
+
+WORKDIR /app
+
+# 安装运行时系统依赖（含 PDF 工具链 — 不可删除）
+# - curl: 健康检查
+# - pandoc: apt 官方稳定版，用于文档转换
+# - wkhtmltopdf: PDF 生成（pdfkit 的后端）
+# - xvfb + xauth: 无显示环境运行 wkhtmltopdf（xvfb-run 依赖 xauth）
+# - fonts-noto-cjk: 中文字体（PDF 中文显示）
+# - fontconfig: 字体缓存
+# - tzdata: 时区数据
+# - xz-utils: 解压 Node.js tarball（MCP 服务器依赖）
+# - git: skill Git URL 安装（app/engine/tools/skill/git_installer.py 依赖 git clone）
+# 不装编译工具链（gcc/make/cmake），缩小攻击面与镜像体积
+RUN mkdir -p /app/runtime /app/config && \
+    echo 'Acquire::Retries "3";' > /etc/apt/apt.conf.d/80-retries && \
+    echo 'Acquire::http::Timeout "30";' >> /etc/apt/apt.conf.d/80-retries && \
+    echo 'Acquire::https::Timeout "30";' >> /etc/apt/apt.conf.d/80-retries && \
+    sed -i 's/deb.debian.org/mirrors.aliyun.com/g' /etc/apt/sources.list.d/debian.sources && \
+    (apt-get update || apt-get update || apt-get update) && \
+    apt-get install -y --no-install-recommends \
+        ca-certificates \
+        curl \
+        fontconfig \
+        fonts-noto-cjk \
+        tzdata \
+        pandoc \
+        wkhtmltopdf \
+        xvfb \
+        xauth \
+        xz-utils \
+        git && \
+    ln -snf /usr/share/zoneinfo/$TZ /etc/localtime && \
+    echo $TZ > /etc/timezone && \
+    fc-cache -fv && \
+    rm -rf /var/lib/apt/lists/*
+
+# 从 builder 复制完整 venv
+COPY --from=builder /opt/venv /opt/venv
+
+# 安装 Node.js（用于基于 Node 的 MCP 服务器）
+# 固定 v20.18.0 以确保可重复构建
+ENV NODE_VERSION=v20.18.0
+RUN set -eux; \
+    case "${TARGETARCH:-amd64}" in \
+        amd64) NODE_ARCH="x64" ;; \
+        arm64) NODE_ARCH="arm64" ;; \
+    esac; \
+    curl -fsSL "https://registry.npmmirror.com/-/binary/node/${NODE_VERSION}/node-${NODE_VERSION}-linux-${NODE_ARCH}.tar.xz" \
+    | tar -xJ -C /usr/local --strip-components=1; \
+    npm config set registry https://registry.npmmirror.com
+
+# 复制后端代码和必需模块
+COPY app ./app
+COPY config ./config
+
+# 复制 entrypoint 脚本（以 root 启动，修复 volume 权限后降权到 appuser）
+COPY docker/docker-entrypoint.sh /app/docker-entrypoint.sh
+RUN sed -i 's/\r$//' /app/docker-entrypoint.sh && chmod +x /app/docker-entrypoint.sh
+
+# 注意：不在此处 COPY .env 文件到镜像中。
+# 敏感配置应通过 docker-compose.yml 的 env_file / environment 注入，
+# 或使用 Docker secrets / Vault 等安全机制。
+# 开发环境使用 docker-compose.dev.yml 的 env_file: - .env
+# 生产环境使用 docker-compose.build.yml 的 environment: 节
+
+# 暴露后端端口
+EXPOSE 8000
+
+# Docker环境标识
+ENV DOCKER_CONTAINER=true
+
+# 创建非 root 用户
+RUN useradd -r -m -s /bin/false appuser
+
+# entrypoint 以 root 启动，修复 volume 权限后降权到 appuser
+# docker-compose 中的 command 只覆盖 CMD，不覆盖 ENTRYPOINT
+ENTRYPOINT ["/app/docker-entrypoint.sh"]
+
+# 启动FastAPI服务
+CMD ["python", "-m", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
+
+```

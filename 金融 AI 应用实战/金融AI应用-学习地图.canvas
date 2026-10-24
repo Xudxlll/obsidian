@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "root",
+      "type": "text",
+      "x": 0,
+      "y": 0,
+      "width": 720,
+      "height": 140,
+      "text": "# 金融AI应用实战\n从业务问题出发：输入 → 证据与工具 → 模型分析 → 验收与交付"
+    },
+    {
+      "id": "n0",
+      "type": "text",
+      "x": 0,
+      "y": 220,
+      "width": 720,
+      "height": 145,
+      "text": "## 入门\n模型、工具、上下文与Python\n分清调用模型与训练模型"
+    },
+    {
+      "id": "n1",
+      "type": "text",
+      "x": 0,
+      "y": 420,
+      "width": 720,
+      "height": 145,
+      "text": "## 股票问答\nSelf-Ask查缺补漏\n行情、财务口径与文字协议"
+    },
+    {
+      "id": "n2",
+      "type": "text",
+      "x": 0,
+      "y": 620,
+      "width": 720,
+      "height": 145,
+      "text": "## 研报工作流\nLangGraph计划—执行—总结\n显式状态与工具调用"
+    },
+    {
+      "id": "n3",
+      "type": "text",
+      "x": 0,
+      "y": 820,
+      "width": 720,
+      "height": 145,
+      "text": "## 投研团队\nCrewAI四岗位顺序协作\n检查数据供给、交接与审校"
+    },
+    {
+      "id": "n4",
+      "type": "text",
+      "x": 0,
+      "y": 1020,
+      "width": 720,
+      "height": 145,
+      "text": "## 大型项目\nasyncio真实流水线\n分析师—研究—计划—风险—总结"
+    },
+    {
+      "id": "n5",
+      "type": "text",
+      "x": 0,
+      "y": 1220,
+      "width": 720,
+      "height": 145,
+      "text": "## 工程与验收\n任务、数据、模型、记忆、部署\n代码可读性与失败状态"
+    },
+    {
+      "id": "n6",
+      "type": "text",
+      "x": 0,
+      "y": 1420,
+      "width": 720,
+      "height": 145,
+      "text": "## 金融拓展\n技术指标、专题写作、MCP\n审批与审计示范"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "root",
+      "fromSide": "bottom",
+      "toNode": "n0",
+      "toSide": "top"
+    },
+    {
+      "id": "e1",
+      "fromNode": "n0",
+      "fromSide": "bottom",
+      "toNode": "n1",
+      "toSide": "top"
+    },
+    {
+      "id": "e2",
+      "fromNode": "n1",
+      "fromSide": "bottom",
+      "toNode": "n2",
+      "toSide": "top"
+    },
+    {
+      "id": "e3",
+      "fromNode": "n2",
+      "fromSide": "bottom",
+      "toNode": "n3",
+      "toSide": "top"
+    },
+    {
+      "id": "e4",
+      "fromNode": "n3",
+      "fromSide": "bottom",
+      "toNode": "n4",
+      "toSide": "top"
+    },
+    {
+      "id": "e5",
+      "fromNode": "n4",
+      "fromSide": "bottom",
+      "toNode": "n5",
+      "toSide": "top"
+    },
+    {
+      "id": "e6",
+      "fromNode": "n5",
+      "fromSide": "bottom",
+      "toNode": "n6",
+      "toSide": "top"
+    }
+  ]
+}

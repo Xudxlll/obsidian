@@ -1,0 +1,928 @@
+===== PDF第1页 =====
+                                                Finance Research Letters
+        The Influence of CEO Financial Background on Corporate Financialization
+                                                            --Manuscript Draft--
+
+Manuscript Number:                                FRL-D-24-02417
+
+Article Type:                                     Full Length Article
+
+Keywords:                                         CEO financial background;  corporate financialization;  overconfidence;  financing
+                                                  constraints
+
+Corresponding Author:                             Jiayan Li, Ph.D.
+                                                  Guangdong University of Foreign Studies
+                                                  Guangzhou, Guangdong CHINA
+
+First Author:                                     Dan Kang
+
+Order of Authors:                                 Dan Kang
+
+                                                  Jiahao Xu
+
+                                                  Qiye Tong
+
+                                                  Jiayan Li, Ph.D.
+
+Abstract:                                         This pape examines the effect of a CEO's financial background on corporate
+                                                  financialization. Utilizing data from A-share listed companies from 2008 to 2022, the
+                                                  study aims to determine the direction and magnitude of this influence and explore the
+                                                  mediating roles and heterogeneity of these effects. Key findings include: (1) CEOs with
+                                                  a financial background significantly promote corporate financialization; (2) this
+                                                  promotion occurs primarily through increased managerial overconfidence and
+                                                  alleviated corporate financing constraints; and (3) the impact is more pronounced in
+                                                  non-state-owned and low-cash-flow firms compared to state-owned and high-cash-flow
+                                                  firms. Based on these insights, the paper suggests targeted management strategies.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                      Powered by Editorial Manager® and ProduXion Manager® from Aries Systems Corporation
+
+===== PDF第2页 =====
+Title Page (with Author Details)
+
+
+
+
+                   Title page
+                        The Influence of CEO Financial Background on Corporate
+                                                        Financialization
+
+
+                                                                 Dan Kang
+                          Department of Finance, Dongbei University of Finance and Economics, Dalian
+                                                            116025, China
+                                                     Email: kangdan2024@163.com
+
+                                                                 Jiahao Xu
+                         School of Finance, Jiangxi Normal University, Nanchang 330022, China
+                                                 Email: xujiahao112003@outlook.com
+
+                                                              Qiye Tong
+                                 School of Business, Nankai University, Tianjin 300000, China
+                                                   Email: tongqiye@outlook.com
+
+                                                              Jiayan Li*
+                           School of Accounting, Guangdong University of Foreign Studies, Guangzhou
+                                                            510006, China
+                                                Email: 202210010@oamail.gdufs.edu.cn
+
+                   *Corresponding author. Jiayan Li.
+
+
+===== PDF第3页 =====
+Manuscript (without Author Details)                                                                                     Click here to view linked References
+
+
+
+
+
+                                    The Influence of CEO Financial Background on Corporate Financialization
+
+                                                                                Abstract
+                        Entity enterprises are increasingly engaging in financial activities to enhance financial capital
+                        allocation.  As  core  decision-makers,  CEOs              significantly  impact  the  financialization  of  these
+                        enterprises. This paper, grounded in Top Echelon theory and Imprinting theory, examines the
+                        effect of a CEO's financial background on corporate financialization. Utilizing data from A-share
+                        listed companies from 2008 to 2022, the study aims to determine the direction and magnitude of
+                        this influence and explore the mediating roles and heterogeneity of these effects. Key findings
+                        include: (1) CEOs with a financial background significantly promote corporate financialization; (2)
+                        this  promotion  occurs  primarily  through  increased  managerial  overconfidence  and  alleviated
+                        corporate financing constraints; and (3) the impact is more pronounced in non-state-owned and
+                        low-cash-flow firms compared to state-owned and high-cash-flow firms. Based on these insights,
+                        the paper suggests targeted management strategies.
+                        Keywords:        CEO  financial  background;          corporate     financialization;    overconfidence;  financing
+                        constraints
+
+                        1. Introduction
+
+                               The background characteristics of           business leaders, particularly their financial background,
+                        profoundly  impact  the  strategic  decision-making  and  operational  performance  of  enterprises
+                        (Oradi et al., 2020). As the core decision-maker of an enterprise, a CEO's financial background not
+                        only  represents  their  professional  ability  and  experience  but  also  influences  the  enterprise's
+                        behavior and performance in financial markets (Liu et al., 2020). Understanding the significance
+                        of  a  CEO's  financial  background  is  crucial  for  comprehending  corporate                       decision-making
+                        mechanisms, optimizing corporate governance structures, and enhancing market competitiveness.
+                        CEOs with a financial background possess profound knowledge of financial theory and rich
+                        practical experience, enabling them to make more informed and precise decisions when faced with
+                        complex financial problems. These CEOs can better grasp dynamic financial market changes,
+                        identify potential risks and opportunities, and thereby create more value for the enterprise (Yang et
+                        al., 2021). Furthermore, a financial background helps CEOs improve the financial management
+                        level and operational efficiency of the enterprise, focusing on capital liquidity, cost control, and
+                        capital   allocation   to   manage   financial   resources   more   effectively   and   enhance   market
+                        competitiveness.
+                               The financialization of entity enterprises refers to the increasing participation of enterprises
+                        in financial market activities and the strategic use of financial capital (Liu et al., 2022). This trend
+                        reflects a growing understanding and utilization of financial capital by enterprises and the closer
+                        integration between finance and the real economy. By engaging in financial market activities,
+                        enterprises   can   leverage  financial   mechanisms   to   achieve   capital   appreciation   and   risk
+                        diversification.  This  financialization  also  promotes  innovation  and  development  within  the
+                        financial market, fostering a positive interaction between financial capital and the real economy
+                        (Li et al., 2021). However, the financialization of entity enterprises also introduces risks and
+                        challenges,  such  as  balancing  financial  investment  with  core  business  activities,  controlling
+                        financial risks, and maintaining sound enterprise operations. Addressing these challenges requires
+
+===== PDF第4页 =====
+in-depth  analysis  and  effective  responses  from             business  leaders  (Song  &  Wu,  2022).  This
+necessitates  a  thorough  investigation  into  how  a  CEO's  financial  background  impacts  the
+financialization of entity enterprises, providing valuable insights and references for corporate
+decision-makers.
+      This   study   aims   to   explore   the   impact   of   a   CEO's   financial   background   on   the
+financialization of entity enterprises. Specifically, it uses panel data from A              -share listed firms from
+2008 to 2022 to conduct an empirical analysis based on a double fixed                     -effects model to test the
+causal  relationship  between  a  CEO's  financial  background  and  the  financialization  of  entity
+enterprises. The study also explores potential mediating roles of managerial overconfidence and
+financing constraints in this relationship, examining the mechanisms through which a CEO's
+financial   background   influences   enterprise   financialization.   Additionally,   it   analyzes   the
+heterogeneity of these effects from the perspectives of enterprise nature and cash flow, providing
+comprehensive insights into real-world complexities. Based on the empirical results, the paper
+proposes targeted development strategies.
+      The contribution of this paper is multi          -faceted. First, it addresses a relative gap in current
+research  on  executive  financial  backgrounds,  which  often  fo                  cuses  narrowly  on  banking
+backgrounds without a holistic view of executive financial backgrounds (Li et al., 2017). This
+paper fills this gap, enriching the research on executive financial backgrounds and offering new
+perspectives and ideas. Second, it refines existing research by focusing specifically on CEOs, who
+play a decisive role in firms, rather than generalizing across all executives. This focus eliminates
+noise from varying managerial authorities and enhances the relevance and practicality of the
+findings. Third, the paper not only examines the impact of a CEO's financial background on
+corporate financialization but also reveals the underlying mechanisms and specific environments
+influencing this impact. This comprehensive analysis enriches the fiel                    d of financialization and
+provides practical references for enterprises. Lastly, the paper expands the application scope of
+branding  theory  by  exploring  its  relevance  to  the  relationship  between  a  CEO's  financial
+background and corporate financialization, thus enhancing the theoretical depth and breadth of the
+study.
+      The structure of this paper is organized as follows: Section 2 provides a literature review,
+summarizing existing research related to the topic. Section 3 details the methodology and data
+used   in  the  study.  Section  4  presents  the  results  and discussion,  offering  an  analysis  of  the
+empirical findings. Finally, Section 5 concludes the paper, summarizing the main insights and
+proposing future research directions.
+
+2. Literature review and research hypothesis
+
+      Top echelon theory emphasizes the significant impact of the traits and background of a firm's
+top management team (TMT) on the firm's strategic decisions and performance (Hambrick and
+Mason, 2004) Among them, the CEO, as a core member of the to                           p management team, has a
+non-negligible role to play in the development of the enterprise in terms of his or her traits and
+background characteristics. Especially in the context of financialization of entity enterprises, the
+impact of CEO's financial background on the process of financialization of firms becomes more
+and more prominent (Hambrick, 2007). First of all, in the process of financialization of entity
+enterprises, a large number of financial activities are involved, such as financing, investment,                     risk
+
+===== PDF第5页 =====
+management, etc., which all require professional financial knowledge and skills. Therefore, CEOs
+with  financial  backgrounds  can  better  grasp  the  dynamics  of  the  financial  market,  identify
+potential risks and opportunities, and provide strong support for the financialization process of
+enterprises (Carpenter et al., 2004). Second, the CEO's financial background helps to enhance the
+financialization ability of the enterprise, which refers to the enterprise's ability to use the financial
+market  for  resource  allocation  and  risk  management.  CEOs  with  financial  backgrounds  can
+establish  closer  cooperative  relationships  with  financial  institutions,  obtain  more  financial
+resources and information support, and further promote the financialization process of enterprises
+(Wang et al., 2016). In addition, the financial background of the CEO also helps optimize the
+financialization  strategy  of  the  enterprise.  Financialization  strategy  is  the  financialization
+development  goal  and  action  plan  formulated  by  the  enterprise  according  to  the  market
+environment  and  the  enterprise's  conditions  (Waldman  et  al.,  2004).  CEOs  with  a  financial
+background can more accurately grasp the changing trends of the financial market, combine them
+with  the  actual  situation  of  the  enterprise,          and  make  comprehensive  consideration  of  the
+enterprise's resource allocation, risk control, and other aspects from the perspective of finance to
+ensure that the enterprise maintains a sound development trend in the process of financialization
+(Whitler et al., 2021).
+      Imprinting theory has its roots in biology. Both individuals and organizations have several
+environmentally  sensitive  periods  in  their  developmental  process  (Patten  et  al.,  2014).  The
+environmental characteristics of a particular phase will have a significant impact on the individual
+or organization. Individuals and organizations will be imprinted with environmental characteristics,
+and this imprint will continue to affect the behavior of individuals and organizations, and will not
+disappear easily (Marquis and Tilcsik, 2013). The financial background of a CEO leaves a deep
+imprint on his or her career, which may originate from his or her early work experience in a
+financial institution or through the systematic study of financial literacy and practical experience
+accumulation (Mathias et al., 2015)  These experiences give CEOs an in-depth understanding
+and perception of financial markets, financial instruments, and risk management, forming a unique
+financial cognitive stigma. On the one hand, CEOs' financial background stigma influences their
+affective tendencies and risk preferences. CEOs with financial backgrounds usually hold a more
+open and positive attitude toward the financial market and are more willing to try new financial
+instruments and strategies (Shan et al., 2024). At the same time, they also tend to be more cautious
+and robust in risk control. This emotional stigma and risk preference stigma enable CEOs to weigh
+the pros and cons more rationally in the process of promoting the financialization of entity
+enterprises and formulate a financialization strategy that is in line with the actual situation of the
+firm (Shan et al., 2024). On the other hand, the stigma of CEOs' financial backgrounds is also
+reflected  in  their  behavioral  decisions.  CEOs  with  financial  backgrounds  can  use  financial
+instruments more skillfully and conduct resource allocation and risk management more effectively
+when facing financialization decisions. They can optimize the financing structure of enterprises
+and  improve  the  efficiency  of  capital  use  from  a  financial  perspective,  thus  promoting  the
+financialization process of entity enterprises (Cheng et al., 2023). Combined with the above
+analysis, this paper proposes research hypothesis 1.
+
+      H1: The CEO's financial backgrounds significantly contribute to the financialization of
+entity enterprises.
+
+===== PDF第6页 =====
+      A CEO's financial background            provides him or her with deep knowledge of financial theory
+and  rich  practical  experience.  This  professional  knowledge  and  experience  make  CEOs  more
+confident  in  analyzing  and  judging  the  financial  market,  and  thus  more  likely  to  develop  an
+overconfident     psychological state (Chen et al., 2024). Overconfident CEOs tend to overestimate
+their ability and control over the market and underestimate potential risks, thus showing higher
+risk-taking and risk appetite in financial investment decisions. They are more                        inclined to adopt
+aggressive financial investment strategies and pursue higher financial returns, thus accelerating the
+financialization  process  of  entity  enterprises  (Zhong  and  Yan,  2024).  Second,  the  financial
+background of CEOs helps them to establish                  extensive financial networks and resources.CEOs
+have access to more financial resources and information support, which further enhances their
+overconfidence and makes them more likely to adopt risky strategies in pursuit of higher financial
+returns  (Zhong      and  Yan,  2024)      Error!   Bookmark   not   defined..  In  addition,  CEOs  with  a  financial
+background  are  usually  better  able  to  understand  and  capitalize  on  the  dynamic  changes  in
+financial  markets,  from  whi        ch  they  can  capture  opportunities  and  avoid  risks  (Lun,  2022).
+However, this ability may also lead CEOs to be overconfident and ignore market feedback and
+warning signals. They may have too much faith in their own judgment and decision                          -making ability,
+and thus make overly risky decisions during the financialization process (Jiang et al., 2022). This
+overconfidence may expose firms to greater risks and challenges in the pursuit of financial gains.
+In summary, CEOs' financial background increases managers' overconfidence by providing deep
+financial knowledge, building extensive financial networks and resources, and coping with the
+complexity of financial markets, and this overconfidence promotes the financialization process of
+entity enterprises. Accordingly, research hypothesis 2 is proposed.
+
+      H2: The CEO’s financial background significantly contributes to the financialization of
+entity enterprises by increasing managerial overconfidence.
+
+      The    CEO's  financial  background           brings  professional  financial  knowledge  and  practical
+experience to the enterprise, thus effectively alleviating the enterprise financing constraints. In a
+modern  market  economy,  financing  constraints  are  one  of  the  key  factors  restricting  the
+development of entity enterprises (Sisli, 2012). CEOs with financial backgrounds gain insight into
+financing opportunities and risks through their deep theoretical knowledge of finance and rich
+practical experience. They can choose appropriate financing channels and methods according to
+the actual situation and financial needs of the enterprise, to ensure that the enterprise can obtain
+sufficient financial support at the critical moment (Wu and Hu, 2021). In addition, CEOs with
+financial backgrounds can also provide professional financing advice and guidance to enterprises,
+helping them optimize the financing structure and further reduce financing costs. Secondly, the
+financial background of CEOs helps enterprises establish close cooperative relationships with
+financial institutions, thus alleviating financing constraints (Lun, 2022). As an important channel
+for  capital  financing,  financial  institutions  play  a  crucial  role  in  the  development  of  entity
+enterprises.  CEOs  with  financial  backgrounds  understand  the  operation                      mechanism  and  risk
+preferences of financial institutions and can better communicate and coordinate with financial
+institutions. By establishing mutual trust with financial institutions, enterprises can obtain more
+financing support and preferential policies, thus effectively alleviating financing constraints (Gu et
+
+===== PDF第7页 =====
+al., 2023). In addition, the CEO's financial background helps enterprises grasp the opportunities of
+the  financial  market  and  achieve  the  optimal  allocation  of  financial  assets,  thus  alleviating
+financing constraints. The financial market is a market full of opportunities and challenges, and
+CEOs  with  financial  backgrounds  can  discover  and  utilize  investment  opportunities  in  the
+financial market through their professional financial knowledge and keen insight. They can realize
+the financialized income of the enterprise by investing in financial assets such as stocks, bonds,
+funds, etc., and bringing additional sources of capital for the enterprise (Zhong et al., 2023). CEOs
+with financial backgrounds are also able to formulate a reasonable asset allocation plan according
+to the risk tolerance and return requirements of the enterprise to achieve the optimal allocation of
+financial assets and further reduce the financing costs and risks of the enterprise (Ding et al.,
+2023).  In  summary,  the  financial  background  of  CEOs  effectively  alleviates  the  financing
+constraints  of  enterprises  and  promotes  the  level  of  financialization  of  entity  enterprises  by
+providing   professional   financial   knowledge   and   practical   experience,   establishing   close
+cooperation with financial institutions, and grasping financial market opportunities. Accordingly,
+research hypothesis 3 is proposed.
+
+      H3: The financial background of CEOs significantly contributes to the financialization
+of entity enterprises by easing financing constraints.
+
+3. Research design
+3.1 Model specifications
+      Referring to the study of Chen et al. (2024), this paper constructs the following double
+fixed-effects model as the benchmark model of this paper, and all subsequent empirical tests will
+be carried out based on this model.
+               𝐹𝐼𝑁𝑅𝐴𝑇𝐼𝑂𝑖𝑡       =  𝛼0  +  𝛼1𝐶𝐸𝑂𝐹𝐼𝑁𝑖𝑡      +  𝛼2𝑪𝒐𝒏𝒕𝒓𝒐𝒍𝒔𝑖𝑡       +  𝜃𝑖  +  𝜎𝑡 +  𝜀𝑖𝑡   (1)
+      In model (1), i denotes the ith bank, and t denotes the tth year.𝐹𝐼𝑁𝑅𝐴𝑇𝐼𝑂𝑖𝑡                         are the core
+explanatory variables of the paper, which are proxies for the financialization of entity enterprises,
+meaning the loan size and risk of the ith commercial bank in year t.                𝛼0   is the constant term of the
+model.   𝐶𝐸𝑂𝐹𝐼𝑁𝑖𝑡       is the core explanatory variable of the paper, a proxy variable for the Financial
+background  of  CEOs.         𝛼1 is  the   𝐶𝐸𝑂𝐹𝐼𝑁𝑖𝑡      the  corresponding  coefficients  to  be  estimated.
+𝑪𝒐𝒏𝒕𝒓𝒐𝒍𝒔𝑖𝑡      are  a  set  of  control  variables  selected  for  the  paper.  In  addition,  the  paper
+incorporates  firm-level  individual  fixed  effects𝜃𝑖and  year-level  time  fixed  effects𝜎𝑡.                  𝜀𝑖𝑡  are
+unobservable random disturbance terms. Where                𝛼1   is the core estimated coefficient of interest in
+this paper, the expected       𝛼1   direction is positive, i.e., the     CEO's financial background promotes
+the level of financialization of entity enterprises.
+      Baron et al. (1986) provide a more complete description and introduction of the mediation
+effect model, proposing the use of a three-step approach to realize the test of                         the mediation
+mechanism. This paper draws on the ideas of Baron et al. (1986) to propose the following
+three-step mediation effect model: first, test the impact of                CEO's financial background           on the
+financialization of entity enterprises, which has been tested in model (1); second, test the impact
+of CEO's financial background           on the intermediary variable, which is tested through model (2);
+third, put the CEO's financial background and the intermediary variable into the model at the same
+time as the independent variable and financialization of entity enterprises as dependent variables,
+focusing on the effect of mediating variables on financialization of entity enterprises, which is
+
+===== PDF第8页 =====
+tested through model (3). If        𝛾1   and𝛿2   are significant at the same time, it indicates that the
+mediating effect exists.
+                    𝑀𝑖𝑡  =  𝛾0  + 𝛾1𝐶𝐸𝑂𝐹𝐼𝑁𝑖𝑡       +  𝛾2𝑪𝒐𝒏𝒕𝒓𝒐𝒍𝒔𝑖𝑡      +  𝜃𝑖 +  𝜎𝑡 +  𝜀𝑖𝑡   (2)
+        𝐹𝐼𝑁𝑅𝐴𝑇𝐼𝑂𝑖𝑡       =  𝛿0  +  𝛿1𝐶𝐸𝑂𝐹𝐼𝑁𝑖𝑡      +  𝛿2𝑀𝑖𝑡   +  𝛿3𝑪𝒐𝒏𝒕𝒓𝒐𝒍𝒔𝑖𝑡      +  𝜃𝑖 +  𝜎𝑡 +  𝜀𝑖𝑡   (3)
+
+3.2 Variable definition
+     The dependent variable in this paper is the level of financialization of entity enterprises,
+which reflects the allocation and operation of financial assets in the business process of entity
+enterprises (Zheng et al., 2019). A higher level of financialization may mean that enterprises focus
+more on obtaining revenue through financial activities rather than through traditional production
+and operation activities. Too high a level of financialization may mean that enterprises are exposed
+to greater financial risks, which may have a greater impact on the stable operation of enterprises
+once the financial market fluctuates (Xu and Guo, 2023). Especially when entity enterprises
+allocate a large amount of funds to the stock market, real estate, and other financial areas to chase
+short-term excess returns, the level of financialization of entity enterprises will rise, which may
+lead to the hollowing out of the real economy and hurt the country's economic development (Song
+and Wu, 2022). In this paper, referring to the study of Qi et al. (2021), the proportion of financial
+assets to total assets is used as a proxy variable for the financialization of entity enterprises, and
+the specific formula is as follows:
+          FINRATIO = (Trading financial assets + Derivative financial assets + Net loans and
+ advances granted + Net available-for-sale financial assets + Net held-to-maturity investments +
+                                Net investment properties) / Total assets (4)
+     The independent variable in this paper is CEO's financial background, which mainly refers to
+the CEO's experience and engagement in financial institutions or related fields  (Lun, 2022).
+Specifically, a CEO can be said to have a financial background if he or she has held positions in
+policy  banks,  commercial  banks,         investment  banks,  financial  regulators,  fund  management
+companies,   insurance   companies,   exchanges,   securities   firms,   securities   registration   and
+settlement firms, futures firms, trust companies, investment management firms, and other financial
+institutions (Oradi et al., 2020). This paper uses a dummy variable for whether the CEO has a
+financial background as a proxy variable for the            CEO's financial background, which is 1 if the
+CEO has a financial background and 0 if the CEO does not have a financial backg                    round (Jiang et
+al., 2022).
+     The  mediating  variables  in  this  paper  are  overconfidence  and  financing  constraints.
+Management overconfidence refers to managers' overconfidence in their abilities and judgments in
+the decision-making process, holding an overly optimistic attitude toward the future development
+of the enterprise, market competition, and risk assessment (Russo and Schoemaker, 1992). This
+overconfidence may lead enterprises to make irrational, even high                  -risk choices in conducting
+strategic planning,    investment decisions, and market expansion (Adam et al., 2015). The study
+(Kramer  and  Liao,  2016), which  this  paper  refers  to,  constructs  the overconfidence  variable
+through the following procedure: first, taking the growth rate of total assets as the dep                    endent
+variable and the growth rate of operating income as the independent variable, regression analysis
+is carried out to obtain the corresponding residuals of each enterprise              𝜀, as shown in model (4).
+Secondly, if the residuals of enterprises        𝜀  are larger than the industry residual       𝜀  of the median,
+then the enterprise has managerial overconfidence, and managerial confidence takes the value of 1,
+
+===== PDF第9页 =====
+otherwise it is 0.
+                𝐺𝑂𝑅𝑊𝑇𝐻_𝑅𝑂𝐴𝑖𝑡           =  𝜃0  +  𝜃1𝐺𝑅𝑂𝑊𝑇𝐻_𝑅𝐸𝑉𝐸𝑖𝑡           +  𝜃𝑖 +  𝜎𝑡  +  𝜀𝑖𝑡   (5)
+     Financing constraints refer to the various limitations and constraints that enterprises are
+subjected to in the process of financing, which may come from financing channels, financing
+methods, financing costs, and the amount of financing (Hadlock et al., 2010). These constraints
+make it difficult for enterprises to raise the required funds according to their wishes, which may
+increase their financing costs and even lead to a financial crisis. This paper uses the SA index as a
+proxy variable for corporate financing constraints (Xu et al., 2023).
+     Referring to the studies of Gao et al. (2023) and Qi et al. (2021), this paper selects firm size,
+gearing ratio, return on net assets, current ratio, intangible assets ratio, capital accumulation ratio,
+financial  leverage,  board        of  directors'  size,  percentage  of  independent  directors,  and
+two-vocations-at-one-place as the control variables to exclude the interference of other factors as
+much as possible and alleviate the endogeneity problem. The variables are selected and defined as
+shown in the table below.
+                                   Table 4-2 Variable Selection and Definition
+                                           Variable
+   typology          variable name       Abbreviatio                          Variable definition
+                                              ns
+  explanatory       Financialization
+    variable            of entity         FINRATIO                              See model (4)
+                       enterprises
+  explanatory       CEO's financial        CEOFIN         1 if the CEO has a financial background and 0 if the CEO
+    variable          background                                    does not have a financial background
+                     overconfidence           OC                                See model (5)
+ intermediary          Financing
+    variable           constraints            SA                                  SA index
+
+                     Enterprise size         Size                     Logarithmic value of total assets
+                         gearing              Lev                         Total liabilities/total assets
+                      return on net          ROE                          Profit after tax/net assets
+                         assets
+                      current ratio         Liquid                Total current assets/total current liabilities
+                    Intangible assets     Intangible                  Total intangible assets/total assets
+                     as a percentage
+control variable     rate of capital         RCA           Increase in owners' equity for the year/owners' equity at
+                      accumulation                                        the beginning of the year
+                   financial leverage         FL         Change in earnings per ordinary share/change in EBITDA
+                       Board size           Board            Logarithmic value of the number of board members
+                     Percentage of                         Number of independent directors/total number of board
+                      independent            Indep                                members
+                        directors
+                     two jobs in one         Dual           Chairman and general manager of both positions is 1,
+                                                                                 otherwise 0
+
+3.3 Data sources
+     The  firm-level  data  used  in  this  paper  comes  from  the  Cathay  Pacific  database.  After
+excluding financial firms, ST or PT, no delisted and insolvent firms during the sample period,
+24,004 valid samples are obtained, encompassing 3,919 listed firms from 2008-2022.
+
+===== PDF第10页 =====
+      In this paper, the acquired raw data are processed as follows. (1) Absolute value data with
+large magnitude are logarithmically processed to alleviate the problem of heteroskedasticity that
+may be brought about by large differences in magnitude. Such as enterprise size, etc. (2) A few
+samples with missing data in some years were filled in using linear interpolation. (3) Bilateral tail
+reduction at the 1% level is performed for all continuous variables to mitigate the interference
+caused by extreme values as much as possible. The final descriptive statistics of the full-sample
+variables obtained are shown in the table below.
+                                          Table 2 Table of descriptive statistics
+  VarName               Obs              Mean                SD                Min              Median             Max.
+ FINRATIO              24004              0.06              0.09              0.000              0.016             0.483
+  CEOFIN               24004              0.05              0.22              0.000              0.000             1.000
+      OC               24004              0.50              0.50              0.000              0.000             1.000
+      SA               24004              -3.77             0.26              -4.370            -3.764             -3.153
+     Size              24004              22.20             1.30             19.872             21.996             26.000
+     Lev               24004              0.42              0.20              0.053              0.419             0.867
+     ROE               24004              0.07              0.11              -0.414             0.077             0.348
+    Liquid             24004              2.52              2.61              0.355              1.670             16.744
+  Intangible           24004              0.05              0.05              0.000              0.033             0.285
+     RCA               24004              0.16              0.36              -0.353             0.068             2.206
+      FL               24004              1.29              0.92              -0.382             1.049             6.528
+    Board              24004              2.14              0.20              1.609              2.197             2.639
+    Indep              24004              0.37              0.05              0.333              0.333             0.571
+     Dual              24004              0.26              0.44              0.000              0.000             1.000
+
+
+4. Empirical results and analysis
+4.1 Benchmark regression
+      To empirically test the impact of CEO's financial background on the financialization of entity
+enterprises, this paper uses STATA17 software to conduct subsequent regression and correlation
+tests. Covariance refers to the high degree of correlation that may exist between variables due to
+common trends or similar characteristics, etc., which can seriously interfere with the regression
+results (Basagaña et al., 2022) . To avoid multiple covariance interfering with the regression
+results, this paper calculated the variance inflation factor of each variable, and the results are
+shown in Table 3. It can be seen that the variable VIF in all models is less than the empirical value
+of 10, indicating that the model in this paper does not have the problem of covariance.
+                                             Table 3 Multiple covariance test
+              Variable                                    VIF                                        1/VIF
+                 Lev                                      2.47                                        0.40
+               Liquid                                     1.91                                        0.52
+               Board                                      1.67                                        0.60
+                Size                                      1.55                                        0.64
+                Indep                                     1.53                                        0.65
+                ROE                                       1.43                                        0.70
+                RCA                                       1.24                                        0.80
+
+===== PDF第11页 =====
+                 FL                                        1.07                                        0.93
+                Dual                                       1.07                                        0.94
+             Intangible                                    1.04                                        0.96
+              CEOFIN                                       1.00                                        1.00
+             Mean VIF                                      1.45
+
+      The regression results obtained after accounting for the individual bank as well as year-time
+effects are shown in Table 4 below. The coefficient of the effect of CEO's financial background on
+the financialization of entity enterprises without adding control variables in column (1) is 0.0060,
+which passes the test of significance at the 1% level, which indicates that the CEO's financial
+background significantly increases the level of financialization of entity enterprises. The goodness
+of fit of the model without adding control variables is 0.152, which is a good fit, indicating that
+the variables in the model explain the changes in the financialization of entity enterprises better.
+After adding control variables in column (1), the coefficient of the effect of                            CEO's financial
+background      on  the  financialization  of  entity  enterprises            is  0.0074,  which  passes  the  test  of
+significance at      the 1% level, and the           CEO's financial background             still exhibits a significant
+positive effect on the level of financialization of entity enterprises. Hypothesis H1 is confirmed.
+                                          Table 4 Benchmark regression results
+                                                              (1)                                        (2)
+                                                         FINRATIO                                    FINRATIO
+               CEOFIN                                    0.0060***                                   0.0074***
+                                                          (2.7237)                                    (3.3608)
+                 Size                                                                               -0.0097***
+                                                                                                      (-9.4252)
+                 Lev                                                                                -0.0586***
+                                                                                                     (-12.2632)
+                 ROE                                                                                -0.0185***
+                                                                                                      (-4.0076)
+                Liquid                                                                              -0.0015***
+                                                                                                      (-5.5128)
+              Intangible                                                                            -0.1562***
+                                                                                                     (-10.5712)
+                 RCA                                                                                  0.0024**
+                                                                                                      (2.0381)
+                  FL                                                                                 0.0012***
+                                                                                                      (2.6505)
+                Board                                                                                  -0.0023
+                                                                                                      (-0.5302)
+                Indep                                                                                  0.0130
+                                                                                                      (1.0215)
+                 Dual                                                                                  -0.0009
+                                                                                                      (-0.6652)
+               Firm FE                                       YES                                        YES
+               Year FE                                       YES                                        YES
+
+===== PDF第12页 =====
+                _cons                                   0.0290***                                  0.2682***
+                                                         (17.1609)                                  (11.4484)
+                  N                                        24004                                     24004
+                  R2                                       0.152                                      0.172
+
+Note: *** p<0.01, ** p<0.05, * p<0.1, t-statistics in parentheses.
+
+4.2 Robustness Tests
+      To ensure the validity of the regression results, this paper conducts robustness tests by
+replacing the explanatory variables, adjusting the research window period, lagging the dependent
+variable by one period, and PSM-DID, respectively. Specifically, this                         paper uses the dummy
+variable of whether entity enterprises have made financial investments (FINRATIO2) as a proxy
+variable for the financialization of entity enterprises, and the results are shown in column (1) of
+Table 5. The study window period is adjusted to 2008-2019 to exclude the interference of the new
+crown epidemic, and the results are shown in column (2) of Table 5. The dependent variable is
+lagged by one period to capture the lagged impact of                     the CEO's financial background             on the
+financialization of entity enterprises, and the results are shown in column (3) of Table 5. 4
+Tight-neighbor matching is performed with the                   CEO's financial background             as the treatment
+variable, and then PSM-DID regression analysis is carried out, and the results are shown in
+column (4) of Table 5. Overall, the robustness test results maintain good agreement with the
+benchmark regression.
+                                                 Table 5 Robustness test
+                                   (1)                       (2)                      (3)                       (4)
+                            Substitution of            Adjusting the         Dependent variable             PSM-DID
+                              explanatory            research window          lagged one period
+                               variables
+                             FINRATIO2                  FINRATIO                  FINRATIO                 FINRATIO
+      CEOFIN                    0.0186*                 0.0070***                                             0.0057
+                                (1.6603)                 (2.9574)                                            (1.5048)
+     LCEOFIN                                                                      0.0088***
+                                                                                   (3.4274)
+        Size                   0.0411***                -0.0073***                -0.0107***               -0.0114***
+                                (7.8341)                 (-6.4039)                 (-8.6108)                (-4.0159)
+        Lev                     0.0407*                 -0.0442***                -0.0561***                -0.0297**
+                                (1.6684)                 (-8.8359)                 (-9.9127)                (-2.2286)
+        ROE                     -0.0100                  -0.0121**                -0.0238***                 -0.0088
+                               (-0.4251)                 (-2.4918)                 (-4.4150)                (-0.6884)
+       Liquid                 -0.0201***                -0.0019***                -0.0017***                  0.0008
+                               (-14.0007)                (-6.9107)                 (-4.8449)                 (1.0429)
+     Intangible                 -0.1055                 -0.1462***                -0.1704***               -0.2145***
+                               (-1.3978)                 (-9.5869)                 (-9.7347)                (-5.0994)
+        RCA                     -0.0021                   0.0014                  0.0049***                   0.0022
+                               (-0.3503)                 (1.2251)                  (3.3013)                  (0.6444)
+         FL                     0.0042*                   0.0001                   0.0010*                    0.0011
+                                (1.7874)                 (0.2684)                  (1.8783)                  (0.7326)
+
+===== PDF第13页 =====
+       Board                     0.0197                    0.0015                    -0.0074                   0.0087
+                                (0.9028)                  (0.3350)                  (-1.5099)                 (0.7474)
+        Indep                    0.0573                    0.0197                    0.0096                    0.0500
+                                (0.8779)                  (1.5017)                  (0.6723)                  (1.4490)
+        Dual                   -0.0172**                   -0.0000                   -0.0002                 -0.0074**
+                                (-2.4842)                 (-0.0128)                 (-0.1030)                 (-2.1092)
+      Firm FE                     YES                       YES                       YES                       YES
+      Year FE                     YES                       YES                       YES                       YES
+        _cons                  -0.3044**                 0.1999***                 0.3112***                 0.2595***
+                                (-2.5433)                 (7.7228)                  (11.0975)                 (3.9651)
+          N                      24004                      17139                     18179                     5466
+         R2                       0.277                     0.153                     0.172                     0.148
+
+Note: *** p<0.01, ** p<0.05, * p<0.1, t-statistics in parentheses.
+
+4.3 Intermediation mechanism test
+      This paper separately tests the possible mediating role of overconfidence and financing
+constraints  in  the  impact  of         CEO's  financial  background             on  the  financialization  of  entity
+enterprises, and the regression results are shown in Table 6. The coefficient of the effect of CEO's
+financial background        on overconfidence in column (1) is 0.0455, which passes the significance
+test at the 1% level, indicating that CEO's financial background significantly increases the level of
+managerial overconfidence; the coefficient of the effect of overconfidence on the financialization
+of entity enterprises in column (2) is 0.0023, indicating that overconfidence significantly increases
+the level of financialization of entity enterprises. The benchmark regression together with the
+results  in  (1)  and  (2)  indicate  that        the  CEO's  financial  background             increases  the  level  of
+financialization of entity enterprises by significantly increasing overconfidence and hypothesis H2
+is confirmed. Similarly, the coefficient of the effect of CEO's financial background on financing
+constraints in column (3) is -0.0076, which passes the significance test at the 1% level, indicating
+that CEO's financial background significantly reduces the financing constraints faced by firms;
+and  the  coefficient  of  the  effect  of  financing  constraints  on  the  financialization  of  entity
+enterprises in column (4) is -0.0724, which suggests that financing constraints significantly reduce
+the level of financialization of entity enterprises. The benchmark regression together with the
+results  in  (3)  and  (4)  indicate  that  the         CEO's  financial  background            increases  the  level  of
+financialization of entity enterprises by significantly reducing the financing constraints of firms,
+and hypothesis H3 is confirmed.
+                                                 Table 6 Mechanism tests
+                                   (1)                       (2)                       (3)                       (4)
+                                   OC                    FINRATIO                      SA                    FINRATIO
+      CEOFIN                   0.0455***                 0.0073***                 -0.0076***                0.0068***
+                                (2.5798)                  (3.3133)                  (-3.1272)                 (3.1186)
+         OC                                              0.0023***
+                                                          (2.6036)
+         SA                                                                                                  -0.0724***
+                                                                                                             (-11.4295)
+        Size                   0.0529***                 -0.0098***                0.0049***                 -0.0093***
+
+===== PDF第14页 =====
+                                (6.4180)                 (-9.5347)                  (4.2652)                 (-9.1073)
+         Lev                   0.6801***                -0.0601***                  -0.0097*                -0.0593***
+                               (17.7297)                 (-12.4934)                (-1.8268)                 (-12.4491)
+        ROE                    0.8655***                -0.0205***                  -0.0065                 -0.0190***
+                               (23.3432)                 (-4.3782)                 (-1.2745)                 (-4.1232)
+       Liquid                 -0.0130***                -0.0015***                 0.0051***                -0.0012***
+                               (-5.7425)                 (-5.4036)                 (16.2518)                 (-4.1917)
+     Intangible               -0.4300***                -0.1552***                 0.0890***                -0.1497***
+                               (-3.6248)                 (-10.5027)                 (5.4190)                 (-10.1606)
+        RCA                    0.3955***                   0.0015                 -0.0107***                   0.0016
+                               (41.6788)                  (1.2206)                 (-8.1571)                  (1.3842)
+         FL                   -0.0323***                 0.0013***                   0.0007                  0.0013***
+                               (-8.6741)                  (2.8051)                  (1.3383)                  (2.7669)
+       Board                   0.0792**                   -0.0024                    0.0010                   -0.0022
+                                (2.3108)                 (-0.5726)                  (0.2174)                 (-0.5143)
+        Indep                    0.0619                    0.0129                   0.0277*                    0.0150
+                                (0.6040)                  (1.0105)                  (1.9519)                  (1.1822)
+        Dual                     0.0122                   -0.0009                  0.0076***                  -0.0004
+                                (1.1160)                 (-0.6857)                  (5.0146)                 (-0.2625)
+      Firm FE                     YES                       YES                       YES                       YES
+      Year FE                     YES                       YES                       YES                       YES
+        _cons                 -1.0988***                 0.2707***                -3.6009***                   0.0077
+                               (-5.8398)                 (11.5476)                (-138.2695)                 (0.2353)
+          N                      24004                     24004                     24004                     24004
+         R2                       0.173                    0.172                     0.853                     0.177
+
+Note: *** p<0.01, ** p<0.05, * p<0.1, t-statistics in parentheses.
+
+4.4 Heterogeneity analysis
+      Entity firms are classified into state-owned and non-state-owned firms to examine how
+different firm natures would make the effect of CEO's financial background on the financialization
+of entity firms exhibit heterogeneity, and the regression results are shown in columns (1) and (2)
+of Table 7. In the sample of state-owned enterprises, the coefficient of the impact of CEO's
+financial background on the financialization of entity enterprises is 0.0049, but it does not pass the
+significance test at any level; in the sample of non-state-owned enterprises, the coefficient of the
+impact of     CEO's financial background             on the financialization of entity enterprises is 0.0100,
+which passes the significance test at the 1% level. It can be seen that the impact of CEO's financial
+background      on  the  financialization  of  entity  enterprises  is  greater  in  non-state-owned  firms
+compared to the sample of state-owned firms.
+      State-owned enterprises (SOEs) tend to be subject to more government intervention and
+policy guidance due to their special property rights structure and business objectives (Lin et al.,
+2020). Such intervention and guidance limit the CEO's autonomy in the decision-making process
+to a certain extent, especially in financial investment and capital operation (Helmich and Gilroy,
+2012). Therefore, even if the CEO has a rich financial background, his or her influence on the
+financialization of the firm may be constrained to a certain extent. However, in non-state-owned
+
+===== PDF第15页 =====
+enterprises, CEOs have relatively greater decision-making power, and their business objectives are
+more inclined to maximize economic benefits (Zhou et al., 2017). When CEOs have a financial
+background, they are better able to utilize their professional knowledge and experience to grasp
+market opportunities and make financial investments and capital operations. In this context, the
+financial background of CEOs has a more obvious role in promoting the financialization of entity
+enterprises. In addition, the financing environment faced by non-state-owned enterprises is usually
+more severe, especially in obtaining bank loans and capital market financing (Tan et al., 2014).
+CEOs  with  financial  backgrounds  are  more  likely  to  optimize  the  resource  allocation  of
+enterprises and improve operational efficiency through financialization.
+      The cash flow status of the enterprise will be more limited to the play of the CEO's financial
+background      and strength, thus making the impact of the                 CEO's financial background             on the
+financialization of the entity enterprise show obvious heterogeneity. Based on the mean value of
+the enterprise's cash flow, entity enterprises are divided into high cash flow enterprises and low
+cash flow enterprises, and regression analysis is carried out separately, and the regression results
+are shown in columns (3) and (4) of Table 7. In the sample of high cash flow firms, the coefficient
+of the impact of CEO's financial background on the financialization of entity firms is 0.0049, but
+it does not pass the test of significance at any level; in the sample of low cash flow firms, the
+coefficient of the impact of CEO's financial background on the financialization of entity firms is
+0.0054, which passes the test of significance at the 1% level. It can be seen that the effect of
+CEO's financial background on the financialization of entity enterprises is greater in the low cash
+flow firms compared to the high cash flow firms sample.
+      From the perspective of firms' financial health, high cash-flow firms                        usually have more
+abundant working capital and stable capital flows, and therefore have greater flexibility and
+autonomy in their financial investment decisions (Almeida et al., 2004). Low cash flow firms, on
+the  other  hand,  tend  to  face  capital  shortages           and  financing  pressures,  and  their  financial
+investment decisions are more likely to be constrained by their capital position (Das et al., 2013).
+Against this background, the role of CEOs with a financial background in low-cash-flow firms is
+particularly important. With their profound financial knowledge and experience, they can more
+accurately  assess  the  firm's  capital  situation  and  market  environment,  and  formulate  a
+financialization strategy that is more in line with the reality of the firm. They are not only able to
+utilize the limited funds for investment more efficiently, but also able to improve the capital status
+of the enterprise and alleviate the financing pressure through reasonable capital operation (Sheikh,
+2022).
+                                             Table 7 Heterogeneity analysis
+                                (1)                         (2)                      (3)                      (4)
+                      nationalized business        non-state enterprise        high cash flow           low cash flow
+                            FINRATIO                   FINRATIO                 FINRATIO                  FINRATIO
+    CEOFIN                    0.0049                   0.0100***                   0.0049                  0.0054**
+                             (1.6326)                    (3.2910)                 (0.9392)                 (2.4182)
+      Size                  -0.0051***                 -0.0129***               -0.0089***                -0.0071***
+                             (-3.5331)                  (-8.7775)                (-3.0401)                 (-6.8521)
+      Lev                   -0.0767***                 -0.0456***               -0.0654***                -0.0559***
+                            (-11.4166)                  (-6.8179)                (-4.7322)                (-11.2870)
+      ROE                   -0.0325***                   -0.0070                  -0.0012                 -0.0272***
+
+===== PDF第16页 =====
+                              (-5.2043)                   (-1.0668)                 (-0.0946)                 (-6.0338)
+     Liquid                   -0.0010                   -0.0010***                   -0.0003                 -0.0033***
+                              (-1.6266)                   (-2.8788)                 (-0.4972)                 (-6.4801)
+   Intangible               -0.1183***                  -0.1683***                -0.1908***                 -0.1550***
+                              (-6.1782)                   (-7.7882)                 (-4.2951)                (-10.6298)
+      RCA                    0.0054***                     0.0013                    -0.0008                 0.0051***
+                              (3.2026)                    (0.8171)                  (-0.3264)                 (3.8537)
+       FL                     0.0010*                     0.0015*                  0.0059***                  0.0008**
+                              (1.9283)                    (1.9333)                  (2.7784)                  (2.0516)
+     Board                     0.0001                      -0.0073                 -0.0227**                   0.0058
+                              (0.0185)                    (-1.1636)                 (-2.0705)                 (1.3694)
+      Indep                    0.0105                      0.0232                   -0.0594*                  0.0219*
+                              (0.6713)                    (1.1888)                  (-1.8092)                 (1.7364)
+      Dual                     0.0003                      -0.0016                   0.0015                    -0.0017
+                              (0.1344)                    (-0.9299)                 (0.4423)                  (-1.2071)
+    Firm FE                     YES                         YES                       YES                       YES
+    Year FE                     YES                         YES                       YES                       YES
+      _cons                  0.1840***                   0.3208***                 0.3065***                 0.1946***
+                              (5.5625)                    (9.6537)                  (4.7234)                  (8.2064)
+        N                       9406                       14598                      7821                     16183
+       R2                       0.146                       0.193                     0.298                     0.107
+
+Note: *** p<0.01, ** p<0.05, * p<0.1, t-statistics in parentheses.
+
+5. Conclusions and implications
+      5.1 Conclusions
+      This  paper  focuses  on  the  impact  of            CEO's  financial  background            on  entity  enterprises
+financialization. The panel data of 3919 A-share listed enterprises from 2008-2022 is used to carry
+out empirical analyses,        explore the causal relationship between the two, explicate mechanism,
+and examine the asymmetric influence under different conditions. The main research conclusions
+are  as  follows.  (1)       The  CEO's  financial  background               significantly  increases  the  level  of
+financialization of entity enterprises. This effect still holds significantly after multiple robustness
+tests of replacing the explanatory variables, adjusting the research window period, lagging the
+dependent  variable  by  one  period,  and  PSM-DID.  (2)                       The  CEO's  financial  background
+significantly increases the level of financialization of entity enterprises mainly through two paths:
+increasing managerial overconfidence and alleviating corporate finance constraints. (3) The effect
+of CEO's financial background on the financialization of entity enterprises is more pronounced in
+non-state-owned firms and low-cash-flow firms.
+
+      5.2 Policy implications
+      The findings of this paper point out that CEO's financial background significantly increases
+the level of financialization of entity enterprises. While making full use of                        the CEO's financial
+background to promote the financialization of entity enterprises, enterprises need to be alert to the
+risk  of  excessive  financialization.  Therefore,  it  is  suggested  that  when  selecting  CEOs  with
+financial backgrounds, enterprises should emphasize their understanding of and commitment to
+
+===== PDF第17页 =====
+the development of the main business of the entity, in addition to their financial expertise. In the
+decision-making  process,  CEOs  should  adequately  weigh  the  relationship  between  financial
+investment and the development of the main business, and ensure that the financial activities serve
+the sound development of the main business, instead of over-pursuing the financial gains and
+neglecting the main business.
+      Enterprises should establish a scientific decision-making mechanism to avoid CEOs making
+overly risky financial investment decisions due to overconfidence. The CEO's decisions can be
+supervised and checked through the establishment of a decision-making advisory committee and
+the introduction of external expert consultants. At the same time, the construction of corporate
+culture should be strengthened to advocate rational and sound business concepts, to reduce the
+phenomenon of overconfidence from the source. In response to the mechanism of easing the role
+of corporate financing constraints, enterprises should make full use of the advantages of the CEO's
+financial  background,  strengthen  cooperation  with  financial  institutions,  broaden  financing
+channels, and reduce financing costs. At the same time, optimize the internal financing structure of
+the enterprise, improve the efficiency of capital use, and reduce the financing risk. In addition,
+enterprises can also improve their credit rating among financial institutions by establishing a credit
+rating system and improving the quality of information disclosure, to obtain more financing
+support.
+      For  non-state-owned  enterprises,  they  should  adhere  to  their  main  business  orientation,
+ensure that financial activities serve the sound development of their main business, and avoid the
+blind pursuit of financial gains. Enhancing the financial literacy of management will help to view
+the financialization process more rationally and avoid excessive speculation. At the same time,
+optimize the corporate governance structure, play the role of supervision and checks and balances,
+and ensure the science and compliance of CEO decision-making. For low-cash-flow enterprises,
+they should improve their cash-flow situation by optimizing financial management and improving
+operational efficiency. At the same time, it actively seeks cooperation with financial institutions
+and utilizes the advantage of the CEO's financial background to broaden financing channels and
+alleviate financing constraints. In addition, the enterprise can also consider attracting more capital
+into it by introducing strategic investors and implementing equity incentives to provide financial
+support for the financialization process of the enterprise.
+
+
+
+===== PDF第18页 =====
+Reference
+Adam, T. R., Fernando, C. S., & Golubeva, E. (2015). Managerial overconfidence and corporate
+      risk management. journal of Banking & Finance, 60, 195-208.
+Almeida, H., Campello, M., & Weisbach, M. S. (2004). The cash flow sensitivity of cash. the
+      journal of finance, 59(4), 1777-1804.
+Baron, R. M., & Kenny, D. A. (1986). The moderator-mediator variable distinction in social
+      psychological  research:       Conceptual,  strategic,  and  statistical  considerations.  Journal  of
+      personality and social psychology, 51(6), 1173.
+Basagaña, X., & Barrera-Gómez, J. (2022). Reflection on modern methods: visualizing the effects
+      of collinearity in distributed lag models. International Journal of Epidemiology, 51(1), 334-
+      344.
+Carpenter, M. A., Geletkanycz, M. A., & Sanders, W. G. (2004). Upper echelons research revisited:
+      Antecedents, elements, and consequences of top management team composition. journal of
+      management, 30(6), 749- 778.
+Chen,  C.,  Gu,  J.,  &  Lobo,  G.  J.  (2024,  April).  Power  needs  knowledge:  CEO  knowledge
+      background and goodwill impairment. In Accounting Forum (pp. 1-45). Routledge.
+Chen, S., Han, X., & Reda, A. (2024). CEO's early-life famine experience and tunneling: Evidence
+      from China. Journal of International Financial Management & Accounting.
+Cheng, C., Zhang, S., & Liu, G. (2023). Family business origin and investment preference: an
+      empirical study of imprinting theory. The British Accounting Review, 101273.
+Das, S., Hong, K., & Kim, K. (2013). Earnings smoothing, cash flow volatility, and CEO cash
+      bonus. financial review, 48(1), 123-150.
+Ding, Y., An, H., & Wang, Y. (2023, October). Fintech disclosure: true statement or exaggerated
+      statement?  In  3rd  International  Conference  on  Internet  Finance  and  Digital  Economy
+      (ICIFDE 2023) (pp. 60-73). Atlantis Press.
+Gao, Y., Wang, Z., Wang, K., Zhang, R., & Lu, Y. (2023). Effect of big data on enterprise
+      financialization: Evidence from China's SMEs. technology in society, 75, 102351.
+Gu, Y., Zhang, W., Sha, L., & Wang, L. (2023). Research on corporate financialization and green
+      innovation: moderating the role of CEO's individual characteristics. Chinese Management
+      Research on corporate financialization and green innovation: moderating the role of CEO's
+      individual characteristics.
+Hadlock, C. J., & Pierce, J. R. (2010). New evidence on measuring financial constraints: Moving
+      beyond the KZ index. the review of financial studies, 23(5), 1909-1940.
+Hambrick, D. C. (2007). Upper echelons theory: an update. academy of management review,
+      32(2), 334-343.
+Hambrick, D. C., & Mason, P. A. (1984). Upper echelons: the organization as a reflection of its
+      top managers. academy of management review, 9(2), 193-206.
+Helmich, D. L., & Gilroy, K. R. (2012). CEO succession and organizational transitions: case of
+      state-owned enterprises. chinese management studies, 6(4), 568-581.
+Jiang, X., Zhu, J., Akbar, A., Hou, Z., & Bao, X. (2022). The dark side of executives' professional
+      background: Evidence from Chinese firm's stock price crash risk. Managerial and Decision
+      Economics, 43(8), 3771-3784. 3771-3784.
+Jiang, X., Zhu, J., Akbar, A., Hou, Z., & Bao, X. (2022). The dark side of executives' professional
+      background: Evidence from Chinese firm's stock price crash risk. Managerial and Decision
+      Economics, 43(8), 3771-3784. 3771-3784.
+Kramer, L. A., & Liao, C. M. (2016). The spillover effects of management overconfidence on
+      analyst forecasts. Journal of Behavioral and Experimental Finance, 12, 79-92.
+Li, T., Li, X., & Albitar, K. (2021). Threshold effects of financialization on enterprise R & D
+      innovation: a comparison research on heterogeneity. quantitative Finance and Economics ,
+      5(3), 496-515.
+Li, W., Wu, C., Xu, L., & Tang, Q. (2017). Bank connection              s and the speed of leverage adjustment:
+      evidence from China's listed firms. Accounting & Finance, 57(5), 1349-1381.
+Lin, K. J., Lu, X., Zhang, J., & Zheng, Y. (2020). State         -owned enterprises in China: A review of 40
+      years of research and practice. China Journal of accounting research, 13(1), 31               -55.
+Liu,  B.,  Zhou,  W.,  Chan,  K.  C.,  &  Chen,  Y.  (2020).  Corporate  executives  with  financial
+      backgrounds: the crowding-out effect on innovation investment and outcomes. Journal of
+      Business Research, 109, 161-173. 161-173.
+
+===== PDF第19页 =====
+Liu, Y., Failler, P., & Ding, Y. (2022). Enterprise financialization and technological innovation:
+      Mechanism and heterogeneity. PloS One, 17(12), e0275461.
+Lun, B. (2022, January). Research on            CEO's financial background, Corporate Performance and
+      Financialization of Entity Enterprises. In International Conference on Decision Science &
+      Management (pp. 431-443). Singapore: Springer Nature Singapore.
+Marquis, C., & Tilcsik, A. (2013). Imprinting: towards a multilevel theory. the Academy of
+      Management Annals, 7(1), 195-245.
+Mathias, B. D., Williams, D. W., & Smith, A. R. (2015). Entrepreneurial inception: the role of
+      imprinting in entrepreneurial action. journal of business venturing, 30(1), 11-28.
+Oradi, J., Asiaei, K., & Rezaee, Z. (2020).              CEO's financial      background      and internal control
+      weaknesses. corporate governance: an international review, 28(2), 119-140.
+Patten, M. M., Ross, L., Curley, J. P., Queller, D. C., Bonduriansky, R., & Wolf, J. B. (2014). The
+      evolution of genomic imprinting: theories, predictions and empirical tests. Heredity, 113(2),
+      119-128.
+Qi, Y., Yang, Y., Yang, S., & Lyu, S. (2021). Does government funding promote or inhibit the
+      financialization  of  manufacturing  enterprises?  Evidence  from  listed  Chinese  enterprises.
+      American journal of economics and finance, 58, 101463.
+Russo, J. E., & Schoemaker, P. J. (1992). Managing overconfidence. sloan management review,
+      33(2), 7-17.
+Shan, Y., Shi, D., & Xu, S. (2024). Do imprinting effects on CEOs affect tourism and hospitality
+      enterprises'    corporate   innovation?   International   Journal   of   Contemporary   Hospitality
+      Management.
+Sheikh, S. (2022). CEO power and the likelihood of paying dividends: effect of profitability and
+      cash flow volatility. Journal of Corporate Finance, 73, 102186.
+Sisli-Ciamarra, E. (2012). Monitoring by affiliated bankers on board of directors: evidence from
+      corporate financing outcomes. financial management, 41(3), 665-702.
+Song, Y., & Wu, R. (2022). The impact of financial enterprises' excessive financialization risk
+      assessment for risk control based on data mining and machine Computational Economics,
+      60(4), 1245-1267.
+Tan, Y., Zhu, Z., Zeng, C., & Gao, M. (2014). Does external finance pressure affect corporate
+      disclosure  of  Chinese  non-state-owned  enterprises?  International                 Review  of  Financial
+      Analysis, 36, 212-222.
+Waldman, D. A., Javidan, M., & Varella, P. (2004). Charismatic leadership at the strategic level: a
+      new application of upper echelons theory. the leadership quarterly, 15(3), 355-380.
+Wang, G., Holmes Jr, R. M., Oh, I. S., & Zhu, W. (2016). Do CEOs matter to firm strategic actions
+      and  firm  performance?  a  meta-analytic  investigation  based  on  upper  echelons  theory.
+      personnel Psychology, 69(4), 775-862.
+Whitler,  K.  A.,  Lee,  B.,  Krause,  R.,  &  Morgan,  N. A.  (2021).  Upper  echelons  research  in
+      marketing. Journal of the Academy of Marketing Science, 49, 198-219.
+Wu,  X.,  &  Hu,  W.  (2021).  Bank  Background  CEO  and  Enterprise  Short-Term  Loan  and
+      Long-Term Investment. Scientific and Social Research, 3(5), 83-90.
+Xu, G., Li, G., Sun, P., & Peng, D. (2023). Inefficient investment and digital transformation: what
+      is the role of financing constraints? Finance Research Letters, 51, 103429.
+Xu, S., & Guo, L. (2023). Financialization and corporate performance in China: promotion or
+      inhibition? Abacus, 59(3), 776-817.
+Yang, C.,Ya, X., Li, Y., Zhao, Y., & Liu, S. (2021). CEO financial career and corporate innovation:
+      Evidence from China. International Review of Economics & Finance, 74, 81-102.
+Zheng,  Z.  L.,  Gao,  X.,  &  Ruan,  X.  L.  (2019).  Does  economic  financialization  lead  to  the
+      alienation of enterprise investment behavior? Evidence from China. Physica A: Statistical
+      Mechanics and Its Applications, 536, 120858.
+Zhong, H., Al-Duais, Z. A. M., & Peng, B. (2023). The impact of idiosyncratic risk on corporate
+      financialisation--Evidence  from  China.  International  Review  of  Financial  Analysis,  86,
+      102491.
+Zhong, W., & Yan, W. (2022). An Empirical Study on the Impact of CFO Overconfidence on
+      Corporate Financial Risk: Empirical Evidence from Chinese                   Listed Companies. Journal of
+      Economics, Business and Management, 10(2), 104-109.
+Zhou, F., Fan, Y., An, Y., & Zhong, L. (2017). Independent directors, non-controlling directors,
+
+===== PDF第20页 =====
+and  executive  pay-for-performance  sensitivity:  Evidence  from  Chinese  non-state  owned
+enterprises. Pacific-Basin Finance Journal, 43, 55-71.
+
