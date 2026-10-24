@@ -1,231 +1,33 @@
 {
-  "nodes": [
-    {
-      "id": "overview",
-      "type": "text",
-      "x": 420,
-      "y": 0,
-      "width": 720,
-      "height": 220,
-      "text": "曲面观策｜模型构建与面试\n\n四条能力：数据治理、数值曲面、风险状态、图谱解释。\n从20课学习路线开始，不把历史证据等同当前复现。\n\n[[曲面观策项目学习与面试/00-20课学习路线|00-20课学习路线]]",
-      "color": "4"
-    },
-    {
-      "id": "data",
-      "type": "text",
-      "x": 0,
-      "y": 320,
-      "width": 480,
-      "height": 230,
-      "text": "① 原始数据\n\n225,933,254行 / 24列 / 35品种\n合并与8581分区选一套；先确认粒度和单位。\n\n[[曲面观策项目学习与面试/01-项目与数据/02-原始数据定位与24列字典|02-原始数据定位与24列字典]]",
-      "color": "5"
-    },
-    {
-      "id": "clean",
-      "type": "text",
-      "x": 570,
-      "y": 320,
-      "width": 480,
-      "height": 230,
-      "text": "② 读取与清洗\n\n品种、时间、主键、报价、DTE、IV下限。\ncleaned是全部清洗合约，nodes是OTM/ATM节点。\n\n[[曲面观策项目学习与面试/02-循序学习/核心01-从一条期权报价到可分析的干净样本|核心01-从一条期权报价到可分析的干净样本]]",
-      "color": "5"
-    },
-    {
-      "id": "case",
-      "type": "text",
-      "x": 1140,
-      "y": 320,
-      "width": 480,
-      "height": 230,
-      "text": "真实白银案例\n\nAG 2025-04-07 10:15\n2级，未新发通知；IV仅3/6期限可用。\n\n[[曲面观策项目学习与面试/04-面试与验证/00-真实AG案例完整拆解|00-真实AG案例完整拆解]]",
-      "color": "3"
-    },
-    {
-      "id": "fit",
-      "type": "text",
-      "x": 0,
-      "y": 700,
-      "width": 480,
-      "height": 250,
-      "text": "③ IV拟合与Greeks网格\n\nw=IV²T；SSVI→按资格逐期限回退。\n允许不可用；Greeks来自上游并独立插值。\n\n[[曲面观策项目学习与面试/02-循序学习/11-拟合与降级：从SSVI到可解释的失败|11-拟合与降级：从SSVI到可解释的失败]]",
-      "color": "4"
-    },
-    {
-      "id": "features",
-      "type": "text",
-      "x": 570,
-      "y": 700,
-      "width": 480,
-      "height": 250,
-      "text": "④ 风险特征与严格历史\n\n12项正式证据，cleaned与nodes分别供数。\n逐信号滚动分位再shift，未先按data_ready筛历史。\n\n[[曲面观策项目学习与面试/02-循序学习/核心03-12项风险证据逐项算给你看|核心03-12项风险证据逐项算给你看]]",
-      "color": "2"
-    },
-    {
-      "id": "offline",
-      "type": "text",
-      "x": 1140,
-      "y": 700,
-      "width": 480,
-      "height": 250,
-      "text": "离线评价支路\n\n标签2—8位置；固定训练/验证/测试，跨界purge。\n逻辑回归是对照，代理CVaR含半仓机械效果。\n\n[[曲面观策项目学习与面试/02-循序学习/核心08-离线Pipeline与单时点Agent的完整关系|核心08-离线Pipeline与单时点Agent的完整关系]]",
-      "color": "6"
-    },
-    {
-      "id": "decision",
-      "type": "text",
-      "x": 570,
-      "y": 1080,
-      "width": 480,
-      "height": 230,
-      "text": "⑤ 正式风险状态机\n\n参数预注册，阈值随历史变化。\n等级、压力、新通知、片段与事件分别解释。\n\n[[曲面观策项目学习与面试/02-循序学习/核心06-预警状态通知与评价怎样避免混淆|核心06-预警状态通知与评价怎样避免混淆]]",
-      "color": "2"
-    },
-    {
-      "id": "graph",
-      "type": "text",
-      "x": 0,
-      "y": 1450,
-      "width": 480,
-      "height": 250,
-      "text": "⑥ 四层知识图谱\n\nEvidence→Anomaly→Mechanism→Conclusion\n固定业务规则与查询；不是LLM或因果学习。\n\n[[曲面观策项目学习与面试/02-循序学习/21 - 动态知识图谱的机制与推理边界|21 - 动态知识图谱的机制与推理边界]]",
-      "color": "4"
-    },
-    {
-      "id": "ui",
-      "type": "text",
-      "x": 570,
-      "y": 1450,
-      "width": 480,
-      "height": 250,
-      "text": "⑦ 用户可见系统\n\n品种→可用时点→确认；六个页签。\n自然语言说明与底层审计证据相互对应。\n\n[[曲面观策项目学习与面试/02-循序学习/23 - 界面、真实案例与35品种验收|23 - 界面、真实案例与35品种验收]]",
-      "color": "5"
-    },
-    {
-      "id": "proof",
-      "type": "text",
-      "x": 1140,
-      "y": 1450,
-      "width": 480,
-      "height": 250,
-      "text": "验证与可复现\n\n本轮739通过，1项PowerShell用例未执行。\n35/35是历史最新时点功能验收，非全历史收益。\n\n[[曲面观策项目学习与面试/04-面试与验证/05-本轮验证记录|05-本轮验证记录]]",
-      "color": "3"
-    },
-    {
-      "id": "interview",
-      "type": "text",
-      "x": 420,
-      "y": 1850,
-      "width": 720,
-      "height": 230,
-      "text": "最终能讲清楚什么\n\n输入粒度→数值方法→特征→状态→解释→验证→局限。\n45道综合题＋25道拟合题＋逐文件追问与10组实验。\n\n[[曲面观策项目学习与面试/04-面试与验证/03-面试追问与回答|03-面试追问与回答]]",
-      "color": "6"
-    }
-  ],
-  "edges": [
-    {
-      "id": "e0",
-      "fromNode": "overview",
-      "fromSide": "bottom",
-      "toNode": "data",
-      "toSide": "top"
-    },
-    {
-      "id": "e1",
-      "fromNode": "overview",
-      "fromSide": "bottom",
-      "toNode": "clean",
-      "toSide": "top"
-    },
-    {
-      "id": "e2",
-      "fromNode": "data",
-      "fromSide": "bottom",
-      "toNode": "clean",
-      "toSide": "top"
-    },
-    {
-      "id": "e3",
-      "fromNode": "clean",
-      "fromSide": "bottom",
-      "toNode": "fit",
-      "toSide": "top"
-    },
-    {
-      "id": "e4",
-      "fromNode": "clean",
-      "fromSide": "bottom",
-      "toNode": "features",
-      "toSide": "top"
-    },
-    {
-      "id": "e5",
-      "fromNode": "features",
-      "fromSide": "bottom",
-      "toNode": "offline",
-      "toSide": "top"
-    },
-    {
-      "id": "e6",
-      "fromNode": "features",
-      "fromSide": "bottom",
-      "toNode": "decision",
-      "toSide": "top"
-    },
-    {
-      "id": "e7",
-      "fromNode": "decision",
-      "fromSide": "bottom",
-      "toNode": "graph",
-      "toSide": "top"
-    },
-    {
-      "id": "e8",
-      "fromNode": "decision",
-      "fromSide": "bottom",
-      "toNode": "ui",
-      "toSide": "top"
-    },
-    {
-      "id": "e9",
-      "fromNode": "fit",
-      "fromSide": "bottom",
-      "toNode": "ui",
-      "toSide": "top"
-    },
-    {
-      "id": "e10",
-      "fromNode": "graph",
-      "fromSide": "bottom",
-      "toNode": "ui",
-      "toSide": "top"
-    },
-    {
-      "id": "e11",
-      "fromNode": "ui",
-      "fromSide": "bottom",
-      "toNode": "proof",
-      "toSide": "top"
-    },
-    {
-      "id": "e12",
-      "fromNode": "proof",
-      "fromSide": "bottom",
-      "toNode": "interview",
-      "toSide": "top"
-    },
-    {
-      "id": "e13",
-      "fromNode": "graph",
-      "fromSide": "bottom",
-      "toNode": "interview",
-      "toSide": "top"
-    },
-    {
-      "id": "e14",
-      "fromNode": "case",
-      "fromSide": "bottom",
-      "toNode": "features",
-      "toSide": "top"
-    }
-  ]
+	"nodes":[
+		{"id":"overview","type":"text","x":420,"y":0,"width":720,"height":220,"text":"曲面观策｜模型构建与面试\n\n四条能力：数据治理、数值曲面、风险状态、图谱解释。\n从20课学习路线开始，不把历史证据等同当前复现。\n\n[[曲面观策项目学习与面试/00-20课学习路线|00-20课学习路线]]","color":"4"},
+		{"id":"data","type":"text","x":0,"y":320,"width":480,"height":230,"text":"① 原始数据\n\n225,933,254行 / 24列 / 35品种\n合并与8581分区选一套；先确认粒度和单位。\n\n[[曲面观策项目学习与面试/01-项目与数据/02-原始数据定位与24列字典|02-原始数据定位与24列字典]]","color":"5"},
+		{"id":"clean","type":"text","x":570,"y":320,"width":480,"height":230,"text":"② 读取与清洗\n\n品种、时间、主键、报价、DTE、IV下限。\ncleaned是全部清洗合约，nodes是OTM/ATM节点。\n\n[[曲面观策项目学习与面试/02-循序学习/核心01-从一条期权报价到可分析的干净样本|核心01-从一条期权报价到可分析的干净样本]]","color":"5"},
+		{"id":"case","type":"text","x":1140,"y":320,"width":480,"height":230,"text":"真实白银案例\n\nAG 2025-04-07 10:15\n2级，未新发通知；IV仅3/6期限可用。\n\n[[曲面观策项目学习与面试/04-面试与验证/00-真实AG案例完整拆解|00-真实AG案例完整拆解]]","color":"3"},
+		{"id":"fit","type":"text","x":0,"y":700,"width":480,"height":250,"text":"③ IV拟合与Greeks网格\n\nw=IV²T；SSVI→按资格逐期限回退。\n允许不可用；Greeks来自上游并独立插值。\n\n[[曲面观策项目学习与面试/02-循序学习/11-拟合与降级：从SSVI到可解释的失败|11-拟合与降级：从SSVI到可解释的失败]]","color":"4"},
+		{"id":"features","type":"text","x":570,"y":700,"width":480,"height":250,"text":"④ 风险特征与严格历史\n\n12项正式证据，cleaned与nodes分别供数。\n逐信号滚动分位再shift，未先按data_ready筛历史。\n\n[[曲面观策项目学习与面试/02-循序学习/核心03-12项风险证据逐项算给你看|核心03-12项风险证据逐项算给你看]]","color":"2"},
+		{"id":"offline","type":"text","x":1140,"y":700,"width":480,"height":250,"text":"离线评价支路\n\n标签2—8位置；固定训练/验证/测试，跨界purge。\n逻辑回归是对照，代理CVaR含半仓机械效果。\n\n[[曲面观策项目学习与面试/02-循序学习/核心08-离线Pipeline与单时点Agent的完整关系|核心08-离线Pipeline与单时点Agent的完整关系]]","color":"6"},
+		{"id":"decision","type":"text","x":570,"y":1080,"width":480,"height":230,"text":"⑤ 正式风险状态机\n\n参数预注册，阈值随历史变化。\n等级、压力、新通知、片段与事件分别解释。\n\n[[曲面观策项目学习与面试/02-循序学习/核心06-预警状态通知与评价怎样避免混淆|核心06-预警状态通知与评价怎样避免混淆]]","color":"2"},
+		{"id":"graph","type":"text","x":0,"y":1450,"width":480,"height":250,"text":"⑥ 四层知识图谱\n\nEvidence→Anomaly→Mechanism→Conclusion\n固定业务规则与查询；不是LLM或因果学习。\n\n[[曲面观策项目学习与面试/02-循序学习/21 - 动态知识图谱的机制与推理边界|21 - 动态知识图谱的机制与推理边界]]","color":"4"},
+		{"id":"ui","type":"text","x":570,"y":1450,"width":480,"height":250,"text":"⑦ 用户可见系统\n\n品种→可用时点→确认；六个页签。\n自然语言说明与底层审计证据相互对应。\n\n[[曲面观策项目学习与面试/02-循序学习/23 - 界面、真实案例与35品种验收|23 - 界面、真实案例与35品种验收]]","color":"5"},
+		{"id":"proof","type":"text","x":1140,"y":1450,"width":480,"height":250,"text":"验证与可复现\n\n本轮739通过，1项PowerShell用例未执行。\n35/35是历史最新时点功能验收，非全历史收益。\n\n[[曲面观策项目学习与面试/04-面试与验证/05-本轮验证记录|05-本轮验证记录]]","color":"3"},
+		{"id":"interview","type":"text","x":420,"y":1850,"width":720,"height":230,"text":"最终能讲清楚什么\n\n输入粒度→数值方法→特征→状态→解释→验证→局限。\n45道综合题＋25道拟合题＋逐文件追问与10组实验。\n\n[[曲面观策项目学习与面试/04-面试与验证/03-面试追问与回答|03-面试追问与回答]]","color":"6"}
+	],
+	"edges":[
+		{"id":"e0","fromNode":"overview","fromSide":"bottom","toNode":"data","toSide":"top"},
+		{"id":"e1","fromNode":"overview","fromSide":"bottom","toNode":"clean","toSide":"top"},
+		{"id":"e2","fromNode":"data","fromSide":"bottom","toNode":"clean","toSide":"top"},
+		{"id":"e3","fromNode":"clean","fromSide":"bottom","toNode":"fit","toSide":"top"},
+		{"id":"e4","fromNode":"clean","fromSide":"bottom","toNode":"features","toSide":"top"},
+		{"id":"e5","fromNode":"features","fromSide":"bottom","toNode":"offline","toSide":"top"},
+		{"id":"e6","fromNode":"features","fromSide":"bottom","toNode":"decision","toSide":"top"},
+		{"id":"e7","fromNode":"decision","fromSide":"bottom","toNode":"graph","toSide":"top"},
+		{"id":"e8","fromNode":"decision","fromSide":"bottom","toNode":"ui","toSide":"top"},
+		{"id":"e9","fromNode":"fit","fromSide":"bottom","toNode":"ui","toSide":"top"},
+		{"id":"e10","fromNode":"graph","fromSide":"bottom","toNode":"ui","toSide":"top"},
+		{"id":"e11","fromNode":"ui","fromSide":"bottom","toNode":"proof","toSide":"top"},
+		{"id":"e12","fromNode":"proof","fromSide":"bottom","toNode":"interview","toSide":"top"},
+		{"id":"e13","fromNode":"graph","fromSide":"bottom","toNode":"interview","toSide":"top"},
+		{"id":"e14","fromNode":"case","fromSide":"bottom","toNode":"features","toSide":"top"}
+	]
 }

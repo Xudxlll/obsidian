@@ -1,0 +1,273 @@
+{
+  "covered_paths": [
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/__init__.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/__main__.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/agent.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/catalog.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/contracts.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/decision.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/errors.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/provenance.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/dashboard.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/knowledge_schema.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/knowledge_graph.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/graph_queries.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/graph_reasoner.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/graph_explanation.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/graph_visualization.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/validation.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/docs/问题1-Agent图表设计.md",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/docs/问题1-离线报告图表设计.md",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/docs/问题2-知识图谱设计与运行说明.md",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/notebooks/02_knowledge_graph_demo.ipynb"
+  ],
+  "note_paths": [
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/__init__.py - 包公开了什么.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/__main__.py - python -m 的入口.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/agent.py - 唯一业务入口与可信缓存.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/catalog.py - 品种和有效时间目录.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/contracts.py - 模块之间的数据协议.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/decision.py - 动态压力与状态机.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/errors.py - 把失败说清楚.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/provenance.py - 运行身份与样本外证据.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/dashboard.py - Streamlit界面如何连到模型.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/knowledge_schema.py - 图谱词典和十二条规则.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/knowledge_graph.py - 事件中心图的构造和防伪.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/graph_queries.py - 固定查询与精确节点检索.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/graph_reasoner.py - 规则路径枚举和排序.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/graph_explanation.py - 五段式解释与逐句追溯.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/graph_visualization.py - 把四层路径画成可审计主图.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/validation.py - 验收验证了哪一层能力.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/文档 - 问题1-Agent图表设计.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/文档 - 问题1-离线报告图表设计.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/文档 - 问题2-知识图谱设计与运行说明.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/02_knowledge_graph_demo.ipynb - 真实白银事件的演示链.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/02-循序学习/20 - Agent如何把一次请求变成可复核风险判断.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/02-循序学习/21 - 动态知识图谱的机制与推理边界.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/02-循序学习/22 - 可追溯、防未来与运行身份.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/02-循序学习/23 - 界面、真实案例与35品种验收.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/00 - 智能体与图谱阅读导航.md"
+  ],
+  "key_findings": [
+    {
+      "claim": "唯一公开业务Agent，无LLM调用或自由规划，图谱是正式结果后的解释层",
+      "path": "src/option_risk/agent.py",
+      "lines": [
+        689,
+        690,
+        778,
+        782,
+        1187,
+        1283,
+        1257,
+        1276
+      ]
+    },
+    {
+      "claim": "质量压力可引起关注；正式2/3升级不把质量列计为市场信号",
+      "path": "src/option_risk/decision.py",
+      "lines": [
+        58,
+        63,
+        225,
+        240,
+        258,
+        266,
+        299,
+        325
+      ]
+    },
+    {
+      "claim": "3级要求核心>=1.5且>=3市场压力>=1，状态与通知分离",
+      "path": "src/option_risk/decision.py",
+      "lines": [
+        67,
+        78,
+        258,
+        298
+      ]
+    },
+    {
+      "claim": "按月份选分区后还精确截raw.datetime<=timestamp，避免同日未来数据",
+      "path": "src/option_risk/agent.py",
+      "lines": [
+        1222,
+        1241
+      ]
+    },
+    {
+      "claim": "动态历史分位数shift(1)，严格过去；压力有分母下限和上限",
+      "path": "src/option_risk/features.py",
+      "lines": [
+        293,
+        309
+      ]
+    },
+    {
+      "claim": "单事件MultiDiGraph，12项固定规则，压力>=0.90才激活异常",
+      "path": "src/option_risk/knowledge_graph.py",
+      "lines": [
+        334,
+        347,
+        350,
+        366,
+        410,
+        419
+      ]
+    },
+    {
+      "claim": "Anomaly/Mechanism/Consequence语义节点ID不含品种时间，不能直接合并独立事件图",
+      "path": "src/option_risk/knowledge_graph.py",
+      "lines": [
+        532,
+        533,
+        591,
+        604
+      ]
+    },
+    {
+      "claim": "规则路径固定四层三跳，市场可能产后果和预警两条，质量只到置信",
+      "path": "src/option_risk/graph_reasoner.py",
+      "lines": [
+        235,
+        372
+      ]
+    },
+    {
+      "claim": "市场先质量后稳定排序，不是因果概率",
+      "path": "src/option_risk/graph_reasoner.py",
+      "lines": [
+        391,
+        419
+      ]
+    },
+    {
+      "claim": "固定六类只读查询，恢复原图重算规范路径和索引，返回副本",
+      "path": "src/option_risk/graph_queries.py",
+      "lines": [
+        42,
+        139,
+        141,
+        189
+      ]
+    },
+    {
+      "claim": "五段解释确定模板，句首path_id逐句追溯，有限措辞语法非通用语义证明",
+      "path": "src/option_risk/graph_explanation.py",
+      "lines": [
+        164,
+        228,
+        430,
+        503
+      ]
+    },
+    {
+      "claim": "离线run identity内容哈希与实时catalog元数据指纹不同",
+      "path": "src/option_risk/provenance.py",
+      "lines": [
+        100,
+        137,
+        217,
+        261
+      ]
+    },
+    {
+      "claim": "正式验收逐品种只选最新有效时点",
+      "path": "src/option_risk/validation.py",
+      "lines": [
+        1201,
+        1235
+      ]
+    },
+    {
+      "claim": "全局未来验证为逐图时间审计+一个合成行情真实Agent追加未来分区fixture",
+      "path": "src/option_risk/validation.py",
+      "lines": [
+        1030,
+        1110,
+        1127,
+        1131,
+        1181,
+        1188
+      ]
+    },
+    {
+      "claim": "35/35已有结果计数35/36/44，本任务未重跑",
+      "path": "outputs/knowledge_graph_acceptance_full.json",
+      "lines": []
+    },
+    {
+      "claim": "Notebook9个代码单元已保存执行序号1—9，ag单品种事件2级；图输出无image/png，仅text/plain Figure",
+      "path": "notebooks/02_knowledge_graph_demo.ipynb",
+      "lines": [
+        67,
+        93,
+        136,
+        174,
+        418,
+        446
+      ]
+    },
+    {
+      "claim": "真实最新截面无3级，快照3级为synthetic_contract且不计真实表现",
+      "path": "docs/问题2-知识图谱设计与运行说明.md",
+      "lines": [
+        223,
+        229
+      ]
+    },
+    {
+      "claim": "人工解释评分仍待完成，不能宣称>=4/5已通过",
+      "path": "docs/问题2-知识图谱设计与运行说明.md",
+      "lines": [
+        207,
+        221
+      ]
+    },
+    {
+      "claim": "动态阈值rolling并未先按data_ready过滤，逐列有效观测min_periods与目录合格快照计数不同；严格过去由shift(1)保证",
+      "path": "src/option_risk/features.py",
+      "lines": [
+        255,
+        262,
+        293,
+        309
+      ]
+    }
+  ],
+  "source_sha256": {
+    "src/option_risk/__init__.py": "33aadb0c6a4963e0331455d738094a58af145f33e0c92617fadf95dd11a83941",
+    "src/option_risk/__main__.py": "11cf323249f4ba4e79c9fb7660c0979fc91a3822bc5362286376b69808b41195",
+    "src/option_risk/agent.py": "ad35f6c5087a2dc9212231dd60c70f358f2dfec705eeef82ea4ce8374a84b773",
+    "src/option_risk/catalog.py": "6dd174d40b676df187a1356008127a37c838adb8f9e3fd312fb54c7b0de7b5aa",
+    "src/option_risk/contracts.py": "9e7764d505c9af9eae84115d7d1b26916c253d08611f69fa2dff71449d240937",
+    "src/option_risk/decision.py": "180caf76feffaa3c6c1c91556c116109912b85dd9aa4db01310c61d2fffc635d",
+    "src/option_risk/errors.py": "d54e1192ece3ae228797861ae6996c3efdf1897e02aa6de883e97e9ddbd4fffb",
+    "src/option_risk/provenance.py": "a950cfb4ceead2d63ce574c31f5ec2036a43bb09c613fcbb04f0a28a44dd5d31",
+    "src/option_risk/dashboard.py": "b95e1244d7b3521f05aec00a7617f6291298520fb3afe5b248049b1c9b488f43",
+    "src/option_risk/knowledge_schema.py": "22176876c5ac3c3391e491d836eb6f622f92b90f8aaa75594bfe03e6ad82cd34",
+    "src/option_risk/knowledge_graph.py": "d9fc4baa1737fa9c15db6b209f41660604bcb7ce8449b566b35a6f03b6da6d5c",
+    "src/option_risk/graph_queries.py": "e54cdc1655bdefe2931ac2d537f8b07c98e61bd0fc30aa65e2286ff6c1353ac1",
+    "src/option_risk/graph_reasoner.py": "0fb10525458152f1f6602428feb5b956a0473dcb2d5acc47d40643de27fd199a",
+    "src/option_risk/graph_explanation.py": "ad3456f3e1d45e95a26ab32312c25b107ab082e7230c68688e033a1b6d206561",
+    "src/option_risk/graph_visualization.py": "d9f229fa0805b397699813da1bc6426f4508bbb5b2ab1cd8e08406a798ad3028",
+    "src/option_risk/validation.py": "606c5c3f099b4d38b36c0d17029fa329642ea0b16a39a1aaf78f2fa87046b5dd",
+    "docs/问题1-Agent图表设计.md": "02110a0f3e1bfefc5202a44d994e71a95e7f4cc7c31d81dfe139e494a1c52b6d",
+    "docs/问题1-离线报告图表设计.md": "b7d246aa4b33738737052496ff92c249f3537143e573446475e9724d84ad9fad",
+    "docs/问题2-知识图谱设计与运行说明.md": "081ee5ba6b01143053d9c23e81ab9668d9209984f5a36e6ff5f67956578d041f",
+    "notebooks/02_knowledge_graph_demo.ipynb": "2f694e326d4a3b9f86bb8b0edd08079f675f014c5f947cf170d918ad877bcf19"
+  },
+  "verification": {
+    "source_unchanged": true,
+    "full_35_product_acceptance_rerun": false,
+    "notebook_rerun": false,
+    "module_count": 16,
+    "document_count": 3,
+    "notebook_count": 1,
+    "all_definition_anchors_checked": true,
+    "definition_count": 262,
+    "note_count": 25,
+    "total_note_characters": 113603,
+    "math_delimiters_and_control_characters_checked": true
+  }
+}

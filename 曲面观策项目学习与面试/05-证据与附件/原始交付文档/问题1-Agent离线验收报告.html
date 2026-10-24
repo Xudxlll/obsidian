@@ -1,0 +1,564 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; style-src 'unsafe-inline'; img-src data:; connect-src 'none'; script-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <meta name="description" content="问题1单Agent实现、全品种可用性及白银连续三个月离线回测的技术验收报告。">
+  <title>期权波动率曲面风控智能体：问题1离线验收报告</title>
+  <style>
+:root {
+  color-scheme: light;
+  --ink: #172033;
+  --muted: #5f6b7a;
+  --line: #dbe3ee;
+  --paper: #ffffff;
+  --canvas: #f4f7fb;
+  --navy: #102a43;
+  --blue: #2563eb;
+  --blue-soft: #eaf1ff;
+  --green: #15803d;
+  --green-soft: #e9f8ef;
+  --amber: #b45309;
+  --amber-soft: #fff5df;
+  --red: #b91c1c;
+  --red-soft: #feecec;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Microsoft YaHei", "PingFang SC", Arial, sans-serif;
+}
+* { box-sizing: border-box; }
+html { scroll-behavior: smooth; background: var(--canvas); }
+body { margin: 0; color: var(--ink); background: var(--canvas); line-height: 1.65; }
+.page { width: min(1180px, calc(100% - 40px)); margin: 32px auto 64px; }
+.hero { position: relative; overflow: hidden; padding: 48px; color: #fff; background: linear-gradient(135deg, #0f2742, #174f78); border-radius: 24px; box-shadow: 0 20px 55px rgba(15, 39, 66, .18); }
+.hero::after { content: ""; position: absolute; width: 310px; height: 310px; right: -95px; top: -135px; border-radius: 50%; background: rgba(255,255,255,.08); }
+.eyebrow { margin: 0 0 12px; color: #b9ddff; font-size: 13px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+h1 { max-width: 850px; margin: 0; font-size: clamp(31px, 5vw, 52px); line-height: 1.15; letter-spacing: -.025em; }
+.hero-summary { max-width: 880px; margin: 20px 0 0; color: #dcecff; font-size: 17px; }
+.hero-meta { display: flex; flex-wrap: wrap; gap: 10px 20px; margin-top: 28px; color: #c6def2; font-size: 13px; }
+.section { margin-top: 28px; padding: 30px; background: var(--paper); border: 1px solid var(--line); border-radius: 18px; box-shadow: 0 8px 30px rgba(28, 52, 84, .06); }
+.section-heading { display: flex; align-items: end; justify-content: space-between; gap: 24px; margin-bottom: 22px; }
+.section-heading h2 { margin: 0; color: var(--navy); font-size: 25px; letter-spacing: -.015em; }
+.section-heading p { max-width: 670px; margin: 5px 0 0; color: var(--muted); }
+.acceptance-grid { display: grid; grid-template-columns: minmax(240px, .75fr) 2fr; gap: 20px; }
+.acceptance-card { display: grid; place-content: center; min-height: 210px; padding: 24px; text-align: center; background: var(--green-soft); border: 1px solid #b9e5c8; border-radius: 16px; }
+.acceptance-value { color: var(--green); font-size: 48px; font-weight: 800; letter-spacing: -.04em; }
+.acceptance-label { color: #326b46; font-weight: 700; }
+.acceptance-copy { padding: 18px 4px; }
+.acceptance-copy h3 { margin: 0 0 10px; color: var(--navy); font-size: 22px; }
+.acceptance-copy p { margin: 0 0 12px; color: var(--muted); }
+.metrics { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.metric-card { padding: 22px; border: 1px solid var(--line); border-radius: 15px; background: linear-gradient(180deg, #fff, #f8fbff); }
+.metric-topline { display: flex; align-items: start; justify-content: space-between; gap: 12px; color: var(--navy); font-weight: 750; }
+.metric-value { margin-top: 18px; color: var(--blue); font-size: 36px; font-weight: 800; line-height: 1; letter-spacing: -.03em; }
+.metric-target { margin-top: 10px; color: var(--muted); font-size: 13px; }
+.metric-card p { margin: 15px 0 0; color: var(--muted); font-size: 13px; }
+.pill { display: inline-flex; align-items: center; padding: 3px 9px; border-radius: 999px; font-size: 12px; font-weight: 750; white-space: nowrap; }
+.pill.pass { color: var(--green); background: var(--green-soft); }
+.pill.review { color: var(--amber); background: var(--amber-soft); }
+.distribution-wrap { display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(260px, .7fr); gap: 22px; align-items: center; }
+.distribution-chart { display: block; width: 100%; min-height: 260px; border-radius: 14px; background: #f8fafc; }
+.chart-value { fill: var(--ink); font-size: 15px; font-weight: 750; }
+.chart-label { fill: var(--ink); font-size: 13px; font-weight: 700; }
+.chart-share { fill: var(--muted); font-size: 12px; }
+.callout { padding: 20px; color: #28435d; background: var(--blue-soft); border-left: 4px solid var(--blue); border-radius: 10px; }
+.callout strong { display: block; color: var(--navy); margin-bottom: 6px; }
+.table-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: 13px; }
+table { width: 100%; border-collapse: collapse; background: #fff; font-size: 13px; }
+th { padding: 12px 14px; color: #3e5268; background: #f1f5f9; text-align: left; font-size: 12px; letter-spacing: .015em; white-space: nowrap; }
+td { padding: 11px 14px; border-top: 1px solid #e8edf3; vertical-align: middle; white-space: nowrap; }
+tbody tr:hover { background: #f8fbff; }
+.product-code { color: var(--navy); font-weight: 800; }
+.numeric { text-align: right; font-variant-numeric: tabular-nums; }
+.positive { color: var(--green); font-weight: 750; }
+.level { display: inline-flex; min-width: 92px; padding: 3px 9px; border-radius: 999px; font-weight: 700; }
+.level-0 { color: #475569; background: #edf1f5; }
+.level-1 { color: #1d4ed8; background: #e8efff; }
+.level-2 { color: #a04b00; background: #fff1d6; }
+.level-3 { color: #b91c1c; background: #fee8e8; }
+.cvar-summary { display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; margin-bottom: 18px; }
+.summary-tile { padding: 20px; background: #f8fafc; border: 1px solid var(--line); border-radius: 14px; }
+.summary-tile span { display: block; color: var(--muted); font-size: 13px; }
+.summary-tile strong { display: block; margin-top: 6px; color: var(--navy); font-size: 30px; }
+.prose-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+.prose-card { padding: 22px; border: 1px solid var(--line); border-radius: 14px; background: #fbfcfe; }
+.prose-card h3 { margin: 0 0 12px; color: var(--navy); font-size: 18px; }
+.prose-card p, .prose-card li { color: var(--muted); font-size: 14px; }
+.prose-card ol, .prose-card ul { margin: 0; padding-left: 20px; }
+code { padding: 2px 6px; color: #174467; background: #edf4fa; border-radius: 5px; font-family: Consolas, "SFMono-Regular", monospace; font-size: .9em; }
+footer { padding: 28px 8px 0; color: var(--muted); text-align: center; font-size: 12px; }
+@media (max-width: 850px) {
+  .page { width: min(100% - 24px, 1180px); margin-top: 12px; }
+  .hero { padding: 32px 24px; border-radius: 18px; }
+  .section { padding: 22px 18px; }
+  .acceptance-grid, .distribution-wrap, .prose-grid { grid-template-columns: 1fr; }
+  .metrics { grid-template-columns: 1fr; }
+  .cvar-summary { grid-template-columns: 1fr; }
+}
+@media print {
+  body { background: #fff; }
+  .page { width: 100%; margin: 0; }
+  .hero, .section { box-shadow: none; break-inside: avoid; }
+  .section { margin-top: 16px; }
+}
+</style>
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <p class="eyebrow">Option Risk · Offline Acceptance</p>
+      <h1>期权波动率曲面风控智能体：问题1离线验收报告</h1>
+      <p class="hero-summary">问题1单Agent实现、全品种可用性及白银连续三个月离线回测的技术验收报告。</p>
+      <div class="hero-meta"><span>结论：全部通过</span><span>Artifact 状态：ready</span><span>生成时间：2026-08-23T16:12:51.998961+00:00</span></div>
+    </header>
+
+    <section class="section" aria-labelledby="acceptance-heading">
+      <div class="section-heading"><div><h2 id="acceptance-heading">全品种功能验收</h2><p>逐品种使用真实可选时点完成曲面、特征、分级状态、解释与时间轴响应。</p></div><span class="pill pass">全部通过</span></div>
+      <div class="acceptance-grid">
+        <div class="acceptance-card"><div class="acceptance-value">35 / 35</div><div class="acceptance-label">完整响应通过 · 100.0%</div></div>
+        <div class="acceptance-copy"><h3>35 个品种均纳入同一验收口径</h3><p>通过 35 个，失败 0 个。每个产品行均保留可选时点范围、最新0—3级状态、曲面数、特征组数与验收状态，便于逐项复核。</p><div class="callout"><strong>结论边界</strong>全品种验收证明交互式 Agent 功能可运行；连续三个月的比赛指标仍是单独的样本外回测结论。</div></div>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="metrics-heading">
+      <div class="section-heading"><div><h2 id="metrics-heading">三项核心预警指标</h2><p>实测值与 artifact 中固化的比赛目标直接并列；精确率和召回率采用事件级口径。</p></div></div>
+      <div class="metrics">
+            <article class="metric-card">
+              <div class="metric-topline"><span>事件级预警精确率</span><span class="pill pass">通过</span></div>
+              <div class="metric-value">57.4%</div>
+              <div class="metric-target">目标 ≥ 50%</div>
+              <p>2—3级预警片段中，在未来8个15分钟bar内出现风险事件的比例。</p>
+            </article>
+            <article class="metric-card">
+              <div class="metric-topline"><span>风险事件召回率</span><span class="pill pass">通过</span></div>
+              <div class="metric-value">77.2%</div>
+              <div class="metric-target">目标 ≥ 60%</div>
+              <p>57个测试风险事件中，被严格提前1—8个bar的2—3级预警覆盖的比例。</p>
+            </article>
+            <article class="metric-card">
+              <div class="metric-topline"><span>平均提前时间</span><span class="pill pass">通过</span></div>
+              <div class="metric-value">46.4 分钟</div>
+              <div class="metric-target">目标 ≥ 30 分钟</div>
+              <p>成功匹配事件此前最近一次有效预警到事件开始的平均分钟数。</p>
+            </article></div>
+    </section>
+
+    <section class="section" aria-labelledby="distribution-heading">
+      <div class="section-heading"><div><h2 id="distribution-heading">35品种最新时点的0—3级状态分布</h2><p>这是各品种最新有效时点的横截面状态，不代表长期预警频率。</p></div></div>
+      <div class="distribution-wrap">
+      <svg class="distribution-chart" viewBox="0 0 710 260" role="img" aria-labelledby="distribution-title distribution-desc">
+        <title id="distribution-title">0—3级状态分布</title>
+        <desc id="distribution-desc">四个预警等级对应的品种数量和占比</desc>
+        <line x1="36" y1="196" x2="690" y2="196" stroke="#cbd5e1" stroke-width="1"></line>
+        
+            <g>
+              <rect x="55" y="176.25" width="108" height="18.75" rx="9" fill="#64748b"></rect>
+              <text x="109" y="166.25" text-anchor="middle" class="chart-value">3 个</text>
+              <text x="109" y="222" text-anchor="middle" class="chart-label">0 无预警</text>
+              <text x="109" y="244" text-anchor="middle" class="chart-share">8.6%</text>
+            </g>
+            <g>
+              <rect x="220" y="45.00" width="108" height="150.00" rx="9" fill="#2563eb"></rect>
+              <text x="274" y="35.00" text-anchor="middle" class="chart-value">24 个</text>
+              <text x="274" y="222" text-anchor="middle" class="chart-label">1 关注</text>
+              <text x="274" y="244" text-anchor="middle" class="chart-share">68.6%</text>
+            </g>
+            <g>
+              <rect x="385" y="145.00" width="108" height="50.00" rx="9" fill="#d97706"></rect>
+              <text x="439" y="135.00" text-anchor="middle" class="chart-value">8 个</text>
+              <text x="439" y="222" text-anchor="middle" class="chart-label">2 警告</text>
+              <text x="439" y="244" text-anchor="middle" class="chart-share">22.9%</text>
+            </g>
+            <g>
+              <rect x="550" y="195.00" width="108" height="0.00" rx="9" fill="#dc2626"></rect>
+              <text x="604" y="185.00" text-anchor="middle" class="chart-value">0 个</text>
+              <text x="604" y="222" text-anchor="middle" class="chart-label">3 危险</text>
+              <text x="604" y="244" text-anchor="middle" class="chart-share">0.0%</text>
+            </g>
+      </svg><div class="callout"><strong>状态与通知分离</strong>0—3级是持续的当前风险状态；正式告警是否在本时点新发由独立字段记录，冷却期不应降低当前等级。</div></div>
+    </section>
+
+    <section class="section" aria-labelledby="coverage-heading">
+      <div class="section-heading"><div><h2 id="coverage-heading">35品种时点覆盖与响应审计</h2><p>表内完整保留 artifact 的全部产品；时点数来自质量与历史门槛后的真实目录。</p></div></div>
+      <div class="table-wrap"><table><thead><tr><th>品种</th><th class="numeric">可选时点</th><th>首个时点</th><th>最后时点</th><th>最新状态</th><th class="numeric">曲面</th><th class="numeric">特征组</th><th>验收</th></tr></thead><tbody>
+            <tr class="product-row">
+              <td class="product-code">a</td>
+              <td class="numeric">18,925</td>
+              <td>2022-08-16 10:15:00</td>
+              <td>2026-02-13 15:00:00</td>
+              <td><span class="level level-2">2 · 警告</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">ag</td>
+              <td class="numeric">25,986</td>
+              <td>2022-12-28 14:15:00</td>
+              <td>2026-02-11 00:00:00</td>
+              <td><span class="level level-1">1 · 关注</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">al</td>
+              <td class="numeric">22,223</td>
+              <td>2022-10-11 10:00:00</td>
+              <td>2026-02-11 00:00:00</td>
+              <td><span class="level level-1">1 · 关注</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">ao</td>
+              <td class="numeric">8,909</td>
+              <td>2024-09-04 23:15:00</td>
+              <td>2026-02-11 00:00:00</td>
+              <td><span class="level level-2">2 · 警告</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">au</td>
+              <td class="numeric">26,026</td>
+              <td>2022-09-29 14:30:00</td>
+              <td>2026-02-11 00:00:00</td>
+              <td><span class="level level-1">1 · 关注</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">b</td>
+              <td class="numeric">17,833</td>
+              <td>2022-08-12 10:15:00</td>
+              <td>2026-03-13 23:00:00</td>
+              <td><span class="level level-2">2 · 警告</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">br</td>
+              <td class="numeric">11,004</td>
+              <td>2023-08-08 10:45:00</td>
+              <td>2026-02-10 23:00:00</td>
+              <td><span class="level level-1">1 · 关注</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">bu</td>
+              <td class="numeric">1,372</td>
+              <td>2025-09-15 22:15:00</td>
+              <td>2026-02-10 23:00:00</td>
+              <td><span class="level level-0">0 · 无预警</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">c</td>
+              <td class="numeric">17,584</td>
+              <td>2022-08-16 10:15:00</td>
+              <td>2025-10-24 23:00:00</td>
+              <td><span class="level level-2">2 · 警告</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">cs</td>
+              <td class="numeric">5,927</td>
+              <td>2024-09-24 22:15:00</td>
+              <td>2025-10-24 23:00:00</td>
+              <td><span class="level level-1">1 · 关注</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">cu</td>
+              <td class="numeric">17,788</td>
+              <td>2023-01-06 10:00:00</td>
+              <td>2026-02-11 00:00:00</td>
+              <td><span class="level level-1">1 · 关注</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">eb</td>
+              <td class="numeric">13,955</td>
+              <td>2023-05-23 11:00:00</td>
+              <td>2026-03-13 23:00:00</td>
+              <td><span class="level level-0">0 · 无预警</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">eg</td>
+              <td class="numeric">14,499</td>
+              <td>2023-05-23 11:00:00</td>
+              <td>2026-03-13 23:00:00</td>
+              <td><span class="level level-1">1 · 关注</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">fu</td>
+              <td class="numeric">2,265</td>
+              <td>2025-09-15 22:15:00</td>
+              <td>2026-03-13 23:00:00</td>
+              <td><span class="level level-0">0 · 无预警</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">i</td>
+              <td class="numeric">19,389</td>
+              <td>2022-07-18 10:15:00</td>
+              <td>2026-03-13 23:00:00</td>
+              <td><span class="level level-2">2 · 警告</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">jd</td>
+              <td class="numeric">4,338</td>
+              <td>2024-09-02 11:00:00</td>
+              <td>2026-03-13 15:00:00</td>
+              <td><span class="level level-1">1 · 关注</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">l</td>
+              <td class="numeric">19,205</td>
+              <td>2022-07-18 10:15:00</td>
+              <td>2026-03-13 23:00:00</td>
+              <td><span class="level level-1">1 · 关注</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">lc</td>
+              <td class="numeric">9,354</td>
+              <td>2023-08-01 11:00:00</td>
+              <td>2026-03-03 15:00:00</td>
+              <td><span class="level level-2">2 · 警告</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">lh</td>
+              <td class="numeric">4,119</td>
+              <td>2024-09-02 11:00:00</td>
+              <td>2025-10-24 15:00:00</td>
+              <td><span class="level level-1">1 · 关注</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">m</td>
+              <td class="numeric">17,492</td>
+              <td>2022-08-16 10:15:00</td>
+              <td>2025-10-20 23:00:00</td>
+              <td><span class="level level-2">2 · 警告</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">ni</td>
+              <td class="numeric">9,209</td>
+              <td>2024-09-04 23:15:00</td>
+              <td>2026-02-11 00:00:00</td>
+              <td><span class="level level-1">1 · 关注</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">p</td>
+              <td class="numeric">17,778</td>
+              <td>2022-07-20 11:00:00</td>
+              <td>2026-03-13 23:00:00</td>
+              <td><span class="level level-1">1 · 关注</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">pb</td>
+              <td class="numeric">9,399</td>
+              <td>2024-09-04 23:15:00</td>
+              <td>2026-02-11 00:00:00</td>
+              <td><span class="level level-1">1 · 关注</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">pg</td>
+              <td class="numeric">19,205</td>
+              <td>2022-07-18 10:15:00</td>
+              <td>2026-03-13 23:00:00</td>
+              <td><span class="level level-1">1 · 关注</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">pp</td>
+              <td class="numeric">19,228</td>
+              <td>2022-07-18 10:15:00</td>
+              <td>2026-03-13 23:00:00</td>
+              <td><span class="level level-1">1 · 关注</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">ps</td>
+              <td class="numeric">2,754</td>
+              <td>2025-01-07 11:00:00</td>
+              <td>2025-10-14 15:00:00</td>
+              <td><span class="level level-1">1 · 关注</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">rb</td>
+              <td class="numeric">15,262</td>
+              <td>2022-12-29 22:15:00</td>
+              <td>2025-10-10 23:00:00</td>
+              <td><span class="level level-1">1 · 关注</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">ru</td>
+              <td class="numeric">17,634</td>
+              <td>2022-09-02 22:15:00</td>
+              <td>2026-02-10 23:00:00</td>
+              <td><span class="level level-2">2 · 警告</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">sc</td>
+              <td class="numeric">25,931</td>
+              <td>2022-11-17 09:15:00</td>
+              <td>2026-03-11 00:00:00</td>
+              <td><span class="level level-1">1 · 关注</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">si</td>
+              <td class="numeric">9,669</td>
+              <td>2023-02-15 11:00:00</td>
+              <td>2025-10-14 15:00:00</td>
+              <td><span class="level level-1">1 · 关注</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">sn</td>
+              <td class="numeric">9,229</td>
+              <td>2024-09-04 23:15:00</td>
+              <td>2026-02-11 00:00:00</td>
+              <td><span class="level level-1">1 · 关注</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">sp</td>
+              <td class="numeric">295</td>
+              <td>2025-09-15 22:15:00</td>
+              <td>2025-10-10 23:00:00</td>
+              <td><span class="level level-1">1 · 关注</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">v</td>
+              <td class="numeric">19,554</td>
+              <td>2022-07-18 10:15:00</td>
+              <td>2026-03-13 23:00:00</td>
+              <td><span class="level level-1">1 · 关注</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">y</td>
+              <td class="numeric">17,515</td>
+              <td>2022-08-16 10:15:00</td>
+              <td>2025-10-21 23:00:00</td>
+              <td><span class="level level-1">1 · 关注</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr>
+            <tr class="product-row">
+              <td class="product-code">zn</td>
+              <td class="numeric">23,152</td>
+              <td>2022-10-21 22:00:00</td>
+              <td>2026-02-11 00:00:00</td>
+              <td><span class="level level-1">1 · 关注</span></td>
+              <td class="numeric">5</td>
+              <td class="numeric">5</td>
+              <td><span class="pill pass">passed</span></td>
+            </tr></tbody></table></div>
+    </section>
+
+    <section class="section" aria-labelledby="cvar-heading">
+      <div class="section-heading"><div><h2 id="cvar-heading">代理CVaR与随机日期基线</h2><p>减半仓位会机械降低尾部损失，因此必须把预警方案与同规则随机减仓日期对照。</p></div></div>
+      <div class="cvar-summary"><div class="summary-tile"><span>多空平均代理CVaR改善</span><strong>50.0%</strong></div><div class="summary-tile"><span>随机日期基线中位数</span><strong>25.5%</strong></div></div>
+      <div class="table-wrap"><table><thead><tr><th>方向</th><th class="numeric">基线CVaR95</th><th class="numeric">预警后CVaR95</th><th class="numeric">改善率</th></tr></thead><tbody>
+            <tr>
+              <td>期货多头1手</td>
+              <td class="numeric">4.3%</td>
+              <td class="numeric">2.1%</td>
+              <td class="numeric positive">50.0%</td>
+            </tr>
+            <tr>
+              <td>期货空头1手</td>
+              <td class="numeric">2.8%</td>
+              <td class="numeric">1.4%</td>
+              <td class="numeric positive">50.0%</td>
+            </tr></tbody></table></div>
+    </section>
+
+    <section class="section" aria-labelledby="method-heading">
+      <div class="section-heading"><div><h2 id="method-heading">方法、可复验性与限制</h2><p>报告仅把 artifact 固化事实转成可读页面，不连接网络，也不重新计算业务指标。</p></div></div>
+      <div class="prose-grid">
+        <article class="prose-card"><h3>方法</h3><ol><li>对报价、IV、Greeks、期限与流动性执行确定性质量检查。</li><li>从曲面形态、期限结构、无套利、Greeks集中及质量流动性形成解释证据。</li><li>动态参考只使用所选时点之前的历史；主策略由同一预注册状态机输出0—3级状态。</li><li>轻量ML对照在训练—验证、验证—测试边界清除跨界前瞻标签。</li></ol></article>
+        <article class="prose-card"><h3>可复验性</h3><p>输入为一个 UTF-8 artifact JSON；本脚本仅使用 Python 标准库。Artifact 版本 <code>1</code>，Snapshot 版本 <code>1</code>，状态 <code>ready</code>。</p><p>重复执行同一 <code>--artifact</code> 与 <code>--output</code> 命令即可重建本单文件HTML；所有CSS均内联，CSP禁止网络连接与脚本执行。</p></article>
+        <article class="prose-card"><h3>限制</h3><ul><li>比赛期权数据缺少独立期货K线，CVaR基于重构标的代理，只能作探索性证据。</li><li>永久减半仓位本身会降低CVaR，不能把全部改善归因于预警择时。</li><li>35品种功能验收不等于三个月指标可外推到全部品种。</li><li>离线匹配是描述性证据，不构成因果结论或交易建议。</li></ul></article>
+      </div>
+    </section>
+    <footer>自包含离线报告 · 无外部字体、CDN、脚本或网络请求 · 数据来自传入 artifact</footer>
+  </main>
+</body>
+</html>

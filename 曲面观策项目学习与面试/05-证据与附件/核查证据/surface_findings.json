@@ -1,0 +1,281 @@
+{
+  "covered_paths": [
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/total_variance_fit.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/surface_fit_diagnostics.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/tests/test_total_variance_fit.py"
+  ],
+  "source_reading": [
+    {
+      "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/total_variance_fit.py",
+      "relative_path": "src/option_risk/total_variance_fit.py",
+      "line_count": 5106,
+      "top_level_definition_count": 130,
+      "test_function_count": 0,
+      "duplicate_top_level_definitions": []
+    },
+    {
+      "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/surface_fit_diagnostics.py",
+      "relative_path": "src/option_risk/surface_fit_diagnostics.py",
+      "line_count": 5347,
+      "top_level_definition_count": 124,
+      "test_function_count": 0,
+      "duplicate_top_level_definitions": []
+    },
+    {
+      "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/tests/test_total_variance_fit.py",
+      "relative_path": "tests/test_total_variance_fit.py",
+      "line_count": 4391,
+      "top_level_definition_count": 133,
+      "test_function_count": 109,
+      "duplicate_top_level_definitions": []
+    }
+  ],
+  "note_paths": [
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/02-循序学习/10-从IV到总方差：期限为什么不能忽略.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/02-循序学习/11-拟合与降级：从SSVI到可解释的失败.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/02-循序学习/12-无套利与诊断：为什么通过检查不等于数学保证.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/曲面拟合/total_variance_fit.py-总方差公式、优化与本地检查.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/曲面拟合/surface_fit_diagnostics.py-输入规范化、期限选择与可审计产物.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/曲面拟合/test_total_variance_fit.py-契约、数值与异常路径的验证地图.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/04-面试与验证/曲面拟合专项追问.md"
+  ],
+  "key_findings": [
+    {
+      "finding": "正式IV已复用diagnose_timestamp；diagnostic_only字段不代表数值引擎是死路径。批量装载缓存发布独立。",
+      "evidence": [
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/surfaces.py",
+          "line": 79
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/surface_fit_diagnostics.py",
+          "line": 1170
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/surface_fit_diagnostics.py",
+          "line": 5263
+        }
+      ]
+    },
+    {
+      "finding": "真实回退按合并节点数分支：>=5 Raw→PCHIP，4 PCHIP，2–3 LINEAR，>=4 PCHIP失败后不线性兜底。",
+      "evidence": [
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/surface_fit_diagnostics.py",
+          "line": 1583
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/total_variance_fit.py",
+          "line": 5057
+        }
+      ]
+    },
+    {
+      "finding": "输入先k舍入10位再在总方差上取中位数，之后恢复IV；不是直接合并IV。",
+      "evidence": [
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/surface_fit_diagnostics.py",
+          "line": 603
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/surface_fit_diagnostics.py",
+          "line": 648
+        }
+      ]
+    },
+    {
+      "finding": "非参数g结构性不适用但价格形状仍检验；不适用状态即使前门失败仍保留。",
+      "evidence": [
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/total_variance_fit.py",
+          "line": 2839
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/total_variance_fit.py",
+          "line": 3399
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/tests/test_total_variance_fit.py",
+          "line": 58
+        }
+      ]
+    },
+    {
+      "finding": "日历比较共同k支持且有容差；无正宽度交集NOT_TESTABLE且允许接受，不等于日历数学保证。",
+      "evidence": [
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/total_variance_fit.py",
+          "line": 2952
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/total_variance_fit.py",
+          "line": 3004
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/surface_fit_diagnostics.py",
+          "line": 1518
+        }
+      ]
+    },
+    {
+      "finding": "SSVI父级全期限两两日历检查，最终候选与此前所有接受期限比较；父级失败可阻断本地成功子级。",
+      "evidence": [
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/surface_fit_diagnostics.py",
+          "line": 1336
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/surface_fit_diagnostics.py",
+          "line": 1440
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/surface_fit_diagnostics.py",
+          "line": 1472
+        }
+      ]
+    },
+    {
+      "finding": "诊断候选、复合检查、展示矩阵与Greeks各有网格；Greeks默认33点线性，不从拟合IV曲面重算。",
+      "evidence": [
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/total_variance_fit.py",
+          "line": 1877
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/total_variance_fit.py",
+          "line": 2425
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/surface_fit_diagnostics.py",
+          "line": 1726
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/surfaces.py",
+          "line": 190
+        }
+      ]
+    },
+    {
+      "finding": "SSVI目标为逐期限NRMSE平方之和，控制最差期限NRMSE；不是按节点数/成交量/Vega加权。",
+      "evidence": [
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/total_variance_fit.py",
+          "line": 2162
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/total_variance_fit.py",
+          "line": 4275
+        }
+      ]
+    },
+    {
+      "finding": "固定多起点生成SSVI27和Raw36，实际执行可因预检与精确去重减少；无全局最优证明。",
+      "evidence": [
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/total_variance_fit.py",
+          "line": 3650
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/total_variance_fit.py",
+          "line": 3739
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/tests/test_total_variance_fit.py",
+          "line": 3163
+        }
+      ]
+    },
+    {
+      "finding": "参数曲线SHGO、PCHIP分段驻点、线性段小w端点分别求最大IV斜率；结果不依赖base网格。",
+      "evidence": [
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/total_variance_fit.py",
+          "line": 3076
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/total_variance_fit.py",
+          "line": 3183
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/total_variance_fit.py",
+          "line": 3233
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/tests/test_total_variance_fit.py",
+          "line": 2581
+        }
+      ]
+    },
+    {
+      "finding": "失败也保留有限参数、曲线与部分期限检查，候选诊断采样失败会降为不确定；首个已知失败不能被后续异常覆盖。",
+      "evidence": [
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/total_variance_fit.py",
+          "line": 3959
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/total_variance_fit.py",
+          "line": 4132
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/total_variance_fit.py",
+          "line": 4539
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/tests/test_total_variance_fit.py",
+          "line": 3894
+        }
+      ]
+    },
+    {
+      "finding": "两个核心文件均无顶层同名函数/类重定义；测试文件109个test函数，参数化后用例更多。",
+      "evidence": [
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/total_variance_fit.py",
+          "line": 4604
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/total_variance_fit.py",
+          "line": 4784
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/surface_fit_diagnostics.py",
+          "line": 1170
+        }
+      ]
+    },
+    {
+      "finding": "AG抽样是确定性分层20+固定代表时点，不是随机样本；统计的选择尝试分母排除父级阻断子级。",
+      "evidence": [
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/surface_fit_diagnostics.py",
+          "line": 2760
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/surface_fit_diagnostics.py",
+          "line": 3733
+        }
+      ]
+    },
+    {
+      "finding": "六件产物逐文件replace，manifest最后；不是完整目录原子事务或全面回滚。",
+      "evidence": [
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/surface_fit_diagnostics.py",
+          "line": 4653
+        }
+      ]
+    }
+  ],
+  "verification": {
+    "source_modified": false,
+    "full_data_run": false,
+    "tests_executed_by_this_agent": false,
+    "test_execution_owner": "根代理统一运行",
+    "notes_validation": "7篇文件均存在；无占位符；全部绝对源码链接存在且行号未越界；内部双链均可解析；块公式分隔符成对；AST证实两个核心文件顶层定义无重名。"
+  },
+  "theory_sources": [
+    "https://arxiv.org/html/1204.0646",
+    "https://docs.scipy.org/doc/scipy/reference/generated/scipy.interpolate.PchipInterpolator.html"
+  ]
+}

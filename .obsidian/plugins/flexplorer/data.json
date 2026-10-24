@@ -5,6 +5,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "EI论文精读—企业数字化转型与ESG",
+        "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）",
         "曲面观策项目学习与面试",
         "东北证券—宏观及策略研究员（实习生）",
         "还未投递.md",
@@ -10459,6 +10461,8 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "证据索引.md",
+        "核查证据",
         "真实案例图",
         "本轮执行-02_knowledge_graph_demo.ipynb",
         "外部原始参考.md",
@@ -10472,6 +10476,8 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "问题2-知识图谱验收报告.html",
+        "问题1-Agent离线验收报告.html",
         "曲面观策-精益画布.pptx",
         "曲面观策-OptionRiskAgent技术文档-final.docx",
         "曲面观策-OptionRiskAgent技术文档-final.pdf"
@@ -10504,6 +10510,8 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "05-本轮验证记录.md",
+        "00-真实AG案例完整拆解.md",
         "04-动手实验与标准答案.md",
         "03-面试追问与回答.md",
         "曲面拟合专项追问.md",
@@ -10619,6 +10627,7 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "备份与系统文件目录.md",
         "zn-原始分区逐文件目录.md",
         "y-原始分区逐文件目录.md",
         "v-原始分区逐文件目录.md",
@@ -11747,6 +11756,467 @@
       "isHidden": false
     },
     "曲面观策项目学习与面试/00-项目知识地图.canvas": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/04-面试与验证/00-真实AG案例完整拆解.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/04-面试与验证/05-本轮验证记录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/核查证据": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "目标完成审计.json",
+        "Obsidian显示核查.json",
+        "知识库结构验证结果.json",
+        "隔离完整测试结果.xml",
+        "隔离完整测试日志.txt",
+        "隔离复现身份.json",
+        "真实AG复现摘要.json",
+        "真实AG分析完整结果.json",
+        "目录版本差异.json",
+        "源码归档映射.json",
+        "测试收集清单.txt",
+        "本轮依赖版本.json",
+        "最终运行ZIP清单.json",
+        "最终提交文件清单.json",
+        "旧开发ZIP清单.json",
+        "数据核查证据.json",
+        "完整文件教学映射.json",
+        "外层提交ZIP清单.json",
+        "原始数据目录体积.json",
+        "原始分区逐文件索引.json",
+        "surface_findings.json",
+        "graph_findings.json",
+        "core_findings.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "曲面观策项目学习与面试/05-证据与附件/核查证据/core_findings.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/核查证据/graph_findings.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/核查证据/surface_findings.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/核查证据/原始分区逐文件索引.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/核查证据/原始数据目录体积.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/核查证据/外层提交ZIP清单.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/核查证据/完整文件教学映射.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/核查证据/数据核查证据.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/核查证据/旧开发ZIP清单.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/核查证据/最终提交文件清单.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/核查证据/最终运行ZIP清单.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/核查证据/本轮依赖版本.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/核查证据/测试收集清单.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/核查证据/源码归档映射.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/核查证据/目录版本差异.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/核查证据/真实AG分析完整结果.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/核查证据/真实AG复现摘要.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/核查证据/隔离复现身份.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/核查证据/隔离完整测试日志.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/核查证据/隔离完整测试结果.xml": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/原始交付文档/问题1-Agent离线验收报告.html": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/原始交付文档/问题2-知识图谱验收报告.html": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/证据索引.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/01-项目与数据/数据分区目录/备份与系统文件目录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/核查证据/知识库结构验证结果.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/核查证据/Obsidian显示核查.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "曲面观策项目学习与面试/05-证据与附件/核查证据/目标完成审计.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "06｜交接、能力边界与经历表述.md",
+        "05｜公开来源与事实边界.md",
+        "04｜Excel函数与折旧摊销示例.md",
+        "03｜审计程序、科目与证据路线.md",
+        "02｜项目设定、人物与30日时间线.md",
+        "01｜事务所、客户与工作地点核查.md",
+        "00｜审计实习总览与30日导航.md",
+        "2025-01-27｜Day 30｜第三十个工作日，交接未完成事项并结束实习情境.md",
+        "2025-01-24｜Day 29｜结束本轮驻场回佛山，把底稿交得让别人接得上.md",
+        "2025-01-23｜Day 28｜集中改复核意见，证据没补齐就保留未完成.md",
+        "2025-01-22｜Day 27｜整理差异和拟调整事项，不能自己帮客户改账.md",
+        "2025-01-21｜Day 26｜协助财务报表附注，把明细和披露表逐项勾起来.md",
+        "2025-01-20｜Day 25｜补全年控制测试记录，整理审计工具里的未完成项.md",
+        "2025-01-17｜Day 24｜做趋势和合理性分析，预测值只是检查线索.md",
+        "2025-01-16｜Day 23｜从期后付款反查年末应付，发票晚到不等于义务晚发生.md",
+        "2025-01-15｜Day 22｜登记首批银行回函，相符也要先核来源和范围.md",
+        "2025-01-14｜Day 21｜检查设备收入截止，出口报关不等于自动确认收入.md",
+        "2025-01-13｜Day 20｜账龄分析先对明细，最后交易日不能重置老欠款.md",
+        "2025-01-10｜Day 19｜更新折旧摊销，固定资产、软件和装修分开算.md",
+        "2025-01-09｜Day 18｜追薪酬期后支付，补客户访谈与三年来源索引.md",
+        "2025-01-08｜Day 17｜应付职工薪酬底稿，支付月份不等于费用所属月份.md",
+        "2025-01-07｜Day 16｜整理在制设备成本，项目号比产品简称更重要.md",
+        "2025-01-06｜Day 15｜协助银行函证发出，台账开始记录真正的流转.md",
+        "2025-01-03｜Day 14｜补齐年末账户资料，准备受控发函.md",
+        "2025-01-02｜Day 13｜盘点后回到账表，记录版本与差异去向.md",
+        "2024-12-31｜Day 12｜跟着做年末监盘，抽盘表不能只抄客户数字.md",
+        "2024-12-30｜Day 11｜准备年末监盘，先分清物料、在制设备和客户送样.md",
+        "2024-12-27｜Day 10｜准备银行函证清单，不把年末余额提前填进去.md",
+        "2024-12-26｜Day 09｜折旧重算第一版，DATEDIF拼对了也未必算对.md",
+        "2024-12-25｜Day 08｜固定资产台账与实物核对，别把待售设备当自用资产.md",
+        "2024-12-24｜Day 07｜协助采购审批控制测试，软件只帮忙列记录.md",
+        "2024-12-23｜Day 06｜跟采购和仓库做穿行，先听懂单据怎么流转.md",
+        "2024-12-20｜Day 05｜第一次跨三年找凭证，附件比记账凭证更费时间.md",
+        "2024-12-19｜Day 04｜整理科目余额表和序时账，导入前先勾稽.md",
+        "2024-12-18｜Day 03｜随团队到深圳进场，第一次做客户访谈纪要.md",
+        "2024-12-17｜Day 02｜读懂客户业务，分清设备制造和电池组装.md",
+        "2024-12-16｜Day 01｜到所报到，先弄清项目和自己的分工.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2024-12-16｜Day 01｜到所报到，先弄清项目和自己的分工.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2024-12-17｜Day 02｜读懂客户业务，分清设备制造和电池组装.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2024-12-18｜Day 03｜随团队到深圳进场，第一次做客户访谈纪要.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2024-12-19｜Day 04｜整理科目余额表和序时账，导入前先勾稽.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2024-12-20｜Day 05｜第一次跨三年找凭证，附件比记账凭证更费时间.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2024-12-23｜Day 06｜跟采购和仓库做穿行，先听懂单据怎么流转.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2024-12-24｜Day 07｜协助采购审批控制测试，软件只帮忙列记录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2024-12-25｜Day 08｜固定资产台账与实物核对，别把待售设备当自用资产.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2024-12-26｜Day 09｜折旧重算第一版，DATEDIF拼对了也未必算对.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2024-12-27｜Day 10｜准备银行函证清单，不把年末余额提前填进去.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2024-12-30｜Day 11｜准备年末监盘，先分清物料、在制设备和客户送样.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2024-12-31｜Day 12｜跟着做年末监盘，抽盘表不能只抄客户数字.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2025-01-02｜Day 13｜盘点后回到账表，记录版本与差异去向.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2025-01-03｜Day 14｜补齐年末账户资料，准备受控发函.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2025-01-06｜Day 15｜协助银行函证发出，台账开始记录真正的流转.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2025-01-07｜Day 16｜整理在制设备成本，项目号比产品简称更重要.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2025-01-08｜Day 17｜应付职工薪酬底稿，支付月份不等于费用所属月份.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2025-01-09｜Day 18｜追薪酬期后支付，补客户访谈与三年来源索引.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2025-01-10｜Day 19｜更新折旧摊销，固定资产、软件和装修分开算.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2025-01-13｜Day 20｜账龄分析先对明细，最后交易日不能重置老欠款.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2025-01-14｜Day 21｜检查设备收入截止，出口报关不等于自动确认收入.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2025-01-15｜Day 22｜登记首批银行回函，相符也要先核来源和范围.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2025-01-16｜Day 23｜从期后付款反查年末应付，发票晚到不等于义务晚发生.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2025-01-17｜Day 24｜做趋势和合理性分析，预测值只是检查线索.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2025-01-20｜Day 25｜补全年控制测试记录，整理审计工具里的未完成项.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2025-01-21｜Day 26｜协助财务报表附注，把明细和披露表逐项勾起来.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2025-01-22｜Day 27｜整理差异和拟调整事项，不能自己帮客户改账.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2025-01-23｜Day 28｜集中改复核意见，证据没补齐就保留未完成.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2025-01-24｜Day 29｜结束本轮驻场回佛山，把底稿交得让别人接得上.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2025-01-27｜Day 30｜第三十个工作日，交接未完成事项并结束实习情境.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/00｜审计实习总览与30日导航.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/01｜事务所、客户与工作地点核查.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/02｜项目设定、人物与30日时间线.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/03｜审计程序、科目与证据路线.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/04｜Excel函数与折旧摊销示例.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/05｜公开来源与事实边界.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/06｜交接、能力边界与经历表述.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "11 原文逐页对照.md",
+        "10 来源索引与阅读记录.md",
+        "09 复述提纲与自测题.md",
+        "08 复现路线与改进方案.md",
+        "07 我当年做了什么—工作还原与待确认清单.md",
+        "06 第三轮批判性审查与结论校准.md",
+        "05 八张表的逐表复核.md",
+        "04 模型公式与方法推导.md",
+        "03 数据样本与变量字典.md",
+        "02 第二轮逐节精读.md",
+        "附件",
+        "01 第一轮通读与研究地图.md",
+        "00 阅读导航与核心结论.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "EI论文精读—企业数字化转型与ESG/00 阅读导航与核心结论.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/01 第一轮通读与研究地图.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "原文全文提取.txt",
+        "原文逐页",
+        "EI会议 独立一作.pdf"
+      ],
+      "sortOrder": "custom"
+    },
+    "EI论文精读—企业数字化转型与ESG/附件/EI会议 独立一作.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/附件/原文逐页": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "page-6.png",
+        "page-5.png",
+        "page-4.png",
+        "page-3.png",
+        "page-2.png",
+        "page-1.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "EI论文精读—企业数字化转型与ESG/附件/原文逐页/page-1.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/附件/原文逐页/page-2.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/附件/原文逐页/page-3.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/附件/原文逐页/page-4.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/附件/原文逐页/page-5.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/附件/原文逐页/page-6.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/02 第二轮逐节精读.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/03 数据样本与变量字典.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/04 模型公式与方法推导.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/05 八张表的逐表复核.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/06 第三轮批判性审查与结论校准.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/07 我当年做了什么—工作还原与待确认清单.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/08 复现路线与改进方案.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/09 复述提纲与自测题.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/10 来源索引与阅读记录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/11 原文逐页对照.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/附件/原文全文提取.txt": {
       "isPinned": false,
       "isHidden": false
     }

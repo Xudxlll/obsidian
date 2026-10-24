@@ -60,4 +60,4 @@ parse_args后，run直接调run_pipeline打印summary；其他分支先建AgentC
 
 ## 下一步学习
 
-[[02-循序学习/核心08-离线Pipeline与单时点Agent的完整关系]]
+[[曲面观策项目学习与面试/02-循序学习/核心08-离线Pipeline与单时点Agent的完整关系.md|核心08-离线Pipeline与单时点Agent的完整关系]]

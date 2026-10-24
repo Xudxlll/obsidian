@@ -1,0 +1,58 @@
+{
+  "status": "complete",
+  "checked_at": "2026-10-24",
+  "requirements": [
+    {
+      "requirement": "在用户现有Obsidian中新建知识库目录",
+      "evidence": "已注册vault /Users/xuji/Documents/obsidian；新目录与实际Obsidian窗口入口已验证",
+      "status": "完成"
+    },
+    {
+      "requirement": "拆解最终成品所有文件作用及知识点",
+      "evidence": "85/85教学映射；67份逐字源码归档一致；每份笔记文件实存且非空",
+      "status": "完成"
+    },
+    {
+      "requirement": "解释文件之间关系和模型构建过程",
+      "evidence": "20课路线、17篇专题教程、逐文件上下游、两张Mermaid链路、12摘要节点15边Canvas",
+      "status": "完成"
+    },
+    {
+      "requirement": "定位另一个文件夹的约11G官方数据",
+      "evidence": "数据目录12.622GB约11.76GiB，合并表与8581分区元数据核查，35品种逐文件行数索引",
+      "status": "完成"
+    },
+    {
+      "requirement": "面试准备和复习查阅",
+      "evidence": "45综合题、25拟合题、70术语、10组实验答案、简历边界与历史指标核算",
+      "status": "完成"
+    },
+    {
+      "requirement": "中文笔记和数学教学",
+      "evidence": "中文讲解、经济含义、数值算例、折叠答案；公式格式检查与Obsidian数学显示已验证",
+      "status": "完成"
+    },
+    {
+      "requirement": "知识库能实际使用而非仅生成文件",
+      "evidence": "全部双链/绝对源链接/源码行号/表格列数/Canvas检查无错误；Obsidian点击入口、路线、课程与Canvas已验证",
+      "status": "完成"
+    },
+    {
+      "requirement": "保持原交付与既有笔记",
+      "evidence": "85份原交付SHA256前后相同；所有内容写入新目录和独立工作区",
+      "status": "完成"
+    },
+    {
+      "requirement": "当前实现与验证范围如实区分",
+      "evidence": "真实AG案例复现；隔离同源码739 passed、1 deselected；未运行PowerShell、未重训全历史及人工评分均明确保留",
+      "status": "完成"
+    }
+  ],
+  "remaining_required_work": [],
+  "notes_count": 227,
+  "source_files": 85,
+  "source_unchanged": true,
+  "learning_steps": 20,
+  "native_ui_entry": "曲面观策项目学习与面试/00-开始学习.md",
+  "known_project_limitations_are_documented": true
+}

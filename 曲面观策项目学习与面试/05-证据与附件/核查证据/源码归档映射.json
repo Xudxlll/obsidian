@@ -1,0 +1,404 @@
+[
+  {
+    "source": "原创性声明/readme.txt",
+    "note": "05-证据与附件/逐字源码/原创性声明/readme.txt.md",
+    "sha256": "f5aa9c61ad48351660505c7b7f96fe5d32306acc61857f13e54e1066f44877d0",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/.gitignore",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/隐藏文件-gitignore.md",
+    "sha256": "468e46238b13c354b7ea65b6c5242c4fedf9653444a2a596ac6bcc5f8f65acb0",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/README.md",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/README.md.md",
+    "sha256": "a0052739464b3395973d489f001e0e08e9c7d70a16a66daf68ccf9ef41cbfeb8",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/docs/问题1-Agent图表设计.md",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/docs/问题1-Agent图表设计.md.md",
+    "sha256": "02110a0f3e1bfefc5202a44d994e71a95e7f4cc7c31d81dfe139e494a1c52b6d",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/docs/问题1-离线报告图表设计.md",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/docs/问题1-离线报告图表设计.md.md",
+    "sha256": "b7d246aa4b33738737052496ff92c249f3537143e573446475e9724d84ad9fad",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/docs/问题2-知识图谱设计与运行说明.md",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/docs/问题2-知识图谱设计与运行说明.md.md",
+    "sha256": "081ee5ba6b01143053d9c23e81ab9668d9209984f5a36e6ff5f67956578d041f",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/pyproject.toml",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/pyproject.toml.md",
+    "sha256": "86fc3f892c717828d960dd0207308a5ecb654090f6d3bba332fd1c2f8b2fa4aa",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/queries/acceptance_report.sql",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/queries/acceptance_report.sql.md",
+    "sha256": "9b00d00faf7321ad4c2cb8b7ad1e0ae180daf41e241f6a05b570cf33ca4a8253",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/queries/backtest_report.sql",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/queries/backtest_report.sql.md",
+    "sha256": "43d4d89a53d54195187cac2a95a46938a26822458fcd4360d9160355fa54e306",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/scripts/build_acceptance_report.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/scripts/build_acceptance_report.py.md",
+    "sha256": "7b0c2ed0f6603a3c00126f8190d9dad6c4d3478b131933ad67b85adf46c32b59",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/scripts/build_explanation_review.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/scripts/build_explanation_review.py.md",
+    "sha256": "c6f102e658d10368ae80301f5195e74db94bd34642598d2df9b786710d1b93a7",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/scripts/build_knowledge_graph_notebook.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/scripts/build_knowledge_graph_notebook.py.md",
+    "sha256": "ac2827a7fcf48c51e6f23fe0e40892a4842dbb88dab09b53af4975dcea50d2df",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/scripts/build_knowledge_graph_report.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/scripts/build_knowledge_graph_report.py.md",
+    "sha256": "de8cd63bee5138773e82bc9cbb4689a59fb3b710cfa3ce0ad34aea11ee0629ee",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/scripts/build_notebook.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/scripts/build_notebook.py.md",
+    "sha256": "75727c1700333edc9e9523d40cb20073b96ccc4400fe48db4641580261cdca9d",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/scripts/extract_demo_data.ps1",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/scripts/extract_demo_data.ps1.md",
+    "sha256": "70fe27e23e70e03e807abf1875ff8208ffd2cd7292d448400e9419028c71dc8e",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/scripts/package_submission.ps1",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/scripts/package_submission.ps1.md",
+    "sha256": "506593dad72b0d25f08f9f9e553f87c804a7e086abccc81927d0ad0b8c7f3f22",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/scripts/query_knowledge_graph.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/scripts/query_knowledge_graph.py.md",
+    "sha256": "dfe521ba03a2901f12c773bb46aa33c859c771735c44b88a54f8ee7cd7c07429",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/scripts/render_acceptance_html.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/scripts/render_acceptance_html.py.md",
+    "sha256": "2eeff645c758dffc95d0c77e2aa35d5fcb83172c72291078b06ece1e198460fb",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/scripts/validate_knowledge_graph.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/scripts/validate_knowledge_graph.py.md",
+    "sha256": "71c9dde27a6c8528eed6b1974ae5adcb10ed0005f42f39dacf20e129f7c654b6",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/scripts/validate_outputs.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/scripts/validate_outputs.py.md",
+    "sha256": "4d4a032234977c59fa9ec19760c6c5b0e3f6f88eb8b1407441030b6c9ff9c9e0",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/__init__.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/__init__.py.md",
+    "sha256": "33aadb0c6a4963e0331455d738094a58af145f33e0c92617fadf95dd11a83941",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/__main__.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/__main__.py.md",
+    "sha256": "11cf323249f4ba4e79c9fb7660c0979fc91a3822bc5362286376b69808b41195",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/agent.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/agent.py.md",
+    "sha256": "ad35f6c5087a2dc9212231dd60c70f358f2dfec705eeef82ea4ce8374a84b773",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/alerts.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/alerts.py.md",
+    "sha256": "bb7b4631d8f48c68a8318b71fc03b7b5068dc6ed1da3fd8266a1e3a49b1ee1e1",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/backtest.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/backtest.py.md",
+    "sha256": "abad29bcf942793596b8d1943c6dc3496bf38cc40db02b813094afd58b7eba58",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/catalog.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/catalog.py.md",
+    "sha256": "6dd174d40b676df187a1356008127a37c838adb8f9e3fd312fb54c7b0de7b5aa",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/cli.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/cli.py.md",
+    "sha256": "cfb0c0774c94611050b5bbb9335b87ca945ca30369130fe0959db4de83b27899",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/config.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/config.py.md",
+    "sha256": "3ca4d3870a1438bd2ecd9b859bd83c1bb424f511f0a4e8cd47008330d9ef8da4",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/contracts.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/contracts.py.md",
+    "sha256": "9e7764d505c9af9eae84115d7d1b26916c253d08611f69fa2dff71449d240937",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/dashboard.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/dashboard.py.md",
+    "sha256": "b95e1244d7b3521f05aec00a7617f6291298520fb3afe5b248049b1c9b488f43",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/decision.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/decision.py.md",
+    "sha256": "180caf76feffaa3c6c1c91556c116109912b85dd9aa4db01310c61d2fffc635d",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/errors.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/errors.py.md",
+    "sha256": "d54e1192ece3ae228797861ae6996c3efdf1897e02aa6de883e97e9ddbd4fffb",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/features.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/features.py.md",
+    "sha256": "1fd5e57a9449d28e6c2b0668aaf2e1a0b3b00450ac7794e667536c690a6d344b",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/graph_explanation.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/graph_explanation.py.md",
+    "sha256": "ad3456f3e1d45e95a26ab32312c25b107ab082e7230c68688e033a1b6d206561",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/graph_queries.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/graph_queries.py.md",
+    "sha256": "e54cdc1655bdefe2931ac2d537f8b07c98e61bd0fc30aa65e2286ff6c1353ac1",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/graph_reasoner.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/graph_reasoner.py.md",
+    "sha256": "0fb10525458152f1f6602428feb5b956a0473dcb2d5acc47d40643de27fd199a",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/graph_visualization.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/graph_visualization.py.md",
+    "sha256": "d9f229fa0805b397699813da1bc6426f4508bbb5b2ab1cd8e08406a798ad3028",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/interactive.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/interactive.py.md",
+    "sha256": "1334483e3a504db6ba75bee29c803d6cb53b240b08b8145b055483bd8fd2c7f3",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/io.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/io.py.md",
+    "sha256": "70aaf30c6588f3e4c91b6a7b08570045c3f5be126279a6c96bdb8018b75f4511",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/knowledge_graph.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/knowledge_graph.py.md",
+    "sha256": "d9fc4baa1737fa9c15db6b209f41660604bcb7ce8449b566b35a6f03b6da6d5c",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/knowledge_schema.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/knowledge_schema.py.md",
+    "sha256": "22176876c5ac3c3391e491d836eb6f622f92b90f8aaa75594bfe03e6ad82cd34",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/labels.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/labels.py.md",
+    "sha256": "86f89fd456fd789b0809ef6c48540ab2e8de400fb425170b963c0bc104796aec",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/model.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/model.py.md",
+    "sha256": "7b5d19e7401d12808b88d3c040b021308c72a4886edaad8851b2a6c53fbbadde",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/official_events.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/official_events.py.md",
+    "sha256": "a30824c6e90a49efa512efd6820e1694799cf67e4d701a44658481c6bc1bd781",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/pipeline.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/pipeline.py.md",
+    "sha256": "a860807429a70b8db7299b33f245b5a4486f2acf43ef8e2b702564943ad5d5a7",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/provenance.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/provenance.py.md",
+    "sha256": "a950cfb4ceead2d63ce574c31f5ec2036a43bb09c613fcbb04f0a28a44dd5d31",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/quality.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/quality.py.md",
+    "sha256": "5cac0b1574499eb9c0b4c3be5d0736de2e8573cf62b28347571dca124d45530b",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/surface_fit_diagnostics.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/surface_fit_diagnostics.py.md",
+    "sha256": "52b8e3870395c1358c7549e12921a39806949d8b215481123957b02b605b3a22",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/surfaces.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/surfaces.py.md",
+    "sha256": "eaed89807dfdad5e37173210c0efdfae8b0632b55eca1baffeb997ef21e57bfb",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/total_variance_fit.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/total_variance_fit.py.md",
+    "sha256": "155f052b9ca8ca5042cdfa67eb7ed769b32ce082aa72a9f40ae6f7b3115f47a9",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/validation.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/validation.py.md",
+    "sha256": "606c5c3f099b4d38b36c0d17029fa329642ea0b16a39a1aaf78f2fa87046b5dd",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/src/option_risk/visualization.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk/visualization.py.md",
+    "sha256": "1234f1d89e772393f8340e7e1d21657d11f6bd9239f6d942d063132eada4373f",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/tests/graph_fixtures.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/graph_fixtures.py.md",
+    "sha256": "a951172bf14cf90b5b076c8abb80e612d305002f97ebe406a5ae40b4c702d7ad",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/tests/test_agent_contracts.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/test_agent_contracts.py.md",
+    "sha256": "3659f846260ac4022ffc9245b3c9152347178ca95a2a5942b76fda2eda82e813",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/tests/test_graph_acceptance.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/test_graph_acceptance.py.md",
+    "sha256": "32c4429987d42bbf1d3b317c276f76df02943c433d699331993c9175b92bb4ea",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/tests/test_graph_artifacts.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/test_graph_artifacts.py.md",
+    "sha256": "a4bd188bcc9dd1ed4217f767dae305766b80c9e8adedced7e6b2759eafd23730",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/tests/test_graph_dashboard.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/test_graph_dashboard.py.md",
+    "sha256": "9505d0bff2320b7746b907a010ecd29fdc0bacfa976b116f38a8fe345c0b3ebd",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/tests/test_graph_explanation.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/test_graph_explanation.py.md",
+    "sha256": "9a56e5bde12f9eb7fe62fff195594dcceb84fc9c04b0b8e56126df0588b0ad5a",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/tests/test_graph_queries.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/test_graph_queries.py.md",
+    "sha256": "778182ac3be820f76e5ecfa0f58d060cc1003ed721d3d89c72bf0797442ba53a",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/tests/test_graph_reasoner.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/test_graph_reasoner.py.md",
+    "sha256": "b39d5558831c5b38496edeada764b8068890b1cf4788ee440f5f884bbc8c6160",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/tests/test_knowledge_graph.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/test_knowledge_graph.py.md",
+    "sha256": "2c38295d2b78caa058536672c8aae8b094e264d6c937e2cb1845dcd03ecd1349",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/tests/test_knowledge_schema.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/test_knowledge_schema.py.md",
+    "sha256": "1a561db133032c7ec334e876f26ce3a948cf0b36a5bcbce20fc5c84a0ece8e6a",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/tests/test_total_variance_fit.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/test_total_variance_fit.py.md",
+    "sha256": "3fa33aaa7b4587a3ca94a08bd159fe0ca8b06a8cceeee0d83a4caad8d1f4aa88",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/option_risk_warning/tests/test_validation.py",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/test_validation.py.md",
+    "sha256": "847c0ae0166cb75fb1d7acf844f35ad90cbf91f3127ca6d6937a522eb550236a",
+    "trailing_newline": true
+  },
+  {
+    "source": "可运行的项目成果/readme.txt",
+    "note": "05-证据与附件/逐字源码/可运行的项目成果/readme.txt.md",
+    "sha256": "44da777e7ae1ef3ffa5839afda259c163ab0ed33a478dbbcd9e8bfc57a072fc7",
+    "trailing_newline": true
+  },
+  {
+    "source": "技术文档/readme.txt",
+    "note": "05-证据与附件/逐字源码/技术文档/readme.txt.md",
+    "sha256": "1f4716537e6b96eda7508872757f79cb3f35b0081f391f58926e16c4534b6370",
+    "trailing_newline": true
+  },
+  {
+    "source": "精益画布/readme.txt",
+    "note": "05-证据与附件/逐字源码/精益画布/readme.txt.md",
+    "sha256": "a3b8d5309f1fdc2b96fa52175e2bb7c5d10b598254a6829948478265e9552ac5",
+    "trailing_newline": true
+  }
+]

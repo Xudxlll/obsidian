@@ -1,0 +1,999 @@
+{
+  "read_scope": "所有Parquet页脚元数据；AG 2025年4月节点的选择性SQL切片，不做全表Pandas加载",
+  "merged": {
+    "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/11-基于期权波动率曲面与智能体的量化风控预警系统/期权课题数据集/options_merged.parquet",
+    "bytes": 6044471511,
+    "rows": 225933254,
+    "columns": 24,
+    "row_groups": 9465,
+    "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: int32\namount: float\nopen_interest: int32\nsettlement_price: float\npre_close: float\nsuspend_flag: int8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: int16\nmoneyness: float\nmoneyness_type: string\ndate: int32\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 2818"
+  },
+  "archive": {
+    "parquet_files": 8581,
+    "rows": 225933254,
+    "product_count": 35,
+    "by_product": {
+      "a": {
+        "rows": 10131682,
+        "files": 242
+      },
+      "ag": {
+        "rows": 19659174,
+        "files": 265
+      },
+      "al": {
+        "rows": 10862301,
+        "files": 210
+      },
+      "ao": {
+        "rows": 3002412,
+        "files": 84
+      },
+      "au": {
+        "rows": 8435314,
+        "files": 237
+      },
+      "b": {
+        "rows": 9554685,
+        "files": 470
+      },
+      "br": {
+        "rows": 2922779,
+        "files": 99
+      },
+      "bu": {
+        "rows": 296928,
+        "files": 18
+      },
+      "c": {
+        "rows": 6950462,
+        "files": 256
+      },
+      "cs": {
+        "rows": 759326,
+        "files": 93
+      },
+      "cu": {
+        "rows": 6671319,
+        "files": 270
+      },
+      "eb": {
+        "rows": 7860752,
+        "files": 361
+      },
+      "eg": {
+        "rows": 6996200,
+        "files": 362
+      },
+      "fu": {
+        "rows": 414302,
+        "files": 24
+      },
+      "i": {
+        "rows": 16182613,
+        "files": 499
+      },
+      "jd": {
+        "rows": 2003152,
+        "files": 182
+      },
+      "l": {
+        "rows": 9622804,
+        "files": 499
+      },
+      "lc": {
+        "rows": 11024220,
+        "files": 341
+      },
+      "lh": {
+        "rows": 1172422,
+        "files": 95
+      },
+      "m": {
+        "rows": 5933014,
+        "files": 330
+      },
+      "ni": {
+        "rows": 2006920,
+        "files": 68
+      },
+      "p": {
+        "rows": 12566771,
+        "files": 503
+      },
+      "pb": {
+        "rows": 1311080,
+        "files": 53
+      },
+      "pg": {
+        "rows": 14162222,
+        "files": 479
+      },
+      "pp": {
+        "rows": 9323706,
+        "files": 499
+      },
+      "ps": {
+        "rows": 1745340,
+        "files": 128
+      },
+      "rb": {
+        "rows": 6240156,
+        "files": 202
+      },
+      "ru": {
+        "rows": 5296658,
+        "files": 200
+      },
+      "sc": {
+        "rows": 3860552,
+        "files": 131
+      },
+      "si": {
+        "rows": 6101320,
+        "files": 345
+      },
+      "sn": {
+        "rows": 1332443,
+        "files": 55
+      },
+      "sp": {
+        "rows": 187892,
+        "files": 17
+      },
+      "v": {
+        "rows": 9556686,
+        "files": 502
+      },
+      "y": {
+        "rows": 6204374,
+        "files": 304
+      },
+      "zn": {
+        "rows": 5581273,
+        "files": 158
+      }
+    },
+    "schema_variant_count": 44,
+    "schema_variants": [
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3013",
+        "file_count": 598
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint16\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3015",
+        "file_count": 2067
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint16\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3014",
+        "file_count": 278
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint8\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3011",
+        "file_count": 2671
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint8\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint16\nmoneyness: float\nmoneyness_type: string\ndate: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3013",
+        "file_count": 1130
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint8\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint16\nmoneyness: float\nmoneyness_type: string\ndate: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3012",
+        "file_count": 544
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint16\nmoneyness: float\nmoneyness_type: string\ndate: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3015",
+        "file_count": 55
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint16\namount: float\nopen_interest: uint32\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint16\nmoneyness: float\nmoneyness_type: string\ndate: int32\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 2826",
+        "file_count": 5
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint8\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint16\nmoneyness: float\nmoneyness_type: string\ndate: string\n__index_level_0__: int64\n-- schema metadata --\npandas: '{\"index_columns\": [\"__index_level_0__\"], \"column_indexes\": [{\"na' + 3079",
+        "file_count": 75
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: int32\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3008",
+        "file_count": 16
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint16\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: int32\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 2824",
+        "file_count": 14
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint16\namount: float\nopen_interest: uint32\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: int32\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 2824",
+        "file_count": 2
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint16\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: int32\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3011",
+        "file_count": 102
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint8\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3010",
+        "file_count": 342
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint8\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: int32\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3006",
+        "file_count": 32
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint16\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: int32\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3012",
+        "file_count": 132
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3012",
+        "file_count": 71
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint8\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint16\nmoneyness: float\nmoneyness_type: string\ndate: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3011",
+        "file_count": 46
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint8\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: int32\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3007",
+        "file_count": 48
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint16\nmoneyness: float\nmoneyness_type: string\ndate: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3014",
+        "file_count": 25
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint16\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint16\nmoneyness: float\nmoneyness_type: string\ndate: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3017",
+        "file_count": 13
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint16\namount: float\nopen_interest: uint32\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3015",
+        "file_count": 39
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint16\namount: float\nopen_interest: uint32\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3014",
+        "file_count": 6
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint8\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: int32\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3005",
+        "file_count": 2
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: int32\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3009",
+        "file_count": 23
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint8\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: int32\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3008",
+        "file_count": 42
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint16\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint16\nmoneyness: float\nmoneyness_type: string\ndate: int32\n-- schema metadata --\npandas: '{\"index_columns\": [], \"column_indexes\": [], \"columns\": [{\"name\":' + 2826",
+        "file_count": 10
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: int32\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3010",
+        "file_count": 18
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint16\nmoneyness: float\nmoneyness_type: string\ndate: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3013",
+        "file_count": 1
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint16\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint16\nmoneyness: float\nmoneyness_type: string\ndate: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3016",
+        "file_count": 5
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint16\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: int32\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3010",
+        "file_count": 5
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint16\namount: float\nopen_interest: uint8\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3013",
+        "file_count": 2
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint8\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: string\n__index_level_0__: int64\n-- schema metadata --\npandas: '{\"index_columns\": [\"__index_level_0__\"], \"column_indexes\": [{\"na' + 3077",
+        "file_count": 57
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint16\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: string\n__index_level_0__: int64\n-- schema metadata --\npandas: '{\"index_columns\": [\"__index_level_0__\"], \"column_indexes\": [{\"na' + 3081",
+        "file_count": 32
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: string\n__index_level_0__: int64\n-- schema metadata --\npandas: '{\"index_columns\": [\"__index_level_0__\"], \"column_indexes\": [{\"na' + 3079",
+        "file_count": 10
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint16\namount: float\nopen_interest: uint32\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: string\n__index_level_0__: int64\n-- schema metadata --\npandas: '{\"index_columns\": [\"__index_level_0__\"], \"column_indexes\": [{\"na' + 3081",
+        "file_count": 2
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint16\nmoneyness: float\nmoneyness_type: string\ndate: string\n__index_level_0__: int64\n-- schema metadata --\npandas: '{\"index_columns\": [\"__index_level_0__\"], \"column_indexes\": [{\"na' + 3081",
+        "file_count": 3
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint8\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3009",
+        "file_count": 37
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint16\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: int32\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3013",
+        "file_count": 6
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint16\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3016",
+        "file_count": 4
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3014",
+        "file_count": 1
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3011",
+        "file_count": 5
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint8\namount: float\nopen_interest: uint8\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3008",
+        "file_count": 1
+      },
+      {
+        "schema": "timestamp: string\ncontract: string\nunderlying: string\noption_type: string\nstrike: float\nopen: float\nhigh: float\nlow: float\nclose: float\nvolume: uint16\namount: float\nopen_interest: uint16\nsettlement_price: float\npre_close: float\nsuspend_flag: uint8\niv: float\ndelta: float\ngamma: float\ntheta: float\nvega: float\ndte: uint8\nmoneyness: float\nmoneyness_type: string\ndate: string\n-- schema metadata --\npandas: '{\"index_columns\": [{\"kind\": \"range\", \"name\": null, \"start\": 0, \"' + 3013",
+        "file_count": 4
+      }
+    ]
+  },
+  "other_archive_files": [
+    "archive/.DS_Store",
+    "archive/GF/.DS_Store",
+    "archive/DF/.DS_Store",
+    "archive/SF/.DS_Store",
+    "archive/INE/sc2511/options/2025/10/options_202510.parquet.bak",
+    "archive/INE/sc2512/options/2025/11/options_202511.parquet.bak",
+    "archive/INE/sc2512/options/2025/10/options_202510.parquet.bak",
+    "archive/INE/sc2601/options/2025/11/options_202511.parquet.bak",
+    "archive/INE/sc2601/options/2025/12/options_202512.parquet.bak",
+    "archive/GF/lc2401/.DS_Store",
+    "archive/GF/lc2511/options/2025/10/options_202510.parquet.bak",
+    "archive/GF/lc2603/options/2026/01/options_202601.parquet.bak",
+    "archive/GF/lc2602/options/2025/12/options_202512.parquet.bak",
+    "archive/GF/lc2602/options/2026/01/options_202601.parquet.bak",
+    "archive/GF/lc2401/options/.DS_Store",
+    "archive/GF/lc2512/options/2025/11/options_202511.parquet.bak",
+    "archive/GF/lc2512/options/2025/10/options_202510.parquet.bak",
+    "archive/GF/si2511/options/2025/10/options_202510.parquet.bak",
+    "archive/GF/lc2601/options/2025/11/options_202511.parquet.bak",
+    "archive/GF/lc2601/options/2025/12/options_202512.parquet.bak",
+    "archive/DF/y2503/.DS_Store",
+    "archive/DF/b2608/.DS_Store",
+    "archive/DF/y2609/.DS_Store",
+    "archive/DF/y2608/.DS_Store",
+    "archive/DF/y2509/.DS_Store",
+    "archive/DF/y2501/.DS_Store",
+    "archive/DF/i2511/options/2025/10/options_202510.parquet.bak",
+    "archive/DF/y2503/options/.DS_Store",
+    "archive/DF/y2503/options/2024/.DS_Store",
+    "archive/DF/b2608/options/.DS_Store",
+    "archive/DF/a2601/options/2025/11/options_202511.parquet.bak",
+    "archive/DF/a2601/options/2025/10/options_202510.parquet.bak",
+    "archive/DF/a2601/options/2025/12/options_202512.parquet.bak",
+    "archive/DF/y2609/options/.DS_Store",
+    "archive/DF/y2609/options/2025/.DS_Store",
+    "archive/DF/y2608/options/.DS_Store",
+    "archive/DF/y2608/options/2025/.DS_Store",
+    "archive/DF/a2511/options/2025/10/options_202510.parquet.bak",
+    "archive/DF/y2509/options/.DS_Store",
+    "archive/DF/b2511/options/2025/10/options_202510.parquet.bak",
+    "archive/DF/y2501/options/.DS_Store",
+    "archive/DF/a2603/options/2025/12/options_202512.parquet.bak",
+    "archive/DF/a2603/options/2026/01/options_202601.parquet.bak",
+    "archive/SF/ag2601/.DS_Store",
+    "archive/SF/ag2511/options/2025/10/options_202510.parquet.bak",
+    "archive/SF/au2511/options/2025/10/options_202510.parquet.bak",
+    "archive/SF/ag2602/options/2025/12/options_202512.parquet.bak",
+    "archive/SF/ag2602/options/2026/01/options_202601.parquet.bak",
+    "archive/SF/ag2512/options/2025/11/options_202511.parquet.bak",
+    "archive/SF/ag2512/options/2025/10/options_202510.parquet.bak",
+    "archive/SF/ag2601/options/.DS_Store",
+    "archive/SF/ag2601/options/2025/.DS_Store",
+    "archive/SF/ag2601/options/2025/11/options_202511.parquet.bak",
+    "archive/SF/ag2601/options/2025/12/options_202512.parquet.bak",
+    "archive/SF/al2602/options/2026/01/options_202601.parquet.bak"
+  ],
+  "official_events": {
+    "encoding": "gb18030",
+    "rows": 17,
+    "columns": [
+      "start_date",
+      "end_date",
+      "event_description",
+      "sectors_affected"
+    ],
+    "records": [
+      {
+        "start_date": "2026/3/2",
+        "end_date": "2026/3/31",
+        "event_description": "原油市场地缘冲突与政策干预三重共振，暴涨暴跌，以3/10日为分界线，期间特朗普连续TACO，多次反转",
+        "sectors_affected": "能源，化工，油脂油料"
+      },
+      {
+        "start_date": "2026/1/23",
+        "end_date": "2026/2/6",
+        "event_description": "美联储降息预期叠加CME调高保证金，贵金属暴涨暴跌，以1/30日为分界线",
+        "sectors_affected": "贵金属，有色"
+      },
+      {
+        "start_date": "2025/12/29",
+        "end_date": "2025/12/29",
+        "event_description": "碳酸锂新高后多空预期极速切换，现货与期货节奏劈叉，多头平仓叠加监管因素共同触发",
+        "sectors_affected": "碳酸锂"
+      },
+      {
+        "start_date": "2025/9/24",
+        "end_date": "2025/10/15",
+        "event_description": "全球第二大铜矿（刚果Kamoa-Kakula）发生重大事故停产，供应中断恐慌",
+        "sectors_affected": "有色（铜）"
+      },
+      {
+        "start_date": "2025/8/6",
+        "end_date": "2025/8/22",
+        "event_description": "碳酸锂连续涨停接跌停，8/12日或8/19日可作为分界线",
+        "sectors_affected": "碳酸锂"
+      },
+      {
+        "start_date": "2025/7/21",
+        "end_date": "2025/7/28",
+        "event_description": "焦煤五连涨停接一个跌停，“反内需”政策预期驱动暴涨→大商所紧急收紧开仓限额，多头平仓踩踏",
+        "sectors_affected": "黑色系"
+      },
+      {
+        "start_date": "2025/4/3",
+        "end_date": "2025/4/10",
+        "event_description": "特朗普发起全球关税战，大宗商品普遍下跌",
+        "sectors_affected": "全板块"
+      },
+      {
+        "start_date": "2024/9/24",
+        "end_date": "2024/10/10",
+        "event_description": "9.24商品与股指同步暴涨后跳水，可以10/8日为分界线",
+        "sectors_affected": "全板块"
+      },
+      {
+        "start_date": "2024/8/2",
+        "end_date": "2024/9/11",
+        "event_description": "商品多空情绪逆转，各板块加速下跌，多个品种创年度新低。期间能化板块领跌",
+        "sectors_affected": "全板块"
+      },
+      {
+        "start_date": "2024/5/17",
+        "end_date": "2024/5/23",
+        "event_description": "铜前期连续上涨，前期逼仓情绪（COMEX铜交割问题）→获利了结+监管降温，日内振幅极大",
+        "sectors_affected": "有色（铜）"
+      },
+      {
+        "start_date": "2024/4/12",
+        "end_date": "2024/4/15",
+        "event_description": "贵金属日内极端冲高回落",
+        "sectors_affected": "贵金属"
+      },
+      {
+        "start_date": "2024/2/19",
+        "end_date": "2024/2/23",
+        "event_description": "铁矿石跌近4%，同产业链品种间出现极端分化，焦煤大涨但此时暂无期权",
+        "sectors_affected": "黑色系"
+      },
+      {
+        "start_date": "2024/1/4",
+        "end_date": "2024/3/15",
+        "event_description": "螺纹钢持续单边下跌",
+        "sectors_affected": "黑色系"
+      },
+      {
+        "start_date": "2024/1/2",
+        "end_date": "2024/1/4",
+        "event_description": "涨停+巨幅盘中震荡+跌停，供应端（铝土矿）紧张预期→交易所干预+期现回归，资金逻辑瞬间反转",
+        "sectors_affected": "有色金属；氧化铝"
+      },
+      {
+        "start_date": "2023/12/11",
+        "end_date": "2023/12/13",
+        "event_description": "极端超跌反弹+空头踩踏",
+        "sectors_affected": "碳酸锂"
+      },
+      {
+        "start_date": "2023/9/1",
+        "end_date": "2023/9/11",
+        "event_description": "合成橡胶上市后连续大涨进入宽幅震荡",
+        "sectors_affected": "合成橡胶"
+      },
+      {
+        "start_date": "2023/5/30",
+        "end_date": "2023/6/2",
+        "event_description": "能化板块沙特6月CP不及预期，海外供应超预期宽松，日内波动剧烈",
+        "sectors_affected": "能源，化工"
+      }
+    ]
+  },
+  "queries": {
+    "ag_april_profile": {
+      "sql": "SELECT count(*) rows, count(DISTINCT timestamp) snapshots, count(DISTINCT underlying) underlyings, min(timestamp) first_timestamp,max(timestamp) last_timestamp FROM ag_april",
+      "input_files": [
+        "archive/SF/ag2505/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2506/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2507/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2508/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2509/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2510/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2511/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2512/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2601/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2602/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2603/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2604/options/2025/04/options_202504.parquet"
+      ],
+      "records": [
+        {
+          "rows": 578896,
+          "snapshots": 777,
+          "underlyings": 12,
+          "first_timestamp": "20250401000000",
+          "last_timestamp": "20250430234500"
+        }
+      ]
+    },
+    "ag_2025_04_07_1015_expiries": {
+      "sql": "SELECT underlying, min(dte) min_dte,max(dte) max_dte,count(DISTINCT dte) dte_count,count(*) rows,count(DISTINCT strike) strikes,min(moneyness) min_moneyness,max(moneyness) max_moneyness,median(strike/moneyness) implied_underlying FROM ag_april WHERE timestamp='20250407101500' GROUP BY underlying ORDER BY min_dte",
+      "input_files": [
+        "archive/SF/ag2505/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2506/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2507/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2508/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2509/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2510/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2511/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2512/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2601/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2602/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2603/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2604/options/2025/04/options_202504.parquet"
+      ],
+      "records": [
+        {
+          "underlying": "ag2505",
+          "min_dte": 16,
+          "max_dte": 16,
+          "dte_count": 1,
+          "rows": 76,
+          "strikes": 38,
+          "min_moneyness": 0.7851718664169312,
+          "max_moneyness": 1.2614235877990723,
+          "implied_underlying": 7769.0
+        },
+        {
+          "underlying": "ag2506",
+          "min_dte": 48,
+          "max_dte": 48,
+          "dte_count": 1,
+          "rows": 78,
+          "strikes": 39,
+          "min_moneyness": 0.7719027400016785,
+          "max_moneyness": 1.2607744932174683,
+          "implied_underlying": 7773.0
+        },
+        {
+          "underlying": "ag2507",
+          "min_dte": 77,
+          "max_dte": 77,
+          "dte_count": 1,
+          "rows": 60,
+          "strikes": 30,
+          "min_moneyness": 0.8862060308456421,
+          "max_moneyness": 1.258669376373291,
+          "implied_underlying": 7786.0
+        },
+        {
+          "underlying": "ag2508",
+          "min_dte": 108,
+          "max_dte": 108,
+          "dte_count": 1,
+          "rows": 74,
+          "strikes": 37,
+          "min_moneyness": 0.7951776385307312,
+          "max_moneyness": 1.2568936347961426,
+          "implied_underlying": 7797.0
+        },
+        {
+          "underlying": "ag2509",
+          "min_dte": 139,
+          "max_dte": 139,
+          "dte_count": 1,
+          "rows": 58,
+          "strikes": 29,
+          "min_moneyness": 0.8955987691879272,
+          "max_moneyness": 1.253838300704956,
+          "implied_underlying": 7816.0
+        },
+        {
+          "underlying": "ag2510",
+          "min_dte": 169,
+          "max_dte": 169,
+          "dte_count": 1,
+          "rows": 74,
+          "strikes": 37,
+          "min_moneyness": 0.7919274568557739,
+          "max_moneyness": 1.2517563104629517,
+          "implied_underlying": 7829.0
+        },
+        {
+          "underlying": "ag2512",
+          "min_dte": 230,
+          "max_dte": 230,
+          "dte_count": 1,
+          "rows": 66,
+          "strikes": 33,
+          "min_moneyness": 0.8532857894897461,
+          "max_moneyness": 1.260825276374817,
+          "implied_underlying": 7852.0
+        },
+        {
+          "underlying": "ag2601",
+          "min_dte": 261,
+          "max_dte": 261,
+          "dte_count": 1,
+          "rows": 58,
+          "strikes": 29,
+          "min_moneyness": 0.9025041460990906,
+          "max_moneyness": 1.2584213018417358,
+          "implied_underlying": 7867.0
+        },
+        {
+          "underlying": "ag2602",
+          "min_dte": 293,
+          "max_dte": 293,
+          "dte_count": 1,
+          "rows": 60,
+          "strikes": 30,
+          "min_moneyness": 0.8879867792129517,
+          "max_moneyness": 1.2558670043945312,
+          "implied_underlying": 7883.0
+        },
+        {
+          "underlying": "ag2603",
+          "min_dte": 311,
+          "max_dte": 311,
+          "dte_count": 1,
+          "rows": 54,
+          "strikes": 27,
+          "min_moneyness": 0.9116231799125671,
+          "max_moneyness": 1.2408204078674316,
+          "implied_underlying": 7898.0
+        }
+      ]
+    },
+    "ag_2025_04_07_1015_sample": {
+      "sql": "SELECT timestamp,contract,underlying,option_type,strike,close,iv,delta,gamma,vega,theta,dte,moneyness,volume,open_interest FROM ag_april WHERE timestamp='20250407101500' ORDER BY underlying,strike,option_type LIMIT 16",
+      "input_files": [
+        "archive/SF/ag2505/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2506/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2507/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2508/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2509/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2510/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2511/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2512/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2601/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2602/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2603/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2604/options/2025/04/options_202504.parquet"
+      ],
+      "records": [
+        {
+          "timestamp": "20250407101500",
+          "contract": "ag2505C6100.SF",
+          "underlying": "ag2505",
+          "option_type": "call",
+          "strike": 6100.0,
+          "close": 2253.0,
+          "iv": 2.1675713062286377,
+          "delta": 0.7771883606910706,
+          "gamma": 8.45922259031795e-05,
+          "vega": 4.851334095001221,
+          "theta": -33.17238235473633,
+          "dte": 16,
+          "moneyness": 0.7851718664169312,
+          "volume": 0,
+          "open_interest": 0
+        },
+        {
+          "timestamp": "20250407101500",
+          "contract": "ag2505P6100.SF",
+          "underlying": "ag2505",
+          "option_type": "put",
+          "strike": 6100.0,
+          "close": 11.5,
+          "iv": 0.6292214393615723,
+          "delta": -0.027958106249570847,
+          "gamma": 6.269777804845944e-05,
+          "vega": 1.0437897443771362,
+          "theta": -2.033623695373535,
+          "dte": 16,
+          "moneyness": 0.7851718664169312,
+          "volume": 437,
+          "open_interest": 4326
+        },
+        {
+          "timestamp": "20250407101500",
+          "contract": "ag2505C6200.SF",
+          "underlying": "ag2505",
+          "option_type": "call",
+          "strike": 6200.0,
+          "close": 2153.0,
+          "iv": 2.089737892150879,
+          "delta": 0.7695531845092773,
+          "gamma": 8.942757995100692e-05,
+          "vega": 4.944479942321777,
+          "theta": -32.60402297973633,
+          "dte": 16,
+          "moneyness": 0.7980434894561768,
+          "volume": 0,
+          "open_interest": 0
+        },
+        {
+          "timestamp": "20250407101500",
+          "contract": "ag2505P6200.SF",
+          "underlying": "ag2505",
+          "option_type": "put",
+          "strike": 6200.0,
+          "close": 17.0,
+          "iv": 0.638229489326477,
+          "delta": -0.038790952414274216,
+          "gamma": 8.096079545794055e-05,
+          "vega": 1.3671272993087769,
+          "theta": -2.7005233764648438,
+          "dte": 16,
+          "moneyness": 0.7980434894561768,
+          "volume": 1,
+          "open_interest": 177
+        },
+        {
+          "timestamp": "20250407101500",
+          "contract": "ag2505C6300.SF",
+          "underlying": "ag2505",
+          "option_type": "call",
+          "strike": 6300.0,
+          "close": 2053.0,
+          "iv": 2.0126402378082275,
+          "delta": 0.7615200877189636,
+          "gamma": 9.463040623813868e-05,
+          "vega": 5.039114475250244,
+          "theta": -32.011043548583984,
+          "dte": 16,
+          "moneyness": 0.8109151721000671,
+          "volume": 0,
+          "open_interest": 0
+        },
+        {
+          "timestamp": "20250407101500",
+          "contract": "ag2505P6300.SF",
+          "underlying": "ag2505",
+          "option_type": "put",
+          "strike": 6300.0,
+          "close": 19.0,
+          "iv": 0.6143959760665894,
+          "delta": -0.044201403856277466,
+          "gamma": 9.348821185994893e-05,
+          "vega": 1.5197163820266724,
+          "theta": -2.888050079345703,
+          "dte": 16,
+          "moneyness": 0.8109151721000671,
+          "volume": 3,
+          "open_interest": 203
+        },
+        {
+          "timestamp": "20250407101500",
+          "contract": "ag2505C6400.SF",
+          "underlying": "ag2505",
+          "option_type": "call",
+          "strike": 6400.0,
+          "close": 1953.0,
+          "iv": 1.9361965656280518,
+          "delta": 0.7530474066734314,
+          "gamma": 0.00010024331277236342,
+          "vega": 5.135257244110107,
+          "theta": -31.391796112060547,
+          "dte": 16,
+          "moneyness": 0.8237868547439575,
+          "volume": 0,
+          "open_interest": 7
+        },
+        {
+          "timestamp": "20250407101500",
+          "contract": "ag2505P6400.SF",
+          "underlying": "ag2505",
+          "option_type": "put",
+          "strike": 6400.0,
+          "close": 21.0,
+          "iv": 0.5889212489128113,
+          "delta": -0.05004502087831497,
+          "gamma": 0.00010774187830975279,
+          "vega": 1.6788005828857422,
+          "theta": -3.0559470653533936,
+          "dte": 16,
+          "moneyness": 0.8237868547439575,
+          "volume": 40,
+          "open_interest": 257
+        },
+        {
+          "timestamp": "20250407101500",
+          "contract": "ag2505C6500.SF",
+          "underlying": "ag2505",
+          "option_type": "call",
+          "strike": 6500.0,
+          "close": 1853.0,
+          "iv": 1.8603200912475586,
+          "delta": 0.7440871000289917,
+          "gamma": 0.00010631589248077944,
+          "vega": 5.232909679412842,
+          "theta": -30.744356155395508,
+          "dte": 16,
+          "moneyness": 0.8366585373878479,
+          "volume": 0,
+          "open_interest": 3
+        },
+        {
+          "timestamp": "20250407101500",
+          "contract": "ag2505P6500.SF",
+          "underlying": "ag2505",
+          "option_type": "put",
+          "strike": 6500.0,
+          "close": 27.0,
+          "iv": 0.5827760696411133,
+          "delta": -0.06258909404277802,
+          "gamma": 0.00012988240632694215,
+          "vega": 2.0026700496673584,
+          "theta": -3.605027675628662,
+          "dte": 16,
+          "moneyness": 0.8366585373878479,
+          "volume": 81,
+          "open_interest": 836
+        },
+        {
+          "timestamp": "20250407101500",
+          "contract": "ag2505C6600.SF",
+          "underlying": "ag2505",
+          "option_type": "call",
+          "strike": 6600.0,
+          "close": 1753.0,
+          "iv": 1.7849228382110596,
+          "delta": 0.7345832586288452,
+          "gamma": 0.0001129061056417413,
+          "vega": 5.332050323486328,
+          "theta": -30.06654167175293,
+          "dte": 16,
+          "moneyness": 0.8495301604270935,
+          "volume": 0,
+          "open_interest": 3
+        },
+        {
+          "timestamp": "20250407101500",
+          "contract": "ag2505P6600.SF",
+          "underlying": "ag2505",
+          "option_type": "put",
+          "strike": 6600.0,
+          "close": 31.5,
+          "iv": 0.5640514492988586,
+          "delta": -0.07338524609804153,
+          "gamma": 0.00015174328291323036,
+          "vega": 2.26456880569458,
+          "theta": -3.9422173500061035,
+          "dte": 16,
+          "moneyness": 0.8495301604270935,
+          "volume": 51,
+          "open_interest": 811
+        },
+        {
+          "timestamp": "20250407101500",
+          "contract": "ag2505C6700.SF",
+          "underlying": "ag2505",
+          "option_type": "call",
+          "strike": 6700.0,
+          "close": 1653.0,
+          "iv": 1.709909200668335,
+          "delta": 0.7244704961776733,
+          "gamma": 0.00012008233170490712,
+          "vega": 5.43262243270874,
+          "theta": -29.35578155517578,
+          "dte": 16,
+          "moneyness": 0.8624018430709839,
+          "volume": 0,
+          "open_interest": 3
+        },
+        {
+          "timestamp": "20250407101500",
+          "contract": "ag2505P6700.SF",
+          "underlying": "ag2505",
+          "option_type": "put",
+          "strike": 6700.0,
+          "close": 39.0,
+          "iv": 0.5538294911384583,
+          "delta": -0.08915640413761139,
+          "gamma": 0.00017900487000588328,
+          "vega": 2.622999906539917,
+          "theta": -4.47953462600708,
+          "dte": 16,
+          "moneyness": 0.8624018430709839,
+          "volume": 123,
+          "open_interest": 565
+        },
+        {
+          "timestamp": "20250407101500",
+          "contract": "ag2505C6800.SF",
+          "underlying": "ag2505",
+          "option_type": "call",
+          "strike": 6800.0,
+          "close": 1553.0,
+          "iv": 1.635178804397583,
+          "delta": 0.7136714458465576,
+          "gamma": 0.00012792562483809888,
+          "vega": 5.534522533416748,
+          "theta": -28.609113693237305,
+          "dte": 16,
+          "moneyness": 0.8752735257148743,
+          "volume": 0,
+          "open_interest": 4
+        },
+        {
+          "timestamp": "20250407101500",
+          "contract": "ag2505P6800.SF",
+          "underlying": "ag2505",
+          "option_type": "put",
+          "strike": 6800.0,
+          "close": 46.0,
+          "iv": 0.5366989374160767,
+          "delta": -0.10502254962921143,
+          "gamma": 0.00020832302107010037,
+          "vega": 2.9581851959228516,
+          "theta": -4.8905792236328125,
+          "dte": 16,
+          "moneyness": 0.8752735257148743,
+          "volume": 129,
+          "open_interest": 997
+        }
+      ]
+    },
+    "ag_april_missingness": {
+      "sql": "SELECT count(*) rows,count(*) FILTER(WHERE iv IS NULL) iv_null,count(*) FILTER(WHERE close IS NULL) close_null,count(*) FILTER(WHERE moneyness IS NULL) moneyness_null,count(*) FILTER(WHERE iv<=0) nonpositive_iv,count(*) FILTER(WHERE close<=0) nonpositive_close,count(*) FILTER(WHERE volume=0) zero_volume FROM ag_april",
+      "input_files": [
+        "archive/SF/ag2505/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2506/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2507/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2508/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2509/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2510/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2511/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2512/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2601/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2602/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2603/options/2025/04/options_202504.parquet",
+        "archive/SF/ag2604/options/2025/04/options_202504.parquet"
+      ],
+      "records": [
+        {
+          "rows": 578896,
+          "iv_null": 0,
+          "close_null": 0,
+          "moneyness_null": 0,
+          "nonpositive_iv": 0,
+          "nonpositive_close": 0,
+          "zero_volume": 504750
+        }
+      ]
+    }
+  },
+  "environment": {
+    "python": "3.12.14",
+    "platform": "macOS-27.0.1-arm64-arm-64bit",
+    "packages": {
+      "pyarrow": "25.0.1",
+      "duckdb": "2.0.0",
+      "pandas": "2.2.3",
+      "numpy": "2.3.5",
+      "scipy": "1.18.1",
+      "scikit-learn": "1.9.1",
+      "networkx": "3.7",
+      "streamlit": "1.62.0",
+      "pytest": "9.1.1"
+    }
+  }
+}

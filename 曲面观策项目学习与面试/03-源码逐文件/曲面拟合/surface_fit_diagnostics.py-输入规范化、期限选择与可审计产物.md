@@ -8,7 +8,7 @@ read_scope: 全文件逐块阅读
 > [!abstract] 文件定位
 > 前半部分把单时点节点规范化并运行两阶段期限选择，正式IV曲面复用这一引擎；后半部分是AG专用批量诊断的装载、分层抽样、严格缓存、统计、画图与六件产物发布。不能因文件名带 diagnostics 或字段 `diagnostic_only=True` 就断言所有函数都不参与正式运行。
 
-源文件：[surface_fit_diagnostics.py](/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/surface_fit_diagnostics.py:1)。上下游：[[total_variance_fit.py-总方差公式、优化与本地检查]]，正式调用见 [surfaces.py](/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/surfaces.py:51)。
+源文件：[surface_fit_diagnostics.py](/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/surface_fit_diagnostics.py:1)。上下游：[[曲面观策项目学习与面试/03-源码逐文件/曲面拟合/total_variance_fit.py-总方差公式、优化与本地检查.md|total_variance_fit.py-总方差公式、优化与本地检查]]，正式调用见 [surfaces.py](/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/surfaces.py:51)。
 
 ## 1. 真正的公共入口与死路径排查
 
@@ -190,7 +190,7 @@ PNG头和哈希检查只能证明格式头/字节完整性，不能证明图像�
 
 **问：如果有曲面横轴，是否一定有可用结果？** 答：不是。横轴存在取决于至少一个期限有2点支持，可用性取决于全部门与选择；所有拟合失败仍可能保留201列全空矩阵。
 
-继续：[[曲面拟合专项追问]]，以及全函数定位索引。
+继续：[[曲面观策项目学习与面试/04-面试与验证/曲面拟合专项追问.md|曲面拟合专项追问]]，以及全函数定位索引。
 
 ## 附录：完整顶层定义定位索引
 

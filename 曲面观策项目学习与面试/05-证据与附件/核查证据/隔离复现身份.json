@@ -1,0 +1,7 @@
+{
+  "original": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning",
+  "copy": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/学习拆解工作区/隔离复现项目/option_risk_warning",
+  "source_differences": [],
+  "data_source": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/学习拆解工作区/真实AG学习切片",
+  "note": "只在副本中补外部数据入口；不修改原交付"
+}

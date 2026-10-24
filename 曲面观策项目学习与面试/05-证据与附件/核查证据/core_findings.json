@@ -1,0 +1,721 @@
+{
+  "covered_paths": [
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/config.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/io.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/quality.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/surfaces.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/features.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/labels.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/model.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/alerts.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/backtest.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/official_events.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/pipeline.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/cli.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/visualization.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/interactive.py",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/queries/acceptance_report.sql",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/queries/backtest_report.sql",
+    "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/pyproject.toml"
+  ],
+  "source_relative_paths": [
+    "src/option_risk/config.py",
+    "src/option_risk/io.py",
+    "src/option_risk/quality.py",
+    "src/option_risk/surfaces.py",
+    "src/option_risk/features.py",
+    "src/option_risk/labels.py",
+    "src/option_risk/model.py",
+    "src/option_risk/alerts.py",
+    "src/option_risk/backtest.py",
+    "src/option_risk/official_events.py",
+    "src/option_risk/pipeline.py",
+    "src/option_risk/cli.py",
+    "src/option_risk/visualization.py",
+    "src/option_risk/interactive.py",
+    "queries/acceptance_report.sql",
+    "queries/backtest_report.sql",
+    "pyproject.toml"
+  ],
+  "note_paths": [
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/config.py.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/io.py.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/quality.py.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/surfaces.py.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/features.py.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/labels.py.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/model.py.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/alerts.py.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/backtest.py.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/official_events.py.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/pipeline.py.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/cli.py.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/visualization.py.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/interactive.py.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/acceptance_report.sql.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/backtest_report.sql.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/pyproject.toml.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/02-循序学习/核心01-从一条期权报价到可分析的干净样本.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/02-循序学习/核心02-同一时间怎样从微笑走到曲面.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/02-循序学习/核心03-12项风险证据逐项算给你看.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/02-循序学习/核心04-标签如何定义未来以及怎样防止泄漏.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/02-循序学习/核心05-规则预警与机器学习对照到底各做什么.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/02-循序学习/核心06-预警状态通知与评价怎样避免混淆.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/02-循序学习/核心07-CVaR回测到底证明了什么.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/02-循序学习/核心08-离线Pipeline与单时点Agent的完整关系.md"
+  ],
+  "source_note_mapping": [
+    {
+      "source": "src/option_risk/config.py",
+      "note": "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/config.py.md",
+      "functions": [
+        "PipelineConfig",
+        "PipelineConfig.historical_window_bars",
+        "PipelineConfig.to_dict",
+        "PipelineConfig.from_paths",
+        "PipelinePaths",
+        "PipelinePaths.ensure",
+        "AgentConfig",
+        "AgentConfig.__post_init__",
+        "AgentConfig.ensure_directories",
+        "AgentConfig.pipeline_config"
+      ]
+    },
+    {
+      "source": "src/option_risk/io.py",
+      "note": "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/io.py.md",
+      "functions": [
+        "discover_parquet_files",
+        "contract_product",
+        "_available_columns",
+        "partition_product",
+        "read_option_files"
+      ]
+    },
+    {
+      "source": "src/option_risk/quality.py",
+      "note": "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/quality.py.md",
+      "functions": [
+        "clean_and_profile"
+      ]
+    },
+    {
+      "source": "src/option_risk/surfaces.py",
+      "note": "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/surfaces.py.md",
+      "functions": [
+        "SurfaceGrid",
+        "build_surface_nodes",
+        "_total_variance_iv_grid",
+        "surface_grid",
+        "choose_latest_complete_snapshot"
+      ]
+    },
+    {
+      "source": "src/option_risk/features.py",
+      "note": "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/features.py.md",
+      "functions": [
+        "_safe_divide",
+        "_term_features",
+        "_geometry_features",
+        "_put_call_parity_features",
+        "_calendar_variance_features",
+        "_surface_roughness",
+        "_hhi",
+        "extract_risk_features",
+        "add_temporal_features"
+      ]
+    },
+    {
+      "source": "src/option_risk/labels.py",
+      "note": "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/labels.py.md",
+      "functions": [
+        "build_forward_labels",
+        "purge_split_boundary_labels",
+        "event_table"
+      ]
+    },
+    {
+      "source": "src/option_risk/model.py",
+      "note": "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/model.py.md",
+      "functions": [
+        "ModelBundle",
+        "ModelBundle.save",
+        "chronological_month_split",
+        "_candidate_columns",
+        "_tune_warning_threshold",
+        "_fit_estimator",
+        "_positive_probability",
+        "fit_warning_model"
+      ]
+    },
+    {
+      "source": "src/option_risk/alerts.py",
+      "note": "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/alerts.py.md",
+      "functions": [
+        "_explain_row",
+        "assign_alert_levels",
+        "_policy_grid",
+        "_tune_policy_for_month",
+        "assign_walk_forward_alerts",
+        "assign_predictive_rule_alerts",
+        "tune_predictive_rule",
+        "evaluate_alerts"
+      ]
+    },
+    {
+      "source": "src/option_risk/backtest.py",
+      "note": "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/backtest.py.md",
+      "functions": [
+        "_cvar95",
+        "_trading_day",
+        "_strategy_return",
+        "_improvement_for_date",
+        "cvar_warning_backtest"
+      ]
+    },
+    {
+      "source": "src/option_risk/official_events.py",
+      "note": "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/official_events.py.md",
+      "functions": [
+        "find_official_event_file",
+        "load_official_events",
+        "evaluate_official_events"
+      ]
+    },
+    {
+      "source": "src/option_risk/pipeline.py",
+      "note": "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/pipeline.py.md",
+      "functions": [
+        "_json_default",
+        "_write_json",
+        "_identity_input_files",
+        "_attach_run_identity",
+        "_rule_baseline",
+        "_effective_labels_for_output",
+        "run_pipeline"
+      ]
+    },
+    {
+      "source": "src/option_risk/cli.py",
+      "note": "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/cli.py.md",
+      "functions": [
+        "build_parser",
+        "_add_agent_source_arguments",
+        "_agent_config",
+        "_product_payload",
+        "main"
+      ]
+    },
+    {
+      "source": "src/option_risk/visualization.py",
+      "note": "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/visualization.py.md",
+      "functions": [
+        "_formal_timeline_pressure",
+        "plot_surface_3d",
+        "plot_greeks_heatmaps",
+        "plot_alert_timeline",
+        "save_snapshot_grids"
+      ]
+    },
+    {
+      "source": "src/option_risk/interactive.py",
+      "note": "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/interactive.py.md",
+      "functions": [
+        "_title",
+        "_layout",
+        "iv_surface_figure",
+        "surface_heatmap_figure",
+        "greeks_figure",
+        "term_curves_figure",
+        "timeline_figure"
+      ]
+    },
+    {
+      "source": "queries/acceptance_report.sql",
+      "note": "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/acceptance_report.sql.md",
+      "functions": []
+    },
+    {
+      "source": "queries/backtest_report.sql",
+      "note": "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/backtest_report.sql.md",
+      "functions": []
+    },
+    {
+      "source": "pyproject.toml",
+      "note": "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/03-源码逐文件/核心链路/pyproject.toml.md",
+      "functions": []
+    }
+  ],
+  "tutorial_paths": [
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/02-循序学习/核心01-从一条期权报价到可分析的干净样本.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/02-循序学习/核心02-同一时间怎样从微笑走到曲面.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/02-循序学习/核心03-12项风险证据逐项算给你看.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/02-循序学习/核心04-标签如何定义未来以及怎样防止泄漏.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/02-循序学习/核心05-规则预警与机器学习对照到底各做什么.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/02-循序学习/核心06-预警状态通知与评价怎样避免混淆.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/02-循序学习/核心07-CVaR回测到底证明了什么.md",
+    "/Users/xuji/Documents/obsidian/曲面观策项目学习与面试/02-循序学习/核心08-离线Pipeline与单时点Agent的完整关系.md"
+  ],
+  "key_findings": [
+    {
+      "finding": "正式主预警为固定透明状态机，ML概率列仅保留为对照，不能把warning_predictions存在risk_probability当ML决策证据。",
+      "evidence": [
+        {
+          "path": "src/option_risk/alerts.py",
+          "start_line": 199,
+          "end_line": 245
+        },
+        {
+          "path": "src/option_risk/pipeline.py",
+          "start_line": 150,
+          "end_line": 166
+        },
+        {
+          "path": "src/option_risk/decision.py",
+          "start_line": 193,
+          "end_line": 342
+        }
+      ]
+    },
+    {
+      "finding": "正式规则参数固定，验证网格仅做敏感性，不替换正式输出。",
+      "evidence": [
+        {
+          "path": "src/option_risk/alerts.py",
+          "start_line": 248,
+          "end_line": 311
+        },
+        {
+          "path": "src/option_risk/decision.py",
+          "start_line": 66,
+          "end_line": 78
+        }
+      ]
+    },
+    {
+      "finding": "模型是固定月度留出逻辑回归，对照路径虽名walk_forward，实际一次训练、一次验证校准，walk_forward_folds为空。",
+      "evidence": [
+        {
+          "path": "src/option_risk/model.py",
+          "start_line": 169,
+          "end_line": 181
+        },
+        {
+          "path": "src/option_risk/model.py",
+          "start_line": 203,
+          "end_line": 225
+        },
+        {
+          "path": "src/option_risk/alerts.py",
+          "start_line": 176,
+          "end_line": 196
+        }
+      ]
+    },
+    {
+      "finding": "默认测试末3个存在月份、验证之前1月，至少6个月；validation_months改大不会自动实现多月验证，因mask仍只等于一个validation_start。",
+      "evidence": [
+        {
+          "path": "src/option_risk/model.py",
+          "start_line": 36,
+          "end_line": 48
+        },
+        {
+          "path": "src/option_risk/model.py",
+          "start_line": 143,
+          "end_line": 159
+        }
+      ]
+    },
+    {
+      "finding": "清洗范围与排除条件明确，但不涵盖所有OHLC缺失、负volume/OI、Theta范围；排除计数重叠，不能相加。",
+      "evidence": [
+        {
+          "path": "src/option_risk/quality.py",
+          "start_line": 10,
+          "end_line": 26
+        },
+        {
+          "path": "src/option_risk/quality.py",
+          "start_line": 64,
+          "end_line": 101
+        },
+        {
+          "path": "src/option_risk/quality.py",
+          "start_line": 118,
+          "end_line": 144
+        }
+      ]
+    },
+    {
+      "finding": "地板IV保留在cleaned供质量证据，建nodes再排除；零成交保留并量化。",
+      "evidence": [
+        {
+          "path": "src/option_risk/quality.py",
+          "start_line": 88,
+          "end_line": 116
+        },
+        {
+          "path": "src/option_risk/surfaces.py",
+          "start_line": 22,
+          "end_line": 46
+        },
+        {
+          "path": "src/option_risk/features.py",
+          "start_line": 188,
+          "end_line": 189
+        }
+      ]
+    },
+    {
+      "finding": "moneyness被当K/F，重建F=K/m；同时间各期货月提供期限轴，按k标准化，不能按物理相邻行推曲面。",
+      "evidence": [
+        {
+          "path": "src/option_risk/quality.py",
+          "start_line": 108,
+          "end_line": 110
+        },
+        {
+          "path": "src/option_risk/surfaces.py",
+          "start_line": 29,
+          "end_line": 46
+        }
+      ]
+    },
+    {
+      "finding": "ATM call/put聚合Greeks取中位，可抵消Delta；节点不是某实际期权或投资组合净风险。",
+      "evidence": [
+        {
+          "path": "src/option_risk/surfaces.py",
+          "start_line": 29,
+          "end_line": 43
+        }
+      ]
+    },
+    {
+      "finding": "特征来自cleaned/nodes，非全部来自正式IV拟合网格；Pipeline在特征后仅最新快照绘图调用拟合。",
+      "evidence": [
+        {
+          "path": "src/option_risk/features.py",
+          "start_line": 174,
+          "end_line": 223
+        },
+        {
+          "path": "src/option_risk/pipeline.py",
+          "start_line": 146,
+          "end_line": 149
+        },
+        {
+          "path": "src/option_risk/pipeline.py",
+          "start_line": 210,
+          "end_line": 219
+        }
+      ]
+    },
+    {
+      "finding": "IV走总方差诊断接口；Greeks按已观察DTE作至少3点线性插值，仅支撑范围内，不跨期限不外推。",
+      "evidence": [
+        {
+          "path": "src/option_risk/surfaces.py",
+          "start_line": 49,
+          "end_line": 86
+        },
+        {
+          "path": "src/option_risk/surfaces.py",
+          "start_line": 175,
+          "end_line": 200
+        }
+      ]
+    },
+    {
+      "finding": "12项证据不等于只有12列，也不具有统计独立性；核心事件只取ATM IV与凸性两项最大压力。",
+      "evidence": [
+        {
+          "path": "src/option_risk/features.py",
+          "start_line": 14,
+          "end_line": 27
+        },
+        {
+          "path": "src/option_risk/features.py",
+          "start_line": 312,
+          "end_line": 321
+        },
+        {
+          "path": "src/option_risk/decision.py",
+          "start_line": 58,
+          "end_line": 63
+        }
+      ]
+    },
+    {
+      "finding": "历史阈值在正部上滚动95%分位后shift(1)，默认640bar最少96有效；压力上限25，零基线会饱和。",
+      "evidence": [
+        {
+          "path": "src/option_risk/features.py",
+          "start_line": 288,
+          "end_line": 321
+        },
+        {
+          "path": "src/option_risk/config.py",
+          "start_line": 33,
+          "end_line": 40
+        }
+      ]
+    },
+    {
+      "finding": "coverage用cleaned报价数，非nodes/grid支持比例；reference price每时点取最近DTE，存在换月跳跃风险。",
+      "evidence": [
+        {
+          "path": "src/option_risk/features.py",
+          "start_line": 240,
+          "end_line": 259
+        }
+      ]
+    },
+    {
+      "finding": "平价默认2%利率、F重建代理、close配对，日历总方差0.01 k分桶且跨期货月，仅异常诊断非严格套利证明。",
+      "evidence": [
+        {
+          "path": "src/option_risk/config.py",
+          "start_line": 27,
+          "end_line": 27
+        },
+        {
+          "path": "src/option_risk/features.py",
+          "start_line": 100,
+          "end_line": 150
+        }
+      ]
+    },
+    {
+      "finding": "标签预测未来第2—8行新事件，尾8行不可用；边界前8行标签purge只明确处理train→validation、validation→test。",
+      "evidence": [
+        {
+          "path": "src/option_risk/labels.py",
+          "start_line": 9,
+          "end_line": 43
+        },
+        {
+          "path": "src/option_risk/labels.py",
+          "start_line": 46,
+          "end_line": 89
+        }
+      ]
+    },
+    {
+      "finding": "label derived压力由当前和过去构成，未必是未来泄漏；raw_only剔除的是标签定义同源派生列，用消融检查。",
+      "evidence": [
+        {
+          "path": "src/option_risk/model.py",
+          "start_line": 51,
+          "end_line": 63
+        },
+        {
+          "path": "src/option_risk/pipeline.py",
+          "start_line": 237,
+          "end_line": 243
+        }
+      ]
+    },
+    {
+      "finding": "事件Precision容许0—8bar，Recall容许1—8bar，弱于2—8标签；平均lead≥30不代表全部至少30，bar换算不等于墙钟。",
+      "evidence": [
+        {
+          "path": "src/option_risk/alerts.py",
+          "start_line": 314,
+          "end_line": 388
+        }
+      ]
+    },
+    {
+      "finding": "通知冷却不应更改持续风险状态；正式2级是core≥.98，不只[.98,1)，首次直接跃迁越1仍发。",
+      "evidence": [
+        {
+          "path": "src/option_risk/decision.py",
+          "start_line": 258,
+          "end_line": 298
+        },
+        {
+          "path": "src/option_risk/alerts.py",
+          "start_line": 99,
+          "end_line": 110
+        }
+      ]
+    },
+    {
+      "finding": "CVaR回测为首次通知后下一交易日开盘一次减半，之后永久半仓，生效日隔夜仍全仓。",
+      "evidence": [
+        {
+          "path": "src/option_risk/backtest.py",
+          "start_line": 24,
+          "end_line": 44
+        },
+        {
+          "path": "src/option_risk/backtest.py",
+          "start_line": 84,
+          "end_line": 100
+        }
+      ]
+    },
+    {
+      "finding": "CVaR改善含机械减仓，应与同可选日期域1000次随机减仓分布比较，不能声称全为预警择时贡献。",
+      "evidence": [
+        {
+          "path": "src/option_risk/backtest.py",
+          "start_line": 104,
+          "end_line": 160
+        }
+      ]
+    },
+    {
+      "finding": "回测基于重建期货代理与简化周末夜盘，无节假日日历、手续费、滑点、期权组合、资金或保证金。",
+      "evidence": [
+        {
+          "path": "src/option_risk/backtest.py",
+          "start_line": 15,
+          "end_line": 21
+        },
+        {
+          "path": "src/option_risk/backtest.py",
+          "start_line": 84,
+          "end_line": 89
+        },
+        {
+          "path": "src/option_risk/backtest.py",
+          "start_line": 149,
+          "end_line": 160
+        }
+      ]
+    },
+    {
+      "finding": "官方事件另行GB18030读取事后对照，未参与标签；按日期首bar与最早前置通知，区别于内部事件lead。",
+      "evidence": [
+        {
+          "path": "src/option_risk/official_events.py",
+          "start_line": 25,
+          "end_line": 32
+        },
+        {
+          "path": "src/option_risk/official_events.py",
+          "start_line": 35,
+          "end_line": 104
+        },
+        {
+          "path": "src/option_risk/pipeline.py",
+          "start_line": 178,
+          "end_line": 186
+        }
+      ]
+    },
+    {
+      "finding": "Agent默认45日历日回看，读取后raw≤timestamp再算；不在analyze训练ML，评估为读取既有run_summary附加信息。",
+      "evidence": [
+        {
+          "path": "src/option_risk/agent.py",
+          "start_line": 1187,
+          "end_line": 1283
+        },
+        {
+          "path": "src/option_risk/agent.py",
+          "start_line": 784,
+          "end_line": 812
+        },
+        {
+          "path": "src/option_risk/config.py",
+          "start_line": 83,
+          "end_line": 83
+        }
+      ]
+    },
+    {
+      "finding": "SQL仅查询既有JSON字段或展开验收products，不是独立重算算法，也不强制35产品passed。",
+      "evidence": [
+        {
+          "path": "queries/acceptance_report.sql",
+          "start_line": 1,
+          "end_line": 21
+        },
+        {
+          "path": "queries/backtest_report.sql",
+          "start_line": 1,
+          "end_line": 16
+        }
+      ]
+    },
+    {
+      "finding": "依赖多数下限约束，pyproject不是完全锁定环境；当前系统Python包导入缺pyarrow不代表独立3.12环境情况。",
+      "evidence": [
+        {
+          "path": "pyproject.toml",
+          "start_line": 10,
+          "end_line": 27
+        }
+      ]
+    },
+    {
+      "finding": "上游固定3%BS二分反推IV，Greeks解析，Theta每日/Vega每1个百分点；项目2%仅当前平价诊断；官方最近邻对齐容许15分钟可能影响残差。",
+      "evidence": [
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/学习拆解工作区/官方数据说明-PDF全文.txt",
+          "start_line": 69,
+          "end_line": 76
+        },
+        {
+          "path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/学习拆解工作区/官方数据说明-PDF全文.txt",
+          "start_line": 85,
+          "end_line": 93
+        },
+        {
+          "path": "src/option_risk/config.py",
+          "start_line": 27,
+          "end_line": 27
+        }
+      ],
+      "pdf_path": "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/11-基于期权波动率曲面与智能体的量化风控预警系统/期权课题数据集/数据说明.pdf",
+      "physical_pdf_pages": [
+        2,
+        3
+      ]
+    }
+  ],
+  "validation": {
+    "all_assigned_sources_fully_read": true,
+    "top_level_classes_and_functions_documented": 81,
+    "source_files": 17,
+    "tutorial_count": 8,
+    "generated_bytes": 137184,
+    "static_note_checks": {
+      "source_links_exist": true,
+      "source_line_numbers_within_file": true,
+      "no_control_characters": true,
+      "dollar_math_pairs_balanced": true,
+      "no_parentheses_or_bracket_math_delimiters": true
+    },
+    "runtime_attempt": "系统python3包级导入经__init__→agent→catalog因缺pyarrow失败；未安装依赖，未运行全量，完整tests由根代理独立环境执行。",
+    "source_mutated": false,
+    "existing_user_notes_overwritten": false,
+    "display_formula_count": 21,
+    "folded_exercise_count": 24,
+    "source_sha256_at_inspection": {
+      "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/config.py": "3ca4d3870a1438bd2ecd9b859bd83c1bb424f511f0a4e8cd47008330d9ef8da4",
+      "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/io.py": "70aaf30c6588f3e4c91b6a7b08570045c3f5be126279a6c96bdb8018b75f4511",
+      "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/quality.py": "5cac0b1574499eb9c0b4c3be5d0736de2e8573cf62b28347571dca124d45530b",
+      "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/surfaces.py": "eaed89807dfdad5e37173210c0efdfae8b0632b55eca1baffeb997ef21e57bfb",
+      "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/features.py": "1fd5e57a9449d28e6c2b0668aaf2e1a0b3b00450ac7794e667536c690a6d344b",
+      "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/labels.py": "86f89fd456fd789b0809ef6c48540ab2e8de400fb425170b963c0bc104796aec",
+      "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/model.py": "7b5d19e7401d12808b88d3c040b021308c72a4886edaad8851b2a6c53fbbadde",
+      "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/alerts.py": "bb7b4631d8f48c68a8318b71fc03b7b5068dc6ed1da3fd8266a1e3a49b1ee1e1",
+      "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/backtest.py": "abad29bcf942793596b8d1943c6dc3496bf38cc40db02b813094afd58b7eba58",
+      "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/official_events.py": "a30824c6e90a49efa512efd6820e1694799cf67e4d701a44658481c6bc1bd781",
+      "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/pipeline.py": "a860807429a70b8db7299b33f245b5a4486f2acf43ef8e2b702564943ad5d5a7",
+      "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/cli.py": "cfb0c0774c94611050b5bbb9335b87ca945ca30369130fe0959db4de83b27899",
+      "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/visualization.py": "1234f1d89e772393f8340e7e1d21657d11f6bd9239f6d942d063132eada4373f",
+      "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/src/option_risk/interactive.py": "1334483e3a504db6ba75bee29c803d6cb53b240b08b8145b055483bd8fd2c7f3",
+      "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/queries/acceptance_report.sql": "9b00d00faf7321ad4c2cb8b7ad1e0ae180daf41e241f6a05b570cf33ca4a8253",
+      "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/queries/backtest_report.sql": "43d4d89a53d54195187cac2a95a46938a26822458fcd4360d9160355fa54e306",
+      "/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/pyproject.toml": "86fc3f892c717828d960dd0207308a5ecb654090f6d3bba332fd1c2f8b2fa4aa"
+    },
+    "final_issues": [],
+    "mermaid_flow_count": 1
+  }
+}

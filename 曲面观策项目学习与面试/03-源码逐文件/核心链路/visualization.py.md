@@ -60,4 +60,4 @@ meshgrid将k/DTE变二维坐标，mask无效values，用plot_surface生成3D图�
 
 ## 下一步学习
 
-[[02-循序学习/核心08-离线Pipeline与单时点Agent的完整关系]]
+[[曲面观策项目学习与面试/02-循序学习/核心08-离线Pipeline与单时点Agent的完整关系.md|核心08-离线Pipeline与单时点Agent的完整关系]]

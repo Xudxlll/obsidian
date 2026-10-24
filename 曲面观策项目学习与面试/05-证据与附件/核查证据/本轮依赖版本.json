@@ -1,0 +1,21 @@
+{
+  "python": "3.12.14",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "venv_type": "独立venv，复用Codex bundled system-site-packages；并非完全空白系统安装认证",
+  "packages": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "pyarrow": "25.0.1",
+    "duckdb": "2.0.0",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "networkx": "3.7",
+    "plotly": "7.1.0",
+    "matplotlib": "3.11.2",
+    "streamlit": "1.62.0",
+    "pytest": "9.1.1",
+    "nbformat": "5.11.1",
+    "nbclient": "0.11.0",
+    "ipykernel": "7.4.0"
+  }
+}

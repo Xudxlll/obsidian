@@ -1,0 +1,22 @@
+........................................................................ [  9%]
+........................................................................ [ 19%]
+........................................................................ [ 29%]
+........................................................................ [ 38%]
+........................................................................ [ 48%]
+........................................................................ [ 58%]
+........................................................................ [ 68%]
+........................................................................ [ 77%]
+........................................................................ [ 87%]
+........................................................................ [ 97%]
+...................                                                      [100%]
+=============================== warnings summary ===============================
+tests/test_graph_acceptance.py: 16 warnings
+  /Users/xuji/Documents/第五届中国研究生金融科技创新大赛/学习拆解工作区/隔离复现项目/option_risk_warning/src/option_risk/agent.py:602: FutureWarning: The behavior of DataFrame concatenation with empty or all-NA entries is deprecated. In a future version, this will no longer exclude empty or all-NA columns when determining the result dtypes. To retain the old behavior, exclude the relevant entries before the concat operation.
+    candidate = pd.concat([prefix, features], axis=0)
+
+tests/test_graph_acceptance.py: 16 warnings
+  /Users/xuji/Documents/第五届中国研究生金融科技创新大赛/学习拆解工作区/隔离复现项目/option_risk_warning/src/option_risk/decision.py:234: FutureWarning: Downcasting object dtype arrays on .fillna, .ffill, .bfill is deprecated and will change in a future version. Call result.infer_objects(copy=False) instead. To opt-in to the future behavior, set `pd.set_option('future.no_silent_downcasting', True)`
+    ready = data_ready.fillna(False) & history_ready.fillna(False) & core.notna()
+
+-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html
+739 passed, 1 deselected, 32 warnings in 94.84s (0:01:34)

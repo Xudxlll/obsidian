@@ -1,0 +1,17 @@
+{
+  "checked_at": "2026-10-24",
+  "application": "Obsidian 1.14.4",
+  "checked_views": [
+    "00-开始学习",
+    "00-20课学习路线（20条课程链接可识别）",
+    "00-期权与IV从零开始（数学符号渲染）",
+    "00-项目知识地图（12摘要节点与15连线；放大后摘要与双链）"
+  ],
+  "repairs": [
+    "表格中的wiki alias竖线改为转义，避免拆列"
+  ],
+  "limitations": [
+    "未逐页截图227份文档；文件与链接另做全量结构校验"
+  ],
+  "source_content_unchanged": true
+}

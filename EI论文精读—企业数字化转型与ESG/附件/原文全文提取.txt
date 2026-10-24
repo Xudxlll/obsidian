@@ -1,0 +1,333 @@
+===== PDF第1页 / 印刷第58页 =====
+              Exploring          the   Mechanisms              of   Corporate          Digital
+Transformation's               Impact        on   ESG      Performance             in   the   Context         of
+                   Dual      Carbon        Goals:       Evidence         from      China
+                                               Jiahao    Xu*,1,a
+
+                     1School   of Finance,  Jiangxi  Normal   University,  330022,   China
+
+                                        aganyufei123@outlook.com
+Abstract:   Drawing   from  the  2015-2021    panel  data  of China's  A-share   listed companies,    this study
+employs   multiple  regression   analysis  to assess   the impact  of corporate   digital transformation   (CDT)
+on  ESG   performance.     Findings  suggest    a significant  positive  correlation  between    the  degree   of
+CDT   and  ESG   outcomes.    As  CDT   intensifies, there's a  marked   improvement     in ESG   performance.
+Further  analysis   uncovers   a  threshold   effect in  this relationship,  implying   the  most  pronounced
+positive  influence   on   ESG    emerges    after  reaching    a  certain   level  of digital  transformation.
+Robustness     checks   confirm   these   core   findings.  Moreover,    the  level  of corporate    profitability
+doesn't  mitigate   the  positive   correlation   between    CDT    and   ESG    performance.     This  positive
+relationship  remains   significantly evident   across  both  state-owned     and  private  enterprises,  with  a
+heightened    correlation   observed     in  the  state-owned     segment.     This   research    enriches    the
+theoretical  understanding     of  the   nexus   between     digital transformation     and   corporate    social
+responsibility, buttressed   by empirical  evidence.
+Keywords:    Corporate    Digital Transformation;    ESG   Performance;    Threshold   Effect
+
+1.  Introduction
+   In recent  years,  the  intersection  of corporate   digital  transformation   (CDT)    and  environmental,
+social, and   governance    (ESG)    performance    has  emerged    as  a  pivotal  area  of  study  within   the
+business  and  environmental     management     fields. This  growing    interest is underscored    by  the dual
+carbon  goals   set forth  by  countries  worldwide,     aiming   for carbon   neutrality  and   a reduction   in
+greenhouse    gas  emissions.   The  digital  economy    development     strategy  and   the concept   of  green
+transformation    have   highlighted    the   potential  of   digital  technologies    to  enhance     corporate
+competitiveness   through   improved    ESG   performance    (Fan  et al.,2023)  [1] . Research   by Ding   etal.
+(2024)  [2] and   Chen  et  al.(2024)   [3] suggests   that digital transformation    not  only  enhances   total
+factor  productivity   but  also   has  a  significant   positive  impact    on  ESG    performance,     thereby
+contributing   to  sustainable   economic    systems.   However,     the  literature  reveals  a  complex    and
+nuanced   relationship  between   CDT   and  ESG   performance.    Studies  like that of Wang   et al. (2024)  [4]
+and  Hou   et al.(2024)   [5] have   begun   to unpack   these  dynamics,    indicating  a significant  positive
+influence  of  digital transformation    on green   technology   innovation    and  various  ESG    dimensions.
+Despite   these  advances,    the  mechanisms      through    which   CDT     influences   ESG    performance,
+particularly  in  the  context  of  China's   fast-paced   digital  economy     and  stringent   environmental
+regulations,  remain   insufficiently  explored   (Lu  et al.,2023)   [6]. Moreover,    empirical  evidence   on
+the mediating   roles of  factors such  as firm  innovation,   efficiency,  and  corporate  governance    within
+thisrelationship   isstillemerging.    The  literature points to the  potential of  digital finance  to promote
+firm ESG   performance    (Xue   et al.,2023)  [7], and  the mixed   effects of digital transformation    efforts
+across different  sectors and  firm  types (Miao   et al.,2023)  [8].
+   Given   this  backdrop,    our  study  seeks   to  fillthe  gap   in  the  literature by   investigating   the
+mechanisms     through   which    corporate   digital  transformation    impacts   ESG    performance     in  the
+specific context  of  China’s    dual  carbon   goals. By  leveraging   a robust  dataset  of Chinese   A-share
+listed companies    and   employing    advanced    econometric    techniques,   we   aim  to  provide   nuanced
+insights into how   digital transformation   can  serve as  a lever for enhancing   ESG   performance,    taking
+into account  various  moderating    factors such  as firm  size, industry  type, and  ownership   structure.  In
+
+                                                       58
+
+===== PDF第2页 / 印刷第59页 =====
+doing  so, this study   contributes   to the theoretical   understanding    of  the digital-ESG    nexus   and  offers
+practical   implications     for   policymakers      and    corporate     managers     aiming     to   align   digital
+transformation    initiatives with  sustainability   goals.  Research   Hypotheses:
+   H1:   There   is a  direct  positive  relationship   between     corporate   digital  transformation     and  ESG
+performance     among    Chinese    A-share    listed  companies.    H2:   The   relationship   between     corporate
+digital transformation     and  ESG   performance     exhibits   a threshold   effect, where    the positive   impact
+intensifies beyond    a certain  level of  digital transformation
+
+2.   Research      Design
+   This   study   investigates   the  impact    of  corporate   digital  transformation     on   ESG    performance
+among   Shanghai    and  Shenzhen     A-share   listed companies     from  2015   to 2021,  excluding    firms  under
+Special  Treatment     (ST)  status,  those  with   listing interruptions,   or  listed for  less than   three  years.
+Continuous    variables   were  winsorized    at the 1%   tails to reduce   outlier effects.  Data  sources   include
+financial  and   governance     information     from   the  CSMAR       database,   ESG    performance      from   the
+Huazheng     ESG    rating  system,    and  digital  transformation     metrics   derived   from   text  analysis   of
+annual    reports.   The   final   sample     comprised     24,643    firms.    The   dependent      variable,   ESG
+performance,    utilizes  the  Huazheng     ESG    rating  system's   nine-level    scores.  The   key  independent
+variable  is a  digital transformation     index   created   from  company     reports,   using  a  log-transformed
+combined    index   for  analysis.  Control   variables   such   as firm  size,  age,  growth   rate,  asset-liability
+ratio, independent    director   ratio, equity   concentration,    and  board   size are  included    to account   for
+other  influences   on  firm  performance.     In  order  to  test the  hypotheses,    this study   develops    a first
+baseline  model.   Benchmark     Regression    Model:
+   ESGi,t  =  β0   + β1   ×  DTi,t +  β2   ×  Control   Variablesi,t   + ϵi,t（1）
+   ESGi,t   denotes   the  ESG    score  of  firm   i at time   t. DTi,t  represents   the  digital  transformation
+measure    for firm  i at  time  t. Control   Variablesi,t   encompasses      other  control   variables,   including
+Size, Lev,  Growth,    Board,   Indep,  and  Top1.   ϵi,tisthe  error term.
+                                     Table  1. Definitions   of main   variables
+           Variable  Name                      Variable  Classification                 Variable  Definition
+                 ESG                             Dependent   variable              ESG   Rating  Assignment   1-9
+                                                                                               Points
+                  DT                            Independent   variable            Sum  of Digital  Transformation
+                                                                                               Level-
+                 Size                             Control  variable                    Total corporate  assets
+                 Age                                                             ln(current year - year of listing +
+                                                                                                 1)
+                Growth                                                              (Current  period's operating
+                                                                                    income   -previous  period's
+                                                                                    operating  income)/previous
+                                                                                    period's  operating  income
+                  Lev                                                            Total corporate  liabilities/Total
+                                                                                          corporate  assets
+                 Indep                                                           Number   of independent   directors
+                                                                                       /Number    of directors
+                 Top1                                                             Shareholding    ratioof the first
+                                                                                        largest shareholder
+                Board                                                                 ln(Number   of directors)
+
+
+
+
+
+
+
+
+                                                          59
+
+===== PDF第3页 / 印刷第60页 =====
+3.   Analysis     of  regression     results
+3.1 Descriptive    statistical analysis
+   The  average   company     size is around   23.11,  mostly   centered   around   the mean.   Operating    income
+growth   has  fluctuations,   with  some   companies     showing    revenue   drops.   The  average   debt-to-asset
+ratio is 0.486.  The   proportion   of independent     directors’    averages   at 0.378   with  minor   variations.
+Equity  concentration    varies, while   the average   board   size stands  at 2.149  with  little fluctuation.  The
+digital transformation    degree  shows    significant  diversity  among    companies.    The  average   ESG   score
+is4.295   with some   variability.
+                               Table  2. Descriptive   statistics of main   variables
+               Variable        Sample           Mean         Standard       Minimum        Maximum
+                                 value                       deviation         value          value
+                  Size          24,643         23.109          1.417          19.716         26.430
+                Growth          24,643          0.184          0.427          -0.660          4.330
+                  Lev           24,643          0.486          0.188          0.054           0.906
+                 Indep          24,643          0.378          0.058          0.286           0.600
+                 Top1           24,643          0.336          0.150          0.081           0.743
+                 Board          24,643          2.149          0.203          1.609           2.708
+                  DT            24,643         67.322         111.999         0.000         1470.000
+                  ESG           24,643          4.295          1.081          1.000           7.750
+
+3.2 Analysis   of baseline   regression    results
+   The  coefficient   for DT   (Degree   of  Digital  Transformation)     is0.0935   and   ishighly   significant  (p
+< 0.001),   indicating   a positive  correlation   between    the  degree   of digital  transformation     and  ESG
+scores,  consistent  with   the first hypothesis   (H1)   of this  study.  Most   of the  control  variables   (Size,
+Lev,  Growth,   Indep,  Top1)   also  significantly  influence   the ESG    score,  with  only  the Board   variable
+being  not significant.
+                               Table   3.Results   of benchmark     regression   tests
+                                       Variable
+                                          DT                       0.0935***
+                                         Size                      0.3535***
+                                          Lev                      -1.2191***
+                                        Growth                     -0.1520***
+                                        Board                        -0.0065
+                                         Indep                     1.2667***
+                                         Top1                      -0.1504***
+   Note:   ***  means    significant  at  1%   level  of significance,   **  means    significant   at 5%   level  of
+significance,  * means    significant  at 10%   level of significance.
+3.3 Quantile    regression   analysis
+   Qı(ESGi,t|Xi,t )=   β0(ı)+     β1(ı)    ×  DTi,t +  β2(ı)   ×  Control   Variablesi,t  （2）
+   Qı(ESGi,t|Xi,t ) Xi,t represents   the I quantile  of the  dependent    variable,  given  the covariates   ESGi,t,
+Iis the threshold   value.  β0(ı)   ，β1(ı)，β2(ı)          are the  quantile  regression   coefficients,  describing
+the impact   of the explanatory    variables  on  the dependent    variable  at the I quantile.
+                                   Table   4. Quartile  regression   test results
+                        Variable          25 percentile      50  percentile    75th   percentile
+                           DT               0.086***           0.096***            0.099***
+
+
+                                                         60
+
+===== PDF第4页 / 印刷第61页 =====
+                           Size             0.371***            0.369***           0.319***
+                           Lev              -1.434***          -1.299***           -0.868***
+                         Growth             -0.147***          -0.145***           -0.129***
+                          Board               -0.001             -0.066              -0.036
+                          Indep             1.010***            0.712***           1.247***
+                           Top1               -0.051           -0.190***           -0.149***
+   In  all considered     quantiles   (25th,  50th,   75th),   the  degree   of  digital  transformation     (DT)   is
+positively  correlated   with  ESG    scores  and  is statistically significant.   The  positive  impact   of  digital
+transformation    is strongest  at the  median    ESG   score  (50th   percentile)  with  a  coefficient  of  0.1052.
+This  indicates  that among    companies    with  medium     ESG   scores,  the positive  correlation   between   DT
+and   ESG    is  most   pronounced.      Data   analysis   reveals   a  positive    relationship   between     digital
+transformation    and  corporate    ESG   scores,   with  varying   impacts   across   different  ESG    percentiles.
+These   findings    support    the  research    hypothesis    that  digital   transformation     positively    affects
+corporate  ESG    scores,  and  a threshold  effect  may   exist.
+
+4.   Robustness       test
+
+4.1 Bootstrap
+   This  study,   through   5,000   iterations  of  the  bootstrap   method,    obtained   an  average    coefficient
+estimate  for  DT   of  0.084,  which   is very   close  to the  original  OLS    regression   result  (0.083).  This
+indicates  that in different  sub-samples     (drawn   through   bootstrap),   the coefficient   estimate  for  DT  is
+relatively  stable and   does  not  fluctuate  greatly  with  minor   changes    in the sample.   Furthermore,     the
+95%   confidence    interval for  DT  is [0.071,  0.094],   which   does  not  include  0, further  confirming    that
+the positive  correlation   between   DT   and  ESG   is statistically significant.
+                                        Table5.   Bootstrap   Test  Method
+                Variable            Average   percentile       2.5%   percentile        97.5%   percentile
+                   DT                    0.084***                    0.071                    0.094
+                  Size                     0.335                     0.323                    0.349
+                  Lev                      -1.203                   -1.281                    -1.139
+                Growth                     -0.180                   -0.208                    -0.152
+                 Board                     0.043                    -0.034                    0.107
+                  Indep                    1.299                     1.026                    1.493
+                  Top1                     -0.264                   -0.369                    -0.178
+4.2 Multiple    covariance    test
+   This  study   calculates   the  Variance    Inflation  Factor   (VIF)   for each   variable.  VIF   serves   as  an
+indicator  to measure   the  degree  of  multicollinearity.   A  higher  VIF   value  suggests   higher  collinearity
+of that  variable   with  other   variables.  Generally,    a  VIF   value  exceeding     10  may   indicate   severe
+multicollinearity   issues.  The   results  show   that the  VIF   values  for  all variables   are well  below    10,
+indicating  no  significant  multicollinearity    concerns.
+                                            Table6.   VIF  Test  Method
+                            Variable                                               VIF
+                               DT                                                  1.044
+                              Size                                                 1.694
+                              Lev                                                  1.404
+                            Growth                                                 1.006
+                             Board                                                 1.511
+                             Indep                                                 1.402
+                             Top1                                                  1.132
+
+
+
+                                                          61
+
+===== PDF第5页 / 印刷第62页 =====
+5.   Heterogeneity        tests
+5.1 Test  of the  nature   of the  enterprise's   ownership
+   The  present  study  here  develops   a third  model
+   ESGi,t =  β0   +  β1   ×  DTi,t +  β2   × SOEi,t  +  β3  ×  DTi,t ×  SOEi,t  + β4   ×  Control   Variablesi,t  +
+ϵi,t     (3)
+   SOEit  is a binary   variable  that takes  the value  1  iffirm  i is a state-owned    enterprise  at time  t and
+0 otherwise.
+                                Table7.   Results  of Business   Ownership     Test
+                               Variable               SOE  (1)              SOE   (0)
+                                  DT                 0.082***               0.084***
+                                 Size                0.322***               0.314***
+                                  Lev                -1.192***             -1.198***
+                                Growth               -0.140***             -0.138***
+                                Board                0.038***               0.035***
+                                 Indep               1.134***               1.139***
+                                 Top1                -0.209***             -0.211***
+5.2 Test  for Differences    in Profit   Levels  of Firms
+   Regarding    the heterogeneity    test results, this study  constructed   a binary  variable  "Profit  Level"   to
+distinguish  companies     with  high  and  low   profitability. An   interaction  term,  DT_Profit_Level,      was
+introduced   to  test  the  moderating     effect  of  a company's     profitability   level  on  the  relationship
+between   digital transformation    and   ESG.   The  results show   that  the coefficient  for  DT_Profit_Level
+isnot  significant  (p-value=0.888),     indicating  that the  impact   of digital transformation    on  ESG    does
+not differ significantly   between   companies    of varying   profitability  levels.
+                    Table  8. Results  of  the test for differences  in  profit levels of firms
+                                     Variable
+                                        DT                                0.0008***
+                                       Size                               0.3387***
+                                       Lev                               -1.1263***
+                                     Growth                              -0.1980***
+                                      Board                                 0.0001
+                                       Indep                              1.3437***
+                                       Top1                              -0.2312***
+                                   Profit_Level                           0.2590***
+                                DT_Profit_Level                            -0.0000
+
+6.   Conclusions
+   Utilizing  panel  data  from   China's  A-share   listed  companies    (2015-2021),    this research   examines
+the link  between    corporate   digital  transformation    (CDT)    and  ESG    performance.     We   hypothesize
+(H1)   a direct  positive   relationship   between     CDT    and   ESG,   and   (H2)   a  threshold   effect   after
+reaching   a digital  transformation    level  influencing   ESG.    Our   regression   analyses   reveal  a  strong
+correlation  between    CDT   and  ESG    scores,  affirming  H1.   Notably,   the influence   ismost   evident  for
+firms  with  medium     ESG    standings,   validating   H2.  Heterogeneity     tests  highlight  the  pronounced
+positive   association    in  state-owned     firms,   suggesting    their  pronounced      benefit   from   digital
+transformation    in  elevating    ESG    performance.     Interestingly,   high-profit   firms   don't   showcase
+significant  ESG   enhancement      via digitalization.  The   results emphasize     the broad   benefit  of digital
+transformation    on  ESG    performance     across  profitability   spectrums.   This   enriches   the  theoretical
+understanding    of  the  link  between    digital  transformation     and  corporate    social  responsibility.   It
+provides  a  policy  foundation   for government     bodies   aiming   to uplift corporate   social responsibility,
+emphasizing     support    for  companies     with    lower   digital  transformation     levels.   For   corporate
+
+                                                         62
+
+===== PDF第6页 / 印刷第63页 =====
+management       practices,   digital  transformation     should    be  perceived    as  a  pivotal  avenue    to  enhance
+corporate   social  responsibility.
+
+Reference
+[1]  Fan,  M., Liu,  J.,Tajeddini,   K., &  Khaskheli,   M.  B. (2023).  Digital  technology    application  and  enterprise
+     competitiveness:     The    mediating     role  of   ESG     performance     and    green   technology     innovation.
+     Environment     Development     and  Sustainability.  https://doi.org/10.1007/s10668-023-03979-3
+[2]  Ding,   X.,  Sheng,   Z.,  Appolloni,   A.,  Shahzad,    M.,  &   Han,   S.  (2024).  Digital   transformation,    ESG
+     practice,     and     total    factor     productivity.      Business      Strategy      and     the     Environment.
+     https://doi.org/10.1002/bse.3718
+[3]  [3]  Chen,    L.,  Chen,   Y.,  &   Gao,    Y.  (2024).   Digital   Transformation      and   ESG    Performance:     A
+     Quasinatural    Experiment     Based   on  China's   Environmental      Protection   Law.   International   Journal   of
+     Energy   Research.   https://doi.org/10.1155/2024/8895846
+[4]  Wang,    H., Zhang,   Y.,  Dagestani,   A.  A., &   Qing,  L.  (2024).  Effect  of ESG    performance    on  corporate
+     green   technology    innovation:   The   mediating   role  of  financial  constraints   and  digital  transformation.
+     Singapore   Economic     Review.   https://doi.org/10.1142/S0217590823470124
+[5]  Hou,  D.,  Liu, Z., Zahid,  R.  M.  A., &  Maqsood,    U.  S. (2024).  ESG   dynamics    in the modern   digital world:
+     Empirical    evidence     from   firm   life-cycle   stages.   Environment      Development       and   Sustainability.
+     https://doi.org/10.1007/s10668-023-04425-0
+[6]  Lu,  Z.,  Lin,  Y.,  &   Li,  Y.  (2023).   Does   corporate   engagement      in digital  transformation     influence
+     greenwashing?           Evidence         from         China.        Finance         Research         Letters,        58.
+     https://doi.org/10.1016/j.frl.2023.104558
+[7]  Xue,   L., Dong,   J.,&   Zha,  Y.  (2023).  How    does  digital finance   affect firm  environmental,     social, and
+     governance      (ESG)     performance?       -  Evidence      from    Chinese     listed   firms.    Heliyon,    9(10).
+     https://doi.org/10.1016/j.heliyon.2023.e20800
+[8]  Miao,   Y., Shi, Y.,  &  Jing, H.  (2023).  Effect  of servitization   on performance     in manufacturing    firms:  A
+     mediating     effect   model     of   digitalisation   moderated      by   ESG     performance.      Heliyon,    9(10).
+     https://doi.org/10.1016/j.heliyon.2023.e20831
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                             63

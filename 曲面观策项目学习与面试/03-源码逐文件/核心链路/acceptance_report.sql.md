@@ -38,4 +38,4 @@ UNNEST(products)把一个products数组展开为一行一个product_result结构
 
 ## 下一步学习
 
-[[02-循序学习/核心08-离线Pipeline与单时点Agent的完整关系]]
+[[曲面观策项目学习与面试/02-循序学习/核心08-离线Pipeline与单时点Agent的完整关系.md|核心08-离线Pipeline与单时点Agent的完整关系]]

@@ -9,7 +9,7 @@ read_scope: 全文件；前段原文、后段完整AST语句规范化阅读
 > [!abstract] 测试实际保护什么
 > 109个顶层 `test_` 函数分为封闭契约、数学金值、数值边界、起点确定性、异常证据保留几大族。参数化展开后的用例数会更多。它验证数值内核与草稿契约；不能单凭此文件宣称整条AG装载、发布、UI或全量行情已端到端通过。
 
-源文件：[test_total_variance_fit.py](/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/tests/test_total_variance_fit.py:1)。实现对照：[[total_variance_fit.py-总方差公式、优化与本地检查]]。
+源文件：[test_total_variance_fit.py](/Users/xuji/Documents/第五届中国研究生金融科技创新大赛/揭榜挂帅-11-曲面观策/可运行的项目成果/option_risk_warning/tests/test_total_variance_fit.py:1)。实现对照：[[曲面观策项目学习与面试/03-源码逐文件/曲面拟合/total_variance_fit.py-总方差公式、优化与本地检查.md|total_variance_fit.py-总方差公式、优化与本地检查]]。
 
 ## 1. 先分清辅助夹具和真实测试
 

@@ -1,0 +1,26 @@
+{
+  "options_merged.parquet": {
+    "count": 1,
+    "bytes": 6044471511
+  },
+  ".DS_Store": {
+    "count": 1,
+    "bytes": 8196
+  },
+  "数据集描述更新.docx": {
+    "count": 1,
+    "bytes": 12888
+  },
+  "数据说明.pdf": {
+    "count": 1,
+    "bytes": 350664
+  },
+  "extreme_event.csv": {
+    "count": 1,
+    "bytes": 1565
+  },
+  "archive": {
+    "count": 8636,
+    "bytes": 6577617057
+  }
+}
