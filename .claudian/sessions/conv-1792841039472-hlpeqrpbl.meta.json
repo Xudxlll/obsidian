@@ -1,0 +1,28 @@
+{
+  "id": "conv-1792841039472-hlpeqrpbl",
+  "providerId": "codex",
+  "title": "Reorganize resume into readable format",
+  "titleGenerationStatus": "success",
+  "createdAt": 1792841039485,
+  "updatedAt": 1792841149969,
+  "lastResponseAt": 1792841149969,
+  "sessionId": "01a16da7-3eff-79b1-92ae-cc113ccf28e5",
+  "selectedModel": "gpt-6.1-sol",
+  "providerState": {
+    "threadId": "01a16da7-3eff-79b1-92ae-cc113ccf28e5",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/10/24/rollout-2026-10-24T19-23-59-01a16da7-3eff-79b1-92ae-cc113ccf28e5.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "简历.md",
+  "usage": {
+    "inputTokens": 35249,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 30976,
+    "contextWindow": 475000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 35249,
+    "percentage": 7,
+    "model": "gpt-6.1-sol"
+  }
+}

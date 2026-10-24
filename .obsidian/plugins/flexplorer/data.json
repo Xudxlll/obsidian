@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "简历.md",
         "EI论文精读—企业数字化转型与ESG",
         "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）",
         "曲面观策项目学习与面试",
@@ -12217,6 +12218,10 @@
       "isHidden": false
     },
     "EI论文精读—企业数字化转型与ESG/附件/原文全文提取.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "简历.md": {
       "isPinned": false,
       "isHidden": false
     }
