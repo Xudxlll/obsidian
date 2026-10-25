@@ -7600,6 +7600,8 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "附件",
+        "2026 Q2 国内量化私募机构规模图谱.md",
         "简历.md",
         "还未投递.md",
         "秋招投递.md",
@@ -13743,6 +13745,35 @@
       "isHidden": false
     },
     "金融 AI 应用实战/金融AI应用-学习地图.canvas": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "求职投递/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "2026Q2量化私募AUM图谱"
+      ],
+      "sortOrder": "custom"
+    },
+    "求职投递/附件/2026Q2量化私募AUM图谱": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "2026Q2量化私募AUM图谱-高清核对版.jpg",
+        "2026Q2量化私募AUM图谱-用户原图.jpg"
+      ],
+      "sortOrder": "custom"
+    },
+    "求职投递/附件/2026Q2量化私募AUM图谱/2026Q2量化私募AUM图谱-用户原图.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "求职投递/附件/2026Q2量化私募AUM图谱/2026Q2量化私募AUM图谱-高清核对版.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "求职投递/2026 Q2 国内量化私募机构规模图谱.md": {
       "isPinned": false,
       "isHidden": false
     }
