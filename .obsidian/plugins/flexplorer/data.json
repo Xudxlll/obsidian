@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "AMA573 A股因子与机器学习课程项目",
         "股票量化因子研究入门",
         "求职投递",
         "金融 AI 应用实战",
@@ -15425,6 +15426,96 @@
       "isHidden": false
     },
     "股票量化因子研究入门/附件/实验台/validation_summary.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "AMA573项目08 小组分工答辩与诚实边界.md",
+        "AMA573项目07 从本地数据到完整复现.md",
+        "AMA573项目06 成本停牌退市与残仓.md",
+        "AMA573项目05 六张图与真实负结果.md",
+        "AMA573项目04 选股与资金配置.md",
+        "AMA573项目03 八项因子与机器学习.md",
+        "AMA573项目02 历史队列与数据时点.md",
+        "AMA573项目01 从选题到可检验问题.md",
+        "AMA573项目00 从这里开始 - 项目学习地图.md",
+        "附件"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA573 A股因子与机器学习课程项目/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "06_feature_correlation.png",
+        "05_stress.png",
+        "04_drawdown.png",
+        "03_groups.png",
+        "02_signal_ic.png",
+        "01_test_nav.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA573 A股因子与机器学习课程项目/附件/01_test_nav.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/附件/02_signal_ic.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/附件/03_groups.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/附件/04_drawdown.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/附件/05_stress.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/附件/06_feature_correlation.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/AMA573项目00 从这里开始 - 项目学习地图.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/AMA573项目01 从选题到可检验问题.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/AMA573项目02 历史队列与数据时点.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/AMA573项目03 八项因子与机器学习.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/AMA573项目04 选股与资金配置.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/AMA573项目05 六张图与真实负结果.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/AMA573项目06 成本停牌退市与残仓.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/AMA573项目07 从本地数据到完整复现.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/AMA573项目08 小组分工答辩与诚实边界.md": {
       "isPinned": false,
       "isHidden": false
     }
