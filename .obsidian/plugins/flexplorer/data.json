@@ -5,10 +5,10 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "求职投递",
         "金融 AI 应用实战",
         "大模型全栈",
         "Python、数据分析与人工智能",
-        "求职投递",
         "SSCI论文精读—CEO金融背景与企业金融化",
         "EI论文精读—企业数字化转型与ESG",
         "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）",
@@ -3740,6 +3740,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Tutorials",
+        "Assignments",
         "Chapter 4",
         "Chapter 3",
         "Chapter 2",
@@ -13759,6 +13761,537 @@
       "isHidden": false
     },
     "求职投递/2026 Q2 国内量化私募机构规模图谱.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Assignments": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "附件",
+        "02 - Assignment 1 完整参考解答.md",
+        "01 - Assignment 1 题目（英文原文与折叠译文）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Assignments/01 - Assignment 1 题目（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Assignments/02 - Assignment 1 完整参考解答.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Assignments/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "assignment1-p03.png",
+        "assignment1-p02.png",
+        "assignment1-p01.png",
+        "Durbin Watson statistics table.pdf",
+        "AMA515A Assignment 1.pdf"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Assignments/附件/AMA515A Assignment 1.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Assignments/附件/Durbin Watson statistics table.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Assignments/附件/assignment1-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Assignments/附件/assignment1-p02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Assignments/附件/assignment1-p03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "Tutorial 4",
+        "Tutorial 3",
+        "Tutorial 2",
+        "Tutorial 1",
+        "00 - Tutorials 资料索引.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/00 - Tutorials 资料索引.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "02 - Tutorial 1 Answers（英文原文与折叠译文）.md",
+        "附件",
+        "05 - Ex 1 Q4-Q6（手写解答）.md",
+        "04 - Ex 1 Q2-Q3（手写解答）.md",
+        "03 - Ex 1 Q1（手写解答）.md",
+        "01 - Tutorial 1 题目（英文原文与折叠译文）.md",
+        "00 - Tutorial 1 资料索引.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "附件",
+        "04 - Ex 2 Q2-Q4（手写解答）.md",
+        "03 - Ex 2 Q1（手写解答）.md",
+        "02 - Tutorial 2 Answers（英文原文与折叠译文）.md",
+        "01 - Tutorial 2 题目（英文原文与折叠译文）.md",
+        "00 - Tutorial 2 资料索引.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 3": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "附件",
+        "03 - Tutorial 3 Solution（手写解答）.md",
+        "02 - Tutorial 3 Answers（英文原文与折叠译文）.md",
+        "01 - Tutorial 3 题目（英文原文与折叠译文）.md",
+        "00 - Tutorial 3 资料索引.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 4": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "附件",
+        "02 - Tutorial 4 Answers（英文原文与折叠译文）.md",
+        "01 - Tutorial 4 题目（英文原文与折叠译文）.md",
+        "00 - Tutorial 4 资料索引.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/00 - Tutorial 1 资料索引.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/01 - Tutorial 1 题目（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/03 - Ex 1 Q1（手写解答）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/04 - Ex 1 Q2-Q3（手写解答）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/05 - Ex 1 Q4-Q6（手写解答）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "tut1-questions-p03.png",
+        "tut1-questions-p04.png",
+        "tut1-questions-p01.png",
+        "tut1-questions-p02.png",
+        "tut1-q456-p04.png",
+        "tut1-q456-p03.png",
+        "tut1-q456-p02.png",
+        "tut1-q456-p01.png",
+        "tut1-q23-p06.png",
+        "tut1-q23-p05.png",
+        "tut1-q23-p04.png",
+        "tut1-q23-p03.png",
+        "tut1-q23-p02.png",
+        "tut1-q23-p01.png",
+        "tut1-q1-p04.png",
+        "tut1-q1-p03.png",
+        "tut1-q1-p02.png",
+        "tut1-answers-p02.png",
+        "tut1-q1-p01.png",
+        "tut1-answers-p03.png",
+        "tut1-answers-p01.png",
+        "Tutorial 1.pdf",
+        "Tutorial 1 Answers.pdf",
+        "Ex.1 Q.4,5,6.pdf",
+        "Ex. 1 Question 1.pdf",
+        "Ex 1 Q2 and Q3 solution.pdf"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/00 - Tutorial 2 资料索引.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/02 - Tutorial 1 Answers（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/01 - Tutorial 2 题目（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/02 - Tutorial 2 Answers（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/03 - Ex 2 Q1（手写解答）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/04 - Ex 2 Q2-Q4（手写解答）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "tut2-questions-p03.png",
+        "tut2-questions-p01.png",
+        "tut2-questions-p02.png",
+        "tut2-q234-p06.png",
+        "tut2-q234-p05.png",
+        "tut2-q234-p03.png",
+        "tut2-q234-p04.png",
+        "tut2-q234-p02.png",
+        "tut2-q234-p01.png",
+        "tut2-q1-p05.png",
+        "tut2-q1-p04.png",
+        "tut2-q1-p03.png",
+        "tut2-q1-p02.png",
+        "tut2-q1-p01.png",
+        "tut2-answers-p04.png",
+        "tut2-answers-p03.png",
+        "tut2-answers-p02.png",
+        "tut2-answers-p01.png",
+        "Tutorial 2.pdf",
+        "Tutorial 2 Answers.pdf",
+        "Ex. 2 Q2 to Q4.pdf",
+        "Ex 2 Q 1 Solutions.pdf"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 3/00 - Tutorial 3 资料索引.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 3/01 - Tutorial 3 题目（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 3/02 - Tutorial 3 Answers（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 3/03 - Tutorial 3 Solution（手写解答）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 3/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "tut3-solution-p04.png",
+        "tut3-solution-p03.png",
+        "tut3-solution-p02.png",
+        "tut3-solution-p01.png",
+        "tut3-questions-p01.png",
+        "tut3-answers-p02.png",
+        "tut3-answers-p01.png",
+        "Tutorial 3.pdf",
+        "Tutorial 3 Solution.pdf",
+        "Tutorial 3 Answers.pdf"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 4/00 - Tutorial 4 资料索引.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 4/01 - Tutorial 4 题目（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 4/02 - Tutorial 4 Answers（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 4/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "tut4-questions-p02.png",
+        "tut4-questions-p01.png",
+        "tut4-answers-p01.png",
+        "Tutorial Exercise 4.pdf",
+        "Tutorial 4 Answers .pdf"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/Ex 1 Q2 and Q3 solution.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/Ex. 1 Question 1.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/Ex.1 Q.4,5,6.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/Tutorial 1 Answers.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/Tutorial 1.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/tut1-answers-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/tut1-answers-p03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/tut1-q1-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/tut1-answers-p02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/tut1-q1-p02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/tut1-q1-p03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/tut1-q1-p04.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/tut1-q23-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/tut1-q23-p02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/tut1-q23-p03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/tut1-q23-p04.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/tut1-q23-p05.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/tut1-q23-p06.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/tut1-q456-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/tut1-q456-p02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/tut1-q456-p03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/tut1-q456-p04.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/tut1-questions-p02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/tut1-questions-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/tut1-questions-p04.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/tut1-questions-p03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/附件/Ex 2 Q 1 Solutions.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/附件/Ex. 2 Q2 to Q4.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/附件/Tutorial 2 Answers.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/附件/Tutorial 2.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/附件/tut2-answers-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/附件/tut2-answers-p02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/附件/tut2-answers-p03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/附件/tut2-answers-p04.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/附件/tut2-q1-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/附件/tut2-q1-p02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/附件/tut2-q1-p03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/附件/tut2-q1-p04.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/附件/tut2-q1-p05.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/附件/tut2-q234-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/附件/tut2-q234-p02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/附件/tut2-q234-p04.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/附件/tut2-q234-p03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/附件/tut2-q234-p05.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/附件/tut2-q234-p06.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/附件/tut2-questions-p02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/附件/tut2-questions-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/附件/tut2-questions-p03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 3/附件/Tutorial 3 Answers.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 3/附件/Tutorial 3 Solution.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 3/附件/Tutorial 3.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 3/附件/tut3-answers-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 3/附件/tut3-answers-p02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 3/附件/tut3-questions-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 3/附件/tut3-solution-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 3/附件/tut3-solution-p02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 3/附件/tut3-solution-p03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 3/附件/tut3-solution-p04.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 4/附件/Tutorial 4 Answers .pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 4/附件/Tutorial Exercise 4.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 4/附件/tut4-answers-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 4/附件/tut4-questions-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 4/附件/tut4-questions-p02.png": {
       "isPinned": false,
       "isHidden": false
     }
