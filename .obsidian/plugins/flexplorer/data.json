@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "股票量化因子研究入门",
         "求职投递",
         "金融 AI 应用实战",
         "大模型全栈",
@@ -14292,6 +14293,1138 @@
       "isHidden": false
     },
     "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 4/附件/tut4-questions-p02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "因子研究学习路线.canvas",
+        "29 实测记录 - 模拟与真实小样本.md",
+        "28 目标岗位原文与学习边界.md",
+        "24 毕业项目 - 独立完成一份因子研究.md",
+        "10 行业市值中性化.md",
+        "09 数据清洗与横截面标准化.md",
+        "08 从经济逻辑到因子公式.md",
+        "07 Point-in-time与复权.md",
+        "06 A股数据字典与股票池.md",
+        "05 环境与实验台使用.md",
+        "18 因子失效复盘与下线.md",
+        "17 风格暴露与收益归因.md",
+        "16 多因子合成与增量贡献.md",
+        "15 样本外验证与过拟合控制.md",
+        "27 来源索引与核验记录.md",
+        "26 术语速查与常见报错.md",
+        "25 研究模板与一对一提问卡.md",
+        "23 GitHub与官方资料精读路线.md",
+        "04 全流程与预先研究协议.md",
+        "03 第一课 - 因子到底在预测什么.md",
+        "02 一对一学习方式与进度板.md",
+        "01 岗位能力地图与学习路线.md",
+        "00 从这里开始 - 因子研究学习地图.md",
+        "22 从SQL到机器学习因子.md",
+        "21 LLM辅助研究与信息泄漏.md",
+        "20 另类数据与文本因子实战.md",
+        "19 因子库数据管线与实验记录.md",
+        "14 换手成本容量与衰减.md",
+        "13 分层收益与组合回测.md",
+        "12 因子检验 - IC与ICIR.md",
+        "11 收益标签与交易时间轴.md",
+        "附件"
+      ],
+      "sortOrder": "custom"
+    },
+    "股票量化因子研究入门/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "实验台"
+      ],
+      "sortOrder": "custom"
+    },
+    "股票量化因子研究入门/附件/实验台": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "validation_summary.json",
+        "sql_ml_outputs",
+        "sql_ml_bridge.py",
+        "real_outputs",
+        "run_real_pilot.py",
+        "01_因子全流程教学.ipynb",
+        "README.md",
+        "demo_outputs",
+        "demo_data",
+        "__pycache__",
+        "test_lab.py",
+        "requirements.txt",
+        "lab.py",
+        "real_data",
+        "download_tushare_pilot.py"
+      ],
+      "sortOrder": "custom"
+    },
+    "股票量化因子研究入门/附件/实验台/download_tushare_pilot.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "manifest_history",
+        "manifest.json",
+        "panel.csv",
+        "sessions.csv",
+        "raw",
+        "pilot_protocol.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/pilot_protocol.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "adj_factor_e5b48d28de5cc05b.metadata.json",
+        "adj_factor_f7b26ff422c2fc04.metadata.json",
+        "adj_factor_10c77589cc59c936.metadata.json",
+        "adj_factor_ae7f29c7a18a73a7.metadata.json",
+        "adj_factor_f83b0e6ffcfcefd2.metadata.json",
+        "adj_factor_c03f94c1cfdf287c.metadata.json",
+        "adj_factor_454b50aeba91b3d0.metadata.json",
+        "adj_factor_1649a91468f1426b.metadata.json",
+        "adj_factor_af49de16ad08248c.metadata.json",
+        "adj_factor_cdccecf9a49d14e4.metadata.json",
+        "adj_factor_f036d92301c9e5c0.metadata.json",
+        "adj_factor_abc425ed0e6e6d75.metadata.json",
+        "adj_factor_392441c0918791c8.metadata.json",
+        "adj_factor_75aff2ea5d2446a0.metadata.json",
+        "adj_factor_c58a0b84a943ce7d.metadata.json",
+        "adj_factor_6d46f0c7e9e6d943.metadata.json",
+        "adj_factor_00fa00864f8ca501.metadata.json",
+        "adj_factor_557a085b45228562.metadata.json",
+        "adj_factor_701b40d6b59ff10b.metadata.json",
+        "adj_factor_cd4252629f02eeae.metadata.json",
+        "daily_e4d717e2f31bab31.metadata.json",
+        "adj_factor_44ada1437ec63be2.metadata.json",
+        "adj_factor_f1685545dca382cf.metadata.json",
+        "adj_factor_e2a572e3c11150d4.metadata.json",
+        "adj_factor_72cd18236cdd9b15.metadata.json",
+        "adj_factor_7b32c26357bb64b0.metadata.json",
+        "adj_factor_067e4aaa979c540a.metadata.json",
+        "adj_factor_351a893e5859883c.metadata.json",
+        "adj_factor_8ef96b2fb8fd4384.metadata.json",
+        "adj_factor_57601d07a6d592d4.metadata.json",
+        "adj_factor_cb535034439bf775.metadata.json",
+        "adj_factor_4fd7d3eb7d75d58d.metadata.json",
+        "adj_factor_301b7cc5015ffb83.metadata.json",
+        "adj_factor_47aa32f850c4983b.metadata.json",
+        "adj_factor_6bbed4a1ae27dded.metadata.json",
+        "adj_factor_2ec092e538e5a8ce.metadata.json",
+        "adj_factor_2cd73a19639dde98.metadata.json",
+        "adj_factor_d0ed550dcc67094e.metadata.json",
+        "adj_factor_16d03e626e5a003d.metadata.json",
+        "adj_factor_a3164fc091fc7f8e.metadata.json",
+        "adj_factor_79f33046d7b10330.metadata.json",
+        "daily_1a6ac98d61b7382c.metadata.json",
+        "adj_factor_270653a6d4f09352.metadata.json",
+        "adj_factor_a61e87966d0623e2.metadata.json",
+        "adj_factor_4d7e35fcdb046530.metadata.json",
+        "adj_factor_f81d02eceea493ca.metadata.json",
+        "adj_factor_e452c33112d638e5.metadata.json",
+        "adj_factor_159eba5cf0c9d1e7.metadata.json",
+        "adj_factor_6c7c5d437dd4efe1.metadata.json",
+        "adj_factor_ea97c3f9814d5e34.metadata.json",
+        "adj_factor_191cf523acac6438.metadata.json",
+        "adj_factor_707cf7d8474b416a.metadata.json",
+        "adj_factor_5575745fb9a52374.metadata.json",
+        "adj_factor_9005d718b08986c1.metadata.json",
+        "adj_factor_4b0a41cf6a0bc20a.metadata.json",
+        "adj_factor_384dd99157dd81ae.metadata.json",
+        "adj_factor_9d6c3e44282b2df5.metadata.json",
+        "adj_factor_043f199b7b2a3e2b.metadata.json",
+        "adj_factor_865fb12d8d8d500b.metadata.json",
+        "adj_factor_56507298136433bb.metadata.json",
+        "adj_factor_238605258c27e945.metadata.json",
+        "adj_factor_ee086d234d8fae65.metadata.json",
+        "daily_40097d04c55e6aa6.metadata.json",
+        "trade_cal_d4e6286db6cc9c11.metadata.json",
+        "adj_factor_e5b48d28de5cc05b.csv",
+        "adj_factor_f7b26ff422c2fc04.csv",
+        "adj_factor_10c77589cc59c936.csv",
+        "adj_factor_ae7f29c7a18a73a7.csv",
+        "adj_factor_f83b0e6ffcfcefd2.csv",
+        "adj_factor_c03f94c1cfdf287c.csv",
+        "adj_factor_454b50aeba91b3d0.csv",
+        "adj_factor_1649a91468f1426b.csv",
+        "adj_factor_af49de16ad08248c.csv",
+        "adj_factor_cdccecf9a49d14e4.csv",
+        "adj_factor_f036d92301c9e5c0.csv",
+        "adj_factor_abc425ed0e6e6d75.csv",
+        "adj_factor_392441c0918791c8.csv",
+        "adj_factor_75aff2ea5d2446a0.csv",
+        "adj_factor_c58a0b84a943ce7d.csv",
+        "adj_factor_6d46f0c7e9e6d943.csv",
+        "adj_factor_00fa00864f8ca501.csv",
+        "adj_factor_557a085b45228562.csv",
+        "adj_factor_701b40d6b59ff10b.csv",
+        "adj_factor_cd4252629f02eeae.csv",
+        "daily_e4d717e2f31bab31.csv",
+        "adj_factor_44ada1437ec63be2.csv",
+        "adj_factor_f1685545dca382cf.csv",
+        "adj_factor_e2a572e3c11150d4.csv",
+        "adj_factor_72cd18236cdd9b15.csv",
+        "adj_factor_7b32c26357bb64b0.csv",
+        "adj_factor_067e4aaa979c540a.csv",
+        "adj_factor_351a893e5859883c.csv",
+        "adj_factor_8ef96b2fb8fd4384.csv",
+        "adj_factor_57601d07a6d592d4.csv",
+        "adj_factor_cb535034439bf775.csv",
+        "adj_factor_4fd7d3eb7d75d58d.csv",
+        "adj_factor_301b7cc5015ffb83.csv",
+        "adj_factor_47aa32f850c4983b.csv",
+        "adj_factor_6bbed4a1ae27dded.csv",
+        "adj_factor_2ec092e538e5a8ce.csv",
+        "adj_factor_2cd73a19639dde98.csv",
+        "adj_factor_d0ed550dcc67094e.csv",
+        "adj_factor_16d03e626e5a003d.csv",
+        "adj_factor_a3164fc091fc7f8e.csv",
+        "adj_factor_79f33046d7b10330.csv",
+        "daily_1a6ac98d61b7382c.csv",
+        "adj_factor_270653a6d4f09352.csv",
+        "adj_factor_a61e87966d0623e2.csv",
+        "adj_factor_4d7e35fcdb046530.csv",
+        "adj_factor_f81d02eceea493ca.csv",
+        "adj_factor_e452c33112d638e5.csv",
+        "adj_factor_159eba5cf0c9d1e7.csv",
+        "adj_factor_6c7c5d437dd4efe1.csv",
+        "adj_factor_ea97c3f9814d5e34.csv",
+        "adj_factor_191cf523acac6438.csv",
+        "adj_factor_707cf7d8474b416a.csv",
+        "adj_factor_5575745fb9a52374.csv",
+        "adj_factor_9005d718b08986c1.csv",
+        "adj_factor_4b0a41cf6a0bc20a.csv",
+        "adj_factor_384dd99157dd81ae.csv",
+        "adj_factor_9d6c3e44282b2df5.csv",
+        "adj_factor_043f199b7b2a3e2b.csv",
+        "adj_factor_865fb12d8d8d500b.csv",
+        "adj_factor_56507298136433bb.csv",
+        "adj_factor_238605258c27e945.csv",
+        "adj_factor_ee086d234d8fae65.csv",
+        "daily_40097d04c55e6aa6.csv",
+        "trade_cal_d4e6286db6cc9c11.csv"
+      ],
+      "sortOrder": "custom"
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/trade_cal_d4e6286db6cc9c11.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/sessions.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/daily_40097d04c55e6aa6.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_ee086d234d8fae65.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_238605258c27e945.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_56507298136433bb.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_865fb12d8d8d500b.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_043f199b7b2a3e2b.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_9d6c3e44282b2df5.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_384dd99157dd81ae.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_4b0a41cf6a0bc20a.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_9005d718b08986c1.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_5575745fb9a52374.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_707cf7d8474b416a.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_191cf523acac6438.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_ea97c3f9814d5e34.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_6c7c5d437dd4efe1.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_159eba5cf0c9d1e7.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_e452c33112d638e5.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_f81d02eceea493ca.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_4d7e35fcdb046530.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_a61e87966d0623e2.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_270653a6d4f09352.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/daily_1a6ac98d61b7382c.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_79f33046d7b10330.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_a3164fc091fc7f8e.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_16d03e626e5a003d.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_d0ed550dcc67094e.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_2cd73a19639dde98.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_2ec092e538e5a8ce.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_6bbed4a1ae27dded.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_47aa32f850c4983b.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_301b7cc5015ffb83.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_4fd7d3eb7d75d58d.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_cb535034439bf775.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_57601d07a6d592d4.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_8ef96b2fb8fd4384.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_351a893e5859883c.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_067e4aaa979c540a.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_7b32c26357bb64b0.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_72cd18236cdd9b15.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_e2a572e3c11150d4.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_f1685545dca382cf.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_44ada1437ec63be2.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/daily_e4d717e2f31bab31.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_cd4252629f02eeae.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_701b40d6b59ff10b.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_557a085b45228562.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_00fa00864f8ca501.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_6d46f0c7e9e6d943.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_c58a0b84a943ce7d.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_75aff2ea5d2446a0.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_392441c0918791c8.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_abc425ed0e6e6d75.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_f036d92301c9e5c0.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_cdccecf9a49d14e4.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_af49de16ad08248c.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_1649a91468f1426b.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_454b50aeba91b3d0.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_c03f94c1cfdf287c.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_f83b0e6ffcfcefd2.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_ae7f29c7a18a73a7.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_10c77589cc59c936.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_f7b26ff422c2fc04.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_e5b48d28de5cc05b.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/panel.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/manifest.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/lab.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/requirements.txt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/test_lab.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/__pycache__": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "sql_ml_bridge.cpython-312.pyc",
+        "lab.cpython-312.pyc",
+        "test_lab.cpython-312.pyc"
+      ],
+      "sortOrder": "custom"
+    },
+    "股票量化因子研究入门/附件/实验台/__pycache__/test_lab.cpython-312.pyc": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/__pycache__/lab.cpython-312.pyc": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/11 收益标签与交易时间轴.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/12 因子检验 - IC与ICIR.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/13 分层收益与组合回测.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/14 换手成本容量与衰减.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/demo_data": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "synthetic_sessions.csv",
+        "synthetic_panel.csv"
+      ],
+      "sortOrder": "custom"
+    },
+    "股票量化因子研究入门/附件/实验台/demo_data/synthetic_panel.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/demo_outputs": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "04_group_returns.png",
+        "03_ic_decay.png",
+        "02_rank_ic.png",
+        "01_oos_nav.png",
+        "run_summary.json",
+        "simple_style_exposure_oos.csv",
+        "diagnostics_oos.csv",
+        "factor_scores_neutralized.csv",
+        "factor_scores.csv",
+        "trade_costs_oos.csv",
+        "portfolio_periods_oos.csv",
+        "ic_decay_common_dates.csv",
+        "ic_summary.csv",
+        "daily_ic_by_split.csv"
+      ],
+      "sortOrder": "custom"
+    },
+    "股票量化因子研究入门/附件/实验台/demo_data/synthetic_sessions.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/demo_outputs/daily_ic_by_split.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/demo_outputs/ic_summary.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/19 因子库数据管线与实验记录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/20 另类数据与文本因子实战.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/21 LLM辅助研究与信息泄漏.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/22 从SQL到机器学习因子.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/demo_outputs/ic_decay_common_dates.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/demo_outputs/portfolio_periods_oos.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/demo_outputs/trade_costs_oos.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/demo_outputs/factor_scores.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/demo_outputs/factor_scores_neutralized.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/demo_outputs/diagnostics_oos.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/demo_outputs/simple_style_exposure_oos.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/demo_outputs/run_summary.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/demo_outputs/01_oos_nav.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/demo_outputs/02_rank_ic.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/demo_outputs/03_ic_decay.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/demo_outputs/04_group_returns.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/00 从这里开始 - 因子研究学习地图.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/01 岗位能力地图与学习路线.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/02 一对一学习方式与进度板.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/03 第一课 - 因子到底在预测什么.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/04 全流程与预先研究协议.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/README.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/23 GitHub与官方资料精读路线.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/25 研究模板与一对一提问卡.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/26 术语速查与常见报错.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/27 来源索引与核验记录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/15 样本外验证与过拟合控制.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/16 多因子合成与增量贡献.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/17 风格暴露与收益归因.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/18 因子失效复盘与下线.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/05 环境与实验台使用.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/06 A股数据字典与股票池.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/07 Point-in-time与复权.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/08 从经济逻辑到因子公式.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/09 数据清洗与横截面标准化.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/10 行业市值中性化.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/01_因子全流程教学.ipynb": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/run_real_pilot.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_outputs": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "03_real_groups.png",
+        "02_real_ic.png",
+        "01_real_nav.png",
+        "run_summary.json",
+        "oos_adv_capacity_scenario.csv",
+        "oos_ic_decay_common_dates.csv",
+        "oos_cost_stress.csv",
+        "factor_scores.csv",
+        "trades_and_costs.csv",
+        "portfolio_periods.csv",
+        "daily_rank_ic.csv",
+        "ic_and_portfolio_summary.csv"
+      ],
+      "sortOrder": "custom"
+    },
+    "股票量化因子研究入门/24 毕业项目 - 独立完成一份因子研究.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/28 目标岗位原文与学习边界.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_outputs/ic_and_portfolio_summary.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_outputs/daily_rank_ic.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_outputs/portfolio_periods.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_outputs/trades_and_costs.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_outputs/factor_scores.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_outputs/oos_cost_stress.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_outputs/oos_ic_decay_common_dates.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_outputs/oos_adv_capacity_scenario.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_outputs/run_summary.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_outputs/01_real_nav.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_outputs/02_real_ic.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_outputs/03_real_groups.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/manifest_history": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "2026-10-26T01-39-36.301349+08-00.json"
+      ],
+      "sortOrder": "custom"
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/manifest_history/2026-10-26T01-39-36.301349+08-00.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/trade_cal_d4e6286db6cc9c11.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/daily_40097d04c55e6aa6.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_ee086d234d8fae65.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_238605258c27e945.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_56507298136433bb.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_865fb12d8d8d500b.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_043f199b7b2a3e2b.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_9d6c3e44282b2df5.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_384dd99157dd81ae.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_4b0a41cf6a0bc20a.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_9005d718b08986c1.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_5575745fb9a52374.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_707cf7d8474b416a.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_191cf523acac6438.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_ea97c3f9814d5e34.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_6c7c5d437dd4efe1.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_159eba5cf0c9d1e7.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_e452c33112d638e5.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_f81d02eceea493ca.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_4d7e35fcdb046530.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_a61e87966d0623e2.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_270653a6d4f09352.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/daily_1a6ac98d61b7382c.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_79f33046d7b10330.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_a3164fc091fc7f8e.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_16d03e626e5a003d.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_d0ed550dcc67094e.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_2cd73a19639dde98.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_2ec092e538e5a8ce.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_6bbed4a1ae27dded.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_47aa32f850c4983b.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_301b7cc5015ffb83.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_4fd7d3eb7d75d58d.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_cb535034439bf775.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_57601d07a6d592d4.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_8ef96b2fb8fd4384.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_351a893e5859883c.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_067e4aaa979c540a.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_7b32c26357bb64b0.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_72cd18236cdd9b15.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_e2a572e3c11150d4.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_f1685545dca382cf.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_44ada1437ec63be2.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/daily_e4d717e2f31bab31.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_cd4252629f02eeae.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_701b40d6b59ff10b.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_557a085b45228562.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_00fa00864f8ca501.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_6d46f0c7e9e6d943.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_c58a0b84a943ce7d.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_75aff2ea5d2446a0.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_392441c0918791c8.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_abc425ed0e6e6d75.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_f036d92301c9e5c0.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_cdccecf9a49d14e4.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_af49de16ad08248c.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_1649a91468f1426b.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_454b50aeba91b3d0.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_c03f94c1cfdf287c.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_f83b0e6ffcfcefd2.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_ae7f29c7a18a73a7.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_10c77589cc59c936.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_f7b26ff422c2fc04.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/real_data/raw/adj_factor_e5b48d28de5cc05b.metadata.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/sql_ml_bridge.py": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/__pycache__/sql_ml_bridge.cpython-312.pyc": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/sql_ml_outputs": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "run_summary.json",
+        "coverage_and_boundaries.csv",
+        "diagnostics.csv",
+        "daily_ic.csv",
+        "predictions.csv"
+      ],
+      "sortOrder": "custom"
+    },
+    "股票量化因子研究入门/附件/实验台/sql_ml_outputs/predictions.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/sql_ml_outputs/daily_ic.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/sql_ml_outputs/diagnostics.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/sql_ml_outputs/coverage_and_boundaries.csv": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/sql_ml_outputs/run_summary.json": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/29 实测记录 - 模拟与真实小样本.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/因子研究学习路线.canvas": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "股票量化因子研究入门/附件/实验台/validation_summary.json": {
       "isPinned": false,
       "isHidden": false
     }

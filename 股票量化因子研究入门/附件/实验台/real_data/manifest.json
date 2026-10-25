@@ -1,0 +1,1089 @@
+{
+  "complete": true,
+  "first_retrieval_started_at": "2026-10-26T01:27:09.419340+08:00",
+  "run_started_at": "2026-10-26T01:39:36.301349+08:00",
+  "protocol": {
+    "purpose": "固定20只股票教学样本；事后人工选样，存在选择和幸存者偏差，不能代表历史A股股票池",
+    "start_date": "20230101",
+    "end_date": "20251231",
+    "assets": [
+      "000001.SZ",
+      "000063.SZ",
+      "000333.SZ",
+      "000651.SZ",
+      "000858.SZ",
+      "002415.SZ",
+      "002594.SZ",
+      "600000.SH",
+      "600009.SH",
+      "600030.SH",
+      "600036.SH",
+      "600104.SH",
+      "600276.SH",
+      "600309.SH",
+      "600519.SH",
+      "600887.SH",
+      "601166.SH",
+      "601318.SH",
+      "601398.SH",
+      "601857.SH"
+    ],
+    "factor": "-(adjusted_close / adjusted_close.shift(5) - 1)",
+    "label": "adjusted_open.shift(-6) / adjusted_open.shift(-1) - 1",
+    "train": [
+      "2023-01-01",
+      "2023-12-31"
+    ],
+    "validation": [
+      "2024-01-01",
+      "2024-12-31"
+    ],
+    "test": [
+      "2025-01-01",
+      "2025-12-31"
+    ],
+    "execution": "signal at close; next session open; idealized fills; no historical tradability engine",
+    "neutralization": "未获取历史行业与市值，真实小样本不做行业市值中性化",
+    "amount_unit": "CNY，daily.amount千元乘1000转换；不是复权金额",
+    "signal_direction": "预设反转：数值越大越看好；不得查看测试结果后改向",
+    "research_status": "教学试验；非有效Alpha认定、非可交易业绩、非实盘成果"
+  },
+  "requests": [
+    {
+      "api": "trade_cal",
+      "params": {
+        "exchange": "SSE",
+        "start_date": "20230101",
+        "end_date": "20251231"
+      },
+      "fields": "exchange,cal_date,is_open",
+      "rows": 1096,
+      "file": "raw/trade_cal_d4e6286db6cc9c11.csv",
+      "cache": true,
+      "content_sha256": "cbc14242a44b1f9ea8869af3ae80c233da7fb69d4a007f088bc7450983681ae2",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:10.171209+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "daily",
+      "params": {
+        "ts_code": "000001.SZ,000063.SZ,000333.SZ,000651.SZ,000858.SZ,002415.SZ,002594.SZ,600000.SH,600009.SH,600030.SH,600036.SH,600104.SH,600276.SH,600309.SH,600519.SH,600887.SH,601166.SH,601318.SH,601398.SH,601857.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,open,high,low,close,vol,amount",
+      "rows": 4840,
+      "file": "raw/daily_40097d04c55e6aa6.csv",
+      "cache": true,
+      "content_sha256": "cddfee86d81ab25a82520403d3b6bf20d7ad4e98f0ee8cb22b3d4f7a6ad7a9f3",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:13.085166+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000001.SZ",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_ee086d234d8fae65.csv",
+      "cache": true,
+      "content_sha256": "a1f4fb399195215f2fdf3835576fe1ccb609b718d80a3fca66f185eabe9ba124",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:14.660886+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000063.SZ",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_238605258c27e945.csv",
+      "cache": true,
+      "content_sha256": "a0995cf5c39d167725b0320df2d37ddc27a7b48380f32cc0be1a4fd32dac8ddc",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:16.527357+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000333.SZ",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_56507298136433bb.csv",
+      "cache": true,
+      "content_sha256": "b1a0aab753a71403db563ddacbd3d580905c0a7908d7455611a22127117d01f8",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:18.418321+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000651.SZ",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_865fb12d8d8d500b.csv",
+      "cache": true,
+      "content_sha256": "0fd2854f4697dcac5fe5172fc17490a56794598877651dc839aad19fd27ac0f9",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:20.625206+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000858.SZ",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_043f199b7b2a3e2b.csv",
+      "cache": true,
+      "content_sha256": "63d1500e5f0a78ac9b4037dc614dda9a2a86fc477ee0853bc7e917ad968e8deb",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:22.227818+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "002415.SZ",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_9d6c3e44282b2df5.csv",
+      "cache": true,
+      "content_sha256": "ddcf530f0c4ff5f2e2591c2868dab63b5239fd329242f3eeb472aec131e9f7d0",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:24.140763+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "002594.SZ",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_384dd99157dd81ae.csv",
+      "cache": true,
+      "content_sha256": "35b4ed8a7c7fd822ae668e137c852ad8fef5ca6bf24ff3099e9146252ffa5f73",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:26.479262+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600000.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_4b0a41cf6a0bc20a.csv",
+      "cache": true,
+      "content_sha256": "77e029ed032e3e99f2034cb4531dcc44558c99694bb70159829de64d1b7375dd",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:28.080386+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600009.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_9005d718b08986c1.csv",
+      "cache": true,
+      "content_sha256": "6105d7cd1802d00a03be855056197532942d0e77d6d976c60dbc9598febd6861",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:29.655659+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600030.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_5575745fb9a52374.csv",
+      "cache": true,
+      "content_sha256": "b816fb13b7e7b180b02127c227c900fbf5641e60b1dc8c8da28fdfdc9acc9215",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:31.503268+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600036.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_707cf7d8474b416a.csv",
+      "cache": true,
+      "content_sha256": "5b6a7c17a0ba6c3b51962875397f72908bea221ea7f72c85e327ded074061ef7",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:33.117200+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600104.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_191cf523acac6438.csv",
+      "cache": true,
+      "content_sha256": "a8c179ef33302c3247f4e5519a6292a1be2ea095e9403ab018e9c84307f4ac34",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:34.695029+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600276.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_ea97c3f9814d5e34.csv",
+      "cache": true,
+      "content_sha256": "88615b685ad72726ce8cd0e2ef8d8b48b462eacd360a93182b67a15d01a4a345",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:36.287327+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600309.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_6c7c5d437dd4efe1.csv",
+      "cache": true,
+      "content_sha256": "6ef535c004d66b91d555c5bde6fd8b24629a83705252b163682841b89dc59dc2",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:37.873763+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600519.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_159eba5cf0c9d1e7.csv",
+      "cache": true,
+      "content_sha256": "fbd72a1eebaa9b05e8ac922192bef310137dd9f760d45dd3f6e43803ec58f5fb",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:39.486274+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600887.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_e452c33112d638e5.csv",
+      "cache": true,
+      "content_sha256": "3c254aefcb111fb4cdca2d6f6255e60ee54478423b42d09ad2b07c1a85fd6d72",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:41.138861+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "601166.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_f81d02eceea493ca.csv",
+      "cache": true,
+      "content_sha256": "40ccdfbec1bca290f4a2078eb730f5dd3bc7d12d33fdec2169b59dc881f9ac2c",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:42.970642+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "601318.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_4d7e35fcdb046530.csv",
+      "cache": true,
+      "content_sha256": "ae46de01b6cf134a2f3edb0dcb73462e39a34adac82d162fa1baa0677fa1fb61",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:44.716202+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "601398.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_a61e87966d0623e2.csv",
+      "cache": true,
+      "content_sha256": "33ed815d93ff1da5061c54193c6f984616660946a0838e25aabfe2afbf9b7c90",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:47.116885+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "601857.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_270653a6d4f09352.csv",
+      "cache": true,
+      "content_sha256": "83862c1bb3efea3b35e7443af5bff3dce3a014ef18f3d27c2259317b3ba25f65",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:49.248947+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "daily",
+      "params": {
+        "ts_code": "000001.SZ,000063.SZ,000333.SZ,000651.SZ,000858.SZ,002415.SZ,002594.SZ,600000.SH,600009.SH,600030.SH,600036.SH,600104.SH,600276.SH,600309.SH,600519.SH,600887.SH,601166.SH,601318.SH,601398.SH,601857.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,open,high,low,close,vol,amount",
+      "rows": 4840,
+      "file": "raw/daily_1a6ac98d61b7382c.csv",
+      "cache": true,
+      "content_sha256": "310077e9db2a763b2314e07fa6a06ad2ffdafb2506ba3e0dc2ce720929e6d3ca",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:51.163647+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000001.SZ",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_79f33046d7b10330.csv",
+      "cache": true,
+      "content_sha256": "6e0f182fed2d6637105cfc67d44c39f5198c8df4312ffe0e89cc7a4ca9f644ef",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:53.023666+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000063.SZ",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_a3164fc091fc7f8e.csv",
+      "cache": true,
+      "content_sha256": "e3413cf3fb2dc2fa0a6b294db5388221788cc7311318e5f2d0d7b9e8ad5be189",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:54.704466+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000333.SZ",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_16d03e626e5a003d.csv",
+      "cache": true,
+      "content_sha256": "4fc5a58b3e956c155029e7ebdba8326c4bccc13ee1058a5ebff12aa25606b91e",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:56.530168+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000651.SZ",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_d0ed550dcc67094e.csv",
+      "cache": true,
+      "content_sha256": "c30e8494b72dab58799a53f0fbd0acb97cb47557995548febe8b0776e6eccfc6",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:27:58.470458+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000858.SZ",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_2cd73a19639dde98.csv",
+      "cache": true,
+      "content_sha256": "ad2dd0de95f82d3e6b74af18ff39ed3ec26818da9695e881b270690aea8d422f",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:00.065989+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "002415.SZ",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_2ec092e538e5a8ce.csv",
+      "cache": true,
+      "content_sha256": "4544ff7f05cb3b8dcd0bec10f2e8d3f6cced8644d120a8fa49336195c9b7a29d",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:02.333075+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "002594.SZ",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_6bbed4a1ae27dded.csv",
+      "cache": true,
+      "content_sha256": "bf0764490a481e68c08e8561da7b3f11508a61638995b06961ce3ec860629bc9",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:04.110574+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600000.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_47aa32f850c4983b.csv",
+      "cache": true,
+      "content_sha256": "eb7aec44d94d8781ed2cff681f7137acc7b1e9fa3664db4e6bd2f9b2ee2da9f5",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:05.700501+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600009.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_301b7cc5015ffb83.csv",
+      "cache": true,
+      "content_sha256": "eb3c29112c53730d2b7f3338d69a35d909af3b8061461f6a4b8dccacc77353d4",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:07.583524+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600030.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_4fd7d3eb7d75d58d.csv",
+      "cache": true,
+      "content_sha256": "7fc93c0307e5679c40ca713abf2466ca158a1f0b782412c4b693cbb4a9f4f126",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:09.181923+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600036.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_cb535034439bf775.csv",
+      "cache": true,
+      "content_sha256": "1b619872a9ce59b0a3fd5778dc8914ebeab2d15d95be38157d83be7969ccf03b",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:10.756977+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600104.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_57601d07a6d592d4.csv",
+      "cache": true,
+      "content_sha256": "1f264d5911a44dae47247d868c25f49db4ca4b00e4d9111eb5a3b14940d43f13",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:12.379002+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600276.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_8ef96b2fb8fd4384.csv",
+      "cache": true,
+      "content_sha256": "284575f814d6b78e86bef625e9d974b2a869ec51a8b03c3006066f896b2cf2a5",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:14.018051+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600309.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_351a893e5859883c.csv",
+      "cache": true,
+      "content_sha256": "732244a1e863c7badbbefaae841ae0fac19120a932aca9de25581818e249cf1c",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:15.591152+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600519.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_067e4aaa979c540a.csv",
+      "cache": true,
+      "content_sha256": "0ff9458eff68d0c16240dd88b906b715bc058f8c9292e86533c81727bcea7080",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:17.175223+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600887.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_7b32c26357bb64b0.csv",
+      "cache": true,
+      "content_sha256": "ac6524af0bb2c94ed5dc4b49fa86119d254fe1cacfab4f1cc87f0b5af1e95166",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:18.752858+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "601166.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_72cd18236cdd9b15.csv",
+      "cache": true,
+      "content_sha256": "9092896cd712e531ba3c3eea219d6a4965b805fad469fb872967ff397e9f41f5",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:20.357158+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "601318.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_e2a572e3c11150d4.csv",
+      "cache": true,
+      "content_sha256": "dea3dd548aa907dccccceec025830d796da20fa9b02a90d006e5b5c0654e87d6",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:21.937913+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "601398.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_f1685545dca382cf.csv",
+      "cache": true,
+      "content_sha256": "f604be58cb3097e55dc79f1419ec32be2449e233dcd43046885255541bb28003",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:23.591457+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "601857.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_44ada1437ec63be2.csv",
+      "cache": true,
+      "content_sha256": "c2693d3573513872fa139936d80128e096c88fda55c1f6f481765645becbd2b9",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:25.172146+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "daily",
+      "params": {
+        "ts_code": "000001.SZ,000063.SZ,000333.SZ,000651.SZ,000858.SZ,002415.SZ,002594.SZ,600000.SH,600009.SH,600030.SH,600036.SH,600104.SH,600276.SH,600309.SH,600519.SH,600887.SH,601166.SH,601318.SH,601398.SH,601857.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,open,high,low,close,vol,amount",
+      "rows": 4860,
+      "file": "raw/daily_e4d717e2f31bab31.csv",
+      "cache": true,
+      "content_sha256": "9f8f79cf621dec24ca5db7c7fccf7f77fa53b19b226727ba25613619e4b15984",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:27.010142+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000001.SZ",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_cd4252629f02eeae.csv",
+      "cache": true,
+      "content_sha256": "834e836a5d6c8263c2bdfa6dda4832fb8ff323fe69877c802bf5673ca091efa4",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:28.582305+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000063.SZ",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_701b40d6b59ff10b.csv",
+      "cache": true,
+      "content_sha256": "0e287f495f33fe9d2aa4850a15e234d081046104c2d7d6fda1eb1c2030d4b9cf",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:30.193507+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000333.SZ",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_557a085b45228562.csv",
+      "cache": true,
+      "content_sha256": "ebe9434772e3c22ea7bb2f621f08da75d4f9f2be1ebe3265047e32da34c9abdd",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:31.817582+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000651.SZ",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_00fa00864f8ca501.csv",
+      "cache": true,
+      "content_sha256": "419690babc7188ae4fcf27d82ded6ae1e737af2c990763e0041e464f92f45624",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:33.416350+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000858.SZ",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_6d46f0c7e9e6d943.csv",
+      "cache": true,
+      "content_sha256": "ed98b74f9d061700aab8b1f5ba08f5bc91b089a7470bbfdaf15582d3d149b857",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:34.997549+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "002415.SZ",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_c58a0b84a943ce7d.csv",
+      "cache": true,
+      "content_sha256": "7cf07469a071dcccc3451bf92328c717d6ae205113ff8f7e7a2f4b918dcc238f",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:36.570732+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "002594.SZ",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_75aff2ea5d2446a0.csv",
+      "cache": true,
+      "content_sha256": "6c5f2c72e33d26b0b66637f15bd8117cb6d2f98ae2b973740bce03ba121a4869",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:38.171998+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600000.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_392441c0918791c8.csv",
+      "cache": true,
+      "content_sha256": "68d73d9d3399a9fe728b9f34ae66cf1c2efb95d9d118f83772ef1ceeba86204f",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:39.782729+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600009.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_abc425ed0e6e6d75.csv",
+      "cache": true,
+      "content_sha256": "06f1cf62de04a8f73e787e925d1a84d66f2281d8af117edcf38c4167671ac528",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:41.364057+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600030.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_f036d92301c9e5c0.csv",
+      "cache": true,
+      "content_sha256": "996292c2fe01f05595119d603f3a4daab492b92201ac757a7bf65dc26527296c",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:42.964378+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600036.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_cdccecf9a49d14e4.csv",
+      "cache": true,
+      "content_sha256": "f473a385b475ddcbc7c3b0e6aee7b6e3c75362fdec99bba433e123ae1cd3c430",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:44.531420+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600104.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_af49de16ad08248c.csv",
+      "cache": true,
+      "content_sha256": "a6f25cef6f5ca18e11b015f216772eb3cb7cfff12219d3425554f67ab0c9fd89",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:46.147475+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600276.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_1649a91468f1426b.csv",
+      "cache": true,
+      "content_sha256": "e6e52e3aed914d040e6b23e29403404f43134f2b44d90f00e4c006972150a082",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:47.735555+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600309.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_454b50aeba91b3d0.csv",
+      "cache": true,
+      "content_sha256": "bee350ba3f3aee37e300972505dd68bff35b95694dca195834e2c953a3ea4963",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:49.320831+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600519.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_c03f94c1cfdf287c.csv",
+      "cache": true,
+      "content_sha256": "37f796cf09cf2607dc738f1c9d2ed24d3308ea40b868633ddb0a1422a7247cf3",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:50.930848+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600887.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_f83b0e6ffcfcefd2.csv",
+      "cache": true,
+      "content_sha256": "ea04bbddedf235edf05ae4abad1918dc9f70670ced8df80b98fcfeadbd207204",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:52.556784+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "601166.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_ae7f29c7a18a73a7.csv",
+      "cache": true,
+      "content_sha256": "ef47194aec7123cb005211e9395c609af445cace7438a78ffdbbcc2e04b18925",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:54.134228+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "601318.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_10c77589cc59c936.csv",
+      "cache": true,
+      "content_sha256": "d43b1b5fce75205858c5e5f6ea7a74bd4ac94c408ecd63e97c0f80d27bb15941",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:55.697246+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "601398.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_f7b26ff422c2fc04.csv",
+      "cache": true,
+      "content_sha256": "a76949269a4ca3691d016a5208823158b730fcf4ccd03ae03e39436f96e160bd",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:57.304037+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "601857.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_e5b48d28de5cc05b.csv",
+      "cache": true,
+      "content_sha256": "d52693ad434211ac0fa52e7261164a16d1ca515a68d7f9b5c5f2050e31a2fef6",
+      "fetched_at": null,
+      "cache_file_written_at": "2026-10-26T01:28:58.883229+08:00",
+      "time_provenance": "旧缓存缺精确接收日志；文件mtime仅作本地写入时间参考"
+    }
+  ],
+  "filename_hash_rule": "raw文件名为请求参数哈希；内容SHA256另见每条请求记录",
+  "sources": [
+    "https://tushare.pro/document/2?doc_id=27",
+    "https://tushare.pro/document/2?doc_id=28",
+    "https://tushare.pro/document/2?doc_id=26"
+  ],
+  "rows": 14540,
+  "assets": 20,
+  "sessions": 727,
+  "missing_grid_cells": 0,
+  "panel_sha256": "0534be292c5aecbeffd3f549b32c5a255bf8902e113cbb09a4e73ea8fefaf896",
+  "sessions_sha256": "bf8d2e0667263ac7ce177f92b4cb8779f2038c28772477a30e7db2cf90ae8f3c"
+}

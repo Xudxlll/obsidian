@@ -1,0 +1,186 @@
+{
+  "nodes": [
+    {
+      "id": "n00",
+      "type": "text",
+      "text": "## 从零走通因子研究\n\n先手算，再运行；按关卡自主学习。\n\n[[00 从这里开始 - 因子研究学习地图|打开笔记]]",
+      "x": 0,
+      "y": 0,
+      "width": 400,
+      "height": 200,
+      "color": "4"
+    },
+    {
+      "id": "n01",
+      "type": "text",
+      "text": "## 0 建立直觉\n\n用当时的信息打分，未来收益检验排序。\n\n[[03 第一课 - 因子到底在预测什么|打开笔记]]",
+      "x": -650,
+      "y": 280,
+      "width": 400,
+      "height": 200,
+      "color": "6"
+    },
+    {
+      "id": "n02",
+      "type": "text",
+      "text": "## 1 冻结研究假设\n\n固定方向、窗口、股票池和判定方法。\n\n[[04 全流程与预先研究协议|打开笔记]]",
+      "x": -200,
+      "y": 280,
+      "width": 400,
+      "height": 200,
+      "color": "6"
+    },
+    {
+      "id": "n03",
+      "type": "text",
+      "text": "## 2 数据与股票池\n\n主键、单位、缺失、历史名单。\n\n[[06 A股数据字典与股票池|打开笔记]]",
+      "x": 250,
+      "y": 280,
+      "width": 400,
+      "height": 200,
+      "color": "6"
+    },
+    {
+      "id": "n04",
+      "type": "text",
+      "text": "## 3 时点与复权\n\n当时可见的版本；统一交易日历。\n\n[[07 Point-in-time与复权|打开笔记]]",
+      "x": 700,
+      "y": 280,
+      "width": 400,
+      "height": 200,
+      "color": "6"
+    },
+    {
+      "id": "n05",
+      "type": "text",
+      "text": "## 4 构造与控制风格\n\n标准化与回归残差；缺历史字段不伪造。\n\n[[10 行业市值中性化|打开笔记]]",
+      "x": 700,
+      "y": 580,
+      "width": 400,
+      "height": 200,
+      "color": "6"
+    },
+    {
+      "id": "n06",
+      "type": "text",
+      "text": "## 5 检验排序\n\nIC、分层和非重叠组合各司其职。\n\n[[12 因子检验 - IC与ICIR|打开笔记]]",
+      "x": 250,
+      "y": 580,
+      "width": 400,
+      "height": 200,
+      "color": "6"
+    },
+    {
+      "id": "n07",
+      "type": "text",
+      "text": "## 6 面对交易\n\n漂移后换手、费用、容量与衰减。\n\n[[14 换手成本容量与衰减|打开笔记]]",
+      "x": -200,
+      "y": 580,
+      "width": 400,
+      "height": 200,
+      "color": "6"
+    },
+    {
+      "id": "n08",
+      "type": "text",
+      "text": "## 7 独立验证\n\n按标签终点隔离，保存全部尝试。\n\n[[15 样本外验证与过拟合控制|打开笔记]]",
+      "x": -650,
+      "y": 580,
+      "width": 400,
+      "height": 200,
+      "color": "6"
+    },
+    {
+      "id": "n09",
+      "type": "text",
+      "text": "## 8 完成研究交接\n\n解释负结果，提交可复现报告与因子卡。\n\n[[24 毕业项目 - 独立完成一份因子研究|打开笔记]]",
+      "x": -200,
+      "y": 880,
+      "width": 400,
+      "height": 200,
+      "color": "6"
+    },
+    {
+      "id": "n10",
+      "type": "text",
+      "text": "## 配套已运行实验\n\n模拟50股；真实固定20股；明确教学边界。\n\n[[29 实测记录 - 模拟与真实小样本|打开笔记]]",
+      "x": 250,
+      "y": 880,
+      "width": 400,
+      "height": 200,
+      "color": "5"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e00",
+      "fromNode": "n00",
+      "fromSide": "bottom",
+      "toNode": "n01",
+      "toSide": "top"
+    },
+    {
+      "id": "e01",
+      "fromNode": "n01",
+      "fromSide": "right",
+      "toNode": "n02",
+      "toSide": "left"
+    },
+    {
+      "id": "e02",
+      "fromNode": "n02",
+      "fromSide": "right",
+      "toNode": "n03",
+      "toSide": "left"
+    },
+    {
+      "id": "e03",
+      "fromNode": "n03",
+      "fromSide": "right",
+      "toNode": "n04",
+      "toSide": "left"
+    },
+    {
+      "id": "e04",
+      "fromNode": "n04",
+      "fromSide": "bottom",
+      "toNode": "n05",
+      "toSide": "top"
+    },
+    {
+      "id": "e05",
+      "fromNode": "n05",
+      "fromSide": "left",
+      "toNode": "n06",
+      "toSide": "right"
+    },
+    {
+      "id": "e06",
+      "fromNode": "n06",
+      "fromSide": "left",
+      "toNode": "n07",
+      "toSide": "right"
+    },
+    {
+      "id": "e07",
+      "fromNode": "n07",
+      "fromSide": "left",
+      "toNode": "n08",
+      "toSide": "right"
+    },
+    {
+      "id": "e08",
+      "fromNode": "n08",
+      "fromSide": "bottom",
+      "toNode": "n09",
+      "toSide": "left"
+    },
+    {
+      "id": "e09",
+      "fromNode": "n00",
+      "fromSide": "bottom",
+      "toNode": "n10",
+      "toSide": "top"
+    }
+  ]
+}

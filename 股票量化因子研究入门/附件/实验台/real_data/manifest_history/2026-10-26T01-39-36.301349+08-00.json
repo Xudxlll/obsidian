@@ -1,0 +1,831 @@
+{
+  "complete": true,
+  "retrieved_at": "2026-10-26T01:27:09.419340+08:00",
+  "protocol": {
+    "purpose": "固定20只股票教学样本；事后人工选样，存在选择和幸存者偏差，不能代表历史A股股票池",
+    "start_date": "20230101",
+    "end_date": "20251231",
+    "assets": [
+      "000001.SZ",
+      "000063.SZ",
+      "000333.SZ",
+      "000651.SZ",
+      "000858.SZ",
+      "002415.SZ",
+      "002594.SZ",
+      "600000.SH",
+      "600009.SH",
+      "600030.SH",
+      "600036.SH",
+      "600104.SH",
+      "600276.SH",
+      "600309.SH",
+      "600519.SH",
+      "600887.SH",
+      "601166.SH",
+      "601318.SH",
+      "601398.SH",
+      "601857.SH"
+    ],
+    "factor": "-(adjusted_close / adjusted_close.shift(5) - 1)",
+    "label": "adjusted_open.shift(-6) / adjusted_open.shift(-1) - 1",
+    "train": [
+      "2023-01-01",
+      "2023-12-31"
+    ],
+    "validation": [
+      "2024-01-01",
+      "2024-12-31"
+    ],
+    "test": [
+      "2025-01-01",
+      "2025-12-31"
+    ],
+    "execution": "signal at close; next session open; idealized fills; no historical tradability engine",
+    "neutralization": "未获取历史行业与市值，真实小样本不做行业市值中性化",
+    "amount_unit": "CNY，daily.amount千元乘1000转换；不是复权金额",
+    "signal_direction": "预设反转：数值越大越看好；不得查看测试结果后改向",
+    "research_status": "教学试验；非有效Alpha认定、非可交易业绩、非实盘成果"
+  },
+  "requests": [
+    {
+      "api": "trade_cal",
+      "params": {
+        "exchange": "SSE",
+        "start_date": "20230101",
+        "end_date": "20251231"
+      },
+      "fields": "exchange,cal_date,is_open",
+      "rows": 1096,
+      "file": "raw/trade_cal_d4e6286db6cc9c11.csv",
+      "cache": false
+    },
+    {
+      "api": "daily",
+      "params": {
+        "ts_code": "000001.SZ,000063.SZ,000333.SZ,000651.SZ,000858.SZ,002415.SZ,002594.SZ,600000.SH,600009.SH,600030.SH,600036.SH,600104.SH,600276.SH,600309.SH,600519.SH,600887.SH,601166.SH,601318.SH,601398.SH,601857.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,open,high,low,close,vol,amount",
+      "rows": 4840,
+      "file": "raw/daily_40097d04c55e6aa6.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000001.SZ",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_ee086d234d8fae65.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000063.SZ",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_238605258c27e945.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000333.SZ",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_56507298136433bb.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000651.SZ",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_865fb12d8d8d500b.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000858.SZ",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_043f199b7b2a3e2b.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "002415.SZ",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_9d6c3e44282b2df5.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "002594.SZ",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_384dd99157dd81ae.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600000.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_4b0a41cf6a0bc20a.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600009.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_9005d718b08986c1.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600030.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_5575745fb9a52374.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600036.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_707cf7d8474b416a.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600104.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_191cf523acac6438.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600276.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_ea97c3f9814d5e34.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600309.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_6c7c5d437dd4efe1.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600519.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_159eba5cf0c9d1e7.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600887.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_e452c33112d638e5.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "601166.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_f81d02eceea493ca.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "601318.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_4d7e35fcdb046530.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "601398.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_a61e87966d0623e2.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "601857.SH",
+        "start_date": "20230101",
+        "end_date": "20231231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_270653a6d4f09352.csv",
+      "cache": false
+    },
+    {
+      "api": "daily",
+      "params": {
+        "ts_code": "000001.SZ,000063.SZ,000333.SZ,000651.SZ,000858.SZ,002415.SZ,002594.SZ,600000.SH,600009.SH,600030.SH,600036.SH,600104.SH,600276.SH,600309.SH,600519.SH,600887.SH,601166.SH,601318.SH,601398.SH,601857.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,open,high,low,close,vol,amount",
+      "rows": 4840,
+      "file": "raw/daily_1a6ac98d61b7382c.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000001.SZ",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_79f33046d7b10330.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000063.SZ",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_a3164fc091fc7f8e.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000333.SZ",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_16d03e626e5a003d.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000651.SZ",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_d0ed550dcc67094e.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000858.SZ",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_2cd73a19639dde98.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "002415.SZ",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_2ec092e538e5a8ce.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "002594.SZ",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_6bbed4a1ae27dded.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600000.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_47aa32f850c4983b.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600009.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_301b7cc5015ffb83.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600030.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_4fd7d3eb7d75d58d.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600036.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_cb535034439bf775.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600104.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_57601d07a6d592d4.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600276.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_8ef96b2fb8fd4384.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600309.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_351a893e5859883c.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600519.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_067e4aaa979c540a.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600887.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_7b32c26357bb64b0.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "601166.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_72cd18236cdd9b15.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "601318.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_e2a572e3c11150d4.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "601398.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_f1685545dca382cf.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "601857.SH",
+        "start_date": "20240101",
+        "end_date": "20241231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 242,
+      "file": "raw/adj_factor_44ada1437ec63be2.csv",
+      "cache": false
+    },
+    {
+      "api": "daily",
+      "params": {
+        "ts_code": "000001.SZ,000063.SZ,000333.SZ,000651.SZ,000858.SZ,002415.SZ,002594.SZ,600000.SH,600009.SH,600030.SH,600036.SH,600104.SH,600276.SH,600309.SH,600519.SH,600887.SH,601166.SH,601318.SH,601398.SH,601857.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,open,high,low,close,vol,amount",
+      "rows": 4860,
+      "file": "raw/daily_e4d717e2f31bab31.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000001.SZ",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_cd4252629f02eeae.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000063.SZ",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_701b40d6b59ff10b.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000333.SZ",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_557a085b45228562.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000651.SZ",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_00fa00864f8ca501.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "000858.SZ",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_6d46f0c7e9e6d943.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "002415.SZ",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_c58a0b84a943ce7d.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "002594.SZ",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_75aff2ea5d2446a0.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600000.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_392441c0918791c8.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600009.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_abc425ed0e6e6d75.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600030.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_f036d92301c9e5c0.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600036.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_cdccecf9a49d14e4.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600104.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_af49de16ad08248c.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600276.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_1649a91468f1426b.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600309.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_454b50aeba91b3d0.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600519.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_c03f94c1cfdf287c.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "600887.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_f83b0e6ffcfcefd2.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "601166.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_ae7f29c7a18a73a7.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "601318.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_10c77589cc59c936.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "601398.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_f7b26ff422c2fc04.csv",
+      "cache": false
+    },
+    {
+      "api": "adj_factor",
+      "params": {
+        "ts_code": "601857.SH",
+        "start_date": "20250101",
+        "end_date": "20251231"
+      },
+      "fields": "ts_code,trade_date,adj_factor",
+      "rows": 243,
+      "file": "raw/adj_factor_e5b48d28de5cc05b.csv",
+      "cache": false
+    }
+  ],
+  "sources": [
+    "https://tushare.pro/document/2?doc_id=27",
+    "https://tushare.pro/document/2?doc_id=28",
+    "https://tushare.pro/document/2?doc_id=26"
+  ],
+  "rows": 14540,
+  "assets": 20,
+  "sessions": 727,
+  "missing_grid_cells": 0,
+  "panel_sha256": "0534be292c5aecbeffd3f549b32c5a255bf8902e113cbb09a4e73ea8fefaf896",
+  "sessions_sha256": "bf8d2e0667263ac7ce177f92b4cb8779f2038c28772477a30e7db2cf90ae8f3c"
+}

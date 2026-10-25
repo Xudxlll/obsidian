@@ -1,0 +1,180 @@
+{
+  "label": "真实固定20股教学样本；非全A股因子有效性或可交易业绩证明",
+  "protocol": {
+    "purpose": "固定20只股票教学样本；事后人工选样，存在选择和幸存者偏差，不能代表历史A股股票池",
+    "start_date": "20230101",
+    "end_date": "20251231",
+    "assets": [
+      "000001.SZ",
+      "000063.SZ",
+      "000333.SZ",
+      "000651.SZ",
+      "000858.SZ",
+      "002415.SZ",
+      "002594.SZ",
+      "600000.SH",
+      "600009.SH",
+      "600030.SH",
+      "600036.SH",
+      "600104.SH",
+      "600276.SH",
+      "600309.SH",
+      "600519.SH",
+      "600887.SH",
+      "601166.SH",
+      "601318.SH",
+      "601398.SH",
+      "601857.SH"
+    ],
+    "factor": "-(adjusted_close / adjusted_close.shift(5) - 1)",
+    "label": "adjusted_open.shift(-6) / adjusted_open.shift(-1) - 1",
+    "train": [
+      "2023-01-01",
+      "2023-12-31"
+    ],
+    "validation": [
+      "2024-01-01",
+      "2024-12-31"
+    ],
+    "test": [
+      "2025-01-01",
+      "2025-12-31"
+    ],
+    "execution": "signal at close; next session open; idealized fills; no historical tradability engine",
+    "neutralization": "未获取历史行业与市值，真实小样本不做行业市值中性化",
+    "amount_unit": "CNY，daily.amount千元乘1000转换；不是复权金额",
+    "signal_direction": "预设反转：数值越大越看好；不得查看测试结果后改向",
+    "research_status": "教学试验；非有效Alpha认定、非可交易业绩、非实盘成果"
+  },
+  "quality": {
+    "observed_rows": 14540,
+    "expected_grid_rows": 14540,
+    "missing_grid_rows": 0,
+    "missing_open_cells": 0,
+    "missing_close_cells": 0,
+    "n_sessions": 727,
+    "n_assets": 20,
+    "already_adjusted": false,
+    "price_rule": "原价格乘 adj_factor"
+  },
+  "input_panel_sha256": "0534be292c5aecbeffd3f549b32c5a255bf8902e113cbb09a4e73ea8fefaf896",
+  "code_sha256": {
+    "lab.py": "46f8328121336fcfd2f6474fab9435e48d0571360f5d89af62ccc279f965e054",
+    "run_real_pilot.py": "17b2feca72a69d12a4ee467413fc124bcd35704f2bcf038f031795b6ac1179e1",
+    "download_tushare_pilot.py": "895a3c117cf883659db320c9c7aac71f358655ddf2e1da54272593c705aeba6d"
+  },
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3"
+  },
+  "splits": [
+    {
+      "split": "训练",
+      "start": "2023-01-01",
+      "end": "2023-12-31",
+      "n_dates": 231,
+      "mean_rank_ic": -0.029656897209095066,
+      "std_rank_ic": 0.2902098811824409,
+      "icir_unannualized": -0.10219120413219566,
+      "positive_fraction": 0.45454545454545453,
+      "nonoverlap_periods": 47,
+      "q5_net_final_nav": 0.9164474619288414,
+      "sample_net_final_nav": 0.9358372820275798
+    },
+    {
+      "split": "验证",
+      "start": "2024-01-01",
+      "end": "2024-12-31",
+      "n_dates": 236,
+      "mean_rank_ic": 0.014778969136032985,
+      "std_rank_ic": 0.3411605972728107,
+      "icir_unannualized": 0.043319683615792574,
+      "positive_fraction": 0.4745762711864407,
+      "nonoverlap_periods": 48,
+      "q5_net_final_nav": 1.3093839334896908,
+      "sample_net_final_nav": 1.3485857138955932
+    },
+    {
+      "split": "留出",
+      "start": "2025-01-01",
+      "end": "2025-12-31",
+      "n_dates": 237,
+      "mean_rank_ic": -0.021516444935899087,
+      "std_rank_ic": 0.2872191181384634,
+      "icir_unannualized": -0.07491299700156581,
+      "positive_fraction": 0.4430379746835443,
+      "nonoverlap_periods": 48,
+      "q5_net_final_nav": 0.9427242584435387,
+      "sample_net_final_nav": 1.1035220446901852
+    }
+  ],
+  "cost_stress": [
+    {
+      "single_side_fee": 0.0,
+      "q5_final_nav": 1.018726654941001,
+      "sample_final_nav": 1.1068524767161523
+    },
+    {
+      "single_side_fee": 0.0005,
+      "q5_final_nav": 0.9799859474226067,
+      "sample_final_nav": 1.105185994590216
+    },
+    {
+      "single_side_fee": 0.001,
+      "q5_final_nav": 0.9427242584435387,
+      "sample_final_nav": 1.1035220446901852
+    },
+    {
+      "single_side_fee": 0.002,
+      "q5_final_nav": 0.8724120466052905,
+      "sample_final_nav": 1.1002017236328163
+    }
+  ],
+  "decay": [
+    {
+      "horizon": 1,
+      "n_dates": 222,
+      "mean_rank_ic": 0.023843053717224155,
+      "std_rank_ic": 0.3159143166454564,
+      "icir_unannualized": 0.07547316617493686,
+      "positive_fraction": 0.5405405405405406
+    },
+    {
+      "horizon": 5,
+      "n_dates": 222,
+      "mean_rank_ic": -0.027833768909587314,
+      "std_rank_ic": 0.29152720051750164,
+      "icir_unannualized": -0.0954757184241418,
+      "positive_fraction": 0.42342342342342343
+    },
+    {
+      "horizon": 10,
+      "n_dates": 222,
+      "mean_rank_ic": -0.01496451532487995,
+      "std_rank_ic": 0.3157333162520426,
+      "icir_unannualized": -0.04739606039210042,
+      "positive_fraction": 0.46846846846846846
+    },
+    {
+      "horizon": 20,
+      "n_dates": 222,
+      "mean_rank_ic": -0.046131472080486846,
+      "std_rank_ic": 0.3121329335135983,
+      "icir_unannualized": -0.14779431174146543,
+      "positive_fraction": 0.4144144144144144
+    }
+  ],
+  "cost_rule": "单边10bps作用于买卖总成交额；漂移后权重；含首建末平；理想化同费率",
+  "split_rule": "各年份独立从现金开始并平仓；仅保留入场和出场均在该段内的样本；不是连续跨年实盘账本",
+  "limitations": [
+    "事后人工固定20股，选择与幸存者偏差",
+    "当前供应商历史数据视图，未验证历史修订快照",
+    "缺少历史行业/市值，未做真实中性化和Barra",
+    "开盘理想化成交，无涨跌停/停牌队列/手数/冲击/历史非对称税费",
+    "基准为样本等权而非市场指数，Q5-Q1仅统计诊断",
+    "H5逐日标签重叠，未做显著性推断",
+    "容量仅全日ADV粗略情景，不能代表开盘可成交容量",
+    "首次留出已在教学中展示，再调整将使其成为研究样本"
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "purpose": "固定20只股票教学样本；事后人工选样，存在选择和幸存者偏差，不能代表历史A股股票池",
+  "start_date": "20230101",
+  "end_date": "20251231",
+  "assets": [
+    "000001.SZ",
+    "000063.SZ",
+    "000333.SZ",
+    "000651.SZ",
+    "000858.SZ",
+    "002415.SZ",
+    "002594.SZ",
+    "600000.SH",
+    "600009.SH",
+    "600030.SH",
+    "600036.SH",
+    "600104.SH",
+    "600276.SH",
+    "600309.SH",
+    "600519.SH",
+    "600887.SH",
+    "601166.SH",
+    "601318.SH",
+    "601398.SH",
+    "601857.SH"
+  ],
+  "factor": "-(adjusted_close / adjusted_close.shift(5) - 1)",
+  "label": "adjusted_open.shift(-6) / adjusted_open.shift(-1) - 1",
+  "train": [
+    "2023-01-01",
+    "2023-12-31"
+  ],
+  "validation": [
+    "2024-01-01",
+    "2024-12-31"
+  ],
+  "test": [
+    "2025-01-01",
+    "2025-12-31"
+  ],
+  "execution": "signal at close; next session open; idealized fills; no historical tradability engine",
+  "neutralization": "未获取历史行业与市值，真实小样本不做行业市值中性化",
+  "amount_unit": "CNY，daily.amount千元乘1000转换；不是复权金额",
+  "signal_direction": "预设反转：数值越大越看好；不得查看测试结果后改向",
+  "research_status": "教学试验；非有效Alpha认定、非可交易业绩、非实盘成果"
+}

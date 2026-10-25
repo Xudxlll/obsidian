@@ -1,0 +1,74 @@
+{
+  "status": "固定20股教学研究；2025年已展示，不是完全未见的独立证据",
+  "sql_matches_lab": true,
+  "alpha": 10.0,
+  "objective": "sum((y-intercept-Z@coef)^2)+alpha*sum(coef^2)；不惩罚截距",
+  "features": [
+    "reversal_5d",
+    "lowvol_20d"
+  ],
+  "feature_rule": "反转5；20日收益负样本标准差ddof=1；缺值不填补",
+  "preprocessing": "仅2023训练期拟合均值与ddof=0标准差；2024/2025原样复用",
+  "label": "t收盘后信号，t+1至t+6调整开盘价收益；所有年度按sample_dates剔除跨界标签",
+  "split_rule": "按完整日期分段，禁止随机拆股票行；固定alpha不搜索、不用验证年重拟合",
+  "training_mean": {
+    "reversal_5d": 0.002691470077413181,
+    "lowvol_20d": -0.014771341954209758
+  },
+  "training_scale": {
+    "reversal_5d": 0.0352771452601178,
+    "lowvol_20d": 0.00618704156612493
+  },
+  "coef": {
+    "reversal_5d": 0.00042615281723835935,
+    "lowvol_20d": 0.0008938780479754078
+  },
+  "intercept": -0.0022188368703467114,
+  "quality": {
+    "observed_rows": 14540,
+    "expected_grid_rows": 14540,
+    "missing_grid_rows": 0,
+    "missing_open_cells": 0,
+    "missing_close_cells": 0,
+    "n_sessions": 727,
+    "n_assets": 20,
+    "already_adjusted": false,
+    "price_rule": "原价格乘 adj_factor"
+  },
+  "coverage_and_boundaries": [
+    {
+      "split": "训练",
+      "candidate_rows": 4720,
+      "complete_rows": 4320,
+      "missing_rows": 400,
+      "signal_dates": 216,
+      "last_signal_date": "2023-12-21",
+      "last_label_end_date": "2023-12-29"
+    },
+    {
+      "split": "验证",
+      "candidate_rows": 4720,
+      "complete_rows": 4720,
+      "missing_rows": 0,
+      "signal_dates": 236,
+      "last_signal_date": "2024-12-23",
+      "last_label_end_date": "2024-12-31"
+    },
+    {
+      "split": "研究留出（已展示）",
+      "candidate_rows": 4740,
+      "complete_rows": 4740,
+      "missing_rows": 0,
+      "signal_dates": 237,
+      "last_signal_date": "2025-12-23",
+      "last_label_end_date": "2025-12-31"
+    }
+  ],
+  "limitations": [
+    "事后固定20股，不能代表历史A股全市场",
+    "供应商当前历史视图仍可能修订",
+    "无中性化、无成本和可交易性引擎；这些IC不是策略收益",
+    "每日H5标签重叠；未做显著性和多重检验推断",
+    "未证明Ridge或等权合成有样本外增量"
+  ]
+}

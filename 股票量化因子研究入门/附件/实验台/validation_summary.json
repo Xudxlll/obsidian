@@ -1,0 +1,24 @@
+{
+  "validated_at": "2026-10-26T01:45:30.046196+08:00",
+  "primary_notes": 30,
+  "wiki_links": "全部目标存在",
+  "notebook_cells": 43,
+  "notebook_code_cells": 16,
+  "notebook_saved_png_outputs": 5,
+  "notebook_errors": 0,
+  "core_checks_passed": 16,
+  "real_data_rows": 14540,
+  "real_calendar_sessions": 727,
+  "real_code_hash_matches": true,
+  "python": "3.12.14",
+  "pandas": "2.2.3",
+  "numpy": "2.3.5",
+  "visual_checks": [
+    "Obsidian入口表格",
+    "第一课公式及折叠答案",
+    "模拟图表",
+    "真实3张图表"
+  ],
+  "visual_gap": "Notebook整页浏览器排版未预览；逐图已检查",
+  "scope": "教学研究；固定20股；无完整实盘撮合或Alpha有效性认定"
+}

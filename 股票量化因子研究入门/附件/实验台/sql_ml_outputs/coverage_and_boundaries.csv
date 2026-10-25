@@ -1,0 +1,4 @@
+split,candidate_rows,complete_rows,missing_rows,signal_dates,last_signal_date,last_label_end_date
+训练,4720,4320,400,216,2023-12-21,2023-12-29
+验证,4720,4720,0,236,2024-12-23,2024-12-31
+研究留出（已展示）,4740,4740,0,237,2025-12-23,2025-12-31
