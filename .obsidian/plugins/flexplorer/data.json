@@ -5759,6 +5759,7 @@
     "曲面观策项目学习与面试": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "00-项目知识地图.canvas",
         "00-开始学习.md",
@@ -5769,12 +5770,12 @@
         "05-证据与附件",
         "03-源码逐文件",
         "02-循序学习"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/02-循序学习": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "23 - 界面、真实案例与35品种验收.md",
         "22 - 可追溯、防未来与运行身份.md",
@@ -5793,12 +5794,12 @@
         "核心01-从一条期权报价到可分析的干净样本.md",
         "01-读懂项目所需的Python与表结构.md",
         "00-期权与IV从零开始.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/03-源码逐文件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "智能体与图谱",
         "提交材料",
@@ -5807,12 +5808,12 @@
         "脚本与交付",
         "曲面拟合",
         "核心链路"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/03-源码逐文件/核心链路": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "pyproject.toml.md",
         "backtest_report.sql.md",
@@ -5831,12 +5832,12 @@
         "quality.py.md",
         "io.py.md",
         "config.py.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/05-证据与附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "证据索引.md",
         "核查证据",
@@ -5846,20 +5847,19 @@
         "源码档案索引.md",
         "逐字源码",
         "原始交付文档"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/05-证据与附件/原始交付文档": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "问题2-知识图谱验收报告.html",
         "问题1-Agent离线验收报告.html",
         "曲面观策-精益画布.pptx",
         "曲面观策-OptionRiskAgent技术文档-final.docx",
         "曲面观策-OptionRiskAgent技术文档-final.pdf"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/05-证据与附件/原始交付文档/曲面观策-OptionRiskAgent技术文档-final.pdf": {
       "isPinned": false,
@@ -5876,16 +5876,17 @@
     "曲面观策项目学习与面试/03-源码逐文件/曲面拟合": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "test_total_variance_fit.py-契约、数值与异常路径的验证地图.md",
         "surface_fit_diagnostics.py-输入规范化、期限选择与可审计产物.md",
         "total_variance_fit.py-总方差公式、优化与本地检查.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/04-面试与验证": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "05-本轮验证记录.md",
         "00-真实AG案例完整拆解.md",
@@ -5894,8 +5895,7 @@
         "曲面拟合专项追问.md",
         "01-简历口径与证据边界.md",
         "02-历史指标逐项核算.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/03-源码逐文件/核心链路/config.py.md": {
       "isPinned": false,
@@ -5968,6 +5968,7 @@
     "曲面观策项目学习与面试/01-项目与数据": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "06-模块依赖与产物血缘.md",
         "05-最终提交85文件总目录.md",
@@ -5977,8 +5978,7 @@
         "02-原始数据定位与24列字典.md",
         "01-版本地图与提交完整性.md",
         "00-项目到底解决什么问题.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/01-项目与数据/00-项目到底解决什么问题.md": {
       "isPinned": false,
@@ -6003,6 +6003,7 @@
     "曲面观策项目学习与面试/01-项目与数据/数据分区目录": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "备份与系统文件目录.md",
         "zn-原始分区逐文件目录.md",
@@ -6041,8 +6042,7 @@
         "ag-原始分区逐文件目录.md",
         "00-35品种分区索引.md",
         "a-原始分区逐文件目录.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/01-项目与数据/数据分区目录/a-原始分区逐文件目录.md": {
       "isPinned": false,
@@ -6207,46 +6207,46 @@
     "曲面观策项目学习与面试/05-证据与附件/逐字源码": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "精益画布",
         "技术文档",
         "可运行的项目成果",
         "原创性声明"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/05-证据与附件/逐字源码/原创性声明": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "readme.txt.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "readme.txt.md",
         "option_risk_warning"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/05-证据与附件/逐字源码/技术文档": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "readme.txt.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/05-证据与附件/逐字源码/精益画布": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "readme.txt.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/05-证据与附件/逐字源码/原创性声明/readme.txt.md": {
       "isPinned": false,
@@ -6255,6 +6255,7 @@
     "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "隐藏文件-gitignore.md",
         "tests",
@@ -6264,8 +6265,7 @@
         "pyproject.toml.md",
         "docs",
         "README.md.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/readme.txt.md": {
       "isPinned": false,
@@ -6286,12 +6286,12 @@
     "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/docs": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "问题2-知识图谱设计与运行说明.md.md",
         "问题1-离线报告图表设计.md.md",
         "问题1-Agent图表设计.md.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/pyproject.toml.md": {
       "isPinned": false,
@@ -6300,15 +6300,16 @@
     "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/queries": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "backtest_report.sql.md",
         "acceptance_report.sql.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/scripts": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "validate_outputs.py.md",
         "validate_knowledge_graph.py.md",
@@ -6321,20 +6322,20 @@
         "build_knowledge_graph_notebook.py.md",
         "build_explanation_review.py.md",
         "build_acceptance_report.py.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "option_risk"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "test_validation.py.md",
         "test_total_variance_fit.py.md",
@@ -6348,8 +6349,7 @@
         "test_graph_acceptance.py.md",
         "test_agent_contracts.py.md",
         "graph_fixtures.py.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/docs/问题1-Agent图表设计.md.md": {
       "isPinned": false,
@@ -6418,6 +6418,7 @@
     "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/src/option_risk": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "visualization.py.md",
         "validation.py.md",
@@ -6451,8 +6452,7 @@
         "agent.py.md",
         "__main__.py.md",
         "__init__.py.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/05-证据与附件/逐字源码/可运行的项目成果/option_risk_warning/tests/graph_fixtures.py.md": {
       "isPinned": false,
@@ -6697,6 +6697,7 @@
     "曲面观策项目学习与面试/03-源码逐文件/脚本与交付": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "gitignore-版本控制忽略规则.md",
         "README.md.md",
@@ -6711,8 +6712,7 @@
         "build_knowledge_graph_notebook.py.md",
         "build_explanation_review.py.md",
         "build_acceptance_report.py.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/03-源码逐文件/脚本与交付/build_acceptance_report.py.md": {
       "isPinned": false,
@@ -6761,6 +6761,7 @@
     "曲面观策项目学习与面试/03-源码逐文件/测试": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "test_validation.py.md",
         "test_knowledge_schema.py.md",
@@ -6773,8 +6774,7 @@
         "test_graph_acceptance.py.md",
         "test_agent_contracts.py.md",
         "graph_fixtures.py.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/03-源码逐文件/测试/graph_fixtures.py.md": {
       "isPinned": false,
@@ -6823,6 +6823,7 @@
     "曲面观策项目学习与面试/03-源码逐文件/报告与证据": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "问题2-知识图谱验收报告.html.md",
         "问题1-Agent离线验收报告.html.md",
@@ -6833,8 +6834,7 @@
         "demo__run_summary.json.md",
         "demo__knowledge_graph_snapshot.json.md",
         "agent_acceptance_full.json.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/03-源码逐文件/报告与证据/agent_acceptance_full.json.md": {
       "isPinned": false,
@@ -6879,6 +6879,7 @@
     "曲面观策项目学习与面试/03-源码逐文件/提交材料": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "系统文件-根目录DS_Store.md",
         "精益画布__曲面观策-精益画布.pptx.md",
@@ -6892,8 +6893,7 @@
         "原创性声明__第五届中国研究生金融科技创新大赛参赛团队原创性声明.docx.md",
         "原创性声明__readme.txt.md",
         "~$届中国研究生金融科技创新大赛参赛团队原创性声明.docx.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/03-源码逐文件/提交材料/~$届中国研究生金融科技创新大赛参赛团队原创性声明.docx.md": {
       "isPinned": false,
@@ -6942,6 +6942,7 @@
     "曲面观策项目学习与面试/03-源码逐文件/智能体与图谱": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "文档 - 问题2-知识图谱设计与运行说明.md",
         "文档 - 问题1-离线报告图表设计.md",
@@ -6964,8 +6965,7 @@
         "__init__.py - 包公开了什么.md",
         "02_knowledge_graph_demo.ipynb - 真实白银事件的演示链.md",
         "00 - 智能体与图谱阅读导航.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/03-源码逐文件/智能体与图谱/00 - 智能体与图谱阅读导航.md": {
       "isPinned": false,
@@ -7090,11 +7090,11 @@
     "曲面观策项目学习与面试/05-证据与附件/真实案例图": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "AG真实案例-12项证据压力.png",
         "AG真实案例-五曲面.png"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/05-证据与附件/真实案例图/AG真实案例-五曲面.png": {
       "isPinned": false,
@@ -7147,6 +7147,7 @@
     "曲面观策项目学习与面试/05-证据与附件/核查证据": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "目标完成审计.json",
         "Obsidian显示核查.json",
@@ -7171,8 +7172,7 @@
         "surface_findings.json",
         "graph_findings.json",
         "core_findings.json"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "曲面观策项目学习与面试/05-证据与附件/核查证据/core_findings.json": {
       "isPinned": false,
@@ -7285,6 +7285,7 @@
     "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "06｜交接、能力边界与经历表述.md",
         "05｜公开来源与事实边界.md",
@@ -7323,8 +7324,7 @@
         "2024-12-18｜Day 03｜随团队到深圳进场，第一次做客户访谈纪要.md",
         "2024-12-17｜Day 02｜读懂客户业务，分清设备制造和电池组装.md",
         "2024-12-16｜Day 01｜到所报到，先弄清项目和自己的分工.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2024-12-16｜Day 01｜到所报到，先弄清项目和自己的分工.md": {
       "isPinned": false,
@@ -7477,6 +7477,7 @@
     "EI论文精读—企业数字化转型与ESG": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "11 原文逐页对照.md",
         "10 来源索引与阅读记录.md",
@@ -7491,8 +7492,7 @@
         "附件",
         "01 第一轮通读与研究地图.md",
         "00 阅读导航与核心结论.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "EI论文精读—企业数字化转型与ESG/00 阅读导航与核心结论.md": {
       "isPinned": false,
@@ -7505,12 +7505,12 @@
     "EI论文精读—企业数字化转型与ESG/附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "原文全文提取.txt",
         "原文逐页",
         "EI会议 独立一作.pdf"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "EI论文精读—企业数字化转型与ESG/附件/EI会议 独立一作.pdf": {
       "isPinned": false,
@@ -7519,6 +7519,7 @@
     "EI论文精读—企业数字化转型与ESG/附件/原文逐页": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "page-6.png",
         "page-5.png",
@@ -7526,8 +7527,7 @@
         "page-3.png",
         "page-2.png",
         "page-1.png"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "EI论文精读—企业数字化转型与ESG/附件/原文逐页/page-1.png": {
       "isPinned": false,
@@ -7600,6 +7600,7 @@
     "求职投递": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "附件",
         "2026 Q2 国内量化私募机构规模图谱.md",
@@ -7607,8 +7608,7 @@
         "还未投递.md",
         "秋招投递.md",
         "实习投递.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "求职投递/实习投递.md": {
       "isPinned": false,
@@ -7629,6 +7629,7 @@
     "SSCI论文精读—CEO金融背景与企业金融化": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "15 CEO论文原文逐页对照.md",
         "14 CEO论文来源索引与阅读记录.md",
@@ -7647,12 +7648,12 @@
         "01 CEO论文第一轮通读与研究地图.md",
         "00 CEO论文阅读导航与核心结论.md",
         "附件"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "SSCI论文精读—CEO金融背景与企业金融化/附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "教学计算核对记录.json",
         "投稿稿全文提取.txt",
@@ -7660,8 +7661,7 @@
         "正式发表信息—Crossref记录.json",
         "投稿稿逐页",
         "CEO金融背景与企业金融化—用户提供投稿稿.pdf"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "SSCI论文精读—CEO金融背景与企业金融化/附件/CEO金融背景与企业金融化—用户提供投稿稿.pdf": {
       "isPinned": false,
@@ -7670,6 +7670,7 @@
     "SSCI论文精读—CEO金融背景与企业金融化/附件/投稿稿逐页": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "page-20.png",
         "page-19.png",
@@ -7691,8 +7692,7 @@
         "page-03.png",
         "page-01.png",
         "page-02.png"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "SSCI论文精读—CEO金融背景与企业金融化/附件/投稿稿逐页/page-02.png": {
       "isPinned": false,
@@ -7857,6 +7857,7 @@
     "Python、数据分析与人工智能": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "00-学习总目录.md",
         "Python基础",
@@ -7865,12 +7866,12 @@
         "机器、深度学习额外笔记",
         "B站吕斌老师课程《机器学习因果推断》",
         "深度学习"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Python、数据分析与人工智能/B站吕斌老师课程《机器学习因果推断》": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "决策树原理与代码实战（分类树+回归树）.md",
         "随机森林代码实战：交叉验证对比、Bootstrap推导与回归树.md",
@@ -7884,8 +7885,7 @@
         "01-机器学习概论.md",
         "02-决策树原理与经济学应用.md",
         "00-课程索引.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Python、数据分析与人工智能/00-学习总目录.md": {
       "isPinned": false,
@@ -7894,6 +7894,7 @@
     "Python、数据分析与人工智能/Python基础": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "python-cheatsheet.pdf",
         "assets",
@@ -7913,23 +7914,23 @@
         "03-特殊类型与推导式.md",
         "02-Python容器类型.md",
         "01-变量与基本数据类型.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Python、数据分析与人工智能/SQL数据库": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "info",
         "PyMySQL.md",
         "img",
         "MySQL.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Python、数据分析与人工智能/数据分析与机器学习": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "img",
         "12-集成学习.md",
@@ -7944,12 +7945,12 @@
         "03-pandas.md",
         "02-Matplotlib.md",
         "01-Numpy.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Python、数据分析与人工智能/机器、深度学习额外笔记": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "残差网络 ResNet 的核心思想.md",
         "机器学习算法全景笔记.md",
@@ -7968,12 +7969,12 @@
         "DBSCAN 聚类算法介绍与实际应用示例.md",
         "3.1-3.2随机森林原理和实战代码.pdf",
         "2.1-2.2决策树原理和实战代码.pdf"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Python、数据分析与人工智能/深度学习": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "深度学习课堂笔记.md",
         "深度学习实验手册.md",
@@ -7992,8 +7993,7 @@
         "02_AID_DeepLearning_opencv1.pdf",
         "03_AID_DeepLearning_opencv2.pdf",
         "01_AID_Deeplearning_base-2026.pdf"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Python、数据分析与人工智能/B站吕斌老师课程《机器学习因果推断》/00-课程索引.md": {
       "isPinned": false,
@@ -8110,6 +8110,7 @@
     "Python、数据分析与人工智能/Python基础/assets": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "typewriter.jpg",
         "tuple-slice.png",
@@ -8191,8 +8192,7 @@
         "003.png",
         "002.png",
         "001.png"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Python、数据分析与人工智能/Python基础/python-cheatsheet.pdf": {
       "isPinned": false,
@@ -8205,6 +8205,7 @@
     "Python、数据分析与人工智能/SQL数据库/img": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "隔离.png",
         "逻辑.png",
@@ -8235,8 +8236,7 @@
         "databases.jpg",
         "data.jpeg",
         "buffer.jpg"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Python、数据分析与人工智能/SQL数据库/PyMySQL.md": {
       "isPinned": false,
@@ -8245,14 +8245,14 @@
     "Python、数据分析与人工智能/SQL数据库/info": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "studentsystem.py",
         "log.txt",
         "insert_data.py",
         "dict.txt",
         "data.sql"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Python、数据分析与人工智能/数据分析与机器学习/01-Numpy.md": {
       "isPinned": false,
@@ -8305,6 +8305,7 @@
     "Python、数据分析与人工智能/数据分析与机器学习/img": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "集成学习6.png",
         "集成学习5.png",
@@ -8429,8 +8430,7 @@
         "DBSCAN.png",
         "CART回归树原理.png",
         "9个子图.png"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Python、数据分析与人工智能/机器、深度学习额外笔记/2.1-2.2决策树原理和实战代码.pdf": {
       "isPinned": false,
@@ -8471,6 +8471,7 @@
     "Python、数据分析与人工智能/机器、深度学习额外笔记/assets": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "作业1",
         "dbscan-reachable-points.png",
@@ -8482,8 +8483,7 @@
         "dbscan-clusters-demo.png",
         "dbscan-cluster-comparison.png",
         "NumPy 数组的合并与分割"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Python、数据分析与人工智能/机器、深度学习额外笔记/作业1.md": {
       "isPinned": false,
@@ -8568,14 +8568,15 @@
     "Python、数据分析与人工智能/深度学习/assets": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "深度学习课堂笔记"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Python、数据分析与人工智能/深度学习/img": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "高斯滤波.png",
         "鞍点.png",
@@ -9137,8 +9138,7 @@
         "03_图像翻转.png",
         "02_彩色转灰度.png",
         "01_图像打开与显示.png"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Python、数据分析与人工智能/深度学习/深度学习实验手册.md": {
       "isPinned": false,
@@ -9207,10 +9207,10 @@
     "Python、数据分析与人工智能/Python基础/assets/05-生成器与迭代器和自定义函数基础": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "file-20260605155914095.png"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Python、数据分析与人工智能/Python基础/assets/05.png": {
       "isPinned": false,
@@ -9223,10 +9223,10 @@
     "Python、数据分析与人工智能/Python基础/assets/07-面向对象编程基础": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "file-20260610170505533.png"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Python、数据分析与人工智能/Python基础/assets/07.png": {
       "isPinned": false,
@@ -9263,10 +9263,10 @@
     "Python、数据分析与人工智能/Python基础/assets/15-浅拷贝与深拷贝": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "file-20260623004800323.png"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Python、数据分析与人工智能/Python基础/assets/15.png": {
       "isPinned": false,
@@ -10111,11 +10111,11 @@
     "Python、数据分析与人工智能/机器、深度学习额外笔记/assets/NumPy 数组的合并与分割": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "数组的轴1.png",
         "数组的轴2.png"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Python、数据分析与人工智能/机器、深度学习额外笔记/assets/dbscan-cluster-comparison.png": {
       "isPinned": false,
@@ -10152,14 +10152,15 @@
     "Python、数据分析与人工智能/机器、深度学习额外笔记/assets/作业1": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "file-20260622210501418.png"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Python、数据分析与人工智能/深度学习/assets/深度学习课堂笔记": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "file-20260709142608777.png",
         "file-20260709142552159.png",
@@ -10171,8 +10172,7 @@
         "file-20260709104744231.png",
         "file-20260708164012778.png",
         "file-20260708163928215.png"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "Python、数据分析与人工智能/深度学习/img/01_图像打开与显示.png": {
       "isPinned": false,
@@ -12481,6 +12481,7 @@
     "大模型全栈": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "byName",
       "customOrder": [
         "63-部署分层：Ollama、vLLM 与业务接口.md",
         "27-FAISS：Flat、HNSW、IVF 与 PQ.md",
@@ -12550,8 +12551,7 @@
         "16-Few-shot 与动态示例选择.md",
         "02-中文分词、正则与文本预处理.md",
         "06-Transformer：Embedding、注意力与归一化.md"
-      ],
-      "sortOrder": "byName"
+      ]
     },
     "大模型全栈/06-Transformer：Embedding、注意力与归一化.md": {
       "isPinned": false,
@@ -12632,6 +12632,7 @@
     "大模型全栈/资料": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "常用库总结（老师原文）.md",
         "原始课堂记录",
@@ -12641,8 +12642,7 @@
         "02-课堂内容映射.md",
         "01-课堂材料台账.md",
         "00-资料索引.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "大模型全栈/资料/00-资料索引.md": {
       "isPinned": false,
@@ -12667,6 +12667,7 @@
     "大模型全栈/资料/PDF": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "预训练时代.pdf",
         "知识图谱.pdf",
@@ -12685,18 +12686,17 @@
         "12.高阶Agent.pdf",
         "10.MultiAgent.pdf",
         "1.从调用API开始.pdf"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "大模型全栈/资料/原始课堂记录": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "大模型全栈（中）.md",
         "大模型全栈（下）.md",
         "大模型全栈（上）.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "大模型全栈/资料/常用库总结（老师原文）.md": {
       "isPinned": false,
@@ -12977,6 +12977,7 @@
     "金融 AI 应用实战": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "金融AI应用-学习地图.canvas",
         "00-从这里开始.md",
@@ -12987,32 +12988,32 @@
         "资料",
         "01-股票问答",
         "00-入门"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/00-入门": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "03-遇到术语时查这里.md",
         "02-读代码需要的最小Python知识.md",
         "01-把大模型放进金融工作流.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/01-股票问答": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "03-金融口径与误判.md",
         "02-代码逐段拆解.md",
         "01-业务与一轮手动演练.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/资料": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "00-资料与源码索引.md",
         "01-源码覆盖与材料边界.md",
@@ -13020,8 +13021,7 @@
         "PDF",
         "大型项目源码",
         "课堂代码"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/00-入门/01-把大模型放进金融工作流.md": {
       "isPinned": false,
@@ -13046,6 +13046,7 @@
     "金融 AI 应用实战/资料/课堂代码": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "案例3-CrewAI主程序原文-源码.md",
         "案例2-LangGraph研报原文-源码.md",
@@ -13055,8 +13056,7 @@
         "案例2-LangGraph研报原文.py",
         "案例1-SelfAsk原文.py",
         "CREW_tools.py"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/资料/课堂代码/CREW_tools.py": {
       "isPinned": false,
@@ -13077,12 +13077,12 @@
     "金融 AI 应用实战/02-研报工作流": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "03-逐节点读代码与故障演练.md",
         "02-三个金融工具与指标口径.md",
         "01-为什么需要计划与状态.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/02-研报工作流/01-为什么需要计划与状态.md": {
       "isPinned": false,
@@ -13099,12 +13099,12 @@
     "金融 AI 应用实战/03-多Agent投研": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "03-报告与质量验收.md",
         "02-工具与数据缺口.md",
         "01-四个岗位与任务交接.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/03-多Agent投研/01-四个岗位与任务交接.md": {
       "isPinned": false,
@@ -13121,6 +13121,7 @@
     "金融 AI 应用实战/04-大型项目": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "17-从看懂到能复述的练习路线.md",
         "16-怎样检验这个项目而不被漂亮报告误导.md",
@@ -13140,8 +13141,7 @@
         "02-主流水线与状态工作底稿.md",
         "01-真实架构与各层职责.md",
         "00-项目究竟做了什么.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/04-大型项目/00-项目究竟做了什么.md": {
       "isPinned": false,
@@ -13182,18 +13182,19 @@
     "金融 AI 应用实战/资料/大型项目源码": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "pyproject-源码.md",
         "pyproject.toml",
         "config",
         "docker",
         "app"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/资料/大型项目源码/app": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "main-源码.md",
         "main.py",
@@ -13201,12 +13202,12 @@
         "services",
         "engine",
         "llm"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/资料/大型项目源码/app/llm": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "runner-源码.md",
         "runner.py",
@@ -13217,43 +13218,43 @@
         "events-源码.md",
         "events.py",
         "core"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/资料/大型项目源码/app/engine": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "runtime.py",
         "runtime-源码.md",
         "orchestrator",
         "agents"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/资料/大型项目源码/app/llm/core": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "types.py",
         "types-源码.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/资料/大型项目源码/app/engine/agents": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "utils",
         "stage_4",
         "stage_3",
         "stage_2"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/资料/大型项目源码/app/engine/orchestrator": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "state.py",
         "state-源码.md",
@@ -13263,8 +13264,7 @@
         "invoker-源码.md",
         "agents.py",
         "agents-源码.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/资料/大型项目源码/app/engine/runtime-源码.md": {
       "isPinned": false,
@@ -13285,6 +13285,7 @@
     "金融 AI 应用实战/资料/大型项目源码/app/engine/agents/stage_2": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "trader.py",
         "trader-源码.md",
@@ -13292,37 +13293,36 @@
         "researcher_factory.py",
         "research_manager.py",
         "research_manager-源码.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/资料/大型项目源码/app/engine/agents/stage_3": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "risk_manager.py",
         "risk_manager-源码.md",
         "debator_factory.py",
         "debator_factory-源码.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/资料/大型项目源码/app/engine/agents/stage_4": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "summary_agent.py",
         "summary_agent-源码.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/资料/大型项目源码/app/engine/agents/utils": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "memory.py",
         "memory-源码.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/资料/大型项目源码/app/engine/orchestrator/agents-源码.md": {
       "isPinned": false,
@@ -13415,13 +13415,13 @@
     "金融 AI 应用实战/资料/大型项目源码/app/services": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "queue_service.py",
         "queue_service-源码.md",
         "analysis_service.py",
         "analysis_service-源码.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/资料/大型项目源码/app/services/analysis_service-源码.md": {
       "isPinned": false,
@@ -13454,21 +13454,21 @@
     "金融 AI 应用实战/资料/大型项目源码/app/data": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "core"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/资料/大型项目源码/app/data/core": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "reader.py",
         "reader-源码.md",
         "interface.py",
         "interface-源码.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/资料/大型项目源码/app/data/core/interface-源码.md": {
       "isPinned": false,
@@ -13533,12 +13533,12 @@
     "金融 AI 应用实战/资料/大型项目源码/docker": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "nginx",
         "Dockerfile.backend",
         "Dockerfile-源码.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/资料/大型项目源码/docker/Dockerfile-源码.md": {
       "isPinned": false,
@@ -13551,13 +13551,13 @@
     "金融 AI 应用实战/资料/大型项目源码/docker/nginx": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "reverse-proxy.conf",
         "reverse-proxy-源码.md",
         "frontend.conf",
         "frontend-源码.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/资料/大型项目源码/docker/nginx/frontend-源码.md": {
       "isPinned": false,
@@ -13598,13 +13598,13 @@
     "金融 AI 应用实战/05-金融拓展案例": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "04-审批、权限与审计.md",
         "03-MCP股票查询服务.md",
         "02-金融专题研究与写作团队.md",
         "01-股票技术指标助手.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/05-金融拓展案例/01-股票技术指标助手.md": {
       "isPinned": false,
@@ -13629,12 +13629,12 @@
     "金融 AI 应用实战/资料/PDF": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "8.Create_Agent.pdf",
         "12.高阶Agent.pdf",
         "10.MultiAgent.pdf"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/资料/PDF/10.MultiAgent.pdf": {
       "isPinned": false,
@@ -13655,14 +13655,15 @@
     "金融 AI 应用实战/资料/大型项目源码/config": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "agents"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/资料/大型项目源码/config/agents": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "phase3_agents_config.yaml",
         "phase3_agents_config-源码.md",
@@ -13670,8 +13671,7 @@
         "phase2_agents_config-源码.md",
         "phase1_agents_config.yaml",
         "phase1_agents_config-源码.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融 AI 应用实战/资料/大型项目源码/config/agents/phase1_agents_config-源码.md": {
       "isPinned": false,
@@ -13740,19 +13740,19 @@
     "求职投递/附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "2026Q2量化私募AUM图谱"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "求职投递/附件/2026Q2量化私募AUM图谱": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "2026Q2量化私募AUM图谱-高清核对版.jpg",
         "2026Q2量化私募AUM图谱-用户原图.jpg"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "求职投递/附件/2026Q2量化私募AUM图谱/2026Q2量化私募AUM图谱-用户原图.jpg": {
       "isPinned": false,
@@ -13769,12 +13769,12 @@
     "AMA515A Forecasting and Applied Time Series Analysis/Assignments": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "附件",
         "02 - Assignment 1 完整参考解答.md",
         "01 - Assignment 1 题目（英文原文与折叠译文）.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA515A Forecasting and Applied Time Series Analysis/Assignments/01 - Assignment 1 题目（英文原文与折叠译文）.md": {
       "isPinned": false,
@@ -13787,14 +13787,14 @@
     "AMA515A Forecasting and Applied Time Series Analysis/Assignments/附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "assignment1-p03.png",
         "assignment1-p02.png",
         "assignment1-p01.png",
         "Durbin Watson statistics table.pdf",
         "AMA515A Assignment 1.pdf"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA515A Forecasting and Applied Time Series Analysis/Assignments/附件/AMA515A Assignment 1.pdf": {
       "isPinned": false,
@@ -13819,14 +13819,14 @@
     "AMA515A Forecasting and Applied Time Series Analysis/Tutorials": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "Tutorial 4",
         "Tutorial 3",
         "Tutorial 2",
         "Tutorial 1",
         "00 - Tutorials 资料索引.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/00 - Tutorials 资料索引.md": {
       "isPinned": false,
@@ -13835,6 +13835,7 @@
     "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "02 - Tutorial 1 Answers（英文原文与折叠译文）.md",
         "附件",
@@ -13843,12 +13844,12 @@
         "03 - Ex 1 Q1（手写解答）.md",
         "01 - Tutorial 1 题目（英文原文与折叠译文）.md",
         "00 - Tutorial 1 资料索引.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "附件",
         "04 - Ex 2 Q2-Q4（手写解答）.md",
@@ -13856,31 +13857,30 @@
         "02 - Tutorial 2 Answers（英文原文与折叠译文）.md",
         "01 - Tutorial 2 题目（英文原文与折叠译文）.md",
         "00 - Tutorial 2 资料索引.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 3": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "附件",
         "03 - Tutorial 3 Solution（手写解答）.md",
         "02 - Tutorial 3 Answers（英文原文与折叠译文）.md",
         "01 - Tutorial 3 题目（英文原文与折叠译文）.md",
         "00 - Tutorial 3 资料索引.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 4": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "附件",
         "02 - Tutorial 4 Answers（英文原文与折叠译文）.md",
         "01 - Tutorial 4 题目（英文原文与折叠译文）.md",
         "00 - Tutorial 4 资料索引.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/00 - Tutorial 1 资料索引.md": {
       "isPinned": false,
@@ -13905,6 +13905,7 @@
     "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "tut1-questions-p03.png",
         "tut1-questions-p04.png",
@@ -13932,8 +13933,7 @@
         "Ex.1 Q.4,5,6.pdf",
         "Ex. 1 Question 1.pdf",
         "Ex 1 Q2 and Q3 solution.pdf"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/00 - Tutorial 2 资料索引.md": {
       "isPinned": false,
@@ -13962,6 +13962,7 @@
     "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2/附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "tut2-questions-p03.png",
         "tut2-questions-p01.png",
@@ -13985,8 +13986,7 @@
         "Tutorial 2 Answers.pdf",
         "Ex. 2 Q2 to Q4.pdf",
         "Ex 2 Q 1 Solutions.pdf"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 3/00 - Tutorial 3 资料索引.md": {
       "isPinned": false,
@@ -14007,6 +14007,7 @@
     "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 3/附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "tut3-solution-p04.png",
         "tut3-solution-p03.png",
@@ -14018,8 +14019,7 @@
         "Tutorial 3.pdf",
         "Tutorial 3 Solution.pdf",
         "Tutorial 3 Answers.pdf"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 4/00 - Tutorial 4 资料索引.md": {
       "isPinned": false,
@@ -14036,14 +14036,14 @@
     "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 4/附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "tut4-questions-p02.png",
         "tut4-questions-p01.png",
         "tut4-answers-p01.png",
         "Tutorial Exercise 4.pdf",
         "Tutorial 4 Answers .pdf"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1/附件/Ex 1 Q2 and Q3 solution.pdf": {
       "isPinned": false,
@@ -14300,6 +14300,7 @@
     "股票量化因子研究入门": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "因子研究学习路线.canvas",
         "29 实测记录 - 模拟与真实小样本.md",
@@ -14333,20 +14334,20 @@
         "12 因子检验 - IC与ICIR.md",
         "11 收益标签与交易时间轴.md",
         "附件"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "股票量化因子研究入门/附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "实验台"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "股票量化因子研究入门/附件/实验台": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "validation_summary.json",
         "sql_ml_outputs",
@@ -14363,8 +14364,7 @@
         "lab.py",
         "real_data",
         "download_tushare_pilot.py"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "股票量化因子研究入门/附件/实验台/download_tushare_pilot.py": {
       "isPinned": false,
@@ -14373,6 +14373,7 @@
     "股票量化因子研究入门/附件/实验台/real_data": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "manifest_history",
         "manifest.json",
@@ -14380,8 +14381,7 @@
         "sessions.csv",
         "raw",
         "pilot_protocol.json"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "股票量化因子研究入门/附件/实验台/real_data/pilot_protocol.json": {
       "isPinned": false,
@@ -14390,6 +14390,7 @@
     "股票量化因子研究入门/附件/实验台/real_data/raw": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "adj_factor_e5b48d28de5cc05b.metadata.json",
         "adj_factor_f7b26ff422c2fc04.metadata.json",
@@ -14519,8 +14520,7 @@
         "adj_factor_ee086d234d8fae65.csv",
         "daily_40097d04c55e6aa6.csv",
         "trade_cal_d4e6286db6cc9c11.csv"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "股票量化因子研究入门/附件/实验台/real_data/raw/trade_cal_d4e6286db6cc9c11.csv": {
       "isPinned": false,
@@ -14805,12 +14805,12 @@
     "股票量化因子研究入门/附件/实验台/__pycache__": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "sql_ml_bridge.cpython-312.pyc",
         "lab.cpython-312.pyc",
         "test_lab.cpython-312.pyc"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "股票量化因子研究入门/附件/实验台/__pycache__/test_lab.cpython-312.pyc": {
       "isPinned": false,
@@ -14839,11 +14839,11 @@
     "股票量化因子研究入门/附件/实验台/demo_data": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "synthetic_sessions.csv",
         "synthetic_panel.csv"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "股票量化因子研究入门/附件/实验台/demo_data/synthetic_panel.csv": {
       "isPinned": false,
@@ -14852,6 +14852,7 @@
     "股票量化因子研究入门/附件/实验台/demo_outputs": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "04_group_returns.png",
         "03_ic_decay.png",
@@ -14867,8 +14868,7 @@
         "ic_decay_common_dates.csv",
         "ic_summary.csv",
         "daily_ic_by_split.csv"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "股票量化因子研究入门/附件/实验台/demo_data/synthetic_sessions.csv": {
       "isPinned": false,
@@ -15037,6 +15037,7 @@
     "股票量化因子研究入门/附件/实验台/real_outputs": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "03_real_groups.png",
         "02_real_ic.png",
@@ -15050,8 +15051,7 @@
         "portfolio_periods.csv",
         "daily_rank_ic.csv",
         "ic_and_portfolio_summary.csv"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "股票量化因子研究入门/24 毕业项目 - 独立完成一份因子研究.md": {
       "isPinned": false,
@@ -15112,10 +15112,10 @@
     "股票量化因子研究入门/附件/实验台/real_data/manifest_history": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "2026-10-26T01-39-36.301349+08-00.json"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "股票量化因子研究入门/附件/实验台/real_data/manifest_history/2026-10-26T01-39-36.301349+08-00.json": {
       "isPinned": false,
@@ -15388,14 +15388,14 @@
     "股票量化因子研究入门/附件/实验台/sql_ml_outputs": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "run_summary.json",
         "coverage_and_boundaries.csv",
         "diagnostics.csv",
         "daily_ic.csv",
         "predictions.csv"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "股票量化因子研究入门/附件/实验台/sql_ml_outputs/predictions.csv": {
       "isPinned": false,
@@ -15432,6 +15432,7 @@
     "AMA573 A股因子与机器学习课程项目": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "AMA573项目08 小组分工答辩与诚实边界.md",
         "AMA573项目07 从本地数据到完整复现.md",
@@ -15443,12 +15444,12 @@
         "AMA573项目01 从选题到可检验问题.md",
         "AMA573项目00 从这里开始 - 项目学习地图.md",
         "附件"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA573 A股因子与机器学习课程项目/附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "06_feature_correlation.png",
         "05_stress.png",
@@ -15456,8 +15457,7 @@
         "03_groups.png",
         "02_signal_ic.png",
         "01_test_nav.png"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA573 A股因子与机器学习课程项目/附件/01_test_nav.png": {
       "isPinned": false,
