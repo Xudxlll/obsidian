@@ -3306,6 +3306,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "附件",
+        "国泰海通 · 宏观聚焦｜中期选举前瞻：政府分治、利率下美元上.md",
         "SpaceX上市背后的资本游戏：估值、融资与控制权.md"
       ]
     },
@@ -15547,6 +15549,85 @@
       "sortOrder": "custom"
     },
     "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/附件/Day09_固定资产折旧重算教学.xlsx": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "金融知识/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "中期选举前瞻"
+      ],
+      "sortOrder": "custom"
+    },
+    "金融知识/附件/中期选举前瞻": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "原文图片-12.png",
+        "原文图片-10.png",
+        "原文图片-09.png",
+        "原文图片-11.png",
+        "原文图片-07.png",
+        "原文图片-06.png",
+        "原文图片-08.png",
+        "原文图片-04.png",
+        "原文图片-05.png",
+        "原文图片-02.png",
+        "原文图片-01.jpg",
+        "原文图片-03.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "金融知识/附件/中期选举前瞻/原文图片-03.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "金融知识/附件/中期选举前瞻/原文图片-01.jpg": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "金融知识/附件/中期选举前瞻/原文图片-02.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "金融知识/附件/中期选举前瞻/原文图片-05.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "金融知识/附件/中期选举前瞻/原文图片-04.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "金融知识/附件/中期选举前瞻/原文图片-08.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "金融知识/附件/中期选举前瞻/原文图片-06.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "金融知识/附件/中期选举前瞻/原文图片-07.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "金融知识/附件/中期选举前瞻/原文图片-11.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "金融知识/附件/中期选举前瞻/原文图片-09.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "金融知识/附件/中期选举前瞻/原文图片-10.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "金融知识/附件/中期选举前瞻/原文图片-12.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "金融知识/国泰海通 · 宏观聚焦｜中期选举前瞻：政府分治、利率下美元上.md": {
       "isPinned": false,
       "isHidden": false
     }

@@ -1,0 +1,28 @@
+{
+  "id": "conv-1793031268376-541wss1o3",
+  "providerId": "codex",
+  "title": "整理公众号文章结构以提升可读性",
+  "titleGenerationStatus": "success",
+  "createdAt": 1793031268380,
+  "updatedAt": 1793036393909,
+  "lastResponseAt": 1793036393909,
+  "sessionId": "01a178fd-e8ed-7b62-81a8-7a6c9001eb3c",
+  "selectedModel": "gpt-6.1-sol",
+  "providerState": {
+    "threadId": "01a178fd-e8ed-7b62-81a8-7a6c9001eb3c",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/10/27/rollout-2026-10-27T00-14-33-01a178fd-e8ed-7b62-81a8-7a6c9001eb3c.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "金融知识/国泰海通 · 宏观聚焦｜中期选举前瞻：政府分治、利率下美元上.md",
+  "usage": {
+    "inputTokens": 184610,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 175872,
+    "contextWindow": 475000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 184610,
+    "percentage": 39,
+    "model": "gpt-6.1-sol"
+  }
+}

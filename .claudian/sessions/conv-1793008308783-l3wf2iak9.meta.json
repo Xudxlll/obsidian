@@ -4,8 +4,8 @@
   "title": "Explain working papers (底稿) concept",
   "titleGenerationStatus": "success",
   "createdAt": 1793008308790,
-  "updatedAt": 1793024288483,
-  "lastResponseAt": 1793024288483,
+  "updatedAt": 1793033597267,
+  "lastResponseAt": 1793033597267,
   "sessionId": "01a1779f-92b1-7fc0-9108-03381707e11f",
   "selectedModel": "gpt-6.1-sol",
   "providerState": {
@@ -16,13 +16,13 @@
   },
   "currentNote": "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2024-12-16｜Day 01｜到所报到，先弄清项目和自己的分工.md",
   "usage": {
-    "inputTokens": 113920,
+    "inputTokens": 221810,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 105600,
+    "cacheReadInputTokens": 221440,
     "contextWindow": 475000,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 113920,
-    "percentage": 24,
+    "contextTokens": 221810,
+    "percentage": 47,
     "model": "gpt-6.1-sol"
   }
 }
