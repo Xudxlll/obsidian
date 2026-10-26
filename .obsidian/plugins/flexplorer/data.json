@@ -7288,6 +7288,8 @@
       "isHidden": false,
       "sortOrder": "byName",
       "customOrder": [
+        "附件",
+        "Day 09配套｜Excel折旧重算操作讲解.md",
         "06｜交接、能力边界与经历表述.md",
         "05｜公开来源与事实边界.md",
         "04｜Excel函数与折旧摊销示例.md",
@@ -15529,6 +15531,22 @@
       "sortOrder": "custom"
     },
     "面试准备/01｜会计知识面试问答.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/Day 09配套｜Excel折旧重算操作讲解.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "Day09_固定资产折旧重算教学.xlsx"
+      ],
+      "sortOrder": "custom"
+    },
+    "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/附件/Day09_固定资产折旧重算教学.xlsx": {
       "isPinned": false,
       "isHidden": false
     }

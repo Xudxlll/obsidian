@@ -1,0 +1,28 @@
+{
+  "id": "conv-1793008308783-l3wf2iak9",
+  "providerId": "codex",
+  "title": "Explain working papers (底稿) concept",
+  "titleGenerationStatus": "success",
+  "createdAt": 1793008308790,
+  "updatedAt": 1793024288483,
+  "lastResponseAt": 1793024288483,
+  "sessionId": "01a1779f-92b1-7fc0-9108-03381707e11f",
+  "selectedModel": "gpt-6.1-sol",
+  "providerState": {
+    "threadId": "01a1779f-92b1-7fc0-9108-03381707e11f",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/10/26/rollout-2026-10-26T17-51-52-01a1779f-92b1-7fc0-9108-03381707e11f.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/2024-12-16｜Day 01｜到所报到，先弄清项目和自己的分工.md",
+  "usage": {
+    "inputTokens": 113920,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 105600,
+    "contextWindow": 475000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 113920,
+    "percentage": 24,
+    "model": "gpt-6.1-sol"
+  }
+}
