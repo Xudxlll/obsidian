@@ -15439,6 +15439,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "2026-10-27 亏损诊断与改进",
         "AMA573项目08 小组分工答辩与诚实边界.md",
         "AMA573项目07 从本地数据到完整复现.md",
         "AMA573项目06 成本停牌退市与残仓.md",
@@ -15628,6 +15629,96 @@
       "isHidden": false
     },
     "金融知识/国泰海通 · 宏观聚焦｜中期选举前瞻：政府分治、利率下美元上.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/2026-10-27 亏损诊断与改进": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "AMA573复盘05 股票池刷新为何转正.md",
+        "附件",
+        "AMA573复盘04 复现与下一轮证据.md",
+        "AMA573复盘03 月度更新与全部实验.md",
+        "AMA573复盘02 换手与成本到底算了什么.md",
+        "AMA573复盘01 正IC为什么仍亏钱.md",
+        "AMA573复盘00 从这里开始.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA573 A股因子与机器学习课程项目/2026-10-27 亏损诊断与改进/AMA573复盘00 从这里开始.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/2026-10-27 亏损诊断与改进/AMA573复盘01 正IC为什么仍亏钱.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/2026-10-27 亏损诊断与改进/AMA573复盘02 换手与成本到底算了什么.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/2026-10-27 亏损诊断与改进/AMA573复盘03 月度更新与全部实验.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/2026-10-27 亏损诊断与改进/AMA573复盘04 复现与下一轮证据.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/2026-10-27 亏损诊断与改进/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "09_refresh_pool.png",
+        "08_stress.png",
+        "07_ic_absolute.png",
+        "06_market_cohort.png",
+        "05_dynamic_weights.png",
+        "02_candidates_2026.png",
+        "04_year_matrix.png",
+        "03_nav_costs.png",
+        "01_fee_drag.png"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA573 A股因子与机器学习课程项目/2026-10-27 亏损诊断与改进/附件/01_fee_drag.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/2026-10-27 亏损诊断与改进/附件/03_nav_costs.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/2026-10-27 亏损诊断与改进/附件/04_year_matrix.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/2026-10-27 亏损诊断与改进/附件/02_candidates_2026.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/2026-10-27 亏损诊断与改进/附件/05_dynamic_weights.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/2026-10-27 亏损诊断与改进/附件/06_market_cohort.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/2026-10-27 亏损诊断与改进/附件/07_ic_absolute.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/2026-10-27 亏损诊断与改进/附件/08_stress.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/2026-10-27 亏损诊断与改进/AMA573复盘05 股票池刷新为何转正.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA573 A股因子与机器学习课程项目/2026-10-27 亏损诊断与改进/附件/09_refresh_pool.png": {
       "isPinned": false,
       "isHidden": false
     }
