@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "面试准备",
         "AMA573 A股因子与机器学习课程项目",
         "股票量化因子研究入门",
         "求职投递",
@@ -7285,7 +7286,7 @@
     "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）": {
       "isPinned": false,
       "isHidden": false,
-      "sortOrder": "custom",
+      "sortOrder": "byName",
       "customOrder": [
         "06｜交接、能力边界与经历表述.md",
         "05｜公开来源与事实边界.md",
@@ -15516,6 +15517,18 @@
       "isHidden": false
     },
     "AMA573 A股因子与机器学习课程项目/AMA573项目08 小组分工答辩与诚实边界.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "面试准备": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "01｜会计知识面试问答.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "面试准备/01｜会计知识面试问答.md": {
       "isPinned": false,
       "isHidden": false
     }
