@@ -7482,7 +7482,7 @@
     "EI论文精读—企业数字化转型与ESG": {
       "isPinned": false,
       "isHidden": false,
-      "sortOrder": "custom",
+      "sortOrder": "byName",
       "customOrder": [
         "11 原文逐页对照.md",
         "10 来源索引与阅读记录.md",
@@ -14306,7 +14306,7 @@
     "股票量化因子研究入门": {
       "isPinned": false,
       "isHidden": false,
-      "sortOrder": "custom",
+      "sortOrder": "byName",
       "customOrder": [
         "因子研究学习路线.canvas",
         "29 实测记录 - 模拟与真实小样本.md",
@@ -15530,6 +15530,7 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "03｜审计实习经历类面试问答.md",
         "02｜审计实习面试问答与连续追问.md",
         "01｜会计知识面试问答.md"
       ],
@@ -15729,6 +15730,10 @@
       "isHidden": false
     },
     "求职投递/金融岗位排名.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "面试准备/03｜审计实习经历类面试问答.md": {
       "isPinned": false,
       "isHidden": false
     }
