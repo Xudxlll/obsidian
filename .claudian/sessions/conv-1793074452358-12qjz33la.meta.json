@@ -1,0 +1,28 @@
+{
+  "id": "conv-1793074452358-12qjz33la",
+  "providerId": "codex",
+  "title": "Explain job descriptions at each level",
+  "titleGenerationStatus": "success",
+  "createdAt": 1793074452363,
+  "updatedAt": 1793074812286,
+  "lastResponseAt": 1793074812286,
+  "sessionId": "01a17b90-d809-7022-b9cd-6efcbaecce1d",
+  "selectedModel": "gpt-6.1-sol",
+  "providerState": {
+    "threadId": "01a17b90-d809-7022-b9cd-6efcbaecce1d",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/10/27/rollout-2026-10-27T12-14-12-01a17b90-d809-7022-b9cd-6efcbaecce1d.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "求职投递/金融岗位排名.md",
+  "usage": {
+    "inputTokens": 55441,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 51456,
+    "contextWindow": 475000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 55441,
+    "percentage": 12,
+    "model": "gpt-6.1-sol"
+  }
+}

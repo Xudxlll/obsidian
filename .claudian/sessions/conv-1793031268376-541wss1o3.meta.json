@@ -4,8 +4,8 @@
   "title": "整理公众号文章结构以提升可读性",
   "titleGenerationStatus": "success",
   "createdAt": 1793031268380,
-  "updatedAt": 1793036393909,
-  "lastResponseAt": 1793036393909,
+  "updatedAt": 1793077759068,
+  "lastResponseAt": 1793077759068,
   "sessionId": "01a178fd-e8ed-7b62-81a8-7a6c9001eb3c",
   "selectedModel": "gpt-6.1-sol",
   "providerState": {
@@ -16,13 +16,13 @@
   },
   "currentNote": "金融知识/国泰海通 · 宏观聚焦｜中期选举前瞻：政府分治、利率下美元上.md",
   "usage": {
-    "inputTokens": 184610,
+    "inputTokens": 219001,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 175872,
+    "cacheReadInputTokens": 210560,
     "contextWindow": 475000,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 184610,
-    "percentage": 39,
+    "contextTokens": 219001,
+    "percentage": 46,
     "model": "gpt-6.1-sol"
   }
 }

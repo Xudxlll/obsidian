@@ -7608,6 +7608,7 @@
       "sortOrder": "custom",
       "customOrder": [
         "附件",
+        "金融岗位排名.md",
         "2026 Q2 国内量化私募机构规模图谱.md",
         "简历.md",
         "还未投递.md",
@@ -15529,6 +15530,7 @@
       "isPinned": false,
       "isHidden": false,
       "customOrder": [
+        "02｜审计实习面试问答与连续追问.md",
         "01｜会计知识面试问答.md"
       ],
       "sortOrder": "custom"
@@ -15719,6 +15721,14 @@
       "isHidden": false
     },
     "AMA573 A股因子与机器学习课程项目/2026-10-27 亏损诊断与改进/附件/09_refresh_pool.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "面试准备/02｜审计实习面试问答与连续追问.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "求职投递/金融岗位排名.md": {
       "isPinned": false,
       "isHidden": false
     }
