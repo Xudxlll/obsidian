@@ -7484,28 +7484,10 @@
       "isHidden": false,
       "sortOrder": "byName",
       "customOrder": [
-        "11 原文逐页对照.md",
-        "10 来源索引与阅读记录.md",
-        "09 复述提纲与自测题.md",
-        "08 复现路线与改进方案.md",
-        "07 我当年做了什么—工作还原与待确认清单.md",
-        "06 第三轮批判性审查与结论校准.md",
-        "05 八张表的逐表复核.md",
-        "04 模型公式与方法推导.md",
-        "03 数据样本与变量字典.md",
-        "02 第二轮逐节精读.md",
-        "附件",
-        "01 第一轮通读与研究地图.md",
-        "00 阅读导航与核心结论.md"
+        "企业数字化转型与ESG｜全文中文翻译与逐节讲解.md",
+        "旧版笔记（已归档）",
+        "附件"
       ]
-    },
-    "EI论文精读—企业数字化转型与ESG/00 阅读导航与核心结论.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "EI论文精读—企业数字化转型与ESG/01 第一轮通读与研究地图.md": {
-      "isPinned": false,
-      "isHidden": false
     },
     "EI论文精读—企业数字化转型与ESG/附件": {
       "isPinned": false,
@@ -7558,46 +7540,6 @@
       "isPinned": false,
       "isHidden": false
     },
-    "EI论文精读—企业数字化转型与ESG/02 第二轮逐节精读.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "EI论文精读—企业数字化转型与ESG/03 数据样本与变量字典.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "EI论文精读—企业数字化转型与ESG/04 模型公式与方法推导.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "EI论文精读—企业数字化转型与ESG/05 八张表的逐表复核.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "EI论文精读—企业数字化转型与ESG/06 第三轮批判性审查与结论校准.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "EI论文精读—企业数字化转型与ESG/07 我当年做了什么—工作还原与待确认清单.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "EI论文精读—企业数字化转型与ESG/08 复现路线与改进方案.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "EI论文精读—企业数字化转型与ESG/09 复述提纲与自测题.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "EI论文精读—企业数字化转型与ESG/10 来源索引与阅读记录.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "EI论文精读—企业数字化转型与ESG/11 原文逐页对照.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "EI论文精读—企业数字化转型与ESG/附件/原文全文提取.txt": {
       "isPinned": false,
       "isHidden": false
@@ -7637,22 +7579,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
-        "15 CEO论文原文逐页对照.md",
-        "14 CEO论文来源索引与阅读记录.md",
-        "13 CEO论文复述提纲与自测题.md",
-        "12 CEO论文复现路线与改进方案.md",
-        "11 CEO论文第二作者工作还原.md",
-        "10 CEO论文批判性审查与版本对照.md",
-        "09 CEO论文异质性与结论精读.md",
-        "08 CEO论文七组表格完整复核.md",
-        "07 CEO论文中介机制逐步推导.md",
-        "06 CEO论文稳健性检验精读.md",
-        "05 CEO论文固定效应与系数推导.md",
-        "04 CEO论文数据处理与描述统计.md",
-        "03 CEO论文研究设计与变量字典.md",
-        "02 CEO论文摘要引言与假设精读.md",
-        "01 CEO论文第一轮通读与研究地图.md",
-        "00 CEO论文阅读导航与核心结论.md",
+        "CEO金融背景与企业金融化｜全文中文翻译与逐节讲解.md",
+        "旧版笔记（已归档）",
         "附件"
       ]
     },
@@ -7780,75 +7708,11 @@
       "isPinned": false,
       "isHidden": false
     },
-    "SSCI论文精读—CEO金融背景与企业金融化/00 CEO论文阅读导航与核心结论.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "SSCI论文精读—CEO金融背景与企业金融化/01 CEO论文第一轮通读与研究地图.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "SSCI论文精读—CEO金融背景与企业金融化/附件/正式发表信息—Crossref记录.json": {
       "isPinned": false,
       "isHidden": false
     },
-    "SSCI论文精读—CEO金融背景与企业金融化/02 CEO论文摘要引言与假设精读.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "SSCI论文精读—CEO金融背景与企业金融化/03 CEO论文研究设计与变量字典.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "SSCI论文精读—CEO金融背景与企业金融化/04 CEO论文数据处理与描述统计.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "SSCI论文精读—CEO金融背景与企业金融化/05 CEO论文固定效应与系数推导.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "SSCI论文精读—CEO金融背景与企业金融化/06 CEO论文稳健性检验精读.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "SSCI论文精读—CEO金融背景与企业金融化/07 CEO论文中介机制逐步推导.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
     "SSCI论文精读—CEO金融背景与企业金融化/附件/投稿稿回归表转录.json": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "SSCI论文精读—CEO金融背景与企业金融化/08 CEO论文七组表格完整复核.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "SSCI论文精读—CEO金融背景与企业金融化/09 CEO论文异质性与结论精读.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "SSCI论文精读—CEO金融背景与企业金融化/10 CEO论文批判性审查与版本对照.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "SSCI论文精读—CEO金融背景与企业金融化/11 CEO论文第二作者工作还原.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "SSCI论文精读—CEO金融背景与企业金融化/12 CEO论文复现路线与改进方案.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "SSCI论文精读—CEO金融背景与企业金融化/13 CEO论文复述提纲与自测题.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "SSCI论文精读—CEO金融背景与企业金融化/14 CEO论文来源索引与阅读记录.md": {
-      "isPinned": false,
-      "isHidden": false
-    },
-    "SSCI论文精读—CEO金融背景与企业金融化/15 CEO论文原文逐页对照.md": {
       "isPinned": false,
       "isHidden": false
     },
@@ -15734,6 +15598,168 @@
       "isHidden": false
     },
     "面试准备/03｜审计实习经历类面试问答.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/旧版笔记（已归档）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "10 来源索引与阅读记录.md",
+        "11 原文逐页对照.md",
+        "09 复述提纲与自测题.md",
+        "08 复现路线与改进方案.md",
+        "07 我当年做了什么—工作还原与待确认清单.md",
+        "06 第三轮批判性审查与结论校准.md",
+        "05 八张表的逐表复核.md",
+        "04 模型公式与方法推导.md",
+        "03 数据样本与变量字典.md",
+        "02 第二轮逐节精读.md",
+        "01 第一轮通读与研究地图.md",
+        "00 阅读导航与核心结论.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "EI论文精读—企业数字化转型与ESG/旧版笔记（已归档）/00 阅读导航与核心结论.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/旧版笔记（已归档）/01 第一轮通读与研究地图.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/旧版笔记（已归档）/02 第二轮逐节精读.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/旧版笔记（已归档）/03 数据样本与变量字典.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/旧版笔记（已归档）/04 模型公式与方法推导.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/旧版笔记（已归档）/05 八张表的逐表复核.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/旧版笔记（已归档）/06 第三轮批判性审查与结论校准.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/旧版笔记（已归档）/07 我当年做了什么—工作还原与待确认清单.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/旧版笔记（已归档）/08 复现路线与改进方案.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/旧版笔记（已归档）/09 复述提纲与自测题.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/旧版笔记（已归档）/11 原文逐页对照.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/旧版笔记（已归档）/10 来源索引与阅读记录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "EI论文精读—企业数字化转型与ESG/企业数字化转型与ESG｜全文中文翻译与逐节讲解.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SSCI论文精读—CEO金融背景与企业金融化/旧版笔记（已归档）": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "15 CEO论文原文逐页对照.md",
+        "14 CEO论文来源索引与阅读记录.md",
+        "13 CEO论文复述提纲与自测题.md",
+        "12 CEO论文复现路线与改进方案.md",
+        "11 CEO论文第二作者工作还原.md",
+        "10 CEO论文批判性审查与版本对照.md",
+        "09 CEO论文异质性与结论精读.md",
+        "08 CEO论文七组表格完整复核.md",
+        "07 CEO论文中介机制逐步推导.md",
+        "06 CEO论文稳健性检验精读.md",
+        "05 CEO论文固定效应与系数推导.md",
+        "04 CEO论文数据处理与描述统计.md",
+        "03 CEO论文研究设计与变量字典.md",
+        "02 CEO论文摘要引言与假设精读.md",
+        "01 CEO论文第一轮通读与研究地图.md",
+        "00 CEO论文阅读导航与核心结论.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "SSCI论文精读—CEO金融背景与企业金融化/旧版笔记（已归档）/00 CEO论文阅读导航与核心结论.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SSCI论文精读—CEO金融背景与企业金融化/旧版笔记（已归档）/01 CEO论文第一轮通读与研究地图.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SSCI论文精读—CEO金融背景与企业金融化/旧版笔记（已归档）/02 CEO论文摘要引言与假设精读.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SSCI论文精读—CEO金融背景与企业金融化/旧版笔记（已归档）/03 CEO论文研究设计与变量字典.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SSCI论文精读—CEO金融背景与企业金融化/旧版笔记（已归档）/04 CEO论文数据处理与描述统计.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SSCI论文精读—CEO金融背景与企业金融化/旧版笔记（已归档）/05 CEO论文固定效应与系数推导.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SSCI论文精读—CEO金融背景与企业金融化/旧版笔记（已归档）/06 CEO论文稳健性检验精读.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SSCI论文精读—CEO金融背景与企业金融化/旧版笔记（已归档）/07 CEO论文中介机制逐步推导.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SSCI论文精读—CEO金融背景与企业金融化/旧版笔记（已归档）/08 CEO论文七组表格完整复核.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SSCI论文精读—CEO金融背景与企业金融化/旧版笔记（已归档）/09 CEO论文异质性与结论精读.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SSCI论文精读—CEO金融背景与企业金融化/旧版笔记（已归档）/10 CEO论文批判性审查与版本对照.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SSCI论文精读—CEO金融背景与企业金融化/旧版笔记（已归档）/11 CEO论文第二作者工作还原.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SSCI论文精读—CEO金融背景与企业金融化/旧版笔记（已归档）/12 CEO论文复现路线与改进方案.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SSCI论文精读—CEO金融背景与企业金融化/旧版笔记（已归档）/13 CEO论文复述提纲与自测题.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SSCI论文精读—CEO金融背景与企业金融化/旧版笔记（已归档）/14 CEO论文来源索引与阅读记录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SSCI论文精读—CEO金融背景与企业金融化/旧版笔记（已归档）/15 CEO论文原文逐页对照.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "SSCI论文精读—CEO金融背景与企业金融化/CEO金融背景与企业金融化｜全文中文翻译与逐节讲解.md": {
       "isPinned": false,
       "isHidden": false
     }
