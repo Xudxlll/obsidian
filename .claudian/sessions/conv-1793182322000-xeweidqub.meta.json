@@ -1,0 +1,25 @@
+{
+  "id": "conv-1793182322000-xeweidqub",
+  "providerId": "claude",
+  "title": "Explain meaning of unclear content",
+  "titleGenerationStatus": "success",
+  "createdAt": 1793182322004,
+  "updatedAt": 1793182496285,
+  "lastResponseAt": 1793182496285,
+  "sessionId": "3dc602eb-7bfb-4405-9b1b-49cca475e0cb",
+  "selectedModel": "opus",
+  "providerState": {
+    "providerSessionId": "3dc602eb-7bfb-4405-9b1b-49cca475e0cb"
+  },
+  "currentNote": "Python、数据分析与人工智能/Python基础/05-生成器与迭代器和自定义函数基础.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 136,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 44928,
+    "contextWindow": 1000000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 45064,
+    "percentage": 5
+  }
+}
