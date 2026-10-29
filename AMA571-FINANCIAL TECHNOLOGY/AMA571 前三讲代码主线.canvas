@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "id": "overview",
+      "type": "text",
+      "text": "# AMA571 前三讲\n金融数据 → 投资组合 → 回测与风险分析",
+      "x": 480,
+      "y": 0,
+      "width": 390,
+      "height": 140
+    },
+    {
+      "id": "lecture1",
+      "type": "text",
+      "text": "## 第 1 讲\nPython 基础、行情下载、收益率、移动平均与可视化。",
+      "x": 0,
+      "y": 240,
+      "width": 350,
+      "height": 180
+    },
+    {
+      "id": "lecture2",
+      "type": "text",
+      "text": "## 第 2 讲\n计算收益和协方差，构造组合，按时间划分训练与测试。",
+      "x": 500,
+      "y": 240,
+      "width": 350,
+      "height": 180
+    },
+    {
+      "id": "lecture3",
+      "type": "text",
+      "text": "## 第 3 讲\n比较持有与再平衡，理解风险指标、换手和压力测试。",
+      "x": 1000,
+      "y": 240,
+      "width": 350,
+      "height": 180
+    }
+  ],
+  "edges": [
+    {
+      "id": "one",
+      "fromNode": "overview",
+      "fromSide": "bottom",
+      "toNode": "lecture1",
+      "toSide": "top"
+    },
+    {
+      "id": "two",
+      "fromNode": "overview",
+      "fromSide": "bottom",
+      "toNode": "lecture2",
+      "toSide": "top"
+    },
+    {
+      "id": "three",
+      "fromNode": "overview",
+      "fromSide": "bottom",
+      "toNode": "lecture3",
+      "toSide": "top"
+    }
+  ]
+}

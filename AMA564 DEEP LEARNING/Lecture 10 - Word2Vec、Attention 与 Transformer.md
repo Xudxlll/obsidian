@@ -1,6 +1,7 @@
 > [!info] 资料来源
 > - 课件：`Lecture10.pdf`
-> - 本笔记只依据 PDF 整理。
+> - 本文件夹中的原始课件：[[Lecture10.pdf]]。
+> - 笔记以课件为主，并包含为理解和准确性补充的说明；扩展解释不代表课件逐字原文。
 > - 本讲从 Word2Vec 进入 Attention，再完整解释 Self-Attention、Multi-head Attention、Positional Encoding 和 Transformer。
 
 # 一、本讲的整体地图
@@ -163,7 +164,7 @@ $$
 c=\sum_{t=1}^{T}\alpha_t v_t
 $$
 
-权重越大，表示当前输出更应该关注那个输入位置。
+权重越大，表示该位置在此 attention head 的加权汇总中占比更大；注意力权重本身不必然构成模型决策的完整因果解释。
 
 # 五、Self-Attention
 
@@ -212,8 +213,10 @@ $$
 一个位置的 query 与其他位置的 keys 做点积，得到相似度：
 
 $$
-\mathrm{score}_{ij}=q_i^Tk_j
+\mathrm{score}_{ij}=q_i k_j^T
 $$
+
+这里沿用 $q_i=x_iW^Q$ 和 $k_j=x_jW^K$ 的行向量约定，点积为 $q_i k_j^T$；如果改用列向量约定，也可写成 $q_i^Tk_j$。
 
 为了控制数值尺度，除以：
 
@@ -228,8 +231,8 @@ $$
 $$
 \alpha_{ij}
 =
-\frac{\exp(q_i^Tk_j/\sqrt{d_k})}
-{\sum_{\ell}\exp(q_i^Tk_\ell/\sqrt{d_k})}
+\frac{\exp(q_i k_j^T/\sqrt{d_k})}
+{\sum_{\ell}\exp(q_i k_\ell^T/\sqrt{d_k})}
 $$
 
 ## 4. 加权 Value 得到输出
@@ -351,7 +354,7 @@ $$
 
 对应 PDF：p.61-p.63
 
-Transformer decoder 中的 self-attention 只能关注当前位置之前的 tokens，不能看到未来。课件称之为 masking future positions。
+Transformer decoder 的因果 self-attention 通常允许关注当前位置及其之前的位置，禁止关注未来位置。课件称之为 masking future positions。训练时 decoder 的输入序列右移：当前位置输入上一个真实 token，当前位置的输出用于预测下一个目标 token。
 
 这是因为生成任务中，预测第 $t$ 个词时只能依赖：
 
@@ -359,11 +362,7 @@ $$
 y_1,\ldots,y_{t-1}
 $$
 
-不能偷看：
-
-$$
-y_{t+1},y_{t+2},\ldots
-$$
+因此输入中也不能包含要预测的 $y_t$ 或之后的目标 token；右移与因果 mask 配合可以避免泄漏。
 
 ## 2. 输出词预测
 
@@ -483,7 +482,7 @@ $$
 \text{context words}\rightarrow \text{center word}
 $$
 
-这两个任务的共同点是：通过预测上下文，让模型把语义相近、上下文相似的词放到相近向量空间里。p.18-p.23 的 negative sampling 要看成计算近似：完整 Softmax 太贵，所以每次只让模型区分真实词和少量负样本。
+这两个任务的共同点是：通过预测上下文，让模型把语义相近、上下文相似的词放到相近向量空间里。p.18-p.23 的 negative sampling（见 [Mikolov 等人的论文](https://arxiv.org/abs/1310.4546)）是计算更省的替代训练目标：它通过区分真实词与少量负样本训练词向量，不是完整 Softmax 最大似然目标的精确计算。
 
 Self-Attention 对应 p.34-p.47。给定输入表示 $X$，先线性变换成：
 

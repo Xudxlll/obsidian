@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "七门课程笔记核查记录.md",
         "面试准备",
         "AMA573 A股因子与机器学习课程项目",
         "股票量化因子研究入门",
@@ -3130,6 +3131,10 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "第 3 讲 - 量化投资组合回测｜课堂代码.md",
+        "第 2 讲 - 投资组合管理｜课堂代码.md",
+        "第 1 讲 - 金融科技与股票数据分析｜课堂代码.md",
+        "AMA571 前三讲代码主线.canvas",
         "AMA571-FINANCIAL TECHNOLOGY 总整理.md"
       ]
     },
@@ -15780,6 +15785,26 @@
       "isHidden": false
     },
     "求职投递/简历_格式调整前备份_20261028_143845.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "七门课程笔记核查记录.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA571-FINANCIAL TECHNOLOGY/AMA571 前三讲代码主线.canvas": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA571-FINANCIAL TECHNOLOGY/第 1 讲 - 金融科技与股票数据分析｜课堂代码.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA571-FINANCIAL TECHNOLOGY/第 2 讲 - 投资组合管理｜课堂代码.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA571-FINANCIAL TECHNOLOGY/第 3 讲 - 量化投资组合回测｜课堂代码.md": {
       "isPinned": false,
       "isHidden": false
     }

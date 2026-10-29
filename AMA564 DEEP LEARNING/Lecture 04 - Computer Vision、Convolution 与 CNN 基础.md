@@ -1,6 +1,7 @@
 > [!info] 资料来源
 > - 课件：`AMA564_Deep Learning_Lecture4.pdf`
-> - 本笔记只依据 PDF 整理。
+> - 本文件夹中的原始课件：[[Lecture4.pdf]]。
+> - 笔记以课件为主，并补充适用条件和必要的外部参考。
 > - 页码均指 PDF 页码。笔记目标是帮助你按课件逐页学习，而不是只看摘要。
 
 # 一、本讲的整体地图
@@ -252,10 +253,10 @@ $$
 
 对应 PDF：p.40-p.51
 
-假设输入空间尺寸为 $N\times N$，filter 大小为 $F\times F$，stride 为 $S$，无 padding，则输出尺寸为：
+假设输入空间尺寸为 $N\times N$，filter 大小为 $F\times F$，stride 为 $S$，无 padding、dilation 为 1，完整窗口的输出尺寸为：
 
 $$
-\frac{N-F}{S}+1
+\left\lfloor\frac{N-F}{S}\right\rfloor+1
 $$
 
 例如：
@@ -286,7 +287,7 @@ $$
 \frac{7-3}{3}+1=2.33
 $$
 
-输出尺寸不是整数，说明 filter 滑动时无法完整覆盖输入，课件说 “doesn't fit”。
+课件用 “doesn't fit” 表示边缘无法恰好覆盖；按 PyTorch 默认只计算完整窗口，向下取整后输出为 $2\times 2$，部分边缘位置不被窗口覆盖。
 
 ## 2. Padding 的作用
 
@@ -300,7 +301,7 @@ $$
 
 输出保持为 $7\times 7$。
 
-一般地，如果 stride 为 1，filter 大小为 $F\times F$，为了保持空间尺寸不变，常用 padding：
+一般地，如果 stride 为 1，filter 大小为奇数 $F\times F$，为了保持空间尺寸不变，常用对称 padding：
 
 $$
 P=\frac{F-1}{2}
@@ -318,10 +319,10 @@ $$
 
 对应 PDF：p.52-p.55
 
-若 padding 为 $P$，输出尺寸为：
+若 padding 为 $P$、dilation 为 1，并采用完整窗口向下取整，输出尺寸为（参见 [PyTorch Conv2d 文档](https://docs.pytorch.org/docs/stable/generated/torch.nn.Conv2d.html)）：
 
 $$
-\frac{N+2P-F}{S}+1
+\left\lfloor\frac{N+2P-F}{S}\right\rfloor+1
 $$
 
 这个公式是 CNN 中最常用的尺寸计算公式。以后看 PyTorch 的 `Conv2d` 时，对应参数就是 kernel size、stride、padding。
@@ -449,13 +450,13 @@ $$
 D\times M\times N
 $$
 
-如果 pooling operator 大小为 $K\times K$，stride 为 $P$，输出尺寸为：
+如果 pooling operator 大小为 $K\times K$、stride 为 $P$，且无 padding、默认采用完整窗口向下取整，输出尺寸为：
 
 $$
 D\times
-\left(\frac{M-K}{P}+1\right)
+\left(\left\lfloor\frac{M-K}{P}\right\rfloor+1\right)
 \times
-\left(\frac{N-K}{P}+1\right)
+\left(\left\lfloor\frac{N-K}{P}\right\rfloor+1\right)
 $$
 
 注意 pooling 通常不改变通道数 $D$，只改变空间尺寸。
@@ -510,13 +511,13 @@ pool = nn.MaxPool2d(kernel_size=2, stride=2)
 无 padding：
 
 $$
-O=\frac{N-F}{S}+1
+O=\left\lfloor\frac{N-F}{S}\right\rfloor+1
 $$
 
 有 padding：
 
 $$
-O=\frac{N+2P-F}{S}+1
+O=\left\lfloor\frac{N+2P-F}{S}\right\rfloor+1
 $$
 
 Pooling：
@@ -525,9 +526,9 @@ $$
 D\times M\times N
 \rightarrow
 D\times
-\left(\frac{M-K}{P}+1\right)
+\left(\left\lfloor\frac{M-K}{P}\right\rfloor+1\right)
 \times
-\left(\frac{N-K}{P}+1\right)
+\left(\left\lfloor\frac{N-K}{P}\right\rfloor+1\right)
 $$
 
 ## 3. 本讲一句话

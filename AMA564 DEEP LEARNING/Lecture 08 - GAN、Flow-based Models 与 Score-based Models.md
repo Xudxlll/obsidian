@@ -1,6 +1,7 @@
 > [!info] 资料来源
 > - 课件：`Lecture8.pdf`
-> - 本笔记只依据 PDF 整理。
+> - 本文件夹中的原始课件：[[Lecture8.pdf]]。
+> - 笔记以课件为主，并包含为理解和准确性补充的说明；扩展解释不代表课件逐字原文。
 > - 本讲从 GAN 开始，扩展到 conditional GAN、CycleGAN、flow-based model 和 score-based model。
 
 # 一、本讲的整体地图
@@ -25,7 +26,7 @@
 
 生成对抗网络（Generative Adversarial Network, GAN）是一类生成模型（Generative Model）。它的目标不是判断一张图属于哪一类，而是学习如何生成看起来像真实数据的新样本。
 
-课件用 photorealistic human faces 作为 demo。这里真正重要的不是“图像很逼真”，而是：模型并没有从训练集中复制一张已有图片，而是学习了真实人脸图像背后的数据分布。
+课件用 photorealistic human faces 作为 demo。这里真正重要的是：模型试图学习真实人脸图像背后的数据分布，并从中生成新样本。训练好的生成模型仍可能记忆或复制训练样本，不能仅凭生成结果看起来逼真就排除这一可能。
 
 如果真实数据来自：
 
@@ -224,7 +225,7 @@ $$
 D^*(x)=\frac{1}{2}
 $$
 
-对所有 $x$ 都成立。
+在真实和生成分布共同有正密度的区域成立；在两者密度均为零的区域，目标函数不约束判别器输出。
 
 这不是说判别器“失败了”，而是生成器已经达到理想效果，真假样本不可区分。
 
@@ -346,7 +347,7 @@ p_X(x)=p_Z(f^{-1}(x))
 \right|
 $$
 
-因此 flow-based model 与 GAN/VAE 不同，它可以显式估计 likelihood。
+因此标准 flow-based model 可计算模型密度和精确对数似然；GAN 通常不提供可直接计算的显式密度，VAE 的生成模型定义了密度，但其边缘似然通常难以精确计算，常用 ELBO 训练。
 
 课件列出 transformation function $f$ 的要求：
 
@@ -380,7 +381,7 @@ $$
 -\sum_{x\in D}\log p_\theta(x)
 $$
 
-课件提到实现方法包括 NICE、RealNVP、Glow 等。
+此处用样本损失之和；课件第 39 页使用其平均值，即再除以 $|D|$，对固定数据集两者有相同最优解。课件提到实现方法包括 NICE、RealNVP、Glow 等。
 
 # 八、Score-based Models
 
@@ -394,7 +395,7 @@ $$
 p_\theta(x)
 $$
 
-Score-based models 不直接建模 $p(x)$，而是建模它的梯度：
+Score-based models 不直接建模 $p(x)$，而是建模**对数密度**对 $x$ 的梯度：
 
 $$
 \nabla_x\log p(x)
@@ -424,7 +425,9 @@ x_t+\frac{\epsilon}{2}s_\theta(x_t)+\sqrt{\epsilon}\eta_t,
 \eta_t\sim\mathcal{N}(0,I)
 $$
 
-直觉是：沿着 score 指向的高密度区域移动，同时加入随机噪声保持采样多样性。
+这里的步长约定与课件第 44 页略有不同：令本式的 $\epsilon=2\epsilon_{\text{课件}}$，即得到课件的 $x_{t+1}=x_t+\epsilon_{\text{课件}}s_\theta(x_t)+\sqrt{2\epsilon_{\text{课件}}}\eta_t$。
+
+直觉是：沿着 score 指向的高密度区域移动，同时加入随机噪声保持采样多样性。有限步长、有限迭代和近似 score 都可能造成采样误差；收敛到目标分布需要适当的正则条件以及步长和迭代数条件。
 
 ## 3. 为什么要加噪声训练
 

@@ -1,7 +1,7 @@
 
 
 > [!info] 整理说明
-> 这份总整理基于 `AMA575 Investment Science` 文件夹内 7 篇 Markdown 笔记重构。原笔记包含课程讲义、公式推导和一篇论文阅读笔记；这里按知识主线整理，保留核心公式、定理含义、金融直觉和复习重点。
+> 这份总整理由此前的 7 篇笔记重构，涵盖课程讲义、公式推导和一篇论文。下方索引记录来源主题；这些原始 Markdown 文件目前不在本文件夹中，可在课程资料目录查阅对应 PDF。
 
 ## 1. 课程总主线
 
@@ -173,7 +173,7 @@ $$
 w^*= C^{-1}(\bar{R} - r1) \cdot (\rho - r) / H
 $$
 
-最优方差：
+这里假设协方差矩阵 $C$ 正定、$H>0$，且可以无约束卖空及按同一无风险利率借贷。最优方差：
 
 $$
 \sigma_*^2 = (\rho - r)^2 / H
@@ -198,12 +198,12 @@ $$
 MV 有效组合的 Sharpe ratio：
 
 $$
-SR_*= (\rho - r) / \sigma_*= \sqrt{H}
+SR_*= (\rho - r) / \sigma_*= \sqrt{H}\quad(\rho>r)
 $$
 
 因此：
 
-- 所有 MV 有效组合具有相同 Sharpe ratio；
+- 所有具有正风险敞口的 MV 有效组合具有相同 Sharpe ratio；纯无风险组合的波动率为零，Sharpe ratio 未定义；
 - 任意组合的 Sharpe ratio 都不应超过 `sqrt(H)`；
 - 更高目标收益 `ρ` 本质上是沿着同一条资本市场线加杠杆。
 
@@ -253,7 +253,7 @@ w^*(\rho) = \alpha w^*(\rho1) + (1 - \alpha) w^*(\rho2) \\
 \end{aligned}
 $$
 
-仍然是 MV 有效组合。
+在允许无约束借贷和卖空、且组合目标收益位于有效前沿上时，仍然是 MV 有效组合；超出该范围的任意线性组合未必位于有效前沿。
 
 这是 CAPM 的关键桥梁：如果每个投资者都选择 MV 有效组合，那么市场上所有投资者组合的加权平均也会是 MV 有效组合。
 
@@ -262,7 +262,7 @@ $$
 总市场组合权重：
 
 $$
-w_n^(M) = W_n / (\sum_{j=1}^N W_j + W_0)
+w_n^{(M)} = W_n / (\sum_{j=1}^N W_j + W_0)
 $$
 
 其中 `W_n` 是第 `n` 个风险资产的市场总价值，`W_0` 是无风险资产总价值。
@@ -271,8 +271,8 @@ $$
 
 $$
 \begin{aligned}
-w_n^(market risky part) \\
-= w_n^(M) / \sum_{j=1}^N w_j^(M)
+w_n^{(\mathrm{market\ risky})} \\
+= w_n^{(M)} / \sum_{j=1}^N w_j^{(M)}
 \end{aligned}
 $$
 
@@ -280,14 +280,14 @@ $$
 
 $$
 \begin{aligned}
-w_n^(M) = \sum _i \alpha_i w_n^(i) \\
+w_n^{(M)} = \sum_i \alpha_i w_n^{(i)} \\
 \alpha_i = V_i(0) / total market wealth
 \end{aligned}
 $$
 
 ### 4.4 CAPM 市场组合定理
 
-如果每个投资者都持有 MV 有效组合，那么市场组合也必须是 MV 有效组合。
+在投资者对收益和协方差有共同预期、可按相同无风险利率无约束借贷、可卖空且市场出清等标准假设下，若所有投资者都持有 MV 有效组合，市场风险资产组合也是 MV 有效组合。
 
 因此对任意组合 `R`：
 
@@ -352,7 +352,7 @@ $$
 
 有效市场假说 EMH：
 
-> 市场价格反映可得信息，因此基于已知信息的交易策略不应在期望上产生异常收益。
+> 市场价格充分反映相关信息；相对于所选风险定价模型，利用该信息通常不能持续获得经风险调整的异常收益。检验市场有效性时，结论依赖所采用的风险模型。
 
 三种形式：
 
@@ -440,7 +440,7 @@ $$
 U(C_t) = (C_t^{1-\gamma} - 1) / (1 - \gamma)
 $$
 
-其中 `γ` 是相对风险厌恶系数。
+其中 `γ` 是相对风险厌恶系数。公式在 $\gamma=1$ 时取连续极限，即 $U(C)=\ln C$。
 
 对应 SDF：
 
@@ -462,7 +462,7 @@ $$
 \text{Risk premium} = \mathrm{price of risk} \cdot \mathrm{amount of risk}
 $$
 
-其中：
+在后述消费增长与资产对数收益联合正态的设定下，经过对数正态调整后的风险溢价可以分解为：
 
 $$
 \begin{aligned}
@@ -549,7 +549,7 @@ $$
 | SDF | 可写成 `a + b R_M` | `θ(C_{t+1}/C_t)^(-γ)` |
 | 坏时候定义 | 市场跌的时候 | 消费低、边际效用高的时候 |
 
-如果 `U'(C_{t+1})` 与市场收益完全相关，C-CAPM 可退化成 CAPM。
+如果边际效用与市场收益满足适当的仿射关系，并且市场收益在相关定价条件下可作为充分的风险因子，C-CAPM 可以写成 CAPM 的线性定价形式；仅有相关性并不足以保证这一结论。
 
 ## 6. Stochastic Calculus
 
@@ -665,7 +665,7 @@ $$
 
 定理：
 
-> 若 `M` 是鞅，`A` 是 predictable，则 martingale transform 仍是鞅。
+> 若 `M` 是鞅、`A` 是 predictable，且乘积满足相应可积条件，则 martingale transform 仍是鞅。
 
 这对应金融里的无套利直觉：不能用过去信息从公平游戏中制造正期望。
 
@@ -731,7 +731,7 @@ $$
 
 $$
 \begin{aligned}
-M_t is F_t-measurable \\
+M_t\text{ is }\mathcal F_t\text{-measurable} \\
 \mathbb{E}[|M_t|] < \infty \\
 \mathbb{E}[M_s | F_t] = M_t, s > t
 \end{aligned}
@@ -745,11 +745,11 @@ $$
 M_t = \int_0^t f(s,ω)dB_s
 $$
 
-则 `M_t` 也是鞅。
+如果 $f$ 可预测且 $\mathbb{E}[\int_0^T f_s^2\,ds]<\infty$，则 $M_t$ 是平方可积鞅；只满足局部条件时一般只能保证局部鞅。
 
 ### 6.8 Ito Formula
 
-若 `f(t,x)` 二阶可微：
+若 $f$ 关于时间一阶连续可微、关于空间二阶连续可微（即 $f\in C^{1,2}$）：
 
 $$
 \begin{aligned}
@@ -820,10 +820,10 @@ $$
 若 `B_t` 生成 filtration，且 `M_t` 是平方可积鞅，则存在唯一过程 `v`：
 
 $$
-M_t = \mathbb{E}[M_0] + \int_0^t v_s dB_s
+M_t = M_0 + \int_0^t v_s dB_s
 $$
 
-这是连续时间金融里复制、对冲和风险中性定价的重要数学基础。
+这里需要布朗运动生成的、经过通常增广的 filtration；$v$ 在 $dt\times d\mathbb P$ 意义下唯一。如果初始信息平凡，则 $M_0=\mathbb E[M_0]$。这是复制、对冲和风险中性定价的重要数学基础。
 
 ### 6.12 SDE 与 GBM
 
@@ -842,13 +842,13 @@ $$
 解为：
 
 $$
-S_t = S_0 \exp((\mu - 1/2 \sigma^2)t + \sigmaB_t)
+S_t = S_0 \exp((\mu - 1/2 \sigma^2)t + \sigma B_t)
 $$
 
 并且：
 
 $$
-\mathbb{E}[S_t] = S_0 \exp(\mut)
+\mathbb{E}[S_t] = S_0 \exp(\mu t)
 $$
 
 ## 7. Continuous-Time Stochastic Control
@@ -947,7 +947,7 @@ HJB 的推导依赖 Ito formula：随机积分项是鞅，期望为 0。
 
 Verification theorem 告诉我们：
 
-如果某个光滑函数 `ψ` 解 HJB，并且对应 feedback control admissible、SDE 有唯一解，那么：
+如果某个光滑函数 `ψ` 解 HJB，且满足终端条件、适当增长及可积条件，相关局部鞅项为真鞅、反馈控制可行并使上确界达到，受控 SDE 也满足所需解的条件，那么：
 
 $$
 H(t,x) = ψ(t,x)
@@ -1059,7 +1059,7 @@ $$
 \pi^*(t,w)=e^{r(t-T)}\frac{\mu-r}{\sigma^2w}
 $$
 
-与 log/power utility 不同，指数效用下最优财富比例依赖 `1/w`，即财富越高，风险资产比例越低。
+与 log/power utility 不同，指数效用下最优风险资产**金额**为 $e^{r(t-T)}(\mu-r)/\sigma^2$，不随财富变化，因此正财富时的比例与 $1/w$ 成正比。该解析解通常以可为负的财富和无约束风险资产金额为前提；若要求财富始终为正或限制杠杆，需要重新求解并验证可行性。
 
 ### 7.10 Mean-Reverting Drift Model
 
@@ -1102,9 +1102,11 @@ HJB 中多出：
 $$
 \begin{aligned}
 \pi^*
-&=\frac{-(\mu-r)u_w-u_{w\mu}\sigma_\mu\sigma}{\sigma^2w u_{ww}}
+&=\frac{-(\mu-r)u_w-u_{w\mu}\sigma_\mu\sigma w}{\sigma^2w u_{ww}}
 \end{aligned}
 $$
+
+交叉项来自同一布朗运动同时驱动财富和漂移；对 $\pi$ 求导时它包含一个 $w$，因此上式分子中的 $u_{w\mu}$ 项不可漏掉 $w$。若两个布朗运动的相关系数为 $\varrho$，该交叉项还需乘以 $\varrho$。
 
 若设：
 
@@ -1446,7 +1448,7 @@ $$
 风险资产：
 
 $$
-dS_t = S_t(\mudt + \sigma \, dW_t)
+dS_t = S_t(\mu\,dt + \sigma \, dW_t)
 $$
 
 无风险资产利率 `r`，Sharpe ratio：
@@ -1554,7 +1556,7 @@ v_t+\min_{\pi}\int
 \right]\pi(u)\,du=0
 $$
 
-最优分布是 Gaussian：
+在 $v_{xx}>0$ 且控制分布及积分满足模型可行性条件时，最优分布是 Gaussian：
 
 $$
 \begin{aligned}
@@ -1600,7 +1602,7 @@ $$
 
 代表 exploration。
 
-随着 `t → T`，`T-t` 变小，variance 下降，因此探索随时间衰减。
+当 $\rho\ne 0$ 时，随着 `t → T`，variance 下降至 $\lambda/(2\sigma^2)$，而非零；当 $\rho=0$ 时该方差保持不变。此处的时间变化不同于跨训练轮次调整 temperature。
 
 ### 9.5 探索与利用的分离
 
@@ -1616,7 +1618,7 @@ $$
 - mean 不依赖 `λ`；
 - variance 不依赖状态 `x`；
 - 资产波动 `σ` 越大，所需主动探索越小；
-- 越接近终点，越少探索。
+- 当 $\rho\ne 0$，越接近终点探索方差越小，但仍为正；$\rho=0$ 时方差恒定。
 
 ### 9.6 EMV 与经典 MV 的等价关系
 
@@ -1658,14 +1660,14 @@ $$
 w=\frac{ze^{\rho^2T}-x_0}{e^{\rho^2T}-1}
 $$
 
-原因是 EMV 与经典 MV 的最优财富过程具有相同 drift，因此终端财富均值相同。
+在 $\rho\ne0$ 且目标可行的条件下，EMV 与经典 MV 的最优财富过程具有相同 drift，因此终端财富均值相同；$\rho=0$ 时上述分母为零，须单独讨论可行性。
 
 ### 9.7 Exploration Cost
 
 论文定义 exploration cost，并得到：
 
 $$
-\text{Exploration cost} = \lambdaT/2
+\text{Exploration cost} = \lambda T/2
 $$
 
 含义：
@@ -1676,7 +1678,7 @@ $$
 
 直觉：
 
-> 探索越强、探索时间越长，付出的探索成本越高。
+> 探索越强、探索时间越长，论文定义的探索成本越高。该结论针对论文模型及其成本定义，并非一般强化学习策略的普遍成本公式。
 
 ### 9.8 Policy Improvement Theorem
 
@@ -1684,7 +1686,7 @@ $$
 
 $$
 \begin{aligned}
-\pi~(u;t,x,w) \\
+\widetilde\pi(u;t,x,w) \\
 = \mathcal{N}(u | -(\rho/\sigma) V_x^\pi/V_xx^\pi, \\
 \lambda/(\sigma^2 V_xx^\pi))
 \end{aligned}
@@ -1693,7 +1695,7 @@ $$
 则：
 
 $$
-V^{\pi~}(t,x;w) \le V^\pi(t,x;w)
+V^{\widetilde\pi}(t,x;w) \le V^\pi(t,x;w)
 $$
 
 因为这是 minimization problem，所以 value function 更低代表更好。
@@ -1756,7 +1758,7 @@ $$
 
 ### 9.10 模拟与实证结果
 
-论文比较：
+论文比较（以下结论只适用于论文给定的数据、模拟设定、参数和评估口径，不能视为未来投资收益保证）：
 
 - EMV；
 - MLE adaptive control；
@@ -1777,11 +1779,15 @@ $$
 - 10 年月度再平衡；
 - EMV 与 leverage-constrained EMV 通常优于 DDPG、等权和 rolling Markowitz；
 - 无约束 EMV 可能使用极高杠杆，不够实务；
-- `L = 200%` 杠杆约束版本更稳定、更现实。
+- `L = 200%` 杠杆约束版本在论文测试中更稳定；200% 总杠杆仍有显著风险，是否可实施取决于具体市场和约束。
+- 论文实证基准测试为 2000–2010 年月度数据，并另用 11 个滚动十年窗口比较；论文明确未纳入交易成本，因此这些结果不等于可交易的净收益。
 
 论文开放问题：
 
 > 如何设计随学习进程内生最优衰减的 temperature parameter `λ`。
+
+> [!note] 原始资料与校对范围
+> 本节主要依据课程目录中的 Wang 与 Zhou（2020）论文；随机控制与执行部分可对照 `week7-13/2.Continuous-time Stochastic Control.pdf` 和 `week7-13/3.More Financial Applications.pdf`。部分课件公式的文本提取字符不完整，不能仅凭提取文本逐字核对；上文的公式同时根据上下文和数学推导检查。
 
 ## 10. 关键公式速查
 
@@ -1797,7 +1803,7 @@ $$
 | Beta | $\beta=\frac{\operatorname{Cov}(R,R_M)}{\operatorname{Var}(R_M)}$ | 系统性风险暴露 |
 | SDF 定价 | $1=\mathbb{E}[m(1+R_i)]$ | 一般资产定价核心 |
 | C-CAPM SDF | $m_{t+1}=\theta\left(\frac{C_{t+1}}{C_t}\right)^{-\gamma}$ | 消费边际替代率 |
-| C-CAPM risk premium | $\gamma\operatorname{Cov}_t(\Delta c_{t+1},r_{i,t+1})$ | 消费风险溢价 |
+| C-CAPM risk premium | $\gamma\operatorname{Cov}_t(\Delta c_{t+1},r_{i,t+1})$ | 联合对数正态假设下，经 Jensen 项调整的对数收益溢价 |
 | Risk-free rate | $r_f=-\ln\theta+\gamma\mathbb{E}_t[\Delta c_{t+1}]-\frac{1}{2}\gamma^2\sigma_c^2$ | C-CAPM 内生无风险利率 |
 | Brownian covariance | $\operatorname{Cov}(B_s,B_t)=s\wedge t$ | Brownian motion 协方差 |
 | Ito formula | $df=f_t\,dt+f_x\,dB_t+\frac{1}{2}f_{xx}\,dt$ | 随机链式法则 |
@@ -1921,4 +1927,4 @@ Merton problem 是标准模板。
 > - **数学底座**：filtration 限制可用信息，martingale 表示公平游戏，Ito formula 把随机过程转成可优化的微分方程。
 > - **动态控制**：DPP 把全局最优分解为递归最优，HJB 给出 value function 和 feedback control。
 > - **金融应用**：Merton 解动态投资，最优执行解交易速度；临时冲击、永久冲击和库存惩罚决定 TWAP 是否最优。
-> - **RL 扩展**：连续时间 MV 可写成 exploratory stochastic control，最优 policy 是 Gaussian，均值负责利用，方差负责探索，且探索随时间衰减。
+> - **RL 扩展**：连续时间 MV 可写成 exploratory stochastic control，最优 policy 是 Gaussian，均值负责利用，方差负责探索；在 $\rho\ne0$ 时探索方差随时间下降，但终点仍为正。

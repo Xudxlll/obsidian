@@ -1,7 +1,8 @@
 
 
 > [!info] 来源文件
-> 本整理覆盖 `/Users/xuji/Documents/obsidian/AMA568 Quantitative Finance` 下的 14 份笔记：  
+> 本整理依据下列 14 份原始笔记编写。2026-10-29 检查时，本课程文件夹内仅发现这份总整理；相应课程 PDF 存在于 `/Users/xuji/Documents/qfft/sem 2/AMA568 Quantitative Finance/`，以下文件名是历史来源记录，不代表当前文件夹内仍有这些 Markdown：
+>
 > `lecture notes 1 - Preliminaries.md`、`lecture notes 2 - beyond BS.md`、`lecture notes 3 - Vix and Variance Swap.md`、`lecture notes 4 - BTM.md`、`lecture_7_DCD.md`、`lecture_8_convertible_bond-lecture-notes.md`、`lecture_9_autocallable.md`、`lecture-10-heston.md`、`lecture-10-svi.md`、`lecture-10-sabr.md`、`lecture-note-11-Volatility Trading.md`、`Reading Materials - Gamma Scalping Empirical Test.md`、`lecture 12 - notes_market_making.md`、`lecture 12 - review_2026.md`。
 
 ---
@@ -81,7 +82,7 @@ $$
 p = \frac{e^{rT}-d}{u-d}
 $$
 
-衍生品初始价格：
+这里假设 $u>d$、无股息且严格无套利条件 $d<e^{rT}<u$ 成立，从而 $0<p<1$。衍生品初始价格：
 
 $$
 V_0 = e^{-rT}\left(pV_u+(1-p)V_d\right)
@@ -246,22 +247,26 @@ $$
 
 ### 5.1 Delta hedging 的 PnL
 
-对一个 delta-hedged option book，短时间内的主要 PnL 近似为：
+对一个 delta-hedged option book，在连续对冲、无交易成本、波动率输入固定且已扣除融资成本等简化条件下，短时间内的主要 PnL 近似为：
 
 $$
 d\Pi \approx \frac{1}{2}\Gamma S^2\left(\sigma_{\mathrm{real}}^2-\sigma_{\mathrm{imp}}^2\right)dt
 $$
 
+其中 $\sigma_{\mathrm{real}}^2dt$ 表示该小区间的实际二次变差；真实交易中还会受到波动率曲面变动、跳跃、离散对冲和交易成本等影响。**整个持有期的盈亏取决于沿路径的 Gamma 加权方差差异**，不能仅比较两个未加权的波动率数字。
+
 如果买入期权并持续 delta hedge：
 
-- 当 realized volatility 高于买入时的 implied volatility，Gamma scalping 倾向盈利。
-- 当 realized volatility 低于 implied volatility，Theta decay 可能吞掉调仓收益。
+- 在上述简化条件下，当每个区间的已实现方差高于定价方差，多头 Gamma 对冲盈亏倾向为正。
+- 如果已实现方差偏低，时间价值损耗可能超过调仓收益。
 
 离散时间下常用近似：
 
 $$
-\mathrm{PnL}\approx \sum_i \frac{1}{2}\Gamma_i S_i^2\left(\frac{\Delta S_i}{S_i}\right)^2-\sum_i \Theta_i\Delta t_i-\mathrm{TC}
+\mathrm{PnL}\approx \sum_i \frac{1}{2}\Gamma_i(\Delta S_i)^2+\sum_i \Theta_i\Delta t_i-\mathrm{TC}
 $$
+
+这里沿用上文 $\Theta=\partial V/\partial t$ 的符号，通常多头普通期权的 Theta 为负；该简式忽略融资、股息和隐含波动率变化。若将 $-\Theta$ 另定义为正的时间损耗，才应写成减去该损耗。
 
 其中交易成本可写为：
 
@@ -389,11 +394,11 @@ K_{\mathrm{var}}
 \right)
 $$
 
-其中 $F$ 是远期价格。
+其中 $F$ 是远期价格，$P,C$ 是相应到期日的欧式看跌和看涨期权价格。该等式依赖连续价格路径、连续采样、无静态套利、可取得全行权价期权等理想条件；存在跳跃或离散采样时，log-contract 复制与实际合约的 realized variance 一般有差异。若利率随机，公平执行价还需考虑贴现及相应测度。
 
 ### 7.3 VIX 公式
 
-VIX 本质上是 30 天 model-free implied variance 的平方根。离散 strike 下，方差近似为：
+VIX 由 SPX 期权报价构造，衡量约 30 天期限的年化隐含方差平方根。下式先计算**某一个到期日**的离散行权价方差估计：
 
 $$
 \sigma_{\mathrm{VIX}}^2
@@ -405,10 +410,10 @@ $$
 
 其中 $Q(K_i)$ 是对应 strike 的 OTM option 价格，$K_0$ 是不超过 forward $F$ 的最大 strike。
 
-VIX 点数：
+实际 VIX 会选取覆盖 30 天的两个到期日，先对总方差 $T\sigma^2$ 按期限插值、再年化；并非一般情况下将单一到期日的 $\sigma_{\mathrm{VIX}}^2$ 直接开方。下式中的 $\sigma_{30}^2$ 指插值后的 30 天年化方差：
 
 $$
-\mathrm{VIX}=100\sqrt{\sigma_{\mathrm{VIX}}^2}
+\mathrm{VIX}=100\sqrt{\sigma_{30}^2}
 $$
 
 ---
@@ -442,13 +447,13 @@ $$
 
 ### 8.2 Barrier option
 
-Barrier option 的节点递推需要加入障碍判断。例如 down-and-out option：
+Barrier option 的节点递推需要加入障碍判断。例如无 rebate 的 down-and-out option，在约定的障碍监测时点：
 
 $$
 V(S,t)=0 \quad \text{if } S\leq B
 $$
 
-否则按普通二叉树向后递推。障碍期权的价格对时间步长、障碍位置和监测频率非常敏感。
+否则按普通二叉树向后递推。若合约有 rebate，触障节点的价值需按 rebate 金额及支付时间处理；离散监测只在指定日期判断，连续监测还需考虑时间步之间触障。障碍期权的价格对时间步长、障碍位置和监测频率非常敏感。
 
 ### 8.3 Asian option
 
@@ -523,7 +528,7 @@ e^{-rT}\Phi(d_2)
 \right]
 $$
 
-其中 $N$ 是本金，$C$ 是 coupon，$X_0$ 是即期汇率，$K$ 是转换汇率。DCD 的关键风险不是“存款是否安全”，而是客户实际上承担了汇率尾部风险。
+其中 $N$ 是本金，$C$ 是整个期限的收益率（非直接代入未经期限换算的年化利率），$X_0$ 是即期汇率，$K$ 是转换汇率；$r,q$ 分别为报价币和另一币种的连续复利利率，$d_1,d_2$ 使用相应的外汇 Black-Scholes 参数。该式适用于到期支付 $N(1+C)\min(1,X_T/K)$ 的指定报价与结算方向，倒转汇率或产品条款时须重新推导。DCD 的关键风险不是“存款是否安全”，而是客户实际上承担了汇率尾部风险。
 
 ### 9.2 Convertible bond
 
@@ -545,17 +550,15 @@ $$
 \min\left(-\mathcal{L}V,V-nS\right)=0
 $$
 
-如果有 call feature，发行人可在价格高于赎回价 $M_C$ 时赎回，约束加入：
+如果有 call feature，发行人在满足约定赎回条件时可发起赎回；持有人是否仍有权转股、赎回通知期及赎回价格均依条款而定。若可立即赎回且持有人可选择赎回价 $M_C$ 或转股价值 $nS$，简化的赎回障碍为 $\max(M_C,nS)$，不能一般地写成 $V\leq M_C$。
 
-$$
-V(S,t)\leq M_C
-$$
-
-稀释效应下，若原有股份数为 $N$，可转债转换后新增股份为 $nm$，转换价值要乘以：
+稀释效应下，讲义的简化模型以公司转换前总价值除以原股数 $N$ 得到的每原股公司价值 $S$ 为标的；若 $m$ 份可转债全部转换、每份转换为 $n$ 股，转换后新增股份为 $nm$，则转换价值 $nS$ 需乘以：
 
 $$
 \frac{N}{N+nm}
 $$
+
+这里假设转换时公司总价值不变；讲义中转换前 $S$ 为每原股公司价值，**不是通常意义上的转换前普通股市价**，因为后者还要扣除可转债权益价值。实际条款、价格定义及转换对公司价值的影响可能不同，不可对现成市价机械套用该因子。
 
 带信用风险时，若违约强度为 $p$，违约时股票跳跌比例为 $\eta$，回收金额为 $RK$，PDE 可写成：
 
@@ -714,12 +717,12 @@ x(z)=
 \right)
 $$
 
-ATM 附近之外的 implied volatility 近似为：
+Hagan 的 lognormal implied volatility 近似为（$F,K>0$）：
 
 $$
 \sigma_{\mathrm{SABR}}(F,K)
 \approx
-\frac{\alpha}{(FK)^{(1-\beta)/2}}
+\frac{\alpha}{(FK)^{(1-\beta)/2}\left[1+\frac{(1-\beta)^2}{24}\ln^2(F/K)+\frac{(1-\beta)^4}{1920}\ln^4(F/K)\right]}
 \frac{z}{x(z)}
 \left[
 1+
@@ -732,6 +735,8 @@ $$
 \right)T
 \right]
 $$
+
+当 $F=K$ 时使用极限 $z/x(z)\to 1$，避免数值上的 $0/0$。这是渐近近似，远离适用范围时可能失真；$\alpha$ 的单位随 $\beta$ 改变，不总等于 Black implied volatility。
 
 ---
 
@@ -960,7 +965,7 @@ $$
 | 产品 | 核心拆解 | 主要风险 |
 |---|---|---|
 | Variance Swap | 交换 realized variance 与 fixed variance strike | volatility jump、corridor/采样差异、复制误差 |
-| VIX | 30 天 model-free implied variance | option liquidity、strike truncation、期限插值 |
+| VIX | 30 天年化 model-free implied variance 的平方根，乘以 100 | option liquidity、strike truncation、期限插值 |
 | DCD | 存款 + short FX option | 汇率尾部风险、客户被转换到弱势货币 |
 | Convertible Bond | 债券 + equity call + callable/putable/credit features | 信用、利率、股票波动、最优行权边界 |
 | Autocallable | 高票息 + short down-and-in put-like exposure | 大跌敲入、波动率上升、敲出路径风险 |
@@ -993,7 +998,7 @@ $$
 ### 第四遍：交易视角
 
 1. Greeks 是风险语言。
-2. Gamma scalping 的胜负来自 realized vol 与 implied vol 的差。
+2. Gamma scalping 的结果与 Gamma 加权的已实现方差与定价方差之差有关，还需计入对冲、融资和交易成本等。
 3. 做市商的核心不是预测方向，而是在报价、库存和风险限额之间平衡。
 
 ---
@@ -1002,3 +1007,7 @@ $$
 
 > [!summary] 总结
 > AMA568 的核心可以浓缩为：先用无套利和风险中性定价建立期权价格的理论地基，再用 Heston、SVI、SABR 等工具拟合真实市场的 volatility surface，最后把这些模型用于结构化产品、波动率交易和期权做市中的风险管理。
+
+
+> [!info] 核对提示
+> SABR 公式的对数行权价修正项与本课程 `lecture10/code_and_data/code/volmodel-sabr/pysabr/models/hagan_2002_lognormal_sabr.py` 对照；VIX 期限插值可参阅 [Cboe VIX 方法说明](https://cdn.cboe.com/resources/vix/VIX_Methodology.pdf)。本页为课程知识总整理，模型和产品公式仍以各自假设及合约条款为准。

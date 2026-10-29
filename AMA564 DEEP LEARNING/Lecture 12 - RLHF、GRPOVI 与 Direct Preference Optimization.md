@@ -1,6 +1,7 @@
 > [!info] 资料来源
 > - 课件：`Lecture12.pdf`
-> - 本笔记只依据 PDF 整理。
+> - 本文件夹中的原始课件：[[Lecture12.pdf]]。
+> - 笔记以课件为主，并包含为理解和准确性补充的说明；扩展解释不代表课件逐字原文。
 > - 本讲延续 RLHF，重点讲 PPO/GRPO、reward variance increase、GRPOVI，以及 Direct Preference Optimization（DPO）。
 
 # 一、本讲的整体地图
@@ -63,7 +64,7 @@ $$
 [r(x,y)]
 $$
 
-Policy gradient 的直觉：高奖励样本增强，低奖励样本削弱。
+Policy gradient 的直觉：相对基线优势为正的样本倾向于被增强，优势为负的样本倾向于被削弱；具体概率变化还取决于参数共享和优化过程。
 
 # 三、RLHF 中 PPO 与 GRPO
 
@@ -85,7 +86,7 @@ GRPO（Group Relative Policy Optimization）在一些大模型推理训练中表
 
 对应 PDF：p.16-p.18
 
-课件提出：accuracy 和 reward variance 都会影响 RLHF 训练。更高的 reward variance 可以加速训练。
+课件引用的研究指出，reward model 的准确性和初始策略下的 reward variance 都与训练效率有关。在所研究的设定中，增大方差是潜在加速思路，但并不保证任意任务、奖励函数或训练配置都会更快。课件第 17 页给出的是达到指定奖励提升所需时间的**下界**；仅凭下界随方差下降，不能单独推断实际训练时间必然下降。
 
 RLHF objective 可以写成：
 
@@ -146,6 +147,8 @@ $$
 z_1\ge z_2\ge\cdots\ge z_n
 $$
 
+这个非严格排序约束允许原本分数相同的响应在调整后出现不同分数；若业务要求并列偏好仍相等，需要额外加入对应等式约束。
+
 ## 2. 优化模型
 
 对应 PDF：p.22-p.23
@@ -185,13 +188,13 @@ $$
 p_i=\pi_{\theta_0}(y_i\mid x)
 $$
 
-目标函数 $\sum p_i z_i^2$ 与二阶矩相关，在期望固定时，增加二阶矩等价于增加方差。
+目标函数 $\sum p_i z_i^2$ 是该组响应对二阶矩的贡献。在按课件定义只修改这组响应、其他响应的 reward 保持不变，且按同一策略概率加权保持全空间期望的前提下，增加这一项等价于增加全空间方差；这组概率不必加总为 1。
 
 ## 3. 方差增加保证
 
 对应 PDF：p.23
 
-课件给出 theorem：如果调整后的 rewards 是 reward adjustment model 的全局最优解，则 policy model 在该 prompt 的 response space 上的 reward variance 可以增加。
+[课件引用的论文](https://arxiv.org/abs/2505.23247)给出 theorem：若这组响应的权重取自所考察策略、其他响应奖励不变，且调整结果是模型的全局最优解，则相应策略下的全响应空间方差不低于原值。原奖励向量本身可行，所以方差未必严格增加：例如原值已是最优时可以相等。
 
 这意味着 reward adjustment 不是随意拉大奖励，而是在保持边界、期望和排序的约束下系统性增大训练信号差异。
 
@@ -203,7 +206,7 @@ $$
 
 课件指出 reward adjustment model 是非凸优化，通常 NP-hard，但其可行域是有界非空多面体（Polyhedral），目标函数是凸函数。
 
-全局最优解会出现在极点（Extreme Points）上。
+至少存在一个极点（Extreme Point）是全局最优解。凸函数在多面体上最大化虽一般困难，但课件随后利用这个问题的特殊结构给出高效解法。
 
 极点可以写成特殊结构：
 
@@ -231,7 +234,7 @@ $$
 {\sum_{i=k+1}^{l}p_i}
 $$
 
-这个结构是后续算法设计的基础。
+其中公式要求中间块非空且其权重和为正；若 $k=l$，中间块为空，需单独检查仅由 $M$ 和 $m$ 组成的可行极点，不能代入零分母。这个结构是后续算法设计的基础。
 
 ## 2. Enumeration search
 
@@ -290,7 +293,7 @@ GRPOVI 表示 GRPO with Reward Variance Increase。它把 reward adjustment mode
 
 - responses 来自当前 policy model；
 - probabilities 来自 initial policy model 或 reference policy model；
-- reward variance increase 的保证可以自然得到。
+- 论文中的初始策略被设为 reference policy；保证针对这一策略下的奖励方差，不能直接推广成当前策略下的相同保证。
 
 ## 2. 实验
 
@@ -367,13 +370,13 @@ $$
 \right]
 $$
 
-直觉是：相比 reference policy，当前 policy 应该提高 preferred response 的相对概率，降低 rejected response 的相对概率。
+直觉是：相比 reference policy，优化会推动偏好回答相对于非偏好回答的概率比上升；这不保证每一次更新中偏好回答的绝对概率一定上升，或非偏好回答的绝对概率一定下降。
 
 ## 3. DPO 的表现与流行
 
 对应 PDF：p.55-p.57
 
-课件提到 DPO performs better，并且 DPO is popular。它流行的原因是：
+课件展示特定实验中 DPO 的表现并介绍其流行原因；不同数据、模型和评估指标下，DPO 不保证普遍优于 PPO。它常被采用的原因是：
 
 - 不需要单独训练 reward model；
 - 不需要显式运行复杂 RL；
@@ -459,7 +462,7 @@ $$
 
 ## 3. 本讲一句话
 
-Lecture 12 重点不是重新解释 RLHF，而是进一步研究如何让 RLHF 训练更快、更稳定：GRPOVI 通过增加 reward variance 加速 GRPO，DPO 则用偏好数据直接优化 policy，减少显式 reward model 和 RL loop 的复杂性。
+Lecture 12 重点不是重新解释 RLHF，而是进一步研究如何让 RLHF 训练更快、更稳定：GRPOVI 尝试通过增加初始策略下的 reward variance 加速 GRPO，DPO 则用偏好数据直接优化 policy，减少显式 reward model 和 RL loop 的复杂性。
 
 # 九、补充学习注释与复习路线
 
@@ -479,11 +482,11 @@ $$
 \text{human preference}\rightarrow r_\phi(x,y)\rightarrow \text{policy optimization}
 $$
 
-其中 $r_\phi$ 是奖励模型（Reward Model），$\pi_\theta$ 是要优化的语言模型策略（Policy）。policy gradient 的基本直觉是：增加高 reward 输出的概率，降低低 reward 输出的概率。
+其中 $r_\phi$ 是奖励模型（Reward Model），$\pi_\theta$ 是要优化的语言模型策略（Policy）。policy gradient 的基本直觉是：相对基线优势为正的输出获得正向更新，优势为负的输出获得负向更新。
 
 p.12-p.27 讨论 reward variance。直观上，如果所有候选回答 reward 很接近，优化信号就弱；如果 reward 差异更清楚，模型更容易知道哪个方向好。但 reward adjustment 又不能随意破坏偏好顺序，因此需要保持 relative preferences、boundedness 和 expectation 等性质。
 
-p.28-p.44 的搜索算法可以看成把理论约束落到可计算过程。Enumeration search 从候选空间里找满足条件的调整，代价可能较高；one-pass search 则试图用一次扫描降低复杂度。GRPOVI 把这个 reward adjustment 思想放进 GRPO 中，提高偏好优化效率。
+p.28-p.44 的搜索算法可以看成把理论约束落到可计算过程。Enumeration search 从候选空间里找满足条件的调整，代价可能较高；one-pass search 则试图用一次扫描降低复杂度。GRPOVI 把这个 reward adjustment 思想放进 GRPO 中，旨在提高偏好优化效率；效果需要在具体任务中检验。
 
 DPO 对应 p.45-p.63，是本讲最适合反复推导的部分。它从偏好数据出发：给定同一个 prompt，$y_w$ 是 preferred response，$y_l$ 是 dispreferred response。DPO 的目标可以写成让模型相对于 reference model 更偏向 $y_w$：
 
@@ -493,7 +496,7 @@ $$
 \log \frac{\pi_\theta(y_l|x)}{\pi_{ref}(y_l|x)}
 $$
 
-这个差值越大，说明当前模型相对 reference 更倾向好回答。DPO 的优势是实现简单、训练稳定，不需要显式训练 reward model 后再跑 PPO；但它仍依赖偏好数据质量，也不能自动解决所有 reward hacking 或分布外问题。
+这个差值越大，说明当前模型相对 reference 更倾向好回答。DPO 的优势是实现相对简单，不需要显式训练 reward model 后再跑 PPO；训练稳定性依数据与配置而定；但它仍依赖偏好数据质量，也不能自动解决所有 reward hacking 或分布外问题。
 
 复习时可以这样区分：
 

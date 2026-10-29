@@ -1,6 +1,7 @@
 > [!info] 资料来源
 > - 课件：`Lecture11.pdf`
-> - 本笔记只依据 PDF 整理。
+> - 本文件夹中的原始课件：[[Lecture11.pdf]]。
+> - 笔记以课件为主，并包含为理解和准确性补充的说明；扩展解释不代表课件逐字原文。
 > - 本讲从 LLM training 的整体流程出发，讲 pretraining、BERT、PEFT、in-context learning、instruction fine-tuning 和 RLHF。
 
 # 一、本讲的整体地图
@@ -129,7 +130,7 @@ $$
 
 对应 PDF：p.20-p.21
 
-BERT 随机 mask 15% 的词，并训练模型预测这些词。
+原始 BERT 随机选取约 15% 的 token 作为预测目标；这些位置并不全都替换为 `[MASK]`。
 
 在被选中的 15% 中：
 
@@ -137,11 +138,13 @@ BERT 随机 mask 15% 的词，并训练模型预测这些词。
 - 10% 替换成随机 token；
 - 10% 保持不变，但仍然预测。
 
-如果 $\tilde{x}$ 是 masked version of $x$，训练目标是：
+若 $\tilde{x}$ 是按上述规则扰动后的输入，$M$ 是被选作预测目标的位置集合，则 MLM 最大化各选中位置的对数概率之和：
 
 $$
-p_\theta(x\mid \tilde{x})
+\max_\theta\sum_{i\in M}\log p_\theta(x_i\mid\tilde{x})
 $$
+
+这是逐位置预测目标，并不要求模型计算整个原句的联合条件概率。
 
 这种任务允许模型利用左右上下文预测被遮住的 token。
 
@@ -202,7 +205,7 @@ B\in\mathbb{R}^{d\times r},\quad
 A\in\mathbb{R}^{r\times k},\quad r\ll \min(d,k)
 $$
 
-训练时冻结原始权重 $W$，只训练 $A,B$：
+上式为省略缩放常数的简化记法。课件第 32 页写作 $\Delta W=\alpha BA$；有些实现采用 $\alpha/r$，具体以实现为准。训练时冻结原始权重 $W$，只训练 $A,B$：
 
 $$
 Wx+\Delta Wx = Wx+BAx
@@ -335,7 +338,7 @@ $$
 \mathbb{E}_{y\sim\pi_\theta(\cdot\mid x)}[r(x,y)]
 $$
 
-Policy gradient 的核心是：如果某个输出获得高 reward，就提高生成它的概率；低 reward 则降低概率。
+Policy gradient 的直觉是：相对于基线或优势函数，较好的输出通常获得正向更新、较差的输出获得负向更新；实际更新还取决于采样、参数共享、KL 约束和优化算法。
 
 ## 4. Reward Model 与 RLHF
 
@@ -373,7 +376,7 @@ ChatGPT 可以理解为面向对话智能体的 instruction fine-tuning + RLHF�
 BERT masked LM：
 
 $$
-p_\theta(x\mid \tilde{x})
+\max_\theta\sum_{i\in M}\log p_\theta(x_i\mid\tilde{x})
 $$
 
 LoRA：
@@ -398,7 +401,7 @@ $$
 
 ## 3. 本讲一句话
 
-现代 LLM 先通过大规模预训练获得通用能力，再通过 BERT-style masking、PEFT/LoRA、prompting、instruction fine-tuning 和 RLHF 等方法，把语言模型逐步变成能理解任务、遵循指令并贴近人类偏好的助手。
+现代语言模型可先通过大规模预训练获得通用能力，再结合 PEFT/LoRA、prompting、instruction fine-tuning 和 RLHF 等方法进行适配。BERT-style masking 是一种预训练目标，并非所有 LLM 都需要经过该步骤；自回归 GPT 类模型通常使用下一个 token 预测。
 
 # 十一、补充学习注释与复习路线
 
@@ -418,10 +421,10 @@ Tokenization 对应 p.7-p.10。BPE（Byte Pair Encoding）用子词（Subword）
 BERT 对应 p.16-p.25。它的 masked language modeling 可以写成：
 
 $$
-\max_\theta \sum_{i\in M}\log p_\theta(x_i|x_{\setminus M})
+\max_\theta \sum_{i\in M}\log p_\theta(x_i\mid\tilde{x})
 $$
 
-其中 $M$ 是被 mask 的位置。BERT 是 encoder-only Transformer，适合理解型任务，例如分类、匹配、抽取。
+其中 $M$ 是选作预测目标的位置，$\tilde{x}$ 包含 80% mask、10% 随机替换和 10% 保持原样的扰动结果，详见 [BERT 原论文](https://arxiv.org/abs/1810.04805)。BERT 是 encoder-only Transformer，适合理解型任务，例如分类、匹配、抽取。
 
 LoRA 对应 p.26-p.32，是参数高效微调（Parameter-Efficient Fine-Tuning, PEFT）的代表。它不直接更新大矩阵 $W$ 的全部参数，而是学习一个低秩增量：
 

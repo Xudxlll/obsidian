@@ -1,6 +1,7 @@
 > [!info] 资料来源
 > - 课件：`Lecture9.pdf`
-> - 本笔记只依据 PDF 整理。
+> - 本文件夹中的原始课件：[[Lecture9.pdf]]。
+> - 笔记以课件为主，并包含为理解和准确性补充的说明；扩展解释不代表课件逐字原文。
 > - 本讲核心问题：如何处理序列数据？RNN 如何记住历史？为什么会有梯度消失，LSTM 如何缓解？
 
 # 一、本讲的整体地图
@@ -183,10 +184,10 @@ $$
 =
 \sum_{t=1}^{T}
 \frac{\partial L}{\partial h_t}
-\frac{\partial h_t}{\partial W_h}
+\left.\frac{\partial h_t}{\partial W_h}\right|_{h_{t-1}\,\text{固定}}
 $$
 
-而 $\frac{\partial L}{\partial h_t}$ 又会依赖后续时间步，因为 $h_t$ 会影响 $h_{t+1},h_{t+2},\ldots$。
+这里右侧的 $\partial h_t/\partial W_h$ 是将前一状态固定时的局部导数；$\partial L/\partial h_t$ 汇总了从该状态通往损失的所有后续路径。若误用包含历史路径的总导数，便会重复计数。矩阵求导需按维度理解为雅可比收缩。
 
 ## 2. Vanishing / Exploding Gradient
 
@@ -198,7 +199,7 @@ $$
 \frac{\partial h_t}{\partial h_{t-1}}
 $$
 
-的项。如果这些项的范数长期小于 1，梯度会指数衰减，形成梯度消失（Vanishing Gradient）。如果长期大于 1，梯度会指数增长，形成梯度爆炸（Exploding Gradient）。
+的项。如果这些雅可比矩阵的范数一致小于 1，其连乘的范数会指数衰减，可能形成梯度消失（Vanishing Gradient）。梯度爆炸则与矩阵连乘在梯度传播方向上的放大有关；单个雅可比矩阵的范数大于 1 并不足以保证连乘必然爆炸，因为各步的方向可能不同。
 
 梯度消失的后果是：很早的输入对当前输出的影响难以被学习。RNN 会偏向短期依赖，难以捕捉长距离关系。
 
@@ -269,7 +270,7 @@ $\odot$ 表示逐元素乘法（Element-wise Multiplication）。
 
 门控循环单元（Gated Recurrent Unit, GRU）是 LSTM 的简化版本。它也使用 gate 控制信息流，但结构更少，计算更轻。
 
-LSTM 和 GRU 都是为了解决普通 RNN 难以学习长距离依赖的问题。
+LSTM 和 GRU 都是为了缓解普通 RNN 难以学习长距离依赖的问题，但不保证消除梯度消失或爆炸。
 
 # 七、Word Embedding
 

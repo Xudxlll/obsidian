@@ -1,7 +1,8 @@
 
 
 > [!info] 来源文件
-> 本整理覆盖 `/Users/xuji/Documents/obsidian/AMA535A-Mathematical Models of Derivative Pricing` 下的 26 份笔记，包括 12 份 slide、13 份 tutorial answer 和 1 份 slides summary。  
+> 本整理依据此前整理的 12 份 slide、13 份 tutorial answer 和 1 份 slides summary 编写。当前课程目录仅有本篇总整理，这些逐份笔记不在当前目录；相关原始 PDF 可在课程资料目录中查阅。
+>
 > 课程主线是：**无套利与复制组合 $\rightarrow$ 利率和债券 $\rightarrow$ forward/futures $\rightarrow$ option bounds $\rightarrow$ binomial tree $\rightarrow$ Brownian motion/Itô calculus $\rightarrow$ Black-Scholes PDE/公式 $\rightarrow$ exotic options $\rightarrow$ interest rate models**。
 
 ---
@@ -36,11 +37,13 @@ flowchart TD
 ```
 
 > [!tip] 抓主线
-> 这门课所有模型都在回答同一个问题：**在无套利市场里，怎样把未来不确定 payoff 转换成今天唯一合理的价格？**
+> 这门课所有模型都在回答同一个问题：**在无套利约束下，怎样为未来不确定 payoff 定价？**对于可以复制的 payoff，复制成本确定唯一价格；对不可复制的 payoff，无套利通常只给出价格区间。
 
 ---
 
-## 2. 文件地图
+## 2. 原资料与原笔记主题地图
+
+表中是本整理参考的原笔记名称和主题；当前课程目录未包含这些独立 Markdown 文件，不能把表格视作可点击的现存文件清单。
 
 | 文件 | 主题 | 重点 |
 |---|---|---|
@@ -133,7 +136,7 @@ $$
 
 | 假设 | 含义 | 为什么需要 |
 |---|---|---|
-| Arbitrage-free | 市场不存在套利机会 | 保证价格关系唯一、可推导 |
+| Arbitrage-free | 市场不存在套利机会 | 限制价格关系；可复制或完备市场中才可进一步得到唯一价格 |
 | Well-informed investors | 信息快速被市场参与者使用 | 套利机会会被迅速消除 |
 | Frictionless market | 无交易成本、无税、资产可无限分割 | 简化复制和动态交易 |
 | No bid-ask spread | 买价等于卖价 | 不用处理流动性摩擦 |
@@ -247,7 +250,7 @@ $$
 \frac{\mathrm{Annual\ Coupon}}{\mathrm{Bond\ Price}}
 $$
 
-Yield-to-maturity 是使所有现金流现值等于债券价格的折现率：
+Yield-to-maturity 是使所有现金流现值等于债券价格的折现率。以下公式使用连续复利，$C_n$ 包含到期本金：
 
 $$
 P=\sum_{i=1}^{n} C_i e^{-yt_i}
@@ -269,12 +272,12 @@ R_{s,t}
 \frac{tR_t-sR_s}{t-s}
 $$
 
-### 4.8 Short rate
+### 4.8 瞬时远期利率与 short rate
 
-Instantaneous forward rate 或 short rate：
+课件 `slide03：interest Rate & Bond.pdf` 第 25–26 页使用 $r_t$ 表示瞬时远期利率。这里以 $P(0,t)=P_t$ 表示时点 0 观察到的零息债价格，并将初始期限结构对应的瞬时远期利率明确记为 $f(0,t)$：
 
 $$
-r_t=\lim_{s\to t}R_{s,t}=R_t+tR_t'
+f(0,t)=\lim_{s\to t}R_{s,t}=R_t+tR_t'
 $$
 
 因为：
@@ -286,7 +289,7 @@ $$
 所以：
 
 $$
-r_t
+f(0,t)
 =
 R_t+tR_t'
 =
@@ -298,21 +301,21 @@ $$
 反过来：
 
 $$
-R_t=\frac{1}{t}\int_0^t r_s\,ds
+R_t=\frac{1}{t}\int_0^t f(0,s)\,ds
 $$
 
 $$
-P_t=e^{-\int_0^t r_s\,ds}
+P_t=e^{-\int_0^t f(0,s)\,ds}
 $$
 
-若 short rate 随机，则风险中性世界下 zero-coupon bond price：
+若未来短利率路径是确定的，则 $f(0,t)=r_t$；随机利率下，$f(0,t)$ 一般不等于将来实现的短利率。课件 `slide11.pdf` 第 3 页写出贴现期望；在时点 $t$ 定价时须补上条件信息。时点 $t$ 的风险中性零息债价格需要以当时信息条件化：
 
 $$
 P(t,T)
 =
 \mathbb{E}^{\mathbb{Q}}
 \left[
-e^{-\int_t^T r_s\,ds}
+e^{-\int_t^T r_s\,ds}\mid\mathcal{F}_t
 \right]
 $$
 
@@ -357,7 +360,7 @@ $$
 
 ### 5.3 Forward price: with dividends
 
-若股票在 $[0,t]$ 内支付 dividend，且 dividend 在到期 $t$ 的未来价值为 $D$，则：
+若股票在 $[0,t]$ 内支付的现金股息金额和支付时间事先已知，且 dividend 在到期 $t$ 的未来价值为 $D$，则：
 
 $$
 F=Se^{rt}-D
@@ -460,33 +463,33 @@ $$
 | $S=K$ | ATM | ATM |
 | $S<K$ | OTM | ITM |
 
-Intrinsic value 是立即行权的价值；time value 是 option price 超过 intrinsic value 的部分。
+Intrinsic value 按当前现货价格计算为 $(S_t-K)^+$ 或 $(K-S_t)^+$；time value 通常定义为期权价格减去该数值。美式期权可立即行权，因此此差额非负；欧式期权不能提前行权，存在利率或股息等影响时该差额可能为负。
 
 ### 6.4 European call upper bound
 
-European call 价格满足：
+无股息、股票价格非负，并满足通常无套利交易假设时，European call 价格满足：
 
 $$
-C_E(t)<S_t
+C_E(t)\leq S_t
 $$
 
-若 $C_E(t)\geq S_t$，则可 short call、long stock、long cash 构造套利。
+若 $C_E(t)>S_t$，可通过卖出看涨期权并买入股票构造套利。等号能否排除取决于额外条件，不能仅由无套利一概排除。
 
 ### 6.5 Strike spread bounds
 
-若 $0<K_1<K_2$，European calls 满足：
+若 $0<K_1<K_2$，European calls 满足以下非严格界限。课件 `slide06.pdf` 第 6 页给出严格不等式；若没有进一步假设，边界处可能出现等号：
 
 $$
-0<C_E(t,K_1)-C_E(t,K_2)
-<
+0\leq C_E(t,K_1)-C_E(t,K_2)
+\leq
 (K_2-K_1)e^{-r(T-t)}
 $$
 
 European puts 满足：
 
 $$
-0<P_E(t,K_2)-P_E(t,K_1)
-<
+0\leq P_E(t,K_2)-P_E(t,K_1)
+\leq
 (K_2-K_1)e^{-r(T-t)}
 $$
 
@@ -532,13 +535,13 @@ $$
 P_A(t)\geq (K-S_t)^+
 $$
 
-无 dividend 的 American call 满足 Merton theorem：
+在无股息、非负利率且满足通常无摩擦交易假设时，American call 满足 Merton theorem：
 
 $$
 C_A(t)=C_E(t)
 $$
 
-也就是：无 dividend 情况下，American call 不应提前行权。
+也就是：在上述条件下，持有至到期至少不劣于提前行权；若出现零利率等特殊情形，提前行权也可能同样最优。
 
 American put 一般可能提前行权，因此通常：
 
@@ -546,20 +549,20 @@ $$
 P_A(t)\geq P_E(t)
 $$
 
-American put 上界：
+在股票价格非负、利率非负等标准假设下，American put 上界：
 
 $$
-P_A(t)<K
+P_A(t)\leq K
 $$
 
-American strike spread bounds：
+在非负利率等标准假设下，American strike spread bounds 为：
 
 $$
-0<C_A(t,K_1)-C_A(t,K_2)<K_2-K_1
+0\leq C_A(t,K_1)-C_A(t,K_2)\leq K_2-K_1
 $$
 
 $$
-0<P_A(t,K_2)-P_A(t,K_1)<K_2-K_1
+0\leq P_A(t,K_2)-P_A(t,K_1)\leq K_2-K_1
 $$
 
 ---
@@ -580,7 +583,7 @@ $$
 
 到期 option value 为 $f_u,f_d$。
 
-构造 portfolio：long $\Delta$ shares，long cash $\varepsilon$，short one option。无套利要求两种状态下 payoff 为 0：
+构造 portfolio：持有 $\Delta$ 股、现金头寸 $\varepsilon$，并卖出一份期权；头寸为负表示相反方向（例如借款）。按课件 `slide07.pdf` 第 12–13 页构造复制，使两种状态下 payoff 均为 0：
 
 $$
 \varepsilon e^{r\Delta t}+Su\Delta-f_u=0
@@ -624,7 +627,7 @@ $$
 p=\frac{e^{r\Delta t}-d}{u-d}
 $$
 
-$p$ 是 risk-neutral probability，不是真实世界概率，而是让 stock 的贴现价格成为 martingale 的定价概率。
+$p$ 是 risk-neutral probability，是让 stock 的贴现价格成为 martingale 的定价概率；它通常与真实概率不同，但在特殊情况下也可能相等。假设 $u>d$，无套利要求 $d<e^{r\Delta t}<u$，因此 $0<p<1$。
 
 在 risk-neutral world：
 
@@ -678,7 +681,7 @@ $$
 
 ### 7.4 Multi-step European option
 
-对于 $n$ 步 tree，$\Delta t=T/n$，European option 价格为：
+对于各步使用相同 $u,d,p$ 的可重组 $n$ 步 tree，$\Delta t=T/n$，European option 价格为：
 
 $$
 f=e^{-rT}
@@ -747,7 +750,7 @@ $$
 
 ### 7.6 Matching volatility
 
-为了让 binomial tree 匹配 stock volatility，常设：
+课件 `slide07.pdf` 第 31–32 页用 CRR 构造近似匹配 stock volatility。以下选择在 $\Delta t$ 很小时匹配连续模型的波动率；有限步长下一期收益率的方差一般不严格等于 $\sigma^2\Delta t$。常设：
 
 $$
 ud=1
@@ -811,7 +814,7 @@ Brownian motion 是 Markov process。
 
 ### 8.3 Martingale
 
-过程 $X_t$ 是 martingale，如果：
+适应过滤 $\{\mathcal{F}_t\}$ 的过程 $X_t$ 是 martingale，如果：
 
 $$
 \mathbb{E}\left[\lvert X_t\rvert\right]<\infty
@@ -841,7 +844,7 @@ $$
 
 随机时间 $\tau$ 是 stopping time，如果“$\tau$ 是否已经发生”只依赖当前及过去信息。
 
-Doob optional stopping theorem：若 $X_t$ 是 martingale，$\tau$ 满足有界或 stopped process 有界等条件，则：
+Doob optional stopping theorem：若 $X_t$ 是 martingale，并且 $\tau$ 有界；或者 stopped process $X_{t\wedge\tau}$ 一致有界且 $\tau<\infty$ 几乎必然成立，则（课件 `slide08.pdf` 第 25 页）：
 
 $$
 \mathbb{E}[X_\tau]=X_0
@@ -871,7 +874,7 @@ $$
 =0
 $$
 
-Itô isometry：
+Itô isometry（课件 `slide08.pdf` 第 31–32 页）：
 
 $$
 \mathbb{E}
@@ -922,7 +925,7 @@ $$
 d\langle X\rangle_t=\lvert\sigma(t)\rvert^2\,dt
 $$
 
-若 drift 恒为 0，则 Itô process 是 martingale：
+若 drift 恒为 0，且积分过程满足所需的可积条件（例如在有限区间上 $\mathbb{E}\int_0^T\sigma^2(t)dt<\infty$），则 Itô process 是 martingale：
 
 $$
 dX_t=\sigma(t)\,dB_t
@@ -1103,7 +1106,7 @@ $$
 
 ### 9.4 Black-Scholes formula
 
-设 $\tau=T-t$。European call：
+课件 `slide09_new.pdf` 第 14 页给出公式；设 $\tau=T-t>0$、$\sigma>0$、$x,K>0$，$N$ 是标准正态分布函数。European call：
 
 $$
 C_E(t,x)
@@ -1252,13 +1255,13 @@ $$
 
 ### 10.2 Perpetual American call
 
-无 dividend 股票的 perpetual American call 不应行权：
+在标准 Black-Scholes 假设下，若无股息、$r>0$，永续美式看涨期权的价值为 $S$，它是有限期限看涨期权价格随期限趋于无穷的极限：
 
 $$
-C_A^\infty(t)=C_E(t)
+C_A^\infty(S)=\lim_{T\to\infty} C_E(0,S;T)=S.
 $$
 
-没有 maturity 的 call 等待价值很高；无 dividend 时提前行权会损失 time value。
+对正执行价，有限时间行权一般无法达到这个上确界；不能把永续价值直接写成某个有限到期日的欧式期权价格。
 
 ### 10.3 Perpetual American put properties
 
@@ -1284,7 +1287,7 @@ $$
 
 ### 10.4 Perpetual American put value
 
-讲义给出的 closed form：
+在 $r>0$、$\sigma>0$ 的标准无股息 Black-Scholes 模型中，以下 closed form **只适用于继续持有区间** $S>S_e^*$。课件 `slide09_new.pdf` 第 35 页列出了公式，第 36 页给出继续持有和行权两段条件，故不能将该公式用于整个价格区间：
 
 $$
 P_A^\infty(S)
@@ -1513,7 +1516,7 @@ $$
 
 Barrier option 的 payoff 取决于 underlying 是否触碰 barrier。
 
-Down-and-out call：若 stock price 在存续期内从未跌破 barrier $B$，到期支付 call payoff；否则 knock out，价值归零。
+Down-and-out call：若 stock price 在连续监测期间始终严格高于 barrier $B$，到期支付 call payoff；触及或跌破 barrier 即 knock out，且此处假设无 rebate（课件 `slide10.pdf` 第 16、23 页）。
 
 Payoff：
 
@@ -1614,7 +1617,7 @@ $$
 
 若 $C_{DO}(t,x,B,K)$ 是 down-and-out call，$C_E(t,x,K)$ 是 vanilla European call。
 
-当 $B\leq K$：
+在无股息 Black-Scholes 模型、连续监测且无 rebate 的情况下，若当前尚未敲出、$x>B>0$ 且 $B\leq K$，课件 `slide10.pdf` 第 25 页给出：
 
 $$
 C_{DO}(t,x,B,K)
@@ -1640,7 +1643,7 @@ P(t,T)
 =
 \mathbb{E}^{\mathbb{Q}}
 \left[
-e^{-\int_t^T r_s\,ds}
+e^{-\int_t^T r_s\,ds}\mid\mathcal{F}_t
 \right]
 $$
 
@@ -1654,7 +1657,7 @@ R(t,T)
 \left(
 \mathbb{E}^{\mathbb{Q}}
 \left[
-e^{-\int_t^T r_s\,ds}
+e^{-\int_t^T r_s\,ds}\mid\mathcal{F}_t
 \right]
 \right)
 $$
@@ -1729,7 +1732,7 @@ $$
 
 - mean reversion；
 - volatility 与 $\sqrt{r_t}$ 成正比；
-- 在合适参数条件下 short rate 非负；
+- 当 $a>0$、$b\geq0$、$\sigma>0$ 且 $r_0\geq0$ 时 short rate 非负；如果 $r_0>0$ 且满足 Feller 条件 $2ab\geq\sigma^2$，则严格保持正值；否则可触及 0。
 - 比 Vasicek 更符合利率非负直觉。
 
 Bond price：
@@ -1768,7 +1771,7 @@ $$
 
 ### 13.5 Ho-Lee model
 
-Ho-Lee 是 no-arbitrage term structure model，用时间函数拟合初始 yield curve：
+Ho-Lee 是 no-arbitrage term structure model，用时间函数拟合初始 yield curve。此处 $F(0,t)$ 为初始瞬时远期利率，$F_t(0,t)$ 是其对到期时间 $t$ 的导数，与前文 $f(0,t)$ 是同一概念：
 
 $$
 dr_t=\theta(t)\,dt+\sigma\,dB_t^{\mathbb{Q}}
@@ -1825,7 +1828,7 @@ $$
 
 ### 13.7 Black-Derman-Toy model
 
-BDT 拟合当前 term structure 和 volatility structure：
+BDT 拟合当前 term structure 和 volatility structure。课件 `slide11.pdf` 第 16 页的连续时间表达式写为：
 
 $$
 d\ln r_t
@@ -1837,7 +1840,12 @@ d\ln r_t
 +\sigma(t)dB_t^{\mathbb{Q}}
 $$
 
-若 $\sigma(t)$ 为常数：
+> [!warning] 课件与常见 BDT 写法的符号差异
+> 课件的 $\ln r_t$ 系数是 $-\sigma'(t)/\sigma(t)$；[CFA Institute Research Foundation 的利率模型研究](https://rpc.cfainstitute.org/sites/default/files/-/media/documents/book/rf-publication/2001/rf-v2001-n4-3916-pdf.pdf)在同样以 $\sigma(t)$ 表示瞬时波动率时给出正号。由 $\ln r_t=m(t)+\sigma(t)B_t$ 直接求微分也得到正号系数。这里保留课件原式供核对，标准 BDT 连续极限使用前应先确认符号约定，不能把两种写法视为自动等价。
+
+具体地，如果 $\ln r_t=m(t)+\sigma(t)B_t$，且 $m,\sigma$ 是可微确定函数、$\sigma(t)>0$，代入 $B_t=(\ln r_t-m(t))/\sigma(t)$ 后，$\ln r_t$ 的漂移系数为 $+\sigma'(t)/\sigma(t)$；剩余只依赖 $t$ 的项可并入 $\theta(t)$。这解释了参考文献正号的来源。
+
+若 $\sigma(t)$ 为常数，两种写法都退化为：
 
 $$
 d\ln r_t=\theta(t)\,dt+\sigma\,dB_t^{\mathbb{Q}}
@@ -1847,7 +1855,7 @@ $$
 
 在 Vasicek、Ho-Lee、Hull-White 下，zero-coupon bond option 有类 Black formula。
 
-到 $T_1$ 到期、标的为 $T_2$ 到期 zero-coupon bond 的 call：
+到 $T_1$ 到期、标的为 $T_2$ 到期 zero-coupon bond 的 call。下面先给出 $\sigma_p>0$ 的形式；零波动率可取极限：
 
 $$
 LP(0,T_2)N(h_1)-KP(0,T_1)N(h_2)
@@ -1868,6 +1876,16 @@ h_{1,2}
 \sigma_p\sqrt{T_1}
 }
 $$
+
+其中 $N$ 是标准正态分布函数，$L$ 是债券面值，$K$ 是期权执行价，且 $0<T_1<T_2$。课件 `slide11.pdf` 第 17–18 页使用年化有效波动率 $\sigma_p$：
+
+- Vasicek 与 Hull-White（$a\ne0$）：
+
+$$
+\sigma_p=\sigma\frac{1-e^{-a(T_2-T_1)}}{a}\sqrt{\frac{1-e^{-2aT_1}}{2aT_1}}.
+$$
+
+- Ho-Lee：$\sigma_p=\sigma(T_2-T_1)$，也是上式 $a\to0$ 的极限。
 
 Put：
 
@@ -1947,7 +1965,7 @@ $$
 - European put 上界：
 
 $$
-P_E(t)<Ke^{-r(T-t)}
+P_E(t)\leq Ke^{-r(T-t)}
 $$
 
 ### 14.5 Tutorial 5：option monotonicity 与 convexity
@@ -1965,7 +1983,7 @@ $$
 - American put strike spread：
 
 $$
-P_A(t,K_2)-P_A(t,K_1)<K_2-K_1
+P_A(t,K_2)-P_A(t,K_1)\leq K_2-K_1
 $$
 
 - Put price 对 strike 的 convexity，可通过 butterfly-style portfolio 证明。
@@ -2012,7 +2030,7 @@ $$
 $$
 
 - Itô isometry 计算 stochastic integral variance。
-- 通过 drift 为 0 判断 martingale。
+- 通过 drift 为 0 并核查可积条件判断 martingale；零漂移本身通常只保证局部鞅。
 - 用 Itô lemma 推导 quadratic variation、quotient process、product process。
 - CIR 期望满足 ODE：
 
@@ -2101,8 +2119,8 @@ $$
 | Zero rate | $R_t=\frac{1}{t}\ln(\frac{F}{P})$ | zero-coupon bond yield |
 | Zero bond price | $P_t=e^{-tR_t}$ | 面值 1 的 zero price |
 | Forward rate | $R_{s,t}=\frac{tR_t-sR_s}{t-s}$ | 从 $s$ 到 $t$ 的远期利率 |
-| Short rate | $r_t=R_t+tR_t'$ | instantaneous forward rate |
-| Discount factor | $P_t=e^{-\int_0^t r_s\,ds}$ | short rate 折现 |
+| Initial instantaneous forward rate | $f(0,t)=R_t+tR_t'$ | 随机利率下不等同于未来实现的 short rate |
+| Discount factor | $P_t=e^{-\int_0^t f(0,s)\,ds}$ | 由初始瞬时远期利率曲线计算 |
 | No-dividend forward | $F=Se^{rt}$ | 股票 forward price |
 | Dividend forward | $F=(S-I)e^{rt}$ | dividend present value 为 $I$ |
 | Forward value | $f=S-I-Ke^{-rt}$ | long forward 当前价值 |
@@ -2113,11 +2131,11 @@ $$
 |---|---|---|
 | Call payoff | $(S_T-K)^+$ | 到期 call payoff |
 | Put payoff | $(K-S_T)^+$ | 到期 put payoff |
-| European call upper bound | $C_E(t)<S_t$ | call 不能比 stock 更贵 |
+| European call upper bound | $C_E(t)\leq S_t$ | call 不能比 stock 更贵 |
 | Put-call parity | $C_E+Ke^{-r\tau}=S_t+P_E$ | 无 dividend |
 | Dividend put-call parity | $C_E+Ke^{-r\tau}=S_t-De^{-r\tau}+P_E$ | dividend future value 为 $D$ |
-| Merton theorem | $C_A(t)=C_E(t)$ | 无 dividend American call |
-| American put bound | $P_A(t)<K$ | put 上界 |
+| Merton theorem | $C_A(t)=C_E(t)$ | 无 dividend、非负利率等标准假设 |
+| American put bound | $P_A(t)\leq K$ | 非负利率、非负股票价格 |
 | American exercise lower bound | $P_A(t)\geq(K-S_t)^+$ | 至少等于 intrinsic value |
 
 ### 15.3 Binomial tree
@@ -2170,10 +2188,10 @@ $$
 |---|---|---|
 | American VI | $\max\{V_t+\frac{1}{2}\sigma^2x^2V_{xx}+rxV_x-rV,\varphi-V\}=0$ | American option |
 | Perpetual put boundary | $S_e^*=\frac{2rK}{2r+\sigma^2}$ | 最优行权边界 |
-| Perpetual put value | $P_A^\infty(S)=\frac{\sigma^2}{2r}(\frac{2rK}{2r+\sigma^2})^{2r/\sigma^2+1}S^{-2r/\sigma^2}$ | perpetual put |
+| Perpetual put value | $P_A^\infty(S)=\frac{\sigma^2}{2r}(\frac{2rK}{2r+\sigma^2})^{2r/\sigma^2+1}S^{-2r/\sigma^2}$ | 在 $r>0,\sigma>0$ 下仅适用于 $S>S_e^*$；否则价值为 $K-S$ |
 | Path-dependent PDE | $V_t+\frac{1}{2}\sigma^2x^2V_{xx}+rxV_x-rV+V_If(t,x)=0$ | Asian/path-dependent |
 | Barrier boundary | $V(t,B)=0$ | knock-out barrier |
-| Reflection principle | $\mathbb{P}(B_T\geq x,m_T\leq y)=\mathbb{P}(B_T\leq2y-x)$ | barrier option |
+| Reflection principle | $\mathbb{P}(B_T\geq x,m_T\leq y)=\mathbb{P}(B_T\leq2y-x)$ | 标准 Brownian motion，$y<0$ 且 $y\leq x$ |
 | Vasicek | $dr_t=a(b-r_t)dt+\sigma dB_t^{\mathbb{Q}}$ | mean-reverting Gaussian rates |
 | CIR | $dr_t=a(b-r_t)dt+\sigma\sqrt{r_t}dB_t^{\mathbb{Q}}$ | nonnegative short rate |
 | Ho-Lee | $dr_t=\theta(t)dt+\sigma dB_t^{\mathbb{Q}}$ | fit initial curve |
@@ -2219,5 +2237,5 @@ $$
 ## 17. 一句话总结
 
 > [!summary] 总结
-> AMA535A 的核心是：在理想化无套利市场中，通过复制组合和风险中性测度，把各种衍生品未来随机 payoff 转换为今天的唯一价格；离散时间靠 binomial tree，连续时间靠 Brownian motion、Itô lemma 和 Black-Scholes PDE，复杂产品则通过 free boundary、path-dependent state variables、reflection principle 或 short-rate models 扩展。
+> AMA535A 的核心是：在理想化无套利市场中，通过复制组合和风险中性测度，对可复制的衍生品未来随机 payoff 求出今天的唯一价格；离散时间靠 binomial tree，连续时间靠 Brownian motion、Itô lemma 和 Black-Scholes PDE，复杂产品则通过 free boundary、path-dependent state variables、reflection principle 或 short-rate models 扩展。
 

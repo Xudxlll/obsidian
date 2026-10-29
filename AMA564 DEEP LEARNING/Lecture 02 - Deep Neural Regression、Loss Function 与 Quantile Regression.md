@@ -1,6 +1,7 @@
 > [!info] 资料来源
 > - 课件：`AMA564_Deep Learning_Lecture2.pdf`
-> - 本笔记只依据 PDF 整理。
+> - 本文件夹中的原始课件：[[Lecture2.pdf]]。
+> - 笔记以课件为主，并补充适用条件和必要的外部参考。
 > - 本讲核心问题：神经网络如何做回归？损失函数（Loss Function）不同，模型到底会学到什么目标？
 
 # 一、本讲的整体地图
@@ -378,7 +379,7 @@ $$
 f^*(x)=\mathbb{E}[Y\mid X=x]
 $$
 
-也就是说，最小二乘回归（Least Squares Regression）的目标是条件均值（Conditional Mean）。
+也就是说，在所有适当可测函数中最小化总体平方风险时，最优目标是条件均值（Conditional Mean）。有限样本和受限神经网络模型类下，训练结果只是对这一总体目标的近似，不保证精确等于条件均值。
 
 为什么？固定 $X=x$，要最小化：
 
@@ -386,7 +387,7 @@ $$
 \mathbb{E}\left[(Y-a)^2\mid X=x\right]
 $$
 
-对 $a$ 求导：
+在条件二阶矩有限时，对 $a$ 求导：
 
 $$
 \frac{d}{da}\mathbb{E}\left[(Y-a)^2\mid X=x\right]
@@ -468,11 +469,15 @@ $$
 \end{cases}
 $$
 
+其中 $\tau>0$。
+
 Cauchy loss：
 
 $$
 \phi(a)=\log(1+\kappa^2a^2)
 $$
+
+其中 $\kappa>0$。
 
 Tukey loss：
 
@@ -483,6 +488,8 @@ $$
 \frac{t^2}{6},& \text{otherwise}
 \end{cases}
 $$
+
+其中 $t>0$ 是阈值。
 
 ## 2. 这些损失如何降低异常值影响
 
@@ -539,7 +546,7 @@ $$
 f^*(x)=\mathrm{median}(Y\mid X=x)
 $$
 
-也就是说，LAD regression 学的是条件中位数（Conditional Median）。
+也就是说，在所有适当可测函数中最小化总体绝对风险时，最优目标是条件中位数（Conditional Median）；有限样本和受限模型类下只能近似。
 
 ## 2. 为什么绝对损失对应中位数
 
@@ -559,7 +566,7 @@ $$
 \int_{a}^{+\infty}(y-a)dF_{Y|X=x}(y)
 $$
 
-对 $a$ 求导：
+课件第 52 页给出以下导数。若条件分布在 $a$ 处连续、没有概率质量集中在 $a$，对 $a$ 求导：
 
 $$
 F_{Y|X=x}(a)-[1-F_{Y|X=x}(a)]
@@ -585,7 +592,7 @@ $$
 
 对应 PDF：p.54-p.55
 
-LAD 让最优解满足：
+在条件分布连续且适当严格递增的情形下，LAD 可让最优解满足：
 
 $$
 F_{Y|X=x}(f^*(x))=\frac{1}{2}
@@ -603,7 +610,7 @@ $$
 f^*(x)=F^{-1}_{Y|X=x}(\tau)
 $$
 
-这就是条件 $\tau$ 分位数（Conditional $\tau$-th Quantile）。
+这就是条件 $\tau$ 分位数（Conditional $\tau$-th Quantile）。更一般地，条件分布存在原子或平坦区间时不一定有 $F(a)=\tau$；分位数满足 $F(a-)\leq\tau\leq F(a)$，最优解也可能不唯一。
 
 ## 2. Check loss
 
@@ -714,8 +721,8 @@ $$
 | 损失函数 | 公式 | 统计目标 |
 |---|---|---|
 | LS | $\phi(a)=a^2$ | $\mathbb{E}[Y\mid X=x]$ |
-| LAD | $\phi(a)=|a|$ | $\mathrm{median}(Y\mid X=x)$ |
-| Check loss | $\rho_\tau(a)=(\tau-I(a<0))a$ | $F^{-1}_{Y|X=x}(\tau)$ |
+| LAD | $\phi(a)=\lvert a\rvert$ | $\mathrm{median}(Y\mid X=x)$ |
+| Check loss | $\rho_\tau(a)=(\tau-I(a<0))a$ | $F^{-1}_{Y\mid X=x}(\tau)$ |
 | Huber | 小残差平方，大残差线性 | 稳健折中 |
 | Cauchy/Tukey | 大残差影响更小 | 更强鲁棒性 |
 

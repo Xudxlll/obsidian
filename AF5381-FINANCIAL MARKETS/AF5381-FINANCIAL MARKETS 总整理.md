@@ -1,7 +1,8 @@
 
 
 > [!info] 来源文件
-> 本整理覆盖 `/Users/xuji/Documents/obsidian/AF5381-FINANCIAL MARKETS` 下的 7 份笔记：  
+> 本整理依据以下 7 个主题的原笔记汇总；当前文件夹保留的是这份总整理，课程原始课件可在 `/Users/xuji/Documents/qfft/sem 1/AF5381-FINANCIAL MARKETS` 中查阅：
+>
 > `Topic 1. Overview.md`、`Topic 1.2_FS&FSA.md`、`Topic 2. Financial System & Market.md`、`Topic 3&4. Time value & DCF & Capital Budgeting.md`、`Topic 5. Investment(1).md`、`Topic 6. Bond & Stock Market(1).md`、`Topic 7. Derivative Contracts(5).md`。
 
 ---
@@ -68,7 +69,7 @@ Finance 的两个特征：
 
 金融市场让 lending 和 borrowing 变得可能，使个人可以把当前收入重新分配到未来，或把未来收入提前到现在。
 
-若现在消费为 $C_0$，未来消费为 $C_1$，利率为 $r$，则跨期预算关系可以写成：
+若现在消费为 $C_0$，未来消费为 $C_1$，借贷利率均为 $r$，且 $W_0$ 是包括未来收入现值在内的初始总财富，则跨期预算约束的边界可以写成：
 
 $$
 C_0+\frac{C_1}{1+r}=W_0
@@ -114,15 +115,7 @@ $$
 
 ### 3.5 公司目标
 
-课程把公司目标落在：
-
-$$
-\text{Maximize shareholder wealth}
-=
-\text{Maximize share price}
-=
-\text{Maximize firm value}
-$$
+课程通常以最大化现有股东财富为目标；在股份数量、融资结构和其他债权人价值等条件不变时，可以用股价或公司价值变化作为相应指标。企业价值包含债权和股权价值，而股东财富是股权价值：融资结构或债权人价值变化时，不能把这三个目标无条件等同。
 
 这个目标优于单纯 maximize profit，因为它考虑：
 
@@ -208,7 +201,7 @@ $$
 \mathrm{Current\ Liabilities}
 $$
 
-NWC 反映 liquidity，即资产转换为现金的速度和容易程度。流动性越强通常越安全，但也可能牺牲盈利性。
+NWC 是流动资产减流动负债的金额，可作为短期流动性的一项粗略指标；资产变现速度和难易程度也取决于资产构成，不能仅由 NWC 判断。流动性越强通常越安全，但也可能牺牲盈利性。
 
 ### 4.2 Market value vs book value
 
@@ -390,7 +383,7 @@ $$
 \frac{\mathrm{ROE}\times b}{1-\mathrm{ROE}\times b}
 $$
 
-增长能力取决于 profit margin、retention policy、financial policy 和 asset turnover。
+这两个含分母的公式采用特定的期末资产或权益口径，并假设经营比率、留存率等保持稳定且资产随销售额同比例增长。若 ROA、ROE 以期初资产或权益为分母，常见简化形式分别为 $\mathrm{IGR}=b\,\mathrm{ROA}$、$\mathrm{SGR}=b\,\mathrm{ROE}$；比较不同教材时要先核对口径。增长能力取决于 profit margin、retention policy、financial policy 和 asset turnover。
 
 ### 4.8 FSA 的局限
 
@@ -472,7 +465,7 @@ $$
 {\mathrm{Shares\ Outstanding}}
 $$
 
-Open-end fund 由基金公司按 NAV 申购赎回；closed-end fund 份额固定，在二级市场交易，价格可能高于或低于 NAV。
+Open-end fund 通常按交易日计算的 NAV 申购赎回，可能另有费用；closed-end fund 的份额通常相对固定，在二级市场交易，价格可能高于或低于 NAV。
 
 ETF 与 mutual fund 类似，但 ETF 在交易所日内交易，并通过 authorized participants 进行 creation/redemption。
 
@@ -480,8 +473,8 @@ ETF 优点：
 
 - 可日内交易；
 - 可卖空或融资买入；
-- 成本低；
-- 税务效率高。
+- 部分产品费用较低；
+- 部分市场和产品具有税务效率优势，具体取决于当地税制和基金结构。
 
 ETF 缺点：
 
@@ -744,7 +737,7 @@ $$
 \mathrm{IRR}>\mathrm{Hurdle\ Rate}
 $$
 
-IRR 的问题：
+上述 IRR 决策规则主要适用于初始投资为负、之后现金流为正的常规独立投资项目；借款型现金流及互斥项目不能机械套用。IRR 的问题：
 
 1. 非正常现金流可能没有 IRR 或有多个 IRR。
 2. 互斥项目可能出现 scale problem。
@@ -775,7 +768,7 @@ $$
 \mathrm{PI}>1
 $$
 
-PI 在 capital rationing 下有用，因为它衡量每一单位初始投资创造多少现值；但互斥项目中 PI 可能偏向小项目，而不是最大价值项目。
+PI 在 capital rationing 下可作为初步排序指标，衡量每单位初始投资对应的未来现金流现值；但项目不可分割或有多期、多项约束时，单纯按 PI 排序不保证总 NPV 最大。互斥项目中 PI 也可能偏向小项目。
 
 ### 7.6 项目现金流
 
@@ -843,17 +836,17 @@ S
 t_c(S-D)
 $$
 
-若有税后残值 $SV$：
+若出售价格为 $SV$、出售时资产账面价值为 $BV$，且出售损益均可按税率 $t_c$ 计税或抵税，则税后处置现金流为：
 
 $$
-\mathrm{After\text{-}tax\ Salvage}
-=
-SV(1-t_c)
+\mathrm{After\text{-}tax\ Salvage}=SV-t_c(SV-BV)
 $$
+
+只有当 $BV=0$ 时，才简化为 $SV(1-t_c)$；若出售亏损不能立即抵税，还须调整税收收益。
 
 ### 7.8 Unequal lives 与 EAC
 
-寿命不同的设备不能直接比较 NPV。两种方法：
+如果互斥设备需要持续提供同样服务、且可按相同条件重复更新，寿命不同会使直接比较一次性 NPV 不公平。常用两种方法：
 
 1. Matching cycles：找到共同使用期限，把项目重复到相同年限。
 2. Equivalent annual cost：把成本现值转换成等额年成本。
@@ -933,9 +926,9 @@ $$
 
 ### 8.2 Dollar-weighted vs time-weighted return
 
-Dollar-weighted return 是 cash-flow-weighted 的 IRR，反映投资者真实财富增长，适合 buy-and-hold 或投资者控制现金流时使用。
+Dollar-weighted return 是以外部现金流和起止资产价值求出的 IRR，受资金进出金额和时点影响，反映投资者投入资金的资金加权收益。非常规现金流可能产生多个 IRR 或不存在有效 IRR。
 
-Time-weighted return 先计算每一期收益，再平均或复合，更适合评价 portfolio manager，因为经理通常无法控制客户资金流入流出。
+Time-weighted return 在外部现金流发生时划分子期，将各子期收益率通过 $\prod_{i=1}^n(1+r_i)-1$ 连乘；如需每期平均复合收益，再取几何平均。它更适合评价通常无法控制客户资金流入流出的 portfolio manager。
 
 ### 8.3 Arithmetic mean vs geometric mean
 
@@ -965,10 +958,10 @@ $$
 
 ### 8.4 Fisher equation
 
-名义利率、实际利率和预期通胀：
+名义利率 $i$、预期实际利率 $r$ 与预期通胀 $\pi^e$ 常用以下 Fisher 关系近似表达；严格恒等式适用于同一时期的已实现名义收益、实际收益和实际通胀，预期值之间通常只是近似关系：
 
 $$
-(1+i)=(1+r)(1+\pi^e)
+(1+i)\approx(1+r)(1+\pi^e)
 $$
 
 近似：
@@ -998,7 +991,7 @@ $$
 \sigma=\sqrt{\sigma^2}
 $$
 
-波动率年化：
+当各期收益具有相同方差且跨期不相关时，加总收益的波动率可按平方根规则年化；对复合简单收益、存在自相关或波动率随时间变化的情形，需要另作处理：
 
 $$
 \sigma_{\mathrm{annual}}
@@ -1076,13 +1069,13 @@ $$
 | Systematic risk | 市场整体风险 | 不可分散 |
 | Firm-specific risk | 公司个体风险 | 可分散 |
 
-资产相关性越低，分散化效果越强。当相关系数为 $+1$ 时，组合不能降低风险；当相关系数低于 $+1$ 时，组合通常能降低风险。
+对于给定的正权重和各资产波动率，相关性越低，组合方差越低。相关系数为 $+1$ 时，组合波动率等于各资产波动率的加权平均，仍可能低于其中某个单一高波动资产，但没有来自不完全相关性的额外分散化收益；相关系数低于 $+1$ 时则存在这种收益。
 
 ### 8.9 Efficient frontier
 
 Minimum-variance frontier 是给定 expected return 下方差最低的组合集合。上半部分称为 efficient frontier，因为它在同等风险下提供更高收益，或在同等收益下提供更低风险。
 
-Mean-variance criterion：
+Mean-variance criterion：至少一项不等式必须严格成立，才称 A 严格支配 B。
 
 $$
 A \text{ dominates } B
@@ -1103,8 +1096,10 @@ $$
 $$
 
 $$
-\sigma_p=w\sigma_A
+\sigma_p=|w|\sigma_A
 $$
+
+以下 CAL 写法采用 $w\geq 0$，并假设借入与贷出的无风险利率相同。
 
 消去 $w$：
 
@@ -1142,7 +1137,7 @@ U
 0.005A\sigma^2
 $$
 
-其中 $A$ 是风险厌恶系数。单一 risky asset 与 risk-free asset 下，最优 risky asset 权重：
+这里沿用课件的百分数单位：例如 15% 输入为 15，22% 输入为 22；$A$ 是风险厌恶系数。若收益率用小数表示，则同一效用形式为 $U=\mathbb{E}[R]-\tfrac12 A\sigma^2$。单一 risky asset 与 risk-free asset 下，未受投资权重约束时的最优 risky asset 权重为：
 
 $$
 w^*
@@ -1151,7 +1146,7 @@ w^*
 {0.01A\sigma_A^2}
 $$
 
-风险厌恶越强，$A$ 越大，投资 risky asset 的比例越低。
+在风险溢价为正且其他条件不变时，风险厌恶越强，$A$ 越大，投资 risky asset 的比例越低。若用小数收益率，公式应改为 $w^*=(\mathbb{E}[R_A]-R_f)/(A\sigma_A^2)$；禁止卖空或借贷时还需结合约束求解。
 
 ### 8.12 CAPM
 
@@ -1259,7 +1254,7 @@ $$
 \mathrm{Accrued\ Interest}
 $$
 
-若半年度 coupon 为 $C$，距离上一付息日已过 $t$ 天，按 182 天半年计：
+若半年度 coupon 为 $C$，距离上一付息日已过 $t$ 天，在人为假设该计息期为 182 天的例子中：
 
 $$
 \mathrm{Accrued\ Interest}
@@ -1267,9 +1262,11 @@ $$
 C\times \frac{t}{182}
 $$
 
+实际计息天数与分母应按债券的 day-count convention 和结算日计算，不能普遍固定为 182 天。
+
 ### 9.3 Bond price
 
-普通 coupon bond 价格：
+在付息日定价、现金流每期支付一次且 $y$ 为每期收益率时，普通 coupon bond 价格为：
 
 $$
 P
@@ -1290,7 +1287,7 @@ C\times \mathrm{PVAF}_{T,y}
 F\times \mathrm{PVIF}_{T,y}
 $$
 
-若 coupon semiannual，通常用半年度 coupon、半年度 yield 和总半年度期数定价。
+若 coupon semiannual，通常用半年度 coupon、半年度 yield 和总半年度期数定价。非付息日需要按实际剩余时间折现，并区分 dirty price 与 clean price。
 
 ### 9.4 Bond yields
 
@@ -1402,7 +1399,7 @@ $$
 
 ### 9.8 Growth rate estimation
 
-增长率来自 retained earnings 的再投资：
+在 ROE 和留存率稳定、ROE 按期初权益计算、留存收益按相同 ROE 再投资，且无发行或回购等影响每股增长的因素时，每股收益与股利的内生增长率可写为：
 
 $$
 g
@@ -1417,6 +1414,8 @@ $$
 $$
 g=b\times \mathrm{ROE}
 $$
+
+这里的 ROE 口径与 4.7 节含分母的期末权益口径不同，不能直接把两条公式中的 ROE 当成同一个数字。
 
 高增长公司通常低分红，因为 retained earnings 被投入新的正 NPV 项目。
 
@@ -1470,7 +1469,7 @@ $$
 | Free cash flow model | 不分红或外部融资需求高的公司 | 折现 firm cash flows，再扣债务得 equity value |
 | Comparables | 有相似公司和估值倍数 | P/E、EV/EBITDA、P/S 等 |
 
-三者概念上等价，但实践中取决于数据可得性和公司生命周期。
+在现金流、风险和假设一致时，DDM 与自由现金流法原则上可以得到一致的股权价值；可比公司估值依赖市场倍数与可比性，并不保证得到相同结果。
 
 ---
 
@@ -1516,7 +1515,7 @@ Daily settlement 使 futures gains/losses 每天进入保证金账户。
 
 ### 10.4 Cost-of-carry model
 
-连续时间 cost-of-carry：
+设 $T$ 表示从当前时点 $t$ 到到期日的剩余年数。在利率与收益率恒定、无套利及其他成本忽略的条件下，连续时间远期 cost-of-carry 为：
 
 $$
 F_t e^{-rT}
@@ -1532,14 +1531,15 @@ F_t
 S_t e^{(r-y)T}
 $$
 
+在利率确定等常见简化条件下，期货价格可与对应远期价格相同；利率随机时，由于每日盯市，二者可能不同。商品便利收益往往不可直接交易，上式在实际应用中需结合市场假设。
+
 其中 $y$ 可代表：
 
 | 标的 | $y$ 的含义 |
 |---|---|
 | 股票指数 | dividend yield |
 | 外汇 | foreign interest rate |
-| 商品 | convenience yield |
-| 有仓储成本商品 | $y$ 可视为负的 storage cost adjustment |
+| 商品 | 净持有收益：convenience yield 减去按标的价值连续计提的仓储成本率 |
 
 离散直觉：
 
@@ -1557,7 +1557,7 @@ $$
 
 ### 10.5 Interest rate parity
 
-外汇远期/期货中：
+设 $S_{d/f}$、$F_{d/f}$ 均以每一单位外币对应的本币金额报价，$r_d$ 和 $r_f$ 分别为本币和外币的连续复利年利率，$T$ 为剩余年数。在无套利和相应借贷条件成立时，外汇远期满足：
 
 $$
 F_{d/f}e^{-r_dT}
@@ -1573,7 +1573,7 @@ F_{d/f}
 S_{d/f}e^{(r_d-r_f)T}
 $$
 
-离散版本：
+离散版本（$r_d$、$r_f$ 均为整个合约期的有效利率）：
 
 $$
 F_{d/f}(1+r_f)
@@ -1581,12 +1581,10 @@ F_{d/f}(1+r_f)
 S_{d/f}(1+r_d)
 $$
 
-近似 log form：
+连续复利年利率下的精确 log form：
 
 $$
-\ln F_{d/f}-\ln S_{d/f}
-\approx
-r_d-r_f
+\ln F_{d/f}-\ln S_{d/f}=(r_d-r_f)T
 $$
 
 ### 10.6 Basis、contango 与 backwardation
@@ -1666,6 +1664,8 @@ $$
 P_T=\max(X-S_T,0)
 $$
 
+下面的 profit 为课堂中的简化写法：将期初 premium 直接与到期 payoff 相减，未计资金时间价值、交易费用和税。若计算到期时点利润，应将期权费滚存至到期。
+
 Long call profit：
 
 $$
@@ -1700,7 +1700,7 @@ $$
 
 ### 10.10 Option bounds
 
-Call 最低价值：
+以下先假设标的价格和执行价非负、标的不支付股息、利率非负且无套利；$PV(X)$ 是到期行权价的现值。Call 最低价值：
 
 $$
 C_t\geq \max(S_t-PV(X),0)
@@ -1723,6 +1723,8 @@ American put 最大价值：
 $$
 P_A\leq X
 $$
+
+欧式期权若在到期前不允许行权，其市场价值可能低于当前立即行权价值，所以下面的差额可能为负；对可立即行权的美式期权，无套利下该差额通常非负。
 
 Option premium：
 
@@ -1753,7 +1755,7 @@ $$
 | $S$ 上升 | 上升 | 下降 | 标的越贵，买权越有价值 |
 | $X$ 上升 | 下降 | 上升 | 行权买入更贵、行权卖出更有利 |
 | $\sigma$ 上升 | 上升 | 上升 | option 有凸性，波动越大越有价值 |
-| $T$ 增加 | 通常上升 | 通常上升 | 更多时间等待有利状态 |
+| $T$ 增加 | 通常上升 | 不一定 | 美式期权多出的行权机会一般不降低价值；欧式期权到期时间影响还取决于股息与利率等 |
 | $r$ 上升 | 上升 | 下降 | strike 现值下降 |
 | Dividends 上升 | 下降 | 上升 | 除息降低未来股价 |
 
@@ -1771,7 +1773,7 @@ $$
 C-P=S-PV(X)
 $$
 
-若存在 dividends：
+若存在已知、在期权到期前支付且可按无风险利率折现的现金 dividends：
 
 $$
 C-P=S-PV(D)-PV(X)
@@ -1781,7 +1783,7 @@ $$
 
 ### 10.13 Convertible bonds
 
-Convertible bond 价值：
+在可立即转换、无不利赎回条款等简化条件下，可转债价值通常不低于可比纯债价值和即时转股价值中较大者。下面的 Option Value 定义为相对于该较大基准的剩余溢价，并非无条件等于单独估值的转换权；实际条款和信用风险会影响这一比较：
 
 $$
 \mathrm{Convertible\ Bond\ Value}
@@ -1823,7 +1825,7 @@ Callable convertible 可迫使转换：若 conversion value 高于 call price，
 
 ### 10.14 Levered firm as options
 
-从股东角度，levered equity 类似：
+在简化的单一期债务、无其他优先债权及摩擦的模型中，到期时股东权益的 payoff 为：
 
 $$
 \mathrm{Equity}
@@ -1831,7 +1833,7 @@ $$
 \max(V-D,0)
 $$
 
-也就是以 firm value $V$ 为标的、debt face value $D$ 为 strike 的 call option。
+这相当于以到期 firm value $V$ 为标的、debt face value $D$ 为 strike 的 call option 的到期收益；期权今天的价值一般不等于 $\max(V_t-D,0)$。
 
 由 put-call parity：
 
@@ -1902,8 +1904,8 @@ $$
 | 两资产组合方差 | $\sigma_p^2=w_D^2\sigma_D^2+w_E^2\sigma_E^2+2w_Dw_E\rho_{DE}\sigma_D\sigma_E$ | 分散化计算 |
 | 多资产组合方差 | $\sigma_p^2=\sum_i\sum_j w_iw_j\mathrm{Cov}(R_i,R_j)$ | Markowitz portfolio |
 | CAL | $\mathbb{E}[R_p]=R_f+\frac{\mathbb{E}[R_A]-R_f}{\sigma_A}\sigma_p$ | risky asset + risk-free asset |
-| Utility | $U=\mathbb{E}[R]-0.005A\sigma^2$ | 风险厌恶效用 |
-| 最优 risky weight | $w^*=\frac{\mathbb{E}[R_A]-R_f}{0.01A\sigma_A^2}$ | 资产配置 |
+| Utility | $U=\mathbb{E}[R]-0.005A\sigma^2$ | 收益与波动率以百分数表示；小数表示时系数为 $0.5$ |
+| 最优 risky weight | $w^*=\frac{\mathbb{E}[R_A]-R_f}{0.01A\sigma_A^2}$ | 百分数单位、无约束；小数单位时分母为 $A\sigma_A^2$ |
 | CAPM beta | $\beta_i=\frac{\mathrm{Cov}(R_i,R_M)}{\sigma_M^2}$ | 系统性风险 |
 | CAPM | $\mathbb{E}[R_i]=R_f+\beta_i(\mathbb{E}[R_M]-R_f)$ | 资产均衡收益 |
 | Abnormal return | $AR_t=R_t-(\alpha+\beta R_{M,t})$ | 事件研究 |
@@ -1920,10 +1922,10 @@ $$
 | 股票 DDM | $P_0=\sum_{t=1}^{\infty}\frac{D_t}{(1+r)^t}$ | 股票现金流现值 |
 | 零增长股票 | $P_0=\frac{D}{r}$ | preferred stock / no-growth |
 | Gordon model | $P_0=\frac{D_1}{r-g}$ | 稳定增长股票 |
-| 增长率 | $g=b\times\mathrm{ROE}$ | retained earnings growth |
+| 增长率 | $g=b\times\mathrm{ROE}$ | 稳定条件下的每股内生增长；ROE 以期初权益为分母 |
 | WACC | $\mathrm{WACC}=\frac{E}{D+E}R_E+\frac{D}{D+E}R_D(1-t_c)$ | 加权平均资本成本 |
 | NPVGO | $P=\frac{\mathrm{EPS}}{r}+\mathrm{NPVGO}$ | 增长机会价值 |
-| Futures price | $F_t=S_te^{(r-y)T}$ | cost-of-carry |
+| Forward price | $F_t=S_te^{(r-y)T}$ | $T$ 是剩余期限；利率随机时，期货价格可能不同于远期价格 |
 | Basis | $\mathrm{Basis}=S-F$ | futures hedge risk |
 | Hedge contracts | $N^*=h^*\frac{\mathrm{Exposure\ Size}}{\mathrm{Contract\ Size}}$ | 期货对冲数量 |
 | Call payoff | $C_T=\max(S_T-X,0)$ | 到期买权价值 |

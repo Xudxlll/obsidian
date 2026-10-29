@@ -1,6 +1,7 @@
 > [!info] 资料来源
 > - 课件：`Lecture13.pdf`
-> - 本笔记只依据 PDF 整理。
+> - 本文件夹中的原始课件：[[Lecture13.pdf]]。
+> - 笔记以课件为主，并包含为理解和准确性补充的说明；扩展解释不代表课件逐字原文。
 > - 第 13 讲有 230 页，是“Scaling Laws 新内容 + 全课程总复习”。本笔记按主题整合，并保留 PDF 页码范围，方便回到课件对照。
 
 # 一、本讲的整体地图
@@ -126,7 +127,7 @@ $$
 \mathrm{Sigmoid}(x)=\frac{1}{1+e^{-x}}
 $$
 
-激活函数的作用是引入非线性。没有 activation，多层线性变换仍等价于单层线性变换。
+激活函数的作用是引入非线性。没有 activation，多层仿射变换（含 bias）复合后仍是单个仿射变换。
 
 ## 3. Universality 与深度
 
@@ -134,9 +135,9 @@ $$
 
 万能逼近定理（Universal Approximation Theorem）说明神经网络可以逼近紧集上的连续函数。
 
-任意宽度版本：浅层网络足够宽，可以逼近任意连续函数。
+任意宽度版本：在适当激活函数等条件下，浅层网络足够宽，可以在紧集上一致逼近连续函数。
 
-任意深度版本：宽度固定但足够深，也可以逼近任意连续函数。
+任意深度版本：对满足相应定理条件的网络，宽度达到与输入维数等有关的阈值后，可通过增加深度实现逼近；“固定宽度”不意味着任意小的宽度都可以。
 
 但要注意：这只是表达能力结论，不保证训练算法一定找到最优网络，也不保证泛化。
 
@@ -174,13 +175,13 @@ $$
 (Y_i-f(X_i;\theta))^2
 $$
 
-LS 对应条件均值：
+在总体期望损失且条件二阶矩存在时，平方损失的最优预测为条件均值：
 
 $$
 f^*(x)=\mathbb{E}[Y\mid X=x]
 $$
 
-LAD 对应条件中位数：
+绝对损失的总体最优预测为条件中位数（可能不唯一）：
 
 $$
 f^*(x)=\mathrm{median}(Y\mid X=x)
@@ -283,6 +284,8 @@ $$
 \theta^{k+1}=\theta^k-v_{k+1}
 $$
 
+这里使用将步长吸收进速度的常见记法。课件第 46 页使用 $v_{k+1}=\gamma v_k+(1-\gamma)g_k$ 且直接令 $\theta^{k+1}=\theta^k-v_{k+1}$；两式的梯度系数约定不同，比较时需注意。
+
 AdaGrad 根据历史梯度调整每个坐标学习率；Adam 同时结合 momentum 和 adaptive learning rate。
 
 Adam 推荐超参数：
@@ -295,7 +298,7 @@ $$
 
 对应 PDF：p.52-p.54
 
-SGD 的随机性可以用方差参数理解。课件提到 noise reduction methods，希望降低 Assumption 3.2 中的 $B$。
+课件 Assumption 3.2 中 $B$ 满足 $\mathbb E[\|g(\theta,\xi)\|^2]\le B^2$，即随机梯度**二阶矩**的上界；它包含梯度均值贡献，并不直接等同于噪声方差。课件提到 noise reduction methods，希望降低该上界。
 
 Dynamic Sample Size SGD 的直觉是：训练早期可以用较小 batch 快速探索，后期逐渐增加样本量，降低梯度噪声。
 
@@ -358,10 +361,10 @@ $$
 
 维点积加 bias。
 
-输出尺寸公式：
+输出尺寸公式（dilation 为 1，完整窗口向下取整；参见 [PyTorch Conv2d 文档](https://docs.pytorch.org/docs/stable/generated/torch.nn.Conv2d.html)）：
 
 $$
-O=\frac{N+2P-F}{S}+1
+O=\left\lfloor\frac{N+2P-F}{S}\right\rfloor+1
 $$
 
 其中 $N$ 是输入尺寸，$F$ 是 kernel size，$S$ 是 stride，$P$ 是 padding。
@@ -382,9 +385,9 @@ Pooling size $K$、stride $P$ 后：
 
 $$
 D\times
-\left(\frac{M-K}{P}+1\right)
+\left(\left\lfloor\frac{M-K}{P}\right\rfloor+1\right)
 \times
-\left(\frac{N-K}{P}+1\right)
+\left(\left\lfloor\frac{N-K}{P}\right\rfloor+1\right)
 $$
 
 感受野（Receptive Field）表示输出元素依赖输入中的区域。多层卷积会扩大感受野。
@@ -409,7 +412,7 @@ $$
 \phi(Y_if(X_i;\theta))
 $$
 
-常见替代损失：
+以下是标签 $y\in\{-1,+1\}$、模型得分为 $f$ 时的常见替代损失：
 
 $$
 \phi_{\mathrm{exp}}(yf)=\exp(-yf)
@@ -479,11 +482,13 @@ GoogLeNet：使用 Inception 模块处理多尺度特征。
 
 对应 PDF：p.106-p.114
 
-Xavier initialization 目标是保持输入输出方差：
+课件采用只按输入维度控制前向方差的简化形式：
 
 $$
 \mathrm{Var}(W)=\frac{1}{n_{\text{in}}}
 $$
+
+[Glorot 与 Bengio 原论文](https://proceedings.mlr.press/v9/glorot10a.html)中的常见 Xavier/Glorot 初始化兼顾前向与反向传播，取 $\mathrm{Var}(W)=2/(n_{\text{in}}+n_{\text{out}})$；两者在输入、输出维度相等时一致。
 
 He initialization 适合 ReLU：
 
@@ -529,11 +534,13 @@ $$
 D_{\mathrm{KL}}(q_\phi(z\mid x)\|p(z))
 $$
 
-重参数化：
+当 $\Sigma_\phi(x)$ 为对角协方差时，可以逐元素重参数化：
 
 $$
 z=\mu_x+\sigma_x\odot\epsilon,\quad \epsilon\sim\mathcal{N}(0,I)
 $$
+
+一般协方差可写作 $z=\mu_x+L_x\epsilon$，其中 $L_xL_x^\top=\Sigma_\phi(x)$。
 
 ## 2. GAN
 
@@ -660,11 +667,13 @@ $$
 
 BPE 用 subword tokenization 处理 rare words。
 
-BERT 使用 masked language modeling：
+BERT 使用 masked language modeling，对选中的目标位置 $M$ 预测原 token：
 
 $$
-p_\theta(x\mid \tilde{x})
+\max_\theta\sum_{i\in M}\log p_\theta(x_i\mid\tilde{x})
 $$
+
+$\tilde{x}$ 是按 BERT 的 mask、随机替换或保持不变规则扰动后的输入。
 
 并使用 two-sentence task 学习句间关系。
 
@@ -831,7 +840,7 @@ $$
 Convolution output：
 
 $$
-O=\frac{N+2P-F}{S}+1
+O=\left\lfloor\frac{N+2P-F}{S}\right\rfloor+1
 $$
 
 Softmax：
@@ -884,7 +893,7 @@ DPO：
 $$
 \mathcal{L}_{\mathrm{DPO}}
 =
--\mathbb{E}\left[\log\sigma(\text{preferred log-ratio} - \text{rejected log-ratio})\right]
+-\mathbb{E}\left[\log\sigma\!\left(\beta(\text{preferred log-ratio} - \text{rejected log-ratio})\right)\right]
 $$
 
 ## 3. 本讲一句话
@@ -895,7 +904,7 @@ Lecture 13 把深度学习从基础函数逼近、优化、视觉、生成、序
 
 ## 1. 本讲怎么读
 
-这一讲对应 PDF：p.1-p.229。它有两层任务：前半讲介绍 scaling laws，后半讲把整门课从 MLP 到 RLHF 串成复习地图。读的时候不要逐页平均用力，而要把它当成考试前的总索引。
+这一讲对应 PDF：p.1-p.230，其中最后一页为空白。它有两层任务：前半讲介绍 scaling laws，后半讲把整门课从 MLP 到 RLHF 串成复习地图。读的时候不要逐页平均用力，而要把它当成考试前的总索引。
 
 推荐读法：
 
@@ -958,7 +967,7 @@ $$
 \mathrm{Attention}(Q,K,V)=\mathrm{softmax}\left(\frac{QK^T}{\sqrt{d_k}}\right)V
 $$
 
-这些公式覆盖了优化、CNN 尺寸、分类概率、交叉熵和 Transformer，是整门课最容易被反复调用的骨架。
+这些公式覆盖了优化、CNN 尺寸、分类概率、交叉熵和 Transformer，是整门课最容易被反复调用的骨架。DPO 速查中的 log-ratio 指当前策略对 reference policy 的对数概率比，$\beta$ 为调节参数。
 
 ## 2. 做题和复习时的检查清单
 

@@ -1,6 +1,7 @@
 > [!info] 资料来源
 > - 课件：`AMA564_Deep Learning_Lecture5.pdf`
-> - 本笔记只依据 PDF 整理。
+> - 本文件夹中的原始课件：[[Lecture5.pdf]]。
+> - 笔记以课件为主，并补充适用条件和必要的外部参考。
 > - 本讲从 CNN 基本组件进入经典架构，并解释深层网络训练中的初始化与 Batch Normalization。
 
 # 一、本讲的整体地图
@@ -277,7 +278,7 @@ $$
 
 课件列出训练 ResNet 的实践要点：
 
-- 使用 He 的 Xavier initialization；
+- 使用 He initialization（针对 ReLU 的初始化）；
 - 每个 convolution layer 后使用 Batch Normalization；
 - 使用 SGD + Momentum，其中 momentum 为 0.9；
 - 使用动态学习率调度（Dynamic Learning Rate Scheduling）；
@@ -323,7 +324,7 @@ $$
 y=w_1x_1+w_2x_2+\cdots+w_nx_n
 $$
 
-假设 $w_i$ 和 $x_i$ 独立同分布，均值为 0，则：
+假设权重和输入各自同分布、均值为 0，权重与输入相互独立，且不同求和项不相关，则：
 
 $$
 \mathrm{Var}(w_ix_i)=\mathrm{Var}(w_i)\mathrm{Var}(x_i)
@@ -357,7 +358,7 @@ $$
 W\sim \frac{N(0,1)}{\sqrt{n_{\text{in}}}}
 $$
 
-这就是 Xavier 的核心直觉。
+这是只按输入维度保持前向方差的简化形式。[Glorot 与 Bengio 原论文](https://proceedings.mlr.press/v9/glorot10a.html)中的常见 Xavier/Glorot 初始化兼顾前向与反向传播，权重方差取 $2/(n_{\text{in}}+n_{\text{out}})$；当输入、输出宽度相等时与上式一致。
 
 ## 3. He Initialization for ReLU
 
@@ -458,7 +459,7 @@ $$
 
 对应 PDF：p.60
 
-训练时 BN 使用当前 batch 的均值和方差；测试时不能依赖 batch 的随机统计量，通常使用训练过程中累计的 running mean 和 running variance：
+训练时 BN 使用当前 batch 的均值和方差；测试时通常使用训练过程中累计的 running mean 和 running variance。课件第 60 页用下式表述跨 batch 统计量的理想化期望；实际实现通常以移动平均估计，因此不一定严格等于该期望：
 
 $$
 \mu_j^{\text{test}}=\mathbb{E}[\mu_j]
@@ -467,6 +468,8 @@ $$
 $$
 (\sigma_j^2)^{\text{test}}=\mathbb{E}[\sigma_j^2]
 $$
+
+注意第 58 页的 batch variance 分母是 $N$。若样本独立同分布且总体方差为 $\sigma_{\rm pop}^2$，则其期望为 $(N-1)\sigma_{\rm pop}^2/N$，有限 batch 下并不等于总体方差；不同框架在计算训练时方差和更新 running variance 时可能使用不同的偏差修正。
 
 测试时：
 
@@ -482,7 +485,7 @@ $$
 y_j^i=\gamma_j\hat{x}_j^i+\beta_j
 $$
 
-课件指出：测试阶段 BN 是一个 linear operator。
+课件将测试阶段的 BN 称为 linear operator；严格说，在固定统计量及参数后它是**仿射变换**，一般含有平移项，不一定满足线性映射的零点条件。
 
 ## 5. BN 可以放在哪里
 

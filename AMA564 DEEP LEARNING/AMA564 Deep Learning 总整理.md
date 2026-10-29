@@ -199,17 +199,17 @@ $$
 Padding 和 stride：
 
 - **padding**：在边界补 0，用来控制输出尺寸并保留边缘信息。
-- 常见设置：stride 1、filter size $F\times F$、zero padding $(F-1)/2$，可以保持空间尺寸。
+- 常见设置：stride 1、奇数 filter size $F\times F$、zero padding $(F-1)/2$，可以保持空间尺寸。
 - **stride**：卷积窗口移动步长，越大输出越小。
 
 Pooling：
 
 - Max pooling / average pooling 是 downsampling。
 - 作用是构造更紧凑、对小扰动更稳健的特征。
-- 对 $D\times M\times N$ 输入，pooling size $K\times K$，stride $P$，输出尺寸约为
+- 对 $D\times M\times N$ 输入，pooling size $K\times K$，stride $P$，无 padding、默认向下取整时输出尺寸为
 
 $$
-D\times ((M-K)/P+1)\times ((N-K)/P+1).
+D\times \left(\left\lfloor\frac{M-K}{P}\right\rfloor+1\right)\times \left(\left\lfloor\frac{N-K}{P}\right\rfloor+1\right).
 $$
 
 > [!tip] 复习抓手
@@ -300,15 +300,17 @@ $$
 
 VAE 的核心改变：
 
-- 不把输入编码成一个点，而是编码成分布 $N(\mu_x,\sigma_x)$。
+- 不把输入编码成一个点，而是编码成分布 $q_\phi(z\mid x)=\mathcal{N}(\mu_x,\operatorname{diag}(\sigma_x^2))$；这里 $\sigma_x$ 是标准差向量。
 - 从这个分布采样 $z$，再由 decoder 生成 $\hat{x}$。
 - 用 KL divergence 把编码分布正则化到标准正态附近。
 
 VAE loss：
 
 $$
-\text{loss}=\|x-\hat{x}\|^2+\mathrm{KL}[N(\mu_x,\sigma_x),N(0,1)].
+\mathcal{L}(x)=-\mathbb{E}_{q_\phi(z\mid x)}[\log p_\theta(x\mid z)]+D_{\mathrm{KL}}\!\left(q_\phi(z\mid x)\|p(z)\right).
 $$
+
+其中 $p(z)=\mathcal{N}(0,I)$。平方重构误差仅在合适的高斯解码分布假设下，与负对数似然相差常数及尺度；训练时通常对期望采样估计。
 
 KL divergence：
 
@@ -319,10 +321,10 @@ $$
 Reparameterization trick：
 
 $$
-z=\sigma_x\zeta+\mu_x,\qquad \zeta\sim N(0,I).
+z=\sigma_x\odot\zeta+\mu_x,\qquad \zeta\sim N(0,I).
 $$
 
-这样随机性从 $z\sim N(\mu_x,\sigma_x)$ 的采样节点中移出，梯度可以回传到 $\mu_x$ 和 $\sigma_x$。
+这样随机性从 $z\sim\mathcal{N}(\mu_x,\operatorname{diag}(\sigma_x^2))$ 的采样节点中移出，梯度可以回传到 $\mu_x$ 和 $\sigma_x$。
 
 > [!tip] 复习抓手
 > VAE 的一句话答案：它既要重构得像，又要 latent space 像标准正态一样可采样。重构项管“像不像”，KL 项管“能不能顺滑地采样”。
@@ -571,8 +573,8 @@ MLP/activation/universality -> loss/ERM -> optimization/backprop -> CNN/classifi
 | SGD | $\theta^{k+1}=\theta^k-\alpha_k g(\theta^k,\xi_k)$ | 用随机梯度估计全量梯度 |
 | Softmax | $\frac{\exp(z_j)}{\sum_i\exp(z_i)}$ | 把 logits 转成概率分布 |
 | Cross entropy | $-\sum_i y_i\log\hat{y}_i$ | 最大化正确类别概率 |
-| VAE | $\|x-\hat{x}\|^2+\mathrm{KL}[N(\mu_x,\sigma_x),N(0,1)]$ | 重构质量 + latent 正则 |
-| Reparameterization | $z=\sigma_x\zeta+\mu_x$ | 让采样过程可反传 |
+| VAE | $-\mathbb{E}_{q_\phi(z\mid x)}[\log p_\theta(x\mid z)]+D_{\mathrm{KL}}(q_\phi(z\mid x)\|p(z))$ | 重构负对数似然 + latent 正则 |
+| Reparameterization | $z=\sigma_x\odot\zeta+\mu_x$ | 让采样过程可反传 |
 | GAN | $\min_G\max_D V(D,G)$ | 生成器和判别器对抗 |
 | LSTM | $c_t=f_t\odot c_{t-1}+i_t\odot\tilde{c}_t$ | 用门控维护长期记忆 |
 | Attention | $\operatorname{softmax}(QK^T/\sqrt{d_k})V$ | 根据相关性加权聚合信息 |

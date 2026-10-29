@@ -1,6 +1,7 @@
 > [!info] 资料来源
 > - 课件：`AMA564_Deep Learning_Lecture7.pdf`
-> - 本笔记只依据 PDF 整理。
+> - 本文件夹中的原始课件：[[Lecture7.pdf]]。
+> - 笔记以课件为主，并补充适用条件和必要的外部参考。
 > - 本讲核心问题：生成模型如何学习数据分布？为什么普通 Autoencoder 不适合直接生成？VAE 如何让 latent space 可采样？
 
 # 一、本讲的整体地图
@@ -236,7 +237,7 @@ $$
 D_{\mathrm{KL}}\left(q_\phi(z\mid x)\|p(z)\right)
 $$
 
-第一项要求 reconstruction 好，第二项要求 latent distribution 规则。
+第一项要求 reconstruction 好，第二项要求 latent distribution 规则。课件第 20 页写的是平方重构误差加 KL 的示意；它可对应固定方差高斯 decoder 的负对数似然，具体系数和常数取决于方差及采用 sum 还是 mean。
 
 # 五、KL Divergence
 
@@ -263,7 +264,7 @@ $$
 课件强调两个性质：
 
 1. KL divergence 非负；
-2. KL divergence 为 0 当且仅当 $p=q$。
+2. KL divergence 为 0 当且仅当 $p=q$（对连续分布指几乎处处相等）。
 
 需要注意：KL divergence 不是对称距离，通常：
 
@@ -283,7 +284,15 @@ $$
 
 这样做的效果是：latent space 被组织得更连续、更完整。课件说 regularisation tends to create a “gradient” over the information encoded in the latent space。
 
-通俗理解：普通 AE 的 latent space 可能到处是空洞；VAE 用 KL regularization 把编码分布整理到一个更可采样的空间里。
+通俗理解：普通 AE 的 latent space 可能到处是空洞；VAE 用 KL regularization 鼓励编码分布靠近先验，从而有助于采样，但有限模型与训练下并不保证所有采样点都产生高质量结果。
+
+课件第 22 页给出多元高斯之间的 KL 公式。对常见的对角高斯 $q_\phi(z\mid x)=\mathcal N(\mu,\operatorname{diag}(\sigma^2))$ 和标准正态先验，可化简为：
+
+$$
+D_{\mathrm{KL}}(q_\phi(z\mid x)\|\mathcal N(0,I))=\frac12\sum_{j=1}^{d}\left(\mu_j^2+\sigma_j^2-1-\log\sigma_j^2\right),\quad\sigma_j>0.
+$$
+
+例如 $\mu=0$、$\sigma=1$ 时，该 KL 项为 0。
 
 # 六、VAE 的神经网络实现
 
@@ -352,14 +361,14 @@ $$
 z=\sigma_x\zeta+\mu_x,\qquad \zeta\sim N(0,I)
 $$
 
-这样随机性来自 $\zeta$，而 $z$ 对 $\mu_x$ 和 $\sigma_x$ 是可微的：
+对角协方差情形下，$\Sigma_x=\operatorname{diag}(\sigma_x^2)$。随机性来自 $\zeta$，而 $z$ 对 $\mu_x$ 和 $\sigma_x$ 是可微的；下面是第 $j$ 个分量的导数：
 
 $$
-\frac{\partial z}{\partial \mu_x}=1
+\frac{\partial z_j}{\partial \mu_{x,j}}=1
 $$
 
 $$
-\frac{\partial z}{\partial \sigma_x}=\zeta
+\frac{\partial z_j}{\partial \sigma_{x,j}}=\zeta_j
 $$
 
 因此 backpropagation 可以继续训练 encoder。
