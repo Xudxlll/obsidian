@@ -1,0 +1,28 @@
+{
+  "id": "conv-1793262449491-c7d0frxez",
+  "providerId": "codex",
+  "title": "Explain note quickly with examples",
+  "titleGenerationStatus": "success",
+  "createdAt": 1793262449495,
+  "updatedAt": 1793263003800,
+  "lastResponseAt": 1793262575639,
+  "sessionId": "01a186c5-7485-7882-a862-32f37b64e6fc",
+  "selectedModel": "gpt-6.1-sol",
+  "providerState": {
+    "threadId": "01a186c5-7485-7882-a862-32f37b64e6fc",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/10/29/rollout-2026-10-29T16-27-34-01a186c5-7485-7882-a862-32f37b64e6fc.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "Python、数据分析与人工智能/Python基础/08-面向对象编程高级.md",
+  "usage": {
+    "inputTokens": 32953,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 28672,
+    "contextWindow": 475000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 32953,
+    "percentage": 7,
+    "model": "gpt-6.1-sol"
+  }
+}

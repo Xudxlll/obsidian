@@ -1,0 +1,28 @@
+{
+  "id": "conv-1793263017191-ldnkbupgr",
+  "providerId": "codex",
+  "title": "Explain Python packages vs modules",
+  "titleGenerationStatus": "success",
+  "createdAt": 1793263017191,
+  "updatedAt": 1793266769759,
+  "lastResponseAt": 1793266769759,
+  "sessionId": "01a186ce-1dd7-7da1-b904-76b6fc4cf2b2",
+  "selectedModel": "gpt-6.1-sol",
+  "providerState": {
+    "threadId": "01a186ce-1dd7-7da1-b904-76b6fc4cf2b2",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/10/29/rollout-2026-10-29T16-37-02-01a186ce-1dd7-7da1-b904-76b6fc4cf2b2.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "Python、数据分析与人工智能/Python基础/10-模块与包.md",
+  "usage": {
+    "inputTokens": 68583,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 68352,
+    "contextWindow": 475000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 68583,
+    "percentage": 14,
+    "model": "gpt-6.1-sol"
+  }
+}
