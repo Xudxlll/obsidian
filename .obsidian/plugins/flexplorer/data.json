@@ -15404,12 +15404,12 @@
     "面试准备": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "03｜审计实习经历类面试问答.md",
         "02｜审计实习面试问答与连续追问.md",
         "01｜会计知识面试问答.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "面试准备/01｜会计知识面试问答.md": {
       "isPinned": false,
@@ -15422,10 +15422,10 @@
     "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "Day09_固定资产折旧重算教学.xlsx"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "佛山市瑞志会计师事务所—审计助理（嘉洛智能案例）/附件/Day09_固定资产折旧重算教学.xlsx": {
       "isPinned": false,
@@ -15434,14 +15434,15 @@
     "金融知识/附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "中期选举前瞻"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融知识/附件/中期选举前瞻": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "原文图片-12.png",
         "原文图片-10.png",
@@ -15455,8 +15456,7 @@
         "原文图片-02.png",
         "原文图片-01.jpg",
         "原文图片-03.png"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "金融知识/附件/中期选举前瞻/原文图片-03.png": {
       "isPinned": false,
@@ -15513,6 +15513,7 @@
     "AMA573 A股因子与机器学习课程项目/2026-10-27 亏损诊断与改进": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "AMA573复盘05 股票池刷新为何转正.md",
         "附件",
@@ -15521,8 +15522,7 @@
         "AMA573复盘02 换手与成本到底算了什么.md",
         "AMA573复盘01 正IC为什么仍亏钱.md",
         "AMA573复盘00 从这里开始.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA573 A股因子与机器学习课程项目/2026-10-27 亏损诊断与改进/AMA573复盘00 从这里开始.md": {
       "isPinned": false,
@@ -15547,6 +15547,7 @@
     "AMA573 A股因子与机器学习课程项目/2026-10-27 亏损诊断与改进/附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "09_refresh_pool.png",
         "08_stress.png",
@@ -15557,8 +15558,7 @@
         "04_year_matrix.png",
         "03_nav_costs.png",
         "01_fee_drag.png"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "AMA573 A股因子与机器学习课程项目/2026-10-27 亏损诊断与改进/附件/01_fee_drag.png": {
       "isPinned": false,
@@ -15615,6 +15615,7 @@
     "EI论文精读—企业数字化转型与ESG/旧版笔记（已归档）": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "10 来源索引与阅读记录.md",
         "11 原文逐页对照.md",
@@ -15628,8 +15629,7 @@
         "02 第二轮逐节精读.md",
         "01 第一轮通读与研究地图.md",
         "00 阅读导航与核心结论.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "EI论文精读—企业数字化转型与ESG/旧版笔记（已归档）/00 阅读导航与核心结论.md": {
       "isPinned": false,
@@ -15686,6 +15686,7 @@
     "SSCI论文精读—CEO金融背景与企业金融化/旧版笔记（已归档）": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "15 CEO论文原文逐页对照.md",
         "14 CEO论文来源索引与阅读记录.md",
@@ -15703,8 +15704,7 @@
         "02 CEO论文摘要引言与假设精读.md",
         "01 CEO论文第一轮通读与研究地图.md",
         "00 CEO论文阅读导航与核心结论.md"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "SSCI论文精读—CEO金融背景与企业金融化/旧版笔记（已归档）/00 CEO论文阅读导航与核心结论.md": {
       "isPinned": false,
@@ -15809,6 +15809,7 @@
     "K线形态识别项目": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "04 如何判断模型效果与下一步.md",
         "03 自建实验：标注、训练与测试.md",
@@ -15816,16 +15817,15 @@
         "01 数据和K线图片：从价格到像素.md",
         "00 项目总览与学习路线.md",
         "附件"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "K线形态识别项目/附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "原模型对照示例.jpg"
-      ],
-      "sortOrder": "custom"
+      ]
     },
     "K线形态识别项目/附件/原模型对照示例.jpg": {
       "isPinned": false,
