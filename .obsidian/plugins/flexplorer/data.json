@@ -3768,6 +3768,7 @@
       "isHidden": false,
       "sortOrder": "byName",
       "customOrder": [
+        "03 - 债券入门：久期、凸性、信用利差与杠杆.md",
         "02 - 期中考试综合复习（讲义与作业主线）.md",
         "Assignment 2",
         "Assignment 1",
@@ -15856,6 +15857,10 @@
       "isHidden": false
     },
     "曲面观策项目学习与面试/04-面试与验证/07-面试前十分钟：口述稿与追问卡.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA572 Fixed-Income and Credit Risk/03 - 债券入门：久期、凸性、信用利差与杠杆.md": {
       "isPinned": false,
       "isHidden": false
     }
