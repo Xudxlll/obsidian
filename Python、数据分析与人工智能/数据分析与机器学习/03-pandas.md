@@ -94,27 +94,52 @@ import pandas as pd
 # 创建一个空的DataFrame
 df = pd.DataFrame()
 print(df)
+# Empty DataFrame
+# Columns: []
+# Index: []
 
 # 通过列表创建DataFrame   列表创建  列表中一个元素为一行数据
 data1 = [1,2,3,4,5]
 df1 = pd.DataFrame(data1)
 print(df1)
+#    0
+# 0  1
+# 1  2
+# 2  3
+# 3  4
+# 4  5
 
 data2 = [['Alex',10],['Bob',12],['Clarke',13]]
 df2 = pd.DataFrame(data2)
 print(df2)
+#         0   1
+# 0    Alex  10
+# 1     Bob  12
+# 2  Clarke  13
 
 df3 = pd.DataFrame(data2,index=['S01','S02','S03'],columns=['Name','Age'])
 print(df3)
+#        Name  Age
+# S01    Alex   10
+# S02     Bob   12
+# S03  Clarke   13
 
 data3 = [{'a': 1, 'b': 2},{'a': 5, 'b': 10, 'c': 20}]
 df4 = pd.DataFrame(data3)
 print(df4)
+#    a   b     c
+# 0  1   2   NaN
+# 1  5  10  20.0
 
 # 通过字典创建DataFrame  字典创建  一个键值对是一列数据
 data4 = {'Name':['Tom', 'Jack', 'Steve', 'Ricky'],'Age':[28,34,29,42]}
 df5 = pd.DataFrame(data4)
 print(df5)
+#     Name  Age
+# 0    Tom   28
+# 1   Jack   34
+# 2  Steve   29
+# 3  Ricky   42
 ```
 
 ### 2.2.2 DataFrame常用属性
