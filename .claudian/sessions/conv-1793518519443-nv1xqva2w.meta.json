@@ -1,0 +1,28 @@
+{
+  "id": "conv-1793518519443-nv1xqva2w",
+  "providerId": "codex",
+  "title": "Explain unclear note content",
+  "titleGenerationStatus": "success",
+  "createdAt": 1793518519453,
+  "updatedAt": 1793525801781,
+  "lastResponseAt": 1793525801781,
+  "sessionId": "01a19608-c592-78f1-9575-8a974ab200f5",
+  "selectedModel": "gpt-6.1-terra",
+  "providerState": {
+    "threadId": "01a19608-c592-78f1-9575-8a974ab200f5",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/11/01/rollout-2026-11-01T15-35-19-01a19608-c592-78f1-9575-8a974ab200f5.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "Python、数据分析与人工智能/数据分析与机器学习/01-Numpy.md",
+  "usage": {
+    "inputTokens": 60236,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 57344,
+    "contextWindow": 475000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 60236,
+    "percentage": 13,
+    "model": "gpt-6.1-terra"
+  }
+}

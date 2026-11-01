@@ -24,22 +24,32 @@
   # 创建ndarray数组
   ary = np.array([1,2,3,4,5,6])
   print(ary,type(ary))
+  # [1 2 3 4 5 6] <class 'numpy.ndarray'>
   
   list01 = [1,2,3,4,5,6]
   for i in range(len(list01)):
       list01[i] += 3
   print(list01)
+  # [4, 5, 6, 7, 8, 9]
   
   # 与列表的区别 - 给每一个元素加3，需要通过for循环遍历然后逐个加3
   # ndarray的运算  - 直接在ndarray数组对象上加3
   print(ary + 3)
+  # [4 5 6 7 8 9]
   print(ary + ary)
+  # [ 2  4  6  8 10 12]
   print(ary * 2)
+  # [ 2  4  6  8 10 12]
   print(ary > 3)
+  # [False False False  True  True  True]
   
   ary1 = np.array([[1,2,3],[4,5,6]])
   print(ary1,type(ary1))
+  # [[1 2 3]
+  #  [4 5 6]] <class 'numpy.ndarray'>
   print(ary1 + 3)
+  # [[4 5 6]
+  #  [7 8 9]]
   ```
 
 # 二、Numpy 基础
@@ -52,6 +62,7 @@
 import numpy as np
 ary = np.array([1,2,3,4,5,6])
 print(type(ary))
+# <class 'numpy.ndarray'>
 ```
 
 ### 2.1.1 内存中的 ndarray 对象
@@ -82,9 +93,12 @@ print(type(ary))
   
   # 三个对象共享同一块内存
   # .data 属性是访问原始数据缓冲区
-  print(arr.data)      # 内存地址: 0x7f8a1c000000
-  print(view1.data)    # 相同地址
-  print(view2.data)    # 相同地址
+  print(arr.data)      # memoryview 对象；显示的地址不是直接展示数组数据地址
+  # <memory at 0x10d445f00>
+  print(view1.data)    # memoryview 对象
+  # <memory at 0x10d445e40>
+  print(view2.data)    # memoryview 对象
+  # <memory at 0x10d445f00>
   
   # 修改视图会影响原数组
   view1[0] = 100
@@ -114,7 +128,7 @@ print(type(ary))
   # 转置 - 只交换元数据中的shape和strides
   transposed = arr.T
   print(transposed.strides)  # (8, 24)  - 步长交换了
-  print(transposed.base is arr)  # True - 共享数据
+  print(transposed.base is arr)  # False；仍可通过 np.shares_memory 判断共享内存
   
   # 广播
   a = np.array([1,2,3])
@@ -135,6 +149,11 @@ print(type(ary))
 # np.array(任何可被解释为Numpy数组的逻辑结构)
 t1 = np.array([[[1,2],[3,4]],[[5,6],[7,8]]])
 print(t1,type(t1))
+# [[[1 2]
+#   [3 4]]
+# 
+#  [[5 6]
+#   [7 8]]] <class 'numpy.ndarray'>
 
 # np.array({"a":1,"b":2,"c":3}) 
 # 有些版本的numpy会报错
@@ -150,8 +169,10 @@ print(t1,type(t1))
 # np.arange(起始值(0)，终止值，步长(1))
 t2 = np.arange(0,5,1)
 print(t2,type(t2))
+# [0 1 2 3 4] <class 'numpy.ndarray'>
 t3 = np.arange(0,10,2)
 print(t3)
+# [0 2 4 6 8]
 ```
 
 - **np.zeros(shape,dtype='类型')**
@@ -160,6 +181,7 @@ print(t3)
 # np.zeros(shape，dtype="类型")
 t4 = np.zeros(10,dtype='int32')
 print(t4)
+# [0 0 0 0 0 0 0 0 0 0]
 ```
 
 - **np.ones(shape,dtype='类型')**
@@ -168,10 +190,13 @@ print(t4)
 # np.ones(shape，dtype="类型")
 t5 = np.ones(10,dtype='bool_')
 print(t5)
+# [ True  True  True  True  True  True  True  True  True  True]
 
 # 创建一个2行4列的全1数组
 t6 = np.ones((2,4),dtype='int32')
 print(t6)
+# [[1 1 1 1]
+#  [1 1 1 1]]
 ```
 
 - **np.zeros_like(ary)   np.ones_like(ary)**
@@ -180,6 +205,11 @@ print(t6)
 # np.zeros_like(ary)  np.ones_like(ary)
 t7 = np.ones_like(t1)
 print(t7)
+# [[[1 1]
+#   [1 1]]
+# 
+#  [[1 1]
+#   [1 1]]]
 ```
 
 - **np.linspace(起始值,终止值,个数)**
@@ -188,6 +218,15 @@ print(t7)
 # np.linspace(起始值,终止值,个数)
 t8 = np.linspace(-10,10,200)
 print(t8)
+# [-10.          -9.89949749  -9.79899497  -9.69849246  -9.59798995
+#   -9.49748744  -9.39698492  -9.29648241  -9.1959799   -9.09547739
+#   -8.99497487  -8.89447236  -8.79396985  -8.69346734  -8.59296482
+#   -8.49246231  -8.3919598   -8.29145729  -8.19095477  -8.09045226
+#   -7.98994975  -7.88944724  -7.78894472  -7.68844221  -7.5879397
+#   -7.48743719  -7.38693467  -7.28643216  -7.18592965  -7.08542714
+#   -6.98492462  -6.88442211  -6.7839196   -6.68341709  -6.58291457
+#   -6.48241206  -6.38190955  -6.28140704
+# ...（其余输出省略）
 ```
 
 - **np.random.normal(期望值,标准差,个数)**
@@ -198,6 +237,14 @@ print(t8)
 # np.random.normal(期望值,标准差,个数)
 t9 = np.random.normal(0,1,100) # 标准正态分布，均值为0标准差为1
 print(t9)
+# [ 0.49671415 -0.1382643   0.64768854  1.52302986 -0.23415337 -0.23413696
+#   1.57921282  0.76743473 -0.46947439  0.54256004 -0.46341769 -0.46572975
+#   0.24196227 -1.91328024 -1.72491783 -0.56228753 -1.01283112  0.31424733
+#  -0.90802408 -1.4123037   1.46564877 -0.2257763   0.0675282  -1.42474819
+#  -0.54438272  0.11092259 -1.15099358  0.37569802 -0.60063869 -0.29169375
+#  -0.60170661  1.85227818 -0.01349722 -1.05771093  0.82254491 -1.22084365
+#   0.2088636  -1.95967012 -1.32818605  0.19686124  0.73846658  
+# ...（其余输出省略）
 ```
 
 > 更多随机数方法见 [[Python、数据分析与人工智能/数据分析与机器学习/01-Numpy#2.5 numpy.random 常用随机方法|2.5 numpy.random 常用随机方法]]。
@@ -207,6 +254,7 @@ print(t9)
 ```python
 t10 = np.ones(5) / 5
 print(t10)
+# [0.2 0.2 0.2 0.2 0.2]
 ```
 
 ### 2.1.4 Numpy 的内部基本数据类型
@@ -230,9 +278,15 @@ import numpy as np
 # shape属性
 a = np.arange(1,9)
 print(a,a.shape)     # (8,)  一维8个数据的数组
+# [1 2 3 4 5 6 7 8] (8,)
 # a.shape = (2,4)      # 修改一个数组的shape属性
 a.shape = (2,2,2)
 print(a,a.shape)
+# [[[1 2]
+#   [3 4]]
+# 
+#  [[5 6]
+#   [7 8]]] (2, 2, 2)
 
 # 二维数组
 ary = np.array([
@@ -240,6 +294,8 @@ ary = np.array([
     [5,6,7,8]
 ])
 print(type(ary), ary, ary.shape)
+# <class 'numpy.ndarray'> [[1 2 3 4]
+#  [5 6 7 8]] (2, 4)
 
 # 数组维度的操作
 # 1. 视图变维(共享数据) reshape() 与 ravel()
@@ -250,9 +306,18 @@ c = b.reshape(2, 2, 2)  # 视图变维:变为2页2行2列的三维数组
 d = c.ravel()			# 视图变维:变为1维数组
 
 print("a:",a)
+# a: [1 2 3 4 5 6 7 8]
 print("b:",b)
+# b: [[1 2 3 4]
+#  [5 6 7 8]]
 print("c:",c)
+# c: [[[1 2]
+#   [3 4]]
+# 
+#  [[5 6]
+#   [7 8]]]
 print("d:",d)
+# d: [1 2 3 4 5 6 7 8]
 
 # base 属性是 NumPy 数组的一个重要元数据属性，它指向数组数据的原始拥有者。简单说，它告诉你当前数组的数据是从哪个数组"借来"的。
 print("a.base:", a.base)        # None (a 是原始数据)
@@ -263,18 +328,30 @@ print("d.base is a:", d.base is a)  # True
 # 2. 复制变维（数据独立） flatten()
 e = c.flatten()
 print("e:",e)
+# e: [1 2 3 4 5 6 7 8]
 a += 10
 print("a:",a)
+# a: [11 12 13 14 15 16 17 18]
 print("e:",e)
+# e: [1 2 3 4 5 6 7 8]
 print("e.base is a:", e.base) # None
 print("b:",b) # ？
+# b: [[11 12 13 14]
+#  [15 16 17 18]]
 
 # 3. 就地变维
 # resize直接改变原数组对象的维度，不返回新数组
 a.shape = (2, 4)
 print("a:",a)
+# a: [[11 12 13 14]
+#  [15 16 17 18]]
 a.resize(2, 2, 2)
 print("a:",a)
+# a: [[[11 12]
+#   [13 14]]
+# 
+#  [[15 16]
+#   [17 18]]]
 ```
 
 - **元素的类型：np.ndarray.dtype
@@ -283,12 +360,15 @@ print("a:",a)
 import numpy as np
 ary = np.array([1, 2, 3, 4, 5, 6])
 print(type(ary), ary, ary.dtype)
+# <class 'numpy.ndarray'> [1 2 3 4 5 6] int64
 # 转换ary元素的类型
 b = ary.astype(float)
 print(type(b), b, b.dtype)
+# <class 'numpy.ndarray'> [1. 2. 3. 4. 5. 6.] float64
 # 转换ary元素的类型
 c = ary.astype(str)
 print(type(c), c, c.dtype)
+# <class 'numpy.ndarray'> ['1' '2' '3' '4' '5' '6'] <U21
 ```
 
 - **数组元素的个数：np.ndarray.size
@@ -302,6 +382,7 @@ ary = np.array([
 # 观察维度，size，len的区别
 # len() 函数只考虑最外层的元素个数
 print(ary.shape, ary.size, len(ary))
+# (2, 4) 8 2
 ```
 
 - **数组元素索引(下标)**
@@ -317,16 +398,34 @@ a = np.array([[[1, 2],
               [[5, 6],
                [7, 8]]])
 print(a, a.shape)
+# [[[1 2]
+#   [3 4]]
+# 
+#  [[5 6]
+#   [7 8]]] (2, 2, 2)
 print(a[0])
+# [[1 2]
+#  [3 4]]
 print(a[0][0])
+# [1 2]
 print(a[0][0][0])
+# 1
 print(a[0, 0, 0])
+# 1
 
 # 打印每一个元素值
 for i in range(a.shape[0]):
     for j in range(a.shape[1]):
         for k in range(a.shape[2]):
             print(a[i, j, k])
+            # 1
+            # 2
+            # 3
+            # 4
+            # 5
+            # 6
+            # 7
+            # 8
 ```
 
 ### 2.1.6 轴（axis）
@@ -391,12 +490,30 @@ import numpy as np
 a = np.arange(1, 28)
 a.resize(3,3,3)
 print(a)
+# [[[ 1  2  3]
+#   [ 4  5  6]
+#   [ 7  8  9]]
+# 
+#  [[10 11 12]
+#   [13 14 15]
+#   [16 17 18]]
+# 
+#  [[19 20 21]
+#   [22 23 24]
+#   [25 26 27]]]
 # 切出1页 
 print(a[1, :, :])		
+# [[10 11 12]
+#  [13 14 15]
+#  [16 17 18]]
 # 切出所有页的1行
 print(a[:, 1, :])		
+# [[ 4  5  6]
+#  [13 14 15]
+#  [22 23 24]]
 # 切出0页的1行1列
 print(a[0, :, 1])
+# [2 5 8]
 ```
 
 ### 2.1.8 ndarray 数组的掩码操作
@@ -407,15 +524,18 @@ print(a[0, :, 1])
 import numpy as np
 # 布尔掩码
 a = np.arange(1, 10)
-mask = [True, False,True, False,True, False,True, False,True, False]
+mask = [True, False, True, False, True, False, True, False, True]
 print(a[mask])
-mask = d % 2 == 0
+# [1 3 5 7 9]
+mask = a % 2 == 0  # 筛选偶数
 print(a[mask])
+# [2 4 6 8]
 
 # 索引掩码
 products = np.array(['Apple','Mi','Huawei','Oppo'])
 inds = [1,3,2,0]
 print(products[inds])
+# ['Mi' 'Oppo' 'Huawei' 'Apple']
 ```
 
 > **花式索引（Fancy Indexing，即索引掩码）**：用整数数组当下标，按位置取元素；与布尔掩码（用 True/False 数组当下标，按条件筛选）是两种不同的高级索引方式。
@@ -475,6 +595,10 @@ print(s[[10, 30, 50]])              # 按 label 取，不是按位置！
 
 # idx 用 array
 print(s[np.array([10, 30, 50])])    # 同样按 label 取，效果相同
+# 10     Apple
+# 30    Huawei
+# 50      Vivo
+# dtype: object
 
 # 想按位置取，用 .iloc[]
 print(s.iloc[[1, 3, 0]])            # 这才是按位置
@@ -609,15 +733,21 @@ data=[
 #第一种设置dtype的方式
 a = np.array(data, dtype='U3, 3int32, int32')   # U3：每个元素最多 3 个 Unicode 字符
 print(a)
+# [('zs', [90, 80, 85], 15) ('ls', [92, 81, 83], 16)
+#  ('ww', [95, 85, 95], 15)]
 # 字段名自动生成：'f0','f1','f2'
 print(a[0]['f0'], ":", a[1]['f1'])
+# zs : [92 81 83]
 print("=====================================")
+# =====================================
 
 #第二种设置dtype的方式-字典格式
 c = np.array(data, dtype={'names': ['name', 'scores', 'ages'],
                     'formats': ['U3', '3int32', 'int32']})
 print(c[0]['name'], ":", c[0]['scores'], ":", c.itemsize)
+# zs : [90 80 85] : 28
 print("=====================================")
+# =====================================
 ```
 
 ### 2.1.11 ndarray 数组对象的其他属性
@@ -639,16 +769,33 @@ a = np.array([[1 + 1j, 2 + 4j, 3 + 7j],
               [4 + 2j, 5 + 5j, 6 + 8j],
               [7 + 3j, 8 + 6j, 9 + 9j]])
 print(a.shape)
+# (3, 3)
 print(a.dtype)
+# complex128
 print(a.ndim)
+# 2
 print(a.size)
+# 9
 print(a.itemsize)
+# 16
 print(a.nbytes)
+# 144
 print(a.real, a.imag, sep='\n')
+# [[1. 2. 3.]
+#  [4. 5. 6.]
+#  [7. 8. 9.]]
+# [[1. 4. 7.]
+#  [2. 5. 8.]
+#  [3. 6. 9.]]
 print(a.T)
+# [[1.+1.j 4.+2.j 7.+3.j]
+#  [2.+4.j 5.+5.j 8.+6.j]
+#  [3.+7.j 6.+8.j 9.+9.j]]
 print([elem for elem in a.flat])
+# [np.complex128(1+1j), np.complex128(2+4j), np.complex128(3+7j), np.complex128(4+2j), np.complex128(5+5j), np.complex128(6+8j), np.complex128(7+3j), np.complex128(8+6j), np.complex128(9+9j)]
 b = a.tolist()  # list(arr) 只转最外层，内部仍是ndarray  arr.tolist() 递归全部转换，全部转为Python原生类型
 print(b)
+# [[(1+1j), (2+4j), (3+7j)], [(4+2j), (5+5j), (6+8j)], [(7+3j), (8+6j), (9+9j)]]
 ```
 
 ## 2.2 广播机制
@@ -755,13 +902,21 @@ import numpy as np
 
 a = np.arange(1,7).reshape(2,3)
 print(a)
+# [[1 2 3]
+#  [4 5 6]]
 print(np.argmax(a,axis=0))
+# [1 1 1]
 print(np.argmax(a,axis=1))
+# [2 2]
 
 b = np.array([2,6,3,1,9,5]).reshape(2,3)
 print(b)
+# [[2 6 3]
+#  [1 9 5]]
 print(np.argmin(b,axis=0))
+# [1 0 0]
 print(np.argmin(b,axis=1))
+# [0 0]
 ```
 
 - **求和**   ary.sum(axis=None)
@@ -771,12 +926,17 @@ import numpy as np
 
 a = np.array([10,5,3,7,4,6]).reshape(2,3)
 print(a)
+# [[10  5  3]
+#  [ 7  4  6]]
 # 将所有元素求和
 print(a.sum())
+# 35
 # 将列方向的元素求和
 print(a.sum(axis=0))
+# [17  9  9]
 # 将行方向的元素求和
 print(a.sum(axis=1))
+# [18 17]
 ```
 
 - **均值**   ary.mean(axis=None)
@@ -784,10 +944,13 @@ print(a.sum(axis=1))
 ```python
 # 将所有元素求均值
 print(a.mean())
+# 5.833333333333333
 # 将列方向的元素求均值
 print(a.mean(axis=0))
+# [8.5 4.5 4.5]
 # 将行方向的元素求均值
 print(a.mean(axis=1))
+# [6.         5.66666667]
 ```
 
 - **中值（中位数）**  np.median(ary,axis=None) 
@@ -797,10 +960,13 @@ print(a.mean(axis=1))
 ```python
 # 将所有元素求中值
 print(np.median(a))
+# 5.5
 # 将列方向的元素求中值
 print(np.median(a,axis=0))
+# [8.5 4.5 4.5]
 # 将行方向的元素求中值
 print(np.median(a,axis=1))
+# [5. 6.]
 ```
 
 - **最大值最小值**   ary.max(axis=None)     ary.min(axis=None)  
@@ -808,10 +974,13 @@ print(np.median(a,axis=1))
 ```python
 # 将所有元素求最大值
 print(a.max())
+# 10
 # 将列方向的元素求最大值
 print(a.max(axis=0))
+# [10  5  6]
 # 将行方向的元素求最大值
 print(a.max(axis=1))
+# [10  7]
 ```
 
 - **极值**  最大值与最小值之差  np.ptp(ary,axis=None)
@@ -819,10 +988,13 @@ print(a.max(axis=1))
 ```python
 # 将所有元素求极值
 print(np.ptp(a))
+# 7
 # 将列方向的元素求极值
 print(np.ptp(a,axis=0))
+# [3 1 3]
 # 将行方向的元素求极值
 print(np.ptp(a,axis=1))
+# [7 3]
 ```
 
 - **标准差   ary.std(axis=None)
@@ -832,10 +1004,13 @@ print(np.ptp(a,axis=1))
 ```python
 # 将所有元素求标准差
 print(a.std())
+# 2.266911751455907
 # 将列方向的元素求标准差
 print(a.std(axis=0))
+# [1.5 0.5 1.5]
 # 将行方向的元素求标准差
 print(a.std(axis=1))
+# [2.94392029 1.24721913]
 ```
 
 ## 2.4 numpy 其他常用函数
@@ -907,6 +1082,8 @@ print(a.std(axis=1))
   # 二维：沿指定轴排序
   arr = np.array([[3, 1, 2], [6, 4, 5]])
   print(np.sort(arr, axis=0))  # 每列内排序
+  # [[3 1 2]
+  #  [6 4 5]]
   ```
 
 - **np.argsort(arr, axis=-1)** — 返回排序后的下标
@@ -982,8 +1159,11 @@ print(a.std(axis=1))
 
   counts = np.bincount(totals, minlength=13)  # 保留下标0～12
   print(counts[2:13])           # 点数和2～12各自出现的次数
+  # [ 294  538  883 1107 1470 1656 1319 1064  834  569  266]
   print(counts[7])              # 点数和为7的次数
+  # 1656
   print(counts[7] / totals.size) # 点数和为7的模拟频率，理论概率为1/6
+  # 0.1656
   print(counts.sum())           # 10000：所有次数之和等于模拟次数
   ```
 
@@ -1121,6 +1301,7 @@ print(np.ceil(a))    # [ 2.  3.  4. -1. -1.]
   ```python
   a = np.array([1, 2, 3])            # shape (3,)
   print(np.expand_dims(a, axis=0))   # shape (1, 3) → [[1 2 3]]
+  # [[1 2 3]]
   print(np.expand_dims(a, axis=1))   # shape (3, 1) → [[1]
                                       #                  [2]
                                       #                  [3]]
@@ -1131,7 +1312,9 @@ print(np.ceil(a))    # [ 2.  3.  4. -1. -1.]
   ```python
   a = np.array([[[1, 2]]])           # shape (1, 1, 2)
   print(np.squeeze(a))               # shape (2,) → [1 2]
+  # [1 2]
   print(np.squeeze(a, axis=0))       # shape (1, 2)
+  # [[1 2]]
   ```
 
 ### 2.4.8 集合运算
@@ -1159,8 +1342,12 @@ print(np.setdiff1d(b, a))     # [6 7]    b有a无
 
 ```python
 print(np.full((2, 3), 7))              # 2×3全填7
+# [[7 7 7]
+#  [7 7 7]]
 a = np.array([[1, 2], [3, 4]])
 print(np.full_like(a, 0.5))            # 和a同shape，全填0.5
+# [[0 0]
+#  [0 0]]
 ```
 
 ### 2.4.10 数组的存储与读取（IO）
@@ -1204,8 +1391,12 @@ print(np.full_like(a, 0.5))            # 和a同shape，全填0.5
   import numpy as np
 
   print(np.random.random())        # 一个浮点数，0 <= x < 1
+  # 0.417411003148779
   print(np.random.random(5))       # 一维数组，5个数
+  # [0.22210781 0.11986537 0.33761517 0.9429097  0.32320293]
   print(np.random.random((2, 3)))  # 二维数组，2行3列
+  # [[0.51879062 0.70301896 0.3636296 ]
+  #  [0.97178208 0.96244729 0.2517823 ]]
   print(np.random.random(1).shape) # (1,)：含一个数的数组，不是标量
   ```
 
@@ -1219,9 +1410,12 @@ print(np.full_like(a, 0.5))            # 和a同shape，全填0.5
   import numpy as np
 
   print(np.random.rand())         # 一个随机浮点数
+  # 0.30087830981676966
   print(np.random.rand(5))        # 5个数
   print(np.random.rand(2, 3))     # 2行3列：维度分开传
   print(np.random.random((2, 3))) # 同样的形状与分布，不保证生成相同的值
+  # [[0.24205527 0.67213555 0.76161962]
+  #  [0.23763754 0.72821635 0.36778313]]
   ```
 
   > `rand(2, 3)` 不写成 `rand((2, 3))`，也不使用 `size=`。
@@ -1250,8 +1444,11 @@ print(np.full_like(a, 0.5))            # 和a同shape，全填0.5
   import numpy as np
 
   print(np.random.randint(6))                  # 一个整数：0～5
+  # 2
   print(np.random.randint(1, 7))               # 一个整数：1～6，模拟骰子
+  # 4
   print(np.random.randint(1, 7, size=10))      # 掷10次骰子
+  # [4 1 1 2 1 3 4 1 1 2]
   print(np.random.randint(1, 7, size=(2, 3)))  # 2行3列的骰子点数
   ```
 
@@ -1267,7 +1464,10 @@ print(np.full_like(a, 0.5))            # 和a同shape，全填0.5
   import numpy as np
 
   print(np.random.normal(0, 1, 5))             # 标准正态分布，5个数
+  # [-1.71052958  0.11897849  1.00048561  0.15242086 -0.60139725]
   print(np.random.normal(10, 2, size=(2, 3)))  # 均值10、标准差2，2行3列
+  # [[ 8.30677129 11.63230545 10.94341458]
+  #  [ 9.4290214  12.13058494 11.70799557]]
   ```
 
   上例第二组的总体方差为 `2**2 = 4`。抽出的少量数据，其样本均值不一定恰好为 10；正态分布也不把数据限制在“均值±标准差”的范围内。
@@ -1280,8 +1480,10 @@ print(np.full_like(a, 0.5))            # 和a同shape，全填0.5
   import numpy as np
 
   print(np.random.randn())       # 一个标准正态随机数
+  # 1.7885938573254625
   print(np.random.randn(2, 3))   # 2行3列，维度分开传
   print(10 + 2 * np.random.randn(5))  # 转换为均值10、标准差2的正态分布
+  # [ 7.33985187  9.94942475 12.68633642  8.5309047   8.08021074]
   ```
 
 - **np.random.standard_normal(size=None)** — 另一种标准正态接口
@@ -1290,6 +1492,8 @@ print(np.full_like(a, 0.5))            # 和a同shape，全填0.5
   import numpy as np
 
   print(np.random.standard_normal(size=(2, 3))) # 形状用元组传入
+  # [[ 1.10492822  0.6342403   3.06109521]
+  #  [-1.31857016  0.72038724  0.31589091]]
   ```
 
   **记忆：`rand` 是均匀分布，`randn` 中的 `n` 对应 normal（正态）；`randn(2, 3)` 与 `standard_normal((2, 3))` 的分布和形状一致。**
@@ -1309,11 +1513,17 @@ print(np.full_like(a, 0.5))            # 和a同shape，全填0.5
 
   items = np.array(['Apple', 'Mi', 'Huawei', 'Oppo'])
   print(np.random.choice(items))                         # 抽一个
+  # Huawei
   print(np.random.choice(items, size=6))                 # 有放回，可重复
+  # ['Mi' 'Oppo' 'Huawei' 'Huawei' 'Mi' 'Apple']
   print(np.random.choice(items, size=3, replace=False))  # 无放回
+  # ['Huawei' 'Oppo' 'Apple']
   print(np.random.choice(items, size=5, p=[0.1, 0.2, 0.6, 0.1]))
+  # ['Huawei' 'Huawei' 'Mi' 'Huawei' 'Huawei']
   print(np.random.choice(10, size=3, replace=False))     # 从0～9抽3个
+  # [2 6 8]
   print(np.random.choice(list('abc')))                  # 从字符串抽字符，先转列表
+  # c
   ```
 
   > 无放回抽样的数量不能超过候选位置数；指定 `p` 时还不能超过概率为正的候选位置数。**无放回不是去重**：`['A', 'A', 'B']` 中两个不同位置的 `'A'` 仍可能同时被抽中。传统 `np.random.choice()` 的候选数组须为一维。
@@ -1328,11 +1538,16 @@ print(np.full_like(a, 0.5))            # 和a同shape，全填0.5
   a = np.array([1, 2, 3, 4, 5])
   result = np.random.shuffle(a)
   print(a)       # 原数组的顺序被打乱，也可能碰巧与原顺序相同
+  # [3 2 5 1 4]
   print(result)  # None
 
   arr = np.arange(12).reshape(4, 3)
   np.random.shuffle(arr)
   print(arr)     # 二维数组：打乱整行顺序，各行内部顺序不变
+  # [[ 6  7  8]
+  #  [ 3  4  5]
+  #  [ 9 10 11]
+  #  [ 0  1  2]]
   ```
 
   > 不要写 `a = np.random.shuffle(a)`，否则 `a` 会变成 `None`。传统接口只沿第 0 轴打乱，不能传 `axis=`。
@@ -1348,6 +1563,7 @@ print(np.full_like(a, 0.5))            # 和a同shape，全填0.5
   b = np.random.permutation(a)
   print(a)  # [1 2 3 4 5]，原数组不变
   print(b)  # 新数组，顺序随机
+  # [1 2 4 3 5]
   print(np.random.permutation(5))  # 0、1、2、3、4的随机排列
   ```
 
@@ -1367,7 +1583,9 @@ print(np.full_like(a, 0.5))            # 和a同shape，全填0.5
   np.random.seed(42)                  # 重置到相同起点
   c = np.random.randint(0, 100, size=5)
   print(a)
+  # [51 92 14 71 60]
   print(b)
+  # [20 82 86 74 74]
   print(np.array_equal(a, c))         # True
   ```
 
@@ -1387,9 +1605,11 @@ print(np.full_like(a, 0.5))            # 和a同shape，全填0.5
   # 每组抛10次公平硬币，记录正面次数；模拟5组
   counts = np.random.binomial(n=10, p=0.5, size=5)
   print(counts)  # 每个数是0～10之间的整数
+  # [5 5 3 5 4]
 
   # n=1：一次成功/失败试验，结果为1或0（伯努利分布）
   print(np.random.binomial(n=1, p=0.3, size=10))
+  # [0 0 0 1 1 0 1 0 0 0]
   ```
 
   > `n=10` 是**每组的试验次数**；`size=5` 是**生成5组结果**，两者不要混淆。
@@ -1404,6 +1624,7 @@ print(np.full_like(a, 0.5))            # 和a同shape，全填0.5
   # 假设每分钟平均有3次到达，模拟10个一分钟区间的到达次数
   counts = np.random.poisson(lam=3, size=10)
   print(counts)  # 非负整数，每个区间不一定恰好是3次
+  # [0 2 2 6 0 3 2 3 3 1]
   ```
 
 - **np.random.exponential(scale=1.0, size=None)** — 指数分布：常用于模拟等待时间
@@ -1433,8 +1654,11 @@ print(np.full_like(a, 0.5))            # 和a同shape，全填0.5
   print(rng.random((2, 3)))                 # [0, 1)均匀随机数
   print(rng.integers(1, 7, size=5))         # 1～6的随机整数
   print(rng.integers(1, 6, size=5, endpoint=True)) # 包含上界6
+  # [1 6 3 4 3]
   print(rng.normal(0, 1, size=5))           # 标准正态分布
+  # [ 0.77779194  0.0660307   1.12724121  0.46750934 -0.85929246]
   print(rng.choice(['A', 'B', 'C'], size=2, replace=False))
+  # ['A' 'B']
   ```
 
 | 目的 | 传统接口 | 新接口（先创建 `rng`） |
