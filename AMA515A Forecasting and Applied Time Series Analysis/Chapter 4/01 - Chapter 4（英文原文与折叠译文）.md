@@ -441,6 +441,11 @@ $$\theta_{n+1}=\theta_n-\left[\left.\frac{\partial^2l}{\partial^2\theta}\right|_
 
 ## PDF p.10
 
+> [!example]- 第 10 页补充手写推导（MA(1) 最大似然估计）
+> [查看补充笔记](<04 - Chapter 4 第10页手写补充.md>) · [原始 PDF](<附件/AMA515A Ch. 4 p. 10.pdf>)
+>
+> ![新增补充手写原页](<附件/ch4-p10-supplement-p01.png>)
+
 
 To carry out the iterations in (4.5), we have to calculate the 1st and 2nd derivatives in the equation. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">要执行式（4.5）的迭代，需要计算方程中的一阶与二阶导数。</span></details>
 

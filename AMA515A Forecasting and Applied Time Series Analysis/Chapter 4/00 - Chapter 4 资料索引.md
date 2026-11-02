@@ -17,6 +17,8 @@ cssclasses:
 
 - [Chapter 4 Additional Example](<03 - Chapter 4 Additional Example.md>)（1 页）：1 页 ARMA(1,2) 的 Ljung–Box 检验手写例题，关联第 11 页。 [原 PDF](<附件/Chapter 4 Additonal Example.pdf>)
 
+- [Chapter 4 第 10 页手写补充](<04 - Chapter 4 第10页手写补充.md>)（1 页）：MA(1) 条件对数似然的一阶、二阶导数分步推导，对应 4.5 最大似然估计及主讲义第 10 页；手写原页完整保留。 [原 PDF](<附件/AMA515A Ch. 4 p. 10.pdf>)
+
 ## 阅读说明
 
 英文正文后点击“中文译文”可展开中文。公式独立排版，表格集中翻译；扫描批注与纯手写页保留原貌，不将主题标签当作教师逐字原话。正文页码均使用 PDF 从 1 开始的页序。原 PDF 按字节完整复制。

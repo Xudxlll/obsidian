@@ -5433,6 +5433,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "04 - Chapter 4 第10页手写补充.md",
         "附件",
         "03 - Chapter 4 Additional Example.md",
         "02 - PACF Example of Chapter 4.md",
@@ -5461,6 +5462,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "ch4-p10-supplement-p01.png",
+        "AMA515A Ch. 4 p. 10.pdf",
         "ch4-updated-p18.png",
         "ch4-updated-p17.png",
         "ch4-updated-p16.png",
@@ -15861,6 +15864,18 @@
       "isHidden": false
     },
     "AMA572 Fixed-Income and Credit Risk/03 - 债券入门：久期、凸性、信用利差与杠杆.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/04 - Chapter 4 第10页手写补充.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/AMA515A Ch. 4 p. 10.pdf": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/ch4-p10-supplement-p01.png": {
       "isPinned": false,
       "isHidden": false
     }
