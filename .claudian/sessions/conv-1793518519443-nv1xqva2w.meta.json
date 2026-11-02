@@ -4,8 +4,8 @@
   "title": "Explain unclear note content",
   "titleGenerationStatus": "success",
   "createdAt": 1793518519453,
-  "updatedAt": 1793546010198,
-  "lastResponseAt": 1793546010198,
+  "updatedAt": 1793551528718,
+  "lastResponseAt": 1793551528718,
   "sessionId": "01a19608-c592-78f1-9575-8a974ab200f5",
   "selectedModel": "gpt-6.1-terra",
   "providerState": {
@@ -16,13 +16,13 @@
   },
   "currentNote": "Python、数据分析与人工智能/数据分析与机器学习/01-Numpy.md",
   "usage": {
-    "inputTokens": 72975,
+    "inputTokens": 87422,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 72192,
+    "cacheReadInputTokens": 87296,
     "contextWindow": 475000,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 72975,
-    "percentage": 15,
+    "contextTokens": 87422,
+    "percentage": 18,
     "model": "gpt-6.1-terra"
   }
 }
