@@ -447,10 +447,22 @@ $$
 Now observe <details class="translation-details"><summary>中文译文</summary><span class="translation-body">现在观察：</span></details>
 
 $$
-\frac{\sum(e_t-e_{t-1})^2}{\sum e_t^2}
-\cong\frac{2\sum e_t^2-2\sum e_te_{t-1}}{\sum e_t^2}
-\cong2(1-\hat r_1).
+\begin{aligned}
+d&=\frac{\sum_{t=2}^{n}(e_t-e_{t-1})^2}{\sum_{t=1}^{n}e_t^2}\\
+&=\frac{\sum_{t=2}^{n}e_t^2+\sum_{t=2}^{n}e_{t-1}^2-2\sum_{t=2}^{n}e_te_{t-1}}{\sum_{t=1}^{n}e_t^2}\\
+&=\frac{2\sum_{t=1}^{n}e_t^2-e_1^2-e_n^2-2\sum_{t=2}^{n}e_te_{t-1}}{\sum_{t=1}^{n}e_t^2}\\
+&\approx\frac{2\sum_{t=1}^{n}e_t^2-2\sum_{t=2}^{n}e_te_{t-1}}{\sum_{t=1}^{n}e_t^2}\\
+&=2\left(1-\frac{\sum_{t=2}^{n}e_te_{t-1}}{\sum_{t=1}^{n}e_t^2}\right)\\
+&\approx2(1-\hat r_1).
+\end{aligned}
 $$
+
+> [!note]- 推导说明
+> 展开平方后，$\sum_{t=2}^{n}e_t^2+\sum_{t=2}^{n}e_{t-1}^2=2\sum_{t=1}^{n}e_t^2-e_1^2-e_n^2$：两端的残差平方只各出现一次，中间的各出现两次。
+>
+> 当端点项 $e_1^2+e_n^2$ 相对于残差平方和较小时，将其忽略，得到上面的近似式。这里 $\hat r_1$ 用 $\sum_{t=2}^{n}e_te_{t-1}/\sum_{t=1}^{n}e_t^2$ 表示残差的一阶自相关；不同样本自相关定义可能略有差异。
+>
+> 因而，$\hat r_1$ 接近 1 时 $d$ 偏向 0；接近 0 时 $d$ 约为 2；接近 -1 时 $d$ 偏向 4。这是直观判断，正式检验还需结合临界值或 $p$ 值。
 
 Thus $0<d<4$, with a value close to zero indicates a +ve correlation, and a value close to 4 indicates a -ve correlation. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">因此，d 介于 0 与 4 之间。接近 0 表示正相关，接近 4 表示负相关。</span></details>
 
