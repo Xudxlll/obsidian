@@ -351,6 +351,37 @@ $$
 
 then $\operatorname{var}(X_t)=t\sigma^2$, which shows an increasing trend in the variance, called a stochastic trend. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">此时 Xₜ 的方差为 tσ²，方差随时间增加，这称为随机趋势。</span></details>
 
+> [!note]- 与布朗运动的对应
+> 这里的 $X_t=X_{t-1}+Z_t$ 是离散时间的高斯随机游走；标准布朗运动 $W(t)$ 则是连续时间过程。二者的联系可以通过固定间隔观察布朗运动来理解。
+>
+> 标准布朗运动满足 $W(0)=0$，且长度为 1 的不重叠区间上的增量相互独立，并服从 $N(0,1)$。在整数时点令
+>
+> $$
+> X_t=\sigma W(t),\qquad Z_t=\sigma[W(t)-W(t-1)],\qquad t=1,2,\ldots
+> $$
+>
+> 则 $Z_t\sim NID(0,\sigma^2)$，并且
+>
+> $$
+> X_t=X_{t-1}+Z_t=\sum_{n=1}^{t}Z_n.
+> $$
+>
+> 因此，课件中的随机游走与 $\sigma W(t)$ 在整数时点的取值具有相同的联合分布；前者只在离散时点定义，而布朗运动还包含这些时点之间的连续路径。
+>
+> 对固定的 $t$，标准布朗运动的分布为
+>
+> $$
+> W(t)\sim N(0,t),\qquad W(t)\overset{d}{=}\sqrt{t}\,Z,\qquad Z\sim N(0,1).
+> $$
+>
+> 所以，假设 $\sigma\geq0$，有
+>
+> $$
+> X_t\sim N(0,t\sigma^2),\qquad X_t\overset{d}{=}\sigma\sqrt{t}\,Z.
+> $$
+>
+> 这里方差是 $t\sigma^2$，标准差是 $\sigma\sqrt{t}$。符号 $\overset{d}{=}$ 表示分布相同，不能理解成用同一个 $Z$ 对所有时点逐路径表示整个布朗运动。
+
 Define a differencing operation by <details class="translation-details"><summary>中文译文</summary><span class="translation-body">定义差分运算：</span></details>
 
 $$
