@@ -1,0 +1,28 @@
+{
+  "id": "conv-1793691193711-h59qnif6o",
+  "providerId": "codex",
+  "title": "Compare R-squared with current metric",
+  "titleGenerationStatus": "success",
+  "createdAt": 1793691193713,
+  "updatedAt": 1793698076518,
+  "lastResponseAt": 1793698076518,
+  "sessionId": "01a1a053-9288-7c23-a60b-1181628fd493",
+  "selectedModel": "gpt-6.1-terra",
+  "providerState": {
+    "threadId": "01a1a053-9288-7c23-a60b-1181628fd493",
+    "sessionFilePath": "/Users/xuji/.codex/sessions/2026/11/03/rollout-2026-11-03T15-33-14-01a1a053-9288-7c23-a60b-1181628fd493.jsonl",
+    "transcriptRootPath": "/Users/xuji/.codex/sessions",
+    "workspaceDependencyToolVersion": 1
+  },
+  "currentNote": "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/01 - Chapter 1（英文原文与折叠译文）.md",
+  "usage": {
+    "inputTokens": 42689,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 42368,
+    "contextWindow": 475000,
+    "contextWindowIsAuthoritative": true,
+    "contextTokens": 42689,
+    "percentage": 9,
+    "model": "gpt-6.1-terra"
+  }
+}

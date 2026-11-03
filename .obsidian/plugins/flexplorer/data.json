@@ -3748,7 +3748,7 @@
     "AMA515A Forecasting and Applied Time Series Analysis": {
       "isPinned": false,
       "isHidden": false,
-      "sortOrder": "custom",
+      "sortOrder": "byName",
       "customOrder": [
         "Tutorials",
         "Assignments",

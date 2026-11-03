@@ -229,6 +229,9 @@ $$
 \begin{aligned}
 S_T&=S_{T-1}+\alpha[x_T-S_{T-1}],\\
 S_T&=\alpha x_T+(1-\alpha)[\alpha x_{T-1}+(1-\alpha)S_{T-2}],\\
+S_T&=\alpha x_T+\alpha(1-\alpha)x_{T-1}\\
+&\quad+\alpha(1-\alpha)^2x_{T-2}+\cdots\\
+&\quad+\alpha(1-\alpha)^{T-1}x_1+(1-\alpha)^TS_0,\\
 \Rightarrow S_T&=\alpha\sum_{k=0}^{T-1}(1-\alpha)^kx_{T-k}+(1-\alpha)^TS_0.
 \end{aligned}
 $$
