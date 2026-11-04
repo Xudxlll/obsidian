@@ -511,6 +511,62 @@ s_b=\sqrt{\mathrm{MSE}/c_{tt}},\qquad
 \mathrm{MSE}=\sum e_t^2/(n-2).
 $$
 
+> [!note]- 理解残差、SSE、MSE 与斜率标准误 $s_b$
+> 四者的计算顺序是：**先求每期残差，再求残差平方和 SSE，用 SSE 估计误差方差 MSE，最后计算斜率的标准误 $s_b$**。
+>
+> **1. 残差 $e_t$：单个观测值与拟合值的差。** 对趋势模型 $Y_t=\alpha+\beta t+\varepsilon_t$，拟合值为 $\hat y_t=a+bt$，因此
+>
+> $$
+> e_t=y_t-\hat y_t=y_t-a-bt.
+> $$
+>
+> $e_t$ 是样本中可计算的残差；$\varepsilon_t$ 是模型中通常不可直接观察的真实误差，两者不完全相同。
+>
+> **2. SSE：残差平方和。** 把各期残差平方后加总：
+>
+> $$
+> \mathrm{SSE}=\sum_{t=1}^{n}e_t^2.
+> $$
+>
+> SSE 衡量这组残差平方的总量；它是总和，其大小会受到样本量的影响。
+>
+> **3. MSE：回归残差均方。** 本节的一元回归估计了截距和斜率，若时间点不全相同，残差有 $n-2$ 个自由度：
+>
+> $$
+> \mathrm{MSE}=\frac{\mathrm{SSE}}{n-2}.
+> $$
+>
+> 在模型正确、误差零均值、同方差且不同时期不相关等经典条件下，MSE 无偏估计误差方差 $\sigma^2$。它不是误差标准差；$s_e=\sqrt{\mathrm{MSE}}$ 才是误差标准差的估计。预测评价中也可能把 $\sum e_t^2/n$ 称为 MSE，应区分计算目的和分母。
+>
+> **4. $s_b$：斜率估计的标准误。** 记 $c_{tt}=\sum_{t=1}^{n}(t-\bar t)^2$。在上述经典条件和给定时间点下，斜率估计量的方差为
+>
+> $$
+> \underbrace{\operatorname{Var}(b)}_{\text{斜率估计量的真实方差}}
+> =\frac{\underbrace{\sigma^2}_{\text{真实误差方差}}}{c_{tt}}.
+> $$
+>
+> 实际中 $\sigma^2$ 未知，用 $\mathrm{MSE}$ 来估计；将它代入上式，得到斜率方差的估计值 $s_b^2$，再开平方得到标准误 $s_b$：
+>
+> $$
+> \underbrace{\widehat{\sigma^2}}_{\text{误差方差的估计}}
+> =\mathrm{MSE},\qquad
+> \underbrace{\widehat{\operatorname{Var}}(b)}_{\text{斜率方差的估计}}
+> =s_b^2=\frac{\mathrm{MSE}}{c_{tt}},\qquad
+> s_b=\sqrt{\frac{\mathrm{MSE}}{c_{tt}}}.
+> $$
+>
+> 注意区分真实值与估计值：$\mathrm{MSE}$ **估计** $\sigma^2$，$s_b^2$ **估计** $\operatorname{Var}(b)$，并非每次抽样都严格相等。$s_b$ 估计重复抽样时斜率估计值 $b$ 的标准差；它不同于衡量单期误差波动的 $s_e$。误差自相关或异方差时，上面的普通标准误公式可能不再适用。
+>
+> **数值例子。** 若 $n=4$，残差为 $0.3,0.1,-1.1,0.7$，且 $c_{tt}=5$，则
+>
+> $$
+> \mathrm{SSE}=1.8,\qquad
+> \mathrm{MSE}=\frac{1.8}{4-2}=0.9,\qquad
+> s_b=\sqrt{\frac{0.9}{5}}\approx0.424.
+> $$
+>
+> 最后将 $s_b$ 用于斜率检验：若原假设为 $H_0:\beta=\beta_0$，则检验统计量为 $t_{\mathrm{stat}}=(b-\beta_0)/s_b$。在经典正态回归条件下，原假设成立时它服从自由度为 $n-2$ 的 $t$ 分布。
+
 **Forecasting with linear trend** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">利用线性趋势预测。</span></details>
 
 $$
