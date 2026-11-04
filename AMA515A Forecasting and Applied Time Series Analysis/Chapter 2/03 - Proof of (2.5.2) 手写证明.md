@@ -17,7 +17,7 @@ cssclasses:
 
 **Proof of (2.5.2)** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">式（2.5.2）的证明</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 2（英文原文与折叠译文）.md#PDF p.7>)
+[相关双语正文（按主题定位）](<01 - Chapter 2（英文原文与折叠译文）.md#^pdf-p7>)
 
 ![PDF p.1](<附件/ch2-proof-p01.png>)
 

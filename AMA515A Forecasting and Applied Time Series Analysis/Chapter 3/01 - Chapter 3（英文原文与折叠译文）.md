@@ -13,16 +13,17 @@ cssclasses:
 
 英文按原 PDF 页序整理，逐段附默认折叠的中文译文。独立公式和图表另排；每页底部可展开原页核对。原有题目与解答分别保留，不另编解题分析。
 
-## PDF p.1
-
+**PDF p.1** ^pdf-p1
 
 **AMA515A Forecasting and applied time series analysis** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">AMA515A 预测与应用时间序列分析。</span></details>
 
 
-### Chapter 3 : Box-Jenkins (ARIMA ) models <details class="translation-details"><summary>中文译文</summary><span class="translation-body">第 3 章：Box–Jenkins（ARIMA）模型。</span></details>
+**Chapter 3 : Box-Jenkins (ARIMA ) models** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">第 3 章：Box–Jenkins（ARIMA）模型。</span></details>
 
 
-**3.1 Stationarity** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.1 平稳性。</span></details>
+## 3.1 Stationarity / 平稳性
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.1 平稳性。</span></details>
 
 
 If a discrete time stochastic process $\{X_t\}$ satisfy the following conditions: <details class="translation-details"><summary>中文译文</summary><span class="translation-body">若离散时间随机过程满足以下条件：</span></details>
@@ -41,7 +42,9 @@ Then $\{X_t\}$ possesses second order stationarity. <details class="translation-
 In our following discussion we concentrate on process of this type. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">以下主要讨论这类过程。</span></details>
 
 
-**3.2 Autocorrelation function of a stationary stochastic process** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.2 平稳随机过程的自相关函数。</span></details>
+## 3.2 Autocorrelation function of a stationary stochastic process / 平稳随机过程的自相关函数
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.2 平稳随机过程的自相关函数。</span></details>
 
 
 Recall for a stochastic process which is stationary, the autocovariance function is equal to <details class="translation-details"><summary>中文译文</summary><span class="translation-body">回顾：平稳随机过程的自协方差函数为：</span></details>
@@ -54,10 +57,14 @@ Note: $\gamma(k)$ is known as the autocovariance function. <details class="trans
 We then define the autocorrelation function $\rho(k)=\gamma(k)/\gamma(0)$, $k=0,\pm1,\pm2,\ldots$. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">定义自相关函数为 γ(k)/γ(0)，k = 0、±1、±2、…。</span></details>
 
 
-**3.3 Some simple stochastic models and their autocorrelation function** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.3 一些简单随机模型及其自相关函数。</span></details>
+## 3.3 Some simple stochastic models and their autocorrelation function / 一些简单随机模型及其自相关函数
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.3 一些简单随机模型及其自相关函数。</span></details>
 
 
-**3.3.1 White noise** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.3.1 白噪声。</span></details>
+### 3.3.1 White noise / 白噪声
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.3.1 白噪声。</span></details>
 
 
 $X_t=Z_t$, $t=0,\pm1,\pm2,\ldots$, where $\{Z_t\}$ is a sequence of iid rv's with zero mean and constant variance. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">Xₜ = Zₜ，其中 Zₜ 是均值为零、方差恒定的独立同分布随机变量序列。</span></details>
@@ -71,15 +78,16 @@ and <details class="translation-details"><summary>中文译文</summary><span cl
 
 $$\rho(k)=\begin{cases}1,&k=0,\\0,&k\ne0.\end{cases}$$
 
-**3.3.2 First order Autoregressive Process** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.3.2 一阶自回归过程。</span></details>
+### 3.3.2 First order Autoregressive Process / 一阶自回归过程
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.3.2 一阶自回归过程。</span></details>
 
 $$X_t=\alpha X_{t-1}+Z_t,\qquad |\alpha|<1.\tag{3.1}$$
 
 > [!example]- PDF 第 1 页原貌（含原有批注）
 > ![PDF p.1](<附件/ch3-lecture-p01.png>)
 
-## PDF p.2
-
+**PDF p.2** ^pdf-p2
 
 and $\{Z_t\}$ is white noise; $Z_t$, $X_{t-k}$ are uncorrelated for $k\ne0$. Then assume $\{X_t\}$ is stationary, taking expectation in (3.1), <details class="translation-details"><summary>中文译文</summary><span class="translation-body">其中 Zₜ 为白噪声；原文称，当 k ≠ 0 时，Zₜ 与 Xₜ₋ₖ 不相关。假设 Xₜ 平稳，对式（3.1）取期望：</span></details>
 
@@ -125,8 +133,7 @@ When $|\phi|<1$ the complementary function tends to zero for large t, so only th
 > [!example]- PDF 第 2 页原貌（含原有批注）
 > ![PDF p.2](<附件/ch3-lecture-p02.png>)
 
-## PDF p.3
-
+**PDF p.3** ^pdf-p3
 
 $E(X_t)=0$. In addition the variance of the second term of (5.3) converges for $|\phi|<1$, so the model is second order stationary. (Exercise : show that $E(X_tX_{t-k})=\gamma(k)=\sigma^2\phi^k/(1-\phi^2)$.) <details class="translation-details"><summary>中文译文</summary><span class="translation-body">均值为零。此外，当 |φ| &lt; 1 时，式（5.3）第二项的方差收敛，所以模型二阶平稳。练习：证明所列自协方差公式。式号（5.3）沿用原文。</span></details>
 
@@ -138,7 +145,9 @@ $$\sigma^2\sum_{j=0}^{\infty}\phi^{2j}\quad\text{(assume variance of }\varepsilo
 and for this sum to be finite we need $|\phi|<1$. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">该和有限要求 |φ| &lt; 1。</span></details>
 
 
-**3.3.3 Finite order moving average process** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.3.3 有限阶移动平均过程。</span></details>
+### 3.3.3 Finite order moving average process / 有限阶移动平均过程
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.3.3 有限阶移动平均过程。</span></details>
 
 
 The process is defined by $X_t=\sum_{i=0}^m\beta_iZ_{t-i}$, where $\{Z_t\}$ is white noise and conventionally we set $\beta_0=1$. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">过程定义为当前和前 m 期白噪声的线性组合，惯例设 β₀ = 1。</span></details>
@@ -171,8 +180,7 @@ i.e, a cut-off at lag m. <details class="translation-details"><summary>中文译
 > [!example]- PDF 第 3 页原貌（含原有批注）
 > ![PDF p.3](<附件/ch3-lecture-p03.png>)
 
-## PDF p.4
-
+**PDF p.4** ^pdf-p4
 
 NB1. The following diagram is instructive <details class="translation-details"><summary>中文译文</summary><span class="translation-body">注意 1：下图有助于理解。</span></details>
 
@@ -198,7 +206,7 @@ $$\rho(1)=\frac{\beta_1+\beta_1\beta_2}{1+\beta_1^2+\beta_2^2},\quad\rho(2)=\fra
 > [!example]- PDF 第 4 页原貌（含原有批注）
 > ![PDF p.4](<附件/ch3-lecture-p04.png>)
 
-## PDF p.5
+**PDF p.5** ^pdf-p5
 
 ![Theoretical correlogram](<附件/ch3-lecture-p05-chart.png>)
 
@@ -219,7 +227,9 @@ $$-0.1=\rho_1=\frac{\theta_1+\theta_1\theta_2}{1+\theta_1^2+\theta_2^2}\Rightarr
 Solving the last equation, we get $\theta_2$ = -0.4 or 2.4. To satisfy the invertibility condition, $\theta_2$ = -0.4. Then $\rho_2=-1/3$. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">解得 θ₂ 为 −0.4 或 2.4。为满足可逆性，取 −0.4，此时二阶自相关为 −1/3。</span></details>
 
 
-**3.3.4 Random Walk** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.3.4 随机游走。</span></details>
+### 3.3.4 Random Walk / 随机游走
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.3.4 随机游走。</span></details>
 
 
 Consider $X_t=X_{t-1}+Z_t$, where $\{Z_t\}$ is white noise, $Z_t$ and $X_{t-k}$ are uncorrelated for k>0. Then it is easy to see $X_t$ is mean stationary, but <details class="translation-details"><summary>中文译文</summary><span class="translation-body">考虑随机游走，Zₜ 为白噪声，k &gt; 0 时 Zₜ 与 Xₜ₋ₖ 不相关。容易看出均值平稳，但：</span></details>
@@ -229,14 +239,16 @@ $$\operatorname{Var}(X_t)=\operatorname{Var}(X_{t-1})+\sigma^2=\operatorname{Var
 > [!example]- PDF 第 5 页原貌（含原有批注）
 > ![PDF p.5](<附件/ch3-lecture-p05.png>)
 
-## PDF p.6
+**PDF p.6** ^pdf-p6
 
 $$=\cdots=\operatorname{Var}(X_0)+t\sigma^2.$$
 
 Therefore the process is not stationary. However, $Y_t=\nabla X_t=X_t-X_{t-1}=Z_t$ is stationary. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">因此该过程不平稳，但其一阶差分等于 Zₜ，是平稳的。</span></details>
 
 
-**3.4 A general class of linear process** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.4 一般线性过程。</span></details>
+## 3.4 A general class of linear process / 一般线性过程
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.4 一般线性过程。</span></details>
 
 
 To extend our discussion, it is convenient to introduce 2 operators, <details class="translation-details"><summary>中文译文</summary><span class="translation-body">为扩展讨论，引入两个算子：</span></details>
@@ -273,7 +285,9 @@ Examples: <details class="translation-details"><summary>中文译文</summary><s
 (iii) $X_t=X_{t-1}+Z_t$ is equal to $\nabla X_t=Z_t$. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">（iii）随机游走等价于差分等于白噪声。</span></details>
 
 
-**3.4.1 Infinite and finite order moving average process** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.4.1 无限阶与有限阶移动平均过程。</span></details>
+### 3.4.1 Infinite and finite order moving average process / 无限阶与有限阶移动平均过程
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.4.1 无限阶与有限阶移动平均过程。</span></details>
 
 
 **Infinite order** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">无限阶。</span></details>
@@ -285,8 +299,7 @@ Let Z be white noise. Consider $X_t=\alpha X_{t-1}+Z_t$. <details class="transla
 > [!example]- PDF 第 6 页原貌（含原有批注）
 > ![PDF p.6](<附件/ch3-lecture-p06.png>)
 
-## PDF p.7
-
+**PDF p.7** ^pdf-p7
 
 Write $(1-\alpha B)X_t=Z_t$, which suggests <details class="translation-details"><summary>中文译文</summary><span class="translation-body">写成算子形式，提示：</span></details>
 
@@ -330,8 +343,7 @@ $$Z_t=(1+\beta B)^{-1}X_t=X_t-\beta X_{t-1}+\beta^2X_{t-2}-\cdots,$$
 > [!example]- PDF 第 7 页原貌（含原有批注）
 > ![PDF p.7](<附件/ch3-lecture-p07.png>)
 
-## PDF p.8
-
+**PDF p.8** ^pdf-p8
 
 whence the coefficients on the RHS is decaying and convergent. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">右侧系数衰减且收敛。</span></details>
 
@@ -349,7 +361,9 @@ For the MA(1), restricting |β|<1 will resolve both the indeterminacy and conver
 Thm.: A necessary and sufficient condition for a finite order MA process to be invertible is that all the roots of the polynomial $\Theta(B)$ lie outside the unit circle. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">定理：有限阶 MA 可逆的充要条件，是 MA 多项式的所有根均位于单位圆外。</span></details>
 
 
-**3.4.2 Finite order autoregressive processes** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.4.2 有限阶自回归过程。</span></details>
+### 3.4.2 Finite order autoregressive processes / 有限阶自回归过程
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.4.2 有限阶自回归过程。</span></details>
 
 
 Consider <details class="translation-details"><summary>中文译文</summary><span class="translation-body">考虑：</span></details>
@@ -376,7 +390,7 @@ Write (3.7) as <details class="translation-details"><summary>中文译文</summa
 > [!example]- PDF 第 8 页原貌（含原有批注）
 > ![PDF p.8](<附件/ch3-lecture-p08.png>)
 
-## PDF p.9
+**PDF p.9** ^pdf-p9
 
 $$
 \begin{pmatrix}\rho(1)\\\vdots\\\rho(m)\end{pmatrix}
@@ -410,7 +424,7 @@ where $r_1,r_2$ are its roots. A particular solution is $X_t=\psi(B)\varepsilon_
 > [!example]- PDF 第 9 页原貌（含原有批注）
 > ![PDF p.9](<附件/ch3-lecture-p09.png>)
 
-## PDF p.10
+**PDF p.10** ^pdf-p10
 
 $$\phi^{-1}(B)=\frac{a}{1-B/r_1}+\frac{b}{1-B/r_2}$$
 
@@ -446,7 +460,7 @@ $$X_t=\sum_{i=1}^p\sum_{j=0}^{\infty}a_i(\lambda_iB)^j\varepsilon_t$$
 > [!example]- PDF 第 10 页原貌（含原有批注）
 > ![PDF p.10](<附件/ch3-lecture-p10.png>)
 
-## PDF p.11
+**PDF p.11** ^pdf-p11
 
 $$=\sum_{i=1}^p\sum_{j=0}^{\infty}a_i\lambda_i^j\varepsilon_{t-j}.$$
 
@@ -468,7 +482,9 @@ Let $X_t=0.7X_{t-1}-0.1X_{t-2}+Z_t$, $\{Z_t\}\sim\operatorname{NID}(0,\sigma^2)$
 Then $(1-0.7B+0.1B^2)X_t=Z_t$. The roots of the backshift polynomial in B, i.e., $1-0.7B+0.1B^2=0$, are 2 and 5. Thus the AR(2) process is stationary. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">后移多项式的根为 2 和 5，所以过程平稳。</span></details>
 
 
-**3.4.3 Mixed processes(ARMA processes)** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.4.3 混合过程（ARMA 过程）。</span></details>
+### 3.4.3 Mixed processes(ARMA processes) / 混合过程（ARMA 过程）
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.4.3 混合过程（ARMA 过程）。</span></details>
 
 
 The equation <details class="translation-details"><summary>中文译文</summary><span class="translation-body">方程：</span></details>
@@ -503,13 +519,14 @@ The AR polynomial $\phi(B)=1-0.75B+0.5625B^2$ has zeros at $B=2(1\pm i\sqrt3)/3$
 > [!example]- PDF 第 11 页原貌（含原有批注）
 > ![PDF p.11](<附件/ch3-lecture-p11.png>)
 
-## PDF p.12
-
+**PDF p.12** ^pdf-p12
 
 In practice, may sets of data can reasonably be modelled by either a high order MA process or a lower order AR process. If so, we positively refer the version with fewer parameters. Similarly, an ARMA(p,q) process of lower order can often be made to fit data as either high order AR or MA process. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">实践中，许多数据既可用高阶 MA 也可用较低阶 AR 合理建模，应优先采用参数较少的版本。同样，较低阶 ARMA 常能拟合需要高阶 AR 或 MA 才能描述的数据。原文 may、refer 的措辞保留。</span></details>
 
 
-**3.4.4 Low order models** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.4.4 低阶模型。</span></details>
+### 3.4.4 Low order models / 低阶模型
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.4.4 低阶模型。</span></details>
 
 
 Experience suggest that ARMA(p,q) process with $p+q\leq2$ constitute an extremely useful class of parsimonious models for stationary time series data. We can summarize main features of AR(2), MA(2), and ARMA(1,1) processes. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">经验表明，p+q 不超过 2 的 ARMA 是平稳数据中非常有用的简约模型。以下概括 AR(2)、MA(2) 与 ARMA(1,1) 的主要特征。</span></details>
@@ -553,8 +570,7 @@ Three distinct forms of solution: <details class="translation-details"><summary>
 > [!example]- PDF 第 12 页原貌（含原有批注）
 > ![PDF p.12](<附件/ch3-lecture-p12.png>)
 
-## PDF p.13
-
+**PDF p.13** ^pdf-p13
 
 (i) $\alpha_1^2+4\alpha_2>0$ ⇒ mixtures of two exponentially decaying function for $\rho(k)$. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">（i）判别式大于 0：自相关是两个指数衰减函数的混合。</span></details>
 
@@ -602,8 +618,7 @@ By direct calculation, $b_0=1$, $b_1=\alpha+\beta$, …, $b_i=\alpha^{i-1}(\beta
 > [!example]- PDF 第 13 页原貌（含原有批注）
 > ![PDF p.13](<附件/ch3-lecture-p13.png>)
 
-## PDF p.14
-
+**PDF p.14** ^pdf-p14
 
 then using results of section 3.3.3, <details class="translation-details"><summary>中文译文</summary><span class="translation-body">使用第 3.3.3 节的结果：</span></details>
 
@@ -635,7 +650,9 @@ $$\rho_4=0.3\rho_3+0.2\rho_2=0.3\rho_3+0.088,\quad\rho_3=0.3\rho_2+0.2\rho_1=0.2
 hence $\rho_4=0.1756$. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">因此四阶自相关为 0.1756。</span></details>
 
 
-**3.5 Integrated process** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.5 单整过程。</span></details>
+## 3.5 Integrated process / 单整过程
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.5 单整过程。</span></details>
 
 
 Recall the Markov process $X_t=X_{t-1}+Z_t$, which is nonstationary but can be transformed to a stationary process by differencing. More generally, consider the process <details class="translation-details"><summary>中文译文</summary><span class="translation-body">回顾非平稳的随机游走，它可通过差分转为平稳过程。更一般地，考虑：</span></details>
@@ -651,7 +668,7 @@ $\Phi(B)$, $\Theta(B)$ are polynomials of degree p,q respectively, all of their 
 > [!example]- PDF 第 14 页原貌（含原有批注）
 > ![PDF p.14](<附件/ch3-lecture-p14.png>)
 
-## PDF p.15
+**PDF p.15** ^pdf-p15
 
 $$\Phi(B)\{\nabla^dX_t\}=\Theta(B)Z_t$$
 
@@ -661,7 +678,9 @@ i.e. the dth difference of $\{X_t\}$ is ARMA(p,q), we call (3.9) an autoregressi
 Warning : over difference an already stationary series will often produce an undesirable increase in variability. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">警告：对已经平稳的序列过度差分，往往使波动不必要地增加。</span></details>
 
 
-**3.6 Seasonal models** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.6 季节模型。</span></details>
+## 3.6 Seasonal models / 季节模型
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">3.6 季节模型。</span></details>
 
 
 The seasonal difference operator $\nabla_sX_t=X_t-X_{t-s}=(1-B^s)X_t$ can be used to eliminate seasonal nonstationarity. Formally, consider seasonal ARIMA models of the form <details class="translation-details"><summary>中文译文</summary><span class="translation-body">季节差分可消除季节性非平稳。正式地，考虑下列季节 ARIMA 模型：</span></details>

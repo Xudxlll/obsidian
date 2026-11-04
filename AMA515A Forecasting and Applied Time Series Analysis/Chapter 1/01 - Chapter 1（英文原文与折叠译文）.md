@@ -10,15 +10,19 @@ cssclasses:
 > 按 PDF 阅读器页码完整转录英文、公式、表格；段末点击“中文译文”展开中文。各页末折叠保留原页，原文疑似笔误不直接改写。手写补充另成两篇，保持各自版本及页序。
 > [资料索引](<00 - Chapter 1 资料索引.md>) · [原 PDF](<附件/Chapter 1.pdf>) · [手写笔记（前半）](<02 - Chapter 1 手写笔记（p1 to p5）.md>) · [手写笔记（后半）](<03 - Chapter 1 手写笔记（p6 to p9）.md>)
 
-## PDF p.1
+**PDF p.1** ^pdf-p1
 
 **AMA515A Forecasting and applied time series analysis** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">AMA515A 预测与应用时间序列分析。</span></details>
 
-### Chapter 1 : Introduction to forecasting <details class="translation-details"><summary>中文译文</summary><span class="translation-body">第 1 章：预测导论。</span></details>
+# Chapter 1 : Introduction to forecasting
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">第 1 章：预测导论。</span></details>
 
 **1. Time series data and forecasts** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">1. 时间序列数据与预测。</span></details>
 
-**1.1 The general setup** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">1.1 一般框架。</span></details>
+## 1.1 The general setup / 一般框架
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">1.1 一般框架。</span></details>
 
 To build a forecast model for a time series $Y_t$, a researcher usually collects a sequence of observations from the available data. The data are usually partitioned ( see the chart below) in the following fashion: <details class="translation-details"><summary>中文译文</summary><span class="translation-body">为了给时间序列 Yₜ 建立预测模型，研究者通常从可用数据中收集一系列观测值。数据一般按下图所示的方式划分：</span></details>
 
@@ -34,7 +38,9 @@ To build a forecast model for a time series $Y_t$, a researcher usually collects
 
 - The ex ante forecast period is defined as that time period in which no observations on the time series variable exist. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">事前预测期指该时间序列变量尚不存在实际观测值的时期。</span></details>
 
-**1.2 Measuring the forecast error** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">1.2 衡量预测误差。</span></details>
+## 1.2 Measuring the forecast error / 衡量预测误差
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">1.2 衡量预测误差。</span></details>
 
 Defn. We define the difference between the actual and the forecast values as the forecast error, <details class="translation-details"><summary>中文译文</summary><span class="translation-body">定义：实际值与预测值的差称为预测误差。</span></details>
 
@@ -45,7 +51,7 @@ $$
 > [!example]- PDF 第 1 页原貌
 > ![PDF p.1](<附件/lecture-p01.png>)
 
-## PDF p.2
+**PDF p.2** ^pdf-p2
 
 The following statistical summary measures of a model's forecast accuracy are defined using the absolute errors: <details class="translation-details"><summary>中文译文</summary><span class="translation-body">下列预测准确性的统计汇总指标以绝对误差定义：</span></details>
 
@@ -98,9 +104,11 @@ It is clear that U has a value between 0 and 1. A small value of U indicates a g
 > [!example]- PDF 第 2 页原貌
 > ![PDF p.2](<附件/lecture-p02.png>)
 
-## PDF p.3
+**PDF p.3** ^pdf-p3
 
-**1.3 Some simple forecast models** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">1.3 一些简单的预测模型。</span></details>
+## 1.3 Some simple forecast models / 一些简单的预测模型
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">1.3 一些简单的预测模型。</span></details>
 
 **(a) The naïve forecast** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">（a）朴素预测。</span></details>
 
@@ -163,7 +171,7 @@ Table 2 gives the actual revenue, naïve, 3-period moving average, & linear tren
 > [!example]- PDF 第 3 页原貌
 > ![PDF p.3](<附件/lecture-p03.png>)
 
-## PDF p.4
+**PDF p.4** ^pdf-p4
 
 The linear trend equation for 00 to 05 is <details class="translation-details"><summary>中文译文</summary><span class="translation-body">00 至 05 年的线性趋势方程为：</span></details>
 
@@ -188,7 +196,9 @@ Note: In the above regression, t runs from 0 to 5. <details class="translation-d
 
 <details class="translation-details"><summary>中文译文</summary><span class="translation-body">各列依次为：年份、实际收入、朴素预测、3 期移动平均预测、趋势预测。</span></details>
 
-**1.4 Simple exponential smoothing (for constant process)** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">1.4 简单指数平滑（适用于恒定水平过程）。</span></details>
+## 1.4 Simple exponential smoothing (for constant process) / 简单指数平滑（适用于恒定水平过程）
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">1.4 简单指数平滑（适用于恒定水平过程）。</span></details>
 
 Let <details class="translation-details"><summary>中文译文</summary><span class="translation-body">设：</span></details>
 
@@ -219,9 +229,11 @@ $$
 > [!example]- PDF 第 4 页原貌
 > ![PDF p.4](<附件/lecture-p04.png>)
 
-## PDF p.5
+**PDF p.5** ^pdf-p5
 
-**1.4.1 Properties of simple exponential smoothing forecast** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">1.4.1 简单指数平滑预测的性质。</span></details>
+### 1.4.1 Properties of simple exponential smoothing forecast / 简单指数平滑预测的性质
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">1.4.1 简单指数平滑预测的性质。</span></details>
 
 Observe <details class="translation-details"><summary>中文译文</summary><span class="translation-body">观察下列展开：</span></details>
 
@@ -285,7 +297,7 @@ Observe <details class="translation-details"><summary>中文译文</summary><spa
 > [!example]- PDF 第 5 页原貌
 > ![PDF p.5](<附件/lecture-p05.png>)
 
-## PDF p.6
+**PDF p.6** ^pdf-p6
 
 $$
 S_1=0.1X_1+0.9S_0
@@ -313,9 +325,13 @@ $$
 
 and that is the forecast of $X_3$. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">它就是对 X₃ 的预测。</span></details>
 
-**1.5 Descriptive techniques** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">1.5 描述性方法。</span></details>
+## 1.5 Descriptive techniques / 描述性方法
 
-**1.5.1 Trend and seasonality** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">1.5.1 趋势与季节性。</span></details>
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">1.5 描述性方法。</span></details>
+
+### 1.5.1 Trend and seasonality / 趋势与季节性
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">1.5.1 趋势与季节性。</span></details>
 
 Both refer to deterministic variation in the mean of the time series $X_t$, i.e., <details class="translation-details"><summary>中文译文</summary><span class="translation-body">二者都指时间序列 Xₜ 的均值中的确定性变化，即：</span></details>
 
@@ -335,7 +351,9 @@ $$
 
 where $Z_t$ is iid $N(0,\sigma^2)$ as possible model for data. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">其中 Zₜ 独立同分布于 N(0, σ²)，从而构成数据的一种可能模型。</span></details>
 
-**1.5.2 Stochastic trend** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">1.5.2 随机趋势。</span></details>
+### 1.5.2 Stochastic trend / 随机趋势
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">1.5.2 随机趋势。</span></details>
 
 Ex. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">例：</span></details>
 
@@ -393,7 +411,7 @@ then in (2.1), <details class="translation-details"><summary>中文译文</summa
 > [!example]- PDF 第 6 页原貌
 > ![PDF p.6](<附件/lecture-p06.png>)
 
-## PDF p.7
+**PDF p.7** ^pdf-p7
 
 $$
 \nabla X_t=Z_t\sim N(0,\sigma^2),\quad\text{for all }t.
@@ -422,7 +440,9 @@ can be useful. <details class="translation-details"><summary>中文译文</summa
 > [!note] 原文核对备注
 > 上式的 NID 按原文保留。相邻差分共享随机项，因此“独立”的标记存在疑点；这里不改动源公式。
 
-**1.5.3 Causal model and regression over time** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">1.5.3 因果模型与对时间的回归。</span></details>
+### 1.5.3 Causal model and regression over time / 因果模型与对时间的回归
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">1.5.3 因果模型与对时间的回归。</span></details>
 
 **(A) Linear model** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">（A）线性模型。</span></details>
 
@@ -477,7 +497,7 @@ Steps: (1) if $d_U<d<4-d_U$, accept $H_0$. <details class="translation-details">
 > [!example]- PDF 第 7 页原貌
 > ![PDF p.7](<附件/lecture-p07.png>)
 
-## PDF p.8
+**PDF p.8** ^pdf-p8
 
 (2) if $d<d_L$, accept $\rho>0$; if $d>4-d_L$, accept $\rho<0$. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">（2）如果 d &lt; dL，则接受正相关结论；如果 d &gt; 4 − dL，则接受负相关结论。</span></details>
 
@@ -657,7 +677,7 @@ Tools for detection of nonlinearity: <details class="translation-details"><summa
 > [!example]- PDF 第 8 页原貌
 > ![PDF p.8](<附件/lecture-p08.png>)
 
-## PDF p.9
+**PDF p.9** ^pdf-p9
 
 $$
 a+b(t+1)+c(t+1)^2-a-bt-ct^2=b+2ct+c,
@@ -789,11 +809,13 @@ $$
 > [!example]- PDF 第 9 页原貌
 > ![PDF p.9](<附件/lecture-p09.png>)
 
-## PDF p.10
+**PDF p.10** ^pdf-p10
 
 **Business forecasting** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">商业预测。</span></details>
 
-### Appendix 1: Prediction interval of trend model <details class="translation-details"><summary>中文译文</summary><span class="translation-body">附录 1：趋势模型的预测区间。</span></details>
+## Appendix 1: Prediction interval of trend model
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">附录 1：趋势模型的预测区间。</span></details>
 
 Recall the formula for prediction interval is <details class="translation-details"><summary>中文译文</summary><span class="translation-body">回顾预测区间公式：</span></details>
 

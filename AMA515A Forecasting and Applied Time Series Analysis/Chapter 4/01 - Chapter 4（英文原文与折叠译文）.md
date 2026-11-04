@@ -13,16 +13,17 @@ cssclasses:
 
 英文按原 PDF 页序整理，逐段附默认折叠的中文译文。独立公式和图表另排；每页底部可展开原页核对。原有题目与解答分别保留，不另编解题分析。 本资料是带教师手写批注的扫描版：印刷正文与主要统计表转录；第 12—14 页密集数字表、第 15 页软件图形输出保留清晰原图，标题提供译文。所有手写批注保留在对应原页，不声称已全文转写。
 
-## PDF p.1
-
+**PDF p.1** ^pdf-p1
 
 **AMA515A Forecasting and applied time series analysis** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">AMA515A 预测与应用时间序列分析。</span></details>
 
 
-### Chapter 4 : Statistical Analysis in the Time Domain <details class="translation-details"><summary>中文译文</summary><span class="translation-body">第 4 章：时域中的统计分析。</span></details>
+**Chapter 4 : Statistical Analysis in the Time Domain** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">第 4 章：时域中的统计分析。</span></details>
 
 
-**4.1 Variance stability transformations** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">4.1 方差稳定化变换。</span></details>
+## 4.1 Variance stability transformations / 方差稳定化变换
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">4.1 方差稳定化变换。</span></details>
 
 
 A common phenomenon in non-stationary time series data is that the variability is related to the average level. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">非平稳时间序列的一个常见现象是：波动程度与平均水平有关。</span></details>
@@ -72,7 +73,7 @@ Reconsider (4.1) $\sigma=v(\theta)\cdot h'(\theta)$, which implies <details clas
 > [!example]- PDF 第 1 页原貌（含原有批注）
 > ![PDF p.1](<附件/ch4-updated-p01.png>)
 
-## PDF p.2
+**PDF p.2** ^pdf-p2
 
 $$\log(v(\theta))=\log\sigma+(1-\lambda)\log\bar x,$$
 
@@ -83,7 +84,9 @@ $$\log(s)=\log\sigma+(1-\lambda)\log\bar x.$$
 Namely we divide the time series data into a number of blocks and find the sample standard deviation (s.d.) and sample mean of each block. We then plot the sample standard deviation against the sample mean and find the estimate of $\lambda$ from the slope of the plot. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">具体做法是把时间序列分成若干组，计算每组的样本标准差和样本均值，再依据两者的图形斜率估计 λ。原文的文字表述与上式的对数坐标请结合阅读。</span></details>
 
 
-**4.2 Partial Autocorrelation** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">4.2 偏自相关。</span></details>
+## 4.2 Partial Autocorrelation / 偏自相关
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">4.2 偏自相关。</span></details>
 
 
 Correlogram is a crucial tool in recognition of plausible models for time series data. But because of sampling fluctuations, cut-off correlogram is easier to recognize than exponential decay. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">相关图是识别时间序列可能模型的重要工具。但由于抽样波动，截尾通常比指数衰减更容易识别。</span></details>
@@ -106,7 +109,9 @@ $$\widehat\phi_k=\frac{|\widehat R_k^*|}{|\widehat R_k|},\quad k=1,2,\ldots.$$
 So, for an AR(p) process, we expect $\widehat\phi_k\approx0$, for all k > p. Also $\widehat\phi_k$ has asymptotic variance $n^{-1}$, so use $\pm2/\sqrt n$ to look for significantly non-zero $\widehat\phi_k$, just as for ordinary correlogram. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">所以，对于 AR(p) 过程，超过 p 阶的样本偏自相关应接近 0；其渐近方差为 1/n，因此与普通相关图一样，用 ±2/√n 判断是否显著非零。</span></details>
 
 
-**4.3 Model identification** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">4.3 模型识别。</span></details>
+## 4.3 Model identification / 模型识别
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">4.3 模型识别。</span></details>
 
 
 Within the general framework of (possibly seasonal) ARIMA(p,d,q) processes statistical analysis proceeds in three stages: <details class="translation-details"><summary>中文译文</summary><span class="translation-body">在可能包含季节性的 ARIMA(p,d,q) 框架下，统计分析分三步：</span></details>
@@ -115,8 +120,7 @@ Within the general framework of (possibly seasonal) ARIMA(p,d,q) processes stati
 > [!example]- PDF 第 2 页原貌（含原有批注）
 > ![PDF p.2](<附件/ch4-updated-p02.png>)
 
-## PDF p.3
-
+**PDF p.3** ^pdf-p3
 
 (i) Identify plausible choices for p, d, q. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">（i）识别合理的 p、d、q。</span></details>
 
@@ -145,7 +149,9 @@ Other tools include time plots, differencing, experience and common sense. <deta
 • Correlogram: Can resolve doubtful cases of stationarity. More positively, seek to relate correlogram to one of the various distinctive theoretical ACF of sub-classes of ARMA processes (exponential decay, cut-off…). Partial correlogram also help. Conventional error is $\pm2/\sqrt n$. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">相关图：帮助判断可疑的平稳性情形；还可以将样本图与不同 ARMA 子类的理论 ACF 特征对应，如指数衰减、截尾。偏相关图也有帮助。惯用误差界限为 ±2/√n。</span></details>
 
 
-**4.3.1 Behavior of the acf and pacf for non-seasonal ARIMA models** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">4.3.1 非季节 ARIMA 模型的 ACF 和 PACF 特征。</span></details>
+### 4.3.1 Behavior of the acf and pacf for non-seasonal ARIMA models / 非季节 ARIMA 模型的 ACF 和 PACF 特征
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">4.3.1 非季节 ARIMA 模型的 ACF 和 PACF 特征。</span></details>
 
 
 | Model | Autocorrelation function | Partial autocorr. function |
@@ -161,10 +167,11 @@ Other tools include time plots, differencing, experience and common sense. <deta
 > [!example]- PDF 第 3 页原貌（含原有批注）
 > ![PDF p.3](<附件/ch4-updated-p03.png>)
 
-## PDF p.4
+**PDF p.4** ^pdf-p4
 
+### 4.3.2 Characteristics and equations for the most common Box-Jenkins models [ARIMA(p,d,q)(P,D,Q)L] / 常见 Box–Jenkins 模型的特征与方程，包括非季节与季节阶数
 
-**4.3.2 Characteristics and equations for the most common Box-Jenkins models [ARIMA(p,d,q)(P,D,Q)L]** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">4.3.2 常见 Box–Jenkins 模型的特征与方程，包括非季节与季节阶数。</span></details>
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">4.3.2 常见 Box–Jenkins 模型的特征与方程，包括非季节与季节阶数。</span></details>
 
 
 Note : both seasonal and nonseasonal models are included. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">注意：下表同时包含季节和非季节模型。</span></details>
@@ -207,10 +214,11 @@ $$
 > [!example]- PDF 第 4 页原貌（含原有批注）
 > ![PDF p.4](<附件/ch4-updated-p04.png>)
 
-## PDF p.5
+**PDF p.5** ^pdf-p5
 
+### 4.3.3 Additional approach to model identification / 模型识别的其他方法
 
-**4.3.3 Additional approach to model identification** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">4.3.3 模型识别的其他方法。</span></details>
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">4.3.3 模型识别的其他方法。</span></details>
 
 
 Many approaches to model identification have been proposed since Box and Jenkins' work. A popular one is the Akaike's Information Criterion (AIC, 1973). AIC says to select the model that minimizes <details class="translation-details"><summary>中文译文</summary><span class="translation-body">自 Box 和 Jenkins 的工作以来，出现了许多模型识别方法。常见的一种是赤池信息准则（AIC，1973），选择使以下指标最小的模型：</span></details>
@@ -234,7 +242,9 @@ $$\operatorname{BIC}=-2\log(\text{maximum likelihood})+k\log(n).$$
 Both criteria will tend to selects models with smaller k. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">两种准则都倾向于选择 k 更小的模型。</span></details>
 
 
-**4.4 Parameter estimation** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">4.4 参数估计。</span></details>
+## 4.4 Parameter estimation / 参数估计
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">4.4 参数估计。</span></details>
 
 
 Having identify an ARMA(p,q) process for the suitably differenced data, we need to estimate p and q parameters; we use least squares, i.e., we minimize sum of squared estimated residuals. Alternatively we can use the maximum likelihood approach. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">对适当差分后的数据识别出 ARMA(p,q) 模型后，需要估计参数。可以用最小二乘法，使估计残差平方和最小；也可以采用最大似然法。</span></details>
@@ -243,15 +253,16 @@ Having identify an ARMA(p,q) process for the suitably differenced data, we need 
 Definition: All ARMA process involve an embedded white noise sequence $\{Z_t\}$. The sequence of values $\{\widehat Z_t\}$ recovered from the data $\{X_t\}$ and the fitted parameters $\widehat\alpha_i,\widehat\beta_j$ are called residuals. If the model is suitable (reasonable), residuals should approximately be a realization of white noise (uncorrelated, zero mean, constant variance). <details class="translation-details"><summary>中文译文</summary><span class="translation-body">定义：所有 ARMA 过程都包含一个白噪声序列。从数据和拟合参数还原出的 Ẑₜ 称为残差。若模型合理，残差应近似为白噪声的一次实现：不相关、均值为零、方差恒定。</span></details>
 
 
-**4.4.1 Autoregressive processes** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">4.4.1 自回归过程。</span></details>
+### 4.4.1 Autoregressive processes / 自回归过程
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">4.4.1 自回归过程。</span></details>
 
 $$X_t=\sum_{i=1}^p\alpha_iX_{t-i}+Z_t\quad\Longleftrightarrow\quad Z_t=X_t-\sum_{i=1}^p\alpha_iX_{t-i}.$$
 
 > [!example]- PDF 第 5 页原貌（含原有批注）
 > ![PDF p.5](<附件/ch4-updated-p05.png>)
 
-## PDF p.6
-
+**PDF p.6** ^pdf-p6
 
 Estimate $\widehat\alpha_i$ s.t. $\sum_{t=p+1}^n(x_t-\sum_{i=1}^p\alpha_ix_{t-i})^2$ is a minimum. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">估计 αᵢ，使残差平方和达到最小。</span></details>
 
@@ -264,7 +275,9 @@ The L.S. solution is given by the Yule-Walker equation, $\alpha=R^{-1}\rho$, whe
 > [!note] 原文核对提示
 > 上述“L.S. solution”照录。有限样本的条件最小二乘估计与使用样本 ACF 的 Yule–Walker 估计一般并不完全相同；不要据此把两种计算法在任何样本中都视为同一结果。
 
-**4.4.2 Moving average processes** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">4.4.2 移动平均过程。</span></details>
+### 4.4.2 Moving average processes / 移动平均过程
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">4.4.2 移动平均过程。</span></details>
 
 $$X_t=Z_t+\sum_{j=1}^q\theta_jZ_{t-j}\quad\Longleftrightarrow\quad Z_t=X_t-\sum_{j=1}^q\theta_jZ_{t-j}.$$
 
@@ -283,7 +296,9 @@ $$
 Then minimize $\sum_{t=1}^n Z_t^{*2}$ numerically. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">然后数值最小化递推残差的平方和。</span></details>
 
 
-**4.4.3 Mixed processes** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">4.4.3 混合过程。</span></details>
+### 4.4.3 Mixed processes / 混合过程
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">4.4.3 混合过程。</span></details>
 
 $$X_t=\sum_{i=1}^p\alpha_iX_{t-i}+Z_t+\sum_{j=1}^q\beta_jZ_{t-j}\quad\Longleftrightarrow\quad X_t-\sum_{i=1}^p\alpha_iX_{t-i}-\sum_{j=1}^q\beta_jZ_{t-j}=Z_t.$$
 
@@ -314,13 +329,14 @@ Note: A more general and rigorous theory on estimation of parameters in ARIMA mo
 > [!example]- PDF 第 6 页原貌（含原有批注）
 > ![PDF p.6](<附件/ch4-updated-p06.png>)
 
-## PDF p.7
-
+**PDF p.7** ^pdf-p7
 
 refer to Chapter 3 of Harvey (Time Series Models, 1993) or Ch. 7 of Wei (Time series analysis : univariate and multivariate methods, 1993). A brief account is shown below. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">参阅 Harvey《Time Series Models》（1993）第 3 章，或 Wei《Time series analysis: univariate and multivariate methods》（1993）第 7 章。以下作简要介绍。</span></details>
 
 
-**4.5 Maximum likelihood estimation** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">4.5 最大似然估计。</span></details>
+## 4.5 Maximum likelihood estimation / 最大似然估计
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">4.5 最大似然估计。</span></details>
 
 
 We begin with the non-time series case. Suppose that we have a sample of independent observations $X_t$, t = 1, 2, …, N each with pdf $f(X_t)$. Then the joint density function is <details class="translation-details"><summary>中文译文</summary><span class="translation-body">先考虑非时间序列情形。若 N 个观测相互独立，各自的概率密度为 f(Xₜ)，则联合密度为：</span></details>
@@ -361,7 +377,7 @@ Then the mean of the conditional distribution (which is normal) $f(X_t\mid X_1,X
 > [!example]- PDF 第 7 页原貌（含原有批注）
 > ![PDF p.7](<附件/ch4-updated-p07.png>)
 
-## PDF p.8
+**PDF p.8** ^pdf-p8
 
 $$f(X_t\mid X_1,\ldots,X_{t-1})=\frac1{\sqrt{2\pi\sigma^2}}\exp\left[-\frac{(X_t-\phi_1X_{t-1}-\phi_2X_{t-2})^2}{2\sigma^2}\right].$$
 
@@ -403,7 +419,7 @@ Let $x_0=2$, then <details class="translation-details"><summary>中文译文</su
 > [!example]- PDF 第 8 页原貌（含原有批注）
 > ![PDF p.8](<附件/ch4-updated-p08.png>)
 
-## PDF p.9
+**PDF p.9** ^pdf-p9
 
 $$x_1=2-\frac{-1}{10}=2.1,\quad x_2=2.1-\frac{0.0061}{11.23}=2.09457,\quad x_3=2.09455.$$
 
@@ -439,7 +455,7 @@ $$\theta_{n+1}=\theta_n-\left[\left.\frac{\partial^2l}{\partial^2\theta}\right|_
 > [!example]- PDF 第 9 页原貌（含原有批注）
 > ![PDF p.9](<附件/ch4-updated-p09.png>)
 
-## PDF p.10
+**PDF p.10** ^pdf-p10
 
 > [!example]- 第 10 页补充手写推导（MA(1) 最大似然估计）
 > [查看补充笔记](<04 - Chapter 4 第10页手写补充.md>) · [原始 PDF](<附件/AMA515A Ch. 4 p. 10.pdf>)
@@ -474,7 +490,9 @@ Here $\widehat\theta$ is the estimate of $\theta$ obtained from (4.5). <details 
 > [!note] 原文核对提示
 > 原印刷的 ∂l/∂s 与直接对式（4.4）求导相差一个非零常数因子，设为零的方程不变；公式仍照录。噪声下标问题见上一页。
 
-**4.6 Diagnostic checking (Residual analysis)** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">4.6 诊断检验（残差分析）。</span></details>
+## 4.6 Diagnostic checking (Residual analysis) / 诊断检验（残差分析）
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">4.6 诊断检验（残差分析）。</span></details>
 
 
 Check that the estimated residual series $\{\widehat Z_t\}$ is consistent with white noise. Same techniques are relevant here. General guide, use <details class="translation-details"><summary>中文译文</summary><span class="translation-body">检查估计残差序列是否符合白噪声。前面的相关技术同样适用，一般使用：</span></details>
@@ -498,8 +516,7 @@ Check that the estimated residual series $\{\widehat Z_t\}$ is consistent with w
 > [!example]- PDF 第 10 页原貌（含原有批注）
 > ![PDF p.10](<附件/ch4-updated-p10.png>)
 
-## PDF p.11
-
+**PDF p.11** ^pdf-p11
 
 Box-Pierce: $n\sum_{k=1}^m\widehat r^2(k)$ follows $\chi^2_{m-p-q}$ asymptotically. Good for large samples. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">Box–Pierce 统计量渐近服从自由度 m−p−q 的卡方分布，适合大样本。</span></details>
 
@@ -542,8 +559,7 @@ $$\operatorname{var}(X)=E\left(\sum_{t=1}^{n-1}e_t^2e_{t+1}^2\right)=n-1,\quad \
 > [!example]- PDF 第 11 页原貌（含原有批注）
 > ![PDF p.11](<附件/ch4-updated-p11.png>)
 
-## PDF p.12
-
+**PDF p.12** ^pdf-p12
 
 **Example on model fitting:** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">模型拟合实例。</span></details>
 
@@ -555,22 +571,19 @@ Data -- US quarterly unemployment data, 1948–1978 (121 observations, from Crye
 
 ![Original unemployment data and AR2 residuals, PDF p.12](<附件/ch4-updated-p12.png>)
 
-## PDF p.13
-
+**PDF p.13** ^pdf-p13
 
 **unemploy / ar2-residuals (continued)** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">失业率与 AR(2) 残差表续页，含教师批注。为避免扫描数字转录误差，完整保留原数据表图。</span></details>
 
 ![Original unemployment data and AR2 residuals, PDF p.13](<附件/ch4-updated-p13.png>)
 
-## PDF p.14
-
+**PDF p.14** ^pdf-p14
 
 **unemploy / ar2-residuals (continued)** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">失业率与 AR(2) 残差表续页，含教师批注。</span></details>
 
 ![Original unemployment data and AR2 residuals, PDF p.14](<附件/ch4-updated-p14.png>)
 
-## PDF p.15
-
+**PDF p.15** ^pdf-p15
 
 **US quarterly unemployment data — time plot** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">美国季度失业率时间图。Index 表示时间序号，unemploy 为失业率。</span></details>
 
@@ -579,8 +592,7 @@ Data -- US quarterly unemployment data, 1948–1978 (121 observations, from Crye
 
 ![Time plot and original ACF output, PDF p.15](<附件/ch4-updated-p15.png>)
 
-## PDF p.16
-
+**PDF p.16** ^pdf-p16
 
 **ACF of unemploy (continued)** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">失业率 ACF 续页：第 27—30 阶分别为 −0.319、−0.340、−0.364、−0.384。</span></details>
 
@@ -627,8 +639,7 @@ Data -- US quarterly unemployment data, 1948–1978 (121 observations, from Crye
 > [!example]- PDF 第 16 页原貌（含原有批注）
 > ![PDF p.16](<附件/ch4-updated-p16.png>)
 
-## PDF p.17
-
+**PDF p.17** ^pdf-p17
 
 **ARIMA Model: unemploy / Modified Box-Pierce (Ljung-Box) Chi-Square statistic** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">另一失业率模型的 Ljung–Box 检验结果。</span></details>
 
@@ -685,8 +696,7 @@ Hence AIC and AICC choose the ARMA(2,1) model, while BIC chooses AR(2). <details
 > [!example]- PDF 第 17 页原貌（含原有批注）
 > ![PDF p.17](<附件/ch4-updated-p17.png>)
 
-## PDF p.18
-
+**PDF p.18** ^pdf-p18
 
 Hence the Box-Pierce and Ljung-Box statistics are given by <details class="translation-details"><summary>中文译文</summary><span class="translation-body">因此，Box–Pierce 与 Ljung–Box 统计量分别为：</span></details>
 

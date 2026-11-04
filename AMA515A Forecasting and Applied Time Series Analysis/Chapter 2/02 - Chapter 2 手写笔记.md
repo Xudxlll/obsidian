@@ -17,7 +17,7 @@ cssclasses:
 
 **Example 1: stationarity and autocovariance** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">例 1：平稳性与自协方差</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 2（英文原文与折叠译文）.md#PDF p.2>)
+[相关双语正文（按主题定位）](<01 - Chapter 2（英文原文与折叠译文）.md#^pdf-p2>)
 
 ![PDF p.1](<附件/ch2-notes-p01.png>)
 
@@ -25,7 +25,7 @@ cssclasses:
 
 **Examples 2 and 3** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">例 2 与例 3</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 2（英文原文与折叠译文）.md#PDF p.4>)
+[相关双语正文（按主题定位）](<01 - Chapter 2（英文原文与折叠译文）.md#^pdf-p4>)
 
 ![PDF p.2](<附件/ch2-notes-p02.png>)
 
@@ -33,7 +33,7 @@ cssclasses:
 
 **Example 3: trigonometric calculation** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">例 3：三角函数计算</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 2（英文原文与折叠译文）.md#PDF p.5>)
+[相关双语正文（按主题定位）](<01 - Chapter 2（英文原文与折叠译文）.md#^pdf-p5>)
 
 ![PDF p.3](<附件/ch2-notes-p03.png>)
 
@@ -41,7 +41,7 @@ cssclasses:
 
 **Sample autocorrelation** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">样本自相关</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 2（英文原文与折叠译文）.md#PDF p.5>)
+[相关双语正文（按主题定位）](<01 - Chapter 2（英文原文与折叠译文）.md#^pdf-p5>)
 
 ![PDF p.4](<附件/ch2-notes-p04.png>)
 
@@ -49,7 +49,7 @@ cssclasses:
 
 **Example 4 and general linear process** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">例 4 与一般线性过程</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 2（英文原文与折叠译文）.md#PDF p.6>)
+[相关双语正文（按主题定位）](<01 - Chapter 2（英文原文与折叠译文）.md#^pdf-p6>)
 
 ![PDF p.5](<附件/ch2-notes-p05.png>)
 
@@ -57,7 +57,7 @@ cssclasses:
 
 **General linear process: stationarity** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">一般线性过程的平稳性</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 2（英文原文与折叠译文）.md#PDF p.6>)
+[相关双语正文（按主题定位）](<01 - Chapter 2（英文原文与折叠译文）.md#^pdf-p6>)
 
 ![PDF p.6](<附件/ch2-notes-p06.png>)
 
@@ -65,7 +65,7 @@ cssclasses:
 
 **Single exponential smoothing with a linear trend** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">线性趋势下的一次指数平滑</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 2（英文原文与折叠译文）.md#PDF p.7>)
+[相关双语正文（按主题定位）](<01 - Chapter 2（英文原文与折叠译文）.md#^pdf-p7>)
 
 ![PDF p.7](<附件/ch2-notes-p07.png>)
 
@@ -73,7 +73,7 @@ cssclasses:
 
 **Double exponential smoothing** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">二次指数平滑</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 2（英文原文与折叠译文）.md#PDF p.7>)
+[相关双语正文（按主题定位）](<01 - Chapter 2（英文原文与折叠译文）.md#^pdf-p7>)
 
 ![PDF p.8](<附件/ch2-notes-p08.png>)
 
@@ -81,7 +81,7 @@ cssclasses:
 
 **Level, slope and initialization** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">水平、斜率与初始化</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 2（英文原文与折叠译文）.md#PDF p.8>)
+[相关双语正文（按主题定位）](<01 - Chapter 2（英文原文与折叠译文）.md#^pdf-p8>)
 
 ![PDF p.9](<附件/ch2-notes-p09.png>)
 
@@ -89,7 +89,7 @@ cssclasses:
 
 **Forecasting with double exponential smoothing** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">二次指数平滑预测</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 2（英文原文与折叠译文）.md#PDF p.8>)
+[相关双语正文（按主题定位）](<01 - Chapter 2（英文原文与折叠译文）.md#^pdf-p8>)
 
 ![PDF p.10](<附件/ch2-notes-p10.png>)
 

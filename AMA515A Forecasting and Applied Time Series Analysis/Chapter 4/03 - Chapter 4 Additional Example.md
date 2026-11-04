@@ -17,7 +17,7 @@ cssclasses:
 
 **Example: Ljung-Box test for an ARMA(1,2) model** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">例：ARMA(1,2) 模型的 Ljung–Box 检验</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 4（英文原文与折叠译文）.md#PDF p.11>)
+[相关双语正文（按主题定位）](<01 - Chapter 4（英文原文与折叠译文）.md#^pdf-p11>)
 
 ![PDF p.1](<附件/ch4-example-p01.png>)
 

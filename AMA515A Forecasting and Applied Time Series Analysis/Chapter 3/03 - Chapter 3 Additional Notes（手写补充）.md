@@ -17,7 +17,7 @@ cssclasses:
 
 **Autocorrelation and white noise** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">自相关与白噪声</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.1>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p1>)
 
 ![PDF p.1](<附件/ch3-additional-p01.png>)
 
@@ -25,7 +25,7 @@ cssclasses:
 
 **AR(1): mean, variance and autocorrelation** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">AR(1) 的均值、方差与自相关</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.2>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p2>)
 
 ![PDF p.2](<附件/ch3-additional-p02.png>)
 
@@ -33,7 +33,7 @@ cssclasses:
 
 **Theorem 3.1: AR(1) stationarity** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">定理 3.1：AR(1) 平稳性</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.2>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p2>)
 
 ![PDF p.3](<附件/ch3-additional-p03.png>)
 
@@ -41,7 +41,7 @@ cssclasses:
 
 **MA(2): autocorrelation and example** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">MA(2) 自相关与例题</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.4>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p4>)
 
 ![PDF p.4](<附件/ch3-additional-p04.png>)
 
@@ -49,7 +49,7 @@ cssclasses:
 
 **Random walk** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">随机游走</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.5>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p5>)
 
 ![PDF p.5](<附件/ch3-additional-p05.png>)
 
@@ -57,7 +57,7 @@ cssclasses:
 
 **Infinite and finite moving average processes** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">无限阶与有限阶移动平均</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.6>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p6>)
 
 ![PDF p.6](<附件/ch3-additional-p06.png>)
 
@@ -65,7 +65,7 @@ cssclasses:
 
 **Invertibility** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">可逆性</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.7>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p7>)
 
 ![PDF p.7](<附件/ch3-additional-p07.png>)
 
@@ -73,7 +73,7 @@ cssclasses:
 
 **Yule-Walker equations** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">Yule–Walker 方程</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.8>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p8>)
 
 ![PDF p.8](<附件/ch3-additional-p08.png>)
 
@@ -81,7 +81,7 @@ cssclasses:
 
 **Matrix form and root criterion** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">矩阵形式与根的判据</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.9>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p9>)
 
 ![PDF p.9](<附件/ch3-additional-p09.png>)
 
@@ -89,7 +89,7 @@ cssclasses:
 
 **AR(2): stationarity proof** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">AR(2) 平稳性证明</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.9>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p9>)
 
 ![PDF p.10](<附件/ch3-additional-p10.png>)
 
@@ -97,7 +97,7 @@ cssclasses:
 
 **Partial fractions and AR(2)** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">部分分式与 AR(2)</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.10>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p10>)
 
 ![PDF p.11](<附件/ch3-additional-p11.png>)
 
@@ -105,7 +105,7 @@ cssclasses:
 
 **General AR(p) process** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">一般 AR(p) 过程</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.10>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p10>)
 
 ![PDF p.12](<附件/ch3-additional-p12.png>)
 
@@ -113,7 +113,7 @@ cssclasses:
 
 **AR(2) variance and example** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">AR(2) 方差与例题</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.11>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p11>)
 
 ![PDF p.13](<附件/ch3-additional-p13.png>)
 
@@ -121,7 +121,7 @@ cssclasses:
 
 **ARMA processes** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">ARMA 过程</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.11>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p11>)
 
 ![PDF p.14](<附件/ch3-additional-p14.png>)
 
@@ -129,7 +129,7 @@ cssclasses:
 
 **ARMA example and parsimony** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">ARMA 例题与简约原则</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.12>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p12>)
 
 ![PDF p.15](<附件/ch3-additional-p15.png>)
 
@@ -137,7 +137,7 @@ cssclasses:
 
 **Low-order AR(2) models** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">低阶 AR(2) 模型</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.12>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p12>)
 
 ![PDF p.16](<附件/ch3-additional-p16.png>)
 
@@ -145,7 +145,7 @@ cssclasses:
 
 **Roots and autocorrelation** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">特征根与自相关</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.13>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p13>)
 
 ![PDF p.17](<附件/ch3-additional-p17.png>)
 
@@ -153,7 +153,7 @@ cssclasses:
 
 **MA(2) and ARMA(1,1)** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">MA(2) 与 ARMA(1,1)</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.13>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p13>)
 
 ![PDF p.18](<附件/ch3-additional-p18.png>)
 
@@ -161,7 +161,7 @@ cssclasses:
 
 **ARMA(1,1) autocorrelation** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">ARMA(1,1) 自相关</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.14>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p14>)
 
 ![PDF p.19](<附件/ch3-additional-p19.png>)
 
@@ -169,7 +169,7 @@ cssclasses:
 
 **ARMA(2,1) and integrated processes** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">ARMA(2,1) 与求和过程</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.14>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p14>)
 
 ![PDF p.20](<附件/ch3-additional-p20.png>)
 
@@ -177,7 +177,7 @@ cssclasses:
 
 **Over-differencing and seasonal models** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">过度差分与季节模型</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.15>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p15>)
 
 ![PDF p.21](<附件/ch3-additional-p21.png>)
 
@@ -185,7 +185,7 @@ cssclasses:
 
 **Seasonal ARIMA** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">季节 ARIMA</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.15>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p15>)
 
 ![PDF p.22](<附件/ch3-additional-p22.png>)
 

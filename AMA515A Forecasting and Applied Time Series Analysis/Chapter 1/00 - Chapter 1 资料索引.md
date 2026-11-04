@@ -21,16 +21,16 @@ cssclasses:
 
 ## 正式讲义页码导航
 
-- [PDF p.1](<01 - Chapter 1（英文原文与折叠译文）.md#PDF p.1>)：样本划分、ex post、ex ante、预测误差。
-- [PDF p.2](<01 - Chapter 1（英文原文与折叠译文）.md#PDF p.2>)：MAE、MAPE、MSE、RMSE、Theil’s U。
-- [PDF p.3](<01 - Chapter 1（英文原文与折叠译文）.md#PDF p.3>)：朴素预测、移动平均、趋势与因果模型、收入数据。
-- [PDF p.4](<01 - Chapter 1（英文原文与折叠译文）.md#PDF p.4>)：收入预测表、简单指数平滑。
-- [PDF p.5](<01 - Chapter 1（英文原文与折叠译文）.md#PDF p.5>)：SES 性质及电视机销量例题。
-- [PDF p.6](<01 - Chapter 1（英文原文与折叠译文）.md#PDF p.6>)：SES 计算、趋势、季节性、随机趋势。
-- [PDF p.7](<01 - Chapter 1（英文原文与折叠译文）.md#PDF p.7>)：差分、线性回归及 DW 检验。
-- [PDF p.8](<01 - Chapter 1（英文原文与折叠译文）.md#PDF p.8>)：DW 判定、回归估计、检验、预测区间与非线性识别。
-- [PDF p.9](<01 - Chapter 1（英文原文与折叠译文）.md#PDF p.9>)：多项式、指数与 Logistic 模型。
-- [PDF p.10](<01 - Chapter 1（英文原文与折叠译文）.md#PDF p.10>)：预测区间附录及数值例题。
+- [PDF p.1](<01 - Chapter 1（英文原文与折叠译文）.md#^pdf-p1>)：样本划分、ex post、ex ante、预测误差。
+- [PDF p.2](<01 - Chapter 1（英文原文与折叠译文）.md#^pdf-p2>)：MAE、MAPE、MSE、RMSE、Theil’s U。
+- [PDF p.3](<01 - Chapter 1（英文原文与折叠译文）.md#^pdf-p3>)：朴素预测、移动平均、趋势与因果模型、收入数据。
+- [PDF p.4](<01 - Chapter 1（英文原文与折叠译文）.md#^pdf-p4>)：收入预测表、简单指数平滑。
+- [PDF p.5](<01 - Chapter 1（英文原文与折叠译文）.md#^pdf-p5>)：SES 性质及电视机销量例题。
+- [PDF p.6](<01 - Chapter 1（英文原文与折叠译文）.md#^pdf-p6>)：SES 计算、趋势、季节性、随机趋势。
+- [PDF p.7](<01 - Chapter 1（英文原文与折叠译文）.md#^pdf-p7>)：差分、线性回归及 DW 检验。
+- [PDF p.8](<01 - Chapter 1（英文原文与折叠译文）.md#^pdf-p8>)：DW 判定、回归估计、检验、预测区间与非线性识别。
+- [PDF p.9](<01 - Chapter 1（英文原文与折叠译文）.md#^pdf-p9>)：多项式、指数与 Logistic 模型。
+- [PDF p.10](<01 - Chapter 1（英文原文与折叠译文）.md#^pdf-p10>)：预测区间附录及数值例题。
 
 ## 手写笔记与讲义的对应关系
 

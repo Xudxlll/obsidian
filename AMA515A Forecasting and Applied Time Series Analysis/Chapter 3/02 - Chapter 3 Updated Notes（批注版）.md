@@ -17,7 +17,7 @@ cssclasses:
 
 **Chapter 3 — annotated page 1** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">第 3 章批注版第 1 页</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.1>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p1>)
 
 ![PDF p.1](<附件/ch3-updated-p01.png>)
 
@@ -25,7 +25,7 @@ cssclasses:
 
 **Chapter 3 — annotated page 2** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">第 3 章批注版第 2 页</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.2>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p2>)
 
 ![PDF p.2](<附件/ch3-updated-p02.png>)
 
@@ -33,7 +33,7 @@ cssclasses:
 
 **Chapter 3 — annotated page 3** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">第 3 章批注版第 3 页</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.3>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p3>)
 
 ![PDF p.3](<附件/ch3-updated-p03.png>)
 
@@ -41,7 +41,7 @@ cssclasses:
 
 **Chapter 3 — annotated page 4** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">第 3 章批注版第 4 页</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.4>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p4>)
 
 ![PDF p.4](<附件/ch3-updated-p04.png>)
 
@@ -49,7 +49,7 @@ cssclasses:
 
 **Chapter 3 — annotated page 5** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">第 3 章批注版第 5 页</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.5>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p5>)
 
 ![PDF p.5](<附件/ch3-updated-p05.png>)
 
@@ -57,7 +57,7 @@ cssclasses:
 
 **Chapter 3 — annotated page 6** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">第 3 章批注版第 6 页</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.6>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p6>)
 
 ![PDF p.6](<附件/ch3-updated-p06.png>)
 
@@ -65,7 +65,7 @@ cssclasses:
 
 **Chapter 3 — annotated page 7** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">第 3 章批注版第 7 页</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.7>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p7>)
 
 ![PDF p.7](<附件/ch3-updated-p07.png>)
 
@@ -73,7 +73,7 @@ cssclasses:
 
 **Chapter 3 — annotated page 8** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">第 3 章批注版第 8 页</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.8>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p8>)
 
 ![PDF p.8](<附件/ch3-updated-p08.png>)
 
@@ -81,7 +81,7 @@ cssclasses:
 
 **Chapter 3 — annotated page 9** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">第 3 章批注版第 9 页</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.9>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p9>)
 
 ![PDF p.9](<附件/ch3-updated-p09.png>)
 
@@ -89,7 +89,7 @@ cssclasses:
 
 **Chapter 3 — annotated page 10** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">第 3 章批注版第 10 页</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.10>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p10>)
 
 ![PDF p.10](<附件/ch3-updated-p10.png>)
 
@@ -97,7 +97,7 @@ cssclasses:
 
 **Chapter 3 — annotated page 11** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">第 3 章批注版第 11 页</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.11>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p11>)
 
 ![PDF p.11](<附件/ch3-updated-p11.png>)
 
@@ -105,7 +105,7 @@ cssclasses:
 
 **Chapter 3 — annotated page 12** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">第 3 章批注版第 12 页</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.12>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p12>)
 
 ![PDF p.12](<附件/ch3-updated-p12.png>)
 
@@ -113,7 +113,7 @@ cssclasses:
 
 **Chapter 3 — annotated page 13** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">第 3 章批注版第 13 页</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.13>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p13>)
 
 ![PDF p.13](<附件/ch3-updated-p13.png>)
 
@@ -121,7 +121,7 @@ cssclasses:
 
 **Chapter 3 — annotated page 14** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">第 3 章批注版第 14 页</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.14>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p14>)
 
 ![PDF p.14](<附件/ch3-updated-p14.png>)
 
@@ -129,7 +129,7 @@ cssclasses:
 
 **Chapter 3 — annotated page 15** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">第 3 章批注版第 15 页</span></details>
 
-[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#PDF p.15>)
+[相关双语正文（按主题定位）](<01 - Chapter 3（英文原文与折叠译文）.md#^pdf-p15>)
 
 ![PDF p.15](<附件/ch3-updated-p15.png>)
 

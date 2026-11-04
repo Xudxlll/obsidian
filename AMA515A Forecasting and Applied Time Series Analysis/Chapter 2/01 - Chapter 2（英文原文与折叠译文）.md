@@ -13,34 +13,41 @@ cssclasses:
 
 英文按原 PDF 页序整理，逐段附默认折叠的中文译文。独立公式和图表另排；每页底部可展开原页核对。原有题目与解答分别保留，不另编解题分析。
 
-## PDF p.1
-
+**PDF p.1** ^pdf-p1
 
 **AMA515A Forecasting and applied time series analysis** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">AMA515A 预测与应用时间序列分析。</span></details>
 
 
-### Ch.2 Stationarity and further exponential smoothing <details class="translation-details"><summary>中文译文</summary><span class="translation-body">第 2 章：平稳性与进一步的指数平滑。</span></details>
+**Ch.2 Stationarity and further exponential smoothing** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">第 2 章：平稳性与进一步的指数平滑。</span></details>
 
 
-**2.1 Time series** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">2.1 时间序列。</span></details>
+## 2.1 Time series / 时间序列
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">2.1 时间序列。</span></details>
 
 
 A stochastic process is a family of random variables $Z_t$, where t belongs to the set of integers $0,\pm1,\pm2,\ldots$. If t carries the meaning of time, then the process is called a time series. In most cases, we shall be dealing with non-negative time, namely, t = 0, 1, 2,…. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">随机过程是一族随机变量 Zₜ，其中 t 属于整数集 0、±1、±2、…。如果 t 表示时间，这个过程就称为时间序列。在大多数情况下，我们处理非负时间，即 t = 0、1、2、…。</span></details>
 
 
-**2.1.1 Stationary time series** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">2.1.1 平稳时间序列。</span></details>
+### 2.1.1 Stationary time series / 平稳时间序列
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">2.1.1 平稳时间序列。</span></details>
 
 
 A strictly stationary series is one whose statistical properties remain constant in time. A proper definition for a time series $\{X_t,t=0,\pm1,\ldots\}$ is by the condition that $(X_1,\ldots,X_n)$ and $(X_{1+h},\ldots,X_{n+h})$ have the same joint distribution for all integers h and n > 0. A necessary condition for this is the absence of any deterministic or stochastic trend. Stationary series are amenable to formal analysis. Elimination of non-stationarity is a primary aim of preliminary, descriptive analysis. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">严格平稳序列的统计性质不随时间改变。正式定义要求：对所有整数 h 和正整数 n，两组变量 (X₁,…,Xₙ) 与 (X₁₊h,…,Xₙ₊h) 具有相同的联合分布。一个必要条件是不具有任何确定性或随机趋势。平稳序列便于正式分析；消除非平稳性是初步描述性分析的主要目标。</span></details>
 
 
-**2.1.2 White noise** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">2.1.2 白噪声。</span></details>
+### 2.1.2 White noise / 白噪声
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">2.1.2 白噪声。</span></details>
 
 
 If $X_t\sim\operatorname{IID}(0,\sigma^2),\ \forall t$, the process $\{X_t\}$ is said to be white noise. It’s a term coming from engineering. Thus white noise is the simplest kind of strictly stationary time series. Before attempting any analysis in terms of more complicated models, it is advisable to examine, either informally or by formal tests, whether data show any incompatibility with white noise. A standard tool is the autocorrelation coefficients in the next section. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">若各 Xₜ 独立同分布、均值为 0、方差为 σ²，该过程称为白噪声。这一术语来自工程学。白噪声是最简单的一类严格平稳序列。使用更复杂模型前，应通过直观观察或正式检验，检查数据是否表现出与白噪声不相容的特征。下一节的自相关系数是一种标准工具。</span></details>
 
 
-**2.1.3 Weakly stationary TS** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">2.1.3 弱平稳时间序列。</span></details>
+### 2.1.3 Weakly stationary TS / 弱平稳时间序列
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">2.1.3 弱平稳时间序列。</span></details>
 
 
 Strict stationarity is usually a too strong condition in applications. Let <details class="translation-details"><summary>中文译文</summary><span class="translation-body">实际应用中，严格平稳通常是过强的条件。设：</span></details>
@@ -64,10 +71,11 @@ then $X_t$ is said to be weakly stationary time series. In this course we mainly
 > [!example]- PDF 第 1 页原貌（含原有批注）
 > ![PDF p.1](<附件/ch2-lecture-p01.png>)
 
-## PDF p.2
+**PDF p.2** ^pdf-p2
 
+## 2.2 Further discussion on weak stationarity / 进一步讨论弱平稳性
 
-**2.2 Further discussion on weak stationarity** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">2.2 进一步讨论弱平稳性。</span></details>
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">2.2 进一步讨论弱平稳性。</span></details>
 
 
 Recall if a discrete time stochastic process $\{X_t\}$ satisfy the following conditions: <details class="translation-details"><summary>中文译文</summary><span class="translation-body">回顾：若离散时间随机过程满足下列条件：</span></details>
@@ -83,7 +91,9 @@ $$
 Then $\{X_t\}$ is said to possess second order stationarity. Some authors also say $\{X_t\}$ is weakly stationary or covariance-stationary. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">则称该过程具有二阶平稳性。有些作者也称它为弱平稳或协方差平稳。</span></details>
 
 
-**2.2.1 Autocorrelation function of a stationary stochastic process** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">2.2.1 平稳随机过程的自相关函数。</span></details>
+### 2.2.1 Autocorrelation function of a stationary stochastic process / 平稳随机过程的自相关函数
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">2.2.1 平稳随机过程的自相关函数。</span></details>
 
 
 The autocovariance function of a time series $X_t$ is defined by <details class="translation-details"><summary>中文译文</summary><span class="translation-body">时间序列的自协方差函数定义为：</span></details>
@@ -136,7 +146,7 @@ $$
 > [!example]- PDF 第 2 页原貌（含原有批注）
 > ![PDF p.2](<附件/ch2-lecture-p02.png>)
 
-## PDF p.3
+**PDF p.3** ^pdf-p3
 
 $$
 =\begin{cases}1.25\sigma^2,&\text{if }k=0,\\0.5\sigma^2,&\text{if }k=1,\end{cases}
@@ -178,7 +188,7 @@ Data set of $Z_t$: <details class="translation-details"><summary>中文译文</s
 > [!example]- PDF 第 3 页原貌（含原有批注）
 > ![PDF p.3](<附件/ch2-lecture-p03.png>)
 
-## PDF p.4
+**PDF p.4** ^pdf-p4
 
 ![Plot of MA process zt=0.5a_(t-1)+a_t](<附件/ch2-lecture-p04-chart.png>)
 
@@ -226,7 +236,7 @@ $$E(Z_t)=E(A)E[\sin(\omega t+\theta)]=0.$$
 > [!example]- PDF 第 4 页原貌（含原有批注）
 > ![PDF p.4](<附件/ch2-lecture-p04.png>)
 
-## PDF p.5
+**PDF p.5** ^pdf-p5
 
 $$
 \begin{aligned}
@@ -240,8 +250,141 @@ $$
 
 Thus $Z_t$ is stationary. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">因此 Zₜ 平稳。</span></details>
 
+> [!note]- 基础回顾一：正弦、余弦求导与积分
+> 下列公式使用**弧度制**。对 $x$ 求导：
+>
+> $$
+> \frac{d}{dx}\sin x=\cos x,\qquad
+> \frac{d}{dx}\cos x=-\sin x.
+> $$
+>
+> 若内部是可导函数 $u(x)$，使用链式法则：
+>
+> $$
+> \frac{d}{dx}\sin u(x)=\cos u(x)\,u'(x),\qquad
+> \frac{d}{dx}\cos u(x)=-\sin u(x)\,u'(x).
+> $$
+>
+> 相应地，当常数 $a\ne0$ 时，常用不定积分为：
+>
+> $$
+> \int\cos(ax+b)\,dx=\frac{1}{a}\sin(ax+b)+C,\qquad
+> \int\sin(ax+b)\,dx=-\frac{1}{a}\cos(ax+b)+C.
+> $$
+>
+> 本题把 $c=\omega(2t+k)$ 视作常数，对 $\theta$ 积分，因此：
+>
+> $$
+> \int\cos(c+2\theta)\,d\theta=\frac12\sin(c+2\theta)+C.
+> $$
 
-**2.2.2 Sample Autocorrelation** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">2.2.2 样本自相关。</span></details>
+> [!note]- 基础回顾二：正余弦互换、和差角与积化和差
+> **同角关系与互换。** 注意符号和角度；后两式体现正弦、余弦相差 $\pi/2$ 的相位。
+>
+> $$
+> \sin^2x+\cos^2x=1,\qquad
+> \sin x=\cos\left(\frac\pi2-x\right),\qquad
+> \cos x=\sin\left(\frac\pi2-x\right).
+> $$
+>
+> **奇偶性与周期。**
+>
+> $$
+> \sin(-x)=-\sin x,\quad \cos(-x)=\cos x,\quad
+> \sin(x+2\pi)=\sin x,\quad \cos(x+2\pi)=\cos x.
+> $$
+>
+> **和角与差角公式。** 使用 $\pm$ 时，同一公式两侧取对应的上号或下号。
+>
+> $$
+> \sin(u\pm v)=\sin u\cos v\pm\cos u\sin v,
+> $$
+>
+> $$
+> \cos(u\pm v)=\cos u\cos v\mp\sin u\sin v.
+> $$
+>
+> **积化和差：把两个三角函数的乘积改写成和或差。**
+>
+> $$
+> \sin u\sin v=\tfrac12[\cos(u-v)-\cos(u+v)],
+> $$
+>
+> $$
+> \cos u\cos v=\tfrac12[\cos(u-v)+\cos(u+v)],
+> $$
+>
+> $$
+> \sin u\cos v=\tfrac12[\sin(u+v)+\sin(u-v)].
+> $$
+>
+> **和差化积：把两个三角函数的和或差改写成乘积。**
+>
+> $$
+> \sin u+\sin v=2\sin\tfrac{u+v}{2}\cos\tfrac{u-v}{2},\qquad
+> \sin u-\sin v=2\cos\tfrac{u+v}{2}\sin\tfrac{u-v}{2},
+> $$
+>
+> $$
+> \cos u+\cos v=2\cos\tfrac{u+v}{2}\cos\tfrac{u-v}{2},\qquad
+> \cos u-\cos v=-2\sin\tfrac{u+v}{2}\sin\tfrac{u-v}{2}.
+> $$
+>
+> **本题如何使用？** 令 $u=\omega t+\theta$、$v=\omega(t+k)+\theta$。因为 $\cos$ 是偶函数，$\cos(u-v)=\cos(-\omega k)=\cos(\omega k)$，于是
+>
+> $$
+> \sin(\omega t+\theta)\sin[\omega(t+k)+\theta]
+> =\tfrac12[\cos(\omega k)-\cos(\omega(2t+k)+2\theta)].
+> $$
+
+> [!note]- 基础回顾三：连续均匀分布、密度、分布函数与本题积分
+> 若 $U\sim\operatorname{Unif}(a,b)$，其中 $a<b$，则其**概率密度函数**为
+>
+> $$
+> f_U(u)=\begin{cases}
+> \dfrac{1}{b-a},&a\le u\le b,\\
+> 0,&\text{其他情况}.
+> \end{cases}
+> $$
+>
+> 密度曲线下的总面积是 1；对于连续分布，某个区间的概率是该区间下的面积，单个取值的概率为 0。其**累积分布函数** $F_U(u)=P(U\le u)$ 为
+>
+> $$
+> F_U(u)=\begin{cases}
+> 0,&u<a,\\
+> \dfrac{u-a}{b-a},&a\le u\le b,\\
+> 1,&u>b.
+> \end{cases}
+> $$
+>
+> 因此，当 $a\le c\le d\le b$ 时，$P(c\le U\le d)=(d-c)/(b-a)$；端点是否取等号不改变连续分布的区间概率。
+>
+> **本题：** $\theta\sim\operatorname{Unif}(-\pi,\pi)$，密度为 $1/(2\pi)$，并且
+>
+> $$
+> F_\theta(x)=\begin{cases}
+> 0,&x<-\pi,\\
+> \dfrac{x+\pi}{2\pi},&-\pi\le x\le\pi,\\
+> 1,&x>\pi.
+> \end{cases}
+> $$
+>
+> 连续随机变量的函数期望通过 $E[g(\theta)]=\int g(\theta)f_\theta(\theta)\,d\theta$ 计算。固定 $t,k$ 并令 $c=\omega(2t+k)$，则
+>
+> $$
+> \begin{aligned}
+> E[\cos(c+2\theta)]
+> &=\frac{1}{2\pi}\int_{-\pi}^{\pi}\cos(c+2\theta)\,d\theta\\
+> &=\frac{1}{4\pi}[\sin(c+2\pi)-\sin(c-2\pi)]=0.
+> \end{aligned}
+> $$
+>
+> 最后一步使用正弦函数的 $2\pi$ 周期性。它解释了原题中为什么含 $2\theta$ 的余弦项取期望后消失；$c$ 可以是任意固定常数。
+
+
+### 2.2.2 Sample Autocorrelation / 样本自相关
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">2.2.2 样本自相关。</span></details>
 
 
 For a series $\{X_t:t=1,\ldots,n\}$, define <details class="translation-details"><summary>中文译文</summary><span class="translation-body">对序列 X₁,…,Xₙ，定义：</span></details>
@@ -281,8 +424,7 @@ $$\operatorname{Corr}(X_t,X_{t-k})=\frac{\operatorname{Cov}(X_t,X_{t-k})}{[\oper
 > [!example]- PDF 第 5 页原貌（含原有批注）
 > ![PDF p.5](<附件/ch2-lecture-p05.png>)
 
-## PDF p.6
-
+**PDF p.6** ^pdf-p6
 
 **Example 4:** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">例 4：</span></details>
 
@@ -294,7 +436,9 @@ Consider the MA1 process $Z_t$ of Example 1, then its sample autocorrelations is
 **Series zt — ACF / Lag** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">序列 zₜ；纵轴为自相关函数，横轴为滞后阶数。</span></details>
 
 
-**2.3 General Linear Process** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">2.3 一般线性过程。</span></details>
+## 2.3 General Linear Process / 一般线性过程
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">2.3 一般线性过程。</span></details>
 
 
 A general linear process (GLP) $\{Y_t\}$ is one that can be represented by a linear combination of present and past white noise terms, namely <details class="translation-details"><summary>中文译文</summary><span class="translation-body">一般线性过程可表示为当期与历史白噪声项的线性组合，即：</span></details>
@@ -332,10 +476,11 @@ which does not depend on t. <details class="translation-details"><summary>中文
 > [!example]- PDF 第 6 页原貌（含原有批注）
 > ![PDF p.6](<附件/ch2-lecture-p06.png>)
 
-## PDF p.7
+**PDF p.7** ^pdf-p7
 
+## 2.4 Exponential smoothing for a linear trend process / 线性趋势过程的指数平滑
 
-**2.4 Exponential smoothing for a linear trend process** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">2.4 线性趋势过程的指数平滑。</span></details>
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">2.4 线性趋势过程的指数平滑。</span></details>
 
 
 Suppose our process is of the form <details class="translation-details"><summary>中文译文</summary><span class="translation-body">假设过程具有下列形式：</span></details>
@@ -366,7 +511,9 @@ $$
 Thus the smoothed statistic is a biased forecast for a linear trend process. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">因此，对线性趋势过程而言，平滑统计量是有偏预测。</span></details>
 
 
-**2.5 Double exponential smoothing (for linear trend process)** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">2.5 双重指数平滑（适用于线性趋势过程）。</span></details>
+## 2.5 Double exponential smoothing (for linear trend process) / 双重指数平滑（适用于线性趋势过程）
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">2.5 双重指数平滑（适用于线性趋势过程）。</span></details>
 
 
 Recall simple exponential smoothing, i.e., $S_T=\alpha x_T+(1-\alpha)S_{T-1}$, is a biased forecast for linear trend process. Now if we let <details class="translation-details"><summary>中文译文</summary><span class="translation-body">回顾：简单指数平滑对线性趋势过程产生有偏预测。现在令：</span></details>
@@ -401,8 +548,7 @@ $$\hat x_T=2S_T-S_T^{[2]}.\tag{2.5.6}$$
 > [!example]- PDF 第 7 页原貌（含原有批注）
 > ![PDF p.7](<附件/ch2-lecture-p07.png>)
 
-## PDF p.8
-
+**PDF p.8** ^pdf-p8
 
 Now <details class="translation-details"><summary>中文译文</summary><span class="translation-body">现在：</span></details>
 
@@ -457,8 +603,7 @@ Note: I use the symbol $\hat x_T(\tau)$ to denote the $\tau$-step ahead forecast
 > [!example]- PDF 第 8 页原貌（含原有批注）
 > ![PDF p.8](<附件/ch2-lecture-p08.png>)
 
-## PDF p.9
-
+**PDF p.9** ^pdf-p9
 
 **Choice of smoothing constant** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">平滑常数的选择。</span></details>
 
@@ -479,7 +624,9 @@ $$f(\alpha)=\sum_{t=m}^{m+k}\left\{x_{t+1}-\alpha\sum_{j=0}^{m-1}(1-\alpha)^jx_{
 and minimize $f(\alpha)$ numerically to find $\alpha$. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">通过数值最小化 f(α) 来确定 α。</span></details>
 
 
-**2.6 Higher order smoothing (General polynomial)** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">2.6 高阶平滑（一般多项式）。</span></details>
+## 2.6 Higher order smoothing (General polynomial) / 高阶平滑（一般多项式）
+
+<details class="translation-details"><summary>中文译文</summary><span class="translation-body">2.6 高阶平滑（一般多项式）。</span></details>
 
 
 The d. exp. Smoothing method can be extended easily to higher order. For example, if the model is : <details class="translation-details"><summary>中文译文</summary><span class="translation-body">双重指数平滑可以推广到更高阶。例如，模型为：</span></details>
@@ -513,8 +660,7 @@ $$
 > [!example]- PDF 第 9 页原貌（含原有批注）
 > ![PDF p.9](<附件/ch2-lecture-p09.png>)
 
-## PDF p.10
-
+**PDF p.10** ^pdf-p10
 
 The above procedure is known as triple exponential smoothing. Result can be generalized to nth degree polynomial directly. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">上述方法称为三重指数平滑。其结果可直接推广到 n 次多项式。</span></details>
 
@@ -522,8 +668,7 @@ The above procedure is known as triple exponential smoothing. Result can be gene
 > [!example]- PDF 第 10 页原貌（含原有批注）
 > ![PDF p.10](<附件/ch2-lecture-p10.png>)
 
-## PDF p.11
-
+**PDF p.11** ^pdf-p11
 
 **An Example** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">一个例子。</span></details>
 
