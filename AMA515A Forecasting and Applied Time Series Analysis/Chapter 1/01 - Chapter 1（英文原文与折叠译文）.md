@@ -584,6 +584,66 @@ $$
 
 where $s_e=\sqrt{\mathrm{MSE}}$ and MSE being from linear regression analysis. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">其中 se 是 MSE 的平方根，MSE 来自线性回归分析。</span></details>
 
+> [!note]- 预测区间的推导：预测误差、方差与 t 分布
+> 下面对应手写笔记后半 PDF p.8。先考虑一般一元回归，再将解释变量 $x$ 换成时间 $t$。假设历史解释变量及预测位置 $x_0$ 固定，模型设定正确，历史误差独立同分布且服从 $N(0,\sigma^2)$；未来误差 $\varepsilon_0$ 与历史误差独立，且同样服从 $N(0,\sigma^2)$。时间点须不全相同，且 $n>2$。
+>
+> **1. 区分预测值与未来实际值。** 未来实际值及其点预测分别为
+>
+> $$
+> Y_0=\alpha+\beta x_0+\varepsilon_0,
+> \qquad \hat Y_0=\hat\alpha+\hat\beta x_0.
+> $$
+>
+> 预测区间研究的是预测误差 $\hat Y_0-Y_0$。在上述假设下，$E(\hat\alpha)=\alpha$、$E(\hat\beta)=\beta$、$E(\varepsilon_0)=0$，因此
+>
+> $$
+> E(\hat Y_0-Y_0)
+> =E(\hat\alpha)+x_0E(\hat\beta)-\alpha-\beta x_0-E(\varepsilon_0)=0.
+> $$
+>
+> 这表示预测误差的均值为零，并不表示每一次预测误差都是零。
+>
+> **2. 推导预测误差的方差。** 含截距的 OLS 满足 $\hat\alpha=\bar Y-\hat\beta\bar x$，所以
+>
+> $$
+> \hat Y_0=\bar Y+\hat\beta(x_0-\bar x),\qquad
+> \hat Y_0-Y_0=\bar Y+\hat\beta(x_0-\bar x)-\alpha-\beta x_0-\varepsilon_0.
+> $$
+>
+> 在上述固定设计和误差假设下，$\operatorname{Cov}(\bar Y,\hat\beta)=0$，且未来误差与历史估计量不相关，因此交叉协方差项为零：
+>
+> $$
+> \begin{aligned}
+> \operatorname{Var}(\hat Y_0-Y_0)
+> &=\operatorname{Var}(\bar Y)+(x_0-\bar x)^2\operatorname{Var}(\hat\beta)+\operatorname{Var}(\varepsilon_0)\\
+> &=\frac{\sigma^2}{n}+\frac{(x_0-\bar x)^2\sigma^2}{\sum_{i=1}^{n}(x_i-\bar x)^2}+\sigma^2\\
+> &=\sigma^2\left[1+\frac1n+\frac{(x_0-\bar x)^2}{\sum_{i=1}^{n}(x_i-\bar x)^2}\right].
+> \end{aligned}
+> $$
+>
+> **3. 换成时间趋势模型并估计方差。** 令 $x_i=t_i$、$x_0=t_p$，且 $c_{tt}=\sum_{i=1}^{n}(t_i-\bar t)^2$。用 $s_e^2=\mathrm{MSE}=\sum e_i^2/(n-2)$ 估计未知的 $\sigma^2$，预测误差的标准误为
+>
+> $$
+> s_{\mathrm{pred}}=s_e\sqrt{1+\frac1n+\frac{(t_p-\bar t)^2}{c_{tt}}}.
+> $$
+>
+> 根号中的 $1$ 代表未来单次观测的新误差；其余两项来自估计趋势线的不确定性。因此这是预测**单个未来值**的标准误，不只是拟合均值的标准误。
+>
+> **4. 使用 t 分布得到预测区间。** 在上述正态回归假设下，
+>
+> $$
+> \frac{\hat Y_{t_p}-Y_{t_p}}{s_{\mathrm{pred}}}\sim t_{n-2}.
+> $$
+>
+> 令显著性水平为 $\gamma$，并以 $t_{\gamma/2,n-2}$ 表示上尾概率为 $\gamma/2$ 的正临界值，整理得到 $(1-\gamma)$ 预测区间：
+>
+> $$
+> \hat y_{t_p}\pm t_{\gamma/2,n-2}\,s_e
+> \sqrt{1+\frac1n+\frac{(t_p-\bar t)^2}{c_{tt}}}.
+> $$
+>
+> 这里用 $\gamma$ 避免与模型截距 $\alpha$ 混淆；课件的 $t_{\alpha/2}$ 中 $\alpha$ 指显著性水平。原式中心写作 $\hat y_t$，上式统一记为目标时点的预测值 $\hat y_{t_p}$。手写页末含 $1+\cdots$ 的方差式应理解为**预测误差的方差估计**，而非仅为 $\hat Y_{t_p}$ 的方差。若未来误差与历史误差相关、存在异方差或趋势模型失效，不能直接依赖这一公式。
+
 **(B) Curvilinear model** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">（B）曲线模型。</span></details>
 
 Tools for detection of nonlinearity: <details class="translation-details"><summary>中文译文</summary><span class="translation-body">识别非线性的工具：</span></details>
@@ -632,6 +692,76 @@ $$
 $$
 
 where $\mathbf y=(y_1,y_2,\ldots,y_n)'$. <details class="translation-details"><summary>中文译文</summary><span class="translation-body">其中 y 是由 y₁ 至 yₙ 组成的列向量。</span></details>
+
+多项式回归可写成向量形式：
+
+$$
+\underbrace{\mathbf y}_{n\times1}
+=\underbrace{X}_{n\times(k+1)}
+\underbrace{\boldsymbol\beta}_{(k+1)\times1}
++\underbrace{\boldsymbol\varepsilon}_{n\times1},
+\qquad
+\boldsymbol\varepsilon=(\varepsilon_1,\ldots,\varepsilon_n)^\top.
+$$
+
+其中 $X$ 的第 $t$ 行为 $(1,t,t^2,\ldots,t^k)$；每行对应一个时点，每列对应一个解释变量。若时点依次为 $1,\ldots,n$，则最后一行为 $(1,n,n^2,\ldots,n^k)$；上方课件矩阵中的第 $t$ 行可理解为一般行。
+
+> [!note]- 最小二乘估计 $\hat{\boldsymbol\beta}$ 的矩阵推导
+> **第一步：写出残差平方和。** 对任意候选参数 $\boldsymbol\beta$，残差向量为 $\mathbf e(\boldsymbol\beta)=\mathbf y-X\boldsymbol\beta$。其转置乘自身就是各残差平方之和，因此最小二乘目标为
+>
+> $$
+> \min_{\boldsymbol\beta}Q(\boldsymbol\beta),\qquad
+> Q(\boldsymbol\beta)=(\mathbf y-X\boldsymbol\beta)^\top(\mathbf y-X\boldsymbol\beta)
+> =\sum_{t=1}^{n}e_t^2.
+> $$
+>
+> **第二步：展开目标函数。** 利用 $(X\boldsymbol\beta)^\top=\boldsymbol\beta^\top X^\top$：
+>
+> $$
+> \begin{aligned}
+> Q(\boldsymbol\beta)
+> &=(\mathbf y^\top-\boldsymbol\beta^\top X^\top)(\mathbf y-X\boldsymbol\beta)\\
+> &=\mathbf y^\top\mathbf y-\mathbf y^\top X\boldsymbol\beta
+> -\boldsymbol\beta^\top X^\top\mathbf y
+> +\boldsymbol\beta^\top X^\top X\boldsymbol\beta\\
+> &=\mathbf y^\top\mathbf y-2\boldsymbol\beta^\top X^\top\mathbf y
+> +\boldsymbol\beta^\top X^\top X\boldsymbol\beta.
+> \end{aligned}
+> $$
+>
+> 中间两项互为转置，且都是标量，因此相等，可以合并。
+>
+> **第三步：对参数向量求梯度。** $\mathbf y^\top\mathbf y$ 不含参数，导数为零；$X^\top X$ 是对称矩阵，因此
+>
+> $$
+> \nabla_{\boldsymbol\beta}Q
+> =-2X^\top\mathbf y+2X^\top X\boldsymbol\beta
+> =-2X^\top(\mathbf y-X\boldsymbol\beta).
+> $$
+>
+> **第四步：令梯度为零，得到正规方程。** 令最优参数为 $\hat{\boldsymbol\beta}$：
+>
+> $$
+> X^\top(\mathbf y-X\hat{\boldsymbol\beta})=\mathbf0
+> \quad\Longleftrightarrow\quad
+> X^\top X\hat{\boldsymbol\beta}=X^\top\mathbf y.
+> $$
+>
+> 若 $X$ 的列线性独立，则 $X^\top X$ 可逆。两边左乘 $(X^\top X)^{-1}$，得到
+>
+> $$
+> \hat{\boldsymbol\beta}=(X^\top X)^{-1}X^\top\mathbf y.
+> $$
+>
+> **第五步：确认是最小值。** 对任意偏移向量 $\mathbf h$，令 $\hat{\mathbf e}=\mathbf y-X\hat{\boldsymbol\beta}$。由正规方程 $X^\top\hat{\mathbf e}=\mathbf0$，有
+>
+> $$
+> Q(\hat{\boldsymbol\beta}+\mathbf h)
+> =Q(\hat{\boldsymbol\beta})+(X\mathbf h)^\top(X\mathbf h)
+> \geq Q(\hat{\boldsymbol\beta}).
+> $$
+>
+> 因此它是全局最小值；若 $X$ 列线性独立，则最小值唯一。正规方程也说明残差与 $X$ 的每一列正交：在线性趋势模型中即 $\sum e_t=0$ 和 $\sum te_t=0$；二次趋势还满足 $\sum t^2e_t=0$。
 
 **(II) Exponential(loglinear) :** <details class="translation-details"><summary>中文译文</summary><span class="translation-body">（II）指数（对数线性）模型：</span></details>
 
