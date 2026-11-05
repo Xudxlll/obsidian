@@ -1,0 +1,1716 @@
+1
+00:00:40,770 --> 00:00:46,899
+Leung Ping Kei: Oh, good morning, class. Do you have any questions to ask before we start our lecture now?
+
+2
+00:00:49,320 --> 00:00:51,760
+Leung Ping Kei: If no, okay, then,
+
+3
+00:00:52,700 --> 00:01:05,999
+Leung Ping Kei: We have, chapter 5 today. Chapter 5 is FORECASTING, FORECASTING with the Box and Jenkins models, ARMA models, okay? So, this is the introduction, okay? Section 5.1.
+
+4
+00:01:06,000 --> 00:01:13,260
+Leung Ping Kei: Okay? We call, all, armor model in general, expressed, in the form,
+
+5
+00:01:14,420 --> 00:01:37,940
+Leung Ping Kei: phi, phi of B applied to XT equal to theta B applied to AT, where AT, denotes, white noise, that means, normally distributed with mean, zero, variance, sigma squared, okay? And thus, I divide, 5B, to the right-hand side, okay? Therefore, XT is equal to 5B inverse, okay?
+
+6
+00:01:37,940 --> 00:01:40,690
+Leung Ping Kei: times our data B, applied to AT.
+
+7
+00:01:40,690 --> 00:01:43,110
+Leung Ping Kei: Okay? We just caught, huh? Okay.
+
+8
+00:01:43,150 --> 00:01:48,660
+Leung Ping Kei: psi, psi of B at, at pi to AT, where psi is equal to.
+
+9
+00:01:49,490 --> 00:01:52,890
+Leung Ping Kei: data B over, 5P.
+
+10
+00:01:57,350 --> 00:02:05,029
+Leung Ping Kei: Therefore, X always has a random shock representation in general, okay? That is like that, okay.
+
+11
+00:02:06,410 --> 00:02:24,699
+Leung Ping Kei: Then, XT, XT is equal to, that is, the, the model itself, okay, okay, is equal to AT plus 51, AT minus 1 plus 52, AT minus 2, and so on, okay? So I put it in the, operate, operator,
+
+12
+00:02:24,700 --> 00:02:35,690
+Leung Ping Kei: form, okay? It's, 1 plus 5B plus 52, B squared plus, 5B, B cubed, and so on, applied to AT.
+
+13
+00:02:40,030 --> 00:02:41,300
+Leung Ping Kei: Is that okay?
+
+14
+00:02:42,550 --> 00:02:54,730
+Leung Ping Kei: Then, now we let, okay, XIL, okay, represent, or XIL, XI plus L, okay? That is the, the, forecast,
+
+15
+00:02:55,370 --> 00:03:01,950
+Leung Ping Kei: at, time period T, I saw I, okay? And, L period, ahead.
+
+16
+00:03:02,260 --> 00:03:04,830
+Leung Ping Kei: That means our L periods are in the future.
+
+17
+00:03:05,460 --> 00:03:07,870
+Leung Ping Kei: Okay? That means that you are here.
+
+18
+00:03:09,180 --> 00:03:12,830
+Leung Ping Kei: And now, you want, L periods, later.
+
+19
+00:03:13,010 --> 00:03:22,349
+Leung Ping Kei: Therefore, the, the forecast will be, X, XL head, X, XIL head, okay?
+
+20
+00:03:23,480 --> 00:03:41,240
+Leung Ping Kei: Just like this, suppose, XIL head, is equal to phi L star, AI, okay? The, the, the, the value, the value here, you, you have to estimate. You have to find it, okay? Plus, phi L plus 1 star, AI minus 1.
+
+21
+00:03:41,240 --> 00:03:47,400
+Leung Ping Kei: plus, okay, 5 L plus 2 star AI minus 2 plus, L…
+
+22
+00:03:47,450 --> 00:03:53,680
+Leung Ping Kei: Psi, L plus 3, psi, AI plus, minus 3, and so on.
+
+23
+00:03:55,950 --> 00:03:57,900
+Leung Ping Kei: Alright, so…
+
+24
+00:03:58,270 --> 00:04:05,600
+Leung Ping Kei: The five stars are, are the, the weights are to be determined, okay? The WTS is weights are weights.
+
+25
+00:04:07,570 --> 00:04:18,189
+Leung Ping Kei: That means, this is the forecast, the forecast, formula, okay? And then you have to find, the, psi L stars, okay? Like this.
+
+26
+00:04:18,959 --> 00:04:19,880
+Leung Ping Kei: Alright.
+
+27
+00:04:22,130 --> 00:04:36,619
+Leung Ping Kei: So, according to random shock representation, okay, Xi plus L, or just like Xi of L, okay, is equal to AI plus L plus, 51, AI plus L minus 1,
+
+28
+00:04:36,620 --> 00:04:46,250
+Leung Ping Kei: plus psi 2, AI plus L minus 2, and so on, until, psi L minus 1, A plus, Ai plus 1.
+
+29
+00:04:46,310 --> 00:04:52,059
+Leung Ping Kei: plus, okay, phi L, AI, phi L plus 1AI minus 1, and so on.
+
+30
+00:04:54,340 --> 00:05:06,410
+Leung Ping Kei: Alright? So you can see other subscriptions add up to I plus L, I plus L, okay? I plus L, 1 plus I plus L minus 1, and…
+
+31
+00:05:06,630 --> 00:05:16,140
+Leung Ping Kei: 2 plus, I plus L minus 2, and so on, okay? So the general form, is, L minus 1, I plus 1. So, is, I plus L.
+
+32
+00:05:16,510 --> 00:05:17,450
+Leung Ping Kei: Alright.
+
+33
+00:05:19,530 --> 00:05:38,170
+Leung Ping Kei: Then we want to find the variance, okay? So, the… the expectation of the, error terms, okay? So, Xi plus L minus, Xi of L hat squared, okay? So, Xi plus L minus, Xi of L hat, is just, EI of L.
+
+34
+00:05:38,680 --> 00:05:41,169
+Leung Ping Kei: Okay? Square. Expectation.
+
+35
+00:05:41,380 --> 00:05:42,260
+Leung Ping Kei: Okay?
+
+36
+00:05:42,720 --> 00:05:51,079
+Leung Ping Kei: Then, okay, this formula, I mean, this minus this, okay, there is, this minus this.
+
+37
+00:05:51,900 --> 00:05:52,810
+Leung Ping Kei: Okay.
+
+38
+00:05:52,930 --> 00:06:03,809
+Leung Ping Kei: Xi plus L minus Xi of L hat, okay? It will become, 1 plus psi 1 squared plus psi 2 squared, blah blah blah, up to psi L minus 1 squared,
+
+39
+00:06:06,220 --> 00:06:23,640
+Leung Ping Kei: When you, when you take expectation, okay, you get, sigma A squared, and then plus, okay, the rest, okay? Psi J minus psi J star square, okay, times, sigma A squared, J from L to infinity, okay, because it is infinite, infinite.
+
+40
+00:06:23,950 --> 00:06:27,239
+Leung Ping Kei: Because of our model, like this. Okay.
+
+41
+00:06:31,160 --> 00:06:38,640
+Leung Ping Kei: So, the, the, the mean square forecast error, is the minimum, when, okay.
+
+42
+00:06:40,410 --> 00:06:44,010
+Leung Ping Kei: Site A star equal to side A, that is, this one.
+
+43
+00:06:44,640 --> 00:06:47,790
+Leung Ping Kei: If this is equal to civil, then this will be minimum.
+
+44
+00:06:48,990 --> 00:06:49,980
+Leung Ping Kei: Alright?
+
+45
+00:06:51,870 --> 00:06:53,739
+Leung Ping Kei: So that, psy…
+
+46
+00:06:53,890 --> 00:07:03,340
+Leung Ping Kei: I of L hat, is equal to psi L AI plus, psi L plus 1, AI minus 1, and so on. So this is, equation 5.1.
+
+47
+00:07:04,080 --> 00:07:07,540
+Leung Ping Kei: So, chapter 5, we, we, we, we,
+
+48
+00:07:08,210 --> 00:07:23,100
+Leung Ping Kei: we will emphasize, on this, expression. This is, the, forecast, okay? So the forecast error at I for lead L, is EI of L is, Xi plus L minus Xi of L hat.
+
+49
+00:07:24,310 --> 00:07:38,189
+Leung Ping Kei: Okay, so after you, take the, subtraction, okay, then it is, AI of L plus, psi 1AI of L minus 1 plus blah blah blah, and up to psi L minus 1 AI plus 1.
+
+50
+00:07:38,520 --> 00:07:39,380
+Leung Ping Kei: Okay.
+
+51
+00:07:39,900 --> 00:07:41,560
+Leung Ping Kei: Equation 5.2.
+
+52
+00:07:42,450 --> 00:07:45,500
+Leung Ping Kei: Or else, okay, if you, if you,
+
+53
+00:07:47,010 --> 00:07:50,190
+Leung Ping Kei: Don't understand this, huh? Okay. Let's take a look.
+
+54
+00:07:51,080 --> 00:07:53,260
+Leung Ping Kei: Okay, in here.
+
+55
+00:08:03,500 --> 00:08:13,060
+Leung Ping Kei: Okay, XI of L, okay? XI of L is here, okay? AI plus L plus,
+
+56
+00:08:13,670 --> 00:08:17,190
+Leung Ping Kei: psi 1, AI plus L minus 1.
+
+57
+00:08:17,190 --> 00:08:34,669
+Leung Ping Kei: psi 2 AL plus, AI plus L minus 2 up to psi L minus 1 AI plus 1, and then plus, okay, psi LAI plus psi L plus 1AI minus 1, psi L plus 2, AI minus 2, and so on.
+
+58
+00:08:34,669 --> 00:08:37,309
+Leung Ping Kei: So this is an infinite series, okay?
+
+59
+00:08:37,970 --> 00:08:50,009
+Leung Ping Kei: And then, our, estimator, the forecast, okay, Xi of L hat is equal to phi star, phi L star AI plus psi,
+
+60
+00:08:50,010 --> 00:09:01,240
+Leung Ping Kei: L plus 1 psi, AI minus 1 plus psi, L plus 2 star, AI minus 2 plus psi, L plus 3 star, AI minus 3, and so on.
+
+61
+00:09:01,610 --> 00:09:08,880
+Leung Ping Kei: Okay? So after you take the subtraction from the first line to the second line, okay, then you have, okay.
+
+62
+00:09:10,930 --> 00:09:29,439
+Leung Ping Kei: AI plus L, okay, plus psi 1, AI plus L minus 1, and, psi 2 AI plus L minus 2 plus blah blah blah up to psi L minus 1 AI plus 1. And then, okay, we have, psi L minus, psi L star, okay, just like this, okay?
+
+63
+00:09:30,340 --> 00:09:32,640
+Leung Ping Kei: And this… And there's…
+
+64
+00:09:34,740 --> 00:09:43,250
+Leung Ping Kei: Psi L minus psi L star, AI plus psi L plus 1 minus psi L plus 1 star times, AI minus 1.
+
+65
+00:09:43,500 --> 00:09:44,490
+Leung Ping Kei: Okay?
+
+66
+00:09:56,150 --> 00:10:09,549
+Leung Ping Kei: Then, okay, I can write the second line here as this, okay? Submission, psi J minus, psij star applied to, AI minus L, okay? J from L to infinity.
+
+67
+00:10:12,680 --> 00:10:13,680
+Leung Ping Kei: Alright?
+
+68
+00:10:16,370 --> 00:10:31,089
+Leung Ping Kei: Then, the expect- the mean square error, okay? So, expectation of, Xi plus L minus Xi of L hat, square, okay? That is expectation of EI of L squared.
+
+69
+00:10:31,610 --> 00:10:35,839
+Leung Ping Kei: Then this is the variance, the variance of our… this expression.
+
+70
+00:10:36,070 --> 00:10:36,870
+Leung Ping Kei: Okay?
+
+71
+00:10:37,650 --> 00:10:41,350
+Leung Ping Kei: So, the variance of this, okay?
+
+72
+00:10:42,020 --> 00:10:43,020
+Leung Ping Kei: this line.
+
+73
+00:10:44,390 --> 00:10:48,959
+Leung Ping Kei: Okay? It's here. So, variants of AI pers…
+
+74
+00:10:49,080 --> 00:11:08,589
+Leung Ping Kei: L, plus, psi 1, AI plus L minus 1 plus psi 2, AI plus L minus 2 plus blah blah blah up to psi L minus 1 AI plus 1, plus the sum of, psi T minus, psiT star, times, AI minus L j from,
+
+75
+00:11:10,810 --> 00:11:12,409
+Leung Ping Kei: 1 to,
+
+76
+00:11:15,480 --> 00:11:21,810
+Leung Ping Kei: It's 1 to infinity, I think, yeah. Okay, so I think this one is 1 to infinity.
+
+77
+00:11:21,910 --> 00:11:27,110
+Leung Ping Kei: Okay? 1. L is equal to 1, okay? Then, okay.
+
+78
+00:11:27,630 --> 00:11:38,689
+Leung Ping Kei: The variance of, AI plus L is sigma A squared, okay? And then, the variance of this, is sine 1 squared, sigma A squared.
+
+79
+00:11:38,690 --> 00:11:56,250
+Leung Ping Kei: And then psi 2 squared, sigma A squared, and so on, up to here, okay? Therefore, I have, 1 plus psi 1 squared plus psi 2 squared plus, blah blah blah up to psi L minus 1 squared times sigma A squared. And then the variance of this, okay?
+
+80
+00:11:56,250 --> 00:12:02,969
+Leung Ping Kei: The variance of this is, oh my god, this is square, square, square.
+
+81
+00:12:03,460 --> 00:12:13,050
+Leung Ping Kei: Okay? So, sum, t from 1 up to, infinity. Psi t minus psi t star square, times, sigma A squared.
+
+82
+00:12:15,450 --> 00:12:16,590
+Leung Ping Kei: Is that okay?
+
+83
+00:12:24,090 --> 00:12:33,149
+Leung Ping Kei: So, if, this, expectation, okay, the, the, the, mean square error, is,
+
+84
+00:12:33,400 --> 00:12:47,830
+Leung Ping Kei: minimum. Then, we have, side J minus psi J, minus, side J equal to side J star, okay? Therefore, we, we have that, if, side J star equal to side J, okay, J from,
+
+85
+00:12:47,970 --> 00:13:05,269
+Leung Ping Kei: L to infinity, okay? Then, psi, Xi of L hat, is equal to psi L, AI plus, psi L plus 1, AI minus 1 plus psi, L plus 2, AI minus 2, and so on. So this is equation 5.1.
+
+86
+00:13:16,960 --> 00:13:17,750
+Leung Ping Kei: I…
+
+87
+00:13:43,780 --> 00:13:47,489
+Leung Ping Kei: Is it okay? This one? Equation 5 on 1, okay?
+
+88
+00:13:48,910 --> 00:13:55,420
+Leung Ping Kei: Sinza, okay, previously, oh, we have that, okay? This one.
+
+89
+00:13:55,550 --> 00:14:02,650
+Leung Ping Kei: Is it the size L stars, star, star, and so on. How come this one is without the stars? Because we have that…
+
+90
+00:14:07,290 --> 00:14:10,499
+Leung Ping Kei: Alright? Therefore, we don't have the stars.
+
+91
+00:14:12,350 --> 00:14:21,800
+Leung Ping Kei: All right? Thus, the minimum, the, the mean square error is the minimum, if, psi t star equal to psi t.
+
+92
+00:14:22,560 --> 00:14:23,320
+Leung Ping Kei: Alright.
+
+93
+00:14:25,960 --> 00:14:37,340
+Leung Ping Kei: Then, the forecast error at time period I, for lead L, is, EI of L, okay? So that is Xi plus L minus Xi of L hat, okay?
+
+94
+00:14:38,670 --> 00:14:58,099
+Leung Ping Kei: Just like this, okay? XI plus L is, you may, you may write it as, Xi of L, okay? Therefore, it is equal to this, okay? After you, take the, subtraction, okay, it turns out to be AI plus L plus, 51AI plus L minus 1.
+
+95
+00:14:58,230 --> 00:15:06,099
+Leung Ping Kei: plus, psi 2 times, AI plus L minus 2, and so on, up to psi L minus 1, AI plus 1.
+
+96
+00:15:06,360 --> 00:15:09,240
+Leung Ping Kei: So this is the equation 5.2.
+
+97
+00:15:40,640 --> 00:15:56,630
+Leung Ping Kei: Conditional expectations, okay? Letter E sub i, okay, denote the conditional expectation operator, okay, which gives a value, the expected value at time period, i, of a certain random variable.
+
+98
+00:15:57,930 --> 00:16:10,459
+Leung Ping Kei: Okay? So, then it is clear that, expectation of AI plus L, okay, the conditional expectation, is equal to zero when, L greater than zero.
+
+99
+00:16:10,950 --> 00:16:18,520
+Leung Ping Kei: Okay? And, it is equal to AI plus L, when L less than or equal to, 0. Since,
+
+100
+00:16:19,400 --> 00:16:24,019
+Leung Ping Kei: Before, before that, before this period, so this one will be, what?
+
+101
+00:16:25,190 --> 00:16:29,100
+Leung Ping Kei: a constant, because it is conditional. Conditional.
+
+102
+00:16:30,350 --> 00:16:31,390
+Leung Ping Kei: Alright.
+
+103
+00:16:32,920 --> 00:16:41,760
+Leung Ping Kei: So, equation 5.1, will give you, expect, the conditional expectation of Xi of L hat, is equal to Xi of L hat.
+
+104
+00:16:43,950 --> 00:16:46,289
+Leung Ping Kei: Okay? Seems that this is a given.
+
+105
+00:16:46,890 --> 00:16:47,880
+Leung Ping Kei: Alright.
+
+106
+00:16:48,160 --> 00:16:50,949
+Leung Ping Kei: And the equation 5.2 will give to a…
+
+107
+00:16:52,520 --> 00:17:00,760
+Leung Ping Kei: The conditional expectation of EI of L, of an L positive, okay, bigger than zero, okay, it is 0.
+
+108
+00:17:01,570 --> 00:17:07,150
+Leung Ping Kei: And the conditional expectation of Xi of L is equal to Xi of L hat.
+
+109
+00:17:10,890 --> 00:17:14,378
+Leung Ping Kei: So this is the equation of 5.3 and 5.4.
+
+110
+00:17:17,348 --> 00:17:25,309
+Leung Ping Kei: So, clearly, the conditional expectation of Xi plus L is still Xi plus L.
+
+111
+00:17:26,020 --> 00:17:28,250
+Leung Ping Kei: Well, X-I-O-L, okay?
+
+112
+00:17:29,440 --> 00:17:31,600
+Leung Ping Kei: Since a decision, what?
+
+113
+00:17:32,910 --> 00:17:33,940
+Leung Ping Kei: concert.
+
+114
+00:17:35,040 --> 00:17:48,870
+Leung Ping Kei: So the equation, 5.3 shows that, the forecast error has, zero expected values, okay? This one. And the equation 5.4, shows that, the forecasts are unbiased.
+
+115
+00:17:51,350 --> 00:18:15,840
+Leung Ping Kei: And then, equation 5.2 shows that, the variance of the forecast error at let L, is, okay, variance of, EI of L, okay, which is equal to, 1 plus, psi 1 squared plus psi 2 squared plus psi L minus 1 squared times, sigma A squared. Or else we can write it as, sum of psi T squared.
+
+116
+00:18:15,930 --> 00:18:23,679
+Leung Ping Kei: Okay? Take from 0 to L minus 1 times sigma A squared, whereas psi 0 is equal to 1.
+
+117
+00:18:27,830 --> 00:18:28,870
+Leung Ping Kei: Alright?
+
+118
+00:18:32,480 --> 00:18:40,900
+Leung Ping Kei: So which is finite, for all, stationary processes, and hence, 100 times 1 minus alpha percent.
+
+119
+00:18:41,360 --> 00:18:51,390
+Leung Ping Kei: Converance interval for the forecast are obtained as, okay, Xi of L hat plus or minus, okay? K alpha, K alpha is the critical value.
+
+120
+00:18:51,400 --> 00:19:01,549
+Leung Ping Kei: Critical value, okay, times the standard duration. The square root of the sum of psi t squared, t from 0 to L minus 1 times sigma A squared.
+
+121
+00:19:01,940 --> 00:19:07,339
+Leung Ping Kei: So this is the equation 5.5A, okay? 5.5A, okay?
+
+122
+00:19:12,190 --> 00:19:27,849
+Leung Ping Kei: So, where k alpha, K alpha is, 100 times 1 minus alpha percent, over 2, okay, 100 times 1 minus alpha over 2% point, of the, standard normal devi- variate.
+
+123
+00:19:27,980 --> 00:19:34,520
+Leung Ping Kei: Okay? So, for last series, we can replace the sigma A squared by its, estimate.
+
+124
+00:19:34,700 --> 00:19:40,589
+Leung Ping Kei: Okay? That means that if n is greater than 30, then we can use, sigma A squared hat.
+
+125
+00:19:40,970 --> 00:19:48,539
+Leung Ping Kei: Okay? We, Sides to one. You go to 1, okay.
+
+126
+00:19:59,000 --> 00:20:03,159
+Leung Ping Kei: Okay, let… let's take a look here. Okay,
+
+127
+00:20:11,220 --> 00:20:14,160
+Leung Ping Kei: Okay, go to my,
+
+128
+00:20:14,380 --> 00:20:23,349
+Leung Ping Kei: Chapter 5 nooks, chapter 5 nooks, okay? So, the conditional expectations are E sub i, okay? Which gives a value, okay?
+
+129
+00:20:24,080 --> 00:20:31,810
+Leung Ping Kei: the expected weather at time period I of a certain random variable on or before the time period I.
+
+130
+00:20:33,220 --> 00:20:46,690
+Leung Ping Kei: Is it okay? So this one, the conditional expectation is telling you that, the expected value at time period i of a certain random variable on or before time period i.
+
+131
+00:20:47,020 --> 00:20:47,870
+Leung Ping Kei: Okay.
+
+132
+00:20:48,390 --> 00:20:59,760
+Leung Ping Kei: Therefore, the conditional expectation of AI plus L, okay, is equal to zero when L greater than zero, okay, that is for future observations.
+
+133
+00:21:00,080 --> 00:21:11,910
+Leung Ping Kei: However, for the past observation, okay, the past observation, therefore, when L less than or equal to 0 is equal to AI plus L, so this is a constant.
+
+134
+00:21:12,240 --> 00:21:13,270
+Leung Ping Kei: Constant.
+
+135
+00:21:17,200 --> 00:21:25,300
+Leung Ping Kei: Hence, the equation 5.1, gives you this, the conditional expectation of Xi of L hat, is equal to Xi of L hat.
+
+136
+00:21:26,240 --> 00:21:30,600
+Leung Ping Kei: It's just, the given value, okay?
+
+137
+00:21:30,860 --> 00:21:44,320
+Leung Ping Kei: So, L are greater than 0. And, equation 5.2 gives you this, conditional expectation of EI of L is equal to 0, when L greater than 0. That is, equation 5.3,
+
+138
+00:21:44,440 --> 00:21:50,820
+Leung Ping Kei: Okay? And then, the forecast error has a zero expected value, okay?
+
+139
+00:21:51,000 --> 00:21:54,369
+Leung Ping Kei: That you see it, okay? For Gaza.
+
+140
+00:21:55,950 --> 00:22:08,250
+Leung Ping Kei: Now, equation 5.4, the conditional expectation of Xi plus L, okay, that is, conditional expectation of Xi of L, which is equal to Xi of L hat.
+
+141
+00:22:09,010 --> 00:22:10,739
+Leung Ping Kei: When L positive.
+
+142
+00:22:11,050 --> 00:22:12,440
+Leung Ping Kei: greater than zero.
+
+143
+00:22:12,770 --> 00:22:13,980
+Leung Ping Kei: And,
+
+144
+00:22:14,480 --> 00:22:25,470
+Leung Ping Kei: The conditional expectation of Xi plus L is equal to, conditional expectation of Xi of L, which is equal to Xi of L, when L…
+
+145
+00:22:26,050 --> 00:22:30,389
+Leung Ping Kei: Less than zero, okay? So this is the previous value.
+
+146
+00:22:30,630 --> 00:22:32,669
+Leung Ping Kei: And this is the forecast value.
+
+147
+00:22:33,770 --> 00:22:34,730
+Leung Ping Kei: Okay?
+
+148
+00:22:36,050 --> 00:22:37,300
+Leung Ping Kei: Is that alright?
+
+149
+00:22:40,930 --> 00:22:44,579
+Leung Ping Kei: So, the forecasts are unbiased, unbiased.
+
+150
+00:22:45,490 --> 00:22:49,910
+Leung Ping Kei: No, no matter, no matter, the conditional expectation, okay?
+
+151
+00:22:50,800 --> 00:22:54,469
+Leung Ping Kei: And hands are the variants, okay, is equal to this.
+
+152
+00:22:55,360 --> 00:23:02,500
+Leung Ping Kei: 1 plus psi 1 squared, psi 2 squared plus blah blah blah, up to psi L minus 1 squared, times sigma A squared.
+
+153
+00:23:02,500 --> 00:23:19,739
+Leung Ping Kei: Okay? Where, psi t star equ, is, we assume, we assume that, psi t star is equal to psi t, when T, from L to, infinity, okay? Therefore, I can write it as a summation, psi t squared, t from 0 to L minus 1.
+
+154
+00:23:19,800 --> 00:23:24,170
+Leung Ping Kei: times, sigma A squared is the variance, the future variance.
+
+155
+00:23:35,050 --> 00:23:57,770
+Leung Ping Kei: Okay, 100 times, 1 minus alpha, percent confidence interval for the forecast is that, Xi of L hat plus or minus k alpha by 2 times the standard deviation, square root of, sum of, sine J squared, take from 0 to L minus 1 times, sigma A squared, is equation 5.5A.
+
+156
+00:23:57,930 --> 00:24:13,580
+Leung Ping Kei: Okay? And if, for a large series, that is, when n, greater than or equal to 30, then we place, sigma a squared by, sigma A star, sigma, sigma A hat, squared, okay?
+
+157
+00:24:14,740 --> 00:24:16,710
+Leung Ping Kei: Then we have that, huh? Okay.
+
+158
+00:24:17,250 --> 00:24:28,999
+Leung Ping Kei: The k alpha by 2, previously we used a T distributionib, however, when n is large, then we use a standard normal, okay? Set alpha by 2, okay? So…
+
+159
+00:24:29,950 --> 00:24:46,040
+Leung Ping Kei: The, the confidence limit, the confidence interval is Xi of L hat plus or minus set alpha by 2 times the square root of the sum of, psi J squared, j from 0 to L minus 1, times, sigma A squared.
+
+160
+00:24:56,770 --> 00:24:57,950
+Leung Ping Kei: Is that okay?
+
+161
+00:25:08,120 --> 00:25:08,780
+Leung Ping Kei: Oh.
+
+162
+00:25:26,540 --> 00:25:46,000
+Leung Ping Kei: we go to the forecasting procedure, okay? So, the difference equation form, okay, of an AR, PQ process, is that, okay? Okay, just take a look, forget about the expectation first, okay? So, Xi plus L is zero, 51 at Xi plus
+
+163
+00:25:46,000 --> 00:25:54,980
+Leung Ping Kei: L minus 1, plus blah blah blah up to psi P, times, Xi plus L minus P, okay?
+
+164
+00:25:54,980 --> 00:26:05,460
+Leung Ping Kei: AI plus L, okay, plus data 1, AI plus L minus 1 plus blah blah blah up to theta Q, AI plus L minus Q.
+
+165
+00:26:05,510 --> 00:26:08,210
+Leung Ping Kei: So this is an AMA PQ process.
+
+166
+00:26:08,440 --> 00:26:10,499
+Leung Ping Kei: I'm a PQ processor.
+
+167
+00:26:10,750 --> 00:26:11,670
+Leung Ping Kei: Okay.
+
+168
+00:26:12,460 --> 00:26:28,459
+Leung Ping Kei: Okay, so, taking a conditional expectation at time period i, okay, for L bigger than 0, okay, the optimum forecast function can be, written as like this, okay? Now we take expectation of this expression.
+
+169
+00:26:28,580 --> 00:26:29,470
+Leung Ping Kei: Okay?
+
+170
+00:26:33,480 --> 00:26:39,420
+Leung Ping Kei: Then we have done, okay, XI plus L is XI of L hat, okay?
+
+171
+00:26:40,120 --> 00:26:47,699
+Leung Ping Kei: or Xi of L hat, Xi plus L, okay, is equal to 5, 51 51…
+
+172
+00:26:47,830 --> 00:26:59,719
+Leung Ping Kei: times expectation of, XT, Xi plus L minus 1, plus blah blah blah up to 5P, expectation of Xi plus L minus P.
+
+173
+00:26:59,840 --> 00:27:05,910
+Leung Ping Kei: And this one is zero, okay? Expectation of AI plus L is 0.
+
+174
+00:27:06,040 --> 00:27:23,999
+Leung Ping Kei: And then plus, data 1, conditional expectation of, AI plus L minus 1, plus blah blah blah, this is mistyped, mistyped. Data Q, data Q, data Q, times expectation, the conditional expectation of AI plus L minus Q.
+
+175
+00:27:25,530 --> 00:27:28,050
+Leung Ping Kei: So this is the equation 5.6.
+
+176
+00:27:28,160 --> 00:27:29,090
+Leung Ping Kei: Okay?
+
+177
+00:27:32,730 --> 00:27:49,759
+Leung Ping Kei: Thus, for, L lies between 1, to, P or Q. P or Q, say that, okay? So, Xi of L hat, is equal to 51 of, okay, expectation of this is Xi of, L minus 1 hat,
+
+178
+00:27:50,210 --> 00:27:52,970
+Leung Ping Kei: And then press, ba-ba-ba, okay.
+
+179
+00:27:57,030 --> 00:28:04,199
+Leung Ping Kei: Up to, okay, phi, L minus 1, Xi of… One hit.
+
+180
+00:28:05,170 --> 00:28:06,170
+Leung Ping Kei: Okay.
+
+181
+00:28:06,810 --> 00:28:08,000
+Leung Ping Kei: Is it alright?
+
+182
+00:28:09,050 --> 00:28:20,179
+Leung Ping Kei: And then, plus 5L, okay, XI plus blah blah blah up to, okay, 5PXI plus L minus P, okay, is here.
+
+183
+00:28:21,950 --> 00:28:35,269
+Leung Ping Kei: And then the next line is here, okay? Data, data L, AI, okay, plus blah blah blah of the data Q, AI plus L minus Q, okay? The observed value,
+
+184
+00:28:38,110 --> 00:28:41,470
+Leung Ping Kei: So this is an equation 5.6 star, okay?
+
+185
+00:28:45,740 --> 00:28:53,189
+Leung Ping Kei: So, equation 5.6 and the above equations are the most convenient form to use, in practice.
+
+186
+00:28:57,850 --> 00:29:04,350
+Leung Ping Kei: Alright? Or else, okay, we can take a look, in, in my, notes.
+
+187
+00:29:04,540 --> 00:29:05,290
+Leung Ping Kei: Okay.
+
+188
+00:29:11,830 --> 00:29:35,159
+Leung Ping Kei: The forecasting procedure, okay? So this is just, just repeat again, okay? So, okay, the form of, AMRPQ process, okay, is Xi plus L, or Xi of L, equal to 51Xi plus L minus 1, phi 2XI plus L minus 2, and blah blah blah up to 5P XI plus L minus P plus AI plus L.
+
+189
+00:29:35,450 --> 00:29:49,399
+Leung Ping Kei: Okay? And then plus, the, MA process, okay? Theta, theta 1 AI plus L minus 1 plus theta 2 AI plus L minus 2 plus blah blah blah up to theta cubed, AI plus L minus Q.
+
+190
+00:29:51,570 --> 00:30:07,960
+Leung Ping Kei: Then, take a conditional expectation at time period I, okay? EI, okay, for L positive, okay? So, expectation of Xi plus L equal to, expectation of Xi of L, which is equal to Xi of L hat.
+
+191
+00:30:09,790 --> 00:30:20,320
+Leung Ping Kei: Alright? Then, it is equal to, phi 1, okay? Phi 1 times expectation of Xi plus L minus 1 plus 52
+
+192
+00:30:20,320 --> 00:30:30,199
+Leung Ping Kei: Expectation of XI plus L minus 2, and then plus blah blah blah up to 5P. Expectation of Xi plus L minus P.
+
+193
+00:30:30,520 --> 00:30:34,869
+Leung Ping Kei: Okay? And then for this one, expectation, is 0.
+
+194
+00:30:35,190 --> 00:30:38,390
+Leung Ping Kei: And then the second line here is here.
+
+195
+00:30:39,810 --> 00:30:58,219
+Leung Ping Kei: Theta 1 times, expectation of, AI plus L minus 1 plus theta 2 times expectation of AI plus 2, I… I plus L minus 2 plus blah blah blah blah times expectation of, AI plus L minus cubed, okay? Equation 5.6.
+
+196
+00:30:59,170 --> 00:31:08,640
+Leung Ping Kei: Alright? Then, when L lies between, okay, greater than 1, and, smaller than either P or Q, okay? Then,
+
+197
+00:31:09,180 --> 00:31:13,570
+Leung Ping Kei: Equation 5.6 can be written as, Xi of L hat.
+
+198
+00:31:14,790 --> 00:31:28,780
+Leung Ping Kei: Equal to, phi 1XI of L minus 1 hat, plus 52Xi of L minus 2 hat, plus blah blah blah up to, phi L minus 1 times Xi of 1 hat.
+
+199
+00:31:30,260 --> 00:31:35,469
+Leung Ping Kei: Okay? You can see, the substrate, okay, the substrate add up to I plus L.
+
+200
+00:31:40,010 --> 00:31:48,869
+Leung Ping Kei: Alright? So, like, like this one, 1 plus I plus L minus 1 is I plus L, okay? So 2 plus I plus L…
+
+201
+00:31:49,150 --> 00:31:55,450
+Leung Ping Kei: minus 2, okay, is a… I press L, okay, and so on.
+
+202
+00:31:55,940 --> 00:31:59,910
+Leung Ping Kei: And then, at the, the, the,
+
+203
+00:32:00,540 --> 00:32:15,920
+Leung Ping Kei: for the, MA, AL process, AL process, that is, 5L XI, okay, plus 5L plus 1AI minus 1, plus blah blah blah up to 5P, Xi plus L minus P.
+
+204
+00:32:16,370 --> 00:32:34,560
+Leung Ping Kei: And then for the MA, okay, the condensual expectation will turn out to be, data L, okay, AI plus, data L plus 1, AI minus 1 plus blah blah blah, up to data Q, AI plus L minus Q, so this is equation 5.6 star.
+
+205
+00:32:36,060 --> 00:32:51,619
+Leung Ping Kei: Okay? This is, okay, just for, AMAPQ, okay? And later on, we will, we will, we will, cut it down, to, at most, 3 terms or 4 terms, okay?
+
+206
+00:32:52,250 --> 00:32:53,180
+Leung Ping Kei: Alright?
+
+207
+00:33:17,770 --> 00:33:31,580
+Leung Ping Kei: Oh, updating, Arima forecast, okay? So, starting with an, observed series of length L, for which, forecasts are required, for less, least, less up to,
+
+208
+00:33:31,930 --> 00:33:32,710
+Leung Ping Kei: L.
+
+209
+00:33:33,380 --> 00:33:49,020
+Leung Ping Kei: Okay? So, we calculate, the X and L hat, okay? L, going from 1, 2, blah blah blah up to capital L, recursively, to fill up, like, line A of table, 5.1, okay, is here.
+
+210
+00:33:58,260 --> 00:34:07,839
+Leung Ping Kei: So, where, if necessary, some initial, unknown A's, okay, AI's, okay, needs to be set to zero.
+
+211
+00:34:08,969 --> 00:34:26,710
+Leung Ping Kei: Okay? So, when, X, X, n plus 1, becomes available, okay, we obtain, using, equation 5.2, okay? AN plus 1 is equal to Xn plus 1 minus, X, XN1 hat.
+
+212
+00:34:27,469 --> 00:34:32,969
+Leung Ping Kei: Okay? Just like, Xn plus 1 minus X n plus 1 hat. Okay?
+
+213
+00:34:35,739 --> 00:34:38,219
+Leung Ping Kei: So this is an equation 5.7.
+
+214
+00:34:38,810 --> 00:34:47,820
+Leung Ping Kei: And then, can easily update the forecast, for, list, 1, 2, blah blah blah, and so on, by waiting, okay?
+
+215
+00:34:48,520 --> 00:34:54,679
+Leung Ping Kei: So, in your notes, there is, XI of, X, N plus 1 of L hat.
+
+216
+00:34:54,820 --> 00:35:01,620
+Leung Ping Kei: Okay? Or you can write it as, X head, n plus 1 plus L, okay?
+
+217
+00:35:02,710 --> 00:35:10,549
+Leung Ping Kei: So that it is, X and, L plus 1 hat plus, psi L, okay? AN plus 1.
+
+218
+00:35:10,900 --> 00:35:15,840
+Leung Ping Kei: So this is, I just called, equation 5.8, equation 5.8.
+
+219
+00:35:20,940 --> 00:35:23,130
+Leung Ping Kei: Is that okay, this one?
+
+220
+00:35:23,560 --> 00:35:39,000
+Leung Ping Kei: So, just like, just like this, you, you white, you write, X, n of 1 hat, is equal to, XN of 1 minus, AN plus 1, okay, just like this, okay? However, you have a constant here.
+
+221
+00:35:39,910 --> 00:35:50,140
+Leung Ping Kei: Okay? So don't worry, okay? Because, we will have, examples, at, on, on page, starting on page 5 and so on, okay?
+
+222
+00:35:51,870 --> 00:36:00,619
+Leung Ping Kei: So, this follows, since, equation 5.1, I use that, okay, with, i equal to n plus 1, okay? So, X,
+
+223
+00:36:00,620 --> 00:36:12,449
+Leung Ping Kei: N plus 1 of L hat, okay, is equal to, psi LAN plus 1 plus psi L plus 1 AN plus psi L plus 2 AN minus 1, and so on.
+
+224
+00:36:14,740 --> 00:36:26,229
+Leung Ping Kei: And, or else, you can write it as, XN of, L plus 1 hat is equal to psi L plus 1 AN plus psi L plus 2 AN minus 1, and so on.
+
+225
+00:36:26,480 --> 00:36:30,990
+Leung Ping Kei: Okay? So, which on subtraction gives our equation 5.8?
+
+226
+00:36:31,200 --> 00:36:36,110
+Leung Ping Kei: Okay? This one… Okay.
+
+227
+00:36:37,500 --> 00:36:46,890
+Leung Ping Kei: Since, we do not have, Xi of L plus 1 hat, we can proceed up to, Xn plus 1 of L minus 1 hat.
+
+228
+00:36:48,050 --> 00:36:49,050
+Leung Ping Kei: Alright.
+
+229
+00:36:49,400 --> 00:37:01,780
+Leung Ping Kei: However, X, n plus 1 of L hat, is easily found, okay? Then, on we, we applying equation 5.6 star, line B of, equi-
+
+230
+00:37:02,220 --> 00:37:03,830
+Leung Ping Kei: 5 feet, okay?
+
+231
+00:37:04,330 --> 00:37:11,210
+Leung Ping Kei: Table 511 is just obtained, and… and so, so on, indefinitely.
+
+232
+00:37:11,420 --> 00:37:15,919
+Leung Ping Kei: Just like this, okay. So this… We have this.
+
+233
+00:37:16,430 --> 00:37:18,479
+Leung Ping Kei: Da-da-da-da-da, and so on.
+
+234
+00:37:19,720 --> 00:37:22,519
+Leung Ping Kei: This, subject is… this.
+
+235
+00:37:24,120 --> 00:37:28,159
+Leung Ping Kei: Or else I'll, please take a look at my notes, okay?
+
+236
+00:37:37,110 --> 00:37:38,930
+Leung Ping Kei: The table here, okay?
+
+237
+00:37:39,540 --> 00:37:45,660
+Leung Ping Kei: So, I, is equal to, okay, so for period, I, X, and,
+
+238
+00:37:45,930 --> 00:37:53,100
+Leung Ping Kei: I equal to N. So, A is XN, and then, A is AN, okay? And then the…
+
+239
+00:37:53,450 --> 00:38:00,369
+Leung Ping Kei: The late, L, 1, 2, up to capital L, okay, is, XN of one head.
+
+240
+00:38:01,020 --> 00:38:04,740
+Leung Ping Kei: Okay? Xn of 2 head, and so on, okay?
+
+241
+00:38:07,620 --> 00:38:18,979
+Leung Ping Kei: And then, for period, IN plus 1, XN plus 1, AN plus 1N, X, n plus 1, one head, okay, this is 2.
+
+242
+00:38:19,250 --> 00:38:20,220
+Leung Ping Kei: Okay?
+
+243
+00:38:22,100 --> 00:38:24,209
+Leung Ping Kei: It, it, it, is it okay?
+
+244
+00:38:27,940 --> 00:38:31,480
+Leung Ping Kei: Since, this is, so, M plus 2,
+
+245
+00:38:31,650 --> 00:38:34,080
+Leung Ping Kei: N plus 1 plus 1 is n plus 2.
+
+246
+00:38:34,300 --> 00:38:35,250
+Leung Ping Kei: Okay?
+
+247
+00:38:35,500 --> 00:38:51,430
+Leung Ping Kei: Therefore, they are the same, okay? So, when, XN plus 1 is available, okay, we obtain, using equation 5.2, okay? So, AN plus 1, is equal to X, n plus 1 minus Xn of 1 hat.
+
+248
+00:38:53,960 --> 00:39:03,949
+Leung Ping Kei: Okay? Or else, we can write, X, n plus 1, minus XN plus 1 hat, okay, in our formula, in our NOXA.
+
+249
+00:39:05,290 --> 00:39:17,560
+Leung Ping Kei: So this is, equation 5.7. And then, X, n plus 1 of L hat, is equal to Xn of L plus 1 hat plus psi LAN plus 1.
+
+250
+00:39:17,900 --> 00:39:21,439
+Leung Ping Kei: This is the, the, with, with the, ace.
+
+251
+00:39:25,430 --> 00:39:43,949
+Leung Ping Kei: So, this follows, using, equation 5.1, okay? Then, XN plus 1, of L hat is equal to psi LAN plus 1 plus psi L plus 1 AN plus psi L plus 2 AN minus 1, and so on.
+
+252
+00:39:44,280 --> 00:39:54,989
+Leung Ping Kei: And then, the, Xn of, L plus 1 hat, is equal to XL plus 1 AN plus psi L plus 1 AN minus 1, and so on.
+
+253
+00:39:55,860 --> 00:39:59,129
+Leung Ping Kei: Just like, what we had here.
+
+254
+00:40:06,930 --> 00:40:11,420
+Leung Ping Kei: Okay? Subtraction, this minus this, okay?
+
+255
+00:40:12,510 --> 00:40:14,849
+Leung Ping Kei: Therefore, we have, okay.
+
+256
+00:40:17,750 --> 00:40:20,649
+Leung Ping Kei: Equal to, psi L, AN plus 1.
+
+257
+00:40:22,260 --> 00:40:30,710
+Leung Ping Kei: So, since these two, cancel out, cancel out, and so on, leaving you just, psiLAM plus 1.
+
+258
+00:40:33,970 --> 00:40:43,470
+Leung Ping Kei: Therefore, X n plus 1 of L hat, is equal to XN of L plus 1 hat plus psi LAN plus 1, okay?
+
+259
+00:40:44,250 --> 00:40:54,530
+Leung Ping Kei: Therefore, when, L is equal to 1, XN plus 1 of 1 hat is equal to Xn of 2 hat plus psi 1AM plus 1.
+
+260
+00:40:54,690 --> 00:41:05,670
+Leung Ping Kei: And then when L equal to 2, X n plus 1 of 2 is equal to Xn of 3 hat plus psi2 AN plus 1. Just like this. Okay.
+
+261
+00:41:13,700 --> 00:41:16,319
+Leung Ping Kei: Formula, I have the formula, okay?
+
+262
+00:41:38,480 --> 00:41:41,650
+Leung Ping Kei: Okay, go back.
+
+263
+00:41:45,810 --> 00:41:49,129
+Leung Ping Kei: So we go to the examples, huh? Examples, okay.
+
+264
+00:41:52,120 --> 00:42:10,890
+Leung Ping Kei: So, example one, okay? So we call, the, unemployment, example of, Chapter 4, okay? Okay. So, an AR2 model is fitted to the data, that is, okay, XT minus mu is equal to 5 one times.
+
+265
+00:42:10,890 --> 00:42:12,829
+Leung Ping Kei: Xt minus 1 minus mu.
+
+266
+00:42:12,940 --> 00:42:20,369
+Leung Ping Kei: plus, 52 times, XT minus 2 minus mu plus AT, okay?
+
+267
+00:42:22,040 --> 00:42:26,160
+Leung Ping Kei: Which is equal to, okay, rewrite it as, like that, okay.
+
+268
+00:42:27,040 --> 00:42:29,139
+Leung Ping Kei: We take the meal, okay?
+
+269
+00:42:29,960 --> 00:42:44,009
+Leung Ping Kei: of the left-hand side, to the right-hand side, okay? Then, I can combine the mules, okay? So this is, 1, okay, 1, okay, minus 5, 1, minus 5, 2,
+
+270
+00:42:44,090 --> 00:43:01,630
+Leung Ping Kei: Okay? Because of, phi 1 minus mu, phi 2 times minus mu. There, well, we have, XT is equal to mu times 1 minus, phi 1 minus 52 plus 51 xT minus 1 plus 52 XT minus 2 plus AT.
+
+271
+00:43:04,490 --> 00:43:05,750
+Leung Ping Kei: Is it okay?
+
+272
+00:43:06,750 --> 00:43:18,870
+Leung Ping Kei: Don't worry, we will have another, and I mean, I show you the details, how to do it, okay? Now, I just call it, data several. Data not, data not.
+
+273
+00:43:19,290 --> 00:43:34,279
+Leung Ping Kei: So, data naught is equal to, okay, mu times 1 minus 51 minus 52, okay? So, data, XT is 0, theta naught plus, 51 xt minus 1 plus 52 XT minus 2 plus 8T.
+
+274
+00:43:34,400 --> 00:43:47,840
+Leung Ping Kei: Okay? So, corresponding to, the printout mu, is the mean, okay? And then, theta naught, is equal to mu times 1 minus, 5, 1 minus 5, 2, okay? It's, the constant.
+
+275
+00:43:48,380 --> 00:44:04,070
+Leung Ping Kei: So, from chapter 4, okay, we have, okay, 51 head is, 1.548, okay, and then, 52 is negative 0.645, and data naught, turn out to be, 0.493.
+
+276
+00:44:05,370 --> 00:44:14,640
+Leung Ping Kei: And mu, is, 5.082, okay? This is, from… Chapter 4, page 16, bottom.
+
+277
+00:44:14,970 --> 00:44:15,910
+Leung Ping Kei: Okay.
+
+278
+00:44:19,250 --> 00:44:33,050
+Leung Ping Kei: Now, at, time period, T equal to 121, okay? Now, well, we, forecast, XT of one head, that is, X of, 122 head.
+
+279
+00:44:33,870 --> 00:44:38,520
+Leung Ping Kei: Is that okay? Since the T is equal to 121.
+
+280
+00:44:38,630 --> 00:44:49,869
+Leung Ping Kei: Therefore, 121 plus 1 is 122. Therefore, it is, theta naught hat plus 51 hat XT plus 52 hat, XT minus 1.
+
+281
+00:44:50,360 --> 00:44:53,760
+Leung Ping Kei: Okay? And it turned out to be 5.81.
+
+282
+00:44:53,830 --> 00:45:12,500
+Leung Ping Kei: Okay? After you substitute these numbers in, I will show you later, okay? And, XT, XT of 2 head, that is, 123, okay? T is, 121. So, 121 plus 2 is 123. So, it's a little good,
+
+283
+00:45:12,500 --> 00:45:18,969
+Leung Ping Kei: theta naught hat plus 5 one head times, XT of 1 hat, that is,
+
+284
+00:45:19,060 --> 00:45:27,570
+Leung Ping Kei: 121, okay? 122, okay? And then plus 5, 2, 52 head times, XT.
+
+285
+00:45:28,480 --> 00:45:41,180
+Leung Ping Kei: Eager to 5.4988, okay? So this turned out to be, the forecast of, the time period, 123, okay? X 123 head.
+
+286
+00:45:41,530 --> 00:45:44,619
+Leung Ping Kei: Okay? So don't worry, okay? I'll give you a…
+
+287
+00:45:49,430 --> 00:45:50,550
+Leung Ping Kei: Okay.
+
+288
+00:45:51,810 --> 00:46:08,839
+Leung Ping Kei: So, in here, example 1, okay, XT minus 1 equal to, okay, 51 times, XT minus 1 minus mu plus 52 XT minus 2 minus mu plus AT, where AT is white noise, okay, normal, with mean civil.
+
+289
+00:46:08,840 --> 00:46:17,060
+Leung Ping Kei: variant sigma squared. Now I take this to the left-hand side, and then rewrite it, okay? Therefore, XT is, you know, mu times.
+
+290
+00:46:17,060 --> 00:46:25,719
+Leung Ping Kei: Bracket, 1 minus 51 minus 52 plus 51XT minus 1 plus 52 XT minus 2 plus AT is our formula.
+
+291
+00:46:26,210 --> 00:46:32,769
+Leung Ping Kei: Now, mu, theta naught, theta naught is, mu times 1 minus,
+
+292
+00:46:33,240 --> 00:46:41,629
+Leung Ping Kei: 51 minus 52, okay? Data naught plus, okay? 51, XT minus 1 plus 52, XT minus 2 plus AT.
+
+293
+00:46:42,380 --> 00:46:52,389
+Leung Ping Kei: So, from, chapter 4, page 16, 51 head, is, 1.548, okay? So, the coefficient of AR1.
+
+294
+00:46:52,390 --> 00:47:09,480
+Leung Ping Kei: Okay? And then, 52 hat, is negative 0.6450, okay? Coefficient of AR2. And then the mean, mu is, 5.0819, okay? And then, sigma A squared hat, is 0.1318,
+
+295
+00:47:12,240 --> 00:47:19,499
+Leung Ping Kei: Okay, now, theta naught, is, mu times, 1 minus 5 one head minus 52 head, okay?
+
+296
+00:47:19,500 --> 00:47:33,359
+Leung Ping Kei: It's this. 5.0819, okay, mu times 1 minus, okay, 5.548, and then minus, negative, become positive. 0.645.
+
+297
+00:47:33,360 --> 00:47:41,279
+Leung Ping Kei: So it turned out to be 0.4929443, or just 18 to 0.493.
+
+298
+00:47:42,100 --> 00:47:43,050
+Leung Ping Kei: Okay?
+
+299
+00:47:46,140 --> 00:47:50,009
+Leung Ping Kei: Then, a time period, t equal to 121.
+
+300
+00:47:50,340 --> 00:47:59,810
+Leung Ping Kei: There is, okay, X head of 121 of 1 head. There is, X of, 122 head.
+
+301
+00:48:00,080 --> 00:48:07,149
+Leung Ping Kei: Okay, so T is 121, therefore, X 121 of one head is here.
+
+302
+00:48:07,980 --> 00:48:15,759
+Leung Ping Kei: Therefore, it turned out to be theta naught hat plus phi 1 hat XT plus 52 hat at XT minus 2.
+
+303
+00:48:16,590 --> 00:48:18,430
+Leung Ping Kei: Okay, so…
+
+304
+00:48:19,040 --> 00:48:31,789
+Leung Ping Kei: 121, okay? You have to go back to, the, chapter 4, page 16, okay? I think…
+
+305
+00:48:31,950 --> 00:48:35,040
+Leung Ping Kei: It's for the data, I think it's,
+
+306
+00:48:35,270 --> 00:48:48,360
+Leung Ping Kei: 15, page 15 or 14, okay? So, you get, X 121 is, 6.2, 6.2. And then, X, 121 minus 1 is 120.
+
+307
+00:48:48,490 --> 00:49:04,229
+Leung Ping Kei: Okay? Therefore, you go back to the, and take the numbers in, okay? 0.493 plus, 1.548 times, okay, X121, 6.2, minus, okay.
+
+308
+00:49:05,530 --> 00:49:19,190
+Leung Ping Kei: 52 head, minus, 0. It's negative, okay? You're supposed to be plus, okay? Negative, okay? 0.645 times, 6.63…
+
+309
+00:49:19,540 --> 00:49:20,500
+Leung Ping Kei: Okay.
+
+310
+00:49:20,890 --> 00:49:22,559
+Leung Ping Kei: Six months, 6 feet, huh?
+
+311
+00:49:23,600 --> 00:49:27,460
+Leung Ping Kei: Therefore, it turned out to be a 5.81425.
+
+312
+00:49:28,010 --> 00:49:34,300
+Leung Ping Kei: Okay? So, the, in your notes, they give you, five… 0.81.
+
+313
+00:49:35,910 --> 00:49:38,260
+Leung Ping Kei: And then the next, huh, okay?
+
+314
+00:49:39,410 --> 00:49:50,059
+Leung Ping Kei: XT, of 2 head, that is, X23 head, okay? Or we write it as, X21 of 2 head.
+
+315
+00:49:50,990 --> 00:49:57,799
+Leung Ping Kei: Alright? Therefore, it is just like that, peace, remember that, okay? This one.
+
+316
+00:49:58,090 --> 00:50:06,990
+Leung Ping Kei: This one is on the previous value, okay? PVS value. However, the next one, you can see, this is for
+
+317
+00:50:07,750 --> 00:50:11,480
+Leung Ping Kei: Our calculator value, and this is for the O value.
+
+318
+00:50:11,730 --> 00:50:12,740
+Leung Ping Kei: Alright.
+
+319
+00:50:13,290 --> 00:50:29,990
+Leung Ping Kei: Therefore, in here, okay, we have theta naught hat plus 51 hat, XT of one head plus 52 head times XT, okay? It turned out to be theta naught head plus 51 hat times X22 hat.
+
+320
+00:50:29,990 --> 00:50:41,310
+Leung Ping Kei: Okay? But, this one, we just calculate, 121 head, okay, 122 head. And then plus 52 hat, X 121.
+
+321
+00:50:42,680 --> 00:50:48,610
+Leung Ping Kei: the O value, the O value, okay? Therefore, theta naught hat, is,
+
+322
+00:50:48,940 --> 00:50:58,529
+Leung Ping Kei: 0.493 plus, okay, 5.1 head, 1.548 times, okay, we just got it, 5.81.
+
+323
+00:50:58,700 --> 00:50:59,840
+Leung Ping Kei: Okay?
+
+324
+00:51:00,750 --> 00:51:11,640
+Leung Ping Kei: X22 head, and then plus, okay, negative, 0.645 times, okay, X21, okay, 6.2…
+
+325
+00:51:21,870 --> 00:51:30,159
+Leung Ping Kei: And then, it turned out to be 5.487, okay? We just Wang it to, okay, 5.488.
+
+326
+00:51:32,740 --> 00:51:36,889
+Leung Ping Kei: Is it okay? This is the forecast, huh? The forecast, okay?
+
+327
+00:51:37,360 --> 00:51:41,690
+Leung Ping Kei: So you will have this, huh? In the exam.
+
+328
+00:51:42,150 --> 00:51:50,950
+Leung Ping Kei: Okay? And, and, and, no, this is just a partner, just a partner, just a partner, okay?
+
+329
+00:51:52,550 --> 00:51:56,249
+Leung Ping Kei: Okay, then we go back to, our… okay.
+
+330
+00:51:57,230 --> 00:52:02,130
+Leung Ping Kei: Well… We, we have to do this, like, do this, okay?
+
+331
+00:52:04,110 --> 00:52:10,819
+Leung Ping Kei: Prediction interval, or we just, we just call it, okay, confidence interval, confidence interval.
+
+332
+00:52:12,640 --> 00:52:23,019
+Leung Ping Kei: Okay? Example 2, okay? Continue from Example 1. Now, we call the estimated prediction interval, is that, okay?
+
+333
+00:52:25,210 --> 00:52:33,810
+Leung Ping Kei: XT of L heter plus or minus, K alpha by 2 is supposed to be K alpha by 2, okay? It's… that is the,
+
+334
+00:52:35,630 --> 00:52:49,340
+Leung Ping Kei: The, the critical value, okay, because it's, two-sided, okay, times the square root of, okay, sum of, phi, phi j squared, j from 0 to L minus 1 times, sigma A squared.
+
+335
+00:52:50,120 --> 00:52:54,540
+Leung Ping Kei: And then, you can go back and then see, equation 5.5A.
+
+336
+00:52:56,310 --> 00:53:08,970
+Leung Ping Kei: Okay? And from the, example, in, chapter 4, we have, sigma A squared, 0.1318, and 51 squared, 51 head, is, side, is here, is,
+
+337
+00:53:09,180 --> 00:53:17,289
+Leung Ping Kei: Psi 1 head is side… is Phi 1 head, 1.548, okay? And then, psi… phi 2 head.
+
+338
+00:53:17,610 --> 00:53:25,480
+Leung Ping Kei: Psi 2 head is equal to 5 one head times 5 one head plus, fight to head.
+
+339
+00:53:25,590 --> 00:53:31,300
+Leung Ping Kei: It turned out to be 1.751. I'll show you the detailed calculation.
+
+340
+00:53:32,520 --> 00:53:35,170
+Leung Ping Kei: And then, 5thly head, is,
+
+341
+00:53:35,960 --> 00:53:43,359
+Leung Ping Kei: Phi 1, times, psi, psi 2 head, plus, phi 2 head times, psi 1 head.
+
+342
+00:53:43,360 --> 00:54:07,329
+Leung Ping Kei: is equal to 1.71, okay? So, note, why are they above the equation 2? Okay, I'll tell you, okay. Hence, prediction interval for the forecast can be found, for instance, a 95% prediction limit, X of 2 head, is 5.488 plus or minus, 1.96 times the square root of…
+
+343
+00:54:07,330 --> 00:54:14,230
+Leung Ping Kei: 0. This is sigma… sigma A, sigma A, okay? Squared root, sigma A. And then…
+
+344
+00:54:14,700 --> 00:54:26,870
+Leung Ping Kei: Since, it is 0 to, L minus 1, L is 2, okay? 2 minus 1 is, from 0 to 1. So, phi 0, okay? Phi 1.
+
+345
+00:54:27,410 --> 00:54:31,829
+Leung Ping Kei: Okay, so phi 1 is, 1.548, square.
+
+346
+00:54:32,180 --> 00:54:35,619
+Leung Ping Kei: square, okay? And then take the square root…
+
+347
+00:54:36,640 --> 00:54:50,160
+Leung Ping Kei: Then it turned out to be 5.488 plus or minus, okay, after your calculation, 1.3113. So it turned out to be 4.1767 to 6.7993, okay?
+
+348
+00:54:50,620 --> 00:54:54,550
+Leung Ping Kei: So… Oops.
+
+349
+00:55:02,500 --> 00:55:09,880
+Leung Ping Kei: So we have that, okay, example 2, okay. Phi 1 is equal to, phi 1 had, equal to 1.548.
+
+350
+00:55:10,090 --> 00:55:23,590
+Leung Ping Kei: Psi, psi 2 head is equal to this, okay? Psi 1 hat times, phi 1 hat times psi 1 head plus phi 2 hat, okay? So in third, this one is just here.
+
+351
+00:55:23,930 --> 00:55:26,149
+Leung Ping Kei: Okay? They are the same.
+
+352
+00:55:26,610 --> 00:55:34,610
+Leung Ping Kei: Therefore, it's 1.4… 548 square, okay? And then plus a 52 head, a 52 head is what?
+
+353
+00:55:38,890 --> 00:55:43,970
+Leung Ping Kei: Negative, huh? 6.45, huh? Okay? 0.645.
+
+354
+00:55:44,480 --> 00:55:47,859
+Leung Ping Kei: So, it's minus. Devil is 1.751.
+
+355
+00:55:48,270 --> 00:55:52,000
+Leung Ping Kei: And then, side fleet, is equal to…
+
+356
+00:55:52,360 --> 00:55:58,790
+Leung Ping Kei: 51 head, times, psi 2 head plus 5… side 2 head times, side 1 head.
+
+357
+00:55:59,270 --> 00:56:16,570
+Leung Ping Kei: Okay? So, it is, 1.548 times, 1.751 plus, negatives, 0.645 times 1.548, it turned out to be 1.7048, 1 to, 1.71.
+
+358
+00:56:16,860 --> 00:56:25,919
+Leung Ping Kei: Therefore, the 95%, well, supposed to be confidence interval, confidence limit, okay? For… okay.
+
+359
+00:56:27,540 --> 00:56:38,040
+Leung Ping Kei: In your notes, they do it here, okay? In here, I add another one, okay? XC of one, okay?
+
+360
+00:56:38,460 --> 00:56:56,699
+Leung Ping Kei: Confidence interval for the forecast, is, okay, 5.81 plus or minus, 1.96 times the sigma A squared, sigma squared root of sigma A, okay? Sigma A squared root of sigma A squared, is sigma A, okay?
+
+361
+00:56:56,700 --> 00:57:03,810
+Leung Ping Kei: So, it turned out to be 5.0984 to 6.5216.
+
+362
+00:57:04,520 --> 00:57:08,630
+Leung Ping Kei: And then… for, other…
+
+363
+00:57:10,080 --> 00:57:16,399
+Leung Ping Kei: XT of 2 head, okay? That is, for, X hundred and twenty…
+
+364
+00:57:18,310 --> 00:57:26,620
+Leung Ping Kei: 3, okay? This is 122, 123, okay? It's 5.488, okay, it's here.
+
+365
+00:57:27,050 --> 00:57:39,159
+Leung Ping Kei: Plus or minus 1.96 times the standard duration, sigma 8, okay, square root of 0.1318 times the square root of 1 plus 51 squared, okay?
+
+366
+00:57:39,170 --> 00:57:50,760
+Leung Ping Kei: So, it's a 1.548 square, okay? So, it turned out to be 4.1767 to 6.7993.
+
+367
+00:57:51,140 --> 00:58:02,769
+Leung Ping Kei: And then I give you another one, okay? Of course, you have to, you have to do it, okay? XC of 3 head, that is, X24, okay, head.
+
+368
+00:58:03,810 --> 00:58:10,389
+Leung Ping Kei: However, you have to calculate, okay, that X of 124 head, okay?
+
+369
+00:58:11,610 --> 00:58:12,740
+Leung Ping Kei: Using this.
+
+370
+00:58:14,860 --> 00:58:31,609
+Leung Ping Kei: Alright? And then, plus or minus 1.96 times the square root of, okay, 0.1318, and then times the square root of, 1 plus 51 square hat, again, then plus, 5 psi 2 hat squared.
+
+371
+00:58:32,890 --> 00:58:34,090
+Leung Ping Kei: Is that okay?
+
+372
+00:58:45,070 --> 00:59:00,110
+Leung Ping Kei: So, okay, these, this, this, example two, more or less, more or less, but, but not, not the same, not the same, is using this kind of technique to do it.
+
+373
+00:59:00,250 --> 00:59:04,220
+Leung Ping Kei: In your exam, huh? I mean, in your exam.
+
+374
+00:59:04,410 --> 00:59:06,920
+Leung Ping Kei: Alright? Okay.
+
+375
+00:59:09,270 --> 00:59:13,970
+Leung Ping Kei: Then, okay, one more example, okay,
+
+376
+00:59:14,200 --> 00:59:28,150
+Leung Ping Kei: Example 3, armor11, okay? Suppose the process is, 1 minus 5B applied to XT, and then another, is equal to 1 minus data B applied to AT.
+
+377
+00:59:28,150 --> 00:59:36,099
+Leung Ping Kei: There is like that, XT minus, phi XT minus 1 equal to AT minus, theta AT minus 1.
+
+378
+00:59:36,470 --> 00:59:38,629
+Leung Ping Kei: Okay? Then I, I…
+
+379
+00:59:40,850 --> 00:59:55,539
+Leung Ping Kei: Using, using this equation, I mean, use, I put this to the right-hand side. So, XT is equal to phi times XT minus 1 plus AT minus data AT minus 1.
+
+380
+00:59:56,360 --> 01:00:06,070
+Leung Ping Kei: Okay? Therefore, based on this equation, I can use the FORECAST function, okay? Therefore, XT of L hat
+
+381
+01:00:06,180 --> 01:00:23,000
+Leung Ping Kei: is equal to 5 times XT plus L minus 1, because, L period, okay? L period later, okay? Phi times XT plus L minus 1 plus AT plus L minus data times AT plus L minus 1.
+
+382
+01:00:24,280 --> 01:00:26,249
+Leung Ping Kei: Alright? Just like this.
+
+383
+01:00:29,120 --> 01:00:30,020
+Leung Ping Kei: Okay?
+
+384
+01:00:31,460 --> 01:00:33,739
+Leung Ping Kei: This is, this is here, okay?
+
+385
+01:00:33,870 --> 01:00:38,919
+Leung Ping Kei: And then an L period later. L period later. The forecasts are like this, okay?
+
+386
+01:00:39,140 --> 01:00:46,849
+Leung Ping Kei: Therefore, the forecasts are, okay, XT of 1 hat is equal to 5 XT minus theta AT.
+
+387
+01:00:47,030 --> 01:00:49,179
+Leung Ping Kei: Okay? For L equal to 1.
+
+388
+01:00:50,320 --> 01:01:06,270
+Leung Ping Kei: L equal to 1. So L equal to 1, in this case, okay, L equal to 1, XT of 1 hat, equal to 5 times XT, 1 minus 1, okay, is 0. Okay? So XT.
+
+389
+01:01:06,390 --> 01:01:10,169
+Leung Ping Kei: XT. And then pass a…
+
+390
+01:01:12,670 --> 01:01:26,239
+Leung Ping Kei: AT plus 1, okay? And then, minus, 8, theta times, AT plus 1 minus 1, therefore it's theta AT, okay? 4. AT plus 1, is 0.
+
+391
+01:01:27,890 --> 01:01:28,850
+Leung Ping Kei: Alright.
+
+392
+01:01:29,760 --> 01:01:46,090
+Leung Ping Kei: And then another, when, L greater than 2, therefore, we have that, we use L instead, so Xi of L hat is equal to 5 times Xi of L minus 1 hat, okay, for L greater than, or equal to 2. And then,
+
+393
+01:01:47,160 --> 01:01:51,490
+Leung Ping Kei: Take a look, okay? AT plus 2 is 0.
+
+394
+01:01:51,910 --> 01:01:52,890
+Leung Ping Kei: Alright.
+
+395
+01:01:53,750 --> 01:01:56,160
+Leung Ping Kei: So this is 0, this is zero.
+
+396
+01:01:59,940 --> 01:02:12,229
+Leung Ping Kei: And then, the forecast, decay, geometrically to the mean, as in an, AR1 process, but with a 1, forecast, modified by, a factor.
+
+397
+01:02:12,230 --> 01:02:21,759
+Leung Ping Kei: Depending on AT, equal to XT minus, XT minus 1, or 1 hat, okay? That is XT minus XT hat.
+
+398
+01:02:24,550 --> 01:02:25,710
+Leung Ping Kei: Is that okay?
+
+399
+01:02:28,880 --> 01:02:32,439
+Leung Ping Kei: Or else I'll be… can take it again, okay.
+
+400
+01:02:34,010 --> 01:02:36,289
+Leung Ping Kei: It's here, okay?
+
+401
+01:02:36,390 --> 01:02:54,379
+Leung Ping Kei: in my terminal 5 notes, okay? R11, okay? So, 1 minus 5P applied to XT is equal to 1 minus data B applied to AT, okay? So, I've, taken out, XT minus, 5… XT minus 1, okay?
+
+402
+01:02:54,440 --> 01:02:58,050
+Leung Ping Kei: equal to AT minus, theta AT minus 1.
+
+403
+01:02:59,050 --> 01:03:09,729
+Leung Ping Kei: Therefore, I take this term to the, right-hand side, so XT is equal to 5 XT minus 1, plus AT minus AT minus 1.
+
+404
+01:03:11,060 --> 01:03:24,959
+Leung Ping Kei: And then, for L period, okay, that is XT plus L is equal to 5 times XT plus L minus 1 plus AT plus L minus data AT plus L minus 1.
+
+405
+01:03:27,480 --> 01:03:36,309
+Leung Ping Kei: Okay? Using this formula, okay, using this formula, when L are equal to 1, the forecast are, okay, XT of 1 hat.
+
+406
+01:03:36,570 --> 01:03:43,789
+Leung Ping Kei: equal to phi XT minus, data AT. Since, AT… AT…
+
+407
+01:03:44,830 --> 01:03:57,490
+Leung Ping Kei: plus 1 is 0, okay? And then, the forecast, for, 2 bits later, L equal to 2, XT of 2 head is equal to 5 XT of 1.
+
+408
+01:03:57,840 --> 01:03:58,770
+Leung Ping Kei: Okay?
+
+409
+01:03:59,150 --> 01:04:12,010
+Leung Ping Kei: So this one will be 0, okay? AT plus 2 is 0. And then, L equal to 3, okay? XT of 3 hat is equal to 5 XT of 2.
+
+410
+01:04:13,030 --> 01:04:14,010
+Leung Ping Kei: Alright?
+
+411
+01:04:14,470 --> 01:04:16,860
+Leung Ping Kei: Since our orders are gone.
+
+412
+01:04:18,470 --> 01:04:26,449
+Leung Ping Kei: And then, when L greater than, oh, you know, 2, okay, XT of L hat is equal to 5 times XT of L minus 1.
+
+413
+01:04:30,840 --> 01:04:31,990
+Leung Ping Kei: Is that okay?
+
+414
+01:04:35,040 --> 01:04:38,430
+Leung Ping Kei: So, I stopped here today.
+
+415
+01:04:38,640 --> 01:04:46,560
+Leung Ping Kei: Okay? So, we will continue, on, next Monday. And then,
+
+416
+01:04:47,090 --> 01:04:49,109
+Leung Ping Kei: I will see you all,
+
+417
+01:04:49,320 --> 01:04:59,339
+Leung Ping Kei: on Saturday, Saturday, afternoon, 2.30, 2.30, your, your room is, set 50…
+
+418
+01:04:59,620 --> 01:05:06,060
+Leung Ping Kei: 3 or 5.04, okay? I'll announce it on the blackboard.
+
+419
+01:05:06,750 --> 01:05:07,790
+Leung Ping Kei: Okay?
+
+420
+01:05:10,630 --> 01:05:19,440
+Leung Ping Kei: So, thank you for coming, okay? I see, some of you, some of you, okay?
+
+421
+01:05:19,770 --> 01:05:27,700
+Leung Ping Kei: This cast is supposed to have, tuesday.
+
+422
+01:05:28,190 --> 01:05:36,640
+Leung Ping Kei: 20… 26 of you. 26 of you, okay? Today, more than 20.
+
+423
+01:05:36,910 --> 01:05:38,099
+Leung Ping Kei: What is it?
+
+424
+01:05:44,530 --> 01:05:48,309
+Leung Ping Kei: 25! Very good. Oh, 26.
+
+425
+01:05:48,550 --> 01:06:02,999
+Leung Ping Kei: Oh, very good. All of you are, okay. So, see you on, first, on Saturday, Saturday. There will be, three questions. Three questions, okay?
+
+426
+01:06:03,700 --> 01:06:06,219
+Leung Ping Kei: So one and a half hour will be quick enough.
+
+427
+01:06:06,640 --> 01:06:07,490
+Leung Ping Kei: Okay.
+
+428
+01:06:08,070 --> 01:06:10,580
+Leung Ping Kei: Free questions, okay.
+
+429
+01:06:12,410 --> 01:06:19,730
+Leung Ping Kei: So, thank you for coming, thank you for coming, okay? And, all of you have a nice day, okay?
+

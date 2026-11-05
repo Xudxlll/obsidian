@@ -3750,6 +3750,8 @@
       "isHidden": false,
       "sortOrder": "byName",
       "customOrder": [
+        "Chapter 5",
+        "字幕课堂整理",
         "Tutorials",
         "Assignments",
         "Chapter 4",
@@ -4723,6 +4725,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "04 - Chapter 1 字幕重点与考核提醒.md",
         "附件",
         "03 - Chapter 1 手写笔记（p6 to p9）.md",
         "02 - Chapter 1 手写笔记（p1 to p5）.md",
@@ -4936,8 +4939,9 @@
     "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2": {
       "isPinned": false,
       "isHidden": false,
-      "sortOrder": "custom",
+      "sortOrder": "byName",
       "customOrder": [
+        "04 - Chapter 2 字幕重点与考核提醒.md",
         "附件",
         "03 - Proof of (2.5.2) 手写证明.md",
         "02 - Chapter 2 手写笔记.md",
@@ -5108,6 +5112,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "04 - Chapter 3 字幕重点与考核提醒.md",
         "附件",
         "03 - Chapter 3 Additional Notes（手写补充）.md",
         "02 - Chapter 3 Updated Notes（批注版）.md",
@@ -5433,6 +5438,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "05 - Chapter 4 字幕核对与课堂重点.md",
         "04 - Chapter 4 第10页手写补充.md",
         "附件",
         "03 - Chapter 4 Additional Example.md",
@@ -13720,7 +13726,7 @@
     "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 1": {
       "isPinned": false,
       "isHidden": false,
-      "sortOrder": "custom",
+      "sortOrder": "byName",
       "customOrder": [
         "02 - Tutorial 1 Answers（英文原文与折叠译文）.md",
         "附件",
@@ -13734,7 +13740,7 @@
     "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 2": {
       "isPinned": false,
       "isHidden": false,
-      "sortOrder": "custom",
+      "sortOrder": "byName",
       "customOrder": [
         "附件",
         "04 - Ex 2 Q2-Q4（手写解答）.md",
@@ -15876,6 +15882,94 @@
       "isHidden": false
     },
     "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/附件/ch4-p10-supplement-p01.png": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/字幕课堂整理": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "00 - 考核事项与重点（待完整核对）.md",
+        "附件"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/字幕课堂整理/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "week8 FORECASTING AND APPLIED TIME SERIES ANALYSIS - Zoom-source.srt",
+        "week7 FORECASTING AND APPLIED TIME SERIES ANALYSIS - Zoom-source (1).srt",
+        "week6 FORECASTING AND APPLIED TIME SERIES ANALYSIS - Zoom-source.srt",
+        "week5 FORECASTING AND APPLIED TIME SERIES ANALYSIS - Zoom-source.srt",
+        "week4 FORECASTING AND APPLIED TIME SERIES ANALYSIS - Zoom-source.srt",
+        "week3 FORECASTING AND APPLIED TIME SERIES ANALYSIS - Zoom-source.srt",
+        "week1 FORECASTING AND APPLIED TIME SERIES ANALYSIS - Zoom-source.srt",
+        "week2 FORECASTING AND APPLIED TIME SERIES ANALYSIS - Zoom-source (1).srt"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/字幕课堂整理/附件/week2 FORECASTING AND APPLIED TIME SERIES ANALYSIS - Zoom-source (1).srt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/字幕课堂整理/附件/week1 FORECASTING AND APPLIED TIME SERIES ANALYSIS - Zoom-source.srt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/字幕课堂整理/附件/week3 FORECASTING AND APPLIED TIME SERIES ANALYSIS - Zoom-source.srt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/字幕课堂整理/附件/week4 FORECASTING AND APPLIED TIME SERIES ANALYSIS - Zoom-source.srt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/字幕课堂整理/附件/week5 FORECASTING AND APPLIED TIME SERIES ANALYSIS - Zoom-source.srt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/字幕课堂整理/附件/week6 FORECASTING AND APPLIED TIME SERIES ANALYSIS - Zoom-source.srt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/字幕课堂整理/附件/week7 FORECASTING AND APPLIED TIME SERIES ANALYSIS - Zoom-source (1).srt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/字幕课堂整理/附件/week8 FORECASTING AND APPLIED TIME SERIES ANALYSIS - Zoom-source.srt": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/字幕课堂整理/00 - 考核事项与重点（待完整核对）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 4/05 - Chapter 4 字幕核对与课堂重点.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "00 - Chapter 5 字幕重点（Week 8）.md"
+      ],
+      "sortOrder": "custom"
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/00 - Chapter 5 字幕重点（Week 8）.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/04 - Chapter 1 字幕重点与考核提醒.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 2/04 - Chapter 2 字幕重点与考核提醒.md": {
+      "isPinned": false,
+      "isHidden": false
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 3/04 - Chapter 3 字幕重点与考核提醒.md": {
       "isPinned": false,
       "isHidden": false
     }

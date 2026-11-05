@@ -1,0 +1,2256 @@
+1
+00:01:26,010 --> 00:01:27,790
+Leung Ping Kei: Okay, so,
+
+2
+00:01:29,550 --> 00:01:49,219
+Leung Ping Kei: Section 2.1, is saying that, a stochastic process is a family of random variable, set T, where T belongs to the set of, integers, 0, plus or minus 1, plus or minus 2, and so on. If t carries the meaning of time, then the process is called a time series.
+
+3
+00:01:49,690 --> 00:01:50,600
+Leung Ping Kei: Okay.
+
+4
+00:01:50,740 --> 00:02:01,709
+Leung Ping Kei: So, in most cases, we shall be dealing with a non-negative time, okay? Namely, T is going from 0, 1, 2, 3, 4, blah blah blah, and so on.
+
+5
+00:02:08,919 --> 00:02:21,770
+Leung Ping Kei: So, we introduce a stationary time series. A strictly stationary series, is one whose statistical properties remain constant in time.
+
+6
+00:02:23,540 --> 00:02:38,420
+Leung Ping Kei: That means that they will not be changed, okay? Suppose, okay? A proper definition for a time series, huh? XT. T going from 0 plus or minus 1, plus or minus 2, and so on, is…
+
+7
+00:02:38,970 --> 00:02:51,059
+Leung Ping Kei: by the condition that, X1 up to XN, okay, the John PDF, and also the John PDF of X1 plus X, blah blah blah up to XN plus H.
+
+8
+00:02:52,050 --> 00:02:56,520
+Leung Ping Kei: The two setups have the same John distribution.
+
+9
+00:02:56,650 --> 00:02:58,630
+Leung Ping Kei: for all integers h.
+
+10
+00:02:59,060 --> 00:03:01,640
+Leung Ping Kei: And, N greater than zero.
+
+11
+00:03:04,010 --> 00:03:04,970
+Leung Ping Kei: Alright?
+
+12
+00:03:05,250 --> 00:03:13,010
+Leung Ping Kei: So, a necessary condition for this is the absence of any deterministic or sarcastic trend.
+
+13
+00:03:14,690 --> 00:03:27,090
+Leung Ping Kei: That means, okay, suppose, stationary time series, suppose that, the joint distribution of X1 up to Xn, and X period later.
+
+14
+00:03:27,830 --> 00:03:31,659
+Leung Ping Kei: They are having the same thing, the same distribution.
+
+15
+00:03:32,600 --> 00:03:36,340
+Leung Ping Kei: However, most of the time,
+
+16
+00:03:38,870 --> 00:03:43,019
+Leung Ping Kei: The, the, the, the, the, the things will be changed, okay?
+
+17
+00:03:44,500 --> 00:03:57,840
+Leung Ping Kei: Therefore, therefore, we, we need to, okay, eliminate, eliminate, eliminate those, information that, affect, the, the distribution of these two sets.
+
+18
+00:03:59,070 --> 00:04:00,060
+Leung Ping Kei: Alright?
+
+19
+00:04:00,740 --> 00:04:05,980
+Leung Ping Kei: So, stationary series are amenable to, formal analysis.
+
+20
+00:04:06,710 --> 00:04:16,269
+Leung Ping Kei: An elimination of a non-seasonality is a primary aim of a preliminary descriptive analysis.
+
+21
+00:04:18,250 --> 00:04:23,659
+Leung Ping Kei: That means that we want to, eliminate, the, non-seasonality.
+
+22
+00:04:24,360 --> 00:04:32,990
+Leung Ping Kei: Most of the time. If we eliminate those, non-seasonality, then, we can, analyze.
+
+23
+00:04:33,390 --> 00:04:35,519
+Leung Ping Kei: The Times years are easier.
+
+24
+00:04:41,110 --> 00:04:59,359
+Leung Ping Kei: And then the white noise, okay, if XT, distribute, IIT, independent and identically distributed, normal, with being zero, where being sigma squared for all T, the process, XT, okay, is said to be, white noise.
+
+25
+00:05:00,330 --> 00:05:01,280
+Leung Ping Kei: Alright?
+
+26
+00:05:02,830 --> 00:05:14,959
+Leung Ping Kei: Sometimes, sometimes we use, ZT or, epsilon T, okay? And in here, they just use, another name, XT.
+
+27
+00:05:18,510 --> 00:05:22,779
+Leung Ping Kei: This is a term, coming from, engineering.
+
+28
+00:05:24,270 --> 00:05:32,129
+Leung Ping Kei: White noise, white noise, okay? Thus, white noise is the simplest kind of a strictly stationary time series.
+
+29
+00:05:33,110 --> 00:05:34,120
+Leung Ping Kei: Alright.
+
+30
+00:05:34,870 --> 00:05:47,240
+Leung Ping Kei: Before attempting any analysis in terms of more complicated models, it is advisable to examine, either informally or by formal tests.
+
+31
+00:05:47,470 --> 00:05:53,879
+Leung Ping Kei: Weather data, show any incompatibility, with white noise.
+
+32
+00:05:54,230 --> 00:05:59,610
+Leung Ping Kei: That means that you want, we, we, when, when we're doing, the,
+
+33
+00:06:00,350 --> 00:06:08,550
+Leung Ping Kei: statistical analysis for the time series, usually, usually, we will, remove all those,
+
+34
+00:06:10,120 --> 00:06:14,239
+Leung Ping Kei: Those information that, affect the…
+
+35
+00:06:14,720 --> 00:06:19,850
+Leung Ping Kei: analysis, okay? Therefore, we will use it to
+
+36
+00:06:20,200 --> 00:06:28,680
+Leung Ping Kei: We have some techniques to eliminate those things, in order to get, those white noise.
+
+37
+00:06:28,990 --> 00:06:35,379
+Leung Ping Kei: And, a standard, tool is the autocorrelation coefficient in the next section.
+
+38
+00:06:36,130 --> 00:06:37,030
+Leung Ping Kei: Okay?
+
+39
+00:06:37,320 --> 00:06:42,250
+Leung Ping Kei: That means that we, we want to study, study the autocorrelation coefficient.
+
+40
+00:06:42,510 --> 00:06:46,100
+Leung Ping Kei: Okay? And then, to see what happened.
+
+41
+00:06:52,450 --> 00:07:02,200
+Leung Ping Kei: And then a weekly stationary time series, okay? So, strict seasonality is usually a strong condition in applications.
+
+42
+00:07:02,290 --> 00:07:21,149
+Leung Ping Kei: Okay? Strict yield, strict seasonality, okay? It's a strong condition, for application. Well, let mu t equal the expectation of Xt, sigma T squared equal to the variance, expectation of Xt minus mu t squared.
+
+43
+00:07:21,390 --> 00:07:26,319
+Leung Ping Kei: And, covariance between, T and T plus H.
+
+44
+00:07:26,650 --> 00:07:40,910
+Leung Ping Kei: we just use, gamma, T, T plus H, okay? Well, actually, you may say that, this is covariance between XT, XT, and XT plus H.
+
+45
+00:07:41,370 --> 00:07:42,280
+Leung Ping Kei: Okay?
+
+46
+00:07:46,240 --> 00:07:50,490
+Leung Ping Kei: Which is equal to, gamma of, well.
+
+47
+00:07:51,470 --> 00:08:00,399
+Leung Ping Kei: you may say, XT and XT plus H, or you may just use, this notation. Gamma of T and T plus H.
+
+48
+00:08:04,360 --> 00:08:05,320
+Leung Ping Kei: Alright?
+
+49
+00:08:06,120 --> 00:08:16,780
+Leung Ping Kei: Here, COV covariance is the abbreviation of a covariance. If, point number one, muT is independent of T.
+
+50
+00:08:17,080 --> 00:08:32,289
+Leung Ping Kei: Okay? And gamma T, T plus H, okay, there is, the auto-covariance between, the series XC and XT plus H, is independent of T for each H.
+
+51
+00:08:32,770 --> 00:08:39,739
+Leung Ping Kei: Then, we say that, XT is, to be weekly stationary time series.
+
+52
+00:08:40,669 --> 00:08:41,580
+Leung Ping Kei: Okay?
+
+53
+00:08:42,220 --> 00:08:47,620
+Leung Ping Kei: So in this course, we mainly focus on this type of seasonality.
+
+54
+00:08:49,370 --> 00:08:58,109
+Leung Ping Kei: That means, most of the time, we will, we'll talk about, okay, the, the mean and, the autocovariance.
+
+55
+00:08:58,230 --> 00:09:02,340
+Leung Ping Kei: Or sometimes we use, variance, okay?
+
+56
+00:09:05,540 --> 00:09:10,530
+Leung Ping Kei: So, this is, to test, the weekly, stationery.
+
+57
+00:09:22,460 --> 00:09:26,670
+Leung Ping Kei: So, some more discussion on, weak, seasonality.
+
+58
+00:09:26,670 --> 00:09:44,129
+Leung Ping Kei: We call, if a discrete times, stochastic process, okay? XT, satisfy the following condition. Point number one, expectation of mu T, XT is equal to mu, okay? Constant for all T, okay? Does not depend on T, huh?
+
+59
+00:09:44,130 --> 00:09:51,010
+Leung Ping Kei: And then, variance of Xt is sigma squared, is again constant for all… T…
+
+60
+00:09:51,810 --> 00:09:56,030
+Leung Ping Kei: And then, point number 3, point number 2, okay.
+
+61
+00:09:56,190 --> 00:10:05,289
+Leung Ping Kei: covariance between XC and XT, XS, okay? It is just, well, just like the gamma,
+
+62
+00:10:06,270 --> 00:10:13,690
+Leung Ping Kei: Just like this, comma, okay? This is lowercase gamma, it's the same as, this gamma.
+
+63
+00:10:15,300 --> 00:10:17,859
+Leung Ping Kei: Gamma, T minus S.
+
+64
+00:10:19,620 --> 00:10:36,219
+Leung Ping Kei: There is the difference between, the time period, T and S, okay? So it depends on T minus S only, okay? Then, XT is said to be, to process, secondary, seasonality.
+
+65
+00:10:36,580 --> 00:10:42,990
+Leung Ping Kei: secondary, okay? There is, we have all these, not depends on T.
+
+66
+00:10:44,100 --> 00:10:45,010
+Leung Ping Kei: Okay.
+
+67
+00:10:45,150 --> 00:10:54,170
+Leung Ping Kei: Some authors also, say, the SERIES XC is weakly stationary or covariant stationary.
+
+68
+00:11:02,500 --> 00:11:06,019
+Leung Ping Kei: So, it's the next section, 2.1,
+
+69
+00:11:06,800 --> 00:11:20,570
+Leung Ping Kei: autocorrelation function of a stationary sarcastic process, okay? The autocovariance function of a time series XT is defined by, okay, gamma K, gamma K.
+
+70
+00:11:20,570 --> 00:11:31,979
+Leung Ping Kei: okay, is equal to XT, expectation of XT, XT plus K minus expectation of Xt times expectation of XT plus K.
+
+71
+00:11:33,800 --> 00:11:41,639
+Leung Ping Kei: There is, the autocovariance, okay? Auto-covariance between, XT and XT plus K.
+
+72
+00:11:42,120 --> 00:11:43,030
+Leung Ping Kei: Okay?
+
+73
+00:11:44,340 --> 00:11:55,490
+Leung Ping Kei: Then, rho K. Rho k is equal to, the autocovariance divided by the square root of variance of XC, variance of Xt plus K.
+
+74
+00:11:56,350 --> 00:11:58,549
+Leung Ping Kei: Square root, okay, the square root…
+
+75
+00:12:07,010 --> 00:12:12,760
+Leung Ping Kei: Here, k equal to 0, plus or minus 1, plus or minus 2, and so on, okay?
+
+76
+00:12:19,200 --> 00:12:28,829
+Leung Ping Kei: So, for a sarcastic process, which is stationary, then the auto-covariance function is simplified to, okay.
+
+77
+00:12:29,010 --> 00:12:38,930
+Leung Ping Kei: Gamma k equal to expectation of XT, XT plus K minus expectation of XT squared.
+
+78
+00:12:40,590 --> 00:12:45,249
+Leung Ping Kei: There is, okay, this term is the same as this term, okay?
+
+79
+00:12:46,360 --> 00:12:50,620
+Leung Ping Kei: And then, gamma 0, is equal to variance of xt.
+
+80
+00:12:56,050 --> 00:12:57,470
+Leung Ping Kei: Is that okay?
+
+81
+00:13:00,330 --> 00:13:07,799
+Leung Ping Kei: So that in this case, the autocorrelation function of OK is equal to gamma k over gamma naught.
+
+82
+00:13:09,360 --> 00:13:12,679
+Leung Ping Kei: Gamma K over gamma log is,
+
+83
+00:13:13,130 --> 00:13:17,310
+Leung Ping Kei: Autocorrelation, autocorrelation, Rho K.
+
+84
+00:13:18,130 --> 00:13:23,390
+Leung Ping Kei: So K, can be, 0, plus or minus 1, plus or minus 2, and so on.
+
+85
+00:13:28,580 --> 00:13:29,600
+Leung Ping Kei: Alright?
+
+86
+00:13:34,260 --> 00:13:37,140
+Leung Ping Kei: And then remark 1, it can be shown that,
+
+87
+00:13:38,350 --> 00:13:50,729
+Leung Ping Kei: Absolute value of OK must be, less than or equal to 1, because, correlation, autocorrelation, autocorrelation must lie between, plus or minus 1.
+
+88
+00:13:51,060 --> 00:13:52,880
+Leung Ping Kei: Plus or minus 1.
+
+89
+00:13:55,740 --> 00:14:15,100
+Leung Ping Kei: And then the remark 2 is said, some algebraic simplicity, can be obtained, if expectation of Xt equal to zero, because, gamma K is equal to, expectation of the cross product, because the mean is equal to zero. Therefore, this term will be zero.
+
+90
+00:14:15,420 --> 00:14:23,850
+Leung Ping Kei: Okay? Therefore, gamma K is equal to expectation of the cross product, XT, XT plus K.
+
+91
+00:14:26,460 --> 00:14:33,419
+Leung Ping Kei: And then, gamma naught, is equal to the wavelength of t, which is equal to, expectation Xt squared.
+
+92
+00:14:35,970 --> 00:14:39,680
+Leung Ping Kei: Since, since the mean is civil, the mean is civil.
+
+93
+00:14:41,990 --> 00:14:54,630
+Leung Ping Kei: But, remember, this is a special case, okay? In general, expectation of XT, is not zero, okay? And we have to use the, full form above.
+
+94
+00:14:54,930 --> 00:14:56,000
+Leung Ping Kei: Just like that.
+
+95
+00:15:02,950 --> 00:15:03,910
+Leung Ping Kei: Alright.
+
+96
+00:15:05,210 --> 00:15:07,219
+Leung Ping Kei: Section, 2.2.1.
+
+97
+00:15:21,770 --> 00:15:23,860
+Leung Ping Kei: Now we have an example.
+
+98
+00:15:25,730 --> 00:15:31,720
+Leung Ping Kei: Let the SERIES AT be zero mean white noise, okay?
+
+99
+00:15:31,820 --> 00:15:34,969
+Leung Ping Kei: And variance on sigma squared, okay?
+
+100
+00:15:35,250 --> 00:15:43,259
+Leung Ping Kei: A time series is formed by the following process, okay? Set T equal to 80 plus 0.5 AT minus 1.
+
+101
+00:15:45,340 --> 00:15:53,870
+Leung Ping Kei: ZT, okay? Now, they want you to show that, ZT is stationary by finding its, autocorvalence function.
+
+102
+00:15:54,910 --> 00:15:55,890
+Leung Ping Kei: Okay?
+
+103
+00:16:02,020 --> 00:16:06,970
+Leung Ping Kei: So the solution is telling you that, expectation of set t equal to zero.
+
+104
+00:16:07,150 --> 00:16:13,019
+Leung Ping Kei: Okay? Expectation of ZT. This is 0, and this is 0.
+
+105
+00:16:13,440 --> 00:16:26,389
+Leung Ping Kei: Therefore, expectation of set T is 0. And variance of ZT, is variance of AT plus, 0.25 times, variance of AT minus 1.
+
+106
+00:16:26,670 --> 00:16:36,199
+Leung Ping Kei: Okay? Therefore, they are, you have a sigma squared, a sigma squared, okay? So, it is sigma prime squared.
+
+107
+00:16:36,680 --> 00:16:39,270
+Leung Ping Kei: It is, again, a constant.
+
+108
+00:16:41,850 --> 00:16:42,800
+Leung Ping Kei: Alright?
+
+109
+00:16:43,910 --> 00:16:48,449
+Leung Ping Kei: And now, we observe that, okay, expectation of the cross product.
+
+110
+00:16:48,820 --> 00:16:59,860
+Leung Ping Kei: Expectation of ZT, times ZT minus K, okay? That is, AT plus 0.5 AT minus 1, okay? ZT.
+
+111
+00:17:00,300 --> 00:17:08,720
+Leung Ping Kei: And then, set T minus K is AT minus K plus 0.5 AT minus K minus 1.
+
+112
+00:17:14,858 --> 00:17:17,060
+Leung Ping Kei: Now we expand them, huh? Okay.
+
+113
+00:17:17,170 --> 00:17:29,980
+Leung Ping Kei: So, expectation of these two, product, okay? ATAT minus K are the first term here, and then, 0.5AT minus 1AT minus K.
+
+114
+00:17:30,300 --> 00:17:37,399
+Leung Ping Kei: Okay? And then, the third term is, okay, AT and AT minus K minus 1.
+
+115
+00:17:37,590 --> 00:17:47,119
+Leung Ping Kei: This time this, and then this one is, 0.5 times 0.5, 18 minus 1, 18 minus 1, minus K minus 1.
+
+116
+00:17:50,310 --> 00:17:51,310
+Leung Ping Kei: Alright.
+
+117
+00:17:55,670 --> 00:18:02,370
+Leung Ping Kei: Then, after you take the expectation, okay, it turned out to be 1.25 sigma squared.
+
+118
+00:18:02,580 --> 00:18:06,449
+Leung Ping Kei: If K equal to zero, K equal to zero, okay?
+
+119
+00:18:07,100 --> 00:18:11,999
+Leung Ping Kei: And then, equal to 0.5 sigma squared, if k equal to 1.
+
+120
+00:18:13,490 --> 00:18:25,569
+Leung Ping Kei: I'll show you later. Okay, and simple otherwise. Thus, the auto-covariance function does not depend on T, and the time series is stationary.
+
+121
+00:18:43,730 --> 00:19:01,330
+Leung Ping Kei: So, our example 1, example 1. At is white noise, with mean zero variance of sigma squared. ZT is still AT plus 0.5 AT minus 1. It's a time series, with ZT minus k equal to AT minus k.
+
+122
+00:19:01,330 --> 00:19:05,219
+Leung Ping Kei: plus 0.58T minus K minus 1.
+
+123
+00:19:06,160 --> 00:19:07,210
+Leung Ping Kei: Alright?
+
+124
+00:19:09,690 --> 00:19:16,960
+Leung Ping Kei: And, expectation of ZT, is expectation of AT plus 0.5 AT minus 1.
+
+125
+00:19:17,240 --> 00:19:29,890
+Leung Ping Kei: We take the expectation through, therefore we have our expectation of 80 plus 0.5 expectation of 80 minus 1. And since, AT, the mean is 0,
+
+126
+00:19:30,150 --> 00:19:41,469
+Leung Ping Kei: Therefore, the first term is 0, plus 0.5 times, expectation of 18 minus 1 is against 0. Therefore, the whole term is 0.
+
+127
+00:19:49,060 --> 00:19:51,390
+Leung Ping Kei: And then, variance of set T,
+
+128
+00:19:52,080 --> 00:19:56,619
+Leung Ping Kei: So, variance of AT plus 0.5 AT minus 1, okay?
+
+129
+00:19:57,130 --> 00:20:01,600
+Leung Ping Kei: Therefore, since, AT and AT-1 are, what?
+
+130
+00:20:05,500 --> 00:20:16,249
+Leung Ping Kei: independent. They are independent. Therefore, variance of the sum, is the sum of variances, okay? So, variance of 80 plus,
+
+131
+00:20:16,820 --> 00:20:22,399
+Leung Ping Kei: The second term of variance, right? 0.5AT minus 1R, you take the constant out.
+
+132
+00:20:22,940 --> 00:20:28,269
+Leung Ping Kei: square, okay? Therefore, 0.5 square, variance of AT minus 1.
+
+133
+00:20:29,910 --> 00:20:42,800
+Leung Ping Kei: Then, variance of AT, is sigma squared, plus 0.25 times, variance of AT minus 1 is 0.25 sigma squared. Therefore, it's…
+
+134
+00:20:54,520 --> 00:21:04,909
+Leung Ping Kei: And then, as an auto-covariance, okay? Covariance between set T and set T minus K. We can write it as an expectation of the cross product.
+
+135
+00:21:04,910 --> 00:21:14,720
+Leung Ping Kei: set T times set T minus K minus expectation of set T times expectation of ZT minus K. However, the mean is zero.
+
+136
+00:21:14,780 --> 00:21:23,439
+Leung Ping Kei: Therefore, this term is civil. Therefore, we have only expectation of Z minus K.
+
+137
+00:21:24,090 --> 00:21:30,599
+Leung Ping Kei: And then we, put, set T equal to 80 plus 0.5 AT minus 1.
+
+138
+00:21:31,120 --> 00:21:37,779
+Leung Ping Kei: And ZT minus K is AT minus K plus a 0.5 AT minus K minus 1.
+
+139
+00:21:38,440 --> 00:21:42,919
+Leung Ping Kei: And we multiplied them, outside, okay, together.
+
+140
+00:21:43,480 --> 00:21:46,879
+Leung Ping Kei: Then we have, okay, the first, and first here…
+
+141
+00:21:47,030 --> 00:21:50,630
+Leung Ping Kei: And then, this term times this term is here.
+
+142
+00:21:51,150 --> 00:21:59,190
+Leung Ping Kei: And then, this term times AT is here, and then, 0.5 times 0.5 is here.
+
+143
+00:22:10,480 --> 00:22:13,920
+Leung Ping Kei: Okay, now, if k equal to 0,
+
+144
+00:22:14,140 --> 00:22:18,729
+Leung Ping Kei: K equal to 0, okay? That means that this is AT squared.
+
+145
+00:22:18,900 --> 00:22:24,789
+Leung Ping Kei: AT squared. Then this is, AT minus 180… okay?
+
+146
+00:22:25,180 --> 00:22:28,450
+Leung Ping Kei: And, this one is AT and AT minus 1.
+
+147
+00:22:28,900 --> 00:22:30,530
+Leung Ping Kei: And this one is what?
+
+148
+00:22:32,890 --> 00:22:35,480
+Leung Ping Kei: K equal to 0 is AT minus 1.
+
+149
+00:22:36,100 --> 00:22:37,160
+Leung Ping Kei: Square.
+
+150
+00:22:37,430 --> 00:22:38,300
+Leung Ping Kei: Right?
+
+151
+00:22:39,480 --> 00:22:45,859
+Leung Ping Kei: Therefore, expectation of this AT squared is, what?
+
+152
+00:22:46,930 --> 00:22:48,470
+Leung Ping Kei: 1 sigma squared.
+
+153
+00:22:48,610 --> 00:22:50,179
+Leung Ping Kei: 1 sigma squared.
+
+154
+00:22:50,350 --> 00:22:51,180
+Leung Ping Kei: Right.
+
+155
+00:22:51,470 --> 00:23:03,660
+Leung Ping Kei: And then, 0.5 square, is 0.25. And then, expectation of, AT minus 1 square.
+
+156
+00:23:04,240 --> 00:23:12,150
+Leung Ping Kei: is sigma squared. Therefore, it's 1 plus 0.25 Sigma squared.
+
+157
+00:23:15,590 --> 00:23:16,800
+Leung Ping Kei: Can you get it?
+
+158
+00:23:31,680 --> 00:23:35,569
+Leung Ping Kei: Don't worry, don't worry, this is here, okay?
+
+159
+00:23:38,170 --> 00:23:43,999
+Leung Ping Kei: So, okay, if K equal to zero, this is expectation of set T squared, okay?
+
+160
+00:23:45,220 --> 00:23:49,750
+Leung Ping Kei: The N8 is equal to a variance of equal to 1.25 sigma squared.
+
+161
+00:23:50,100 --> 00:23:53,179
+Leung Ping Kei: Or else, okay, if I put,
+
+162
+00:23:53,290 --> 00:24:06,470
+Leung Ping Kei: K equal to 0, okay? K equal to zero, therefore it is, AT squared. And, K equal to 0 is AT minus 1, AT, okay? Then, they don't have any
+
+163
+00:24:07,740 --> 00:24:17,729
+Leung Ping Kei: covariance, okay? They are independent. And then, similarly, for this one, AT and AT minus K, minus 1, okay?
+
+164
+00:24:17,830 --> 00:24:32,370
+Leung Ping Kei: It's… when you take the expectation, this is 0, this is 0. However, when k equal to 1, okay, K equal to 0, okay, T minus 1, T minus 1, is AT minus 1 squared.
+
+165
+00:24:34,060 --> 00:24:39,679
+Leung Ping Kei: Therefore, these two terms, the middle two terms, are zero. Therefore, it is a sigma squared.
+
+166
+00:24:40,010 --> 00:24:42,550
+Leung Ping Kei: And 0.25 sigma squared.
+
+167
+00:24:43,310 --> 00:24:46,869
+Leung Ping Kei: Therefore, it is 1.25 sigma squared.
+
+168
+00:24:50,520 --> 00:24:51,550
+Leung Ping Kei: Alright.
+
+169
+00:24:52,070 --> 00:25:05,329
+Leung Ping Kei: And similarly, if K equal to 1, K equal to 1, that is, 80 minus 1, that is 0. AT minus, AT minus 1, AT minus 1, this is square, okay?
+
+170
+00:25:05,390 --> 00:25:14,160
+Leung Ping Kei: And then, 80 and 80 minus 2, okay? 0. And then this one, is what?
+
+171
+00:25:14,340 --> 00:25:23,739
+Leung Ping Kei: AT… minus 1 and A… T minus 2, therefore it is against 0. Therefore, leaving you the first time.
+
+172
+00:25:25,240 --> 00:25:26,170
+Leung Ping Kei: All right?
+
+173
+00:25:26,370 --> 00:25:27,460
+Leung Ping Kei: Just like this.
+
+174
+00:25:29,130 --> 00:25:45,350
+Leung Ping Kei: When k equal to 1, expectation of ZT, set T minus 1, which is equal to expectation of ATAT-1 plus 0.5 AT-1 squared, and plus 0.5 ATAT minus 2.
+
+175
+00:25:45,360 --> 00:26:00,280
+Leung Ping Kei: plus 0.258-18 minus 2. Therefore, all these terms are zero. The first term, the third term, and then the fourth term are zero, only leaving you this. Therefore.
+
+176
+00:26:00,890 --> 00:26:04,499
+Leung Ping Kei: When K equal to the 1, it is 0.5 sigma squared.
+
+177
+00:26:07,210 --> 00:26:08,150
+Leung Ping Kei: Okay?
+
+178
+00:26:13,480 --> 00:26:24,109
+Leung Ping Kei: And then furthermore, okay, autocorrelation, coefficient, autocorrelation. Okay, row 1, is still gamma 1, gamma 1 over gamma naught.
+
+179
+00:26:24,740 --> 00:26:30,180
+Leung Ping Kei: Okay? So, gamma 1, gamma 1 is 0.5 sigma squared.
+
+180
+00:26:30,570 --> 00:26:31,420
+Leung Ping Kei: Okay?
+
+181
+00:26:33,040 --> 00:26:35,029
+Leung Ping Kei: And Gamanona is this.
+
+182
+00:26:35,240 --> 00:26:42,390
+Leung Ping Kei: 1.25 sigma squared. Therefore, it's 0.5 over 1.25, it is 0.4.
+
+183
+00:27:01,400 --> 00:27:03,700
+Leung Ping Kei: It… is it… clear?
+
+184
+00:27:03,980 --> 00:27:04,940
+Leung Ping Kei: Okay.
+
+185
+00:27:06,630 --> 00:27:10,479
+Leung Ping Kei: So you, you, you know what they are doing.
+
+186
+00:27:11,190 --> 00:27:13,040
+Leung Ping Kei: Right?
+
+187
+00:27:13,660 --> 00:27:14,940
+Leung Ping Kei: Okay.
+
+188
+00:27:27,940 --> 00:27:35,799
+Leung Ping Kei: Now, the data set of, set T, is here, okay? 1 to 100, 100, okay?
+
+189
+00:27:37,180 --> 00:27:59,340
+Leung Ping Kei: So you can see, okay, they give you the number, of 1, that is the first one after. 1, 2, 3, 4, 5, 6, 7, 8, okay? 8, 9, 10, 11, 12, 13, 14, 15, okay? And so on, okay? This one is 99, and this one is,
+
+190
+00:27:59,340 --> 00:28:00,270
+Leung Ping Kei: 100.
+
+191
+00:28:01,850 --> 00:28:02,770
+Leung Ping Kei: Alright?
+
+192
+00:28:08,470 --> 00:28:13,909
+Leung Ping Kei: Then the part of this, okay, MA process, okay, this one, this one.
+
+193
+00:28:19,050 --> 00:28:28,080
+Leung Ping Kei: Is that, set T is 0.5, AT minus 1 plus 80. That is the one that we had before, okay?
+
+194
+00:28:31,670 --> 00:28:38,269
+Leung Ping Kei: Example 1, okay. AT plus 0.5 AT minus 1 is set T, okay?
+
+195
+00:28:38,550 --> 00:28:40,260
+Leung Ping Kei: So that you can see.
+
+196
+00:28:41,780 --> 00:28:42,970
+Leung Ping Kei: A.T.
+
+197
+00:28:43,210 --> 00:28:47,630
+Leung Ping Kei: plus 0.58T minus 1, ZT, okay?
+
+198
+00:28:48,270 --> 00:28:51,989
+Leung Ping Kei: And, it looked like that.
+
+199
+00:28:59,380 --> 00:29:00,589
+Leung Ping Kei: Is that okay?
+
+200
+00:29:04,280 --> 00:29:06,599
+Leung Ping Kei: So you can see, can you see?
+
+201
+00:29:06,960 --> 00:29:08,260
+Leung Ping Kei: How they look like?
+
+202
+00:29:09,970 --> 00:29:15,299
+Leung Ping Kei: It seems like, at this, It's one partner, and then another part.
+
+203
+00:29:15,610 --> 00:29:16,320
+Leung Ping Kei: Okay.
+
+204
+00:29:17,250 --> 00:29:20,239
+Leung Ping Kei: Since, this one, drops a lot.
+
+205
+00:29:21,720 --> 00:29:29,640
+Leung Ping Kei: And this one, is, well, after you drop, and it go up a little bit.
+
+206
+00:29:29,870 --> 00:29:34,109
+Leung Ping Kei: And then I go back to normal, okay? The same as this pattern.
+
+207
+00:29:36,490 --> 00:29:54,600
+Leung Ping Kei: This is just take a look at the, at the time Sirius spot, but, okay, don't worry, I won't ask you to, take a look at the figure and, ask you the question, okay? Everything, we have to use, calculation. Calculation, okay? Just,
+
+208
+00:29:54,600 --> 00:29:57,319
+Leung Ping Kei: Just take a look, just take a look now.
+
+209
+00:30:02,130 --> 00:30:17,010
+Leung Ping Kei: Okay? Example 2, huh? Okay, suppose yt is 05 plus 2t plus XT, where XT is a single mean stationary series with autocovariance function gamma K.
+
+210
+00:30:17,390 --> 00:30:30,019
+Leung Ping Kei: And part A, find the mean function, for YT. There is, expectation of 5 plus, 2T plus X, XT, okay? Therefore.
+
+211
+00:30:30,480 --> 00:30:38,960
+Leung Ping Kei: Expectation XT is a zero mean, okay? Therefore, it turned out to be a 5 plus 2T, okay?
+
+212
+00:30:39,270 --> 00:30:41,919
+Leung Ping Kei: Since XT has a zero mean.
+
+213
+00:30:44,640 --> 00:31:00,310
+Leung Ping Kei: And then part B, find the, auto-covariance function for YT, okay? There is, expectation of YT minus expectation of YT times YT minus k minus expectation of YT minus K.
+
+214
+00:31:01,190 --> 00:31:19,199
+Leung Ping Kei: Just like this, okay? YT is, 5 plus 2T plus XT minus, the mean, 5 minus 2T, okay? And then, YT minus k is 5 plus 2 times T minus K.
+
+215
+00:31:19,350 --> 00:31:22,719
+Leung Ping Kei: plus TXT minus K.
+
+216
+00:31:23,990 --> 00:31:33,420
+Leung Ping Kei: And then minus, okay, the expectation of why T minus k is minus 5 minus 2 times T minus K.
+
+217
+00:31:36,030 --> 00:31:43,270
+Leung Ping Kei: And after we do the simplification, okay, 5 and 5 cancel out, 2T, 2T cancel out, XT.
+
+218
+00:31:43,510 --> 00:31:54,650
+Leung Ping Kei: times, okay, in here, 5 and 5 and 2T, 2 times T minus K, and cancel with this, leaving you, XT minus K.
+
+219
+00:31:55,430 --> 00:31:58,600
+Leung Ping Kei: Therefore, it is equal to, gamma K.
+
+220
+00:31:59,550 --> 00:32:03,910
+Leung Ping Kei: Gamma K. The same autocovalence function as XT.
+
+221
+00:32:07,760 --> 00:32:13,050
+Leung Ping Kei: And now Passeh, They ask you a swipey stationery.
+
+222
+00:32:40,950 --> 00:32:46,270
+Leung Ping Kei: Okay, so we have YT equal to 5 plus 2T plus XT.
+
+223
+00:32:46,630 --> 00:32:52,690
+Leung Ping Kei: Where XC is C will mean a stationary series of the optical covariance function gamma K.
+
+224
+00:32:54,480 --> 00:33:01,410
+Leung Ping Kei: Then part A, expectation of Y is single expectation of this expression, 5 plus 2t plus XT.
+
+225
+00:33:01,950 --> 00:33:09,990
+Leung Ping Kei: When we take the expectation through, 5 and 2T are constant, and then pass expectation of XT.
+
+226
+00:33:10,330 --> 00:33:15,210
+Leung Ping Kei: However, expectation XT is 0, therefore we have 5 plus 2t.
+
+227
+00:33:15,460 --> 00:33:16,340
+Leung Ping Kei: Okay?
+
+228
+00:33:18,070 --> 00:33:21,860
+Leung Ping Kei: So it depends on T, huh? Okay, it depends on T, okay?
+
+229
+00:33:22,450 --> 00:33:25,769
+Leung Ping Kei: And then part B, okay. The,
+
+230
+00:33:27,200 --> 00:33:35,880
+Leung Ping Kei: autocoins between a YT and YT minus K, okay? And then, we have this, this is YT, and,
+
+231
+00:33:36,020 --> 00:33:52,290
+Leung Ping Kei: minus YT expectation of YT, okay? Therefore, these two cancel out, leaving you XT. And then the second part, okay, YT minus K is 5%, 2 times, T minus K minus…
+
+232
+00:34:01,330 --> 00:34:06,700
+Leung Ping Kei: there's some… something missing, huh? Okay, sorry about that.
+
+233
+00:34:06,810 --> 00:34:09,819
+Leung Ping Kei: The, the, the term XT minus K.
+
+234
+00:34:10,000 --> 00:34:12,630
+Leung Ping Kei: XT minus Kei is…
+
+235
+00:34:13,659 --> 00:34:22,750
+Leung Ping Kei: It's not here, okay? Sorry about that, huh? Okay, and then minus, okay? 5 minus 2 times, huh? T minus K.
+
+236
+00:34:23,190 --> 00:34:28,989
+Leung Ping Kei: Okay? They have only given you, XT and, XT minus K.
+
+237
+00:34:29,239 --> 00:34:30,120
+Leung Ping Kei: Okay?
+
+238
+00:34:30,370 --> 00:34:32,270
+Leung Ping Kei: Which is here to come on Kei.
+
+239
+00:34:35,690 --> 00:34:44,449
+Leung Ping Kei: Now, part C, is a YT stationary? No, because, we can see that, expectation of YT, depends on T.
+
+240
+00:34:45,920 --> 00:34:46,810
+Leung Ping Kei: Okay?
+
+241
+00:34:48,760 --> 00:34:54,400
+Leung Ping Kei: Therefore, YT is not stationary. Oh, I have to correct it.
+
+242
+00:34:54,900 --> 00:35:01,900
+Leung Ping Kei: I, I, I missed, I miss out the term, XT minus K, XT minus K.
+
+243
+00:35:06,610 --> 00:35:07,640
+Leung Ping Kei: Alright?
+
+244
+00:35:07,900 --> 00:35:09,380
+Leung Ping Kei: Oh, okay.
+
+245
+00:35:25,860 --> 00:35:34,670
+Leung Ping Kei: Then example 3, okay? Consider the time series. I said t equal to A times sine of omega t plus theta.
+
+246
+00:35:35,080 --> 00:35:45,120
+Leung Ping Kei: Where A is a random variable with zero mean and unit variance, okay? That means, expected A is 0, variance of A is 1.
+
+247
+00:35:45,440 --> 00:35:59,299
+Leung Ping Kei: And data is a random variable with a uniform distribution on the interval, minus pi to pi, okay? So the PDF of data is 1 over 2 pi.
+
+248
+00:35:59,420 --> 00:36:00,300
+Leung Ping Kei: Okay.
+
+249
+00:36:00,580 --> 00:36:04,890
+Leung Ping Kei: Again, independent of data. Independent of A.
+
+250
+00:36:06,190 --> 00:36:11,880
+Leung Ping Kei: Okay? That means that A and theta are two independent variables.
+
+251
+00:36:13,170 --> 00:36:22,170
+Leung Ping Kei: Then, expectation of set t is equal to expectation of A times expectation of a sine of omega t plus theta.
+
+252
+00:36:22,990 --> 00:36:27,799
+Leung Ping Kei: Which is 0, but because I expected A is 0, okay?
+
+253
+00:36:31,210 --> 00:36:38,949
+Leung Ping Kei: And then, as a cross product, expectation of ZT, ZT plus K, is that, okay, since,
+
+254
+00:36:40,340 --> 00:36:53,040
+Leung Ping Kei: set T, okay? And ZT plus K is A times sine of omega times t plus k plus theta, okay? Just like this.
+
+255
+00:36:58,450 --> 00:37:09,859
+Leung Ping Kei: Therefore, A squared, A squared, sine of, omega t plus theta times, sine of, omega times t plus k plus theta.
+
+256
+00:37:11,740 --> 00:37:21,969
+Leung Ping Kei: And since, A and theta are, independent, therefore it is expectation of A squared times expectation of this, okay.
+
+257
+00:37:22,650 --> 00:37:36,219
+Leung Ping Kei: sine of, omega t plus theta times, sine of, omega times t plus k plus theta, okay? This you have to use,
+
+258
+00:37:37,800 --> 00:37:42,819
+Leung Ping Kei: Geomet, trigonometry, trigonometry, okay? To find,
+
+259
+00:37:43,090 --> 00:37:55,259
+Leung Ping Kei: This is equal to 1 half of cosine omega k minus cosine of, okay, omega times 2T plus k plus 2 theta.
+
+260
+00:37:58,140 --> 00:38:03,089
+Leung Ping Kei: Okay? And since, expectation that A squared is 1,
+
+261
+00:38:03,540 --> 00:38:08,869
+Leung Ping Kei: Variance, variance is one. Therefore, it is just expectation of this expression.
+
+262
+00:38:09,630 --> 00:38:20,659
+Leung Ping Kei: Okay? This is, again, a constant, okay? And then, minus 1 half, minus 1 half times, this expectation of this.
+
+263
+00:38:21,340 --> 00:38:29,810
+Leung Ping Kei: And, since, omega, sorry, data, data as a PDF is 1 over 2 pi.
+
+264
+00:38:29,830 --> 00:38:48,740
+Leung Ping Kei: And then after that, okay, we have, we find, this is, 1 half cosine of, omega K. Omega k is not W, okay, omega K, okay? Thus, a set T is stationary. However, okay, I, I, I, I show, show you the work, okay?
+
+265
+00:39:17,500 --> 00:39:22,940
+Leung Ping Kei: Okay, you are given that a set t is a times assigned omega t plus theta.
+
+266
+00:39:23,070 --> 00:39:27,650
+Leung Ping Kei: Where A is available with a mean civil, where VIN's 1.
+
+267
+00:39:27,910 --> 00:39:36,899
+Leung Ping Kei: Data is another independent vendor memorable, to A. And then, data distribute, uniform, minus pi to pi.
+
+268
+00:39:37,250 --> 00:39:38,140
+Leung Ping Kei: Okay?
+
+269
+00:39:40,130 --> 00:39:49,370
+Leung Ping Kei: And expectation of ZT is equal to the expectation of this expression, A times the sine of omega t plus theta.
+
+270
+00:39:50,230 --> 00:39:57,010
+Leung Ping Kei: So, expectation of A times expectation of sine of omega t plus theta.
+
+271
+00:39:58,170 --> 00:40:03,119
+Leung Ping Kei: Since, expectation A is 0, therefore zero time anything is 0.
+
+272
+00:40:06,570 --> 00:40:09,329
+Leung Ping Kei: And then, okay, notice that, okay.
+
+273
+00:40:14,060 --> 00:40:16,460
+Leung Ping Kei: The expectation of this, okay?
+
+274
+00:40:18,220 --> 00:40:32,779
+Leung Ping Kei: Expectation of sine of omega t plus theta. Is that, okay? Expectation of sine of omega t c cosine theta plus cosine omega t sine theta. This is, the what?
+
+275
+00:40:33,300 --> 00:40:34,960
+Leung Ping Kei: Signed A plus B.
+
+276
+00:40:35,420 --> 00:40:36,440
+Leung Ping Kei: Sign?
+
+277
+00:40:36,670 --> 00:40:42,789
+Leung Ping Kei: A plus B is equal to sine A cosine B plus cosine A sine B.
+
+278
+00:40:49,200 --> 00:40:50,429
+Leung Ping Kei: Is that okay?
+
+279
+00:40:53,470 --> 00:40:55,480
+Leung Ping Kei: And then, okay.
+
+280
+00:40:55,760 --> 00:41:08,730
+Leung Ping Kei: Since, omega t, is constant, is theta, random variable. Therefore, expectation of this expression is a sine of omega t times expectation of cosine theta.
+
+281
+00:41:09,130 --> 00:41:14,420
+Leung Ping Kei: plus cosine of omega t times expectation of sine theta.
+
+282
+00:41:15,450 --> 00:41:26,109
+Leung Ping Kei: And then, sine omega t times, okay, the expectation of this is integrate, cosine data, okay, from minus pi to pi, with…
+
+283
+00:41:26,150 --> 00:41:37,590
+Leung Ping Kei: PDF, 1 over 2 pi, okay? And then plus, cosine omega t, integrate, sine data, okay? We'll spread the data, from minus pi to pi.
+
+284
+00:41:41,150 --> 00:41:42,330
+Leung Ping Kei: Devo,
+
+285
+00:41:44,070 --> 00:41:57,959
+Leung Ping Kei: sine pi is 0, sine minus pi is 0. Therefore, the first term is 0. And also, cosine data, cosine data, cosine pi, and cosine minus pi is, again, zero.
+
+286
+00:41:58,190 --> 00:42:00,490
+Leung Ping Kei: Minus, huh? Because of minus.
+
+287
+00:42:01,200 --> 00:42:03,609
+Leung Ping Kei: Therefore, the whole term is civil.
+
+288
+00:42:08,320 --> 00:42:09,460
+Leung Ping Kei: Is that okay?
+
+289
+00:42:12,970 --> 00:42:32,250
+Leung Ping Kei: And now, okay, expectation of the cross product, okay? So, expectation of ZT plus K, is expectation of A times, sine of omega t plus theta, A times sine of, omega times, T plus K plus theta.
+
+290
+00:42:32,830 --> 00:42:44,040
+Leung Ping Kei: Then, A squared, okay, expectation A squared, sine of omega t plus theta, sine of, omega times t plus k plus theta.
+
+291
+00:42:47,990 --> 00:42:59,429
+Leung Ping Kei: So, consider that, okay, cosine, B minus A is, cosine B cosine A plus sine B sine A.
+
+292
+00:43:00,560 --> 00:43:07,669
+Leung Ping Kei: And then, cosine A plus B, is cosine A cosine B minus sine A sine B.
+
+293
+00:43:08,360 --> 00:43:18,290
+Leung Ping Kei: Now I take the difference between these two, okay? Therefore, a cosine of B minus A minus a cosine of A plus B.
+
+294
+00:43:18,490 --> 00:43:24,429
+Leung Ping Kei: Okay? Therefore, these two terms, okay, these two terms cancel out.
+
+295
+00:43:24,760 --> 00:43:28,870
+Leung Ping Kei: I'm beat, okay?
+
+296
+00:43:29,070 --> 00:43:35,320
+Leung Ping Kei: Then, since this is, This expression, minus a negative.
+
+297
+00:43:35,810 --> 00:43:41,069
+Leung Ping Kei: Therefore, it is positive, huh? Therefore, it's 2 times sine A, sine B.
+
+298
+00:43:48,380 --> 00:43:49,380
+Leung Ping Kei: Alright?
+
+299
+00:43:49,530 --> 00:43:56,299
+Leung Ping Kei: Therefore, Sine A sine P is equal to 1 half of cosine P minus A.
+
+300
+00:43:56,530 --> 00:43:58,900
+Leung Ping Kei: minus a cosine A plus B.
+
+301
+00:44:04,120 --> 00:44:05,240
+Leung Ping Kei: Alright?
+
+302
+00:44:05,660 --> 00:44:10,860
+Leung Ping Kei: Now, okay, A is equal to omega t plus theta.
+
+303
+00:44:11,260 --> 00:44:15,829
+Leung Ping Kei: B is equal to omega times t plus k plus theta.
+
+304
+00:44:16,840 --> 00:44:28,119
+Leung Ping Kei: Alright? Therefore, B minus A, B minus A, turn out to be, okay? Omega T cancels out, theta cancels out, leaving you omega K.
+
+305
+00:44:29,680 --> 00:44:38,580
+Leung Ping Kei: Alright? B minus A is omega K. And then A plus B, okay, is equal to, okay, 2,
+
+306
+00:44:39,110 --> 00:44:42,309
+Leung Ping Kei: Omega times 2T plus K.
+
+307
+00:44:42,460 --> 00:44:44,370
+Leung Ping Kei: plus 2 data.
+
+308
+00:44:51,870 --> 00:45:03,570
+Leung Ping Kei: Therefore, sine of omega t plus theta, times, sine of, omega times t plus k plus theta is equal to 1 half of
+
+309
+00:45:03,950 --> 00:45:11,140
+Leung Ping Kei: Cosine omega k minus cosine of omega times 2T plus k plus 2 theta.
+
+310
+00:45:21,540 --> 00:45:33,019
+Leung Ping Kei: Now, expectation of the cross product, set T, set T plus K, is equal to expectation of A squared times, okay, expectation of 1 half of…
+
+311
+00:45:33,120 --> 00:45:41,839
+Leung Ping Kei: Cosine omega k minus cosine of bracket, omega times 2T plus k plus 2 data.
+
+312
+00:45:43,730 --> 00:45:46,869
+Leung Ping Kei: Since, expectation of A squared is 1.
+
+313
+00:45:47,150 --> 00:46:00,269
+Leung Ping Kei: Okay? Therefore, it is, 1 times, okay, the first term is 1 half, cosine omega k constant, and then, the second term here is, okay, minus
+
+314
+00:46:00,750 --> 00:46:10,919
+Leung Ping Kei: 1 half, minus 1 half expectation of, okay, cosine of… Omega times 2T plus K.
+
+315
+00:46:12,860 --> 00:46:15,449
+Leung Ping Kei: And then, cosine 2 theta.
+
+316
+00:46:16,070 --> 00:46:24,769
+Leung Ping Kei: Minus, okay, sine of omega 2T plus K sine 2 theta. This is the expansion of, okay?
+
+317
+00:46:24,960 --> 00:46:29,799
+Leung Ping Kei: Cosine, A plus B. A plus B,
+
+318
+00:46:33,800 --> 00:46:43,169
+Leung Ping Kei: Cosine A plus B is cosine A cosine B minus sine A sine B, okay? Cosine A, cosine B, okay? Minus sine A sine B.
+
+319
+00:46:48,390 --> 00:47:01,979
+Leung Ping Kei: Therefore, the first term, is, cosine omega k divided by 2, minus 1 half, okay? This, is a constant, okay? Cosine, omega 2T plus K.
+
+320
+00:47:02,220 --> 00:47:05,300
+Leung Ping Kei: Times, expectation of cosine 2 data.
+
+321
+00:47:05,820 --> 00:47:13,779
+Leung Ping Kei: Minus, sine of, omega 2T plus k times expectation of sine 2 theta.
+
+322
+00:47:14,070 --> 00:47:18,319
+Leung Ping Kei: Since our data are… When they're available.
+
+323
+00:47:18,940 --> 00:47:28,180
+Leung Ping Kei: Therefore, the first term, cosine omega k over 2 minus 1.5 times, okay, Square bracket, huh?
+
+324
+00:47:28,580 --> 00:47:44,139
+Leung Ping Kei: Cosine of, omega 2T plus K. And then, expectation of, cosine 2 theta is, integral. Cosine 2 theta, times a PDF 1 over 2 pi, for minus pi, 2 pi.
+
+325
+00:48:17,650 --> 00:48:33,669
+Leung Ping Kei: Then we have, another integral, minus sine of omega times 2T plus k. And then, expectation of sine 2 data is an integral from minus pi to pi, sine 2 pi, times 1 over 2 pi d theta.
+
+326
+00:48:36,290 --> 00:48:55,679
+Leung Ping Kei: Okay, then, okay, the first term, the same thing, cosine omega k over 2 minus, okay, 1 half, okay, since, the PDF of 1 over 2 pi, I can take it out, okay? Therefore, it's 1 half times 1 over 2 pi times, okay, square bracket,
+
+327
+00:48:55,750 --> 00:49:04,290
+Leung Ping Kei: Cosine of omega times 2T plus k times, okay, integrator, cosine 2 data is sine 2 data over 2.
+
+328
+00:49:04,860 --> 00:49:07,310
+Leung Ping Kei: Evaluate from minus pi to pi.
+
+329
+00:49:09,270 --> 00:49:14,450
+Leung Ping Kei: And then, minus a sine of omega, 2T plus K.
+
+330
+00:49:14,560 --> 00:49:20,680
+Leung Ping Kei: Times the integral of sine 2 data is negative cosine 2 data over 2.
+
+331
+00:49:21,050 --> 00:49:23,280
+Leung Ping Kei: You ready for minus pi to pi.
+
+332
+00:49:26,640 --> 00:49:44,119
+Leung Ping Kei: Therefore, okay, after you do the evaluation, okay, this is 0, okay? Sine 2 pi, sine 2 pi minus sine 2 pi is 0, okay? And then, minus, this is, cosine 2 pi,
+
+333
+00:49:46,220 --> 00:49:51,140
+Leung Ping Kei: Cosine 2 pi is 1 minus 1, therefore it's 0 again.
+
+334
+00:49:53,850 --> 00:49:57,619
+Leung Ping Kei: Therefore, the square bracket is turned out to be zero.
+
+335
+00:49:57,990 --> 00:49:59,380
+Leung Ping Kei: Leaving you,
+
+336
+00:49:59,860 --> 00:50:07,460
+Leung Ping Kei: Cosine omega k over 2 minus 0. Therefore, it is equal to 1 half of cosine omega k.
+
+337
+00:50:08,550 --> 00:50:16,730
+Leung Ping Kei: Since the mean and covariance of ZT do not depend on T, hence, Z is… Stationary.
+
+338
+00:51:26,030 --> 00:51:38,300
+Leung Ping Kei: How about we take a break now? Because my voice is not so good. Okay, this time, how about 15 minutes? 15, okay?
+
+339
+00:51:39,050 --> 00:51:41,450
+Leung Ping Kei: I, I, I have to take some rest.
+
+340
+01:10:06,370 --> 01:10:08,879
+Leung Ping Kei: Okay, let's start again, huh? Okay.
+
+341
+01:10:09,090 --> 01:10:14,869
+Leung Ping Kei: So, section 2.2.2, okay, sample autocorrelation.
+
+342
+01:10:15,130 --> 01:10:24,060
+Leung Ping Kei: But for a series, XT, T going from 1 to N are defined as CK covariance, autocovariance, okay?
+
+343
+01:10:24,790 --> 01:10:32,559
+Leung Ping Kei: which is equal to, the sum. XT, XT minus kt is going from k plus 1 to N.
+
+344
+01:10:32,880 --> 01:10:37,330
+Leung Ping Kei: minus N minus k times, X bar squared.
+
+345
+01:10:38,970 --> 01:10:42,549
+Leung Ping Kei: So K is going from 0, 1, 2, blah blah blah, and so on.
+
+346
+01:10:43,200 --> 01:10:50,060
+Leung Ping Kei: Then, the, sample, okay, okay, sample autocorrelation coefficient.
+
+347
+01:10:50,500 --> 01:10:51,430
+Leung Ping Kei: Okay.
+
+348
+01:10:51,740 --> 01:10:55,849
+Leung Ping Kei: is a CK over C… not C0.
+
+349
+01:10:57,340 --> 01:11:07,929
+Leung Ping Kei: There is, the, covariance, auto covariance divided by the square root of, variance of, T variance of T minus K, okay?
+
+350
+01:11:09,320 --> 01:11:15,410
+Leung Ping Kei: So, RK is the KF sample autocorrelation coefficient of XT.
+
+351
+01:11:15,560 --> 01:11:16,530
+Leung Ping Kei: Okay?
+
+352
+01:11:16,890 --> 01:11:22,530
+Leung Ping Kei: And then a plot of our K versus K is called a corvalogram.
+
+353
+01:11:22,760 --> 01:11:25,050
+Leung Ping Kei: covalentagram of XT.
+
+354
+01:11:26,710 --> 01:11:29,760
+Leung Ping Kei: You can see a picture later, okay?
+
+355
+01:11:31,360 --> 01:11:44,520
+Leung Ping Kei: And then, note that, okay, limit, plus or minus 2 over square root n are conventionally, used to assess, significantly, non-zero arcade.
+
+356
+01:11:45,300 --> 01:11:48,729
+Leung Ping Kei: Actually, at this limit, just like,
+
+357
+01:11:49,110 --> 01:11:58,229
+Leung Ping Kei: Confidence interval, confidence interval, okay? Limits, plus or minus 2 times, 1 over square root n.
+
+358
+01:12:04,070 --> 01:12:19,310
+Leung Ping Kei: And then point number two, sowing, solving, decaying, RK, especially, with R1, approximately equal to 1, is indicative of, non-stationality in XT,
+
+359
+01:12:20,290 --> 01:12:21,230
+Leung Ping Kei: Okay?
+
+360
+01:12:21,890 --> 01:12:27,300
+Leung Ping Kei: Non, non-stationary, okay? We need to eliminate trend.
+
+361
+01:12:28,990 --> 01:12:30,789
+Leung Ping Kei: And then part 3, huh?
+
+362
+01:12:31,160 --> 01:12:39,290
+Leung Ping Kei: Certain peaks in our case suggest seasonal effects, okay? Certain peaks, that means,
+
+363
+01:12:39,530 --> 01:12:43,199
+Leung Ping Kei: Certainly, it's either go up or go down, okay?
+
+364
+01:12:44,310 --> 01:12:50,660
+Leung Ping Kei: Suggest that, the seasonal effects, again, eliminate, whenever possible.
+
+365
+01:12:51,490 --> 01:13:02,440
+Leung Ping Kei: And then point number 4, the removal of, trend or seasonal effect can induce autocorrelation pattern, in the residual series.
+
+366
+01:13:04,760 --> 01:13:14,579
+Leung Ping Kei: That means that if you remove, the, the, the trend or season, just like, 0.3, then you will increase, induce,
+
+367
+01:13:14,720 --> 01:13:18,710
+Leung Ping Kei: Autogorism pattern, in the residuals.
+
+368
+01:13:19,040 --> 01:13:20,660
+Leung Ping Kei: Okay? The eras.
+
+369
+01:13:21,710 --> 01:13:36,040
+Leung Ping Kei: And then point number 5, let x be a time series, then the auto-covariance function of XT is defined as covariance between XT and Xt minus k is equal to…
+
+370
+01:13:36,210 --> 01:13:45,179
+Leung Ping Kei: Expectation of XT minus expectator XT times XT minus k minus expectator XT minus K.
+
+371
+01:13:46,740 --> 01:13:58,980
+Leung Ping Kei: Then, the autocorrelation function of XC is defined as, okay, correlation, okay, CO, CORR, that is RK, if we say that,
+
+372
+01:13:59,490 --> 01:14:11,849
+Leung Ping Kei: XT, XT minus k is equal to covariance between XT, XT minus k, divided by square root of, variance of XT, variance of XT minus K.
+
+373
+01:14:23,940 --> 01:14:40,709
+Leung Ping Kei: Then, example 4, okay, you, you can see here, okay, MA, MA1, okay, MA, that is, moving average, moving average one, process of, example one, that is, go back to our,
+
+374
+01:14:40,880 --> 01:14:43,050
+Leung Ping Kei: Page 2, okay?
+
+375
+01:14:43,480 --> 01:14:46,479
+Leung Ping Kei: Page 2, you, you can see, the…
+
+376
+01:14:48,500 --> 01:14:55,420
+Leung Ping Kei: MBA process, okay? Then, it's sample autocorrelation is shown below, okay? It's here.
+
+377
+01:14:56,720 --> 01:14:59,919
+Leung Ping Kei: So you can see that, this is, 1.
+
+378
+01:15:00,310 --> 01:15:01,990
+Leung Ping Kei: And this is lap 1.
+
+379
+01:15:02,130 --> 01:15:03,980
+Leung Ping Kei: Let one, okay?
+
+380
+01:15:04,490 --> 01:15:11,529
+Leung Ping Kei: Notice that, the theoretical lag 1 autocorrelation coefficient is 0.4, 0.4.
+
+381
+01:15:13,510 --> 01:15:21,940
+Leung Ping Kei: While the sample autocorrelation coefficient is slightly larger than 0.4 as shown in the plot, Okay.
+
+382
+01:16:16,900 --> 01:16:24,989
+Leung Ping Kei: So this is a repeated, okay, okay, sample autocorrelation, just like that. CK is equal to this, okay?
+
+383
+01:16:27,020 --> 01:16:40,459
+Leung Ping Kei: And then, okay. Rk is the, KF sample autocorrelation coefficient of XT. And then a product RK versus K is called a corollogram of XK, XT.
+
+384
+01:16:40,580 --> 01:16:41,450
+Leung Ping Kei: Okay?
+
+385
+01:16:41,740 --> 01:16:49,560
+Leung Ping Kei: And CKI is the sample autocovariance, and C0 is the sample variance of XC.
+
+386
+01:16:55,080 --> 01:17:03,939
+Leung Ping Kei: and the limits, okay, plus or minus, 2 times, 1 over square root n, okay? Since, our,
+
+387
+01:17:04,140 --> 01:17:07,289
+Leung Ping Kei: Usually, the sample size of the…
+
+388
+01:17:07,620 --> 01:17:10,460
+Leung Ping Kei: TIME series, N, is large.
+
+389
+01:17:10,930 --> 01:17:18,109
+Leung Ping Kei: Therefore, usually, we just take, 1 over square root n as the standard deviation.
+
+390
+01:17:18,270 --> 01:17:26,249
+Leung Ping Kei: And then times 2. Just like, just like we, we, we take, 95.44% confidence.
+
+391
+01:17:27,370 --> 01:17:28,540
+Leung Ping Kei: Is that okay?
+
+392
+01:17:31,660 --> 01:17:44,010
+Leung Ping Kei: Otherwise, let's say if we use a 95% confidence interval, okay, it will be 1.96. However, if we use 2, it will be easier
+
+393
+01:17:44,240 --> 01:17:46,880
+Leung Ping Kei: Easier for you to calculate, okay?
+
+394
+01:17:47,740 --> 01:17:53,560
+Leung Ping Kei: Therefore, plus or minus 2 times, 1 over squared n. There is a plus or minus.
+
+395
+01:17:53,920 --> 01:17:59,049
+Leung Ping Kei: 2 sigma, okay? Similar to a confidence interval, okay?
+
+396
+01:17:59,240 --> 01:18:02,019
+Leung Ping Kei: That is a 95.44%.
+
+397
+01:18:02,880 --> 01:18:05,810
+Leung Ping Kei: with a 2, okay, Z equal to 2.
+
+398
+01:18:07,810 --> 01:18:13,419
+Leung Ping Kei: are commensurally used to assess a significantly non-civil RK. Okay.
+
+399
+01:18:18,220 --> 01:18:31,439
+Leung Ping Kei: And then, slowing, decaying alka, especially with, LK approximately equal to 1, is indicative of non-seasonality in XT.
+
+400
+01:18:32,020 --> 01:18:35,719
+Leung Ping Kei: And may lead to an eliminated trend, okay?
+
+401
+01:18:36,230 --> 01:18:40,679
+Leung Ping Kei: That means, to seek some difference, a difference, okay?
+
+402
+01:18:44,060 --> 01:18:54,340
+Leung Ping Kei: So, point number 3, okay, certain peaks in our case suggest, seasonal effect, okay? Again, eliminate, whenever possible,
+
+403
+01:18:54,660 --> 01:18:56,529
+Leung Ping Kei: Take the difference, okay?
+
+404
+01:18:57,270 --> 01:19:06,790
+Leung Ping Kei: And then point four, removal of trend or seasonal effect can induce autocorrelation patterns in the residual series.
+
+405
+01:19:08,270 --> 01:19:13,120
+Leung Ping Kei: That means that you… sometimes you take care of, removing the thing.
+
+406
+01:19:13,400 --> 01:19:14,200
+Leung Ping Kei: Okay.
+
+407
+01:19:14,890 --> 01:19:24,500
+Leung Ping Kei: And part number 5, the auto-covariance function of, XT, is, okay, covariance between XT, XT minus K is…
+
+408
+01:19:25,010 --> 01:19:33,299
+Leung Ping Kei: Expectation of XT minus expectation of XC time. XT minus K minus expectation of XT minus K.
+
+409
+01:19:33,800 --> 01:19:38,840
+Leung Ping Kei: So the autocorvaluation function, ACF, of XT,
+
+410
+01:19:39,630 --> 01:19:47,700
+Leung Ping Kei: Is, okay. Correlation, XT, XT minus K is the covariance between XT, XT minus K.
+
+411
+01:19:47,860 --> 01:19:53,789
+Leung Ping Kei: Do you want it The square root of variance of XC and XT minus K.
+
+412
+01:19:56,600 --> 01:19:57,570
+Leung Ping Kei: All right.
+
+413
+01:20:03,060 --> 01:20:12,850
+Leung Ping Kei: So, in example 4, we considered example 1 on page 1, okay? Set T is 80 plus 0.5 AT minus 1.
+
+414
+01:20:13,150 --> 01:20:18,229
+Leung Ping Kei: So this is an MA1 process of lead 1, okay?
+
+415
+01:20:19,430 --> 01:20:29,039
+Leung Ping Kei: The theoretical autocorrelation coefficient of that 1 is that, okay, rho 1 is gamma 1 over gamma naught, okay?
+
+416
+01:20:29,190 --> 01:20:37,930
+Leung Ping Kei: 0.5 sigma squared divided by 1.25 sigma squared, and it turned out to be 0.4.
+
+417
+01:20:40,500 --> 01:20:44,769
+Leung Ping Kei: Just like, just like the one that we had before, okay,
+
+418
+01:20:50,700 --> 01:20:52,100
+Leung Ping Kei: 0.4.
+
+419
+01:20:52,810 --> 01:20:53,590
+Leung Ping Kei: Okay.
+
+420
+01:21:04,910 --> 01:21:23,629
+Leung Ping Kei: Then, section 2.3, general linear process, okay? A general linear process, a GLP, a GLP. YT is one that can be represented by a linear combination of present and past white noise terms.
+
+421
+01:21:24,450 --> 01:21:38,079
+Leung Ping Kei: Namely, YT is equal to, psi zero et plus psi 1ET minus 1 plus blah blah blah, and so on. This is equal to the sum of, psi…
+
+422
+01:21:38,430 --> 01:21:40,029
+Leung Ping Kei: Jay, okay?
+
+423
+01:21:41,450 --> 01:21:47,309
+Leung Ping Kei: Psi I, psi I, ET minus i, I going from 0 to infinity.
+
+424
+01:21:51,940 --> 01:21:58,440
+Leung Ping Kei: Okay? Without loss of generality, size 0 is usually said to be 1. This one is 1.
+
+425
+01:21:59,720 --> 01:22:00,590
+Leung Ping Kei: Okay?
+
+426
+01:22:00,920 --> 01:22:18,019
+Leung Ping Kei: For the right-hand side of the series to be convergent, we need condition on the psi I's terms, okay? So, for our purpose, we impose the condition. Sum of psi I squared must be less than infinity.
+
+427
+01:22:20,740 --> 01:22:23,970
+Leung Ping Kei: That means that it is finite, finite.
+
+428
+01:22:24,140 --> 01:22:25,100
+Leung Ping Kei: finite.
+
+429
+01:22:30,440 --> 01:22:43,849
+Leung Ping Kei: So, theorem is telling you that, a general linear processor with condition, okay, sum of psi I squared, okay, i from 1 up to infinity, is finite, is stationary.
+
+430
+01:22:44,110 --> 01:22:45,070
+Leung Ping Kei: Okay?
+
+431
+01:22:45,360 --> 01:22:51,449
+Leung Ping Kei: The proof, is that, okay, by direct calculation, expectation of YT equal to zero.
+
+432
+01:22:51,730 --> 01:23:06,510
+Leung Ping Kei: And variance of yt is, expectation of YT squared, which is equal to sigma E squared, sum of psi i squared, i from zero to infinity, finite, is free of t.
+
+433
+01:23:08,310 --> 01:23:20,280
+Leung Ping Kei: And then finally, okay, covariance between XT, XT plus Kh is equal to that, since the mean is zero. Therefore, expectation of XTXT plus K is equal to this
+
+434
+01:23:21,940 --> 01:23:27,689
+Leung Ping Kei: the expectation of, sum of, psi IET minus i.
+
+435
+01:23:28,180 --> 01:23:33,339
+Leung Ping Kei: times some of, cite, ET per se, man, estate.
+
+436
+01:23:34,100 --> 01:23:46,479
+Leung Ping Kei: Such that, if the subscript are the same, then, we multiply them together. If the subscript are not the same, they do not have any, correlation.
+
+437
+01:23:46,670 --> 01:23:47,570
+Leung Ping Kei: Okay?
+
+438
+01:23:47,900 --> 01:23:55,229
+Leung Ping Kei: Therefore, it turned out to be sum of, psi j, psi I times, psi i plus K.
+
+439
+01:23:55,520 --> 01:24:00,360
+Leung Ping Kei: Okay? I from 0 to infinity time, sigma E squared.
+
+440
+01:24:00,500 --> 01:24:02,940
+Leung Ping Kei: Which does not depend on T.
+
+441
+01:24:03,140 --> 01:24:06,370
+Leung Ping Kei: Okay, however, we can take a look… Okay, don't worry.
+
+442
+01:24:16,390 --> 01:24:19,089
+Leung Ping Kei: Okay, the process is like that, huh? Okay.
+
+443
+01:24:19,570 --> 01:24:30,840
+Leung Ping Kei: YT equal to psi naught ET plus psi 1ET minus 1 plus psi2ET minus 2. You can see as the sum of the subscript.
+
+444
+01:24:31,290 --> 01:24:33,010
+Leung Ping Kei: must be equal to T.
+
+445
+01:24:33,550 --> 01:24:36,309
+Leung Ping Kei: Sum of the subscript must be equal to t.
+
+446
+01:24:38,660 --> 01:24:46,909
+Leung Ping Kei: Or else YT is equal to the sum of psi i times, E, T minus i.
+
+447
+01:24:47,170 --> 01:24:49,530
+Leung Ping Kei: I going from zero to infinity.
+
+448
+01:24:52,440 --> 01:24:59,470
+Leung Ping Kei: And then, without loss of, generality, psi 0, is usually said to be 1.
+
+449
+01:25:00,000 --> 01:25:18,080
+Leung Ping Kei: For the right-hand side of the series to be convergent, we need the condition on the psi i terms. For our purpose, we need to impose that the condition, sum of psi I squared, i going from 1 to infinity, is finite, less than infinity.
+
+450
+01:25:18,680 --> 01:25:22,599
+Leung Ping Kei: There is a sum of psi I squared is finite, okay?
+
+451
+01:25:30,730 --> 01:25:40,300
+Leung Ping Kei: And the theorem is telling you that, a general linear process, with condition, sum of psi i squared, is finite, is stationary.
+
+452
+01:25:40,480 --> 01:25:41,400
+Leung Ping Kei: Okay.
+
+453
+01:25:42,410 --> 01:25:46,500
+Leung Ping Kei: So the proof, is that, expectation of YT, okay?
+
+454
+01:25:46,670 --> 01:25:55,119
+Leung Ping Kei: is equal to expectation of sum of psi i gt minus i, i from 0 to infinity.
+
+455
+01:25:55,550 --> 01:26:05,719
+Leung Ping Kei: So expectation of sum is sum of expectation. Therefore, it's sum I from 0 to infinity, psi i times expectation of ET minus i.
+
+456
+01:26:06,120 --> 01:26:15,540
+Leung Ping Kei: However, expectation of ET minus i is zero. Therefore, the sum is zero. Therefore, expectation of YT is 0.
+
+457
+01:26:16,750 --> 01:26:26,109
+Leung Ping Kei: And then the variance, variance of YT is, variance of a psi i, ET minus i from 0 to infinity.
+
+458
+01:26:26,870 --> 01:26:34,940
+Leung Ping Kei: So, variance of SUN is sum of variances, because I ordered E… E. Isa, independent, okay?
+
+459
+01:26:35,120 --> 01:26:43,180
+Leung Ping Kei: Therefore, sum of, psi I squared, i from 0 to infinity, times a variance of, ET minus i.
+
+460
+01:26:44,890 --> 01:26:48,269
+Leung Ping Kei: And variance of ET minus i is sigma E squared.
+
+461
+01:26:48,760 --> 01:26:55,749
+Leung Ping Kei: Therefore, it is sum, okay, psi i squared times sigma G squared, i going from 0 to infinity.
+
+462
+01:26:56,180 --> 01:27:09,819
+Leung Ping Kei: Therefore, the common term, is sigma E squared. I take it out, time sum of psi I squared, i from 0 to infinity. It's finite, okay? And it is free of t.
+
+463
+01:27:14,300 --> 01:27:19,479
+Leung Ping Kei: And then, okay, we need to find, the autocovariance, okay?
+
+464
+01:27:20,260 --> 01:27:33,330
+Leung Ping Kei: Covariance between YT, YT plus K, okay? I can write it as expectation of YT, YT plus K minus expectation of YT times expectation of YT plus K.
+
+465
+01:27:34,200 --> 01:27:39,529
+Leung Ping Kei: Since the mean is zero, therefore the, last term, gone out.
+
+466
+01:27:40,700 --> 01:27:52,360
+Leung Ping Kei: So, expectation of YT, YT plus K is that, expectation of sum of, psi i et minus ii from 0 to infinity times
+
+467
+01:27:52,560 --> 01:27:54,359
+Leung Ping Kei: Some of us, I take.
+
+468
+01:27:54,580 --> 01:28:00,730
+Leung Ping Kei: E, times ET plus K minus J. J from 0 to infinity.
+
+469
+01:28:18,460 --> 01:28:23,280
+Leung Ping Kei: Now I put them into, common submission, because, all the…
+
+470
+01:28:23,600 --> 01:28:27,529
+Leung Ping Kei: All the subgroups are the same, then we can, we can find them.
+
+471
+01:28:27,680 --> 01:28:40,160
+Leung Ping Kei: Okay? Then, since we know that, okay, you can see, I, I is, psi I, ET minus I. J, J is K, period, later.
+
+472
+01:28:40,410 --> 01:28:42,709
+Leung Ping Kei: K, period, later, okay?
+
+473
+01:28:43,230 --> 01:28:44,390
+Leung Ping Kei: Devot.
+
+474
+01:28:44,920 --> 01:28:49,650
+Leung Ping Kei: This one, okay, for J, is psi, I plus K.
+
+475
+01:28:49,820 --> 01:28:53,040
+Leung Ping Kei: times, ET plus K minus i.
+
+476
+01:29:02,960 --> 01:29:08,419
+Leung Ping Kei: Alright? So these two can be combined. These two can be combined.
+
+477
+01:29:09,630 --> 01:29:19,760
+Leung Ping Kei: Therefore, expectation of this, product is equal to expectation of sum of psi i times psi i plus K.
+
+478
+01:29:19,910 --> 01:29:27,799
+Leung Ping Kei: or times, ET minus i ET plus K minus i. I going from 0 to infinity.
+
+479
+01:29:37,250 --> 01:29:38,610
+Leung Ping Kei: Alright?
+
+480
+01:29:39,050 --> 01:29:53,710
+Leung Ping Kei: Then, expectation of SUN is sum of, expectation. Therefore, sum of, psi i times psi i plus K times, expectation of ET minus i ET plus k minus i.
+
+481
+01:29:54,250 --> 01:29:56,660
+Leung Ping Kei: I going from 0 to infinity.
+
+482
+01:30:02,200 --> 01:30:12,470
+Leung Ping Kei: And then, the expectation of, GT minus i times GT plus k minus i is, just variance of, E, sigma E squared.
+
+483
+01:30:12,670 --> 01:30:24,029
+Leung Ping Kei: Therefore, sigma E squared, I take it out, is equal to sigma E squared times sum of, psi i, psi i plus k, i from 0 to infinity.
+
+484
+01:30:24,480 --> 01:30:27,490
+Leung Ping Kei: Again, this is, finite, okay?
+
+485
+01:30:27,680 --> 01:30:38,130
+Leung Ping Kei: So, since the mean, variance, and autocovariance all do not depend on T, therefore YT is… Stationary.
+
+486
+01:30:47,700 --> 01:30:48,849
+Leung Ping Kei: Is that okay?
+
+487
+01:31:29,420 --> 01:31:36,289
+Leung Ping Kei: Then the next section, okay, 2.4, exponential smoothing for a linear trend process, okay?
+
+488
+01:31:37,560 --> 01:31:47,180
+Leung Ping Kei: So suppose our purpose is of the form XT equal to B1 plus B2T plus epsilon t, okay?
+
+489
+01:31:47,910 --> 01:31:56,270
+Leung Ping Kei: Where, epsilon t is normally and independently distributed, means zero. Where it means sigma squared.
+
+490
+01:31:56,740 --> 01:32:15,290
+Leung Ping Kei: So if we use a simple exponential smoothing, then we call, okay, st is equal to alpha times, okay, beta to the KXT minus k. K going from 0 to t minus 1, plus beta T is 0.
+
+491
+01:32:16,380 --> 01:32:18,900
+Leung Ping Kei: Where beta is 1 minus alpha.
+
+492
+01:32:19,890 --> 01:32:25,809
+Leung Ping Kei: with, expectation of, ST equal to alpha times
+
+493
+01:32:26,060 --> 01:32:36,789
+Leung Ping Kei: Some are beta to the power k expectation of XT minus k, k from 0 to t minus 1, plus beta t naught.
+
+494
+01:32:40,230 --> 01:32:49,609
+Leung Ping Kei: And, expectation of XT minus K, we know that, okay, is that. It's B1 plus B2 times, T minus K.
+
+495
+01:32:49,760 --> 01:32:58,879
+Leung Ping Kei: And then at this point is silver, okay? Expectation of this is silver. Therefore, it turned out to be alpha times, okay?
+
+496
+01:32:59,390 --> 01:33:08,299
+Leung Ping Kei: beta to the K times bracket, B1 plus B2 times T minus k from 0 to T minus 1.
+
+497
+01:33:08,430 --> 01:33:11,959
+Leung Ping Kei: plus beta to the power t is 0.
+
+498
+01:33:13,400 --> 01:33:17,690
+Leung Ping Kei: So, as T goes to infinity, we have that, okay?
+
+499
+01:33:18,900 --> 01:33:27,469
+Leung Ping Kei: st equal to, beta 1 plus beta 2T alpha times, sum of beta to the K. K from 0 to infinity.
+
+500
+01:33:27,660 --> 01:33:35,049
+Leung Ping Kei: minus a B2 alpha times sum of beta to the K, k from 0 to infinity.
+
+501
+01:33:36,930 --> 01:33:39,150
+Leung Ping Kei: And it can be simplified to,
+
+502
+01:33:39,310 --> 01:33:44,410
+Leung Ping Kei: B1 plus B2T minus a beta over alpha B2.
+
+503
+01:33:44,870 --> 01:33:53,170
+Leung Ping Kei: Hence, it is equal to expectation of XT minus beta over alpha times B2.
+
+504
+01:33:54,050 --> 01:34:05,729
+Leung Ping Kei: Equation, 2.4.1, okay? Thus, the smooth statistic is a biased, forecast for a linear trend process, okay? But don't worry, okay, we can see it.
+
+505
+01:34:35,880 --> 01:34:41,539
+Leung Ping Kei: So this is an exponential smoothing for a linear trend process. I suppose our process is of the form.
+
+506
+01:34:41,860 --> 01:34:46,880
+Leung Ping Kei: Xt, you get a B1 plus B2T plus epsilon t.
+
+507
+01:34:47,050 --> 01:35:02,579
+Leung Ping Kei: Where epsilon t is normally distributed within 0, where being sigma squared. If we use, simple exponential swooping, then we call, section 1.4.1, page 5, of, chapter 1.
+
+508
+01:35:04,420 --> 01:35:14,650
+Leung Ping Kei: st equal to alpha times, 1 minus alpha to the K times, XT minus k. K from 0 to, t minus 1.
+
+509
+01:35:14,850 --> 01:35:19,220
+Leung Ping Kei: plus 1 minus alpha to party is 0.
+
+510
+01:35:20,320 --> 01:35:23,299
+Leung Ping Kei: Beta is equal to R1 minus alpha.
+
+511
+01:35:23,920 --> 01:35:28,839
+Leung Ping Kei: Therefore, this, this I can change to beta, okay?
+
+512
+01:35:29,160 --> 01:35:41,390
+Leung Ping Kei: Therefore, alpha times, sum of beta to the K, XT minus k, k from 0 to, t minus 1, plus beta to the power t is 0.
+
+513
+01:35:47,260 --> 01:35:53,600
+Leung Ping Kei: Then, expectation of SC, okay, is expectation of this expression, okay?
+
+514
+01:35:53,690 --> 01:36:06,700
+Leung Ping Kei: Expectation of alpha times the sum of beta to KXT minus k, k from 0 to t minus 1 plus beta t to the beta to the power t is 0.
+
+515
+01:36:06,750 --> 01:36:21,590
+Leung Ping Kei: Okay? So, X is the, random variable. Therefore, alpha times, sum of, beta to the K, expectation of XT minus K. K going from 0 to t minus 1.
+
+516
+01:36:22,330 --> 01:36:26,080
+Leung Ping Kei: And then parts are beta to the party as civil.
+
+517
+01:36:27,780 --> 01:36:33,390
+Leung Ping Kei: Then, expectation of XT minus K is that, okay? We have that.
+
+518
+01:36:34,170 --> 01:36:44,679
+Leung Ping Kei: XT minus K, that means we change a T to T minus K. We have a B1 times A plus B2 times T minus K is our…
+
+519
+01:36:44,910 --> 01:36:54,260
+Leung Ping Kei: expectation of XC minus K. Therefore, it turned out to be alpha times sum of, beta to the k times,
+
+520
+01:36:54,570 --> 01:36:59,699
+Leung Ping Kei: Square bracket, B1 plus B2 times T minus K.
+
+521
+01:36:59,940 --> 01:37:08,150
+Leung Ping Kei: Okay? K going from 0 to t minus 1, plus the last term is the constant, beta to the T is 0.
+
+522
+01:37:09,230 --> 01:37:14,059
+Leung Ping Kei: And now, as, T approaches infinity, okay?
+
+523
+01:37:14,290 --> 01:37:18,540
+Leung Ping Kei: There is a… this go to infinity, so this will be gone.
+
+524
+01:37:18,730 --> 01:37:28,069
+Leung Ping Kei: This will be 0, okay? We have a limit as t approaches infinity. Beta to the power t as 0 is 0.
+
+525
+01:37:28,210 --> 01:37:29,160
+Leung Ping Kei: Okay?
+
+526
+01:37:29,260 --> 01:37:31,419
+Leung Ping Kei: Since this one is civil.
+
+527
+01:37:31,630 --> 01:37:36,169
+Leung Ping Kei: And, expectation of ST, turn out to be like this.
+
+528
+01:37:37,410 --> 01:37:40,610
+Leung Ping Kei: B1 plus B2T, okay?
+
+529
+01:37:40,780 --> 01:37:46,859
+Leung Ping Kei: times alpha, times, sum of beta to the K, k from 0 to infinity.
+
+530
+01:37:47,340 --> 01:37:48,170
+Leung Ping Kei: Okay.
+
+531
+01:37:48,770 --> 01:37:57,909
+Leung Ping Kei: And then minus, B, 2 times alpha, sum of, k times theta to the K, k from 0 to infinity.
+
+532
+01:38:04,470 --> 01:38:06,230
+Leung Ping Kei: Is that okay? This one?
+
+533
+01:38:10,210 --> 01:38:13,949
+Leung Ping Kei: We multiply them out, and then a submission through.
+
+534
+01:38:18,650 --> 01:38:19,990
+Leung Ping Kei: Is that okay?
+
+535
+01:38:21,320 --> 01:38:22,209
+Leung Ping Kei: This one.
+
+536
+01:38:33,690 --> 01:38:51,460
+Leung Ping Kei: And notice that, okay, the submation, okay? Sum of beta k from 0 to infinity at this part, okay, is, 1 plus beta plus beta squared, blah blah blah up to infinity. It is just, 1 over, 1 minus beta.
+
+537
+01:38:51,580 --> 01:39:01,430
+Leung Ping Kei: That is the, sum of GP, okay? And beta is 1 minus alpha, therefore, it is, 1 minus bracket, 1 minus alpha is 1 over alpha.
+
+538
+01:39:02,710 --> 01:39:08,519
+Leung Ping Kei: And then the second part, okay, here. K times beta to the K, okay.
+
+539
+01:39:09,120 --> 01:39:14,550
+Leung Ping Kei: So, some of k time period came from 0 to infinity.
+
+540
+01:39:15,310 --> 01:39:20,119
+Leung Ping Kei: So I can write it as, okay, I take one of the beta out, okay?
+
+541
+01:39:20,280 --> 01:39:22,910
+Leung Ping Kei: Based at times, some of,
+
+542
+01:39:23,150 --> 01:39:26,669
+Leung Ping Kei: K times, beta to the k minus 1.
+
+543
+01:39:26,770 --> 01:39:28,929
+Leung Ping Kei: Came from zero to infinity.
+
+544
+01:39:29,220 --> 01:39:32,140
+Leung Ping Kei: Well, you can see that at this is just like the derivative.
+
+545
+01:39:32,840 --> 01:39:36,030
+Leung Ping Kei: Okay? The derivative of picture to the parade.
+
+546
+01:39:36,580 --> 01:39:37,490
+Leung Ping Kei: Okay?
+
+547
+01:39:37,640 --> 01:39:48,100
+Leung Ping Kei: Therefore, I can write it as beta times, sum k from 0 to infinity, the derivative of beta to the power k with respect to beta.
+
+548
+01:39:53,310 --> 01:40:00,390
+Leung Ping Kei: Then, the sum of this, sum of the derivative, is equal to the derivative of the sum.
+
+549
+01:40:00,860 --> 01:40:09,369
+Leung Ping Kei: Therefore, I can write it as beta times the derivative of the sum of beta to the K, k from 0 to infinity.
+
+550
+01:40:10,120 --> 01:40:16,650
+Leung Ping Kei: However, some of beta's indicator, we find it as 1 over 1 minus beta.
+
+551
+01:40:17,360 --> 01:40:26,169
+Leung Ping Kei: Therefore, beta times the derivative of 1 over 1 minus beta is equal to beta times 1 over 1 minus beta squared.
+
+552
+01:40:27,750 --> 01:40:34,400
+Leung Ping Kei: And 1 minus beta is alpha, okay? Therefore, beta divided by alpha squared.
+
+553
+01:40:35,360 --> 01:40:36,250
+Leung Ping Kei: This one?
+
+554
+01:40:37,070 --> 01:40:46,210
+Leung Ping Kei: Therefore, expectation of st is equal to B1 plus B2T times alpha, and this one is 1 over alpha.
+
+555
+01:40:46,760 --> 01:40:54,289
+Leung Ping Kei: minus B2, times alpha times, the sum of this is beta over alpha squared.
+
+556
+01:40:57,550 --> 01:41:12,810
+Leung Ping Kei: Therefore, we can do the simplification, alpha and 1 over alpha cancel out, okay, leaving you B1 plus B2T minus, okay, 1 of the alpha cancel out, beta over, alpha.
+
+557
+01:41:13,220 --> 01:41:14,630
+Leung Ping Kei: times B2.
+
+558
+01:41:15,660 --> 01:41:21,100
+Leung Ping Kei: Therefore, this is, B1 plus B2T, is expectation of XC.
+
+559
+01:41:21,250 --> 01:41:23,940
+Leung Ping Kei: Minus a beta over alpha B2.
+
+560
+01:41:24,710 --> 01:41:26,990
+Leung Ping Kei: Equation 2.4.1.
+
+561
+01:41:27,370 --> 01:41:38,470
+Leung Ping Kei: In the NUCs, okay? Thus, the smooth, statistic is a bias forecast for a linear trend process, because, we have this concern.
+
+562
+01:41:41,150 --> 01:41:42,270
+Leung Ping Kei: Is that okay?
+
+563
+01:41:53,510 --> 01:42:03,870
+Leung Ping Kei: How about I stop it here today, okay? Yeah, and then we go to a couple experiments moving. Next class, next class, okay.
+
+564
+01:42:04,660 --> 01:42:06,739
+Leung Ping Kei: Thank you for coming, huh? Okay.
+

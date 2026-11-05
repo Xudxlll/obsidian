@@ -1,0 +1,2692 @@
+1
+00:00:33,630 --> 00:00:39,210
+Leung Ping Kei: Okay, let's start again, okay? Last time, I stopped at.
+
+2
+00:00:39,350 --> 00:00:52,929
+Leung Ping Kei: Section 3.3.3, okay. I just want to remind you that, okay, the textbook, okay, the textbook is, wait, okay, on page 2, page 2.
+
+3
+00:00:53,650 --> 00:01:09,760
+Leung Ping Kei: Oh, by the way, I have put this set of notes on the blackboard yesterday, yesterday, okay? And you will see this, all these items, okay?
+
+4
+00:01:10,440 --> 00:01:25,110
+Leung Ping Kei: Not like the one that we had before, so clean. So this SSV, his textbook is in QA 280.
+
+5
+00:01:25,480 --> 00:01:33,569
+Leung Ping Kei: QA280, W dot something. I forgot the number. All right?
+
+6
+00:01:36,230 --> 00:01:37,610
+Leung Ping Kei: But.
+
+7
+00:01:40,010 --> 00:01:56,269
+Leung Ping Kei: It takes you time to understand the techniques. Okay. Okay. Now, okay, we go to section 3.3.3. Okay. Finite order moving average, MAQ. MAQ.
+
+8
+00:01:56,270 --> 00:02:06,149
+Leung Ping Kei: Okay. Now, okay, previously, we have AR. AR is, okay, in terms of Xs, okay? Just like this, okay?
+
+9
+00:02:08,449 --> 00:02:09,900
+Leung Ping Kei: This is AIOW.
+
+10
+00:02:10,100 --> 00:02:15,199
+Leung Ping Kei: AR, you, you have X, X, okay? And now.
+
+11
+00:02:15,940 --> 00:02:21,859
+Leung Ping Kei: It is called, okay, MA. You have sets, okay?
+
+12
+00:02:22,260 --> 00:02:31,620
+Leung Ping Kei: Then the process is defined by Xt equal to Sum of beta i times Zt minus i, i from 0 to m.
+
+13
+00:02:31,730 --> 00:02:45,949
+Leung Ping Kei: Okay? Where, set T, is white noise, and conventionally, we set, beta 0, beta 0 is equal to 1, okay? That is, we have, okay, set.
+
+14
+00:02:47,230 --> 00:02:56,800
+Leung Ping Kei: Set T plus beta 1 set T minus 1 plus beta 2 set T minus 2, and so on, up to M.
+
+15
+00:02:56,820 --> 00:03:07,430
+Leung Ping Kei: Okay? Therefore, in here, I just call this, this moving average process is MAM, because you have M terms of the…
+
+16
+00:03:08,020 --> 00:03:20,939
+Leung Ping Kei: M terms of set, okay? And in general, we just call it MAQ, and AR is P, usually. Okay,
+
+17
+00:03:22,020 --> 00:03:23,960
+Leung Ping Kei: ALP, okay?
+
+18
+00:03:24,190 --> 00:03:27,180
+Leung Ping Kei: ARP and MAQ.
+
+19
+00:03:28,310 --> 00:03:29,270
+Leung Ping Kei: All right.
+
+20
+00:03:30,420 --> 00:03:42,919
+Leung Ping Kei: However, in here we have M terms, okay. Remember that it starts from I beta zero is equal to one. Therefore, beta one to beta M, okay.
+
+21
+00:03:43,390 --> 00:03:51,339
+Leung Ping Kei: Therefore, we have M terms, okay? Now, clearly, if we take expectation of XT, it is equal to zero.
+
+22
+00:03:51,910 --> 00:04:06,229
+Leung Ping Kei: Since, ZT are what? White noises, okay? And, has mean 0. And then, variance of XT is sigma squared times sum of beta i squared, i from 0 to m.
+
+23
+00:04:10,790 --> 00:04:25,190
+Leung Ping Kei: All right? Oh, don't worry, okay? We will repeat it again later on, after I talk about this, okay? Now, gamma K is covariance between XT and XT plus K.
+
+24
+00:04:26,660 --> 00:04:41,399
+Leung Ping Kei: All right? Since the mean is 0, therefore, the covariance between XT and XT plus K turn out to be expectation of the product. Product, okay? Expectation of XC times XT plus K.
+
+25
+00:04:42,030 --> 00:04:48,609
+Leung Ping Kei: And I write, XT is equal to sum of beta IZT minus II from 0 to M.
+
+26
+00:04:48,890 --> 00:05:04,290
+Leung Ping Kei: And then, XT plus K, that means K periods later, okay? I write it as sum of beta J. Set T plus K minus J, okay? Set T plus K minus J. J going from 0 to M.
+
+27
+00:05:06,220 --> 00:05:07,230
+Leung Ping Kei: All right?
+
+28
+00:05:07,750 --> 00:05:13,110
+Leung Ping Kei: So similarly, we can see, OK, i is equal to j minus k.
+
+29
+00:05:13,280 --> 00:05:16,379
+Leung Ping Kei: Okay? Then a J is your I plus K.
+
+30
+00:05:16,490 --> 00:05:20,009
+Leung Ping Kei: Okay? If this happens, okay? Then, okay…
+
+31
+00:05:20,420 --> 00:05:33,139
+Leung Ping Kei: Now, the expectation of the sum times sum is, I can write it as, after you take expectation, because some of the terms will be canceled out.
+
+32
+00:05:34,180 --> 00:05:51,280
+Leung Ping Kei: Okay? Therefore, it turned out to be the double sum, i from 0 to m, j from 0 to m, of beta i times beta j times expectation of, set T minus i times, set T plus k minus j.
+
+33
+00:05:54,480 --> 00:05:58,200
+Leung Ping Kei: And since they are.
+
+34
+00:06:00,330 --> 00:06:15,819
+Leung Ping Kei: They are having the same joint distribution. Therefore, okay, when J is 0 to I plus K, therefore, expectation of a set T minus I and set T minus J plus K is equal to sigma squared.
+
+35
+00:06:17,040 --> 00:06:27,750
+Leung Ping Kei: If you substitute, J, J equal to I plus K, therefore it's T minus I minus K plus K, therefore it's T minus I.
+
+36
+00:06:29,470 --> 00:06:37,200
+Leung Ping Kei: Alright? Therefore, expectation of set T minus I times set T minus I.
+
+37
+00:06:37,390 --> 00:06:39,810
+Leung Ping Kei: Therefore, it's sigma squared.
+
+38
+00:06:40,690 --> 00:06:41,710
+Leung Ping Kei: Okay.
+
+39
+00:06:42,550 --> 00:06:54,140
+Leung Ping Kei: Therefore, I can write it as, sigma squared times the sum, okay? Beta i times beta, i plus k. i from 0 to n minus k.
+
+40
+00:06:54,760 --> 00:07:01,769
+Leung Ping Kei: Okay? K is equal to 0, 1, 2, up to M. And when K greater than M, it will be 0.
+
+41
+00:07:03,060 --> 00:07:06,470
+Leung Ping Kei: Equation star, equation star, okay?
+
+42
+00:07:06,820 --> 00:07:25,009
+Leung Ping Kei: So here it explains that this is because expectation of set T minus I times set T minus J plus K, not zero. However, when J is equal to I plus K, then it is equal to zero.
+
+43
+00:07:27,790 --> 00:07:28,690
+Leung Ping Kei: Okay.
+
+44
+00:07:29,430 --> 00:07:33,060
+Leung Ping Kei: Not zero, okay? All the others are zero.
+
+45
+00:07:33,210 --> 00:07:42,240
+Leung Ping Kei: Okay? If, J is equal to I plus K, then, it is not zero. It will be a sigma squared. Sigma squared.
+
+46
+00:07:48,600 --> 00:07:49,809
+Leung Ping Kei: Is that okay?
+
+47
+00:07:49,970 --> 00:07:50,870
+Leung Ping Kei: This one?
+
+48
+00:07:56,160 --> 00:08:12,729
+Leung Ping Kei: Since, okay, J is equal to I plus K, therefore, we write it as J is equal to I plus K, okay? Beta I, beta, J is beta I plus K. And sum only once, okay? I from 0 to N minus K.
+
+49
+00:08:14,910 --> 00:08:15,890
+Leung Ping Kei: All right.
+
+50
+00:08:16,640 --> 00:08:24,750
+Leung Ping Kei: If K is greater than M, then it will be 0, okay? They are… They are not related.
+
+51
+00:08:30,270 --> 00:08:31,230
+Leung Ping Kei: All right.
+
+52
+00:08:32,200 --> 00:08:39,230
+Leung Ping Kei: Then, so, row K is equal to 1, if K equal to 0, if K equal to 0.
+
+53
+00:08:40,179 --> 00:08:41,120
+Leung Ping Kei: Okay.
+
+54
+00:08:42,080 --> 00:08:49,969
+Leung Ping Kei: Since, this is gamma K, gamma K is equal to what? A volt K is equal to gamma K over gamma 0.
+
+55
+00:08:50,620 --> 00:08:52,320
+Leung Ping Kei: Alright, just like that, huh?
+
+56
+00:08:52,990 --> 00:08:53,920
+Leung Ping Kei: Alright!
+
+57
+00:08:54,640 --> 00:09:01,260
+Leung Ping Kei: Rho k is equal gamma k over gamma 0. If k equal to 0, that is equal to 1.
+
+58
+00:09:04,580 --> 00:09:17,829
+Leung Ping Kei: All right? Therefore, it is, if K equals 0, I from 0 to M of, beta I squared, okay, sum of beta I squared divided by sum of beta I squared is 1.
+
+59
+00:09:18,830 --> 00:09:38,209
+Leung Ping Kei: Alright? Now, rho k, the, autocorrelation function, ACF, now becomes, sum of, beta i times, beta i plus k, i from 0 to m minus k divided by sum of beta i squared. K is going from 1, 2, blah blah blah, up to M.
+
+60
+00:09:39,150 --> 00:09:48,049
+Leung Ping Kei: Okay? And K greater than M, the row K is zero. There is a cutoff at leg M.
+
+61
+00:09:53,060 --> 00:09:57,990
+Leung Ping Kei: So you will see the picture on the next page, okay?
+
+62
+00:09:58,510 --> 00:10:00,700
+Leung Ping Kei: They are related, okay?
+
+63
+00:10:01,510 --> 00:10:03,969
+Leung Ping Kei: After K pivot, after K pivot.
+
+64
+00:10:04,930 --> 00:10:05,870
+Leung Ping Kei: Okay.
+
+65
+00:10:05,970 --> 00:10:10,889
+Leung Ping Kei: I plus K, and T minus I is a T minus T plus K.
+
+66
+00:10:11,340 --> 00:10:16,660
+Leung Ping Kei: Okay. These two are related. Okay. So in the equation star.
+
+67
+00:10:19,070 --> 00:10:21,629
+Leung Ping Kei: This one, huh? This one. Okay.
+
+68
+00:10:25,070 --> 00:10:38,169
+Leung Ping Kei: To evaluate the double sum beta i beta j expectation of set T minus i, set T minus j plus k from the above table, we see that it will be simplified to —
+
+69
+00:10:38,380 --> 00:10:51,250
+Leung Ping Kei: The form Sum of beta i beta i plus k expectation of set T minus i times set T minus a bracket i plus k plus k.
+
+70
+00:10:51,710 --> 00:11:10,819
+Leung Ping Kei: Okay? Then, after you separate them out, okay, T minus I minus K plus K is set T minus I, okay? So set T minus I, therefore it is sigma squared. And now, the double sum turned out to be just a single sum. In terms of I, right?
+
+71
+00:11:11,280 --> 00:11:13,440
+Leung Ping Kei: I from 0 to M minus K.
+
+72
+00:11:13,680 --> 00:11:23,819
+Leung Ping Kei: Okay? Therefore, it turned out to be sum of beta i times beta i plus k times sigma squared. This is sigma squared. i from 0 to n minus k.
+
+73
+00:11:24,730 --> 00:11:34,110
+Leung Ping Kei: And it is because that T minus I is equal to T minus J plus K. Therefore, it implies that J is 0 I plus K.
+
+74
+00:11:40,480 --> 00:11:53,609
+Leung Ping Kei: Alright? And then, NB3, okay, no, no, notice that, okay? NB, not a penny, NB, notice that. I plus K is the, is at most M.
+
+75
+00:11:53,760 --> 00:11:58,950
+Leung Ping Kei: Okay? Thus, it is, I is at most M minus K.
+
+76
+00:12:00,120 --> 00:12:01,110
+Leung Ping Kei: All right!
+
+77
+00:12:01,400 --> 00:12:03,989
+Leung Ping Kei: I plus K. I plus K.
+
+78
+00:12:04,520 --> 00:12:06,409
+Leung Ping Kei: is at most M.
+
+79
+00:12:08,320 --> 00:12:20,680
+Leung Ping Kei: Since you have M terms of a set, okay, therefore I plus K must be less than or equal to M. Therefore, I must be less than or equal to M minus K.
+
+80
+00:12:21,380 --> 00:12:32,449
+Leung Ping Kei: Okay, so we have a sigma squared times the sum beta i beta i plus k, okay, i from 0 to m minus k. So k is going from 0 to m.
+
+81
+00:12:33,150 --> 00:12:39,809
+Leung Ping Kei: Moreover, when j equal to i plus k, both i and j are at most m.
+
+82
+00:12:40,120 --> 00:12:49,099
+Leung Ping Kei: Okay? Thus, K is at most M in, equation star, for the, existence of non-zero terms.
+
+83
+00:12:53,190 --> 00:12:54,240
+Leung Ping Kei: All right.
+
+84
+00:12:54,450 --> 00:13:03,610
+Leung Ping Kei: Okay, then, okay, we have example, MA2. Then, we have a, substitute, a substitute, the, the,
+
+85
+00:13:03,610 --> 00:13:22,920
+Leung Ping Kei: This is a gamma, this is gamma, okay? So, rule 1 is sigma beta 1 plus beta 1 times beta 2 divided by the sum of beta i squared, 1 plus, because beta 0 is, 1, okay? Therefore, beta 0 squared plus beta 1 squared plus beta 2 squared.
+
+86
+00:13:23,670 --> 00:13:33,260
+Leung Ping Kei: And then when k equal to 2, it is just a beta 2 over 1 plus beta 1 squared plus beta 2 squared.
+
+87
+00:13:33,700 --> 00:13:42,629
+Leung Ping Kei: Alright? Okay, then, we go to, the, Chapter Phoenix, okay?
+
+88
+00:13:46,720 --> 00:13:52,599
+Leung Ping Kei: Then we will see the derivation of the formulas.
+
+89
+00:14:19,760 --> 00:14:35,869
+Leung Ping Kei: Okay, then, MA2, MA2, okay? From page 3 bottom, we have, row K is equal to sum of beta I, beta I plus K, I from 0 to M minus K divided by sum of beta I squared, I from 0 to M.
+
+90
+00:14:36,270 --> 00:14:42,210
+Leung Ping Kei: Okay? K is going from 1 to M, and when K greater than M, it will be 0.
+
+91
+00:14:42,530 --> 00:14:45,390
+Leung Ping Kei: Therefore, when M equal to 2, okay?
+
+92
+00:14:45,610 --> 00:15:05,349
+Leung Ping Kei: The row K, row K is given by this formula, okay? I rewrite it again. Sum of beta i, beta i plus k, i from 0 to m minus k, divided by sum of beta i squared, i from 0 to m. Now, k equal to 1, k equal to 1, m is equal to 2.
+
+93
+00:15:05,520 --> 00:15:06,590
+Leung Ping Kei: Okay.
+
+94
+00:15:06,880 --> 00:15:17,809
+Leung Ping Kei: In our example, MA2, okay? So 2 minus 1 is 1. Therefore, we sum i from 0 to 2 minus 1 is 1.
+
+95
+00:15:18,390 --> 00:15:23,180
+Leung Ping Kei: Okay? Beta i, beta i plus 1, because k is equal to 1.
+
+96
+00:15:23,990 --> 00:15:28,130
+Leung Ping Kei: Divided by sum of beta i squared, i from 0 to 2.
+
+97
+00:15:28,350 --> 00:15:35,939
+Leung Ping Kei: Okay? Now, okay, when I equal to 0, okay, beta 0 times beta 1, okay?
+
+98
+00:15:36,060 --> 00:15:42,159
+Leung Ping Kei: Plus, I equal 1, beta 1 plus beta, times beta 2, beta 1, beta 2.
+
+99
+00:15:44,060 --> 00:15:49,899
+Leung Ping Kei: And then divided by beta 0 square plus beta 1 square plus beta 2 square.
+
+100
+00:15:50,130 --> 00:15:52,410
+Leung Ping Kei: Now beta zero is equal to one.
+
+101
+00:15:53,220 --> 00:15:58,400
+Leung Ping Kei: Therefore, the numerator turned out to be beta 1 plus beta 1, beta 2.
+
+102
+00:15:58,620 --> 00:16:04,009
+Leung Ping Kei: Divided by the denominator is 1 plus beta 1 squared plus beta 2 squared.
+
+103
+00:16:09,930 --> 00:16:11,119
+Leung Ping Kei: Is that okay?
+
+104
+00:16:11,660 --> 00:16:27,069
+Leung Ping Kei: This one is simple, okay? However, when k equal to 2, okay? M, M minus K, M minus K, 2 minus 2 is 0, okay? I from 0 to 0, that is only one term.
+
+105
+00:16:27,300 --> 00:16:37,030
+Leung Ping Kei: One term, okay? I equal to 0. Therefore, beta 0 times beta I plus 2, okay? K equal to 2, okay?
+
+106
+00:16:37,160 --> 00:16:38,840
+Leung Ping Kei: Therefore, it's better…
+
+107
+00:16:39,140 --> 00:16:49,010
+Leung Ping Kei: 0 times beta 2, divided by the sum of beta i squared, i from 0 to 2. Therefore, beta 0 times beta 2, beta 0 is 1.
+
+108
+00:16:49,280 --> 00:17:03,000
+Leung Ping Kei: Therefore, the numerator turn out to be beta 2, and then divided by beta 1 squared plus beta 2 squared plus beta 2 squared, okay? Beta 1 squared plus beta 2 squared. It's 1 plus beta 1 squared beta 2 squared.
+
+109
+00:17:08,660 --> 00:17:09,858
+Leung Ping Kei: Is it okay?
+
+110
+00:17:37,230 --> 00:17:38,510
+Leung Ping Kei: Okay.
+
+111
+00:17:39,790 --> 00:17:41,609
+Leung Ping Kei: It… is that okay?
+
+112
+00:17:42,600 --> 00:17:43,589
+Leung Ping Kei: This one?
+
+113
+00:17:46,050 --> 00:17:49,209
+Leung Ping Kei: The formula, on page 4, on page 4.
+
+114
+00:17:50,980 --> 00:17:54,179
+Leung Ping Kei: The, the example, page 4, bottom.
+
+115
+00:18:15,460 --> 00:18:17,790
+Leung Ping Kei: Okay.
+
+116
+00:18:18,780 --> 00:18:20,630
+Leung Ping Kei: R1, okay?
+
+117
+00:18:21,090 --> 00:18:27,950
+Leung Ping Kei: 0.8, R2, 0.6, much larger than the SIRI, the,
+
+118
+00:18:29,010 --> 00:18:37,890
+Leung Ping Kei: The confidence interval, okay? 0.2. Okay? So that, you can see it is lag 2.
+
+119
+00:18:38,000 --> 00:18:39,880
+Leung Ping Kei: Lack one, lack two.
+
+120
+00:18:40,010 --> 00:18:48,579
+Leung Ping Kei: Okay? Therefore, the above diagram is a theoretical choreograph of an MA2 process. MA2.
+
+121
+00:18:53,740 --> 00:19:01,460
+Leung Ping Kei: All right? Since all these lies between plus or minus 0.2, okay?
+
+122
+00:19:01,620 --> 00:19:05,169
+Leung Ping Kei: Therefore, this is leg one and leg two.
+
+123
+00:19:05,380 --> 00:19:09,449
+Leung Ping Kei: Therefore, it is a MA2 process.
+
+124
+00:19:15,120 --> 00:19:16,330
+Leung Ping Kei: Is that okay?
+
+125
+00:19:17,050 --> 00:19:18,110
+Leung Ping Kei: All right!
+
+126
+00:19:20,230 --> 00:19:29,669
+Leung Ping Kei: Okay, now, okay, another example, okay? For an invertible, now, okay, can you, can you see the name? Invertible.
+
+127
+00:19:30,220 --> 00:19:32,270
+Leung Ping Kei: Invertible, that is stationary.
+
+128
+00:19:32,500 --> 00:19:43,750
+Leung Ping Kei: Stationary, okay? However, for MA, we just call it invertible. For AR, we use stationary.
+
+129
+00:19:43,990 --> 00:19:44,910
+Leung Ping Kei: Okay.
+
+130
+00:19:47,120 --> 00:20:04,590
+Leung Ping Kei: Now, for an invertible MA2 process, okay? YT, okay? Just like, the set, okay? Epsilon T is just a set, okay? Epsilon T minus 0.2, epsilon T minus 1, plus theta 2, epsilon T minus 2.
+
+131
+00:20:04,590 --> 00:20:09,830
+Leung Ping Kei: Okay? So that in here, okay, minus 0.2 is a theta 1.
+
+132
+00:20:09,860 --> 00:20:11,040
+Leung Ping Kei: Theta 1.
+
+133
+00:20:11,320 --> 00:20:12,280
+Leung Ping Kei: All right!
+
+134
+00:20:12,390 --> 00:20:17,579
+Leung Ping Kei: So you are given that, row 1, okay, row 1 is negative 0.1.
+
+135
+00:20:17,950 --> 00:20:21,909
+Leung Ping Kei: Now they want you to determine how to find row two.
+
+136
+00:20:27,000 --> 00:20:28,010
+Leung Ping Kei: All right.
+
+137
+00:20:29,470 --> 00:20:34,289
+Leung Ping Kei: So okay, previously, okay, we have found this.
+
+138
+00:20:34,520 --> 00:20:35,750
+Leung Ping Kei: Row 1.
+
+139
+00:20:35,900 --> 00:20:44,680
+Leung Ping Kei: Okay? Previously, we used a beta. Now we use data. Data, okay? Data 1, data 2, okay? And so on.
+
+140
+00:20:44,740 --> 00:21:03,829
+Leung Ping Kei: Just like this, okay? 0 point, you're given that, rho 1 is negative 0.1, which is 0, rho 1, okay? Beta 1, is theta 1, okay? And, plus, theta 1, theta 2, divided by 1 plus, beta 1 squared plus beta 2 squared.
+
+141
+00:21:04,630 --> 00:21:05,779
+Leung Ping Kei: It's okay.
+
+142
+00:21:06,350 --> 00:21:11,780
+Leung Ping Kei: Now, you will know that, okay, data 1 is negative 0.2.
+
+143
+00:21:12,060 --> 00:21:22,359
+Leung Ping Kei: Okay? Therefore, negative 0.1 is equal to, okay, negative 0.2 minus 0.2, okay, times theta 2.
+
+144
+00:21:22,480 --> 00:21:32,310
+Leung Ping Kei: Divided by 1 plus, okay, negative 0.2 squared is, positive, 0.04, plus theta 2 squared.
+
+145
+00:21:32,610 --> 00:21:34,910
+Leung Ping Kei: Now we solve the equation.
+
+146
+00:21:35,140 --> 00:21:44,329
+Leung Ping Kei: Okay, the quadratic equation. It will give us, okay, theta 2 is minus 0.4, or 2.4.
+
+147
+00:21:45,100 --> 00:22:02,120
+Leung Ping Kei: All right? However, to satisfy the invertibility condition, okay? Okay, invertibility for MA models, for MA models, okay? Equivalent to say that the model is stationary for AR models, okay? I just give you this.
+
+148
+00:22:02,340 --> 00:22:11,629
+Leung Ping Kei: Okay? They are the same. Okay? No matter, it doesn't matter whether you say stationary.
+
+149
+00:22:11,780 --> 00:22:28,350
+Leung Ping Kei: Don't worry. I won't detect you, Mark. Okay. Then turn the conditional upside down or inside out or reversible in order. That is what we call invertibility.
+
+150
+00:22:30,460 --> 00:22:31,380
+Leung Ping Kei: All right.
+
+151
+00:22:39,670 --> 00:22:45,300
+Leung Ping Kei: Since, okay, data 2 is 2.4, it's larger than 1.
+
+152
+00:22:45,440 --> 00:22:55,179
+Leung Ping Kei: larger than 1. Therefore, we reject this root. Therefore, theta 2 equal to minus 0.4.
+
+153
+00:22:55,930 --> 00:23:04,470
+Leung Ping Kei: Therefore, after you substitute, theta 2 is equal to minus 0.4. Then, you can find.
+
+154
+00:23:05,140 --> 00:23:06,750
+Leung Ping Kei: Substitute here.
+
+155
+00:23:08,430 --> 00:23:18,130
+Leung Ping Kei: Theta 2 over 1 plus theta 1 squared plus theta 2 squared, then you find it, is negative, one-third.
+
+156
+00:23:18,600 --> 00:23:23,530
+Leung Ping Kei: Okay, don't worry, okay, I give you the solution, not the solution.
+
+157
+00:23:35,820 --> 00:23:57,049
+Leung Ping Kei: Example 5, example, on page 5, and, for an invertible, MA2 process, okay, YT is equal to epsilon T minus 0.2 epsilon T minus 1 plus theta 2 times epsilon T minus 2. You are given that, row 1, okay, is negative 0.1. Now they want you to find.
+
+158
+00:23:57,090 --> 00:23:58,610
+Leung Ping Kei: Row 2.
+
+159
+00:23:58,890 --> 00:24:16,880
+Leung Ping Kei: Okay? From the, given information, M equal to 2, theta 1 is equal to negative 0.2, 0.2. Well, just using the formula that we had before, okay, beta 1 is equal to theta 1. And then, theta 0 is equal to 1, is beta 0.
+
+160
+00:24:17,160 --> 00:24:18,120
+Leung Ping Kei: All right?
+
+161
+00:24:18,610 --> 00:24:36,909
+Leung Ping Kei: Therefore, using the formulas above, okay, rho 1, is equal to, rho subscript 1, is negative 0.1, is equal to the sum of theta i, theta i plus 1, i from 0 to m minus k, m is 2, k is 1.
+
+162
+00:24:37,150 --> 00:24:38,850
+Leung Ping Kei: Okay, K is one.
+
+163
+00:24:40,330 --> 00:24:56,780
+Leung Ping Kei: And then divided by sum of theta naught squared. I is equal to from 0 to square. This is subscript i, theta i, theta i, theta i. Okay, I have to change it.
+
+164
+00:25:37,490 --> 00:26:01,350
+Leung Ping Kei: My mistake, okay. Theta i squared, theta i squared, i from 0 to 2. Therefore, it is just in formula, theta 1 plus theta 1, theta 2 divided by 1 plus theta 1 squared plus theta 2 squared. Therefore, theta 1 is negative 0.2, and then plus theta 1 negative 0.2 times theta 2.
+
+165
+00:26:01,360 --> 00:26:06,370
+Leung Ping Kei: Divided by 1 plus negative 0.2 squared plus theta 2 squared.
+
+166
+00:26:06,480 --> 00:26:07,710
+Leung Ping Kei: Their vote, huh?
+
+167
+00:26:08,290 --> 00:26:19,559
+Leung Ping Kei: Minus 0.1 is equal to minus 0.2 minus 0.2 times theta 2 divided by 1 plus 0.04 plus theta 2 squared.
+
+168
+00:26:19,940 --> 00:26:21,230
+Leung Ping Kei: Okay.
+
+169
+00:26:21,840 --> 00:26:23,570
+Leung Ping Kei: Now, I…
+
+170
+00:26:23,890 --> 00:26:34,129
+Leung Ping Kei: I, divide both sides by negative 1, okay? It turned out to be like that. Now, okay, I just want to solve for theta 2.
+
+171
+00:26:34,310 --> 00:26:37,549
+Leung Ping Kei: Okay, I multiply them out and rearrange.
+
+172
+00:26:37,920 --> 00:26:51,520
+Leung Ping Kei: And then multiply by 10. It's easier to do it. Therefore, it turned out to be 1 plus 0.04 plus theta 2 squared minus 2 minus 2 theta 2.
+
+173
+00:26:51,680 --> 00:26:52,889
+Leung Ping Kei: You could have said, well.
+
+174
+00:26:54,920 --> 00:27:12,540
+Leung Ping Kei: Alright? Then, after I simplify it, theta 2 squared minus, 2 theta 2 minus 0.96 equal to, 0. Therefore, it can be factorized into theta 2 minus 2.4 times theta 2 plus 0.4.
+
+175
+00:27:12,860 --> 00:27:22,410
+Leung Ping Kei: So, the rules are, okay, theta 2 equal to minus 0.4 and 2.4. Since.
+
+176
+00:27:22,860 --> 00:27:33,769
+Leung Ping Kei: 2.4 is greater than 1. Therefore, we reject this root. And, we take, theta 2 equal to 0.2, 0.4.
+
+177
+00:27:33,770 --> 00:27:50,280
+Leung Ping Kei: Okay? Therefore, rho 2 is equal to, sum of, data i times theta i plus 2, i from 0 to 2 minus 2. Just one term. Therefore, it's data 0 times data 2 divided by.
+
+178
+00:27:50,410 --> 00:28:05,999
+Leung Ping Kei: the sum of, data I squared, 1 plus, data 1 squared plus data 2 squared. Therefore, it turned out to be, okay, minus 0.4 divided by 1.2 is negative 1 over 3, okay? Negative one-third.
+
+179
+00:28:15,800 --> 00:28:17,170
+Leung Ping Kei: Is that okay?
+
+180
+00:28:17,810 --> 00:28:18,640
+Leung Ping Kei: Oh.
+
+181
+00:28:22,230 --> 00:28:23,509
+Leung Ping Kei: All right.
+
+182
+00:28:31,200 --> 00:28:44,920
+Leung Ping Kei: Then we go back to our notes, okay? Now, okay, the bottom of page 5, random walk. Random walk. Now consider, XT equal to XT minus 1 plus ZT.
+
+183
+00:28:45,240 --> 00:28:59,690
+Leung Ping Kei: Where ZT is white noise, and ZT and ZT minus K are uncorrelated, for K greater than 0. Okay? Then it is easy to see that, okay, XT is mean stationary.
+
+184
+00:28:59,810 --> 00:29:03,289
+Leung Ping Kei: But, okay, variants of XT.
+
+185
+00:29:03,480 --> 00:29:10,169
+Leung Ping Kei: Is equal to variance of XT minus 1 plus variance of set T is sigma squared.
+
+186
+00:29:10,880 --> 00:29:11,880
+Leung Ping Kei: Okay.
+
+187
+00:29:13,160 --> 00:29:19,019
+Leung Ping Kei: And then later on, when you substitute again, okay?
+
+188
+00:29:19,540 --> 00:29:29,440
+Leung Ping Kei: Substitute into the next one, just like that. Okay. Variance of XT minus 1 is equal to variance of XT minus 2 plus…
+
+189
+00:29:29,550 --> 00:29:37,820
+Leung Ping Kei: Sigma squared plus another sigma squared. Therefore, it is variance of Xt minus 2 plus 2 sigma squared.
+
+190
+00:29:42,240 --> 00:29:49,870
+Leung Ping Kei: Using, again, substitution. Don't worry, I will show you the steps.
+
+191
+00:29:50,510 --> 00:29:59,679
+Leung Ping Kei: And then, substitute this again, okay? Therefore, variance of X0.
+
+192
+00:30:00,240 --> 00:30:02,680
+Leung Ping Kei: Plus a T times sigma squared.
+
+193
+00:30:04,790 --> 00:30:05,930
+Leung Ping Kei: Is it okay?
+
+194
+00:30:06,090 --> 00:30:08,400
+Leung Ping Kei: After the TF, okay?
+
+195
+00:30:10,840 --> 00:30:24,149
+Leung Ping Kei: The DF substitution. Therefore, the process is not stationary, okay? Although it is the mean, the mean is zero, okay? The mean is zero.
+
+196
+00:30:24,650 --> 00:30:25,570
+Leung Ping Kei: All right.
+
+197
+00:30:26,170 --> 00:30:33,890
+Leung Ping Kei: Because expectation of XT is single expectation of XT minus 1. Therefore, the mean is 0.
+
+198
+00:30:34,070 --> 00:30:46,449
+Leung Ping Kei: Okay? These two are equal. Okay? I mean it's mu. Mu. Expectation XT is mu. Expectation XT minus 1 is mu. And then…
+
+199
+00:30:47,260 --> 00:30:51,359
+Leung Ping Kei: It does not depend on T. Therefore, the mean is stationary.
+
+200
+00:30:51,920 --> 00:30:52,870
+Leung Ping Kei: Okay.
+
+201
+00:30:53,260 --> 00:31:04,839
+Leung Ping Kei: However, the variance of the variance of Xt, it turned out to be variance of X0 plus T times sigma squared. Therefore, the process is not stationary.
+
+202
+00:31:05,580 --> 00:31:12,049
+Leung Ping Kei: Alright? Since, we just talked about, okay, X, this is AR1.
+
+203
+00:31:12,360 --> 00:31:14,970
+Leung Ping Kei: AR1, AR1.
+
+204
+00:31:16,730 --> 00:31:17,650
+Leung Ping Kei: All right?
+
+205
+00:31:17,850 --> 00:31:26,399
+Leung Ping Kei: Therefore, we call it the stationary. Okay. So, okay, now we go back to my notes.
+
+206
+00:31:29,300 --> 00:31:30,470
+Leung Ping Kei: Okay.
+
+207
+00:31:30,580 --> 00:31:32,349
+Leung Ping Kei: Random walk, okay?
+
+208
+00:31:32,840 --> 00:31:33,769
+Leung Ping Kei: Ha ha ha.
+
+209
+00:31:33,810 --> 00:31:34,750
+Leung Ping Kei: Okay.
+
+210
+00:31:34,780 --> 00:31:51,430
+Leung Ping Kei: XT is 0XT minus 1 plus set T, okay? Set T, why noise, huh? Set T and XT minus K uncorrelated, okay? Expectation of XT is expectation of XT minus 1 plus expectation of set T, okay?
+
+211
+00:31:51,430 --> 00:32:01,270
+Leung Ping Kei: And then mu equal to mu plus 0. Therefore, expectation HC does not depend on T. Hence, it is a mean stationary.
+
+212
+00:32:01,290 --> 00:32:04,490
+Leung Ping Kei: However, okay, variants of XT.
+
+213
+00:32:04,620 --> 00:32:10,729
+Leung Ping Kei: Okay? It's variance of XT minus 1 plus variance of ZT.
+
+214
+00:32:11,470 --> 00:32:12,589
+Leung Ping Kei: Is that okay?
+
+215
+00:32:13,290 --> 00:32:18,919
+Leung Ping Kei: Therefore, I can write it as a variance of xt-1 plus sigma squared.
+
+216
+00:32:19,930 --> 00:32:33,949
+Leung Ping Kei: Now, variance of XT minus 1, following this formula, okay, is variance of XT minus 1 equal to variance of XT minus 2 plus variance of ZT minus 1.
+
+217
+00:32:34,600 --> 00:32:43,809
+Leung Ping Kei: Okay? And, variance of set T minus 1 is sigma squared. Therefore, it is equal to variance of XT minus 2.
+
+218
+00:32:44,940 --> 00:33:02,679
+Leung Ping Kei: Okay? And again, okay, variance of XT-2 is equal to variance of XT-3 plus variance of ZT-2, which turns out to be variance of XT-3 plus sigma squared. Now we do the substitution.
+
+219
+00:33:03,520 --> 00:33:11,499
+Leung Ping Kei: Therefore, variance of XT is equal to variance of XT minus 3 plus 3 sigma squared.
+
+220
+00:33:12,630 --> 00:33:13,789
+Leung Ping Kei: Is it okay?
+
+221
+00:33:14,640 --> 00:33:24,100
+Leung Ping Kei: So, you can see that, substitution. This one, okay? So, variance of XT is, okay, this one, I turn it to this.
+
+222
+00:33:24,140 --> 00:33:38,170
+Leung Ping Kei: Okay? Variance of XT minus 1 is variance of XT minus 2 plus sigma squared. Therefore, if you add this to here, you will have a variance of XT minus 2 plus 2 sigma squared.
+
+223
+00:33:38,380 --> 00:33:43,959
+Leung Ping Kei: Now, if you substitute this, okay, XT minus 2 by this formula.
+
+224
+00:33:44,330 --> 00:33:49,959
+Leung Ping Kei: Therefore, you have a variance of XC minus 3 plus 3 sigma squared.
+
+225
+00:33:50,840 --> 00:33:56,890
+Leung Ping Kei: Therefore, after T steps, okay, variance of XT is 0, variance of X0.
+
+226
+00:33:57,030 --> 00:34:04,449
+Leung Ping Kei: Plus T times sigma squared, okay, which depends on T. Hence, the process is not stationary.
+
+227
+00:34:04,910 --> 00:34:06,040
+Leung Ping Kei: Okay?
+
+228
+00:34:07,470 --> 00:34:22,429
+Leung Ping Kei: However, okay, let's say, okay, we make, okay, the difference, okay, YT is equal to backward delta, XT, is XT minus XT minus 1.
+
+229
+00:34:22,560 --> 00:34:27,629
+Leung Ping Kei: Okay, so in here, go back to our nuksa, okay, here.
+
+230
+00:34:27,780 --> 00:34:32,509
+Leung Ping Kei: XT minus XT minus 1 is equal to ZT.
+
+231
+00:34:36,420 --> 00:34:37,449
+Leung Ping Kei: All right.
+
+232
+00:34:37,580 --> 00:34:40,219
+Leung Ping Kei: Therefore, this will be stationary.
+
+233
+00:34:41,389 --> 00:34:48,379
+Leung Ping Kei: Okay? Because of the mean, variance, and ACF of YT, all do not depend on T.
+
+234
+00:34:49,830 --> 00:35:09,319
+Leung Ping Kei: Alright? You can see that, expectation of YT is just expectation of set T equal to 0. Variance of YT is variance of set T, is sigma squared. And, covariance between YT and YT plus K is just covariance of set T and set T plus K.
+
+235
+00:35:09,630 --> 00:35:27,540
+Leung Ping Kei: Alright? And, it is equal to expectation of… because the mean is 0, it is equal to the cross product. Expectation of the cross product. Expectation of set T and set T plus K is equal to gamma K. Okay? Not depends on T.
+
+236
+00:35:27,570 --> 00:35:37,439
+Leung Ping Kei: Therefore, all do not depend on T. Therefore, the backward difference, okay? YT, okay? YT in this case is…
+
+237
+00:35:37,740 --> 00:35:38,940
+Leung Ping Kei: Stationary.
+
+238
+00:35:39,440 --> 00:35:42,710
+Leung Ping Kei: Therefore, we can, we can change, huh? We can change.
+
+239
+00:35:43,630 --> 00:35:49,000
+Leung Ping Kei: A series, okay, into a stationary series.
+
+240
+00:35:50,350 --> 00:35:51,330
+Leung Ping Kei: Alright!
+
+241
+00:35:52,650 --> 00:35:56,769
+Leung Ping Kei: So, this is, on our, notes.
+
+242
+00:36:01,680 --> 00:36:03,540
+Leung Ping Kei: Here. Okay.
+
+243
+00:36:12,840 --> 00:36:24,650
+Leung Ping Kei: Alright? However, YT is 0 backward delta XT, okay? XT minus XT minus 1 is 0 ZT is stationary. We have shown that, we have shown that.
+
+244
+00:36:26,690 --> 00:36:27,590
+Leung Ping Kei: All right.
+
+245
+00:36:30,290 --> 00:36:45,360
+Leung Ping Kei: Okay, then, section 3.4. A general class of linear process, okay? To extend our discussion, it is convenient to introduce two operators. Actually, we have done that. Backward ship.
+
+246
+00:36:45,500 --> 00:36:51,200
+Leung Ping Kei: Operator is BXT is you can write it as XT minus one.
+
+247
+00:36:51,600 --> 00:36:57,629
+Leung Ping Kei: And then the backward difference, backward difference operator.
+
+248
+00:36:57,750 --> 00:37:00,510
+Leung Ping Kei: Is XT minus XT minus 1.
+
+249
+00:37:00,830 --> 00:37:01,760
+Leung Ping Kei: Okay.
+
+250
+00:37:01,820 --> 00:37:09,919
+Leung Ping Kei: Backward difference operator, okay? This is the one. These operators are obey simple algebraic rules.
+
+251
+00:37:09,930 --> 00:37:25,890
+Leung Ping Kei: Okay, for example, B square XT, okay, that is, you can apply, once after once, okay, B and, BXT, therefore, BXT is, XT minus 1, and then, B again.
+
+252
+00:37:25,890 --> 00:37:30,930
+Leung Ping Kei: Okay? P of XT minus 1, therefore, is XT minus 2.
+
+253
+00:37:32,260 --> 00:37:40,439
+Leung Ping Kei: All right? Therefore, the backward difference operator is equivalent to 1 minus B.
+
+254
+00:37:41,780 --> 00:37:42,670
+Leung Ping Kei: All right!
+
+255
+00:37:43,240 --> 00:37:52,369
+Leung Ping Kei: And then delta squared, backward delta squared is 1 minus b squared. It is equal to 1 minus 2b plus b squared.
+
+256
+00:37:52,480 --> 00:38:10,459
+Leung Ping Kei: That is, which applies to, okay, backward delta squared applied to XT is equal to, okay, 1, okay, XT, minus 2B, is, 2 times XT minus 1, and then plus, okay, XT minus 2.
+
+257
+00:38:10,600 --> 00:38:12,700
+Leung Ping Kei: All right? Just like that.
+
+258
+00:38:12,890 --> 00:38:18,059
+Leung Ping Kei: This is the game, look like this, okay, you do it, once after once.
+
+259
+00:38:18,770 --> 00:38:36,959
+Leung Ping Kei: Okay? Backward delta squared, okay, XT, okay, is, backward delta first, and then, the second backward delta, XT. Therefore, okay, the, the inside one, okay, backward delta XT is XT minus XT minus 1.
+
+260
+00:38:37,130 --> 00:38:55,769
+Leung Ping Kei: Okay? And then, apply once again, okay, backward, difference is, apply to this, you have, XT minus XT minus 1, and then minus, okay, the backward difference applied to XT minus 1 is XT minus 1 minus XT minus 2.
+
+261
+00:38:56,170 --> 00:39:05,009
+Leung Ping Kei: Then, after you separate them out, it turned out to be XT minus 2XT minus 1. Plus.
+
+262
+00:39:05,760 --> 00:39:09,219
+Leung Ping Kei: Minus minus, plus XT plus minus 2.
+
+263
+00:39:11,540 --> 00:39:12,529
+Leung Ping Kei: All right!
+
+264
+00:39:15,360 --> 00:39:28,209
+Leung Ping Kei: Okay, and also expression, like, 1 minus alpha B, okay? Okay? Alpha, alpha is just a constant, okay? Inverse, okay? Applied to XT.
+
+265
+00:39:28,490 --> 00:39:33,330
+Leung Ping Kei: Therefore, it is just a 1 over 1 minus alpha B.
+
+266
+00:39:33,520 --> 00:39:35,040
+Leung Ping Kei: APPLIED TO XT.
+
+267
+00:39:35,840 --> 00:39:38,980
+Leung Ping Kei: However, if you expand this, okay?
+
+268
+00:39:39,430 --> 00:39:49,540
+Leung Ping Kei: It turned out to be 1 plus alpha B plus alpha squared B squared plus alpha cubed B cubed and so on. Okay? Applied to XT.
+
+269
+00:39:51,360 --> 00:39:52,250
+Leung Ping Kei: All right?
+
+270
+00:39:52,970 --> 00:39:56,560
+Leung Ping Kei: There is an infinite series, huh? Infinite series.
+
+271
+00:39:58,950 --> 00:39:59,920
+Leung Ping Kei: All right!
+
+272
+00:40:00,610 --> 00:40:16,629
+Leung Ping Kei: Therefore, okay, for example, part one, okay, xt is here, alpha xt minus one plus set t is equivalent equivalent to okay one minus alpha b applied to xt.
+
+273
+00:40:16,800 --> 00:40:35,690
+Leung Ping Kei: Equal to ZT, so that I derive here. XT, okay, I take this to the left-hand side, okay, minus alpha XT minus 1 equal to ZT. Therefore, I can write it as 1 minus alpha B APPLIED TO XT is equal to ZT.
+
+274
+00:40:38,630 --> 00:40:41,780
+Leung Ping Kei: Alright, so this model is AR1.
+
+275
+00:40:41,960 --> 00:40:45,090
+Leung Ping Kei: AL1, AL1, okay?
+
+276
+00:40:45,280 --> 00:40:55,840
+Leung Ping Kei: And then, Part 2, okay? XT is equal to sum of beta, P's change, not B, okay? It's beta.
+
+277
+00:40:56,530 --> 00:41:06,180
+Leung Ping Kei: Beta. The notes, the notes, okay? Beta, I, times ZT minus I, I from 0 to M.
+
+278
+00:41:06,850 --> 00:41:12,710
+Leung Ping Kei: is, equivalent to, okay, XT equal to, okay, data B.
+
+279
+00:41:12,820 --> 00:41:14,440
+Leung Ping Kei: APPLYED TO ZT
+
+280
+00:41:15,000 --> 00:41:26,720
+Leung Ping Kei: Where theta B is a polynomial in B, okay? So theta B, I can write it as, like that, sum of beta I times B to the power I, I from 0 to M.
+
+281
+00:41:27,440 --> 00:41:31,749
+Leung Ping Kei: where beta 0 is equal to 1.
+
+282
+00:41:33,930 --> 00:41:39,449
+Leung Ping Kei: Alright? Since, this is from 0 to M, therefore it is MAM.
+
+283
+00:41:40,430 --> 00:41:46,789
+Leung Ping Kei: Okay? Moving average, moving average, with M terms, M terms.
+
+284
+00:41:49,460 --> 00:41:53,000
+Leung Ping Kei: Is it okay? Is it cold?
+
+285
+00:41:55,610 --> 00:41:58,679
+Leung Ping Kei: Do you feel cold? No? Okay, yeah.
+
+286
+00:41:58,980 --> 00:42:02,700
+Leung Ping Kei: Otherwise, I can change it, okay? I can…
+
+287
+00:42:04,410 --> 00:42:11,870
+Leung Ping Kei: Oh, okay. I don't want everybody to be cold, okay?
+
+288
+00:42:12,260 --> 00:42:19,140
+Leung Ping Kei: Me too, because I was having a sick for.
+
+289
+00:42:19,770 --> 00:42:33,300
+Leung Ping Kei: More than two weeks. Like last week and last second week, okay? You can see I have to always drink water, okay? Now I don't, because I recovered.
+
+290
+00:42:36,140 --> 00:42:49,940
+Leung Ping Kei: Okay, then the part 3, okay, XT is equal to XT minus 1 plus ZT, okay? That is equal to what? Similar to, part 1, okay? AR1, AR1. However, we don't have the, alpha.
+
+291
+00:42:50,040 --> 00:42:59,699
+Leung Ping Kei: Okay? Therefore, I take XT-1 to the left-hand side, so it is equal to… Backward delta XT is 0ZT.
+
+292
+00:42:59,900 --> 00:43:00,830
+Leung Ping Kei: Okay.
+
+293
+00:43:02,300 --> 00:43:12,389
+Leung Ping Kei: So again, this is what? Stationary. This will be stationary because we have done this, okay? Stationary, isn't it?
+
+294
+00:43:17,260 --> 00:43:20,409
+Leung Ping Kei: Okay, now, okay, we have that, okay.
+
+295
+00:43:23,350 --> 00:43:39,310
+Leung Ping Kei: Infinite and finite order moving average process, okay? Infinite, infinite order, okay? Just like this, okay? Set T, be white noise, and consider, okay, our example part 1, okay?
+
+296
+00:43:40,480 --> 00:43:44,140
+Leung Ping Kei: X is equal to alpha XT minus 1 plus ZT.
+
+297
+00:43:44,310 --> 00:43:47,099
+Leung Ping Kei: Okay, so I take this to the left-hand side.
+
+298
+00:43:47,270 --> 00:43:59,390
+Leung Ping Kei: XT minus alpha times XT minus 1, equal to ZT. Therefore, I can write it as 1 minus alpha B. Applied to XT, which is equal to ZT.
+
+299
+00:44:00,980 --> 00:44:01,970
+Leung Ping Kei: Okay.
+
+300
+00:44:02,390 --> 00:44:12,259
+Leung Ping Kei: Then, okay, we have that, 1 minus alpha B applied to XT equal to ZT. Now I take this.
+
+301
+00:44:12,760 --> 00:44:22,660
+Leung Ping Kei: divide into the right-hand side. Therefore, XT is equal to 1 minus alpha B inverse applied to set T.
+
+302
+00:44:22,800 --> 00:44:26,590
+Leung Ping Kei: And OK, this is the expansion.
+
+303
+00:44:27,640 --> 00:44:36,299
+Leung Ping Kei: 1 minus alpha b can be expanded to 1 plus alpha b plus alpha squared b squared.
+
+304
+00:44:36,430 --> 00:44:41,889
+Leung Ping Kei: And alpha cubed, p cubed and so on. Okay? Applied to SETI.
+
+305
+00:44:42,210 --> 00:44:47,609
+Leung Ping Kei: Therefore, I can write it as a formula. Sum of…
+
+306
+00:44:48,070 --> 00:44:54,570
+Leung Ping Kei: Alpha to the power i, beta to the power i, set t. Okay? i from 0 to infinity.
+
+307
+00:44:54,910 --> 00:45:05,929
+Leung Ping Kei: Now I apply Bi to set T. Therefore, I can write it as sum of alpha i times set T minus i, i from 0 to infinity.
+
+308
+00:45:08,050 --> 00:45:11,530
+Leung Ping Kei: Alright? Therefore, you can see from this.
+
+309
+00:45:11,930 --> 00:45:12,830
+Leung Ping Kei: All right.
+
+310
+00:45:17,090 --> 00:45:36,050
+Leung Ping Kei: Therefore, actually, you can check, you can check the formula, okay? So, in here, XT is equal to alpha XT minus 1 plus ZT, okay? Now, I substitute XT minus 1 by alpha XT minus 2 plus ZT minus 1.
+
+311
+00:45:36,420 --> 00:45:38,500
+Leung Ping Kei: And then I multiply them out.
+
+312
+00:45:38,920 --> 00:45:45,540
+Leung Ping Kei: I have alpha squared XT minus 2 plus alpha ZT minus 1 plus ZT.
+
+313
+00:45:46,890 --> 00:45:58,340
+Leung Ping Kei: Alright? And then, XT minus 2, I can write it as alpha times XT minus 3 plus, I said T minus 2, and substitute here.
+
+314
+00:45:58,890 --> 00:46:10,670
+Leung Ping Kei: Therefore, I have alpha cubed XT minus 3 plus alpha squared ZT minus 2 plus alpha times ZT minus 1 plus ZT.
+
+315
+00:46:12,140 --> 00:46:25,619
+Leung Ping Kei: After you do all the substitution, okay, the tier 1 will be x1 equal to alpha 0 plus z0. Then after you substitute all these, then you have that.
+
+316
+00:46:26,070 --> 00:46:37,799
+Leung Ping Kei: Alpha to the power t, x0, plus alpha to the power t minus 1, z1, plus alpha to the power t minus 2, z2.
+
+317
+00:46:38,160 --> 00:46:39,040
+Leung Ping Kei: First.
+
+318
+00:46:39,740 --> 00:46:47,810
+Leung Ping Kei: blah blah blah, and so on. Alpha 2, set T minus 2, plus alpha times set T minus 1 plus set T.
+
+319
+00:46:48,730 --> 00:46:52,679
+Leung Ping Kei: All right, you can see, okay, the formula is,
+
+320
+00:46:53,000 --> 00:47:00,170
+Leung Ping Kei: You can see that, okay. The power plus the subscript must be equal to T.
+
+321
+00:47:00,290 --> 00:47:14,709
+Leung Ping Kei: Okay? T minus 1 plus 1 is T. T minus 2 plus 2 is T. And then a 2 plus a T minus 2 is T. 1 plus a T minus 1 is T. And then a 0 plus T is T.
+
+322
+00:47:15,020 --> 00:47:15,940
+Leung Ping Kei: All right.
+
+323
+00:47:16,460 --> 00:47:33,000
+Leung Ping Kei: So that we can, you can recognize all these formulas are more or less the same. Okay. This shows that an AR1 process can be represented as an infinite order moving average process.
+
+324
+00:47:33,500 --> 00:47:39,489
+Leung Ping Kei: All right? So, AR1 is equivalent to MA infinity.
+
+325
+00:47:46,490 --> 00:47:47,719
+Leung Ping Kei: Is it okay?
+
+326
+00:48:18,010 --> 00:48:18,940
+Leung Ping Kei: All right?
+
+327
+00:48:19,800 --> 00:48:20,960
+Leung Ping Kei: Very good.
+
+328
+00:48:28,610 --> 00:48:29,320
+Leung Ping Kei: Bye.
+
+329
+00:49:00,570 --> 00:49:07,220
+Leung Ping Kei: Well, actually, you can see, you can see from, from here. Oh, by the way, I can. Okay.
+
+330
+00:49:07,930 --> 00:49:13,020
+Leung Ping Kei: Can you get, can you get 1 minus alpha B inverse?
+
+331
+00:49:13,330 --> 00:49:15,510
+Leung Ping Kei: Is equal to this expression.
+
+332
+00:49:19,480 --> 00:49:22,999
+Leung Ping Kei: Yes? Okay. How?
+
+333
+00:49:26,390 --> 00:49:27,599
+Leung Ping Kei: How'd you get this?
+
+334
+00:49:29,180 --> 00:49:34,110
+Leung Ping Kei: 1 minus, okay, let's say 1 minus A, inverse.
+
+335
+00:49:34,980 --> 00:49:40,240
+Leung Ping Kei: is equal to 1 plus A A squared plus A squared plus A cubed and so on.
+
+336
+00:49:40,400 --> 00:49:45,520
+Leung Ping Kei: This is what… Similar to… Sum of GP.
+
+337
+00:49:45,770 --> 00:49:47,620
+Leung Ping Kei: Sum of GP.
+
+338
+00:49:48,190 --> 00:49:52,569
+Leung Ping Kei: Right? Oh, next time, next time, I think I have to,
+
+339
+00:49:53,370 --> 00:50:07,279
+Leung Ping Kei: Get some pen here to write it on the board. Next time. I fought it yesterday, but I forgot to bring.
+
+340
+00:50:08,600 --> 00:50:09,470
+Leung Ping Kei: Okay.
+
+341
+00:50:09,790 --> 00:50:14,830
+Leung Ping Kei: So, by the way, actually, ok this, this can be,
+
+342
+00:50:15,110 --> 00:50:18,799
+Leung Ping Kei: Making use of binomial expansion.
+
+343
+00:50:20,610 --> 00:50:26,350
+Leung Ping Kei: binomial expansion, okay? However, okay, the power is minus 1.
+
+344
+00:50:31,660 --> 00:50:38,959
+Leung Ping Kei: Do you do you know? Okay, let's say let's say okay, N choose X. Okay, N choose X.
+
+345
+00:50:40,450 --> 00:50:50,869
+Leung Ping Kei: You know the factorial terms, right? N factorial divided by X factorial divided by N minus X factorial, right?
+
+346
+00:50:52,520 --> 00:50:56,359
+Leung Ping Kei: How about… Minus N choose X.
+
+347
+00:51:05,210 --> 00:51:07,650
+Leung Ping Kei: Minus N choose X.
+
+348
+00:51:15,370 --> 00:51:24,479
+Leung Ping Kei: Because, okay, most of the time when we do a binomial expansion, let's say it's a A plus BX to the power N.
+
+349
+00:51:24,910 --> 00:51:42,800
+Leung Ping Kei: Right? And then the, the coefficients are, okay, N choose 0, N choose 1, N choose 2, blah blah blah, up to N choose N. Right? Now, what happens if it is A plus BX to the power minus N?
+
+350
+00:51:44,460 --> 00:51:46,190
+Leung Ping Kei: How can you do this?
+
+351
+00:51:50,340 --> 00:51:51,840
+Leung Ping Kei: I tell you next time.
+
+352
+00:51:51,980 --> 00:51:54,780
+Leung Ping Kei: I tell you an example, I'll show it, okay?
+
+353
+00:51:55,030 --> 00:52:00,470
+Leung Ping Kei: The formula will be, okay, okay, if it is minus N choose X,
+
+354
+00:52:00,570 --> 00:52:06,529
+Leung Ping Kei: Okay? It is equal to minus 1 to the power X.
+
+355
+00:52:06,850 --> 00:52:07,930
+Leung Ping Kei: Times!
+
+356
+00:52:08,390 --> 00:52:13,229
+Leung Ping Kei: And… plus X, minus 1, choose X.
+
+357
+00:52:13,500 --> 00:52:21,420
+Leung Ping Kei: I will show you next time. I will show you next time. Okay? This is, okay, numerical analysis.
+
+358
+00:52:21,780 --> 00:52:30,090
+Leung Ping Kei: Numerical ANALYSIS Okay? I, I, I learned it, I learned it in, my ear freeze.
+
+359
+00:52:30,370 --> 00:52:34,919
+Leung Ping Kei: EFV, okay? Back in 1978.
+
+360
+00:52:39,280 --> 00:52:43,690
+Leung Ping Kei: 1978, oh my god.
+
+361
+00:52:44,440 --> 00:52:54,510
+Leung Ping Kei: So I got A from this numerical analysis. Numerical analysis. Oh, by the way, I want to ask to…
+
+362
+00:52:55,550 --> 00:53:00,450
+Leung Ping Kei: You know, Sue Factorio, Silo Factorio.
+
+363
+00:53:01,180 --> 00:53:02,150
+Leung Ping Kei: Right!
+
+364
+00:53:02,260 --> 00:53:03,879
+Leung Ping Kei: Is eager to what?
+
+365
+00:53:05,230 --> 00:53:07,090
+Leung Ping Kei: Silver Factorio.
+
+366
+00:53:13,930 --> 00:53:14,930
+Leung Ping Kei: Ha ha.
+
+367
+00:53:15,300 --> 00:53:16,080
+Leung Ping Kei: Hehe.
+
+368
+00:53:19,690 --> 00:53:27,310
+Leung Ping Kei: Silver factorial. Okay. Actually, you learn silver factorial in your secondary school, right?
+
+369
+00:53:28,260 --> 00:53:29,719
+Leung Ping Kei: Secondary school.
+
+370
+00:53:29,840 --> 00:53:32,680
+Leung Ping Kei: Okay? You know combination.
+
+371
+00:53:32,970 --> 00:53:37,780
+Leung Ping Kei: Combination and permutation. Then, you know, 0 factorial is 0.
+
+372
+00:53:39,230 --> 00:53:40,020
+Leung Ping Kei: 1.
+
+373
+00:53:40,780 --> 00:53:42,510
+Leung Ping Kei: Right? Why?
+
+374
+00:53:47,650 --> 00:53:49,190
+Leung Ping Kei: Why it is one?
+
+375
+00:53:50,010 --> 00:53:53,430
+Leung Ping Kei: At that time, what did your teacher tell you?
+
+376
+00:53:55,140 --> 00:53:56,470
+Leung Ping Kei: By definition.
+
+377
+00:53:56,760 --> 00:53:58,830
+Leung Ping Kei: By definition, isn't it?
+
+378
+00:54:00,910 --> 00:54:02,569
+Leung Ping Kei: Sumo Factovio.
+
+379
+00:54:02,690 --> 00:54:04,089
+Leung Ping Kei: Is equal to 1.
+
+380
+00:54:04,440 --> 00:54:06,430
+Leung Ping Kei: By definition, isn't it?
+
+381
+00:54:06,800 --> 00:54:07,900
+Leung Ping Kei: No.
+
+382
+00:54:09,650 --> 00:54:25,500
+Leung Ping Kei: It can be done. Gamma function, huh? Okay, I, I, I, I put the notes, huh? I put the notes, up on the blackboard, okay? Silver factorial, okay? Silver factorial is…
+
+383
+00:54:25,960 --> 00:54:28,430
+Leung Ping Kei: Calculated to 1.
+
+384
+00:54:28,830 --> 00:54:33,370
+Leung Ping Kei: Not by definition. Because it's hard to understand.
+
+385
+00:54:34,930 --> 00:54:48,319
+Leung Ping Kei: Hard to understand because you have to use integration by parts. Integration by parts. I learned it in my numerical analysis. Oh, yeah.
+
+386
+00:54:48,500 --> 00:54:53,220
+Leung Ping Kei: Okay, how about we take a break, okay? 10 minutes, okay?
+
+387
+01:05:25,570 --> 01:05:29,959
+Leung Ping Kei: Okay, let's start again, huh? Okay. Now.
+
+388
+01:05:30,650 --> 01:05:33,699
+Leung Ping Kei: The second topic is final order.
+
+389
+01:05:33,770 --> 01:05:51,729
+Leung Ping Kei: Okay? Now, XT is equal to, let's say, theta B applied to set T. And then, theta B is equal to beta, beta 0 plus beta 1B plus beta 2B squared plus blah blah blah up to beta M, BM.
+
+390
+01:05:51,800 --> 01:06:00,179
+Leung Ping Kei: APPLYED TO ZT. Or we can write it as submission. Beta i, ZT minus i, i from 0 to m.
+
+391
+01:06:00,260 --> 01:06:05,930
+Leung Ping Kei: This is MAM, okay? And remember that beta 0 is equal to 1.
+
+392
+01:06:06,980 --> 01:06:26,129
+Leung Ping Kei: So, an important concept related to moving average, okay? This is moving average, okay? Process is invertibility, invertible, okay? So, for an MA1 process, okay, XT equal to ZT plus beta ZT minus 1.
+
+393
+01:06:26,130 --> 01:06:37,350
+Leung Ping Kei: Okay, just one term, M is equal to one, M equal to one, and absolute value of beta less than one. Okay, usually it is slice between zero and one.
+
+394
+01:06:38,040 --> 01:06:44,950
+Leung Ping Kei: Or negative, it doesn't matter, okay? So, it is easy to see that, row 0 equal to 1.
+
+395
+01:06:45,480 --> 01:07:01,400
+Leung Ping Kei: Rho 1 equal to beta over 1 plus beta squared. And then, rho k equal to 0 for k greater than 1, okay? So, this is equation 3.4, okay? However, this formula, we can see it, okay?
+
+396
+01:07:09,900 --> 01:07:11,060
+Leung Ping Kei: Just like this.
+
+397
+01:07:11,290 --> 01:07:12,470
+Leung Ping Kei: Okay.
+
+398
+01:07:13,950 --> 01:07:22,240
+Leung Ping Kei: Since this is MA2, so you have row 1 and row 2, now MA1 is just row 1, just row 1, okay?
+
+399
+01:07:24,120 --> 01:07:37,380
+Leung Ping Kei: Or else, later on, I show you in my notes again, just like this, okay? Rho1 is beta over 1 plus beta squared, okay? And now consider the following process, okay? Now, okay?
+
+400
+01:07:38,240 --> 01:07:45,969
+Leung Ping Kei: ZT equal to… sorry, XT equal to ZT plus 1 over beta, ZT minus 1.
+
+401
+01:07:47,150 --> 01:08:02,439
+Leung Ping Kei: Alright? The, okay, the value now is not beta, it's 1 over beta. Okay? Now I can write it as ZT, okay, XT is 0, ZT plus B over beta. ZT.
+
+402
+01:08:03,000 --> 01:08:09,040
+Leung Ping Kei: Then I can write it as a 1 plus B over beta applied to set T.
+
+403
+01:08:09,570 --> 01:08:16,439
+Leung Ping Kei: In here, okay, since, absolute value of beta less than 1. Now.
+
+404
+01:08:17,029 --> 01:08:28,319
+Leung Ping Kei: 1 over beta, absolute value, must be greater than 1 in order to show that, okay, because we need this, absolute value of beta less than 1.
+
+405
+01:08:29,630 --> 01:08:30,580
+Leung Ping Kei: All right!
+
+406
+01:08:31,529 --> 01:08:36,080
+Leung Ping Kei: Therefore, the other way around, 1 over that, it must be greater than 1.
+
+407
+01:08:36,430 --> 01:08:46,769
+Leung Ping Kei: Okay, so this is equation 3.5. Okay, then, clearly, it has the same ACF autocorrelation function as the previous process.
+
+408
+01:08:47,540 --> 01:08:49,290
+Leung Ping Kei: Alright? Just like this.
+
+409
+01:08:50,460 --> 01:09:08,019
+Leung Ping Kei: So, there is an indeterminacy problem, indeterminacy, that means not besides uncertain, okay? Some problem exists, okay? And for, equation 3.4, 3.4, observe that, XT is 0 to 1 plus,
+
+410
+01:09:08,020 --> 01:09:11,488
+Leung Ping Kei: Beta times B applied to set T.
+
+411
+01:09:13,620 --> 01:09:26,698
+Leung Ping Kei: Alright? Just like this, okay? XT, I… I put, okay, ZT plus a beta times, ZT minus 1, so that I write it as a 1 plus a beta B.
+
+412
+01:09:26,880 --> 01:09:34,399
+Leung Ping Kei: APPLYED TO ZT Okay? Now, I divide this to the left-hand side.
+
+413
+01:09:34,779 --> 01:09:42,350
+Leung Ping Kei: Then, set T is equal to 1 plus a beta B inverse applied to XT.
+
+414
+01:09:43,470 --> 01:09:51,649
+Leung Ping Kei: Now, if, okay, 1 plus beta B inverse, that will be look like that, okay? I just show you this.
+
+415
+01:09:52,930 --> 01:10:01,590
+Leung Ping Kei: 1 plus beta B inverse is equal to 1 minus beta B plus beta squared B squared minus beta cubed B cubed.
+
+416
+01:10:01,770 --> 01:10:14,750
+Leung Ping Kei: And plus and minus, plus and minus, okay? If it is positive power, positive, okay? Even power, I mean even power, positive, odd power, negative, okay?
+
+417
+01:10:16,030 --> 01:10:18,009
+Leung Ping Kei: Therefore,
+
+418
+01:10:18,780 --> 01:10:33,580
+Leung Ping Kei: Just write it here, okay? Set T, set T is, you know, 1 plus beta B plus beta squared B squared minus beta cubed B cubed plus beta 4B to the power 4 minus, and so on. Apply to set T, XC.
+
+419
+01:10:33,580 --> 01:10:50,869
+Leung Ping Kei: Now, XT, okay, I expand them, okay, XT minus beta XT minus 1 plus beta squared XT minus 2 minus beta cubed XT minus 3 plus beta 4 to the, times XT minus 4, and so on.
+
+420
+01:10:51,220 --> 01:10:54,549
+Leung Ping Kei: All right, therefore you can buy, you can have this.
+
+421
+01:10:54,910 --> 01:10:55,870
+Leung Ping Kei: Formula.
+
+422
+01:10:57,120 --> 01:10:58,319
+Leung Ping Kei: Is that okay?
+
+423
+01:11:03,140 --> 01:11:09,920
+Leung Ping Kei: Okay, when the coefficient on the right-hand side is decaying and convergent, okay?
+
+424
+01:11:10,310 --> 01:11:14,159
+Leung Ping Kei: In here, okay, the left-hand side, okay, decaying.
+
+425
+01:11:15,510 --> 01:11:31,919
+Leung Ping Kei: Then, the other way around, for, section, I mean, a formula, 3.5, is 1 over beta, okay? 1 over beta. Therefore, I can write it more or less like this. More or less like this. However, the beta.
+
+426
+01:11:31,920 --> 01:11:48,710
+Leung Ping Kei: I change to 1 over beta. Therefore, set T equal to XT minus 1 over beta XT minus 1 plus 1 over beta squared XT minus 2 and minus and so on. I call it equation 3.5 star.
+
+427
+01:11:48,730 --> 01:11:49,620
+Leung Ping Kei: Okay.
+
+428
+01:11:53,590 --> 01:12:03,360
+Leung Ping Kei: So the coefficient on the right-hand side are not decaying. 1 over beta, 1 over beta squared are not decaying and not convergent.
+
+429
+01:12:03,370 --> 01:12:14,180
+Leung Ping Kei: Okay? The representation is not meaningful, as that suggests the error's dependence on, XT increases as we go back, in time.
+
+430
+01:12:14,810 --> 01:12:19,669
+Leung Ping Kei: Alright? There is a T minus 2 is go back in time, okay?
+
+431
+01:12:20,340 --> 01:12:37,630
+Leung Ping Kei: And in general, for a MA process, XT is 0, data B applied to set T, okay? If the representation set T is 0, okay, the inverse of data B, okay, inverse of data B applied to XT, just like this, okay?
+
+432
+01:12:38,160 --> 01:12:47,529
+Leung Ping Kei: Set T equal to the inverse of the operator theta B applied to XT has this behavior.
+
+433
+01:12:47,780 --> 01:12:51,050
+Leung Ping Kei: Then the time series XT is not invertible.
+
+434
+01:12:51,760 --> 01:12:59,829
+Leung Ping Kei: And, intuitively, a non-invertible time series may have problem in statistical estimation.
+
+435
+01:13:00,910 --> 01:13:01,900
+Leung Ping Kei: All right?
+
+436
+01:13:02,910 --> 01:13:06,609
+Leung Ping Kei: That means that it will affect the estimation.
+
+437
+01:13:06,790 --> 01:13:21,779
+Leung Ping Kei: Okay, now, for MA1, we, restricting, absolute value of, beta less than 1, absolute value of beta, will resolve, both the indeterminacy and convergence problem.
+
+438
+01:13:21,780 --> 01:13:36,299
+Leung Ping Kei: For our general MAQ process, we have the following theorem. A necessary and sufficient condition for a finite order MA process to be invertible is that
+
+439
+01:13:36,300 --> 01:13:44,900
+Leung Ping Kei: All the roots, okay, all the roots of the polynomial theta p must lie outside the unit circle.
+
+440
+01:13:45,110 --> 01:13:47,190
+Leung Ping Kei: Outside the unit circle.
+
+441
+01:13:48,230 --> 01:13:49,220
+Leung Ping Kei: All right!
+
+442
+01:13:49,910 --> 01:13:57,039
+Leung Ping Kei: Please take a look, okay? Outside the unit circle. All the roots lie outside the unit circle.
+
+443
+01:13:57,470 --> 01:14:00,080
+Leung Ping Kei: Okay? You know, you know the unit circle?
+
+444
+01:14:00,730 --> 01:14:01,610
+Leung Ping Kei: Right?
+
+445
+01:14:01,740 --> 01:14:08,850
+Leung Ping Kei: The unit circle is just like that, okay? Unit circle. The unit, okay, the radius is 1.
+
+446
+01:14:09,720 --> 01:14:11,339
+Leung Ping Kei: The radius is 1.
+
+447
+01:14:11,680 --> 01:14:18,700
+Leung Ping Kei: The unit circle, okay, radius is 1. Therefore, all the roots must be greater than 1.
+
+448
+01:14:18,830 --> 01:14:24,700
+Leung Ping Kei: Must be greater than 1, greater than or equal to 1, okay, okay.
+
+449
+01:14:29,040 --> 01:14:30,190
+Leung Ping Kei: Is it okay?
+
+450
+01:14:43,670 --> 01:14:53,510
+Leung Ping Kei: Then, we keep on, okay? 3.4.2, finite order autoregressive processes, okay? ARM, ARM, okay?
+
+451
+01:14:53,510 --> 01:15:09,090
+Leung Ping Kei: Auto-regressive, okay? Consider the process, xt, e to the alpha 1 xt minus 1 plus alpha 2 xt minus 2 plus blah blah blah, alpha m, xt minus m, plus set t, equation 3.6, okay?
+
+452
+01:15:09,370 --> 01:15:13,490
+Leung Ping Kei: So, in operator form, okay? 5B, okay?
+
+453
+01:15:13,490 --> 01:15:37,780
+Leung Ping Kei: Phi B applied to Xt. That means I take all these terms, alpha 1 Xt minus 1 plus alpha 2 Xt minus 2 plus alpha m Xt minus m to the left-hand side. Then it changed to Xt minus alpha 1 Xt minus 1 minus alpha 2 Xt minus 2 and then minus alpha m Xt minus m.
+
+454
+01:15:37,780 --> 01:15:44,170
+Leung Ping Kei: is equal to set T. So that those variables are included in this operator.
+
+455
+01:15:44,770 --> 01:15:46,980
+Leung Ping Kei: 5B, okay?
+
+456
+01:15:47,290 --> 01:15:53,169
+Leung Ping Kei: Phi B applied to XT equal to ZT, where Phi B is a polynomial of degree M.
+
+457
+01:15:53,370 --> 01:16:03,240
+Leung Ping Kei: Okay? Temporary, assume, stationary. Then, expectation of, XT is zero, because expectation of XT, okay?
+
+458
+01:16:03,370 --> 01:16:18,519
+Leung Ping Kei: It's equal to ZT is zero. So multiply 3.6, not 5.4, 3.6 by t, xt minus k, and take expectation. Then we will get gamma k.
+
+459
+01:16:19,190 --> 01:16:20,280
+Leung Ping Kei: Okay?
+
+460
+01:16:20,720 --> 01:16:42,170
+Leung Ping Kei: XT times XT minus K, and then take expectation. Then we have, gamma K, which is equal to alpha 1 times gamma 1, gamma K minus 1, plus alpha 2 times gamma K minus 2, plus blah blah blah, alpha M times gamma K minus M, where K going from 1, 2, blah blah blah, and so on.
+
+461
+01:16:42,900 --> 01:16:43,859
+Leung Ping Kei: All right!
+
+462
+01:16:44,190 --> 01:16:46,760
+Leung Ping Kei: Then, in particular, if I divide the…
+
+463
+01:16:47,070 --> 01:17:04,189
+Leung Ping Kei: Gamma K by gamma 0. Then I have a rho K. It's equal to alpha 1, rho K minus 1, plus alpha 2, rho K minus 2, plus blah blah blah, alpha M, rho K minus M. K is going from 1, 2, blah blah blah, and so on. Equation 3.7.
+
+464
+01:17:04,440 --> 01:17:09,969
+Leung Ping Kei: So, equation 3.7 are known as Jourocker equation.
+
+465
+01:17:10,410 --> 01:17:26,839
+Leung Ping Kei: You work equation. In principle, they can be solved to give rho k in terms of alpha i, alpha i, not capital letter i, okay, alpha i, and vice versa.
+
+466
+01:17:27,640 --> 01:17:33,700
+Leung Ping Kei: Then we can write, equation 3.7 as a, okay, a matrix, okay?
+
+467
+01:17:35,330 --> 01:17:38,259
+Leung Ping Kei: Okay, row 1 up to row M.
+
+468
+01:17:38,430 --> 01:17:48,190
+Leung Ping Kei: is equal to M by M, M by M, okay, 1 to M minus 1, M by M matrix times alpha 1 up to alpha M.
+
+469
+01:17:49,080 --> 01:18:07,340
+Leung Ping Kei: And remember that, okay, rho k is 0, rho minus k, they are the same. That is, more or less like, gamma k is 0, gamma negative k, okay, for seasonality. That is, rho, okay, rho, okay, the left-hand side is equal to R.
+
+470
+01:18:07,610 --> 01:18:10,950
+Leung Ping Kei: M by M matrix, okay, times alpha.
+
+471
+01:18:11,060 --> 01:18:18,359
+Leung Ping Kei: Okay, rho is a column vector, alpha is a column vector, R is M by M matrix.
+
+472
+01:18:18,510 --> 01:18:30,210
+Leung Ping Kei: Okay, so usually this row one up to row M, okay, we we use okay, sample autocorrelation function, 5KK.
+
+473
+01:18:30,490 --> 01:18:33,609
+Leung Ping Kei: Sample autocorrelation function, okay?
+
+474
+01:18:34,260 --> 01:18:35,300
+Leung Ping Kei: Sample.
+
+475
+01:18:36,240 --> 01:18:54,109
+Leung Ping Kei: So, don't worry, I will repeat this again, okay, in my notes, okay. And provided that, okay, R inverse exists, okay, defined, then we have alpha is 0, R inverse times rho.
+
+476
+01:18:54,220 --> 01:19:09,709
+Leung Ping Kei: Okay? That is, given the first M autocorrelations, or estimate of the correlation parameters, then the M of order autoregressive process may be obtained.
+
+477
+01:19:10,060 --> 01:19:11,660
+Leung Ping Kei: Or estimated.
+
+478
+01:19:15,310 --> 01:19:16,290
+Leung Ping Kei: All right?
+
+479
+01:19:18,030 --> 01:19:22,139
+Leung Ping Kei: Okay, so, the theorem, okay?
+
+480
+01:19:22,480 --> 01:19:37,329
+Leung Ping Kei: The film is telling you that a necessary and sufficient condition for the stationarity of the autoregressive process, phi B applied to XT is equal to ZT, where phi B is a polynomial in B of order M.
+
+481
+01:19:37,520 --> 01:19:44,669
+Leung Ping Kei: Is that… The roots of the equation are 5B equal to 0, okay?
+
+482
+01:19:45,000 --> 01:19:49,549
+Leung Ping Kei: Should all lie outside the unit circle, greater than one.
+
+483
+01:19:49,690 --> 01:19:52,829
+Leung Ping Kei: Strictly greater than one, okay?
+
+484
+01:19:54,190 --> 01:19:55,230
+Leung Ping Kei: Okay.
+
+485
+01:19:55,370 --> 01:20:05,449
+Leung Ping Kei: Now, okay, since this is a theorem for M, okay, for order M, now we just use a proof of, okay, M equal to 2.
+
+486
+01:20:05,910 --> 01:20:10,459
+Leung Ping Kei: Easier. It will be easier for you to, to…
+
+487
+01:20:12,170 --> 01:20:28,479
+Leung Ping Kei: To show the theorem, okay? We first show that AR2 case, okay? That is, XT is here, 51XT minus 1, plus 52XT minus 2 plus, epsilon T. That's like set T, okay?
+
+488
+01:20:28,490 --> 01:20:42,830
+Leung Ping Kei: So the solution of the homogeneous difference equation is that, okay, xt, I take these two to the left-hand side. xt minus 5, 1, xt minus 1, minus 5, 2, xt minus 2, set it equal to 0.
+
+489
+01:20:43,210 --> 01:20:52,000
+Leung Ping Kei: And then it will give a homogeneous answer. And depends on the roots, R1, R2.
+
+490
+01:20:52,580 --> 01:21:02,700
+Leung Ping Kei: Okay, R1, R2. Of the equation, 1 minus, 5Z, minus 5 squared, 52Z squared, equal to 0.
+
+491
+01:21:03,140 --> 01:21:04,080
+Leung Ping Kei: Okay?
+
+492
+01:21:04,730 --> 01:21:09,119
+Leung Ping Kei: Which we shall assume that they are distinct.
+
+493
+01:21:09,170 --> 01:21:32,590
+Leung Ping Kei: They are not the same. And although they may be complex, there is a complex, it's a square root of minus one is i. And the complementary function is of the form xt is equal to k1 times 1 over r1 to the power t plus k2 times 1 over r2 to the power t.
+
+494
+01:21:33,120 --> 01:21:46,449
+Leung Ping Kei: Where K1, K2 are constants, depends on initial condition. And then, R1 and R2 are the roots, okay? So, the particular solution is that, the infinite MA
+
+495
+01:21:46,870 --> 01:22:01,420
+Leung Ping Kei: representation. XT is equal to the inverse of, 5B, okay? Inverse of 5B applied to, epsilon T. I just called, PSI, okay? This one is, PSI.
+
+496
+01:22:01,620 --> 01:22:07,670
+Leung Ping Kei: PSI, Psi of P, applied to epsilon T, okay?
+
+497
+01:22:08,740 --> 01:22:16,800
+Leung Ping Kei: Then the general solution to the AR difference equation is that, okay, the sum of this and the sum of that.
+
+498
+01:22:16,850 --> 01:22:30,909
+Leung Ping Kei: Okay? There is, okay, so, this, you, you may, you may, refer back to page 2, 3.3, page 2, okay? Just like this, okay? The theorem, okay? I, I give you back,
+
+499
+01:22:33,670 --> 01:22:34,560
+Leung Ping Kei: Oops.
+
+500
+01:22:44,780 --> 01:22:51,570
+Leung Ping Kei: To, okay. Is this… Equation 3.3. Similar.
+
+501
+01:22:51,750 --> 01:22:53,770
+Leung Ping Kei: Similar to this, okay?
+
+502
+01:22:55,590 --> 01:22:57,270
+Leung Ping Kei: Just like this, huh? Okay.
+
+503
+01:23:14,950 --> 01:23:19,169
+Leung Ping Kei: So, this will be our, okay, solution.
+
+504
+01:23:19,430 --> 01:23:40,890
+Leung Ping Kei: Okay? The general solution, is the, particular solution plus, the special solution. Okay, K1 times 1 over R1 to the power T, plus K2 times 1 over R2 over, to the power T, plus sum of psi J times epsilon T minus J, J from 0 to infinity.
+
+505
+01:23:41,090 --> 01:23:50,439
+Leung Ping Kei: Okay? So, for the model to have a constant mean, and the complementary function must decay for large value of T.
+
+506
+01:23:50,600 --> 01:23:55,329
+Leung Ping Kei: So that, we require that, 1 over R1, less than 1.
+
+507
+01:23:55,670 --> 01:24:04,199
+Leung Ping Kei: And 1 over R2 less than 1. Then, the other way round, R1, R2 must be strictly greater than 1.
+
+508
+01:24:05,200 --> 01:24:07,119
+Leung Ping Kei: Outside the unit circle.
+
+509
+01:24:07,600 --> 01:24:08,570
+Leung Ping Kei: All right.
+
+510
+01:24:13,900 --> 01:24:29,650
+Leung Ping Kei: Moreover, the AR polynomial takes the form, okay, 5B, 5B, okay, is 1 minus B over R1 times 1 minus B over R2, where R1, R2 are its roots.
+
+511
+01:24:29,650 --> 01:24:53,690
+Leung Ping Kei: Okay? A particular solution, XT is 0, psi B applied to epsilon T, or the phi inverse, okay? Psi, this is PSI, psi, and this one is phi, okay? Phi inverse of B applied to epsilon T. Therefore, this one, you may have an infinite series. So, using the partial fraction, we can write
+
+512
+01:24:53,690 --> 01:24:54,430
+Leung Ping Kei: Okay.
+
+513
+01:24:54,640 --> 01:24:55,880
+Leung Ping Kei: Like this.
+
+514
+01:24:56,220 --> 01:25:06,840
+Leung Ping Kei: The phi inverse of B is equal to A over, okay, 1 minus B over R1 plus B over 1 plus, 1 minus B over R2.
+
+515
+01:25:08,340 --> 01:25:13,769
+Leung Ping Kei: Alright? Then, for this part, where A and B are constant.
+
+516
+01:25:14,350 --> 01:25:31,680
+Leung Ping Kei: each of the terms are in, phi inverse of B, okay, can be expanded, for instance, the first one, A over 1 minus 1 over R1B, okay, is that, A times, okay, the reciprocal of this, okay, is 1 plus
+
+517
+01:25:31,680 --> 01:25:41,860
+Leung Ping Kei: 1 over R1B plus 1 over R1B squared and then plus 1 over R1B cubed and so on.
+
+518
+01:25:42,020 --> 01:26:00,209
+Leung Ping Kei: And then at the second term, I write it here, okay, B times 1 plus, okay, 1 over R2B plus 1 over R2B squared, holding squared, and then 1 over R2B holding cubed, and so on.
+
+519
+01:26:00,750 --> 01:26:01,710
+Leung Ping Kei: Alright!
+
+520
+01:26:01,930 --> 01:26:17,089
+Leung Ping Kei: So, if the variance of XT, okay, is to, converge, we require that, okay, 1 over absolute value of R1 less than 1, 1 over R2 less than 1.
+
+521
+01:26:17,590 --> 01:26:24,140
+Leung Ping Kei: Therefore, R1, okay, absolute variable, R1 greater than 1, and R2 greater than 1.
+
+522
+01:26:24,390 --> 01:26:25,370
+Leung Ping Kei: Okay.
+
+523
+01:26:25,760 --> 01:26:38,760
+Leung Ping Kei: Hence, the condition for an AR2 model to be stationary is that both the roots R1 and R2 of AR polynomial are outside the unit circle.
+
+524
+01:26:39,370 --> 01:26:43,560
+Leung Ping Kei: Okay? This is, the proof, of.
+
+525
+01:26:47,170 --> 01:26:50,759
+Leung Ping Kei: Model 2, okay. AR2.
+
+526
+01:26:51,460 --> 01:26:55,229
+Leung Ping Kei: Okay? And if we expand it, okay?
+
+527
+01:26:55,830 --> 01:27:07,740
+Leung Ping Kei: Just like this, okay? Similar logic can be applied to a general ARP, okay? Then, assume the roots of all the corresponding AR polynomial.
+
+528
+01:27:08,330 --> 01:27:14,680
+Leung Ping Kei: is that, okay, that are distinct and denote R1 up to RP, okay?
+
+529
+01:27:14,680 --> 01:27:28,409
+Leung Ping Kei: Therefore, K1 times 1 over R1 to the party, plus K2 times 1 over R2 to the party, plus blah blah blah, KP times 1 over RP to the party. So this is, okay, PF, ARP, okay?
+
+530
+01:27:28,410 --> 01:27:41,959
+Leung Ping Kei: That's similar to AR2, okay? Argument, if the roots are all lie outside the unit circle, so the complementary will decay to zero, and velocity and the model will be stationary.
+
+531
+01:27:44,500 --> 01:27:55,930
+Leung Ping Kei: And the other way around, conversely, okay, the model is stationary and does have finite variance, okay? Now we let, let's say, lambda i is equal to 1 over ri.
+
+532
+01:27:56,150 --> 01:27:59,330
+Leung Ping Kei: Then, XT is equal to…
+
+533
+01:27:59,880 --> 01:28:14,300
+Leung Ping Kei: Phi inverse of P applied to epsilon t is equal to pi of 1 minus lambda i P. Holding inverse. Holding inverse.
+
+534
+01:28:14,850 --> 01:28:17,390
+Leung Ping Kei: Okay? Applied to F20.
+
+535
+01:28:18,460 --> 01:28:24,550
+Leung Ping Kei: So assume again that the roots are distinct and lie outside the unit circle.
+
+536
+01:28:24,550 --> 01:28:39,789
+Leung Ping Kei: And then xt now is equal to sum, okay, the sum of AI over 1 minus lambda p, okay? Sum I from 1 up to p applied to epsilon t, just like this.
+
+537
+01:28:43,730 --> 01:28:44,910
+Leung Ping Kei: Okay.
+
+538
+01:28:45,120 --> 01:28:52,450
+Leung Ping Kei: Since, we are AR2, AR2, two of them, now we have, Three of them.
+
+539
+01:28:52,750 --> 01:28:56,550
+Leung Ping Kei: Okay? AI over 1 minus lambda B.
+
+540
+01:28:56,900 --> 01:29:02,640
+Leung Ping Kei: And then the whole thing applied to epsilon T. This is a 5B, okay? 5 inverse of B.
+
+541
+01:29:02,900 --> 01:29:17,470
+Leung Ping Kei: Phi inverse of B, okay? So that, don't worry, okay? We will not have, okay, more than two. Okay? So most of the time, we will be working at, okay, AL2.
+
+542
+01:29:18,940 --> 01:29:23,790
+Leung Ping Kei: 2 only, huh? Okay? This will be… this will be terrible.
+
+543
+01:29:24,080 --> 01:29:31,529
+Leung Ping Kei: Terrible, okay? Terrible, okay? It may be, ask you to write down the…
+
+544
+01:29:32,100 --> 01:29:42,130
+Leung Ping Kei: The formula, it might be like that. Then for suitable AIs, therefore, Xt is equal to the double sum.
+
+545
+01:29:42,130 --> 01:30:00,240
+Leung Ping Kei: Okay? i from 1 up to p, the first one. And then the second sum is that, okay, extend 1 minus, 1 over 1 minus lambda i p is this, okay? ai times, okay, 1 over 1 minus lambda p is lambda i p to the power j.
+
+546
+01:30:00,470 --> 01:30:09,260
+Leung Ping Kei: Okay? That's why I write it as, okay, the submission J from 0 to infinity is this one. AI times 1 over.
+
+547
+01:30:09,690 --> 01:30:10,560
+Leung Ping Kei: Okay?
+
+548
+01:30:10,900 --> 01:30:13,150
+Leung Ping Kei: One minus lambda IP.
+
+549
+01:30:13,270 --> 01:30:15,000
+Leung Ping Kei: APPLIED TO APPLAUNTY.
+
+550
+01:30:15,100 --> 01:30:30,600
+Leung Ping Kei: Then it can be written as a double sum, okay? I from 1 up to P, the first part, and then the second sum, okay, for the inverse of this, okay, AI times lambda IJ, P to the J, epsilon, T.
+
+551
+01:30:30,600 --> 01:30:40,070
+Leung Ping Kei: j from 0 to infinity. Then I put b to the j to epsilon t. Therefore epsilon t minus j.
+
+552
+01:30:40,070 --> 01:30:41,739
+Leung Ping Kei: Therefore, it is double sum.
+
+553
+01:30:42,030 --> 01:30:51,580
+Leung Ping Kei: i from 1 to P. Another sum, J from 0 to infinity, AI times lambda i to the power J, epsilon T minus J.
+
+554
+01:30:53,660 --> 01:30:54,730
+Leung Ping Kei: All right?
+
+555
+01:30:56,370 --> 01:30:58,509
+Leung Ping Kei: They're probably at this, okay?
+
+556
+01:30:58,680 --> 01:31:01,239
+Leung Ping Kei: XT is equal to SUM.
+
+557
+01:31:01,350 --> 01:31:11,899
+Leung Ping Kei: A double sum, i from 1 up to p, j from 0 to infinity, ai times lambda i to the power j times epsilon t minus j.
+
+558
+01:31:12,240 --> 01:31:23,120
+Leung Ping Kei: And then the variance, if you take the variance through, okay? So, all these are constant. Therefore, variance of epsilon t minus 6 is sigma squared.
+
+559
+01:31:23,120 --> 01:31:34,749
+Leung Ping Kei: Therefore, it's double sum, sigma squared times double sum, okay? i from 1 up to p, j from 0 to infinity, ai squared times lambda i to the power 2j.
+
+560
+01:31:35,060 --> 01:31:39,960
+Leung Ping Kei: Okay? All of them are square. Or you can put it like this, okay?
+
+561
+01:31:40,190 --> 01:31:57,299
+Leung Ping Kei: Sigma squared times the sum of 8i squared i from 1 to p times the sum lambda i to the power 2j, j from 0 to infinity. So, variance of XC is finite in price set of the absolute values of lambda i's are less than 1.
+
+562
+01:31:58,890 --> 01:32:01,220
+Leung Ping Kei: Okay? Namda I is what?
+
+563
+01:32:01,730 --> 01:32:10,510
+Leung Ping Kei: 1 over Ri, 1 over Ri, alright? Therefore, Ri greater than 1, lambda i must be less than 1.
+
+564
+01:32:10,920 --> 01:32:11,890
+Leung Ping Kei: Okay.
+
+565
+01:32:12,830 --> 01:32:19,080
+Leung Ping Kei: Okay, so, okay, we take a look in my, notes.
+
+566
+01:32:19,280 --> 01:32:22,410
+Leung Ping Kei: Oh, no, it's… A.
+
+567
+01:32:22,810 --> 01:32:23,620
+Leung Ping Kei: Here!
+
+568
+01:32:32,030 --> 01:32:33,990
+Leung Ping Kei: So we have this, huh? Okay.
+
+569
+01:32:34,300 --> 01:32:36,120
+Leung Ping Kei: Just a…
+
+570
+01:32:36,340 --> 01:32:47,529
+Leung Ping Kei: Repeated, repeated, okay? So 1 over beta, okay? 3.5, okay? So 1 over beta greater than 0, okay? And, absolute value of beta less than 1.
+
+571
+01:32:48,350 --> 01:32:50,940
+Leung Ping Kei: Therefore, we have that.
+
+572
+01:32:52,890 --> 01:33:04,800
+Leung Ping Kei: We take the inverse to the left-hand side, okay? ZT is equal to 1 plus beta B inverse, okay? Applied to XT. Therefore, it is, okay.
+
+573
+01:33:05,010 --> 01:33:21,199
+Leung Ping Kei: 1 minus beta B plus beta squared B squared minus B cubed B to the cubed, and then plus beta to the 4, B to the power 4, and minus plus minus plus, and so on, applied to XT, okay? This is a written form.
+
+574
+01:33:21,240 --> 01:33:26,570
+Leung Ping Kei: Modify to XT, and then apply to PT, okay?
+
+575
+01:33:28,430 --> 01:33:43,240
+Leung Ping Kei: So the coefficient on the right-hand side is decaying and convergent. Since beta are less than 1, therefore the square of this must be what? Less than 1.
+
+576
+01:33:44,210 --> 01:33:48,390
+Leung Ping Kei: Smaller, okay? So, we have this.
+
+577
+01:33:49,360 --> 01:33:57,510
+Leung Ping Kei: Equation 3.5, we take the inverse of this to the left-hand side, so that we have this.
+
+578
+01:33:57,750 --> 01:34:15,069
+Leung Ping Kei: Okay? Similar to this, but we replace beta by 1 over beta, okay? Beta squared, 1 over beta squared, okay? Beta cubed, 1 over beta cubed, and so on. Therefore, I call it equation 3.5 star, okay?
+
+579
+01:34:15,070 --> 01:34:23,100
+Leung Ping Kei: Hence, the coefficients on the right-hand side are not decaying and not convergent.
+
+580
+01:34:23,100 --> 01:34:31,119
+Leung Ping Kei: 3.5 star, okay? So, MA1, I can write it as, okay, AL infinity.
+
+581
+01:34:31,210 --> 01:34:38,310
+Leung Ping Kei: Okay? Just like, the other way around, AR1, I can, write it as, MA infinity.
+
+582
+01:34:38,630 --> 01:34:45,420
+Leung Ping Kei: Now, the other way around, okay? MA1, I can, use, AR infinity to model it.
+
+583
+01:34:45,690 --> 01:34:46,890
+Leung Ping Kei: All right?
+
+584
+01:34:47,010 --> 01:35:04,600
+Leung Ping Kei: Now, we have, HT, okay, for, for, for the previous one, okay, HT is here, data B, applied to set T. Then, I take the, this, to, to the left-hand side. I divide this to the left-hand side. Therefore, set T is equal to the inverse of data B.
+
+585
+01:35:04,750 --> 01:35:10,499
+Leung Ping Kei: Okay? Applied to XT. So, this is equation 3.5 star.
+
+586
+01:35:11,480 --> 01:35:18,470
+Leung Ping Kei: So if 3.5 star is uncertain, then the time series Xt is not invertible.
+
+587
+01:35:18,670 --> 01:35:31,220
+Leung Ping Kei: Okay? Since the coefficients are, what? Not, not decaying, that means, not, not, smaller, okay? It's.
+
+588
+01:35:31,310 --> 01:35:41,289
+Leung Ping Kei: You may consider it is larger and larger. However, a non-invertible time series may also have problem in statistical estimation.
+
+589
+01:35:42,250 --> 01:35:58,410
+Leung Ping Kei: Now, we have a finite order autoregressive process, ARM. So xt, alpha 1 xt minus 1 plus alpha 2 xt minus 2 plus blah, blah, blah, xt minus — alpha m xt minus m plus zt.
+
+590
+01:35:58,410 --> 01:36:04,820
+Leung Ping Kei: Now I take this to the left-hand side, and then rewrite it, okay? Therefore, ZT is equal to
+
+591
+01:36:04,820 --> 01:36:15,149
+Leung Ping Kei: XT minus alpha 1, XT minus 1, minus X2, alpha 2, XT minus 2, minus blah blah blah, up to alpha M, XT minus M.
+
+592
+01:36:15,690 --> 01:36:22,069
+Leung Ping Kei: Now I put in the B's, okay? XT minus R1BXT.
+
+593
+01:36:22,380 --> 01:36:34,410
+Leung Ping Kei: minus alpha square… alpha 2, B squared, XT, minus blah blah blah, up to, minus alpha M, B to M, XT. Now, I can.
+
+594
+01:36:35,020 --> 01:36:50,830
+Leung Ping Kei: factorized, okay, into, 1 minus alpha 1B minus alpha 2B squared minus blah blah blah up to minus alpha MP to the M, applied to XT. Therefore, this is our 5P.
+
+595
+01:36:50,990 --> 01:36:51,880
+Leung Ping Kei: Okay.
+
+596
+01:36:53,660 --> 01:36:59,480
+Leung Ping Kei: 5B, that is the inverse of data B, the inverse of data B.
+
+597
+01:37:02,450 --> 01:37:04,769
+Leung Ping Kei: Just like this, huh? Okay.
+
+598
+01:37:04,890 --> 01:37:10,300
+Leung Ping Kei: The inverse of theta B, I just call it, okay, phi B, phi B.
+
+599
+01:37:11,690 --> 01:37:25,119
+Leung Ping Kei: Okay? Assume stationary, and then, expectation of XT equal to 0. Then we consider, the multiple of, 3.6, okay, this, by XT minus K, and then take expectation.
+
+600
+01:37:25,120 --> 01:37:36,720
+Leung Ping Kei: So that xt times xt minus k, I write it as alpha 1, xt minus 1, xt minus k, plus alpha 2, xt minus 2, xt minus k.
+
+601
+01:37:36,780 --> 01:37:44,950
+Leung Ping Kei: up to blah blah blah, alpha M, XT minus M, XT minus K, plus ZT times XT minus K.
+
+602
+01:37:45,750 --> 01:37:56,409
+Leung Ping Kei: Now, I, take expectation, okay? Gamma K, gamma K, expectation of XT, XT minus K. I can write it as, okay, alpha 1,
+
+603
+01:37:57,780 --> 01:38:21,839
+Leung Ping Kei: Time expectation of XT minus 1, XT minus K, plus alpha 2 times expectation of XT minus 2, XT minus K, plus blah blah blah up to alpha M times expectation of XT minus M, XT minus K, and then plus expectation of XST times expectation of XT minus K. Since expectation of SETI is what?
+
+604
+01:38:21,930 --> 01:38:36,240
+Leung Ping Kei: 0, therefore the last term will be canceled out. Therefore, I can write it as alpha 1 times, okay, this is gamma, okay, T minus 1 minus T plus K, therefore it's K minus 1.
+
+605
+01:38:37,180 --> 01:38:46,449
+Leung Ping Kei: Alright? T minus 1 minus, okay, T plus K. Therefore, it's K minus 1. Therefore, this is gamma K minus 1.
+
+606
+01:38:47,110 --> 01:38:53,239
+Leung Ping Kei: Plus, okay, alpha 2 times, okay, T minus 2 minus T plus K.
+
+607
+01:38:53,560 --> 01:38:55,489
+Leung Ping Kei: Therefore, it's K minus 2.
+
+608
+01:38:56,230 --> 01:39:07,659
+Leung Ping Kei: Alright? Plus alpha 2, gamma k minus 2, plus blah blah blah, up to alpha m, gamma k minus m. Where k going from 1 to m?
+
+609
+01:39:08,750 --> 01:39:12,419
+Leung Ping Kei: And then I divide top and bottom by
+
+610
+01:39:12,710 --> 01:39:15,599
+Leung Ping Kei: Gamma civil, therefore I got a road kid.
+
+611
+01:39:16,100 --> 01:39:29,159
+Leung Ping Kei: Rho k is equal to alpha 1 times rho k minus 1 plus alpha 2 rho k minus 2 plus blah blah blah alpha m times rho k minus m. K going from 1 to m.
+
+612
+01:39:29,210 --> 01:39:45,689
+Leung Ping Kei: Okay? Equation 3.7. And this is called Europa equation. Okay? So, in principle, 3.7 can be solved to give rho k in terms of other i's and vice versa.
+
+613
+01:39:45,690 --> 01:39:50,340
+Leung Ping Kei: Okay? So, we use a matrix form.
+
+614
+01:39:50,420 --> 01:39:56,230
+Leung Ping Kei: Matrix form, okay? 3.7, I can be written as a… Matrix form.
+
+615
+01:39:57,800 --> 01:40:08,750
+Leung Ping Kei: Row 1 up to row M, okay? This is a M by M by M matrix, okay? You can see that, okay? 1, row 1, row 2, up to row M minus 1.
+
+616
+01:40:09,020 --> 01:40:13,840
+Leung Ping Kei: And then row one, one, okay? The diagonal is one.
+
+617
+01:40:13,840 --> 01:40:15,560
+Leung Ping Kei: The diagonal is 1.
+
+618
+01:40:15,560 --> 01:40:37,040
+Leung Ping Kei: And then, okay, exclude row 2, okay? It's replaced by 1. Row 3, blah blah blah, up to row n-2. And then, row 2, row 3, 1, and then blah blah blah, up to row n-3. You can see that, okay, this is from row 1, row 2, up to row n-1. And this one is the other way around.
+
+619
+01:40:37,520 --> 01:40:41,439
+Leung Ping Kei: Rho, n minus 1, n minus 2, n minus 3, up to 1.
+
+620
+01:40:41,720 --> 01:40:49,930
+Leung Ping Kei: Okay? And then, as you can see that, this is, okay, M1, M minus 2, M minus 3, and so on.
+
+621
+01:40:51,020 --> 01:40:53,860
+Leung Ping Kei: And then times alpha 1 up to alpha m.
+
+622
+01:40:55,600 --> 01:40:56,620
+Leung Ping Kei: All right.
+
+623
+01:40:56,890 --> 01:41:04,800
+Leung Ping Kei: Remember that, rho k is equal to, rho minus k, and then, rho 0 is equal to 1, for stationary XT.
+
+624
+01:41:05,240 --> 01:41:24,590
+Leung Ping Kei: Then, rho, rho, is M by 1 matrix, vector. And then, R is M by M matrix. And then alpha is M by 1 vector. Then, provided, the inverse of R exists. Notice that, RM by M is symmetric.
+
+625
+01:41:24,590 --> 01:41:30,350
+Leung Ping Kei: Hence, we have that, the inverse, alpha, m by 1.
+
+626
+01:41:30,350 --> 01:41:34,809
+Leung Ping Kei: is equal to R inverse times rho m by 1.
+
+627
+01:41:35,300 --> 01:41:47,929
+Leung Ping Kei: There is a given the first M autocorrelations, or estimates of the correlation parameters, then the M of order autoregressive process may be obtained.
+
+628
+01:41:48,540 --> 01:41:50,430
+Leung Ping Kei: Okay, or estimated.
+
+629
+01:41:52,410 --> 01:42:06,179
+Leung Ping Kei: And then the theorem, a necessary and sufficient condition for the stationarity of the autoregressive process, Phi B applied to Xt is equal to Zt, where Phi B is a polynomial in B of order M.
+
+630
+01:42:06,180 --> 01:42:13,780
+Leung Ping Kei: is that the roots of the equation, phi P equals 0, should all lie outside the unit circle.
+
+631
+01:42:14,190 --> 01:42:15,770
+Leung Ping Kei: outside, okay?
+
+632
+01:42:17,030 --> 01:42:28,010
+Leung Ping Kei: And then the proof is that we use AL2, okay. Therefore, we have XT is 051 XT minus 1 plus 52 XT minus 2 plus epsilon T.
+
+633
+01:42:28,140 --> 01:42:40,090
+Leung Ping Kei: And so, okay, and then the first homogeneous difference equation is that, okay, we set, I will put this to the left-hand side and set it equal to zero.
+
+634
+01:42:40,740 --> 01:42:44,339
+Leung Ping Kei: Then the rules are is called R1 and R2.
+
+635
+01:42:45,070 --> 01:42:58,449
+Leung Ping Kei: Okay? For this equation, now, I put it because, I can write it as, 1 minus 51B minus 52B squared applied to XT. Okay? It's equal to 0.
+
+636
+01:42:58,660 --> 01:43:03,620
+Leung Ping Kei: Therefore, the roots of this equation is R1 and R2.
+
+637
+01:43:03,770 --> 01:43:13,210
+Leung Ping Kei: Okay? So which we shall assume are distinct, okay? R1, R2 are not the same, although they may be complex, okay?
+
+638
+01:43:13,300 --> 01:43:25,310
+Leung Ping Kei: And the complementary function is of the form like this. Xt is 0k1 times 1 over R1 to the power t plus R2 times 1 over R2 to the power t.
+
+639
+01:43:25,700 --> 01:43:34,030
+Leung Ping Kei: Okay? Because, next class, okay? Next class, Tutorial, I mean, exercise 3, okay?
+
+640
+01:43:34,650 --> 01:43:36,840
+Leung Ping Kei: We'll have to use this.
+
+641
+01:43:37,180 --> 01:43:40,550
+Leung Ping Kei: To find the, the, the roots, okay?
+
+642
+01:43:40,880 --> 01:43:56,990
+Leung Ping Kei: We have to find R1, R2, okay? Therefore, I have to teach up to here around, okay? Where K1, K2 are constant, depending on initial condition. And then the particular solution is the infinite MA representation.
+
+643
+01:43:56,990 --> 01:44:01,410
+Leung Ping Kei: Okay? So XT is equal to the inverse of
+
+644
+01:44:01,410 --> 01:44:08,500
+Leung Ping Kei: 5B applied to epsilon t. Or the inverse of 5B is psi B.
+
+645
+01:44:08,540 --> 01:44:10,179
+Leung Ping Kei: APPLIED TO EPSON T.
+
+646
+01:44:10,620 --> 01:44:25,210
+Leung Ping Kei: Okay, so the general solution for the AR2 model, okay, is that, XT is K1 times 1 over R1 to the party plus K2 times 1 over RT… R2 to the party plus
+
+647
+01:44:25,210 --> 01:44:32,009
+Leung Ping Kei: The sum of psi j times epsilon t minus j, j from 0 to infinity.
+
+648
+01:44:32,280 --> 01:44:36,329
+Leung Ping Kei: And similar to, page 2, equation 3.3.
+
+649
+01:44:36,660 --> 01:44:43,570
+Leung Ping Kei: Alright? So, for the model to have a constant mean, the complementary function must decay.
+
+650
+01:44:44,580 --> 01:45:01,230
+Leung Ping Kei: For large value of T, so that, we require that, 1 over R1, should be less than 1, and absolute value of 1 over R2, less than 1. Hence, it's telling you that, R1 and R2, absolute value, must be greater than 1.
+
+651
+01:45:02,160 --> 01:45:03,139
+Leung Ping Kei: All right.
+
+652
+01:45:03,610 --> 01:45:14,189
+Leung Ping Kei: So that for the AR2 process, we take that 5B is equal to 1 minus B over R1 times 1 minus B over R2.
+
+653
+01:45:14,420 --> 01:45:24,230
+Leung Ping Kei: Okay? R1, R2 are the rules, should be greater than 1. And then a particular solution for this is like that, okay? We can take a 1 over.
+
+654
+01:45:25,220 --> 01:45:40,770
+Leung Ping Kei: the product 1 minus B over R1 times 1 over… 1 minus B over R2, and it turned out to be A over 1 minus B over R1 plus B over 1 minus B over R2.
+
+655
+01:45:40,890 --> 01:45:44,079
+Leung Ping Kei: Okay? So for A, will it look like that?
+
+656
+01:45:44,280 --> 01:45:49,069
+Leung Ping Kei: Okay? The first term. And then the second term, it will look like that.
+
+657
+01:45:50,190 --> 01:45:56,589
+Leung Ping Kei: And then we must require that R1, R2, absolute value, must be greater than 1.
+
+658
+01:45:57,540 --> 01:45:58,510
+Leung Ping Kei: All right!
+
+659
+01:45:58,940 --> 01:46:05,339
+Leung Ping Kei: Okay, let me see. Okay, this is in general. Okay, forget it. Forget it.
+
+660
+01:46:05,500 --> 01:46:06,350
+Leung Ping Kei: Okay.
+
+661
+01:46:08,830 --> 01:46:11,490
+Leung Ping Kei: Yes, we have done this, okay?
+
+662
+01:46:16,940 --> 01:46:34,610
+Leung Ping Kei: Okay, how about we do, one, one example, okay, AR2 process, okay, now you're given that, okay, XT, okay, 0.7XT-1-0.1XT-2, plus ZT, where ZT, normal, with mean 0, variance 1.
+
+663
+01:46:34,610 --> 01:46:39,679
+Leung Ping Kei: 11 sigma squared. And then this is 5 alpha 1, alpha 2.
+
+664
+01:46:39,680 --> 01:46:43,849
+Leung Ping Kei: Alpha 1, 0.7. Alpha 2, negative 0.1.
+
+665
+01:46:43,850 --> 01:46:58,750
+Leung Ping Kei: Okay? Now we have that, we take this 2 to the left-hand side. Then we have 1 minus 0.7B plus 0.1B squared applied to XT equal to ZT. So, the roots of the.
+
+666
+01:46:59,130 --> 01:47:19,100
+Leung Ping Kei: The equation is that, we solve this. Okay, 1 minus 0.7B plus 0.1B squared. I can factorize as 1 minus, 0.2B times 1 minus 0.5B, equal to 0. Therefore, B equal to… What? 5, and B equal to 2.
+
+667
+01:47:19,190 --> 01:47:21,239
+Leung Ping Kei: Okay? Both greater than 1.
+
+668
+01:47:22,120 --> 01:47:34,010
+Leung Ping Kei: Okay? Which means that the roots are all lie outside the unit circle. Okay? Thus, AL2 process is stationary. This one is stationary.
+
+669
+01:47:34,210 --> 01:47:35,150
+Leung Ping Kei: All right?
+
+670
+01:47:35,500 --> 01:47:38,800
+Leung Ping Kei: Okay, then I stop it over here. Okay.
+
+671
+01:47:39,210 --> 01:47:41,660
+Leung Ping Kei: Then,
+
+672
+01:47:41,910 --> 01:47:56,280
+Leung Ping Kei: Yeah, next time we take the mixed process, ARMA process, okay? ARMA, just like this, okay? This is AR, and this is MA, alright?
+
+673
+01:48:04,610 --> 01:48:09,330
+Leung Ping Kei: Okay, all of you, have a nice day, okay? Thank you. Thank you for coming.
+

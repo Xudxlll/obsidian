@@ -1,0 +1,1136 @@
+1
+00:01:40,480 --> 00:01:43,779
+Leung Ping Kei: Okay, let's start again, huh?
+
+2
+00:01:44,070 --> 00:01:54,790
+Leung Ping Kei: So, last time, last time I stopped at page 10, okay? This one, okay? However, okay, I, I, I, I…
+
+3
+00:01:55,780 --> 00:02:02,379
+Leung Ping Kei: Oh… This is updated NUCs? Okay, yeah, yeah, yeah, okay, fine, okay.
+
+4
+00:02:07,280 --> 00:02:23,089
+Leung Ping Kei: So, okay, we come back to, example 2, on page 9, page 9. Okay, MA1, model. So, we have a time series data, X1 up to Xn, okay, and we believe that, the model is MA1.
+
+5
+00:02:23,090 --> 00:02:30,379
+Leung Ping Kei: Therefore, it is XT equal to data times AT minus 1 plus AT, where AT is white noise, okay?
+
+6
+00:02:31,610 --> 00:02:35,790
+Leung Ping Kei: And a normal distributed with mean zero variance sigma squared.
+
+7
+00:02:36,290 --> 00:02:40,879
+Leung Ping Kei: Now we want to estimate, theta and, sigma squared, okay?
+
+8
+00:02:41,770 --> 00:02:49,330
+Leung Ping Kei: So, using a similar argument, as example one, the condition note, livelihood function, is this.
+
+9
+00:02:50,710 --> 00:03:04,410
+Leung Ping Kei: Pi, t from 2 to n. 1 over square root of 2 pi sigma squared, e to the power minus, okay, bracket, XT minus theta AT minus 1 squared over 2 sigma squared.
+
+10
+00:03:04,780 --> 00:03:11,709
+Leung Ping Kei: Okay? Now we take the logarithm, okay? However, okay, this one is mistyped, mistyped.
+
+11
+00:03:12,270 --> 00:03:20,429
+Leung Ping Kei: Please, okay, L data sigma, sigma squared is equal to, okay, lowercase l, okay, is,
+
+12
+00:03:20,450 --> 00:03:26,989
+Leung Ping Kei: minus, okay, n minus 1 times, log sigma squared, okay?
+
+13
+00:03:26,990 --> 00:03:40,540
+Leung Ping Kei: we forget about the constant, okay? The constant is 1… the log of 1 over square 2 pi, okay? Forget about it, because we… we will differentiate, differentiate with split theta, and, and…
+
+14
+00:03:40,540 --> 00:03:57,889
+Leung Ping Kei: S, later on, okay? So, the log likelihood, is minus n minus 1, log sigma squared over 2, and then minus sum t from 2 to N, XT minus theta times AT minus 1.
+
+15
+00:03:58,170 --> 00:04:01,609
+Leung Ping Kei: AT minus 1, please, okay?
+
+16
+00:04:01,930 --> 00:04:08,279
+Leung Ping Kei: change this, to, mistype and mistype AT-1, okay?
+
+17
+00:04:09,650 --> 00:04:16,610
+Leung Ping Kei: Since you can see that, this is AT-1 here, and now this is mistyped. Mistyped.
+
+18
+00:04:16,740 --> 00:04:17,899
+Leung Ping Kei: Okay.
+
+19
+00:04:18,110 --> 00:04:23,400
+Leung Ping Kei: XT minus data AT minus 1, holding squared, divided by 2 sigma squared.
+
+20
+00:04:24,050 --> 00:04:37,910
+Leung Ping Kei: Now, we use, S equal to sigma squared, then our linear function becomes, minus, bracket n minus 1 times, log S over 2, and then minus sum.
+
+21
+00:04:37,910 --> 00:04:46,940
+Leung Ping Kei: T, from 2 to N. XT minus theta, again, mistype, AT minus 1 square. AT minus 1.
+
+22
+00:04:47,160 --> 00:04:49,339
+Leung Ping Kei: Okay? Over 2S.
+
+23
+00:04:51,300 --> 00:04:52,350
+Leung Ping Kei: Okay.
+
+24
+00:04:52,380 --> 00:05:08,220
+Leung Ping Kei: So this is equation 4.4. Now, the MLD, okay, procedure is to, solve the two equations in two unknown, okay? With partial derivative, the Library function will spread the data and set it equal to zero, and the,
+
+25
+00:05:08,220 --> 00:05:14,670
+Leung Ping Kei: differentiate the likelihood… a log likelihood function with respect to S, and set it equal to S, equal to 0.
+
+26
+00:05:14,670 --> 00:05:16,870
+Leung Ping Kei: Okay? Then we have,
+
+27
+00:05:17,610 --> 00:05:33,129
+Leung Ping Kei: Two equations, two unknown. However, it turns out that, we basically only need to solve, okay, partial L, with respect to L, data, set equal to zero. And notice that, that this is a nonlinear equation in data.
+
+28
+00:05:33,460 --> 00:05:36,400
+Leung Ping Kei: Okay? So we use our Newton's method.
+
+29
+00:05:36,620 --> 00:05:37,710
+Leung Ping Kei: Just do it.
+
+30
+00:05:37,810 --> 00:05:38,750
+Leung Ping Kei: Okay?
+
+31
+00:05:38,890 --> 00:05:46,869
+Leung Ping Kei: So equation 4.5 is, okay, the next root, the next root, theta n plus 1, is equal to the O root.
+
+32
+00:05:46,870 --> 00:06:01,309
+Leung Ping Kei: at data n, minus, the partial derivative, of L with respect to data, evaluated at data n, and then divided by the second partial derivative of the L with respect to data, evaluated at theta n.
+
+33
+00:06:01,350 --> 00:06:03,419
+Leung Ping Kei: Okay? Then the old route…
+
+34
+00:06:06,430 --> 00:06:15,480
+Leung Ping Kei: Okay, to carry out the iteration, in, 4.5, okay, we have to calculate the first and second derivative in the equation.
+
+35
+00:06:16,840 --> 00:06:35,679
+Leung Ping Kei: Now, AT is equal to XT minus data AT minus 1, our model. And this is an important difference from, ARK, because AT is a function of data now, okay? So, the derivative, the derivative of AT with spread the data is equal to,
+
+36
+00:06:35,900 --> 00:06:59,869
+Leung Ping Kei: AT, okay? So, the derivative of XT with spread the data is 0. And then minus, okay, this is a product rule, okay? Minus data times the derivative of AT minus 1, we split the data, and then minus, the sec- the second term, is, you differentiate data, therefore leaving you, minus A minus, AT minus 1.
+
+37
+00:07:01,530 --> 00:07:04,679
+Leung Ping Kei: And then, the second puzzle, there's it, huh? Okay.
+
+38
+00:07:05,740 --> 00:07:10,649
+Leung Ping Kei: You have that on… let me see…
+
+39
+00:07:10,840 --> 00:07:12,880
+Leung Ping Kei: I have to use another one.
+
+40
+00:07:56,590 --> 00:08:04,249
+Leung Ping Kei: My, additional knocks, additional knocks, Chapter 4. Chapter 4, additional knocks, okay? So,
+
+41
+00:08:08,970 --> 00:08:12,370
+Leung Ping Kei: So, page 5, page 5, okay?
+
+42
+00:08:17,870 --> 00:08:22,979
+Leung Ping Kei: So, this is page, on page 10, okay, the…
+
+43
+00:08:24,940 --> 00:08:49,050
+Leung Ping Kei: the derivative of AT, okay, with respect to data, okay? So the first term is 0, okay, because XT, okay, depends on XT with respect to theta is 0, okay? And then minus, okay, I, I differentiate, data first, okay? So that I have minus, 8T minus 1, minus, okay, and, data times, the derivative of,
+
+44
+00:08:49,250 --> 00:09:00,870
+Leung Ping Kei: AT minus 1, we split theta, okay? Later on, I take away the minus sign, okay? I take out the minus sign. And then the second derivative, okay, is this.
+
+45
+00:09:03,100 --> 00:09:16,480
+Leung Ping Kei: So, I differentiate this with spread the theta, okay? So, a negative, a positive derivative of 80 minus 1 with spread the theta. And then, this is, again, the product, okay? The product, like this, okay?
+
+46
+00:09:17,350 --> 00:09:25,060
+Leung Ping Kei: So that, okay, I've differentiated data first, okay, minus, partial data of 18 minus 1 will spread the data.
+
+47
+00:09:27,430 --> 00:09:40,949
+Leung Ping Kei: Okay? And then, minus, again, now I differentiate, the partial derivative of 18 minus 1, so this is, theta times second partial derivative of 18 minus 1 with split theta.
+
+48
+00:09:41,370 --> 00:09:45,639
+Leung Ping Kei: Therefore, these two come up to, minus 2.
+
+49
+00:09:45,990 --> 00:09:53,309
+Leung Ping Kei: partial duty of AT minus 1, we split the data. And then minus data times the second partial duty of AT minus 1.
+
+50
+00:09:54,620 --> 00:09:55,530
+Leung Ping Kei: Alright?
+
+51
+00:09:56,880 --> 00:09:58,459
+Leung Ping Kei: Okay, can you follow?
+
+52
+00:09:59,380 --> 00:10:00,840
+Leung Ping Kei: Alright, very good.
+
+53
+00:10:02,470 --> 00:10:03,819
+Leung Ping Kei: No? Okay.
+
+54
+00:10:04,500 --> 00:10:11,009
+Leung Ping Kei: We differentiate, the L, we spread the data, okay? This one, okay, I differentiate this one.
+
+55
+00:10:11,540 --> 00:10:15,290
+Leung Ping Kei: with spreader theta. Okay? So that, huh? Okay.
+
+56
+00:10:15,400 --> 00:10:24,859
+Leung Ping Kei: Since, S, S, does not involve, theta, okay, therefore it's civil, okay? Then.
+
+57
+00:10:26,230 --> 00:10:27,740
+Leung Ping Kei: I differentiate this.
+
+58
+00:10:29,560 --> 00:10:36,479
+Leung Ping Kei: the second term, negative, negative. I take out, one half, one half, okay?
+
+59
+00:10:37,780 --> 00:10:53,949
+Leung Ping Kei: And then a differentiation of the sum is sum of derivatives, okay? So, AT squared, okay, divided by S, 2S, okay, I differentiate this, so 2 times AT over S, and then times the derivative of AT will spread the data.
+
+60
+00:10:55,930 --> 00:10:56,910
+Leung Ping Kei: Alright.
+
+61
+00:10:57,320 --> 00:10:59,719
+Leung Ping Kei: Is it okay? I differentiate this.
+
+62
+00:11:02,240 --> 00:11:14,120
+Leung Ping Kei: Therefore, I have, I take out the minus 2. The derivative of sum, okay, is sum of derivatives, okay? So, I differentiate this, 2 times, 80 over 2S, over…
+
+63
+00:11:16,360 --> 00:11:24,929
+Leung Ping Kei: 2, I take it out, okay? 2 times 80 over S, and then times the derivative of AT, okay?
+
+64
+00:11:25,440 --> 00:11:26,830
+Leung Ping Kei: So that I have this.
+
+65
+00:11:27,740 --> 00:11:32,590
+Leung Ping Kei: Now I, okay, I, simplify, okay? So…
+
+66
+00:11:40,860 --> 00:11:46,710
+Leung Ping Kei: Since, the partial derivative of AT with respect to theta is this, okay?
+
+67
+00:11:47,230 --> 00:11:51,210
+Leung Ping Kei: So that at the negative sign here, okay, I take it out.
+
+68
+00:11:53,510 --> 00:11:54,500
+Leung Ping Kei: Alright?
+
+69
+00:11:55,140 --> 00:11:59,770
+Leung Ping Kei: And then, 80 over S, 80 over S times this.
+
+70
+00:12:01,920 --> 00:12:07,430
+Leung Ping Kei: 80 minus 1 plus data times the positive 80 minus 1 with split the data.
+
+71
+00:12:08,610 --> 00:12:28,490
+Leung Ping Kei: Now the 2 and 1 half cancel out, and the negative sign becomes positive. Therefore, it turned out to be sum t from 2 to N, AT over S times the square bracket, AT minus 1 plus theta times, partial derivative of AT minus 1 with respect to theta.
+
+72
+00:12:33,290 --> 00:12:34,280
+Leung Ping Kei: Alright?
+
+73
+00:12:34,650 --> 00:12:43,129
+Leung Ping Kei: Now, the second, second partial derivative, okay? I, I, I, I did it wrong, okay? Please take a look, okay? Please take a look at…
+
+74
+00:12:50,560 --> 00:12:52,260
+Leung Ping Kei: Oops, what happened?
+
+75
+00:12:58,700 --> 00:12:59,850
+Leung Ping Kei: Oh my god.
+
+76
+00:13:06,370 --> 00:13:14,669
+Leung Ping Kei: Okay, so, the first partial derivative, look like here, okay? And then the second partial derivative is, okay, I differentiate this expression.
+
+77
+00:13:15,030 --> 00:13:29,830
+Leung Ping Kei: I differentiate this expression, okay? So, 1 over S, okay, times the sum, t from 2 to n, okay? So, again, I differentiate the first bracket, okay? So, this will stay here.
+
+78
+00:13:29,900 --> 00:13:41,679
+Leung Ping Kei: Okay? The derivative of XT is 0. And then, the derivative of minus theta AT minus 1 is minus AT minus 1 minus theta times a positive derivative AT minus 1.
+
+79
+00:13:42,180 --> 00:13:43,509
+Leung Ping Kei: And then time this.
+
+80
+00:13:44,800 --> 00:13:50,910
+Leung Ping Kei: And now, I keep the first bracket as a constant, and differentiate the second part.
+
+81
+00:13:51,470 --> 00:13:58,439
+Leung Ping Kei: I differentiate this, okay. I have, the first one. Positive derivative of AT minus 1 will spread the data.
+
+82
+00:13:58,560 --> 00:14:04,239
+Leung Ping Kei: And then pass, okay, the product of this, okay? So I differentiate data first.
+
+83
+00:14:04,900 --> 00:14:13,459
+Leung Ping Kei: So that I leave a positive derivative of 80 mils on with spread of theta. And then, plus, okay, data times the derivative of this.
+
+84
+00:14:13,710 --> 00:14:16,390
+Leung Ping Kei: So, this is second puzzle duty.
+
+85
+00:14:17,560 --> 00:14:18,470
+Leung Ping Kei: Alright?
+
+86
+00:14:24,980 --> 00:14:27,530
+Leung Ping Kei: Now, okay, I take out the negative sign.
+
+87
+00:14:27,660 --> 00:14:29,430
+Leung Ping Kei: Here, okay?
+
+88
+00:14:29,690 --> 00:14:34,499
+Leung Ping Kei: The summation, okay, so, it turns out to be 1 over S times, sum…
+
+89
+00:14:34,760 --> 00:14:43,300
+Leung Ping Kei: T from, 2 to N. Oh? Okay, this expression, I forgot to put down at the… Rakuten.
+
+90
+00:14:43,560 --> 00:14:47,920
+Leung Ping Kei: The whole thing, the whole thing here, okay? I'm sorry about that, huh?
+
+91
+00:15:29,400 --> 00:15:30,539
+Leung Ping Kei: I miss out this.
+
+92
+00:15:31,140 --> 00:15:31,830
+Leung Ping Kei: Okay.
+
+93
+00:15:32,360 --> 00:15:34,440
+Leung Ping Kei: So the first time here is…
+
+94
+00:15:48,540 --> 00:15:49,330
+Leung Ping Kei: cross.
+
+95
+00:16:16,460 --> 00:16:17,560
+Leung Ping Kei: I miss out this.
+
+96
+00:16:21,380 --> 00:16:22,200
+Leung Ping Kei: Supposedly here.
+
+97
+00:16:28,170 --> 00:16:28,840
+Leung Ping Kei: Bye.
+
+98
+00:16:29,080 --> 00:16:31,210
+Leung Ping Kei: I'll use a bracket, a bracket.
+
+99
+00:17:17,200 --> 00:17:18,440
+Leung Ping Kei: Is it okay?
+
+100
+00:17:44,170 --> 00:17:57,860
+Leung Ping Kei: on, on, on, on my, additional notes, additional notes set, okay? Page 5, at the bottom is, okay, forget it, forget it, okay? It's incorrect, incorrect. The second positive tip, forget it.
+
+101
+00:18:12,120 --> 00:18:13,370
+Leung Ping Kei: Alright?
+
+102
+00:18:14,130 --> 00:18:28,760
+Leung Ping Kei: Then I keep on, okay? So, again, on page 6, mis… Mistype, okay? Okay. The partial derivative with respect to S, okay? So I differentiate, okay, with respect to S of this expression.
+
+103
+00:18:28,760 --> 00:18:38,860
+Leung Ping Kei: Minus, bracket, n minus 1 over 2, log S minus sum T from 2 to N, XT minus theta AT minus 1.
+
+104
+00:18:38,860 --> 00:18:42,099
+Leung Ping Kei: Minus 1, this one is minus 1, okay?
+
+105
+00:18:42,340 --> 00:18:43,380
+Leung Ping Kei: Square.
+
+106
+00:18:43,620 --> 00:18:44,500
+Leung Ping Kei: Okay?
+
+107
+00:20:28,410 --> 00:20:31,580
+Leung Ping Kei: This one, is 18 minus 1, 80 minus 1.
+
+108
+00:20:37,640 --> 00:20:38,790
+Leung Ping Kei: Because I'm…
+
+109
+00:20:38,790 --> 00:21:01,680
+Leung Ping Kei: Because the NOX has been mistyped, mistyped, okay? Later on, I, I'll show you again, okay? Now, okay, now, please change this to AT minus 1, okay? So, the derivative of this, the first term, okay? Negative, n minus 1 over 2 times 1 over S, the derivative of log S, is 1 over S, and then minus, okay?
+
+110
+00:21:01,680 --> 00:21:06,819
+Leung Ping Kei: differentiate with respect to, S, okay? So, it is sum…
+
+111
+00:21:06,820 --> 00:21:13,959
+Leung Ping Kei: T from 2 to N, okay? So, s to the power of minus 1, okay? So, minus 1 times,
+
+112
+00:21:13,960 --> 00:21:25,350
+Leung Ping Kei: S minus 2, therefore it is, okay, this is a, constant. XT minus data, AT minus 1 square, okay, AT minus 1, square.
+
+113
+00:21:25,350 --> 00:21:35,179
+Leung Ping Kei: divided by 2S squared. Set… set it equal to 0. Remember that, when you set it equal to zero, please use, okay, the estimator.
+
+114
+00:21:35,180 --> 00:21:38,999
+Leung Ping Kei: Estimator. Data change to data head. Data head.
+
+115
+00:21:41,780 --> 00:21:52,509
+Leung Ping Kei: Okay? So, when you set it equal to date, set it equal to several. Therefore, okay, this one, minus, minus, become positive. So, I,
+
+116
+00:21:53,160 --> 00:21:56,239
+Leung Ping Kei: Do you write both sides… I multiply both sides by 2.
+
+117
+00:21:56,490 --> 00:22:15,339
+Leung Ping Kei: Therefore, I have, n minus 1 over S. It's equal to, I take this to the right-hand side, and then rearrange, okay? So, n minus 1 over S is equal to the sum of, okay, t from 2 to n, or XT minus theta head times AT minus 1 squared.
+
+118
+00:22:15,370 --> 00:22:16,830
+Leung Ping Kei: over S squared.
+
+119
+00:22:18,410 --> 00:22:37,230
+Leung Ping Kei: Alright? Now I divide, I multiply both sides by S, then I have, okay, S squared, multiply both sides by S squared, so that the left-hand side becomes N minus 1S equal to sum of, AT minus theta hat AT minus 1, minus 1 squared.
+
+120
+00:22:37,230 --> 00:22:47,510
+Leung Ping Kei: Okay? Therefore, I divide, n minus 1, over the, over the, the right-hand side. Therefore, S, the estimator becomes, okay, sum of,
+
+121
+00:22:47,530 --> 00:22:53,030
+Leung Ping Kei: Xt minus theta had AT minus 1, minus 1, square.
+
+122
+00:22:53,510 --> 00:22:56,839
+Leung Ping Kei: Okay? T from 2 to n divided by n minus 1.
+
+123
+00:22:58,510 --> 00:23:02,040
+Leung Ping Kei: So this is, sigma hat squared, okay?
+
+124
+00:23:07,800 --> 00:23:08,950
+Leung Ping Kei: So,
+
+125
+00:23:09,860 --> 00:23:20,009
+Leung Ping Kei: Data head, is the estimate of data from equation 4.5 on page 9, bottom, okay? And you use, Newton's, method, Newton's method.
+
+126
+00:23:28,700 --> 00:23:29,839
+Leung Ping Kei: Is that okay?
+
+127
+00:23:31,000 --> 00:23:32,010
+Leung Ping Kei: All right.
+
+128
+00:24:03,730 --> 00:24:04,980
+Leung Ping Kei: Page 10.
+
+129
+00:25:45,540 --> 00:25:47,329
+Leung Ping Kei: We are here. Okay.
+
+130
+00:25:48,590 --> 00:25:59,469
+Leung Ping Kei: So, this is, 18 minus 1, 18 minus 1, okay? 18 minus 1, 18 minus 1, all of them are 18 minus 1, okay?
+
+131
+00:25:59,910 --> 00:26:17,200
+Leung Ping Kei: Okay, now, okay, we go to, section 4.6, okay? Diagnostic checking, residual analysis, okay? Check that, the estimated residual series, okay? CT head, okay? That is the residual, residuals, okay? So…
+
+132
+00:26:17,920 --> 00:26:21,009
+Leung Ping Kei: After, after you,
+
+133
+00:26:21,550 --> 00:26:41,299
+Leung Ping Kei: set a model, and then you find the, residuals, so therefore, we just call it, set T head, okay? It's the series, okay? It's consistent with, Y noise. The same techniques are relevant here, okay? General guideline is that, okay, take a look at the time port of, set T head.
+
+134
+00:26:41,410 --> 00:26:46,589
+Leung Ping Kei: To see whether, okay, and to see whether, they are,
+
+135
+00:26:48,870 --> 00:26:59,559
+Leung Ping Kei: not related, or something like this, okay? Just, consistent with white noise, okay? So, they don't have any pattern.
+
+136
+00:26:59,570 --> 00:27:11,079
+Leung Ping Kei: Okay? And then, the second one, take the, choriogram of the residuals. And then, use, the cumulative periodogram to test, okay? So…
+
+137
+00:27:11,910 --> 00:27:35,589
+Leung Ping Kei: frequency domain, technique, okay? And trial overfitting, okay? That is, examine a residual sum of square of, for a chosen model, and suitably chosen extensions, okay? To see whether it is overfit or not, okay? Then we calculate, okay, to see the variation, explained by the model or not, it's good or not,
+
+138
+00:27:36,950 --> 00:27:43,670
+Leung Ping Kei: So, we usually calculate 100 times, 1 minus, variance of said head,
+
+139
+00:27:43,820 --> 00:27:51,009
+Leung Ping Kei: divided by variance of X to see how many percentage being explained by your selected model.
+
+140
+00:27:52,590 --> 00:28:03,880
+Leung Ping Kei: And hence, we use, box PS statistic and, Leung box, Leung box statistic, chi-square test, to test, the residual is good or not.
+
+141
+00:28:06,580 --> 00:28:16,229
+Leung Ping Kei: Okay, the box part, is that, n times, RK hat squared, RK hat squared, okay? I from 1 up to n.
+
+142
+00:28:16,520 --> 00:28:26,810
+Leung Ping Kei: Okay? It will follow the chi-square with M minus P minus Q degrees of freedom, okay? Asymptotically, that is as n large, okay?
+
+143
+00:28:27,400 --> 00:28:32,730
+Leung Ping Kei: Namely, it works for a last sample. However, for…
+
+144
+00:28:33,690 --> 00:28:46,679
+Leung Ping Kei: Smaller, smaller sample, we use a Leung box, okay? Leung box, okay? N times, n plus 2 times, okay? RK hat square, I, k from 1 n divided by N minus K.
+
+145
+00:28:47,170 --> 00:28:53,069
+Leung Ping Kei: Alright? Again, this is a chi-square M minus P minus Q distribution.
+
+146
+00:28:53,580 --> 00:29:01,640
+Leung Ping Kei: Okay? The degree of freedom is M minus P minus Q, okay? We've spent it for a small sample.
+
+147
+00:29:06,040 --> 00:29:07,060
+Leung Ping Kei: Okay?
+
+148
+00:29:07,410 --> 00:29:10,760
+Leung Ping Kei: So, the bubble, is it okay?
+
+149
+00:29:12,130 --> 00:29:32,019
+Leung Ping Kei: So remember, okay, okay, the exam, exam, we, we'll use this, okay, loombox, loombox, okay? I, I, I, I set up, the exam paper already, yesterday, yesterday, I, I'll tell you, okay?
+
+150
+00:29:32,120 --> 00:29:35,439
+Leung Ping Kei: In the last class, okay, last class.
+
+151
+00:29:36,120 --> 00:29:42,000
+Leung Ping Kei: What kind of question there will be, in the exam. There will be 6 questions.
+
+152
+00:29:42,190 --> 00:29:46,319
+Leung Ping Kei: Six questions. You are asked to answer any five.
+
+153
+00:29:46,450 --> 00:29:53,470
+Leung Ping Kei: Any 5. However, if you do all 6 of them, okay, I will take the highest 5.
+
+154
+00:29:53,710 --> 00:29:55,400
+Leung Ping Kei: Questions, okay?
+
+155
+00:29:55,620 --> 00:30:01,830
+Leung Ping Kei: Hope you can get a higher grade, okay? Higher marks.
+
+156
+00:30:02,230 --> 00:30:03,190
+Leung Ping Kei: All right?
+
+157
+00:30:06,110 --> 00:30:24,470
+Leung Ping Kei: And then, the proposition, is that, let ET be a Y-noise sequence, okay? Namely, IID, independent and identically distributed, okay? Random variable with civil mean and constant variance. 1. Usually it's normal, usually it's normal, okay?
+
+158
+00:30:25,150 --> 00:30:35,490
+Leung Ping Kei: Now, consider the lag 1 autocorrelation coefficient of ET, okay? Row 1, okay? Row of 1, okay? Which is given by this.
+
+159
+00:30:36,600 --> 00:30:49,169
+Leung Ping Kei: This is the formula, okay? Rho 1 is equal to sum of, ET ET plus 1 RTM 1 to n minus 1, divided by sum of ET squared, t from 1 to N.
+
+160
+00:30:52,490 --> 00:30:59,480
+Leung Ping Kei: Alright? And then the variance is approximately equal to 1 over n, okay?
+
+161
+00:31:00,410 --> 00:31:06,899
+Leung Ping Kei: So now the proof is right that, okay, let XF be the numerator, okay, and Y be the denominator.
+
+162
+00:31:07,120 --> 00:31:15,170
+Leung Ping Kei: So, row 1 is equal to X over Y, and then observe that, okay, expectation of X is equal to mu X is 0.
+
+163
+00:31:15,470 --> 00:31:30,959
+Leung Ping Kei: Okay? Because the expectation of this, is, they, they are not correlated, okay? Therefore, expectation of X ET is civil, expectation of ET person is civil. Therefore, the whole term of Xi is civil. Expectation.
+
+164
+00:31:30,960 --> 00:31:37,900
+Leung Ping Kei: And then, expectation of Y is equal to, muy, okay? Since, variance is 1.
+
+165
+00:31:38,180 --> 00:31:49,220
+Leung Ping Kei: Since the mean is zero, expectation of ET squared is, variance of ET equal to 1. Therefore, some n times of 1 is equal to N.
+
+166
+00:31:50,920 --> 00:32:06,910
+Leung Ping Kei: And hence, letter FXY be, X over Y, okay? World one, okay? Consider the tailored series expansion of, FXY about the point, okay? The, the mean of X min of Y is 0 and N.
+
+167
+00:32:07,220 --> 00:32:08,130
+Leung Ping Kei: Okay.
+
+168
+00:32:08,330 --> 00:32:09,290
+Leung Ping Kei: So…
+
+169
+00:32:10,760 --> 00:32:25,789
+Leung Ping Kei: Using the first term, okay, the first term, well, okay, since it is two variables, therefore, the first term, okay, in X, and the first term in Y is, F of X, mu X mu y, okay, F evaluated at,
+
+170
+00:32:26,070 --> 00:32:42,869
+Leung Ping Kei: mu X muy plus, okay, partial derivative of, F with respect to X evaluated at, mu X muy times, okay, X minus 1, X minus mu X, divided by 1 factorial, okay? And then plus, okay, partial derivative of…
+
+171
+00:32:42,870 --> 00:32:51,829
+Leung Ping Kei: F, with respect to Y evaluated at mu X muy, and times, Y minus, muy, okay, divided by 1 factorial.
+
+172
+00:32:51,910 --> 00:32:52,840
+Leung Ping Kei: Okay?
+
+173
+00:32:53,060 --> 00:32:58,959
+Leung Ping Kei: So, the first term I hear is because RTS is civil, okay? Therefore.
+
+174
+00:32:59,290 --> 00:33:04,850
+Leung Ping Kei: F of, mu X mu Y is silver, because mu X is silver, okay? And then plus.
+
+175
+00:33:05,660 --> 00:33:11,360
+Leung Ping Kei: Okay, the derivative of, F with respect to X Okay?
+
+176
+00:33:11,710 --> 00:33:21,150
+Leung Ping Kei: differentiate X, okay? So it is 1 over Y. 1 over Y is evaluated at, muy is, X over…
+
+177
+00:33:21,290 --> 00:33:22,070
+Leung Ping Kei: N.
+
+178
+00:33:22,750 --> 00:33:23,600
+Leung Ping Kei: Okay?
+
+179
+00:33:23,970 --> 00:33:31,519
+Leung Ping Kei: X, X, X minus 0, is X times, 1 over N is X over N, and then plus, 0.
+
+180
+00:33:31,710 --> 00:33:32,580
+Leung Ping Kei: Okay?
+
+181
+00:33:33,010 --> 00:33:34,730
+Leung Ping Kei: Because this is civil.
+
+182
+00:33:35,870 --> 00:33:36,720
+Leung Ping Kei: Okay.
+
+183
+00:33:40,950 --> 00:33:42,069
+Leung Ping Kei: Is it alright?
+
+184
+00:33:42,850 --> 00:33:44,539
+Leung Ping Kei: Just like this, okay.
+
+185
+00:33:47,670 --> 00:34:01,419
+Leung Ping Kei: Therefore, it's X over N, X over N. So this is, minus X over Y squared times a Y minus N, okay? Evaluated at, this, evaluated at,
+
+186
+00:34:01,580 --> 00:34:05,810
+Leung Ping Kei: mu X and 0. Therefore, it is 0, okay?
+
+187
+00:34:06,090 --> 00:34:12,260
+Leung Ping Kei: Therefore, the derivative, okay, using, theta series expansion is X over N.
+
+188
+00:34:12,489 --> 00:34:19,810
+Leung Ping Kei: And then the variance, variance of X over Y is approximately equal to variance of X over N.
+
+189
+00:34:20,590 --> 00:34:22,239
+Leung Ping Kei: Okay?
+
+190
+00:34:23,080 --> 00:34:41,049
+Leung Ping Kei: We can see that, variance of X is equal to variance of sum of, ETET plus 1RT from, 1 to n minus 1, okay? So, this is equal to what? expectation of the, okay, the square, okay, P, since the mean is civil.
+
+191
+00:34:41,219 --> 00:34:52,100
+Leung Ping Kei: Therefore, it is a square, okay? So that, the square of this is, ET squared times, E plus 1 squared, okay? And then times the cross product.
+
+192
+00:34:53,909 --> 00:34:54,850
+Leung Ping Kei: Alright?
+
+193
+00:34:55,139 --> 00:34:57,770
+Leung Ping Kei: Okay, so this, this…
+
+194
+00:34:57,880 --> 00:35:01,380
+Leung Ping Kei: this symbol, E, ET prime…
+
+195
+00:35:01,770 --> 00:35:08,640
+Leung Ping Kei: T prime plus 1 is supposed to be ET prime times ET prime plus 1, okay?
+
+196
+00:35:10,030 --> 00:35:26,309
+Leung Ping Kei: Since, the ETs are IID, therefore the cross product are several, therefore leaving you, leaving you this, okay? Variance, okay? Variance of, ETs, okay? And then variance of ET plus 1.
+
+197
+00:35:26,620 --> 00:35:29,539
+Leung Ping Kei: It's one, okay? So,
+
+198
+00:35:31,080 --> 00:35:44,209
+Leung Ping Kei: This one, okay, after you take expectation, is equal to 1. You sum, t from 1 to n minus 1, you have n-1 terms, okay? Therefore, variance of X is n minus 1.
+
+199
+00:35:46,760 --> 00:35:47,750
+Leung Ping Kei: Alright?
+
+200
+00:35:49,800 --> 00:35:56,829
+Leung Ping Kei: And then, okay, we have, variance of O1 is equal to, n minus 1 over n squared.
+
+201
+00:35:59,130 --> 00:36:03,820
+Leung Ping Kei: Alright? So, it is approximately equal to 1 over n.
+
+202
+00:36:06,030 --> 00:36:07,140
+Leung Ping Kei: Is that okay?
+
+203
+00:36:16,040 --> 00:36:29,120
+Leung Ping Kei: I have the example, okay? Example on the model fitting, okay? So, all these data, they are supposed to be 121 observations, okay? Okay? And then, this is, the data.
+
+204
+00:36:29,480 --> 00:36:43,750
+Leung Ping Kei: Okay? Unemployed, unemployed data, okay? Unemployment data, okay? And then, AL2 viscido, okay? Because we fit at the AR2 model here, okay?
+
+205
+00:36:44,740 --> 00:36:58,609
+Leung Ping Kei: However, after I can't, okay, hit this 131… Okay, forget it, forget it, huh? Okay, so we take it, okay, this is, okay, the last term is 121st, okay?
+
+206
+00:36:58,610 --> 00:37:05,679
+Leung Ping Kei: And then, the 120th, is, 6.63. And then the last one is 6.2, okay?
+
+207
+00:37:08,690 --> 00:37:18,969
+Leung Ping Kei: So the graphics look like that, okay? The unemployment rate, unemployment data, like this. So you can see that, it is going up, going up.
+
+208
+00:37:22,810 --> 00:37:34,169
+Leung Ping Kei: So, after we fit the AL2 model, okay, the autocorrelation function, for the unemployment data, okay, is that, ACF, okay, it…
+
+209
+00:37:34,880 --> 00:37:39,620
+Leung Ping Kei: Go up, tank, tongue-tank, tank, let this…
+
+210
+00:37:39,900 --> 00:37:42,880
+Leung Ping Kei: Okay? And then the PACF, huh?
+
+211
+00:37:43,150 --> 00:37:44,390
+Leung Ping Kei: It's like that.
+
+212
+00:37:47,350 --> 00:37:48,310
+Leung Ping Kei: Alright?
+
+213
+00:37:48,470 --> 00:37:56,430
+Leung Ping Kei: Therefore, it, it look like, okay, this one, is die down, die down, die down, die down, okay?
+
+214
+00:37:57,300 --> 00:38:02,639
+Leung Ping Kei: And this one, yeah, cut off after 2 legs. Two legs, cut off, okay.
+
+215
+00:38:06,190 --> 00:38:10,000
+Leung Ping Kei: Therefore, okay, we can take a look at the,
+
+216
+00:38:10,250 --> 00:38:29,370
+Leung Ping Kei: some of the answer, okay? Okay, the modified box part, or loom box, chi-square statistic, is that, okay, 12, 24, 36, 48, then, chi-square, statistic is, okay, 17.9, again, 32.8, 44.1, 50.1.
+
+217
+00:38:29,370 --> 00:38:36,460
+Leung Ping Kei: And then the degree of freedom at 9, because it's, changing, because, the N at the end is changing, okay?
+
+218
+00:38:36,460 --> 00:38:54,579
+Leung Ping Kei: 21, 33, 45, okay? Minus, 3, okay? So the p-value is, 0.036, 0.048, and 0.094, and then 0.278, okay? You can see that, the first one, less than 5%.
+
+219
+00:38:54,890 --> 00:38:56,620
+Leung Ping Kei: Less than 5%.
+
+220
+00:38:56,880 --> 00:39:01,609
+Leung Ping Kei: Larger than 5%. Larger than 5%, okay? Therefore, it…
+
+221
+00:39:01,970 --> 00:39:04,440
+Leung Ping Kei: It doesn't look good, huh? Okay?
+
+222
+00:39:05,120 --> 00:39:10,130
+Leung Ping Kei: Now we take, okay, Arima, what, 200, that is AR2.
+
+223
+00:39:10,390 --> 00:39:12,520
+Leung Ping Kei: AO2, okay?
+
+224
+00:39:13,500 --> 00:39:21,200
+Leung Ping Kei: And then, AR1, AR2, and then the mean, okay? AR1, okay? The first,
+
+225
+00:39:21,590 --> 00:39:34,680
+Leung Ping Kei: coefficient, is 1.5476, and then the second coefficient is, negative 0.6450. And then the mean is, 5.0819.
+
+226
+00:39:34,680 --> 00:39:53,390
+Leung Ping Kei: Okay? And then a standard… standard error, standard error, okay? It's a sig… just like a sigma… sigma over squared n, okay? 0.0682, and then 0.0687, and then the, of the mean, standard error of the mean, 0.3275.
+
+227
+00:39:53,450 --> 00:39:54,380
+Leung Ping Kei: Okay?
+
+228
+00:39:56,600 --> 00:40:15,630
+Leung Ping Kei: So, sigma squared, okay? Sigma squared, is estimated to be, okay, the square of this, okay, is 0.1318, okay? 0.3275 square, okay? And then the log likelihood is, minus 4.49.17, okay?
+
+229
+00:40:15,630 --> 00:40:28,669
+Leung Ping Kei: So, the AIC, we found it, is 106.34, and then AICC, 106.68, and then PIC, 111… 17.52.
+
+230
+00:40:28,670 --> 00:40:40,599
+Leung Ping Kei: And then furthermore, okay, we have some other thing, okay? So, using, the box part and, loombox statistic, okay, again, forget about this, okay, just take a look.
+
+231
+00:40:41,620 --> 00:40:43,900
+Leung Ping Kei: And then, okay, now we…
+
+232
+00:40:44,530 --> 00:40:49,300
+Leung Ping Kei: We have a new model, okay? AMA2-1. Arma 2-1.
+
+233
+00:40:49,410 --> 00:40:50,290
+Leung Ping Kei: Okay.
+
+234
+00:40:51,310 --> 00:40:53,340
+Leung Ping Kei: So that,
+
+235
+00:40:53,650 --> 00:41:03,400
+Leung Ping Kei: The AR1, coefficient is, 1.4194. The, AL2, the coefficient is negative 0.5245.
+
+236
+00:41:03,400 --> 00:41:14,269
+Leung Ping Kei: And then, MA1, okay, the, let's say the beta, okay, is 0.2286, and the mean, 5.0834. And then the standard deviation.
+
+237
+00:41:14,400 --> 00:41:26,590
+Leung Ping Kei: Okay, as below. And then, the error, sigma squared is, 3.5, 0.3651 square is, 0.1295.
+
+238
+00:41:26,730 --> 00:41:40,989
+Leung Ping Kei: And then the log is negative 47.65, AIC, 105.29, AICC, 105.82, and PIC, 119.227, okay?
+
+239
+00:41:42,890 --> 00:41:46,779
+Leung Ping Kei: So, comparing these two, okay, that, that, that, that…
+
+240
+00:41:47,830 --> 00:41:57,259
+Leung Ping Kei: The, the AL2 and ALMR21, okay? So, you can see that, okay?
+
+241
+00:41:58,860 --> 00:42:16,650
+Leung Ping Kei: AIC, from the AIC and AICC, we choose, okay, ARM21 model, rather than, AL2, okay? However, if you take it, okay, BIC, okay, BIC, then, you will call it, you, you will select, AL2 model.
+
+242
+00:42:18,000 --> 00:42:19,140
+Leung Ping Kei: Is that okay?
+
+243
+00:42:21,360 --> 00:42:35,919
+Leung Ping Kei: Now, the calculation of, okay, numb box, and, BOCPS, okay, just forget about, just take a look, oh, just take a look, okay? The error term of, AL2, ACF, it's like that, okay?
+
+244
+00:42:37,370 --> 00:42:40,320
+Leung Ping Kei: The last 12th, at last 12th, okay?
+
+245
+00:42:44,390 --> 00:42:59,349
+Leung Ping Kei: Now, okay, we use, the, box pot, box PS and, Leung Box, okay? The box PS, okay, up to 12 terms, okay? The last 12, because we have only last, used the last 12 terms to do it.
+
+246
+00:43:01,220 --> 00:43:09,469
+Leung Ping Kei: Okay? So, n, n, n times n plus 1, okay, something like this, isn't it?
+
+247
+00:43:18,570 --> 00:43:32,419
+Leung Ping Kei: So the, the box PS, is N times, okay? Sum of, out, L squared, out k squared, okay? Sum of RK squared, okay? That is like this, okay? We use, the square of this.
+
+248
+00:43:32,930 --> 00:43:34,320
+Leung Ping Kei: And then add them up.
+
+249
+00:43:36,120 --> 00:43:48,269
+Leung Ping Kei: And then multiply by 121. So it turned out to be 16.5, okay? And then for loombox, okay, remember that, the formula is what?
+
+250
+00:43:49,010 --> 00:43:55,999
+Leung Ping Kei: N times n plus 1, n times n plus 2, n times n plus 2 times the sum of…
+
+251
+00:43:56,040 --> 00:44:14,350
+Leung Ping Kei: RK squared divided by N minus K, n minus K. So the first one is N minus 1, 121 minus 1 is 120. And then, 121 minus 2 is 119, and so on, up till, the last one,
+
+252
+00:44:14,750 --> 00:44:22,529
+Leung Ping Kei: 121 minus, 12 is 109, okay? And then, it turned out to be 17.9.
+
+253
+00:44:23,580 --> 00:44:24,500
+Leung Ping Kei: Okay.
+
+254
+00:44:25,500 --> 00:44:31,460
+Leung Ping Kei: So, in here, the, critical value is chi-squared with 9 degrees of freedom.
+
+255
+00:44:31,720 --> 00:44:35,740
+Leung Ping Kei: Okay? 5%, okay? It's 16.9.
+
+256
+00:44:35,910 --> 00:44:51,330
+Leung Ping Kei: Okay? 16 by 9. So, in here, this one is in the substance region, and this one is a rejection region, okay? So, the box where statistics is not significant at 5%, but no box is, okay?
+
+257
+00:44:51,660 --> 00:44:55,460
+Leung Ping Kei: Just ideas, huh? Okay, I put down here, okay?
+
+258
+00:44:55,920 --> 00:44:59,540
+Leung Ping Kei: So… Box… huh?
+
+259
+00:44:59,660 --> 00:45:12,950
+Leung Ping Kei: box PS is here, and then, loom box is here, and then the critical value is here. A subplance region, a critical region, so that, do not reject H0, okay? This is,
+
+260
+00:45:13,090 --> 00:45:17,079
+Leung Ping Kei: A subplance region. And this is critical region, okay?
+
+261
+00:45:17,920 --> 00:45:25,189
+Leung Ping Kei: rejection. Therefore… Based on, Leung box, we, we, we,
+
+262
+00:45:26,190 --> 00:45:28,650
+Leung Ping Kei: We check, we check the hypothesis.
+
+263
+00:45:44,610 --> 00:45:47,819
+Leung Ping Kei: One more example, one more example, okay?
+
+264
+00:45:56,850 --> 00:45:57,770
+Leung Ping Kei: Oh, okay.
+
+265
+00:46:04,520 --> 00:46:21,079
+Leung Ping Kei: Okay, chapter 4 example, okay. Now, we have, an, AMA model, a 1, 2, okay? It's fitted to, a time series with, 80 observation, and here, 80, okay? And then the ACF coefficient of the residuals are shown below.
+
+266
+00:46:21,170 --> 00:46:37,779
+Leung Ping Kei: Okay? So, 8 of them, okay? So this is our K, okay? K is going from 1 to 8, okay? So, based on the information about performer, I'm also checking on the adequacy of the fitted model using a Leung statistic.
+
+267
+00:46:37,780 --> 00:46:42,809
+Leung Ping Kei: Okay? The Leung Box statistic is given the formula here, okay?
+
+268
+00:46:46,660 --> 00:46:49,819
+Leung Ping Kei: So, at a 5% level of significance, okay?
+
+269
+00:46:50,340 --> 00:46:59,549
+Leung Ping Kei: Now we have, okay, the, model is adequate, and then, the, alternate hypothesis, the model is not adequate, okay?
+
+270
+00:46:59,980 --> 00:47:08,100
+Leung Ping Kei: So, we have that, okay? N times n plus 1, plus, times, times the sum of, okay,
+
+271
+00:47:08,100 --> 00:47:24,820
+Leung Ping Kei: RK, RK square, okay, over n minus K, okay? The first one is minus 1, 80 minus 1, 79, minus 2, 78, minus 3, 77, and so on, up to the 8, is, 72.
+
+272
+00:47:24,820 --> 00:47:30,649
+Leung Ping Kei: Okay? Now I calculate them out, okay? It's 5.3945.
+
+273
+00:47:30,970 --> 00:47:31,850
+Leung Ping Kei: Alright?
+
+274
+00:47:32,200 --> 00:47:36,559
+Leung Ping Kei: And then the degree of freedom is 8 minus a P minus Q.
+
+275
+00:47:36,850 --> 00:47:50,769
+Leung Ping Kei: Okay? Minus 2, minus 1 is 5 degrees of freedom. Therefore, the critical value is, 11.07, okay? There will be, okay, chi-square table provided, in, in the exam.
+
+276
+00:47:51,010 --> 00:47:52,930
+Leung Ping Kei: Okay.
+
+277
+00:47:53,460 --> 00:48:03,670
+Leung Ping Kei: Since, okay, the loombox is 5.3945 less than 11.07. Hence, the test is not significant. Therefore, the model is adequate.
+
+278
+00:48:06,470 --> 00:48:07,440
+Leung Ping Kei: All right.
+
+279
+00:48:29,110 --> 00:48:35,409
+Leung Ping Kei: So I, do you have any questions now? Any question?
+
+280
+00:48:37,820 --> 00:48:54,220
+Leung Ping Kei: If no, okay, then I stop it here today, okay? So, next class, next class we will start at, 10.30. No, 11.30. 11.30, because of the tutorial class will be canceled.
+
+281
+00:48:54,300 --> 00:48:57,979
+Leung Ping Kei: Okay? Because we don't have Chapter 5 yet, okay?
+
+282
+00:48:58,960 --> 00:49:07,650
+Leung Ping Kei: Alright? Then, next class, we will start, Temple 5, okay? And also, next class, you, you will hand in your assignment.
+
+283
+00:49:08,340 --> 00:49:09,200
+Leung Ping Kei: Alright?
+
+284
+00:49:09,560 --> 00:49:16,540
+Leung Ping Kei: Okay? So, all of you, thank you very much for coming, and all of you have a nice day, okay?
+

@@ -1,0 +1,1596 @@
+1
+00:00:36,690 --> 00:00:50,889
+Leung Ping Kei: Okay, let's start again, huh? Okay. So, oh, by the way, I will put the assignment on the blackboard later this afternoon. Later this afternoon, okay? So.
+
+2
+00:00:54,470 --> 00:01:12,330
+Leung Ping Kei: Yeah, it it the assignment will cover up to chapter three, okay? Up to chapter three, okay. No, I I don't think we have chapter four in in the assignment, okay. So, however, the test, the test will cover up to chapter four.
+
+3
+00:01:12,460 --> 00:01:15,889
+Leung Ping Kei: Chapter 4, okay? Up to chapter 4.
+
+4
+00:01:16,580 --> 00:01:26,430
+Leung Ping Kei: So, So, Chapter 4, okay, is statistical analysis in the time domain, okay? So.
+
+5
+00:01:26,940 --> 00:01:44,920
+Leung Ping Kei: The first part is important, okay? However, the second part, that means we need to use the conditional distribution and then the differentiation, something like this, okay? We will not cover, I mean, the…
+
+6
+00:01:44,920 --> 00:01:50,010
+Leung Ping Kei: The exam and test will not cover this.
+
+7
+00:01:50,120 --> 00:01:51,800
+Leung Ping Kei: Is it okay?
+
+8
+00:01:52,010 --> 00:02:09,860
+Leung Ping Kei: Okay, by the way, okay, in this class, we have 26 of you, 26 students. However, it's now, it's only 17 here. It's quite good, huh? Quite good, huh? Not, not, not bad, huh? Not bad, huh?
+
+9
+00:02:11,910 --> 00:02:31,439
+Leung Ping Kei: Okay, let's take a look. Okay, 4.1, variance stabilization transformation, okay? A common phenomenon in non-statistical time series data is the variability is related to the average level. That means the mean level, the average.
+
+10
+00:02:31,440 --> 00:02:51,319
+Leung Ping Kei: Okay? Now consider a random variable, X, whose distribution is indexed by a parameter, data, such that expectation of X is equal data, and variance of X, okay, is, okay, a function of data, okay, V of data squared.
+
+11
+00:02:51,530 --> 00:02:52,480
+Leung Ping Kei: Okay.
+
+12
+00:02:55,010 --> 00:03:03,450
+Leung Ping Kei: Now, consider the transformation. Y is equal to H of X, such that variance of Y is equal to sigma squared.
+
+13
+00:03:05,050 --> 00:03:07,490
+Leung Ping Kei: Which is independent of data.
+
+14
+00:03:07,680 --> 00:03:08,650
+Leung Ping Kei: Okay.
+
+15
+00:03:09,360 --> 00:03:23,980
+Leung Ping Kei: And in here, well, we consider a function of data. The mean depends on data. Variance depends on data. However, now we consider the transformation such that the variance will not depend on data.
+
+16
+00:03:24,730 --> 00:03:25,710
+Leung Ping Kei: Okay.
+
+17
+00:03:26,720 --> 00:03:28,329
+Leung Ping Kei: Okay, Dan? Okay.
+
+18
+00:03:28,830 --> 00:03:41,239
+Leung Ping Kei: H of X is approximately equal to H of data plus X minus data times H prime of data. So this is the Taylor series expansion about data.
+
+19
+00:03:41,480 --> 00:03:55,300
+Leung Ping Kei: Okay, this is using the first term, okay? The first term. And then, the general case is, okay, if you extend Taylor SERIES expansion, okay, there will be.
+
+20
+00:03:55,300 --> 00:04:03,950
+Leung Ping Kei: plus H minus theta squared times the second derivative of H of theta.
+
+21
+00:04:04,060 --> 00:04:06,600
+Leung Ping Kei: Okay? Divided by 2 factorial.
+
+22
+00:04:06,840 --> 00:04:11,649
+Leung Ping Kei: Now this one is divided by 1 factorial. And then.
+
+23
+00:04:12,060 --> 00:04:28,399
+Leung Ping Kei: If you extend it, it is just, okay, plus x minus theta squared, h double prime theta over 2 factorial. And then the fourth term will be x minus theta to the power 3, h triple prime.
+
+24
+00:04:28,400 --> 00:04:37,099
+Leung Ping Kei: of data divided by 3 factorials, and so on. Forget it, okay? Don't worry. Now we just make use of this.
+
+25
+00:04:37,460 --> 00:04:47,590
+Leung Ping Kei: Okay? Using the first two terms, okay? Now, I take X of data to the left-hand side and square both sides so that I have this.
+
+26
+00:04:47,720 --> 00:04:57,590
+Leung Ping Kei: H of x minus h of theta squared is approximately equal to x minus theta squared times the square of h prime theta.
+
+27
+00:04:59,050 --> 00:05:02,759
+Leung Ping Kei: Therefore, the left-hand side turned out to be waving of white.
+
+28
+00:05:03,200 --> 00:05:17,370
+Leung Ping Kei: And it is approximately equal to variance of X, okay? X minus theta, since X has mean theta. Therefore, variance of X times the square of X prime theta.
+
+29
+00:05:17,750 --> 00:05:22,729
+Leung Ping Kei: Therefore, variance of y is sigma squared equal to v squared.
+
+30
+00:05:24,450 --> 00:05:30,040
+Leung Ping Kei: Variance of X is V square of theta times X prime theta squared.
+
+31
+00:05:30,470 --> 00:05:41,259
+Leung Ping Kei: Therefore, the standard deviation sigma is equal to square root on both sides, okay? So V of data times H prime data. So this is our equation 4.1.
+
+32
+00:05:44,310 --> 00:06:00,419
+Leung Ping Kei: Okay, so, example, okay, just take a look. Take, assume, V squared data, known, okay? We can find, H of, H, the function of H, okay? For example, Poisson data.
+
+33
+00:06:00,460 --> 00:06:10,489
+Leung Ping Kei: Okay? So, it tells you that, X prime data squared is equal to sigma squared, sigma squared divided by V squared data.
+
+34
+00:06:11,030 --> 00:06:11,960
+Leung Ping Kei: All right!
+
+35
+00:06:14,360 --> 00:06:22,399
+Leung Ping Kei: Therefore, we take the square root on both sides. Therefore, H prime theta is equal to theta over V of theta.
+
+36
+00:06:23,420 --> 00:06:37,780
+Leung Ping Kei: Alright? Then, it tells you that, if I integrate both sides with respect to data, therefore, the left-hand side is integral, H prime data D data, which is equal to sigma over V data D data.
+
+37
+00:06:38,220 --> 00:06:42,090
+Leung Ping Kei: Alright, so we have this expression here.
+
+38
+00:06:44,180 --> 00:06:49,470
+Leung Ping Kei: Yes, let's say, V squared data is sigma to data.
+
+39
+00:06:49,800 --> 00:06:56,159
+Leung Ping Kei: Okay? This implies that V of data is, Square the data.
+
+40
+00:06:57,050 --> 00:07:04,580
+Leung Ping Kei: Then, H of data is equal to integral, okay? Sigma over.
+
+41
+00:07:05,030 --> 00:07:09,490
+Leung Ping Kei: Data to the power one half, okay? Integrate with spreader data.
+
+42
+00:07:09,650 --> 00:07:17,770
+Leung Ping Kei: will be proportional to theta to the power one half. You can see My handwriting here is Sigma.
+
+43
+00:07:18,510 --> 00:07:28,039
+Leung Ping Kei: I take it out. Integrate. Theta to the power minus one half, I integrate with respect to theta. Therefore, after you integrate, after you integrate.
+
+44
+00:07:28,060 --> 00:07:40,340
+Leung Ping Kei: Therefore, it is theta to the power 2 divided by 1 over 2, okay? Divided by 1 half is 2 times sigma, theta 1 half, plus a constant.
+
+45
+00:07:40,560 --> 00:07:50,400
+Leung Ping Kei: Okay? Since, you don't have the, limits of the integral, okay? So it is proportional to, squared data.
+
+46
+00:07:50,610 --> 00:07:51,570
+Leung Ping Kei: All right.
+
+47
+00:07:52,280 --> 00:07:53,380
+Leung Ping Kei: Just like this.
+
+48
+00:07:56,480 --> 00:08:01,820
+Leung Ping Kei: There is a squared transformation, a stabilized variance of Poisson data.
+
+49
+00:08:02,440 --> 00:08:19,469
+Leung Ping Kei: All right? Square root transformation, square root transformation. And then the general case, we will have it later, okay? So, case two. Let's say, where means, V of data unknown. Previously, V of data is known, okay?
+
+50
+00:08:19,630 --> 00:08:23,759
+Leung Ping Kei: This one is V data, Nong. Okay?
+
+51
+00:08:24,480 --> 00:08:40,370
+Leung Ping Kei: And then now it's unknown. Now they want you to find H, the function of H on empirical ground. So a general class of power transformation is that H of data is equal to…
+
+52
+00:08:40,370 --> 00:08:51,329
+Leung Ping Kei: Data to the power lambda minus one, the whole thing divided by lambda for lambda, not zero. However, if lambda is zero, we take a log data.
+
+53
+00:08:52,710 --> 00:08:53,610
+Leung Ping Kei: All right?
+
+54
+00:08:54,000 --> 00:08:55,030
+Leung Ping Kei: So
+
+55
+00:08:55,600 --> 00:09:03,509
+Leung Ping Kei: In here, okay, the first case, okay, H prime data is equal to data to the power lambda minus 1.
+
+56
+00:09:03,880 --> 00:09:04,840
+Leung Ping Kei: Okay.
+
+57
+00:09:09,790 --> 00:09:15,310
+Leung Ping Kei: Then, we consider, formula 4.1, this one, okay?
+
+58
+00:09:16,860 --> 00:09:32,280
+Leung Ping Kei: So, sigma is 0, V data times H prime data, which in Pi set, okay? H of data is 0 data, data to the power lambda, minus 1, divided by lambda. H prime
+
+59
+00:09:32,420 --> 00:09:41,050
+Leung Ping Kei: H prime lambda, okay, is equal to lambda times theta to the power lambda minus 1 divided by lambda.
+
+60
+00:09:41,290 --> 00:09:42,920
+Leung Ping Kei: This one, okay.
+
+61
+00:09:43,310 --> 00:09:46,650
+Leung Ping Kei: Therefore, it is a theta to power lambda minus 1.
+
+62
+00:09:47,140 --> 00:09:48,150
+Leung Ping Kei: We have this.
+
+63
+00:09:50,630 --> 00:09:52,600
+Leung Ping Kei: Then, okay, we keep on with this.
+
+64
+00:09:54,840 --> 00:09:57,880
+Leung Ping Kei: Now we take a lock on both sides, okay?
+
+65
+00:09:58,660 --> 00:10:09,790
+Leung Ping Kei: Okay, log on both sides, okay? Log, V of data is equal to, log sigma plus 1 minus lambda times, log X bar.
+
+66
+00:10:16,310 --> 00:10:18,409
+Leung Ping Kei: Is that okay? This one?
+
+67
+00:10:22,770 --> 00:10:38,050
+Leung Ping Kei: Log, log V of data is still log lambda, okay? And then, X prime data is this, X prime data is this. I take it to the left-hand side, okay? So, 1 minus lambda times a log X bar.
+
+68
+00:10:39,180 --> 00:10:40,130
+Leung Ping Kei: Is this…
+
+69
+00:10:45,620 --> 00:10:53,869
+Leung Ping Kei: It's supposed to be lambda minus 1, now I take it to the, to the left hand side, ok, and rearrange, then it is 1 minus lambda.
+
+70
+00:10:54,670 --> 00:10:55,680
+Leung Ping Kei: Okay.
+
+71
+00:10:56,150 --> 00:11:00,370
+Leung Ping Kei: Oh, 18! We have 18 of you.
+
+72
+00:11:04,210 --> 00:11:19,080
+Leung Ping Kei: All right? And hence, a practical way to estimate lambda is by using a plot of the standard deviation equal to log sigma plus 1 minus lambda times log x bar.
+
+73
+00:11:19,240 --> 00:11:30,710
+Leung Ping Kei: Okay? Therefore, lambda, lambda, okay? After you take this to the left-hand side, and then multiply them out, and then rearrange the terms, okay?
+
+74
+00:11:31,040 --> 00:11:47,129
+Leung Ping Kei: You take, you take this to the left-hand side, and divide by log X bar, and then take one minus, then you get lambda. Therefore, lambda is equal to 1 minus log S minus log sigma divided by log X bar.
+
+75
+00:11:50,460 --> 00:12:01,950
+Leung Ping Kei: Namely, we divide the time series data into a number of blocks and hence find the sample standard deviation, SD, and sample mean of each block.
+
+76
+00:12:02,340 --> 00:12:15,290
+Leung Ping Kei: And then we plot the sample standard deviation against the sample mean. And hence, find the estimate of lambda from the slope of the plot.
+
+77
+00:12:18,030 --> 00:12:23,919
+Leung Ping Kei: So this is what we call the transformation. We can take a look.
+
+78
+00:12:45,520 --> 00:13:01,629
+Leung Ping Kei: So that, okay, the page one bottom, okay, variance stabilization transformation, for lambda, not zero. Therefore, we take, okay, data to power lambda minus 1 over lambda. And when lambda equals 0, we just take a log of data.
+
+79
+00:13:01,700 --> 00:13:09,910
+Leung Ping Kei: Okay? So, okay, in here, the transformation is that, okay, if lambda takes the value minus 1,
+
+80
+00:13:10,310 --> 00:13:14,609
+Leung Ping Kei: Okay? Hence, the transformation will be 1 over H of data.
+
+81
+00:13:15,760 --> 00:13:19,290
+Leung Ping Kei: And this is called a reciprocal transformation.
+
+82
+00:13:19,420 --> 00:13:22,159
+Leung Ping Kei: Reciprocal, okay? One over.
+
+83
+00:13:22,880 --> 00:13:31,430
+Leung Ping Kei: And if lambda is negative 0.5, then we take a 1 over square root h of theta.
+
+84
+00:13:31,970 --> 00:13:36,820
+Leung Ping Kei: So this is what we call reciprocal of square root transformation.
+
+85
+00:13:38,770 --> 00:13:44,369
+Leung Ping Kei: And if lambda is irreversible, we take log, okay, log H of data.
+
+86
+00:13:44,910 --> 00:13:47,749
+Leung Ping Kei: So this is logarithmic transformation.
+
+87
+00:13:48,480 --> 00:13:55,919
+Leung Ping Kei: And then if lambda is 0.5, then we take the square root of H of theta. So this is what we call square root transform.
+
+88
+00:13:56,400 --> 00:14:01,770
+Leung Ping Kei: And then, when lambda equal to 1, just, no transform, okay, H of theta.
+
+89
+00:14:01,890 --> 00:14:03,839
+Leung Ping Kei: Okay, no transformation.
+
+90
+00:14:08,610 --> 00:14:28,199
+Leung Ping Kei: And in here, okay, limit as lambda approaches 0, H of data is equal to limit as lambda approaches 0, data to the power lambda minus 1, divided by lambda. Then, okay, if, lambda, approaches 0, then, this is just the log of, H of data.
+
+91
+00:14:35,020 --> 00:14:36,209
+Leung Ping Kei: Is that okay?
+
+92
+00:14:36,880 --> 00:14:48,990
+Leung Ping Kei: Now, okay, the derivative of this is repeated, okay? X prime data is, okay, you differentiate data to the power lambda, okay? So, lambda times data to the power lambda minus 1 divided by lambda.
+
+93
+00:14:49,200 --> 00:15:01,640
+Leung Ping Kei: So that lambda cancel each other, leaving you data to the power lambda minus 1. And the equation 4.1 is telling you that sigma is still V of data times H prime data.
+
+94
+00:15:01,770 --> 00:15:05,710
+Leung Ping Kei: Therefore, we have data time, data the power.
+
+95
+00:15:06,330 --> 00:15:07,669
+Leung Ping Kei: Namda minus one.
+
+96
+00:15:07,910 --> 00:15:18,440
+Leung Ping Kei: Now we log both sides, okay? Therefore, log sigma is equal to log V of data plus, okay, log of this, okay?
+
+97
+00:15:18,800 --> 00:15:22,669
+Leung Ping Kei: I take that number minus 1 times that log data.
+
+98
+00:15:23,860 --> 00:15:33,299
+Leung Ping Kei: Alright? Now I take, okay, log V of data as the subject. Therefore, I have a log sigma minus this.
+
+99
+00:15:33,500 --> 00:15:36,970
+Leung Ping Kei: So minus this, I just change it to 1 minus lambda.
+
+100
+00:15:37,410 --> 00:15:38,999
+Leung Ping Kei: 1 minus lambda.
+
+101
+00:15:39,120 --> 00:15:39,940
+Leung Ping Kei: Block.
+
+102
+00:15:40,330 --> 00:15:41,230
+Leung Ping Kei: Data.
+
+103
+00:15:41,990 --> 00:15:42,980
+Leung Ping Kei: All right!
+
+104
+00:15:43,310 --> 00:15:51,500
+Leung Ping Kei: Now, if we have a sample, a sample sanitation, so this is a population… population sanitation.
+
+105
+00:15:51,500 --> 00:16:08,249
+Leung Ping Kei: Okay, so now I take a log S, okay, is equal to log sigma plus 1 minus lambda times log X bar, because our data is the sample mean, it's the population mean. Now, the sample mean, sample mean is to estimate data.
+
+106
+00:16:08,260 --> 00:16:10,749
+Leung Ping Kei: Therefore, we have that X bar.
+
+107
+00:16:12,270 --> 00:16:20,410
+Leung Ping Kei: Alright? That is the equation that we had before, okay? In our notes, in our notes on page, 2.
+
+108
+00:16:21,400 --> 00:16:22,350
+Leung Ping Kei: All right.
+
+109
+00:16:27,030 --> 00:16:29,250
+Leung Ping Kei: So this is page 6, okay.
+
+110
+00:16:40,360 --> 00:16:53,520
+Leung Ping Kei: Now we go to section 4.2, partial autocorrelation, okay? Partial correlation, we have some symbol, like, okay, 5KK, or Psi KK, okay?
+
+111
+00:16:57,000 --> 00:17:03,170
+Leung Ping Kei: So this is an autocorrelation, autocorrelation, row 1, row 2, or row 1.
+
+112
+00:17:03,310 --> 00:17:10,259
+Leung Ping Kei: Or row 2, sometimes, like, they, they use subscript, and sometimes they, they use bracket, okay?
+
+113
+00:17:12,069 --> 00:17:34,689
+Leung Ping Kei: Correlogram is a crucial tool in recognition of possible models for the time series data. But because of sampling fluctuation, because sample will vary, will be different. And then cut off correlogram is easier to recognize than exponential decay.
+
+114
+00:17:35,820 --> 00:17:50,830
+Leung Ping Kei: Then we take a look at the partial autocorrelation. So the notion of a partial autocorrelation is designed to help the model identification procedure by exporting it.
+
+115
+00:17:51,130 --> 00:17:52,080
+Leung Ping Kei: Okay?
+
+116
+00:17:52,350 --> 00:18:01,409
+Leung Ping Kei: Now we let rho is 0, rho 1 up to rho k transpose, which is a column vector. Column vector.
+
+117
+00:18:09,290 --> 00:18:15,910
+Leung Ping Kei: So, vector of a first K autocorrelation of an ARK process, okay?
+
+118
+00:18:16,550 --> 00:18:28,949
+Leung Ping Kei: Now, let RK, okay? A matrix, K by K matrix, with IJ element is, rho IJ, okay? I minus J, rho I minus J.
+
+119
+00:18:29,370 --> 00:18:32,760
+Leung Ping Kei: Okay? Just like this, let's say, if…
+
+120
+00:18:33,150 --> 00:18:50,769
+Leung Ping Kei: Why they put an absolute value? Because rho negative k is just a rho k. That's why I like this. Therefore, rho i minus k is equal rho of i minus k. And then it will…
+
+121
+00:18:50,890 --> 00:19:05,219
+Leung Ping Kei: If it is negative, if we change it back to positive, okay? And now we let alpha, again, this is transposed, okay? Please correct it, because I think the…
+
+122
+00:19:05,980 --> 00:19:09,759
+Leung Ping Kei: It's mistype, mistype, okay? Again, column vector.
+
+123
+00:19:09,930 --> 00:19:12,030
+Leung Ping Kei: Column vector, okay?
+
+124
+00:19:12,300 --> 00:19:21,140
+Leung Ping Kei: So, alpha is still alpha 1 of the alpha k, be the vector of parameters, okay? So, we call the Euroticus equation.
+
+125
+00:19:21,370 --> 00:19:32,230
+Leung Ping Kei: Rho is equal to RK times alpha, okay? Rho is a column vector. RK is K by K matrix. Alpha is a K by, K by 1.
+
+126
+00:19:32,240 --> 00:19:43,770
+Leung Ping Kei: Okay? Make, K by 1, vector, okay? Therefore, alpha is equal to, RK inverse, okay, times rho.
+
+127
+00:19:45,020 --> 00:19:49,470
+Leung Ping Kei: Okay? And Alpha K, Alpha K is equal to…
+
+128
+00:19:50,080 --> 00:19:57,450
+Leung Ping Kei: RK star, alpha, okay? RK inverse.
+
+129
+00:19:58,410 --> 00:19:59,549
+Leung Ping Kei: Is that okay?
+
+130
+00:20:02,260 --> 00:20:09,830
+Leung Ping Kei: Where RK star denotes RK with its final column replaced by.
+
+131
+00:20:09,950 --> 00:20:24,359
+Leung Ping Kei: Rho K, Rho 1 up to Rho K transpose, okay? The last column of this, okay, will be changed, okay? I will show you later, okay? And then I will put this up on the blackboard, I forgot to…
+
+132
+00:20:25,190 --> 00:20:27,110
+Leung Ping Kei: Give you this, okay?
+
+133
+00:20:27,720 --> 00:20:32,620
+Leung Ping Kei: So I I I I wait on the blackboard, the whiteboard.
+
+134
+00:20:33,020 --> 00:20:34,170
+Leung Ping Kei: Okay.
+
+135
+00:20:35,630 --> 00:20:37,680
+Leung Ping Kei: Dan, okay.
+
+136
+00:20:40,320 --> 00:20:56,449
+Leung Ping Kei: Now, if the process is actually, ARK minus 1, okay? RK, equal to 0. Then, taking RK head and RK star head to be empirical version of RK and RK star.
+
+137
+00:20:56,680 --> 00:21:14,079
+Leung Ping Kei: Define the partial correlation, correlogram, to be the set of, coefficients, 5K is equal to, just like this, okay? Alpha K, okay? Now it's, 5K hat. 5K hat, that means, all this, like this.
+
+138
+00:21:15,790 --> 00:21:21,990
+Leung Ping Kei: All right, and we have seen this in chapter 3, chapter 3, if I'm, if.
+
+139
+00:21:22,580 --> 00:21:24,619
+Leung Ping Kei: If I'm not wrong, okay?
+
+140
+00:21:25,390 --> 00:21:47,679
+Leung Ping Kei: So, define the partial choreogram to be the set of coefficients. 5K hat is equal to, okay, the determinant of RK star hat divided by RK hat. K going from 1 to blah blah blah, and so on. So, for an ARP process, we expect.
+
+141
+00:21:48,430 --> 00:21:53,690
+Leung Ping Kei: 5k hat is approximately zero for all k greater than p.
+
+142
+00:21:54,310 --> 00:21:56,940
+Leung Ping Kei: Okay? That means.
+
+143
+00:21:57,500 --> 00:22:07,129
+Leung Ping Kei: Since this is ARP, we have P terms. Outside the P terms, the autocorrelation will be civil.
+
+144
+00:22:07,330 --> 00:22:14,250
+Leung Ping Kei: Okay? And also, 5K hat has asymptotic variance, 1 over N.
+
+145
+00:22:14,470 --> 00:22:20,469
+Leung Ping Kei: variance, 1 over N, 1 over N. And then a standard deviation is 1 over square root of N.
+
+146
+00:22:20,940 --> 00:22:28,719
+Leung Ping Kei: And hence we use plus or minus two times one over square root n.
+
+147
+00:22:28,850 --> 00:22:33,320
+Leung Ping Kei: To, to be the, just like the confidence interval.
+
+148
+00:22:33,700 --> 00:22:34,680
+Leung Ping Kei: Okay?
+
+149
+00:22:36,710 --> 00:22:53,849
+Leung Ping Kei: That is, error bound, error bound, we used to use, two times that, that is error bound, is, therefore, it's 95%, 95.44%, okay? If it is 95%, this number will change to 1.96, 1.96.
+
+150
+00:22:53,850 --> 00:23:02,360
+Leung Ping Kei: To look for a significantly non-zero 5kHz, just as for ordinary choreogram.
+
+151
+00:23:02,660 --> 00:23:17,209
+Leung Ping Kei: Okay? So, in here, I just tell, tell you, okay, set 0.025 is 1.96, and then, this one. 9, alpha, alpha is, 0.4,
+
+152
+00:23:17,890 --> 00:23:31,220
+Leung Ping Kei: I should say that 4.56%, one half of that is true. Therefore, this is a 95.44% confidence interval.
+
+153
+00:23:31,350 --> 00:23:36,779
+Leung Ping Kei: Okay? To see the legs, to see the leg of the model. Alright?
+
+154
+00:23:37,550 --> 00:23:40,280
+Leung Ping Kei: Okay, now we go to this, okay?
+
+155
+00:24:52,060 --> 00:24:57,460
+Leung Ping Kei: So the model is ARP, ARP. Hence, we can see that, okay?
+
+156
+00:25:46,910 --> 00:25:55,329
+Leung Ping Kei: This model have P terms, okay? Therefore, the outwards, okay? This one is just like, okay.
+
+157
+00:26:26,670 --> 00:26:31,659
+Leung Ping Kei: Therefore, the alpha P plus one. They don't have this term. They're all 0.
+
+158
+00:26:39,760 --> 00:26:47,760
+Leung Ping Kei: So, I will put it up on the paper, okay? Now you just take a look, you just take a look. Do you want to copy it?
+
+159
+00:26:49,350 --> 00:26:52,239
+Leung Ping Kei: Oh, just take a look, huh? Just take a look, okay.
+
+160
+00:26:52,360 --> 00:26:55,130
+Leung Ping Kei: So I I I swabbing.
+
+161
+00:28:11,890 --> 00:28:18,900
+Leung Ping Kei: But if you are only one term, only one term, then, this is the, row 1 is the.
+
+162
+00:28:19,160 --> 00:28:20,390
+Leung Ping Kei: 5, 1, 1.
+
+163
+00:28:32,230 --> 00:28:33,150
+Leung Ping Kei: Right?
+
+164
+00:28:33,770 --> 00:28:36,790
+Leung Ping Kei: Now we have AL2, AL2, okay.
+
+165
+00:29:33,720 --> 00:29:42,980
+Leung Ping Kei: If this is, AL2, okay? This is, 522, 522, okay? The vector, the vector, okay?
+
+166
+00:29:43,220 --> 00:29:44,959
+Leung Ping Kei: It's now like this.
+
+167
+00:29:45,400 --> 00:29:47,690
+Leung Ping Kei: Now I modify demo. Okay.
+
+168
+00:30:21,130 --> 00:30:24,660
+Leung Ping Kei: Therefore, we have two equations, two unknowns, right?
+
+169
+00:30:34,890 --> 00:30:36,960
+Leung Ping Kei: So for the 1st one, okay.
+
+170
+00:31:47,860 --> 00:31:51,769
+Leung Ping Kei: We have seen this before, okay, in chapter 3, chapter 3.
+
+171
+00:31:52,210 --> 00:31:53,300
+Leung Ping Kei: Chapter 3.
+
+172
+00:31:53,420 --> 00:31:58,619
+Leung Ping Kei: However, now we have AR3, okay? AR3.
+
+173
+00:32:02,710 --> 00:32:05,470
+Leung Ping Kei: And I think the right… All right.
+
+174
+00:33:35,960 --> 00:33:42,900
+Leung Ping Kei: Remember that this R matrix is symmetric. Symmetric.
+
+175
+00:33:49,450 --> 00:33:53,100
+Leung Ping Kei: So you can see that this one is here, this one is here.
+
+176
+00:33:55,100 --> 00:33:57,900
+Leung Ping Kei: Now, okay, we want to solve, okay?
+
+177
+00:34:03,450 --> 00:34:04,110
+Leung Ping Kei: Yes.
+
+178
+00:34:33,900 --> 00:34:35,839
+Leung Ping Kei: Remember that this is up.
+
+179
+00:34:35,949 --> 00:34:47,460
+Leung Ping Kei: RK star, RK star, okay? Then the last column, the last column will be replaced by row 1, row 2, row 3.
+
+180
+00:36:11,330 --> 00:36:12,170
+Leung Ping Kei: There you go.
+
+181
+00:36:12,740 --> 00:36:18,150
+Leung Ping Kei: R3 star, okay? And this is R3, and this is R3.
+
+182
+00:36:34,070 --> 00:36:36,070
+Leung Ping Kei: Hey, so one here, okay?
+
+183
+00:36:41,540 --> 00:36:44,170
+Leung Ping Kei: Or else you can call it.
+
+184
+00:36:44,550 --> 00:36:48,330
+Leung Ping Kei: Five, three, start, okay? Ahead, ahead.
+
+185
+00:37:16,800 --> 00:37:31,360
+Leung Ping Kei: And then forget about, AR4, okay? 4x4 matrix is not easy to do it. All right? So this is, I will put this up, on the blackboard, later, this afternoon, okay?
+
+186
+00:37:31,550 --> 00:37:33,399
+Leung Ping Kei: I forgot to put it.
+
+187
+00:37:56,860 --> 00:38:03,539
+Leung Ping Kei: Alright, then we have Section 4.3, Model Identification. This is important.
+
+188
+00:38:03,870 --> 00:38:22,420
+Leung Ping Kei: important, important, okay? Within the, general framework, of, possibly reasonable, seasonal AR, IMA PDQ, ARIMA PDQ processes, okay? Statistical analysis proceeds in three stages.
+
+189
+00:38:22,590 --> 00:38:23,600
+Leung Ping Kei: Okay.
+
+190
+00:38:27,380 --> 00:38:32,829
+Leung Ping Kei: The first one, identify possible choices for a PDQ.
+
+191
+00:38:33,150 --> 00:38:36,380
+Leung Ping Kei: And then, estimate the parameters.
+
+192
+00:38:36,550 --> 00:38:53,619
+Leung Ping Kei: And then part three, check the residuals are consistent with white noise or not. That means test the residual to see whether they are correlated or uncorrelated. Uncorrelated, there is a white noise, okay? If it is correlated, then you have to
+
+193
+00:38:53,810 --> 00:38:59,429
+Leung Ping Kei: We do your model.
+
+194
+00:38:59,960 --> 00:39:12,440
+Leung Ping Kei: So two major tools in one, identify possible choices for PTQ are the collateral gram, rho K, and also the parcel.
+
+195
+00:39:12,710 --> 00:39:17,059
+Leung Ping Kei: Correlogram, okay? 5KK, defined above.
+
+196
+00:39:17,440 --> 00:39:26,159
+Leung Ping Kei: And other tools include time pods, different things, experience and common sense.
+
+197
+00:39:28,830 --> 00:39:42,779
+Leung Ping Kei: So, time pause is that essential preliminary to any analysis to see whether there are outliers or non-stationarity, or variance or instability.
+
+198
+00:39:43,080 --> 00:40:04,410
+Leung Ping Kei: That means variants are not stable, not stable, okay? Not stationary, and then they are outliers, and it will affect the analysis, okay? And then, if time series is non-satanary, then ACF typically dies down very slow from 1.
+
+199
+00:40:04,510 --> 00:40:12,460
+Leung Ping Kei: Okay? ACF, okay? Autocorrelation function, okay? Will die down very, very slow, okay?
+
+200
+00:40:14,860 --> 00:40:25,279
+Leung Ping Kei: And then if you do a different thing, it can eliminate both deterministic and stochastic trend in data.
+
+201
+00:40:25,820 --> 00:40:26,850
+Leung Ping Kei: All right.
+
+202
+00:40:27,870 --> 00:40:33,530
+Leung Ping Kei: So over-differencing tends to increase variability.
+
+203
+00:40:34,430 --> 00:40:41,009
+Leung Ping Kei: Okay, so differencing is good, but you may do it once or twice.
+
+204
+00:40:41,010 --> 00:40:55,599
+Leung Ping Kei: And then furthermore, then it will increase the variation. So underdifferencing tends to produce a choriallogram which decays slowly or not at all.
+
+205
+00:40:55,690 --> 00:40:59,349
+Leung Ping Kei: Okay? That means not die down, okay?
+
+206
+00:41:01,000 --> 00:41:07,390
+Leung Ping Kei: And then a choreogram can resolve doubtful cases of seasonality.
+
+207
+00:41:07,530 --> 00:41:20,230
+Leung Ping Kei: More positively, I seek to relate a collateral gram to one of the various distinctive theoretical ACF of subclasses of AMA process.
+
+208
+00:41:20,230 --> 00:41:30,009
+Leung Ping Kei: Okay? There is exponentially decay, cut off, and sometimes like this. Okay? So partial autocorrelation also helps.
+
+209
+00:41:30,020 --> 00:41:42,070
+Leung Ping Kei: Okay? And then conventionally, the error is plus or minus 2 times 1 over square root n. That is the confidence interval. Okay? Just like what we had before.
+
+210
+00:41:42,180 --> 00:41:43,269
+Leung Ping Kei: This one.
+
+211
+00:41:44,610 --> 00:41:45,560
+Leung Ping Kei: Okay?
+
+212
+00:41:49,560 --> 00:41:53,140
+Leung Ping Kei: Okay, now we take a look, okay? This…
+
+213
+00:41:53,430 --> 00:41:57,379
+Leung Ping Kei: Table is very, very important, okay?
+
+214
+00:41:57,580 --> 00:42:12,820
+Leung Ping Kei: So behavior of ACF and PACF are for non-seasonal ARIMA models, okay? Non-seasonal, without season. That means without the S, okay? Now there is ARIMA PDQ.
+
+215
+00:42:12,860 --> 00:42:18,729
+Leung Ping Kei: Okay? Let's say, the model, okay? Let's say, MAQ.
+
+216
+00:42:18,810 --> 00:42:38,030
+Leung Ping Kei: MAQ, moving average of order Q. Okay, then we take a look at the autocorrelation function and also the partial autocorrelation function. Okay, ACF and PACF. Okay, so for MA model, cut off after leg Q.
+
+217
+00:42:38,600 --> 00:42:48,569
+Leung Ping Kei: Okay, ACF, ACF. However, the PACF, okay, will die down exponentially, or sinusoidally.
+
+218
+00:42:48,960 --> 00:42:57,699
+Leung Ping Kei: Okay, that means it dies down slowly, slowly, okay? PACF dies down slowly.
+
+219
+00:42:57,890 --> 00:43:02,199
+Leung Ping Kei: And ACF, cut off after leg kill.
+
+220
+00:43:04,770 --> 00:43:13,650
+Leung Ping Kei: And then another kind of model, AR model, okay? Auto-regressive order, auto-regressive order P, okay?
+
+221
+00:43:13,700 --> 00:43:26,299
+Leung Ping Kei: Now, okay, ACF die down, slowly, okay? Die down exponentially or sinusoidally, okay? That is, die down slowly, okay? And then…
+
+222
+00:43:26,360 --> 00:43:30,079
+Leung Ping Kei: PACF cuts off at the leg P.
+
+223
+00:43:31,760 --> 00:43:33,010
+Leung Ping Kei: All right?
+
+224
+00:43:35,420 --> 00:43:46,140
+Leung Ping Kei: That means that if you are given some information about ACF and PACF, you can check to see whether it is a MA model or AR model.
+
+225
+00:43:48,000 --> 00:43:53,730
+Leung Ping Kei: However, for a mixed model of order PQ, okay, AMA, okay?
+
+226
+00:43:54,220 --> 00:44:01,990
+Leung Ping Kei: Or ARIMA, okay? So, both ACF and PACF die down slowly.
+
+227
+00:44:02,860 --> 00:44:07,419
+Leung Ping Kei: Okay? Both ACF and PACF die down.
+
+228
+00:44:07,610 --> 00:44:10,530
+Leung Ping Kei: Exponentially or sinusoidally, huh?
+
+229
+00:44:10,820 --> 00:44:11,790
+Leung Ping Kei: All right!
+
+230
+00:44:13,400 --> 00:44:18,999
+Leung Ping Kei: So, this is for, MA, AR, and, I'm a model.
+
+231
+00:44:19,300 --> 00:44:21,510
+Leung Ping Kei: MA. A out.
+
+232
+00:44:21,630 --> 00:44:26,090
+Leung Ping Kei: Amma, okay? Arima will be on the next page.
+
+233
+00:44:26,200 --> 00:44:27,110
+Leung Ping Kei: Okay.
+
+234
+00:44:34,510 --> 00:44:51,590
+Leung Ping Kei: Okay, then, characteristic and equation for the most common box Jenkins model, okay? The most common box Jenkins model is ARIMA, PDQ, and PDQ are seasonal, okay? L, okay?
+
+235
+00:44:52,020 --> 00:45:06,250
+Leung Ping Kei: I used to use S rather than L. It doesn't matter, no matter you put it S or L. So note that both seasonal and non-seasonal models are included.
+
+236
+00:45:07,040 --> 00:45:08,060
+Leung Ping Kei: Okay.
+
+237
+00:45:10,090 --> 00:45:21,279
+Leung Ping Kei: So, okay, ACF cuts off after leg 1 or leg 2, okay? Just for example, example, okay? No significant spikes at the seasonal legs.
+
+238
+00:45:21,590 --> 00:45:23,680
+Leung Ping Kei: And PACF dies down.
+
+239
+00:45:24,240 --> 00:45:43,959
+Leung Ping Kei: Then, okay, this model will be, okay, non-seasonal, okay? MA. Either, leg 1, Q equal to 1, or leg 2, okay, Q equal to 2. There is a model with that, XT equal to mu minus theta 1, AT minus 1 plus, AT.
+
+240
+00:45:43,990 --> 00:45:54,719
+Leung Ping Kei: Okay? This is MA1, MA1, MA1. Where AT is, normally distributed, with mean 0, variance sigma squared. Okay?
+
+241
+00:45:55,470 --> 00:45:59,839
+Leung Ping Kei: So this is MA1 with a constant. With a constant.
+
+242
+00:46:01,060 --> 00:46:08,439
+Leung Ping Kei: All right. And then the second case, okay, ACF cuts off after a seasonal lab L.
+
+243
+00:46:08,760 --> 00:46:13,059
+Leung Ping Kei: And then, no significant spikes. Spice, that means, up.
+
+244
+00:46:13,450 --> 00:46:21,299
+Leung Ping Kei: Or down, okay? Go up or go down, okay? That is the spikes, spikes, that means, if you jump up or jump down.
+
+245
+00:46:21,520 --> 00:46:22,650
+Leung Ping Kei: Okay?
+
+246
+00:46:23,070 --> 00:46:33,799
+Leung Ping Kei: There is what we call spikes at the non-seasonal labs, okay? And then PACF dies down. Then it will be a seasonal MA.
+
+247
+00:46:33,900 --> 00:46:46,980
+Leung Ping Kei: seasonal MA, okay? So, XT is equal to mu minus theta 1L, okay? AT minus L, plus AT. This is seasonal. L, okay?
+
+248
+00:46:47,120 --> 00:46:48,269
+Leung Ping Kei: Let L.
+
+249
+00:46:54,210 --> 00:46:58,390
+Leung Ping Kei: All right, we have a consonant, huh? MA1, huh? MA1.
+
+250
+00:46:58,520 --> 00:47:03,069
+Leung Ping Kei: With a cons, let one, that means, the.
+
+251
+00:47:03,850 --> 00:47:06,949
+Leung Ping Kei: Q, Q here is equal to 1.
+
+252
+00:47:09,280 --> 00:47:11,060
+Leung Ping Kei: Is it okay?
+
+253
+00:47:11,350 --> 00:47:19,020
+Leung Ping Kei: Q here is 1. So, this one, 0, 0, 0, 0, 1.
+
+254
+00:47:19,140 --> 00:47:23,790
+Leung Ping Kei: Okay? This one is one. This one is one. Okay?
+
+255
+00:47:25,250 --> 00:47:36,450
+Leung Ping Kei: And then, okay, HCF cut off after seasonal L. Significant spikes also exist at non-seasonal L1 or 2.
+
+256
+00:47:36,580 --> 00:47:41,040
+Leung Ping Kei: Okay? Non-seasonal, next one or two, okay? That means in here.
+
+257
+00:47:42,800 --> 00:47:51,300
+Leung Ping Kei: Okay, it dies down for PACF. Then it is a non-seasonal seasonal MA.
+
+258
+00:47:52,210 --> 00:48:01,380
+Leung Ping Kei: There is, Q, Q is equal to 1. Q is equal to 1. And, this Q, is equal to 1.
+
+259
+00:48:02,810 --> 00:48:03,780
+Leung Ping Kei: Okay.
+
+260
+00:48:07,810 --> 00:48:23,679
+Leung Ping Kei: The model, given will be… look like that, xt is, you know, mu minus theta 1, AT minus 1, minus theta 1L, AT minus L, plus, okay, theta 1, theta 1L, AT minus 1, minus L.
+
+261
+00:48:23,930 --> 00:48:26,180
+Leung Ping Kei: Okay? Plus 80.
+
+262
+00:48:29,830 --> 00:48:38,240
+Leung Ping Kei: Therefore, it is, okay, just, Q, Q, equal to 1, and then Q is equal to 1, and then the join of them.
+
+263
+00:48:39,000 --> 00:48:39,990
+Leung Ping Kei: Okay.
+
+264
+00:48:45,000 --> 00:48:57,630
+Leung Ping Kei: And then the other way around, okay? The, AR, okay? Now, dies down, ACF dies down, and then, PACF cuts off after the last one or two.
+
+265
+00:48:57,630 --> 00:49:06,730
+Leung Ping Kei: And no significant spike at the seasonal level. Then it is a non-seasonal auto… Because it…
+
+266
+00:49:07,090 --> 00:49:13,590
+Leung Ping Kei: Model, okay? P either 1 or 2, okay? It depends on the legs, okay? Therefore.
+
+267
+00:49:14,030 --> 00:49:21,890
+Leung Ping Kei: The model will be look like XT equal to mu plus phi 1 XT minus 1.
+
+268
+00:49:22,030 --> 00:49:31,699
+Leung Ping Kei: Plus 80, okay? So this is AR1, AR1 with a constant.
+
+269
+00:49:34,600 --> 00:49:35,889
+Leung Ping Kei: And then,
+
+270
+00:49:36,270 --> 00:49:50,160
+Leung Ping Kei: Another case of AR model. Okay, ACF dies down, and then PACF cuts off after leg L, okay? No significant spike at the non-seasonal legs.
+
+271
+00:49:50,960 --> 00:49:51,939
+Leung Ping Kei: All right?
+
+272
+00:49:52,460 --> 00:50:00,270
+Leung Ping Kei: Then, after that era, okay, so, L, might be, might be.
+
+273
+00:50:01,370 --> 00:50:13,370
+Leung Ping Kei: Four seasons, okay? Four of them, okay? Or it will be 12 of them if it is monthly, okay? Usually it is seasonal.
+
+274
+00:50:13,570 --> 00:50:20,069
+Leung Ping Kei: Okay, there is spring, summer, autumn, and then winter.
+
+275
+00:50:20,220 --> 00:50:29,890
+Leung Ping Kei: Okay? So, in here, seasonal autoregressive, P is equal to 1, okay? This P, P is equal to 1.
+
+276
+00:50:30,140 --> 00:50:33,610
+Leung Ping Kei: All these are zero. And then P equal to 1.
+
+277
+00:50:35,160 --> 00:50:36,120
+Leung Ping Kei: Okay.
+
+278
+00:50:36,570 --> 00:50:45,060
+Leung Ping Kei: So, xt is equal to mu plus phi1L xt minus L plus at.
+
+279
+00:50:45,910 --> 00:50:46,770
+Leung Ping Kei: All right.
+
+280
+00:50:49,160 --> 00:51:04,900
+Leung Ping Kei: And then, another case, okay, ACF dies down, and then PACF cuts off after seasonal lag L, okay? Significant spikes also exist at a non-seasonal lags 1 or 2.
+
+281
+00:51:05,170 --> 00:51:10,199
+Leung Ping Kei: Then this is a non-seasonal and seasonal autoregressive.
+
+282
+00:51:10,820 --> 00:51:23,490
+Leung Ping Kei: model, okay? P, lowercase p equal to 1 or 2, because of that one or two, okay? And then, P is equal to 1, capital P equal to 1.
+
+283
+00:51:24,510 --> 00:51:38,229
+Leung Ping Kei: Alright, then it will, the model will be, XT equal to mu plus 51XT minus 1 plus 51LXT minus L plus 5151LXT minus L minus 1.
+
+284
+00:51:38,550 --> 00:51:39,990
+Leung Ping Kei: plus 80.
+
+285
+00:51:40,260 --> 00:51:41,230
+Leung Ping Kei: Okay.
+
+286
+00:51:42,820 --> 00:51:52,679
+Leung Ping Kei: So these six cases are for you to understand okay, the seasonal and non-seasonal, okay.
+
+287
+00:51:53,330 --> 00:52:05,709
+Leung Ping Kei: Model, okay? ARIMA, ARIMA. And then finally, the last one, okay? Okay? Just like what we had before, okay? Both ACF and PACF dies down.
+
+288
+00:52:05,810 --> 00:52:08,090
+Leung Ping Kei: Okay? Slowly, okay?
+
+289
+00:52:08,150 --> 00:52:29,209
+Leung Ping Kei: That means that means sinusoidally or exponentially, okay. So it is a mix, okay. Auto-regressive moving average, non-seasonal, okay. For example, XT is here mu plus phi one XT minus one plus phi data one AT minus one plus AT.
+
+290
+00:52:29,330 --> 00:52:42,210
+Leung Ping Kei: All right? And then, for seasonal, it will be… look like that. XT is 0 mu plus 51L XT minus L minus, data 1L, 8T minus L plus 8T.
+
+291
+00:52:49,870 --> 00:52:51,039
+Leung Ping Kei: Is that okay?
+
+292
+00:52:52,290 --> 00:52:57,879
+Leung Ping Kei: So remember that, okay, if both of the ACF and PACF die down.
+
+293
+00:52:58,800 --> 00:53:04,590
+Leung Ping Kei: Slowly, okay? It must be AMA, usually, okay? Because.
+
+294
+00:53:05,480 --> 00:53:09,079
+Leung Ping Kei: These are a little bit complicated.
+
+295
+00:53:09,330 --> 00:53:11,180
+Leung Ping Kei: Okay.
+
+296
+00:53:11,940 --> 00:53:19,879
+Leung Ping Kei: Most of the time, I will set questions under this case. All right?
+
+297
+00:53:29,560 --> 00:53:39,559
+Leung Ping Kei: How about we take a break? Okay? Okay. So, because we are a little bit fast, okay?
+
+298
+00:53:40,620 --> 00:53:48,450
+Leung Ping Kei: Okay, yeah, yeah, okay. We take a 15-minute break, okay? 15.
+
+299
+00:53:48,580 --> 00:53:49,490
+Leung Ping Kei: Okay.
+
+300
+01:10:42,910 --> 01:11:06,349
+Leung Ping Kei: Okay, let's start again, okay? Now, okay, we have section 4.3.3. Okay, additional approach to model identification, that is to test the residual, okay? Test the residual to see whether the model is acceptable or not. Okay, many approaches to model identification have been proposed since Box and Jenkins work.
+
+301
+01:11:06,590 --> 01:11:21,710
+Leung Ping Kei: Okay? Since 1970-something. A popular one is the Akaike's information criteria. Japanese Akaike.
+
+302
+01:11:21,980 --> 01:11:41,169
+Leung Ping Kei: AIC information criterion in 1973. AIC says to select the model that minimize the log likelihood function. AIC is negative 2 times log of the MLE.
+
+303
+01:11:41,170 --> 01:11:49,519
+Leung Ping Kei: And then plus 2K. K is the number of parameters in the model, okay? Where K is equal to P plus Q plus 1.
+
+304
+01:11:49,610 --> 01:12:00,990
+Leung Ping Kei: Okay, if the AMA model contains a constant term, okay, and K is equal to P plus Q otherwise.
+
+305
+01:12:01,360 --> 01:12:02,509
+Leung Ping Kei: Is that okay?
+
+306
+01:12:04,510 --> 01:12:08,980
+Leung Ping Kei: So, in here, K is P plus Q plus 1.
+
+307
+01:12:09,370 --> 01:12:14,770
+Leung Ping Kei: Okay? If, okay, if the model contains a constant.
+
+308
+01:12:15,160 --> 01:12:18,259
+Leung Ping Kei: Okay? If the content is not
+
+309
+01:12:19,000 --> 01:12:22,890
+Leung Ping Kei: involved, then, K is equal to P plus Q.
+
+310
+01:12:24,210 --> 01:12:25,110
+Leung Ping Kei: All right.
+
+311
+01:12:25,530 --> 01:12:41,169
+Leung Ping Kei: So, maximum likelihood estimation is, discussed in the next section, okay? Next section, okay? The PD, the log likelihood function, okay? MLE, okay? Then, the additional, addition term of the.
+
+312
+01:12:41,170 --> 01:12:54,280
+Leung Ping Kei: Term 2 times p plus q plus 1, that is 2k, or 2 times p plus q, serve as a penalty function to avoid choosing models with many parameters.
+
+313
+01:12:54,950 --> 01:12:55,920
+Leung Ping Kei: Okay?
+
+314
+01:12:56,290 --> 01:13:03,950
+Leung Ping Kei: That means try to eliminate, use less parameters to build a model.
+
+315
+01:13:04,080 --> 01:13:14,790
+Leung Ping Kei: Okay? However, if shown that AIC tends to select models with more parameters in similar models, okay?
+
+316
+01:13:16,540 --> 01:13:27,339
+Leung Ping Kei: So this is described by Shibata. Shibata in 1976, another Japanese writer.
+
+317
+01:13:27,560 --> 01:13:28,820
+Leung Ping Kei: Oops.
+
+318
+01:13:30,250 --> 01:13:52,589
+Leung Ping Kei: Thus, many other information criteria have appeared in the literature. And then two well-known ones are AICC, just to make use of AIC to change it, proposed by Heurich and Chai. This is Chinese.
+
+319
+01:13:52,630 --> 01:13:53,470
+Leung Ping Kei: Yeah.
+
+320
+01:13:54,050 --> 01:14:05,229
+Leung Ping Kei: Chinese person, okay, in China, okay? 1979. AICC is AIC, okay? AIC.
+
+321
+01:14:05,890 --> 01:14:12,080
+Leung Ping Kei: Plus 2 times K plus 1 times K plus 2 divided by N minus K minus 2.
+
+322
+01:14:12,480 --> 01:14:24,140
+Leung Ping Kei: Okay? And then another one, okay? Bayesian Information Criterion, BIC, in 1978. BIC is equal to negative log
+
+323
+01:14:24,330 --> 01:14:25,850
+Leung Ping Kei: Maximum livelihood.
+
+324
+01:14:26,520 --> 01:14:35,829
+Leung Ping Kei: Plus K times log N, okay? Which is similar to AIC, okay? This is called a BIC, Bayesian.
+
+325
+01:14:36,870 --> 01:14:41,130
+Leung Ping Kei: Both criteria will tend to select models with a smaller K.
+
+326
+01:14:41,320 --> 01:14:46,500
+Leung Ping Kei: Okay, that means that smaller parameters are in their model.
+
+327
+01:14:46,810 --> 01:14:48,040
+Leung Ping Kei: Okay.
+
+328
+01:14:51,680 --> 01:15:05,510
+Leung Ping Kei: So, 4.4, parameter estimation. Having identified an RMRPQ process for the suitably different data, we need to estimate P and Q parameters.
+
+329
+01:15:05,510 --> 01:15:23,159
+Leung Ping Kei: Okay? Then we need to use least square estimation. That is, we minimize the sum of square estimated residuals, the error. Okay? And then alternatively, we can use the maximum likelihood approach.
+
+330
+01:15:25,560 --> 01:15:33,499
+Leung Ping Kei: So the definition is that all AMA process involve an embedded white noise sequence, SETI.
+
+331
+01:15:33,530 --> 01:15:49,429
+Leung Ping Kei: The sequence of values, set T hat, the estimated value, recovered from the data XT hat. And then, the fitted parameters, alpha I hat, beta J hat, are all called the residuals.
+
+332
+01:15:50,040 --> 01:15:51,000
+Leung Ping Kei: Okay.
+
+333
+01:15:51,920 --> 01:15:54,229
+Leung Ping Kei: Well, if the…
+
+334
+01:15:54,990 --> 01:16:09,329
+Leung Ping Kei: model is suitable, okay, or reasonable, the residual should approximately be a realization of white noise, okay? That is, uncorrelated, zero mean, and constant variance.
+
+335
+01:16:10,370 --> 01:16:22,380
+Leung Ping Kei: That means that if the residuals, if the residuals are good, uncorrelated, zero mean, and it's a white noise, then it will be a good model.
+
+336
+01:16:24,530 --> 01:16:41,300
+Leung Ping Kei: And then, section 4.4.1, okay? Auto-regressive processes, okay? ARP, okay? XT is equal to sum of alpha i, XT minus i, i from 1 up to P, plus set T, okay? ARP. And,
+
+337
+01:16:41,330 --> 01:16:54,049
+Leung Ping Kei: And then I take this to the left-hand side. Then if and only if set T is equal to XT minus sum of alpha i XT minus i, i going from 1 to P.
+
+338
+01:16:58,100 --> 01:17:00,559
+Leung Ping Kei: Now, we use other,
+
+339
+01:17:01,310 --> 01:17:20,300
+Leung Ping Kei: least square estimation, huh? Now we want to estimate alpha i's, huh? Okay, alpha i's here, okay? Then, Xi, Xi minus the sum of alpha i Xt minus i. i going from 1 up to P squared. So, Xt minus this is the error. Error squared.
+
+340
+01:17:20,410 --> 01:17:23,599
+Leung Ping Kei: And then a T is going from P plus 1 to N.
+
+341
+01:17:24,900 --> 01:17:31,769
+Leung Ping Kei: So, now they want this to be a minimum with the estimated alpha i's, okay?
+
+342
+01:17:32,180 --> 01:17:38,930
+Leung Ping Kei: It's a minimum, okay, there is a P equation, P unknowns, okay.
+
+343
+01:17:39,580 --> 01:17:41,710
+Leung Ping Kei: P equation, P unknowns.
+
+344
+01:17:41,840 --> 01:17:45,200
+Leung Ping Kei: Okay? Alpha 1 up to alpha P, okay?
+
+345
+01:17:47,150 --> 01:17:55,860
+Leung Ping Kei: So, notice that any non-sable mean can be eliminated at the identification stage.
+
+346
+01:17:56,330 --> 01:18:07,370
+Leung Ping Kei: And then the least square solution is given by the Eurotica equation. Alpha is equal to R inverse rho, where rho is the column vector.
+
+347
+01:18:07,370 --> 01:18:21,869
+Leung Ping Kei: Row one up to row P. Okay. And then the vector of the first P sample autocorrelation coefficient and R is a P by P matrix with IJF element is a P I I minus C.
+
+348
+01:18:21,870 --> 01:18:30,670
+Leung Ping Kei: Oh, that is a rho k, sorry, not p, rho. Rho i minus a is rho k or rho minus k.
+
+349
+01:19:00,830 --> 01:19:12,109
+Leung Ping Kei: All right? Okay, this is, okay, how to do the least square estimation, LS, least square estimation, in order to find, other eyes.
+
+350
+01:19:12,210 --> 01:19:13,110
+Leung Ping Kei: Okay.
+
+351
+01:19:13,420 --> 01:19:24,430
+Leung Ping Kei: So usually, alpha I's are for the AL process, and then, beta, beta are for the, MA, MA process.
+
+352
+01:19:25,580 --> 01:19:29,059
+Leung Ping Kei: And sometimes we use data, data, okay?
+
+353
+01:19:31,050 --> 01:19:50,629
+Leung Ping Kei: Okay, so, section 4.4.2, moving average processes, okay? So, XT is here, set T, sum, plus a sum, data I, set T minus J, data J, set T minus J, J from 1 to Q, okay? And then I,
+
+354
+01:19:51,330 --> 01:20:06,629
+Leung Ping Kei: I take this to the left-hand side, okay? Then, if and only if, set T is equal to XT minus sum of data J times the set T minus JT from 1 to Q. We have Q unknowns, Q equation, Q unknown, okay?
+
+355
+01:20:06,780 --> 01:20:13,890
+Leung Ping Kei: And now, if it is a MAQ process, okay, residuals must be calculated recursively.
+
+356
+01:20:14,680 --> 01:20:25,180
+Leung Ping Kei: Just like this, okay? Since the expectation of set T is 0 for all T, then take an observable variable, okay?
+
+357
+01:20:25,930 --> 01:20:40,110
+Leung Ping Kei: Set zero, set one, blah blah blah, and so on, okay? And calculate, set one star equal to X1, set two star equal to X2 minus data one set one star.
+
+358
+01:20:40,500 --> 01:20:52,300
+Leung Ping Kei: Okay? That set star is H1, okay? And then, set 3 star is still X3, minus data 1, set 2 star, set 2 star is this, okay?
+
+359
+01:20:52,440 --> 01:21:07,249
+Leung Ping Kei: And so on. Therefore, the general term is ZQ plus 1 star equal to XQ plus 1 minus sum of theta i ZQ minus, plus 1 minus J, J from 1 of the Q.
+
+360
+01:21:07,820 --> 01:21:08,780
+Leung Ping Kei: Okay.
+
+361
+01:21:09,660 --> 01:21:15,579
+Leung Ping Kei: And then, minimize, sum of, set T star square, T from 1 to N.
+
+362
+01:21:15,820 --> 01:21:16,980
+Leung Ping Kei: Numerically.
+
+363
+01:21:18,030 --> 01:21:22,070
+Leung Ping Kei: Okay? For MAQ, we have to do it numerically.
+
+364
+01:21:22,500 --> 01:21:33,719
+Leung Ping Kei: Alright? So, we, we, we… don't worry, we won't ask you to do this. These are statistics. Alright? For the mixed process, okay?
+
+365
+01:21:34,350 --> 01:21:46,900
+Leung Ping Kei: XT is equal to sum of alpha i XT minus i, i from one of the P, plus set T, plus sum of beta J, set T minus J, J from one of the Q.
+
+366
+01:21:47,060 --> 01:22:01,229
+Leung Ping Kei: Okay? If and only if you can put it like this, okay? XT minus the sum of alpha i, XT minus i, i from 1 up to P, and then, minus sum of beta J, ZT minus J, J from 1 up to Q.
+
+367
+01:22:01,350 --> 01:22:09,059
+Leung Ping Kei: Okay? Then we calculate SFT star recursively as above, just like the MA process.
+
+368
+01:22:09,260 --> 01:22:10,280
+Leung Ping Kei: Okay.
+
+369
+01:22:11,130 --> 01:22:14,040
+Leung Ping Kei: So we take a look at the,
+
+370
+01:22:14,450 --> 01:22:30,370
+Leung Ping Kei: Example, R11, okay, with constant, with constant, okay, so XT minus mu is equal to alpha times XT minus 1 minus mu, okay, plus ZT plus beta 1 ZT minus 1.
+
+371
+01:22:30,820 --> 01:22:47,829
+Leung Ping Kei: Now you are given, n observation, X1 up to X capital N. We guess, okay, values for, mu, alpha 1, beta 1, okay? And set, set 0, star equal to 0. And then, X0 is equal to mu.
+
+372
+01:22:48,050 --> 01:22:51,789
+Leung Ping Kei: And then we calculate recursively, okay, the residual.
+
+373
+01:22:52,580 --> 01:23:07,710
+Leung Ping Kei: Using the formula, set 1 star equal to x1 minus mu, set 2 star equal to x2 minus mu minus alpha 1 times bracket x1 minus mu, and then minus beta 1 times, set 1 star.
+
+374
+01:23:08,070 --> 01:23:22,239
+Leung Ping Kei: Okay? And then the general term, okay? ZN star is equal to XN minus mu, okay? Minus alpha times XN minus 1 minus mu, and then minus beta 1 ZN minus 1 star.
+
+375
+01:23:22,600 --> 01:23:40,969
+Leung Ping Kei: Okay? Then, the, residual sum of square, set T star square, i from 1 up to n, may be, calculated. And then, other values of alpha i, alpha 1, beta 1 may be tried, until, a minimum is found.
+
+376
+01:23:41,660 --> 01:23:49,260
+Leung Ping Kei: Okay? So, this is just the… just give you the formula, just the formula, just like this, okay?
+
+377
+01:24:00,380 --> 01:24:16,449
+Leung Ping Kei: So, Alma11, okay, you're given that, okay, Alma11 with a constant, okay? XT minus mu equal to alpha 1 times bracket, XT minus 1 minus mu, plus set T, plus beta 1 set T minus 1, okay, this is.
+
+378
+01:24:17,310 --> 01:24:21,130
+Leung Ping Kei: MA1, AR1, and then MA1.
+
+379
+01:24:21,540 --> 01:24:28,209
+Leung Ping Kei: Okay, now we have, set, set 0 star equal 0, X0 is equal to mu.
+
+380
+01:24:28,430 --> 01:24:47,619
+Leung Ping Kei: Therefore, set T is equal to XT minus mu, okay? Set T, okay? XT minus mu minus this, and then minus this, okay? XT minus mu minus alpha times bracket, XT minus 1, minus mu, and then, minus, beta 1 set T minus 1.
+
+381
+01:24:48,370 --> 01:24:54,089
+Leung Ping Kei: Now, segment star, okay? Segment star, okay? That is when T equal to 1.
+
+382
+01:24:54,240 --> 01:25:05,590
+Leung Ping Kei: Therefore, we have X1 minus mu, minus alpha 1 times X1 minus 1 is 0, minus mu, and then minus beta 1, set 0 star.
+
+383
+01:25:05,720 --> 01:25:25,110
+Leung Ping Kei: Okay? So Z0 star is 0, and then, X0 is mu. Therefore, we have that X1 minus mu minus, alpha 1 times, mu minus mu minus, beta 1 times 0. Therefore, the last two terms can, are 0. Now we have,
+
+384
+01:25:25,110 --> 01:25:28,830
+Leung Ping Kei: Set one star equal to x1 minus mu.
+
+385
+01:25:30,620 --> 01:25:41,260
+Leung Ping Kei: Alright? Then, Z2 star is equal to X2 minus mu minus, alpha 1, X1 minus mu minus, beta 1, Z1 star.
+
+386
+01:25:41,510 --> 01:25:51,910
+Leung Ping Kei: Okay? Seven Psalms, we just find it, is, beta, is, X1 minus mu, X1 minus mu. Then, we can, do, keep on doing like this.
+
+387
+01:25:52,340 --> 01:26:05,779
+Leung Ping Kei: Okay? And then, set N star is equal to XN minus mu minus alpha 1 times bracket XN minus 1 minus mu minus beta 1 set N minus 1 star.
+
+388
+01:26:05,780 --> 01:26:14,239
+Leung Ping Kei: Okay? Now we are going to find, okay, we take the square of these terms, okay? And then minimize with respect to
+
+389
+01:26:14,240 --> 01:26:15,770
+Leung Ping Kei: Alpha 1 and Beta 1.
+
+390
+01:26:16,230 --> 01:26:17,250
+Leung Ping Kei: And meal.
+
+391
+01:26:17,800 --> 01:26:18,780
+Leung Ping Kei: All right.
+
+392
+01:26:20,390 --> 01:26:26,439
+Leung Ping Kei: It's… it's… it's not easy to do, okay? Just take a look, man, just take a look, okay?
+
+393
+01:26:34,100 --> 01:26:54,789
+Leung Ping Kei: Okay, notes that a more general and rigorous theory on the estimation of parameters in ARIMA models is based on maximum likelihood. For the interested student, you may, okay, refer to Chapter 3 of HAVE, okay? So, you can go to QA280.
+
+394
+01:26:54,800 --> 01:27:14,270
+Leung Ping Kei: Okay? The name of the book is Time Series Models, 1993, okay? They may be… they may have an updated version, okay? And then, or, you take a look at Chapter 7, our textbook, okay? WWS, wait, okay?
+
+395
+01:27:14,680 --> 01:27:24,130
+Leung Ping Kei: Wait, okay? Time Series Analysis. Univariate, multivariate, Method, 1993. Okay.
+
+396
+01:27:43,940 --> 01:27:55,669
+Leung Ping Kei: Okay, how about we stop it here, okay? So we start with Section 4.5 next week. Next week, okay? So I will put the assignment up.
+
+397
+01:27:55,860 --> 01:28:02,810
+Leung Ping Kei: In the afternoon, after the lunch, after my lunch, okay? And then, and also the,
+
+398
+01:28:03,900 --> 01:28:11,480
+Leung Ping Kei: The breadboard, okay? I mean… This, this…
+
+399
+01:28:11,660 --> 01:28:26,769
+Leung Ping Kei: This paper, this paper. I wrote it on the whiteboard, okay? I will put this up on the paper later today, okay? Then, thank you for coming, okay? All of you have a nice day today.
+

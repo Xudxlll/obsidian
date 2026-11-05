@@ -1,0 +1,2444 @@
+1
+00:54:12,950 --> 00:54:21,079
+Leung Ping Kei: Okay, let's start again, huh? Okay, last time, I, I just,
+
+2
+00:54:21,800 --> 00:54:26,550
+Leung Ping Kei: Telling you, what, what, what myself is, okay? Now, I, I…
+
+3
+00:54:26,670 --> 00:54:33,180
+Leung Ping Kei: put it in a PDF file, okay? My name is Leung Ping Kei, okay?
+
+4
+00:54:34,690 --> 00:54:50,350
+Leung Ping Kei: In, in Chinese, I mean, in Cantonese, Leung Bing Kei. In Bohanhua, Leung Bing, qi, QIQI, Ping as B-I-N-G,
+
+5
+00:54:50,430 --> 00:54:55,059
+Leung Ping Kei: Is it BING Ping? L-I-A-N-G, Leung?
+
+6
+00:54:55,190 --> 00:54:58,610
+Leung Ping Kei: Okay, and my English name is Bartholomew.
+
+7
+00:54:58,610 --> 00:55:15,850
+Leung Ping Kei: Oh, you… people used to call me Bart, okay? And I got my, three degrees, okay, in the same university, okay? University of Manitoba, okay? I got it in 1980, a double honors, editorial and business mathematics and Statistics.
+
+8
+00:55:15,850 --> 00:55:24,670
+Leung Ping Kei: And, I got my master's in 1981 in statistics, and in 1993, okay, I…
+
+9
+00:55:25,390 --> 00:55:41,659
+Leung Ping Kei: start, the studying PhD, in part-time, and then I graduate in 1999, in statistics, okay? All my three degrees are from University of Manitoba, okay? The city, was, Minnipeg.
+
+10
+00:55:41,760 --> 00:55:46,490
+Leung Ping Kei: And, Canada, okay?
+
+11
+00:55:47,080 --> 00:56:00,620
+Leung Ping Kei: And then my office phone number is TU714, okay? Email address, ma, M-A-M-A-L-E-U-N-G at paulyu.edu.hk.
+
+12
+00:56:00,980 --> 00:56:01,870
+Leung Ping Kei: Okay.
+
+13
+00:56:08,030 --> 00:56:17,489
+Leung Ping Kei: Alright? So, there will be one assignment, which will, 20%, okay? I will give you around week 6 or week 7.
+
+14
+00:56:17,600 --> 00:56:25,229
+Leung Ping Kei: Okay? And then, it's about a two-week's time, okay? You hand it in, in week nine, okay?
+
+15
+00:56:26,860 --> 00:56:28,430
+Leung Ping Kei: So,
+
+16
+00:56:29,050 --> 00:56:42,730
+Leung Ping Kei: I, I, I will correct, I will correct, the assignment, okay? So, I, I, I, I don't want to, use some other hands, to, correct,
+
+17
+00:56:42,740 --> 00:56:53,179
+Leung Ping Kei: the assignment, okay? The assignment, test, and exam, I will do it myself, okay? So, please, hand in hard copy.
+
+18
+00:56:53,710 --> 00:56:55,720
+Leung Ping Kei: Hot puppy, okay?
+
+19
+00:56:55,860 --> 00:56:57,140
+Leung Ping Kei: Hot copy.
+
+20
+00:56:57,450 --> 00:56:58,290
+Leung Ping Kei: Okay.
+
+21
+00:56:58,850 --> 00:57:06,179
+Leung Ping Kei: Or else, if you send me a flu email, then, please use PDF file.
+
+22
+00:57:06,300 --> 00:57:11,360
+Leung Ping Kei: PDF file, so that I can print it out and correct it, okay?
+
+23
+00:57:12,200 --> 00:57:13,249
+Leung Ping Kei: Is that okay?
+
+24
+00:57:16,120 --> 00:57:26,810
+Leung Ping Kei: And then the test, okay, close book, okay? 20%, it worked, 20% in week 10, okay, in here, okay? So, it's supposed to have,
+
+25
+00:57:26,980 --> 00:57:29,560
+Leung Ping Kei: 76 of you.
+
+26
+00:57:29,850 --> 00:57:38,780
+Leung Ping Kei: 76 of you. Now, you can see, it's around 20-something.
+
+27
+00:57:41,500 --> 00:57:51,219
+Leung Ping Kei: Okay, examination, 60%, in December, I, I don't know the date yet, okay? It's again, close book, close book.
+
+28
+00:58:02,190 --> 00:58:04,029
+Leung Ping Kei: Anymore you want to know?
+
+29
+00:58:10,070 --> 00:58:12,620
+Leung Ping Kei: If… nope, okay, then, okay.
+
+30
+00:58:24,450 --> 00:58:25,650
+Leung Ping Kei: Oh, what?
+
+31
+00:58:26,240 --> 00:58:27,070
+Leung Ping Kei: Oops.
+
+32
+00:58:34,420 --> 00:58:39,700
+Leung Ping Kei: Last time, we have done, up to, 1.5.3, okay?
+
+33
+00:58:45,620 --> 00:58:50,030
+Leung Ping Kei: Oh… It should be laid here, isn't it?
+
+34
+00:58:56,690 --> 00:58:58,669
+Leung Ping Kei: Is that okay? This one,
+
+35
+00:58:59,090 --> 00:59:10,419
+Leung Ping Kei: So remember that, this operator is backward operator, backward, B-A-C-K-W-A-R-D.
+
+36
+00:59:10,670 --> 00:59:25,280
+Leung Ping Kei: backward operator. That is, if there's no numbers around, then it is a one period, one period. Therefore, backward delta X, backward delta XT is equal to,
+
+37
+00:59:25,760 --> 00:59:28,810
+Leung Ping Kei: X… XT minus, XT minus 1.
+
+38
+00:59:29,460 --> 00:59:30,700
+Leung Ping Kei: That's ideal.
+
+39
+00:59:32,150 --> 00:59:35,549
+Leung Ping Kei: XT minus XT minus 1.
+
+40
+00:59:36,450 --> 00:59:37,980
+Leung Ping Kei: Subscript. Yeah.
+
+41
+00:59:39,570 --> 00:59:50,489
+Leung Ping Kei: Alright? If there is a K period, K period here. Therefore, the backward difference as the operator will give you XT minus XT minus K.
+
+42
+00:59:55,850 --> 00:59:56,979
+Leung Ping Kei: Is that okay?
+
+43
+01:00:07,520 --> 01:00:16,899
+Leung Ping Kei: Okay, now, we have, the Kessel model and regression, model over time, okay? So, part A, it is,
+
+44
+01:00:21,990 --> 01:00:36,510
+Leung Ping Kei: linear model, okay? YT is equal to alpha plus beta XT plus epsilon t, okay? Since it's based on, and other variable, usually, usually, XT and YT are independent.
+
+45
+01:00:37,000 --> 01:00:40,770
+Leung Ping Kei: independent, okay? So,
+
+46
+01:00:41,280 --> 01:00:53,670
+Leung Ping Kei: The error term, epsilon t, okay? You're going to minimize, the sum of square error. Then, you can find, YT hat is equal to alpha hat plus beta hat XT.
+
+47
+01:00:54,620 --> 01:01:11,410
+Leung Ping Kei: Okay? Then, this is what we call a Castle model. And then a trained model, okay? YT is equal to alpha plus beta t plus epsilon t. Again, the trend model, after you, estimate it, YT hat equal to alpha hat plus beta hat T.
+
+48
+01:01:11,680 --> 01:01:12,540
+Leung Ping Kei: Okay.
+
+49
+01:01:13,490 --> 01:01:21,030
+Leung Ping Kei: And, epsilon t, okay? Normal, with mean zero, variance sigma squared.
+
+50
+01:01:21,630 --> 01:01:24,980
+Leung Ping Kei: And, epsilon Ts are independent.
+
+51
+01:01:25,640 --> 01:01:27,060
+Leung Ping Kei: Independent.
+
+52
+01:01:27,380 --> 01:01:28,300
+Leung Ping Kei: Okay?
+
+53
+01:01:29,490 --> 01:01:40,969
+Leung Ping Kei: And then, for 0.2, okay, independent, okay, testing the presence of, autocorrelation gives the famous, Durban-Wasson statistic a D.
+
+54
+01:01:41,870 --> 01:01:43,020
+Leung Ping Kei: Okay?
+
+55
+01:01:44,150 --> 01:01:47,659
+Leung Ping Kei: Have you ever, learned this word before?
+
+56
+01:01:48,350 --> 01:01:51,950
+Leung Ping Kei: auto… Correlation.
+
+57
+01:01:53,540 --> 01:01:59,179
+Leung Ping Kei: Auto-correlation. Okay, correlation, I think most of you learned it.
+
+58
+01:02:00,140 --> 01:02:01,030
+Leung Ping Kei: Bite?
+
+59
+01:02:01,380 --> 01:02:09,790
+Leung Ping Kei: Correlation. But auto-correlation, Autocorrelation, that means the SERIES is dependent.
+
+60
+01:02:10,320 --> 01:02:16,160
+Leung Ping Kei: dependent. Therefore, the correlation is Auto.
+
+61
+01:02:18,280 --> 01:02:20,850
+Leung Ping Kei: Alright? Dependent, okay?
+
+62
+01:02:30,530 --> 01:02:38,219
+Leung Ping Kei: So, Durban-Wilson's T statistic is equal to SUN, okay? T is going from 2 to N.
+
+63
+01:02:38,320 --> 01:02:40,150
+Leung Ping Kei: 2 to n of.
+
+64
+01:02:40,470 --> 01:02:48,600
+Leung Ping Kei: ET minus ET minus 1 squared, okay? And then divided by sum of ET squared, T going from 1 to N.
+
+65
+01:02:51,410 --> 01:02:52,390
+Leung Ping Kei: Alright?
+
+66
+01:02:55,470 --> 01:03:10,690
+Leung Ping Kei: So, if we expand this, expand the numerator, okay, the sum of, ET minus ET minus 1 squared, okay? Of course, this is t from, 2 to N, 2 to N, okay?
+
+67
+01:03:11,150 --> 01:03:23,920
+Leung Ping Kei: divided by a sum of ET squared, it will be approximately equal to 2 times a sum of ET squared minus 2 times sum of a cross product, ETET minus 1.
+
+68
+01:03:24,620 --> 01:03:37,620
+Leung Ping Kei: Okay? This one, T, T is, going from, 2 to infinity, supposed to be, okay? And then, this one, T from 2 to infini, sorry, 2 to N.
+
+69
+01:03:37,880 --> 01:03:51,250
+Leung Ping Kei: This one is to N, not infinity, I'm sorry about that. Okay? And then divided by the denominator, sum of ET squared. Then you can see, I can take the 2 out.
+
+70
+01:03:51,590 --> 01:03:58,590
+Leung Ping Kei: And then I divide ET squared, sum up ET squared into here, it is approximately equal to 1.
+
+71
+01:03:59,000 --> 01:04:01,680
+Leung Ping Kei: Approximately equal 1.
+
+72
+01:04:02,070 --> 01:04:09,080
+Leung Ping Kei: And then, the sum of a cross product divided by the sum of squares, we just call it, R1 hat.
+
+73
+01:04:09,240 --> 01:04:13,170
+Leung Ping Kei: our one head, okay? Or else, okay?
+
+74
+01:04:42,100 --> 01:04:56,660
+Leung Ping Kei: You, you, you did have this, you did have, this set of notes. Wait, I put it on the blackboard already. Page, 6 to 9, 6 to 9, okay? So the third one, statistics, is, is to test, okay?
+
+75
+01:04:57,220 --> 01:05:12,469
+Leung Ping Kei: the presence of an autocorrelation, okay? So, null hypothesis is that, the epsilon T's are independent, okay? Our null hypothesis, and H1, epsilon Ts are correlated, not independent.
+
+76
+01:05:12,840 --> 01:05:18,229
+Leung Ping Kei: co-related. They are not independent. The alternate hypothesis.
+
+77
+01:05:18,430 --> 01:05:41,339
+Leung Ping Kei: Okay? So, Devin-Wilson test statistic, is that, okay? Sum t from 2 to N, of ET minus ET minus 1 squared, divided by sum of ET squared. And then, I expand this, okay? Sum of t from 2 to n of ET squared minus 2 times ETET minus 1 plus ET minus 1 squared.
+
+78
+01:05:42,540 --> 01:05:43,520
+Leung Ping Kei: Alright?
+
+79
+01:05:43,880 --> 01:05:45,470
+Leung Ping Kei: Now, okay.
+
+80
+01:05:46,030 --> 01:05:52,989
+Leung Ping Kei: It is approxim… because of this term, and this term are not exactly the same.
+
+81
+01:05:53,010 --> 01:06:08,970
+Leung Ping Kei: Not exactly the same. However, it will be more or less, more or less the same, okay? Therefore, it is approximately equal to 2 times, okay? Two times, okay? Once…
+
+82
+01:06:09,000 --> 01:06:14,679
+Leung Ping Kei: Second, okay, 2 times a sum of ET squared, T going from 2 to N.
+
+83
+01:06:15,810 --> 01:06:24,080
+Leung Ping Kei: And then minus, the, the remaining term, 2 times, sum up ET, ET minus 1, T going from 2 to N.
+
+84
+01:06:24,450 --> 01:06:30,720
+Leung Ping Kei: And then divided by… Sum of ET squared, T going from 1 to N.
+
+85
+01:06:31,810 --> 01:06:39,610
+Leung Ping Kei: And again, it is approximately equal to, okay? Since I divide this into here.
+
+86
+01:06:39,950 --> 01:06:59,400
+Leung Ping Kei: Okay? They are not exactly the same, okay? But more or less, more or less the same. Okay? Therefore, I take out the 2, okay, times, okay, sum of eT squared, divided by sum of eT squared. The numerator is the T going from 2 to n, and the denominator, T going from 1 to n, okay?
+
+87
+01:06:59,630 --> 01:07:13,779
+Leung Ping Kei: And then minus, the sum of, like, the cross part of ET, ET-1, divided by the sum of ET squared, okay? Again, the numerator, T going from 2 to n, and the denominator, is from 1 to N.
+
+88
+01:07:15,680 --> 01:07:22,319
+Leung Ping Kei: Alright? So then, notice that, okay, this one, is approximately equal to one, this one.
+
+89
+01:07:22,920 --> 01:07:23,790
+Leung Ping Kei: Okay?
+
+90
+01:07:25,400 --> 01:07:31,309
+Leung Ping Kei: Then, we write it as, okay, approximately equal to 2 times 1 minus…
+
+91
+01:07:31,430 --> 01:07:34,129
+Leung Ping Kei: Our one hat. Our one head.
+
+92
+01:07:38,920 --> 01:07:47,910
+Leung Ping Kei: Alright? R1 header is the roughly, roughly correlation, coefficient, between ET and ET-1.
+
+93
+01:07:49,080 --> 01:07:49,980
+Leung Ping Kei: Okay?
+
+94
+01:07:59,760 --> 01:08:00,860
+Leung Ping Kei: Is that okay?
+
+95
+01:08:02,350 --> 01:08:03,610
+Leung Ping Kei: All right.
+
+96
+01:08:09,500 --> 01:08:18,450
+Leung Ping Kei: And note that, okay, D lies between 0 to 4, okay? We have a value close to 0, indicates that, a positive correlation.
+
+97
+01:08:18,800 --> 01:08:24,459
+Leung Ping Kei: And a value close to 4 indicates a negative correlation.
+
+98
+01:08:25,510 --> 01:08:30,729
+Leung Ping Kei: Okay? Code to civil, positive. Code to 4, negative.
+
+99
+01:08:30,880 --> 01:08:38,330
+Leung Ping Kei: Okay? Two more values are needed to calculate, to complete the testing procedure. They are
+
+100
+01:08:38,760 --> 01:08:44,880
+Leung Ping Kei: D, L, and DU, okay? The lower limit and the upper limit, okay, of D.
+
+101
+01:08:46,240 --> 01:08:51,639
+Leung Ping Kei: L, that means, lower limit, okay? DU, that is, upper limit.
+
+102
+01:08:51,880 --> 01:08:59,269
+Leung Ping Kei: Okay? To test, X1, rho equal to zero, and X1, rho either positive or negative.
+
+103
+01:08:59,520 --> 01:09:00,370
+Leung Ping Kei: Alright?
+
+104
+01:09:13,240 --> 01:09:22,279
+Leung Ping Kei: All right, then the procedure will look like that, okay? Most of the time, okay, when you get… when you go to the,
+
+105
+01:09:22,720 --> 01:09:32,870
+Leung Ping Kei: Durban-Wilson statistics table, okay? Then, okay, first of all, you need to, you need to find, okay, how many
+
+106
+01:09:33,979 --> 01:09:37,520
+Leung Ping Kei: Independent parameter in the model.
+
+107
+01:09:38,510 --> 01:09:44,050
+Leung Ping Kei: Okay? And the second one… You need to find the sample size.
+
+108
+01:09:44,450 --> 01:09:49,429
+Leung Ping Kei: Sample size. Then they will give you a D, U, and DL.
+
+109
+01:09:50,880 --> 01:09:56,800
+Leung Ping Kei: All right? And also, and also, the, the value P, okay?
+
+110
+01:09:57,500 --> 01:10:00,429
+Leung Ping Kei: D, U, D, L, and DU, okay?
+
+111
+01:10:00,700 --> 01:10:03,380
+Leung Ping Kei: Then our procedure is like that, okay?
+
+112
+01:10:03,890 --> 01:10:08,030
+Leung Ping Kei: the first partner, Eve, D lies between DU.
+
+113
+01:10:08,190 --> 01:10:11,220
+Leung Ping Kei: To, 4 minus DU.
+
+114
+01:10:12,090 --> 01:10:13,030
+Leung Ping Kei: Okay?
+
+115
+01:10:13,170 --> 01:10:14,989
+Leung Ping Kei: In between these two values.
+
+116
+01:10:15,730 --> 01:10:29,269
+Leung Ping Kei: Do not reject X naught, okay? Do not reject X naught, that is, accept, most of the time, most of the time, when we do hypothesis testing, we never say, accept
+
+117
+01:10:30,510 --> 01:10:38,390
+Leung Ping Kei: X naught, okay? Accept the hypothesis, okay? We, we just say, do not reject. Why?
+
+118
+01:11:12,230 --> 01:11:13,140
+Leung Ping Kei: Whoa.
+
+119
+01:11:14,040 --> 01:11:24,270
+Leung Ping Kei: The temperature was, close to 18. 18. Oh, that's why I am so… Pacey. Oh!
+
+120
+01:11:25,740 --> 01:11:30,550
+Leung Ping Kei: Now I put it, around 24. 24. Okay.
+
+121
+01:11:31,350 --> 01:11:34,270
+Leung Ping Kei: Oh, that's why it's so cold.
+
+122
+01:11:34,500 --> 01:11:35,250
+Leung Ping Kei: Oh.
+
+123
+01:11:38,570 --> 01:11:45,669
+Leung Ping Kei: Alright? Okay, and also you can see a page 8 top, okay? They would… they will give you the answer, okay?
+
+124
+01:11:45,790 --> 01:11:51,290
+Leung Ping Kei: Please, just take a look. This is a calculator value D. If it lies between DU,
+
+125
+01:11:51,880 --> 01:11:57,069
+Leung Ping Kei: and, 4 minus TU. Then, do not reject X naught, okay?
+
+126
+01:11:58,570 --> 01:12:08,400
+Leung Ping Kei: That means, the row, is 0, okay? And then the second case, okay, if D less than DL,
+
+127
+01:12:08,680 --> 01:12:13,259
+Leung Ping Kei: Okay? The left-hand side, therefore, we check X naught.
+
+128
+01:12:13,720 --> 01:12:14,600
+Leung Ping Kei: Okay?
+
+129
+01:12:14,940 --> 01:12:19,419
+Leung Ping Kei: That is to say that, accept a row, row positive.
+
+130
+01:12:21,990 --> 01:12:22,990
+Leung Ping Kei: Alright?
+
+131
+01:12:24,870 --> 01:12:28,410
+Leung Ping Kei: And if, D greater than 4 minus DL.
+
+132
+01:12:28,550 --> 01:12:29,460
+Leung Ping Kei: Okay?
+
+133
+01:12:29,720 --> 01:12:37,410
+Leung Ping Kei: Then, we check X0, okay? And accept that, okay? This one, this one. Row positive, this one.
+
+134
+01:12:38,110 --> 01:12:39,570
+Leung Ping Kei: Row negative.
+
+135
+01:12:41,150 --> 01:12:42,110
+Leung Ping Kei: Alright?
+
+136
+01:12:42,410 --> 01:12:56,859
+Leung Ping Kei: And then, part three, if D lines between DL and DU, or D lines between 4 minus DU to 4 minus DL, then the test is inconclusive, okay?
+
+137
+01:12:57,020 --> 01:13:00,070
+Leung Ping Kei: Inconclusive, that means, no conclusion.
+
+138
+01:13:00,490 --> 01:13:02,720
+Leung Ping Kei: No conclusion, okay?
+
+139
+01:13:06,360 --> 01:13:07,460
+Leung Ping Kei: Is that okay?
+
+140
+01:13:09,680 --> 01:13:11,859
+Leung Ping Kei: So, by the way, okay, haha.
+
+141
+01:13:13,370 --> 01:13:17,679
+Leung Ping Kei: Do you know, do you know why we use, do not reject?
+
+142
+01:13:19,940 --> 01:13:27,269
+Leung Ping Kei: Because, when you, when you do, when you, when you do a sample, okay, the sample size.
+
+143
+01:13:27,840 --> 01:13:31,560
+Leung Ping Kei: may not be… Large enough.
+
+144
+01:13:32,040 --> 01:13:36,289
+Leung Ping Kei: To say that, except it's not…
+
+145
+01:13:36,840 --> 01:13:48,900
+Leung Ping Kei: Right? Most of the time, when we do this kind of thing, the sample usually, okay, more than 30, or sometimes, let's say, a 200, okay? However, 200 may not be
+
+146
+01:13:49,000 --> 01:13:49,810
+Leung Ping Kei: Good.
+
+147
+01:13:50,540 --> 01:13:53,650
+Leung Ping Kei: For the whole… Situation.
+
+148
+01:13:54,180 --> 01:14:03,349
+Leung Ping Kei: Right? Therefore, we seldom say, do, accept, accept the hypothesis, okay?
+
+149
+01:14:04,330 --> 01:14:07,290
+Leung Ping Kei: We just use a do not reject.
+
+150
+01:14:15,820 --> 01:14:25,349
+Leung Ping Kei: So remember, remember all these three rules, okay? It's, it's not given, it's not given in the test, nor…
+
+151
+01:14:25,460 --> 01:14:29,629
+Leung Ping Kei: the exam, okay? You need to memorize them, okay?
+
+152
+01:14:30,300 --> 01:14:38,870
+Leung Ping Kei: However, you can see, you can see that, I, I draw a picture, okay, of telling you these, all, these three,
+
+153
+01:14:39,060 --> 01:14:41,120
+Leung Ping Kei: Situation, okay?
+
+154
+01:14:43,220 --> 01:14:45,080
+Leung Ping Kei: Okay,
+
+155
+01:14:45,550 --> 01:14:54,740
+Leung Ping Kei: The Durban Wilson Tesla is… the is going for… going from 0 to 4, okay? So, if you…
+
+156
+01:14:54,850 --> 01:14:59,149
+Leung Ping Kei: Oh, by the way, I don't know whether I… I have the… oh…
+
+157
+01:15:03,100 --> 01:15:07,059
+Leung Ping Kei: Let me see… I, I, I, I don't think I put it…
+
+158
+01:15:11,940 --> 01:15:14,119
+Leung Ping Kei: Urban Watson statistic.
+
+159
+01:15:20,740 --> 01:15:21,590
+Leung Ping Kei: Oi!
+
+160
+01:15:36,960 --> 01:15:37,750
+Leung Ping Kei: Oh.
+
+161
+01:15:39,160 --> 01:15:42,189
+Leung Ping Kei: Not the table. Oh, my God, sorry.
+
+162
+01:15:42,430 --> 01:15:50,969
+Leung Ping Kei: I, I thought it's a… The table, huh? I thought it is the table, but… oh…
+
+163
+01:15:53,600 --> 01:15:55,449
+Leung Ping Kei: No, I don't… I don't have that.
+
+164
+01:15:55,580 --> 01:15:59,090
+Leung Ping Kei: Okay, sorry about that. Okay, so,
+
+165
+01:16:03,160 --> 01:16:04,590
+Leung Ping Kei: Oh,
+
+166
+01:16:17,430 --> 01:16:20,100
+Leung Ping Kei: So this tells you, okay,
+
+167
+01:16:21,040 --> 01:16:28,900
+Leung Ping Kei: When, when you, when you know, okay, K prime. K prime, that means the number of independent variables.
+
+168
+01:16:29,470 --> 01:16:31,270
+Leung Ping Kei: Inside the model.
+
+169
+01:16:31,470 --> 01:16:48,449
+Leung Ping Kei: Okay? K prime, okay? Usually, K prime is equal to 1, equal to 1, because, most of the time, we have, YT equal to, alpha plus beta XT, okay? Therefore, XT is the one variable, okay?
+
+170
+01:16:48,670 --> 01:16:52,459
+Leung Ping Kei: Therefore, you, you just take, okay,
+
+171
+01:16:52,620 --> 01:16:58,639
+Leung Ping Kei: K prime equal to 1, and then, sample size, and, let's say,
+
+172
+01:16:59,400 --> 01:17:11,440
+Leung Ping Kei: at least, I mean, the table will give you, 6, 6 unit, n equal to 6, or larger, okay? The table, the table is,
+
+173
+01:17:12,860 --> 01:17:18,899
+Leung Ping Kei: Two-sided, a two-sided, okay? Then, at that time, you can find a D, L, and DU.
+
+174
+01:17:20,180 --> 01:17:30,879
+Leung Ping Kei: Okay? After you find DL and DU, you need to calculate a 4 minus DU, okay? 4 minus DU. And 4 minus DL, okay?
+
+175
+01:17:33,130 --> 01:17:34,300
+Leung Ping Kei: Is it okay?
+
+176
+01:17:35,010 --> 01:17:43,660
+Leung Ping Kei: Then, okay, the middle part of D is 2, okay? Here. So that in here, if…
+
+177
+01:17:45,040 --> 01:17:56,990
+Leung Ping Kei: The Thurban Wilson says, okay, give you the value, lies between 0 to DL, okay? We check H0, okay, and conclude a positive correlation.
+
+178
+01:17:57,690 --> 01:18:03,449
+Leung Ping Kei: And if it lie inside, DL and DU, okay? No conclusion.
+
+179
+01:18:03,610 --> 01:18:04,980
+Leung Ping Kei: inconclusive.
+
+180
+01:18:05,280 --> 01:18:15,979
+Leung Ping Kei: And if it lie between DU to 4 minus DU, okay, do not reject X naught, okay? No evidence of a correlation.
+
+181
+01:18:16,110 --> 01:18:16,960
+Leung Ping Kei: Okay?
+
+182
+01:18:17,960 --> 01:18:20,710
+Leung Ping Kei: No evidence of, autocorrelation.
+
+183
+01:18:22,730 --> 01:18:30,020
+Leung Ping Kei: Alright? There is a row, maybe a zero, okay? And then, if… The…
+
+184
+01:18:31,500 --> 01:18:41,179
+Leung Ping Kei: The value D, okay, lies between 4 minus DU to 4 minus DL, okay? It is, again, no conclusion in conclusive.
+
+185
+01:18:42,090 --> 01:18:43,350
+Leung Ping Kei: And if…
+
+186
+01:18:43,760 --> 01:18:54,600
+Leung Ping Kei: It lies between, 4 minus TL to 4. Therefore, we check X0, we check X0, and conclude that, okay, negative autocorpion, okay?
+
+187
+01:19:11,500 --> 01:19:12,650
+Leung Ping Kei: Is that okay?
+
+188
+01:19:18,120 --> 01:19:25,399
+Leung Ping Kei: Therefore, this is the same as, your page 8, the top, the top of page 8, okay?
+
+189
+01:19:26,000 --> 01:19:29,100
+Leung Ping Kei: This one, page 8, top.
+
+190
+01:19:29,230 --> 01:19:30,960
+Leung Ping Kei: Okay? That is…
+
+191
+01:20:03,500 --> 01:20:10,040
+Leung Ping Kei: Okay, we, we… We will come back again here, okay? The ordinary, really, square, okay?
+
+192
+01:20:19,320 --> 01:20:22,330
+Leung Ping Kei: So this is a page 8, top, okay?
+
+193
+01:20:25,370 --> 01:20:42,720
+Leung Ping Kei: And now, for estimation and testing, okay? This is equivalent to the standard, linear regression model case, okay? Thus? Okay, this is a trend model, trend model. YT equal to alpha plus beta t plus epsilon t, and beta head,
+
+194
+01:20:42,840 --> 01:20:49,160
+Leung Ping Kei: It's just equal to, B, okay? The same notation, it's telling you the slope, okay?
+
+195
+01:20:53,240 --> 01:20:59,360
+Leung Ping Kei: Okay, CYT divided by CTT. CYT is just the sum of the cross part…
+
+196
+01:20:59,780 --> 01:21:07,329
+Leung Ping Kei: Sum of the cross-border, Y and T. Therefore, sum up YT minus y bar times T minus T bar.
+
+197
+01:21:07,820 --> 01:21:14,829
+Leung Ping Kei: And then divided by CTT is just sum of Ti minus TT, T bar squared.
+
+198
+01:21:16,780 --> 01:21:18,749
+Leung Ping Kei: Most of you know this,
+
+199
+01:21:19,240 --> 01:21:20,310
+Leung Ping Kei: Regression.
+
+200
+01:21:21,990 --> 01:21:24,050
+Leung Ping Kei: Huh? Yeah.
+
+201
+01:21:27,450 --> 01:21:37,910
+Leung Ping Kei: after you find, the slope, and then you can find, the y-intercept, alpha hat is equal to A, which is the Y bar minus B times T bar.
+
+202
+01:21:42,310 --> 01:21:46,589
+Leung Ping Kei: So, for testing the slope coefficient beta, we use T.
+
+203
+01:21:46,790 --> 01:22:04,709
+Leung Ping Kei: T, based on n minus 2 degrees of freedom, okay? The test is, your calculated value of B minus, under the null hypothesis, the value of B, beta, okay, divided by the standard error of B.
+
+204
+01:22:05,850 --> 01:22:06,899
+Leung Ping Kei: Is that okay?
+
+205
+01:22:09,180 --> 01:22:28,110
+Leung Ping Kei: And then, SP, SP, this, standard error of, beta, okay? It's a square root of MSE divided by CTT. And now, take a look, okay? This MSE is divided by N minus 2, okay? When you do…
+
+206
+01:22:28,690 --> 01:22:34,310
+Leung Ping Kei: Hypothesis testing. Statistical Info- inference, okay?
+
+207
+01:22:34,670 --> 01:22:35,789
+Leung Ping Kei: Is that okay?
+
+208
+01:22:36,180 --> 01:22:38,160
+Leung Ping Kei: Remember that, huh? Okay.
+
+209
+01:22:38,330 --> 01:22:44,899
+Leung Ping Kei: MSE, okay? Previously, MSE is just a sum of…
+
+210
+01:22:44,900 --> 01:23:00,559
+Leung Ping Kei: ET squared divided by N for time series. However, in statistical analysis, we will use MSC equal to sum of ET squared divided by N minus 2.
+
+211
+01:23:01,920 --> 01:23:02,910
+Leung Ping Kei: Alright?
+
+212
+01:23:03,300 --> 01:23:13,549
+Leung Ping Kei: And after you calculate, MSE, okay, now, you want to find the center area of, the slope, MSE divided by CTT.
+
+213
+01:23:13,820 --> 01:23:14,660
+Leung Ping Kei: Okay.
+
+214
+01:23:18,400 --> 01:23:19,500
+Leung Ping Kei: Is that okay?
+
+215
+01:23:21,490 --> 01:23:27,060
+Leung Ping Kei: Just some revision, revision of, the statistical,
+
+216
+01:23:28,690 --> 01:23:45,750
+Leung Ping Kei: information, okay? So, FORECASTING with a linear trend other is, Y of, t plus tau, okay, is equal to alpha head plus beta head times t plus tau, okay? Because, let's say you can find, you can find, the
+
+217
+01:23:47,950 --> 01:23:54,229
+Leung Ping Kei: the, the, the model, okay, the linear regression model, YT, YT,
+
+218
+01:23:54,590 --> 01:24:03,189
+Leung Ping Kei: head is equal to alpha hat plus beta head times t. And now, okay, we want to forecast with
+
+219
+01:24:03,400 --> 01:24:05,530
+Leung Ping Kei: This linear trend model.
+
+220
+01:24:05,710 --> 01:24:11,049
+Leung Ping Kei: Therefore, the time period is changed from t plus tau.
+
+221
+01:24:11,230 --> 01:24:22,030
+Leung Ping Kei: Therefore, T changed to t plus tau. Therefore, YT plus tau is equal to alpha hat plus beta hat times t plus tau.
+
+222
+01:24:24,830 --> 01:24:26,360
+Leung Ping Kei: Is it okay?
+
+223
+01:24:30,820 --> 01:24:49,679
+Leung Ping Kei: And then, okay, we have, the prediction interval, okay? P-diction interval, this formula, this formula will be like that, YT hat, okay, the estimate, okay, plus or minus, T alpha by 2, okay, the critical value times the standard error.
+
+224
+01:24:50,140 --> 01:25:00,430
+Leung Ping Kei: And then, the center error is the square root of 1 plus 1 over N plus TP. P. TP, TP is the value given.
+
+225
+01:25:00,630 --> 01:25:08,270
+Leung Ping Kei: given, given value, okay? Because you want to protect, therefore, you must have a value in terms of
+
+226
+01:25:08,540 --> 01:25:13,819
+Leung Ping Kei: TP, okay? Then minus T bar squared, divided by CTT.
+
+227
+01:25:14,450 --> 01:25:20,810
+Leung Ping Kei: Alright? And again, SC, square root of M, SC, this one, okay? But, it's…
+
+228
+01:25:22,190 --> 01:25:27,589
+Leung Ping Kei: It's different from this, this is, the standard error of the slope
+
+229
+01:25:27,970 --> 01:25:34,520
+Leung Ping Kei: Okay, standard error of estimating the slope. And this one is just the standard error of the model.
+
+230
+01:25:34,720 --> 01:25:35,980
+Leung Ping Kei: of the model.
+
+231
+01:25:36,980 --> 01:25:47,960
+Leung Ping Kei: Alright? Therefore, they have a different, notation. SP, SE, okay? SE in here is just a square root MSC, it's just… oh.
+
+232
+01:25:49,690 --> 01:25:53,230
+Leung Ping Kei: Sum of ET squared divided by N minus 2, okay? This one.
+
+233
+01:25:54,570 --> 01:25:55,520
+Leung Ping Kei: It's this.
+
+234
+01:25:59,790 --> 01:26:03,789
+Leung Ping Kei: Alright? And MSC being from, linear regression analysis.
+
+235
+01:26:03,920 --> 01:26:04,860
+Leung Ping Kei: Okay?
+
+236
+01:26:06,130 --> 01:26:09,800
+Leung Ping Kei: So, this information,
+
+237
+01:26:09,980 --> 01:26:17,369
+Leung Ping Kei: Just give you some idea. However, okay, in my notes, I show you how to get this, okay?
+
+238
+01:26:31,240 --> 01:26:43,639
+Leung Ping Kei: Okay? Ordinarily square method, OLS, OLS, okay? We will find a line of best fit, we will minimize the sum of square error, S, SE, okay?
+
+239
+01:26:43,640 --> 01:26:55,200
+Leung Ping Kei: The model is that, Yi equal to alpha plus beta Xi plus epsilon i, okay? Epsilon i is yi minus alpha minus beta times XI. And then…
+
+240
+01:26:55,200 --> 01:26:59,750
+Leung Ping Kei: SSE, some square error, okay? Some, epsilon…
+
+241
+01:26:59,750 --> 01:27:19,200
+Leung Ping Kei: I squared, i going from 1 up to n, that is equal to the sum of yi minus alpha minus beta Xi squared, i going from 1 to n. This is a sum of square error, okay, sum of square error. Now we want to minimize, minimize the sum square error with respect to alpha and beta.
+
+242
+01:27:19,380 --> 01:27:20,500
+Leung Ping Kei: Okay?
+
+243
+01:27:22,450 --> 01:27:27,779
+Leung Ping Kei: So, when we differentiate our sum-squared error with respect to alpha, okay, we have this.
+
+244
+01:27:33,050 --> 01:27:34,000
+Leung Ping Kei: Alright?
+
+245
+01:27:34,370 --> 01:27:38,399
+Leung Ping Kei: Because, okay, up, you defend…
+
+246
+01:27:42,720 --> 01:27:59,660
+Leung Ping Kei: You differentiate this, submission, okay? Derivative of sum is sum of derivatives, okay? 2 times, okay, because of the power, 2 times YI minus alpha minus beta Xi, and then times the derivative of alpha.
+
+247
+01:27:59,810 --> 01:28:02,960
+Leung Ping Kei: Negative one. Negative one, okay?
+
+248
+01:28:03,670 --> 01:28:04,690
+Leung Ping Kei: Now…
+
+249
+01:28:04,850 --> 01:28:19,020
+Leung Ping Kei: I set it equal to zero. Set it equal to 0. Therefore, the 2, the 2, and the negative sign cancel out, okay? So therefore, leaving you sum of Yi minus alpha hat minus beta hat Xi.
+
+250
+01:28:19,750 --> 01:28:21,040
+Leung Ping Kei: Ego to zero.
+
+251
+01:28:22,780 --> 01:28:23,880
+Leung Ping Kei: Is that okay?
+
+252
+01:28:26,140 --> 01:28:42,059
+Leung Ping Kei: And then, the partial derivative of, sum squared error, with respect to beta, again, like this. Therefore, okay, the 2 times sum of, Yi minus alpha minus beta Xi times, the derivative of this.
+
+253
+01:28:42,060 --> 01:28:47,939
+Leung Ping Kei: is minus XI, minus XI. Therefore, the minus and 2
+
+254
+01:28:48,120 --> 01:28:57,920
+Leung Ping Kei: will cancel out when we set it equal to zero. Therefore, only thing you, okay? Sum of Yi minus alpha hat minus beta head Xi times, Xi.
+
+255
+01:28:58,160 --> 01:28:59,369
+Leung Ping Kei: You're gonna do it.
+
+256
+01:28:59,770 --> 01:29:16,250
+Leung Ping Kei: Therefore, the first equation, it can be written as, okay, I put the submission sign inside. Therefore, I have sum of yi equal to, n times alpha hat plus beta hat times sum of Xi. Okay, I call it equation A.
+
+257
+01:29:17,020 --> 01:29:22,959
+Leung Ping Kei: And then for the second equation, okay, XI times YI, okay? And…
+
+258
+01:29:23,870 --> 01:29:36,090
+Leung Ping Kei: I, I, I, I, I, I put it as the, subject, and then, alpha had, XI alpha head, okay? And then, negative, change to the,
+
+259
+01:29:37,630 --> 01:29:56,440
+Leung Ping Kei: right-hand side is positive. And similarly, minus beta head, sum of Xi are positive. Therefore, we have, sum of the cross product, sum of XIYI, i going from 1 up to n is equal to alpha hat times sum of Xi plus beta head times sum of Xi squared.
+
+260
+01:30:00,620 --> 01:30:05,639
+Leung Ping Kei: Alright? Now I divide, equation A by N.
+
+261
+01:30:05,890 --> 01:30:17,280
+Leung Ping Kei: Okay? And then, okay, this divided by N is Y bar, and this divided by N is alpha hat, and this divided by N is beta hat X bar.
+
+262
+01:30:18,850 --> 01:30:24,740
+Leung Ping Kei: And now I multiply, equation A, okay? Equation A, okay?
+
+263
+01:30:25,250 --> 01:30:29,489
+Leung Ping Kei: by sum of, Xi divided by N.
+
+264
+01:30:29,760 --> 01:30:35,319
+Leung Ping Kei: And subtracting from B, okay? B is here, okay? B is here.
+
+265
+01:30:41,050 --> 01:30:48,200
+Leung Ping Kei: Now, equation A, okay, when we, differentiate this with respect to, N, okay, we have,
+
+266
+01:30:50,810 --> 01:30:57,200
+Leung Ping Kei: Sum, we have that, huh? Okay. Sum of, XI times sum of Yi, okay, divided by N.
+
+267
+01:30:57,650 --> 01:31:04,290
+Leung Ping Kei: And then, alpha head times sum of Xi, okay, alpha head times sum of Xi, because,
+
+268
+01:31:04,940 --> 01:31:09,559
+Leung Ping Kei: Because I multiply both sides by a sum of Xi divided by N.
+
+269
+01:31:09,740 --> 01:31:19,269
+Leung Ping Kei: Okay? Therefore, this multiplied by sum of Xi divided by n is beta head times sum of Xi holding square divided by N.
+
+270
+01:31:24,490 --> 01:31:25,650
+Leung Ping Kei: Alright?
+
+271
+01:31:26,640 --> 01:31:34,979
+Leung Ping Kei: Then, we take the subtraction, okay? So, sum of XIYI minus, sum of Xi times sum of Yi divided by N.
+
+272
+01:31:35,460 --> 01:31:51,039
+Leung Ping Kei: And, right-hand side, turned out to be alpha hat, sum of Xi cancel each other out, and leaving you beta hat times sum of Xi squared minus sum of Xi is holding squared divided by N.
+
+273
+01:31:57,950 --> 01:32:06,119
+Leung Ping Kei: All right? Therefore, beta head, beta head, I divide this square bracket to the left-hand side, and then we have this.
+
+274
+01:32:06,190 --> 01:32:19,840
+Leung Ping Kei: Beta hat is equal to the sum of XIYI minus sum of Xi times sum of Yi divided by N. And then the denominator is sum of Xi squared minus sum of Xi holding square divided by N.
+
+275
+01:32:20,130 --> 01:32:30,219
+Leung Ping Kei: Or else, you can write it as a sum of the cross product, Xi minus X bar times YI minus y bar, and then divide by sum of Xi minus X bar squared.
+
+276
+01:32:30,370 --> 01:32:33,190
+Leung Ping Kei: Okay? I used to use a…
+
+277
+01:32:33,450 --> 01:32:41,620
+Leung Ping Kei: some, sum of square of, the cross product, SXY, okay? And this is, SXX, okay?
+
+278
+01:32:41,900 --> 01:32:52,110
+Leung Ping Kei: But I, I, I, I, I don't know, I, I don't know the CXY and CXXY, but, it is the same. They are the same, okay?
+
+279
+01:32:53,020 --> 01:33:05,199
+Leung Ping Kei: Or else, this can be written as, this one, okay, is equal to sum of, Xi minus X bar times YI, and then divided by sum of Xi minus X bar squared.
+
+280
+01:33:08,980 --> 01:33:25,720
+Leung Ping Kei: That means if you expand them, expand them, you can simplify to this, okay? But don't worry, what we have to do is just to use the calculation formula for beta hat. And then after you find beta head, you can find alpha hat, okay? Alpha hat.
+
+281
+01:33:32,180 --> 01:33:36,370
+Leung Ping Kei: And then, both alpha head and beta head are unbiased estimator.
+
+282
+01:33:36,660 --> 01:33:43,150
+Leung Ping Kei: Unbiased. And variance of beta hat is a sigma squared over sum of Xi minus X bar squared.
+
+283
+01:33:44,640 --> 01:33:56,130
+Leung Ping Kei: Okay? And variance of beta hat, okay, the estimate of variance of beta hat is sigma hat squared divided by sum of Xi minus X bar squared.
+
+284
+01:33:57,290 --> 01:34:09,129
+Leung Ping Kei: Okay? Or else we can write it as a sigma hat of a subsid, a beta hat squared. Okay? Or S beta hat squared. Or SB squared.
+
+285
+01:34:09,540 --> 01:34:17,520
+Leung Ping Kei: That's just a notation, huh? Okay? And then this can be written as, sigma squared over SXX, okay?
+
+286
+01:34:17,630 --> 01:34:18,749
+Leung Ping Kei: And then,
+
+287
+01:34:19,760 --> 01:34:34,770
+Leung Ping Kei: sigma hat squared, can be written as, can be written, can be calculated as, okay, sum of yi minus alpha hat minus beta hat Xi squared, divided by n minus 2. Or else, okay, this one,
+
+288
+01:34:34,900 --> 01:34:48,639
+Leung Ping Kei: Minus, minus… I, I, I just put a bracket. Alpha head plus a beta head XI is Yi head. This is just what we have before in time series. YI minus Yi hat is EI.
+
+289
+01:34:49,310 --> 01:34:50,270
+Leung Ping Kei: E-I.
+
+290
+01:34:50,400 --> 01:34:53,270
+Leung Ping Kei: Okay? EI squared divided by N minus 2.
+
+291
+01:34:53,490 --> 01:34:54,360
+Leung Ping Kei: Okay?
+
+292
+01:34:54,490 --> 01:34:58,990
+Leung Ping Kei: Sum squared error divided by N minus 2. Okay, this is a mean squared error.
+
+293
+01:35:04,290 --> 01:35:08,550
+Leung Ping Kei: Okay, assume a sigma squared unknown, okay? So…
+
+294
+01:35:08,720 --> 01:35:12,950
+Leung Ping Kei: Beta, we want to test a beta equal to zero.
+
+295
+01:35:13,320 --> 01:35:26,520
+Leung Ping Kei: against other alternative, beta, not zero, either positive or negative, okay? So, t with n minus 2 degrees of freedom, okay? Beta hat minus beta divided by sigma hat, beta hat.
+
+296
+01:35:26,830 --> 01:35:27,750
+Leung Ping Kei: Okay?
+
+297
+01:35:28,050 --> 01:35:31,160
+Leung Ping Kei: Therefore, okay, Ping the head is, from…
+
+298
+01:35:31,270 --> 01:35:39,929
+Leung Ping Kei: The null hypothesis, okay? Therefore, it's beta hat minus, beta 0, okay? And then, divided by SB.
+
+299
+01:35:40,320 --> 01:35:47,830
+Leung Ping Kei: Okay? So under null hypothesis, beta equal to zero, huh? Therefore, it's beta hat divided by SB, okay?
+
+300
+01:35:50,520 --> 01:35:55,180
+Leung Ping Kei: So, for the, trend model, depends on time t, okay?
+
+301
+01:35:55,650 --> 01:36:03,009
+Leung Ping Kei: We have, in our NOX, okay, in terms of XU model, the same thing, okay? So that,
+
+302
+01:36:04,180 --> 01:36:22,130
+Leung Ping Kei: YT is equal to alpha plus beta t plus epsilon t. We minimize the SUN squared error, okay? And then, beta head, it turned out to be… okay, forget about that, okay? Sum of YT minus y bar times, t minus T bar divided by sum of t minus T bar squared.
+
+303
+01:36:23,110 --> 01:36:24,010
+Leung Ping Kei: Okay.
+
+304
+01:36:24,660 --> 01:36:32,010
+Leung Ping Kei: And alpha hat, is, A, which is, Y bar minus, B, B times, T bar.
+
+305
+01:36:35,360 --> 01:36:45,929
+Leung Ping Kei: And then, for the test of a slope, okay, okay, the null hypothesis, beta equals zero, and alternate hypothesis is beta not 0, okay, either positive or negative.
+
+306
+01:36:45,930 --> 01:36:51,749
+Leung Ping Kei: Okay? TN minus 2 is a big… B minus beta divided by SB, okay?
+
+307
+01:36:51,750 --> 01:37:07,639
+Leung Ping Kei: Again, this one is under the null hypothesis itself is B over SP, okay? SB is that, okay? MSE, sum of ET squared, divided by N minus 2, and then divided by sum of, T minus T bar squared.
+
+308
+01:37:22,270 --> 01:37:25,399
+Leung Ping Kei: Oh, by the way, I just want to…
+
+309
+01:37:25,700 --> 01:37:30,230
+Leung Ping Kei: Asked, to see whether, okay, Why this one is…
+
+310
+01:37:30,750 --> 01:37:32,850
+Leung Ping Kei: N minus 2 degrees of freedom.
+
+311
+01:37:38,840 --> 01:37:42,620
+Leung Ping Kei: N minus 2… Decrease of freedom.
+
+312
+01:37:50,670 --> 01:38:04,110
+Leung Ping Kei: I mean, I mean, when, when you, when you take the, the, linear regression model, okay, did your lecturer tell you, the degrees of freedom? What does it mean?
+
+313
+01:38:14,180 --> 01:38:16,029
+Leung Ping Kei: Any explanation?
+
+314
+01:38:30,390 --> 01:38:33,860
+Leung Ping Kei: Okay, let's take a look… okay. So,
+
+315
+01:38:34,690 --> 01:38:45,380
+Leung Ping Kei: When you… when you are given a sample of size N, size lead to n, okay, I just call it, X1, XU, blah blah blah up to Xn.
+
+316
+01:38:46,090 --> 01:38:47,489
+Leung Ping Kei: Right? The sample.
+
+317
+01:38:47,870 --> 01:38:50,230
+Leung Ping Kei: Okay? N of them.
+
+318
+01:38:51,190 --> 01:38:57,550
+Leung Ping Kei: And… before you… Draw this sample of size N, okay?
+
+319
+01:38:58,540 --> 01:39:00,849
+Leung Ping Kei: How many degrees of freedom do you have?
+
+320
+01:39:09,430 --> 01:39:11,539
+Leung Ping Kei: N. White, correct.
+
+321
+01:39:11,870 --> 01:39:20,090
+Leung Ping Kei: End of them, because… These X1 up to XN are free to you, to select them.
+
+322
+01:39:20,650 --> 01:39:25,430
+Leung Ping Kei: Therefore, you have an N degrees of freedom of taking the sample.
+
+323
+01:39:25,840 --> 01:39:28,010
+Leung Ping Kei: Okay? However.
+
+324
+01:39:28,210 --> 01:39:39,340
+Leung Ping Kei: After you take the sample of size n, you know the value of, okay, lowercase, X1, X2, blah blah blah, up to X little n. You know the value.
+
+325
+01:39:39,560 --> 01:39:40,540
+Leung Ping Kei: Isn't it?
+
+326
+01:39:40,840 --> 01:39:48,590
+Leung Ping Kei: After you take the sample, Okay? After you took… I took the sample. Okay? Then… you used…
+
+327
+01:39:48,880 --> 01:39:53,820
+Leung Ping Kei: this N observation to calculate The mean.
+
+328
+01:39:55,920 --> 01:39:56,780
+Leung Ping Kei: Right?
+
+329
+01:39:59,740 --> 01:40:00,640
+Leung Ping Kei: mean.
+
+330
+01:40:01,020 --> 01:40:10,249
+Leung Ping Kei: you know, sum of, X1, X1, X2, blah blah blah up to XN, sum of them, and then divide by N. Then you get, X bar.
+
+331
+01:40:10,730 --> 01:40:16,420
+Leung Ping Kei: X bar. However, since you collect the sample.
+
+332
+01:40:17,240 --> 01:40:18,210
+Leung Ping Kei: Okay?
+
+333
+01:40:18,340 --> 01:40:32,460
+Leung Ping Kei: Then, you calculate the sample mean, okay? It must be known that sum of Xi, i from 1 up to N, must be equal to n times X bar.
+
+334
+01:40:34,150 --> 01:40:39,439
+Leung Ping Kei: Right? So, this one is a restriction.
+
+335
+01:40:40,310 --> 01:40:41,770
+Leung Ping Kei: restriction.
+
+336
+01:40:42,220 --> 01:40:45,699
+Leung Ping Kei: Okay? After you collected data, the sample.
+
+337
+01:40:46,310 --> 01:40:50,610
+Leung Ping Kei: Okay? Therefore, you lost one degree of freedom.
+
+338
+01:40:52,450 --> 01:40:53,380
+Leung Ping Kei: Okay.
+
+339
+01:40:54,050 --> 01:41:05,519
+Leung Ping Kei: However, if you use, okay, you calculate the sum of, the, variance, sum of Xi minus X bar squared divided by N minus 1,
+
+340
+01:41:06,740 --> 01:41:13,950
+Leung Ping Kei: Because… In this sample, okay, you have only n minus 1 degrees of freedom.
+
+341
+01:41:14,960 --> 01:41:15,860
+Leung Ping Kei: Right?
+
+342
+01:41:16,920 --> 01:41:21,200
+Leung Ping Kei: Okay, then, now we go to, okay,
+
+343
+01:41:21,500 --> 01:41:33,659
+Leung Ping Kei: X and Y, okay? Two samples, again, one sample, one sample of size N, okay? However, each time, you are going to take X1Y1,
+
+344
+01:41:34,100 --> 01:41:36,159
+Leung Ping Kei: And then X2, Y2.
+
+345
+01:41:36,330 --> 01:41:41,920
+Leung Ping Kei: blah blah blah up to XNYN, okay? So, you have n degrees of freedom.
+
+346
+01:41:42,700 --> 01:41:47,440
+Leung Ping Kei: and degrees of freedom, because X and Y are a pair of observations.
+
+347
+01:41:47,540 --> 01:41:58,330
+Leung Ping Kei: pair, okay? Now, okay, if you, know, after you collect the, XIs, okay, YIs, okay, you can calculate,
+
+348
+01:41:58,560 --> 01:41:59,620
+Leung Ping Kei: expat.
+
+349
+01:42:00,030 --> 01:42:06,290
+Leung Ping Kei: Y bar. You lost 1 degrees of freedom for pixela, and lost 1 degrees of freedom, for Y bar.
+
+350
+01:42:07,110 --> 01:42:07,960
+Leung Ping Kei: Right?
+
+351
+01:42:08,410 --> 01:42:21,110
+Leung Ping Kei: Therefore, when you calculate the variance, okay, it's S squared equals sum of Xi minus X bar times yi minus y bar divided by N minus 2.
+
+352
+01:42:22,280 --> 01:42:26,810
+Leung Ping Kei: This is why the degree of freedom look like that.
+
+353
+01:42:33,020 --> 01:42:34,900
+Leung Ping Kei: They've opened me up this, okay.
+
+354
+01:42:40,870 --> 01:42:57,209
+Leung Ping Kei: Okay, now, okay, I, I, I, I, I, I, I, I do some more, okay? Okay. Okay. FORECASTING with, linear trend, okay? So the model, YT plus tau is equal to alpha plus beta times, t plus tau, okay? Plus, epsilon t.
+
+355
+01:42:57,210 --> 01:43:10,720
+Leung Ping Kei: Okay? So, the OLS, ordinary least square estimate of YT hat, YT plus tau, is that, Y hat of t plus tau is equal to alpha hat plus beta hat times t plus tau.
+
+356
+01:43:11,170 --> 01:43:20,709
+Leung Ping Kei: Or else, we just use, okay, A plus B times T plus tau, okay, where sum of epsilon t is, minimized, right?
+
+357
+01:43:22,050 --> 01:43:28,669
+Leung Ping Kei: All right? Okay, I stop here now, okay? We can take a break, okay?
+
+358
+01:43:29,680 --> 01:43:32,120
+Leung Ping Kei: 10 minutes? 10 minutes? Okay.
+
+359
+01:54:18,670 --> 01:54:23,970
+Leung Ping Kei: Okay, let's start again, okay? Okay. Then,
+
+360
+01:54:25,110 --> 01:54:39,499
+Leung Ping Kei: Because, in, in your notes, we have, the prediction, interval. Therefore, in here, I just want to, divide, derive, those things, okay, together with, the prediction interval.
+
+361
+01:54:39,550 --> 01:54:50,600
+Leung Ping Kei: Alright? So, the following is to find the variance of Y hat before we want to find the variance of Y hat minus Y naught, okay, for the prediction interval.
+
+362
+01:54:50,680 --> 01:54:54,170
+Leung Ping Kei: Okay? This is, okay.
+
+363
+01:54:55,260 --> 01:54:59,989
+Leung Ping Kei: Y hat minus Y naught, okay? Y hat minus Y naught is what?
+
+364
+01:55:00,950 --> 01:55:17,619
+Leung Ping Kei: It's too variable, okay? Okay? Although this is Y naught, okay? And, first of all, we need to find the variance of Y hat, and then, after that, we want to find, the, variance of, Y hat minus Y naught, okay?
+
+365
+01:55:17,940 --> 01:55:24,650
+Leung Ping Kei: Then, okay, YT hat, is equal to alpha hat plus beta hat XT, okay?
+
+366
+01:55:27,460 --> 01:55:36,819
+Leung Ping Kei: So, for Y hat, given X equal to X not X0, okay, which is equal to alpha hat plus beta head X0.
+
+367
+01:55:38,180 --> 01:55:56,809
+Leung Ping Kei: Alright? Since, Y hat, Y hat is alpha hat plus beta hat, okay? And, for, for any value of XT. However, now, you are given that, X equals X0. Therefore, you use, alpha hat plus beta hat times X0.
+
+368
+01:55:57,050 --> 01:56:12,669
+Leung Ping Kei: Okay? And it can be shown that, okay? Expectation of Y hat given X equal to X0, okay, is unbiased and revealed, here, okay? Unbiased, that is, equal to alpha plus beta times X naught.
+
+369
+01:56:12,920 --> 01:56:13,810
+Leung Ping Kei: Okay.
+
+370
+01:56:15,110 --> 01:56:25,619
+Leung Ping Kei: Since, expectation of alpha hat is still alpha, expectation of beta hat is equal to beta, okay? If you want to… if you want to know…
+
+371
+01:56:26,010 --> 01:56:34,370
+Leung Ping Kei: Why they are unbarsed, huh? Okay, I can, I can give you notes, huh? Okay? A linear regression. Linear regression, okay?
+
+372
+01:56:36,580 --> 01:56:43,060
+Leung Ping Kei: And then, the, with, variance, variance, a Y hat given, X equal to X naught.
+
+373
+01:56:43,060 --> 01:56:56,789
+Leung Ping Kei: is equal to sigma squared times, okay, 1 over n plus X0, given value, X0, minus X bar squared, divided by sum of Xi minus X bar squared, i going from 1 up to n.
+
+374
+01:56:59,320 --> 01:57:11,990
+Leung Ping Kei: All right? So, we will show this, okay, we will show this formula. Okay. Now, expectation of Y hat given X equal to X naught, is the expectation of alpha hat plus beta hat x naught.
+
+375
+01:57:12,170 --> 01:57:28,290
+Leung Ping Kei: And, expectation of the linear combination is the linear combination of expectation, okay? So, it is, expectation of alpha hat plus expectation of beta head times X0. X0 is a given value.
+
+376
+01:57:28,290 --> 01:57:33,800
+Leung Ping Kei: constant, okay? Therefore, it is equal to alpha plus beta times X naught.
+
+377
+01:57:34,110 --> 01:57:41,180
+Leung Ping Kei: Okay? Since the alpha hat and beta head are unbarth estimator of alpha and beta, respectively, huh? Okay?
+
+378
+01:57:43,020 --> 01:57:49,900
+Leung Ping Kei: And now we go to the variance, okay? Variance of Y hat are given X equal to X dot, okay?
+
+379
+01:57:50,770 --> 01:57:55,679
+Leung Ping Kei: So, it is variance of alpha hat plus beta head times X naught.
+
+380
+01:57:56,010 --> 01:58:01,879
+Leung Ping Kei: Alpha hat can be written as, okay, y bar minus a beta hat X bar.
+
+381
+01:58:02,360 --> 01:58:04,939
+Leung Ping Kei: And then plus, beta hat X naught.
+
+382
+01:58:06,450 --> 01:58:14,600
+Leung Ping Kei: Is that okay? Alpha head, alpha head. I can write it as, okay, to underline, okay? Y bar minus beta head, X bar.
+
+383
+01:58:14,730 --> 01:58:15,600
+Leung Ping Kei: Okay?
+
+384
+01:58:15,730 --> 01:58:27,409
+Leung Ping Kei: plus this. And now I combine, the, beta head, okay? Therefore, it's variance of Y bar plus beta head times, X naught minus X bar.
+
+385
+01:58:30,040 --> 01:58:33,660
+Leung Ping Kei: Alright? Since the X and Y are, what?
+
+386
+01:58:34,780 --> 01:58:50,709
+Leung Ping Kei: supposed to be independent, okay? Therefore, variance of this expression is a variance of the first part, variance of Y bar, plus, okay, this is a value. Value. X naught minus X bar, okay?
+
+387
+01:58:50,930 --> 01:58:56,360
+Leung Ping Kei: constant, take outside… The variant sign, you have to square it.
+
+388
+01:58:56,620 --> 01:59:02,540
+Leung Ping Kei: Okay? And then, X naught minus H bar squared times our variance of beta hat.
+
+389
+01:59:04,960 --> 01:59:05,900
+Leung Ping Kei: Alright?
+
+390
+01:59:06,480 --> 01:59:10,510
+Leung Ping Kei: Now, a variance of y bar is a sigma squared over n.
+
+391
+01:59:11,620 --> 01:59:22,799
+Leung Ping Kei: Plus, okay, the constant X0 minus X bar squared times variance of beta hat is sigma squared over sum of Xi minus X bar squared.
+
+392
+01:59:23,050 --> 01:59:24,820
+Leung Ping Kei: I go in for a month of the N.
+
+393
+01:59:25,210 --> 01:59:39,569
+Leung Ping Kei: Now we have a common factor, sigma squared. Therefore, I take out the sigma squared times 1 over n plus X0 minus X bar squared, divided by sum of Xi minus X bar squared, i going from 1 dot to n.
+
+394
+01:59:42,230 --> 01:59:45,630
+Leung Ping Kei: Is it okay? Therefore, we have this formula, huh? Okay.
+
+395
+01:59:48,820 --> 01:59:49,939
+Leung Ping Kei: this phenomena.
+
+396
+01:59:50,310 --> 02:00:05,770
+Leung Ping Kei: Okay? However, if we want to estimate this variance, okay, with a head, with a head, okay? Estimate of a variance of Y hat given X equal to X naught, okay? Then, all these are the constants,
+
+397
+02:00:05,880 --> 02:00:23,530
+Leung Ping Kei: what you have to do is just to estimate, using the sample of, to find the estimate of sigma squared, sigma hat squared times 1 over n plus, okay, X naught minus X bar squared divided by the sum of Xi minus X bar squared, okay?
+
+398
+02:00:25,410 --> 02:00:44,730
+Leung Ping Kei: And again, okay, this, this is an unbiased estimator of, variance of, Y hat given, X equals X naught, okay? This can be shown, this can be shown, but, not here, not here, because we are doing time series, not, not in statistic.
+
+399
+02:01:02,420 --> 02:01:13,550
+Leung Ping Kei: Okay, in time series analysis, we used to… we used to forecast future values, okay? Hence, prediction value for Y is useful, okay?
+
+400
+02:01:13,550 --> 02:01:23,300
+Leung Ping Kei: So, when X equals y equal to Y naught, when Y naught is equal to alpha plus beta times X naught plus epsilon 0, okay?
+
+401
+02:01:24,480 --> 02:01:32,099
+Leung Ping Kei: Thus, we have, estimate, Y0 head is equal to alpha hat plus beta hat times X naught.
+
+402
+02:01:32,940 --> 02:01:37,419
+Leung Ping Kei: And alpha hat, I can weigh it as Y bar minus beta hat X bar.
+
+403
+02:01:38,840 --> 02:01:39,810
+Leung Ping Kei: Okay.
+
+404
+02:01:40,960 --> 02:01:44,860
+Leung Ping Kei: And then, it can be written as, okay,
+
+405
+02:01:47,940 --> 02:01:49,160
+Leung Ping Kei: Let me see…
+
+406
+02:01:54,750 --> 02:02:02,509
+Leung Ping Kei: alpha, alpha hat, I can write it here. Therefore, I have this Y bar, okay?
+
+407
+02:02:03,120 --> 02:02:09,459
+Leung Ping Kei: plus, plus beta head, beta head times X0, minus X bar is this.
+
+408
+02:02:18,240 --> 02:02:20,179
+Leung Ping Kei: Is it okay? This one?
+
+409
+02:02:38,780 --> 02:02:55,400
+Leung Ping Kei: All right? So, this term, this term plus this term is equal to this term, okay? Alpha head is equal to this. Y bar minus beta hat X bar plus beta hat X naught, so that we have this. And then, we turn out, to,
+
+410
+02:02:55,400 --> 02:03:00,300
+Leung Ping Kei: To have a Y bar plus a beta head times X naught minus X bar.
+
+411
+02:03:01,490 --> 02:03:02,440
+Leung Ping Kei: Okay?
+
+412
+02:03:02,840 --> 02:03:10,830
+Leung Ping Kei: So, to find, a prediction interval for Y naught, we consider, the random variable, Y naught hat minus Y naught
+
+413
+02:03:10,830 --> 02:03:25,199
+Leung Ping Kei: Okay? And we have, okay, expectation of Y naught hat minus Y naught is equal to expectation of, okay, Y naught hat, is alpha hat plus beta hat X naught
+
+414
+02:03:26,050 --> 02:03:26,950
+Leung Ping Kei: This one.
+
+415
+02:03:28,330 --> 02:03:36,380
+Leung Ping Kei: Okay? And then, minus, Y naught, Y naught is equal to alpha plus, beta naught plus epsilon naught, this one.
+
+416
+02:03:41,420 --> 02:03:54,680
+Leung Ping Kei: Therefore, we take expectation through, okay? The first term, okay, expectation of alpha hat plus expectation of beta hat times X naught, minus, okay, alpha, beta, and X naught,
+
+417
+02:03:54,770 --> 02:04:07,100
+Leung Ping Kei: what? Constant, okay? Therefore, it's minus alpha, minus plus, is minus, okay? Beta, X naught, and then minus, expectation of epsilon
+
+418
+02:04:07,400 --> 02:04:14,349
+Leung Ping Kei: Epsilon's naught, okay? So this is silver, this is silver. Therefore, okay.
+
+419
+02:04:14,350 --> 02:04:29,760
+Leung Ping Kei: Expectated alpha hat is alpha, huh? I told you that, alpha head is unbiased. And similarly, beta head, okay, expected beta head is beta. So, beta times X naught minus alpha.
+
+420
+02:04:30,190 --> 02:04:36,169
+Leung Ping Kei: minus beta… It's not… Okay? And then, minus civil.
+
+421
+02:04:36,900 --> 02:04:50,129
+Leung Ping Kei: Now, we can see that, this and this cancel each other out, and this and that cancel each other out, equally deserve out. Therefore, Y naught, is unbiased for Y naught.
+
+422
+02:04:53,620 --> 02:04:54,570
+Leung Ping Kei: Alright?
+
+423
+02:05:01,760 --> 02:05:05,309
+Leung Ping Kei: Now, we go to, the variants, okay?
+
+424
+02:05:06,470 --> 02:05:22,870
+Leung Ping Kei: So variance of Y naught hat minus Y naught, is variance of, okay, the square bracket, Y bar plus, beta head times, X naught minus X bar. And then minus, Y naught is, alpha plus, beta X naught plus, epsilon naught.
+
+425
+02:05:25,110 --> 02:05:27,489
+Leung Ping Kei: Now we take the, variance
+
+426
+02:05:27,580 --> 02:05:38,820
+Leung Ping Kei: through, okay? So, the first term, variance of Y bar plus, okay, this is constant. So, X naught minus X bar squared times variance of beta hat.
+
+427
+02:05:38,820 --> 02:05:53,809
+Leung Ping Kei: And then pass, okay, all these are constants, therefore the variance, will not be affected, okay? And it is equal to variance of, negative epsilon naught. However, variance of epsilon naught is just a sigma squared.
+
+428
+02:05:53,840 --> 02:06:08,089
+Leung Ping Kei: Okay, sigma squared. Okay, now, variance of y bar is sigma squared over n, and then plus, okay, X naught minus X bar squared times the variance of beta hat is sigma squared over sum of Xi minus X bar squared.
+
+429
+02:06:08,320 --> 02:06:15,410
+Leung Ping Kei: Okay? And then pass, sigma squared. Therefore, I take out the, sigma squared, okay, as a common factor.
+
+430
+02:06:15,410 --> 02:06:36,150
+Leung Ping Kei: Therefore, we have, 1 plus 1 over n plus, okay, X naught minus X bar squared divided by sum of Xi minus X bar squared, okay? Therefore, we have the model, okay? The formula, the formula, okay? So, this is for a Kessel model, okay? Kessel model.
+
+431
+02:06:36,630 --> 02:06:45,909
+Leung Ping Kei: In terms of X, in terms of X, okay? Prediction interval, okay? This is the variance, variance of the prediction interval.
+
+432
+02:06:47,320 --> 02:07:10,740
+Leung Ping Kei: So, for our time series, P detection interval, okay, we replace all the X's, by Ts. Thus, we have this, variance of YT hat is equal to SE squared, SE squared, times 1 plus 1 over n plus tp, because it's a given, given value, a TP, minus T bar.
+
+433
+02:07:10,740 --> 02:07:13,910
+Leung Ping Kei: squared, divided by sum of ti minus T part squared.
+
+434
+02:07:15,140 --> 02:07:16,090
+Leung Ping Kei: Oi.
+
+435
+02:07:17,610 --> 02:07:27,089
+Leung Ping Kei: So in here, SE squared is, sum squared error divided by N minus 2, okay? It's sum of eT squared divided by N minus 2, okay?
+
+436
+02:07:31,810 --> 02:07:34,519
+Leung Ping Kei: Therefore, we have that, that formula,
+
+437
+02:07:36,200 --> 02:07:38,309
+Leung Ping Kei: I should say that,
+
+438
+02:07:51,150 --> 02:07:57,969
+Leung Ping Kei: We have this formula, okay? Standard error, okay? Square root of the variance, okay?
+
+439
+02:07:58,780 --> 02:08:08,020
+Leung Ping Kei: And then, the SE. SE is the standard error. And T, okay, with N minus 2 degrees of freedom, half alpha, okay?
+
+440
+02:08:08,250 --> 02:08:09,820
+Leung Ping Kei: Therefore, we have this.
+
+441
+02:08:13,620 --> 02:08:25,939
+Leung Ping Kei: Is it okay? If… okay, by the way, if you are asked to find the prediction interval, then this formula, I will give you in the question.
+
+442
+02:08:26,080 --> 02:08:31,069
+Leung Ping Kei: Okay? So you don't… don't worry, huh? Okay?
+
+443
+02:08:31,480 --> 02:08:33,250
+Leung Ping Kei: Is that okay?
+
+444
+02:08:38,910 --> 02:08:45,429
+Leung Ping Kei: All right, then. Part B, okay. Part A, is just the,
+
+445
+02:08:47,690 --> 02:09:07,869
+Leung Ping Kei: linear model, in terms of, X, or in terms of T, TIME, okay? And then, some other model, curvilinear model, okay? The tools for detection of, nonlinearity, okay? Point number one, TIME SERIES POT, we just take a look, take a look, on the
+
+446
+02:09:07,870 --> 02:09:09,860
+Leung Ping Kei: The, time SERIES Pot.
+
+447
+02:09:09,860 --> 02:09:18,589
+Leung Ping Kei: And then, the second part, what you have to do is use a Devon-Walsen statistic for the residual from the linear regression.
+
+448
+02:09:18,960 --> 02:09:32,530
+Leung Ping Kei: And then point number 3, okay? Plot the first differences, okay? Okay? First differences will roughly be random graph, or regional data possess a only linear trend.
+
+449
+02:09:32,800 --> 02:09:37,479
+Leung Ping Kei: Okay? If the data are in linear trend, then…
+
+450
+02:09:38,100 --> 02:09:45,619
+Leung Ping Kei: after you take the first difference of all the observations, there is YT minus YT minus 1.
+
+451
+02:09:46,760 --> 02:10:04,190
+Leung Ping Kei: Okay? YT minus YT minus 1. And then you port all these values, okay? Then you can see that, it may be wobbly up and down, wobbly up and down. Then, this is, this is to tell you the error, the error is stable.
+
+452
+02:10:04,300 --> 02:10:16,060
+Leung Ping Kei: Okay? Of course, this is just one… some of the parts, okay? If original data, come from a quadratic function, then observe, okay, this…
+
+453
+02:10:18,600 --> 02:10:33,969
+Leung Ping Kei: Okay? It's, A plus, B times T plus 1 plus C times, T plus 1 squared. And then, okay, quadratic, quadratic, minus A minus BT minus CT squared.
+
+454
+02:10:34,520 --> 02:10:39,650
+Leung Ping Kei: Okay? The square term, square model, okay, minus the linear model.
+
+455
+02:10:39,790 --> 02:10:41,630
+Leung Ping Kei: Okay? Then we have that…
+
+456
+02:10:42,940 --> 02:11:02,320
+Leung Ping Kei: B plus 2CT plus C, which implies that, the existence of the trend, okay? This is just to tell you the trend, okay, in terms of T, okay? Thus, the presence of a trend in the first difference indicates a nonlinear model.
+
+457
+02:11:03,490 --> 02:11:04,380
+Leung Ping Kei: Alright?
+
+458
+02:11:05,280 --> 02:11:07,070
+Leung Ping Kei: There is, okay.
+
+459
+02:11:07,410 --> 02:11:12,599
+Leung Ping Kei: To identify, the, the time series, to see whether,
+
+460
+02:11:12,710 --> 02:11:15,080
+Leung Ping Kei: You can find a model from that.
+
+461
+02:11:16,190 --> 02:11:17,440
+Leung Ping Kei: Alright?
+
+462
+02:11:18,910 --> 02:11:21,740
+Leung Ping Kei: And then our model type, huh? Okay.
+
+463
+02:11:22,300 --> 02:11:41,139
+Leung Ping Kei: Poly number 1, okay, polynomial, okay, oh, YT equal to A plus B1T plus a B2T, square, and then plus a blah blah blah up to BK times T to the power k plus epsilon t. T is going from 1, 2 up to N, okay?
+
+464
+02:11:42,190 --> 02:11:47,160
+Leung Ping Kei: So, estimation, we call from a multiple regression theory.
+
+465
+02:11:47,170 --> 02:12:03,229
+Leung Ping Kei: Okay? If we have that, okay, beta equal to, okay, this is, this is a vector, vector, okay? Transpose, this is transpose. A, B1, B2, blah blah blah of the BK.
+
+466
+02:12:04,980 --> 02:12:06,000
+Leung Ping Kei: Alright?
+
+467
+02:12:06,410 --> 02:12:08,779
+Leung Ping Kei: And the X… huh?
+
+468
+02:12:09,050 --> 02:12:28,009
+Leung Ping Kei: matrix is, 11111 up to, K of them, okay, T of them. And then, the second one, is, 1, 2, 3, 4, 5, ba-ba-ba, up to T. And then, 1 square, 2 square, 3 square, ba-ba-ba, up to T squared.
+
+469
+02:12:28,230 --> 02:12:47,170
+Leung Ping Kei: And then, it's going up to, K of, K of power. 1 to the power k, 2 to the k, blah blah blah, up to T to the k. And then, we can do the, estimation, okay? Beta hat is equal to, okay, X transpose times X, inverse.
+
+470
+02:12:47,210 --> 02:12:51,239
+Leung Ping Kei: And then times, X transpose Y, okay?
+
+471
+02:12:51,720 --> 02:12:57,869
+Leung Ping Kei: Where Y is, again, a column vector. Y1, Y2, blah blah blah, up to YN.
+
+472
+02:12:58,220 --> 02:13:05,860
+Leung Ping Kei: Okay? These are the parameters, okay? The model, the parameter of the model. And then, this one is…
+
+473
+02:13:07,030 --> 02:13:11,910
+Leung Ping Kei: The matrix, huh? Okay, however, okay, it's good to take like this.
+
+474
+02:13:19,280 --> 02:13:32,730
+Leung Ping Kei: Okay, so I'll just repeat, okay? Tools for detecting nonlinearity. Look at the original time series plot. Make use of the Durban-Wilson's test for residuals from the linear regression.
+
+475
+02:13:32,730 --> 02:13:43,749
+Leung Ping Kei: D is, you know, approximately 2 times 1 minus R1 hat. R1 hat is a sum of the cross product, T from 2 to the n divided by sum of et squared.
+
+476
+02:13:43,940 --> 02:13:48,759
+Leung Ping Kei: Where R1 hat is the correlation coefficient, okay?
+
+477
+02:13:50,790 --> 02:13:57,150
+Leung Ping Kei: And point number 3, plot of, first differences, that is, XT minus XT minus 1.
+
+478
+02:13:57,680 --> 02:14:10,890
+Leung Ping Kei: Okay? Well, if the original data possessed only linear trend, then the first difference, I mean, roughly give you a rough graph, okay? Rough graph, that means,
+
+479
+02:14:12,310 --> 02:14:17,660
+Leung Ping Kei: They are, they do not have any trend.
+
+480
+02:14:18,330 --> 02:14:26,729
+Leung Ping Kei: They do not have any trend. There is a random graph. Random graph, that means the data are…
+
+481
+02:14:26,960 --> 02:14:29,370
+Leung Ping Kei: Ba-ba-ba-ba-ba, nope.
+
+482
+02:14:29,880 --> 02:14:32,290
+Leung Ping Kei: No different ideas, okay?
+
+483
+02:14:32,910 --> 02:14:33,900
+Leung Ping Kei: Just,
+
+484
+02:14:39,300 --> 02:14:40,379
+Leung Ping Kei: Is that okay?
+
+485
+02:14:41,300 --> 02:14:45,050
+Leung Ping Kei: Rough, rough, rough graphic that is,
+
+486
+02:14:46,320 --> 02:14:55,029
+Leung Ping Kei: The points are, okay, lie outside, lie outside, you may say that they do not have any other pattern.
+
+487
+02:14:55,570 --> 02:15:00,659
+Leung Ping Kei: They don't have any pattern, so that is what we call random graph.
+
+488
+02:15:02,450 --> 02:15:03,410
+Leung Ping Kei: Alright?
+
+489
+02:15:05,920 --> 02:15:18,619
+Leung Ping Kei: So, if the original data comes from a quadratic function, we observed this, okay, XT equal to this, and XT plus 1, xt plus 1 minus XT, okay.
+
+490
+02:15:18,720 --> 02:15:22,750
+Leung Ping Kei: So that, we can see that it is a linear trend, okay?
+
+491
+02:15:24,680 --> 02:15:37,879
+Leung Ping Kei: And which implies the existence of trend, this one, this one. Okay? Does the percent of trend in the first difference indicates a nonlinear model, okay? Just like this.
+
+492
+02:15:39,240 --> 02:15:48,179
+Leung Ping Kei: If it has a, okay, a constant plus a 2 times C times T, okay, the variable, and then plus C, okay?
+
+493
+02:15:49,470 --> 02:15:51,069
+Leung Ping Kei: There is a linear trend.
+
+494
+02:15:51,890 --> 02:16:01,150
+Leung Ping Kei: A constant, okay? Constant plus, the beta, the slope times, the variable.
+
+495
+02:16:03,990 --> 02:16:10,079
+Leung Ping Kei: Okay, now we have that, okay, other type, okay, polynomial, this is on page 9.
+
+496
+02:16:10,780 --> 02:16:23,220
+Leung Ping Kei: The model is like that, YT, okay? Equal to A plus B1T plus B2T squared plus blah blah blah BKT to the power k plus epsilon t, okay? So T is going from 1 to N.
+
+497
+02:16:24,160 --> 02:16:29,760
+Leung Ping Kei: And, this is a, multiple regression, okay? Y, is,
+
+498
+02:16:32,160 --> 02:16:36,289
+Leung Ping Kei: N by 1. N by 1, end of them, okay? One column.
+
+499
+02:16:36,420 --> 02:16:48,129
+Leung Ping Kei: Okay? And beta is, K plus 1 by 1, okay? A, B1, B2, up to BK. Okay? Okay? Again, a…
+
+500
+02:16:49,540 --> 02:16:59,749
+Leung Ping Kei: Column matrix, column matrix. And epsilon, again, N by 1, okay? So E1, U2, ba-ba-ba, up to EN, okay? Column vector.
+
+501
+02:16:59,990 --> 02:17:07,949
+Leung Ping Kei: And, da… The XU… X matrix, n by k plus 1.
+
+502
+02:17:08,150 --> 02:17:11,760
+Leung Ping Kei: Okay? It's 1, 1, 1, okay, 4.
+
+503
+02:17:11,850 --> 02:17:31,350
+Leung Ping Kei: A, okay? And then, for B1, it's 1, 2, 3, blah blah blah up to T. And for B2, okay, 1 squared, 2 squared, 3 squared, 4 square, blah blah blah, up to T squared. And then for the KF1, 1 to the K, 2 to the K, 3 to the K, up to T to the K.
+
+504
+02:17:33,180 --> 02:17:38,980
+Leung Ping Kei: Alright? Now we have that, okay. Y equal to, X beta plus epsilon.
+
+505
+02:17:39,280 --> 02:17:42,570
+Leung Ping Kei: Therefore, epsilon is equal to Y minus X beta.
+
+506
+02:17:43,799 --> 02:17:57,430
+Leung Ping Kei: And with expectation of epsilon, the column, matrix is, zero matrix, okay, n by 1. And variance of epsilon is sigma squared times the identity matrix, n by 1.
+
+507
+02:17:58,770 --> 02:18:08,059
+Leung Ping Kei: We are going to minimize, the, sum square error, okay? S is equal to the sum of, epsilon i squared, i going from 1 up to n with respect to beta.
+
+508
+02:18:08,180 --> 02:18:11,549
+Leung Ping Kei: Okay? Well, in matrix notation, okay.
+
+509
+02:18:12,510 --> 02:18:25,019
+Leung Ping Kei: S is equal to epsilon t times, transpose times epsilon. Or else, this can be written as Y minus X beta transpose times Y minus X beta.
+
+510
+02:18:26,920 --> 02:18:32,799
+Leung Ping Kei: Now, I multiply them out, okay? So, Y transpose times Y, okay?
+
+511
+02:18:32,940 --> 02:18:41,109
+Leung Ping Kei: Minus, okay, X beta transpose, is beta transpose, X transpose.
+
+512
+02:18:42,760 --> 02:18:43,929
+Leung Ping Kei: Is that okay?
+
+513
+02:18:44,440 --> 02:18:52,429
+Leung Ping Kei: This one, okay? The transpose, X beta transpose is beta transpose times X transpose.
+
+514
+02:18:52,638 --> 02:18:54,270
+Leung Ping Kei: times Y.
+
+515
+02:18:57,940 --> 02:18:58,930
+Leung Ping Kei: Alright?
+
+516
+02:18:59,240 --> 02:19:03,049
+Leung Ping Kei: Matrix, huh? Linear algebra, linear algebra.
+
+517
+02:19:04,459 --> 02:19:07,150
+Leung Ping Kei: And then, the…
+
+518
+02:19:07,638 --> 02:19:15,250
+Leung Ping Kei: We finished with this, Y times this, okay? Now we have, X beta times Y, okay?
+
+519
+02:19:17,450 --> 02:19:22,350
+Leung Ping Kei: So… Y transpose times, X beta.
+
+520
+02:19:23,468 --> 02:19:26,260
+Leung Ping Kei: We have negative sign. Negative sign.
+
+521
+02:19:27,170 --> 02:19:29,690
+Leung Ping Kei: And then the last one is, okay.
+
+522
+02:19:30,530 --> 02:19:35,189
+Leung Ping Kei: X beta transpose, okay? Negative times negative is positive.
+
+523
+02:19:36,070 --> 02:19:42,440
+Leung Ping Kei: Alright? So, beta transpose, X transpose times X… Beta.
+
+524
+02:19:46,910 --> 02:19:48,040
+Leung Ping Kei: Is that okay?
+
+525
+02:19:54,150 --> 02:19:56,209
+Leung Ping Kei: Can you get it?
+
+526
+02:19:56,570 --> 02:20:01,259
+Leung Ping Kei: Maybe, you'll take some time, huh? Okay? Don't worry, don't worry, okay?
+
+527
+02:20:05,290 --> 02:20:07,009
+Leung Ping Kei: Then we have this, okay?
+
+528
+02:20:08,690 --> 02:20:15,079
+Leung Ping Kei: Okay, now, we simplify, okay? Y transpose Y minus, okay? Okay, this one,
+
+529
+02:20:16,030 --> 02:20:17,560
+Leung Ping Kei: This one and this one.
+
+530
+02:20:18,620 --> 02:20:20,800
+Leung Ping Kei: I just think the transpose of this.
+
+531
+02:20:21,900 --> 02:20:29,299
+Leung Ping Kei: Okay, the transpose of this is a… the transpose of this is a beta transpose X transpose times Y.
+
+532
+02:20:30,590 --> 02:20:31,780
+Leung Ping Kei: Is it okay?
+
+533
+02:20:34,690 --> 02:20:48,100
+Leung Ping Kei: Therefore, we have that, okay, beta transpose times, X transpose times Y, okay, is the same as that. Therefore, minus 2 times beta transpose X transpose Y.
+
+534
+02:20:48,260 --> 02:20:53,419
+Leung Ping Kei: And then plus, okay, beta transpose, X transpose, X beta.
+
+535
+02:21:06,220 --> 02:21:23,930
+Leung Ping Kei: And now, okay, we have this expression. Now we differentiate, S with respect to beta, okay? DS with respect to, dbeta, the first term is 0, because, no beta, okay? Minus 2 times, okay? When we differentiate this, okay.
+
+536
+02:21:26,840 --> 02:21:28,509
+Leung Ping Kei: This is just one.
+
+537
+02:21:29,230 --> 02:21:30,060
+Leung Ping Kei: Why?
+
+538
+02:21:30,580 --> 02:21:40,990
+Leung Ping Kei: Therefore, it's minus 2 times, X transpose Y. And then pass, okay, beta transpose times beta, okay? We, we just have,
+
+539
+02:21:40,990 --> 02:21:50,800
+Leung Ping Kei: single beta, because, beta transpose times beta is beta squared, okay? You have, 2 times X times pro
+
+540
+02:21:50,960 --> 02:21:53,470
+Leung Ping Kei: X… times beta.
+
+541
+02:21:58,230 --> 02:21:59,240
+Leung Ping Kei: Alright?
+
+542
+02:22:00,390 --> 02:22:03,779
+Leung Ping Kei: Then, we set it equal to 0 and solve for beta.
+
+543
+02:22:03,880 --> 02:22:22,079
+Leung Ping Kei: Okay? Therefore, the 2 and 2 cancel out, okay? Leaving you, okay? X transpose Y, okay? X transpose Y is equal to, okay, the 2 will cancel out, okay? X transpose X beta, okay? Now I divide,
+
+544
+02:22:22,570 --> 02:22:28,309
+Leung Ping Kei: X sample, X to the left side. Then I have that, okay?
+
+545
+02:22:29,690 --> 02:22:40,069
+Leung Ping Kei: X times over X beta is equal to X times for Y, which is your beta hat equal to x cancel X inverse times X channel Y.
+
+546
+02:22:43,270 --> 02:22:52,119
+Leung Ping Kei: This is the same as what you, what you, what you have to do is to multiply both sides by X times, so X inverse.
+
+547
+02:22:52,320 --> 02:22:54,610
+Leung Ping Kei: On the left-hand side, okay?
+
+548
+02:22:54,810 --> 02:22:56,330
+Leung Ping Kei: Then, I'll be up this…
+
+549
+02:23:08,380 --> 02:23:32,280
+Leung Ping Kei: All right? Now, this is just, tell you, a different kind of model, maybe, in the time series, okay? So, point number two, okay? Exponential, okay? Loglinear models, okay? First point, YT is still e to the power A plus BT times, epsilon t, where epsilon t is, normal, with mean 1,
+
+550
+02:23:32,280 --> 02:23:34,089
+Leung Ping Kei: Variant sigma squared.
+
+551
+02:23:34,090 --> 02:23:36,250
+Leung Ping Kei: Now we, take a look…
+
+552
+02:23:36,440 --> 02:23:43,539
+Leung Ping Kei: On both sides, we have a log YT equal to A plus BT plus log epsilon t.
+
+553
+02:23:44,460 --> 02:23:52,149
+Leung Ping Kei: Okay? And now, log epsilon t, I use, eta, eta t, eta, okay?
+
+554
+02:23:52,250 --> 02:23:54,990
+Leung Ping Kei: E-T-A, E-T-A, ITA.
+
+555
+02:23:55,560 --> 02:24:06,369
+Leung Ping Kei: And now, eta t is equal to log epsilon t, which is, normally distributed with mean zero, variance is just log sigma squared, sigma 1 squared.
+
+556
+02:24:09,090 --> 02:24:19,569
+Leung Ping Kei: Alright? Then, the, estimate, okay, the forecast, the model, log YT hat is equal to A hat plus B hat times T.
+
+557
+02:24:28,650 --> 02:24:35,340
+Leung Ping Kei: And then, another type, YT is equal to A times B to the T, epsilon t.
+
+558
+02:24:35,770 --> 02:24:36,600
+Leung Ping Kei: Okay?
+
+559
+02:24:37,200 --> 02:24:45,199
+Leung Ping Kei: Now, log both sides, okay? Log YT equals log A plus T times log B plus, log epsilon t.
+
+560
+02:24:45,380 --> 02:24:57,750
+Leung Ping Kei: And now, log epsilon t, I just use, eta t, okay? Therefore, it's log A times, plus, T times log B plus, eta t. And then, the…
+
+561
+02:24:58,280 --> 02:25:04,899
+Leung Ping Kei: model is, log YT hat, equal to log A hat plus t times, log B hat.
+
+562
+02:25:05,090 --> 02:25:09,859
+Leung Ping Kei: Okay? We minimize that, the sum-square error of the error term, okay?
+
+563
+02:25:10,590 --> 02:25:17,589
+Leung Ping Kei: And some other type, huh, okay? YT equal to A times T to the B times epsilon t.
+
+564
+02:25:17,840 --> 02:25:27,110
+Leung Ping Kei: Again, we take, log on both sides, we have, log YT equal to log A plus B times log T plus log epsilon t.
+
+565
+02:25:27,360 --> 02:25:28,220
+Leung Ping Kei: Okay.
+
+566
+02:25:28,560 --> 02:25:43,210
+Leung Ping Kei: Therefore, again, okay, log F1T is, eta t, okay? Then, the, model is, log YT hat equal to log A hat plus B hat times log T.
+
+567
+02:25:43,800 --> 02:25:49,740
+Leung Ping Kei: Okay? Since this is a civil, okay, e to the T is… mean is civil, okay?
+
+568
+02:25:49,960 --> 02:26:04,219
+Leung Ping Kei: And then, logistic model, okay, part 3, okay. YT is equal to L, constant, a constant, divided by 1 plus e to the power, alpha plus beta t plus epsilon t.
+
+569
+02:26:05,270 --> 02:26:07,299
+Leung Ping Kei: And then, the,
+
+570
+02:26:07,840 --> 02:26:20,490
+Leung Ping Kei: model will be built, will be, YT hat is equal to L over, the constant, divided by 1 plus, e to the power alpha hat plus, beta hat T.
+
+571
+02:26:21,250 --> 02:26:22,050
+Leung Ping Kei: Okay.
+
+572
+02:26:22,700 --> 02:26:24,670
+Leung Ping Kei: These are the different kinds of models.
+
+573
+02:26:26,930 --> 02:26:29,790
+Leung Ping Kei: Well, you can see,
+
+574
+02:26:36,040 --> 02:26:41,439
+Leung Ping Kei: You can see from this, okay, some, some of the typing are,
+
+575
+02:26:42,280 --> 02:26:45,180
+Leung Ping Kei: Miss, mistype, mistype, huh? Okay.
+
+576
+02:26:49,060 --> 02:26:56,210
+Leung Ping Kei: Alright? I just give you more information about this, okay? However, most of the time, we,
+
+577
+02:26:56,290 --> 02:27:10,030
+Leung Ping Kei: We seldom use these kind of, models, don't worry, okay? If, there is some, question, having this kind of, models, I will tell you.
+
+578
+02:27:10,340 --> 02:27:17,360
+Leung Ping Kei: Okay? Don't worry, huh? Okay? So, don't miss… The lost cause.
+
+579
+02:27:18,340 --> 02:27:25,090
+Leung Ping Kei: the last class, okay? I will tell you what kind of question there will be in the exam.
+
+580
+02:27:29,510 --> 02:27:33,170
+Leung Ping Kei: I hope all of you can pass, okay?
+
+581
+02:27:37,340 --> 02:27:39,720
+Leung Ping Kei: By the way,
+
+582
+02:27:40,650 --> 02:27:57,530
+Leung Ping Kei: So far, so far, I, I taught this, subject, okay? Ama515a and AMA540, okay? the same, time series, time series. And so far.
+
+583
+02:27:58,990 --> 02:28:00,939
+Leung Ping Kei: The failed student.
+
+584
+02:28:01,070 --> 02:28:02,090
+Leung Ping Kei: Okay?
+
+585
+02:28:03,150 --> 02:28:04,559
+Leung Ping Kei: Less than 10.
+
+586
+02:28:05,660 --> 02:28:11,920
+Leung Ping Kei: Less than 10, okay? Less than 10, okay?
+
+587
+02:28:13,210 --> 02:28:16,560
+Leung Ping Kei: How many… how many times I taught this subject?
+
+588
+02:28:17,410 --> 02:28:23,700
+Leung Ping Kei: Starting from, 2023.
+
+589
+02:28:24,460 --> 02:28:25,180
+Leung Ping Kei: Boo.
+
+590
+02:28:27,130 --> 02:28:33,130
+Leung Ping Kei: 2020 feet to now, okay?
+
+591
+02:28:36,610 --> 02:28:46,560
+Leung Ping Kei: More than 10 times, huh? More than 10 times, huh? Okay. So… Don't miss the last class.
+
+592
+02:28:50,770 --> 02:28:58,450
+Leung Ping Kei: Okay, this is, the appendix, okay, prediction interval of trend model, okay? So we call the formula, okay?
+
+593
+02:28:58,620 --> 02:29:04,449
+Leung Ping Kei: So use, first 10 observations in the series 1, okay? First 10 of them.
+
+594
+02:29:05,070 --> 02:29:10,330
+Leung Ping Kei: Okay? And then, we have, YT equal to,
+
+595
+02:29:15,680 --> 02:29:30,680
+Leung Ping Kei: 20… 2735.9, okay, is the alpha head, and then past beta head, 18.67T, okay? Then, based on the, the first 11 observations, we have that, okay?
+
+596
+02:29:30,950 --> 02:29:34,760
+Leung Ping Kei: The first 10 observations, we have this model, okay?
+
+597
+02:29:35,010 --> 02:29:48,920
+Leung Ping Kei: And then, thus, PTEC value for, 11th, observation, okay, is, 2,941.27, approximately, okay?
+
+598
+02:29:54,640 --> 02:30:07,949
+Leung Ping Kei: Okay? Based on the first 10, okay, from 2,767 to, 2,937, okay? 10 of them, to build a model of this, okay?
+
+599
+02:30:10,060 --> 02:30:16,689
+Leung Ping Kei: And now we want to find out the prediction interval, okay? So, first of all, okay,
+
+600
+02:30:17,570 --> 02:30:36,229
+Leung Ping Kei: The next observation, or the next observation is a T equals 11, so that, we use a T equals 11 to find out YT, okay? So, 2,703.5.9 plus 18.67 times 11, okay?
+
+601
+02:30:36,400 --> 02:30:51,999
+Leung Ping Kei: Then, it turned out to be 2,941.27, okay? Therefore, we have the estimate, plus or minus, okay? Because we based on sample size n equal to 10, therefore N minus 2 is 8 degrees of freedom.
+
+602
+02:30:52,270 --> 02:31:14,089
+Leung Ping Kei: Okay? Half alpha, we use alpha equal to 5%. And then, the error, the error, the standard deviation, square root of, sp, S, 109.2, okay? TIME the square root of 1 plus 1 over n plus, okay, given value, is, the time t equal to 1, like, 1…
+
+603
+02:31:14,090 --> 02:31:15,140
+Leung Ping Kei: 11.
+
+604
+02:31:15,140 --> 02:31:24,410
+Leung Ping Kei: minus the mean, 5.5 square, okay? And then divide by, CTT, sum of, TI minus T bar squared.
+
+605
+02:31:25,000 --> 02:31:25,900
+Leung Ping Kei: Alright.
+
+606
+02:31:27,110 --> 02:31:29,970
+Leung Ping Kei: Then after we substitute the values in, okay?
+
+607
+02:31:30,610 --> 02:31:41,860
+Leung Ping Kei: We get, the prediction interval is, 2912.05 to 2970.39.
+
+608
+02:31:43,740 --> 02:31:44,859
+Leung Ping Kei: Is that okay?
+
+609
+02:32:01,730 --> 02:32:09,819
+Leung Ping Kei: Okay, I stop at here, okay? And then, next cast will start with, chapter 2.
+
+610
+02:32:10,010 --> 02:32:11,840
+Leung Ping Kei: Chapter 2, okay?
+
+611
+02:32:12,510 --> 02:32:14,429
+Leung Ping Kei: Thank you for coming, huh? Okay.
+
