@@ -4,8 +4,8 @@
   "title": "Compare R-squared with current metric",
   "titleGenerationStatus": "success",
   "createdAt": 1793691193713,
-  "updatedAt": 1793876967880,
-  "lastResponseAt": 1793876967880,
+  "updatedAt": 1793975383266,
+  "lastResponseAt": 1793975383266,
   "sessionId": "01a1a053-9288-7c23-a60b-1181628fd493",
   "selectedModel": "gpt-6.1-terra",
   "providerState": {
@@ -16,13 +16,13 @@
   },
   "currentNote": "AMA515A Forecasting and Applied Time Series Analysis/Chapter 1/01 - Chapter 1（英文原文与折叠译文）.md",
   "usage": {
-    "inputTokens": 234232,
+    "inputTokens": 237627,
     "cacheCreationInputTokens": 0,
-    "cacheReadInputTokens": 233472,
+    "cacheReadInputTokens": 237568,
     "contextWindow": 475000,
     "contextWindowIsAuthoritative": true,
-    "contextTokens": 234232,
-    "percentage": 49,
+    "contextTokens": 237627,
+    "percentage": 50,
     "model": "gpt-6.1-terra"
   }
 }
