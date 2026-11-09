@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "copilot",
         "K线形态识别项目",
         "面试准备",
         "AMA573 A股因子与机器学习课程项目",
@@ -10935,7 +10936,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1783762557250,
-      "mtime": 1783763090705
+      "mtime": 1794240543738
     },
     "Python、数据分析与人工智能/数据分析与机器学习/08-决策树.md": {
       "isPinned": false,
@@ -10978,6 +10979,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "06_Salary_Ridge_Lasso.png",
         "集成学习6.png",
         "集成学习5.png",
         "集成学习4.png",
@@ -21680,6 +21682,227 @@
       "isHidden": false,
       "ctime": 1793870600372,
       "mtime": 1793870600372
+    },
+    "copilot": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "copilot-custom-prompts",
+        "skills"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1794233910263,
+      "mtime": 1794233910263
+    },
+    "copilot/skills": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "obsidian-bases",
+        "obsidian-markdown",
+        "copilot-fetch-x",
+        "copilot-youtube-transcript"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1794233910276,
+      "mtime": 1794233910276
+    },
+    "copilot/skills/copilot-youtube-transcript": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md",
+        "youtube-transcript.ps1",
+        "youtube-transcript.cmd",
+        "youtube-transcript.sh"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1794233910284,
+      "mtime": 1794233910284
+    },
+    "copilot/skills/copilot-youtube-transcript/youtube-transcript.sh": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794233910305,
+      "mtime": 1794233910305
+    },
+    "copilot/skills/copilot-youtube-transcript/youtube-transcript.cmd": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794233910339,
+      "mtime": 1794233910339
+    },
+    "copilot/skills/copilot-youtube-transcript/youtube-transcript.ps1": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794233910349,
+      "mtime": 1794233910349
+    },
+    "copilot/skills/copilot-youtube-transcript/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794233910359,
+      "mtime": 1794233910359
+    },
+    "copilot/skills/copilot-fetch-x": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md",
+        "fetch-x.ps1",
+        "fetch-x.cmd",
+        "fetch-x.sh"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1794233910374,
+      "mtime": 1794233910374
+    },
+    "copilot/skills/copilot-fetch-x/fetch-x.sh": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794233910384,
+      "mtime": 1794233910384
+    },
+    "copilot/skills/copilot-fetch-x/fetch-x.cmd": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794233910398,
+      "mtime": 1794233910398
+    },
+    "copilot/skills/copilot-fetch-x/fetch-x.ps1": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794233910416,
+      "mtime": 1794233910416
+    },
+    "copilot/skills/copilot-fetch-x/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794233910426,
+      "mtime": 1794233910426
+    },
+    "copilot/skills/obsidian-markdown": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md",
+        "LICENSE",
+        "references"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1794233910434,
+      "mtime": 1794233910434
+    },
+    "copilot/skills/obsidian-markdown/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "PROPERTIES.md",
+        "EMBEDS.md",
+        "CALLOUTS.md"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1794233910452,
+      "mtime": 1794233910452
+    },
+    "copilot/skills/obsidian-markdown/references/CALLOUTS.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794233910461,
+      "mtime": 1794233910461
+    },
+    "copilot/skills/obsidian-markdown/references/EMBEDS.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794233910477,
+      "mtime": 1794233910477
+    },
+    "copilot/skills/obsidian-markdown/references/PROPERTIES.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794233910492,
+      "mtime": 1794233910492
+    },
+    "copilot/skills/obsidian-markdown/LICENSE": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794233910502,
+      "mtime": 1794233910502
+    },
+    "copilot/skills/obsidian-markdown/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794233910513,
+      "mtime": 1794233910513
+    },
+    "copilot/skills/obsidian-bases": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "SKILL.md",
+        "LICENSE",
+        "references"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1794233910522,
+      "mtime": 1794233910522
+    },
+    "copilot/skills/obsidian-bases/references": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "EXAMPLES.md",
+        "FUNCTIONS_REFERENCE.md"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1794233910537,
+      "mtime": 1794233910537
+    },
+    "copilot/skills/obsidian-bases/references/FUNCTIONS_REFERENCE.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794233910549,
+      "mtime": 1794233910549
+    },
+    "copilot/skills/obsidian-bases/references/EXAMPLES.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794233910569,
+      "mtime": 1794233910569
+    },
+    "copilot/skills/obsidian-bases/LICENSE": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794233910579,
+      "mtime": 1794233910579
+    },
+    "copilot/skills/obsidian-bases/SKILL.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794233910589,
+      "mtime": 1794233910589
+    },
+    "copilot/copilot-custom-prompts": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "解释选中内容.md"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1794234888948,
+      "mtime": 1794234888948
+    },
+    "copilot/copilot-custom-prompts/解释选中内容.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794234888996,
+      "mtime": 1794240205201
+    },
+    "Python、数据分析与人工智能/数据分析与机器学习/img/06_Salary_Ridge_Lasso.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794240936698,
+      "mtime": 1794240936698
     }
   },
   "showHidden": false,

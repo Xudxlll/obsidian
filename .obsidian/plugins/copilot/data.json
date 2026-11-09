@@ -90,6 +90,7 @@
   "enableRecentConversations": true,
   "maxRecentConversations": 30,
   "enableSavedMemory": true,
+  "quickCommandModelKey": "0670fb5e-93c7-43e0-95cf-39b8d67ce159",
   "quickCommandIncludeNoteContext": true,
   "autoAcceptEdits": false,
   "diffViewMode": "split",
@@ -131,11 +132,191 @@
           ]
         }
       }
+    },
+    "deviceProfiles": {
+      "e9416e97-7eb6-4d7a-81cd-2ba09078b5dd": {
+        "codex": {
+          "binaryPath": "/Users/xuji/.obsidian-copilot/codex/2.2.2/codex-acp",
+          "binaryVersion": "2.2.2",
+          "binarySource": "managed"
+        }
+      }
     }
   },
-  "providers": {},
-  "configuredModels": [],
-  "backends": {},
+  "providers": {
+    "f297e030-77af-455f-9fab-638a9f8f3b0f": {
+      "providerType": "openai-compatible",
+      "displayName": "Codex",
+      "origin": {
+        "kind": "agent",
+        "agentType": "codex"
+      },
+      "requiresApiKey": false,
+      "providerId": "f297e030-77af-455f-9fab-638a9f8f3b0f",
+      "addedAt": 1794233935573,
+      "apiKeyKeychainId": null
+    },
+    "303ee726-3e01-4c86-ba3f-464ed1ff7000": {
+      "providerType": "openai-compatible",
+      "displayName": "DeepSeek",
+      "baseUrl": "https://api.deepseek.com",
+      "enableCors": false,
+      "requiresApiKey": true,
+      "origin": {
+        "kind": "byok",
+        "catalogProviderId": "deepseek"
+      },
+      "providerId": "303ee726-3e01-4c86-ba3f-464ed1ff7000",
+      "addedAt": 1794234241741,
+      "apiKeyKeychainId": "copilot-v77678891-provider-deepseek-api-key"
+    }
+  },
+  "configuredModels": [
+    {
+      "providerId": "f297e030-77af-455f-9fab-638a9f8f3b0f",
+      "info": {
+        "id": "gpt-6.1-terra",
+        "displayName": "6.1 Terra"
+      },
+      "configuredModelId": "93c42523-8b8f-4dd2-9341-71525f069214",
+      "configuredAt": 1794233940583
+    },
+    {
+      "providerId": "f297e030-77af-455f-9fab-638a9f8f3b0f",
+      "info": {
+        "id": "gpt-6.1-sol",
+        "displayName": "6.1 Sol",
+        "description": "Latest workhorse model for coding and everyday work."
+      },
+      "configuredModelId": "65718628-a8e8-4a8d-b80f-a1ef842cc693",
+      "configuredAt": 1794233940584
+    },
+    {
+      "providerId": "f297e030-77af-455f-9fab-638a9f8f3b0f",
+      "info": {
+        "id": "gpt-6-astra",
+        "displayName": "6 Astra",
+        "description": "Frontier intelligence for the most demanding work."
+      },
+      "configuredModelId": "bd25cd7e-c713-417a-a648-cc582073644b",
+      "configuredAt": 1794233940584
+    },
+    {
+      "providerId": "f297e030-77af-455f-9fab-638a9f8f3b0f",
+      "info": {
+        "id": "gpt-6-sol",
+        "displayName": "6 Sol",
+        "description": "Previous generation workhorse model."
+      },
+      "configuredModelId": "df1ada55-eaaa-48aa-b98d-dcb895f13905",
+      "configuredAt": 1794233940584
+    },
+    {
+      "providerId": "f297e030-77af-455f-9fab-638a9f8f3b0f",
+      "info": {
+        "id": "gpt-6-luna",
+        "displayName": "6 Luna",
+        "description": "Fast and affordable model for easier tasks."
+      },
+      "configuredModelId": "ef1b4b2a-ec8c-459a-8c46-5fe5ef28a0ce",
+      "configuredAt": 1794233940584
+    },
+    {
+      "providerId": "f297e030-77af-455f-9fab-638a9f8f3b0f",
+      "info": {
+        "id": "gpt-5.6-sol",
+        "displayName": "5.6 Sol",
+        "description": "Older generation workhorse model."
+      },
+      "configuredModelId": "4028512b-1c3c-4708-9730-f950131db396",
+      "configuredAt": 1794233940585
+    },
+    {
+      "providerId": "f297e030-77af-455f-9fab-638a9f8f3b0f",
+      "info": {
+        "id": "gpt-5.6-terra",
+        "displayName": "5.6 Terra",
+        "description": "Older balanced model for straightforward work."
+      },
+      "configuredModelId": "a8f0af65-fe38-4421-87e3-f5511c1f9afc",
+      "configuredAt": 1794233940585
+    },
+    {
+      "providerId": "f297e030-77af-455f-9fab-638a9f8f3b0f",
+      "info": {
+        "id": "gpt-5.6-luna",
+        "displayName": "5.6 Luna",
+        "description": "Older fast and efficient model."
+      },
+      "configuredModelId": "9ba2176e-5ace-4018-acd7-63be32512950",
+      "configuredAt": 1794233940585
+    },
+    {
+      "providerId": "f297e030-77af-455f-9fab-638a9f8f3b0f",
+      "info": {
+        "id": "gpt-5.5",
+        "displayName": "5.5",
+        "description": "Legacy coding model."
+      },
+      "configuredModelId": "dd676633-8e48-4fef-8427-943288f3cc88",
+      "configuredAt": 1794233940585
+    },
+    {
+      "configuredModelId": "0670fb5e-93c7-43e0-95cf-39b8d67ce159",
+      "providerId": "303ee726-3e01-4c86-ba3f-464ed1ff7000",
+      "info": {
+        "id": "deepseek-flash",
+        "displayName": "DeepSeek V4.1 Flash 1017",
+        "modalities": {
+          "input": [
+            "text",
+            "image"
+          ],
+          "output": [
+            "text"
+          ]
+        },
+        "limits": {
+          "context": 1048576,
+          "output": 393216
+        },
+        "reasoning": true,
+        "toolCall": true,
+        "releaseDate": "2026-10-17",
+        "cost": {
+          "input": 0.15,
+          "output": 0.6,
+          "cacheRead": 0.003
+        }
+      },
+      "configuredAt": 1794234241745
+    }
+  ],
+  "backends": {
+    "codex": {
+      "enabledModels": [
+        "93c42523-8b8f-4dd2-9341-71525f069214",
+        "65718628-a8e8-4a8d-b80f-a1ef842cc693",
+        "bd25cd7e-c713-417a-a648-cc582073644b",
+        "df1ada55-eaaa-48aa-b98d-dcb895f13905",
+        "ef1b4b2a-ec8c-459a-8c46-5fe5ef28a0ce",
+        "4028512b-1c3c-4708-9730-f950131db396",
+        "a8f0af65-fe38-4421-87e3-f5511c1f9afc",
+        "9ba2176e-5ace-4018-acd7-63be32512950",
+        "dd676633-8e48-4fef-8427-943288f3cc88"
+      ]
+    },
+    "chat": {
+      "enabledModels": [
+        "0670fb5e-93c7-43e0-95cf-39b8d67ce159"
+      ]
+    },
+    "opencode": {
+      "enabledModels": [
+        "0670fb5e-93c7-43e0-95cf-39b8d67ce159"
+      ]
+    }
+  },
   "copilotPlusCatalog": {
     "models": [
       {
