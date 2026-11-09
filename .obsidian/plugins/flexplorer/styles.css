@@ -1,51 +1,55 @@
-[data-type="file-explorer"] {
-  & .tree-item[data-drop-sibling] {
-    position: relative;
+body.fp-dragging {
+  & [data-type="file-explorer"] .nav-files-container {
+    overflow: hidden !important;
 
-    &[data-insert-pos="before"]:before, &[data-insert-pos="after"]:after {
-      content: "";
-      background: var(--color-accent);
-      width: 90%;
-      height: 1px;
-      display: block;
-      position: absolute;
-      left: 0;
-      translate: 12px -1px;
-    }
+    & .tree-item[data-drop-sibling] {
+      position: relative;
 
-    &.nav-folder[data-insert-pos="after"]:not(.is-collapsed):after {
-      transform: translateY(2px);
-    }
+      &[data-drop-sibling="before"]:before, &[data-drop-sibling="after"]:after {
+        content: "";
+        z-index: 1;
+        background: var(--color-accent);
+        border-radius: 10px;
+        width: 90%;
+        height: 2px;
+        display: block;
+        position: absolute;
+        left: 0;
+        translate: 12px -1px;
+      }
 
-    .nav-folder-children &[data-insert-pos="after"]:nth-last-child(1 of .tree-item):after {
-      transform: translateY(-2px);
-    }
-  }
+      &.nav-folder[data-drop-sibling="after"]:not(.is-collapsed):after {
+        transform: translateY(2px);
+      }
 
-  & > .nav-files-container > div, & .nav-folder {
-    &.is-being-dragged-over {
-      background-color: revert;
-
-      & > .nav-folder-title {
-        color: var(--nav-item-color);
+      .nav-folder-children &[data-drop-sibling="after"]:nth-last-child(1 of .tree-item):after {
+        transform: translateY(-2px);
       }
     }
 
-    &[data-drop-folder] {
-      body:not(:has([data-drop-sibling])) & {
-        background-color: hsla(var(--interactive-accent-hsl), .1);
+    & > div, & .nav-folder {
+      &.is-being-dragged-over {
+        background-color: revert;
+
+        & > .nav-folder-title {
+          color: var(--nav-item-color);
+        }
+      }
+
+      &[data-drop-folder] {
+        background-color: hsla(var(--interactive-accent-hsl), .05);
         border-radius: var(--radius-s);
-      }
 
-      & > .nav-folder-title {
-        color: var(--nav-item-color-highlighted);
+        & > .nav-folder-title {
+          color: var(--nav-item-color-highlighted);
+        }
       }
     }
   }
-}
 
-body:has([data-dragging]) .drag-ghost {
-  display: none;
+  & .drag-ghost {
+    display: none;
+  }
 }
 [data-type="file-explorer"] .tree-item {
   &.fp-hidden {
