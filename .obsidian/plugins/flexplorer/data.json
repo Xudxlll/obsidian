@@ -5,6 +5,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "量化交易入门指南",
         "copilot",
         "K线形态识别项目",
         "面试准备",
@@ -21903,6 +21904,99 @@
       "isHidden": false,
       "ctime": 1794240936698,
       "mtime": 1794240936698
+    },
+    "量化交易入门指南": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "Day 12.md",
+        "Day 11.md",
+        "Day 10.md",
+        "Day 9.md",
+        "Day 8.md",
+        "Day 7.md",
+        "Day 6.md",
+        "Day 5.md",
+        "Day 4.md",
+        "Day 3.md",
+        "Day 2.md",
+        "Day 1.md"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1794334919418,
+      "mtime": 1794334919418
+    },
+    "量化交易入门指南/Day 1.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794334943080,
+      "mtime": 1794336068471
+    },
+    "量化交易入门指南/Day 2.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794336814107,
+      "mtime": 1794336820646
+    },
+    "量化交易入门指南/Day 3.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794337025541,
+      "mtime": 1794337032398
+    },
+    "量化交易入门指南/Day 4.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794337050200,
+      "mtime": 1794337056826
+    },
+    "量化交易入门指南/Day 5.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794337079069,
+      "mtime": 1794337086176
+    },
+    "量化交易入门指南/Day 6.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794337115078,
+      "mtime": 1794337122066
+    },
+    "量化交易入门指南/Day 7.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794337148727,
+      "mtime": 1794337155593
+    },
+    "量化交易入门指南/Day 8.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794337205886,
+      "mtime": 1794337213696
+    },
+    "量化交易入门指南/Day 9.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794337235790,
+      "mtime": 1794337242021
+    },
+    "量化交易入门指南/Day 10.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794337263882,
+      "mtime": 1794337270763
+    },
+    "量化交易入门指南/Day 11.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794337292793,
+      "mtime": 1794337299677
+    },
+    "量化交易入门指南/Day 12.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1794337324317,
+      "mtime": 1794337324317
     }
   },
   "showHidden": false,
