@@ -35,8 +35,6 @@
         "外刊精读",
         "Clippings",
         "AI知识汇总",
-        "Python预科班笔记",
-        "Python正式课笔记",
         "附件",
         "assets",
         "AMA535A-Mathematical Models of Derivative Pricing",
@@ -57,118 +55,6 @@
         "Bilibili",
         "DBSCAN 分群演算法介紹與實際應用範例.md"
       ]
-    },
-    "Python预科班笔记": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "Day01 - print 与变量入门.md",
-        "Day02 - 运算符与条件判断.md",
-        "Day03 - 分支、循环与综合练习.md",
-        "Day04 - range、列表与循环练习.md",
-        "Day05 - 列表、字典与嵌套循环项目.md",
-        "Day06 - Matplotlib 折线、饼图与柱状图.md",
-        "Day07 - Matplotlib 多图表与动画入门.md",
-        "Day08 - 动画优化、openpyxl 与 pandas.md",
-        "Day10 - OpenCV 读写、色彩空间与图像增强.md",
-        "Day09 - python-docx、Excel 转 Word 与 OpenCV 入门.md",
-        "Day11 - OpenCV 几何变换与形态学.md",
-        "Day13 - OpenCV 形状拟合、瑕疵检测与人脸识别.md",
-        "Day12 - OpenCV 滤波、锐化、边缘与轮廓.md",
-        "Python预科班学习笔记总览.md",
-        "Python预科班 学习总览.canvas"
-      ]
-    },
-    "Python预科班笔记/Day01 - print 与变量入门.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779977844644,
-      "mtime": 1779977844644
-    },
-    "Python预科班笔记/Day02 - 运算符与条件判断.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779977844650,
-      "mtime": 1779977844650
-    },
-    "Python预科班笔记/Day03 - 分支、循环与综合练习.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779977844658,
-      "mtime": 1779977844658
-    },
-    "Python预科班笔记/Day04 - range、列表与循环练习.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779977844667,
-      "mtime": 1779977844667
-    },
-    "Python预科班笔记/Day05 - 列表、字典与嵌套循环项目.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779977844675,
-      "mtime": 1779977844675
-    },
-    "Python预科班笔记/Day06 - Matplotlib 折线、饼图与柱状图.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779977844678,
-      "mtime": 1779977844678
-    },
-    "Python预科班笔记/Day07 - Matplotlib 多图表与动画入门.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779977844688,
-      "mtime": 1779977844689
-    },
-    "Python预科班笔记/Day08 - 动画优化、openpyxl 与 pandas.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779977844696,
-      "mtime": 1779977844697
-    },
-    "Python预科班笔记/Day10 - OpenCV 读写、色彩空间与图像增强.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779977844710,
-      "mtime": 1779977844710
-    },
-    "Python预科班笔记/Day09 - python-docx、Excel 转 Word 与 OpenCV 入门.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779977844701,
-      "mtime": 1779977844701
-    },
-    "Python预科班笔记/Day11 - OpenCV 几何变换与形态学.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779977844732,
-      "mtime": 1779977844732
-    },
-    "Python预科班笔记/Day13 - OpenCV 形状拟合、瑕疵检测与人脸识别.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779977844755,
-      "mtime": 1779977844755
-    },
-    "Python预科班笔记/Day12 - OpenCV 滤波、锐化、边缘与轮廓.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779977844744,
-      "mtime": 1779977844744
-    },
-    "Python预科班笔记/Python预科班学习笔记总览.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779975558123,
-      "mtime": 1780032394764
-    },
-    "Python预科班笔记/Python预科班 学习总览.canvas": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779975558123,
-      "mtime": 1780032392567
     },
     "附件": {
       "isPinned": false,
@@ -4130,83 +4016,6 @@
       "isHidden": false,
       "ctime": 1555039672000,
       "mtime": 1555039672000
-    },
-    "Python正式课笔记": {
-      "isPinned": false,
-      "isHidden": false,
-      "sortOrder": "custom",
-      "customOrder": [
-        "Day01 - print 与变量入门.md",
-        "Day02 - 数据类型与运算基础.md",
-        "Day03 - 分支与循环控制.md",
-        "Day04 - for 循环与列表.md",
-        "Day05 - 推导式、拷贝、元组与字符串.md",
-        "Day06 - 字典、嵌套结构与函数项目.md",
-        "Day07 - 函数参数、返回值与作用域.md",
-        "Day08 - 集合、小数与递归.md",
-        "Python 正式课学习笔记总览.md",
-        "正式课 Python 学习总览.canvas"
-      ]
-    },
-    "Python正式课笔记/Day01 - print 与变量入门.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779973792067,
-      "mtime": 1779974938354
-    },
-    "Python正式课笔记/Day02 - 数据类型与运算基础.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779973792075,
-      "mtime": 1779974938354
-    },
-    "Python正式课笔记/Day03 - 分支与循环控制.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779973792083,
-      "mtime": 1779974938353
-    },
-    "Python正式课笔记/Day04 - for 循环与列表.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779973792090,
-      "mtime": 1779974938353
-    },
-    "Python正式课笔记/Day05 - 推导式、拷贝、元组与字符串.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779973792097,
-      "mtime": 1779974938354
-    },
-    "Python正式课笔记/Day06 - 字典、嵌套结构与函数项目.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779973792109,
-      "mtime": 1779974938354
-    },
-    "Python正式课笔记/Day07 - 函数参数、返回值与作用域.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779973792115,
-      "mtime": 1779974938353
-    },
-    "Python正式课笔记/Day08 - 集合、小数与递归.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779973792119,
-      "mtime": 1779974938353
-    },
-    "Python正式课笔记/Python 正式课学习笔记总览.md": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779969631583,
-      "mtime": 1780032368887
-    },
-    "Python正式课笔记/正式课 Python 学习总览.canvas": {
-      "isPinned": false,
-      "isHidden": false,
-      "ctime": 1779969631583,
-      "mtime": 1780032366293
     },
     "AMA535A-Mathematical Models of Derivative Pricing": {
       "isPinned": false,
@@ -24017,49 +23826,49 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372870247,
-      "mtime": 1794372870247
+      "mtime": 1794373943799
     },
     "量化交易入门指南/第02天 - 核心概念与金融工具详解.md": {
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372870268,
-      "mtime": 1794372870268
+      "mtime": 1794374324530
     },
     "量化交易入门指南/第03天 - 股票本质与股权结构.md": {
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372870327,
-      "mtime": 1794372870327
+      "mtime": 1794374728670
     },
     "量化交易入门指南/第04天 - 股票估值方法入门：PE、PB、DCF详解.md": {
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372870343,
-      "mtime": 1794372870343
+      "mtime": 1794374761868
     },
     "量化交易入门指南/第05天 - 债券、利率与金融市场定价锚.md": {
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372870442,
-      "mtime": 1794372870442
+      "mtime": 1794374761856
     },
     "量化交易入门指南/第06天 - 深度扩展学习：利率与资产定价模型.md": {
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372870461,
-      "mtime": 1794372870461
+      "mtime": 1794375447038
     },
     "量化交易入门指南/第07天 - 风险与收益建模基础完全指南.md": {
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372870547,
-      "mtime": 1794372870547
+      "mtime": 1794375633572
     },
     "量化交易入门指南/第08天 - ROE（净资产收益率）详解与实战应用.md": {
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372870561,
-      "mtime": 1794372870561
+      "mtime": 1794375924147
     },
     "量化交易入门指南/附件/MinerU图片/第09天": {
       "isPinned": false,
@@ -24284,7 +24093,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372870978,
-      "mtime": 1794372870978
+      "mtime": 1794375943673
     },
     "量化交易入门指南/附件/MinerU图片/第10天": {
       "isPinned": false,
@@ -24726,7 +24535,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372871556,
-      "mtime": 1794372871556
+      "mtime": 1794373357643
     },
     "量化交易入门指南/附件/MinerU图片/第11天": {
       "isPinned": false,
@@ -24965,7 +24774,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372872288,
-      "mtime": 1794372872288
+      "mtime": 1794373357663
     },
     "量化交易入门指南/附件/MinerU图片/第12天": {
       "isPinned": false,
@@ -25246,7 +25055,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372872669,
-      "mtime": 1794372872669
+      "mtime": 1794373357351
     },
     "量化交易入门指南/附件/MinerU图片/第13天": {
       "isPinned": false,
@@ -25709,7 +25518,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372873241,
-      "mtime": 1794372873241
+      "mtime": 1794373357700
     },
     "量化交易入门指南/附件/MinerU图片/第14天": {
       "isPinned": false,
@@ -26158,7 +25967,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372873860,
-      "mtime": 1794372873860
+      "mtime": 1794373428785
     },
     "量化交易入门指南/附件/MinerU图片/第15天": {
       "isPinned": false,
@@ -26334,7 +26143,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372874138,
-      "mtime": 1794372874138
+      "mtime": 1794373357603
     },
     "量化交易入门指南/附件/MinerU图片/第16天": {
       "isPinned": false,
@@ -26426,7 +26235,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372874360,
-      "mtime": 1794372874360
+      "mtime": 1794373357270
     },
     "量化交易入门指南/附件/MinerU图片/第17天": {
       "isPinned": false,
@@ -26574,7 +26383,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372874625,
-      "mtime": 1794372874625
+      "mtime": 1794373357577
     },
     "量化交易入门指南/附件/MinerU图片/第18天": {
       "isPinned": false,
@@ -26659,7 +26468,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372874837,
-      "mtime": 1794372874837
+      "mtime": 1794373357315
     },
     "量化交易入门指南/附件/MinerU图片/第19天": {
       "isPinned": false,
@@ -26814,7 +26623,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372875100,
-      "mtime": 1794372875100
+      "mtime": 1794373357741
     },
     "量化交易入门指南/附件/MinerU图片/第20天": {
       "isPinned": false,
@@ -26997,7 +26806,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372875427,
-      "mtime": 1794372875427
+      "mtime": 1794373357543
     },
     "量化交易入门指南/附件/MinerU图片/第21天": {
       "isPinned": false,
@@ -27173,7 +26982,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372875798,
-      "mtime": 1794372875798
+      "mtime": 1794373357432
     },
     "量化交易入门指南/附件/MinerU图片/第22天": {
       "isPinned": false,
@@ -27251,7 +27060,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372876052,
-      "mtime": 1794372876052
+      "mtime": 1794373357756
     },
     "量化交易入门指南/附件/MinerU图片/第23天": {
       "isPinned": false,
@@ -27378,7 +27187,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372876270,
-      "mtime": 1794372876270
+      "mtime": 1794373357720
     },
     "量化交易入门指南/附件/MinerU图片/第24天": {
       "isPinned": false,
@@ -27421,7 +27230,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372876362,
-      "mtime": 1794372876362
+      "mtime": 1794373357278
     },
     "量化交易入门指南/附件/MinerU图片/第25天": {
       "isPinned": false,
@@ -27478,7 +27287,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372876513,
-      "mtime": 1794372876513
+      "mtime": 1794373357256
     },
     "量化交易入门指南/附件/MinerU图片/第26天": {
       "isPinned": false,
@@ -27619,7 +27428,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372876765,
-      "mtime": 1794372876765
+      "mtime": 1794373357654
     },
     "量化交易入门指南/附件/MinerU图片/第28天": {
       "isPinned": false,
@@ -27683,7 +27492,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372876924,
-      "mtime": 1794372876924
+      "mtime": 1794373357627
     },
     "量化交易入门指南/附件/MinerU图片/第29天": {
       "isPinned": false,
@@ -27747,7 +27556,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372877063,
-      "mtime": 1794372877063
+      "mtime": 1794373357768
     },
     "量化交易入门指南/附件/MinerU图片/第30天": {
       "isPinned": false,
@@ -27867,7 +27676,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372877414,
-      "mtime": 1794372877414
+      "mtime": 1794373357334
     },
     "量化交易入门指南/附件/MinerU图片/第31天": {
       "isPinned": false,
@@ -27959,7 +27768,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372877635,
-      "mtime": 1794372877635
+      "mtime": 1794373357225
     },
     "量化交易入门指南/附件/MinerU图片/第33天": {
       "isPinned": false,
@@ -28100,7 +27909,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372877929,
-      "mtime": 1794372877929
+      "mtime": 1794373357385
     },
     "量化交易入门指南/附件/MinerU图片/第34天": {
       "isPinned": false,
@@ -28206,7 +28015,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372878134,
-      "mtime": 1794372878134
+      "mtime": 1794373357694
     },
     "量化交易入门指南/附件/MinerU图片/第35天": {
       "isPinned": false,
@@ -28389,7 +28198,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372878407,
-      "mtime": 1794372878407
+      "mtime": 1794373357726
     },
     "量化交易入门指南/附件/MinerU图片/第36天": {
       "isPinned": false,
@@ -28516,7 +28325,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372878677,
-      "mtime": 1794372878677
+      "mtime": 1794373357516
     },
     "量化交易入门指南/附件/MinerU图片/第37天": {
       "isPinned": false,
@@ -28643,7 +28452,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372878988,
-      "mtime": 1794372878988
+      "mtime": 1794373357686
     },
     "量化交易入门指南/附件/MinerU图片/第38天": {
       "isPinned": false,
@@ -28735,7 +28544,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372879210,
-      "mtime": 1794372879210
+      "mtime": 1794373357389
     },
     "量化交易入门指南/附件/MinerU图片/第39天": {
       "isPinned": false,
@@ -28883,7 +28692,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372879489,
-      "mtime": 1794372879489
+      "mtime": 1794373357346
     },
     "量化交易入门指南/附件/MinerU图片/第40天": {
       "isPinned": false,
@@ -29101,7 +28910,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372879925,
-      "mtime": 1794372879925
+      "mtime": 1794373357294
     },
     "量化交易入门指南/附件/MinerU图片/第41天": {
       "isPinned": false,
@@ -29291,7 +29100,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372880303,
-      "mtime": 1794372880303
+      "mtime": 1794373357525
     },
     "量化交易入门指南/附件/MinerU图片/第42天": {
       "isPinned": false,
@@ -29432,7 +29241,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372880626,
-      "mtime": 1794372880626
+      "mtime": 1794373357734
     },
     "量化交易入门指南/附件/MinerU图片/第43天": {
       "isPinned": false,
@@ -29566,7 +29375,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372880938,
-      "mtime": 1794372880938
+      "mtime": 1794373357492
     },
     "量化交易入门指南/附件/MinerU图片/第44天": {
       "isPinned": false,
@@ -29742,7 +29551,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372881308,
-      "mtime": 1794372881308
+      "mtime": 1794373358092
     },
     "量化交易入门指南/附件/MinerU图片/第45天": {
       "isPinned": false,
@@ -29855,7 +29664,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372881586,
-      "mtime": 1794372881586
+      "mtime": 1794373357321
     },
     "量化交易入门指南/附件/MinerU图片/第46天": {
       "isPinned": false,
@@ -29926,7 +29735,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372881788,
-      "mtime": 1794372881788
+      "mtime": 1794373357621
     },
     "量化交易入门指南/附件/MinerU图片/第47天": {
       "isPinned": false,
@@ -30046,7 +29855,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372882044,
-      "mtime": 1794372882044
+      "mtime": 1794373357989
     },
     "量化交易入门指南/附件/MinerU图片/第48天": {
       "isPinned": false,
@@ -30131,7 +29940,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372882253,
-      "mtime": 1794372882253
+      "mtime": 1794373357673
     },
     "量化交易入门指南/附件/MinerU图片/第49天": {
       "isPinned": false,
@@ -30370,7 +30179,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372882706,
-      "mtime": 1794372882706
+      "mtime": 1794373357984
     },
     "量化交易入门指南/附件/MinerU图片/第50天": {
       "isPinned": false,
@@ -30567,7 +30376,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372883077,
-      "mtime": 1794372883077
+      "mtime": 1794373357440
     },
     "量化交易入门指南/附件/MinerU图片/第51天": {
       "isPinned": false,
@@ -30652,7 +30461,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372883323,
-      "mtime": 1794372883323
+      "mtime": 1794373357302
     },
     "量化交易入门指南/附件/MinerU图片/第52天": {
       "isPinned": false,
@@ -30716,7 +30525,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372883456,
-      "mtime": 1794372883456
+      "mtime": 1794373357407
     },
     "量化交易入门指南/附件/MinerU图片/第53天": {
       "isPinned": false,
@@ -30794,7 +30603,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372883690,
-      "mtime": 1794372883690
+      "mtime": 1794373357466
     },
     "量化交易入门指南/附件/MinerU图片/第54天": {
       "isPinned": false,
@@ -30893,7 +30702,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372884072,
-      "mtime": 1794372884072
+      "mtime": 1794373357377
     },
     "量化交易入门指南/附件/MinerU图片/第55天": {
       "isPinned": false,
@@ -30992,7 +30801,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372884342,
-      "mtime": 1794372884342
+      "mtime": 1794373357568
     },
     "量化交易入门指南/附件/MinerU图片/第56天": {
       "isPinned": false,
@@ -31063,7 +30872,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372884563,
-      "mtime": 1794372884563
+      "mtime": 1794373357458
     },
     "量化交易入门指南/附件/MinerU图片/第57天": {
       "isPinned": false,
@@ -31141,7 +30950,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372884778,
-      "mtime": 1794372884778
+      "mtime": 1794373357341
     },
     "量化交易入门指南/附件/MinerU图片/第58天": {
       "isPinned": false,
@@ -31226,7 +31035,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372885028,
-      "mtime": 1794372885028
+      "mtime": 1794373357777
     },
     "量化交易入门指南/附件/MinerU图片/第59天": {
       "isPinned": false,
@@ -31367,7 +31176,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372885302,
-      "mtime": 1794372885302
+      "mtime": 1794373357784
     },
     "量化交易入门指南/附件/MinerU图片/第60天": {
       "isPinned": false,
@@ -31592,7 +31401,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372886064,
-      "mtime": 1794372886064
+      "mtime": 1794373357403
     },
     "量化交易入门指南/附件/MinerU图片/第61天": {
       "isPinned": false,
@@ -31740,7 +31549,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372886420,
-      "mtime": 1794372886420
+      "mtime": 1794373357508
     },
     "量化交易入门指南/附件/MinerU图片/第62天": {
       "isPinned": false,
@@ -31818,7 +31627,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372886667,
-      "mtime": 1794372886667
+      "mtime": 1794373357549
     },
     "量化交易入门指南/附件/MinerU图片/第63天": {
       "isPinned": false,
@@ -31889,7 +31698,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372886867,
-      "mtime": 1794372886867
+      "mtime": 1794373357308
     },
     "量化交易入门指南/附件/MinerU图片/第64天": {
       "isPinned": false,
@@ -31967,7 +31776,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372887087,
-      "mtime": 1794372887087
+      "mtime": 1794373357500
     },
     "量化交易入门指南/附件/MinerU图片/第65天": {
       "isPinned": false,
@@ -32059,7 +31868,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372887321,
-      "mtime": 1794372887321
+      "mtime": 1794373357680
     },
     "量化交易入门指南/附件/MinerU图片/第66天": {
       "isPinned": false,
@@ -32263,7 +32072,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372887821,
-      "mtime": 1794372887821
+      "mtime": 1794373357587
     },
     "量化交易入门指南/附件/MinerU图片/第67天": {
       "isPinned": false,
@@ -32320,7 +32129,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372888048,
-      "mtime": 1794372888048
+      "mtime": 1794373357474
     },
     "量化交易入门指南/附件/MinerU图片/第68天": {
       "isPinned": false,
@@ -32391,7 +32200,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372888297,
-      "mtime": 1794372888297
+      "mtime": 1794373357370
     },
     "量化交易入门指南/附件/MinerU图片/第69天": {
       "isPinned": false,
@@ -32448,7 +32257,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372888509,
-      "mtime": 1794372888509
+      "mtime": 1794373357416
     },
     "量化交易入门指南/附件/MinerU图片/第70天": {
       "isPinned": false,
@@ -32519,7 +32328,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372888758,
-      "mtime": 1794372888758
+      "mtime": 1794373357365
     },
     "量化交易入门指南/附件/MinerU图片/第71天": {
       "isPinned": false,
@@ -32632,7 +32441,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372889029,
-      "mtime": 1794372889029
+      "mtime": 1794373357554
     },
     "量化交易入门指南/附件/MinerU图片/第72天": {
       "isPinned": false,
@@ -32717,7 +32526,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372889337,
-      "mtime": 1794372889337
+      "mtime": 1794373357635
     },
     "量化交易入门指南/附件/MinerU图片/第73天": {
       "isPinned": false,
@@ -32795,7 +32604,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372889582,
-      "mtime": 1794372889582
+      "mtime": 1794373357762
     },
     "量化交易入门指南/附件/MinerU图片/第74天": {
       "isPinned": false,
@@ -32880,7 +32689,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372889825,
-      "mtime": 1794372889825
+      "mtime": 1794373357796
     },
     "量化交易入门指南/附件/MinerU图片/第75天": {
       "isPinned": false,
@@ -32986,7 +32795,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372890114,
-      "mtime": 1794372890114
+      "mtime": 1794373357564
     },
     "量化交易入门指南/附件/MinerU图片/第76天": {
       "isPinned": false,
@@ -33015,7 +32824,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372890248,
-      "mtime": 1794372890248
+      "mtime": 1794373357707
     },
     "量化交易入门指南/附件/MinerU图片/第77天": {
       "isPinned": false,
@@ -33142,7 +32951,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372890587,
-      "mtime": 1794372890587
+      "mtime": 1794373357395
     },
     "量化交易入门指南/附件/MinerU图片/第78天": {
       "isPinned": false,
@@ -33220,7 +33029,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372890838,
-      "mtime": 1794372890838
+      "mtime": 1794373357289
     },
     "量化交易入门指南/附件/MinerU图片/第79天": {
       "isPinned": false,
@@ -33354,7 +33163,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372891167,
-      "mtime": 1794372891167
+      "mtime": 1794373357613
     },
     "量化交易入门指南/附件/MinerU图片/第80天": {
       "isPinned": false,
@@ -33467,7 +33276,7 @@
       "isPinned": false,
       "isHidden": false,
       "ctime": 1794372891444,
-      "mtime": 1794372891444
+      "mtime": 1794373357649
     }
   },
   "showHidden": false,
