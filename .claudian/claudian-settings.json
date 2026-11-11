@@ -548,8 +548,8 @@
   },
   "settingsProvider": "claude",
   "lastSelectedChatModel": {
-    "providerId": "claude",
-    "model": "opus"
+    "providerId": "codex",
+    "model": "openai-codex/gpt-6.1-terra"
   },
   "inlineEditModel": null,
   "savedProviderModel": {
@@ -558,7 +558,7 @@
   },
   "savedProviderEffort": {
     "claude": "high",
-    "codex": "medium"
+    "codex": "high"
   },
   "savedProviderServiceTier": {
     "codex": "default"
@@ -574,7 +574,7 @@
   "pluginRenderedFenceLanguages": [],
   "expandFileEditsByDefault": false,
   "chatViewPlacement": "right-sidebar",
-  "enableZenMode": true,
+  "enableZenMode": false,
   "zenModePosition": null,
   "enableDualPane": false,
   "dualPaneSide": "right",
