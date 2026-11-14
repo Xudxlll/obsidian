@@ -213,51 +213,6 @@
           "isDefault": false
         },
         {
-          "model": "gpt-6.1-terra",
-          "displayName": "GPT-6.1 Terra",
-          "description": "GPT-6.1 Terra Codex model.",
-          "supportedReasoningEfforts": [
-            {
-              "value": "low",
-              "description": "Fast responses with lighter reasoning"
-            },
-            {
-              "value": "medium",
-              "description": "Balances speed and reasoning depth for everyday tasks"
-            },
-            {
-              "value": "high",
-              "description": "Greater reasoning depth for complex problems"
-            },
-            {
-              "value": "xhigh",
-              "description": "Extra high reasoning depth for complex problems"
-            },
-            {
-              "value": "max",
-              "description": "Maximum reasoning depth for the hardest problems"
-            },
-            {
-              "value": "ultra",
-              "description": "Maximum reasoning with automatic task delegation"
-            }
-          ],
-          "defaultReasoningEffort": "low",
-          "serviceTiers": [
-            {
-              "id": "priority",
-              "name": "Fast",
-              "description": "1.5x speed"
-            }
-          ],
-          "defaultServiceTier": null,
-          "inputModalities": [
-            "text",
-            "image"
-          ],
-          "isDefault": false
-        },
-        {
           "model": "gpt-6-sol",
           "displayName": "GPT-6 Sol",
           "description": "Previous generation workhorse model.",
@@ -295,7 +250,7 @@
               "description": "1.5x speed"
             }
           ],
-          "defaultServiceTier": null,
+          "defaultServiceTier": "priority",
           "inputModalities": [
             "text",
             "image"
@@ -336,7 +291,7 @@
               "description": "1.5x speed"
             }
           ],
-          "defaultServiceTier": null,
+          "defaultServiceTier": "priority",
           "inputModalities": [
             "text",
             "image"
@@ -379,6 +334,51 @@
               "id": "priority",
               "name": "Fast",
               "description": "1.5x speed, increased usage"
+            }
+          ],
+          "defaultServiceTier": null,
+          "inputModalities": [
+            "text",
+            "image"
+          ],
+          "isDefault": false
+        },
+        {
+          "model": "gpt-6.1-terra",
+          "displayName": "GPT-6.1 Terra",
+          "description": "GPT-6.1 Terra Codex model.",
+          "supportedReasoningEfforts": [
+            {
+              "value": "low",
+              "description": "Fast responses with lighter reasoning"
+            },
+            {
+              "value": "medium",
+              "description": "Balances speed and reasoning depth for everyday tasks"
+            },
+            {
+              "value": "high",
+              "description": "Greater reasoning depth for complex problems"
+            },
+            {
+              "value": "xhigh",
+              "description": "Extra high reasoning depth for complex problems"
+            },
+            {
+              "value": "max",
+              "description": "Maximum reasoning depth for the hardest problems"
+            },
+            {
+              "value": "ultra",
+              "description": "Maximum reasoning with automatic task delegation"
+            }
+          ],
+          "defaultReasoningEffort": "low",
+          "serviceTiers": [
+            {
+              "id": "priority",
+              "name": "Fast",
+              "description": "1.5x speed"
             }
           ],
           "defaultServiceTier": null,

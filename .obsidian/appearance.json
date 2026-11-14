@@ -1,20 +1,18 @@
 {
+  "showRibbon": true,
   "enabledCssSnippets": [
+    "body-line-height-1-6",
+    "center-images-and-tables",
+    "dock-status-bar-right-sidebar",
+    "editing-toolbar-cn-labels",
+    "fix-note-toolbar-width",
+    "hide-note-toolbar-in-reading",
     "inline-translation",
     "note-toolbar-hover-background",
-    "fix-note-toolbar-width",
-    "center-images-and-tables",
-    "hide-note-toolbar-in-reading",
+    "table-body-font-size",
     "typora-python-code-colors",
-    "typora-list-bullets",
-    "dock-status-bar-right-sidebar",
-    "body-line-height-1-6"
+    "typora-list-bullets"
   ],
   "cssTheme": "Typora-Vue",
-  "baseFontSizeAction": true,
-  "baseFontSize": 14,
-  "theme": "system",
-  "textFontFamily": "PingFang SC",
-  "translucency": false,
-  "showRibbon": true
+  "translucency": true
 }
