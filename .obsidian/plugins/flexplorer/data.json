@@ -21496,37 +21496,37 @@
     "copilot": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "copilot-custom-prompts",
         "skills"
       ],
-      "sortOrder": "custom",
       "ctime": 1794233910263,
       "mtime": 1794233910263
     },
     "copilot/skills": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "obsidian-bases",
         "obsidian-markdown",
         "copilot-fetch-x",
         "copilot-youtube-transcript"
       ],
-      "sortOrder": "custom",
       "ctime": 1794233910276,
       "mtime": 1794233910276
     },
     "copilot/skills/copilot-youtube-transcript": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "SKILL.md",
         "youtube-transcript.ps1",
         "youtube-transcript.cmd",
         "youtube-transcript.sh"
       ],
-      "sortOrder": "custom",
       "ctime": 1794233910284,
       "mtime": 1794233910284
     },
@@ -21557,13 +21557,13 @@
     "copilot/skills/copilot-fetch-x": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "SKILL.md",
         "fetch-x.ps1",
         "fetch-x.cmd",
         "fetch-x.sh"
       ],
-      "sortOrder": "custom",
       "ctime": 1794233910374,
       "mtime": 1794233910374
     },
@@ -21594,24 +21594,24 @@
     "copilot/skills/obsidian-markdown": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "SKILL.md",
         "LICENSE",
         "references"
       ],
-      "sortOrder": "custom",
       "ctime": 1794233910434,
       "mtime": 1794233910434
     },
     "copilot/skills/obsidian-markdown/references": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "PROPERTIES.md",
         "EMBEDS.md",
         "CALLOUTS.md"
       ],
-      "sortOrder": "custom",
       "ctime": 1794233910452,
       "mtime": 1794233910452
     },
@@ -21648,23 +21648,23 @@
     "copilot/skills/obsidian-bases": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "SKILL.md",
         "LICENSE",
         "references"
       ],
-      "sortOrder": "custom",
       "ctime": 1794233910522,
       "mtime": 1794233910522
     },
     "copilot/skills/obsidian-bases/references": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "EXAMPLES.md",
         "FUNCTIONS_REFERENCE.md"
       ],
-      "sortOrder": "custom",
       "ctime": 1794233910537,
       "mtime": 1794233910537
     },
@@ -21695,10 +21695,10 @@
     "copilot/copilot-custom-prompts": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "解释选中内容.md"
       ],
-      "sortOrder": "custom",
       "ctime": 1794234888948,
       "mtime": 1794234888948
     },
@@ -21717,6 +21717,7 @@
     "量化交易入门指南": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "byNameAsc",
       "customOrder": [
         "第80天 - 为什么风险平价在很多情况下反而比 Sharpe 最大化更赚钱？.md",
         "第79天 - Sharpe 最大化为什么容易过拟合？以及如何做稳健优化（Robust Optimization）.md",
@@ -21798,24 +21799,24 @@
         "第01天.md",
         "附件"
       ],
-      "sortOrder": "byNameAsc",
       "ctime": 1794334919418,
       "mtime": 1794334919418
     },
     "量化交易入门指南/附件": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "MinerU图片",
         "量化交易入门指南 PDF"
       ],
-      "sortOrder": "custom",
       "ctime": 1794368851609,
       "mtime": 1794368851609
     },
     "量化交易入门指南/附件/量化交易入门指南 PDF": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "byNameAsc",
       "customOrder": [
         "第53天 - 模型集成（Stacking : Blending）(进阶阶段·深度学习模块).pdf",
         "第73天 - 策略表现监控（每日净值更新+风控日志体系）.pdf",
@@ -21896,7 +21897,6 @@
         "第64天 - 多标的管理系统（多股票组合 + 多策略组合管理）(进阶阶段·回测框架篇).pdf",
         "第79天 - Sharpe 最大化为什么容易过拟合？以及如何做稳健优化（Robust Optimization）.pdf"
       ],
-      "sortOrder": "byNameAsc",
       "ctime": 1794371011398,
       "mtime": 1794371011398
     },
@@ -22371,6 +22371,7 @@
     "量化交易入门指南/附件/MinerU图片": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "第80天",
         "第79天",
@@ -22451,13 +22452,13 @@
         "第02天",
         "第01天"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372868454,
       "mtime": 1794372868454
     },
     "量化交易入门指南/附件/MinerU图片/第01天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "aeb348ebb18486552d628f6feb8cfa52be6733452c80a8b65006fcdcfb92758b.jpg",
         "7fa371e7e54148c8b5863dcd8f45af3b8faee3396e44aee3bd362680ec4a7bae.jpg",
@@ -22465,13 +22466,13 @@
         "461331b4347206d860aca8bd940bb5af757d3dea3f0fd71363708632b0b8174a.jpg",
         "0c80435ac31ac5c82cb41645008ea5432143d0048038342e572582c6530463f9.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372868466,
       "mtime": 1794372868466
     },
     "量化交易入门指南/附件/MinerU图片/第02天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "f22ca1944ca693c5b4c0779acc8e41978a48d66760c5a5a579dfc65d12e8247f.jpg",
         "d2dc169268be7323214321ba7c334376677b56dd3e990be079e4752f8a49ae0b.jpg",
@@ -22493,13 +22494,13 @@
         "3c84f1f4e0729d6d040025f40d632041296c498248f37c72ee9162298935910c.jpg",
         "0614e690417533109d2989de5108937af541be671e080095d8b84b682f05e8a0.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372868472,
       "mtime": 1794372868472
     },
     "量化交易入门指南/附件/MinerU图片/第03天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "f188650f0c6e7a572c05fd6f01aed59f0454da8c63c8c5ab18c0a0f528374c96.jpg",
         "eab8286feaf6e9a2f18145eab638aeb58e75b796e2545c3b819812333748730d.jpg",
@@ -22513,13 +22514,13 @@
         "4935b2de6d0f0e70cdb6584531feaaf26c6c46ea01a8764f787c623992455446.jpg",
         "18f56f883d6c8b3dc0b32898a964e449a18a0e0b76a51d5dc63a84a27dcc66b0.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372868478,
       "mtime": 1794372868478
     },
     "量化交易入门指南/附件/MinerU图片/第04天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "f67603074ff5ea6c95afbf97342a9e7b377325d9b60117e0ccc7f93db6909447.jpg",
         "f47916917489d588cb1aab30099633104ac0d855c8f5a7e0f3b8702c6a3d5760.jpg",
@@ -22537,13 +22538,13 @@
         "30d99595dc2a915efe341978cface6fe6dd58d66676e2480ece0f8c53bb5c431.jpg",
         "29c281410e3f2bcd6c2051aa7d70f930293d870975e45cb8e757e24ac8d2d15e.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372868483,
       "mtime": 1794372868483
     },
     "量化交易入门指南/附件/MinerU图片/第06天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "e4d269a944a0102b93e3c189a708be15d4f3d72648d699cf4ac0839c09bf27c7.jpg",
         "fb830dc544499e06ca1cd5ca07be6447fb07c497bd3c395105eae4617ef1e378.jpg",
@@ -22580,13 +22581,13 @@
         "1dbce34df4932718bd850ab8b16da9060a4960757dc769eacf8cf02f953115a7.jpg",
         "1bce76e31caa67785c5029d040c0ff3f7b6b23a6ff15ea4bc458a56ab3bb9872.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372868489,
       "mtime": 1794372868489
     },
     "量化交易入门指南/附件/MinerU图片/第07天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "fe8d4cbe1345b7c7ad3cb252b7720fbf3a2cd5056c097f04cd6bba1604b1307e.jpg",
         "fcea61a9030cdfe17a8faec79ede26392d574e8aa2bf67c231d73cdc5dab17db.jpg",
@@ -22655,13 +22656,13 @@
         "0accc941d968db0672d837fd9890b911faa6c7f49988da9abc6972d8283755e9.jpg",
         "0623356a50727697b69aa25aa21b4b7769e1c16774d1b25be414124c0a5ce4f9.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372868495,
       "mtime": 1794372868495
     },
     "量化交易入门指南/附件/MinerU图片/第05天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "93b071ea4bea5937d53427d30e3d1eb62a87e2c39831f833f1c0456417cca6b7.jpg",
         "bb9099b1fa5d9157a2c20398349b5d6b3a3328e0c8d32bd2967bfd5ba3072a9a.jpg",
@@ -22678,13 +22679,13 @@
         "128d5038a578b570c06b43cf2243d83a0b215593ef258012a500d3f9a9e9814d.jpg",
         "0609f1b3895e60526e5c9908203f633f23b54b8b34c83eddb6bfb601d4de43d5.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372868500,
       "mtime": 1794372868500
     },
     "量化交易入门指南/附件/MinerU图片/第08天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "fecb8a707142e3d43b02c4dc7eba9b14b8bd7d4c3a77d4f68533872527030872.jpg",
         "d7f0395f8065053e19a18457e5184723f9fc829c0bbb55b623b2355a6e40579d.jpg",
@@ -22708,7 +22709,6 @@
         "0dda056a894ef8b1ca50d0f0378a4627b74d7e2526664adfcbae7a1a5da3c8da.jpg",
         "0520d29cf853e26158352cab99eb162f2f4a5727d6963feb4a2d8f54c058d4a4.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372868506,
       "mtime": 1794372868506
     },
@@ -23873,6 +23873,7 @@
     "量化交易入门指南/附件/MinerU图片/第09天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "f48e55f31a2dbfc845e57e39b8071bd45d0b780aeab55d4364c6a3ed7b211bd2.jpg",
         "ec97083b223984e9f5b852a2dc664e6c80605225f91ad9436422d1c51ac73524.jpg",
@@ -23905,7 +23906,6 @@
         "11e4425384738e14dfcfa4dd60f5716c13f19440db14a9528850038f2e85728d.jpg",
         "09e6365f187027cd5bc244a7c33bb0a9f2369b6fcd0658f6db9906d43192f45b.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372870634,
       "mtime": 1794372870634
     },
@@ -24098,6 +24098,7 @@
     "量化交易入门指南/附件/MinerU图片/第10天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "ff42fe221bb5aef678549604bea311b0ebbfbd4274c616984e55e6cb25dfb7fa.jpg",
         "f78f8e454b21984e13541a686401a983c03d17bebc6915dd5275c8d1cdbf2d18.jpg",
@@ -24161,7 +24162,6 @@
         "0b1d114c1c89816913b9bac3bd68714807f80b4a09674a7f9580a2c8ce5f6167.jpg",
         "07a0b027fccadc9fe01891aaf662f3ae9c3e73e2c9d96b5e6930a6c8ca44f092.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372870989,
       "mtime": 1794372870989
     },
@@ -24540,6 +24540,7 @@
     "量化交易入门指南/附件/MinerU图片/第11天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "fb5de68b9d516d6cd934091e9f85f9cabffa1bef871a406e9a8df16664940382.jpg",
         "fb2f283ffc15021a4ead14db3cecfb3083ca15f7cbedefcf515a0733865ce310.jpg",
@@ -24574,7 +24575,6 @@
         "1a0889e482e850bc6387072682ad3aa015b22020db1b5bb286a40954f0010637.jpg",
         "0e4c65488463ec058f13ea63a11b339360596e558712bea6ee188f0042874478.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372871570,
       "mtime": 1794372871570
     },
@@ -24779,6 +24779,7 @@
     "量化交易入门指南/附件/MinerU图片/第12天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "e5c3dc74d27b0e24aa813b925234058280dcbc441c15fbe17e2dc7498fd6244f.jpg",
         "dbdd68c98d4cc176c2398fce4a569181336c56bfbca07dc9aadeab41b5d7cb7a.jpg",
@@ -24819,7 +24820,6 @@
         "1decf86e095f3a99e126dc069058851ae1a7984e090b2592e75de53037f2f44a.jpg",
         "106c293c989e0b220db474c9d76e2d62228a5a0179c29f5e92f73017b9044dbf.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372872299,
       "mtime": 1794372872299
     },
@@ -25060,6 +25060,7 @@
     "量化交易入门指南/附件/MinerU图片/第13天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "fe2b5a1bf4680ed5260d411d60d493372b6501701fbb69113b85f3c403f49ad3.jpg",
         "f861bce651c3ec4c5c8d6260993256aba46225166df1ca36d12b4089ea63a842.jpg",
@@ -25126,7 +25127,6 @@
         "1f8c8d7455d6a2b1d1ec948ca77369a049a40b97dc62b457ea8290d44727629a.jpg",
         "17c689978a42a4d2016fed7c56e5b597c6908dcfcb7dae2ed2b89de2447dcf49.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372872680,
       "mtime": 1794372872680
     },
@@ -25523,6 +25523,7 @@
     "量化交易入门指南/附件/MinerU图片/第14天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "ff635e70a4082fe91f692e303d755a27cc738fea826288cf879f7dc1560debba.jpg",
         "fc11255c1e57b76b84773b133cca1e656f7e4bc3fd83f41b41278615bde7261b.jpg",
@@ -25587,7 +25588,6 @@
         "0275c979e2cccab4632ea6c979ee64a2cbeda6aaafde91a76b430199cfa847d0.jpg",
         "024b1eb379ca7a98cdef9b3665a1d995ef8f2f55704ab18fd153963b30b507e4.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372873253,
       "mtime": 1794372873253
     },
@@ -25972,6 +25972,7 @@
     "量化交易入门指南/附件/MinerU图片/第15天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "f3b27089e20a34f9f919f03473b0cd50fece2c147984c4a511ffda71a8f10ea1.jpg",
         "f02d61c985e50c1334d5ae4375b7b132ad57634e1296d3dd405df38f3fbd4ea6.jpg",
@@ -25997,7 +25998,6 @@
         "198fdcbcdf967781ce4d8bf8a0c0e213977d82e79459a3ae67f325e0f1a248ac.jpg",
         "046fc33b7d28ed8777616bf9a2edec1d477307b66ca27c6e543fb3a2efe83d43.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372873871,
       "mtime": 1794372873871
     },
@@ -26148,6 +26148,7 @@
     "量化交易入门指南/附件/MinerU图片/第16天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "e39e4b76fde00cfc1ab37fd4dd03077ba642c25595f6af996ef0cd6d71d1aa9f.jpg",
         "f7376f959b95d5dc234a048ed5c56929d4177e28a14a6d060f379a5866edec7d.jpg",
@@ -26161,7 +26162,6 @@
         "2455b2880109a7b11aa9ba3282d90dbc6c2582f8871fa382b3d79af1eb73ae2b.jpg",
         "089a89edbac02f0725959655855ee5fc217030d96f9ce77fbc0fee46b641673d.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372874151,
       "mtime": 1794372874151
     },
@@ -26240,6 +26240,7 @@
     "量化交易入门指南/附件/MinerU图片/第17天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "f5dc5fd2331dba24df362e6c2ad31945a74483481dd516d6d8d691e0b77d828d.jpg",
         "f44381a29b215bb033f3d2c8ac3e47b9d8ca39c5fc3cd4ef870d15bf6c8a7ed0.jpg",
@@ -26261,7 +26262,6 @@
         "07f4574231963d25a1d701edcad44e62ac672746e9e29fb6f4b2decd86efc2b7.jpg",
         "0f0c8f4902127d402b231f0f1d9b31dc33f005fb1958a4b7642763d6f3de778d.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372874369,
       "mtime": 1794372874369
     },
@@ -26388,6 +26388,7 @@
     "量化交易入门指南/附件/MinerU图片/第18天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "eaea6b14f4b167b686cd19b2b6d3e2da48bf3ae6bcf9cf9b4ea4ee34eef4eaff.jpg",
         "e85a3fe107a77aa9524efbce63f9414f0562a09f6f24c0c02ad032f6aebbf629.jpg",
@@ -26400,7 +26401,6 @@
         "29a2e627785a2f9d2deba05a6cb1b9e701b9a3c599e1528f56dffe960e1a0bf5.jpg",
         "1f5938a9ac7a07e3d5320b20da0688eddc4ed3ebe8efc39c678f266f7edb0cfc.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372874640,
       "mtime": 1794372874640
     },
@@ -26473,6 +26473,7 @@
     "量化交易入门指南/附件/MinerU图片/第19天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "fc9d9fa73fa9b97ca754a27076c1526279be39ea8493e018f0e08e874b75c7aa.jpg",
         "e47f543f85ed9568f588dc1e9c95ae59ffb2b164a14f83529107922577965f1b.jpg",
@@ -26495,7 +26496,6 @@
         "18c2dd92cacc4e61fcdcfc61d814ca2de53de8dce53b06a1c9aeefe826d7db67.jpg",
         "00a66d2712edff74616f2add66b7d8c0fff7a00db9c055df17440cfc41026aa9.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372874846,
       "mtime": 1794372874846
     },
@@ -26628,6 +26628,7 @@
     "量化交易入门指南/附件/MinerU图片/第20天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "e1666591b67e0a23915dcae113c880d0bcbb673420d040957715f8602c235404.jpg",
         "f96a8b7558fdc3b0e32aa16adeaeedb3df773b56aa66235721701426284849f0.jpg",
@@ -26654,7 +26655,6 @@
         "14968819103458f6399debddb5689571989285fade2e4f1d2b591c8587571e98.jpg",
         "0dda46753582107eacfffa51f247982bab126a27d40bfbee909c4cc27eea82b9.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372875114,
       "mtime": 1794372875114
     },
@@ -26811,6 +26811,7 @@
     "量化交易入门指南/附件/MinerU图片/第21天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "eaf53bc9471993d41e9f3de2696ce73a70844ab6d731c93b6762f01aa63e8f13.jpg",
         "dd4a3f77abfc788dd88fd33e2a8a40aa514209462f085884e51422da5201c858.jpg",
@@ -26836,7 +26837,6 @@
         "116b844feb7e76cab93cfed5ef1244987092f77dd38e668c89c62cfb7752cd54.jpg",
         "0a68c42f109558e089e31109be941ac6f52b37a4a8c67ee35c38579bc07ce977.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372875439,
       "mtime": 1794372875439
     },
@@ -26987,6 +26987,7 @@
     "量化交易入门指南/附件/MinerU图片/第22天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "f7df73e03d080036def9aa85883dcbe288c7942337b49f93bf8db9403bcb66c9.jpg",
         "e63a0426f6e4200b516c154be5eddf5cb16d30504a31c68ad8ab3ba96d6e49ea.jpg",
@@ -26998,7 +26999,6 @@
         "4a57178f91c1b03d0e8ca13af233480342a2255f4e04ffcb7cdd477435e05219.jpg",
         "30c933893fd06ed55796fbf1b0d5fd41a43816437d45795d721ce4e96acd5b4e.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372875812,
       "mtime": 1794372875812
     },
@@ -27065,6 +27065,7 @@
     "量化交易入门指南/附件/MinerU图片/第23天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "fd570eb6807f967f3c3837dd5e9f49492da391d59018662735c76fa99198883f.jpg",
         "bd51f8bc60483354ece82a56fbbaaa7a412b8196c04e1cfea788a94cc318ced3.jpg",
@@ -27083,7 +27084,6 @@
         "4381884ec5dc60ce89be6b1dbbe2768195fa897ad20f130336b65b5f86d71fda.jpg",
         "0894dcb706c812b398983149c108c5c3d11db3cbd178a1076afc8962cf951e06.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372876060,
       "mtime": 1794372876060
     },
@@ -27192,13 +27192,13 @@
     "量化交易入门指南/附件/MinerU图片/第24天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "c2eec8a4727b8db5d18e59afba2c6ad1a4fa3c232b74bd6eb21867bc5a6a7629.jpg",
         "c580904573277b52a32a2abd7ccc0813d6c2784d740a136ffc955996c6729512.jpg",
         "acb6c8fb6fead40509fec513120e222689819728a89bf0d7f58d2571d9265a77.jpg",
         "9bb37ce5442d97bd1860991a3d21b5e2c8f6aee29c57bc6d3c3034b7e741d51a.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372876279,
       "mtime": 1794372876279
     },
@@ -27235,6 +27235,7 @@
     "量化交易入门指南/附件/MinerU图片/第25天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "d69ef8ed4c7b7df1f06abdc6b9f484bfd13a595818b86d96eb57acf3042f99bd.jpg",
         "c1c60c48a06f208c69b36de607084b75b935466d836bb15061fc434c8f86476a.jpg",
@@ -27243,7 +27244,6 @@
         "28911a4451d95fd2a11ac625036cf2262240b80fb743939afc51ead105617343.jpg",
         "3d4e5a76e39212610905bbfcf25fa8493212d94251a65ae4c51054583c567345.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372876371,
       "mtime": 1794372876371
     },
@@ -27292,6 +27292,7 @@
     "量化交易入门指南/附件/MinerU图片/第26天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "e383752d4b40ac60b0df7e32b0c228ff9ca9b62ee5ed9e76b544cbc1f0aaa56a.jpg",
         "e1035256eeb0e28b14d57e3f3de0397dc19425122ac492896507d8bdfc708420.jpg",
@@ -27312,7 +27313,6 @@
         "228b2e48b3181c14005ffb213d50349e32f0022f1c4fb7125d546a463e3a2aac.jpg",
         "141cacfb9bb8e2ea78f0e3cf5f536fd6bf63f816945b31c7e5a203c9df8f7faf.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372876522,
       "mtime": 1794372876522
     },
@@ -27433,6 +27433,7 @@
     "量化交易入门指南/附件/MinerU图片/第28天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "ece3edf24062bf350acfd1e907c69393d324c932bed92b1c4490f86cecf42335.jpg",
         "e1132743dd6247ac2dc3ed584c255457cf7dbdcffc2472a156e4b0ad1cd3a922.jpg",
@@ -27442,7 +27443,6 @@
         "734c48931719f8d620f6b03561f7d5f57958537186c2003d4b2eb81d70599e18.jpg",
         "10633a2b39350721223b352df6d7d2bca60b05351a3b53e9069c9c51cdd796e2.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372876775,
       "mtime": 1794372876775
     },
@@ -27497,6 +27497,7 @@
     "量化交易入门指南/附件/MinerU图片/第29天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "c7eca3e45dd4bed075dc4ddbb2aa29d0f31634658e5f98d96b97218ee6a467c7.jpg",
         "aec14a2afb60940061937538c12c50cb0ff2d28508b5e2c8750d0a12c3430552.jpg",
@@ -27506,7 +27507,6 @@
         "3bf2cbf3c28006bc412a892f2e11a12cb8cf161b48a1519d71c29a4d23a9a36e.jpg",
         "37ba6c18fd47d8cc452aef43cfddaf9710c9d696c6bbfabc907900d87770e861.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372876933,
       "mtime": 1794372876933
     },
@@ -27561,6 +27561,7 @@
     "量化交易入门指南/附件/MinerU图片/第30天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "b2d3db0d7dacae01eed60ef6fc29a8fd1babce025ab6c33207168f85a8958e08.jpg",
         "e6a5429232c76b6ed12edb4c41babc6743aac70db5ea0509d9a30ed49626c71c.jpg",
@@ -27578,7 +27579,6 @@
         "41757b32051803ba76d68b334e6d98de88f6b75b357fd4a7fbd6025137cf1973.jpg",
         "174e125b541fb39977a62dd456001e4bd18cec91a7ea1a5f61c23c0399b0f8ab.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372877139,
       "mtime": 1794372877139
     },
@@ -27681,6 +27681,7 @@
     "量化交易入门指南/附件/MinerU图片/第31天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "e45a6bce71d5918a9680ae8533c1d4cf6f3d4af792130696af331c2a60fb43bf.jpg",
         "dd989f0ab10536868cb88eeafa66ea9620118e50b3c7f359bc4e5289d36b730b.jpg",
@@ -27694,7 +27695,6 @@
         "074aac94fc561e823dd6790fa1742a90d5511270fb44626b94fcc16a546e7717.jpg",
         "2533e0b6ae6a072a5cb07e7cff4b892e7b60c02ca000ae273ce662b95ea6b433.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372877426,
       "mtime": 1794372877426
     },
@@ -27773,6 +27773,7 @@
     "量化交易入门指南/附件/MinerU图片/第33天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "f797640fec7da353bcb91676986fedc2a0c231059276f683ef830ac5fedc8618.jpg",
         "e4c52d2c7ef951795244c25011c213467934c1e48cb5e0cdcc329ab13298939b.jpg",
@@ -27793,7 +27794,6 @@
         "16a5cc470e0f83502cd891cb3d6c7fd13e36d48063e1eab80a9a6c5794805267.jpg",
         "04e0661deea8834b22f934eac587c53d009c137ed3e2ed7511d007dcc33b40b5.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372877646,
       "mtime": 1794372877646
     },
@@ -27914,6 +27914,7 @@
     "量化交易入门指南/附件/MinerU图片/第34天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "db8a5165bec3db4267ce4e3fa8feffa7bc898057ea67c97e57eabb04d10ad7eb.jpg",
         "d79c09b42e48530d1bce7d03825ab8209499cf032265e4e5aeab3e492310dba8.jpg",
@@ -27929,7 +27930,6 @@
         "2ee5736c4b3e315a40cad27bda50ce73e9ff8fb4675c25675cac4bd0e6682f0f.jpg",
         "4826247dd87bcf99e35464f57c86876a5c8eab722004c0514cd2f4ddc5d30997.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372877940,
       "mtime": 1794372877940
     },
@@ -28020,6 +28020,7 @@
     "量化交易入门指南/附件/MinerU图片/第35天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "fd53d84b0bfabc43cd4846dbba7a47231c58525ee6f293a0063d23c120faf93f.jpg",
         "f82aa96c69408f4c24d4f84fbf352a683f56711439a04a96cee272debfa98f0b.jpg",
@@ -28046,7 +28047,6 @@
         "2902f20903c825347444653fd5ccb8f59f41edb19bcde48b083813fe8c1eaa89.jpg",
         "0f2ffa2c9e4d49571acd31f492d5d1e31fcec596817655e8cf5a9baa7f5497e0.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372878143,
       "mtime": 1794372878143
     },
@@ -28203,6 +28203,7 @@
     "量化交易入门指南/附件/MinerU图片/第36天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "e3202832d6f915aada3a0204b13120445b34603e91e7107e9798b303b2b080c5.jpg",
         "de1d2870fd6634f6007f28dcb1e835372d3485391af95578273224118a649e44.jpg",
@@ -28221,7 +28222,6 @@
         "26c08ba3c80dfaed010ea48d7a130002fad73009844d4e2e7915bea348cbe074.jpg",
         "2302e3f5e1a37dbebeeca740be3767fdd338a50177d39a442955f7738e89a4ea.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372878421,
       "mtime": 1794372878421
     },
@@ -28330,6 +28330,7 @@
     "量化交易入门指南/附件/MinerU图片/第37天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "feeb44987d237bb004592641a150620d8f00866015ed652b800a998615e73a52.jpg",
         "f4304bc2b34016f2373513a772f4f4986896b9efd779bd31ed84c85f370c321d.jpg",
@@ -28348,7 +28349,6 @@
         "172b802eadefe619a6773b8f7d2dfbf55a0a0fa032adbb6b4b1588f1a0f6c778.jpg",
         "0c83c9cfdfe1607f91108ffe7ddc4eabc91ffc245a49c290fa76970fc1846707.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372878688,
       "mtime": 1794372878688
     },
@@ -28457,6 +28457,7 @@
     "量化交易入门指南/附件/MinerU图片/第38天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "f36c267b42c3b93c3ed88f70e2ab39a7bb25a4d82db76fd5b88a919d938dbddc.jpg",
         "e511c715073c81add08fee08e9fc990b3b66b1dcb53edee0bb183c0aa293a304.jpg",
@@ -28470,7 +28471,6 @@
         "5d2745b7886717880036dddf56f59258fe5b89faee2c8168553c815dc8b0d504.jpg",
         "14a81620600729807bc5ab062532993d358c5e57290db2339ab50a16dff3995c.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372879001,
       "mtime": 1794372879001
     },
@@ -28549,6 +28549,7 @@
     "量化交易入门指南/附件/MinerU图片/第39天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "e7d3a0189080b346bdb4b78f9c58f3db361d3e161ce899c9af8a0ed7486582f0.jpg",
         "e4cda77cae9d83fa51717e2d8f0bc9047c7e376d51dcfd6d822742c4b86dbb5a.jpg",
@@ -28570,7 +28571,6 @@
         "07d48c9c5d624aee0addb01482019f8c0f76864e453527c07317a69e25953b08.jpg",
         "02f408d9261d56a80b3112bef0f55fa8d8ebac94d9eec86d9bb5ac6c3628be25.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372879220,
       "mtime": 1794372879220
     },
@@ -28697,6 +28697,7 @@
     "量化交易入门指南/附件/MinerU图片/第40天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "fc53285ac47e9ba4bed483eddbf76ef71c157bcf7b573d7b6ab1a09bdfec6ad1.jpg",
         "fa27ecbd1c2fbccdf2b95056a158c61af3222b00797472ac1cecca8767a4a6f0.jpg",
@@ -28728,7 +28729,6 @@
         "05eb3a92eb65b137389cedee45c239bde5efcda5eaf170e74d0e0a070dd0a855.jpg",
         "05506b3f2e66ae55e63d451a9ffc0094026cab8c2f07d1b5d89106bf0259e6bf.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372879564,
       "mtime": 1794372879564
     },
@@ -28915,6 +28915,7 @@
     "量化交易入门指南/附件/MinerU图片/第41天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "fa0e785e8c5ae3d2961b3c1bd8aa27508b5b609c5d496380bae25c73a4709d84.jpg",
         "efe609b93d7da1d7a6b18661e1f16a17ce8206a021f749c9e5cdcba882dc8240.jpg",
@@ -28942,7 +28943,6 @@
         "1bbe21ff55006f2959df9dae6d10ae758d227da83af29783c908da810af628f2.jpg",
         "02eb7a9900973fea535d9445121cf28b0e0e9c68b950b1b58d227b12276208e6.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372879937,
       "mtime": 1794372879937
     },
@@ -29105,6 +29105,7 @@
     "量化交易入门指南/附件/MinerU图片/第42天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "f0f640699d018f87546b7162f79664377cb81f51387271c984e8cee3e4e10d47.jpg",
         "c8130dc633c34822f28e99021e53595fc58f3936e3f32b267f1b85bce654fa94.jpg",
@@ -29125,7 +29126,6 @@
         "0cb0e7d900c894dcbe9a9a853281046fa875bd849a17a5b4f2f41cafaf48ac43.jpg",
         "0514e3f15c2a5ad2203255a1153bd40acfb3f9728475fea85b7f721262ce1b66.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372880315,
       "mtime": 1794372880315
     },
@@ -29246,6 +29246,7 @@
     "量化交易入门指南/附件/MinerU图片/第43天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "f7bd683d4c7a938a1acea6ce833aa0388cda3e78457b80e67aedee0b0f2578d1.jpg",
         "ed0d6b4d54e96464b7b5ccf55e126e5e6e3dc161d001faf9b5871b7545934239.jpg",
@@ -29265,7 +29266,6 @@
         "138ab19d90a5ca191353817484435d08a758f2d18a4907de1300059184008668.jpg",
         "0ca5d216be52d161ba82cb3a460ac7c8cd7006c66d34c292089446d58dd9c618.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372880638,
       "mtime": 1794372880638
     },
@@ -29380,6 +29380,7 @@
     "量化交易入门指南/附件/MinerU图片/第44天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "ddda3491463547bf7ad1ca81e41a9440a2996a89eb5c6fba8c71c36a5ddedd94.jpg",
         "db5ceb89bfdc1016c250b4abe2a4bc46f920253cd7fd80494333ab960179c015.jpg",
@@ -29405,7 +29406,6 @@
         "0e168f1aeadd91ce9f266199d72446605ff014900628af5a4a04a0351e03d298.jpg",
         "04063b3c9ddcc0cfbcbb2a926b8a985e6060a897db3ed34d26f73956b66a79d1.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372880951,
       "mtime": 1794372880951
     },
@@ -29556,6 +29556,7 @@
     "量化交易入门指南/附件/MinerU图片/第45天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "da43e3483c016bec5bff62fcc3e76788b568b4ce20fd81b8971c06f023bdadae.jpg",
         "f315079742dd6842226de0b12c33c61364061098794904740ab02175f948bc6a.jpg",
@@ -29572,7 +29573,6 @@
         "050eebba75d29b546ceadb44f2075bc26cc3d4f6fe827dd32bda7fc9867d106b.jpg",
         "530e30b9ea41d8a018b79d48d9342f6799006fe0e4142a5c090e30682692a05d.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372881320,
       "mtime": 1794372881320
     },
@@ -29669,6 +29669,7 @@
     "量化交易入门指南/附件/MinerU图片/第46天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "982af4c771c5140ff35e846b26ab4df74334fff1773cb861ec33c586f200d549.jpg",
         "82b4272001a2209a9257eea533d4d14043450b2354372805e79f2291615ec2c6.jpg",
@@ -29679,7 +29680,6 @@
         "2d692e4868bce9e68e50c1109507e0e5e00f691df63b061c76273b8a53c0471f.jpg",
         "22bc5eec020daac23cdd5a573872543e8315844165552c10774bea216a5a0f01.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372881597,
       "mtime": 1794372881597
     },
@@ -29740,6 +29740,7 @@
     "量化交易入门指南/附件/MinerU图片/第47天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "f909ff5e707eac7a1e17d839ee2ec979105f580aed9244903ee4a3ff0d66b23b.jpg",
         "ea4ae19011cf07223c04871a8187c83f845b542981f93788bb740163adf5ff92.jpg",
@@ -29757,7 +29758,6 @@
         "1bf7e2231f912b4012b4ec2c09ef4d141f51e1f31f531dee79824ad54d9d3bfe.jpg",
         "4227e1d4cd477468886bc0df154ef6c5672221cbf78e1f8a56d4493d83a0066d.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372881797,
       "mtime": 1794372881797
     },
@@ -29860,6 +29860,7 @@
     "量化交易入门指南/附件/MinerU图片/第48天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "fa128e5d95eb39a82117ce9c0a46ff49c186013b5062f2c158f13eef985c79e0.jpg",
         "d325a8ae3a1e09879fa0253d537609b09115d078b5eb09f30810be5950b469cc.jpg",
@@ -29872,7 +29873,6 @@
         "1a57acd8770d6f0c213a7389f18ecbe9087a158b1b334ba7d4a7345e7d742064.jpg",
         "18f3c9d1742af8bf321f7bb98400afee16863b81093451af966d5243deaa7db9.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372882053,
       "mtime": 1794372882053
     },
@@ -29945,6 +29945,7 @@
     "量化交易入门指南/附件/MinerU图片/第49天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "ee30fe89e2189ba9115073c779af02eed6cc6737b8c75adb88a0a165e1ab9227.jpg",
         "d64a83e4d01db004a2fd49d46abe24d8d2594f5753a1e18348a8ccda53c13fbd.jpg",
@@ -29979,7 +29980,6 @@
         "0bcdb1ccb9ea1adc2fab93e6cd82a731a3b1a1c8f1503372648c2e10702b649e.jpg",
         "0ee638c5c4b8c0b62dd611eed970dd092de69c711334cf3fd4f08e83661f7599.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372882262,
       "mtime": 1794372882262
     },
@@ -30184,6 +30184,7 @@
     "量化交易入门指南/附件/MinerU图片/第50天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "ece9367dfaf32cc8d9d02b420b8f8cdf73c6d94a85cf97c4d607def8e6947fb9.jpg",
         "e5be2b6b059955e9902770849b2f775084b747f480bd2170a76e2e2158b88d3c.jpg",
@@ -30212,7 +30213,6 @@
         "10b4aa8a76c7eda1e781a53e5cb5eca105f11c465cfeac4fb3de1907e0fdde07.jpg",
         "09e039a59bc19cac82c614dd7ae27ebc775c7725f9d7f61aae62ad750aab73c4.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372882717,
       "mtime": 1794372882717
     },
@@ -30381,6 +30381,7 @@
     "量化交易入门指南/附件/MinerU图片/第51天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "c9617dd2bd8df198749aa204401412041be710b04a94390b955f2add8dd94ce4.jpg",
         "8c2e7e0134d973e9c92667c5c0c19d7ce9798e725e635b168f598656f94525e0.jpg",
@@ -30393,7 +30394,6 @@
         "2731e79b4b4c93bbe6c1d5a6739795d377641f53b8a06a3dc3d148f9ab5f6bbb.jpg",
         "14a0c743315a8c25d998b42f137994c88873094d340b9c980dd62f635067610c.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372883090,
       "mtime": 1794372883090
     },
@@ -30466,6 +30466,7 @@
     "量化交易入门指南/附件/MinerU图片/第52天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "ef7c180c3a36e9b2f60fbcc4d0970064a9602d7f58256277354728471dc4f6c0.jpg",
         "debe6b76c58fafc0bbc363d741ecc5591b93c490e20e477ef7cee3b7453db350.jpg",
@@ -30475,7 +30476,6 @@
         "010e03258bcdc8c8016197ad58c6f4f7e950ddefe918fe0670a7e996f6e55c1d.jpg",
         "669e4a00304421d79fbd4b3c4dd460bf30694a6ec8e79dcfc2f7cf588581189a.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372883332,
       "mtime": 1794372883332
     },
@@ -30530,6 +30530,7 @@
     "量化交易入门指南/附件/MinerU图片/第53天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "f4348141406037226f64fd79e2b98f47e3eeca7070df5fd4e11a810aa8d20802.jpg",
         "c8a583dae41b278f4a8aebc34ce064703b26c55e43da6e78ff8ecc4955a20eb1.jpg",
@@ -30541,7 +30542,6 @@
         "33f77d5172505e6efc0802e291f768b546cecc867a64d1faaa50211ab5c9784e.jpg",
         "0c129e305901f969a8358330f7100de9db9e0dd62a07b093ba34a1600246c378.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372883466,
       "mtime": 1794372883466
     },
@@ -30608,6 +30608,7 @@
     "量化交易入门指南/附件/MinerU图片/第54天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "ed0b2106220d966b3d0482ee0847be011f8d87f66d63d9c05602fd7cc91e218d.jpg",
         "ce671b8a4f791a876445d3a7623fc0e8e08a11f0661507d080fba0340901b665.jpg",
@@ -30622,7 +30623,6 @@
         "1c867ed76106b934fe52c4eef4058c37ee0fea58fcc4d1c95ae9e789ccdf50c6.jpg",
         "119725271dba33c4f69fd6e6ed2aaaf711cb91493dc5a469a794a84e79cad669.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372883700,
       "mtime": 1794372883700
     },
@@ -30707,6 +30707,7 @@
     "量化交易入门指南/附件/MinerU图片/第55天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "b786c7cb84f342b4ae612507c7342d667db22953c67992788413cc8380b62ddd.jpg",
         "fcc52342318262e2e3d155a9ada98544ea48efec0f44212524a7e22e0ca08508.jpg",
@@ -30721,7 +30722,6 @@
         "20f2bc28903da976f22846a1c51bcea01260edebb5284440f007ccf0e38daf23.jpg",
         "18572b3a9e6a61718516732f5559567b169273300d5e8fa99879542390e6b1f4.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372884086,
       "mtime": 1794372884086
     },
@@ -30806,6 +30806,7 @@
     "量化交易入门指南/附件/MinerU图片/第56天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "eb2a723461dca957e0be49e5876bea15f04bf9bd11bde76558faf4ff1cdd7a1d.jpg",
         "cb070ad3a71093da36e1d6e9f5681707c7ed2ac8880aed3006b4bfff4f8a3bdb.jpg",
@@ -30816,7 +30817,6 @@
         "a2d87314fc389078bd015c9d2ceba1089328eab1161f3b9782ffc981866536b5.jpg",
         "9fb10d0de9ca6cc26c8fe939d69aff2ac2f9a2e9d9449efebe8e3d31f68c1864.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372884355,
       "mtime": 1794372884355
     },
@@ -30877,6 +30877,7 @@
     "量化交易入门指南/附件/MinerU图片/第57天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "e7e4324f94172e3a0112a90e56c0d1eab89e49aa0837c07d18217dacde27c5e8.jpg",
         "e6dcf9107bcaa0e6448be3d1dd281c653771b29975d12368f7f85ce95d918d2f.jpg",
@@ -30888,7 +30889,6 @@
         "113366ad9a926f241a5700c88a994f2ed5ba9633258470828af19befe8fd5a7f.jpg",
         "078b79d8bea5e93dbfd2509acefd5399ca2da7cc3c4d09ba4fbdd61f43c9d53b.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372884573,
       "mtime": 1794372884573
     },
@@ -30955,6 +30955,7 @@
     "量化交易入门指南/附件/MinerU图片/第58天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "75aa0846ab877e07e74b5f60abdfc9f8b864f33225e2aaf01af99a6bbc9133dd.jpg",
         "c24cf5488872a45ed8715980982b5380b4f7242df726007cd43f845feebbf7df.jpg",
@@ -30967,7 +30968,6 @@
         "4e85ab11c462be542e72363e3047d6859428af7624e7190082b20707289aa97d.jpg",
         "2ecc9b85f057d88515e63f6139caf020ecc79ede4ae2ccc0c5cb67b166a8b705.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372884789,
       "mtime": 1794372884789
     },
@@ -31040,6 +31040,7 @@
     "量化交易入门指南/附件/MinerU图片/第59天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "94cbef014e90187db992b02e4742d27ca20c09c82db3c419cb3c90e6387937c2.jpg",
         "eac63267fcd630eb3930bba0de129df6aa5baefdc95cfb1acc818ad7a6304511.jpg",
@@ -31060,7 +31061,6 @@
         "09aab33322901ada1d891ce099678d2d7791a34dd790f6721356dcdee9bd7ca3.jpg",
         "06b9859f7cfec42cc3304a31ba74e1a09973ce961648df64ce83747b35a98c82.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372885038,
       "mtime": 1794372885038
     },
@@ -31181,6 +31181,7 @@
     "量化交易入门指南/附件/MinerU图片/第60天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "d2f455d74ef9d67bb167f385843b74e7810a45fa7c993fcf3051eb5151057887.jpg",
         "d0d7a1fbf3ca0389234da699afb8b208a7bdf0e43b3978c32096a7fb48b2a1c1.jpg",
@@ -31213,7 +31214,6 @@
         "2377c9dc62b582409c2b20972bb72b19f3206b1434f7b0bb66c74ff4389efb4d.jpg",
         "056372ec18b6b1c2e4a32f0d15e185221a111af8a9a3573bf399f41ddc1180ad.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372885381,
       "mtime": 1794372885381
     },
@@ -31406,6 +31406,7 @@
     "量化交易入门指南/附件/MinerU图片/第61天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "abb7c54afa14c4dc817414da5cf1b45d89e1791e52a20ad4c61ce2493f8a4482.jpg",
         "fad2d400a247cc84aab3a405b5809bee10abd6250870233dcf81e46293579cb3.jpg",
@@ -31427,7 +31428,6 @@
         "1d21c00c313e2e3dd3a5451b5d197661d3655fb60603a3c1c93fcab73be5db0c.jpg",
         "09ed2b8095a236799608d2a7a6676d2f071fc894c4a3bff75eb16b8cafd8aa7c.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372886078,
       "mtime": 1794372886078
     },
@@ -31554,6 +31554,7 @@
     "量化交易入门指南/附件/MinerU图片/第62天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "0d0bd6c2267078ae7248652bc0c5fa9eb855f535d04abe446c71a9e174e8a4c6.jpg",
         "e550886362296b9add68d8e15a33ec20810d95b1007d9192fcac5258335cd974.jpg",
@@ -31565,7 +31566,6 @@
         "5ea56af0536d3a071d5556c596dedf10a98677f5d7869ff014d821db44d39748.jpg",
         "250673aae331511051fdb9563cf0922ab2796918bc6d11d17f1ab9a66d8b41b3.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372886433,
       "mtime": 1794372886433
     },
@@ -31632,6 +31632,7 @@
     "量化交易入门指南/附件/MinerU图片/第63天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "e469d9b5da8cff5faec42ef24ebf46a31c2eae2a87244c5f6b1e19b70fa659fd.jpg",
         "de145c81d84df550c3de5b6c68f6cc148955df150c3e6afc833b6d6da17ef5a9.jpg",
@@ -31642,7 +31643,6 @@
         "26be8063d94d70610d2018bb202d918ce80b17da94da45dea8c811172b2e0246.jpg",
         "14d6aaf88e0814b4199173cfa041f5acbe0aead3088408b8d74aa4162a8e7684.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372886678,
       "mtime": 1794372886678
     },
@@ -31703,6 +31703,7 @@
     "量化交易入门指南/附件/MinerU图片/第64天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "f48e7c0a0a66352b78361d7f20cce4451879ec3f2b6dad70900b28bd37043d0e.jpg",
         "ea16048c02260430e43e09b09f1fe4fa200eb47b1aa3a788798c19fcd3b529e3.jpg",
@@ -31714,7 +31715,6 @@
         "1683b871accaf5d4a096fc1207906d68c80c966737bab666add5e82c82066b4b.jpg",
         "0f9a45cb1fc9f659f79f2b77d8b772ceae480d38e57ce32f5848caba99923f99.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372886876,
       "mtime": 1794372886876
     },
@@ -31781,6 +31781,7 @@
     "量化交易入门指南/附件/MinerU图片/第65天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "7cb780e9dbbfb6ca80832873d3428ab5a91f7d9bd374dd9f13f5fa652de3e597.jpg",
         "f70f2ad51064acec67aaa7278026db774373f304a01c992703a332534241f6a5.jpg",
@@ -31794,7 +31795,6 @@
         "5d213b93cbc88b7367e69a9268a02788f3ec18494dc0b334d2ba9dcd67003e47.jpg",
         "0d9b12846e6fe7de139b4f33bcf69ebc367d1604acde5d3acb800aeec6970d6b.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372887098,
       "mtime": 1794372887098
     },
@@ -31873,6 +31873,7 @@
     "量化交易入门指南/附件/MinerU图片/第66天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "e4285520132a1188898178d33abfd534a177ebbd63bb758be395a69f587066cb.jpg",
         "e9ed02b0f6290025b6a09db5955972992927c8c5f8c8cbbaaa464660a2ee30d5.jpg",
@@ -31902,7 +31903,6 @@
         "09b7c193cb204b86faa3106731426734b7d35aaa61ac1dda7e28a02968475fbf.jpg",
         "075996432de5e09b61b92856b9f5795f7059aaeb86d44c9cd5f682555d03fc71.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372887332,
       "mtime": 1794372887332
     },
@@ -32077,6 +32077,7 @@
     "量化交易入门指南/附件/MinerU图片/第67天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "54cd76a03b8cb229666cc314bd3cbb1b8bcef769bad1fa17b230acbfbf3f88b0.jpg",
         "c37f177d7b7dcf8e9394a000ede1149f10483c8fcf99c27d97535f291983252f.jpg",
@@ -32085,7 +32086,6 @@
         "02697afc1fa13c792dc5dd1fe906b601dd463a22adb70e4bbb49d65b1eb2ce79.jpg",
         "1bf3430848d320ac90d05797ae03fcc93a287493d15db8046868f9c291066772.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372887836,
       "mtime": 1794372887836
     },
@@ -32134,6 +32134,7 @@
     "量化交易入门指南/附件/MinerU图片/第68天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "9947260d82faa5d06a650aa7569ae8ea3868eae4355b37280ad6fb5fe9c9f715.jpg",
         "985c1bff0f814ea91988416af2ef82962399fdb7bec9e128d46fd5ea2818e505.jpg",
@@ -32144,7 +32145,6 @@
         "07cb51931dcf4538a2e9a9f74bf181649b84d0f8904a44b1bc9e6de3ac8c2211.jpg",
         "1a8a364ec88377acbd216db77f85fbb7f7f617d9871abfec7e7d09c6bb8f0e08.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372888059,
       "mtime": 1794372888059
     },
@@ -32205,6 +32205,7 @@
     "量化交易入门指南/附件/MinerU图片/第69天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "e3a6e91dd1c336c5f61212b0ec2cb6a39fa7c132175b9586206bfe3241c9936d.jpg",
         "2fa8fc534bf9e84a3cca9fe040e6a36328112775650d664c7d4b25ac5352813e.jpg",
@@ -32213,7 +32214,6 @@
         "1e4d3b280038cd4d61c313374b97e45013a8b38705c29036ae638cead10188b6.jpg",
         "06e5aa0c756a7b8c99f65d3a3ccba5a66e3b00a0c8c1fb6a8d5bdb0577f6fa80.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372888309,
       "mtime": 1794372888309
     },
@@ -32262,6 +32262,7 @@
     "量化交易入门指南/附件/MinerU图片/第70天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "f20a7b5ad76d6cb67aa8a541e1567fb5d9bf279d1adc2595368fcc12050e19cb.jpg",
         "cdbb07479719c0368f2c974a6ad5934b61e3b1b3da0936383926205d94875530.jpg",
@@ -32272,7 +32273,6 @@
         "7d4cd032cd9b45f347c874335f8f63bfebc6e9ec3ca9745120a2c32168a0bd4a.jpg",
         "0ef86f0d88105f949ef6ceedeb8ba8ea2ea67dad8d3607af6af49d6df78861dd.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372888522,
       "mtime": 1794372888522
     },
@@ -32333,6 +32333,7 @@
     "量化交易入门指南/附件/MinerU图片/第71天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "f69120731c71d76bf416ebe0191fb37806a8bb30d973895bbca1c2d332a3386e.jpg",
         "f675d93446575ccc83fb9e2c8097a5c8fc407c234ffd87f8c6f5a9e8d435ab3b.jpg",
@@ -32349,7 +32350,6 @@
         "17ecbcebaed4abf527284cf83a556d8661489495ba3ea5104879e1969d03871a.jpg",
         "13630d3d79678e37c58afc363b5426be440283d4c300a3416a3f70b33fef3dd2.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372888769,
       "mtime": 1794372888769
     },
@@ -32446,6 +32446,7 @@
     "量化交易入门指南/附件/MinerU图片/第72天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "efea8520c67a06871a89198fd80f767ecdb4bc58cc5940a1a07b7356dbf38821.jpg",
         "030e1504cb93bf9b83df546bca931fe80a084ba66b200b7ab9df6ba34af7bcdb.jpg",
@@ -32458,7 +32459,6 @@
         "1da4b2b859a4ffd66b7c0416cad1e7c5d1580bcd09d755d0fdb788b29f20d0dc.jpg",
         "1f38d16488914d8cb2fa788e36679b5b9870be56908ac82b31fb29e902081b46.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372889042,
       "mtime": 1794372889042
     },
@@ -32531,6 +32531,7 @@
     "量化交易入门指南/附件/MinerU图片/第73天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "dbe3352fc43920ef8f7abb82d0abc1d7c1f6f60a87b91bf7344cfe84063b87e1.jpg",
         "d83d8f22047295f75105e8830a2d0c5b9de428cacd75723857d677b6e34d66d1.jpg",
@@ -32542,7 +32543,6 @@
         "1d94f3ffca95edc24efd5230b758c3be048deb2707d51584c5938cb3521cc92b.jpg",
         "0ca803483d5b870230a003084613049c0844ae70862abe0c69f72d56864de9ba.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372889350,
       "mtime": 1794372889350
     },
@@ -32609,6 +32609,7 @@
     "量化交易入门指南/附件/MinerU图片/第74天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "ad1e6a009df25b0cab5b08b161bf6c7f9044fc1f604bf48888210e8919c75be5.jpg",
         "a16291174ea3e897c407ff9a20111842434fbdcf825ff7a0b12664799ec41eeb.jpg",
@@ -32621,7 +32622,6 @@
         "485bbe9f932ebdece072ac191cb40894d8a56304b3b923688b38f0251a98de8b.jpg",
         "3870647bf7cacea6e1a733591f0fb5a85540be6d3add4a06c299e82d62dd5b6e.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372889593,
       "mtime": 1794372889593
     },
@@ -32694,6 +32694,7 @@
     "量化交易入门指南/附件/MinerU图片/第75天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "fce0653b0d5b4d1fd70f86aba3d30fbeef9016dbc92f9e9eac0eabdcb7e58fe7.jpg",
         "d4708d339b05add0a557549c66224f2be28788ac891cdf114bceb91214764e94.jpg",
@@ -32709,7 +32710,6 @@
         "3137a9d0647a8203be28d142e3c70b603bf55837d5589ae7491995e548c53273.jpg",
         "1a08282f44b8fbed78002522301ec46ae3c47334c4a186a0f2040b757269a351.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372889835,
       "mtime": 1794372889835
     },
@@ -32800,11 +32800,11 @@
     "量化交易入门指南/附件/MinerU图片/第76天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "f4ae959e447e64c401a0d1d70451844985822303d981c217207ec686feb06c56.jpg",
         "cee9bb100301becbc0e6a964521f35460143abb6ec711feaf10af187233d7e1a.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372890126,
       "mtime": 1794372890126
     },
@@ -32829,6 +32829,7 @@
     "量化交易入门指南/附件/MinerU图片/第77天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "ffb8fa59c7f697360fc33a3fc384f567d09fd13ed06a3e7756fd17dde6b0e295.jpg",
         "ff8fb67fe31a07dfd5bfdf28f616f33802a36b20486689823e6c12b08b341848.jpg",
@@ -32847,7 +32848,6 @@
         "46991dde654225d42d74ad8657bc469e76eef3b3ad73b96d430e0dbb9b7f7ca3.jpg",
         "2c76d49d8a3f4cd680a3b16440f4df6d77c4130aee5721181cf0412a7adc165b.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372890339,
       "mtime": 1794372890339
     },
@@ -32956,6 +32956,7 @@
     "量化交易入门指南/附件/MinerU图片/第78天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "e75858d41e235e12eff05995d234a1d4ca0162150f075217a42d1054ba01ec31.jpg",
         "11bb01b11eb15094c2baea4e6b6bd9d863f3e8d4e6ef3a6d01101cb8a841341b.jpg",
@@ -32967,7 +32968,6 @@
         "0a5009d0bcbaa18a9cae6d46b8845abe7e69d59f2d740ff4966f9cbc288e0474.jpg",
         "0648954888cc1fdf08905db3b0128b3be7d281d1ad784f37d2b2b9484ebf3b54.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372890601,
       "mtime": 1794372890601
     },
@@ -33034,6 +33034,7 @@
     "量化交易入门指南/附件/MinerU图片/第79天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "f0e31f373a52ac5b2ba184a28f653a1edb5e0431a8c57c236b89ff22e2f536f4.jpg",
         "e29e6b5c4feb8be10035ab064035575b23527956daa5455acb37384aeb5573bd.jpg",
@@ -33053,7 +33054,6 @@
         "07a816336e8ab38d9448cc1a9a9b35e37f7ade1d29a3f03f2594e129d662e48c.jpg",
         "0eaee7a9bed931d2606cf5fb97431164ddec6e526f84f0edb25d45db7c25d559.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372890848,
       "mtime": 1794372890848
     },
@@ -33168,6 +33168,7 @@
     "量化交易入门指南/附件/MinerU图片/第80天": {
       "isPinned": false,
       "isHidden": false,
+      "sortOrder": "custom",
       "customOrder": [
         "ff49bd89e297c52d6b8abc4c5ca03056d1626b429354f9616382639db61fde44.jpg",
         "fc9bb2eadc5722d244328cc8f18b839b6ddbff756a8bafb18e7be1868613004b.jpg",
@@ -33184,7 +33185,6 @@
         "653475947c01dad90875b25ec7eea2e9128d9586bf7d9f28477b3c0c0c5d2fa3.jpg",
         "01d3d2cc12d9169118a88f960933efbc85c58078dcbd28b92056554851c9c45b.jpg"
       ],
-      "sortOrder": "custom",
       "ctime": 1794372891179,
       "mtime": 1794372891179
     },

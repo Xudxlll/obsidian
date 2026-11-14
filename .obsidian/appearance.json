@@ -15,5 +15,6 @@
   "baseFontSize": 14,
   "theme": "system",
   "textFontFamily": "PingFang SC",
-  "translucency": false
+  "translucency": false,
+  "showRibbon": true
 }
