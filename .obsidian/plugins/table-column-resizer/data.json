@@ -1,5 +1,12 @@
 {
-  "table_讲次用一句人话说主要得到什么Lecture1先学会描述和估计违约风险评级迁_0": {
-    "0": 113
+  "settings": {
+    "enabled": true,
+    "minColumnWidth": 50,
+    "maxColumnWidth": 500
+  },
+  "tableWidths": {
+    "::1xq401v": {
+      "0": 113.406
+    }
   }
 }

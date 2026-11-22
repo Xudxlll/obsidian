@@ -548,8 +548,8 @@
   },
   "settingsProvider": "claude",
   "lastSelectedChatModel": {
-    "providerId": "codex",
-    "model": "openai-codex/gpt-6.1-terra"
+    "providerId": "claude",
+    "model": "haiku"
   },
   "inlineEditModel": null,
   "savedProviderModel": {
