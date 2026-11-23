@@ -11,8 +11,7 @@ body {
 /* Note Toolbar 的顶部/底部工具栏：不再跟随 --file-line-width */
 .cm-embed-block[data-tbar-position="bottom"] .callout[data-callout="note-toolbar"],
 .cm-embed-block[data-tbar-position="top"] .callout[data-callout="note-toolbar"],
-.cg-note-toolbar-container[data-tbar-position="bottom"],
-.cg-note-toolbar-container[data-tbar-position="top"] {
+.cg-note-toolbar-container[data-tbar-position="bottom"] {
   max-width: var(--fixed-note-toolbar-width) !important;
   margin-left: auto !important;
   margin-right: auto !important;
@@ -21,9 +20,21 @@ body {
 /* 如果工具栏外层容器参与布局，也强制让它居中 */
 .cm-embed-block[data-tbar-position="bottom"],
 .cm-embed-block[data-tbar-position="top"],
-.cg-note-toolbar-bar-container[data-tbar-position="bottom"],
-.cg-note-toolbar-bar-container[data-tbar-position="top"] {
+.cg-note-toolbar-bar-container[data-tbar-position="bottom"] {
   max-width: var(--fixed-note-toolbar-width) !important;
   margin-left: auto !important;
   margin-right: auto !important;
+}
+
+/* Extend the top background across the note; keep the buttons centered. */
+body .cg-note-toolbar-container[data-tbar-position="top"],
+body .cg-note-toolbar-bar-container[data-tbar-position="top"] {
+  max-width: none !important;
+  width: 100% !important;
+  background-color: var(--background-primary) !important;
+}
+
+body .cg-note-toolbar-bar-container[data-tbar-position="top"] .cg-note-toolbar-callout {
+  max-width: var(--fixed-note-toolbar-width) !important;
+  margin-inline: auto !important;
 }

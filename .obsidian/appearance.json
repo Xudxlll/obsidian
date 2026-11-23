@@ -14,5 +14,6 @@
     "typora-list-bullets"
   ],
   "cssTheme": "Typora-Vue",
-  "translucency": true
+  "translucency": true,
+  "theme": "obsidian"
 }
