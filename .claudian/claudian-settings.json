@@ -123,9 +123,54 @@
       "wslDistroOverridesByHost": {},
       "selectedModels": [
         {
+          "model": "gpt-6.1-terra",
+          "displayName": "GPT-6.1 Terra",
+          "description": "Efficient model that excels at visual understanding and computer use.",
+          "supportedReasoningEfforts": [
+            {
+              "value": "low",
+              "description": "Fast responses with lighter reasoning"
+            },
+            {
+              "value": "medium",
+              "description": "Balances speed and reasoning depth for everyday tasks"
+            },
+            {
+              "value": "high",
+              "description": "Greater reasoning depth for complex problems"
+            },
+            {
+              "value": "xhigh",
+              "description": "Extra high reasoning depth for complex problems"
+            },
+            {
+              "value": "max",
+              "description": "Maximum reasoning depth for the hardest problems"
+            },
+            {
+              "value": "ultra",
+              "description": "Maximum reasoning with automatic task delegation"
+            }
+          ],
+          "defaultReasoningEffort": "low",
+          "serviceTiers": [
+            {
+              "id": "priority",
+              "name": "Fast",
+              "description": "1.5x speed"
+            }
+          ],
+          "defaultServiceTier": null,
+          "inputModalities": [
+            "text",
+            "image"
+          ],
+          "isDefault": false
+        },
+        {
           "model": "gpt-6.1-sol",
           "displayName": "GPT-6.1 Sol",
-          "description": "Latest workhorse model for coding and everyday work.",
+          "description": "Previous generation model for coding and everyday work.",
           "supportedReasoningEfforts": [
             {
               "value": "low",
@@ -165,12 +210,12 @@
             "text",
             "image"
           ],
-          "isDefault": true
+          "isDefault": false
         },
         {
           "model": "gpt-6-astra",
           "displayName": "GPT-6 Astra",
-          "description": "Frontier intelligence for the most demanding work.",
+          "description": "Previous generation model for complex coding and professional work.",
           "supportedReasoningEfforts": [
             {
               "value": "low",
@@ -215,7 +260,7 @@
         {
           "model": "gpt-6-sol",
           "displayName": "GPT-6 Sol",
-          "description": "Previous generation workhorse model.",
+          "description": "Legacy model for coding and everyday work.",
           "supportedReasoningEfforts": [
             {
               "value": "low",
@@ -250,7 +295,7 @@
               "description": "1.5x speed"
             }
           ],
-          "defaultServiceTier": "priority",
+          "defaultServiceTier": null,
           "inputModalities": [
             "text",
             "image"
@@ -291,7 +336,7 @@
               "description": "1.5x speed"
             }
           ],
-          "defaultServiceTier": "priority",
+          "defaultServiceTier": null,
           "inputModalities": [
             "text",
             "image"
@@ -301,7 +346,7 @@
         {
           "model": "gpt-5.6-sol",
           "displayName": "GPT-5.6 Sol",
-          "description": "Older generation workhorse model.",
+          "description": "Legacy model for coding and everyday work.",
           "supportedReasoningEfforts": [
             {
               "value": "low",
@@ -344,54 +389,9 @@
           "isDefault": false
         },
         {
-          "model": "gpt-6.1-terra",
-          "displayName": "GPT-6.1 Terra",
-          "description": "GPT-6.1 Terra Codex model.",
-          "supportedReasoningEfforts": [
-            {
-              "value": "low",
-              "description": "Fast responses with lighter reasoning"
-            },
-            {
-              "value": "medium",
-              "description": "Balances speed and reasoning depth for everyday tasks"
-            },
-            {
-              "value": "high",
-              "description": "Greater reasoning depth for complex problems"
-            },
-            {
-              "value": "xhigh",
-              "description": "Extra high reasoning depth for complex problems"
-            },
-            {
-              "value": "max",
-              "description": "Maximum reasoning depth for the hardest problems"
-            },
-            {
-              "value": "ultra",
-              "description": "Maximum reasoning with automatic task delegation"
-            }
-          ],
-          "defaultReasoningEffort": "low",
-          "serviceTiers": [
-            {
-              "id": "priority",
-              "name": "Fast",
-              "description": "1.5x speed"
-            }
-          ],
-          "defaultServiceTier": null,
-          "inputModalities": [
-            "text",
-            "image"
-          ],
-          "isDefault": false
-        },
-        {
           "model": "gpt-5.6-terra",
           "displayName": "GPT-5.6 Terra",
-          "description": "Older balanced model for straightforward work.",
+          "description": "Legacy balanced model for agentic coding.",
           "supportedReasoningEfforts": [
             {
               "value": "low",
@@ -436,7 +436,7 @@
         {
           "model": "gpt-5.6-luna",
           "displayName": "GPT-5.6 Luna",
-          "description": "Older fast and efficient model.",
+          "description": "Legacy fast model for simpler tasks.",
           "supportedReasoningEfforts": [
             {
               "value": "low",
