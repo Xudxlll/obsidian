@@ -1,0 +1,3860 @@
+1
+00:00:04,970 --> 00:00:11,600
+Li Xun: Okay, now let's begin. From now on, we mainly actually is, discuss.
+
+2
+00:00:11,770 --> 00:00:18,610
+Li Xun: How to consider is, ETLEMA, how to use. It's okay, this is very important.
+
+3
+00:00:21,510 --> 00:00:35,920
+Li Xun: Okay. So, once you understand the etilemma, so maybe you can easily to solve over the final exam question. For example, why, now we example, why we actually use the Browning motion?
+
+4
+00:00:36,200 --> 00:00:42,249
+Li Xun: and the corresponding to Browning motion, take the integral y equal to the 1 over 2,
+
+5
+00:00:42,350 --> 00:01:01,930
+Li Xun: BT squared minus 1 over 2t, how to get, okay? Also, this equivalent, maybe you can write down the BT square 1 over 2 equal to 1 over 2t plus integral of Browning motion, take the calculus, okay? So, what does it mean? How to…
+
+6
+00:01:02,050 --> 00:01:07,919
+Li Xun: Fundamentally, so… for this problem. It's okay.
+
+7
+00:01:08,270 --> 00:01:11,970
+Li Xun: So now you look at for this one. Okay, look at for this one.
+
+8
+00:01:12,190 --> 00:01:18,370
+Li Xun: For this is your standard notes, okay, with regard as, yeah.
+
+9
+00:01:18,560 --> 00:01:22,100
+Li Xun: Today I just need to prepare for these notes, yeah.
+
+10
+00:01:22,260 --> 00:01:27,360
+Li Xun: So now, we know this one is the ETO process, okay? ETO process.
+
+11
+00:01:27,990 --> 00:01:34,790
+Li Xun: So, you just should understand how to use the ETO formula, okay? So…
+
+12
+00:01:35,040 --> 00:01:45,759
+Li Xun: You know, our lecture notes and our final exam paper, also our written paper, maybe written paper. Let me see, written paper.
+
+13
+00:01:48,270 --> 00:01:53,280
+Li Xun: Yes, you will see our written paper, the first formula, eto lemma.
+
+14
+00:01:53,390 --> 00:01:57,239
+Li Xun: Okay? So, how to exactly use ETOLEMA?
+
+15
+00:01:57,390 --> 00:01:58,680
+Li Xun: This is very important.
+
+16
+00:01:59,480 --> 00:02:00,819
+Li Xun: Okay, just a note.
+
+17
+00:02:01,490 --> 00:02:07,319
+Li Xun: We discussed for this, discussed the beginning, Beginning is the what.
+
+18
+00:02:08,280 --> 00:02:11,340
+Li Xun: After this class, you should understand, for this one.
+
+19
+00:02:12,290 --> 00:02:14,579
+Li Xun: how to use the eto lemma.
+
+20
+00:02:15,130 --> 00:02:21,930
+Li Xun: to prove this one. Why is the left hand equal to right hand? Why is the right hand equal to left hand?
+
+21
+00:02:22,320 --> 00:02:28,760
+Li Xun: You can use ETOLEMA to prove. I'm really clear. So you already see etilemma. Our final
+
+22
+00:02:29,190 --> 00:02:32,580
+Li Xun: exam paper. Also, we have this four formulas.
+
+23
+00:02:33,370 --> 00:02:34,220
+Li Xun: Okay.
+
+24
+00:02:34,540 --> 00:02:41,889
+Li Xun: But you should understand that you never have the more time, again and again, to do. Okay, never. Why?
+
+25
+00:02:42,040 --> 00:02:46,450
+Li Xun: What I cannot control is that, exam time.
+
+26
+00:02:46,640 --> 00:02:47,890
+Li Xun: AI control.
+
+27
+00:02:48,500 --> 00:02:57,299
+Li Xun: actually is the academic register control. So, you should be familiar with this one. This is very important, okay?
+
+28
+00:02:57,470 --> 00:03:08,429
+Li Xun: So now let's look at that. This means what? I just now say, we can use it toilemma, prove this one equal to this, this one equal to this. How to prove this is important, okay?
+
+29
+00:03:08,550 --> 00:03:14,729
+Li Xun: So, we're corresponding to this one, we're using the what? Now let's look at the ETO.
+
+30
+00:03:14,910 --> 00:03:26,130
+Li Xun: is a formula, okay, an e2 formula. We have a fundamental E2 process, DX, okay, dx. Then, we have to derive DY. DY is what?
+
+31
+00:03:26,950 --> 00:03:32,040
+Li Xun: The Y function is what? Dependent on T and Xt.
+
+32
+00:03:32,310 --> 00:03:42,429
+Li Xun: Okay? So, how to corresponding to DX this process? We redefine, is what? Another E2 process, Y.
+
+33
+00:03:43,120 --> 00:03:53,889
+Li Xun: Using this fundamental formula. You now just remember this formula, that's all, okay? So this is what? One dimension. Also, we have high dimension, okay? High dimension.
+
+34
+00:03:54,620 --> 00:03:55,700
+Li Xun: So…
+
+35
+00:03:56,110 --> 00:04:04,320
+Li Xun: Now, let's look at… just now, we discussed, so you know Etoilemma, okay? So now, actually, you all got actually is what?
+
+36
+00:04:04,550 --> 00:04:06,580
+Li Xun: Remember, years up.
+
+37
+00:04:06,820 --> 00:04:12,149
+Li Xun: Formula, 4.1.7, okay? This is the fully same.
+
+38
+00:04:12,300 --> 00:04:14,260
+Li Xun: Or what? Mitted.
+
+39
+00:04:14,440 --> 00:04:15,520
+Li Xun: Lesma 8.
+
+40
+00:04:15,690 --> 00:04:16,779
+Li Xun: The 40 cent.
+
+41
+00:04:16,940 --> 00:04:18,860
+Li Xun: Okay, not any difference.
+
+42
+00:04:19,390 --> 00:04:27,710
+Li Xun: Okay, so we now want to answer the what. How to use our theory, 4.12 to answer beginning.
+
+43
+00:04:27,760 --> 00:04:40,230
+Li Xun: We just now discuss, corresponding to this one, left hand equal to right hand. Right hand equal to left hand. How to use ETLEMA to process for this one? Okay, so now let's look at example.
+
+44
+00:04:40,550 --> 00:04:43,260
+Li Xun: one point, One point…
+
+45
+00:04:43,330 --> 00:05:03,179
+Li Xun: 4.1.3, okay, this one. This chapter 4, okay? I take the one after the chapter, give you, I delete the other. Maybe very, very fundamental is a mathematical way. I just use the application part delivered over this course, okay? So, now, let's look at corresponding to this one.
+
+46
+00:05:03,180 --> 00:05:15,690
+Li Xun: how to use ETLEMA, so you don't care. What is wrong is the chapter 3. You direct using… we talk about eto lemma to prove, okay? So, corresponding to just now, all this question is what?
+
+47
+00:05:16,200 --> 00:05:18,669
+Li Xun: We have… Yeah, stood up.
+
+48
+00:05:19,180 --> 00:05:21,909
+Li Xun: X equal to the P.
+
+49
+00:05:22,370 --> 00:05:28,820
+Li Xun: BT. So, this one, you can consider is what is the XT.
+
+50
+00:05:29,740 --> 00:05:31,119
+Li Xun: Equal to what?
+
+51
+00:05:31,520 --> 00:05:36,459
+Li Xun: D… BT… Okay, so now you're located for this one.
+
+52
+00:05:37,220 --> 00:05:38,040
+Li Xun: Okay.
+
+53
+00:05:38,470 --> 00:05:43,670
+Li Xun: So this means what? For this model, is U equal to zero?
+
+54
+00:05:43,930 --> 00:05:52,210
+Li Xun: V equal to 1, okay? So now let's look at it for this one. Okay, now we say DXT equal to D…
+
+55
+00:05:52,330 --> 00:05:58,510
+Li Xun: BT, so this means what? U equal to yellow, V equal to what? Yes or no?
+
+56
+00:05:58,890 --> 00:06:12,549
+Li Xun: Yes, okay, yes. Okay, then is we corresponding to what? Using for this formula. For the proof, okay, for the proof. So, before you're using this formula, you should familiarize for what? Family with for this one.
+
+57
+00:06:14,070 --> 00:06:14,880
+Li Xun: Okay.
+
+58
+00:06:15,200 --> 00:06:27,759
+Li Xun: We define Y function, okay, Y function. So now let's look at, corresponding to our current, this problem. We define Y function as what? It's for G…
+
+59
+00:06:28,000 --> 00:06:28,830
+Li Xun: Cheat.
+
+60
+00:06:28,930 --> 00:06:43,990
+Li Xun: XT, using for this fundamental, okay? So, now our discussion is for what? We say XT equal to the BT. So, why at this very moment write down T is BT? So, I make up.
+
+61
+00:06:44,630 --> 00:06:47,019
+Li Xun: Make up for this one.
+
+62
+00:06:47,430 --> 00:06:48,420
+Li Xun: Oakley up.
+
+63
+00:06:49,780 --> 00:06:50,830
+Li Xun: Yes or no?
+
+64
+00:06:51,140 --> 00:06:56,230
+Li Xun: Also, you can using your directory using XT Express. Also, you can use the
+
+65
+00:06:56,500 --> 00:07:08,670
+Li Xun: BT Express. For me, in general, I use XT, will not use the BT, okay? Now, you are not very familiar with this, using this simple case with step by step.
+
+66
+00:07:09,290 --> 00:07:24,709
+Li Xun: Okay, so now you know why we set Y using for this one, okay? So, you compare, the beginning is what? What is our very, very fundamental is the information is corresponding to
+
+67
+00:07:28,680 --> 00:07:30,190
+Li Xun: Corresponding to this one.
+
+68
+00:07:30,580 --> 00:07:42,480
+Li Xun: Okay, so what is our very fundamental data Norway, actually… is corresponding to… This one.
+
+69
+00:07:45,670 --> 00:07:46,450
+Li Xun: Okay.
+
+70
+00:07:46,840 --> 00:07:53,299
+Li Xun: So, of the class, you should be familiar with this one, okay? So now let's compare.
+
+71
+00:07:53,550 --> 00:08:01,420
+Li Xun: DX… and a DB, and a Y, okay? So, not corresponding to this example.
+
+72
+00:08:02,370 --> 00:08:09,929
+Li Xun: Corresponding to this example, so you understand that, you know, what? U is yellow. V is 1.
+
+73
+00:08:10,110 --> 00:08:13,459
+Li Xun: Okay, so we reduce the equation to this one, okay?
+
+74
+00:08:14,430 --> 00:08:27,469
+Li Xun: Okay, so now it's corresponding to this one. We write down it for this, okay? Then we step by step redefine YT. YT is what? Using the formula, we set
+
+75
+00:08:27,710 --> 00:08:34,840
+Li Xun: why this function is GTX function, okay? Now we spatially, we set exit.
+
+76
+00:08:34,990 --> 00:08:36,500
+Li Xun: It's okay, X is a P.
+
+77
+00:08:37,530 --> 00:08:41,090
+Li Xun: So, now let's go on. Now let's go on.
+
+78
+00:08:41,470 --> 00:08:48,339
+Li Xun: Okay. Now, oh, classmate, priest, Focus on this, suppose, at this very moment.
+
+79
+00:08:48,460 --> 00:08:52,219
+Li Xun: your iPad and your iPhone, you can.
+
+80
+00:08:52,870 --> 00:09:07,629
+Li Xun: Read my notes. You just keep up. You just keep up on this page. I go ahead. Okay, then you can compare, okay? Okay, so… now, let's go to see if this is the…
+
+81
+00:09:07,900 --> 00:09:16,910
+Li Xun: new information. So, we talk about corresponding two years for this information, now let's look at… Okay.
+
+82
+00:09:18,390 --> 00:09:27,610
+Li Xun: So now you will see, DY, okay, we take the first order with respect to… respect to… T.
+
+83
+00:09:28,150 --> 00:09:29,910
+Li Xun: Okay? For T.
+
+84
+00:09:30,100 --> 00:09:36,000
+Li Xun: DT. So, second up, we say, with respect to X?
+
+85
+00:09:36,150 --> 00:09:38,079
+Li Xun: X… this is X position.
+
+86
+00:09:38,510 --> 00:09:45,339
+Li Xun: Then with third part, we say, is with respect to XT take the signal.
+
+87
+00:09:45,520 --> 00:09:55,280
+Li Xun: Okay, so this is clear. Then, we actually take product dt, product dx, and the product with dt squared.
+
+88
+00:09:55,600 --> 00:10:02,009
+Li Xun: Okay, DT squared. So… Now we stay by step, stay by steep, okay? I stay by steep.
+
+89
+00:10:16,210 --> 00:10:22,380
+Li Xun: Okay, step by step. So, now let's look at for this one. So, this one is what?
+
+90
+00:10:22,770 --> 00:10:32,099
+Li Xun: no problem. Okay, you may not write down too tedious, okay? During the exam, maybe you do not write down this one, it does not matter.
+
+91
+00:10:32,270 --> 00:10:36,439
+Li Xun: Are you clear? Okay, so you write down this simple structure.
+
+92
+00:10:36,680 --> 00:10:38,590
+Li Xun: Now, this one is what?
+
+93
+00:10:38,940 --> 00:10:44,140
+Li Xun: This one is, X, okay? This X, the position is what? It's B.
+
+94
+00:10:44,730 --> 00:10:48,920
+Li Xun: Okay? So this X position, now directed right down, is B.
+
+95
+00:10:49,500 --> 00:11:00,580
+Li Xun: Okay, also now we know, at this very moment, we write down DXT equal to what? Equal to dbty, now you will see for this one.
+
+96
+00:11:00,850 --> 00:11:19,220
+Li Xun: A little clear, okay? So, also, let's compare, this is a second order, okay? Second order. It's a position, second order, positioning is for what? For here, XT. Now, XT is directly right down BT. It's okay, BT. So, this corresponding to X part.
+
+97
+00:11:19,400 --> 00:11:33,010
+Li Xun: Take the second node. Now, this one is what? Originally, we write down DXT, dxt square. Now, why we write down dbt square? Because now is what? DXT equal to dbt.
+
+98
+00:11:33,450 --> 00:11:36,169
+Li Xun: So, for a more general case, maybe
+
+99
+00:11:36,360 --> 00:11:54,099
+Li Xun: you write on DXT, more exact later. In the future, our future class, we talk about the more general. If we want to answer our final exam paper, maybe we take the previous final exam paper question, we show you how to use more general DXT, okay?
+
+100
+00:11:54,100 --> 00:11:58,410
+Li Xun: So, now, do you understand that until for this step.
+
+101
+00:11:58,480 --> 00:12:14,319
+Li Xun: Yes or no? Yes, okay, very good. Once you say yes, now let's look at for this one, okay? Because this one is up to this stage is what? Up to this stage, we have formula. So, now we stay by step Y…
+
+102
+00:12:14,320 --> 00:12:32,309
+Li Xun: we have for this O. Why we have for this O. Now, let's look at it. Corresponding to this one, YT, we have what? G, corresponding to two variables. One variable is T, another variable is BT. So, corresponding to BT, we have any information? Nothing.
+
+103
+00:12:32,700 --> 00:12:45,640
+Li Xun: Okay, we just have what? State information, BT. So, with respect to T, we have what? With respect to T, we just corresponding to value equal to zero.
+
+104
+00:12:45,950 --> 00:12:55,879
+Li Xun: Okay, so this one, partial G, so for this model, for this model is what? Is partial G, partial T.
+
+105
+00:12:56,180 --> 00:12:57,429
+Li Xun: equal to yellow.
+
+106
+00:12:58,280 --> 00:13:03,930
+Li Xun: Okay, so for this model, partial G partial XT.
+
+107
+00:13:04,190 --> 00:13:06,430
+Li Xun: Equal to what? The second part.
+
+108
+00:13:06,550 --> 00:13:18,150
+Li Xun: That is, position is what? At this moment, the position is directed right on position BT, XTBT. So, this one equal to what? 2BT. Yes or no?
+
+109
+00:13:18,680 --> 00:13:26,470
+Li Xun: 2BT, okay? So, now for this model, write down 2BT. So, why for here.
+
+110
+00:13:27,460 --> 00:13:35,509
+Li Xun: Okay, 2BT, because this is 1 over 2, so finally, we just write down BT.
+
+111
+00:13:35,660 --> 00:13:40,490
+Li Xun: Okay, so now you will see, for here, why is it?
+
+112
+00:13:40,740 --> 00:13:42,859
+Li Xun: BT… Are you clear up?
+
+113
+00:13:43,140 --> 00:13:46,280
+Li Xun: This one from where? This one from here.
+
+114
+00:13:46,700 --> 00:13:57,430
+Li Xun: partial X, partial… partial G, partial X, partial G, partial X, just equal to what? Just equal to is,
+
+115
+00:13:58,040 --> 00:14:04,670
+Li Xun: BT. Okay, so now let's go on. We look at partial G, Parsha…
+
+116
+00:14:04,960 --> 00:14:09,309
+Li Xun: X second order. Now, this one's second order equal to what?
+
+117
+00:14:10,150 --> 00:14:14,940
+Li Xun: is corresponding to this part. We further take a first order equal to what?
+
+118
+00:14:15,160 --> 00:14:16,429
+Li Xun: equal to 1.
+
+119
+00:14:17,090 --> 00:14:18,749
+Li Xun: Okay, equal to 1.
+
+120
+00:14:18,880 --> 00:14:33,179
+Li Xun: So, this one equal to 1. So, how to get for this one? Together look at this one, okay? So, because… now, let's compare for this one, okay? So, this one is what? It's 1 over 2.
+
+121
+00:14:33,420 --> 00:14:43,180
+Li Xun: Okay, second order part. Take the product one, take the what is for this one. So, this one is DBT…
+
+122
+00:14:43,810 --> 00:14:49,420
+Li Xun: Square. So, then we reduce to what? Then we reduce to this what?
+
+123
+00:14:49,770 --> 00:14:50,790
+Li Xun: It's clear.
+
+124
+00:14:51,600 --> 00:14:53,149
+Li Xun: Do we have any confusion?
+
+125
+00:14:54,010 --> 00:14:59,669
+Li Xun: Okay, so… Now let's look at… okay, now let's look at for this one. We know…
+
+126
+00:15:00,170 --> 00:15:05,969
+Li Xun: Why is this equal to 1? Because corresponding to partial G, partial X,
+
+127
+00:15:06,220 --> 00:15:16,010
+Li Xun: Second order equal to 1. Okay, so this is 1. 1 over 2, keep up here, 1 over 2. DBT, okay, dbt, square. So…
+
+128
+00:15:16,200 --> 00:15:17,130
+Li Xun: Nope.
+
+129
+00:15:17,260 --> 00:15:27,510
+Li Xun: we get for this equation. Once we get this equation, we further reduce… okay, we… also, we make up our knowledge information for here.
+
+130
+00:15:28,050 --> 00:15:33,690
+Li Xun: Okay. With spatial… we… DBT.
+
+131
+00:15:34,130 --> 00:15:38,669
+Li Xun: square equal to DT for… this is a spatial.
+
+132
+00:15:38,870 --> 00:15:39,790
+Li Xun: Okay.
+
+133
+00:15:40,210 --> 00:15:42,850
+Li Xun: So… Now your receipt.
+
+134
+00:15:43,110 --> 00:15:54,280
+Li Xun: Keep up for this… Okay? Another part why we go to 1 over 2… Did he… It's clear.
+
+135
+00:15:54,530 --> 00:15:58,420
+Li Xun: Okay, so just now, in our… this equation is what?
+
+136
+00:15:58,860 --> 00:16:05,579
+Li Xun: The spatial case for here, for the T part information is nothing.
+
+137
+00:16:06,000 --> 00:16:14,169
+Li Xun: So, maybe some of classmates have the unclear information. Later, I give you one example. I will show you.
+
+138
+00:16:14,420 --> 00:16:29,670
+Li Xun: Maybe some of the XI's we can involve is what? Involve is the T, you will see. For this one, excise, okay? This one, XI's. YT equal to is what? GT.
+
+139
+00:16:30,740 --> 00:16:39,740
+Li Xun: BT equal to what? 2 plus T plus EBT, okay? So for here, this T.
+
+140
+00:16:39,930 --> 00:16:41,560
+Li Xun: It's corresponding to this one.
+
+141
+00:16:42,210 --> 00:16:45,190
+Li Xun: Did you see this one? Late, I will make up.
+
+142
+00:16:45,280 --> 00:17:02,740
+Li Xun: Now, our current problem is very special. Within the tea part is what? Nothing? Okay? Nothing? Okay. So, now, first, let's look at… go back to see is, how to use ETLEMA. So, what we get is, just now we mentioned the result.
+
+143
+00:17:03,000 --> 00:17:04,020
+Li Xun: Okay?
+
+144
+00:17:06,470 --> 00:17:07,618
+Li Xun: So…
+
+145
+00:17:08,310 --> 00:17:17,209
+Li Xun: Now, we until for, this part, okay, step by step, we get for this. So, then we look at
+
+146
+00:17:17,520 --> 00:17:22,609
+Li Xun: corresponding to… This one, okay? Corresponding to this one.
+
+147
+00:17:22,839 --> 00:17:25,689
+Li Xun: So, now we get a DYT.
+
+148
+00:17:26,040 --> 00:17:37,270
+Li Xun: equal to… is it for this one? No problem? Okay, so we further go together. Why we can get for this? Because we now use YT.
+
+149
+00:17:37,430 --> 00:17:38,810
+Li Xun: Equal to this one.
+
+150
+00:17:39,520 --> 00:17:40,370
+Li Xun: Okay?
+
+151
+00:17:40,510 --> 00:17:49,660
+Li Xun: YT equal to this one. So, DYT, we get for this. So, YT, we can, using for this one, replace, so we get it for this.
+
+152
+00:17:49,790 --> 00:17:50,870
+Li Xun: Are you clear up?
+
+153
+00:17:51,520 --> 00:17:52,340
+Li Xun: Okay.
+
+154
+00:17:52,730 --> 00:18:01,499
+Li Xun: Once you clear for this, now, next stager is for what? Next stage is for first part, we take integral.
+
+155
+00:18:03,480 --> 00:18:22,050
+Li Xun: Okay, now we take integral is from what? From 0 to t. Okay, so we actually, we should write down more exact. Okay, more exact. We should write down 0 to t is D1 over 2 BS.
+
+156
+00:18:22,500 --> 00:18:23,390
+Li Xun: Square.
+
+157
+00:18:24,690 --> 00:18:30,830
+Li Xun: equal to Z and T and BS DBS.
+
+158
+00:18:37,090 --> 00:18:38,260
+Li Xun: Okay.
+
+159
+00:18:38,800 --> 00:18:42,950
+Li Xun: So… Now we write down, yes.
+
+160
+00:18:43,360 --> 00:18:46,640
+Li Xun: France yellow to… Cheat.
+
+161
+00:18:47,430 --> 00:18:50,479
+Li Xun: Then it's 1 over 2DS.
+
+162
+00:18:51,320 --> 00:18:52,309
+Li Xun: Eck it out!
+
+163
+00:18:52,480 --> 00:18:59,610
+Li Xun: Okay, so now let's look at the ground. So you will see, for this part, it's corresponding to what? Here?
+
+164
+00:18:59,790 --> 00:19:13,659
+Li Xun: Now, we just consider for this one. For this one, we take the what, our normal integral, okay? So, our normal integral. For this part, we get equal to 1 over 2 is S
+
+165
+00:19:14,010 --> 00:19:18,680
+Li Xun: and T is yellow. So, finally, equal to 1 over T.
+
+166
+00:19:19,260 --> 00:19:22,689
+Li Xun: Okay, so this one is corresponding to this part.
+
+167
+00:19:23,560 --> 00:19:33,319
+Li Xun: We now let's look at the ground, how to get for this one. This one is corresponding to… corresponding to this one, okay? So, now we take the…
+
+168
+00:19:33,980 --> 00:19:40,610
+Li Xun: Integral calculation, so what we get is 1 over 2, BS squared.
+
+169
+00:19:41,230 --> 00:19:56,290
+Li Xun: then T under 0. So, equal to 1 over 2 is BT squared minus 1 over 2 B0 squared. Also, for here, we have the definition for Browning motion beginning equal to 0.
+
+170
+00:19:56,330 --> 00:20:03,890
+Li Xun: Okay, so then we… this one, we further reduce to 1 over… BT squared, so…
+
+171
+00:20:04,470 --> 00:20:10,770
+Li Xun: Now you know how to gather this. It's clear. After class, please, by yourself.
+
+172
+00:20:11,190 --> 00:20:15,800
+Li Xun: Review for this fundamental Example. Very important.
+
+173
+00:20:16,140 --> 00:20:20,190
+Li Xun: Because… Our final exam.
+
+174
+00:20:20,320 --> 00:20:22,490
+Li Xun: Although we have the numeric coda.
+
+175
+00:20:22,640 --> 00:20:27,009
+Li Xun: calculation, similar to the 10. But we also… we are…
+
+176
+00:20:27,190 --> 00:20:38,270
+Li Xun: maybe the post-mode question focus on similar disabled. I really clear. Now, this is what very, very… Oh, level…
+
+177
+00:20:38,400 --> 00:20:40,690
+Li Xun: Stochastic calculus knowledge.
+
+178
+00:20:41,550 --> 00:20:45,819
+Li Xun: Then… The final, maybe we'll consider log normal.
+
+179
+00:20:45,980 --> 00:20:51,110
+Li Xun: And the CIR model, and the white hole model, lots of, okay?
+
+180
+00:20:51,220 --> 00:20:53,689
+Li Xun: So, they are actually more tedious.
+
+181
+00:20:53,810 --> 00:20:59,279
+Li Xun: So, if you understand for this one, so then you can go ahead, okay?
+
+182
+00:21:04,450 --> 00:21:05,400
+Li Xun: Okay.
+
+183
+00:21:06,340 --> 00:21:20,070
+Li Xun: Now just that we introduce it what? Example 1.3, okay? We now take 5 minutes break, take back the order that, written paper, review, then return to me, okay?
+
+184
+00:21:20,210 --> 00:21:29,969
+Li Xun: Because… Tutor, just, give me your, exam paper. Great, okay? We have no time.
+
+185
+00:21:30,100 --> 00:21:37,709
+Li Xun: to register your grade. So once you get your paper, will not return to us your grade equal to zero.
+
+186
+00:21:37,980 --> 00:21:44,900
+Li Xun: You also, by yourself, pick up your paper. Cannot pick up any… your classmate's paper.
+
+187
+00:21:45,230 --> 00:21:50,460
+Li Xun: Okay, once any class made the paper, you should take responsibility.
+
+188
+00:21:50,970 --> 00:21:55,519
+Li Xun: I read a clear… So, you cannot help your classmate.
+
+189
+00:21:56,660 --> 00:21:58,370
+Li Xun: Maybe you check grade.
+
+190
+00:21:58,980 --> 00:22:01,920
+Li Xun: By hint, and by hope. Self.
+
+191
+00:22:02,640 --> 00:22:03,730
+Li Xun: Count 2.
+
+192
+00:22:04,020 --> 00:22:12,020
+Li Xun: check greater. Then we… a word greater to Hin and to hope. Are you clear out? Okay.
+
+193
+00:38:57,030 --> 00:39:02,530
+Li Xun: Now let's consider is that Example, 4 point.
+
+194
+00:39:02,670 --> 00:39:07,120
+Li Xun: 1.4. Okay, we want to… we want to know.
+
+195
+00:39:07,770 --> 00:39:09,960
+Li Xun: What is this one? Okay.
+
+196
+00:39:10,600 --> 00:39:21,240
+Li Xun: Just now, beginning with proof is the left hand and right hand. Now we give the new, this style, how to use ETOLEMA, okay? So…
+
+197
+00:39:21,710 --> 00:39:29,519
+Li Xun: Now we… first we have the reasonable conjecture, okay? Then we go ahead. Our current disproblem
+
+198
+00:39:30,450 --> 00:39:41,620
+Li Xun: Maybe you conjecture, we have the term, is what, T and BT? Maybe, okay? So we corresponding to this one, we conjecture GTX is what?
+
+199
+00:39:41,630 --> 00:39:57,310
+Li Xun: GTX rider T times X. Okay, so this problem is significantly different than just now we talked about. Why? Because now, let's compare, okay? Well, now let's compare. Just now.
+
+200
+00:39:57,390 --> 00:40:09,509
+Li Xun: We just… we just use the compare. What's the difference? Then, after class, you can understand how to go get it. Now, let's look at it. Just now, we talked about this problem. It's why GTB?
+
+201
+00:40:09,740 --> 00:40:18,549
+Li Xun: Okay, for here, we just write down, you know, 1, you know what, the BT squared, similar to what? 1 over 2X squared. Okay, no any…
+
+202
+00:40:18,780 --> 00:40:20,859
+Li Xun: T-information, it's alright?
+
+203
+00:40:21,190 --> 00:40:29,350
+Li Xun: Okay, not any T information. So, now let's look at for this problem. So different. We write down Y is G…
+
+204
+00:40:29,680 --> 00:40:43,030
+Li Xun: TX, GTB. Actually, G is what? TX, T times BT, corresponding to this one. So, now you find out, for T position, exists exactly UC, T information.
+
+205
+00:40:43,030 --> 00:40:52,760
+Li Xun: Okay? And the X part is Bt. So, now you will find out this new question, is what? Significantly.
+
+206
+00:40:53,130 --> 00:40:56,279
+Li Xun: Fluent flawed. Just now, we talked about another question.
+
+207
+00:40:56,400 --> 00:41:03,579
+Li Xun: Just at the beginning, another question is what? Without the T information? Now is what? We involve the T informationformation.
+
+208
+00:41:03,770 --> 00:41:12,269
+Li Xun: X, okay? TX. So, corresponding to TX, now let's reconsider for this problem. Okay, reconsider for this problem.
+
+209
+00:41:12,630 --> 00:41:17,730
+Li Xun: So, first… We consider for this one is, partial.
+
+210
+00:41:17,910 --> 00:41:22,120
+Li Xun: G partial T equal to what? Equal to X.
+
+211
+00:41:22,230 --> 00:41:23,270
+Li Xun: No problem.
+
+212
+00:41:24,110 --> 00:41:25,230
+Li Xun: For this one.
+
+213
+00:41:26,090 --> 00:41:28,950
+Li Xun: TX, partial G, partial T.
+
+214
+00:41:29,070 --> 00:41:35,179
+Li Xun: is X. So, now let's look at the partial G, Partial X equal to what?
+
+215
+00:41:35,290 --> 00:41:38,820
+Li Xun: equal to T, okay? For X part.
+
+216
+00:41:39,290 --> 00:41:47,569
+Li Xun: Take first thought. Now, also, corresponding to eto lemma, we say we should consider second odd. So, what is second odd?
+
+217
+00:41:48,530 --> 00:41:51,049
+Li Xun: Second or equal to zero.
+
+218
+00:41:51,900 --> 00:41:57,289
+Li Xun: Okay, so now let's use what? Use eacholemma again.
+
+219
+00:41:58,020 --> 00:42:03,390
+Li Xun: Okay, ETOLEMA again. So, this is using it toilemma. Okay, how to use?
+
+220
+00:42:03,500 --> 00:42:13,520
+Li Xun: Using for these three, go ahead. So, how to use? Now, let's look at… is, we say, is DYT equal to DYT
+
+221
+00:42:14,930 --> 00:42:15,760
+Li Xun: T.
+
+222
+00:42:16,090 --> 00:42:26,900
+Li Xun: BT, okay, for this model. So current is what? The first we have is partial G, partial T, DT, okay?
+
+223
+00:42:27,160 --> 00:42:32,399
+Li Xun: So, the seconder, we have the partial G, partial X,
+
+224
+00:42:32,890 --> 00:42:38,920
+Li Xun: DX… now, DX is what? DX is BT. Okay, DX is BT.
+
+225
+00:42:40,020 --> 00:42:40,830
+Li Xun: Okay.
+
+226
+00:42:41,710 --> 00:42:47,929
+Li Xun: So… Daniels, we have 1 over 2.
+
+227
+00:42:48,130 --> 00:43:02,989
+Li Xun: also is what? Partial G, partial X second order. Then we write down your DXT square. Now, DXX equal to B, so we may… can directly write down your what?
+
+228
+00:43:04,220 --> 00:43:05,120
+Li Xun: BT.
+
+229
+00:43:05,540 --> 00:43:06,540
+Li Xun: Okay?
+
+230
+00:43:06,890 --> 00:43:19,410
+Li Xun: In the future, I will show you more general case, not the X just equal to B, maybe more general style, okay, more general style. So, now, let's look at for…
+
+231
+00:43:19,510 --> 00:43:27,309
+Li Xun: this model. So, now we know, for this is what? Equal to yellow. So, this part is what? Cancel.
+
+232
+00:43:27,410 --> 00:43:44,600
+Li Xun: Okay? So now let's compare. For here, we have what? Yellow. Okay? For here is for yellow. So also, we now know for this one is equal to what? This one equal to T. Equal to T. So, for here, we have…
+
+233
+00:43:44,980 --> 00:43:48,519
+Li Xun: TDBT, compare, okay?
+
+234
+00:43:48,930 --> 00:43:49,820
+Li Xun: BT.
+
+235
+00:43:50,270 --> 00:43:54,050
+Li Xun: Also, Also, now let's look at, for this one.
+
+236
+00:43:54,490 --> 00:44:05,609
+Li Xun: For this one, it's corresponding to just noun. For this one, it's partial G, partial T, equal to what? Equal to X, non-current X is what? Bt.
+
+237
+00:44:05,970 --> 00:44:08,560
+Li Xun: Okay, so this is BT.
+
+238
+00:44:08,980 --> 00:44:09,850
+Li Xun: Did you cheat.
+
+239
+00:44:10,670 --> 00:44:11,590
+Li Xun: Okay?
+
+240
+00:44:11,730 --> 00:44:12,860
+Li Xun: Should I clear up?
+
+241
+00:44:13,120 --> 00:44:13,970
+Li Xun: Okay.
+
+242
+00:44:14,220 --> 00:44:18,809
+Li Xun: Why? For here, we already set X equal to the…
+
+243
+00:44:18,940 --> 00:44:22,670
+Li Xun: X equal to BT, so the spatial case. So…
+
+244
+00:44:22,820 --> 00:44:37,669
+Li Xun: Now, after class, by itself, rearrange. It's okay, rearrange. So, now let's look at, using ETOL lemma, we can get for this one. Okay, get for this. So, once we get for this, so, we should go back to…
+
+245
+00:44:37,760 --> 00:44:48,910
+Li Xun: Consider our previous question. So, now you know, Y is what? It's for this one. So, we put the Y information to here, so we get for this new
+
+246
+00:44:49,280 --> 00:44:53,910
+Li Xun: D… TBT, okay? D… TPT.
+
+247
+00:44:53,980 --> 00:45:01,100
+Li Xun: So, corresponding to DTBT, so we further, we have the star. Actually, it's what?
+
+248
+00:45:01,100 --> 00:45:15,840
+Li Xun: we consider integral, integral, integral, okay? So, for this intergal, actually, we should write down for this time. Maybe for here, the T, you change it to S, okay? T change it to S. So…
+
+249
+00:45:17,130 --> 00:45:23,569
+Li Xun: We write down ink glow, yellow to t, D is S,
+
+250
+00:45:23,870 --> 00:45:34,239
+Li Xun: BS. Okay, so this is what? Left hand part, okay? Left hand part. Now let's look at right-hand part. See from…
+
+251
+00:45:34,570 --> 00:45:38,340
+Li Xun: 0 of lambda t, BS…
+
+252
+00:45:38,570 --> 00:45:51,569
+Li Xun: DS, okay? So, for this 10, we change it to what? BS, DS. It's no problem, okay? So, then we write down the last one, 0 to T, S,
+
+253
+00:45:51,730 --> 00:45:58,729
+Li Xun: D… BS. So, the last TAN is what? For this T, We change it to S,
+
+254
+00:45:58,990 --> 00:46:08,570
+Li Xun: BT, change it to BS, so we get this star. Okay, so now let's look at, for this one, for what? For this one?
+
+255
+00:46:10,250 --> 00:46:13,750
+Li Xun: For here, this is equal to what?
+
+256
+00:46:13,920 --> 00:46:25,379
+Li Xun: BS, then we T is yellow. Equal to what? Equal to here. Actually, we cannot further go ahead with direct keep-up. It's BS, is DS.
+
+257
+00:46:25,960 --> 00:46:37,950
+Li Xun: And the last 10 is 0 to TSDBS. So, now let's look at the beginning. So, this beginning is what? Actually, T.
+
+258
+00:46:38,220 --> 00:46:41,240
+Li Xun: BT minus… ZLO.
+
+259
+00:46:41,360 --> 00:46:48,720
+Li Xun: times B0, so this is equal to what? Zero. So, finally, we just get is T…
+
+260
+00:46:48,900 --> 00:46:53,549
+Li Xun: BT. So, now you know how to get it for this one.
+
+261
+00:46:53,870 --> 00:46:54,810
+Li Xun: It's okay.
+
+262
+00:46:54,980 --> 00:46:57,180
+Li Xun: Okay, so after class.
+
+263
+00:46:57,520 --> 00:47:12,600
+Li Xun: by itself, repeat is just now we talk about the procedure. Okay, now let's go back to all the questions. Maybe during the exam, we are… what is our question? Our question is what ask you is for this one.
+
+264
+00:47:13,710 --> 00:47:23,749
+Li Xun: Okay, I'll ask you for this one. Now, we already… we get this form, okay? So, this form is what? None is we get it for this form.
+
+265
+00:47:25,720 --> 00:47:28,610
+Li Xun: we get for this form. So what is it we…
+
+266
+00:47:28,760 --> 00:47:33,160
+Li Xun: Question. Question is for the last 10, so now we rearrange
+
+267
+00:47:33,650 --> 00:47:35,070
+Li Xun: We get it for this one.
+
+268
+00:47:36,940 --> 00:47:37,790
+Li Xun: Okay.
+
+269
+00:47:38,760 --> 00:47:49,389
+Li Xun: So anyway, after class, by itself, repeat, just now, we discussed is, example, 4.14. Okay, 4.14.
+
+270
+00:47:50,010 --> 00:47:57,660
+Li Xun: Okay, more general case, maybe, is what we can consider is that this is the more general style, okay?
+
+271
+00:47:57,680 --> 00:48:07,740
+Li Xun: Maybe this is a proof, is the eto lemma, how to get… why the etilemma we can write down, just now we talked about for this, this structure. Okay, for this, we'll skip.
+
+272
+00:48:07,740 --> 00:48:19,070
+Li Xun: You just know how to use. For this tedious, how to prove ETOLMA for this procedure, you don't care, okay? This is the… just the what? How to prove the etilemma procedure.
+
+273
+00:48:19,070 --> 00:48:22,309
+Li Xun: For some of the classmates, maybe will apply.
+
+274
+00:48:22,310 --> 00:48:29,860
+Li Xun: is a PhD, position, okay? PhD is the scholar position, maybe after class, consider.
+
+275
+00:48:29,890 --> 00:48:34,480
+Li Xun: How to construct, establish, Ito Lamar.
+
+276
+00:48:34,530 --> 00:48:39,419
+Li Xun: This is the procedure. It's okay. So, just now we talked about it in one dimension.
+
+277
+00:48:39,420 --> 00:49:00,330
+Li Xun: Also, we can consider is the high dimension, okay? So, over this semester, mainly focused on the one dimension, mainly focused on dimension, one dimension. I also maybe introduced a little bit to the high dimension using our excise, so you don't worry. High dimension idea is the same, this is just using the vector idea, so no any big difference, so you don't worry, okay?
+
+278
+00:49:01,340 --> 00:49:17,230
+Li Xun: So, first now, either we want to just now focus on either one dimension, go ahead. This also is a more general case, after class, by itself, read for this. This is for either what? G for this function also is a vector function, okay? Vect function.
+
+279
+00:49:18,460 --> 00:49:28,469
+Li Xun: Okay, fundamental idea we already have. So, we now together look at is how to prove, is just now we talk about the question.
+
+280
+00:49:28,620 --> 00:49:34,580
+Li Xun: X size is the 4.1, okay, 4.1. Now let's together look at…
+
+281
+00:49:38,230 --> 00:49:40,320
+Li Xun: Okay, the first one.
+
+282
+00:49:40,700 --> 00:49:43,909
+Li Xun: Okay, just now, we already talked about, for this…
+
+283
+00:49:44,710 --> 00:49:50,689
+Li Xun: form, okay, for this form. Now, We want to know.
+
+284
+00:49:51,190 --> 00:49:59,330
+Li Xun: once this YT is for this one. YT is for this one. That means is for what? It's GT…
+
+285
+00:50:00,070 --> 00:50:03,179
+Li Xun: X chi equal to what?
+
+286
+00:50:03,340 --> 00:50:15,519
+Li Xun: equal to the BT, okay? Also, for this model, you know what? Maybe we set XT equal to the BT, the spatial. So, then we consider, for this one, YT.
+
+287
+00:50:15,590 --> 00:50:32,069
+Li Xun: what is the process? Now you mean it what? Suppose you know DXT equal to the dbt, okay? DX equal to DBT. Then we want to know what is YT, what is for this one, okay?
+
+288
+00:50:32,440 --> 00:50:35,850
+Li Xun: So… Now let's together locate for this one.
+
+289
+00:50:44,350 --> 00:50:58,480
+Li Xun: Our question, we mainly introduce the question A and the B memory. For the question and the CDE. Next time, I will offer… offer you is the…
+
+290
+00:50:58,740 --> 00:51:00,120
+Li Xun: for the…
+
+291
+00:51:00,580 --> 00:51:19,240
+Li Xun: maybe it's the solution structure. Okay, next slide. Now, we first focus on the one dimension. CDE, this one is not one dimension, it's a high dimension. It's okay, high dimension. So, we mainly focus on the one dimension, okay? Focus on dimension. So, now let's look at…
+
+292
+00:51:19,650 --> 00:51:21,740
+Li Xun: Corresponding two years to that.
+
+293
+00:51:22,580 --> 00:51:28,870
+Li Xun: 4.1, this excise. How to answer for this? Okay, how to answer for this?
+
+294
+00:51:29,590 --> 00:51:32,799
+Li Xun: Okay, so… Now, let's look at…
+
+295
+00:51:40,880 --> 00:51:42,630
+Li Xun: Wait a minute…
+
+296
+00:51:56,830 --> 00:52:04,580
+Li Xun: Okay, just now, I already gave you is what? I already gave you is, excise.
+
+297
+00:52:04,690 --> 00:52:11,870
+Li Xun: And, give you the chapter 4, okay? You'll go to see the excise 4.1 and the 8,
+
+298
+00:52:12,120 --> 00:52:16,630
+Li Xun: Is that we consider What is the why…
+
+299
+00:52:17,740 --> 00:52:22,500
+Li Xun: T equal to the BT squared, so we want to know.
+
+300
+00:52:22,660 --> 00:52:25,130
+Li Xun: What is a DYT?
+
+301
+00:52:26,340 --> 00:52:27,320
+Li Xun: Okay?
+
+302
+00:52:27,740 --> 00:52:38,180
+Li Xun: What is for this one? And what is DBT? Okay, we want to answer for this, okay. The idea is the same. Okay, idea is same.
+
+303
+00:52:41,420 --> 00:52:44,190
+Li Xun: Okay, now let's look at… so, first one.
+
+304
+00:52:44,310 --> 00:52:48,020
+Li Xun: This… Maybe this is so large.
+
+305
+00:52:53,220 --> 00:52:54,080
+Li Xun: Okay.
+
+306
+00:52:54,490 --> 00:52:56,289
+Li Xun: This one is YT.
+
+307
+00:52:56,410 --> 00:52:58,969
+Li Xun: equal to what? G.T.
+
+308
+00:52:59,950 --> 00:53:09,679
+Li Xun: and X… now, X for here is XT is PT, so also we can write down is G…
+
+309
+00:53:09,820 --> 00:53:25,570
+Li Xun: TBT, okay? GTBT equal to what? Bt squared. This is clear, no problem, okay? This is no problem. So, now let's go, let's look at for this question. So, now this is GT, okay? We write down the spatial.
+
+310
+00:53:26,190 --> 00:53:32,819
+Li Xun: Spatial is the… Spatial is, we write down is, partial G.
+
+311
+00:53:33,240 --> 00:53:36,279
+Li Xun: partial T equal to what? Zero.
+
+312
+00:53:36,450 --> 00:53:37,260
+Li Xun: Okay.
+
+313
+00:53:37,570 --> 00:53:44,680
+Li Xun: And, partial G… partial X, actually what? Equal to the 2?
+
+314
+00:53:44,800 --> 00:53:45,760
+Li Xun: BT.
+
+315
+00:53:45,960 --> 00:53:52,789
+Li Xun: Partial G, Partial X second naught, actually the what? Equal to 2? Yes or no?
+
+316
+00:53:53,650 --> 00:53:55,100
+Li Xun: Do you have any confusion?
+
+317
+00:53:55,810 --> 00:53:56,800
+Li Xun: Okay.
+
+318
+00:53:57,890 --> 00:54:00,160
+Li Xun: No confusion, okay, no confusion.
+
+319
+00:54:00,490 --> 00:54:05,620
+Li Xun: Okay, once you have no confusion, so now let's look at what? DY.
+
+320
+00:54:06,200 --> 00:54:12,320
+Li Xun: DY is what? Using the same idea, is a partial G, partial T.
+
+321
+00:54:12,490 --> 00:54:17,930
+Li Xun: DT… Then it's a partial G, partial X, DX,
+
+322
+00:54:18,200 --> 00:54:25,330
+Li Xun: During the exam, you're also using a simulant for this formula, then you… Can easily…
+
+323
+00:54:25,560 --> 00:54:28,790
+Li Xun: To derive, you know, the solution, okay?
+
+324
+00:54:28,980 --> 00:54:34,960
+Li Xun: the X… T squared. Okay, now, because… We…
+
+325
+00:54:35,220 --> 00:54:40,110
+Li Xun: Find, at this moment, DXT is what? Equal to the
+
+326
+00:54:40,460 --> 00:54:43,430
+Li Xun: BT, so we further actually write down.
+
+327
+00:54:44,360 --> 00:54:47,050
+Li Xun: This one is DT.
+
+328
+00:54:47,640 --> 00:54:52,260
+Li Xun: Is it partial G, partial X? Is it… BT.
+
+329
+00:54:52,430 --> 00:55:01,990
+Li Xun: 1 over 2 is partial G, partial X. This one is D, BT square. Also, BT…
+
+330
+00:55:02,290 --> 00:55:14,090
+Li Xun: square for here will roughly equal to DT. Okay, DT. So, now let's look at… corresponding to further, this one is yellow, DT.
+
+331
+00:55:14,340 --> 00:55:21,640
+Li Xun: Okay? The second, 2BT, DBT, okay? For this one, it's 1 over 2,
+
+332
+00:55:21,820 --> 00:55:29,969
+Li Xun: times 2 times dbt is DT, okay? So now let's look at why this equal to yellow? Because this one equal to yellow.
+
+333
+00:55:30,110 --> 00:55:35,970
+Li Xun: Why this one 2BT? 2BT? Because this one 2BT, okay? 2BT.
+
+334
+00:55:37,050 --> 00:55:44,799
+Li Xun: For here, you also write down maybe as a 2X, it's no problem, because at this moment, X is what?
+
+335
+00:55:45,030 --> 00:55:45,870
+Li Xun: Too big.
+
+336
+00:55:46,600 --> 00:55:49,450
+Li Xun: Okay, so the same, okay.
+
+337
+00:55:49,580 --> 00:56:02,800
+Li Xun: So, now once we have for this, so we now go to reader for this information, is for what? It is 2BT dT dBT plus is dt.
+
+338
+00:56:03,360 --> 00:56:06,030
+Li Xun: And… the T…
+
+339
+00:56:06,590 --> 00:56:16,940
+Li Xun: So, we write down 2BT and DBT. Okay, in general case, actually, we always write down what? Always write down the…
+
+340
+00:56:17,160 --> 00:56:26,840
+Li Xun: First is DT, second DT. So now this model, we know is that U is what? U is 1. V is what?
+
+341
+00:56:27,050 --> 00:56:31,470
+Li Xun: 2BT. Okay, just now, our…
+
+342
+00:56:32,220 --> 00:56:44,780
+Li Xun: for this model is what? Want to ask you, what is U? What is V? Now we know U is 1, okay? V is what? 2BT. It's clear? Okay, so this is the…
+
+343
+00:56:44,940 --> 00:56:50,390
+Li Xun: Summer question… summer question 8. Okay, summer question 8.
+
+344
+00:56:51,670 --> 00:57:03,239
+Li Xun: maybe let you easily to review, okay? So, I also write down this one, EX4.1 and 8. It's clear.
+
+345
+00:57:03,740 --> 00:57:06,049
+Li Xun: Okay, I have to classify myself, rearrange.
+
+346
+00:57:06,250 --> 00:57:08,780
+Li Xun: rearrange our solution, okay?
+
+347
+00:57:10,110 --> 00:57:20,119
+Li Xun: Now you don't care. Now you just listen to me. You said, watch your screen, that's all. Look at the screen. Don't do anything. Just listen to me. I will,
+
+348
+00:57:20,700 --> 00:57:30,829
+Li Xun: your picture, so after class, by self-rearranged. Now, just listen to me. Don't write anything, okay? Don't take any picture. Just listen to me. Very clear.
+
+349
+00:57:31,150 --> 00:57:38,200
+Li Xun: Because 30 years ago, I'm also a student. I'm very angry, my teacher asked me to write on Sensing.
+
+350
+00:57:38,320 --> 00:57:44,939
+Li Xun: Okay, once you write down ZENSI, you may not can focus on listen… What they talk about today.
+
+351
+00:57:45,130 --> 00:57:51,660
+Li Xun: maybe fundamental idea. I really clear out. Just listen to me. I will help you write notes. I really clear…
+
+352
+00:57:52,040 --> 00:57:52,810
+Li Xun: Okay.
+
+353
+00:57:53,160 --> 00:57:56,789
+Li Xun: Now you don't write down anything. Let's go on. Consider.
+
+354
+00:57:57,040 --> 00:58:00,729
+Li Xun: Yes, the sub-question B. Okay, sub-question B.
+
+355
+00:58:03,990 --> 00:58:04,990
+Li Xun: Okay.
+
+356
+00:58:05,320 --> 00:58:06,860
+Li Xun: Subquestion B,
+
+357
+00:58:07,210 --> 00:58:22,949
+Li Xun: This is, so different, okay? Once we want to consider sub-equestion B, we find out, oh, what this problem is what. Maybe GT function will involve T, it's okay? GT function. So, now let's look at, for this
+
+358
+00:58:23,390 --> 00:58:27,450
+Li Xun: over G, T… Here's the dark.
+
+359
+00:58:28,370 --> 00:58:29,820
+Li Xun: B. T.
+
+360
+00:58:29,970 --> 00:58:33,650
+Li Xun: This function is 2 plus t plus e.
+
+361
+00:58:34,000 --> 00:58:41,460
+Li Xun: BT. So for here, Actually, T may be exactly your C. T.
+
+362
+00:58:42,690 --> 00:58:45,029
+Li Xun: this is so different. The first…
+
+363
+00:58:45,190 --> 00:58:47,160
+Li Xun: Example. So, now let's go on.
+
+364
+00:58:47,760 --> 00:58:51,279
+Li Xun: Let's go on, you'll see that, how to solve.
+
+365
+00:58:51,410 --> 00:58:53,700
+Li Xun: Our second nut.
+
+366
+00:58:53,960 --> 00:58:55,230
+Li Xun: Question. Okay.
+
+367
+00:58:55,560 --> 00:59:00,120
+Li Xun: Second question is, we say… is excise.
+
+368
+00:59:00,270 --> 00:59:01,740
+Li Xun: 4.1.
+
+369
+00:59:02,160 --> 00:59:07,250
+Li Xun: And the P? Okay, 4.1 on the P. So now we set…
+
+370
+00:59:07,520 --> 00:59:24,549
+Li Xun: We know YT is what? YT, YT we know is the… just now we know YT equal to the 2 plus T plus EBT, okay? So this means is what? We know GT
+
+371
+00:59:25,010 --> 00:59:33,190
+Li Xun: BT. Maybe you can write down BT is X part position, okay? So your 2 plus T plus is E
+
+372
+00:59:33,400 --> 00:59:43,729
+Li Xun: BT, okay, plus EBT. So now, let's consider for this one. First one, is partial G, partial T equal to what? Equal to what for this problem?
+
+373
+00:59:44,300 --> 00:59:45,329
+Li Xun: You go to what?
+
+374
+00:59:46,600 --> 00:59:47,789
+Li Xun: Equal to 2?
+
+375
+00:59:49,770 --> 00:59:50,700
+Li Xun: Very good.
+
+376
+00:59:52,460 --> 00:59:53,200
+Li Xun: Okay.
+
+377
+00:59:53,330 --> 01:00:00,000
+Li Xun: Partial G, Pasha… X disposition. Now, X position is right down what?
+
+378
+01:00:01,250 --> 01:00:03,869
+Li Xun: BT, okay? So what is for this one?
+
+379
+01:00:05,730 --> 01:00:12,810
+Li Xun: E, B, T, okay? Partial G, partial X second node. What is for this one?
+
+380
+01:00:14,370 --> 01:00:15,210
+Li Xun: Eat…
+
+381
+01:00:16,660 --> 01:00:27,470
+Li Xun: BT. Okay, very good. So, now we have for this one, it's very clear. So, now let's look at the DYT, the same. It's D…
+
+382
+01:00:28,210 --> 01:00:38,290
+Li Xun: G… is what? Bt. Okay. So, now this one is a partial G, partial T, is DT.
+
+383
+01:00:38,570 --> 01:00:45,280
+Li Xun: Partial G, partial X, DX, partial… G. Pasha.
+
+384
+01:00:45,700 --> 01:00:50,080
+Li Xun: X second order, 1 over 2, and DX,
+
+385
+01:00:50,200 --> 01:00:59,769
+Li Xun: Because square. None is… because it is a… we consider one dimension, so we consider it square. Once this is a high dimension, so this is not a square, okay? Yeah.
+
+386
+01:01:00,780 --> 01:01:16,959
+Li Xun: Okay, now also we set is what X? At this moment is what is BT, so we further write down partial G, partial T, DT plus partial G, partial X is what? DBT, okay?
+
+387
+01:01:17,140 --> 01:01:29,970
+Li Xun: Partial G, partial for this one, partial X squared, so this one is what? DT. Why DT? Because at this very moment, this one reduced to what? DBT.
+
+388
+01:01:30,260 --> 01:01:32,530
+Li Xun: Square, okay, for T.
+
+389
+01:01:32,760 --> 01:01:33,740
+Li Xun: Gee, okay.
+
+390
+01:01:33,920 --> 01:01:43,630
+Li Xun: So, now let's look at… for this one, it's 1 times DT. No problem. Partial G, partial X is what? EBT.
+
+391
+01:01:44,410 --> 01:01:52,490
+Li Xun: BT. For here, it's 1 over 2. For this one, it's what? EBT, okay? Times…
+
+392
+01:01:53,470 --> 01:01:55,299
+Li Xun: This one is what? DT?
+
+393
+01:01:55,960 --> 01:01:58,489
+Li Xun: Yes or no? Yes? Okay.
+
+394
+01:01:58,590 --> 01:02:06,409
+Li Xun: So once we have for this, so now let's go on. We write down 1, plus 1 over 2EBT.
+
+395
+01:02:07,100 --> 01:02:13,850
+Li Xun: and the T… plus E, B, T, And, DPT.
+
+396
+01:02:14,880 --> 01:02:16,099
+Li Xun: It's okay.
+
+397
+01:02:17,300 --> 01:02:19,919
+Li Xun: So, do you have any confusion?
+
+398
+01:02:21,410 --> 01:02:25,519
+Li Xun: So… Now, once we answer for this, so…
+
+399
+01:02:25,790 --> 01:02:41,369
+Li Xun: we consider for this information, we say. So once we say write down is more clear, maybe you should write down, is U part equal to 1 plus 1 over 2EBT? V part is ET.
+
+400
+01:02:42,290 --> 01:02:43,190
+Li Xun: BT.
+
+401
+01:02:47,280 --> 01:02:48,590
+Li Xun: Okay, EBT.
+
+402
+01:02:49,110 --> 01:02:53,039
+Li Xun: So, now we answer is what? We answer is that the
+
+403
+01:02:53,950 --> 01:02:57,520
+Li Xun: question is for the sub-question B. So…
+
+404
+01:02:57,700 --> 01:03:07,380
+Li Xun: of the class, I will offer you the picture, okay? Then you, by yourself, rearrange, Okay, no.
+
+405
+01:03:07,660 --> 01:03:10,930
+Li Xun: For this is the CDE.
+
+406
+01:03:12,850 --> 01:03:20,859
+Li Xun: Once we will use this one, we will introduce again. At this very moment, we first consider its A and B.
+
+407
+01:03:21,140 --> 01:03:31,149
+Li Xun: A and B, okay? So next, we want to consider how to prove example, excise 4.2.
+
+408
+01:03:32,170 --> 01:03:37,960
+Li Xun: But, we consider how to solve that is the 4… 4.2, okay?
+
+409
+01:03:38,240 --> 01:03:45,950
+Li Xun: Now, take 5 minutes break, then come back to consider, okay? You regard as 4.2 is tutorial question, okay?
+
+410
+01:10:36,430 --> 01:10:39,649
+Li Xun: I want to… do you have any idea?
+
+411
+01:10:39,820 --> 01:10:41,550
+Li Xun: How to prove.
+
+412
+01:10:41,710 --> 01:10:42,709
+Li Xun: For this one.
+
+413
+01:10:44,490 --> 01:10:45,320
+Li Xun: Okay.
+
+414
+01:10:47,490 --> 01:10:49,480
+Li Xun: Don't always wait for my solution.
+
+415
+01:10:49,730 --> 01:11:00,640
+Li Xun: Now, this question, now let's look at it. Suppose this is the final again. We ask you to prove for this, okay? Prove, this means what? You can use in…
+
+416
+01:11:01,020 --> 01:11:02,680
+Li Xun: Right hand apart.
+
+417
+01:11:03,050 --> 01:11:06,390
+Li Xun: to get this. Also, you can, using the left…
+
+418
+01:11:06,700 --> 01:11:14,149
+Li Xun: Hand a part to gather this. Maybe also you can get what? You can, using this 10 equal to this first part to take summation.
+
+419
+01:11:14,560 --> 01:11:20,959
+Li Xun: Many, many ways. Just is what? You should prove this equation is what hurts.
+
+420
+01:11:21,120 --> 01:11:27,689
+Li Xun: Okay, so do you have any idea? Just now, we already introduced what? ETLEMA.
+
+421
+01:11:28,110 --> 01:11:30,630
+Li Xun: To prove this one. Consider for this one.
+
+422
+01:11:31,020 --> 01:11:32,000
+Li Xun: Okay?
+
+423
+01:11:32,460 --> 01:11:37,249
+Li Xun: Maybe I give you a little bit of a hint. Maybe you can consider why T.
+
+424
+01:11:37,450 --> 01:11:44,589
+Li Xun: YT equal to what? YT equal to… G, T, B, T.
+
+425
+01:11:44,950 --> 01:11:48,149
+Li Xun: Then, this G function equal to is what?
+
+426
+01:11:48,700 --> 01:11:49,800
+Li Xun: BT story.
+
+427
+01:11:49,960 --> 01:11:51,999
+Li Xun: try to consider. Now I give you a hint.
+
+428
+01:11:52,110 --> 01:11:53,659
+Li Xun: Try to walk, okay?
+
+429
+01:11:53,810 --> 01:12:06,970
+Li Xun: Now I give you a little bit of a hint. You can consider YT equal to G function. G function equal to what? G function at this moment we try, consider it BT power 3.
+
+430
+01:12:07,190 --> 01:12:08,930
+Li Xun: Consider to do, okay?
+
+431
+01:12:10,690 --> 01:12:12,780
+Li Xun: Yo, don't worry, maybe you can…
+
+432
+01:12:13,310 --> 01:12:18,599
+Li Xun: maybe you cannot get the exact solution. We just discussed, okay? Once…
+
+433
+01:12:18,880 --> 01:12:21,490
+Li Xun: I give you this suggestion string and a hint.
+
+434
+01:12:21,760 --> 01:12:26,719
+Li Xun: may not be as good. You can give us your hint.
+
+435
+01:12:27,070 --> 01:12:29,249
+Li Xun: your solution, okay?
+
+436
+01:12:30,830 --> 01:12:32,090
+Li Xun: Try to walk.
+
+437
+01:12:58,150 --> 01:13:02,290
+Li Xun: This one is the tutorial question, okay? Try to walk.
+
+438
+01:13:02,560 --> 01:13:05,950
+Li Xun: Don't wait for my solution, try to consider, okay?
+
+439
+01:23:24,010 --> 01:23:33,549
+Li Xun: Corresponding to this problem, we conjecture is that, maybe if we conjecture is YT is GT,
+
+440
+01:23:34,130 --> 01:23:41,889
+Li Xun: XT… now, XT equal to is BT, so we further write down GT is…
+
+441
+01:23:42,000 --> 01:23:47,420
+Li Xun: BT. So, we conjuncture is BT… Sweet.
+
+442
+01:23:47,720 --> 01:23:49,190
+Li Xun: Okay, soap.
+
+443
+01:23:55,920 --> 01:23:58,090
+Li Xun: Oh, you can. It does not matter.
+
+444
+01:23:58,610 --> 01:24:05,769
+Li Xun: Okay, does not matter. So, now you can, using the several, use the different, use the conjuncture, it does not matter.
+
+445
+01:24:05,910 --> 01:24:13,010
+Li Xun: Okay. So… Now let's look at the partial G is the partial T equal to what?
+
+446
+01:24:13,180 --> 01:24:14,060
+Li Xun: It's yellow.
+
+447
+01:24:14,390 --> 01:24:15,400
+Li Xun: Okay.
+
+448
+01:24:15,600 --> 01:24:16,470
+Li Xun: Sorry.
+
+449
+01:24:20,790 --> 01:24:26,269
+Li Xun: Partial G, partial T equal to yellow. Partial G, partial…
+
+450
+01:24:27,380 --> 01:24:30,799
+Li Xun: X, actually, at this moment is what? 3?
+
+451
+01:24:32,120 --> 01:24:36,430
+Li Xun: For this one. Partial G, partial X squared is what?
+
+452
+01:24:36,540 --> 01:24:41,080
+Li Xun: x6… For this one? No problem.
+
+453
+01:24:41,500 --> 01:24:52,650
+Li Xun: Okay, so now let's look at… so DYT equal to what? Is D… GTXT… structured…
+
+454
+01:24:53,010 --> 01:25:10,469
+Li Xun: is DG what? TBT, okay? So, corresponding to the last formula, okay, last formula. Then, we consider etilemma, write down what is what? Write down is for this one. The 4 is the same. Partial G…
+
+455
+01:25:10,790 --> 01:25:12,640
+Li Xun: Pasha T.
+
+456
+01:25:12,970 --> 01:25:27,650
+Li Xun: DT plus partial G, partial X noun is dbt plus 1 over 2, partial G, partial X squared is… noun is what? DBT square.
+
+457
+01:25:27,740 --> 01:25:34,550
+Li Xun: Okay, why? Because currently, we direct to change X to BT. Okay, so…
+
+458
+01:25:34,720 --> 01:25:41,699
+Li Xun: Now, let's go on. So we get it for this one, you know what? The first one is yellow times DT, plus the
+
+459
+01:25:42,150 --> 01:25:55,280
+Li Xun: Second is BT and DBT, and for this one is what times 6BT, and times DT, no problem.
+
+460
+01:25:55,660 --> 01:25:56,450
+Li Xun: Okay.
+
+461
+01:25:56,670 --> 01:26:00,259
+Li Xun: So once we have for this, so we get year 3,
+
+462
+01:26:00,440 --> 01:26:08,159
+Li Xun: BT squared and dbt, and is what? 3BT is dt.
+
+463
+01:26:08,600 --> 01:26:12,239
+Li Xun: Okay, so now let's consider is that
+
+464
+01:26:12,610 --> 01:26:20,450
+Li Xun: the left-hand part. So we change this one to what? Changed this one to… is… D…
+
+465
+01:26:20,690 --> 01:26:23,290
+Li Xun: is what? Is a BT?
+
+466
+01:26:23,840 --> 01:26:29,949
+Li Xun: power 3 and equal to 3, BT and DBT.
+
+467
+01:26:30,050 --> 01:26:41,720
+Li Xun: plus 3BT, and DT… Okay, so, next stage is we consider what? We consider tech is that,
+
+468
+01:26:41,840 --> 01:26:42,890
+Li Xun: Interclo.
+
+469
+01:26:43,100 --> 01:26:44,250
+Li Xun: CLO.
+
+470
+01:26:44,530 --> 01:26:55,490
+Li Xun: to T, and changes this one DBS power 3, and 0 to T, 3B… S, and
+
+471
+01:26:55,710 --> 01:27:05,960
+Li Xun: D. B. S… and ZLO to T, B. S. D… S… It's okay? Yes.
+
+472
+01:27:10,450 --> 01:27:11,280
+Li Xun: Okay.
+
+473
+01:27:11,570 --> 01:27:17,950
+Li Xun: So, now, let's look at for the left-hand part, you could… oh, this here… oh, sorry.
+
+474
+01:27:19,330 --> 01:27:20,110
+Li Xun: Yep.
+
+475
+01:27:21,970 --> 01:27:22,780
+Li Xun: Boy.
+
+476
+01:27:23,710 --> 01:27:30,060
+Li Xun: So, this one also involved 3, it's okay. So, now let's look at it for this one, is…
+
+477
+01:27:31,590 --> 01:27:42,120
+Li Xun: S is T0, okay? So, this part we cannot do is… so, this one is 3, Oh, sorry.
+
+478
+01:27:43,640 --> 01:27:47,489
+Li Xun: is a BS, and a DBS…
+
+479
+01:27:47,850 --> 01:27:54,280
+Li Xun: plus 3, and 0 to T is the WSDS,
+
+480
+01:27:55,120 --> 01:28:13,200
+Li Xun: Okay, BSDS. Okay, so now let's look at, for left-hand part equal to is what? Bt power 3 be 0 for this one. So, this one is 30TBSDBS,
+
+481
+01:28:13,710 --> 01:28:25,099
+Li Xun: and 3, 0 to T, BSDS, okay? So, then we know this is what equal to zero. Okay.
+
+482
+01:28:25,350 --> 01:28:30,869
+Li Xun: So, now, we want SOT is BT,
+
+483
+01:28:31,150 --> 01:28:42,400
+Li Xun: power 3 and 0 to T, BS, DS is BS, is 0 to T, BS and DS. Okay, the final
+
+484
+01:28:42,550 --> 01:28:48,789
+Li Xun: we rearrange, so we get 0 to T is BSDS…
+
+485
+01:28:48,930 --> 01:28:56,590
+Li Xun: Okay? Mu is what? This one, two… user that, T-Pop user.
+
+486
+01:28:56,720 --> 01:29:08,820
+Li Xun: Right hand move is for what? Move this part to left hand, okay? Then we also change right hand and left hand, so we get is 1 third…
+
+487
+01:29:08,980 --> 01:29:14,209
+Li Xun: is BT3 minus 02TBSDS.
+
+488
+01:29:14,390 --> 01:29:15,190
+Li Xun: Okay.
+
+489
+01:29:15,570 --> 01:29:23,530
+Li Xun: So, once during the exam, we ask you to prove, okay, Okay, so…
+
+490
+01:29:23,740 --> 01:29:24,510
+Li Xun: We…
+
+491
+01:29:28,900 --> 01:29:33,610
+Li Xun: other class, by itself, and, rearrange. Okay, rearrange.
+
+492
+01:29:37,460 --> 01:29:38,250
+Li Xun: Okay.
+
+493
+01:29:38,510 --> 01:29:44,059
+Li Xun: So, once we have for this, now let's go on. Let's look at yesterday.
+
+494
+01:29:44,730 --> 01:29:47,780
+Li Xun: Another question.
+
+495
+01:29:49,080 --> 01:29:50,969
+Li Xun: Another question is what?
+
+496
+01:29:51,180 --> 01:30:10,440
+Li Xun: is X size 4.5, okay? We want to prove this more general case, okay, more general case. So, now we want to prove for this one is the first one we can get for this, okay, then we just go on. Okay, so this one using eto lemma, we can get, okay?
+
+497
+01:30:10,640 --> 01:30:15,449
+Li Xun: So… Let's go on.
+
+498
+01:30:18,780 --> 01:30:20,879
+Li Xun: This one is,
+
+499
+01:30:24,900 --> 01:30:26,839
+Li Xun: we consider.
+
+500
+01:30:27,460 --> 01:30:31,449
+Li Xun: is, excise 4.5.
+
+501
+01:30:32,390 --> 01:30:33,670
+Li Xun: 4.5.
+
+502
+01:30:42,930 --> 01:30:43,840
+Li Xun: Okay.
+
+503
+01:30:44,200 --> 01:30:48,060
+Li Xun: So now let's look at the question. The question is for what?
+
+504
+01:30:48,290 --> 01:30:53,510
+Li Xun: The question is, we want to conjecture
+
+505
+01:30:53,740 --> 01:31:00,619
+Li Xun: proof for this one. So, first one, we should consider what is BT, and
+
+506
+01:31:01,470 --> 01:31:17,789
+Li Xun: BT, power K. Just now, we considered it what? Power 3, okay? Now we go on, consider more general case, okay, more general case. So, how to go ahead? So, more general case, we set YT is G,
+
+507
+01:31:17,880 --> 01:31:26,459
+Li Xun: TXT and GT is BT is BT power K.
+
+508
+01:31:27,160 --> 01:31:46,860
+Li Xun: idea fully the same. So, just now you know how to do. Now we also, using the same idea, go ahead. So, partial G, partial T equal to what? Equal to yellow. Partial G, partial X equal to what? K, BT, and K minus 1.
+
+509
+01:31:46,970 --> 01:31:53,149
+Li Xun: Partial G, partial X second naught, equal to what? K and K minus 1?
+
+510
+01:31:53,260 --> 01:32:02,529
+Li Xun: and BTK minus 2. Also, we suppose, at this very moment, we suppose this K, actually, we take is what?
+
+511
+01:32:02,660 --> 01:32:05,770
+Li Xun: does… Meeting.
+
+512
+01:32:06,160 --> 01:32:18,509
+Li Xun: idea, not you consider you send lots of the… is the meaningless the case, okay? So just focus on is the, thing… we take the simple way, okay? Don't consider the so complex, okay?
+
+513
+01:32:19,110 --> 01:32:27,929
+Li Xun: So, now, let's go on. We… let's look at DYT is the same. We consider 1… oh, sorry?
+
+514
+01:32:28,330 --> 01:32:37,930
+Li Xun: Yes, we consider partial G, partial T, DT plus partial G, partial X D, What?
+
+515
+01:32:38,160 --> 01:32:47,180
+Li Xun: is X partial G partial X. Second order is what? 1 over 2 is the X
+
+516
+01:32:47,740 --> 01:32:53,800
+Li Xun: For this one. So, now we know we set it what? We set X equal to the
+
+517
+01:32:54,280 --> 01:33:06,080
+Li Xun: BT. Okay. So… partial G, partial T, DT plus partial G, partial X D, BT.
+
+518
+01:33:06,850 --> 01:33:13,710
+Li Xun: Partial G, partial X… is DBT squared.
+
+519
+01:33:14,330 --> 01:33:20,540
+Li Xun: Okay, dbt squared. Also, we know the dbt squared equal to is what? DT.
+
+520
+01:33:21,180 --> 01:33:22,889
+Li Xun: Okay, this is equal to that.
+
+521
+01:33:23,590 --> 01:33:27,490
+Li Xun: DT. Okay, so, now let's go on.
+
+522
+01:33:27,740 --> 01:33:30,860
+Li Xun: Now we know this is zero times DT.
+
+523
+01:33:31,060 --> 01:33:37,260
+Li Xun: This one is, what, K, B, T… power k minus 1.
+
+524
+01:33:37,480 --> 01:33:43,010
+Li Xun: dbt plus 1 over 2 for this one is what? K?
+
+525
+01:33:43,750 --> 01:33:49,000
+Li Xun: and K minus 1… Okay? Use a BT.
+
+526
+01:33:49,480 --> 01:33:51,570
+Li Xun: K minus 2.
+
+527
+01:33:51,820 --> 01:33:52,720
+Li Xun: DT…
+
+528
+01:33:53,880 --> 01:34:05,589
+Li Xun: Okay? So, now, let's look at left hand. Left hand equal to what? Left hand equal to this one, okay? So, D…
+
+529
+01:34:06,310 --> 01:34:13,970
+Li Xun: ET power k, Equal to what? Equal to K is BT.
+
+530
+01:34:14,230 --> 01:34:17,410
+Li Xun: K minus 1 dBT.
+
+531
+01:34:17,690 --> 01:34:24,959
+Li Xun: And 1 over 2 is K K minus 1, Here's a BT.
+
+532
+01:34:25,780 --> 01:34:27,390
+Li Xun: K minus 2.
+
+533
+01:34:28,020 --> 01:34:28,890
+Li Xun: DT?
+
+534
+01:34:30,010 --> 01:34:31,350
+Li Xun: Okay, DT.
+
+535
+01:34:38,010 --> 01:34:41,610
+Li Xun: Okay, now let's go back to C. What is our target question?
+
+536
+01:34:41,730 --> 01:34:52,819
+Li Xun: Our target is for what? Our target, a little bit differently, just now we talk about. Just now we talked about, just consider, is BT power 3. Now, not.
+
+537
+01:34:52,940 --> 01:35:07,740
+Li Xun: except it is considered BT power k, we also involve what? Expectation. Now we consider this model is what? Is beta k of t is equal to expected value of
+
+538
+01:35:07,860 --> 01:35:09,140
+Li Xun: B. T.
+
+539
+01:35:09,470 --> 01:35:12,580
+Li Xun: Power can… So this is so different.
+
+540
+01:35:12,810 --> 01:35:25,109
+Li Xun: Okay, so now we introduced yesterday that for this part is what we focus on for here. Yes, expected. Okay, so, now, how to…
+
+541
+01:35:25,320 --> 01:35:44,630
+Li Xun: get for this. Also, we just now say, we consider at this very moment, the K just is what does make sense. So we pick up K is greater than or equal to 2, okay? So you don't care. Many lots of the does not make sense, the case. We just consider makes sense, okay? So now let's go ahead.
+
+542
+01:35:46,970 --> 01:36:00,160
+Li Xun: So, once we have for this, we're using our methodology again, okay? So, the previous we talked about the methodology is for what? It's 0 to T is D,
+
+543
+01:36:00,330 --> 01:36:02,310
+Li Xun: B… S.
+
+544
+01:36:02,640 --> 01:36:06,010
+Li Xun: K… Okay? This one?
+
+545
+01:36:06,270 --> 01:36:15,910
+Li Xun: is what? Is yellow to… T is a K, is BT is a K power. D BT.
+
+546
+01:36:16,060 --> 01:36:20,900
+Li Xun: 1 over 2 is k, and a K minus 1…
+
+547
+01:36:21,570 --> 01:36:27,130
+Li Xun: and 0 to T. For here, we change this one to use the S.
+
+548
+01:36:27,360 --> 01:36:30,690
+Li Xun: So, you don't write down anything, you're just as a folks.
+
+549
+01:36:31,800 --> 01:36:34,070
+Li Xun: is a white… Screen.
+
+550
+01:36:34,460 --> 01:36:48,720
+Li Xun: Don't write on anything. Don't write down anything. I'm very angry. I already talked to you. My teacher asked me to write down Senseing. I'm very angry. At that moment, I risk my hand. I talk to him. That is not good teaching methodology.
+
+551
+01:36:48,840 --> 01:36:54,659
+Li Xun: already clear. Why? Once you also write nonsensei, also, you cannot listen to teacher. What?
+
+552
+01:36:54,770 --> 01:36:57,340
+Li Xun: Talk about important key point.
+
+553
+01:36:58,130 --> 01:37:00,470
+Li Xun: Do I understand? Okay.
+
+554
+01:37:00,580 --> 01:37:01,900
+Li Xun: I will help you.
+
+555
+01:37:02,100 --> 01:37:04,820
+Li Xun: do… Teaching note.
+
+556
+01:37:05,070 --> 01:37:07,090
+Li Xun: You just listen, okay?
+
+557
+01:37:07,590 --> 01:37:11,960
+Li Xun: Don't write down anything, listen to me, key point. This is a final exam paper.
+
+558
+01:37:13,980 --> 01:37:19,119
+Li Xun: the SK minus to the S It's no problem.
+
+559
+01:37:19,270 --> 01:37:20,050
+Li Xun: Okay.
+
+560
+01:37:20,470 --> 01:37:21,450
+Li Xun: Very good.
+
+561
+01:37:22,100 --> 01:37:23,470
+Li Xun: Next, the stage.
+
+562
+01:37:23,600 --> 01:37:27,019
+Li Xun: We want to consider expectation, okay?
+
+563
+01:37:27,130 --> 01:37:42,659
+Li Xun: On or before we consider expectation, we go on for this part. So, for this part, you know, we can get what? For this part, we can, yes, get for this information, we can get, yes, BT.
+
+564
+01:37:42,920 --> 01:37:47,440
+Li Xun: K, okay? Why? BZLOK equal to what?
+
+565
+01:37:47,730 --> 01:37:56,739
+Li Xun: equal to yellow. So, we just leave is BTK, okay? So, now is we just get is what?
+
+566
+01:37:57,300 --> 01:37:58,780
+Li Xun: It's just a cat for this one.
+
+567
+01:37:59,060 --> 01:38:00,010
+Li Xun: Yes.
+
+568
+01:38:00,690 --> 01:38:04,160
+Li Xun: the T… Power kit.
+
+569
+01:38:05,170 --> 01:38:05,950
+Li Xun: Okay.
+
+570
+01:38:06,080 --> 01:38:09,879
+Li Xun: Then, for this part, We cannot do.
+
+571
+01:38:10,170 --> 01:38:11,080
+Li Xun: Fantasy.
+
+572
+01:38:11,510 --> 01:38:14,179
+Li Xun: But it does not matter.
+
+573
+01:38:14,550 --> 01:38:15,520
+Li Xun: Nope.
+
+574
+01:38:15,780 --> 01:38:22,470
+Li Xun: But for this one, 0 to T, 1 over K… Okay.
+
+575
+01:38:22,590 --> 01:38:23,570
+Li Xun: Don't worry.
+
+576
+01:38:24,050 --> 01:38:24,740
+Li Xun: Okay.
+
+577
+01:38:25,310 --> 01:38:26,920
+Li Xun: is K.
+
+578
+01:38:27,160 --> 01:38:31,359
+Li Xun: and a K minus 1, and a BSK
+
+579
+01:38:32,340 --> 01:38:35,169
+Li Xun: Yes, don't write down anything. Don't write down anything.
+
+580
+01:38:35,700 --> 01:38:39,530
+Li Xun: Okay, don't lie anything. Now, we talk about two…
+
+581
+01:38:39,650 --> 01:38:48,780
+Li Xun: alternative approach. So, maybe the idea is different, but final result is said. Now, let me introduce first one. Okay.
+
+582
+01:38:50,070 --> 01:38:53,810
+Li Xun: Just now, what do we want to talk about? We want to talk about
+
+583
+01:38:53,960 --> 01:39:03,229
+Li Xun: is expectation, okay? Key point, expectation. None is what? None we get for this one. None your C is what?
+
+584
+01:39:03,720 --> 01:39:10,139
+Li Xun: For this one. So, I can add, is what expectation is, okay? So, this is the first approach.
+
+585
+01:39:10,910 --> 01:39:16,340
+Li Xun: First approach, we add expectation, so we get BT.
+
+586
+01:39:16,860 --> 01:39:22,020
+Li Xun: Okay, okay? So, this one is for yellow.
+
+587
+01:39:22,150 --> 01:39:24,480
+Li Xun: for BSK…
+
+588
+01:39:25,040 --> 01:39:41,820
+Li Xun: DBS, okay? So, now you will see. This one, we follow another idea as a modeling gear. At this moment, you don't care. Once you see, once we take expectation, suppose this semester, we just consider, once you see this gear, okay.
+
+589
+01:39:41,890 --> 01:39:46,170
+Li Xun: is DBT, ask your tech expectation equal to what?
+
+590
+01:39:46,480 --> 01:39:48,429
+Li Xun: Igor was yellow, your class made the same.
+
+591
+01:39:49,470 --> 01:40:00,560
+Li Xun: Okay, so… now, but for… that one is… is what? Is equal to 0, but this is not equal to zero. This is K, K minus 1,
+
+592
+01:40:00,820 --> 01:40:02,460
+Li Xun: And the BS.
+
+593
+01:40:03,270 --> 01:40:04,680
+Li Xun: 2. Yes.
+
+594
+01:40:05,000 --> 01:40:07,340
+Li Xun: Okay? The first attempt.
+
+595
+01:40:08,070 --> 01:40:12,619
+Li Xun: Don't write on anything. Don't write on anything, okay? Very important, okay?
+
+596
+01:40:15,030 --> 01:40:16,320
+Li Xun: This is yellow.
+
+597
+01:40:17,130 --> 01:40:22,260
+Li Xun: This is yellow, but second is not yellow. Why? Second here is yes.
+
+598
+01:40:22,490 --> 01:40:28,580
+Li Xun: The first one is, is yellow. It's just a C. Maybe D, BS.
+
+599
+01:40:28,820 --> 01:40:30,360
+Li Xun: Ask your tech interlock.
+
+600
+01:40:30,840 --> 01:40:32,569
+Li Xun: You're directly right down the yellow.
+
+601
+01:40:32,730 --> 01:40:37,009
+Li Xun: One stack expectation, but another one is not. The S part.
+
+602
+01:40:37,240 --> 01:40:40,250
+Li Xun: You take expectation not equal to zero. What happened?
+
+603
+01:40:40,540 --> 01:40:47,040
+Li Xun: Next stage, okay? Let's look at what happened. This is important, okay? This is important, okay?
+
+604
+01:40:47,800 --> 01:40:54,050
+Li Xun: So… Now, let's go ahead. So, this one, E… sorry.
+
+605
+01:40:55,040 --> 01:40:58,229
+Li Xun: Listen to me, just listen to me, don't write on anything, okay?
+
+606
+01:41:00,570 --> 01:41:08,950
+Li Xun: Okay, so, this part, noun is what? Nothing? Okay. So, we get a signal for this one.
+
+607
+01:41:09,310 --> 01:41:18,760
+Li Xun: is… 1 over 2… K and a K minus 1, E BS.
+
+608
+01:41:20,460 --> 01:41:21,490
+Li Xun: For this one.
+
+609
+01:41:21,920 --> 01:41:22,850
+Li Xun: DS.
+
+610
+01:41:23,270 --> 01:41:26,350
+Li Xun: Okay, now you will find the important is what?
+
+611
+01:41:26,460 --> 01:41:28,209
+Li Xun: This is expectation.
+
+612
+01:41:28,690 --> 01:41:30,790
+Li Xun: This expectation now is what?
+
+613
+01:41:31,520 --> 01:41:40,820
+Li Xun: to here. Why? Because… you can cross integral, because expectation is what? Linear operator.
+
+614
+01:41:40,920 --> 01:41:45,210
+Li Xun: In the globe also is a linear operator, so you can exchange.
+
+615
+01:41:45,460 --> 01:41:56,469
+Li Xun: Okay? Once you exchange it, you know K and K minus 1 is deterministic. So, K and K-1 before is the before is E.
+
+616
+01:41:56,610 --> 01:42:07,509
+Li Xun: So, what is uncertain? Uncertained just is a BSK minus 2. So, why we write down for this one? Okay, so now let's go on.
+
+617
+01:42:08,230 --> 01:42:17,360
+Li Xun: Just now, we say, our target is what? Our target, we say, this one is BK. Okay, BK.
+
+618
+01:42:19,740 --> 01:42:28,540
+Li Xun: KT, okay, so beta KT. So, of course, for here, we can write down, is beta KT
+
+619
+01:42:29,520 --> 01:42:38,460
+Li Xun: 0 to t, 1 over 2, K and K minus 1, so for here, we can write down is beta
+
+620
+01:42:38,580 --> 01:42:41,509
+Li Xun: K minus 2S.
+
+621
+01:42:41,890 --> 01:42:42,760
+Li Xun: DS.
+
+622
+01:42:43,670 --> 01:42:45,760
+Li Xun: It's clear. So now I prove.
+
+623
+01:42:45,870 --> 01:42:49,120
+Li Xun: The beginning, the first important part.
+
+624
+01:42:49,750 --> 01:42:52,140
+Li Xun: Okay, so I pollute for this what?
+
+625
+01:42:52,310 --> 01:43:03,419
+Li Xun: Okay, so now we can rearrange, okay, we can rearrange to what? We can further rearrange beta, maybe the K, and also is…
+
+626
+01:43:03,600 --> 01:43:12,070
+Li Xun: move K and k minus 1 integral for this one, beta k minus 2S Yes.
+
+627
+01:43:12,790 --> 01:43:14,120
+Li Xun: Okay, yes.
+
+628
+01:43:14,770 --> 01:43:15,650
+Li Xun: Soap.
+
+629
+01:43:16,270 --> 01:43:17,410
+Li Xun: Night.
+
+630
+01:43:18,000 --> 01:43:18,970
+Li Xun: Send you.
+
+631
+01:43:19,260 --> 01:43:20,699
+Li Xun: Then I change it.
+
+632
+01:43:22,150 --> 01:43:23,100
+Audio shared by Li Xun: Idea.
+
+633
+01:43:23,380 --> 01:43:25,519
+Li Xun: This is what? Idea one.
+
+634
+01:43:25,670 --> 01:43:29,250
+Li Xun: Now I give you idea 2. Okay, this is important.
+
+635
+01:43:29,520 --> 01:43:32,369
+Li Xun: Now, let's together look at idea 2.
+
+636
+01:43:34,190 --> 01:43:35,949
+Li Xun: Idea 2 is to hear.
+
+637
+01:43:36,520 --> 01:43:38,589
+Li Xun: Okay, idea 2 is what?
+
+638
+01:43:39,070 --> 01:43:48,789
+Li Xun: I remove all this one. Later I will give you for this one corresponding to my picture. So, now I remove for this part.
+
+639
+01:43:49,100 --> 01:43:57,079
+Li Xun: Maybe… during the mid-turn. Oh, sorry, not mid-turn, with no second mid-turn. We just did the final, okay?
+
+640
+01:43:57,080 --> 01:44:14,330
+Li Xun: The final, you may not be using for this the integral idea to consider expectation. Once without expectation, you can using just now with discussion. Once we tell you what, we involved the variance and involved the expectation, you can take another
+
+641
+01:44:14,710 --> 01:44:25,300
+Li Xun: Easy way, okay? Another easy way is we corresponding to this one, important, okay? So, once, next time, we meet for this one.
+
+642
+01:44:25,660 --> 01:44:29,460
+Li Xun: The sensing is D… BS.
+
+643
+01:44:29,640 --> 01:44:30,760
+Li Xun: Equals yellow.
+
+644
+01:44:31,740 --> 01:44:34,319
+Li Xun: It's okay. This is equal to zero.
+
+645
+01:44:35,000 --> 01:44:41,769
+Li Xun: Please remember for this one. This is very important, okay? Once you remember for this, noun, just noun is what?
+
+646
+01:44:41,880 --> 01:44:46,710
+Li Xun: Just now we consider… first, we take integral, then we take expectation. Now.
+
+647
+01:44:46,890 --> 01:44:59,109
+Li Xun: we corresponding to a different equation. We first take what? Expectation. Then we take integral, okay? So, now our idea, the second idea is for what? We take expectation.
+
+648
+01:45:00,490 --> 01:45:01,600
+Li Xun: Okay.
+
+649
+01:45:03,640 --> 01:45:07,559
+Li Xun: This is what this expectation is for what?
+
+650
+01:45:07,690 --> 01:45:12,579
+Li Xun: This expectation is corresponding to expectation D.
+
+651
+01:45:13,090 --> 01:45:14,550
+Li Xun: BTK.
+
+652
+01:45:15,370 --> 01:45:18,009
+Li Xun: So you will ask me, is this equal to yellow? No.
+
+653
+01:45:18,450 --> 01:45:20,069
+Li Xun: We just announced, say, what?
+
+654
+01:45:20,380 --> 01:45:22,210
+Li Xun: We just announced C.
+
+655
+01:45:22,610 --> 01:45:25,810
+Li Xun: Any sensing is DBT.
+
+656
+01:45:27,320 --> 01:45:32,470
+Li Xun: equal to zero. We did not say is what D BT.
+
+657
+01:45:32,580 --> 01:45:33,710
+Li Xun: power key.
+
+658
+01:45:34,150 --> 01:45:37,810
+Li Xun: Expectation equal to… Zeal or not.
+
+659
+01:45:38,310 --> 01:45:41,870
+Li Xun: A clear, this power is what? This is just a power line.
+
+660
+01:45:42,650 --> 01:45:50,530
+Li Xun: Okay, just power wet. So… Now let's look at… Glockhead for this one.
+
+661
+01:45:52,200 --> 01:45:56,400
+Li Xun: So… Now we take expectation, okay? K?
+
+662
+01:45:56,510 --> 01:46:00,029
+Li Xun: And, BTK minus 1D.
+
+663
+01:46:01,100 --> 01:46:02,030
+Li Xun: BT?
+
+664
+01:46:02,420 --> 01:46:08,950
+Li Xun: Okay? Plus expectation. 1 minus K and a K minus 1,
+
+665
+01:46:09,110 --> 01:46:13,310
+Li Xun: And that BT is K minus 2.
+
+666
+01:46:13,530 --> 01:46:18,690
+Li Xun: DT… It's okay. So, now we take, what, expectation?
+
+667
+01:46:19,110 --> 01:46:19,980
+Li Xun: post…
+
+668
+01:46:20,290 --> 01:46:29,189
+Li Xun: part. It's the left hand and a right hand. Just take expectation. Now, we know this one equal to zero. Why? Just now we say it's
+
+669
+01:46:29,810 --> 01:46:31,879
+Li Xun: any sensing D.
+
+670
+01:46:32,750 --> 01:46:33,630
+Li Xun: BT.
+
+671
+01:46:33,740 --> 01:46:34,680
+Li Xun: Okay?
+
+672
+01:46:34,800 --> 01:46:37,499
+Li Xun: You'll see this one, so, equal to zero.
+
+673
+01:46:37,940 --> 01:46:43,939
+Li Xun: Are really clear, remember, for this one. So now, this one is equal to zero for this one.
+
+674
+01:46:44,750 --> 01:46:47,839
+Li Xun: Okay? This one equal to yellow, so…
+
+675
+01:46:48,410 --> 01:47:01,460
+Li Xun: During the exam, once you meet the similar case, ask you to consider the expectation in the result, so you can use this methodology to go ahead. So, now we know this one is what?
+
+676
+01:47:02,240 --> 01:47:11,160
+Li Xun: The differential and integral also is what? Is a linear operator, so you can get… For this one.
+
+677
+01:47:11,820 --> 01:47:13,540
+Li Xun: Okay, this means what?
+
+678
+01:47:13,690 --> 01:47:23,989
+Li Xun: Expectation is a linear operator. Differentiation also is a linear operator. Linear operator, you can exchange. Non-linear operator, you cannot exchange it.
+
+679
+01:47:24,120 --> 01:47:28,320
+Li Xun: Now, let me introduce, you know, summation.
+
+680
+01:47:29,170 --> 01:47:37,680
+Li Xun: 1, and a summation 2, this is a linear. Okay, XIJ, so you can… Sumation.
+
+681
+01:47:39,680 --> 01:47:40,530
+Li Xun: Okay.
+
+682
+01:47:41,060 --> 01:47:53,079
+Li Xun: You know, first you calculate I, second you calculate J, and first you calculate J, second you calculate I, the summation equivalent, okay? So what is nonlinear operator? Now I give you an idea.
+
+683
+01:47:53,900 --> 01:47:55,550
+Li Xun: Okay, now I give you an idea.
+
+684
+01:47:57,530 --> 01:48:00,030
+Li Xun: Nonlinear, you cannot exchange.
+
+685
+01:48:00,860 --> 01:48:05,320
+Li Xun: For example, For example, okay?
+
+686
+01:48:05,490 --> 01:48:07,240
+Li Xun: Now let's look at the example.
+
+687
+01:48:07,950 --> 01:48:08,930
+Li Xun: Yes, sir.
+
+688
+01:48:09,750 --> 01:48:17,339
+Li Xun: log X square, is equal to log X squared.
+
+689
+01:48:17,510 --> 01:48:23,929
+Li Xun: Okay, so we have the two functions. One function is what? Log X function.
+
+690
+01:48:24,220 --> 01:48:26,799
+Li Xun: Okay? FX function.
+
+691
+01:48:27,020 --> 01:48:35,280
+Li Xun: Second, the GX function is square. Now, we want to talk about If… Is Jixx?
+
+692
+01:48:35,620 --> 01:48:39,060
+Li Xun: equal to… is G.
+
+693
+01:48:39,580 --> 01:48:40,700
+Li Xun: FX.
+
+694
+01:48:41,900 --> 01:48:45,250
+Li Xun: ironically, The same or not the same.
+
+695
+01:48:46,200 --> 01:48:47,709
+Li Xun: Equal, not equal.
+
+696
+01:48:48,140 --> 01:48:56,499
+Li Xun: Okay, so, after class, you don't always use what? Sumation, and a very simple way.
+
+697
+01:48:56,680 --> 01:49:03,180
+Li Xun: After this class, I sincerely suggest you should learn a little bit of real analysis.
+
+698
+01:49:03,380 --> 01:49:09,960
+Li Xun: Otherwise… You may not can during the master Period.
+
+699
+01:49:10,140 --> 01:49:20,780
+Li Xun: improve your fundamental mathematical knowledge. Once you have the real fundamental, is the real analysis for this information, then you can easily understand
+
+700
+01:49:21,090 --> 01:49:22,299
+Li Xun: our discussion.
+
+701
+01:49:22,520 --> 01:49:23,529
+Li Xun: Are you clear?
+
+702
+01:49:23,770 --> 01:49:36,259
+Li Xun: Otherwise, you may not understand why I changed this operate. Now, why I say change? Because this is linear. Once during the exam, I give you nonlinear operate. Can you exchange it?
+
+703
+01:49:38,150 --> 01:49:39,320
+Li Xun: So, understand.
+
+704
+01:49:39,970 --> 01:49:44,569
+Li Xun: So, now you will say, oh, I… I know.
+
+705
+01:49:44,710 --> 01:50:03,260
+Li Xun: Now I find out, you're this model, always I can change. Why is it linear? Why you say linear? Of course, during the exam, I very easily give you nonlinear operator. For example, you say none is what is the differential and expectation? You always use the linear operator, so…
+
+706
+01:50:04,310 --> 01:50:07,710
+Li Xun: I never care, the real analysis I directly use now.
+
+707
+01:50:08,460 --> 01:50:10,610
+Li Xun: you should care. Why?
+
+708
+01:50:11,050 --> 01:50:19,929
+Li Xun: During the exam, one student gave our question is 1 over X Okay, can you?
+
+709
+01:50:20,250 --> 01:50:23,599
+Li Xun: Ruite is… For this one?
+
+710
+01:50:24,980 --> 01:50:26,000
+Li Xun: Yes or no?
+
+711
+01:50:26,520 --> 01:50:30,569
+Li Xun: No. Why? 1 over X is a nonlinear operator.
+
+712
+01:50:30,670 --> 01:50:34,319
+Li Xun: Expectation is linear. Linear and then non-linear.
+
+713
+01:50:34,730 --> 01:50:36,369
+Li Xun: URLC is this equivalent?
+
+714
+01:50:37,610 --> 01:50:38,810
+Li Xun: Not equivalent.
+
+715
+01:50:39,170 --> 01:50:40,040
+Li Xun: Okay.
+
+716
+01:50:40,600 --> 01:50:44,169
+Li Xun: So, during the final exam, you will see this.
+
+717
+01:50:44,430 --> 01:50:45,789
+Li Xun: are really clear.
+
+718
+01:50:45,960 --> 01:50:54,320
+Li Xun: So you cannot say, oh, naturally, the teacher always gives us… it's a very simple case. We always can change it now?
+
+719
+01:50:54,520 --> 01:51:05,229
+Li Xun: Now, I mention you, may not. Maybe you should be careful. Before you want to exchange operator, you should consider, this is linear or nonlinear.
+
+720
+01:51:05,330 --> 01:51:16,549
+Li Xun: Now we know the first 10 is yellow, the second 10, we can do what? Second 10, now we know DT is deterministic. So what is uncertain? Uncertain is BT.
+
+721
+01:51:16,770 --> 01:51:25,780
+Li Xun: K2, okay? So, now we can write down K under K, minus 1E, is what?
+
+722
+01:51:26,630 --> 01:51:27,500
+Li Xun: BT.
+
+723
+01:51:28,210 --> 01:51:29,719
+Li Xun: K minus 2.
+
+724
+01:51:30,520 --> 01:51:31,280
+Li Xun: DT.
+
+725
+01:51:31,440 --> 01:51:32,260
+Li Xun: Okay.
+
+726
+01:51:32,770 --> 01:51:34,119
+Li Xun: No, we just announced…
+
+727
+01:51:34,370 --> 01:51:42,780
+Li Xun: So, differently, just now, you know what? We first, our fundamental idea, we talk about, consider integral first, then we consider expectation.
+
+728
+01:51:42,950 --> 01:52:00,010
+Li Xun: Now I say, we can approach. Our second approach is what? We consider direct front as the differential equation. We first consider expectation, then we consider integral. Okay, then we can get the same result. Now, let's go ahead. Okay, so…
+
+729
+01:52:00,530 --> 01:52:04,170
+Li Xun: Let's look at for this information. So…
+
+730
+01:52:04,370 --> 01:52:14,120
+Li Xun: Now we get for this, can we take is the integral? Yes, of course. So, integral 0 to t, yes. Now is D is E,
+
+731
+01:52:16,020 --> 01:52:18,430
+Li Xun: B. S. K.
+
+732
+01:52:18,820 --> 01:52:33,610
+Li Xun: change it to this one. And for here, we also consider 1 over 2 is K, and K minus 1, then we consider 0 to T is expectation is BS
+
+733
+01:52:33,910 --> 01:52:38,689
+Li Xun: K minus 2… And… yes. Okay.
+
+734
+01:52:38,790 --> 01:52:43,409
+Li Xun: So… Now, first let's look at the left hand.
+
+735
+01:52:43,540 --> 01:52:50,770
+Li Xun: Okay, so for our left hand, we know if this one is B, TK.
+
+736
+01:52:51,010 --> 01:52:56,280
+Li Xun: minus E… B… Zealog.
+
+737
+01:52:56,390 --> 01:52:57,890
+Li Xun: K, DT.
+
+738
+01:52:58,300 --> 01:53:03,690
+Li Xun: So… For our… for the right-hand part, do not change, okay?
+
+739
+01:53:03,980 --> 01:53:08,670
+Li Xun: K minus 1, CLO to T, E is B.
+
+740
+01:53:09,000 --> 01:53:18,940
+Li Xun: S is KSDS, okay? So, from left-hand part, we know what is for this one. This equal to yellow. So, cancel.
+
+741
+01:53:19,520 --> 01:53:23,409
+Li Xun: Okay? Cancer. Then we look at, for this part.
+
+742
+01:53:23,640 --> 01:53:29,560
+Li Xun: What is for this part? This, just now, we have the definition, is what?
+
+743
+01:53:29,970 --> 01:53:30,920
+Li Xun: For this one.
+
+744
+01:53:31,280 --> 01:53:38,330
+Li Xun: Beta K, okay? So, now let's go on. We have what? This is a beta KT.
+
+745
+01:53:38,610 --> 01:53:49,309
+Li Xun: equal to 1 over 2K, and k minus is yellow to t. This one is… another one also is beta, is K minus 2S
+
+746
+01:53:49,870 --> 01:53:52,570
+Li Xun: DS. Okay, now you'll see.
+
+747
+01:53:52,700 --> 01:54:06,369
+Li Xun: The second approach to get for the same result during the exam, which methodology is easy for you, you can choose which one, okay? So, we have the no
+
+748
+01:54:06,690 --> 01:54:08,130
+Li Xun: Fundamental, that…
+
+749
+01:54:08,360 --> 01:54:15,559
+Li Xun: Fix the methodology asks you to do. So, you can take the many, many ways, just that goes too long, that's all.
+
+750
+01:54:15,870 --> 01:54:16,700
+Li Xun: Okay.
+
+751
+01:54:17,010 --> 01:54:20,330
+Li Xun: We do not ask you to use a one-way to-do.
+
+752
+01:54:20,430 --> 01:54:22,250
+Li Xun: So many ways. Okay.
+
+753
+01:54:23,160 --> 01:54:27,489
+Li Xun: Okay, now take a 5 minutes break, then come back. Go on, it's okay.
+
+754
+01:55:11,400 --> 01:55:15,099
+Li Xun: What type of… Whatever I took a kid anymore.
+
+755
+01:55:34,490 --> 01:55:35,190
+Li Xun: Huh.
+
+756
+01:55:35,700 --> 01:55:42,140
+Li Xun: work account, hide underneath the… It's a meme.
+
+757
+01:56:06,570 --> 01:56:14,010
+Li Xun: Okay?
+
+758
+01:58:19,050 --> 01:58:19,950
+Li Xun: Excited.
+
+759
+01:58:21,310 --> 01:58:23,009
+Li Xun: Oh, you're one of them, Mrs.
+
+760
+01:58:23,720 --> 01:58:24,919
+Li Xun: Good, good gentleman.
+
+761
+01:58:25,650 --> 01:58:27,530
+Li Xun: Did you turn down a question?
+
+762
+01:58:32,770 --> 01:58:34,340
+Li Xun: Tonight.
+
+763
+01:58:39,860 --> 01:58:40,720
+Li Xun: What's beautiful.
+
+764
+01:58:43,540 --> 01:58:45,809
+Li Xun: Oh, yeah, we got bottom tilt.
+
+765
+01:58:48,370 --> 01:58:49,500
+Li Xun: Oh, totally.
+
+766
+01:59:01,730 --> 01:59:02,449
+Li Xun: This would be.
+
+767
+01:59:08,640 --> 01:59:09,380
+Li Xun: Oh, thank you.
+
+768
+01:59:30,160 --> 01:59:40,829
+Li Xun: For the other part.
+
+769
+01:59:41,330 --> 01:59:48,350
+Li Xun: Remember.
+
+770
+01:59:53,710 --> 01:59:55,440
+Li Xun: eater for me.
+
+771
+01:59:55,790 --> 02:00:08,630
+Li Xun: imaginary of partial G, partial T, partial G, partial X, partial G, partial X, the second part.
+
+772
+02:00:09,030 --> 02:00:18,490
+Li Xun: In fact, pure.
+
+773
+02:00:18,650 --> 02:00:19,490
+Li Xun: Okay.
+
+774
+02:00:47,650 --> 02:00:50,499
+Li Xun: It's actually a joke.
+
+775
+02:01:21,590 --> 02:01:37,109
+Li Xun: Okay. Now, let's go ahead, okay? Just now we discussed is a recursive equation. Once we have this recursive equation, now we want to solve for this one. Why this equal to the 3
+
+776
+02:01:37,210 --> 02:01:38,140
+Li Xun: T2.
+
+777
+02:01:38,380 --> 02:01:39,870
+Li Xun: Okay, so…
+
+778
+02:01:40,190 --> 02:01:50,559
+Li Xun: Before you want to do the 3T2, so you first shouldn't know what is for this one. Using for this structure, we know this is a beta 4.
+
+779
+02:01:50,840 --> 02:01:52,299
+Li Xun: She… okay?
+
+780
+02:01:52,650 --> 02:02:12,150
+Li Xun: Beta 4T, very easy, okay? So, this, so, beta 4T, so 1 over 2. K is what? 4. So, this is 4. This is a 4 minus 1, so ink glow, T, okay? So, it's beta 4 minus 2, S…
+
+781
+02:02:12,430 --> 02:02:22,810
+Li Xun: Yes. So this means what you should know. 4 times 3, 0 to t, Beta 2SDS, okay?
+
+782
+02:02:22,940 --> 02:02:28,079
+Li Xun: So if you want to answer for this, so first you should know what is beta2S.
+
+783
+02:02:28,410 --> 02:02:37,890
+Li Xun: So during the exam, you should, by yourself, give a simple analysis, it's okay? I will give you this picture, you don't write down, okay?
+
+784
+02:02:38,590 --> 02:02:40,549
+Li Xun: So… not…
+
+785
+02:02:41,190 --> 02:02:47,969
+Li Xun: If you want to get for this result, actually, we first, we should solve for this one. Okay, so now let's look at…
+
+786
+02:02:48,210 --> 02:02:51,320
+Li Xun: What is the DAP? What is the DAP?
+
+787
+02:02:51,680 --> 02:02:55,330
+Li Xun: Another one. This meaning is what? What is?
+
+788
+02:02:55,820 --> 02:02:59,069
+Li Xun: beat… T2. It's okay?
+
+789
+02:02:59,200 --> 02:03:16,859
+Li Xun: Bt2 is what? Bt2 actually is, just now, we know, is the beta 2T, okay? So beta 2T, also we're using for this formula. Now let's look at… beta 2T is what? Beta 2T actually equal to 1 over 2,
+
+790
+02:03:17,100 --> 02:03:22,230
+Li Xun: Now, this moment is what? This moment K is 2. So, times 2,
+
+791
+02:03:22,470 --> 02:03:31,680
+Li Xun: and times 1, 2 minus 1, and 0 to t, And beta 2 minus 2S.
+
+792
+02:03:31,830 --> 02:03:34,190
+Li Xun: And… Yes.
+
+793
+02:03:34,820 --> 02:03:41,970
+Li Xun: It's okay. So, now we get it for this one is what? This one equal to what? Equal to what?
+
+794
+02:03:42,490 --> 02:03:48,880
+Li Xun: Okay, so ZLO to T, so this means it's beta, ZLO SDS.
+
+795
+02:03:49,030 --> 02:03:58,249
+Li Xun: So what is a beta zero S? Beta zero S, actually, maybe using similar structure, maybe is what is a B?
+
+796
+02:04:00,050 --> 02:04:04,279
+Li Xun: T… Zero power. So this is what? 1.
+
+797
+02:04:04,980 --> 02:04:09,600
+Li Xun: Okay, so this is 1. So this is 1, so 0T.
+
+798
+02:04:09,960 --> 02:04:10,980
+Li Xun: the S.
+
+799
+02:04:11,180 --> 02:04:19,610
+Li Xun: So, this means is what? ST0 equal to T. So, now we know, right?
+
+800
+02:04:20,150 --> 02:04:21,430
+Li Xun: T squared.
+
+801
+02:04:21,680 --> 02:04:23,309
+Li Xun: beta T squared.
+
+802
+02:04:23,630 --> 02:04:25,820
+Li Xun: This one equal to what?
+
+803
+02:04:26,150 --> 02:04:28,440
+Li Xun: equal to T, okay?
+
+804
+02:04:28,620 --> 02:04:42,099
+Li Xun: This is our recursive methodology. Also, you can consider what? Consider is maybe previous. You're interesting for this book, maybe you will see another methodology to consider for sensing. It's okay?
+
+805
+02:04:45,820 --> 02:04:47,700
+Li Xun: Okay. Nope.
+
+806
+02:04:47,930 --> 02:04:55,619
+Li Xun: Once we have for this, so now let's go on. Just now, we already get is what? Already get for the…
+
+807
+02:04:55,870 --> 02:05:08,750
+Li Xun: Already Getty is, E… Bt power 4. Just now, we have is 4. This one is 1 over
+
+808
+02:05:09,560 --> 02:05:14,730
+Li Xun: 4 times… 4 minus 1 now is.
+
+809
+02:05:14,900 --> 02:05:16,990
+Li Xun: Just now we know is what?
+
+810
+02:05:17,270 --> 02:05:18,709
+Li Xun: Beta 2.
+
+811
+02:05:19,250 --> 02:05:25,059
+Li Xun: T equal to what? Equal to T. Why? Because this is just now with proof.
+
+812
+02:05:25,250 --> 02:05:30,059
+Li Xun: for this one, equal to this one. So now we know this equal to what?
+
+813
+02:05:30,170 --> 02:05:33,290
+Li Xun: equal to… Sorry.
+
+814
+02:05:34,040 --> 02:05:49,120
+Li Xun: I first write down beta2SDS. Okay, I write down more. So, now this one is what? Beginning is what is the 2, this one is 6, 0 to T, so this is S, okay?
+
+815
+02:05:50,870 --> 02:05:57,750
+Li Xun: So for here, This will write on SDS. So, now we know this is, what, 3?
+
+816
+02:05:57,850 --> 02:06:03,329
+Li Xun: S square for this one. So finally, this is 32T.
+
+817
+02:06:04,170 --> 02:06:06,550
+Li Xun: Okay, this is proof, it's so neat.
+
+818
+02:06:08,550 --> 02:06:11,579
+Li Xun: During the exam, we ask you to do this one. Can you do…
+
+819
+02:06:12,010 --> 02:06:15,120
+Li Xun: So this is very important. Okay, very important.
+
+820
+02:06:20,320 --> 02:06:23,249
+Li Xun: Okay, so once we get for this.
+
+821
+02:06:23,580 --> 02:06:25,570
+Li Xun: Now we ask you to what?
+
+822
+02:06:25,880 --> 02:06:27,380
+Li Xun: What is it for this one?
+
+823
+02:06:27,680 --> 02:06:32,180
+Li Xun: Okay, why I introduced for this? Do you understand?
+
+824
+02:06:32,610 --> 02:06:41,780
+Li Xun: No? Maybe you may not understand. So, now you should interesting see. This is 1, this is 4, what is for this?
+
+825
+02:06:42,600 --> 02:06:44,060
+Li Xun: You know what is for this?
+
+826
+02:06:44,320 --> 02:06:45,740
+Li Xun: This is 3.
+
+827
+02:06:46,240 --> 02:06:54,200
+Li Xun: is T1, so this is 3. So, B1, 4, You know, what is this?
+
+828
+02:06:55,800 --> 02:07:03,639
+Li Xun: from the year one, undergrad year one, maybe you learn the probability, it's okay? Up to now, every year.
+
+829
+02:07:04,120 --> 02:07:07,779
+Li Xun: Always involved lots of the probability teacher.
+
+830
+02:07:07,980 --> 02:07:15,230
+Li Xun: Talk to your probability information. Always learn what is fundamental knowledge. What is it for this one? Did you remember?
+
+831
+02:07:16,750 --> 02:07:22,360
+Li Xun: This is a normal distribution, okay? You know, normal distribution, what does it mean?
+
+832
+02:07:22,720 --> 02:07:33,819
+Li Xun: What is variance? What is coolness? What is cotosis? Okay, so now you will see. This is for standard normal, okay? So now let's repeat for this one.
+
+833
+02:07:34,780 --> 02:07:35,860
+Li Xun: Okay?
+
+834
+02:07:36,390 --> 02:07:37,390
+Li Xun: B1?
+
+835
+02:07:37,770 --> 02:07:39,160
+Li Xun: Power equal to what?
+
+836
+02:07:39,890 --> 02:07:40,800
+Li Xun: CLO.
+
+837
+02:07:41,020 --> 02:07:46,400
+Li Xun: Just now, we prove B2… Oh, sorry?
+
+838
+02:07:47,230 --> 02:07:47,970
+Li Xun: T.
+
+839
+02:07:49,100 --> 02:07:51,310
+Li Xun: 1 power. This one equal to what?
+
+840
+02:07:52,340 --> 02:07:57,909
+Li Xun: This T. Okay, now T is what? Equal to 1. So, this is just equal to 1.
+
+841
+02:07:58,200 --> 02:07:58,990
+Li Xun: Okay.
+
+842
+02:07:59,590 --> 02:08:00,760
+Li Xun: equal to 1.
+
+843
+02:08:01,170 --> 02:08:02,190
+Li Xun: Okay.
+
+844
+02:08:02,300 --> 02:08:05,220
+Li Xun: So, the variance… is what?
+
+845
+02:08:05,600 --> 02:08:15,860
+Li Xun: B1 variance equal to EB1 minus… EB1… For this one.
+
+846
+02:08:15,960 --> 02:08:18,120
+Li Xun: Equal to 1. Okay.
+
+847
+02:08:18,450 --> 02:08:21,100
+Li Xun: So, B1, is what?
+
+848
+02:08:21,220 --> 02:08:23,330
+Li Xun: Standard, normal.
+
+849
+02:08:23,760 --> 02:08:25,250
+Li Xun: Okay, standard normal.
+
+850
+02:08:25,390 --> 02:08:26,869
+Li Xun: Okay, standard normal.
+
+851
+02:08:26,990 --> 02:08:28,839
+Li Xun: So, now let's go ahead.
+
+852
+02:08:30,930 --> 02:08:39,889
+Li Xun: I just want to, just mention you some of the knowledge you can by yourself to connect. Now let's go to C. Okay, go to C for this one.
+
+853
+02:08:52,780 --> 02:08:57,240
+Li Xun: Okay, now let's together look at the standard normal distribution, okay?
+
+854
+02:08:57,390 --> 02:08:59,360
+Li Xun: Standard normal distribution.
+
+855
+02:09:00,610 --> 02:09:01,590
+Li Xun: You see?
+
+856
+02:09:01,740 --> 02:09:12,659
+Li Xun: The mean? Okay, so this is just a nine is a… not the standard. Once the standard, this one is a… this is a million what? What? This is what?
+
+857
+02:09:13,120 --> 02:09:17,630
+Li Xun: Also, mu is yellow, this is what, okay? So this is what? Yellow?
+
+858
+02:09:18,090 --> 02:09:20,519
+Li Xun: Zellow? Okay, this is what? 1.
+
+859
+02:09:20,890 --> 02:09:26,609
+Li Xun: Okay? So, also, you know, scrotesque kurtosis. Can you do scrutinist kurtosis?
+
+860
+02:09:27,320 --> 02:09:31,980
+Li Xun: Okay, now we can use it for this one, round scrotes and kurtosis.
+
+861
+02:09:32,100 --> 02:09:45,079
+Li Xun: Okay, so squoniness and codosis. So, this… after class, you double-check what is squareness, what is codosis. Also, for this normal distribution, you know what is the…
+
+862
+02:09:45,150 --> 02:09:56,049
+Li Xun: First moment, what is the second moment? What is the third moment? What is the fourth moment? Now, all these notes talk to you. What is that?
+
+863
+02:09:56,840 --> 02:10:03,340
+Li Xun: First moment, what is the second moment, what is the fourth moment? Also, we give you the third moment, what's value?
+
+864
+02:10:03,790 --> 02:10:07,900
+Li Xun: Okay, so… Now… Let's look at…
+
+865
+02:10:08,020 --> 02:10:10,480
+Li Xun: This is… we changed what? B.
+
+866
+02:10:10,870 --> 02:10:13,660
+Li Xun: T equal to 1. So…
+
+867
+02:10:13,770 --> 02:10:24,450
+Li Xun: we can derive B1. So this B1 is what? B1 is corresponding to 0, 1, Stand and normal.
+
+868
+02:10:24,930 --> 02:10:28,510
+Li Xun: So, this is equivalent, okay? So, originally.
+
+869
+02:10:29,480 --> 02:10:32,660
+Li Xun: I talked to you. Originally, we asked you to…
+
+870
+02:10:32,690 --> 02:10:37,680
+Li Xun: The first moment, the second moment, the normal distribution, easy or not easy? Not easy.
+
+871
+02:10:37,690 --> 02:10:54,739
+Li Xun: Next time, you direct using… today, we introduce methodology. Direct to solve first moment, second moment, third moment, first moment. Also, you can up to more general moment. Okay, this is today, we want to talk about you the fundamental idea.
+
+872
+02:10:54,810 --> 02:11:03,230
+Li Xun: Okay, so next time, if you want to get that more general moment, easy or not easy, now let's together look at
+
+873
+02:11:04,060 --> 02:11:05,769
+Li Xun: Just now, we say it.
+
+874
+02:11:05,950 --> 02:11:08,320
+Li Xun: B1 is what?
+
+875
+02:11:09,110 --> 02:11:12,080
+Li Xun: For this one. So, now…
+
+876
+02:11:12,200 --> 02:11:20,399
+Li Xun: You understand, corresponding to this one is what? This is what? B1 2K power 1 equal to zero.
+
+877
+02:11:21,720 --> 02:11:27,679
+Li Xun: One's older moment, always yellow. Now let's look at one's not all the moment.
+
+878
+02:11:27,790 --> 02:11:32,339
+Li Xun: Okay, EK is B1 is,
+
+879
+02:11:32,450 --> 02:11:35,500
+Li Xun: is 2K. So, what is for this?
+
+880
+02:11:37,130 --> 02:11:37,880
+Li Xun: Okay.
+
+881
+02:11:38,770 --> 02:11:39,820
+Li Xun: Previous.
+
+882
+02:11:39,830 --> 02:11:50,749
+Li Xun: If you want to solve, if you want to solve normal distribution, first moment by safe calculator, second moment by self-calculate, second moment, first moment, step by step, okay? So…
+
+883
+02:11:50,750 --> 02:12:03,179
+Li Xun: Now, using our advanced knowledge, you can, using this recursive function, you can very easily get what for this one? Okay, so this one is what? This one is TEK.
+
+884
+02:12:03,240 --> 02:12:04,220
+Li Xun: etuda.
+
+885
+02:12:04,330 --> 02:12:14,300
+Li Xun: T equal to 1. So, after class, you can double-check Okay, for this one, Yes.
+
+886
+02:12:14,490 --> 02:12:15,490
+Li Xun: a lot.
+
+887
+02:12:15,640 --> 02:12:16,860
+Li Xun: Even moment.
+
+888
+02:12:17,330 --> 02:12:19,580
+Li Xun: the case result. I really clear.
+
+889
+02:12:19,960 --> 02:12:25,170
+Li Xun: Using this recursive equation, you can very easily get it's a normal distribution.
+
+890
+02:12:25,570 --> 02:12:26,700
+Li Xun: Maybe that…
+
+891
+02:12:26,940 --> 02:12:34,089
+Li Xun: Except the first moment, second moment. You can count the third moment, first moment, and fifth, and sixth.
+
+892
+02:12:34,420 --> 02:12:35,309
+Li Xun: Go ahead.
+
+893
+02:12:35,450 --> 02:12:40,679
+Li Xun: So, now we first, let's look at 6 moments. What happened? Okay.
+
+894
+02:12:41,650 --> 02:12:43,120
+Li Xun: So…
+
+895
+02:12:44,870 --> 02:12:56,829
+Li Xun: First, let's look at for this one, okay? So, this one we're using for what? What is it for this? This is B6T, it's okay? B6T equal to what?
+
+896
+02:12:56,950 --> 02:13:00,010
+Li Xun: Just now, we talked about K,
+
+897
+02:13:00,210 --> 02:13:17,860
+Li Xun: and K minus 1. So, this one, K is what? K is 6, okay? K is 6, 6 and 6 minus 1. Then, is from yellow to T. Also, we have what? We have the B4.
+
+898
+02:13:18,170 --> 02:13:19,720
+Li Xun: SDS.
+
+899
+02:13:20,780 --> 02:13:29,119
+Li Xun: Just now we know for this one is what? Is B4T equal to this? So, 1 over 2.
+
+900
+02:13:29,250 --> 02:13:34,220
+Li Xun: Then it's 6 times 5, this is 0 to t.
+
+901
+02:13:34,520 --> 02:13:37,700
+Li Xun: Is… for this one is, 3.
+
+902
+02:13:37,990 --> 02:13:39,250
+Li Xun: S square.
+
+903
+02:13:39,370 --> 02:13:48,520
+Li Xun: Yes, so now let's look at. So, the first one, the beginning, is 15, and for another one is what is…
+
+904
+02:13:49,470 --> 02:13:52,589
+Li Xun: for this one, is what? Equal to is,
+
+905
+02:13:52,700 --> 02:13:57,249
+Li Xun: T is yellow, so this one equal to the 15.
+
+906
+02:13:57,970 --> 02:13:59,190
+Li Xun: T power 3.
+
+907
+02:14:00,200 --> 02:14:02,900
+Li Xun: Okay, so now we prove.
+
+908
+02:14:03,660 --> 02:14:10,620
+Li Xun: Get it for this… Once during the exam? I give you another question. Ask you.
+
+909
+02:14:11,170 --> 02:14:14,539
+Li Xun: What is this? But I do not give you. How to do?
+
+910
+02:14:15,060 --> 02:14:21,330
+Li Xun: Do you understand? Ideally before they say, okay, next time, I will introduce, so you don't worry.
+
+911
+02:14:23,940 --> 02:14:24,920
+Li Xun: Okay.
+
+912
+02:14:25,900 --> 02:14:31,369
+Li Xun: After this class, okay, after this class, I mentioned, mention a little bit.
+
+913
+02:14:31,520 --> 02:14:39,859
+Li Xun: For the 4.6 later, we will discuss, you don't worry. So now we just, first we…
+
+914
+02:14:40,060 --> 02:14:42,680
+Li Xun: K is, idea is for this one.
+
+915
+02:14:43,220 --> 02:14:49,320
+Li Xun: Just announce the beat. Next week, we introduce, okay, discuss. So…
+
+916
+02:14:50,750 --> 02:14:55,830
+Li Xun: Next is we, after class,
+
+917
+02:14:57,030 --> 02:15:01,700
+Li Xun: Our classmate, please. I just mentioned you the question you do.
+
+918
+02:15:01,820 --> 02:15:08,109
+Li Xun: I do not mention question, you don't care, it's okay. So, you consider is for the…
+
+919
+02:15:08,430 --> 02:15:27,109
+Li Xun: For this one, okay? Now, we have the chapter 4, okay? Chapter 4. Today, we mentioned you is for what? It's 4.1, okay? Then we A and B to question, okay, to question. And for this one.
+
+920
+02:15:27,730 --> 02:15:30,589
+Li Xun: We should understand, okay, we should understand.
+
+921
+02:15:30,720 --> 02:15:34,720
+Li Xun: And… yes, for this one.
+
+922
+02:15:35,280 --> 02:15:38,290
+Li Xun: You should understand. Okay, you should understand.
+
+923
+02:15:39,720 --> 02:15:41,830
+Li Xun: Wait a minute, okay.
+
+924
+02:15:48,640 --> 02:15:50,610
+Li Xun: Okay, next tip.
+
+925
+02:15:50,790 --> 02:16:03,739
+Li Xun: Okay, we just consider it five questions first. Another one is, next time you don't ask me again. Once you ask me again, I know today you do not attend my lecture class, okay?
+
+926
+02:16:04,200 --> 02:16:05,729
+Li Xun: Use for this one.
+
+927
+02:16:06,410 --> 02:16:07,380
+Li Xun: Here's a need.
+
+928
+02:16:07,490 --> 02:16:13,840
+Li Xun: Another one is for the… this one. Next week, we will discuss, okay?
+
+929
+02:16:15,880 --> 02:16:23,860
+Li Xun: Okay, so now, let's repeat for this one. 4.18… And a beat.
+
+930
+02:16:24,230 --> 02:16:25,650
+Li Xun: 4.2.
+
+931
+02:16:25,940 --> 02:16:27,440
+Li Xun: 4.5.
+
+932
+02:16:27,710 --> 02:16:40,359
+Li Xun: 4.11, 4.15, okay? 4.15 may not be easy for you, it does not matter, okay? So, you don't care. After this class, please consider
+
+933
+02:16:40,480 --> 02:16:43,219
+Li Xun: Using it today, we introduced the methodology.
+
+934
+02:16:43,650 --> 02:16:48,799
+Li Xun: to consider it what? Just now, we discussed the question, ABC. It's okay?
+
+935
+02:16:48,840 --> 02:17:07,799
+Li Xun: So, now is what? Now also you can, constructor for this one. Maybe you see is our new model, is YT is GT, okay? Oh, sorry, I rely on… I show you first this example, the idea of the class you'll consider. Okay, for this one.
+
+936
+02:17:08,010 --> 02:17:25,919
+Li Xun: you set is GTBT, okay? Maybe you say XT and BT, I give the confusion. It does not matter. Maybe you can change your question. Change your question to what? You can change this question. Beginning, you can change it. YT, okay, is ET.
+
+937
+02:17:26,240 --> 02:17:28,398
+Li Xun: 1 over 2.
+
+938
+02:17:29,308 --> 02:17:30,638
+Li Xun: BT. Okay.
+
+939
+02:17:30,760 --> 02:17:38,840
+Li Xun: or lots of the classmates, maybe the FIXED… okay, FIXED. Say, sometimes you write on X, sometimes you write on Y.
+
+940
+02:17:39,080 --> 02:17:43,580
+Li Xun: I cannot distinguish. It does not matter. You can change the problem.
+
+941
+02:17:43,820 --> 02:17:46,360
+Li Xun: X, you change it to… Why?
+
+942
+02:17:46,510 --> 02:17:47,370
+Li Xun: That's all.
+
+943
+02:17:47,558 --> 02:17:56,670
+Li Xun: Then, some of the classmates always regard as X equal to the BT, okay? Once you regard as X is the BT, so you change this one to what?
+
+944
+02:17:57,150 --> 02:18:04,058
+Li Xun: For this one, white idea. We just want to ask you to do, consider this question, so you don't worry, okay?
+
+945
+02:18:04,910 --> 02:18:18,180
+Li Xun: Okay, after class, using is what? Using just now, I say, introduce YT is G, T, is BT, is E1 over T cross.
+
+946
+02:18:18,370 --> 02:18:23,740
+Li Xun: Cosine, BT.
+
+947
+02:18:23,879 --> 02:18:28,279
+Li Xun: Okay, now this model is what? Important. T.
+
+948
+02:18:28,760 --> 02:18:30,160
+Li Xun: Is it for here.
+
+949
+02:18:30,480 --> 02:18:32,148
+Li Xun: Then he has BT.
+
+950
+02:18:33,049 --> 02:18:36,799
+Li Xun: is for here. Okay? Now I give you a little bit of the hint.
+
+951
+02:18:37,058 --> 02:18:40,650
+Li Xun: I take this picture, give you a little bit of a hint.
+
+952
+02:18:40,959 --> 02:18:42,680
+Li Xun: Then you're after class.
+
+953
+02:18:43,020 --> 02:18:46,520
+Li Xun: you go and consider. Consider for this ABC.
+
+954
+02:18:46,638 --> 02:18:54,888
+Li Xun: How to do… I just want to say, using is our same methodology. It's what? ETO formula.
+
+955
+02:18:55,459 --> 02:19:00,068
+Li Xun: You think just now, we talked about partial G, partial T. Partial G,
+
+956
+02:19:00,799 --> 02:19:20,760
+Li Xun: partial X, partial G, partial X signal to do. Then you can prove, get for this result. I really clear, try to walk, you don't worry. Once you have the no solution, it does not matter. Next week, we together discuss. You're just on or before, my lecture class, regardless if this is assignment or tutorial.
+
+957
+02:19:20,990 --> 02:19:26,309
+Li Xun: try to do, okay? Don't worry. Once you get another answer, it does not matter, okay?
+
+958
+02:19:26,620 --> 02:19:32,279
+Li Xun: We just finish it next week. Then we stay by step, week by week.
+
+959
+02:19:32,629 --> 02:19:40,500
+Li Xun: Until it, what, final exam. Oh, classmate, understand. Once you understand, I think you get A, it is…
+
+960
+02:19:40,799 --> 02:19:41,799
+Li Xun: Not hot.
+
+961
+02:19:42,350 --> 02:19:51,329
+Li Xun: Okay? You don't worry, but you should try to do. You cannot get an exact solution, it does not matter. Once you were not to do.
+
+962
+02:19:51,480 --> 02:19:59,589
+Li Xun: This is, maybe so terrible. I really clear out, because nobody can help you, actually, during the fight.
+
+963
+02:20:00,630 --> 02:20:01,460
+Li Xun: just…
+
+964
+02:20:01,820 --> 02:20:13,310
+Li Xun: help you buy your stuff. I really clear? Okay, so today, our tutorial on the electric class stopped here. Do you have any questions? You can ask me. Do you have any questions?
+
+965
+02:20:13,750 --> 02:20:14,779
+Li Xun: No more.
+

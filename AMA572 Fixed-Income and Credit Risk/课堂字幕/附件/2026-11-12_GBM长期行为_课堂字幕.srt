@@ -1,0 +1,3960 @@
+1
+00:00:00,000 --> 00:00:01,290
+Li Xun: Now, let's begin.
+
+2
+00:00:01,880 --> 00:00:10,290
+Li Xun: Last time we discussed is the… how to calculate geometrical Browning motion, okay? We have lots of the geometrical…
+
+3
+00:00:10,520 --> 00:00:16,539
+Li Xun: Geometrical Browning motion. So, first time, we corresponding to geometrical Browning motion, technically what?
+
+4
+00:00:16,720 --> 00:00:23,329
+Li Xun: Techies that are… for this, log transformation, okay.
+
+5
+00:00:23,450 --> 00:00:27,930
+Li Xun: Corresponding to this is a geometrical Browning motion. Let's quickly look at the view, okay?
+
+6
+00:00:28,070 --> 00:00:46,469
+Li Xun: Because we lost it in the last video, so now let's quickly review again. So, for this is the geometrical Browning motion. For lots of the stock, maybe you consider it's the Black Shaw model. Maybe we're using the geometrical Browning motion. So, for this one, it's the what? For this one, it's the log X. Okay, log X.
+
+7
+00:00:46,520 --> 00:00:55,440
+Li Xun: log X… So, for this is, log X, log… we…
+
+8
+00:00:55,470 --> 00:01:15,169
+Li Xun: for this one, take it as log X. Then for log X, you can have the first order is what? With respect to T is yellow. With respect to X is what? 1 over X. With respect to is X second order is negative 1 over X2. Okay, so this is very clear. So then is corresponding to the eto lemma.
+
+9
+00:01:15,170 --> 00:01:30,709
+Li Xun: For this first order with X, we take the DX for the second order, with the DX squared. So, then we arrange. We just now mention the geometrical Browning motion. So, then we can reduce, further reduce, log X
+
+10
+00:01:30,820 --> 00:01:44,950
+Li Xun: Then, you know what? We cancel something, okay, I cancel something. So finally, we get it for what? We get it for this, simple structure, mu minus 1 over 2X squared dt, and sigma DWT, okay?
+
+11
+00:01:44,980 --> 00:01:58,240
+Li Xun: Then, we corresponding to this one is what? Take the integral from the 0 to capital T. So, you will get is what? It's log XT, and 0 to capital T. So, of course, you also have the what? Log zero.
+
+12
+00:01:58,330 --> 00:02:15,330
+Li Xun: Log X yellow. And for here… here for this part, because you take the 0 to capital T, but this one is what, constant, so you have the mu 1 minus 2, sigma squared is what, capital T is constant. I also wish is the word sigma BT.
+
+13
+00:02:15,430 --> 00:02:30,349
+Li Xun: Sigma… what is sigma B0? Sigma B yellow equals yellow. Browning motion, we said yellow is B0 equals yellow. So, now, let's look at… for here, we have is what? XT, okay? But for here, maybe it's the…
+
+14
+00:02:31,180 --> 00:02:33,879
+Li Xun: We have the tepollo, it's okay.
+
+15
+00:02:34,650 --> 00:02:42,560
+Li Xun: Okay, now let's look at for this interesting case. So, you will find out once Mute.
+
+16
+00:02:42,790 --> 00:02:44,139
+Li Xun: used it up.
+
+17
+00:02:45,140 --> 00:03:02,619
+Li Xun: mu is the… maybe during the exam, we have the one question ask you, give us the analysis, okay? We say if mu is greater than 1 over sigma 2, okay? Once for this one. Greater than 1 sigma 2. So, this one is what? Positive.
+
+18
+00:03:02,930 --> 00:03:09,899
+Li Xun: It's okay, positive. So, this one is mu minus 1 over sigma is what?
+
+19
+00:03:10,570 --> 00:03:12,199
+Li Xun: For this one, it's positive.
+
+20
+00:03:12,400 --> 00:03:17,850
+Li Xun: Okay, positive. So once this one is positive, also we say,
+
+21
+00:03:18,490 --> 00:03:34,130
+Li Xun: T goes to infinity, okay? T goes to infinity, so this is E power. So, of course, our Xt, although XT is random, so we know, this one value is what? XT is… goes to infinity. Yes or no?
+
+22
+00:03:35,640 --> 00:03:39,560
+Li Xun: Yes, okay. So also now let's look at another…
+
+23
+00:03:39,950 --> 00:03:44,209
+Li Xun: Another information is mu! Okay, this is what?
+
+24
+00:03:44,660 --> 00:03:58,559
+Li Xun: greater than zero, okay, greater than zero. So you… oh, sorry, you just is… just consider is greater than, don't consider equal. Okay, now let's look at the second case. This one is what? It's less than this. It's okay?
+
+25
+00:03:58,930 --> 00:04:04,779
+Li Xun: Okay, less than this. So, we get is what? Mu minus sigma T.
+
+26
+00:04:05,490 --> 00:04:12,240
+Li Xun: times product with the capital T. Capital T, of course, always positive. So this total amount is what? Zero.
+
+27
+00:04:13,200 --> 00:04:15,930
+Li Xun: Okay, total amount is yellow. Now.
+
+28
+00:04:16,360 --> 00:04:22,830
+Li Xun: Also, we consider is what consider T goes to infinity. So, XT.
+
+29
+00:04:23,040 --> 00:04:24,060
+Li Xun: What happened?
+
+30
+00:04:26,800 --> 00:04:27,590
+Li Xun: Okay.
+
+31
+00:04:28,270 --> 00:04:33,929
+Li Xun: he goes to… T goes to its, infinity, okay?
+
+32
+00:04:34,550 --> 00:04:37,979
+Li Xun: T goes to infinity. So XT, what happened?
+
+33
+00:04:41,250 --> 00:04:42,100
+Li Xun: What happened?
+
+34
+00:04:43,650 --> 00:04:49,430
+Li Xun: Just now is clear. It's positive, of course, okay? Goes to infinity.
+
+35
+00:04:50,070 --> 00:04:52,520
+Li Xun: Blue part. Okay, now this is the purple part.
+
+36
+00:04:53,200 --> 00:04:54,130
+Li Xun: What happened?
+
+37
+00:04:56,000 --> 00:05:00,050
+Li Xun: Zero. Yeah. Why? Because now this is,
+
+38
+00:05:00,440 --> 00:05:11,049
+Li Xun: Because this term is what? Yellow. E… maybe yesterday, negative infinity. Okay, negative infinity, of course, it goes to the… it goes to the zero, okay?
+
+39
+00:05:11,660 --> 00:05:13,390
+Li Xun: Okay, so…
+
+40
+00:05:13,800 --> 00:05:21,840
+Li Xun: Just now, we mentioned this part, of course, we introduce our final exam. Okay, now I give you tech that is the what? Tech is the…
+
+41
+00:05:22,120 --> 00:05:38,020
+Li Xun: picture of the class I will send you, okay? So while we talk about this, did you remember, last lecture class, we already used using two methodologies, okay? One methodology using is our lecture notes mentioning methodology.
+
+42
+00:05:38,020 --> 00:05:48,940
+Li Xun: We finally get the what? Is XT expectation. Just now, we just considered what? Just now, the last pager, we just considered what? Is XT.
+
+43
+00:05:49,210 --> 00:05:53,229
+Li Xun: is, what happened, okay?
+
+44
+00:05:54,720 --> 00:05:57,750
+Li Xun: Now, we consider what? Now, second.
+
+45
+00:05:57,870 --> 00:06:01,860
+Li Xun: Also is what? Also is,
+
+46
+00:06:03,070 --> 00:06:12,150
+Li Xun: Now, next, next we change another color. As T goes to infinity, so I want to know.
+
+47
+00:06:15,060 --> 00:06:16,000
+Li Xun: What happened?
+
+48
+00:06:17,620 --> 00:06:20,320
+Li Xun: Okay, just so now, we consider what?
+
+49
+00:06:20,520 --> 00:06:25,650
+Li Xun: Just now, we consider mu greater than 1 half of sigma squared.
+
+50
+00:06:25,970 --> 00:06:37,350
+Li Xun: And mu less than 1 half sigma squared. We have 2Ks, it's okay? Now is what? Now I just want to ask you, once t goes to infinity.
+
+51
+00:06:37,490 --> 00:06:40,220
+Li Xun: expectation of XT.
+
+52
+00:06:40,370 --> 00:06:41,250
+Li Xun: What happened?
+
+53
+00:06:41,860 --> 00:06:42,709
+Li Xun: What happened?
+
+54
+00:06:46,890 --> 00:06:50,350
+Li Xun: Our parameter now, we say, parameter mu is positive.
+
+55
+00:06:52,650 --> 00:06:54,060
+Li Xun: What? Zillow?
+
+56
+00:06:54,860 --> 00:07:08,100
+Li Xun: Infinity. Yes, of course. Maybe you can speak aloud. Go to infinity. Okay, so now you'll find out what? This is so different. Just now, without the expectation, we have, what, two cases possible. It's okay?
+
+57
+00:07:08,350 --> 00:07:10,889
+Li Xun: Maybe we consider, what, mu.
+
+58
+00:07:11,010 --> 00:07:20,899
+Li Xun: greater than 1 half sigma squared, and then mu less than half sigma squared. But expectation we consider just yet what? Focus on mu.
+
+59
+00:07:21,010 --> 00:07:26,080
+Li Xun: whatever, what is the sigma information, okay? So…
+
+60
+00:07:26,440 --> 00:07:29,390
+Li Xun: Now, we know. This one is what?
+
+61
+00:07:29,780 --> 00:07:31,410
+Li Xun: Infinity. Okay.
+
+62
+00:07:31,990 --> 00:07:33,310
+Li Xun: This one infinity.
+
+63
+00:07:36,680 --> 00:07:39,400
+Li Xun: Okay, just enough,
+
+64
+00:07:40,350 --> 00:07:50,339
+Li Xun: Over discuss is what? You discuss, we consider is what. Consider is the… this important result is a remark.
+
+65
+00:07:50,700 --> 00:08:03,339
+Li Xun: Okay? Just now. So you will, after class, you will consider corresponding to this here is considered, is a very puzzle, is what appears, is a mu less than 1 over 2 sigma squared, okay?
+
+66
+00:08:03,440 --> 00:08:11,260
+Li Xun: So this is, this is the photo, it's the CA. So it corresponds just on our analogy. Two case…
+
+67
+00:08:11,330 --> 00:08:27,250
+Li Xun: In the one case, okay. So, after class, once your corresponding to is for this old information, maybe in the future, as a classmate, actually, very interested in the pursuing PhD degree. Okay, you should go on. Okay, go on.
+
+68
+00:08:27,500 --> 00:08:28,520
+Li Xun: Okay.
+
+69
+00:08:31,520 --> 00:08:40,929
+Li Xun: This page we need, so I take the picture, send you, okay? Once, without a picture part, just delete, right? Clear? Okay.
+
+70
+00:08:41,240 --> 00:08:43,029
+Li Xun: So, now let's look at,
+
+71
+00:08:43,240 --> 00:08:48,129
+Li Xun: OU process, okay? 3. Equation 3 is OU process.
+
+72
+00:08:48,910 --> 00:08:52,999
+Li Xun: This is… proposition is talk about. Talk about is what?
+
+73
+00:08:53,230 --> 00:09:00,579
+Li Xun: This proposition we want to talk about is, current, This is… is what?
+
+74
+00:09:00,790 --> 00:09:08,529
+Li Xun: OU proposition 3, we have the solution is what? We can using this express our solution. It's okay.
+
+75
+00:09:11,810 --> 00:09:13,920
+Li Xun: Let me use that.
+
+76
+00:09:15,480 --> 00:09:17,250
+Li Xun: Le Boxet.
+
+77
+00:09:18,610 --> 00:09:19,680
+Li Xun: Okay.
+
+78
+00:09:20,950 --> 00:09:22,510
+Li Xun: So, this means either what?
+
+79
+00:09:22,860 --> 00:09:24,529
+Li Xun: You put it at the X.
+
+80
+00:09:25,160 --> 00:09:28,420
+Li Xun: This solution satisfies equation 3. It's okay.
+
+81
+00:09:28,670 --> 00:09:42,009
+Li Xun: Aisha? Okay, so this is one of the methods. Once we give you the solution, then ask, you know, does it satisfy that stochastic equation or not? Okay, first, we consider
+
+82
+00:09:42,270 --> 00:09:55,209
+Li Xun: Okay, verify. This one is its, solution. Now let's together look at… okay, before we discuss, by yourself, first read is for, this paragraph, and tell you the proposition.
+
+83
+00:09:55,300 --> 00:10:03,159
+Li Xun: I give you 2 minutes to consider every each one, the coefficient, what does it mean? Then we go ahead, okay? You'll consider it.
+
+84
+00:10:39,020 --> 00:10:39,780
+Li Xun: Okay.
+
+85
+00:10:40,750 --> 00:10:47,550
+Li Xun: So… Now, let's consider, okay, consider this, question, okay?
+
+86
+00:10:48,440 --> 00:10:54,859
+Li Xun: So, UO is the remember is for what? Remember for… this equation.
+
+87
+00:10:55,070 --> 00:11:02,269
+Li Xun: Okay, remember for this sequential, So, now, first let's look at, okay? First look at…
+
+88
+00:11:02,370 --> 00:11:09,640
+Li Xun: We put, okay? We put… We put this one goes to here.
+
+89
+00:11:10,580 --> 00:11:11,970
+Li Xun: Okay, what happened?
+
+90
+00:11:12,710 --> 00:11:26,179
+Li Xun: doesn't mean we take the what? The X. We just put this into what? Left-hand part. I really clear? Put to the left-hand part. Okay, so, once we put this to the left-hand part.
+
+91
+00:11:26,900 --> 00:11:36,409
+Li Xun: Left hand apart, so… Now let's look at… this mean is what? DX. Okay, DX.
+
+92
+00:11:37,100 --> 00:11:41,460
+Li Xun: So, for here, you should make up is what? D?
+
+93
+00:11:41,880 --> 00:11:48,000
+Li Xun: is what? C1 minus E alpha T.
+
+94
+00:11:48,700 --> 00:11:52,250
+Li Xun: X0, E, alpha T.
+
+95
+00:11:53,760 --> 00:11:55,730
+Li Xun: plus sigma.
+
+96
+00:11:56,080 --> 00:11:59,770
+Li Xun: For this one, yes, the… Eat.
+
+97
+00:11:59,890 --> 00:12:03,820
+Li Xun: alpha T, S, DB…
+
+98
+00:12:04,160 --> 00:12:21,070
+Li Xun: S, okay? So, now you consider. This is the X, okay? So, I put the what? This to the left-hand part, so this means D. Then we consider inside is for this one. It's okay? Put all this inside.
+
+99
+00:12:21,330 --> 00:12:23,630
+Li Xun: Now, I make up this one stager.
+
+100
+00:12:24,000 --> 00:12:43,260
+Li Xun: During the final exam, you also should watch step-by-step, but you don't worry. State-by-step, write down something. Then you can get the same result. It's okay. So now we have… so first now, let's look at the… why you have for this, okay, this form where? Okay, so this flow, this is from here.
+
+101
+00:12:44,170 --> 00:12:45,000
+Li Xun: Okay.
+
+102
+00:12:51,050 --> 00:12:53,050
+Li Xun: Aisha, step by step.
+
+103
+00:12:58,790 --> 00:13:02,470
+Li Xun: Okay, your guy double-check, your guy now double-check.
+
+104
+00:13:02,490 --> 00:13:21,389
+Li Xun: Can we get for this one? For this one, we take the what? First what is what? Is negative alpha. This is negative, so is positive alpha. Also, take the C product. So, then for this E function, we should keep up. Then we take the dt. So.
+
+105
+00:13:21,410 --> 00:13:23,490
+Li Xun: From this one, we get this.
+
+106
+00:13:23,550 --> 00:13:24,390
+Li Xun: Okay?
+
+107
+00:13:24,830 --> 00:13:34,130
+Li Xun: fully clear. So now let's look at a seconder, okay, a second. Second second we can… second we can get is for here.
+
+108
+00:13:34,610 --> 00:13:37,270
+Li Xun: Now, let's look at… for here.
+
+109
+00:13:37,810 --> 00:13:38,760
+Li Xun: Okay?
+
+110
+00:13:38,950 --> 00:13:39,990
+Li Xun: For here.
+
+111
+00:13:40,110 --> 00:13:47,549
+Li Xun: So… Now let's look at, for this red part, X yellow, at this very moment, just is what?
+
+112
+00:13:47,790 --> 00:13:50,699
+Li Xun: View Legata's coefficient, primate.
+
+113
+00:13:50,750 --> 00:14:09,580
+Li Xun: So, now current is DT. Corresponding to variable part is the negative alpha T. So, negative alpha T, because this is a plus, so this is a negative alpha T. Keep up for this… also, keep up for this exponential function, okay? With DT. So, now we have a seconder.
+
+114
+00:14:09,840 --> 00:14:20,200
+Li Xun: For the last one, actually, we keep up, did not change it. We just changed it what? We just changed it from here, we just use change…
+
+115
+00:14:20,480 --> 00:14:23,669
+Li Xun: for the alpha T to here.
+
+116
+00:14:23,820 --> 00:14:36,299
+Li Xun: Don't do anything, okay? Because the variable is what? It's S, okay? So we keep up first, okay. So, now, can you understand from the blue part to the…
+
+117
+00:14:36,300 --> 00:14:51,129
+Li Xun: First stager, yes or no? Okay, so now let's go ahead. Now we keep up for this one, keep up for this one, okay? So, we now want to discuss for this term, it's okay? So, next stager… next stager is what?
+
+118
+00:14:51,530 --> 00:14:55,030
+Li Xun: Next stage, we want to… Yes.
+
+119
+00:14:55,250 --> 00:14:59,419
+Li Xun: Discuss is for… this part.
+
+120
+00:15:00,080 --> 00:15:03,550
+Li Xun: Okay, discussed for this part. So…
+
+121
+00:15:03,800 --> 00:15:14,250
+Li Xun: discuss for this part. We first now we know, for here, we know this is before… now we consider the DT, okay? So this is corresponding to
+
+122
+00:15:14,510 --> 00:15:28,930
+Li Xun: differential variable corresponding to a differential variable. What is a variable is T, okay? So, this is, of course, this is T, so now this involves the T, okay? Both part, this amount and with this amount take product.
+
+123
+00:15:29,230 --> 00:15:32,180
+Li Xun: Okay? So you should regard as
+
+124
+00:15:32,860 --> 00:15:36,570
+Li Xun: You should regard us as what? We have.
+
+125
+00:15:36,950 --> 00:15:44,860
+Li Xun: For this part, And… And another part. We have what?
+
+126
+00:15:45,040 --> 00:15:56,820
+Li Xun: We have two parts. One is a red part, another is a purple part. Now let's consider is, we have two… this is a protect product, because corresponding to different tissue, T,
+
+127
+00:15:57,100 --> 00:16:01,660
+Li Xun: corresponding differential is a variable. But for this integral inside.
+
+128
+00:16:01,870 --> 00:16:05,319
+Li Xun: Which one is available? X is available. It's clear.
+
+129
+00:16:05,390 --> 00:16:17,480
+Li Xun: So this is so different, okay? So now, you take the what, the differential. This differential corresponding to what? T discussed. So, corresponding to this one, we take first thought, equal to what?
+
+130
+00:16:17,480 --> 00:16:28,790
+Li Xun: This one is sigma, keep up. Negative alpha, negative alpha. Also, keep up this E explanation, dt. Then, we corresponding to this one take product.
+
+131
+00:16:28,980 --> 00:16:29,940
+Li Xun: It's clear.
+
+132
+00:16:30,230 --> 00:16:44,410
+Li Xun: Okay, so now let's look at the second one. Second is the same for this one, okay, purple part. Before, if you want to consider purple part, actually you corresponding to this red part is what? This red part, keep up.
+
+133
+00:16:44,830 --> 00:16:50,880
+Li Xun: Okay? Sigma, keep up. So just the corresponding to integral, take a what?
+
+134
+00:16:51,050 --> 00:16:53,899
+Li Xun: For this integral, T is the dot.
+
+135
+00:16:54,230 --> 00:16:58,150
+Li Xun: For the ink law, Now…
+
+136
+00:16:58,580 --> 00:17:02,040
+Li Xun: Let me, for this one, is corresponding to rad gate.
+
+137
+00:17:02,600 --> 00:17:11,260
+Li Xun: And, this one is corresponding to the purple. It's clear! Okay, so now this one is what? Corresponding to is,
+
+138
+00:17:11,390 --> 00:17:15,430
+Li Xun: Read the pot, keep up, don't do anything, okay?
+
+139
+00:17:15,569 --> 00:17:16,339
+Li Xun: But…
+
+140
+00:17:16,480 --> 00:17:28,850
+Li Xun: How to get for this one? This is what? This is corresponding to this part. Take first order, then you put the T. What, to here, and to here. So, alpha T, dbt. It's clear.
+
+141
+00:17:29,170 --> 00:17:33,060
+Li Xun: Okay, we're using what? Very fundamental is our what?
+
+142
+00:17:33,380 --> 00:17:42,870
+Li Xun: calculus knowledge to get for this data. It's okay? Okay, once you get for this, so now you find out this one we can cancel equal to 1.
+
+143
+00:17:43,400 --> 00:17:51,609
+Li Xun: Okay, equal to 1. So, now we from this stage to reduce to what? Sigma dbt. Okay, sigma dbt.
+
+144
+00:17:52,640 --> 00:17:58,850
+Li Xun: But for here, we cannot go ahead, so we just keep up, rearrange, keep up.
+
+145
+00:17:59,210 --> 00:18:02,309
+Li Xun: Beginning, we have the what. Yes, the.
+
+146
+00:18:02,410 --> 00:18:14,320
+Li Xun: the style, okay, we rearrange it. This is alpha dt, then alpha dt, then with this one, you just keep up, is what? This term, okay? With this term, take the product, okay, keep up.
+
+147
+00:18:14,650 --> 00:18:16,359
+Li Xun: Now, this one is what?
+
+148
+00:18:16,640 --> 00:18:25,949
+Li Xun: from here, from here, this one, from here, from here. Until to this stage, then we consider how to go ahead, verify.
+
+149
+00:18:29,180 --> 00:18:30,090
+Li Xun: Okay.
+
+150
+00:18:30,650 --> 00:18:33,520
+Li Xun: Yo, don't worry, I will give you 40 cedar.
+
+151
+00:18:33,630 --> 00:18:38,849
+Li Xun: Notes, okay, other class, then you consider. Now, let's go on. So…
+
+152
+00:18:39,680 --> 00:18:51,809
+Li Xun: None is what? Next stage, we should compare… compare is what? Compare for this is, right-hand part, okay? We should compare it for what? Compare for here.
+
+153
+00:18:52,610 --> 00:19:01,090
+Li Xun: Okay, once we compare for here, we find out for this part, it's okay, dbt. We… Hep.
+
+154
+00:19:01,600 --> 00:19:03,130
+Li Xun: Okay, dbt.
+
+155
+00:19:03,240 --> 00:19:06,300
+Li Xun: DBT, it's okay, we have dbt.
+
+156
+00:19:06,550 --> 00:19:09,980
+Li Xun: Okay? So, can I remove user for this color part?
+
+157
+00:19:10,190 --> 00:19:19,119
+Li Xun: too much, too much color. Maybe it's, may not hair path is easily to clear to just the reader, so…
+
+158
+00:19:19,360 --> 00:19:20,809
+Li Xun: Let me use a…
+
+159
+00:19:21,100 --> 00:19:29,400
+Li Xun: Clear, okay? So, now let's compare. Until for this stager, we find out for this one and this one is the same.
+
+160
+00:19:30,080 --> 00:19:37,489
+Li Xun: Okay, so we should want to discuss for this blue part, And, this blue part.
+
+161
+00:19:38,030 --> 00:19:39,610
+Li Xun: Actually, it's the same.
+
+162
+00:19:40,550 --> 00:19:50,359
+Li Xun: Okay, once this first blue part is set, then we can say, this X… is equation 3 solution.
+
+163
+00:19:50,750 --> 00:19:55,539
+Li Xun: Okay, so next stage we want to use proof.
+
+164
+00:19:55,990 --> 00:19:57,869
+Li Xun: Next stage we want to prove.
+
+165
+00:19:58,270 --> 00:20:04,379
+Li Xun: Blue part actually is the same. Why? How to blue for this one? Now let's go ahead.
+
+166
+00:20:05,860 --> 00:20:06,740
+Li Xun: Okay.
+
+167
+00:20:14,400 --> 00:20:21,070
+Li Xun: by the XT, this, XT… Definition.
+
+168
+00:20:22,110 --> 00:20:41,299
+Li Xun: Okay, corresponding to, this XT definition, okay, corresponding to this XT definition. This is XT definition, okay? So, now you will see, corresponding to this XT definition, you can rewrite down is for what? For this, new structure. Are you sure?
+
+169
+00:20:42,810 --> 00:20:44,070
+Li Xun: non-URC.
+
+170
+00:20:44,750 --> 00:20:46,240
+Li Xun: The other one is what?
+
+171
+00:20:46,810 --> 00:20:55,530
+Li Xun: re-express, okay, I re-express for this definition, re-express the equal to this one. I clear out this front definition.
+
+172
+00:20:56,010 --> 00:20:57,140
+Li Xun: Yes or no?
+
+173
+00:20:58,230 --> 00:21:03,849
+Li Xun: Now, let's look at… For this part, okay? This part is for here.
+
+174
+00:21:04,500 --> 00:21:07,270
+Li Xun: This is what?
+
+175
+00:21:08,040 --> 00:21:09,160
+Li Xun: Pop up hot.
+
+176
+00:21:09,900 --> 00:21:12,419
+Li Xun: Okay, this is the purple part. Is it the same?
+
+177
+00:21:14,090 --> 00:21:17,300
+Li Xun: It's the same. Okay? None is what?
+
+178
+00:21:17,960 --> 00:21:23,110
+Li Xun: Corresponding to this, the blue night, Okay, we're arranging.
+
+179
+00:21:23,250 --> 00:21:28,030
+Li Xun: So, we can get for this, Ray the next.
+
+180
+00:21:28,470 --> 00:21:29,480
+Li Xun: It's okay?
+
+181
+00:21:29,720 --> 00:21:31,949
+Li Xun: Rearanger, corresponding to water.
+
+182
+00:21:32,120 --> 00:21:36,120
+Li Xun: Suri… Blue next notation.
+
+183
+00:21:36,270 --> 00:21:42,690
+Li Xun: We're rearranging, rearranging. So, we actually, what, move?
+
+184
+00:21:43,510 --> 00:21:48,810
+Li Xun: Moo is This first one to… Left hand.
+
+185
+00:21:49,240 --> 00:21:52,600
+Li Xun: Okay? Left hand, then we get what?
+
+186
+00:21:53,100 --> 00:21:55,559
+Li Xun: Then we get to use the folded up.
+
+187
+00:21:55,870 --> 00:21:58,160
+Li Xun: This structure, okay? This structure.
+
+188
+00:21:58,450 --> 00:21:59,710
+Li Xun: Okay.
+
+189
+00:22:00,470 --> 00:22:08,160
+Li Xun: So… You sure? We can get at this, okay. Okay, so now let's go on. Now let's go on.
+
+190
+00:22:08,660 --> 00:22:13,190
+Li Xun: Okay, so just now is what? Just now we say we…
+
+191
+00:22:13,320 --> 00:22:23,009
+Li Xun: already finished is what for this part. So, we just want to discuss for this part. Now we discuss for this part. We know
+
+192
+00:22:23,140 --> 00:22:26,460
+Li Xun: We know it's what? We know this one is…
+
+193
+00:22:26,880 --> 00:22:35,219
+Li Xun: Okay? This is equal to what? This is equal to, just a noun, we say. Okay? We say this.
+
+194
+00:22:36,410 --> 00:22:45,989
+Li Xun: So… Okay, repress for this. It's okay? Repress for this. What happened? Okay, repress for this.
+
+195
+00:22:50,450 --> 00:22:51,310
+Li Xun: Okay.
+
+196
+00:22:51,540 --> 00:23:10,230
+Li Xun: Once we repress this one, okay, this one is what? It's for this. So, now let's look at, okay, now let's look at it. For… for this turn, keep up, don't change it. This turn, keep up, don't change it. But for here, we should change it. We should using for this purple part.
+
+197
+00:23:10,440 --> 00:23:15,040
+Li Xun: This purple part, using for this one, repressed, corresponding to here.
+
+198
+00:23:15,210 --> 00:23:16,219
+Li Xun: Yes or no?
+
+199
+00:23:16,510 --> 00:23:20,530
+Li Xun: Now, this one is the purple part, okay? For this purple part.
+
+200
+00:23:20,710 --> 00:23:24,989
+Li Xun: We using it for what? For this one, repress.
+
+201
+00:23:27,280 --> 00:23:28,299
+Li Xun: I show up!
+
+202
+00:23:28,710 --> 00:23:34,199
+Li Xun: This purple pattern, we can use it for this repress. Just now we mentioned that
+
+203
+00:23:34,370 --> 00:23:42,980
+Li Xun: the X right-hand part. Okay, one apart, using for this re-express. Yes or no? Yes, it's okay. Once…
+
+204
+00:23:43,170 --> 00:23:46,150
+Li Xun: One series we have for this one?
+
+205
+00:23:47,260 --> 00:23:51,749
+Li Xun: Okay? So, now, let's go up. Let's go up.
+
+206
+00:23:52,080 --> 00:24:10,270
+Li Xun: Let's go on, we look at for this one, okay? So, now I move here, okay, I move here. So this one, keep up, this one, keep up. So now let's write down for this, okay? First, we have for this 10. This is negative, this is positive, so we can write down C, 1 minus this one.
+
+207
+00:24:10,990 --> 00:24:27,949
+Li Xun: DT, okay? Also, this one is X yellow. X yellow for here is what? Is the negative, negative, so we write down positive, X yellow. Also, keep up for this, this alpha dt, so alpha, alpha dt. It's okay, so…
+
+208
+00:24:31,450 --> 00:24:33,059
+Li Xun: Do you have any confusion?
+
+209
+00:24:33,280 --> 00:24:39,730
+Li Xun: No more. Okay. What's no more? So, now, let's look at… we can cancel it what?
+
+210
+00:24:39,910 --> 00:24:45,800
+Li Xun: We can use the… Cancer some of the… Part, okay, cancer.
+
+211
+00:24:48,670 --> 00:24:49,930
+Li Xun: Okay…
+
+212
+00:24:53,900 --> 00:25:02,640
+Li Xun: So… Alpha for this one, corresponding to this
+
+213
+00:25:03,780 --> 00:25:11,150
+Li Xun: under this cancer. Okay, because for this one, I will need the final for the… for here, so I don't…
+
+214
+00:25:11,740 --> 00:25:14,399
+Li Xun: Dante has cancer. Another one!
+
+215
+00:25:14,570 --> 00:25:16,799
+Li Xun: Is for this TAN.
+
+216
+00:25:17,660 --> 00:25:19,370
+Li Xun: And this cancel.
+
+217
+00:25:19,800 --> 00:25:20,800
+Li Xun: It's okay.
+
+218
+00:25:21,120 --> 00:25:28,579
+Li Xun: No problem. Okay, no problem. So, then is we write down all the remaining 10 equal to what?
+
+219
+00:25:29,080 --> 00:25:36,160
+Li Xun: we talk about is equation is what? This equation is… equal to that.
+
+220
+00:25:37,500 --> 00:25:39,570
+Li Xun: The right hand of equation 3.
+
+221
+00:25:40,380 --> 00:25:43,979
+Li Xun: Okay, now we prove the result. Okay, I approve the result.
+
+222
+00:25:47,530 --> 00:25:54,680
+Li Xun: Okay, once… up to this stage, maybe naturally have the question. Okay, for me.
+
+223
+00:25:55,200 --> 00:26:00,689
+Li Xun: I see the Professor Ko right on this. I've… I will ask Professor Cole the question.
+
+224
+00:26:00,800 --> 00:26:09,009
+Li Xun: You say this is a unique solution of equation 3. Your write-down is for this form, but I want to ask.
+
+225
+00:26:10,030 --> 00:26:25,110
+Li Xun: How to get for this? Why? Now, you should ask for this one. I can what? Verify? Verify XT is meter what? Equation 3. So I want to know, beginning, how to get X3? Oh, sorry, how to get for this one?
+
+226
+00:26:25,950 --> 00:26:28,399
+Li Xun: Do you have any methodology to get this one?
+
+227
+00:26:28,770 --> 00:26:30,600
+Li Xun: Okay, this is important, why?
+
+228
+00:26:30,790 --> 00:26:34,380
+Li Xun: This is related to our final exam.
+
+229
+00:26:34,690 --> 00:26:35,770
+Li Xun: It's okay.
+
+230
+00:26:36,360 --> 00:26:45,170
+Li Xun: So… What's final ask you to verify the solution equal to one of the equations? That is easy.
+
+231
+00:26:45,800 --> 00:26:50,989
+Li Xun: Very, very easy, okay? Now we can say what? How to flound the 3?
+
+232
+00:26:51,140 --> 00:26:52,299
+Li Xun: Gather for this.
+
+233
+00:26:52,570 --> 00:27:11,410
+Li Xun: Now is what? We… 3, also we have solution. Then we say, this solution is what satisfies equation 3. Now I want to show you how to, from 3, get this. I really clear out this is very fundamental. So, for this, semester.
+
+234
+00:27:11,520 --> 00:27:27,589
+Li Xun: The last remaining part I want to focus on. How to find a differential equation to get its different equation to get its solution. Then we finish our test, okay? For any other part of the lecture notes, by itself.
+
+235
+00:27:28,090 --> 00:27:35,630
+Li Xun: Related to corporate finance review. Once you actually maybe correspond to a high-dimensional knowledge, I think.
+
+236
+00:27:35,770 --> 00:27:38,780
+Li Xun: Maybe once you're pursuing the PhD degree.
+
+237
+00:27:38,950 --> 00:27:45,539
+Li Xun: You can discuss with me by Zoom, maybe at my office, up to you, okay?
+
+238
+00:27:45,540 --> 00:27:59,129
+Li Xun: Once you're the future, you already use the, what, leave from the portfolio, but you want to discuss some of the high-dimensional knowledge, you can send me an email, and maybe invite me, discuss with you by Zoom.
+
+239
+00:27:59,370 --> 00:28:05,820
+Li Xun: It's okay. Maybe it's the harder point. Now you know what? We first focus on
+
+240
+00:28:06,220 --> 00:28:18,899
+Li Xun: Although we see this very simple is the question, but it is not easy. Now I ask you, how to find 3 to get what? How to find equation 3 to get Xt, this proposition.
+
+241
+00:28:19,180 --> 00:28:20,030
+Li Xun: Foam.
+
+242
+00:28:20,340 --> 00:28:22,469
+Li Xun: I want to know, is it easy or not easy?
+
+243
+00:28:24,480 --> 00:28:25,950
+Li Xun: Easy, not easy.
+
+244
+00:28:26,520 --> 00:28:28,050
+Li Xun: You honestly answer.
+
+245
+00:28:28,430 --> 00:28:29,370
+Li Xun: Can you do?
+
+246
+00:28:29,750 --> 00:28:34,640
+Li Xun: Suppose you may not know this form. Can you get XT expansion?
+
+247
+00:28:36,630 --> 00:28:38,440
+Li Xun: Maybe… okay.
+
+248
+00:28:38,810 --> 00:28:40,700
+Li Xun: You want to challenge, it's good.
+
+249
+00:28:40,830 --> 00:28:41,640
+Li Xun: Okay.
+
+250
+00:28:42,730 --> 00:28:45,990
+Li Xun: Okay, now let's consider how to get.
+
+251
+00:28:47,850 --> 00:28:56,730
+Li Xun: Okay, we directory… Front is this one. Suppose we forget to hold the solution, okay? So…
+
+252
+00:28:59,230 --> 00:29:01,899
+Li Xun: Maybe I take years of what?
+
+253
+00:29:02,360 --> 00:29:05,760
+Li Xun: Use the new… New Pedro.
+
+254
+00:29:07,480 --> 00:29:08,510
+Li Xun: Note.
+
+255
+00:29:11,910 --> 00:29:12,880
+Li Xun: Okay.
+
+256
+00:29:14,320 --> 00:29:17,209
+Li Xun: Just to help me is the review.
+
+257
+00:29:17,530 --> 00:29:20,470
+Li Xun: Is just now we talked about what is the equation?
+
+258
+00:29:20,620 --> 00:29:23,149
+Li Xun: I forget it, what is equation?
+
+259
+00:29:29,100 --> 00:29:38,700
+Li Xun: Okay, equation… equation 3. Now you're together with me, you consider the XT is… Offer.
+
+260
+00:29:38,840 --> 00:29:40,330
+Li Xun: XT.
+
+261
+00:29:40,660 --> 00:29:42,000
+Li Xun: and the C.
+
+262
+00:29:42,150 --> 00:29:43,220
+Li Xun: DT.
+
+263
+00:29:43,420 --> 00:29:45,380
+Li Xun: And, sigma.
+
+264
+00:29:45,570 --> 00:29:52,719
+Li Xun: dbt. Okay, now we consider for this O is what? Coefficient is constant.
+
+265
+00:29:53,050 --> 00:30:03,679
+Li Xun: they're not dependent on t. Maybe in the final and state by state, we will consider more general case. Maybe alpha of t, c of t, sigma of t, it's okay?
+
+266
+00:30:03,810 --> 00:30:07,119
+Li Xun: So, now let's look at how to do a car.
+
+267
+00:30:07,720 --> 00:30:15,469
+Li Xun: So, now, before yesterday, the answer for this… so, now let's introduce user for the…
+
+268
+00:30:19,440 --> 00:30:33,900
+Li Xun: Okay, so we first consider for this simple case. It's okay. This is what? Deterministic case. Okay, deterministic case. Suppose we consider deterministic case XT.
+
+269
+00:30:34,070 --> 00:30:35,130
+Li Xun: Okay.
+
+270
+00:30:36,120 --> 00:30:55,860
+Li Xun: we conjecture you how to do. Okay, first, you solve, you have to solve deterministic, then you consider how to solve is the random, it's okay? Once you determine this, of course, easier than is the random case, it's okay? So now let's run the deterministic, we conjecture.
+
+271
+00:30:55,860 --> 00:31:01,899
+Li Xun: We have to consider go ahead. For example, maybe I set YT is what?
+
+272
+00:31:02,170 --> 00:31:09,620
+Li Xun: is based on my data experience, we consider is E, it's alpha, T.
+
+273
+00:31:09,890 --> 00:31:13,670
+Li Xun: Maybe we conjecture is XT.
+
+274
+00:31:14,130 --> 00:31:19,450
+Li Xun: Okay? We conjecture, we consider, okay? So… We…
+
+275
+00:31:19,820 --> 00:31:37,069
+Li Xun: consider is YT, okay? So, DYT, once we get the DYT, of course we can get the what? XT, it's okay? So, this is what? Take the E of TXT, it's okay? So, you will get is what?
+
+276
+00:31:37,600 --> 00:31:40,570
+Li Xun: alpha E alpha T.
+
+277
+00:31:40,810 --> 00:31:43,040
+Li Xun: It's okay. XT.
+
+278
+00:31:43,960 --> 00:32:03,270
+Li Xun: And we have what? Plus is E alphaT DXT. It's okay? Okay. So now we see first consider the red part, okay? So alpha E alpha T, XT plus is E alpha T, then is what?
+
+279
+00:32:03,410 --> 00:32:04,550
+Li Xun: Negative.
+
+280
+00:32:05,030 --> 00:32:09,160
+Li Xun: Alpha XTC is what?
+
+281
+00:32:10,520 --> 00:32:11,440
+Li Xun: DT.
+
+282
+00:32:11,710 --> 00:32:18,109
+Li Xun: Yes or no? Yes, okay. So we rearrange alpha E, alpha T, XT,
+
+283
+00:32:18,230 --> 00:32:23,659
+Li Xun: And E… oh, sorry, for here, we also should make up DT, okay?
+
+284
+00:32:24,020 --> 00:32:27,230
+Li Xun: make up DT, okay? E over T.
+
+285
+00:32:28,170 --> 00:32:30,550
+Li Xun: And… negative.
+
+286
+00:32:30,690 --> 00:32:32,770
+Li Xun: Alpha XT.
+
+287
+00:32:33,110 --> 00:32:39,079
+Li Xun: DT, and plus E of T, and C.
+
+288
+00:32:39,760 --> 00:32:40,660
+Li Xun: DT.
+
+289
+00:32:41,570 --> 00:32:43,149
+Li Xun: Okay, this is clear.
+
+290
+00:32:43,610 --> 00:33:03,610
+Li Xun: So, first one, we have two parts, okay? E alpha txt. So, E alpha T, so we get for this, okay? Then, the key part for this, for this one, take first thought, okay? So, this one, we write down, copy. For this one, we have the write-down two parts. Here's E alpha T. First one, we combine.
+
+291
+00:33:03,810 --> 00:33:08,060
+Li Xun: For this one. Second, E of T, corresponding to either what?
+
+292
+00:33:08,170 --> 00:33:25,479
+Li Xun: is, CT, because this is negative, this is negative, so this final is what, positive E of T, C, dt, okay? So, now let's look at what happened, okay? So you find out this 10 and this 10 cancel.
+
+293
+00:33:27,030 --> 00:33:32,180
+Li Xun: Okay? So, now you… for the YT, you reduce to what?
+
+294
+00:33:32,330 --> 00:33:38,360
+Li Xun: you reduce to is E alpha T and C, DT.
+
+295
+00:33:39,340 --> 00:33:42,030
+Li Xun: Now, can you get a Y? Very easy.
+
+296
+00:33:42,540 --> 00:33:44,689
+Li Xun: Once you get a Y, you can get a what?
+
+297
+00:33:45,430 --> 00:33:46,160
+Li Xun: XT.
+
+298
+00:33:47,020 --> 00:33:47,980
+Li Xun: It's okay.
+
+299
+00:33:48,150 --> 00:33:55,549
+Li Xun: Okay, so, now first, we… let's, stop here. We take the 5-minute break, then you come back.
+
+300
+00:33:56,290 --> 00:33:57,170
+Li Xun: Okay.
+
+301
+00:38:04,850 --> 00:38:12,689
+Li Xun: Now you see a test for the radar part. The radar part is corresponding to deterministic. Now let's consider
+
+302
+00:38:12,720 --> 00:38:25,529
+Li Xun: how to, using your data, just now, your testing idea, okay, the purple part is testing idea. Can we, using this other similar idea, the rector is, considered is,
+
+303
+00:38:25,590 --> 00:38:31,550
+Li Xun: Blue part, okay? So, now, let's go on. Consider blue part, okay?
+
+304
+00:38:34,270 --> 00:38:38,509
+Li Xun: Let me just, consider for this one again.
+
+305
+00:38:52,230 --> 00:38:53,200
+Li Xun: Okay.
+
+306
+00:38:53,360 --> 00:39:07,250
+Li Xun: So, we want to, using the similar idea, just now we say we consider what? We consider is the YT, okay? We conjecture is E of T and the Xt.
+
+307
+00:39:07,440 --> 00:39:09,749
+Li Xun: Now, we want to use a gap.
+
+308
+00:39:09,900 --> 00:39:10,830
+Li Xun: Okay.
+
+309
+00:39:11,130 --> 00:39:17,560
+Li Xun: Whatever, what is the DPT? Okay, we first try. Okay, so finally then is what?
+
+310
+00:39:17,640 --> 00:39:33,219
+Li Xun: Whatever the question is so… is so hard. The question is so easy. Anyway, you should what? Test. Try. Once you just lie down is what? Nothing. Okay, give me the wider space. I don't know how to help you. You write down something. Maybe we can…
+
+311
+00:39:33,370 --> 00:39:40,410
+Li Xun: Corresponding to your right-hand thing. We seek is what? Is the same useful for you.
+
+312
+00:39:40,880 --> 00:39:41,740
+Li Xun: Is that a part?
+
+313
+00:39:41,980 --> 00:39:49,809
+Li Xun: Okay? Otherwise, any wider pie, any wider space, will not use for you.
+
+314
+00:39:50,140 --> 00:39:51,149
+Li Xun: I clear up.
+
+315
+00:39:51,330 --> 00:40:00,450
+Li Xun: You're right on Zencing! We will… we will, step by step, either check if some of the useful for your…
+
+316
+00:40:01,040 --> 00:40:01,820
+Li Xun: Okay.
+
+317
+00:40:03,050 --> 00:40:21,330
+Li Xun: Now let's go ahead. This is our test, okay? Corresponding to this test, now we consider DYT. Idea is the same, okay? Same as what? Is DE alphaT, okay? So, now we know this is what? 2…
+
+318
+00:40:22,130 --> 00:40:23,100
+Li Xun: function.
+
+319
+00:40:23,400 --> 00:40:24,210
+Li Xun: Aka.
+
+320
+00:40:25,200 --> 00:40:29,639
+Li Xun: The same idea. So, we now consider it what? E?
+
+321
+00:40:30,230 --> 00:40:38,579
+Li Xun: First is alpha E alpha T, okay? Then is what? Then is we consider is the…
+
+322
+00:40:38,810 --> 00:40:41,580
+Li Xun: Maybe is that… DT?
+
+323
+00:40:41,910 --> 00:40:45,399
+Li Xun: XT… Okay? DTXT.
+
+324
+00:40:46,230 --> 00:40:50,619
+Li Xun: Plus, second, E alpha T keep up.
+
+325
+00:40:50,980 --> 00:40:53,899
+Li Xun: the XT… No problem!
+
+326
+00:40:54,050 --> 00:40:57,890
+Li Xun: Okay, we split two parts. Okay, split two parts.
+
+327
+00:40:58,040 --> 00:41:01,859
+Li Xun: Okay, then we rearrange. Alpha E, alpha T.
+
+328
+00:41:02,000 --> 00:41:05,240
+Li Xun: Xt… DT…
+
+329
+00:41:06,410 --> 00:41:24,200
+Li Xun: Okay? So, now let's consider E alpha T. For here, we should write down is what? We should write down for this one. For the right-down, okay? We take is what is for this one, okay, is, maybe is for what?
+
+330
+00:41:25,030 --> 00:41:27,219
+Li Xun: 4 is the alpha!
+
+331
+00:41:27,890 --> 00:41:29,380
+Li Xun: XT.
+
+332
+00:41:29,730 --> 00:41:30,999
+Li Xun: is a seat.
+
+333
+00:41:31,710 --> 00:41:32,950
+Li Xun: the T.
+
+334
+00:41:33,530 --> 00:41:35,829
+Li Xun: Then, plus sigma.
+
+335
+00:41:36,140 --> 00:41:38,610
+Li Xun: D… BT.
+
+336
+00:41:40,720 --> 00:41:41,869
+Li Xun: Yes or no?
+
+337
+00:41:42,180 --> 00:41:45,520
+Li Xun: Okay, so now let's compare for this part.
+
+338
+00:41:45,840 --> 00:41:50,449
+Li Xun: You will find out before dt for this XT, okay?
+
+339
+00:41:50,860 --> 00:41:58,340
+Li Xun: For here, you will find out, actually, is alpha XT for this part is what?
+
+340
+00:41:59,100 --> 00:42:01,110
+Li Xun: You can take what? Cancer.
+
+341
+00:42:02,080 --> 00:42:03,000
+Li Xun: It's okay.
+
+342
+00:42:04,300 --> 00:42:10,269
+Li Xun: No problem? Okay, I'll cancel. So then we go on, write down, is what, the remaining part.
+
+343
+00:42:10,560 --> 00:42:13,360
+Li Xun: We have remaining part is for what?
+
+344
+00:42:21,480 --> 00:42:24,219
+Li Xun: We first try, okay, you don't worry, okay, first try.
+
+345
+00:42:24,610 --> 00:42:31,189
+Li Xun: is, anyway, we write down E alpha T.
+
+346
+00:42:31,910 --> 00:42:36,070
+Li Xun: And, alpha seat.
+
+347
+00:42:36,350 --> 00:42:40,529
+Li Xun: the T… Plus… E alpha T.
+
+348
+00:42:41,480 --> 00:42:50,630
+Li Xun: And, here's what? He has, sigma dbt.
+
+349
+00:42:51,310 --> 00:42:52,379
+Li Xun: No problem,
+
+350
+00:42:52,550 --> 00:42:53,790
+Li Xun: Okay, no problem.
+
+351
+00:42:54,840 --> 00:43:03,249
+Li Xun: Okay. So… Next stage is, we what? We tech is what.
+
+352
+00:43:03,420 --> 00:43:05,069
+Li Xun: Tech is in the globe.
+
+353
+00:43:05,490 --> 00:43:10,470
+Li Xun: integral is a D… YS0 from T.
+
+354
+00:43:11,300 --> 00:43:12,420
+Li Xun: Yes or no?
+
+355
+00:43:12,560 --> 00:43:13,760
+Li Xun: Yes, okay.
+
+356
+00:43:13,920 --> 00:43:21,369
+Li Xun: Now, C… T, so E alpha S… Alpha C, D, S…
+
+357
+00:43:21,560 --> 00:43:27,450
+Li Xun: plus E alpha S sigma D… BS.
+
+358
+00:43:29,960 --> 00:43:31,100
+Li Xun: Yes or no?
+
+359
+00:43:31,670 --> 00:43:50,119
+Li Xun: From this stage to this stage, I take what? Take it from 0 to little t. So, I change this to YS, little 0 to little t. So, I change this DT to DS. Also, I want to consider is from 0 to… is what? Little t.
+
+360
+00:43:51,650 --> 00:43:57,650
+Li Xun: Okay, so I changed originally this T variable part to what? S.
+
+361
+00:43:58,240 --> 00:43:59,429
+Li Xun: It's no problem.
+
+362
+00:44:00,210 --> 00:44:11,829
+Li Xun: I don't know the solution, this is the final solution or not, okay? We just now, we together what? Consider tests, okay? So, once this is okay, so now we go ahead, okay, go ahead.
+
+363
+00:44:12,950 --> 00:44:16,469
+Li Xun: So next is what? We get, this one is what?
+
+364
+00:44:16,850 --> 00:44:21,519
+Li Xun: YT, and why is yellow? It's no problem.
+
+365
+00:44:21,930 --> 00:44:22,710
+Li Xun: Okay.
+
+366
+00:44:23,030 --> 00:44:24,130
+Li Xun: So…
+
+367
+00:44:27,450 --> 00:44:31,270
+Li Xun: Also, now let's look at for…
+
+368
+00:44:31,380 --> 00:44:42,630
+Li Xun: This part, this part is what? Is C, okay? We can get is E,
+
+369
+00:44:44,260 --> 00:44:54,440
+Li Xun: wait a minute, E is R for S… Okay… is, for this one.
+
+370
+00:44:55,410 --> 00:45:03,440
+Li Xun: Okay, for this one, we tried, okay. So, for the last part, we just write down sigma 0 to T E alpha S.
+
+371
+00:45:03,800 --> 00:45:05,180
+Li Xun: DPS.
+
+372
+00:45:05,340 --> 00:45:06,520
+Li Xun: Don't do anything.
+
+373
+00:45:06,950 --> 00:45:12,290
+Li Xun: Okay? Step by step. So… This is YT.
+
+374
+00:45:12,970 --> 00:45:24,250
+Li Xun: Okay? This is Y0. So what is… now let's consider it for this term. What happened? Okay, so this term is… we write down is,
+
+375
+00:45:24,630 --> 00:45:29,800
+Li Xun: You're the seat… then eat… alpha T.
+
+376
+00:45:30,130 --> 00:45:32,769
+Li Xun: minus C. Yes or no?
+
+377
+00:45:32,900 --> 00:45:36,099
+Li Xun: No problem? Okay, we together do, okay, together do.
+
+378
+00:45:36,590 --> 00:45:39,380
+Li Xun: So, there is,
+
+379
+00:45:39,890 --> 00:45:56,020
+Li Xun: we write down sigma 0 to TE of S dBS, okay? So, next stage, we should… what? We should change it back to using is just now we mentioned for this formula.
+
+380
+00:45:56,710 --> 00:46:01,840
+Li Xun: Okay? Mention this formula. So, now let's go to see it for what.
+
+381
+00:46:02,510 --> 00:46:11,829
+Li Xun: Okay, so now can I… let me either remove for this one? We write down for this… can we write down years, just now is what?
+
+382
+00:46:12,250 --> 00:46:15,889
+Li Xun: Justin now is E alpha T.
+
+383
+00:46:17,010 --> 00:46:18,220
+Li Xun: XT.
+
+384
+00:46:18,320 --> 00:46:20,610
+Li Xun: This one is what? Zero.
+
+385
+00:46:20,860 --> 00:46:22,989
+Li Xun: So this is equal to X yellow.
+
+386
+00:46:26,160 --> 00:46:40,750
+Li Xun: Okay? Why this one is yellow? Because this one… Y is yellow, so this one is yellow. Is yellow is what X yellow. So, Y is yellow to X yellow. So, this keep up, okay? This keep up.
+
+387
+00:46:42,920 --> 00:47:00,500
+Li Xun: Okay. Now, next stage, we want to get what? XT. Okay, if we want to get XT, so we write down for this one, XT is equal to what? Equal 2 is for the X0, and that is what?
+
+388
+00:47:00,780 --> 00:47:04,310
+Li Xun: is C, E alpha T minus C.
+
+389
+00:47:04,800 --> 00:47:09,819
+Li Xun: sigma 0, T, E, R for SDBS.
+
+390
+00:47:10,250 --> 00:47:11,180
+Li Xun: Okay?
+
+391
+00:47:11,690 --> 00:47:17,229
+Li Xun: Do you have any questions? For this is what I just move this left-handed part to right-handed part.
+
+392
+00:47:18,140 --> 00:47:21,720
+Li Xun: Okay? So far, every stager is, okay.
+
+393
+00:47:22,000 --> 00:47:27,770
+Li Xun: Okay? So, now is what? We should consider. This one is what?
+
+394
+00:47:28,170 --> 00:47:30,359
+Li Xun: This one is moved to here.
+
+395
+00:47:30,620 --> 00:47:36,090
+Li Xun: Okay, this one to move to here. So, now, next step.
+
+396
+00:47:36,430 --> 00:47:40,769
+Li Xun: let's consider is what? XT? Okay, sorry.
+
+397
+00:47:41,100 --> 00:47:43,060
+Li Xun: Maybe I write down his,
+
+398
+00:47:43,580 --> 00:47:50,399
+Li Xun: For this one. XT, okay? So, X yellow is E… are fatigue.
+
+399
+00:47:51,030 --> 00:47:59,029
+Li Xun: For this, the first stage, it's no problem, okay? But, for this second stage corresponding to this one is what? Cancel.
+
+400
+00:47:59,190 --> 00:48:03,669
+Li Xun: Okay. So, for here, is a plus C.
+
+401
+00:48:03,990 --> 00:48:11,930
+Li Xun: But… For this stage, for what is, over for this. Okay, so… C.
+
+402
+00:48:12,290 --> 00:48:17,270
+Li Xun: E of T, okay? But for the last stage for what?
+
+403
+00:48:17,470 --> 00:48:20,479
+Li Xun: we can write down here. So, is…
+
+404
+00:48:20,930 --> 00:48:24,799
+Li Xun: plus sigma is E alpha T.
+
+405
+00:48:26,310 --> 00:48:30,139
+Li Xun: for this one. ER for S. DBS.
+
+406
+00:48:31,150 --> 00:48:32,040
+Li Xun: Okay.
+
+407
+00:48:33,770 --> 00:48:40,119
+Li Xun: So now we get XT. So now you'll double-check. This is the same, or not the same.
+
+408
+00:48:40,460 --> 00:48:42,830
+Li Xun: Just now we mentioned the result.
+
+409
+00:48:42,980 --> 00:48:51,059
+Li Xun: Your double check is what? Just now we mentioned is the, for this one?
+
+410
+00:48:52,040 --> 00:48:52,950
+Li Xun: Okay.
+
+411
+00:48:53,530 --> 00:48:55,690
+Li Xun: You double check. Yes or no?
+
+412
+00:48:56,190 --> 00:49:01,520
+Li Xun: Okay, so this, just now, I talked to you. How to directory
+
+413
+00:49:01,710 --> 00:49:08,599
+Li Xun: we found the equation 3 to get this one, okay? I also just give you the…
+
+414
+00:49:08,760 --> 00:49:11,820
+Li Xun: Maybe this is the result. Wait a minute.
+
+415
+00:49:29,480 --> 00:49:35,059
+Li Xun: Okay, after class, later I will forward you. After class, you double consider, okay?
+
+416
+00:49:43,180 --> 00:49:43,970
+Li Xun: Okay.
+
+417
+00:49:46,950 --> 00:49:56,689
+Li Xun: Today we just solved for this. Next, today, our next step is for what? Consider how to get for this expectation.
+
+418
+00:49:57,080 --> 00:49:58,690
+Li Xun: And the variance, because…
+
+419
+00:49:58,810 --> 00:50:09,030
+Li Xun: Our final exam, I remember, we already discussed a similar question, okay? You will see expectation of the what.
+
+420
+00:50:09,200 --> 00:50:13,749
+Li Xun: Mean expectation of the variance. Okay? Very similar.
+
+421
+00:50:13,890 --> 00:50:15,459
+Li Xun: But a little bit different.
+
+422
+00:50:15,750 --> 00:50:29,259
+Li Xun: Okay, so why I want to talk about that for the next is corresponding to expectation. Okay, we first discuss is for this one. Okay, first discuss for this one, how to get, okay?
+
+423
+00:50:29,570 --> 00:50:36,899
+Li Xun: We have the several methodologies. Now is one of the methodologies is corresponding to…
+
+424
+00:50:37,400 --> 00:50:42,620
+Li Xun: corresponding to this one. Okay, corresponding to this one, I think…
+
+425
+00:50:42,850 --> 00:50:47,200
+Li Xun: is very easy. It's okay. So… Nope.
+
+426
+00:50:47,340 --> 00:50:50,049
+Li Xun: You'll see, okay? You'll see, for this one.
+
+427
+00:50:50,160 --> 00:51:04,750
+Li Xun: First expectation. I give you two methods, okay? Maybe self-method, where your self method during a different question, maybe you can choose a different method, okay? So this method is what corresponding to this one, take expectation.
+
+428
+00:51:04,880 --> 00:51:09,469
+Li Xun: Okay? So, this tech expectation. Okay?
+
+429
+00:51:09,580 --> 00:51:13,149
+Li Xun: This TK expectation, you will find out equal to what?
+
+430
+00:51:13,420 --> 00:51:15,940
+Li Xun: Equal to this one, equal to yellow.
+
+431
+00:51:16,500 --> 00:51:23,829
+Li Xun: Okay? This one equals yellow, so you can write down C1 minus E over T, it's okay?
+
+432
+00:51:24,650 --> 00:51:26,470
+Li Xun: So, then you do what?
+
+433
+00:51:26,690 --> 00:51:31,989
+Li Xun: you get is for EX yellow and E alpha T.
+
+434
+00:51:32,930 --> 00:51:38,229
+Li Xun: Okay, so this is fully similar to what just now we talked about.
+
+435
+00:51:38,600 --> 00:51:52,000
+Li Xun: So you will see, Y is corresponding to X yellow, you also take expectation. Once X yellow is deterministic, expectation of X yellow equal to X yellow. Once X yellow maybe also is rendered.
+
+436
+00:51:52,920 --> 00:51:53,820
+Li Xun: Okay.
+
+437
+00:51:54,080 --> 00:52:11,199
+Li Xun: beginning initial value, maybe we offer you the random. So, expectation of XCLO, okay? Once during the exam, talk to your XCLO, maybe deterministically, so you directly write down EXCLO equal to XLO. Once you may not write down, oh.
+
+438
+00:52:11,430 --> 00:52:18,279
+Li Xun: Nobody tell you this XLO is render or non-rendered, so more exact you write down expectation.
+
+439
+00:52:18,700 --> 00:52:29,129
+Li Xun: of Excel. I really clear. Okay, this is one of the method that I talked to you. Now I give you a second method, how to solve for this one. Okay, second method.
+
+440
+00:52:30,800 --> 00:52:32,349
+Li Xun: Okay, second semester, though.
+
+441
+00:52:32,930 --> 00:52:40,309
+Li Xun: Second method is we corresponding to this original equation we had to consider, okay?
+
+442
+00:52:45,150 --> 00:52:47,959
+Li Xun: Okay, now let's consider the second method.
+
+443
+00:52:58,080 --> 00:53:07,950
+Li Xun: Second method, similar to last lecture class, we talk about is what? We consider is, expectations, so we directly consider what?
+
+444
+00:53:08,390 --> 00:53:10,320
+Li Xun: Expectation for this one.
+
+445
+00:53:10,630 --> 00:53:11,400
+Li Xun: Okay.
+
+446
+00:53:11,710 --> 00:53:19,379
+Li Xun: So, first one is maybe it's what we may is consider for just now, is for this one is the same.
+
+447
+00:53:39,660 --> 00:53:40,610
+Li Xun: Okay.
+
+448
+00:53:40,750 --> 00:53:43,789
+Li Xun: First up, we can consider what expectation.
+
+449
+00:53:44,660 --> 00:53:45,470
+Li Xun: Okay.
+
+450
+00:53:46,950 --> 00:53:49,099
+Li Xun: No problem. Okay, expectation.
+
+451
+00:53:49,340 --> 00:53:52,560
+Li Xun: So for here, we consider expectation.
+
+452
+00:53:52,850 --> 00:54:02,549
+Li Xun: Okay? So, this expectation, so now we know, for this part, you can equal to D For this one.
+
+453
+00:54:03,430 --> 00:54:04,370
+Li Xun: Okay.
+
+454
+00:54:04,680 --> 00:54:10,119
+Li Xun: Also, right-hand part also equal to the alpha, is what?
+
+455
+00:54:11,210 --> 00:54:14,330
+Li Xun: EXT minus CDT.
+
+456
+00:54:14,610 --> 00:54:16,629
+Li Xun: For this part, equal to zero.
+
+457
+00:54:17,570 --> 00:54:19,110
+Li Xun: Okay, this is another…
+
+458
+00:54:19,460 --> 00:54:30,249
+Li Xun: Another methodology. Okay, so another methodology, just now, did you remember we talked about it in the beginning part? Once we write down it for what?
+
+459
+00:54:30,530 --> 00:54:34,870
+Li Xun: Write down for this Y, now we set Y is…
+
+460
+00:54:35,100 --> 00:54:38,890
+Li Xun: T equal to is E alpha T.
+
+461
+00:54:39,180 --> 00:54:41,909
+Li Xun: Expectation XT, okay?
+
+462
+00:54:42,280 --> 00:54:49,319
+Li Xun: everything down. Just now is what? Just now, this is very special. You can write down, this one is EXT.
+
+463
+00:54:49,670 --> 00:54:51,840
+Li Xun: This one is EXT.
+
+464
+00:54:53,590 --> 00:54:54,470
+Li Xun: Okay.
+
+465
+00:54:55,290 --> 00:55:04,010
+Li Xun: So, solution we already have. What is, just now we talked about the YT. Now, let's make up, just now we talk about the YT, okay? So…
+
+466
+00:55:04,370 --> 00:55:09,460
+Li Xun: this YT, Just now is what? Just now this YT.
+
+467
+00:55:09,700 --> 00:55:12,349
+Li Xun: is from the yellow to T.
+
+468
+00:55:12,790 --> 00:55:17,379
+Li Xun: YS. So, what is this one? It is from the…
+
+469
+00:55:17,860 --> 00:55:28,960
+Li Xun: This one is E of SCDS, okay? So, this is what YT minus Y yellow. So, this one is what,
+
+470
+00:55:39,140 --> 00:55:42,360
+Li Xun: Oh, sorry, for here, I lost yesterday.
+
+471
+00:55:42,490 --> 00:55:45,729
+Li Xun: Wonder the value for here is alpha.
+
+472
+00:55:46,200 --> 00:55:49,189
+Li Xun: Okay, so here, involved alpha.
+
+473
+00:55:49,540 --> 00:55:57,929
+Li Xun: It's okay. Involved alpha. So, now we can write down this one is CE alpha S.
+
+474
+00:55:58,510 --> 00:55:59,540
+Li Xun: T's yellow.
+
+475
+00:55:59,750 --> 00:56:05,119
+Li Xun: Okay? So, now this one is what? CE of T.
+
+476
+00:56:05,340 --> 00:56:08,469
+Li Xun: And, minus what?
+
+477
+00:56:08,670 --> 00:56:15,350
+Li Xun: Okay, so now we know Y… now we know why T is what? Is E of T.
+
+478
+00:56:15,660 --> 00:56:19,779
+Li Xun: EXT, okay? What if Y is yellow?
+
+479
+00:56:20,000 --> 00:56:23,719
+Li Xun: Why is yellow is what? Why is yellow? Yes, E.
+
+480
+00:56:23,840 --> 00:56:28,459
+Li Xun: Alpha with yellow. E, X, T, yellow.
+
+481
+00:56:28,590 --> 00:56:33,620
+Li Xun: Okay? So, this one is what? EX0.
+
+482
+00:56:34,340 --> 00:56:38,320
+Li Xun: Okay, so… for another part is E,
+
+483
+00:56:39,140 --> 00:56:44,200
+Li Xun: X CLO. Okay. The C, E over T.
+
+484
+00:56:44,490 --> 00:56:46,909
+Li Xun: Okay, so, now let's go on.
+
+485
+00:56:47,140 --> 00:56:52,490
+Li Xun: we get E alpha TE, X T.
+
+486
+00:56:54,080 --> 00:56:55,800
+Li Xun: EXYLO.
+
+487
+00:56:55,970 --> 00:57:07,570
+Li Xun: Okay, plus C, E alpha T minus 1. So, finally, EXT equal to what? Equal to is negative alpha T, E
+
+488
+00:57:07,820 --> 00:57:16,600
+Li Xun: X yellow plus is… C… One is… For this one.
+
+489
+00:57:17,260 --> 00:57:23,380
+Li Xun: Okay, so now you can compare, yes, just now, we mentioned the solution.
+
+490
+00:57:23,730 --> 00:57:27,819
+Li Xun: I remember, yes, just now we mentioned the solution user.
+
+491
+00:57:28,470 --> 00:57:32,700
+Li Xun: For the,
+
+492
+00:57:35,700 --> 00:57:39,530
+Li Xun: Yes. Just now we mentioned this, solution.
+
+493
+00:57:39,840 --> 00:57:44,849
+Li Xun: Is the same. It's okay? You're the same. Okay. So now let me use the…
+
+494
+00:57:45,810 --> 00:57:47,669
+Li Xun: I take a picture. Okay.
+
+495
+00:57:52,740 --> 00:57:59,890
+Li Xun: After class, you're corresponding to my picture, rearrange it, because now it's,
+
+496
+00:58:00,080 --> 00:58:17,370
+Li Xun: In this picture, we have so many information, okay? Beginning, we just directly considered X, not considered expectation, okay? So, later, I changed this one, XT, to the what? Expectation. I really clear out, okay, this is just the what? Just the years in my teaching that,
+
+497
+00:58:17,470 --> 00:58:29,079
+Li Xun: draft, after class, you should, by yourself, reconsider, rearrange it, okay? So, now, let's take a 5-minute break, then you go ahead, we consider either what
+
+498
+00:58:29,210 --> 00:58:30,299
+Li Xun: Use the dot.
+
+499
+00:58:30,890 --> 00:58:33,450
+Li Xun: Second part, variance, how to calculate.
+
+500
+00:58:33,560 --> 00:58:38,799
+Li Xun: Okay, we first consider what? We first consider expectation. Next.
+
+501
+00:58:38,910 --> 00:58:43,590
+Li Xun: 5 minutes late, then we consider for this. Okay. Take a break.
+
+502
+01:03:13,860 --> 01:03:21,089
+Li Xun: Okay, now let's go on. We discussed how to consider variance, okay, how to consider variance.
+
+503
+01:03:28,340 --> 01:03:31,359
+Li Xun: Okay, in generally speaking, okay.
+
+504
+01:03:31,550 --> 01:03:39,200
+Li Xun: I want to use my methodology again. Okay. So, now let's go on, consider yesterday.
+
+505
+01:03:39,750 --> 01:03:44,460
+Li Xun: Consider use the… talk about is the variance, okay? Okay.
+
+506
+01:03:44,920 --> 01:03:47,100
+Li Xun: So… First one.
+
+507
+01:03:48,030 --> 01:03:50,830
+Li Xun: Consider variance, okay.
+
+508
+01:03:51,090 --> 01:03:55,710
+Li Xun: Just now, we have, this is the what? Min, okay?
+
+509
+01:03:56,560 --> 01:04:02,259
+Li Xun: So, just now we have yet what? Original equation, and corresponding to the…
+
+510
+01:04:02,410 --> 01:04:06,939
+Li Xun: Expectation equation, okay, we have for this one. No problem.
+
+511
+01:04:09,430 --> 01:04:13,520
+Li Xun: Okay. Now, corresponding to this question.
+
+512
+01:04:13,690 --> 01:04:19,450
+Li Xun: If you consider variance, so, Z mean is what? XT.
+
+513
+01:04:19,580 --> 01:04:28,100
+Li Xun: You should consider what the second Moment minus is the… First moment.
+
+514
+01:04:28,910 --> 01:04:35,559
+Li Xun: Take the square, okay? Just now we get the mean. That mean is what? We get is the…
+
+515
+01:04:35,980 --> 01:04:38,080
+Li Xun: First a moment… first moment.
+
+516
+01:04:39,470 --> 01:04:48,060
+Li Xun: Just now, we already have the first moment, okay? So, now we should consider the second moment… second moment again.
+
+517
+01:04:48,760 --> 01:04:52,449
+Li Xun: Then we… Go ahead. It's okay?
+
+518
+01:04:53,150 --> 01:04:59,879
+Li Xun: Okay, also we can take it another way. After class, our classmate can consider how to get a second moment.
+
+519
+01:05:00,970 --> 01:05:02,600
+Li Xun: Illy clear, you try.
+
+520
+01:05:02,860 --> 01:05:09,840
+Li Xun: corresponding to this problem, how to get a second moment. Now, I also introduced another methodology, okay?
+
+521
+01:05:10,090 --> 01:05:12,270
+Li Xun: Okay, this methodology is what?
+
+522
+01:05:12,410 --> 01:05:15,869
+Li Xun: is I want to give up for… sorry.
+
+523
+01:05:20,180 --> 01:05:26,750
+Li Xun: I mean, I want to give up for this method, okay? For this method. So, how to go ahead?
+
+524
+01:05:27,180 --> 01:05:31,410
+Li Xun: So, if you want to give up, so you have to get for this variance.
+
+525
+01:05:31,740 --> 01:05:34,060
+Li Xun: Topic. Okay, so now let's go on.
+
+526
+01:05:35,490 --> 01:05:45,030
+Li Xun: Okay. So just now, we get the equation, different equation. Also, we get it for this. So now, can we set it is the new…
+
+527
+01:05:45,470 --> 01:05:51,049
+Li Xun: Equation. YT. Okay, let me use it for another color, okay?
+
+528
+01:05:51,180 --> 01:05:57,690
+Li Xun: YT equal to the XT minus E… XT.
+
+529
+01:05:58,240 --> 01:05:59,389
+Li Xun: Yes or no?
+
+530
+01:06:02,190 --> 01:06:08,729
+Li Xun: Yes or no? Yes, okay. So now let's look at DYT equal to what?
+
+531
+01:06:08,870 --> 01:06:15,770
+Li Xun: Equal to DXT minus… D… EXT.
+
+532
+01:06:17,230 --> 01:06:18,120
+Li Xun: Okay.
+
+533
+01:06:18,670 --> 01:06:20,310
+Li Xun: So now let's look at her.
+
+534
+01:06:20,480 --> 01:06:25,489
+Li Xun: Based on… just now about what we mentioned for this two-part.
+
+535
+01:06:26,080 --> 01:06:32,389
+Li Xun: mention this two-part. So, you will immediately get what?
+
+536
+01:06:33,940 --> 01:06:38,529
+Li Xun: Immediately, Get this one, is sigma.
+
+537
+01:06:38,790 --> 01:06:40,470
+Li Xun: DBT. Yes or no?
+
+538
+01:06:42,120 --> 01:06:42,970
+Li Xun: Yes.
+
+539
+01:06:43,340 --> 01:06:47,650
+Li Xun: Okay. So, now let's… now let's go up.
+
+540
+01:06:48,440 --> 01:06:49,860
+Li Xun: Variance.
+
+541
+01:06:50,510 --> 01:06:53,980
+Li Xun: Okay, so now let's repeat the variance again.
+
+542
+01:06:54,160 --> 01:07:01,369
+Li Xun: Okay, so the variant… the variance… XT equal to is what?
+
+543
+01:07:01,950 --> 01:07:05,720
+Li Xun: Equal 2 is the… Variance.
+
+544
+01:07:05,990 --> 01:07:07,149
+Li Xun: is what?
+
+545
+01:07:13,960 --> 01:07:15,020
+Li Xun: For this one.
+
+546
+01:07:16,560 --> 01:07:25,470
+Li Xun: expectation is XT, minus… E… XT. Take a square.
+
+547
+01:07:26,000 --> 01:07:27,069
+Li Xun: Yes or no?
+
+548
+01:07:29,210 --> 01:07:35,699
+Li Xun: Yes, so this equal to is expectation YT, second moment.
+
+549
+01:07:37,010 --> 01:07:47,600
+Li Xun: Okay? YT second moment. So, now if you want to answer for this, so we should further consider the YT second.
+
+550
+01:07:47,930 --> 01:07:48,760
+Li Xun: Okay?
+
+551
+01:07:49,160 --> 01:07:51,830
+Li Xun: DYT second. DY is what?
+
+552
+01:07:52,050 --> 01:07:53,620
+Li Xun: Either for this equation.
+
+553
+01:07:55,120 --> 01:07:56,460
+Li Xun: Okay, read apart.
+
+554
+01:07:56,640 --> 01:07:57,740
+Li Xun: Okay, read the part.
+
+555
+01:07:57,870 --> 01:08:00,450
+Li Xun: So… Now, let's go up.
+
+556
+01:08:00,910 --> 01:08:03,450
+Li Xun: So you, you should consider it what?
+
+557
+01:08:04,210 --> 01:08:13,389
+Li Xun: For this one, okay, for this one. So, for this one, it's what? DYT. DYT we consider… consider it's what?
+
+558
+01:08:13,660 --> 01:08:17,910
+Li Xun: Partial YT squared, partial T.
+
+559
+01:08:18,710 --> 01:08:22,560
+Li Xun: DT. Okay, eto lemma. Okay, eto lemma.
+
+560
+01:08:22,710 --> 01:08:26,828
+Li Xun: Then it's considered partial YT.
+
+561
+01:08:27,430 --> 01:08:29,649
+Li Xun: and, partial T.
+
+562
+01:08:31,130 --> 01:08:34,000
+Li Xun: is D. YT.
+
+563
+01:08:34,430 --> 01:08:35,359
+Li Xun: It's okay?
+
+564
+01:08:35,750 --> 01:08:39,359
+Li Xun: The final rate, 1 over 2 is what?
+
+565
+01:08:39,569 --> 01:08:41,038
+Li Xun: He's a Pasha.
+
+566
+01:08:41,939 --> 01:08:43,390
+Li Xun: YT.
+
+567
+01:08:45,109 --> 01:08:46,189
+Li Xun: Square.
+
+568
+01:08:49,950 --> 01:08:51,750
+Li Xun: Second order.
+
+569
+01:08:52,810 --> 01:08:54,069
+Li Xun: YT.
+
+570
+01:08:59,069 --> 01:09:01,788
+Li Xun: This is YT. This is YT.
+
+571
+01:09:02,020 --> 01:09:05,118
+Li Xun: Then is what? DYT.
+
+572
+01:09:05,660 --> 01:09:07,578
+Li Xun: Sequoia. Yes or no?
+
+573
+01:09:08,890 --> 01:09:10,069
+Li Xun: This is what?
+
+574
+01:09:10,729 --> 01:09:19,149
+Li Xun: Ito lemma, let's use it. This eTilemma, you may not… very clear for you. Okay, it does not matter. We can redo, okay?
+
+575
+01:09:20,290 --> 01:09:29,670
+Li Xun: maybe this is… maybe you say this is, is beyond your current understanding, it does not matter. We can set what? We can set, yes,
+
+576
+01:09:29,950 --> 01:09:34,880
+Li Xun: We can set the function F is what? TYT.
+
+577
+01:09:35,090 --> 01:09:37,740
+Li Xun: equal to YT squared.
+
+578
+01:09:37,960 --> 01:09:38,960
+Li Xun: No problem.
+
+579
+01:09:39,250 --> 01:09:42,720
+Li Xun: Okay, so now let's look at the partial F.
+
+580
+01:09:42,880 --> 01:09:46,040
+Li Xun: Partial T equal to yellow. Partial F,
+
+581
+01:09:46,200 --> 01:09:50,399
+Li Xun: partial YT equal to what? 2YT.
+
+582
+01:09:50,569 --> 01:09:54,198
+Li Xun: And a partial F, partial YT.
+
+583
+01:09:54,380 --> 01:09:57,720
+Li Xun: square equal to what? Equal to 2.
+
+584
+01:09:58,310 --> 01:10:02,399
+Li Xun: This is clear for you. Okay, so now you understand
+
+585
+01:10:02,500 --> 01:10:12,590
+Li Xun: Whatever we want to ask you, consider is what is expectation. Also, maybe we ask you to consider variance. Okay, what is key point? What is key point?
+
+586
+01:10:14,330 --> 01:10:15,499
+Li Xun: What did he find?
+
+587
+01:10:16,630 --> 01:10:19,409
+Li Xun: eTilemma, okay? So…
+
+588
+01:10:19,530 --> 01:10:27,120
+Li Xun: You always focus on etilemma. How to use ETOLEMA? Get for this one. This is what? We talk about transformer.
+
+589
+01:10:27,620 --> 01:10:30,530
+Li Xun: Okay, you actually do lots of that what?
+
+590
+01:10:30,940 --> 01:10:36,989
+Li Xun: use transformer, do transformation, then you'll get the final result, okay? So, anyway.
+
+591
+01:10:37,720 --> 01:10:52,129
+Li Xun: Now you will consider AI and what? Artificial intelligence, reinforcement learning, machine learning, always talk about transformer, transformer, transformer. What is transformer? Transformer, just a key point.
+
+592
+01:10:52,280 --> 01:11:09,589
+Li Xun: Mathematicus. There, this old guy, give the new name, Transformer. Actually, Transformer is what one of Applied Mass. Why today you study at the Applied Mathematics? You should be, what, very happy.
+
+593
+01:11:09,590 --> 01:11:19,149
+Li Xun: you already automatically, naturally understand what is transform… what is transformer? Okay, every day, you will see transformer, transformer.
+
+594
+01:11:19,860 --> 01:11:22,959
+Li Xun: That is one of the water. Spatial mathemat
+
+595
+01:11:23,380 --> 01:11:28,550
+Li Xun: Apply the Mathematicus tool. They understand, now you know what, transformer.
+
+596
+01:11:28,720 --> 01:11:38,560
+Li Xun: Now our transform is what? Etilemma. Now you already see. We solve X, solve Y, solve expectation. Now we solve water.
+
+597
+01:11:38,820 --> 01:11:40,850
+Li Xun: Variance! Using what?
+
+598
+01:11:41,560 --> 01:11:43,080
+Li Xun: Oh, we're transforming what?
+
+599
+01:11:43,200 --> 01:11:44,210
+Li Xun: It's a lemma.
+
+600
+01:11:44,560 --> 01:11:50,229
+Li Xun: I think this semester you can fully understand how to use ETOLEMA. Okay.
+
+601
+01:11:50,450 --> 01:12:05,210
+Li Xun: your, generally speaking in, say, your knowledge is already beyond the lots of the students, maybe almost a touch PhD degree. Maybe possible, you're already beyond the sum of the PhD students. It's okay.
+
+602
+01:12:06,080 --> 01:12:12,870
+Li Xun: Now, let's look at… We consider the YT using the
+
+603
+01:12:13,150 --> 01:12:16,409
+Li Xun: Air for… T. Consider, it's okay.
+
+604
+01:12:16,550 --> 01:12:17,740
+Li Xun: So?
+
+605
+01:12:18,450 --> 01:12:20,440
+Li Xun: We get either the what?
+
+606
+01:12:20,650 --> 01:12:24,130
+Li Xun: partial F, partial TDT.
+
+607
+01:12:24,280 --> 01:12:29,500
+Li Xun: and the partial F, partial YT, DYT.
+
+608
+01:12:29,600 --> 01:12:36,550
+Li Xun: partial… for this one, YT, second order, and 1 over 2,
+
+609
+01:12:36,680 --> 01:12:43,399
+Li Xun: And dyt take square. Okay, this is what? Now I just write down what?
+
+610
+01:12:44,750 --> 01:12:45,770
+Li Xun: It's a lemma.
+
+611
+01:12:46,580 --> 01:12:49,539
+Li Xun: Okay, now let's go ahead. Together, go ahead.
+
+612
+01:12:49,720 --> 01:13:00,950
+Li Xun: Okay… Together, go ahead. So… First one is yellow, plus 2YT, is DYT.
+
+613
+01:13:01,210 --> 01:13:06,599
+Li Xun: plus 1 over 2 times 2. DYT is what?
+
+614
+01:13:07,000 --> 01:13:11,709
+Li Xun: Now let's look at DYT, okay? Is sigma…
+
+615
+01:13:12,320 --> 01:13:19,979
+Li Xun: dbt squared. So, now we get a 2YT, okay? 2YT.
+
+616
+01:13:21,270 --> 01:13:27,380
+Li Xun: toy t. So… They ain't use that.
+
+617
+01:13:27,790 --> 01:13:28,960
+Li Xun: Sigma.
+
+618
+01:13:29,400 --> 01:13:31,760
+Li Xun: D… BT, okay?
+
+619
+01:13:32,550 --> 01:13:34,839
+Li Xun: Non-URC for this one? No problem?
+
+620
+01:13:34,990 --> 01:13:40,510
+Li Xun: Okay. So, then you have what? Sigma. Square.
+
+621
+01:13:40,880 --> 01:13:42,900
+Li Xun: DT… It's okay.
+
+622
+01:13:44,530 --> 01:13:47,119
+Li Xun: Now let's repeat for this one. This is yellow.
+
+623
+01:13:47,270 --> 01:13:54,419
+Li Xun: 2YT, keep up. So why you get it? Because DYT. DYT equal to what? Sigma dbt.
+
+624
+01:13:54,890 --> 01:13:55,930
+Li Xun: It's okay!
+
+625
+01:13:56,200 --> 01:14:05,720
+Li Xun: Do you have any confusion? No more? I go ahead. Okay. So, what is get for this? This is equal to 1, this is sigma squared dbt, what?
+
+626
+01:14:05,900 --> 01:14:07,230
+Li Xun: equal to dt.
+
+627
+01:14:07,670 --> 01:14:09,210
+Li Xun: Finish. Okay.
+
+628
+01:14:09,390 --> 01:14:12,720
+Li Xun: So, now what we consider.
+
+629
+01:14:13,250 --> 01:14:17,230
+Li Xun: E… DYT square equal to what?
+
+630
+01:14:17,510 --> 01:14:20,020
+Li Xun: sig… sigma T.
+
+631
+01:14:20,780 --> 01:14:27,529
+Li Xun: DT… Okay, so now let's consider what integral from…
+
+632
+01:14:27,800 --> 01:14:36,659
+Li Xun: DEYS square equal to is what? 0 to little t, sigma is what?
+
+633
+01:14:36,830 --> 01:14:39,809
+Li Xun: is DS. Okay, this one is what?
+
+634
+01:14:39,950 --> 01:14:48,139
+Li Xun: is sigma… is, maybe this one is, what, sigma S? It's okay?
+
+635
+01:14:50,510 --> 01:14:53,440
+Li Xun: Wait a minute… oh, yeah, sigma T.
+
+636
+01:15:13,360 --> 01:15:14,960
+Li Xun: Oh, sorry.
+
+637
+01:15:16,340 --> 01:15:19,039
+Li Xun: For here, I lost something. Okay.
+
+638
+01:15:19,300 --> 01:15:31,269
+Li Xun: Now, idea is, okay, just an old classmate, maybe it did not help me double-check. Actually, we cancel what? We cancel C.
+
+639
+01:15:31,600 --> 01:15:34,080
+Li Xun: Cannot cancel for this part.
+
+640
+01:15:34,230 --> 01:15:37,909
+Li Xun: I totally cancel this part. It is wrong. I read it clear out.
+
+641
+01:15:40,530 --> 01:15:41,210
+Li Xun: E.
+
+642
+01:15:41,490 --> 01:15:44,189
+Li Xun: This means what we cannot get for this.
+
+643
+01:15:44,560 --> 01:15:49,899
+Li Xun: Okay, it does not matter. Now we quickly revise, okay? Quickly revise.
+
+644
+01:15:51,230 --> 01:15:53,809
+Li Xun: So, yo, don't worry. Okay, don't worry.
+
+645
+01:15:54,550 --> 01:15:58,540
+Li Xun: Just, we have a little bit to the table, okay, just now.
+
+646
+01:16:00,550 --> 01:16:01,510
+Li Xun: Okay.
+
+647
+01:16:03,270 --> 01:16:14,900
+Li Xun: memory part we can use for here, for here. Now you will see, actually, this equal to what? Equal to the alpha, okay?
+
+648
+01:16:15,560 --> 01:16:19,930
+Li Xun: XT minus EXT.
+
+649
+01:16:20,850 --> 01:16:23,890
+Li Xun: there is… DT.
+
+650
+01:16:24,030 --> 01:16:27,100
+Li Xun: sigma dbt. Yes or no?
+
+651
+01:16:27,870 --> 01:16:31,110
+Li Xun: Okay, just now, cancer is too much.
+
+652
+01:16:31,420 --> 01:16:49,069
+Li Xun: Because I also cancel this one and this one. Actually, we just cancel what the C part. Cannot cancer, EXT minus the expectation EXT. It's clear? Okay, so now let's use the comeback. So this one is alpha.
+
+653
+01:16:49,300 --> 01:16:52,019
+Li Xun: YT, very sorry, alpha YT.
+
+654
+01:16:52,320 --> 01:16:54,989
+Li Xun: Is what? Is a sigma.
+
+655
+01:16:55,680 --> 01:16:58,150
+Li Xun: the… BT.
+
+656
+01:16:58,300 --> 01:16:59,630
+Li Xun: Nice, okay.
+
+657
+01:17:04,540 --> 01:17:06,569
+Li Xun: This is YT, it's no problem.
+
+658
+01:17:08,840 --> 01:17:09,600
+Li Xun: What?
+
+659
+01:17:09,710 --> 01:17:12,370
+Li Xun: Oh, okay, okay, okay, okay.
+
+660
+01:17:12,920 --> 01:17:13,690
+Li Xun: Yep.
+
+661
+01:17:15,160 --> 01:17:18,689
+Li Xun: Yeah, DT… No, it's okay.
+
+662
+01:17:18,800 --> 01:17:32,649
+Li Xun: Okay, okay. So, but our idea is no problem. We can follow for… for here, this part is what is the… or this part, we should revise, okay? Revise a little bit, just…
+
+663
+01:17:33,070 --> 01:17:35,710
+Li Xun: Not too much, okay? We redo.
+
+664
+01:17:36,580 --> 01:17:40,389
+Li Xun: Yep, not… Let's look at it. For this…
+
+665
+01:17:40,560 --> 01:18:00,210
+Li Xun: idea is the same. Okay, don't change it. So, equal to zero, 2Y, and for this one, too. So, we use the lemma, we keep up, okay? So, also, 2YTDYT. For this one, it's also no problem. Okay, no problem, this is DT. But for this part, it's wrong.
+
+666
+01:18:00,520 --> 01:18:02,090
+Li Xun: Okay, this part is wrong.
+
+667
+01:18:02,200 --> 01:18:06,369
+Li Xun: Now, let's use the repeat user for this part.
+
+668
+01:18:07,370 --> 01:18:08,540
+Li Xun: Okay.
+
+669
+01:18:10,210 --> 01:18:22,099
+Li Xun: Because, actually, our exact rate, our dyt equation is for this equation. Not just now, we mentioned just the sigma dbt, it's okay? So…
+
+670
+01:18:22,160 --> 01:18:38,260
+Li Xun: This means during the water, final exam. Okay. For me, I'm very familiar with heat dilemma. Also, maybe you have the water mistaken, it's okay. So, during the final exam, already, maybe you see is not too many questions.
+
+671
+01:18:38,500 --> 01:18:53,559
+Li Xun: should be careful. This is a… your class is so different than my another class. My another class, we give the what lots of the question, but all question, maybe they are already no, okay? They just say the what, maybe give them about his what? How many questions?
+
+672
+01:18:54,340 --> 01:19:00,039
+Li Xun: 12 questions. Maybe your class, maybe just to give them maybe the sixth question. Maybe, okay?
+
+673
+01:19:00,150 --> 01:19:07,370
+Li Xun: Although the question not… not is the, number is not beyond that, but you know.
+
+674
+01:19:07,530 --> 01:19:17,990
+Li Xun: All this class is harder than why I give you the help sheet. I really clear. So, although not too many questions, but you should very be careful, okay?
+
+675
+01:19:18,000 --> 01:19:31,559
+Li Xun: Once just now, I, what, I missed the one turn. It's okay. So, during the final event, you should step by step below the question also is what I specified very, very clear, and very, very be careful. It's okay?
+
+676
+01:19:31,690 --> 01:19:33,410
+Li Xun: Okay, just now.
+
+677
+01:19:33,530 --> 01:19:37,150
+Li Xun: I lost need the 110. Okay, now let's go on.
+
+678
+01:19:38,710 --> 01:19:48,900
+Li Xun: Although we have not too many questions, but we should use what very careful, it's okay? So, now let's look at is what is 2… okay.
+
+679
+01:19:49,040 --> 01:19:50,110
+Li Xun: Maybe it is.
+
+680
+01:19:50,490 --> 01:19:57,809
+Li Xun: for here is 2YT, okay? We write down, it's alphaYT.
+
+681
+01:19:58,250 --> 01:20:02,239
+Li Xun: dt plus sigma dbt.
+
+682
+01:20:03,060 --> 01:20:07,159
+Li Xun: Plus is what? Plus this one is that.
+
+683
+01:20:07,300 --> 01:20:10,120
+Li Xun: sigma square dt. It's okay?
+
+684
+01:20:12,460 --> 01:20:13,560
+Li Xun: No problem.
+
+685
+01:20:14,300 --> 01:20:16,630
+Li Xun: Okay, now let's… now…
+
+686
+01:20:16,760 --> 01:20:25,890
+Li Xun: Let's go on. So, now corresponding to our… this new model, okay? New model, once we take expectation, D,
+
+687
+01:20:26,040 --> 01:20:27,590
+Li Xun: E-Y-T.
+
+688
+01:20:27,720 --> 01:20:28,750
+Li Xun: square.
+
+689
+01:20:29,170 --> 01:20:31,189
+Li Xun: So, we get is what?
+
+690
+01:20:31,460 --> 01:20:35,350
+Li Xun: 2 alpha EYT.
+
+691
+01:20:35,490 --> 01:20:37,500
+Li Xun: Square DT.
+
+692
+01:20:38,120 --> 01:20:41,329
+Li Xun: this part equal to what? Zero.
+
+693
+01:20:41,820 --> 01:20:47,670
+Li Xun: Okay? This part equal to zero. But for here, also, sigma DT.
+
+694
+01:20:49,200 --> 01:20:56,170
+Li Xun: Okay, because this is sigma dt. Corresponding to this sigma dt, we can, what, combine?
+
+695
+01:20:57,710 --> 01:21:02,549
+Li Xun: We can combine is plus sigma squared dt.
+
+696
+01:21:03,520 --> 01:21:04,679
+Li Xun: This is okay?
+
+697
+01:21:05,250 --> 01:21:11,530
+Li Xun: Okay, so, now is what? Next stage we set is new.
+
+698
+01:21:11,930 --> 01:21:20,190
+Li Xun: notation. Now we set the new notation, we maybe used the… For example.
+
+699
+01:21:20,560 --> 01:21:30,330
+Li Xun: Maybe we set his, ZT… Yes. E… YT squared, it's okay?
+
+700
+01:21:30,510 --> 01:21:33,539
+Li Xun: So now we get is what? DZT.
+
+701
+01:21:34,020 --> 01:21:34,930
+Li Xun: Yes.
+
+702
+01:21:36,240 --> 01:21:38,109
+Li Xun: is 2 alpha.
+
+703
+01:21:38,240 --> 01:21:39,370
+Li Xun: ZT.
+
+704
+01:21:40,270 --> 01:21:42,390
+Li Xun: is plus sigma.
+
+705
+01:21:42,940 --> 01:21:44,910
+Li Xun: The key is clear.
+
+706
+01:21:46,370 --> 01:21:49,569
+Li Xun: Okay, now you know how to go ahead and solve.
+
+707
+01:21:50,640 --> 01:21:51,550
+Li Xun: Do not?
+
+708
+01:21:52,270 --> 01:21:59,280
+Li Xun: Okay, now let's, go on, step by step. We first, we should consider is what?
+
+709
+01:21:59,690 --> 01:22:01,509
+Li Xun: Homogeneous. This is what?
+
+710
+01:22:01,660 --> 01:22:11,050
+Li Xun: Involve this one, we say this is a non-homogeneous equation. So we first solve homogeneous. What is homogeneous? Homogeneous is ZT.
+
+711
+01:22:11,170 --> 01:22:12,170
+Li Xun: Okay?
+
+712
+01:22:12,340 --> 01:22:18,779
+Li Xun: DT… Also, you can, using what the beginning, we talked about the methodology.
+
+713
+01:22:18,930 --> 01:22:27,119
+Li Xun: Did you remember? We're using what? We're using it for… this idea.
+
+714
+01:22:28,760 --> 01:22:44,860
+Li Xun: Okay, once you know for this structure, you can use it for this. Now, I also introduce another methodology, the similar. Suppose I may not know how to conjecture further one. So, in general, for ODE, we use what? We first
+
+715
+01:22:45,030 --> 01:22:51,449
+Li Xun: is the cancer sigma squared. Then we just consider it what? Homogeneous equation.
+
+716
+01:22:51,990 --> 01:22:59,860
+Li Xun: Okay, homogeneous equation. Once you consider homogeneous equation corresponding to this one, can you get its solution?
+
+717
+01:23:02,780 --> 01:23:04,180
+Li Xun: either not easy.
+
+718
+01:23:06,730 --> 01:23:10,399
+Li Xun: Do not… You don't know?
+
+719
+01:23:11,720 --> 01:23:12,860
+Li Xun: Okay.
+
+720
+01:23:13,930 --> 01:23:18,429
+Li Xun: Now I assure you, of the cross, maybe you should…
+
+721
+01:23:18,730 --> 01:23:21,290
+Li Xun: By yourself is a repeat for this.
+
+722
+01:23:21,470 --> 01:23:23,330
+Li Xun: is 2 alpha dt.
+
+723
+01:23:24,390 --> 01:23:25,350
+Li Xun: Okay.
+
+724
+01:23:25,720 --> 01:23:28,659
+Li Xun: Now do log transformation again, okay?
+
+725
+01:23:28,810 --> 01:23:34,750
+Li Xun: Okay, do log transformation again. So, we get is a D… Here's a what?
+
+726
+01:23:35,170 --> 01:23:38,950
+Li Xun: Here's a… is the… locked.
+
+727
+01:23:39,460 --> 01:23:41,410
+Li Xun: Absolute CT.
+
+728
+01:23:41,620 --> 01:23:42,570
+Li Xun: Okay?
+
+729
+01:23:42,730 --> 01:23:44,959
+Li Xun: is what? Alpha T.
+
+730
+01:23:45,160 --> 01:23:46,570
+Li Xun: DT. It's okay.
+
+731
+01:23:47,420 --> 01:24:05,309
+Li Xun: run log, because we may not know this Z is what positive. Okay, once Z is the starting value is the positive, so of course the Z is positive. So anyway, we first write down for this log star, okay? So, corresponding to this log, we consider ET
+
+732
+01:24:05,730 --> 01:24:08,270
+Li Xun: D… Oh, sorry.
+
+733
+01:24:09,930 --> 01:24:22,940
+Li Xun: D9 specified more clear, it's okay. So, is that the log is ZT. Oh, sorry, now we change it to S, it's okay, I changed it to S. So…
+
+734
+01:24:23,090 --> 01:24:29,200
+Li Xun: Then is what? This is from 0 to T negative 2 alpha SDS.
+
+735
+01:24:29,700 --> 01:24:30,620
+Li Xun: It's okay.
+
+736
+01:24:31,290 --> 01:24:32,110
+Li Xun: Okay.
+
+737
+01:24:33,180 --> 01:24:35,860
+Li Xun: Oh, sorry, our alpha is…
+
+738
+01:24:36,310 --> 01:24:40,109
+Li Xun: is no T. O alpha is no T. So, it's okay.
+
+739
+01:24:40,320 --> 01:24:42,889
+Li Xun: Okay, so now let's look at…
+
+740
+01:24:43,440 --> 01:24:49,440
+Li Xun: This part equal to what? This part equal to is 2.
+
+741
+01:24:49,630 --> 01:24:51,210
+Li Xun: alpha T.
+
+742
+01:24:51,620 --> 01:24:52,540
+Li Xun: It's okay.
+
+743
+01:24:53,290 --> 01:25:01,600
+Li Xun: Okay, so now let's look at the left-hand part. So left-hand part is log… See?
+
+744
+01:25:02,170 --> 01:25:08,520
+Li Xun: T, okay, minus log… Z… Cielo.
+
+745
+01:25:09,750 --> 01:25:13,160
+Li Xun: then is equal to what? 2 alpha.
+
+746
+01:25:13,610 --> 01:25:20,419
+Li Xun: T is okay? 2 over T. So, now we write down is what ZT is.
+
+747
+01:25:20,690 --> 01:25:21,720
+Li Xun: Lock.
+
+748
+01:25:21,940 --> 01:25:24,210
+Li Xun: C, ZLO, END.
+
+749
+01:25:24,520 --> 01:25:25,440
+Li Xun: Yes.
+
+750
+01:25:25,600 --> 01:25:26,760
+Li Xun: Oh, sorry?
+
+751
+01:25:27,250 --> 01:25:32,909
+Li Xun: is the what? Is the 2 alpha T. So, 9 is what?
+
+752
+01:25:33,150 --> 01:25:45,759
+Li Xun: Just now, we transformed is what? Take transformation is a lock. Now, back is what? Take explanation. ZT equal to what? Z yellow is…
+
+753
+01:25:47,410 --> 01:25:48,409
+Li Xun: For this one.
+
+754
+01:25:49,660 --> 01:25:52,319
+Li Xun: So, once your nose is yellow, so you can solve.
+
+755
+01:25:52,820 --> 01:25:58,519
+Li Xun: Okay, now we solve for this solution is corresponding to what? Corresponding to is this solution.
+
+756
+01:25:59,540 --> 01:26:00,530
+Li Xun: Okay.
+
+757
+01:26:09,520 --> 01:26:11,900
+Li Xun: So,
+
+758
+01:26:17,510 --> 01:26:22,890
+Li Xun: This solution is 2 alpha t, okay? 2 alpha T.
+
+759
+01:26:27,790 --> 01:26:28,670
+Li Xun: Okay.
+
+760
+01:26:29,410 --> 01:26:35,470
+Li Xun: This box, the solution, is just a meat for this. Not meat for this.
+
+761
+01:26:36,060 --> 01:26:37,580
+Li Xun: Not a metaphor this one.
+
+762
+01:26:38,210 --> 01:26:47,039
+Li Xun: Okay, what's the difference? Just now we say, we first delete sigma square. We directly consider for this homogeneous equation.
+
+763
+01:26:47,190 --> 01:26:56,449
+Li Xun: Okay, involve sigma 2, this non-homogeneous equation. Okay, so we just solved for this, it's not enough. This just can solve it what?
+
+764
+01:26:56,480 --> 01:27:15,019
+Li Xun: the box equation. Not… cannot solve is more general… is what? Purple equation. So, how to solve more general purple equation? Okay, now is what we have for this? So, we conjecture. Conjecture it for what? Conjecture. Simple to beginning, we say the conjecture. We… conjecture is new…
+
+765
+01:27:15,980 --> 01:27:20,490
+Li Xun: ZT… Okay, we write down is what? CT.
+
+766
+01:27:21,160 --> 01:27:23,290
+Li Xun: CT function. E.
+
+767
+01:27:24,750 --> 01:27:25,750
+Li Xun: Oh, sorry.
+
+768
+01:27:26,810 --> 01:27:29,740
+Li Xun: E… is alpha.
+
+769
+01:27:30,010 --> 01:27:39,469
+Li Xun: 2 alphaT, okay? So… Now… Wait a minute, so first one is what I take is for this one.
+
+770
+01:27:43,450 --> 01:27:49,359
+Li Xun: After class, by itself, maybe it's the water. State by step, rearrange.
+
+771
+01:27:50,060 --> 01:27:51,780
+Li Xun: our discussion, it's okay?
+
+772
+01:27:52,020 --> 01:27:52,900
+Li Xun: So…
+
+773
+01:27:57,640 --> 01:27:58,420
+Li Xun: Okay.
+
+774
+01:28:02,450 --> 01:28:03,450
+Li Xun: Okay.
+
+775
+01:28:03,690 --> 01:28:04,950
+Li Xun: Now you're the what?
+
+776
+01:28:05,160 --> 01:28:17,559
+Li Xun: is not enough, so we want to use what? Consider use the red part, okay? So how to consider red part? Actually, we want to introduce is what? Introduce CT.
+
+777
+01:28:17,950 --> 01:28:20,950
+Li Xun: to deal with Sigma square.
+
+778
+01:28:21,510 --> 01:28:23,010
+Li Xun: Okay, now let's go up.
+
+779
+01:28:23,290 --> 01:28:30,180
+Li Xun: So now is what? We… similar to just now beginning, we talked about the proposition. Using for this one is what?
+
+780
+01:28:30,350 --> 01:28:33,639
+Li Xun: We take different issues, then compare the both part.
+
+781
+01:28:33,760 --> 01:28:39,429
+Li Xun: Then we get to the CT, okay? So, we now consider what DZT
+
+782
+01:28:39,570 --> 01:28:54,480
+Li Xun: Okay? CT, take first thought, okay? Keep up 2 alpha T. Then we consider second. CT, keep up. Corresponding second we get is what? Negative 2 alpha E.
+
+783
+01:28:55,100 --> 01:28:57,559
+Li Xun: 2 alpha T. Yes or no?
+
+784
+01:28:59,040 --> 01:29:02,570
+Li Xun: Now, if we want to solve for this, we first have
+
+785
+01:29:02,740 --> 01:29:19,590
+Li Xun: Before this one, we first corresponding to this one, take differential. So, C difference, we have the two functions corresponding to this function, take first order with respect to t. Okay, keep up for this. Then, keep up for this, corresponding to second function, take first order.
+
+786
+01:29:19,920 --> 01:29:20,930
+Li Xun: It's okay.
+
+787
+01:29:21,890 --> 01:29:23,870
+Li Xun: No confusion? Okay.
+
+788
+01:29:25,060 --> 01:29:27,229
+Li Xun: No confusion, so now let's go on.
+
+789
+01:29:27,720 --> 01:29:28,480
+Li Xun: So…
+
+790
+01:29:28,720 --> 01:29:38,519
+Li Xun: So now is what? Let's compare is the first part. We compare is what? Compare for this one. Now, let me write down is what? C.
+
+791
+01:29:38,930 --> 01:29:40,080
+Li Xun: For this one.
+
+792
+01:29:40,190 --> 01:29:42,900
+Li Xun: E2 alpha.
+
+793
+01:29:43,710 --> 01:29:49,170
+Li Xun: T, okay, so for here, maybe we fully should write down as DT.
+
+794
+01:29:49,320 --> 01:29:54,540
+Li Xun: DT, that is more clear. It's okay, more clear. So… DT.
+
+795
+01:29:55,920 --> 01:29:56,540
+Li Xun: So…
+
+796
+01:30:04,120 --> 01:30:10,760
+Li Xun: This one is, oh, sorry. This one is… Okay.
+
+797
+01:30:11,440 --> 01:30:16,439
+Li Xun: Now let me, rely down, okay. So, I first write down the blue part.
+
+798
+01:30:16,590 --> 01:30:17,740
+Li Xun: CT.
+
+799
+01:30:18,690 --> 01:30:22,659
+Li Xun: E2 alphaT, I copy.
+
+800
+01:30:22,850 --> 01:30:23,990
+Li Xun: CT.
+
+801
+01:30:24,470 --> 01:30:36,289
+Li Xun: negative 2 alpha E, negative 2 alpha T, dt, okay? So, now let's compare is what I want to compare for this one.
+
+802
+01:30:36,290 --> 01:30:44,579
+Li Xun: So now I compare. Now I write down is for this one. Write down for this is what? 2 alpha is CT.
+
+803
+01:30:45,000 --> 01:30:47,560
+Li Xun: is sigma squared dt.
+
+804
+01:30:47,760 --> 01:30:51,130
+Li Xun: Okay, so now let's look at… for this one.
+
+805
+01:30:51,310 --> 01:30:55,160
+Li Xun: Okay? For this, you can write down your what? ZT.
+
+806
+01:30:55,690 --> 01:30:56,660
+Li Xun: It's okay.
+
+807
+01:30:56,920 --> 01:30:57,910
+Li Xun: No problem.
+
+808
+01:30:58,560 --> 01:31:05,460
+Li Xun: So, that means it for what? Now, we actually can cancel it what? We can cancel it for this 10.
+
+809
+01:31:06,270 --> 01:31:07,949
+Li Xun: With this TAN.
+
+810
+01:31:09,030 --> 01:31:10,110
+Li Xun: It's clear.
+
+811
+01:31:10,270 --> 01:31:11,010
+Li Xun: Okay.
+
+812
+01:31:11,330 --> 01:31:17,210
+Li Xun: Once we can cancel for this, so now let's look at… we're learning is what? CT.
+
+813
+01:31:17,370 --> 01:31:20,240
+Li Xun: E2 alpha T.
+
+814
+01:31:20,340 --> 01:31:28,690
+Li Xun: equal to… dt, okay, this is DT, equal to what is sigma dt? No problem.
+
+815
+01:31:29,720 --> 01:31:35,270
+Li Xun: Okay, so now actually what we can is, remove
+
+816
+01:31:35,410 --> 01:31:42,850
+Li Xun: remove DT, the first part to remove, okay? So we know this is the compare two coefficient is the same.
+
+817
+01:31:43,020 --> 01:31:51,790
+Li Xun: Okay, once this coefficient is the same, so can we rely down for this one, CT, okay, equal to sigma squared.
+
+818
+01:31:52,090 --> 01:31:55,120
+Li Xun: E2 alpha T, yes or no?
+
+819
+01:31:56,250 --> 01:32:00,039
+Li Xun: No problem. So, now you know what? We take years,
+
+820
+01:32:00,690 --> 01:32:04,220
+Li Xun: both integral, so this one is what, D?
+
+821
+01:32:04,450 --> 01:32:10,440
+Li Xun: CT equal to is what? Sigma 2 alpha T, dt.
+
+822
+01:32:11,320 --> 01:32:12,369
+Li Xun: It's okay.
+
+823
+01:32:17,490 --> 01:32:19,080
+Li Xun: Can we ride on for this one?
+
+824
+01:32:23,110 --> 01:32:24,880
+Li Xun: You know, what is it for this?
+
+825
+01:32:25,110 --> 01:32:31,870
+Li Xun: this actually is what? D… CT equal to is DT.
+
+826
+01:32:32,450 --> 01:32:36,590
+Li Xun: So I moved this one, to here. It's okay.
+
+827
+01:32:37,000 --> 01:32:49,940
+Li Xun: So, no… do you have any confusion? No more? Okay. Once no more. So, now let's repeat. Today, we talk about this idea is the same. So, this is D. What? CS?
+
+828
+01:32:50,580 --> 01:32:57,239
+Li Xun: This one is 0 to little t. Sigma is 2 alpha little s.
+
+829
+01:32:57,600 --> 01:32:58,510
+Li Xun: DS.
+
+830
+01:33:00,000 --> 01:33:05,860
+Li Xun: Okay, little S, yes. So… Now let's go up. Now let's go up.
+
+831
+01:33:08,800 --> 01:33:16,120
+Li Xun: for here, I keep up right now more clear. So now let's look at, for this one, left-hand part is CS,
+
+832
+01:33:16,260 --> 01:33:19,109
+Li Xun: Oh, sorry, not a CS, a CT.
+
+833
+01:33:19,380 --> 01:33:21,429
+Li Xun: minus the C is yellow.
+
+834
+01:33:21,620 --> 01:33:22,520
+Li Xun: plus…
+
+835
+01:33:22,650 --> 01:33:37,870
+Li Xun: For the right-hand part, we get it for what? Right-hand part, because we here, we have, what, alpha. So, now, for this one is, we get is sigma squared over
+
+836
+01:33:38,380 --> 01:33:39,450
+Li Xun: Here's what?
+
+837
+01:33:42,210 --> 01:33:43,310
+Li Xun: 2 alpha?
+
+838
+01:33:43,480 --> 01:33:45,529
+Li Xun: Negative? Okay.
+
+839
+01:33:45,650 --> 01:33:48,420
+Li Xun: Then, we get it for what?
+
+840
+01:33:48,530 --> 01:33:51,349
+Li Xun: is E2 alpha S.
+
+841
+01:33:52,110 --> 01:33:53,189
+Li Xun: For this one.
+
+842
+01:33:56,930 --> 01:34:02,610
+Li Xun: For on this stage… For this square.
+
+843
+01:34:02,840 --> 01:34:07,869
+Li Xun: But why is, 2… Alpha, because two alpha negative.
+
+844
+01:34:08,020 --> 01:34:11,770
+Li Xun: For here, we have a coefficient, so we keep up for this form.
+
+845
+01:34:11,970 --> 01:34:17,810
+Li Xun: Once you cannot from one to this one, you can go back. First thought, you get for this.
+
+846
+01:34:17,980 --> 01:34:18,890
+Li Xun: Okay.
+
+847
+01:34:19,390 --> 01:34:22,180
+Li Xun: So, now, let's look at…
+
+848
+01:34:26,060 --> 01:34:31,240
+Li Xun: For this one is, sigma to alpha.
+
+849
+01:34:31,770 --> 01:34:34,600
+Li Xun: This is E2 alpha…
+
+850
+01:34:34,960 --> 01:34:43,689
+Li Xun: T minus 1. It's okay, huh? Okay. So now let's look at CT equal to is what? C01?
+
+851
+01:34:44,820 --> 01:34:51,920
+Li Xun: And 2 alpha sigma square is E, 2 alpha T.
+
+852
+01:34:52,250 --> 01:34:53,459
+Li Xun: Minus 1.
+
+853
+01:34:54,230 --> 01:34:59,989
+Li Xun: So, just now, we want to say, is what we want to use
+
+854
+01:35:01,540 --> 01:35:11,490
+Li Xun: conjuncture CT. Now we get a CT, okay? So, once we get a CT, so, actually, we get is a CT, general case.
+
+855
+01:35:11,760 --> 01:35:13,410
+Li Xun: Is for this one.
+
+856
+01:35:13,600 --> 01:35:23,629
+Li Xun: And with what? Is E to alphaT, okay? None is what you should consider is for this one.
+
+857
+01:35:24,060 --> 01:35:31,680
+Li Xun: Okay? Consider for this one. So, CT you know, CT you know. So, now let's go to either what? C?
+
+858
+01:35:31,890 --> 01:35:35,650
+Li Xun: Yellow minus… Alpha.
+
+859
+01:35:36,110 --> 01:35:45,770
+Li Xun: sigma square… E to alpha T minus 1, Okay, then you'll consider…
+
+860
+01:35:47,180 --> 01:35:50,310
+Li Xun: Oh, for here, maybe a little bit of one tip.
+
+861
+01:35:51,450 --> 01:35:54,180
+Li Xun: Wait a minute, wait a minute…
+
+862
+01:35:54,620 --> 01:35:56,210
+Li Xun: Oh, yeah, yeah, yeah, yeah, yeah, yeah.
+
+863
+01:35:56,350 --> 01:35:57,100
+Li Xun: Yeah.
+
+864
+01:35:57,270 --> 01:36:02,369
+Li Xun: For this one is wrong. Okay. For this one, wrong. But we can change it, we can change it.
+
+865
+01:36:02,530 --> 01:36:04,360
+Li Xun: Very easy to can change it.
+
+866
+01:36:04,640 --> 01:36:12,870
+Li Xun: So… This one is plus, so now is what? This one is not negative, not… not negative.
+
+867
+01:36:15,050 --> 01:36:15,910
+Li Xun: Yep.
+
+868
+01:36:16,290 --> 01:36:24,669
+Li Xun: Okay, so this one is, yeah, so this one is not negative, so this one is 2 alpha…
+
+869
+01:36:24,840 --> 01:36:32,860
+Li Xun: T. Of the class, corresponding to my lecture notes, by itself will rearrange So, what is solution?
+
+870
+01:36:36,070 --> 01:36:37,000
+Li Xun: This one?
+
+871
+01:36:38,690 --> 01:36:39,910
+Li Xun: Oh, yeah, yeah, yeah.
+
+872
+01:36:40,380 --> 01:36:42,159
+Li Xun: Your mean is for here.
+
+873
+01:36:45,690 --> 01:36:55,460
+Li Xun: It's okay? Okay, so now is a collector. So, now let's go to C is what? CZOLO is E2 alpha T.
+
+874
+01:36:55,710 --> 01:37:00,050
+Li Xun: And, also, for here, it's plus. Plus…
+
+875
+01:37:00,560 --> 01:37:05,760
+Li Xun: 2 alpha sigma squared. Now we get 1 minus E.
+
+876
+01:37:06,180 --> 01:37:22,659
+Li Xun: 2 alphaT, okay? E2 alphaT. So, finally, what is C's yellow? Once we know C is yellow, we get all, okay? Get all. So, now let's go to see what is C's yellow, okay? C's yellow is corresponding to is what?
+
+877
+01:37:22,960 --> 01:37:27,269
+Li Xun: Z yellow corresponding to Zellow equal to is what?
+
+878
+01:37:27,410 --> 01:37:30,980
+Li Xun: C is yellow, and E.
+
+879
+01:37:33,210 --> 01:37:36,409
+Li Xun: is what? Is, sees yellow.
+
+880
+01:37:37,110 --> 01:37:40,709
+Li Xun: Equal to is 2 alpha times zero.
+
+881
+01:37:41,260 --> 01:37:43,080
+Li Xun: So this is equal to what?
+
+882
+01:37:43,200 --> 01:38:03,030
+Li Xun: C is yellow. So C is yellow equal to Z yellow. So now we should go back to C. What is this yellow? Okay, this yellow. So for here, we first is write down C is yellow, E, 2 alphaT, and sigma is 2 alpha 1 minus is
+
+883
+01:38:03,220 --> 01:38:13,380
+Li Xun: to alpha T. It's okay? We first to here. So, now, beginning, what is this… what is ZT? Beginning? Okay, beginning with set.
+
+884
+01:38:13,640 --> 01:38:16,169
+Li Xun: Beginning with said, yes.
+
+885
+01:38:17,410 --> 01:38:19,150
+Li Xun: CT is for this one.
+
+886
+01:38:19,630 --> 01:38:38,220
+Li Xun: It's okay? ZT is YT, okay. ZT is YT. So, now we step by step, we rely down is E, ZT is YT square. So, this one is what? Z0 is Y0 square. So, E…
+
+887
+01:38:38,870 --> 01:38:44,800
+Li Xun: to this one is alpha 2 alpha 1 minus E to alpha t.
+
+888
+01:38:45,020 --> 01:38:51,280
+Li Xun: It's okay? So, now let's go back to see. What is YT's second moment?
+
+889
+01:38:51,380 --> 01:39:01,909
+Li Xun: YT second moment is, we want to say, what is YT second moment? Just now, we want to say, is for this one, is…
+
+890
+01:39:02,210 --> 01:39:19,850
+Li Xun: want to answer for this is Xt, just now we move is what? Expectation is X minus… is XT squared, okay? So, this is what?
+
+891
+01:39:20,280 --> 01:39:21,670
+Li Xun: YT.
+
+892
+01:39:21,960 --> 01:39:23,039
+Li Xun: Yes or no?
+
+893
+01:39:23,680 --> 01:39:28,169
+Li Xun: No problem. So… Now we go on, we get is what?
+
+894
+01:39:28,500 --> 01:39:29,790
+Li Xun: Variance.
+
+895
+01:39:30,260 --> 01:39:31,500
+Li Xun: XT.
+
+896
+01:39:32,050 --> 01:39:34,590
+Li Xun: Equal to the variance.
+
+897
+01:39:35,310 --> 01:39:37,940
+Li Xun: XZLO.
+
+898
+01:39:38,230 --> 01:39:40,880
+Li Xun: is E2 alpha T.
+
+899
+01:39:41,920 --> 01:39:49,579
+Li Xun: Okay? Is… sigma squared 2 alpha 1 minus E2 alpha t.
+
+900
+01:39:50,210 --> 01:39:51,260
+Li Xun: Okay, yeah.
+
+901
+01:39:51,530 --> 01:39:58,309
+Li Xun: Now, let's go to C. Our beginning, we… solution, okay? This solution equal to this one.
+
+902
+01:39:59,250 --> 01:40:02,340
+Li Xun: Okay, just now I show you how to step by step.
+
+903
+01:40:02,660 --> 01:40:05,469
+Li Xun: we can get for this. I…
+
+904
+01:40:08,430 --> 01:40:11,189
+Li Xun: Now I take a picture, okay, I take a picture, show you.
+
+905
+01:40:11,690 --> 01:40:15,580
+Li Xun: Wait a minute, wait a minute. Okay, we start from here.
+
+906
+01:40:18,530 --> 01:40:34,050
+Li Xun: After class, by yourself, repeat my procedure, okay? Because this is just, is my teaching drifter. Maybe the logical is not, not, not, is very, very clear. You by yourself rearrange it after class. That is good for you, okay?
+
+907
+01:41:02,630 --> 01:41:14,020
+Li Xun: Okay, anyway, after class, I mentioned, you know, what? I mentioned… I mentioned old classmate, after class, should by itself repeat my procedure. It's okay, my procedure.
+
+908
+01:41:16,160 --> 01:41:20,469
+Li Xun: Now, let me check our… oh, this question is hard, okay?
+
+909
+01:41:22,090 --> 01:41:24,320
+Li Xun: Can we do the simple question?
+
+910
+01:41:25,670 --> 01:41:31,880
+Li Xun: This question, I would next week, after our… finish next week, the part.
+
+911
+01:41:32,000 --> 01:41:36,029
+Li Xun: we… Show this one. Okay? Show this one.
+
+912
+01:41:36,160 --> 01:41:39,639
+Li Xun: So, now let's go to see yesterday.
+
+913
+01:41:40,150 --> 01:41:41,469
+Li Xun: Can we see any…
+
+914
+01:41:45,120 --> 01:41:54,610
+Li Xun: Okay, this question, I think it is interesting, because… why maybe we can… maybe we can try this question, because, this question is,
+
+915
+01:41:55,020 --> 01:42:04,140
+Li Xun: Why? Because this, lecture class, we, introduced the water, is the… We introduced is the constant.
+
+916
+01:42:04,470 --> 01:42:18,669
+Li Xun: constant variable, okay, constant coefficient. So, but for this one is what? It's different. So, different, maybe, is the what? We consider the coefficient is the time variant. Okay, for the time varying for this one.
+
+917
+01:42:18,770 --> 01:42:33,919
+Li Xun: we consider next week, okay? Consider next week. Next week, maybe we should introduce is for what? Introduce it for this part. You don't get it for this one. Next week, is… we will introduce it for…
+
+918
+01:42:34,050 --> 01:42:39,649
+Li Xun: I deleted for this. Next week, we consider it a white hole.
+
+919
+01:42:39,890 --> 01:42:57,149
+Li Xun: A whole white model. Okay, this whole white model, you see, our final exam, they're almost the same. Next week, we finish this, then we consider. Okay, just now, for this one is what? This one, maybe it's too to give me it for what? Okay, this is last year.
+
+920
+01:42:57,830 --> 01:42:58,850
+Li Xun: Oh, what?
+
+921
+01:42:59,030 --> 01:43:07,710
+Li Xun: Final exam paper. Okay, now today, let me… the finish is what? Finish is our last question. Okay, last question.
+
+922
+01:43:07,950 --> 01:43:09,140
+Li Xun: Last question.
+
+923
+01:43:12,930 --> 01:43:18,150
+Li Xun: Okay, this, this semester.
+
+924
+01:43:18,580 --> 01:43:23,660
+Li Xun: For the last year, for the question 4, this case, I think you don't care.
+
+925
+01:43:24,180 --> 01:43:37,730
+Li Xun: Because, some of class members show me, maybe they already know for this knowledge the same in the corporate finance and other costs. So, why I focus on the more is the… clearly talk about is the dilemma.
+
+926
+01:43:37,730 --> 01:43:44,959
+Li Xun: Okay, this is almost the same, the knowledge, maybe we leave another cost, okay? You will see this is lots of the cost considered for this.
+
+927
+01:43:45,050 --> 01:43:57,149
+Li Xun: the one of the classmates take the other… I don't know which… which course, I don't know. Maybe show me the notes, maybe almost similar to this one. So why? I skipped some of the…
+
+928
+01:43:57,310 --> 01:44:01,259
+Li Xun: part of the lecture 8 and the 9, but I focus on is it…
+
+929
+01:44:01,370 --> 01:44:09,329
+Li Xun: run, the calculating is for the calculus, okay? We focus on the last two questions. Five, or…
+
+930
+01:44:09,740 --> 01:44:11,510
+Li Xun: 6. It's okay?
+
+931
+01:44:11,710 --> 01:44:12,610
+Li Xun: Aisha?
+
+932
+01:44:12,780 --> 01:44:23,550
+Li Xun: So I skipped the same thing. I rearranged a little bit the note, okay? So, now today, let's finish is what? Finish our final exam paper.
+
+933
+01:44:23,550 --> 01:44:39,080
+Li Xun: is for this one. Try. I'm not sure. We can fully finish. Maybe once we have the remaining, we can next week go and discuss, okay? Why I want to finish? Because now we see this is what is a constant model. It's a constant model.
+
+934
+01:44:39,610 --> 01:44:43,979
+Li Xun: Okay, now let's take a 5-minute break, then we come back. Okay.
+
+935
+01:56:10,130 --> 01:56:15,790
+Li Xun: ingested for what? Give you one of the fundamental stochastic equation.
+
+936
+01:56:15,800 --> 01:56:25,580
+Li Xun: Then we consider what is variance. But for this question, a little bit different, just now we talked about it, what, for here, a little bit. Maybe take the square root, it's okay.
+
+937
+01:56:25,580 --> 01:56:39,599
+Li Xun: take square root. So, now let's consider how to go ahead. Today, I first show you its fundamental, the structure, that you corresponding to this structure after class, by ourselves, first repeat it. Next week, we can
+
+938
+01:56:39,710 --> 01:56:52,489
+Li Xun: discuss in details, it's okay. So, now let's look at for… this is the equation. Okay, I'll repeat this equation. So, how to do this one? Okay, how to do this one? So, for here, maybe some of the table A log is okay.
+
+939
+01:56:52,610 --> 01:56:55,660
+Li Xun: So… Now, you look at it for this one.
+
+940
+01:56:55,910 --> 01:57:13,740
+Li Xun: The same, just now we talked about that we consider expectation. Why? We want to consider variance, okay? Using the same idea, if we want to consider variance, so we take for this, so next, you will see, all the structure is what? Our structure is considered, is,
+
+941
+01:57:13,850 --> 01:57:21,270
+Li Xun: minus ERT, okay? Then also, we, similar to just now, we talked about setting the what is YT.
+
+942
+01:57:21,840 --> 01:57:26,039
+Li Xun: Okay, this fundamental idea is the same. Okay, fundamental idea is the same.
+
+943
+01:57:26,220 --> 01:57:35,000
+Li Xun: So, then is… you don't worry, I will give you the picture, okay? Give you a picture, so you don't worry. First thing is, let me go through, okay?
+
+944
+01:57:35,050 --> 01:57:46,869
+Li Xun: So then is the Y, okay? So we're corresponding to this question with the Y. Okay, so this question, different, just now we talk about, just not talk about the question either, what, just the sigma.
+
+945
+01:57:47,050 --> 01:57:47,890
+Li Xun: Okay.
+
+946
+01:57:48,220 --> 01:57:59,799
+Li Xun: Did you remember just our question is just a sigma? Now, this question is a little bit different, okay? Once we take the minus, but our key point for here is involved for this one.
+
+947
+01:58:00,050 --> 01:58:04,139
+Li Xun: Okay, cannot cancel. Cannot cancel. Okay, cannot cancel.
+
+948
+01:58:05,340 --> 01:58:12,070
+Li Xun: So, cannot cancel. So, if you cannot cancel, so we first keep up for this, then we go ahead.
+
+949
+01:58:12,160 --> 01:58:31,300
+Li Xun: Now, let's consider, explore what happened. Okay, so, once we consider go-ahead, we find out this is the Y equation. So, we know, if we want to consider variance, the variance is what? Similar to today, we talked about the variance is what we consider this variance is the…
+
+950
+01:58:31,420 --> 01:58:47,859
+Li Xun: variance equal to what the second moment, okay? Second moment. So, if you want to consider why the second moment, so, we step by step, go back. So, we should consider it for this one, okay? We should want to know what is this, okay? Want to…
+
+951
+01:58:47,940 --> 01:58:53,249
+Li Xun: If we want to… we want to show this, so we want to know what is…
+
+952
+01:58:53,900 --> 01:59:11,029
+Li Xun: And for this equation, expectation, second moment to the equation. If you want to know this equation, actually, you want to know what? You should want to know Y2 square, what happened, okay? State by step. So, corresponding to this one, if you want to solve
+
+953
+01:59:11,090 --> 01:59:25,420
+Li Xun: for this… the variance, so you want to… should know this. So then we go back to this one, then we go back to this one, then we go back to this one. So why? Beginning, we want to consider is for this one, okay? So…
+
+954
+01:59:25,700 --> 01:59:27,209
+Li Xun: I give you that.
+
+955
+01:59:27,680 --> 01:59:36,049
+Li Xun: maybe the picture of the class, you're corresponding to this fundamental idea, rear range. Okay? Also, correct.
+
+956
+01:59:36,330 --> 01:59:40,859
+Li Xun: my table analog, okay. So, now, let's go ahead.
+
+957
+01:59:41,930 --> 01:59:48,910
+Li Xun: Okay, so now we know if you have for the Y equation, so you go back… go 2 is what?
+
+958
+01:59:49,950 --> 02:00:09,319
+Li Xun: DY squared equation. DY squared equation, so you go to get what? DY squared, second moment, concept, second moment, EYT square, the equation. Okay, so now we find out, for here, we have the very tedious term. We involve the what? ERT, okay?
+
+959
+02:00:09,600 --> 02:00:13,229
+Li Xun: It's different just now. Oh, just now we talked about it what?
+
+960
+02:00:14,130 --> 02:00:25,270
+Li Xun: Sigma square. Okay, so after class today, you first do what? Just now, I showed you lots of the picture. It's a color picture, it's okay? Without, it's for this 10.
+
+961
+02:00:25,490 --> 02:00:29,740
+Li Xun: expectation, RT. You first do is what?
+
+962
+02:00:29,760 --> 02:00:45,819
+Li Xun: Just now, previous, I talked to you the several pages. Let arrange the first one, okay? Second, you consider this equation, how to arrange, okay? Once you cannot finish, it does not matter. Next week, the beginning, we discuss this one again, okay?
+
+963
+02:00:46,050 --> 02:01:00,870
+Li Xun: Okay, so now I just mentioned you what? This is different what? We now different, just now we talk about the question is what we have for this, okay, we have for this. So, this means what? On all before.
+
+964
+02:01:01,140 --> 02:01:14,590
+Li Xun: Oh, before we're solving this, we should solve. We have… should what? We should consider it for this one, okay? Consider for this one. Maybe for here exists a little bit of taper yellow, okay? By itself.
+
+965
+02:01:14,760 --> 02:01:18,219
+Li Xun: re… consider. Okay, maybe collect.
+
+966
+02:01:18,450 --> 02:01:35,349
+Li Xun: maybe you should collect is the… my table yellow, okay? Now I just leave you. It's okay, I just kept. Okay, once you have what? Once you have for this one, okay, for this one, so, input here. Then, using just now, today, we talked about the methodology.
+
+967
+02:01:35,350 --> 02:01:43,330
+Li Xun: you cover for this final rate, you step by step, you can solve, okay? Including this one, the…
+
+968
+02:01:43,470 --> 02:01:52,629
+Li Xun: the next last stage, you involved yesterday for this information, okay? Finally, you can solve, you get for this. I read it clear up.
+
+969
+02:01:53,130 --> 02:01:58,239
+Li Xun: Okay, for this part, I also, take the picture. Okay.
+
+970
+02:01:58,350 --> 02:02:10,980
+Li Xun: Okay, today I think I mainly introduce is what, corresponding to the simple case. Okay, simple case. The simple case is for what? Simple case, I mean it for what? Just now, today.
+
+971
+02:02:10,980 --> 02:02:25,089
+Li Xun: I introduced you the lots of… I already gave you the picture that I give you. Corresponding to this one, by yourself, step by step, arranging, okay, arranging. Then step by step, corresponding to, so by yourself, arranging for all this one.
+
+972
+02:02:25,120 --> 02:02:31,190
+Li Xun: Next, You cons… Next, you consider it for this one. Consider it the…
+
+973
+02:02:31,250 --> 02:02:47,940
+Li Xun: Question 6. Question 6 is the main difference for here, because just now we talk about the question is what? Just now we talk about the question for this one is what? Equal to 1, without for this. Just is sigma. I really clear.
+
+974
+02:02:48,230 --> 02:02:56,689
+Li Xun: Yeah, okay. Then is… after you is what? After you rearrange it, just now we talked about that, we already mentioned that
+
+975
+02:02:58,210 --> 02:02:59,130
+Li Xun: problem.
+
+976
+02:02:59,670 --> 02:03:04,600
+Li Xun: For this one, okay? Then, you consider question 6.
+
+977
+02:03:05,100 --> 02:03:07,780
+Li Xun: You can fool it!
+
+978
+02:03:08,020 --> 02:03:24,830
+Li Xun: arranging, I think it is very good corresponding to question 6. Once you cannot, cannot, from the first stage to last stage, it does not matter. Next week, we'll repeat this one again. Okay, once you can do, also, you help me collect…
+
+979
+02:03:24,950 --> 02:03:31,880
+Li Xun: lots of my table air loss. I really clear out… okay, so this is a very important, okay.
+
+980
+02:03:32,470 --> 02:03:48,100
+Li Xun: Today, I first stopped here. Next week, we will consider for this more general case. The more general case, you will see, a little bit different, just now we talked about today the model is what? Although, for here, just the sigma T, but this sigma T is what?
+
+981
+02:03:48,120 --> 02:03:56,039
+Li Xun: This sigma T involved is the dot. Sigma involves the t. Sigma involved T, maybe, actually.
+
+982
+02:03:56,330 --> 02:04:02,770
+Li Xun: a little bit for this. Why? Because you will see. For here, because involved with what?
+
+983
+02:04:03,000 --> 02:04:08,690
+Li Xun: Involved T, so for here, actually, although this one is what?
+
+984
+02:04:08,880 --> 02:04:15,530
+Li Xun: Sigma, but involved for this one. Involved for this one, this means what? This means that dependent on t.
+
+985
+02:04:16,050 --> 02:04:35,120
+Li Xun: Okay, so this week, after class, you may not can fully solve is what… can fully solve is question 6, because once is… you understand for what, understand for this knowledge, maybe you can fully solve question 6. It's okay? So, I combine this one.
+
+986
+02:04:35,360 --> 02:04:54,150
+Li Xun: With the next week, we mainly consider for this model, okay? Once I did not discuss, maybe for the lecture 8, Lecture 9, some of part I did not discuss, actually. So, this final, we will not introduce then into our final exam. I really clear out
+
+987
+02:04:54,420 --> 02:05:06,600
+Li Xun: Our final is just about to focus on our assignment. Okay, assignment, we have three assignments. Also, our lecture part. Lecture notes. Now, lecture notes, also, this lecture
+
+988
+02:05:06,750 --> 02:05:14,190
+Li Xun: is the, related, complicated what? Just is we already is of
+
+989
+02:05:14,470 --> 02:05:18,069
+Li Xun: In the WeChat group and the video, okay?
+
+990
+02:05:18,220 --> 02:05:30,420
+Li Xun: Maybe you can see video, maybe you can… just corresponding to our WeChat group, lots of the color picture, okay? Now, we offer today is our, the picture part.
+

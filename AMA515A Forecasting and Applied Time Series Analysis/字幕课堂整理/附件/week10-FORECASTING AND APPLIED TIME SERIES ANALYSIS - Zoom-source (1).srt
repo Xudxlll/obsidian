@@ -1,0 +1,1180 @@
+1
+00:00:31,270 --> 00:00:47,990
+Leung Ping Kei: Let's start again, huh? Okay, so, chapter 6, huh? Chapter 6 is, gauge modeling, gauge modeling, generalized autoregressive, conditional heteroscedaticity model.
+
+2
+00:00:47,990 --> 00:00:52,590
+Leung Ping Kei: Gotcha. Okay, so, okay, don't worry, okay.
+
+3
+00:00:53,150 --> 00:01:11,329
+Leung Ping Kei: So the, introduction is telling you that, it has been known to, financial researchers for a long time that financial timeshifts exhibit the behavior of relativity clustering. That means the variance is, is not good, is not so good.
+
+4
+00:01:12,480 --> 00:01:23,399
+Leung Ping Kei: So, Engel, in 1982, however, was the first model that has, paved the way for modeling this, phenomenon.
+
+5
+00:01:23,580 --> 00:01:30,939
+Leung Ping Kei: Okay? That means, angle, has, tried to, modify this, to…
+
+6
+00:01:31,300 --> 00:01:43,790
+Leung Ping Kei: So that you can model the phenomenon, okay? This is often referred to as a conditional heteroschasticity model.
+
+7
+00:01:43,930 --> 00:02:01,750
+Leung Ping Kei: Okay? CH, CH, okay, conditional heteroschasticity model. Since, it is assumed that overall the series is, stationary, but the conditional variance may be time-dependent.
+
+8
+00:02:03,440 --> 00:02:04,490
+Leung Ping Kei: Alright?
+
+9
+00:02:05,670 --> 00:02:10,269
+Leung Ping Kei: So, stationary, that means that it will not be affected by the time, okay?
+
+10
+00:02:10,820 --> 00:02:20,040
+Leung Ping Kei: However, now, some of them, some of them are, affected, some of the, variants of the,
+
+11
+00:02:20,600 --> 00:02:23,800
+Leung Ping Kei: Residuals, are time-dependent.
+
+12
+00:02:25,260 --> 00:02:43,909
+Leung Ping Kei: Now, many, many different time series models have been suggested, for modeling time-varying volatility, okay? The most popular, are the Archer Autoregressive conditional heteroscedicity, or, generalized, okay?
+
+13
+00:02:44,550 --> 00:03:00,440
+Leung Ping Kei: family will be studied in this course, okay? So the arch and Garcher is not available, in standard statistical software systems, such as, Minitab or, SPSS. However, it is available, in…
+
+14
+00:03:00,550 --> 00:03:08,339
+Leung Ping Kei: econometric software, such as REX, okay, R-A-T-S, and GOSH, okay?
+
+15
+00:03:08,770 --> 00:03:24,599
+Leung Ping Kei: So, don't worry, we won't use this to do this, we just reduce calculation. Okay? So, Engel, in 1982, first suggested, the arch model, okay? An example is, like, below.
+
+16
+00:03:24,600 --> 00:03:33,189
+Leung Ping Kei: Okay? YT is equal to mu plus phixt plus, phi2YT minus 1 plus AT.
+
+17
+00:03:33,940 --> 00:03:36,849
+Leung Ping Kei: Okay? So, come,
+
+18
+00:03:36,850 --> 00:04:00,740
+Leung Ping Kei: And another, another time series, okay? So that, AT is equal to epsilon t sigma T, where, epsilon t is, normal distribution, mean silver, variance 1. And then sigma T squared is equal to omega plus alpha 1 AT minus 1 squared plus alpha 2 AT minus 2 squared plus blah blah blah up to
+
+19
+00:04:00,740 --> 00:04:03,619
+Leung Ping Kei: Alpha P, AT minus P squared.
+
+20
+00:04:03,870 --> 00:04:10,330
+Leung Ping Kei: Okay? So, this is what we call a volatility equation, okay? Equation star.
+
+21
+00:04:11,350 --> 00:04:27,820
+Leung Ping Kei: Here, mu5152 are unknown parameters, as you have to estimate, okay, all this. So, XT is an explanatory variable, and YT-1 is A. Lagged variable, or YT.
+
+22
+00:04:28,140 --> 00:04:29,030
+Leung Ping Kei: Okay.
+
+23
+00:04:29,410 --> 00:04:44,650
+Leung Ping Kei: one lagger, okay? YT minus 1 is the lagged variable, or YT, okay? That is the previous one, okay? So equation star is called the conditional variance equation, or volatility equation.
+
+24
+00:04:44,930 --> 00:04:46,920
+Leung Ping Kei: Okay, we will study, huh?
+
+25
+00:04:46,980 --> 00:04:56,739
+Leung Ping Kei: all this, okay? In this chapter, okay? In general, the variable YT can have the structure in both the mean and the variance.
+
+26
+00:04:56,740 --> 00:05:10,660
+Leung Ping Kei: Okay? For the, ease of, exposition, let's consider the following simple example. Let's say, YT is equal to AT. AT is epsilon T sigma T.
+
+27
+00:05:10,770 --> 00:05:17,910
+Leung Ping Kei: So, epsilon t is a normally distributed with mean several, where means 1, and then the,
+
+28
+00:05:17,910 --> 00:05:34,969
+Leung Ping Kei: volatility equation, sigma T squared is equal to omega plus alpha 1 AT minus 1 squared plus alpha 2 AT minus 2 squared plus blah blah blah up to alpha P AT minus p squared. This is an equation star for this example, okay?
+
+29
+00:05:36,120 --> 00:05:52,839
+Leung Ping Kei: Where? Omega positive, alpha i positive, alpha I, alpha I is going from 1 to P, okay? So, the conditions, okay, omega positive, and, alpha I, i from 1 to P, positive.
+
+30
+00:05:52,870 --> 00:05:57,220
+Leung Ping Kei: are sufficient to ensure that, sigma T positive.
+
+31
+00:05:58,120 --> 00:05:59,110
+Leung Ping Kei: Alright?
+
+32
+00:05:59,810 --> 00:06:13,569
+Leung Ping Kei: That means, of course, standard duration, seldom, is negative, okay? Sigma squared usually must be positive. So, equation star is called, the conditional variance equation, or…
+
+33
+00:06:13,720 --> 00:06:15,539
+Leung Ping Kei: Volatility equation.
+
+34
+00:06:17,030 --> 00:06:33,630
+Leung Ping Kei: So, this is because, sigma T squared is equal to, conditional expectation, AT squared, given, FT-1. Where FT minus 1 is the information set up to time t minus 1.
+
+35
+00:06:34,040 --> 00:06:42,659
+Leung Ping Kei: Okay? So this means that, sigma T squared is the conditional variance of AT, okay, given FT minus 1.
+
+36
+00:06:43,370 --> 00:06:56,409
+Leung Ping Kei: Okay? So in this example, we assume, the mean equation of the time series, YT, has no structure, because it is just, in this example, this is just equal to, AT, okay?
+
+37
+00:07:01,610 --> 00:07:21,590
+Leung Ping Kei: The structure, does exist, in the conditional variance of YT, okay? So, ARCH, ARCH, autoregressive, conditional heteroschasticity is actually the, acronym, for autoregressive, conditional heteroschasticity.
+
+38
+00:07:21,680 --> 00:07:22,590
+Leung Ping Kei: Okay.
+
+39
+00:07:23,220 --> 00:07:26,720
+Leung Ping Kei: So, the arts model, is stationary.
+
+40
+00:07:28,260 --> 00:07:40,869
+Leung Ping Kei: And often, omega, epsilon t, epsilon t is, assumed to be, T-distributed, or, or, following some other, symmetric fat-tailed distribution.
+
+41
+00:07:40,990 --> 00:07:41,940
+Leung Ping Kei: Okay.
+
+42
+00:07:42,200 --> 00:07:55,560
+Leung Ping Kei: So usually, however, when n is larger, when n is larger, this will be normally distributed. When N, is more than 30, okay, then it will be normally distributed.
+
+43
+00:07:57,750 --> 00:08:15,449
+Leung Ping Kei: Now we take a look at the properties of the unconditional moments, okay? The mean variance, and then later on, we will have, kurtosis, kurtosis, okay? So, let FT minus 1 be the information set up to time t minus 1.
+
+44
+00:08:15,780 --> 00:08:24,769
+Leung Ping Kei: Well, you can imagine that, means, everything related to the data up to time T management is known to the modeler.
+
+45
+00:08:25,000 --> 00:08:40,539
+Leung Ping Kei: Then, expectation of AT is equal to expectation of epsilon T sigma T, which is equal to the double expectation, a condition on, FT management of epsilon T sigma T.
+
+46
+00:08:40,760 --> 00:09:00,690
+Leung Ping Kei: However, sigma T, is, outside, okay? Therefore, is not depend on, FT-1. Therefore, if we take it out, therefore, expectation of sigma T times expectation, the conditional expectation of epsilon t given, FT minus 1.
+
+47
+00:09:00,960 --> 00:09:06,700
+Leung Ping Kei: However, epsilon t is a symbol, After you take the expectation.
+
+48
+00:09:06,870 --> 00:09:14,040
+Leung Ping Kei: Okay? Since that the mean and the mean of F1T is, normal, with mean 0 and 1, okay?
+
+49
+00:09:17,490 --> 00:09:23,310
+Leung Ping Kei: Therefore, it is secretly civil. Expectation of AT is civil. The mean.
+
+50
+00:09:24,490 --> 00:09:39,569
+Leung Ping Kei: And then, the variance, sigma A squared is equal to sigma, expectation of AT squared, which is equal to double expectation of, conditional expectation of AT squared given, FT minus 1.
+
+51
+00:09:41,440 --> 00:09:50,550
+Leung Ping Kei: Now, I'll be putting, 80 square, into, here, okay? That is the… Here, okay?
+
+52
+00:09:56,040 --> 00:10:00,469
+Leung Ping Kei: So, AT squared is, AT squared is equal to,
+
+53
+00:10:00,920 --> 00:10:11,130
+Leung Ping Kei: Omega plus, alpha 180 minus 1 squared plus alpha 2 AT minus 2 squared, blah blah blah up to alpha PAT minus P squared.
+
+54
+00:10:11,630 --> 00:10:32,179
+Leung Ping Kei: Okay? So after you take expectation through, okay, then you have, omega is a constant, okay? Plus alpha 1 times expectation of AT minus 1 squared, plus alpha 2, expectation of AT minus 2 squared, plus blah blah blah up to alpha P, expectation of AT minus P squared.
+
+55
+00:10:32,180 --> 00:10:36,049
+Leung Ping Kei: Okay? This one is mistyped, huh? Mistype. It's P.
+
+56
+00:10:36,050 --> 00:10:36,950
+Leung Ping Kei: Okay?
+
+57
+00:10:41,840 --> 00:10:49,309
+Leung Ping Kei: Therefore, I can, since, expectation of, AT squared is, sigma A squared.
+
+58
+00:10:49,440 --> 00:10:59,539
+Leung Ping Kei: Okay? Therefore, it is equal to omega plus, okay, bracket, alpha 1 plus alpha 2 plus blah blah blah up to alpha P times, sigma a squared.
+
+59
+00:10:59,540 --> 00:11:13,470
+Leung Ping Kei: Then I take it, take this to the right, left-hand side. Therefore, sigma A squared minus, bracket, alpha 1 plus alpha 2 plus alpha, blah blah blah up to alpha P times sigma A squared equal to omega.
+
+60
+00:11:13,560 --> 00:11:25,500
+Leung Ping Kei: Therefore, I factorized them out, it's, 1 minus, alpha 1 minus alpha 2 blah blah blah minus, alpha P times sigma A squared equal to omega.
+
+61
+00:11:25,750 --> 00:11:34,449
+Leung Ping Kei: Therefore, sigma a squared is equal to omega over 1 minus alpha 1 minus alpha 2 minus blah blah blah up to alpha P.
+
+62
+00:11:38,030 --> 00:11:43,980
+Leung Ping Kei: Is it okay? This is a sigma A squared, in the, what?
+
+63
+00:11:45,010 --> 00:11:53,979
+Leung Ping Kei: So, in order for, sigma A squared positive, therefore, the sum of alpha 1 up to alpha P must be less than 1.
+
+64
+00:11:54,090 --> 00:11:55,030
+Leung Ping Kei: Alright.
+
+65
+00:11:56,780 --> 00:11:58,779
+Leung Ping Kei: Therefore, this will be positive.
+
+66
+00:12:02,350 --> 00:12:07,160
+Leung Ping Kei: Now, we have, kurtosis. Kurtosis is the fourth moment
+
+67
+00:12:07,480 --> 00:12:20,259
+Leung Ping Kei: fourth moment, okay? Okay? So, additional, restriction on, alpha eyes are required to ensure that, the existence of, higher order moments, okay?
+
+68
+00:12:22,350 --> 00:12:33,970
+Leung Ping Kei: So, taking, epsilon t, is, normally distributed, with mean zero variance 1, and assuming, for simplicity, P equal to 1,
+
+69
+00:12:34,040 --> 00:12:42,979
+Leung Ping Kei: And then, M, M4, okay? M4, the fourth moment, okay, is expectation of, AT to the power 4.
+
+70
+00:12:46,740 --> 00:12:47,879
+Leung Ping Kei: So,
+
+71
+00:12:48,030 --> 00:13:05,699
+Leung Ping Kei: M4, M4 is equal to, expectation of AT, to the power 4, which is equal to the double expectation, conditioned on, FT minus 1, expectation of, AT to the power 4. Therefore, AT, AT is equal to F1T times, sigma T.
+
+72
+00:13:05,790 --> 00:13:12,049
+Leung Ping Kei: Okay? Therefore, it's double expectation of, epsilon t to the power 4
+
+73
+00:13:12,780 --> 00:13:19,349
+Leung Ping Kei: And, sigma T, to the power 4, given, FT minus 1.
+
+74
+00:13:21,010 --> 00:13:23,709
+Leung Ping Kei: All right. So, okay.
+
+75
+00:13:24,590 --> 00:13:29,219
+Leung Ping Kei: So it is, okay, remember that, okay. In…
+
+76
+00:13:29,970 --> 00:13:37,589
+Leung Ping Kei: time series, okay? The fourth, the fourth moment, okay, we used to use, three times, 3 times.
+
+77
+00:13:38,070 --> 00:13:39,480
+Leung Ping Kei: the expectation.
+
+78
+00:13:40,000 --> 00:13:42,180
+Leung Ping Kei: Oh, mate, is that okay?
+
+79
+00:13:44,620 --> 00:13:51,529
+Leung Ping Kei: Then, okay, this is equal to, omega plus, alpha 180 minus 1 squared, okay?
+
+80
+00:13:52,430 --> 00:13:54,440
+Leung Ping Kei: Since this is just, one…
+
+81
+00:13:55,260 --> 00:13:58,589
+Leung Ping Kei: The first one, huh? Okay, the first case…
+
+82
+00:13:59,050 --> 00:14:02,940
+Leung Ping Kei: P? P equal to 1, P equal to 1. Okay?
+
+83
+00:14:03,490 --> 00:14:17,950
+Leung Ping Kei: Therefore, it is, okay, we square this out, okay, 3 times expectation of omega squared plus 2 times alpha 1, omega AT minus 1 squared plus alpha 1 squared 18 minus 1 to the power 4.
+
+84
+00:14:19,360 --> 00:14:25,260
+Leung Ping Kei: Okay? So, after you take the expectation, Okay?
+
+85
+00:14:25,720 --> 00:14:29,919
+Leung Ping Kei: So it is 3 times, omega squared plus,
+
+86
+00:14:30,300 --> 00:14:33,659
+Leung Ping Kei: 2 times alpha 1 omega… oh, I think…
+
+87
+00:14:39,230 --> 00:14:48,179
+Leung Ping Kei: Yeah, 2 times, 2 times alpha 1 omega, the, expectation of AT squared is, sigma A squared.
+
+88
+00:14:48,470 --> 00:14:54,429
+Leung Ping Kei: plus, alpha 1 square, okay? M4. This is M4, okay?
+
+89
+00:14:54,540 --> 00:14:56,460
+Leung Ping Kei: Just like this, huh? Okay.
+
+90
+00:14:58,780 --> 00:15:04,250
+Leung Ping Kei: Therefore, sigma A squared. Now, okay, sigma A squared, because P is equal to 1.
+
+91
+00:15:04,610 --> 00:15:08,050
+Leung Ping Kei: P equal to 1. Sigma A squared is equal to…
+
+92
+00:15:10,050 --> 00:15:15,319
+Leung Ping Kei: P equal to 1. Therefore, it's omega over 1 minus alpha 1.
+
+93
+00:15:17,030 --> 00:15:33,829
+Leung Ping Kei: omega over 1 minus, alpha 1, okay? Therefore, it has, like this, 3 times a bracket, omega squared plus 2 times, alpha 1 omega times, omega over 1 minus alpha 1 plus alpha 1 squared m4.
+
+94
+00:15:34,660 --> 00:15:52,060
+Leung Ping Kei: Now I multiply them out, okay? 3 times, okay, omega squared plus, 2 times alpha 1 omega squared over 1 minus alpha 1 plus 3 times, alpha 1 squared m4. Then I take this, to the, left side.
+
+95
+00:15:52,110 --> 00:16:06,819
+Leung Ping Kei: Okay? Since, M4, so, M4 minus, 3 times alpha 1 squared M4 is equal to 3 times, omega squared times, 1 plus, 2 alpha 1 over 1 minus alpha 1.
+
+96
+00:16:09,580 --> 00:16:10,710
+Leung Ping Kei: Is that okay?
+
+97
+00:16:14,060 --> 00:16:30,580
+Leung Ping Kei: Therefore, I factorized them out, okay? The left-hand side is M4 times, 1 minus 3 times alpha 1 squared. Therefore, I divide this, into, the right-hand side, therefore, it's, 3 times omega squared times, okay, I,
+
+98
+00:16:30,940 --> 00:16:42,670
+Leung Ping Kei: Put them into common denominator, 1 minus alpha plus 2 alpha 1, divided by 1 minus alpha 1, and then divide the whole thing by 1 minus 3 times alpha 1 squared.
+
+99
+00:16:44,980 --> 00:16:45,930
+Leung Ping Kei: Alright?
+
+100
+00:16:46,680 --> 00:16:54,499
+Leung Ping Kei: Then, the numerator, okay, the simplified to, 3 times omega squared times, 1 plus alpha 1.
+
+101
+00:16:55,370 --> 00:16:56,330
+Leung Ping Kei: Okay?
+
+102
+00:16:58,300 --> 00:17:04,790
+Leung Ping Kei: Divided by, 1 minus alpha 1 times, 1 minus, 3 times alpha 1 squared.
+
+103
+00:17:07,630 --> 00:17:23,880
+Leung Ping Kei: Is it okay? So, this one, okay, 1 minus alpha 1 plus 2 alpha 1, is, 1 plus alpha 1, and then, I just take this, to the denominator. 1 minus alpha 1 times 1 minus, 3 times alpha 1 squared. Therefore, we have this
+
+104
+00:17:28,920 --> 00:17:30,039
+Leung Ping Kei: Is that okay?
+
+105
+00:17:30,960 --> 00:17:31,970
+Leung Ping Kei: All right.
+
+106
+00:17:32,090 --> 00:17:41,240
+Leung Ping Kei: Hence, the fourth moment to exist, we need, okay, alpha 1 squared, less than 1 third, less than 1 third, this one must be positive.
+
+107
+00:17:41,580 --> 00:17:42,440
+Leung Ping Kei: Okay.
+
+108
+00:17:50,200 --> 00:18:04,320
+Leung Ping Kei: That, that is, that is what we, what we mean, a 1 minus 3 alpha 1 squared, must be positive, and 1 minus alpha 1 must be positive, okay? Then, okay, the, standardized, standardized kurtosis.
+
+109
+00:18:04,530 --> 00:18:13,990
+Leung Ping Kei: Standardized, okay, is, M4, okay, the fourth moment, divided by Ms… M… 2 square.
+
+110
+00:18:14,270 --> 00:18:17,680
+Leung Ping Kei: Okay? M2. M2 is sigma squared.
+
+111
+00:18:17,910 --> 00:18:20,650
+Leung Ping Kei: M2 is sigma squared, okay?
+
+112
+00:18:21,240 --> 00:18:26,360
+Leung Ping Kei: Minus 3, okay? This is what we call a standardized ketosis.
+
+113
+00:18:26,490 --> 00:18:30,240
+Leung Ping Kei: Okay? And it can be shown that, K positive.
+
+114
+00:18:30,530 --> 00:18:34,080
+Leung Ping Kei: Okay? K positive, that means what?
+
+115
+00:18:41,430 --> 00:18:49,930
+Leung Ping Kei: The fourth movement is telling you, okay, the distribution around the mean Around the mean. It's high.
+
+116
+00:18:50,180 --> 00:18:51,340
+Leung Ping Kei: or low.
+
+117
+00:18:51,590 --> 00:18:52,550
+Leung Ping Kei: Okay?
+
+118
+00:18:53,660 --> 00:18:56,549
+Leung Ping Kei: So, positive, that means it is high.
+
+119
+00:18:57,040 --> 00:19:06,769
+Leung Ping Kei: high, okay? Which means, which implies that, AT has, thicker tails, than the, normal distribution, K equal to zero.
+
+120
+00:19:06,970 --> 00:19:15,790
+Leung Ping Kei: Okay? So, this fits at the fact that the Financial Times series usually have thick tails and outliers, okay?
+
+121
+00:19:16,510 --> 00:19:19,079
+Leung Ping Kei: So I just want to tell you, okay.
+
+122
+00:19:19,490 --> 00:19:22,959
+Leung Ping Kei: About, how to describe a dataset
+
+123
+00:19:23,880 --> 00:19:27,949
+Leung Ping Kei: How to describe a dataset. Have you learned this?
+
+124
+00:19:28,770 --> 00:19:33,420
+Leung Ping Kei: You know the You know, the variants, right?
+
+125
+00:19:33,540 --> 00:19:35,809
+Leung Ping Kei: How about the third moment?
+
+126
+00:19:38,350 --> 00:19:40,659
+Leung Ping Kei: Third moment. Skewness.
+
+127
+00:19:41,090 --> 00:19:42,330
+Leung Ping Kei: Skoo nets.
+
+128
+00:19:43,730 --> 00:19:46,559
+Leung Ping Kei: And then the fourth movement, kurtosis.
+
+129
+00:19:47,700 --> 00:19:51,289
+Leung Ping Kei: Okay, okay, I, I, I, I, I give you some information.
+
+130
+00:20:12,990 --> 00:20:17,019
+Leung Ping Kei: Okay, you, you know the meaner is, the first moment.
+
+131
+00:20:17,480 --> 00:20:23,669
+Leung Ping Kei: The variance is the second moment, right? And then, the third moment, skewness.
+
+132
+00:21:07,810 --> 00:21:14,239
+Leung Ping Kei: I don't know how to, how to wire it in,
+
+133
+00:21:14,980 --> 00:21:20,209
+Leung Ping Kei: I know how to do it, this is,
+
+134
+00:21:24,310 --> 00:21:28,320
+Leung Ping Kei: Ping tie aisle. Okay.
+
+135
+00:21:28,870 --> 00:21:32,759
+Leung Ping Kei: So, skewness, okay? So,
+
+136
+00:21:33,050 --> 00:21:35,400
+Leung Ping Kei: I, I just got a Beta 1, huh?
+
+137
+00:21:52,340 --> 00:21:54,720
+Leung Ping Kei: Is that okay? So…
+
+138
+00:21:57,720 --> 00:22:01,129
+Leung Ping Kei: It tells you the data set, okay, let's say, okay.
+
+139
+00:22:04,200 --> 00:22:06,429
+Leung Ping Kei: If this is a positive.
+
+140
+00:22:11,610 --> 00:22:16,439
+Leung Ping Kei: That means a skill to the right, a skill to the right, okay?
+
+141
+00:22:26,200 --> 00:22:28,639
+Leung Ping Kei: That means the tail, is,
+
+142
+00:22:31,720 --> 00:22:36,549
+Leung Ping Kei: Excuse me. The right-hand tail is longer than the left-hand tail, okay?
+
+143
+00:22:44,990 --> 00:22:49,710
+Leung Ping Kei: Okay? This is a skill to the left, okay?
+
+144
+00:23:08,190 --> 00:23:10,380
+Leung Ping Kei: And the third case… Okay.
+
+145
+00:23:11,810 --> 00:23:13,939
+Leung Ping Kei: Equal to zero, huh? Okay.
+
+146
+00:23:22,510 --> 00:23:23,770
+Leung Ping Kei: Okay.
+
+147
+00:23:28,270 --> 00:23:34,379
+Leung Ping Kei: Left and tail and right-hand tail are more or less the same, okay? More or less the same, okay? Unskilled.
+
+148
+00:23:44,830 --> 00:23:59,810
+Leung Ping Kei: Is that okay? This is the third moment, okay? So, usually, okay, when we talk about statistics, how to describe the data set, okay, we will use, okay, first of all, the mean.
+
+149
+00:24:00,410 --> 00:24:19,369
+Leung Ping Kei: variants. And then, the third moment, skewness, okay? This is the skewness. And then, the fourth moment is talking about the kurtosis. Kurtosis is, talking about, the… around the mean is high, medium, or low, okay?
+
+150
+00:24:20,420 --> 00:24:21,960
+Leung Ping Kei: So, can I… huh?
+
+151
+00:24:22,830 --> 00:24:24,390
+Leung Ping Kei: Rowit? Okay.
+
+152
+00:25:56,650 --> 00:26:05,390
+Leung Ping Kei: So, the fourth moment, the fourth moment, okay, kurtosis, kurtosis, beta-2, okay, is to tell you that,
+
+153
+00:26:20,250 --> 00:26:26,490
+Leung Ping Kei: Okay? Around the mean, okay? Let's say it is a… Positive.
+
+154
+00:26:27,340 --> 00:26:31,099
+Leung Ping Kei: It is high, okay? And then, if it is,
+
+155
+00:26:36,490 --> 00:26:40,699
+Leung Ping Kei: Like this, medium, is equal to civil.
+
+156
+00:26:40,980 --> 00:26:45,839
+Leung Ping Kei: Okay, this is a… Beta 2 positive.
+
+157
+00:26:47,170 --> 00:26:48,310
+Leung Ping Kei: Beta 2.
+
+158
+00:26:49,040 --> 00:26:50,409
+Leung Ping Kei: You could have civil.
+
+159
+00:26:51,010 --> 00:26:52,110
+Leung Ping Kei: And then…
+
+160
+00:27:10,150 --> 00:27:14,060
+Leung Ping Kei: Like this, okay. Beta 2, negative.
+
+161
+00:27:19,730 --> 00:27:23,679
+Leung Ping Kei: It's low, okay? Around the mean.
+
+162
+00:27:24,680 --> 00:27:25,740
+Leung Ping Kei: Alright.
+
+163
+00:27:26,560 --> 00:27:34,620
+Leung Ping Kei: So this is what, what we… usually, we use, only, fourth moment to describe the dataset
+
+164
+00:27:35,490 --> 00:27:47,229
+Leung Ping Kei: Therefore, the fifth moment, sixth moment, and higher moment are useless, useless, okay? Just like you described a man, okay? How you describe a person?
+
+165
+00:27:48,090 --> 00:27:54,419
+Leung Ping Kei: High, low, thin, fat, like that, okay? Just like that, okay.
+
+166
+00:27:57,140 --> 00:28:10,869
+Leung Ping Kei: So this is what we call, okay, kurtosis. However, okay, in time series, okay, the, the fourth moment, we, we, we will multiply by 3, is quite different from this, okay?
+
+167
+00:28:11,960 --> 00:28:14,130
+Leung Ping Kei: Is, is, is, is that okay?
+
+168
+00:28:14,370 --> 00:28:25,769
+Leung Ping Kei: So this is, for statistics, statistics, okay? And then, in, in our notes, three times, okay? Three times, that is like this.
+
+169
+00:28:26,080 --> 00:28:26,830
+Leung Ping Kei: Okay.
+
+170
+00:28:27,160 --> 00:28:29,619
+Leung Ping Kei: This one, 3 times, okay?
+
+171
+00:28:29,760 --> 00:28:37,559
+Leung Ping Kei: Just like this, 3 times. It's just for time series, just for time series only.
+
+172
+00:28:37,660 --> 00:28:38,620
+Leung Ping Kei: Okay?
+
+173
+00:29:02,950 --> 00:29:05,990
+Leung Ping Kei: So now, we go to, okay, another,
+
+174
+00:29:08,920 --> 00:29:24,679
+Leung Ping Kei: Al representation, okay? Now, a setting. V, V, VT is equal to, AT squared minus sigma T squared, okay? Then, VT is, white noise. That is, expectation of VT equal to zero.
+
+175
+00:29:25,120 --> 00:29:33,030
+Leung Ping Kei: And, covariance between, VT and VS, equal to zero, if, T not equal to S.
+
+176
+00:29:35,100 --> 00:29:41,369
+Leung Ping Kei: Now, putting, AT squared equal to sigma T squared plus, VT, okay?
+
+177
+00:29:41,370 --> 00:29:59,590
+Leung Ping Kei: Then obtain, AT squared is equal to omega plus alpha 18 minus 1 squared plus AT minus 2 squared, alpha 2 times AT minus 2 squared, and so on, up to alpha P, this one is mistyped, mistyped, alpha P, AT minus P squared plus,
+
+178
+00:29:59,590 --> 00:30:00,580
+Leung Ping Kei: VT.
+
+179
+00:30:06,300 --> 00:30:14,340
+Leung Ping Kei: or in operator form, okay, alpha B is equal to 1 minus… this is not A, it's alpha.
+
+180
+00:30:14,460 --> 00:30:32,089
+Leung Ping Kei: Alpha 1P, okay? Minus alpha 2B squared, minus alpha V cubed, and so on, up to minus alpha P, B to the power p, okay? And alpha P times AT squared is equal to omega plus VT.
+
+181
+00:30:36,910 --> 00:30:37,920
+Leung Ping Kei: Alright?
+
+182
+00:30:38,720 --> 00:30:49,740
+Leung Ping Kei: And hence, we can summarize, if, AT, distribute, okay, arch P, okay, then, AT squared, is, ARP.
+
+183
+00:30:52,170 --> 00:31:06,159
+Leung Ping Kei: So, the remark is telling you that, okay, a necessary condition for AT squared to be, stationary is that, all roots of alpha B equal to 0 are outside the unit circle.
+
+184
+00:31:06,740 --> 00:31:25,209
+Leung Ping Kei: That is, what we, what we learned before, in, chapter 4, and chapter 3, okay? But this always holds, when, alpha i's, i from 1 up to P, are all positive, and the sum of alpha 1 up to alpha P must be less than 1.
+
+185
+00:31:26,010 --> 00:31:26,950
+Leung Ping Kei: Okay?
+
+186
+00:31:28,920 --> 00:31:38,480
+Leung Ping Kei: So, at the moment, I can… it's not just like this, like this, okay? The variance exists, okay?
+
+187
+00:31:49,050 --> 00:31:50,570
+Leung Ping Kei: Huh?
+
+188
+00:31:50,790 --> 00:32:09,920
+Leung Ping Kei: Section 6.4, okay, estimation and diagnostic checking, okay? The, least square, least square estimates, okay? We can obtain a least square estimate by fitting an ARP to the, squares of the series, AT squared, okay? So, so,
+
+189
+00:32:09,920 --> 00:32:16,320
+Leung Ping Kei: Don't worry, we, we, we, we, we, we, we won't have this kind of thing, okay?
+
+190
+00:32:16,340 --> 00:32:19,390
+Leung Ping Kei: Yeah, we…
+
+191
+00:32:19,570 --> 00:32:34,380
+Leung Ping Kei: We don't have the… well, this is just for you to, understand the, the items, okay? So, let, XT-1, be the set, A0, A1, blah blah blah up to AT minus 1.
+
+192
+00:32:34,380 --> 00:32:56,280
+Leung Ping Kei: Okay? Then, the John PDF, can be written as, F of, A1 up to AT, okay? The, the Lilith function, okay, is the product, F of AT given XT minus 1 times F of AT minus 1 given XT minus 2, blah blah blah up to F of, A1
+
+193
+00:32:56,280 --> 00:32:57,900
+Leung Ping Kei: Given Exilo.
+
+194
+00:32:58,250 --> 00:33:00,310
+Leung Ping Kei: times, F of A0.
+
+195
+00:33:03,570 --> 00:33:17,659
+Leung Ping Kei: Then, given data, A1 up to AN, the log likelihood, we take the log form of this, okay, L is equal to log, F of, AN minus K given, XN minus k minus 1.
+
+196
+00:33:17,750 --> 00:33:30,569
+Leung Ping Kei: Okay? K going from several to n minus 1, I used to use, natural log, natural log, base E, base E, okay? Can be evaluated using the model, whether
+
+197
+00:33:30,710 --> 00:33:40,719
+Leung Ping Kei: volatility equation for any assumed distribution for the epsilon t, okay? Usually, we assume a normal distribution.
+
+198
+00:33:41,100 --> 00:33:49,229
+Leung Ping Kei: Then, L can be, maximized, numerically to obtain, the MLG, maximum likelihood Estimator.
+
+199
+00:33:49,450 --> 00:33:52,530
+Leung Ping Kei: Okay? Maximum likelihood estimator.
+
+200
+00:33:52,730 --> 00:33:55,470
+Leung Ping Kei: And letter theta are beta,
+
+201
+00:33:55,900 --> 00:34:02,920
+Leung Ping Kei: Parameter, huh? Parameter set, huh? Okay, omega, alpha 1, alpha 2, blah blah blah, up to alpha P.
+
+202
+00:34:03,380 --> 00:34:21,380
+Leung Ping Kei: denote the parameter. Then, square root n times, okay, data head as the estimate, as the MLE, minus data, okay, converges in distribution to normal, with mean, zero, and variance, 1 over, i.
+
+203
+00:34:21,460 --> 00:34:25,199
+Leung Ping Kei: I, I is officious, information matrix.
+
+204
+00:34:30,370 --> 00:34:34,850
+Leung Ping Kei: Have you learned this? Ficious information.
+
+205
+00:34:35,750 --> 00:34:51,300
+Leung Ping Kei: in, mathematical statistics, we use to use, physics information matrix, okay? That is the expectation, okay, expectation of the second derivative of, the log likelihood function.
+
+206
+00:34:52,270 --> 00:34:53,239
+Leung Ping Kei: Okay?
+
+207
+00:34:53,510 --> 00:35:03,249
+Leung Ping Kei: But don't worry, we won't have this in the exam, okay? But the method can be extended to more general case, okay?
+
+208
+00:35:03,960 --> 00:35:06,309
+Leung Ping Kei: So, arch 1, arch 1.
+
+209
+00:35:07,690 --> 00:35:12,890
+Leung Ping Kei: Okay, let's say, XT is equal to 5 times XT minus 1 plus AT.
+
+210
+00:35:13,090 --> 00:35:32,390
+Leung Ping Kei: T is going from 1 to N, okay? N, N, observations, okay? Now, expectation of AT squared given, FT minus 1 is equal to HT, which is equal to sigma T squared equal to omega plus, alpha AT minus 1 squared.
+
+211
+00:35:32,640 --> 00:35:42,210
+Leung Ping Kei: Okay? Back, back, back to the, volatility equation, okay? Then, data, will be, at the,
+
+212
+00:35:42,350 --> 00:35:58,180
+Leung Ping Kei: parameter, column, okay? Vector, okay? Phi, omega, and alpha, okay? This is transpose, that is a column vector, column vector. And notice that, data is a vector, okay? Then,
+
+213
+00:35:58,180 --> 00:36:15,149
+Leung Ping Kei: The likelihood function, is equal to product, t from 2 to n, 1 over, square root of 2 pixt, okay? XT is the, variance, okay? E to the power minus, XT minus phixt minus 1 squared.
+
+214
+00:36:15,150 --> 00:36:18,839
+Leung Ping Kei: That is AT squared, okay, divided by 2HT.
+
+215
+00:36:20,180 --> 00:36:44,130
+Leung Ping Kei: And, in finding, maximum likelihood, constant, do not matter, okay? Forget about the, 1 over square root 2 pi, okay? So, we just consider, okay, the log likelihood, take, the log, natural log, okay? So, L, is, you know, L of theta, proportional to negative, 1 half, sum of, log HT,
+
+216
+00:36:44,130 --> 00:36:45,840
+Leung Ping Kei: T from 2 to N.
+
+217
+00:36:45,840 --> 00:36:48,489
+Leung Ping Kei: First, okay, the power, okay?
+
+218
+00:36:49,040 --> 00:37:01,110
+Leung Ping Kei: Xt minus, out, 5XT minus 1 squared, divided by 2HT, okay? Missing, okay? Mistype, mistype, 2HT.
+
+219
+00:37:18,120 --> 00:37:20,619
+Leung Ping Kei: I think this one, is,
+
+220
+00:37:20,920 --> 00:37:38,880
+Leung Ping Kei: which type again, it should be negative, because it is negative, okay? Please change, this one to negative. Okay? And proceed as usual, using, Newton-Raphson's method, namely, we use, the recursion formula, okay?
+
+221
+00:37:39,430 --> 00:37:56,609
+Leung Ping Kei: The next root, okay, theta n plus 1 is equal to the old root, okay, theta n minus, okay, the first derivative of a likelihood function with respect to theta, okay, evaluated at theta n, okay, the old root, divided by the second derivative.
+
+222
+00:37:56,610 --> 00:38:02,389
+Leung Ping Kei: Okay? Divided by, divided by, the second derivative of, theta and theta prime.
+
+223
+00:38:02,390 --> 00:38:06,559
+Leung Ping Kei: Okay, evaluated at, data n, okay, the old root.
+
+224
+00:38:06,740 --> 00:38:22,529
+Leung Ping Kei: Then, after we obtain, okay, the value of, theta n plus 1 from, the value of theta n, then, notice that, the partial derivative of, L with respect to theta is a vector, okay, just like this.
+
+225
+00:38:23,690 --> 00:38:28,599
+Leung Ping Kei: And, similarly, okay, this is, again, a matrix.
+
+226
+00:38:29,590 --> 00:38:32,009
+Leung Ping Kei: Okay? Free by free. Okay.
+
+227
+00:38:32,580 --> 00:38:43,240
+Leung Ping Kei: However, okay, don't worry, we don't have this kind of thing, okay? We will use, this kind of thing,
+
+228
+00:38:48,520 --> 00:38:49,860
+Leung Ping Kei: Alright?
+
+229
+00:38:50,030 --> 00:38:52,470
+Leung Ping Kei: Index Emma?
+
+230
+00:38:52,690 --> 00:38:57,539
+Leung Ping Kei: In the exam, okay, we'll use this, okay?
+
+231
+00:39:12,470 --> 00:39:20,929
+Leung Ping Kei: Diagnostic checking, okay? Test, standardized, residual for autocorrelation, is, AT tilta.
+
+232
+00:39:20,970 --> 00:39:38,829
+Leung Ping Kei: Okay? Tilta, tilta. So AT tilta is equal to AT hat divided by sigma T hat, the estimate, the estimate of the, AT, and also the, standard deviation, as well as the squared, values.
+
+233
+00:39:56,650 --> 00:40:06,450
+Leung Ping Kei: One more, one more, okay? 615, for the, okay, previously we have the arch model, now we have the gutch model, okay?
+
+234
+00:40:06,880 --> 00:40:21,149
+Leung Ping Kei: Often, the RCHP model requires a large number of parameters, okay? To reduce the number of parameters of the gut PQ was introduced by, okay, Boris…
+
+235
+00:40:21,150 --> 00:40:42,659
+Leung Ping Kei: 1986, okay? Reduce, the number of parameters, okay? So AT is equal to epsilon T sigma T, okay? So, epsilon t is, normally distributed with means zero 1 and variance 1. And then sigma T squared is equal to omega plus,
+
+236
+00:40:42,660 --> 00:40:45,709
+Leung Ping Kei: Alpha 180 minus 1 square plus
+
+237
+00:40:45,710 --> 00:40:53,970
+Leung Ping Kei: Alpha 2 AT minus 2 squared, plus blah blah blah up to alpha P, AT minus P squared, plus, okay.
+
+238
+00:40:54,280 --> 00:41:06,789
+Leung Ping Kei: because it's a Q, okay? Therefore, it is, beta 1 times, sigma T minus 1 squared, plus blah blah blah. T, sigma T minus Q squared.
+
+239
+00:41:08,670 --> 00:41:09,660
+Leung Ping Kei: Alright?
+
+240
+00:41:11,650 --> 00:41:21,570
+Leung Ping Kei: Then, sufficient condition for positive sigma T squared, we must have, omega positive. Alpha i's and beta i's are positive, okay?
+
+241
+00:41:22,130 --> 00:41:28,510
+Leung Ping Kei: Alpha I, 1 to P, and then beta I, 1 to Q, okay?
+
+242
+00:41:31,370 --> 00:41:40,749
+Leung Ping Kei: Non-one negative, okay? Non-one negative. So, other distributions, such as the t-distribution, are often used for epsilon t, okay?
+
+243
+00:41:41,340 --> 00:41:49,409
+Leung Ping Kei: So, usually it's t-distribution. However, when, sample size n is larger than, we use, normal.
+
+244
+00:41:50,480 --> 00:42:07,200
+Leung Ping Kei: Okay, now, okay, the properties of, unconditional moments, okay, variance, okay? So, since the mean of a civil, and the variance is like that, assuming, sigma A squared is equal to expectation of AT squared exists.
+
+245
+00:42:07,580 --> 00:42:15,880
+Leung Ping Kei: Therefore, expectation of AT squared is equal to a double expectation of, AT squared
+
+246
+00:42:16,000 --> 00:42:18,450
+Leung Ping Kei: Given FT minus 1.
+
+247
+00:42:19,790 --> 00:42:20,720
+Leung Ping Kei: Alright.
+
+248
+00:42:20,840 --> 00:42:27,960
+Leung Ping Kei: Then, okay, it is equal to double expectation of, epsilon t squared times, okay.
+
+249
+00:42:28,310 --> 00:42:46,430
+Leung Ping Kei: because this is, sigma T, sigma T squared times, epsilon t squared. So, epsilon t squared, take it out, this is, sigma T squared, sigma T squared, okay? So, there are some, mistype, okay? Okay, omega plus, alpha 1.
+
+250
+00:42:46,430 --> 00:42:52,610
+Leung Ping Kei: AT minus 1 squared is not beta, okay? Plus, blah blah blah up to alpha P.
+
+251
+00:42:53,110 --> 00:43:05,799
+Leung Ping Kei: AT minus P squared, plus, okay, beta 1, sigma T minus 1 squared, plus beta 2T minus 2 squared, plus blah blah blah, beta Q.
+
+252
+00:43:06,360 --> 00:43:08,340
+Leung Ping Kei: Sigma T minus Q squared.
+
+253
+00:43:08,560 --> 00:43:10,949
+Leung Ping Kei: given FT minus 1.
+
+254
+00:43:11,260 --> 00:43:12,220
+Leung Ping Kei: Okay?
+
+255
+00:43:12,630 --> 00:43:17,210
+Leung Ping Kei: And remember that, okay, expectation of epsilon t squared is equal to 1.
+
+256
+00:43:19,820 --> 00:43:36,829
+Leung Ping Kei: Alright? Therefore, the expectation of this is equal to 1, okay? Therefore, we just have this expression, okay? Expectation of omega plus, alpha 18 minus 1 squared plus, alpha 218 minus 2 squared plus blah blah blah, alpha P.
+
+257
+00:43:36,830 --> 00:43:50,850
+Leung Ping Kei: AT minus P squared, plus beta 1, sigma, sigma T minus 1 squared, plus beta 2 sigma T minus 2 squared, plus blah blah blah, beta Q, sigma T minus Q squared.
+
+258
+00:43:52,040 --> 00:44:06,060
+Leung Ping Kei: Alright? Then I can, factorize them, okay? Therefore, it is equal to omega plus, okay, bracket, alpha 1 plus alpha 2 plus blah blah blah up to alpha p times sigma A squared plus
+
+259
+00:44:06,230 --> 00:44:13,079
+Leung Ping Kei: Another bracket, beta 1 plus beta 2 plus blah blah blah up to beta Q times, sigma A squared.
+
+260
+00:44:14,310 --> 00:44:22,300
+Leung Ping Kei: Alright? Then, I take this, I, I, I take this, to the, left-hand side, okay?
+
+261
+00:44:22,920 --> 00:44:38,700
+Leung Ping Kei: I take this to the left-hand side, so that, the left side turned out to be, okay, I factorized sigma A squared, okay? Sigma A squared times, okay, 1 minus, okay, alpha 1 minus alpha 2 minus blah, up to.
+
+262
+00:44:39,150 --> 00:44:46,660
+Leung Ping Kei: alpha P minus a beta 1 minus beta 2 minus ba-ba up to beta Q, equal to omega.
+
+263
+00:44:46,910 --> 00:45:04,249
+Leung Ping Kei: Therefore, I divide this to the right-hand side so that I have sigma A squared is equal to omega divided by 1 minus alpha 1 minus blah blah up to alpha P, and then minus beta 1 minus blah blah blah up to beta Q.
+
+264
+00:45:04,930 --> 00:45:23,630
+Leung Ping Kei: Okay? Now remember that, okay, this is, for P and Q, okay? And now, if it is, for gosh, 1, 1, P equal to 1, q equal to 1, then, sigma A squared is equal to omega divided by 1 minus alpha 1 minus, beta 1.
+
+265
+00:45:23,960 --> 00:45:24,880
+Leung Ping Kei: Only.
+
+266
+00:45:28,820 --> 00:45:29,840
+Leung Ping Kei: Alright?
+
+267
+00:45:30,250 --> 00:45:38,429
+Leung Ping Kei: So, in order for the variance, sigma A, to exist, okay, this is a mistype, okay? EXI,
+
+268
+00:45:38,990 --> 00:45:51,859
+Leung Ping Kei: The ST, okay? Then we need, okay, the sum of all these, okay, alpha 1 up to alpha P plus, alpha 1 up to beta, beta 1 up to beta Q, less than 1.
+
+269
+00:45:52,190 --> 00:45:53,120
+Leung Ping Kei: Okay?
+
+270
+00:46:04,800 --> 00:46:23,139
+Leung Ping Kei: So, the ketosis, okay, for, gotch 1, okay? So, M4 is equal to expectation of A to the power 4, which is equal to 3 times, omega squared times, 1 plus alpha 1 plus beta 1, divided by 1 minus alpha 1 minus beta 1 times
+
+271
+00:46:23,490 --> 00:46:38,490
+Leung Ping Kei: 1 minus beta 1 squared minus 2 alpha 1 beta 1 minus 3 alpha 1 squared. You don't have to memorize this, okay? Okay? So that, M4 exists, only if, okay, this
+
+272
+00:46:38,490 --> 00:46:44,809
+Leung Ping Kei: Okay? Beta 1 squared plus 2 alpha 1, beta 1 plus, 3 times alpha 1 squared less than 1.
+
+273
+00:46:44,810 --> 00:46:51,100
+Leung Ping Kei: to exist, okay? This is just like what we had before, okay? How we did it.
+
+274
+00:46:59,190 --> 00:47:00,020
+Leung Ping Kei: Bye.
+
+275
+00:47:01,450 --> 00:47:11,499
+Leung Ping Kei: So this is for, AR1, AR1, okay? Now, we have, A, ARM11, ARM11 is this.
+
+276
+00:47:16,660 --> 00:47:20,059
+Leung Ping Kei: Huh? Okay. Gotch, one month. Okay.
+
+277
+00:47:21,390 --> 00:47:29,170
+Leung Ping Kei: And hence, it may be shown that, K equal to M4 over M2 squared minus 3, positive.
+
+278
+00:47:29,440 --> 00:47:32,070
+Leung Ping Kei: Okay? Just like what we had before.
+
+279
+00:47:37,710 --> 00:47:38,640
+Leung Ping Kei: Positive.
+
+280
+00:47:39,120 --> 00:47:39,990
+Leung Ping Kei: Okay?
+
+281
+00:47:47,150 --> 00:47:50,010
+Leung Ping Kei: And where M2 is a sigma A squared.
+
+282
+00:47:50,160 --> 00:47:51,130
+Leung Ping Kei: Alright?
+
+283
+00:47:58,490 --> 00:48:00,570
+Leung Ping Kei: How about, we stop?
+
+284
+00:48:01,140 --> 00:48:02,350
+Leung Ping Kei: Over here.
+
+285
+00:48:02,770 --> 00:48:11,360
+Leung Ping Kei: And then the next time, we continue with that, and also, okay, how about, the next tutorial class?
+
+286
+00:48:12,130 --> 00:48:13,879
+Leung Ping Kei: I would like to cancel it.
+
+287
+00:48:14,070 --> 00:48:24,909
+Leung Ping Kei: Because, okay, after we learn all this, then we will go to, okay, the tutorial, okay, the exercise, okay? Exercise.
+
+288
+00:48:25,610 --> 00:48:31,430
+Leung Ping Kei: Alright? So, next, next class, we will start at, 11.30.
+
+289
+00:48:31,980 --> 00:48:36,899
+Leung Ping Kei: 11.30, okay? The 10.30 class will be canceled.
+
+290
+00:48:38,490 --> 00:48:52,010
+Leung Ping Kei: It's okay? So, I will try, I will try to, try my best, to, mark all your assignments, okay? And then I will give it back to you next week.
+
+291
+00:48:52,280 --> 00:49:03,070
+Leung Ping Kei: Okay? Hopefully, yeah. Since I, I have marked all the, test paper, all the test paper, however, some of the, to,
+
+292
+00:49:03,180 --> 00:49:15,339
+Leung Ping Kei: assignments have been marked, but not all, not all of them, okay? I will try my best to finish it, okay? And give it back to you next Tuesday.
+
+293
+00:49:15,600 --> 00:49:17,970
+Leung Ping Kei: Next Tuesday. Alright?
+
+294
+00:49:18,180 --> 00:49:23,459
+Leung Ping Kei: Okay? Thank you for coming, huh? Okay. Thank you very much, okay.
+
+295
+00:49:25,740 --> 00:49:28,109
+Leung Ping Kei: All of you have a nice day, huh? Okay.
+

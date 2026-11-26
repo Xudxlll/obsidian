@@ -4897,6 +4897,8 @@
       "isHidden": false,
       "sortOrder": "byNameAsc",
       "customOrder": [
+        "Chapter 6",
+        "Test",
         "Chapter 5",
         "字幕课堂整理",
         "Tutorials",
@@ -4919,6 +4921,12 @@
       "isHidden": false,
       "sortOrder": "byNameAsc",
       "customOrder": [
+        "其他课程资料_待确认",
+        "Assignment 3",
+        "Lecture 9",
+        "期末复习",
+        "Lecture 8",
+        "课堂字幕",
         "03 - 债券入门：久期、凸性、信用利差与杠杆.md",
         "02 - 期中考试综合复习（讲义与作业主线）.md",
         "Assignment 2",
@@ -5146,6 +5154,7 @@
       "isHidden": false,
       "sortOrder": "byNameAsc",
       "customOrder": [
+        "08 - Ito公式与教材习题（课堂原图）.md",
         "07 - 课堂重点与考试提醒.md",
         "附件",
         "06 - 伊藤随机微积分知识框架.md",
@@ -5198,6 +5207,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "课堂截图_教材第4章",
+        "参考教材",
         "Merton信用利差_两种期限结构.svg",
         "Merton信用利差_两种期限结构.png",
         "merton_credit_spread_shapes.py",
@@ -18354,6 +18365,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "03 - Assignment 1 教师手写解答.md",
         "附件",
         "02 - Assignment 1 完整参考解答.md",
         "01 - Assignment 1 题目（英文原文与折叠译文）.md"
@@ -18376,6 +18388,15 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "assignment-teacher-p08.png",
+        "AMA515A AMA540 Assignment Solution.pdf",
+        "assignment-teacher-p06.png",
+        "assignment-teacher-p07.png",
+        "assignment-teacher-p05.png",
+        "assignment-teacher-p04.png",
+        "assignment-teacher-p01.png",
+        "assignment-teacher-p03.png",
+        "assignment-teacher-p02.png",
         "assignment1-p03.png",
         "assignment1-p02.png",
         "assignment1-p01.png",
@@ -18418,6 +18439,7 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "Tutorial 5",
         "Tutorial 4",
         "Tutorial 3",
         "Tutorial 2",
@@ -21385,6 +21407,8 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "week9-FORECASTING AND APPLIED TIME SERIES ANALYSIS - Zoom-source.srt",
+        "week10-FORECASTING AND APPLIED TIME SERIES ANALYSIS - Zoom-source (1).srt",
         "week8 FORECASTING AND APPLIED TIME SERIES ANALYSIS - Zoom-source.srt",
         "week7 FORECASTING AND APPLIED TIME SERIES ANALYSIS - Zoom-source (1).srt",
         "week6 FORECASTING AND APPLIED TIME SERIES ANALYSIS - Zoom-source.srt",
@@ -21460,6 +21484,12 @@
       "isHidden": false,
       "sortOrder": "custom",
       "customOrder": [
+        "附件",
+        "02 - Chapter 5 带批注讲义（原页）.md",
+        "05 - Chapter 5 资料索引.md",
+        "04 - Week 9 课堂重点.md",
+        "03 - Chapter 5 手写课堂笔记.md",
+        "01 - Chapter 5 讲义（原页）.md",
         "00 - Chapter 5 字幕重点（Week 8）.md"
       ]
     },
@@ -33277,6 +33307,1535 @@
       "isHidden": false,
       "ctime": 1795522458219,
       "mtime": 1795522458219
+    },
+    "AMA572 Fixed-Income and Credit Risk/课堂字幕": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "附件",
+        "2026-11-19（带时间戳原文）.md",
+        "2026-11-12（带时间戳原文）.md",
+        "2026-10-29（带时间戳原文）.md"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690931699,
+      "mtime": 1795690931700
+    },
+    "AMA572 Fixed-Income and Credit Risk/课堂字幕/2026-10-29（带时间戳原文）.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932288,
+      "mtime": 1795690932289
+    },
+    "AMA572 Fixed-Income and Credit Risk/课堂字幕/2026-11-12（带时间戳原文）.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932310,
+      "mtime": 1795690932310
+    },
+    "AMA572 Fixed-Income and Credit Risk/课堂字幕/2026-11-19（带时间戳原文）.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932323,
+      "mtime": 1795690932323
+    },
+    "AMA572 Fixed-Income and Credit Risk/课堂字幕/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "2026-11-19_等价测度例子_课堂字幕.srt",
+        "2026-11-12_GBM长期行为_课堂字幕.srt",
+        "2026-10-29_Ito公式_课堂字幕.srt"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690932342,
+      "mtime": 1795690932342
+    },
+    "AMA572 Fixed-Income and Credit Risk/课堂字幕/附件/2026-10-29_Ito公式_课堂字幕.srt": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932406,
+      "mtime": 1795690932406
+    },
+    "AMA572 Fixed-Income and Credit Risk/课堂字幕/附件/2026-11-12_GBM长期行为_课堂字幕.srt": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932418,
+      "mtime": 1795690932418
+    },
+    "AMA572 Fixed-Income and Credit Risk/课堂字幕/附件/2026-11-19_等价测度例子_课堂字幕.srt": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932431,
+      "mtime": 1795690932431
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "01 - Lecture 8（英文原文与折叠译文）.md",
+        "附件",
+        "02 - 课堂手写与推导（按课件位置）.md",
+        "00 - Lecture 8 资料索引.md"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690932473,
+      "mtime": 1795690932473
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/00 - Lecture 8 资料索引.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932517,
+      "mtime": 1795693692703
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/02 - 课堂手写与推导（按课件位置）.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932531,
+      "mtime": 1795690932531
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "课堂截图",
+        "01_Lecture8_原课件_SDE高斯过程与Girsanov定理.pdf"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690932541,
+      "mtime": 1795690932541
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/01_Lecture8_原课件_SDE高斯过程与Girsanov定理.pdf": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932603,
+      "mtime": 1795690932603
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "227_正态平移_换元边界补充.png",
+        "226_正态平移_分布函数换元.png",
+        "219_OU_方差结果与初始方差.png",
+        "225_等价测度_正密度与事件概率.png",
+        "218_OU_方差常数变易法.png",
+        "217_OU_中心化过程与方差方程.png",
+        "216_OU_均值积分因子法.png",
+        "215_OU_积分因子完整求解.png",
+        "214_OU_积分因子确定性部分.png",
+        "213_OU_解的验证与唯一性.png",
+        "212_OU_代回等式续写.png",
+        "211_OU_积分项代回.png",
+        "210_OU_积分项代回准备.png",
+        "209_OU_微分项拆分.png",
+        "208_OU_显式解求微分.png",
+        "207_OU_均值回复与显式解.png",
+        "206_GBM悖论与OU模型入口.png",
+        "205_GBM_路径与均值对比.png",
+        "204_GBM_长期路径趋势.png",
+        "201_GBM_均值的直接期望法.png",
+        "200_GBM_均值结果.png",
+        "199_指数矩_初值与解.png",
+        "198_指数矩_转成常微分方程.png",
+        "197_指数矩_积分方程.png",
+        "196_指数矩_随机积分期望.png",
+        "195_指数布朗运动的初始项.png",
+        "193_GBM_积分与指数解.png",
+        "192_GBM_对数漂移修正.png",
+        "194_指数布朗运动的Ito展开.png",
+        "191_GBM_二次微分展开.png",
+        "190_GBM_对数函数偏导.png"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690932611,
+      "mtime": 1795690932611
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/190_GBM_对数函数偏导.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932632,
+      "mtime": 1795690932632
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/191_GBM_二次微分展开.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932644,
+      "mtime": 1795690932644
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/194_指数布朗运动的Ito展开.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932656,
+      "mtime": 1795690932656
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/192_GBM_对数漂移修正.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932668,
+      "mtime": 1795690932668
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/193_GBM_积分与指数解.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932680,
+      "mtime": 1795690932680
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/195_指数布朗运动的初始项.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932744,
+      "mtime": 1795690932744
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/196_指数矩_随机积分期望.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932754,
+      "mtime": 1795690932754
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/197_指数矩_积分方程.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932763,
+      "mtime": 1795690932763
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/198_指数矩_转成常微分方程.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932771,
+      "mtime": 1795690932771
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/199_指数矩_初值与解.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932780,
+      "mtime": 1795690932780
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/200_GBM_均值结果.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932789,
+      "mtime": 1795690932789
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/201_GBM_均值的直接期望法.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932797,
+      "mtime": 1795690932797
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/204_GBM_长期路径趋势.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932816,
+      "mtime": 1795690932816
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/205_GBM_路径与均值对比.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932828,
+      "mtime": 1795690932828
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/206_GBM悖论与OU模型入口.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932842,
+      "mtime": 1795690932842
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/207_OU_均值回复与显式解.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932854,
+      "mtime": 1795690932854
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/208_OU_显式解求微分.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932867,
+      "mtime": 1795690932867
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/209_OU_微分项拆分.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932879,
+      "mtime": 1795690932879
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/210_OU_积分项代回准备.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932891,
+      "mtime": 1795690932891
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/211_OU_积分项代回.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932904,
+      "mtime": 1795690932904
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/212_OU_代回等式续写.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932916,
+      "mtime": 1795690932916
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/213_OU_解的验证与唯一性.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932928,
+      "mtime": 1795690932928
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/214_OU_积分因子确定性部分.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932940,
+      "mtime": 1795690932940
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/215_OU_积分因子完整求解.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932951,
+      "mtime": 1795690932951
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/216_OU_均值积分因子法.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932962,
+      "mtime": 1795690932962
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/217_OU_中心化过程与方差方程.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932974,
+      "mtime": 1795690932974
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/218_OU_方差常数变易法.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932985,
+      "mtime": 1795690932985
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/225_等价测度_正密度与事件概率.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690932997,
+      "mtime": 1795690932997
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/219_OU_方差结果与初始方差.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933009,
+      "mtime": 1795690933009
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/226_正态平移_分布函数换元.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933020,
+      "mtime": 1795690933020
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/附件/课堂截图/227_正态平移_换元边界补充.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933032,
+      "mtime": 1795690933032
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "附件",
+        "01 - 往年期末题课堂批注（按题型）.md",
+        "00 - 期末复习 资料索引.md"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690933211,
+      "mtime": 1795690933211
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习/00 - 期末复习 资料索引.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933322,
+      "mtime": 1795690933322
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习/01 - 往年期末题课堂批注（按题型）.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933349,
+      "mtime": 1795690933349
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "课堂截图"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690933364,
+      "mtime": 1795690933364
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习/附件/课堂截图": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "248_Q1_评级迁移下次复习提示.png",
+        "247_Q6_CIR下次复习提示.png",
+        "246_Q2_CDS题目与四项支付.png",
+        "245_Q5_指数还原与均值提问.png",
+        "243_Q5_Hull-White均值方差汇总.png",
+        "241_Q5_Hull-White中心化平方Ito.png",
+        "244_Q5_对数变换到Hull-White.png",
+        "242_Q5_Hull-White方差ODE与疑问标注.png",
+        "240_Q5_Hull-White方差定义.png",
+        "236_Q5_Hull-White均值求导核对.png",
+        "239_Q5_Hull-White均值积分结果.png",
+        "238_Q5_Hull-White均值初值.png",
+        "237_Q5_Hull-White均值系数比较.png",
+        "223_Q6_CIR方差积分结果.png",
+        "235_Q5_Hull-White均值常数变易.png",
+        "234_Q5_Hull-White均值齐次方程.png",
+        "233_Q5_Hull-White均值取期望.png",
+        "220_Q6_CIR均值与中心化.png",
+        "221_Q6_CIR方差微分方程.png",
+        "222_Q6_CIR均值框选.png"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690933452,
+      "mtime": 1795690933452
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习/附件/课堂截图/222_Q6_CIR均值框选.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933462,
+      "mtime": 1795690933462
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习/附件/课堂截图/221_Q6_CIR方差微分方程.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933472,
+      "mtime": 1795690933472
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习/附件/课堂截图/220_Q6_CIR均值与中心化.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933480,
+      "mtime": 1795690933480
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习/附件/课堂截图/233_Q5_Hull-White均值取期望.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933488,
+      "mtime": 1795690933488
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习/附件/课堂截图/234_Q5_Hull-White均值齐次方程.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933501,
+      "mtime": 1795690933501
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习/附件/课堂截图/235_Q5_Hull-White均值常数变易.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933512,
+      "mtime": 1795690933512
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习/附件/课堂截图/223_Q6_CIR方差积分结果.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933522,
+      "mtime": 1795690933522
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习/附件/课堂截图/237_Q5_Hull-White均值系数比较.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933531,
+      "mtime": 1795690933531
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习/附件/课堂截图/238_Q5_Hull-White均值初值.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933539,
+      "mtime": 1795690933539
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习/附件/课堂截图/239_Q5_Hull-White均值积分结果.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933550,
+      "mtime": 1795690933550
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习/附件/课堂截图/236_Q5_Hull-White均值求导核对.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933561,
+      "mtime": 1795690933561
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习/附件/课堂截图/240_Q5_Hull-White方差定义.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933570,
+      "mtime": 1795690933570
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习/附件/课堂截图/242_Q5_Hull-White方差ODE与疑问标注.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933579,
+      "mtime": 1795690933579
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习/附件/课堂截图/244_Q5_对数变换到Hull-White.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933589,
+      "mtime": 1795690933589
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习/附件/课堂截图/241_Q5_Hull-White中心化平方Ito.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933599,
+      "mtime": 1795690933599
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习/附件/课堂截图/243_Q5_Hull-White均值方差汇总.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933610,
+      "mtime": 1795690933610
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习/附件/课堂截图/245_Q5_指数还原与均值提问.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933621,
+      "mtime": 1795690933621
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习/附件/课堂截图/246_Q2_CDS题目与四项支付.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933632,
+      "mtime": 1795690933632
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习/附件/课堂截图/247_Q6_CIR下次复习提示.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933642,
+      "mtime": 1795690933642
+    },
+    "AMA572 Fixed-Income and Credit Risk/期末复习/附件/课堂截图/248_Q1_评级迁移下次复习提示.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690933652,
+      "mtime": 1795690933652
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 9": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "附件",
+        "01 - Hull–White模型（课堂原图与作业关联）.md",
+        "00 - Lecture 9 资料索引.md"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690938429,
+      "mtime": 1795690938429
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 9/00 - Lecture 9 资料索引.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690938847,
+      "mtime": 1795690938847
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 9/01 - Hull–White模型（课堂原图与作业关联）.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690938874,
+      "mtime": 1795690938874
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 9/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "课堂截图"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690938887,
+      "mtime": 1795690938887
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 9/附件/课堂截图": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "231_Hull-White_积分初始项.png",
+        "230_Hull-White_漂移项抵消.png",
+        "232_Hull-White_移回积分因子.png",
+        "229_Hull-White_乘积法则.png",
+        "228_Hull-White_积分因子定义.png"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690938927,
+      "mtime": 1795690938927
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 9/附件/课堂截图/228_Hull-White_积分因子定义.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690938939,
+      "mtime": 1795690938939
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 9/附件/课堂截图/229_Hull-White_乘积法则.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690938949,
+      "mtime": 1795690938949
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 9/附件/课堂截图/232_Hull-White_移回积分因子.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690938960,
+      "mtime": 1795690938960
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 9/附件/课堂截图/230_Hull-White_漂移项抵消.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690938969,
+      "mtime": 1795690938969
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 9/附件/课堂截图/231_Hull-White_积分初始项.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690938977,
+      "mtime": 1795690938977
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/08 - Ito公式与教材习题（课堂原图）.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939032,
+      "mtime": 1795690939032
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/参考教材": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "Øksendal_第4章习题解答_4.1_4.2_4.5_4.11_4.15.pdf",
+        "Øksendal_第4章_Ito公式与鞅表示定理.pdf",
+        "Øksendal_Stochastic_Differential_Equations_第6版.pdf"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690939042,
+      "mtime": 1795690939042
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/参考教材/Øksendal_Stochastic_Differential_Equations_第6版.pdf": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939245,
+      "mtime": 1795690939245
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/参考教材/Øksendal_第4章_Ito公式与鞅表示定理.pdf": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939271,
+      "mtime": 1795690939271
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/参考教材/Øksendal_第4章习题解答_4.1_4.2_4.5_4.11_4.15.pdf": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939324,
+      "mtime": 1795690939324
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/课堂截图_教材第4章": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "189_习题4.15_复合函数与时间偏导.png",
+        "188_习题4.11c_乘积偏导与鞅.png",
+        "187_习题4.11a_漂移项抵消.png",
+        "186_习题4.5_六阶矩补充批注.png",
+        "185_习题4.5_四阶矩补充批注.png",
+        "172_习题4.11_指数三角函数鞅.png",
+        "171_习题4.5_六阶矩结果.png",
+        "170_习题4.5_四阶矩结果.png",
+        "169_习题4.5_零阶矩与二阶矩.png",
+        "168_习题4.5_四阶矩起式.png",
+        "167_习题4.5_期望微分法.png",
+        "166_习题4.5_矩递推积分法.png",
+        "165_习题4.2_三次幂积分续写.png",
+        "164_习题4.2_三次幂积分推导.png",
+        "162_习题4.1b_指数函数.png",
+        "161_习题4.1a_布朗运动平方.png",
+        "160_分部积分结果框选.png",
+        "159_时间乘布朗运动的积分边界.png",
+        "158_时间乘布朗运动的偏导.png",
+        "155_一维Ito公式与过程参数.png",
+        "157_平方函数从微分到积分.png",
+        "156_平方函数的偏导与Ito代入.png"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690939410,
+      "mtime": 1795690939410
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/课堂截图_教材第4章/156_平方函数的偏导与Ito代入.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939443,
+      "mtime": 1795690939443
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/课堂截图_教材第4章/157_平方函数从微分到积分.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939457,
+      "mtime": 1795690939457
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/课堂截图_教材第4章/155_一维Ito公式与过程参数.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939468,
+      "mtime": 1795690939468
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/课堂截图_教材第4章/158_时间乘布朗运动的偏导.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939477,
+      "mtime": 1795690939477
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/课堂截图_教材第4章/159_时间乘布朗运动的积分边界.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939485,
+      "mtime": 1795690939485
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/课堂截图_教材第4章/160_分部积分结果框选.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939494,
+      "mtime": 1795690939494
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/课堂截图_教材第4章/161_习题4.1a_布朗运动平方.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939502,
+      "mtime": 1795690939502
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/课堂截图_教材第4章/162_习题4.1b_指数函数.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939509,
+      "mtime": 1795690939509
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/课堂截图_教材第4章/164_习题4.2_三次幂积分推导.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939518,
+      "mtime": 1795690939518
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/课堂截图_教材第4章/165_习题4.2_三次幂积分续写.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939527,
+      "mtime": 1795690939527
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/课堂截图_教材第4章/166_习题4.5_矩递推积分法.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939538,
+      "mtime": 1795690939538
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/课堂截图_教材第4章/167_习题4.5_期望微分法.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939551,
+      "mtime": 1795690939551
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/课堂截图_教材第4章/168_习题4.5_四阶矩起式.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939562,
+      "mtime": 1795690939562
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/课堂截图_教材第4章/169_习题4.5_零阶矩与二阶矩.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939574,
+      "mtime": 1795690939574
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/课堂截图_教材第4章/170_习题4.5_四阶矩结果.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939586,
+      "mtime": 1795690939586
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/课堂截图_教材第4章/171_习题4.5_六阶矩结果.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939598,
+      "mtime": 1795690939598
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/课堂截图_教材第4章/172_习题4.11_指数三角函数鞅.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939610,
+      "mtime": 1795690939610
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/课堂截图_教材第4章/185_习题4.5_四阶矩补充批注.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939622,
+      "mtime": 1795690939622
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/课堂截图_教材第4章/186_习题4.5_六阶矩补充批注.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939634,
+      "mtime": 1795690939634
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/课堂截图_教材第4章/187_习题4.11a_漂移项抵消.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939645,
+      "mtime": 1795690939645
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/课堂截图_教材第4章/188_习题4.11c_乘积偏导与鞅.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939656,
+      "mtime": 1795690939656
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 2/附件/课堂截图_教材第4章/189_习题4.15_复合函数与时间偏导.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939668,
+      "mtime": 1795690939668
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 3": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "01 - Assignment 3（英文原文与折叠译文）.md",
+        "附件",
+        "00 - Assignment 3 资料索引.md"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690939744,
+      "mtime": 1795690939744
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 3/00 - Assignment 3 资料索引.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939815,
+      "mtime": 1795693692663
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 3/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "Assignment3_作业题目_共2题_截止2026-11-28.pdf"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690939828,
+      "mtime": 1795690939828
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 3/附件/Assignment3_作业题目_共2题_截止2026-11-28.pdf": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690939909,
+      "mtime": 1795690939909
+    },
+    "AMA572 Fixed-Income and Credit Risk/其他课程资料_待确认": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "附件",
+        "01 - 秘书问题截图（课程待确认）.md",
+        "00 - 其他课程资料_待确认 资料索引.md"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690939936,
+      "mtime": 1795690939936
+    },
+    "AMA572 Fixed-Income and Credit Risk/其他课程资料_待确认/00 - 其他课程资料_待确认 资料索引.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690940454,
+      "mtime": 1795690940454
+    },
+    "AMA572 Fixed-Income and Credit Risk/其他课程资料_待确认/01 - 秘书问题截图（课程待确认）.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690940481,
+      "mtime": 1795690940481
+    },
+    "AMA572 Fixed-Income and Credit Risk/其他课程资料_待确认/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "课堂截图"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690940496,
+      "mtime": 1795690940496
+    },
+    "AMA572 Fixed-Income and Credit Risk/其他课程资料_待确认/附件/课堂截图": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "182_秘书问题_选择最佳候选人的条件.png",
+        "184_秘书问题_最优阈值及3000人示例.png",
+        "183_秘书问题_成功概率与一阶条件.png"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690940534,
+      "mtime": 1795690940534
+    },
+    "AMA572 Fixed-Income and Credit Risk/其他课程资料_待确认/附件/课堂截图/183_秘书问题_成功概率与一阶条件.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690940550,
+      "mtime": 1795690940550
+    },
+    "AMA572 Fixed-Income and Credit Risk/其他课程资料_待确认/附件/课堂截图/184_秘书问题_最优阈值及3000人示例.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690940561,
+      "mtime": 1795690940561
+    },
+    "AMA572 Fixed-Income and Credit Risk/其他课程资料_待确认/附件/课堂截图/182_秘书问题_选择最佳候选人的条件.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690940570,
+      "mtime": 1795690940570
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Assignments/03 - Assignment 1 教师手写解答.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690940614,
+      "mtime": 1795690940614
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Assignments/附件/assignment-teacher-p02.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690940634,
+      "mtime": 1795690940634
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Assignments/附件/assignment-teacher-p03.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690940665,
+      "mtime": 1795690940665
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Assignments/附件/assignment-teacher-p01.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690940678,
+      "mtime": 1795690940678
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Assignments/附件/assignment-teacher-p04.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690940691,
+      "mtime": 1795690940691
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Assignments/附件/assignment-teacher-p05.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690940722,
+      "mtime": 1795690940722
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Assignments/附件/assignment-teacher-p07.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690940736,
+      "mtime": 1795690940736
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Assignments/附件/assignment-teacher-p06.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690940748,
+      "mtime": 1795690940748
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Assignments/附件/AMA515A AMA540 Assignment Solution.pdf": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690940779,
+      "mtime": 1795690940779
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Assignments/附件/assignment-teacher-p08.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690940793,
+      "mtime": 1795690940793
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Test": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "附件",
+        "01 - 测验教师手写解答.md"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690940804,
+      "mtime": 1795690940804
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Test/01 - 测验教师手写解答.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690940910,
+      "mtime": 1795690940910
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Test/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "test-teacher-p04.png",
+        "test-teacher-p03.png",
+        "test-teacher-p02.png",
+        "test-teacher-p01.png",
+        "AMA515A Test Solution 26 27 S1.pdf"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690940922,
+      "mtime": 1795690940922
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Test/附件/AMA515A Test Solution 26 27 S1.pdf": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690940935,
+      "mtime": 1795690940935
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Test/附件/test-teacher-p01.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690940984,
+      "mtime": 1795690940984
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Test/附件/test-teacher-p02.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690940993,
+      "mtime": 1795690940993
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Test/附件/test-teacher-p03.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941001,
+      "mtime": 1795690941001
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Test/附件/test-teacher-p04.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941007,
+      "mtime": 1795690941007
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 6": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "附件",
+        "02 - Chapter 6 Week 10 字幕重点.md",
+        "01 - Chapter 6 讲义、Exercise 6 与答案（带批注原页）.md",
+        "00 - Chapter 6 资料索引.md"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690941038,
+      "mtime": 1795690941038
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 6/00 - Chapter 6 资料索引.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941063,
+      "mtime": 1795690941063
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 6/01 - Chapter 6 讲义、Exercise 6 与答案（带批注原页）.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941074,
+      "mtime": 1795690941074
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 6/02 - Chapter 6 Week 10 字幕重点.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941084,
+      "mtime": 1795690941084
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 6/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "ch6-annotated-p16.png",
+        "ch6-annotated-p15.png",
+        "ch6-annotated-p14.png",
+        "ch6-annotated-p13.png",
+        "ch6-annotated-p12.png",
+        "ch6-annotated-p11.png",
+        "ch6-annotated-p10.png",
+        "ch6-annotated-p09.png",
+        "ch6-annotated-p08.png",
+        "ch6-annotated-p06.png",
+        "ch6-annotated-p07.png",
+        "ch6-annotated-p05.png",
+        "ch6-annotated-p04.png",
+        "ch6-annotated-p03.png",
+        "ch6-annotated-p02.png",
+        "ch6-annotated-p01.png",
+        "AMA515A Chapter 6 Scanned Notes.pdf"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690941090,
+      "mtime": 1795690941090
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 6/附件/AMA515A Chapter 6 Scanned Notes.pdf": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941119,
+      "mtime": 1795690941119
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 6/附件/ch6-annotated-p01.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941126,
+      "mtime": 1795690941126
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 6/附件/ch6-annotated-p02.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941135,
+      "mtime": 1795690941135
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 6/附件/ch6-annotated-p03.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941144,
+      "mtime": 1795690941144
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 6/附件/ch6-annotated-p04.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941151,
+      "mtime": 1795690941151
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 6/附件/ch6-annotated-p05.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941158,
+      "mtime": 1795690941158
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 6/附件/ch6-annotated-p07.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941164,
+      "mtime": 1795690941164
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 6/附件/ch6-annotated-p06.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941171,
+      "mtime": 1795690941171
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 6/附件/ch6-annotated-p08.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941185,
+      "mtime": 1795690941185
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 6/附件/ch6-annotated-p09.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941195,
+      "mtime": 1795690941195
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 6/附件/ch6-annotated-p10.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941205,
+      "mtime": 1795690941205
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 6/附件/ch6-annotated-p11.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941214,
+      "mtime": 1795690941214
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 6/附件/ch6-annotated-p12.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941224,
+      "mtime": 1795690941224
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 6/附件/ch6-annotated-p13.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941233,
+      "mtime": 1795690941233
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 6/附件/ch6-annotated-p14.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941244,
+      "mtime": 1795690941244
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 6/附件/ch6-annotated-p15.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941254,
+      "mtime": 1795690941254
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 6/附件/ch6-annotated-p16.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941265,
+      "mtime": 1795690941265
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/字幕课堂整理/附件/week10-FORECASTING AND APPLIED TIME SERIES ANALYSIS - Zoom-source (1).srt": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941326,
+      "mtime": 1795690941326
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/字幕课堂整理/附件/week9-FORECASTING AND APPLIED TIME SERIES ANALYSIS - Zoom-source.srt": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941343,
+      "mtime": 1795690941343
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 5": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "附件",
+        "03 - Tutorial 5 题目（英文原文与折叠译文）.md",
+        "02 - Tutorial 5 答案（原页）.md",
+        "01 - Tutorial 5 题目（原页）.md"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690941507,
+      "mtime": 1795690941507
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 5/01 - Tutorial 5 题目（原页）.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941650,
+      "mtime": 1795690941650
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 5/02 - Tutorial 5 答案（原页）.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941680,
+      "mtime": 1795690941680
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 5/03 - Tutorial 5 题目（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941702,
+      "mtime": 1795690941702
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 5/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "tutorial5-questions-p02.png",
+        "tutorial5-questions-p01.png",
+        "tutorial5-answers-p03.png",
+        "tutorial5-answers-p02.png",
+        "tutorial5-answers-p01.png",
+        "ex5.pdf",
+        "ans5.pdf"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690941714,
+      "mtime": 1795690941714
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 5/附件/ans5.pdf": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941746,
+      "mtime": 1795690941746
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 5/附件/ex5.pdf": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941759,
+      "mtime": 1795690941759
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 5/附件/tutorial5-answers-p01.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941771,
+      "mtime": 1795690941771
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 5/附件/tutorial5-answers-p02.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941783,
+      "mtime": 1795690941783
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 5/附件/tutorial5-answers-p03.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941795,
+      "mtime": 1795690941795
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 5/附件/tutorial5-questions-p01.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941806,
+      "mtime": 1795690941806
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Tutorials/Tutorial 5/附件/tutorial5-questions-p02.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941817,
+      "mtime": 1795690941817
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/01 - Chapter 5 讲义（原页）.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941861,
+      "mtime": 1795690941861
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/03 - Chapter 5 手写课堂笔记.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941876,
+      "mtime": 1795690941876
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/04 - Week 9 课堂重点.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941887,
+      "mtime": 1795690941887
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/05 - Chapter 5 资料索引.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941916,
+      "mtime": 1795690941916
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/02 - Chapter 5 带批注讲义（原页）.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690941928,
+      "mtime": 1795690941928
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件": {
+      "isPinned": false,
+      "isHidden": false,
+      "customOrder": [
+        "tsf5_ama515A.pdf",
+        "ch5-print-p09.png",
+        "ch5-print-p08.png",
+        "ch5-print-p07.png",
+        "ch5-print-p06.png",
+        "ch5-print-p05.png",
+        "ch5-print-p04.png",
+        "ch5-print-p03.png",
+        "ch5-print-p02.png",
+        "ch5-print-p01.png",
+        "ch5-handwritten-p08.png",
+        "ch5-handwritten-p07.png",
+        "ch5-handwritten-p06.png",
+        "ch5-handwritten-p05.png",
+        "ch5-handwritten-p04.png",
+        "ch5-handwritten-p03.png",
+        "ch5-handwritten-p02.png",
+        "ch5-handwritten-p01.png",
+        "ch5-annotated-p10.png",
+        "ch5-annotated-p09.png",
+        "ch5-annotated-p08.png",
+        "ch5-annotated-p07.png",
+        "ch5-annotated-p06.png",
+        "ch5-annotated-p05.png",
+        "ch5-annotated-p04.png",
+        "ch5-annotated-p03.png",
+        "ch5-annotated-p02.png",
+        "ch5-annotated-p01.png",
+        "Chapter 5 Notes.pdf",
+        "AMA515A Chapter 5 Scanned Notes.pdf"
+      ],
+      "sortOrder": "custom",
+      "ctime": 1795690941936,
+      "mtime": 1795690941936
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/AMA515A Chapter 5 Scanned Notes.pdf": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942049,
+      "mtime": 1795690942049
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/Chapter 5 Notes.pdf": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942066,
+      "mtime": 1795690942066
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-annotated-p01.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942079,
+      "mtime": 1795690942079
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-annotated-p02.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942090,
+      "mtime": 1795690942090
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-annotated-p03.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942101,
+      "mtime": 1795690942101
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-annotated-p04.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942114,
+      "mtime": 1795690942114
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-annotated-p05.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942126,
+      "mtime": 1795690942126
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-annotated-p06.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942137,
+      "mtime": 1795690942137
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-annotated-p07.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942147,
+      "mtime": 1795690942147
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-annotated-p08.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942158,
+      "mtime": 1795690942158
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-annotated-p09.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942168,
+      "mtime": 1795690942168
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-annotated-p10.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942179,
+      "mtime": 1795690942179
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-handwritten-p01.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942189,
+      "mtime": 1795690942189
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-handwritten-p02.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942199,
+      "mtime": 1795690942199
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-handwritten-p03.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942209,
+      "mtime": 1795690942209
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-handwritten-p04.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942219,
+      "mtime": 1795690942219
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-handwritten-p05.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942230,
+      "mtime": 1795690942230
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-handwritten-p06.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942240,
+      "mtime": 1795690942240
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-handwritten-p07.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942250,
+      "mtime": 1795690942250
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-handwritten-p08.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942264,
+      "mtime": 1795690942264
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-print-p01.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942276,
+      "mtime": 1795690942276
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-print-p02.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942287,
+      "mtime": 1795690942287
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-print-p03.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942296,
+      "mtime": 1795690942296
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-print-p04.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942305,
+      "mtime": 1795690942305
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-print-p05.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942314,
+      "mtime": 1795690942314
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-print-p06.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942325,
+      "mtime": 1795690942325
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-print-p07.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942336,
+      "mtime": 1795690942336
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-print-p08.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942347,
+      "mtime": 1795690942347
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/ch5-print-p09.png": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942359,
+      "mtime": 1795690942359
+    },
+    "AMA515A Forecasting and Applied Time Series Analysis/Chapter 5/附件/tsf5_ama515A.pdf": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795690942369,
+      "mtime": 1795690942369
+    },
+    "AMA572 Fixed-Income and Credit Risk/Assignment 3/01 - Assignment 3（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795693692684,
+      "mtime": 1795693692684
+    },
+    "AMA572 Fixed-Income and Credit Risk/Lecture 8/01 - Lecture 8（英文原文与折叠译文）.md": {
+      "isPinned": false,
+      "isHidden": false,
+      "ctime": 1795693692719,
+      "mtime": 1795693692719
     }
   },
   "showHidden": false,

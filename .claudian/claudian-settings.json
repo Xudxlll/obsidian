@@ -520,15 +520,92 @@
     },
     "antigravity": {
       "cliPath": "",
-      "cliPathsByHost": {},
-      "enabled": false,
-      "environmentHash": "",
+      "cliPathsByHost": {
+        "device-0098d575bf712d261c320766ddd5bd29ba1d08dd752ed8eca6ad27262ab349b2": "/Users/xuji/.local/bin/agy"
+      },
+      "enabled": true,
+      "environmentHash": "runtime-input:v1:7e5f369db743a382467611990fea23c90f7b9f89c97bc8e8e27ac7f32252c159",
       "environmentVariables": "",
       "modelAliases": {},
-      "preferredReasoningByModel": {},
-      "sessionStoreHash": "",
-      "visibleModels": [],
-      "selectedModelsByHost": {}
+      "preferredReasoningByModel": {
+        "gemini-4-hydrogen": "high"
+      },
+      "sessionStoreHash": "runtime-input:v1:bc6e496abe3100329385eeffca25d7821898f06425dfc325fc4b7a7e1fd70079",
+      "visibleModels": [
+        "gemini-4-hydrogen",
+        "gemini-4-neon",
+        "claude-sonnet-5-5"
+      ],
+      "selectedModelsByHost": {
+        "device-0098d575bf712d261c320766ddd5bd29ba1d08dd752ed8eca6ad27262ab349b2": {
+          "defaultModelId": "gemini-4-neon",
+          "models": [
+            {
+              "displayName": "Gemini 4 Neon",
+              "rawId": "gemini-4-neon",
+              "reasoningEfforts": [
+                {
+                  "label": "Low",
+                  "value": "low"
+                },
+                {
+                  "label": "Medium",
+                  "value": "medium"
+                },
+                {
+                  "label": "High",
+                  "value": "high"
+                },
+                {
+                  "label": "Extra",
+                  "value": "xhigh"
+                }
+              ]
+            },
+            {
+              "displayName": "Gemini 4 Hydrogen",
+              "rawId": "gemini-4-hydrogen",
+              "reasoningEfforts": [
+                {
+                  "label": "Low",
+                  "value": "low"
+                },
+                {
+                  "label": "Medium",
+                  "value": "medium"
+                },
+                {
+                  "label": "High",
+                  "value": "high"
+                },
+                {
+                  "label": "Extra",
+                  "value": "xhigh"
+                }
+              ]
+            },
+            {
+              "displayName": "Claude Sonnet 5.5",
+              "rawId": "claude-sonnet-5-5",
+              "reasoningEfforts": [
+                {
+                  "label": "Low",
+                  "value": "low"
+                },
+                {
+                  "label": "Medium",
+                  "value": "medium"
+                },
+                {
+                  "label": "High",
+                  "value": "high"
+                }
+              ]
+            }
+          ],
+          "refreshedAt": 1795692101813
+        }
+      }
     },
     "deepseek": {
       "installationMethodsByHost": {},
@@ -548,8 +625,8 @@
   },
   "settingsProvider": "claude",
   "lastSelectedChatModel": {
-    "providerId": "claude",
-    "model": "haiku"
+    "providerId": "antigravity",
+    "model": "antigravity/gemini-4-hydrogen"
   },
   "inlineEditModel": null,
   "savedProviderModel": {
@@ -565,7 +642,8 @@
   },
   "savedProviderPermissionMode": {
     "claude": "yolo",
-    "codex": "yolo"
+    "codex": "yolo",
+    "antigravity": "normal"
   },
   "pendingProviderSessionInvalidations": {},
   "enableAutoScroll": false,
